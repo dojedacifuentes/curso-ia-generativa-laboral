@@ -44,3 +44,11 @@ El inventario de herramientas es transversal y va primero: `investigacion/HERRAM
 planilla y no sea anterior a su fuente. Escribe `docs/AUDITORIA.md`, `entregables/auditoria/auditoria.json` y `AUDITORIA.html`
 (plantilla `scripts/lib/auditoria.html`). Solo lee. Drive se audita desde `data/drive-inventario.json`, una foto de la carpeta
 tomada con el conector de Drive: volver a tomarla después de cada subida. `--consola` muestra solo el resumen.
+
+## Panel del curso
+
+`npm run panel` (script `panel/build.mjs`) arma en `panel/dist` un sitio estático con la metodología, la matriz, la
+trazabilidad código → pantalla → fuente → pregunta, los recursos, los casos, las fuentes, los pendientes, la auditoría y estos
+documentos. Lee todo del repo, así que no se edita a mano: se cambia la fuente y se regenera. Vercel lo publica en cada push a
+`main` (`vercel.json`). La auditoría no se corre en Vercel: se corre aquí (`node scripts/auditar.mjs`) y se sube su
+`auditoria.json`, porque en un checkout nuevo las fechas de los archivos no sirven para medir atrasos.

@@ -1,0 +1,4 @@
+node_modules/
+panel/dist/
+.vercel/
+.claude/launch.json

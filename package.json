@@ -1,0 +1,13 @@
+{
+  "name": "curso-ia-generativa-laboral",
+  "private": true,
+  "type": "module",
+  "description": "Curso e-learning «IA generativa para entornos laborales»: fuentes, contenido, quiz, infografías, casos, auditoría y panel.",
+  "scripts": {
+    "panel": "node panel/build.mjs",
+    "auditar": "node scripts/auditar.mjs"
+  },
+  "devDependencies": {
+    "marked": "15.0.12"
+  }
+}

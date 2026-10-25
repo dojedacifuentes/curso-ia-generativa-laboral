@@ -75,6 +75,13 @@
           "mimeType": "application/vnd.google-apps.folder",
           "modificado": "2026-10-24T14:51:41.643Z",
           "bytes": null
+        },
+        {
+          "id": "1vLIwduHnYhEyztrZkfCfpeiLEZLQ9m05",
+          "titulo": "0 Planilla de origen",
+          "mimeType": "application/vnd.google-apps.folder",
+          "modificado": "2026-10-25T05:00:57.523Z",
+          "bytes": null
         }
       ]
     },
@@ -1704,6 +1711,26 @@
           "mimeType": "application/vnd.google-apps.folder",
           "modificado": "2026-10-25T03:10:19.619Z",
           "bytes": null
+        }
+      ]
+    },
+    "1vLIwduHnYhEyztrZkfCfpeiLEZLQ9m05": {
+      "titulo": "0 Planilla de origen",
+      "padre": "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue",
+      "archivos": [
+        {
+          "id": "1F5qgZLYTQjOgJOXPuCIaULKLBGVlgSdrLeokTpgxCR0",
+          "titulo": "Estructura_inicial_contenido_IA_generativa · copia 25-10-2026",
+          "mimeType": "application/vnd.google-apps.spreadsheet",
+          "modificado": "2026-10-25T05:01:02.751Z",
+          "bytes": 38158
+        },
+        {
+          "id": "1Oh09aEp8waXC9m8gQ3_muVcqtWxFRq6B",
+          "titulo": "Estructura_inicial_contenido_IA_generativa.xlsx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "modificado": "2026-10-25T05:01:47.915Z",
+          "bytes": 95548
         }
       ]
     }

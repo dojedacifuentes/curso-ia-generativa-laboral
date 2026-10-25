@@ -39,6 +39,41 @@ const pendPlanilla = hoja('Pendientes', ['#']).map(f => ({ n: f['#'].replace(/\.
   quien: f['Quién'], estado: f.Estado }));
 const num = v => Number(String(v).replace(',', '.')) || 0;
 
+// ---------- la planilla misma: qué es, qué hojas tiene y qué alimenta cada una ----------
+const XLSX = 'Estructura_inicial_contenido_IA_generativa.xlsx';
+const ALIMENTA = {
+  'Léeme': ['Qué es el curso, audiencia, normativa, modelo de tiempos y criterios de diseño', null],
+  'Parámetros': ['Minutos por pantalla, quiz, foro, video y caso: de aquí salen todas las horas', null],
+  'Resumen horas': ['La coherencia de horas por módulo que exige la RE 2.484 (diferencia 0)', null],
+  'Estructura': ['data/curso.json: módulos, AE, saberes S/H/A, técnica, Rise y pantallas', 'matriz'],
+  'Matriz coherencia': ['Criterios C, actividades, instrumentos y minutos directos de cada AE', 'trazabilidad'],
+  'Recursos': ['Los 101 recursos con su tipo, AE, duración, responsable y estado', 'recursos'],
+  'Casos y proyecto': ['Los 11 casos con empresas reales y los 9 hitos del proyecto', 'casos'],
+  'Evaluación': ['El sistema de evaluación y sus ponderaciones', 'casos'],
+  'Cumplimiento RE 2484': ['Cada exigencia de la RE 2.484 cruzada con el diseño', null],
+  'Pendientes': ['Decisiones abiertas antes de la versión definitiva', 'pendientes'],
+};
+const leeme = leer('data', 'planilla', 'Léeme.tsv').split('\n').map(l => l.split('\t')).filter(f => f.length > 1 && f[0].trim() && f[1].trim())
+  .map(([k, v]) => ({ k: k.trim(), v: v.trim() }));
+const planilla = {
+  titulo: 'Estructura_inicial_contenido_IA_generativa',
+  subtitulo: leer('data', 'planilla', 'Léeme.tsv').split('\n')[1]?.trim() || '',
+  leeme,
+  hojas: fs.readdirSync(rel('data', 'planilla')).filter(f => f.endsWith('.tsv')).map(f => {
+    const nombre = f.slice(0, -4), lineas = leer('data', 'planilla', f).split('\n');
+    return { nombre, titulo: lineas[0]?.split('\t')[0].trim(), nota: lineas[1]?.split('\t')[0].trim(), lineas: lineas.filter(l => l.trim()).length,
+      alimenta: ALIMENTA[nombre]?.[0] || '', vista: ALIMENTA[nombre]?.[1] || null, github: gh(`data/planilla/${f}`) };
+  }).sort((a, b) => Object.keys(ALIMENTA).indexOf(a.nombre) - Object.keys(ALIMENTA).indexOf(b.nombre)),
+  parametros: hoja('Parámetros', ['Parámetro']).map(f => ({ parametro: f['Parámetro'], descripcion: f['Descripción'], valor: f.Valor, unidad: f.Unidad })),
+  horas: hoja('Resumen horas', ['Módulo']).filter(f => /^\d/.test(f['Módulo'])).map(f => ({ modulo: f['Módulo'].replace(/\.0$/, ''), nombre: f.Nombre,
+    objetivo: num(f['Min objetivo']), disenados: num(f['Min diseñados']), diferencia: num(f['Diferencia (min)']), pantallas: num(f['Pantallas Rise']),
+    aes: num(f['N° AE']), coherente: f['¿Coherente?'] })),
+  cumplimiento: hoja('Cumplimiento RE 2484', ['#']).map(f => ({ n: f['#'].replace(/\.0$/, ''), seccion: f['Sección RE 2.484'], etapa: f.Etapa,
+    exigencia: f.Exigencia, como: f['Cómo la cubre este diseño'], donde: f['Dónde verificarlo'], estado: f.Estado, riesgo: f.Riesgo })),
+  xlsx: existe('data', 'planilla', XLSX) ? `planilla/${XLSX}` : null,
+  xlsxGithub: existe('data', 'planilla', XLSX) ? gh(`data/planilla/${XLSX}`) : null,
+};
+
 // ---------- Drive ----------
 const driveIds = existe('data', 'drive.json') ? json('data', 'drive.json') : {};
 const inventario = existe('data', 'drive-inventario.json') ? json('data', 'drive-inventario.json') : { carpetas: {} };
@@ -48,6 +83,10 @@ const urlDrive = f => !f ? null : f.mimeType === 'application/vnd.google-apps.fo
 const enCarpeta = (carpeta, titulo) => urlDrive((inventario.carpetas[carpeta]?.archivos || []).find(f => f.titulo === titulo));
 const docUrl = id => id ? `https://docs.google.com/document/d/${id}/edit` : null;
 const carpetaUrl = id => id ? `https://drive.google.com/drive/folders/${id}` : null;
+Object.assign(planilla, {
+  original: PLANILLA, copia: driveIds.planilla_copia ? `https://docs.google.com/spreadsheets/d/${driveIds.planilla_copia}/edit` : null,
+  xlsxDrive: driveIds.planilla_xlsx ? `https://drive.google.com/file/d/${driveIds.planilla_xlsx}/view` : null, carpeta: carpetaUrl(driveIds.planilla_carpeta),
+});
 
 // ---------- auditoría (tal como quedó en el repo) ----------
 const auditoria = existe('entregables', 'auditoria', 'auditoria.json') ? json('entregables', 'auditoria', 'auditoria.json') : null;
@@ -236,8 +275,8 @@ const doc = ruta => documentos.find(d => d.ruta === ruta)?.id || null;
 const metodologia = [
   { n: 0, id: 'planilla', nombre: 'Planilla', rol: 'Fuente de verdad',
     que: 'La planilla «Estructura_inicial_contenido_IA_generativa» define módulos, AE, saberes (S/H/A), criterios (C), recursos y horas. Se baja como TSV por hoja y se convierte en data/curso.json, que leen todos los scripts.',
-    entra: ['Planilla de Google (10 hojas)'], sale: ['data/planilla/*.tsv', 'data/curso.json'], script: 'scripts/importar-planilla.mjs',
-    regla: doc('PLAYBOOK-PRODUCCION.md'), skill: 'curso-produccion', capa: 'C0', vista: 'matriz',
+    entra: ['Planilla de Google (10 hojas)'], sale: ['data/planilla/*.xlsx', 'data/planilla/*.tsv', 'data/curso.json'], script: 'scripts/importar-planilla.mjs',
+    regla: doc('PLAYBOOK-PRODUCCION.md'), skill: 'curso-produccion', capa: 'C0', vista: 'planilla',
     cifra: `${MODULOS.length} módulos · ${AES.length} AE · ${RECURSOS.length} recursos` },
   { n: 1, id: 'investigacion', nombre: 'Investigación', rol: 'Evidencia',
     que: 'Cada afirmación de hecho se respalda en una fuente abierta y leída: normativa y organismos públicos, ayuda oficial de las herramientas, academia y prensa con fecha. Cada fuente dice qué respalda y para qué códigos sirve.',
@@ -293,7 +332,7 @@ const datos = {
   cifras: { modulos: MODULOS.length, aes: AES.length, pantallas: nPantallas, fuentes: nFuentes, fuentesCasos: FUENTES.length - nFuentes,
     preguntas: nPreguntas, casos: casosApl.length, hitos: casos.length - casosApl.length, recursos: recursos.length,
     minutos: recursos.filter(r => /^S/i.test(r.cuentaHoras)).reduce((s, r) => s + r.minutos, 0) },
-  metodologia, modulos, aes, recursos, casos, infografias, evaluacion, fuentes: FUENTES,
+  metodologia, planillaInfo: planilla, modulos, aes, recursos, casos, infografias, evaluacion, fuentes: FUENTES,
   pendientes: { verificacion, planilla: pendPlanilla },
   auditoria: auditoria && { resumen: auditoria.resumen, informe: existe('entregables', 'auditoria', 'AUDITORIA.html') ? 'entregables/auditoria/AUDITORIA.html' : null,
     capas: auditoria.capas.map(c => ({ id: c.id, titulo: c.titulo, explica: c.explica, control: estadoCapa(c.id),
@@ -312,6 +351,8 @@ for (const d of documentos) fs.writeFileSync(path.join(DIST, 'docs', `${d.id}.ht
 // Entregables que se pueden abrir o jugar desde el panel
 for (const dir of ['quiz', 'infografias', 'por-ae', 'casos/html', 'auditoria'])
   if (existe('entregables', dir)) fs.cpSync(rel('entregables', dir), path.join(DIST, 'entregables', dir), { recursive: true });
+// La planilla de origen, para descargarla desde el panel
+if (planilla.xlsx) { fs.mkdirSync(path.join(DIST, 'planilla'), { recursive: true }); fs.copyFileSync(rel('data', 'planilla', XLSX), path.join(DIST, 'planilla', XLSX)); }
 
 const kb = Math.round(fs.statSync(path.join(DIST, 'datos.json')).size / 1024);
 console.log(`✓ panel/dist · ${AES.length} AE · ${nPantallas} pantallas · ${nPreguntas} preguntas · ${FUENTES.length} fuentes · ${recursos.length} recursos · ${documentos.length} documentos · datos.json ${kb} KB`);

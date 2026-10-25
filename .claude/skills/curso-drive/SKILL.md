@@ -11,6 +11,7 @@ Todos los ids están en `data/drive.json`; actualízalo después de cada subida.
 | Carpeta | Contenido | Origen local |
 |---|---|---|
 | LEEME · qué hay en esta carpeta | Doc con el mapa de carpetas y lo que falta revisar antes de publicar | `entregables/documentos/docs/LEEME.html` |
+| 0 Planilla de origen | Copia en Google Sheets y .xlsx de la planilla (ver «Planilla de origen») | `data/planilla/*.xlsx` |
 | 1 Contenidos base · Google Docs | 22 Docs, uno por AE | `entregables/docs/<AE>.html` |
 | 2 Contenidos base · PDF | 22 PDF + `Contenidos-completos.pdf` | `entregables/pdf/` |
 | 3 Quiz juego SCORM | `SCORM 1.2`, `HTML (juego sin LMS)`, `GIFT` | `entregables/quiz/<AE>/` |
@@ -19,7 +20,7 @@ Todos los ids están en `data/drive.json`; actualízalo después de cada subida.
 | 6 Investigación y fuentes | PDF por módulo y de herramientas; «Fichas de verificación de casos» | `entregables/documentos/investigacion/pdf` |
 | 7 Proceso y control de calidad | `Docs`, `PDF` y la auditoría interactiva (HTML) | `entregables/documentos/proceso/{docs,pdf}` |
 | 8 Skills de Claude | Las skills de `.claude/skills/` (zip y cada SKILL.md) | `entregables/paquetes/` |
-| 9 Proyecto fuente | Zip del proyecto sin `entregables/` ni la planilla de origen (`data/planilla/`, `data/curso.json`) | `entregables/paquetes/` |
+| 9 Proyecto fuente | Zip del proyecto sin `entregables/`, con la planilla (`git archive`, ver abajo) | `entregables/paquetes/` |
 
 Cada carpeta con reemplazos tiene su **«Versiones anteriores (24-10)»**.
 
@@ -62,8 +63,19 @@ Trampas:
 2. En «Acceso general», cambia «Restringido» por **«Cualquier persona que tenga el vínculo»**, con rol **Lector**, y luego «Listo».
 3. Las subcarpetas y los archivos heredan el permiso. Compruébalo con `get_file_permissions` de un archivo interior:
    tiene que aparecer `anyone` con `reader`.
-4. Nunca dejes acceso de editor público. No compartas la planilla de origen, que es de otra persona: el zip del proyecto se arma
-   sin `data/planilla/` ni `data/curso.json` (el control de seguridad bloqueó la subida de un zip que la traía).
+4. Nunca dejes acceso de editor público.
+
+## Planilla de origen (carpeta 0)
+
+El usuario pidió (25-10) que la planilla vaya en todos lados. La original es de Natalia (natalia@hackea.pro) y ya está compartida
+«cualquier persona con el enlace · Lector»; no se toca. En «0 Planilla de origen» van una copia en Google Sheets (`copy_file`,
+título «… · copia DD-MM-AAAA») y el .xlsx (`curl -L …/export?format=xlsx`, porque es pública por enlace). Antes de reemplazarlas,
+comprueba con `xlsx2tsv.mjs` que las 10 hojas sean iguales a `data/planilla/`; si no, reimporta primero. El zip del proyecto
+fuente se arma desde el último commit, con la planilla y sin lo generado:
+
+```bash
+git archive --prefix=curso-ia-generativa-laboral/ -o entregables/paquetes/curso-ia-generativa-laboral-proyecto-fuente.zip HEAD -- . ":(exclude)entregables"
+```
 
 ## Al terminar
 

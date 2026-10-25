@@ -15,7 +15,8 @@ de los Rise.
 | Casos de aplicación con empresas reales | 11 verificados en fuente primaria, con un resumen de verificación | 5 Casos de aplicación |
 | Documentos de proceso y control de calidad | Este documento, el playbook, los formatos, la correspondencia y la auditoría | 7 Proceso y control de calidad |
 | Skills de Claude | 6 | 8 Skills de Claude |
-| Proyecto fuente (Markdown y scripts, sin la planilla de origen) | 1 zip | 9 Proyecto fuente |
+| Planilla de origen (copia en Google Sheets y .xlsx) | 2 | 0 Planilla de origen |
+| Proyecto fuente (planilla, Markdown, scripts y panel) | 1 zip | 9 Proyecto fuente |
 
 Natalia arma los Rise a partir del contenido base: Claude no los monta. Los videos, las evaluaciones sumativas, los hitos y el aula
 Moodle todavía no se producen.
@@ -195,7 +196,9 @@ empresa real aparece fuera de su recuadro.
 6. **Se genera, no se edita a mano:** cada derivado sale de su fuente con un script.
 7. **No se borra:** las versiones viejas se mueven.
 8. **Se verifica lo que se sube:** cada Doc comparado con su original y cada archivo con su tamaño.
-9. **Privacidad:** sin datos personales ni credenciales en el material. La planilla de origen no se comparte.
+9. **Privacidad:** sin datos personales ni credenciales en el material.
+10. **La planilla viaja con el proyecto:** su copia está en «0 Planilla de origen», en `data/planilla/` del repo y en el zip, porque
+    todo se rastrea hasta ella. La original es de Natalia: si cambia, se reimporta y se reemplazan las copias.
 
 ## 5. Skills creadas
 
@@ -214,8 +217,8 @@ Las skills son manuales que Claude carga cuando la tarea lo pide: pasos, trampas
 ## 6. Cómo reutilizar el método en otro curso
 
 1. Descarga el zip de «9 Proyecto fuente» y descomprímelo en una carpeta nueva.
-2. Pon tu planilla: el zip no trae la de origen (`data/planilla/` ni `data/curso.json`), porque es de otra persona. Conviértela
-   con `xlsx2tsv.mjs` y corre `importar-planilla.mjs`. Ajusta el importador si cambian las columnas.
+2. Pon tu planilla: el zip trae la de este curso en `data/planilla/` como ejemplo. Reemplázala por la tuya, conviértela con
+   `xlsx2tsv.mjs` y corre `importar-planilla.mjs`. Ajusta el importador si cambian las columnas.
 3. Borra `contenido/`, `quiz/`, `infografias/`, `casos/`, `investigacion/` y `entregables/`.
 4. Ajusta la audiencia, los personajes y las herramientas en los formatos.
 5. Sigue las etapas 1 a 8 con las skills. Cambia en `data/drive.json` los ids de la carpeta nueva.

@@ -131,6 +131,9 @@ nuevaCapa('C0', 'Planilla → data/curso.json',
 chequeo('1', 'Las hojas de la planilla están descargadas', 'Sin las 10 hojas no se puede cruzar nada.', r => {
   const hojas = ['Léeme', 'Parámetros', 'Estructura', 'Matriz coherencia', 'Recursos', 'Casos y proyecto', 'Evaluación', 'Resumen horas', 'Cumplimiento RE 2484', 'Pendientes'];
   for (const h of hojas) existe('data', 'planilla', `${h}.tsv`) ? r.ev(`${h}.tsv`) : r.error(`falta data/planilla/${h}.tsv`);
+  // La planilla misma viaja con el proyecto (repo, zip y panel), no solo su conversión
+  existe('data', 'planilla', 'Estructura_inicial_contenido_IA_generativa.xlsx') ? r.ev('copia .xlsx de la planilla')
+    : r.aviso('falta la copia de la planilla: data/planilla/Estructura_inicial_contenido_IA_generativa.xlsx');
 });
 
 chequeo('2', 'data/curso.json repite la hoja «Estructura» sin cambios',
@@ -478,6 +481,12 @@ if (!drive) {
     const sobran = lista.filter(f => !AES.some(a => e.titulo(a) === f.titulo) && !/^Contenidos-completos./.test(f.titulo));
     if (sobran.length) r.aviso(`archivos que no corresponden a un AE: ${sobran.map(f => f.titulo).join(', ')}`);
     r.ev(`${lista.length} archivos en la carpeta`);
+  });
+  chequeo('planilla', 'La planilla de origen está en Drive', 'Todo el curso se rastrea hasta ella: su copia y el .xlsx van en «0 Planilla de origen».', r => {
+    const lista = archivos(driveIds.planilla_carpeta);
+    if (!driveIds.planilla_carpeta || !drive.carpetas[driveIds.planilla_carpeta]) return r.pendiente('la carpeta «0 Planilla de origen» no está en la foto de Drive');
+    lista.some(f => f.mimeType === 'application/vnd.google-apps.spreadsheet') ? r.ev('copia en Google Sheets') : r.error('falta la copia en Google Sheets');
+    lista.some(f => /\.xlsx$/.test(f.titulo)) ? r.ev('copia .xlsx') : r.error('falta el .xlsx');
   });
   chequeo('ids', 'Los ids de data/drive.json existen en Drive', 'drive.json es el registro que usan los scripts para reemplazar versiones.', r => {
     const todos = new Set(Object.values(drive.carpetas).flatMap(c => c.archivos.map(f => f.id)).concat(Object.keys(drive.carpetas)));

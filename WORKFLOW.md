@@ -6,7 +6,7 @@ Orden del proyecto: **1. contenidos (22 AE) → 2. quiz → 3. infografías**. N
 
 | Paso | Qué se hace | Sale | Control |
 |---|---|---|---|
-| 0. Datos | `node scripts/importar-planilla.mjs` (solo si cambió la planilla) | `data/curso.json` | — |
+| 0. Datos | Guardar la planilla como `data/planilla/Estructura_inicial_contenido_IA_generativa.xlsx`, convertirla con `scripts/xlsx2tsv.mjs` y correr `node scripts/importar-planilla.mjs` (solo si cambió la planilla). Reemplazar sus copias en Drive («0 Planilla de origen») | `data/planilla/`, `data/curso.json` | Auditoría C0 |
 | 1. Investigación | Buscar y **abrir** cada fuente; registrar qué respalda y para qué códigos del AE (S/H/A/C) | `investigacion/M<n>.md` | Solo entra una fuente que se abrió y leyó |
 | 2. Contenido | Redactar cada AE con el formato de `FORMATO-CONTENIDO-BASE.md`, citando `fuentes: F-…` en cada pantalla con afirmaciones | `contenido/M<n>/M<n>-AE<k>.md` | `node scripts/validar-contenido.mjs` |
 | 3. Revisión | Leer contra la planilla y la investigación: exactitud, tono, audiencia, nada fuera de la planilla | Correcciones en la fuente | Validador en verde |

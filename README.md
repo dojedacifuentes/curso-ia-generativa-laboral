@@ -4,6 +4,17 @@ Curso e-learning de 6 módulos, 22 aprendizajes esperados (AE) y 88 horas, produ
 «Estructura_inicial_contenido_IA_generativa». Este repositorio tiene todo: la planilla convertida en datos, las fuentes, el
 contenido base, los quiz, las infografías, los casos reales, los scripts que generan y auditan, y un panel para verlo y rastrearlo.
 
+## La planilla de origen
+
+Todo el curso se rastrea hasta la planilla «Estructura_inicial_contenido_IA_generativa»: módulos, competencias, AE, saberes,
+criterios, los 101 recursos con sus horas, casos, evaluación, cumplimiento de la RE 2.484 y pendientes. Está en tres lugares:
+- en este repo, `data/planilla/Estructura_inicial_contenido_IA_generativa.xlsx` (copia del 25-10-2026);
+- en Drive, carpeta «0 Planilla de origen»: [hoja de cálculo](https://docs.google.com/spreadsheets/d/1F5qgZLYTQjOgJOXPuCIaULKLBGVlgSdrLeokTpgxCR0/edit) y [.xlsx](https://drive.google.com/file/d/1Oh09aEp8waXC9m8gQ3_muVcqtWxFRq6B/view);
+- la original, de Natalia: [Estructura_inicial_contenido_IA_generativa](https://docs.google.com/spreadsheets/d/1v_NCRQGZnajDLesIw8haIMrw4551q6C8Om6AOM8RoHM/edit).
+
+La original manda. Si cambia, se descarga como .xlsx, se convierte con `node scripts/xlsx2tsv.mjs` y se corre
+`node scripts/importar-planilla.mjs`; después se reemplazan las copias.
+
 ## El panel
 
 `panel/` arma un sitio estático con la metodología, la matriz, la trazabilidad (código de la planilla → pantalla → fuente →
@@ -21,7 +32,7 @@ El sitio queda en `panel/dist`. Para verlo en el computador: `npx http-server pa
 
 | Carpeta | Qué tiene |
 |---|---|
-| `data/` | La planilla por hoja (`planilla/*.tsv`), `curso.json` y los ids de Drive |
+| `data/` | La planilla de origen (`planilla/Estructura_inicial_contenido_IA_generativa.xlsx`), su conversión por hoja (`planilla/*.tsv`), `curso.json` y los ids de Drive |
 | `investigacion/` | Fuentes del contenido y fichas de verificación de los casos |
 | `contenido/` | Contenido base por AE, pantalla por pantalla |
 | `quiz/` | Preguntas de los 22 quiz |

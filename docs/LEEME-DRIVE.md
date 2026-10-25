@@ -6,6 +6,16 @@ a generar. El proceso completo está en «7 Proceso y control de calidad › Pro
 
 **Acceso:** cualquier persona con el enlace puede ver y descargar estos archivos. Nadie fuera del equipo puede editarlos.
 
+## 0 Planilla de origen
+
+La planilla «Estructura_inicial_contenido_IA_generativa», de la que sale todo el curso: módulos, competencias, aprendizajes
+esperados, saberes y criterios, los 101 recursos con sus horas, los casos y el proyecto, la evaluación, el cumplimiento de la
+RE 2.484 y los pendientes. Hay dos copias del 25-10-2026, iguales a la original:
+- **la hoja de cálculo de Google**, para leerla o filtrarla;
+- **el archivo .xlsx**, para descargarla.
+
+La original es de Natalia y sigue siendo la que manda: si cambia, se vuelve a importar al proyecto y se reemplazan estas copias.
+
 ## 1 Contenidos base · Google Docs
 
 Un Doc por aprendizaje esperado (22). Cada pantalla indica qué contenido de la planilla cubre (S/H/A/C), las fuentes que la
@@ -79,9 +89,10 @@ Están en un zip y también como archivos sueltos. Para usarlas, se copian a `.c
 ## 9 Proyecto fuente
 
 Un zip del proyecto, sin la carpeta de lo ya generado. Trae la investigación, el contenido base en Markdown, las fuentes de los quiz,
-las infografías y los casos, los scripts (Node 18 o más, sin dependencias) y las skills. **No trae la planilla de origen**
-(`data/planilla/` ni `data/curso.json`), porque es de otra persona: para regenerar el curso hay que importar la propia planilla, como
-explica `LEEME-ZIP.md` dentro del zip. Sirve para regenerar cualquier recurso o reutilizar el método en otro curso.
+las infografías y los casos, los scripts (Node 18 o más) y las skills. También trae la planilla de origen: el .xlsx y su
+conversión en datos (`data/planilla/` y `data/curso.json`). Sirve para regenerar cualquier recurso o reutilizar el método en otro
+curso. El mismo proyecto está en GitHub (github.com/dojedacifuentes/curso-ia-generativa-laboral) y su panel, con la metodología y la
+trazabilidad, en curso-ia-generativa-laboral.vercel.app.
 
 ## Antes de publicar
 

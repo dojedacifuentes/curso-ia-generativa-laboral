@@ -19,7 +19,7 @@ const filtros = { recAgrupar: recordar('panel-rec-agrupar', 'estado'), recModulo
   matModulo: 'todos', trzModulo: '1', audEstado: 'no-ok', penTexto: '' };
 
 const VISTAS = [
-  ['metodologia', 'Metodología'], ['matriz', 'Matriz'], ['trazabilidad', 'Trazabilidad'], ['recursos', 'Recursos'], ['casos', 'Casos'],
+  ['metodologia', 'Metodología'], ['planilla', 'Planilla'], ['matriz', 'Matriz'], ['trazabilidad', 'Trazabilidad'], ['recursos', 'Recursos'], ['casos', 'Casos'],
   ['fuentes', 'Fuentes'], ['pendientes', 'Pendientes'], ['auditoria', 'Auditoría'], ['documentos', 'Documentos'],
 ];
 
@@ -28,7 +28,7 @@ async function iniciar() {
   catch (e) { $('#vista').innerHTML = `<p class="vacio-txt">No pude cargar datos.json. Genera el panel con <code>npm run panel</code>.</p>`; return; }
   document.title = `Panel · ${D.curso.titulo}`;
   $('#titulo-curso').textContent = D.curso.titulo;
-  $('#top-links').innerHTML = [ext(D.repo, 'Repositorio'), ext(D.drive, 'Drive'), ext(D.planilla, 'Planilla'),
+  $('#top-links').innerHTML = [ext(D.repo, 'Repositorio'), ext(D.drive, 'Drive'), `<a class="btn" href="#planilla">Planilla</a>`,
     `<button class="btn" id="tema" type="button" title="Cambiar tema claro u oscuro">◐ Tema</button>`].join('');
   $('#tema').addEventListener('click', () => {
     const r = document.documentElement, oscuro = r.dataset.theme ? r.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
@@ -55,7 +55,7 @@ function pintar() {
   const cuenta = { matriz: D.cifras.aes, recursos: D.cifras.recursos, casos: D.cifras.casos, fuentes: D.fuentes.length,
     pendientes: D.pendientes.verificacion.length + D.pendientes.planilla.length };
   $('#nav').innerHTML = VISTAS.map(([id, t]) => `<a href="#${id}" ${id === activa ? 'aria-current="page"' : ''}>${t}${cuenta[id] ? `<span class="n">${cuenta[id]}</span>` : ''}</a>`).join('');
-  const html = { metodologia: vMetodologia, matriz: vMatriz, ae: vAE, trazabilidad: vTrazabilidad, recursos: vRecursos, casos: vCasos,
+  const html = { metodologia: vMetodologia, planilla: vPlanilla, matriz: vMatriz, ae: vAE, trazabilidad: vTrazabilidad, recursos: vRecursos, casos: vCasos,
     fuentes: vFuentes, pendientes: vPendientes, auditoria: vAuditoria, documentos: vDocumentos }[vista](arg);
   $('#vista').innerHTML = html;
   if (vista === 'documentos') cargarDoc(arg);
@@ -193,6 +193,48 @@ function avanceHTML() {
     <div class="tabla-wrap"><table><thead><tr><th>Tipo de recurso</th>${ESTADOS_REC.map(e => `<th>${e}</th>`).join('')}<th>Total</th></tr></thead><tbody>
       ${tipos.map(t => { const rs = D.recursos.filter(r => r.tipo === t); return `<tr><td>${h(t)}</td>${ESTADOS_REC.map(e => `<td class="num-ok">${rs.filter(r => r.estado === e).length || '·'}</td>`).join('')}<td class="num-ok"><b>${rs.length}</b></td></tr>`; }).join('')}
     </tbody></table></div></div>`;
+}
+
+// ================= Planilla de origen =================
+function vPlanilla() {
+  const p = D.planillaInfo;
+  const tot = p.horas.reduce((s, x) => ({ o: s.o + x.objetivo, d: s.d + x.disenados, pa: s.pa + x.pantallas, ae: s.ae + x.aes }), { o: 0, d: 0, pa: 0, ae: 0 });
+  return `<section class="sec">
+    <div class="sec-cab"><div><span class="eyebrow">Fuente de verdad del proyecto</span><h1>La planilla de origen</h1>
+      <p>«${h(p.titulo)}». ${h(p.subtitulo)}. Todo lo que hay en este panel se rastrea hasta una fila de esta planilla.</p></div></div>
+    <div class="btns">${loc(p.xlsx, '⬇ Descargar la planilla (.xlsx)', 'btn prim')}${ext(p.copia, 'Copia en Google Sheets')}${ext(p.carpeta, 'Carpeta «0 Planilla de origen»')}
+      ${ext(p.original, 'Planilla original (Natalia)')}${ext(p.xlsxGithub, 'En GitHub')}</div>
+    <p class="muted" style="font-size:.88rem;max-width:90ch">La original es de Natalia y es la que manda. Las copias son del 25-10-2026 y sus 10 hojas son idénticas a las que usa el proyecto.
+      Si la original cambia, se vuelve a importar (<code>xlsx2tsv.mjs</code> → <code>importar-planilla.mjs</code>) y se reemplazan las copias.</p>
+  </section>
+
+  <section class="sec"><h2>Qué dice la planilla del curso</h2>
+    <div class="card pad"><div class="lista">${p.leeme.map(x => `<div style="display:grid;grid-template-columns:minmax(120px,190px) minmax(0,1fr);gap:12px"><b>${h(x.k)}</b><span class="muted">${h(x.v)}</span></div>`).join('')}</div></div>
+  </section>
+
+  <section class="sec"><div class="sec-cab"><div><h2>Las 10 hojas y qué alimenta cada una</h2><p>Cada hoja se guarda como un archivo TSV en <code>data/planilla/</code> y de ahí la leen los scripts.</p></div></div>
+    <div class="tabla-wrap"><table><thead><tr><th>Hoja</th><th>Qué contiene</th><th>Qué alimenta en el proyecto</th><th></th></tr></thead><tbody>
+      ${p.hojas.map(x => `<tr><td><b>${h(x.nombre)}</b><div class="sub">${x.lineas} líneas</div></td><td class="sub">${h(x.titulo)}${x.nota ? `<div>${h(x.nota)}</div>` : ''}</td>
+        <td>${h(x.alimenta)}</td><td><div class="btns">${x.vista ? `<a class="btn" href="#${x.vista}">Ver</a>` : ''}${ext(x.github, 'TSV')}</div></td></tr>`).join('')}
+    </tbody></table></div></section>
+
+  <div class="dos">
+    <section class="sec"><h2>Horas por módulo</h2>
+      <div class="tabla-wrap"><table><thead><tr><th>Módulo</th><th>Objetivo</th><th>Diseñado</th><th>Diferencia</th><th>AE</th><th>Pantallas</th><th></th></tr></thead><tbody>
+        ${p.horas.map(x => `<tr><td><b>M${h(x.modulo)}</b><div class="sub">${h(x.nombre)}</div></td><td class="num-ok">${fmtMin(x.objetivo)}</td><td class="num-ok">${fmtMin(x.disenados)}</td>
+          <td class="num-ok">${x.diferencia} min</td><td class="num-ok">${x.aes}</td><td class="num-ok">${x.pantallas}</td><td>${est(/^OK/i.test(x.coherente) ? 'ok' : 'aviso')}</td></tr>`).join('')}
+        <tr><td><b>Total</b></td><td class="num-ok"><b>${horas(tot.o)} h</b></td><td class="num-ok"><b>${horas(tot.d)} h</b></td><td class="num-ok">${tot.d - tot.o} min</td><td class="num-ok">${tot.ae}</td><td class="num-ok">${tot.pa}</td><td></td></tr>
+      </tbody></table></div></section>
+    <section class="sec"><h2>Modelo de tiempos</h2>
+      <div class="card pad"><div class="lista">${p.parametros.map(x => `<div class="fila"><span class="t"><b>${h(x.parametro)}</b><div class="sub muted">${h(x.descripcion)}</div></span>
+        <span class="pildora"><b>${h(String(x.valor).replace(/\.0$/, ''))}</b> ${h(x.unidad)}</span></div>`).join('')}</div></div></section>
+  </div>
+
+  <section class="sec"><div class="sec-cab"><div><h2>Cumplimiento de la RE 2.484</h2><p>Cada exigencia del instructivo, cruzada con el diseño del curso (hoja «Cumplimiento RE 2484»).</p></div></div>
+    <div class="tabla-wrap"><table><thead><tr><th>#</th><th>Sección · etapa</th><th>Exigencia</th><th>Cómo la cubre el diseño</th><th>Estado</th></tr></thead><tbody>
+      ${p.cumplimiento.map(x => `<tr><td class="mono">${h(x.n)}</td><td><b>${h(x.seccion)}</b><div class="sub">${h(x.etapa)}</div></td><td class="sub">${h(x.exigencia)}</td>
+        <td class="sub">${h(x.como)}${x.donde ? `<div><b>Dónde:</b> ${h(x.donde)}</div>` : ''}</td><td>${x.estado ? `<span class="pildora">${h(x.estado)}</span>` : ''}${x.riesgo ? `<div class="sub">Riesgo: ${h(x.riesgo)}</div>` : ''}</td></tr>`).join('')}
+    </tbody></table></div></section>`;
 }
 
 // ================= Matriz =================

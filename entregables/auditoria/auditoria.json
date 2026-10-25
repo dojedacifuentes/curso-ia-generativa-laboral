@@ -1,8 +1,8 @@
 {
   "resumen": {
-    "generado": "2026-10-25T03:45:27.677Z",
-    "chequeos": 83,
-    "ok": 69,
+    "generado": "2026-10-25T05:06:26.813Z",
+    "chequeos": 84,
+    "ok": 70,
     "aviso": 12,
     "error": 0,
     "pendiente": 2
@@ -31,7 +31,8 @@
             "Evaluación.tsv",
             "Resumen horas.tsv",
             "Cumplimiento RE 2484.tsv",
-            "Pendientes.tsv"
+            "Pendientes.tsv",
+            "copia .xlsx de la planilla"
           ]
         },
         {
@@ -1192,8 +1193,8 @@
           "avisos": [],
           "pendientes": [],
           "evidencia": [
-            "tomada el 25-10-26, 12:21 a. m. · 17 carpetas",
-            "Curso IA generativa para entornos laborales · Recursos: 10 elementos",
+            "tomada el 25-10-26, 12:21 a. m. · 18 carpetas",
+            "Curso IA generativa para entornos laborales · Recursos: 11 elementos",
             "2 Contenidos base · PDF: 24 elementos",
             "Versiones anteriores (24-10): 21 elementos",
             "4 Infografías: 13 elementos",
@@ -1209,7 +1210,8 @@
             "PDF: 11 elementos",
             "Docs: 12 elementos",
             "6 Investigación y fuentes: 9 elementos",
-            "8 Skills de Claude: 10 elementos"
+            "8 Skills de Claude: 10 elementos",
+            "0 Planilla de origen: 2 elementos"
           ]
         },
         {
@@ -1285,6 +1287,19 @@
           "pendientes": [],
           "evidencia": [
             "22 archivos en la carpeta"
+          ]
+        },
+        {
+          "id": "C8.planilla",
+          "titulo": "La planilla de origen está en Drive",
+          "porque": "Todo el curso se rastrea hasta ella: su copia y el .xlsx van en «0 Planilla de origen».",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "copia en Google Sheets",
+            "copia .xlsx"
           ]
         },
         {

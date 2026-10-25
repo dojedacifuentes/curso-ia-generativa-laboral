@@ -213,6 +213,7 @@ Las skills son manuales que Claude carga cuando la tarea lo pide: pasos, trampas
 | `curso-casos-reales` | Verificar casos en fuente primaria, redactarlos, descartarlos o reemplazarlos, y conectarlos con los AE |
 | `curso-drive` | Subir, reemplazar y verificar en Drive, mover versiones, dar acceso público de lectura y tomar la foto |
 | `curso-auditoria` | Correr la auditoría y la correspondencia, cerrar los Parcial y republicar el artifact |
+| `curso-video-modulo` | Hacer los videos de bienvenida y resumen de cada módulo: guion fiel al contenido, voz y avatar de EVA, clips de Flow, slides sincronizadas, subtítulos y PDF |
 
 ## 6. Cómo reutilizar el método en otro curso
 

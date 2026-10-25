@@ -1,6 +1,6 @@
 {
   "resumen": {
-    "generado": "2026-10-25T05:21:53.305Z",
+    "generado": "2026-10-25T05:23:42.865Z",
     "chequeos": 84,
     "ok": 70,
     "aviso": 12,
@@ -1363,10 +1363,11 @@
           "errores": [],
           "avisos": [],
           "pendientes": [
-            "19 recursos sin empezar (Inducción/Diagnóstica, Video, Foro, Evaluación sumativa)"
+            "18 recursos sin empezar (Inducción/Diagnóstica, Foro, Evaluación sumativa, Video)"
           ],
           "evidencia": [
-            "Pendiente: 19 recursos · 9.8 h",
+            "Pendiente: 18 recursos · 9.8 h",
+            "En curso: 1 recursos · 0.1 h",
             "Insumo listo: 43 recursos · 56.2 h",
             "Hecho: 39 recursos · 22.0 h"
           ]
@@ -1392,8 +1393,8 @@
       "titulo": "Video de bienvenida M1 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto",
       "aes": "—",
       "minutos": 3,
-      "estado": "Pendiente",
-      "nota": "Falta el guion y el video"
+      "estado": "En curso",
+      "nota": "Guion en videos/M1-bienvenida; falta el video"
     },
     {
       "id": "R003",

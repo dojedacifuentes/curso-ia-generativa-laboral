@@ -548,10 +548,15 @@ const AVANCE = RECURSOS.map(x => {
     case 'Hito proyecto':
       if (aes.every(a => CONT[a]?.seccion('Conexión con el proyecto'))) { estado = 'Insumo listo'; nota = '«Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito'; }
       break;
-    case 'Video':
-      if (/resumen/i.test(x.titulo)) { estado = 'Insumo listo'; nota = 'Ideas clave disponibles; falta el guion y el video'; }
+    case 'Video': {
+      // carpeta de la skill curso-video-modulo; el .srt se exporta al final, así que marca el video terminado
+      const dir = `videos/M${m}-${/resumen/i.test(x.titulo) ? 'resumen' : 'bienvenida'}`;
+      if (existe(dir, 'subtitulos.srt')) { estado = 'Hecho'; nota = `Video, .srt y slides (${dir})`; }
+      else if (existe(dir, 'guion.md')) { estado = 'En curso'; nota = `Guion en ${dir}; falta el video`; }
+      else if (/resumen/i.test(x.titulo)) { estado = 'Insumo listo'; nota = 'Ideas clave disponibles; falta el guion y el video'; }
       else nota = 'Falta el guion y el video';
       break;
+    }
     case 'Evaluación sumativa': nota = 'Falta el banco GIFT por criterios'; break;
     case 'Foro': nota = 'Falta la consigna del foro (los casos traen «Para el foro»)'; break;
     case 'Inducción/Diagnóstica': nota = 'Falta video de inducción, guía del participante y diagnóstica'; break;

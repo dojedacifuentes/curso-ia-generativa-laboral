@@ -38,6 +38,7 @@ El sitio queda en `panel/dist`. Para verlo en el computador: `npx http-server pa
 | `quiz/` | Preguntas de los 22 quiz |
 | `infografias/` | Datos de las 6 infografías |
 | `casos/` | Los 11 casos con empresas reales |
+| `videos/` | Guion, slides y subtítulos de los videos de cada módulo (el audio y el video no se suben) |
 | `scripts/` | Importar, validar, generar, compilar y auditar |
 | `entregables/` | Lo generado: Docs, PDF, SCORM, HTML, GIFT, PNG, auditoría |
 | `docs/` | Formatos, revisión de fondo, pendientes, proceso y auditoría |
@@ -52,7 +53,8 @@ El sitio queda en `panel/dist`. Para verlo en el computador: `npx http-server pa
 5. `node scripts/infografias.mjs`: infografías HTML y PNG
 6. Casos en `investigacion/casos/` y `casos/`, con `node scripts/validar-casos.mjs`
 7. `node scripts/compilar-contenidos.mjs`: Docs, páginas y PDF
-8. Subida a Drive (skill `curso-drive`)
-9. `node scripts/auditar.mjs`: auditoría en 10 capas contra la planilla
+8. Videos de bienvenida y resumen por módulo en `videos/` (skill `curso-video-modulo`: voz y avatar de EVA, slides HTML, Python + ffmpeg)
+9. Subida a Drive (skill `curso-drive`)
+10. `node scripts/auditar.mjs`: auditoría en 10 capas contra la planilla
 
 Las reglas completas están en [WORKFLOW.md](WORKFLOW.md) y los formatos en `FORMATO-CONTENIDO-BASE.md` y `docs/FORMATO-*.md`.

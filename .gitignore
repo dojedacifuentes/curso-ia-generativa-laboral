@@ -2,3 +2,14 @@ node_modules/
 panel/dist/
 .vercel/
 .claude/launch.json
+
+# videos de módulo: al repo solo guion, html, config, slots y srt (skill curso-video-modulo)
+videos/**/*.mp3
+videos/**/*.wav
+videos/**/*.mp4
+videos/**/*.pdf
+videos/**/*.png
+videos/**/*.jpg
+videos/**/*.webp
+videos/**/preview/
+videos/**/fonts/

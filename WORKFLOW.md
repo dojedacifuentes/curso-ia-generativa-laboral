@@ -1,6 +1,7 @@
 # Workflow · investigación → contenido, módulo por módulo
 
-Orden del proyecto: **1. contenidos (22 AE) → 2. quiz → 3. infografías**. Natalia arma los Rise a partir de los contenidos.
+Orden del proyecto: **1. contenidos (22 AE) → 2. quiz → 3. infografías → 4. videos de bienvenida y resumen por módulo**
+(skill `curso-video-modulo`). Natalia arma los Rise a partir de los contenidos.
 
 ## Por cada módulo
 

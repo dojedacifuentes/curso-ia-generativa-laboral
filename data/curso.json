@@ -1,0 +1,2287 @@
+{
+  "titulo": "IA generativa para entornos laborales",
+  "fuente": "Planilla Estructura_inicial_contenido_IA_generativa (Drive 1v_NCRQGZnajDLesIw8haIMrw4551q6C8Om6AOM8RoHM)",
+  "modulos": [
+    {
+      "n": 1,
+      "nombre": "Introducción a la IA generativa y prompt básico",
+      "competencia": "Interactuar con modelos de IA generativa mediante prompts efectivos y validación de resultados, para apoyar tareas de oficina de forma verificada.",
+      "aes": [
+        {
+          "id": "M1-AE1",
+          "tema": "Fundamentos de IA generativa",
+          "texto": "Explicar el funcionamiento general, los tipos y los límites de la IA generativa, ejemplificando sus usos en tareas laborales cotidianas.",
+          "bloom": "Comprender",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Qué es IA generativa"
+            },
+            {
+              "codigo": "S2",
+              "texto": "modelos de lenguaje, imagen y audio"
+            },
+            {
+              "codigo": "S3",
+              "texto": "tokens y contexto"
+            },
+            {
+              "codigo": "S4",
+              "texto": "límites (alucinación, sesgo, fecha de corte)"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Distinguir qué tareas laborales conviene o no delegar a un modelo generativo"
+            },
+            {
+              "codigo": "H2",
+              "texto": "probar un asistente con una tarea simple"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Curiosidad crítica"
+            },
+            {
+              "codigo": "A2",
+              "texto": "apertura a un uso responsable de la tecnología"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Describe correctamente el funcionamiento y los tipos de IA generativa."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Ejemplifica al menos 3 usos y 2 límites en tareas laborales."
+            }
+          ],
+          "tecnica": "Exposición interactiva en Rise + ejemplos guiados",
+          "rise": "Rise M1-T1 · Fundamentos de IA generativa",
+          "pantallas": 16,
+          "quiz": "8 ítems: conceptos, tipos de modelo y límites (opción múltiple, V/F con justificación)",
+          "instrumentos": "Quiz formativo M1-AE1; Evaluación sumativa M1; Rúbrica P1; Evaluación final integradora"
+        },
+        {
+          "id": "M1-AE2",
+          "tema": "Prompts efectivos",
+          "texto": "Formular prompts efectivos con rol, contexto, tarea y formato para obtener respuestas útiles en tareas laborales simples.",
+          "bloom": "Aplicar",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Estructura de un prompt (rol, contexto, tarea, formato, restricciones)"
+            },
+            {
+              "codigo": "S2",
+              "texto": "errores frecuentes"
+            },
+            {
+              "codigo": "S3",
+              "texto": "iteración"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Redactar y refinar prompts para resumir, reescribir y clasificar información de oficina"
+            },
+            {
+              "codigo": "H2",
+              "texto": "armar una biblioteca personal de prompts"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Perseverancia en la iteración"
+            },
+            {
+              "codigo": "A2",
+              "texto": "orden y documentación del propio trabajo"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Incluye rol, contexto, tarea y formato en el prompt."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Obtiene una respuesta útil tras iterar al menos una vez."
+            }
+          ],
+          "tecnica": "Práctica guiada con ejemplos antes/después + laboratorio de prompts",
+          "rise": "Rise M1-T2 · Prompts efectivos",
+          "pantallas": 16,
+          "quiz": "8 ítems: identificar componentes, ordenar pasos, elegir el mejor prompt entre variantes",
+          "instrumentos": "Quiz formativo M1-AE2; Evaluación sumativa M1; Rúbrica P1; Análisis de caso C1; Evaluación final integradora"
+        },
+        {
+          "id": "M1-AE3",
+          "tema": "Parámetros de generación",
+          "texto": "Ajustar parámetros de generación (temperatura, longitud, iteración) para adecuar las respuestas a distintos objetivos de una tarea.",
+          "bloom": "Aplicar",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Parámetros de generación y su efecto"
+            },
+            {
+              "codigo": "S2",
+              "texto": "relación creatividad–precisión"
+            },
+            {
+              "codigo": "S3",
+              "texto": "configuración según tarea"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Comparar salidas de un mismo prompt con distintos parámetros y seleccionar la configuración más adecuada"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Rigor al comparar y registrar resultados"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Elige un parámetro adecuado al objetivo y lo justifica."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Compara salidas de una misma consigna y selecciona la mejor con fundamento."
+            }
+          ],
+          "tecnica": "Experimentación guiada (comparación de salidas)",
+          "rise": "Rise M1-T3 · Parámetros de generación",
+          "pantallas": 16,
+          "quiz": "8 ítems: elegir parámetro según objetivo, interpretar salidas comparadas",
+          "instrumentos": "Quiz formativo M1-AE3; Evaluación sumativa M1; Análisis de caso C1; Evaluación final integradora"
+        },
+        {
+          "id": "M1-AE4",
+          "tema": "Validación de resultados",
+          "texto": "Validar resultados generados por IA, contrastándolos con fuentes confiables, para detectar alucinaciones, errores y sesgos.",
+          "bloom": "Evaluar",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Tipos de error (alucinación, sesgo, desactualización)"
+            },
+            {
+              "codigo": "S2",
+              "texto": "criterios de confiabilidad de fuentes"
+            },
+            {
+              "codigo": "S3",
+              "texto": "checklist de validación"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Aplicar un checklist de validación a respuestas generadas y corregir o descartar lo no verificable"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Responsabilidad profesional sobre lo que se firma o comparte"
+            },
+            {
+              "codigo": "A2",
+              "texto": "honestidad intelectual"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Identifica errores o sesgos en una respuesta generada."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Contrasta con al menos 2 fuentes confiables y corrige o descarta lo no verificable."
+            }
+          ],
+          "tecnica": "Aprendizaje basado en casos reales (errores documentados)",
+          "rise": "Rise M1-T4 · Validación de resultados",
+          "pantallas": 17,
+          "quiz": "8 ítems: detectar errores en respuestas dadas, decidir qué verificar y cómo",
+          "instrumentos": "Quiz formativo M1-AE4; Evaluación sumativa M1; Análisis de caso C2; Evaluación final integradora"
+        }
+      ],
+      "recursos": [
+        {
+          "id": "R001",
+          "orden": 1,
+          "tipo": "Inducción/Diagnóstica",
+          "titulo": "Inducción tecnológica-metodológica (video) + Guía del participante + Evaluación diagnóstica",
+          "aes": "—",
+          "minutos": 45,
+          "formato": "Video + PDF + cuestionario"
+        },
+        {
+          "id": "R002",
+          "orden": 2,
+          "tipo": "Video",
+          "titulo": "Video de bienvenida M1 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto",
+          "aes": "—",
+          "minutos": 3,
+          "formato": "Video con avatar/locución"
+        },
+        {
+          "id": "R003",
+          "orden": 3,
+          "tipo": "Rise",
+          "titulo": "Rise M1-T1 · Fundamentos de IA generativa",
+          "aes": "M1-AE1",
+          "minutos": 120,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R004",
+          "orden": 4,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M1-AE1 · Fundamentos de IA generativa",
+          "aes": "M1-AE1",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R005",
+          "orden": 5,
+          "tipo": "Rise",
+          "titulo": "Rise M1-T2 · Prompts efectivos",
+          "aes": "M1-AE2",
+          "minutos": 120,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R006",
+          "orden": 6,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M1-AE2 · Prompts efectivos",
+          "aes": "M1-AE2",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R007",
+          "orden": 7,
+          "tipo": "Rise",
+          "titulo": "Rise M1-T3 · Parámetros de generación",
+          "aes": "M1-AE3",
+          "minutos": 120,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R008",
+          "orden": 8,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M1-AE3 · Parámetros de generación",
+          "aes": "M1-AE3",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R009",
+          "orden": 9,
+          "tipo": "Rise",
+          "titulo": "Rise M1-T4 · Validación de resultados",
+          "aes": "M1-AE4",
+          "minutos": 127.5,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R010",
+          "orden": 10,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M1-AE4 · Validación de resultados",
+          "aes": "M1-AE4",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R011",
+          "orden": 11,
+          "tipo": "Hito proyecto",
+          "titulo": "Proyecto aplicado · Hito 1: problema u oportunidad real + biblioteca de prompts v1",
+          "aes": "M1-AE1; M1-AE2",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R012",
+          "orden": 12,
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M1-C1 · Asistente de IA para asesores financieros (Morgan Stanley)",
+          "aes": "M1-AE2; M1-AE3",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R013",
+          "orden": 13,
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M1-C2 · Cuando la IA inventa: abogados y jurisprudencia inexistente (Mata v. Avianca, 2023) y chatbot de Air Canada (2024)",
+          "aes": "M1-AE4",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R014",
+          "orden": 14,
+          "tipo": "Foro",
+          "titulo": "Foro M1: discusión guiada del módulo (tutor responde en <24 h hábiles)",
+          "aes": "M1-AE1; M1-AE2; M1-AE3; M1-AE4",
+          "minutos": 30,
+          "formato": "Foro Moodle"
+        },
+        {
+          "id": "R015",
+          "orden": 15,
+          "tipo": "Video",
+          "titulo": "Video de resumen M1 (3 min): ideas clave y conexión con el siguiente módulo",
+          "aes": "—",
+          "minutos": 3,
+          "formato": "Video con avatar/locución"
+        },
+        {
+          "id": "R016",
+          "orden": 16,
+          "tipo": "Resumen y glosario",
+          "titulo": "Resumen y glosario del módulo M1 (página; lectura 1,5 min)",
+          "aes": "—",
+          "minutos": 1.5,
+          "formato": "Página Moodle"
+        },
+        {
+          "id": "R017",
+          "orden": 17,
+          "tipo": "Complemento",
+          "titulo": "Infografía M1: Anatomía de un prompt efectivo (rol · contexto · tarea · formato)",
+          "aes": "—",
+          "minutos": 0,
+          "formato": "Infografía (imagen)"
+        },
+        {
+          "id": "R018",
+          "orden": 18,
+          "tipo": "Evaluación sumativa",
+          "titulo": "Evaluación sumativa M1",
+          "aes": "M1-AE1; M1-AE2; M1-AE3; M1-AE4",
+          "minutos": 60,
+          "formato": "Cuestionario Moodle con retroalimentación automática"
+        }
+      ],
+      "casos": [
+        {
+          "id": "M1-P1",
+          "tipo": "Hito proyecto",
+          "titulo": "Proyecto aplicado · Hito 1: problema u oportunidad real + biblioteca de prompts v1",
+          "aes": "M1-AE1; M1-AE2",
+          "descripcion": "Cada participante elige un desafío laboral real: una tarea de un cargo que ejerce o al que aspira (tomada de una oferta real) y arma su primera biblioteca de prompts para resolverla. Entregable con retroalimentación del tutor (≤72 h).",
+          "verificacion": "No aplica",
+          "entregable": "Entrega con rúbrica general (ver «Evaluación»)"
+        },
+        {
+          "id": "M1-C1",
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M1-C1 · Asistente de IA para asesores financieros (Morgan Stanley)",
+          "aes": "M1-AE2; M1-AE3",
+          "descripcion": "Candidato. Documentar: qué prompts/instrucciones se usan, qué fuentes consulta el asistente, cómo se controla la calidad. POR VERIFICAR en fuente primaria (comunicados de la empresa y de OpenAI).",
+          "verificacion": "Por verificar",
+          "entregable": "Actividad de análisis del caso: preguntas guiadas + aplicación al proyecto (1,5 h)"
+        },
+        {
+          "id": "M1-C2",
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M1-C2 · Cuando la IA inventa: abogados y jurisprudencia inexistente (Mata v. Avianca, 2023) y chatbot de Air Canada (2024)",
+          "aes": "M1-AE4",
+          "descripcion": "Candidato. Documentar: qué se verificó o no, consecuencias. POR VERIFICAR en fuente primaria (resoluciones judiciales / del tribunal).",
+          "verificacion": "Por verificar",
+          "entregable": "Actividad de análisis del caso: preguntas guiadas + aplicación al proyecto (1,5 h)"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "nombre": "Comunicación y redacción profesional",
+      "competencia": "Optimizar la elaboración de documentos, presentaciones y planillas de cálculo con IA generativa, cuidando tono, audiencia y exactitud, en contextos laborales.",
+      "aes": [
+        {
+          "id": "M2-AE1",
+          "tema": "Redacción y comunicación con IA",
+          "texto": "Redactar correos, minutas e informes con apoyo de IA, ajustando tono, registro y audiencia.",
+          "bloom": "Aplicar",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Géneros de comunicación laboral"
+            },
+            {
+              "codigo": "S2",
+              "texto": "tono, registro y audiencia"
+            },
+            {
+              "codigo": "S3",
+              "texto": "rol de la IA como borrador"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Producir y ajustar un correo, una minuta y un informe ejecutivo con IA, adaptando el mensaje a distintas audiencias"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Cortesía y claridad en la comunicación profesional"
+            },
+            {
+              "codigo": "A2",
+              "texto": "responsabilidad sobre el mensaje"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Ajusta tono y registro a la audiencia indicada."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Entrega un texto claro y sin errores relevantes."
+            }
+          ],
+          "tecnica": "Práctica guiada con casos de comunicación laboral",
+          "rise": "Rise M2-T1 · Redacción y comunicación con IA",
+          "pantallas": 18,
+          "quiz": "8 ítems: elegir tono/registro según audiencia, corregir borradores",
+          "instrumentos": "Quiz formativo M2-AE1; Evaluación sumativa M2; Rúbrica P2; Análisis de caso C1; Evaluación final integradora"
+        },
+        {
+          "id": "M2-AE2",
+          "tema": "Prompting avanzado para textos",
+          "texto": "Aplicar técnicas de prompting avanzado (ejemplos, restricciones, encadenamiento) para mejorar la calidad y consistencia de textos profesionales.",
+          "bloom": "Aplicar",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Few-shot, restricciones de estilo, encadenamiento de pasos, plantillas reutilizables"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Diseñar plantillas de prompts reutilizables para comunicación profesional y evaluar su consistencia"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Orden metodológico"
+            },
+            {
+              "codigo": "A2",
+              "texto": "mejora continua del propio proceso"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Aplica al menos dos técnicas (ejemplos, restricciones, encadenamiento)."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Obtiene textos consistentes entre versiones."
+            }
+          ],
+          "tecnica": "Laboratorio de prompts con comparación de versiones",
+          "rise": "Rise M2-T2 · Prompting avanzado para textos",
+          "pantallas": 18,
+          "quiz": "8 ítems: seleccionar técnica según problema, completar plantillas",
+          "instrumentos": "Quiz formativo M2-AE2; Evaluación sumativa M2; Análisis de caso C1; Evaluación final integradora"
+        },
+        {
+          "id": "M2-AE3",
+          "tema": "Presentaciones con IA",
+          "texto": "Estructurar presentaciones de 6 láminas con apoyo de IA a partir de un mensaje clave y una audiencia definida.",
+          "bloom": "Aplicar",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Estructura narrativa de una presentación"
+            },
+            {
+              "codigo": "S2",
+              "texto": "relación mensaje–lámina"
+            },
+            {
+              "codigo": "S3",
+              "texto": "herramientas de IA para presentaciones"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Generar esquema, contenido y guion de una presentación de 6 láminas y depurarla críticamente"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Sentido de síntesis"
+            },
+            {
+              "codigo": "A2",
+              "texto": "cuidado de la imagen profesional"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Estructura 6 láminas con un mensaje clave coherente."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Depura el contenido generado (sobrecarga, errores)."
+            }
+          ],
+          "tecnica": "Taller práctico guiado (producto)",
+          "rise": "Rise M2-T3 · Presentaciones con IA",
+          "pantallas": 17,
+          "quiz": "8 ítems: ordenar estructura narrativa, detectar láminas sobrecargadas",
+          "instrumentos": "Quiz formativo M2-AE3; Evaluación sumativa M2; Rúbrica P2; Análisis de caso C2; Evaluación final integradora"
+        },
+        {
+          "id": "M2-AE4",
+          "tema": "Planillas de cálculo con IA",
+          "texto": "Resolver análisis en planillas de cálculo con fórmulas generadas por IA, verificando su exactitud.",
+          "bloom": "Evaluar",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Fórmulas y funciones básicas"
+            },
+            {
+              "codigo": "S2",
+              "texto": "cómo pedir fórmulas a la IA"
+            },
+            {
+              "codigo": "S3",
+              "texto": "verificación con datos de prueba"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Generar, aplicar y comprobar fórmulas, filtros y tablas con apoyo de IA en Sheets o Excel"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Rigor numérico"
+            },
+            {
+              "codigo": "A2",
+              "texto": "desconfianza metódica ante resultados no comprobados"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Genera una fórmula correcta para el problema planteado."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Comprueba el resultado con datos de prueba y corrige errores."
+            }
+          ],
+          "tecnica": "Resolución de problemas con datos de práctica",
+          "rise": "Rise M2-T4 · Planillas de cálculo con IA",
+          "pantallas": 18,
+          "quiz": "8 ítems: interpretar fórmulas, detectar errores de referencia o de lógica",
+          "instrumentos": "Quiz formativo M2-AE4; Evaluación sumativa M2; Análisis de caso C2; Evaluación final integradora"
+        }
+      ],
+      "recursos": [
+        {
+          "id": "R019",
+          "orden": 1,
+          "tipo": "Video",
+          "titulo": "Video de bienvenida M2 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto",
+          "aes": "—",
+          "minutos": 3,
+          "formato": "Video con avatar/locución"
+        },
+        {
+          "id": "R020",
+          "orden": 2,
+          "tipo": "Rise",
+          "titulo": "Rise M2-T1 · Redacción y comunicación con IA",
+          "aes": "M2-AE1",
+          "minutos": 135,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R021",
+          "orden": 3,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M2-AE1 · Redacción y comunicación con IA",
+          "aes": "M2-AE1",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R022",
+          "orden": 4,
+          "tipo": "Rise",
+          "titulo": "Rise M2-T2 · Prompting avanzado para textos",
+          "aes": "M2-AE2",
+          "minutos": 135,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R023",
+          "orden": 5,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M2-AE2 · Prompting avanzado para textos",
+          "aes": "M2-AE2",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R024",
+          "orden": 6,
+          "tipo": "Rise",
+          "titulo": "Rise M2-T3 · Presentaciones con IA",
+          "aes": "M2-AE3",
+          "minutos": 127.5,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R025",
+          "orden": 7,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M2-AE3 · Presentaciones con IA",
+          "aes": "M2-AE3",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R026",
+          "orden": 8,
+          "tipo": "Rise",
+          "titulo": "Rise M2-T4 · Planillas de cálculo con IA",
+          "aes": "M2-AE4",
+          "minutos": 135,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R027",
+          "orden": 9,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M2-AE4 · Planillas de cálculo con IA",
+          "aes": "M2-AE4",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R028",
+          "orden": 10,
+          "tipo": "Hito proyecto",
+          "titulo": "Proyecto aplicado · Hito 2: brief del proyecto + presentación de 6 láminas",
+          "aes": "M2-AE1; M2-AE3",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R029",
+          "orden": 11,
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M2-C1 · Comunicación con clientes redactada con apoyo de IA (Octopus Energy)",
+          "aes": "M2-AE1; M2-AE2",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R030",
+          "orden": 12,
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M2-C2 · Asistente de IA en herramientas de oficina para equipos (Vodafone y Microsoft 365 Copilot)",
+          "aes": "M2-AE3; M2-AE4",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R031",
+          "orden": 13,
+          "tipo": "Foro",
+          "titulo": "Foro M2: discusión guiada del módulo (tutor responde en <24 h hábiles)",
+          "aes": "M2-AE1; M2-AE2; M2-AE3; M2-AE4",
+          "minutos": 30,
+          "formato": "Foro Moodle"
+        },
+        {
+          "id": "R032",
+          "orden": 14,
+          "tipo": "Video",
+          "titulo": "Video de resumen M2 (3 min): ideas clave y conexión con el siguiente módulo",
+          "aes": "—",
+          "minutos": 3,
+          "formato": "Video con avatar/locución"
+        },
+        {
+          "id": "R033",
+          "orden": 15,
+          "tipo": "Resumen y glosario",
+          "titulo": "Resumen y glosario del módulo M2 (página; lectura 1,5 min)",
+          "aes": "—",
+          "minutos": 1.5,
+          "formato": "Página Moodle"
+        },
+        {
+          "id": "R034",
+          "orden": 16,
+          "tipo": "Complemento",
+          "titulo": "Infografía M2: Flujo de redacción aumentada (borrador → ajuste → verificación)",
+          "aes": "—",
+          "minutos": 0,
+          "formato": "Infografía (imagen)"
+        },
+        {
+          "id": "R035",
+          "orden": 17,
+          "tipo": "Evaluación sumativa",
+          "titulo": "Evaluación sumativa M2",
+          "aes": "M2-AE1; M2-AE2; M2-AE3; M2-AE4",
+          "minutos": 60,
+          "formato": "Cuestionario Moodle con retroalimentación automática"
+        }
+      ],
+      "casos": [
+        {
+          "id": "M2-P2",
+          "tipo": "Hito proyecto",
+          "titulo": "Proyecto aplicado · Hito 2: brief del proyecto + presentación de 6 láminas",
+          "aes": "M2-AE1; M2-AE3",
+          "descripcion": "El problema del Hito 1 se convierte en un brief (objetivo, audiencia, mensaje) y una presentación de 6 láminas con IA. Retroalimentación del tutor (≤72 h).",
+          "verificacion": "No aplica",
+          "entregable": "Entrega con rúbrica general (ver «Evaluación»)"
+        },
+        {
+          "id": "M2-C1",
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M2-C1 · Comunicación con clientes redactada con apoyo de IA (Octopus Energy)",
+          "aes": "M2-AE1; M2-AE2",
+          "descripcion": "Candidato. Documentar el uso de IA para respuestas a clientes y cómo se supervisa. POR VERIFICAR en fuente primaria/prensa de calidad, con fecha.",
+          "verificacion": "Por verificar",
+          "entregable": "Actividad de análisis del caso: preguntas guiadas + aplicación al proyecto (1,5 h)"
+        },
+        {
+          "id": "M2-C2",
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M2-C2 · Asistente de IA en herramientas de oficina para equipos (Vodafone y Microsoft 365 Copilot)",
+          "aes": "M2-AE3; M2-AE4",
+          "descripcion": "Candidato. Documentar tareas de oficina asistidas (documentos, presentaciones, planillas). POR VERIFICAR: no usar cifras sin fuente primaria.",
+          "verificacion": "Por verificar",
+          "entregable": "Actividad de análisis del caso: preguntas guiadas + aplicación al proyecto (1,5 h)"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "nombre": "Investigación y análisis de información",
+      "competencia": "Acelerar la investigación y el análisis de información con herramientas de IA, validando fuentes y resguardando la privacidad, para apoyar decisiones laborales.",
+      "aes": [
+        {
+          "id": "M3-AE1",
+          "tema": "Herramientas de IA para investigar",
+          "texto": "Utilizar herramientas de IA para investigar (buscadores con citas, asistentes sobre fuentes propias) y levantar información sobre un problema de su sector.",
+          "bloom": "Aplicar",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Tipos de herramientas de investigación con IA"
+            },
+            {
+              "codigo": "S2",
+              "texto": "búsqueda con citas"
+            },
+            {
+              "codigo": "S3",
+              "texto": "trabajo sobre documentos propios"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Plantear preguntas de investigación y levantar información con al menos dos herramientas distintas"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Curiosidad y autonomía en la búsqueda"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Formula preguntas de investigación específicas."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Usa al menos 2 herramientas y registra las fuentes con su cita."
+            }
+          ],
+          "tecnica": "Práctica guiada con herramientas",
+          "rise": "Rise M3-T1 · Herramientas de IA para investigar",
+          "pantallas": 18,
+          "quiz": "8 ítems: elegir herramienta según necesidad, formular buenas preguntas",
+          "instrumentos": "Quiz formativo M3-AE1; Evaluación sumativa M3; Rúbrica P3; Evaluación final integradora"
+        },
+        {
+          "id": "M3-AE2",
+          "tema": "Recopilar, validar y sintetizar",
+          "texto": "Contrastar y sintetizar información de múltiples fuentes aplicando criterios de confiabilidad.",
+          "bloom": "Analizar",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Criterios de confiabilidad (autoría, fecha, respaldo)"
+            },
+            {
+              "codigo": "S2",
+              "texto": "triangulación"
+            },
+            {
+              "codigo": "S3",
+              "texto": "técnicas de síntesis"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Contrastar hallazgos entre fuentes, descartar los no respaldados y sintetizar lo verificado"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Honestidad intelectual"
+            },
+            {
+              "codigo": "A2",
+              "texto": "respeto por la autoría"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Aplica criterios de confiabilidad (autoría, fecha, respaldo)."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Sintetiza hallazgos contrastados sin afirmaciones sin respaldo."
+            }
+          ],
+          "tecnica": "Análisis de fuentes con casos reales",
+          "rise": "Rise M3-T2 · Recopilar, validar y sintetizar",
+          "pantallas": 18,
+          "quiz": "8 ítems: evaluar confiabilidad de fuentes, identificar contradicciones",
+          "instrumentos": "Quiz formativo M3-AE2; Evaluación sumativa M3; Análisis de caso C1; Evaluación final integradora"
+        },
+        {
+          "id": "M3-AE3",
+          "tema": "Organizar y presentar información",
+          "texto": "Organizar y presentar hallazgos en un informe breve con fuentes citadas y mensajes clave.",
+          "bloom": "Aplicar",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Estructura de un informe breve"
+            },
+            {
+              "codigo": "S2",
+              "texto": "citación de fuentes"
+            },
+            {
+              "codigo": "S3",
+              "texto": "visualización simple de datos"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Elaborar un informe breve de 1–2 páginas con hallazgos, fuentes y recomendaciones"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Claridad y orden en la comunicación de resultados"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Organiza el informe con una estructura definida."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Cita todas las fuentes y formula recomendaciones."
+            }
+          ],
+          "tecnica": "Taller práctico (producto)",
+          "rise": "Rise M3-T3 · Organizar y presentar información",
+          "pantallas": 17,
+          "quiz": "8 ítems: ordenar estructura del informe, corregir citas incompletas",
+          "instrumentos": "Quiz formativo M3-AE3; Evaluación sumativa M3; Rúbrica P3; Evaluación final integradora"
+        },
+        {
+          "id": "M3-AE4",
+          "tema": "Análisis crítico y privacidad",
+          "texto": "Evaluar críticamente los resultados de la IA y los riesgos de privacidad al usar información laboral, proponiendo prácticas de uso seguro.",
+          "bloom": "Evaluar",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Sesgos, trazabilidad y límites"
+            },
+            {
+              "codigo": "S2",
+              "texto": "datos personales y confidenciales"
+            },
+            {
+              "codigo": "S3",
+              "texto": "Ley 19.628 y políticas internas"
+            },
+            {
+              "codigo": "S4",
+              "texto": "buenas prácticas de uso seguro"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Clasificar información según sensibilidad y decidir qué puede ingresar a una herramienta de IA"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Responsabilidad y ética en el tratamiento de la información"
+            },
+            {
+              "codigo": "A2",
+              "texto": "confidencialidad"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Clasifica la información según su sensibilidad."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Decide con fundamento qué puede ingresar a una herramienta de IA y propone una práctica segura."
+            }
+          ],
+          "tecnica": "Aprendizaje basado en casos reales (incidentes documentados)",
+          "rise": "Rise M3-T4 · Análisis crítico y privacidad",
+          "pantallas": 18,
+          "quiz": "8 ítems: clasificar datos por sensibilidad, decidir ante escenarios",
+          "instrumentos": "Quiz formativo M3-AE4; Evaluación sumativa M3; Análisis de caso C1; Análisis de caso C2; Evaluación final integradora"
+        }
+      ],
+      "recursos": [
+        {
+          "id": "R036",
+          "orden": 1,
+          "tipo": "Video",
+          "titulo": "Video de bienvenida M3 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto",
+          "aes": "—",
+          "minutos": 3,
+          "formato": "Video con avatar/locución"
+        },
+        {
+          "id": "R037",
+          "orden": 2,
+          "tipo": "Rise",
+          "titulo": "Rise M3-T1 · Herramientas de IA para investigar",
+          "aes": "M3-AE1",
+          "minutos": 135,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R038",
+          "orden": 3,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M3-AE1 · Herramientas de IA para investigar",
+          "aes": "M3-AE1",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R039",
+          "orden": 4,
+          "tipo": "Rise",
+          "titulo": "Rise M3-T2 · Recopilar, validar y sintetizar",
+          "aes": "M3-AE2",
+          "minutos": 135,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R040",
+          "orden": 5,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M3-AE2 · Recopilar, validar y sintetizar",
+          "aes": "M3-AE2",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R041",
+          "orden": 6,
+          "tipo": "Rise",
+          "titulo": "Rise M3-T3 · Organizar y presentar información",
+          "aes": "M3-AE3",
+          "minutos": 127.5,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R042",
+          "orden": 7,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M3-AE3 · Organizar y presentar información",
+          "aes": "M3-AE3",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R043",
+          "orden": 8,
+          "tipo": "Rise",
+          "titulo": "Rise M3-T4 · Análisis crítico y privacidad",
+          "aes": "M3-AE4",
+          "minutos": 135,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R044",
+          "orden": 9,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M3-AE4 · Análisis crítico y privacidad",
+          "aes": "M3-AE4",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R045",
+          "orden": 10,
+          "tipo": "Hito proyecto",
+          "titulo": "Proyecto aplicado · Hito 3: investigación validada con fuentes (informe breve)",
+          "aes": "M3-AE1; M3-AE3",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R046",
+          "orden": 11,
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M3-C1 · Informe con referencias inexistentes generadas por IA (Deloitte Australia, 2025)",
+          "aes": "M3-AE2; M3-AE4",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R047",
+          "orden": 12,
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M3-C2 · Información confidencial ingresada a una herramienta de IA (Samsung, 2023)",
+          "aes": "M3-AE4",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R048",
+          "orden": 13,
+          "tipo": "Foro",
+          "titulo": "Foro M3: discusión guiada del módulo (tutor responde en <24 h hábiles)",
+          "aes": "M3-AE1; M3-AE2; M3-AE3; M3-AE4",
+          "minutos": 30,
+          "formato": "Foro Moodle"
+        },
+        {
+          "id": "R049",
+          "orden": 14,
+          "tipo": "Video",
+          "titulo": "Video de resumen M3 (3 min): ideas clave y conexión con el siguiente módulo",
+          "aes": "—",
+          "minutos": 3,
+          "formato": "Video con avatar/locución"
+        },
+        {
+          "id": "R050",
+          "orden": 15,
+          "tipo": "Resumen y glosario",
+          "titulo": "Resumen y glosario del módulo M3 (página; lectura 1,5 min)",
+          "aes": "—",
+          "minutos": 1.5,
+          "formato": "Página Moodle"
+        },
+        {
+          "id": "R051",
+          "orden": 16,
+          "tipo": "Complemento",
+          "titulo": "Infografía M3: Ruta de una investigación verificada (buscar · contrastar · sintetizar · citar)",
+          "aes": "—",
+          "minutos": 0,
+          "formato": "Infografía (imagen)"
+        },
+        {
+          "id": "R052",
+          "orden": 17,
+          "tipo": "Evaluación sumativa",
+          "titulo": "Evaluación sumativa M3",
+          "aes": "M3-AE1; M3-AE2; M3-AE3; M3-AE4",
+          "minutos": 60,
+          "formato": "Cuestionario Moodle con retroalimentación automática"
+        }
+      ],
+      "casos": [
+        {
+          "id": "M3-P3",
+          "tipo": "Hito proyecto",
+          "titulo": "Proyecto aplicado · Hito 3: investigación validada con fuentes (informe breve)",
+          "aes": "M3-AE1; M3-AE3",
+          "descripcion": "Investigación sobre el problema del proyecto con fuentes contrastadas y citadas. Retroalimentación del tutor (≤72 h).",
+          "verificacion": "No aplica",
+          "entregable": "Entrega con rúbrica general (ver «Evaluación»)"
+        },
+        {
+          "id": "M3-C1",
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M3-C1 · Informe con referencias inexistentes generadas por IA (Deloitte Australia, 2025)",
+          "aes": "M3-AE2; M3-AE4",
+          "descripcion": "Candidato. Documentar qué falló en la validación de fuentes y qué medidas se tomaron. POR VERIFICAR en fuente primaria (prensa de calidad y comunicado oficial).",
+          "verificacion": "Por verificar",
+          "entregable": "Actividad de análisis del caso: preguntas guiadas + aplicación al proyecto (1,5 h)"
+        },
+        {
+          "id": "M3-C2",
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M3-C2 · Información confidencial ingresada a una herramienta de IA (Samsung, 2023)",
+          "aes": "M3-AE4",
+          "descripcion": "Candidato. Documentar el incidente y las políticas posteriores. POR VERIFICAR en fuente primaria.",
+          "verificacion": "Por verificar",
+          "entregable": "Actividad de análisis del caso: preguntas guiadas + aplicación al proyecto (1,5 h)"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "nombre": "Contenido visual, sonoro y audiovisual",
+      "competencia": "Producir contenido visual, sonoro y audiovisual con IA generativa, respetando licencias, atribución y criterios éticos, para piezas de comunicación laboral.",
+      "aes": [
+        {
+          "id": "M4-AE1",
+          "tema": "Ecosistema multimedia con IA",
+          "texto": "Seleccionar herramientas de IA para contenido multimedia según el tipo de pieza, sus licencias y sus riesgos de uso.",
+          "bloom": "Analizar",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Panorama de herramientas de imagen, audio y video"
+            },
+            {
+              "codigo": "S2",
+              "texto": "licencias y términos de uso"
+            },
+            {
+              "codigo": "S3",
+              "texto": "atribución"
+            },
+            {
+              "codigo": "S4",
+              "texto": "riesgos legales y reputacionales"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Comparar herramientas según objetivo y condiciones de uso"
+            },
+            {
+              "codigo": "H2",
+              "texto": "completar una ficha de uso ético"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Respeto por la propiedad intelectual y la autoría"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Compara herramientas según el tipo de pieza."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Interpreta licencias y condiciones de uso de la herramienta elegida."
+            }
+          ],
+          "tecnica": "Análisis comparativo con caso real",
+          "rise": "Rise M4-T1 · Ecosistema multimedia con IA",
+          "pantallas": 15,
+          "quiz": "8 ítems: interpretar licencias, elegir herramienta según uso",
+          "instrumentos": "Quiz formativo M4-AE1; Evaluación sumativa M4; Análisis de caso C3; Evaluación final integradora"
+        },
+        {
+          "id": "M4-AE2",
+          "tema": "Imágenes y gráficos",
+          "texto": "Producir imágenes y gráficos con IA para una campaña interna, aplicando criterios de diseño y uso ético.",
+          "bloom": "Aplicar",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Prompts visuales (composición, estilo, luz)"
+            },
+            {
+              "codigo": "S2",
+              "texto": "criterios de diseño básico"
+            },
+            {
+              "codigo": "S3",
+              "texto": "sesgos visuales"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Generar, iterar y seleccionar piezas gráficas coherentes con un mensaje de campaña"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Sensibilidad estética"
+            },
+            {
+              "codigo": "A2",
+              "texto": "cuidado de la representación de las personas"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Produce piezas coherentes con el mensaje de campaña."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Identifica y corrige sesgos o defectos visuales."
+            }
+          ],
+          "tecnica": "Laboratorio creativo guiado (producto)",
+          "rise": "Rise M4-T2 · Imágenes y gráficos",
+          "pantallas": 15,
+          "quiz": "8 ítems: leer prompts visuales, detectar sesgos y defectos en piezas",
+          "instrumentos": "Quiz formativo M4-AE2; Evaluación sumativa M4; Rúbrica P4; Análisis de caso C1; Evaluación final integradora"
+        },
+        {
+          "id": "M4-AE3",
+          "tema": "Audio y música",
+          "texto": "Generar audio, voz y música con IA para una pieza de comunicación, cuidando derechos de voz y atribución.",
+          "bloom": "Aplicar",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Síntesis de voz y música generativa"
+            },
+            {
+              "codigo": "S2",
+              "texto": "derechos de imagen y voz"
+            },
+            {
+              "codigo": "S3",
+              "texto": "consentimiento"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Producir una locución y una pista musical con IA y verificar condiciones de uso"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Consentimiento y respeto por la identidad de las personas"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Genera locución y pista adecuadas al uso."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Verifica derechos y consentimiento."
+            }
+          ],
+          "tecnica": "Laboratorio guiado con caso real",
+          "rise": "Rise M4-T3 · Audio y música",
+          "pantallas": 14,
+          "quiz": "8 ítems: decidir cuándo se requiere consentimiento, elegir voz/pista según uso",
+          "instrumentos": "Quiz formativo M4-AE3; Evaluación sumativa M4; Análisis de caso C2; Evaluación final integradora"
+        },
+        {
+          "id": "M4-AE4",
+          "tema": "Clips y video breve",
+          "texto": "Elaborar un clip de 60 segundos que integre guion, voz, música e imagen generados con IA.",
+          "bloom": "Crear",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Estructura de un guion breve"
+            },
+            {
+              "codigo": "S2",
+              "texto": "herramientas de video generativo"
+            },
+            {
+              "codigo": "S3",
+              "texto": "ensamblaje y exportación"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Guionizar, ensamblar y exportar un clip de 60 segundos con ficha de uso ético"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Creatividad responsable"
+            },
+            {
+              "codigo": "A2",
+              "texto": "cuidado del detalle"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Entrega un clip de 60 s que integra guion, voz, música e imagen."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Completa la ficha de uso ético."
+            }
+          ],
+          "tecnica": "Proyecto breve guiado (producto)",
+          "rise": "Rise M4-T4 · Clips y video breve",
+          "pantallas": 15,
+          "quiz": "8 ítems: ordenar etapas de producción, corregir guion y ficha de uso",
+          "instrumentos": "Quiz formativo M4-AE4; Evaluación sumativa M4; Rúbrica P4; Análisis de caso C1; Evaluación final integradora"
+        }
+      ],
+      "recursos": [
+        {
+          "id": "R053",
+          "orden": 1,
+          "tipo": "Video",
+          "titulo": "Video de bienvenida M4 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto",
+          "aes": "—",
+          "minutos": 3,
+          "formato": "Video con avatar/locución"
+        },
+        {
+          "id": "R054",
+          "orden": 2,
+          "tipo": "Rise",
+          "titulo": "Rise M4-T1 · Ecosistema multimedia con IA",
+          "aes": "M4-AE1",
+          "minutos": 112.5,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R055",
+          "orden": 3,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M4-AE1 · Ecosistema multimedia con IA",
+          "aes": "M4-AE1",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R056",
+          "orden": 4,
+          "tipo": "Rise",
+          "titulo": "Rise M4-T2 · Imágenes y gráficos",
+          "aes": "M4-AE2",
+          "minutos": 112.5,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R057",
+          "orden": 5,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M4-AE2 · Imágenes y gráficos",
+          "aes": "M4-AE2",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R058",
+          "orden": 6,
+          "tipo": "Rise",
+          "titulo": "Rise M4-T3 · Audio y música",
+          "aes": "M4-AE3",
+          "minutos": 105,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R059",
+          "orden": 7,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M4-AE3 · Audio y música",
+          "aes": "M4-AE3",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R060",
+          "orden": 8,
+          "tipo": "Rise",
+          "titulo": "Rise M4-T4 · Clips y video breve",
+          "aes": "M4-AE4",
+          "minutos": 112.5,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R061",
+          "orden": 9,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M4-AE4 · Clips y video breve",
+          "aes": "M4-AE4",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R062",
+          "orden": 10,
+          "tipo": "Hito proyecto",
+          "titulo": "Proyecto aplicado · Hito 4: pieza multimedia que comunica la solución",
+          "aes": "M4-AE2; M4-AE4",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R063",
+          "orden": 11,
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M4-C1 · Campañas de marca hechas con IA generativa (Coca-Cola, 2023 y 2024)",
+          "aes": "M4-AE2; M4-AE4",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R064",
+          "orden": 12,
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M4-C2 · Voz sintética y consentimiento (disputa Scarlett Johansson – OpenAI, 2024)",
+          "aes": "M4-AE3",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R065",
+          "orden": 13,
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M4-C3 · Licencias y datos de entrenamiento (Getty Images v. Stability AI)",
+          "aes": "M4-AE1",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R066",
+          "orden": 14,
+          "tipo": "Foro",
+          "titulo": "Foro M4: discusión guiada del módulo (tutor responde en <24 h hábiles)",
+          "aes": "M4-AE1; M4-AE2; M4-AE3; M4-AE4",
+          "minutos": 30,
+          "formato": "Foro Moodle"
+        },
+        {
+          "id": "R067",
+          "orden": 15,
+          "tipo": "Video",
+          "titulo": "Video de resumen M4 (3 min): ideas clave y conexión con el siguiente módulo",
+          "aes": "—",
+          "minutos": 3,
+          "formato": "Video con avatar/locución"
+        },
+        {
+          "id": "R068",
+          "orden": 16,
+          "tipo": "Resumen y glosario",
+          "titulo": "Resumen y glosario del módulo M4 (página; lectura 1,5 min)",
+          "aes": "—",
+          "minutos": 1.5,
+          "formato": "Página Moodle"
+        },
+        {
+          "id": "R069",
+          "orden": 17,
+          "tipo": "Complemento",
+          "titulo": "Infografía M4: Mapa del ecosistema multimedia con IA y semáforo de licencias",
+          "aes": "—",
+          "minutos": 0,
+          "formato": "Infografía (imagen)"
+        },
+        {
+          "id": "R070",
+          "orden": 18,
+          "tipo": "Evaluación sumativa",
+          "titulo": "Evaluación sumativa M4",
+          "aes": "M4-AE1; M4-AE2; M4-AE3; M4-AE4",
+          "minutos": 60,
+          "formato": "Cuestionario Moodle con retroalimentación automática"
+        }
+      ],
+      "casos": [
+        {
+          "id": "M4-P4",
+          "tipo": "Hito proyecto",
+          "titulo": "Proyecto aplicado · Hito 4: pieza multimedia que comunica la solución",
+          "aes": "M4-AE2; M4-AE4",
+          "descripcion": "Pieza visual, sonora o audiovisual (con ficha de uso ético) que comunica la propuesta del proyecto. Retroalimentación del tutor (≤72 h).",
+          "verificacion": "No aplica",
+          "entregable": "Entrega con rúbrica general (ver «Evaluación»)"
+        },
+        {
+          "id": "M4-C1",
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M4-C1 · Campañas de marca hechas con IA generativa (Coca-Cola, 2023 y 2024)",
+          "aes": "M4-AE2; M4-AE4",
+          "descripcion": "Candidato. Documentar proceso, herramientas y reacciones del público. POR VERIFICAR en fuentes primarias y de prensa.",
+          "verificacion": "Por verificar",
+          "entregable": "Actividad de análisis del caso: preguntas guiadas + aplicación al proyecto (1,5 h)"
+        },
+        {
+          "id": "M4-C2",
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M4-C2 · Voz sintética y consentimiento (disputa Scarlett Johansson – OpenAI, 2024)",
+          "aes": "M4-AE3",
+          "descripcion": "Candidato. Documentar la disputa y la decisión de la empresa. POR VERIFICAR en fuente primaria.",
+          "verificacion": "Por verificar",
+          "entregable": "Actividad de análisis del caso: preguntas guiadas + aplicación al proyecto (1,5 h)"
+        },
+        {
+          "id": "M4-C3",
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M4-C3 · Licencias y datos de entrenamiento (Getty Images v. Stability AI)",
+          "aes": "M4-AE1",
+          "descripcion": "Candidato. Documentar el estado del litigio a la fecha de producción. POR VERIFICAR: es un caso en evolución.",
+          "verificacion": "Por verificar",
+          "entregable": "Actividad de análisis del caso: preguntas guiadas + aplicación al proyecto (1,5 h)"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "nombre": "Automatización de tareas repetitivas",
+      "competencia": "Automatizar tareas rutinarias mediante flujos simples con IA, incorporando supervisión humana y control de riesgos, en el trabajo cotidiano.",
+      "aes": [
+        {
+          "id": "M5-AE1",
+          "tema": "Potencial de automatización",
+          "texto": "Identificar tareas repetitivas con potencial de automatización, priorizándolas según impacto y riesgo.",
+          "bloom": "Analizar",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Anatomía de una tarea automatizable"
+            },
+            {
+              "codigo": "S2",
+              "texto": "criterios de impacto, frecuencia y riesgo"
+            },
+            {
+              "codigo": "S3",
+              "texto": "matriz de priorización"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Mapear las tareas de un cargo (el que ejerce o al que aspira) y priorizar candidatas con una matriz impacto–riesgo"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Mirada analítica sobre el propio trabajo"
+            },
+            {
+              "codigo": "A2",
+              "texto": "enfoque en el valor para las personas"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Identifica al menos 3 tareas automatizables de un cargo."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Las prioriza con una matriz impacto–riesgo y fundamenta."
+            }
+          ],
+          "tecnica": "Análisis de procesos con caso real",
+          "rise": "Rise M5-T1 · Potencial de automatización",
+          "pantallas": 15,
+          "quiz": "8 ítems: clasificar tareas según impacto/riesgo",
+          "instrumentos": "Quiz formativo M5-AE1; Evaluación sumativa M5; Análisis de caso C1; Análisis de caso C2; Evaluación final integradora"
+        },
+        {
+          "id": "M5-AE2",
+          "tema": "Flujos simples con IA",
+          "texto": "Construir un flujo simple con una herramienta no-code que conecte IA con correo, planillas o calendario.",
+          "bloom": "Crear",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Conceptos de disparador–acción–datos"
+            },
+            {
+              "codigo": "S2",
+              "texto": "herramientas no-code"
+            },
+            {
+              "codigo": "S3",
+              "texto": "conexión de servicios"
+            },
+            {
+              "codigo": "S4",
+              "texto": "pruebas de un flujo"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Diseñar, construir y probar un flujo automatizado de 3 a 5 pasos"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Autonomía y prolijidad técnica"
+            },
+            {
+              "codigo": "A2",
+              "texto": "disposición a probar y corregir"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Construye un flujo funcional de 3 a 5 pasos."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Prueba el flujo y corrige fallas."
+            }
+          ],
+          "tecnica": "Laboratorio guiado paso a paso (producto)",
+          "rise": "Rise M5-T2 · Flujos simples con IA",
+          "pantallas": 14,
+          "quiz": "8 ítems: ordenar pasos del flujo, detectar error en una configuración",
+          "instrumentos": "Quiz formativo M5-AE2; Evaluación sumativa M5; Rúbrica P5; Evaluación final integradora"
+        },
+        {
+          "id": "M5-AE3",
+          "tema": "Supervisión humana y riesgos",
+          "texto": "Incorporar puntos de supervisión humana y controles de riesgo en un flujo automatizado, evaluando su efecto.",
+          "bloom": "Evaluar",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Riesgos de automatizar (errores en cadena, privacidad, sesgos)"
+            },
+            {
+              "codigo": "S2",
+              "texto": "supervisión humana"
+            },
+            {
+              "codigo": "S3",
+              "texto": "registro y reversibilidad"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Definir puntos de control, criterios de aprobación humana y plan de contingencia para un flujo"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Responsabilidad sobre las decisiones automatizadas"
+            },
+            {
+              "codigo": "A2",
+              "texto": "prudencia"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Define puntos de control humano según el riesgo."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Elabora un plan de contingencia para el flujo."
+            }
+          ],
+          "tecnica": "Aprendizaje basado en casos reales",
+          "rise": "Rise M5-T3 · Supervisión humana y riesgos",
+          "pantallas": 14,
+          "quiz": "8 ítems: decidir dónde ubicar controles humanos según el riesgo",
+          "instrumentos": "Quiz formativo M5-AE3; Evaluación sumativa M5; Rúbrica P5; Análisis de caso C1; Análisis de caso C2; Evaluación final integradora"
+        }
+      ],
+      "recursos": [
+        {
+          "id": "R071",
+          "orden": 1,
+          "tipo": "Video",
+          "titulo": "Video de bienvenida M5 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto",
+          "aes": "—",
+          "minutos": 3,
+          "formato": "Video con avatar/locución"
+        },
+        {
+          "id": "R072",
+          "orden": 2,
+          "tipo": "Rise",
+          "titulo": "Rise M5-T1 · Potencial de automatización",
+          "aes": "M5-AE1",
+          "minutos": 112.5,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R073",
+          "orden": 3,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M5-AE1 · Potencial de automatización",
+          "aes": "M5-AE1",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R074",
+          "orden": 4,
+          "tipo": "Rise",
+          "titulo": "Rise M5-T2 · Flujos simples con IA",
+          "aes": "M5-AE2",
+          "minutos": 105,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R075",
+          "orden": 5,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M5-AE2 · Flujos simples con IA",
+          "aes": "M5-AE2",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R076",
+          "orden": 6,
+          "tipo": "Rise",
+          "titulo": "Rise M5-T3 · Supervisión humana y riesgos",
+          "aes": "M5-AE3",
+          "minutos": 105,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R077",
+          "orden": 7,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M5-AE3 · Supervisión humana y riesgos",
+          "aes": "M5-AE3",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R078",
+          "orden": 8,
+          "tipo": "Hito proyecto",
+          "titulo": "Proyecto aplicado · Hito 5: prototipo de automatización de un paso del proceso, con supervisión humana",
+          "aes": "M5-AE2; M5-AE3",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R079",
+          "orden": 9,
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M5-C1 · Automatización de la atención al cliente con IA (Klarna)",
+          "aes": "M5-AE1; M5-AE3",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R080",
+          "orden": 10,
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M5-C2 · Estrategia «AI-first» y sus efectos sobre el trabajo (Duolingo, 2025)",
+          "aes": "M5-AE1; M5-AE3",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R081",
+          "orden": 11,
+          "tipo": "Foro",
+          "titulo": "Foro M5: discusión guiada del módulo (tutor responde en <24 h hábiles)",
+          "aes": "M5-AE1; M5-AE2; M5-AE3",
+          "minutos": 30,
+          "formato": "Foro Moodle"
+        },
+        {
+          "id": "R082",
+          "orden": 12,
+          "tipo": "Video",
+          "titulo": "Video de resumen M5 (3 min): ideas clave y conexión con el siguiente módulo",
+          "aes": "—",
+          "minutos": 3,
+          "formato": "Video con avatar/locución"
+        },
+        {
+          "id": "R083",
+          "orden": 13,
+          "tipo": "Resumen y glosario",
+          "titulo": "Resumen y glosario del módulo M5 (página; lectura 1,5 min)",
+          "aes": "—",
+          "minutos": 1.5,
+          "formato": "Página Moodle"
+        },
+        {
+          "id": "R084",
+          "orden": 14,
+          "tipo": "Complemento",
+          "titulo": "Infografía M5: Matriz impacto–riesgo para priorizar tareas a automatizar",
+          "aes": "—",
+          "minutos": 0,
+          "formato": "Infografía (imagen)"
+        },
+        {
+          "id": "R085",
+          "orden": 15,
+          "tipo": "Evaluación sumativa",
+          "titulo": "Evaluación sumativa M5",
+          "aes": "M5-AE1; M5-AE2; M5-AE3",
+          "minutos": 45,
+          "formato": "Cuestionario Moodle con retroalimentación automática"
+        }
+      ],
+      "casos": [
+        {
+          "id": "M5-P5",
+          "tipo": "Hito proyecto",
+          "titulo": "Proyecto aplicado · Hito 5: prototipo de automatización de un paso del proceso, con supervisión humana",
+          "aes": "M5-AE2; M5-AE3",
+          "descripcion": "Un paso del proceso del proyecto se automatiza con un flujo no-code supervisado. Retroalimentación del tutor (≤72 h).",
+          "verificacion": "No aplica",
+          "entregable": "Entrega con rúbrica general (ver «Evaluación»)"
+        },
+        {
+          "id": "M5-C1",
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M5-C1 · Automatización de la atención al cliente con IA (Klarna)",
+          "aes": "M5-AE1; M5-AE3",
+          "descripcion": "Candidato. Documentar objetivos, resultados informados y ajustes posteriores de la empresa. POR VERIFICAR con fuentes primarias y fecha de cada cifra.",
+          "verificacion": "Por verificar",
+          "entregable": "Actividad de análisis del caso: preguntas guiadas + aplicación al proyecto (1,5 h)"
+        },
+        {
+          "id": "M5-C2",
+          "tipo": "Caso de aplicación",
+          "titulo": "Caso M5-C2 · Estrategia «AI-first» y sus efectos sobre el trabajo (Duolingo, 2025)",
+          "aes": "M5-AE1; M5-AE3",
+          "descripcion": "Candidato. Documentar la decisión, su comunicación y la reacción pública. POR VERIFICAR en fuente primaria.",
+          "verificacion": "Por verificar",
+          "entregable": "Actividad de análisis del caso: preguntas guiadas + aplicación al proyecto (1,5 h)"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "nombre": "Taller de IA generativa para entornos laborales",
+      "competencia": "Aplicar la IA generativa en un proyecto basado en un desafío laboral real, midiendo resultados y comunicándolos, integrando lo aprendido en los módulos anteriores.",
+      "aes": [
+        {
+          "id": "M6-AE1",
+          "tema": "Oportunidad de mejora con IA",
+          "texto": "Diagnosticar una oportunidad de mejora en un contexto laboral real (su cargo actual o uno al que aspira) que pueda abordarse con IA, definiendo situación inicial y metas.",
+          "bloom": "Analizar",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Diagnóstico de situación actual"
+            },
+            {
+              "codigo": "S2",
+              "texto": "definición de meta e indicadores"
+            },
+            {
+              "codigo": "S3",
+              "texto": "criterios de viabilidad"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Redactar el diagnóstico, la meta y el plan de medición del proyecto aplicado"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Orientación a resultados"
+            },
+            {
+              "codigo": "A2",
+              "texto": "realismo al fijar metas"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Define situación inicial, meta e indicadores medibles."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Justifica la viabilidad de usar IA."
+            }
+          ],
+          "tecnica": "Proyecto aplicado con retroalimentación del tutor",
+          "rise": "Rise M6-T1 · Oportunidad de mejora con IA",
+          "pantallas": 10,
+          "quiz": "8 ítems: formular metas medibles, elegir indicadores",
+          "instrumentos": "Quiz formativo M6-AE1; Evaluación sumativa M6; Rúbrica P6a; Evaluación final integradora"
+        },
+        {
+          "id": "M6-AE2",
+          "tema": "Implementar el flujo",
+          "texto": "Implementar un flujo de trabajo con IA para la oportunidad priorizada, con supervisión humana y registro de decisiones.",
+          "bloom": "Crear",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Planificación de implementación"
+            },
+            {
+              "codigo": "S2",
+              "texto": "gestión de cambios y riesgos"
+            },
+            {
+              "codigo": "S3",
+              "texto": "documentación del flujo"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Implementar y documentar el flujo del proyecto aplicado, ajustándolo según pruebas"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Autonomía"
+            },
+            {
+              "codigo": "A2",
+              "texto": "constancia"
+            },
+            {
+              "codigo": "A3",
+              "texto": "trabajo prolijo"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Implementa el flujo con supervisión humana."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Documenta decisiones y ajustes."
+            }
+          ],
+          "tecnica": "Proyecto aplicado con retroalimentación del tutor",
+          "rise": "Rise M6-T2 · Implementar el flujo",
+          "pantallas": 10,
+          "quiz": "8 ítems: ordenar etapas de implementación, detectar riesgos no controlados",
+          "instrumentos": "Quiz formativo M6-AE2; Evaluación sumativa M6; Rúbrica P6b; Evaluación final integradora"
+        },
+        {
+          "id": "M6-AE3",
+          "tema": "Resultados y aprendizajes",
+          "texto": "Evaluar los resultados del proyecto y comunicarlos mediante un pitch y un portafolio, proponiendo mejoras.",
+          "bloom": "Evaluar",
+          "saber": [
+            {
+              "codigo": "S1",
+              "texto": "Medición de resultados"
+            },
+            {
+              "codigo": "S2",
+              "texto": "storytelling de resultados"
+            },
+            {
+              "codigo": "S3",
+              "texto": "estructura de pitch y portafolio"
+            }
+          ],
+          "saber_hacer": [
+            {
+              "codigo": "H1",
+              "texto": "Medir resultados contra la línea base, elaborar el pitch y el portafolio, y proponer mejoras"
+            }
+          ],
+          "saber_ser": [
+            {
+              "codigo": "A1",
+              "texto": "Autocrítica constructiva"
+            },
+            {
+              "codigo": "A2",
+              "texto": "comunicación honesta de resultados, incluidos los límites"
+            }
+          ],
+          "criterios": [
+            {
+              "codigo": "C1",
+              "texto": "Compara los resultados con la línea base."
+            },
+            {
+              "codigo": "C2",
+              "texto": "Comunica resultados y límites con claridad en un pitch de 3 minutos."
+            }
+          ],
+          "tecnica": "Proyecto aplicado con retroalimentación del tutor",
+          "rise": "Rise M6-T3 · Resultados y aprendizajes",
+          "pantallas": 9,
+          "quiz": "8 ítems: interpretar resultados, ordenar estructura de un pitch",
+          "instrumentos": "Quiz formativo M6-AE3; Evaluación sumativa M6; Rúbrica P6c; Rúbrica P6d; Evaluación final integradora"
+        }
+      ],
+      "recursos": [
+        {
+          "id": "R086",
+          "orden": 1,
+          "tipo": "Video",
+          "titulo": "Video de bienvenida M6 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto",
+          "aes": "—",
+          "minutos": 3,
+          "formato": "Video con avatar/locución"
+        },
+        {
+          "id": "R087",
+          "orden": 2,
+          "tipo": "Rise",
+          "titulo": "Rise M6-T1 · Oportunidad de mejora con IA",
+          "aes": "M6-AE1",
+          "minutos": 75,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R088",
+          "orden": 3,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M6-AE1 · Oportunidad de mejora con IA",
+          "aes": "M6-AE1",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R089",
+          "orden": 4,
+          "tipo": "Rise",
+          "titulo": "Rise M6-T2 · Implementar el flujo",
+          "aes": "M6-AE2",
+          "minutos": 75,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R090",
+          "orden": 5,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M6-AE2 · Implementar el flujo",
+          "aes": "M6-AE2",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R091",
+          "orden": 6,
+          "tipo": "Rise",
+          "titulo": "Rise M6-T3 · Resultados y aprendizajes",
+          "aes": "M6-AE3",
+          "minutos": 67.5,
+          "formato": "Rise (pantallas)"
+        },
+        {
+          "id": "R092",
+          "orden": 7,
+          "tipo": "Quiz formativo",
+          "titulo": "Quiz formativo M6-AE3 · Resultados y aprendizajes",
+          "aes": "M6-AE3",
+          "minutos": 15,
+          "formato": "Quiz automatizado con retroalimentación + acción remedial"
+        },
+        {
+          "id": "R093",
+          "orden": 8,
+          "tipo": "Hito proyecto",
+          "titulo": "Proyecto aplicado · Hito 6a: diagnóstico, meta y plan de medición",
+          "aes": "M6-AE1",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R094",
+          "orden": 9,
+          "tipo": "Hito proyecto",
+          "titulo": "Proyecto aplicado · Hito 6b: implementación del flujo",
+          "aes": "M6-AE2",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R095",
+          "orden": 10,
+          "tipo": "Hito proyecto",
+          "titulo": "Proyecto aplicado · Hito 6c: medición de resultados y ajustes",
+          "aes": "M6-AE3",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R096",
+          "orden": 11,
+          "tipo": "Hito proyecto",
+          "titulo": "Proyecto aplicado · Hito 6d: pitch y portafolio final (insumo del Demo Day)",
+          "aes": "M6-AE3",
+          "minutos": 90,
+          "formato": "Rise + actividad (caso) / entrega con rúbrica (hito)"
+        },
+        {
+          "id": "R097",
+          "orden": 12,
+          "tipo": "Foro",
+          "titulo": "Foro M6: discusión guiada del módulo (tutor responde en <24 h hábiles)",
+          "aes": "M6-AE1; M6-AE2; M6-AE3",
+          "minutos": 30,
+          "formato": "Foro Moodle"
+        },
+        {
+          "id": "R098",
+          "orden": 13,
+          "tipo": "Video",
+          "titulo": "Video de resumen M6 (3 min): ideas clave y conexión con el siguiente módulo",
+          "aes": "—",
+          "minutos": 3,
+          "formato": "Video con avatar/locución"
+        },
+        {
+          "id": "R099",
+          "orden": 14,
+          "tipo": "Resumen y glosario",
+          "titulo": "Resumen y glosario del módulo M6 (página; lectura 1,5 min)",
+          "aes": "—",
+          "minutos": 1.5,
+          "formato": "Página Moodle"
+        },
+        {
+          "id": "R100",
+          "orden": 15,
+          "tipo": "Complemento",
+          "titulo": "Infografía M6: Ciclo del proyecto aplicado (oportunidad → flujo → medición → pitch)",
+          "aes": "—",
+          "minutos": 0,
+          "formato": "Infografía (imagen)"
+        },
+        {
+          "id": "R101",
+          "orden": 16,
+          "tipo": "Evaluación sumativa",
+          "titulo": "Evaluación sumativa M6 (evaluación final integradora del curso)",
+          "aes": "M6-AE1; M6-AE2; M6-AE3",
+          "minutos": 60,
+          "formato": "Cuestionario Moodle con retroalimentación automática"
+        }
+      ],
+      "casos": [
+        {
+          "id": "M6-P6a",
+          "tipo": "Hito proyecto",
+          "titulo": "Proyecto aplicado · Hito 6a: diagnóstico, meta y plan de medición",
+          "aes": "M6-AE1",
+          "descripcion": "Diagnóstico, línea base e indicadores del proyecto. Retroalimentación del tutor (≤72 h).",
+          "verificacion": "No aplica",
+          "entregable": "Entrega con rúbrica general (ver «Evaluación»)"
+        },
+        {
+          "id": "M6-P6b",
+          "tipo": "Hito proyecto",
+          "titulo": "Proyecto aplicado · Hito 6b: implementación del flujo",
+          "aes": "M6-AE2",
+          "descripcion": "Flujo implementado y documentado. Retroalimentación del tutor (≤72 h).",
+          "verificacion": "No aplica",
+          "entregable": "Entrega con rúbrica general (ver «Evaluación»)"
+        },
+        {
+          "id": "M6-P6c",
+          "tipo": "Hito proyecto",
+          "titulo": "Proyecto aplicado · Hito 6c: medición de resultados y ajustes",
+          "aes": "M6-AE3",
+          "descripcion": "Resultados medidos contra la línea base y ajustes. Retroalimentación del tutor (≤72 h).",
+          "verificacion": "No aplica",
+          "entregable": "Entrega con rúbrica general (ver «Evaluación»)"
+        },
+        {
+          "id": "M6-P6d",
+          "tipo": "Hito proyecto",
+          "titulo": "Proyecto aplicado · Hito 6d: pitch y portafolio final (insumo del Demo Day)",
+          "aes": "M6-AE3",
+          "descripcion": "Pitch de 3 min y portafolio. Retroalimentación del tutor (≤72 h).",
+          "verificacion": "No aplica",
+          "entregable": "Entrega con rúbrica general (ver «Evaluación»)"
+        }
+      ]
+    }
+  ]
+}

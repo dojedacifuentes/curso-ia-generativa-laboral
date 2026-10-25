@@ -1,0 +1,41 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Formato de la infografía del módulo</title><style>
+:root{--tx:#1f2937;--mu:#64748b;--bg:#f8fafc;--pa:#fff;--li:#e2e8f0;--az:#0f3d5e;--tq:#0e7490;--am:#b45309;--ro:#b91c1c;--ve:#047857;--vi:#6d28d9}
+
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 "Segoe UI",Roboto,Arial,sans-serif}
+.wrap{display:grid;grid-template-columns:300px 1fr;max-width:1300px;margin:0 auto}
+nav{position:sticky;top:0;height:100vh;overflow:auto;padding:24px 16px;border-right:1px solid var(--li);font-size:14px}
+nav ul{list-style:none;padding-left:12px;margin:4px 0}nav>ul{padding:0}nav a{color:var(--tx);text-decoration:none}nav a:hover{color:var(--tq)}
+main{padding:24px 40px;min-width:0}h1{color:var(--az);border-bottom:3px solid var(--tq);padding-bottom:6px;margin-top:48px}
+h2.ae{color:var(--az);margin-top:40px;font-size:1.5em}.aetxt{background:var(--pa);border-left:4px solid var(--tq);padding:10px 14px;font-weight:600}
+h3{margin-top:32px;color:var(--tq)}h4{margin:18px 0 6px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--mu);background:var(--pa);border:1px solid var(--li);border-radius:6px;padding:6px 10px;margin:4px 0 12px}
+.caja{background:var(--pa);border:1px solid var(--li);border-left:5px solid var(--tq);border-radius:8px;padding:10px 14px;margin:14px 0}
+.caja .etq{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--tq);margin-bottom:4px}
+.caja.error{border-left-color:var(--ro)}.caja.error .etq{color:var(--ro)}.caja.clave{border-left-color:var(--am)}.caja.clave .etq{color:var(--am)}
+.caja.actividad{border-left-color:var(--ve)}.caja.actividad .etq{color:var(--ve)}.caja.comprueba{border-left-color:var(--vi)}.caja.comprueba .etq{color:var(--vi)}
+.caja p:last-child{margin-bottom:0}.tabla{overflow-x:auto}table{border-collapse:collapse;margin:10px 0;font-size:14.5px}
+th,td{border:1px solid var(--li);padding:6px 10px;text-align:left;vertical-align:top}th{background:var(--pa)}
+code{background:var(--pa);border:1px solid var(--li);border-radius:4px;padding:0 4px;font-size:.92em}pre{background:var(--pa);border:1px solid var(--li);padding:10px;overflow:auto;white-space:pre-wrap}
+pre code{border:0;padding:0}blockquote.aviso{background:var(--pa);border-left:4px solid var(--mu);margin:14px 0;padding:8px 14px}blockquote.aviso p:last-child{margin-bottom:0}li.chk{list-style:none;margin-left:-18px}a{color:var(--tq);word-break:break-all}.comp{color:var(--mu)}
+header.top{padding:8px 0 0}header.top p{color:var(--mu)}
+@media (max-width:900px){.wrap{display:block}nav{position:static;height:auto;border-right:0;border-bottom:1px solid var(--li)}main{padding:16px}}
+@media print{nav{display:none}.wrap{display:block}article{break-before:page}}
+</style><style>@page{size:A4;margin:16mm 15mm}main{padding:0;max-width:none}h3{break-after:avoid}.caja,table{break-inside:avoid}pre{font-size:11px}</style></head><body><main><p class="comp">IA generativa para entornos laborales · <code>docs/FORMATO-INFOGRAFIA.md</code></p><h1 style="margin-top:0">Formato de la infografía del módulo</h1><p>La planilla pide una infografía por módulo (hoja «Recursos», tipo «Complemento»): R017, R034, R051, R069, R084 y R100. La fuente es <code>infografias/M&lt;n&gt;.json</code>. <code>node scripts/infografias.mjs M&lt;n&gt;</code> la valida y escribe <code>entregables/infografias/M&lt;n&gt;-Infografia.html</code> y su <code>.png</code> (1080 px de ancho; el alto se calcula solo). La paleta es neutra, con un acento por módulo; la tipografía es IBM Plex Sans y los íconos son Lucide.</p>
+<h3>Campos</h3>
+<pre><code>{
+  "modulo": 1,
+  "recurso": "R017",
+  "titulo": "Anatomía de un prompt efectivo",
+  "bajada": "Una frase (máx. 170 caracteres) que diga para qué sirve.",
+  "tipo": "anatomia",
+  "bloques": [
+    { "icono": "user-check", "titulo": "Rol", "texto": "Máx. 190 caracteres. **negrita** permitida.", "ejemplo": "opcional, corto", "ver": ["M1-AE2 P04"] }
+  ],
+  "clave": "La idea que hay que llevarse, con **negrita** si hace falta.",
+  "pie": "Basado en el contenido de M1-AE2 (pantallas P03-P08)"
+}</code></pre>
+<h3>Tipos</h3>
+<div class="tabla"><table><thead><tr><th>Tipo</th><th>Bloques</th><th>Uso</th><th>Campos extra</th></tr></thead><tbody><tr><td><code>anatomia</code></td><td>4–5</td><td>Las partes de algo, con una franja «parte + parte + parte»</td><td>—</td></tr><tr><td><code>pasos</code></td><td>3–6</td><td>Flujo o ruta en orden</td><td>—</td></tr><tr><td><code>matriz</code></td><td>exactamente 4</td><td>Matriz 2×2: bloques en orden arriba-izquierda, arriba-derecha, abajo-izquierda, abajo-derecha</td><td><code>"ejes": {"x": "Impacto", "y": "Riesgo"}</code></td></tr><tr><td><code>mapa</code></td><td>4–6</td><td>Categorías + semáforo</td><td><code>"semaforoTitulo"</code>, `"semaforo": [{"nivel": "verde\</td><td>amarillo\</td><td>rojo", "titulo", "texto"}]`</td></tr><tr><td><code>ciclo</code></td><td>4–5</td><td>Etapas que se repiten</td><td><code>"centro"</code>, <code>"vuelta"</code></td></tr></tbody></table></div>
+<h3>Reglas</h3>
+<ul><li><strong>Contenido:</strong> todo sale del contenido base de los AE del módulo y de lo que la planilla dice de la infografía (título del recurso en la hoja «Recursos»).</li><li><strong>«ver»:</strong> remite a las pantallas donde se desarrolla cada bloque, con el formato «M1-AE2 P04».</li><li><strong>Datos que cambian:</strong> nada de cifras de planes gratuitos ni nombres de modelos que cambian rápido.</li><li><strong>Íconos disponibles:</strong> son los archivos de <code>scripts/lib/iconos-lucide/</code>; el nombre se escribe sin «.svg».</li></ul>
+</main></body></html>

@@ -1,0 +1,43 @@
+{
+  "modulo": 2,
+  "recurso": "R034",
+  "titulo": "Flujo de redacción aumentada",
+  "bajada": "Tú pones el propósito y los datos; la IA hace el borrador; tú lo ajustas y lo verificas antes de enviarlo con tu firma.",
+  "tipo": "pasos",
+  "bloques": [
+    {
+      "icono": "users",
+      "titulo": "Piensa en quien lee",
+      "texto": "**Antes de abrir el asistente:** ¿para qué escribo?, ¿quién lo lee?, ¿qué necesita saber? y ¿qué quiero que haga? Esas respuestas son el contexto que le das a la IA.",
+      "ver": ["M2-AE1 P04"]
+    },
+    {
+      "icono": "notebook-pen",
+      "titulo": "Pide el borrador",
+      "texto": "**Objetivo y género, audiencia, registro y tono, datos y largo.** Cuantas más partes incluyas, menos corriges. La IA redacta rápido, pero no conoce tu situación.",
+      "ejemplo": "«Redacta un correo para confirmar una entrevista. Formal, de usted. Máximo 80 palabras. No agregues datos que no te di».",
+      "ver": ["M2-AE1 P05", "M2-AE1 P06"]
+    },
+    {
+      "icono": "replace",
+      "titulo": "Ajusta conversando",
+      "texto": "**Una instrucción a la vez**, hasta dar con el tono justo. Pide lenguaje claro: oraciones breves, voz activa y siglas explicadas. Formal no significa complicado.",
+      "ejemplo": "«Hazlo más cordial, sin alargarlo» · «Ve al punto: lo importante en la primera oración».",
+      "ver": ["M2-AE1 P14", "M2-AE1 P15"]
+    },
+    {
+      "icono": "list-checks",
+      "titulo": "Verifica con tu lista",
+      "texto": "**Contenido, tono y forma.** Compara nombres, fechas, montos y números con el original, y quita lo que la IA agregó sin que lo dijeras. Los errores de hecho son los más graves.",
+      "ver": ["M2-AE1 P16"]
+    },
+    {
+      "icono": "stamp",
+      "titulo": "Firma y responde",
+      "texto": "**Quien firma responde por el mensaje**, aunque lo haya redactado un asistente. Y no pegues en la IA datos personales ni información confidencial.",
+      "ver": ["M2-AE1 P17"]
+    }
+  ],
+  "clave": "La IA hace el **borrador**; el **ajuste** y la **verificación** son tuyos. Un borrador bien escrito no es un texto revisado.",
+  "pie": "Basado en M2-AE1 (pantallas P04 a P06 y P14 a P17)"
+}

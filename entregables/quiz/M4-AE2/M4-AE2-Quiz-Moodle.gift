@@ -1,0 +1,66 @@
+// M4-AE2 · Imágenes y gráficos · quiz formativo (generado por scripts/quiz-juego.mjs)
+$CATEGORY: IA-generativa-laboral/Formativos/M4-AE2
+
+::M4-AE2-P1 (S1)::Camila escribe\: «Ilustración plana de un guardia revisando credenciales en la entrada de una oficina, con plantas y ventanales». ¿Qué parte del prompt es el contexto y fondo? {
+~«Ilustración plana»
+~«Un guardia revisando credenciales»
+=«En la entrada de una oficina, con plantas y ventanales»
+~El prompt no tiene contexto\: solo sujeto y estilo
+####El contexto y fondo dice dónde está el sujeto y qué lo rodea. «Un guardia revisando credenciales» es el sujeto, y «ilustración plana», el estilo. Pantalla P03 del Rise M4-T2\: «Anatomía de un prompt visual».
+}
+
+::M4-AE2-P2 (S1 C1)::Andrés quiere que la imagen muestre que todo el pasillo está despejado, sin dramatismo. ¿Qué modificador le conviene agregar? {
+~«Primer plano de un pie tropezando con una caja»
+=«Plano general»
+~«Luz dramática»
+~«Fondo desenfocado»
+####Un plano general muestra el pasillo completo y deja ver que está despejado. El primer plano del tropiezo pone el foco en el peligro, y la luz dramática da un tono de alerta. Pantalla P04 del Rise M4-T2\: «Composición, luz y formato».
+}
+
+::M4-AE2-P3 (A2 S3)::Para el afiche de la bodega, Andrés quiere tomar una foto de su compañera Marta y editarla con IA. «Es una campaña interna», piensa. ¿Qué corresponde? {
+~Usarla sin preguntar, porque la pieza no sale de la empresa
+=Pedirle permiso a Marta antes de usar su foto y de editarla con IA
+~Usarla sin preguntar, siempre que la IA le cambie un poco la cara
+~Usarla y poner el nombre de Marta en los créditos
+####Que la pieza sea interna no elimina el derecho de cada persona sobre su imagen, y editarla con IA exige aún más cuidado. Sin consentimiento no se usa su cara ni se genera una parecida; nombrarla en los créditos no reemplaza su permiso. Pantalla P13 del Rise M4-T2\: «Personas reales y marcas».
+}
+
+::M4-AE2-P4 (H1 C1)::La primera versión de Andrés tiene buena composición, pero el pasillo se ve angosto. ¿Qué cambio es mejor para la segunda versión? {
+~Reescribir todo el prompt con otro estilo, otra luz y más personajes
+=Cambiar solo el detalle del ancho, «pasillo muy amplio», y mantener el resto del prompt
+~Repetir el mismo prompt hasta que salga un pasillo más amplio por azar
+~Pedir ahora el afiche completo, con el título dentro de la imagen
+####Al cambiar una cosa a la vez sabes qué produjo la mejora. Si cambias todo, pierdes lo que ya funcionaba y no sabes qué causó el cambio. Pantalla P06 del Rise M4-T2\: «Iterar y seleccionar».
+}
+
+::M4-AE2-P5 (S2 C1)::Andrés dice\: «El título gris claro sobre fondo blanco se ve bien en mi pantalla, así que se leerá bien en todas». ¿Qué evaluación es correcta? {
+~Verdadero, porque si se lee en su pantalla se lee en cualquier otra
+~Verdadero, porque un título grande no necesita contraste
+=Falso\: el texto necesita un contraste mínimo con su fondo, porque otras pantallas tienen menos brillo o tamaño
+~Falso, porque en un afiche nunca se puede usar texto gris
+####Las WCAG piden un contraste mínimo de 4,5\:1, y de 3\:1 en texto grande\: el texto grande también lo necesita. Ese mínimo asegura que se lea en pantallas con menos brillo o tamaño que la tuya. Pantalla P09 del Rise M4-T2\: «Legibilidad\: contraste y texto alternativo».
+}
+
+::M4-AE2-P6 (C2)::Andrés revisa su imagen con zoom\: está muy bien, salvo una caja que flota sobre un estante. ¿Qué conviene hacer primero? {
+~Dejarla así, porque casi nadie lo va a notar
+=Editar solo la zona con el problema
+~Descartar todas sus versiones y empezar con un prompt nuevo
+~Agregar al prompt más detalles para que la caja se note menos
+####Si el defecto está en una zona, se edita esa zona; volver a generar o descartar queda para defectos en toda la imagen o que no se pueden corregir. Un detalle sin sentido resta seriedad a la campaña aunque parezca menor. Pantalla P07 del Rise M4-T2\: «Defectos típicos y cómo corregirlos».
+}
+
+::M4-AE2-P7 (S3 A2)::Camila pide «un equipo de oficina en una reunión». En las cuatro imágenes dirige un hombre y las mujeres toman notas. ¿Qué detecta? {
+~Un defecto de texto mal escrito
+=Un sesgo visual de roles, aprendido de imágenes que ya existen
+~Nada que corregir, porque no pidió nada sobre género
+~Un problema de contraste entre las personas y el fondo
+####Los generadores aprenden estereotipos de las imágenes con que se entrenan, y pueden producirlos aunque nadie los pida. Que el prompt no mencione el género no evita el sesgo. Pantalla P11 del Rise M4-T2\: «Sesgos visuales».
+}
+
+::M4-AE2-P8 (C2 S3)::Para su campaña de reciclaje, Camila pidió «trabajadores de oficina reciclando» y todas las imágenes muestran mujeres jóvenes. ¿Cuál es la mejor corrección? {
+~Publicarla igual, porque es una campaña interna
+=Cambiar el prompt describiendo la diversidad que quiere y volver a revisar las variantes
+~Agregar un texto que diga que todas las personas deben reciclar
+~Generar la misma imagen con una luz más cálida
+####Un sesgo se corrige describiendo en el prompt la diversidad de edades y géneros, o eligiendo la variante más diversa. Después se revisa otra vez, porque corregir un sesgo puede traer otro. Pantalla P12 del Rise M4-T2\: «Detecta y corrige sesgos y defectos».
+}

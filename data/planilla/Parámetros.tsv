@@ -1,0 +1,13 @@
+Parámetros del modelo de tiempos
+Edita los valores en azul; todas las horas se recalculan.
+
+Parámetro	Descripción	Valor	Unidad
+Minutos por pantalla Rise	Lectura reflexiva de una pantalla	7.5	min
+Quiz formativo por tema	Duración de cada quiz automatizado	15.0	min
+Foro por módulo	Participación guiada con tutor	30.0	min
+Video de bienvenida	Por módulo	3.0	min
+Video de resumen	Por módulo	3.0	min
+Caso o hito de proyecto	Duración de cada bloque de aplicación	90.0	min
+Inducción + diagnóstica (M1)	Inducción tecnológica-metodológica, guía del participante y evaluación diagnóstica	45.0	min
+Horas totales del curso	Según propuesta / plan formativo	88.0	h
+Tolerancia por módulo	Diferencia aceptable entre horas objetivo y diseñadas	15.0	min

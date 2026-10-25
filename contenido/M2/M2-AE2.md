@@ -1,0 +1,617 @@
+# M2-AE2 · Prompting avanzado para textos
+
+## P01 · Qué vas a lograr en este tema
+cubre: C1, C2
+fuentes: F-M2-08, F-M2-09
+bloque: Texto + lista con viñetas
+
+En el tema anterior escribiste correos, minutas e informes con un buen prompt y ajustaste el resultado conversando. Funciona, pero
+tiene un problema: si mañana repites el pedido, el texto puede salir distinto. La misma indicación puede dar respuestas diferentes,
+y en el trabajo eso se nota cuando un mismo tipo de correo sale cada vez con otro formato o con otro tono.
+
+**Aprendizaje esperado:** Aplicar técnicas de prompting avanzado (ejemplos, restricciones, encadenamiento) para mejorar la calidad y
+consistencia de textos profesionales.
+
+Al terminar, deberías poder:
+- aplicar al menos dos técnicas: ejemplos, restricciones y encadenamiento;
+- obtener textos consistentes entre versiones, y comprobarlo.
+
+Este tema es un **laboratorio de prompts**. En cada técnica vas a ver una versión «antes» y una «después», las vas a probar en Gemini
+y vas a comparar los resultados. Al final tendrás plantillas propias que podrás reutilizar.
+
+:::clave
+Un prompt avanzado no es un prompt más largo. Es un prompt que da resultados **parecidos cada vez que lo usas**, con la calidad que
+necesitas.
+:::
+
+:::actividad Abre tu bitácora de laboratorio
+Crea un documento o una nota en el celular con el título «Laboratorio de prompts». Ahí vas a registrar cada versión de tus prompts y
+lo que obtuviste con cada una.
+:::
+
+## P02 · Del buen prompt al prompt confiable
+cubre: S1, C2
+fuentes: F-M2-08, F-M2-09, F-M2-10
+bloque: Texto + tabla comparativa
+
+En el módulo 1 armaste prompts con rol, contexto, tarea y formato. Eso mejora mucho la primera respuesta. Pero cuando un texto se
+repite (la respuesta a una consulta frecuente, el aviso semanal, la confirmación de un pedido) necesitas algo más: que salga **igual
+de bien todas las veces**.
+
+Como la salida de un modelo no es determinista, la documentación de los proveedores recomienda probar los prompts y medir cómo se
+comportan. Para que ese comportamiento sea más estable, hay cuatro herramientas:
+
+| Técnica | Qué problema resuelve | Ejemplo de uso |
+|---|---|---|
+| **Ejemplos (few-shot)** | El formato o el tono cambia en cada respuesta | Mostrar dos avisos bien escritos para que imite el patrón |
+| **Restricciones** | El texto sale largo, con datos inventados o con un estilo que no sirve | «Máximo 80 palabras, sin emojis, solo con los datos entregados» |
+| **Encadenamiento** | La tarea es compleja y sale mal de una vez | Primero extraer los hechos, después redactar, después revisar |
+| **Plantilla reutilizable** | Cada vez escribes el prompt desde cero | Un texto guardado con partes fijas y espacios para los datos |
+
+Las tres primeras son técnicas que se aplican dentro del prompt. La plantilla es la forma de guardarlas para usarlas de nuevo.
+
+:::error «Si el prompt funcionó una vez, ya está listo»
+Una buena respuesta puede ser suerte. La misma indicación puede dar respuestas distintas, así que un prompt se considera confiable
+solo después de probarlo varias veces y con casos distintos.
+:::
+
+:::comprueba
+Cada vez que Andrés pide el aviso semanal de inventario, la respuesta sale con un formato distinto. ¿Qué técnica le conviene probar
+primero?
+- a) Pedir que el texto sea más creativo
+- **b) Incluir ejemplos de avisos con el formato que necesita**
+- c) Escribir el prompt en mayúsculas
+Retroalimentación: Los ejemplos orientan el formato, el tono y la estructura, y mejoran la consistencia entre respuestas.
+:::
+
+## P03 · Cómo funciona el laboratorio
+cubre: A1, A2, C2
+fuentes: F-M2-10, F-M2-09, F-M2-08
+bloque: Proceso (process block) en 5 pasos
+
+El diseño de prompts es **iterativo**: se empieza simple y se agregan detalles según los resultados. Para que esa iteración te enseñe
+algo, conviene hacerla con orden. Este es el método del laboratorio:
+
+1. **Escribe la versión 1** del prompt y guárdala en tu bitácora.
+2. **Pruébala con casos de prueba**: los mismos dos o tres casos cada vez (por ejemplo, tres consultas distintas de clientes).
+3. **Anota qué salió bien y qué no**, con criterios fijos: formato, largo, tono, datos exactos.
+4. **Cambia una sola cosa** y guarda la versión 2. Si cambias muchas a la vez, no sabrás cuál produjo la mejora.
+5. **Compara las versiones** con los mismos casos y quédate con la mejor.
+
+Tu bitácora puede ser una tabla simple:
+
+| Versión | Qué cambié | Caso 1 | Caso 2 | Caso 3 | ¿Mejoró? |
+|---|---|---|---|---|---|
+| v1 | — | Largo | Bien | Inventó una fecha | — |
+| v2 | Agregué «usa solo los datos entregados» | Largo | Bien | Bien | Sí, en datos |
+
+El paso 4 es una recomendación del curso: no es la única forma de trabajar, pero hace que la comparación sea justa.
+
+:::clave
+**Orden metodológico** es eso: versiones con nombre, casos de prueba fijos, un cambio a la vez y un registro de lo que pasó. Sin
+registro, mejorar un prompt depende de la memoria.
+:::
+
+:::ejemplo Andrés numera sus versiones
+Andrés guarda sus prompts como «aviso-inventario-v1», «v2», «v3». Cuando una versión nueva empeora algo, vuelve a la anterior sin
+tener que recordar cómo era.
+:::
+
+## P04 · Técnica 1: ejemplos (few-shot)
+cubre: S1, C1
+fuentes: F-M2-09, F-M2-12, F-M2-11, F-M2-10
+bloque: Texto + imagen de un prompt con ejemplos destacados
+
+**Few-shot** (en español, «con pocos ejemplos») significa incluir en el prompt uno o varios **ejemplos de entrada y salida** para que
+el modelo capte el patrón y lo imite. El modelo no queda cambiado para siempre: el ejemplo orienta solo esa consulta.
+
+Según la documentación de los proveedores, los ejemplos son una de las formas más confiables de orientar el **formato, el tono y la
+estructura**, y mejoran la consistencia. Para que funcionen, deben ser:
+- **pertinentes:** parecidos a los casos reales que vas a pedir;
+- **variados:** que cubran situaciones distintas, para que el modelo no copie un solo caso;
+- **con el mismo formato** entre ellos;
+- **separados de las instrucciones**, con una etiqueta clara, como «EJEMPLO 1».
+
+¿Cuántos ejemplos? No hay una regla fija. Una guía sugiere de tres a cinco; otra advierte que demasiados pueden hacer que el modelo
+los copie de más. Para textos breves, dos o tres suelen bastar para empezar: pruébalo en tu laboratorio.
+
+:::ejemplo Un ejemplo de entrada y salida
+ENTRADA: pedido 312, llega el lunes 18, cliente Ferretería Los Aromos.
+SALIDA: «Estimados Ferretería Los Aromos: su pedido 312 llegará el lunes 18. Ante cualquier consulta, respondan este correo. Saludos
+cordiales, Bodega Central».
+:::
+
+:::error Ejemplos con datos reales
+Para armar ejemplos no necesitas copiar correos reales con nombres, teléfonos o direcciones de clientes. Usa datos inventados: el
+modelo imita la forma, no necesita los datos verdaderos.
+:::
+
+## P05 · Laboratorio 1: antes y después con ejemplos
+cubre: S1, C1, C2
+fuentes: F-M2-11, F-M2-09
+bloque: Comparación antes y después + actividad
+
+**Caso:** Andrés envía cada semana avisos de despacho a clientes. Quiere que todos tengan el mismo formato.
+
+**Antes (v1):**
+«Escribe un aviso para el cliente Distribuidora Sur: su pedido 455 llega el miércoles 20.»
+
+Al repetirlo, a veces sale con asunto y a veces sin él; a veces con tres párrafos y otras con uno; una vez agregó «¡Gracias por
+preferirnos!».
+
+**Después (v2):**
+«Escribe un aviso de despacho siguiendo el formato de los ejemplos. Usa solo los datos de la entrada.
+EJEMPLO 1
+Entrada: pedido 312, llega el lunes 18, cliente Ferretería Los Aromos.
+Salida: Asunto: Despacho pedido 312. Estimados Ferretería Los Aromos: su pedido 312 llegará el lunes 18. Ante cualquier consulta,
+respondan este correo. Saludos cordiales, Bodega Central.
+EJEMPLO 2
+Entrada: pedido 320, llega el viernes 22, cliente Minimarket Doña Rosa, faltan 2 cajas que llegan el lunes 25.
+Salida: Asunto: Despacho pedido 320. Estimados Minimarket Doña Rosa: su pedido 320 llegará el viernes 22. Dos cajas llegarán el lunes
+25. Ante cualquier consulta, respondan este correo. Saludos cordiales, Bodega Central.
+AHORA
+Entrada: pedido 455, llega el miércoles 20, cliente Distribuidora Sur.»
+
+Fíjate en que el segundo ejemplo es distinto del primero: tiene un faltante. Así el modelo aprende qué hacer en ese caso.
+
+:::actividad Prueba las dos versiones
+Pega la v1 en Gemini tres veces, cada una en un chat nuevo, y luego haz lo mismo con la v2. Anota en tu bitácora: ¿cuántas veces salió
+el asunto?, ¿cuántas veces se mantuvo la despedida?, ¿alguna agregó algo que no estaba?
+:::
+
+## P06 · Cuando los ejemplos fallan
+cubre: S1, C2
+fuentes: F-M2-10, F-M2-11
+bloque: Texto + escenario
+
+Los ejemplos son poderosos, y por eso también pueden llevar a errores. Los más frecuentes:
+
+- **El modelo copia de más.** Si todos los ejemplos dicen «lunes», puede poner «lunes» aunque la entrada diga otro día. Las guías
+  advierten que demasiados ejemplos, o ejemplos muy parecidos, pueden llevar a este sobreajuste.
+- **Ejemplos que se contradicen.** Si un ejemplo termina con «Saludos cordiales» y otro con «Atentamente», el modelo no sabe cuál
+  usar. El formato debe ser idéntico entre ejemplos.
+- **Ejemplos mezclados con las instrucciones.** Si no están separados, el modelo puede confundir un ejemplo con un dato real. Usa
+  etiquetas como «EJEMPLO 1» y «AHORA».
+- **Ejemplos que no se parecen a los casos reales.** Si el ejemplo es un aviso de despacho y lo que pides es un reclamo, el patrón no
+  sirve.
+
+:::error «Mientras más ejemplos, mejor»
+No es así. Demasiados ejemplos pueden hacer que el modelo los copie en vez de aplicar el patrón. Empieza con pocos y variados, y
+agrega uno solo si las pruebas muestran que falta cubrir un caso.
+:::
+
+:::comprueba
+Andrés incluyó dos ejemplos y en ambos el pedido llegaba completo. Cuando pide un aviso con un faltante, el modelo lo omite. ¿Qué le
+conviene hacer?
+- a) Quitar los ejemplos
+- **b) Cambiar un ejemplo por uno que incluya un faltante**
+- c) Agregar diez ejemplos más de pedidos completos
+Retroalimentación: Los ejemplos deben ser variados y cubrir los casos reales. Si ningún ejemplo tiene faltantes, el modelo no sabe
+cómo mostrarlos.
+:::
+
+## P07 · Técnica 2: restricciones
+cubre: S1, C1
+fuentes: F-M2-10, F-M2-09, F-M1-14
+bloque: Texto + pestañas (tabs) por tipo de restricción
+
+Una **restricción** es un límite claro que el texto debe cumplir. Las guías de los proveedores recomiendan decir qué hacer y qué no,
+fijar un largo máximo e indicar el formato de la respuesta.
+
+Tipos de restricciones útiles en textos profesionales:
+
+| Tipo | Ejemplo |
+|---|---|
+| Largo | «Máximo 80 palabras», «tres viñetas», «una página» |
+| Formato | «Con asunto», «en tabla de tres columnas», «párrafos de dos oraciones» |
+| Registro y tono | «Formal, de usted, cordial» |
+| Contenido permitido | «Usa solo los datos que te entrego» |
+| Contenido prohibido | «Sin emojis», «sin promesas de plazos», «sin signos de exclamación» |
+| Qué hacer si falta algo | «Si falta un dato, escribe [FALTA]» |
+
+Un consejo de las guías: cuando puedas, di **qué hacer** en vez de solo qué no hacer. «Escribe en párrafos cortos» funciona mejor que
+«no escribas párrafos largos», porque le da al modelo una dirección.
+
+Las restricciones son especialmente útiles para la **exactitud**. «Usa solo los datos que te entrego» y la regla de [FALTA] reducen
+la posibilidad de que el modelo complete con datos inventados.
+
+:::ejemplo Una restricción que evita problemas
+Camila descubrió que el asistente agregaba frases como «tengo amplia experiencia en…» en sus correos de postulación. Agregó la
+restricción «No agregues experiencia ni habilidades que no estén en mis datos». Desde entonces, el texto solo dice lo que ella hizo.
+:::
+
+## P08 · Laboratorio 2: antes y después con restricciones
+cubre: S1, C1, C2
+fuentes: F-M2-10, F-M2-03
+bloque: Comparación antes y después + actividad
+
+**Caso:** Camila quiere un correo de agradecimiento después de una entrevista.
+
+**Antes (v1):**
+«Escribe un correo de agradecimiento después de una entrevista para asistente administrativa.»
+
+Resultado típico: un texto de 200 palabras, con frases genéricas, un nombre de empresa inventado y una despedida con coma.
+
+**Después (v2):**
+«Escribe un correo de agradecimiento después de una entrevista.
+DATOS: cargo asistente administrativa; entrevista el jueves 14 con la Sra. Muñoz; me interesó la tarea de coordinar agendas.
+RESTRICCIONES:
+- Máximo 90 palabras.
+- Registro formal, de usted, tono cordial.
+- Incluye asunto.
+- Saludo con dos puntos.
+- Menciona el detalle de la entrevista que te doy, sin agregar otros.
+- No uses frases como "amplia experiencia" ni signos de exclamación.
+- Cierra con "Saludos cordiales," y mi nombre: Camila Soto.»
+
+En la v2 las restricciones están en una lista separada. Es más fácil de leer para ti y para el modelo, y más fácil de cambiar después.
+
+:::actividad Mide el efecto
+Prueba la v1 y la v2 dos veces cada una, en chats nuevos. Cuenta las palabras de cada resultado y revisa si cumple cada restricción.
+Anota en tu bitácora cuántas restricciones cumplió cada versión.
+:::
+
+:::clave
+Una restricción solo sirve si puedes **comprobar** que se cumplió. «Que sea breve» es difícil de medir; «máximo 90 palabras» se cuenta.
+:::
+
+## P09 · Técnica 3: encadenamiento de pasos
+cubre: S1, C1, A1
+fuentes: F-M2-10, F-M2-12, F-M2-11
+bloque: Proceso (process block) en 3 pasos
+
+El **encadenamiento** divide una tarea compleja en pasos, y la salida de un paso alimenta al siguiente. En vez de pedir todo de una
+vez, pides una cosa, revisas, y usas ese resultado en el pedido que sigue.
+
+Una cadena típica para textos tiene tres eslabones:
+1. **Extraer:** «De estas notas, lista solo los hechos: fechas, cifras, nombres y acuerdos».
+2. **Redactar:** «Con esta lista de hechos, redacta el informe».
+3. **Revisar y mejorar:** «Revisa el informe contra estos criterios: … Señala qué no cumple y entrega una versión corregida».
+
+El tercer paso se conoce como **autocorrección**: borrador, revisión contra criterios y versión mejorada.
+
+¿Para qué dividir, si los modelos actuales ya razonan bastante por su cuenta? La documentación de un proveedor lo explica: encadenar
+sirve sobre todo para **revisar los resultados intermedios**. Si la lista de hechos del paso 1 tiene un error, lo detectas antes de
+que se convierta en un párrafo bien escrito.
+
+| Un solo prompt | Cadena de pasos |
+|---|---|
+| Rápido | Toma un poco más |
+| Si sale mal, no sabes dónde falló | Ves y corriges cada paso |
+| Mezcla hechos y redacción | Separa lo que hay que verificar de lo que hay que redactar |
+
+:::clave
+El encadenamiento es orden metodológico aplicado: cada paso tiene una tarea, un resultado y una revisión.
+:::
+
+## P10 · Laboratorio 3: una cadena de tres pasos
+cubre: S1, C1, A1
+fuentes: F-M2-11, F-M2-12, F-M2-05
+bloque: Proceso paso a paso + actividad
+
+**Caso:** Andrés tiene notas desordenadas de su semana y necesita un informe ejecutivo para su jefatura.
+
+**Notas (ficticias):** «lunes faltaron cajas, 2 pedidos atrasados. miércoles llegó proveedor nuevo, cajas ok. jueves 1 pedido
+atrasado por camión. total semana 38 despachos. idea: tener 30 cajas de reserva».
+
+**Antes (un solo prompt):** «Haz un informe ejecutivo con estas notas». El resultado mezcla todo y, a veces, cambia una cifra.
+
+**Después (cadena):**
+- **Paso 1.** «Lista solo los hechos de estas notas, uno por línea: qué pasó, cuándo y cuántos. No redactes». Revisas la lista contra
+  las notas: ¿están los tres atrasados?, ¿el total es 38?
+- **Paso 2.** «Con esta lista, redacta un informe ejecutivo de media página para mi jefatura: resultado de la semana, por qué importa
+  y recomendación. Usa solo estos hechos».
+- **Paso 3.** «Revisa el informe: ¿empieza por el resultado?, ¿cada cifra está en la lista?, ¿la recomendación es clara? Señala qué no
+  cumple y entrega una versión corregida».
+
+:::actividad Compara el camino corto y el largo
+Haz el caso con un solo prompt y luego con la cadena. En tu bitácora, anota: ¿en cuál detectaste antes un error?, ¿cuál resultado
+necesitó menos correcciones tuyas?
+:::
+
+:::error Saltarse la revisión del paso 1
+Si pegas la lista de hechos en el paso 2 sin revisarla, la cadena pierde su ventaja: un error del paso 1 llega intacto al informe, y
+ahora suena convincente.
+:::
+
+## P11 · Combinar técnicas según el problema
+cubre: C1, S1
+fuentes: F-M2-11, F-M2-10, F-M2-12
+bloque: Escenario o clasificación (sorting activity)
+
+Las técnicas se combinan. Un mismo prompt puede tener ejemplos, una lista de restricciones y formar parte de una cadena. La pregunta
+es cuál necesitas para el problema que tienes.
+
+| Si el problema es… | Prueba primero… |
+|---|---|
+| El formato cambia en cada respuesta | Ejemplos |
+| El tono no es el que necesitas | Ejemplos con el tono correcto |
+| El texto sale largo o con elementos que no quieres | Restricciones |
+| Aparecen datos que no diste | Restricción «usa solo estos datos» + regla de [FALTA] |
+| La tarea tiene muchas partes y sale desordenada | Encadenamiento |
+| Hay errores que se pasan sin notar | Encadenamiento con un paso de revisión |
+
+:::actividad Elige la técnica
+Para cada problema, elige ejemplos, restricciones o encadenamiento:
+1. Las respuestas a reclamos salen a veces formales y a veces informales. → Ejemplos
+2. El resumen de un reglamento sale de dos páginas y lo necesitas en cinco viñetas. → Restricciones
+3. Necesitas pasar de una grabación transcrita a una minuta revisada. → Encadenamiento
+4. El asistente agrega un descuento que nadie ofreció. → Restricciones
+5. El aviso semanal cambia de estructura cada semana. → Ejemplos
+:::
+
+:::error «Más técnicas, mejor prompt»
+Agregar técnicas que no resuelven tu problema solo alarga el prompt y lo hace más difícil de mantener. Usa la técnica que ataca lo que
+falla y comprueba en el laboratorio si mejoró.
+:::
+
+## P12 · Plantillas reutilizables
+cubre: S1, H1
+fuentes: F-M2-09, F-M2-11, F-M1-12
+bloque: Texto + imagen de una plantilla con secciones
+
+Cuando un prompt funciona, conviene guardarlo como **plantilla**: un texto con **partes fijas**, que no cambian, y **campos
+variables**, que completas cada vez. Las guías de prompts de los proveedores usan corchetes para marcar lo que hay que personalizar,
+por ejemplo [nombre del cliente].
+
+La documentación de un proveedor propone ordenar un prompt en secciones: **identidad** (el rol), **instrucciones**, **ejemplos** y
+**contexto** (los datos de cada vez). Otra recomienda separar esas partes con **etiquetas consistentes**. Una plantilla para textos
+profesionales puede verse así:
+
+```
+ROL: Eres [cargo] en [tipo de empresa].
+TAREA: Redacta [género: correo / aviso / minuta] para [audiencia].
+RESTRICCIONES:
+- Máximo [número] palabras.
+- Registro [formal / semiformal], tono [cordial / neutro].
+- Usa solo los DATOS. Si falta algo, escribe [FALTA].
+EJEMPLO:
+[un ejemplo de entrada y salida]
+DATOS:
+[los datos de este caso]
+```
+
+Las partes en mayúsculas no cambian. Lo que está entre corchetes se completa en cada uso.
+
+:::clave
+Una plantilla guarda lo que aprendiste en el laboratorio. La próxima vez no partes de cero: partes de la versión que ya probaste.
+:::
+
+:::ejemplo La plantilla de Camila
+Camila tiene una plantilla para «correo de seguimiento de postulación». Cada vez solo cambia el cargo, la empresa y la fecha. Los
+correos le salen parecidos y le toma menos tiempo revisarlos.
+:::
+
+## P13 · Laboratorio 4: diseña tu plantilla
+cubre: H1, A1
+fuentes: F-M2-09, F-M2-11, F-M1-12
+bloque: Actividad (completar plantilla)
+
+Ahora vas a diseñar una plantilla para un texto que se repite en el cargo que elegiste en el módulo 1. Puede ser una respuesta a
+consultas frecuentes, un aviso, una confirmación o un seguimiento.
+
+**Plantilla de ejemplo: respuesta a una consulta de cliente**
+```
+ROL: Eres asistente de atención en [tipo de negocio].
+TAREA: Responde la CONSULTA del cliente.
+RESTRICCIONES:
+- Máximo 70 palabras.
+- Formal, de usted, cordial.
+- Responde solo con la INFORMACIÓN DISPONIBLE. Si la respuesta no está ahí,
+  di que lo consultarás y responderás pronto.
+- Sin emojis. Cierra con "Saludos cordiales," y [nombre].
+EJEMPLO:
+Consulta: ¿Atienden el sábado?
+Información: sábado de 10:00 a 14:00.
+Respuesta: Estimado cliente: sí, atendemos el sábado de 10:00 a 14:00. Saludos cordiales, [nombre].
+INFORMACIÓN DISPONIBLE: [horarios, precios, plazos]
+CONSULTA: [texto del cliente]
+```
+
+:::actividad Completa tu plantilla
+1. Elige el texto repetitivo de tu cargo.
+2. Escribe la plantilla con las secciones ROL, TAREA, RESTRICCIONES, EJEMPLO y DATOS.
+3. Marca con corchetes los campos variables.
+4. Guárdala en tu bitácora como «v1».
+:::
+
+:::comprueba
+En la plantilla de ejemplo, ¿qué parte debe completarse cada vez que se usa?
+- a) Las RESTRICCIONES
+- b) La palabra ROL
+- **c) La CONSULTA y la INFORMACIÓN DISPONIBLE**
+Retroalimentación: Los campos variables son los datos de cada caso. Las restricciones y la estructura son fijas: por eso la plantilla
+da resultados parecidos.
+:::
+
+## P14 · Cómo evaluar la consistencia
+cubre: H1, C2
+fuentes: F-M2-09, F-M2-08, F-M2-11
+bloque: Texto + tabla de evaluación
+
+Una plantilla es **consistente** cuando entrega textos con la misma calidad y el mismo formato, aunque cambien los datos y aunque la
+uses varias veces. Como la salida no es determinista, la única forma de saberlo es probar.
+
+**Cómo probar tu plantilla:**
+1. Prepara **tres casos de prueba** distintos: uno simple, uno con un dato que falta y uno difícil (por ejemplo, un cliente molesto).
+2. Usa la plantilla con cada caso **dos veces**, en chats nuevos, para que la conversación anterior no influya.
+3. Revisa cada resultado con los mismos **criterios**.
+
+| Criterio | Pregunta | Sí / No |
+|---|---|---|
+| Formato | ¿Tiene las partes pedidas, en el orden pedido? | |
+| Largo | ¿Respeta el máximo de palabras? | |
+| Tono y registro | ¿Es el que pediste? | |
+| Exactitud | ¿Todos los datos están en la información entregada? | |
+| Vacíos | ¿Marcó [FALTA] o dijo que consultaría, en vez de inventar? | |
+
+Seis resultados (tres casos por dos intentos) te dan una idea razonable de cómo se comporta la plantilla. Ese número es una
+recomendación del curso para una prueba rápida, no una regla.
+
+:::error Probar solo con el caso fácil
+Si pruebas la plantilla con un caso en que todo está claro, siempre saldrá bien. Los problemas aparecen con los datos incompletos y
+las situaciones difíciles: por eso uno de tus casos debe ser difícil.
+:::
+
+## P15 · Laboratorio 5: compara versiones
+cubre: C2, H1, A2
+fuentes: F-M2-09, F-M2-10
+bloque: Comparación antes y después + actividad
+
+Ahora vas a mejorar tu plantilla con datos, no con impresiones.
+
+**Ejemplo de la bitácora de Andrés** (resultados ficticios; plantilla de avisos de despacho, seis resultados por versión):
+
+| Criterio | v1 (sin ejemplos) | v2 (con 2 ejemplos) | v3 (con ejemplos y regla de [FALTA]) |
+|---|---|---|---|
+| Formato correcto | 3 de 6 | 6 de 6 | 6 de 6 |
+| Largo respetado | 4 de 6 | 5 de 6 | 6 de 6 |
+| Datos exactos | 5 de 6 | 5 de 6 | 6 de 6 |
+| Marcó lo que faltaba | 0 de 2 | 1 de 2 | 2 de 2 |
+
+La v2 resolvió el formato. La v3 resolvió los datos que faltaban. Andrés se queda con la v3 y anota qué cambió en cada versión.
+
+Fíjate en que cada versión cambió **una cosa**. Por eso Andrés sabe qué produjo cada mejora.
+
+:::actividad Tu comparación
+1. Prueba tu plantilla v1 con tus tres casos, dos veces cada uno.
+2. Llena la tabla de criterios.
+3. Identifica el criterio que más falla y elige la técnica que lo ataca (P11).
+4. Haz la v2 cambiando solo eso, pruébala igual y compara.
+:::
+
+:::clave
+Si la v2 no mejora, también aprendiste algo: vuelves a la v1 y pruebas otro cambio. La mejora continua incluye descartar.
+:::
+
+## P16 · La prueba de alguien sin contexto
+cubre: A2, H1
+fuentes: F-M2-11, F-M1-12, F-M2-08
+bloque: Texto + escenario
+
+Una guía de un proveedor propone una prueba simple: **muéstrale tu prompt a una colega que no sabe nada de la tarea**. Si ella no
+entendería qué se pide, el modelo probablemente tampoco. El asistente no conoce tu trabajo: solo sabe lo que está escrito.
+
+Preguntas para esa revisión:
+- ¿Se entiende qué texto hay que producir y para quién?
+- ¿Hay palabras que solo entiende tu equipo, como siglas o nombres internos?
+- ¿Las restricciones se contradicen entre sí?
+- ¿Está claro qué es ejemplo y qué es dato real?
+
+También puedes **pedirle al asistente que mejore tu prompt**: «Revisa esta plantilla. ¿Qué instrucción es ambigua? ¿Qué falta para
+que el resultado sea siempre igual de bueno?». Sus sugerencias son eso, sugerencias: pruébalas en el laboratorio antes de aceptarlas.
+
+:::ejemplo La sigla que nadie entendía
+La plantilla de Andrés decía «avisar si hay OC pendiente». Una colega de ventas le preguntó qué era «OC». Andrés lo cambió por «orden
+de compra pendiente», y los avisos dejaron de salir con interpretaciones raras.
+:::
+
+:::error «Si lo entiendo yo, lo entiende el modelo»
+Tú conoces el contexto y llenas los vacíos sin darte cuenta. El modelo no puede hacerlo: lo que no está escrito en el prompt, no
+existe para él.
+:::
+
+## P17 · Orden y mejora continua
+cubre: A1, A2
+fuentes: F-M2-09, F-M2-10, F-M2-08
+bloque: Texto + lista de verificación (checklist)
+
+Las plantillas no se terminan nunca del todo. Cambian tus tareas, cambian los casos y cambian los modelos. La documentación de un
+proveedor recomienda volver a probar los prompts cuando se cambia de modelo, porque el comportamiento puede variar.
+
+Hábitos de **orden metodológico**:
+- [ ] Cada plantilla tiene un nombre claro y un número de versión.
+- [ ] Guardo junto a la plantilla sus casos de prueba.
+- [ ] Anoto qué cambié en cada versión y por qué.
+- [ ] Separo con etiquetas las partes fijas de los datos.
+
+Hábitos de **mejora continua**:
+- [ ] Cuando un resultado falla en el trabajo real, lo agrego como caso de prueba.
+- [ ] Vuelvo a probar mis plantillas cuando el asistente se actualiza o cuando cambio de asistente.
+- [ ] Reviso cada cierto tiempo si una plantilla sigue sirviendo o si la tarea cambió.
+
+:::ejemplo Un caso nuevo para la bitácora
+Un cliente le respondió a Andrés que el aviso no decía la dirección de entrega. Andrés agregó ese caso a sus pruebas y una restricción
+nueva: «Incluye la dirección de entrega si está en los datos». Guardó la plantilla como v4.
+:::
+
+:::comprueba
+Gemini se actualizó y tu plantilla empezó a dar textos más largos. ¿Qué haces primero?
+- a) Escribir una plantilla nueva desde cero
+- **b) Volver a probarla con tus casos de prueba y ajustar la restricción de largo**
+- c) Dejar de usar plantillas
+Retroalimentación: Cuando cambia el modelo, se vuelve a probar con los mismos casos. Así ves qué cambió y ajustas solo lo necesario.
+:::
+
+## P18 · Cierre: dos plantillas para tu biblioteca
+cubre: C1, C2, H1
+fuentes: F-M2-09, F-M2-11
+bloque: Texto + actividad de cierre (respuesta abierta)
+
+En este tema aplicaste tres técnicas: **ejemplos** para fijar formato y tono, **restricciones** para fijar límites que se pueden
+comprobar, y **encadenamiento** para dividir una tarea y revisar cada paso. Guardaste lo aprendido en **plantillas reutilizables** y
+mediste su **consistencia** comparando versiones con los mismos casos de prueba.
+
+:::actividad Tu biblioteca de prompts, versión 2
+En el Hito 1 armaste tu primera biblioteca de prompts. Ahora agrégale dos plantillas probadas para tu cargo:
+1. **Una plantilla con ejemplos y restricciones** para un texto que se repite (un aviso, una respuesta, un seguimiento).
+2. **Una cadena de pasos** para un texto más complejo (una minuta desde notas, un informe desde datos).
+
+Para cada una, guarda:
+- la versión final y el número de versión;
+- tus tres casos de prueba;
+- la tabla de criterios con los resultados de al menos dos versiones;
+- una línea que diga qué técnica aplicaste y qué mejoró.
+:::
+
+:::clave
+Una plantilla que pasó tus pruebas es una herramienta de trabajo. Una que no probaste es solo un buen intento.
+:::
+
+## Ideas clave
+
+1. La misma indicación puede dar respuestas distintas: un prompt es confiable solo cuando se probó varias veces y con casos variados.
+2. Los ejemplos (few-shot) orientan formato, tono y estructura; deben ser pertinentes, variados, con el mismo formato y separados de
+   las instrucciones. No hay un número fijo, y demasiados pueden hacer que el modelo los copie de más.
+3. Las restricciones fijan qué hacer y qué no, el largo y el formato; las mejores son las que se pueden comprobar.
+4. El encadenamiento divide la tarea en pasos (extraer, redactar, revisar) y permite detectar errores en los resultados intermedios.
+5. Una plantilla reutilizable separa las partes fijas de los campos variables y guarda lo aprendido en el laboratorio.
+6. La consistencia se evalúa con casos de prueba fijos, criterios claros y versiones que cambian una cosa a la vez.
+7. Las plantillas se vuelven a probar cuando cambian la tarea, los casos o el modelo: es un proceso de mejora continua.
+
+## Glosario
+
+- **Few-shot**: técnica que incluye en el prompt unos pocos ejemplos de entrada y salida para que el modelo imite el patrón.
+- **Ejemplo de entrada y salida**: par que muestra un caso (los datos) y el texto que se espera obtener con ellos.
+- **Sobreajuste a los ejemplos**: cuando el modelo copia detalles de los ejemplos en vez de aplicar solo su patrón.
+- **Restricción**: límite que el texto debe cumplir, como un largo máximo, un formato o un contenido prohibido.
+- **Encadenamiento**: división de una tarea en pasos, en que la salida de cada paso se usa en el siguiente.
+- **Autocorrección**: paso de una cadena en que se pide revisar un borrador contra criterios y entregar una versión mejorada.
+- **Plantilla de prompt**: prompt guardado con partes fijas y campos variables, para reutilizarlo.
+- **Campo variable**: parte de una plantilla, marcada con corchetes, que se completa con los datos de cada caso.
+- **Etiqueta**: palabra o encabezado que separa las secciones de un prompt, como ROL, EJEMPLO o DATOS.
+- **Consistencia**: capacidad de un prompt de dar resultados con la misma calidad y formato en distintos usos.
+- **Caso de prueba**: situación fija que se usa para probar un prompt y comparar sus versiones.
+- **Versión de un prompt**: cada variante guardada y numerada de un prompt, con registro de qué cambió.
+- **Bitácora de laboratorio**: registro de las versiones, los casos de prueba y los resultados de cada prueba.
+
+## Conexión con el proyecto
+
+Tus dos plantillas probadas (P18) amplían la **biblioteca de prompts** que empezaste en el Hito 1. En el **Hito 2: brief del
+proyecto + presentación de 6 láminas** te servirán para redactar el brief: puedes usar una cadena de pasos (extraer los hechos de tu
+problema, redactar el brief, revisarlo contra objetivo, audiencia y mensaje) y aplicar restricciones para que quede breve y sin datos
+inventados. En el **caso M2-C1** analizarás cómo una empresa usa IA para redactar respuestas a clientes y cómo las supervisa.
+
+## Fuentes
+
+Detalle de cada fuente y de lo que respalda: `investigacion/M2.md` y `investigacion/M1.md` (consultadas el 24-10-2026).
+
+- F-M2-03 · Universidad de Las Palmas de Gran Canaria; Rodríguez-Rodríguez y García-Sánchez (s. f.). Redacción del correo electrónico en español e inglés: breves recomendaciones. https://iatext.ulpgc.es/sites/default/files/recomendaciones_correo_electronico_0.pdf
+- F-M2-05 · Carnegie Mellon University, Student Academic Success Center (s. f.). Executive Summaries. https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/executive-summaries.pdf
+- F-M2-08 · Microsoft Support (2026). Introducción a la escritura de indicaciones en Microsoft Copilot. https://support.microsoft.com/es-es/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5
+- F-M2-09 · OpenAI (s. f.). Prompt engineering. https://developers.openai.com/api/docs/guides/prompt-engineering
+- F-M2-10 · Google AI for Developers (2026). Prompt design strategies. https://ai.google.dev/gemini-api/docs/prompting-strategies
+- F-M2-11 · Anthropic (s. f.). Prompting best practices. https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices
+- F-M2-12 · Microsoft Learn (2026). Técnicas de ingeniería de indicaciones. https://learn.microsoft.com/es-es/azure/ai-foundry/openai/concepts/prompt-engineering
+- F-M1-12 · Google Workspace (2026). Cómo escribir instrucciones eficaces. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
+- F-M1-14 · Anthropic (2026). Mejores prácticas de prompting. https://platform.claude.com/docs/es/build-with-claude/prompt-engineering/claude-prompting-best-practices

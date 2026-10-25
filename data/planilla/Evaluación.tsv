@@ -1,0 +1,27 @@
+Sistema de evaluación (propuesta inicial)
+Provisional: la norma de evaluación definitiva debe alinearse con la normativa SENCE vigente al presentar.
+
+Instrumento	Cantidad	Tipo	Momento	Retroalimentación	Ponderación c/u	Ponderación total	Observación
+Evaluación diagnóstica	1.0	Diagnóstica	Inicio del curso (M1)	Automática; orienta la ruta de estudio	0.0	0	No pondera.
+Quizzes formativos por tema	22.0	Formativa	Cierre de cada tema	Automática por ítem + acción remedial (volver a pantallas específicas)	0.0	0	No pondera; condiciona el avance sugerido.
+Evaluaciones sumativas M1–M5	5.0	Sumativa	Cierre de cada módulo	Automática con retroalimentación por pregunta	0.08	0.4	Banco de ítems con distintos tipos de pregunta.
+Hitos del proyecto M1–M5 (con rúbrica)	5.0	Sumativa	Cierre de cada módulo	Tutor, ≤72 h, con rúbrica	0.03	0.15	Instancia obligatoria de interacción pedagógica (Ley 21.850).
+Hitos de proceso M6 (6a, 6b, 6c)	3.0	Formativa	Módulo 6	Tutor, ≤72 h, con rúbrica	0.0	0	No ponderan; alimentan el hito final.
+Pitch + portafolio final (hito 6d)	1.0	Sumativa	Cierre del curso	Tutor, ≤72 h, con rúbrica	0.15	0.15	Insumo del Demo Day.
+Evaluación final integradora	1.0	Sumativa	Cierre del curso	Automática con retroalimentación por pregunta	0.3	0.3	Cubre los 22 AE; varios tipos de pregunta.
+Total ponderación						1	OK: suma 100%
+
+Norma de evaluación (a confirmar)
+Escala	1,0 a 7,0						
+Nota mínima de aprobación	4,0 (exigencia 60%) — PROVISIONAL						
+Aprobación académica	Se define por la nota final ponderada, no por el porcentaje de conectividad. El registro de participación SENCE (conectividad con Clave Única) es un requisito distinto, de ejecución.						
+Evaluaciones que rinden	Diagnóstica, 22 quizzes formativos, 5 sumativas de módulo, 5 hitos con rúbrica, pitch final y evaluación final integradora						
+
+Rúbrica general de hitos del proyecto
+Criterio	Peso	Logrado (100%)	Parcial (60%)	No logrado (0%)
+Pertinencia al problema real	0.25	El entregable resuelve con claridad el problema definido.	Resuelve parcialmente o con ambigüedad.	No se relaciona con el problema.
+Uso verificado de IA	0.25	Documenta prompts y valida resultados con fuentes.	Valida solo en parte o documenta poco.	No valida ni documenta.
+Calidad del entregable	0.2	Completo, ordenado y sin errores relevantes.	Completo con errores menores.	Incompleto o con errores graves.
+Ética, privacidad y licencias	0.15	Resguarda datos y respeta licencias y consentimiento.	Cumple con omisiones menores.	Expone datos o infringe licencias.
+Comunicación	0.15	Mensaje claro, adecuado a la audiencia.	Mensaje comprensible pero poco ajustado.	Mensaje confuso.
+Total	1	OK: suma 100%

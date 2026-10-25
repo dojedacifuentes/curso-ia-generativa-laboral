@@ -1,0 +1,270 @@
+<title>Auditoría IA generativa laboral</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: informe de una columna (máx. 72rem); resumen arriba, luego el flujo del proyecto, el avance y las 10 capas de chequeo */
+:root {
+  --bg: #F4F6F8; --panel: #FFFFFF; --ink: #17212B; --muted: #5A6775; --line: #DCE2E8; --accent: #0B6B70;
+  --ok: #1F7A4A; --ok-bg: #E3F3EA; --aviso: #9A5B00; --aviso-bg: #FBEFD9; --error: #B42318; --error-bg: #FDE6E3;
+  --pend: #4B5BA8; --pend-bg: #E7EAF8; --insumo: #2F7FA8;
+  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0F1519; --panel: #172026; --ink: #E4EAEE; --muted: #97A5B0; --line: #2A363E; --accent: #4FC1C4;
+  --ok: #5CCB8E; --ok-bg: #16322A; --aviso: #E8B04B; --aviso-bg: #3A2C12; --error: #F2867A; --error-bg: #3D1C19;
+  --pend: #9FAAF0; --pend-bg: #232A4A; --insumo: #6CB8DE; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0F1519; --panel: #172026; --ink: #E4EAEE; --muted: #97A5B0; --line: #2A363E; --accent: #4FC1C4;
+  --ok: #5CCB8E; --ok-bg: #16322A; --aviso: #E8B04B; --aviso-bg: #3A2C12; --error: #F2867A; --error-bg: #3D1C19;
+  --pend: #9FAAF0; --pend-bg: #232A4A; --insumo: #6CB8DE; color-scheme: dark }
+
+body { background: var(--bg); color: var(--ink); font: 15px/1.55 var(--body); }
+.envoltura { max-width: 72rem; margin: 0 auto; padding-block: 2rem 4rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-direction: column; gap: 2.5rem; }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; line-height: 1.15; }
+h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.05rem; font-family: var(--body); font-weight: 600; }
+p { margin: 0; max-width: 68ch; }
+.etiqueta { font: 500 0.72rem/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.mono { font-family: var(--mono); font-size: 0.85em; }
+.muted { color: var(--muted); }
+section { display: flex; flex-direction: column; gap: 1rem; }
+
+/* cabecera */
+.cabecera { display: flex; flex-direction: column; gap: 0.9rem; }
+.veredicto { font-size: 1.05rem; max-width: 70ch; }
+.cuentas { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.cuenta { display: flex; align-items: baseline; gap: 0.45rem; padding: 0.45rem 0.8rem; border-radius: 999px; font-weight: 500; font-variant-numeric: tabular-nums; }
+.cuenta b { font: 600 1.1rem var(--mono); }
+.ok { color: var(--ok); background: var(--ok-bg); } .aviso { color: var(--aviso); background: var(--aviso-bg); }
+.error { color: var(--error); background: var(--error-bg); } .pendiente { color: var(--pend); background: var(--pend-bg); }
+
+/* flujo */
+.flujo { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 0.75rem; }
+.paso { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 0.9rem 1rem; display: flex; flex-direction: column; gap: 0.35rem; min-width: 0; }
+.paso .capa-id { font: 600 0.8rem var(--mono); color: var(--accent); }
+.paso .ruta { font: 0.78rem var(--mono); color: var(--muted); overflow-wrap: anywhere; }
+.paso .estado-capa { margin-top: auto; align-self: flex-start; font: 500 0.75rem var(--mono); padding: 0.15rem 0.5rem; border-radius: 6px; }
+
+/* avance */
+.barra { display: flex; height: 2.1rem; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+.barra span { display: flex; align-items: center; justify-content: center; color: #fff; font: 500 0.78rem var(--mono); white-space: nowrap; overflow: hidden; min-width: 0; }
+.leyenda { display: flex; flex-wrap: wrap; gap: 1rem; font-size: 0.85rem; }
+.leyenda i { display: inline-block; width: 0.75rem; height: 0.75rem; border-radius: 3px; margin-right: 0.35rem; vertical-align: -1px; }
+.tabla-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); }
+table { border-collapse: collapse; width: 100%; font-size: 0.88rem; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 500 0.72rem var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); position: sticky; top: 0; background: var(--panel); }
+tr:last-child td { border-bottom: 0; }
+td.num { text-align: right; font-family: var(--mono); }
+.chip { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 6px; font: 500 0.75rem var(--mono); white-space: nowrap; }
+
+/* capas */
+.capa { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 1.25rem; display: flex; flex-direction: column; gap: 0.85rem; }
+.capa-cab { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem 1rem; }
+.capa-cab h2 { font-size: 1.2rem; }
+.chequeos { display: flex; flex-direction: column; border-top: 1px solid var(--line); }
+details.ch { border-bottom: 1px solid var(--line); }
+details.ch summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 1.6rem 5.5rem 1fr auto; gap: 0.6rem; align-items: baseline; padding: 0.55rem 0.25rem; }
+details.ch summary::-webkit-details-marker { display: none; }
+details.ch summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.marca { display: inline-flex; width: 1.4rem; height: 1.4rem; align-items: center; justify-content: center; border-radius: 6px; font: 600 0.8rem var(--mono); }
+.ch-id { font: 0.78rem var(--mono); color: var(--muted); }
+.ch-titulo { min-width: 0; }
+.ch-resumen { font: 0.75rem var(--mono); color: var(--muted); white-space: nowrap; }
+.ch-cuerpo { padding: 0 0.25rem 0.9rem 2.2rem; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.88rem; }
+.ch-cuerpo ul { margin: 0; padding-left: 1.1rem; display: flex; flex-direction: column; gap: 0.2rem; }
+.ch-cuerpo li { overflow-wrap: anywhere; }
+li.e { color: var(--error); } li.a { color: var(--aviso); } li.p { color: var(--pend); } li.v { color: var(--muted); }
+
+/* filtros */
+.filtros { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.filtros button { font: 500 0.8rem var(--body); padding: 0.35rem 0.75rem; border-radius: 999px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
+.filtros button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--panel); }
+.filtros button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* cobertura */
+.cobertura { display: grid; grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr)); gap: 0.75rem; }
+.ae { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 0.85rem 1rem; display: flex; flex-direction: column; gap: 0.5rem; min-width: 0; }
+.cod { display: grid; grid-template-columns: 2.3rem 1fr; gap: 0.5rem; font-size: 0.84rem; }
+.cod b { font: 600 0.8rem var(--mono); color: var(--accent); }
+.cod .pant { display: block; font: 0.74rem var(--mono); color: var(--muted); }
+.cod .pant.nada { color: var(--error); }
+@media (max-width: 560px) {
+  details.ch summary { grid-template-columns: 1.6rem 1fr; }
+  .ch-id, .ch-resumen { grid-column: 2; }
+  .ch-cuerpo { padding-left: 0.25rem; }
+}
+@media (prefers-reduced-motion: no-preference) { details.ch[open] .ch-cuerpo { animation: abrir 160ms ease-out; } }
+@keyframes abrir { from { opacity: 0.4; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+</style>
+
+<div class="envoltura">
+  <header class="cabecera">
+    <span class="etiqueta">Auditoría · curso e-learning</span>
+    <h1 id="titulo">Auditoría IA generativa laboral</h1>
+    <p class="veredicto" id="veredicto"></p>
+    <div class="cuentas" id="cuentas"></div>
+    <p class="muted" id="generado"></p>
+  </header>
+
+  <section aria-labelledby="h-flujo">
+    <h2 id="h-flujo">Cómo está armado el proyecto</h2>
+    <p class="muted">La planilla inicial es la fuente de verdad. Cada paso produce lo que usa el siguiente, y cada capa de la auditoría (C0 a C9) revisa uno de ellos. Si algo está mal en un derivado, se corrige en su fuente y se vuelve a generar.</p>
+    <div class="flujo" id="flujo"></div>
+    <div class="leyenda">
+      <span><span class="chip ok">✓ sin observaciones</span></span>
+      <span><span class="chip aviso">! aviso</span> funciona, conviene mirarlo</span>
+      <span><span class="chip error">✗ error</span> no calza con la planilla o falta un archivo</span>
+      <span><span class="chip pendiente">… pendiente</span> aún no se produce</span>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-avance">
+    <h2 id="h-avance">Avance frente a los 101 recursos de la planilla</h2>
+    <p class="muted">Horas de las 88 del curso, según el estado del recurso que las cubre. «Insumo listo» quiere decir que el contenido base trae lo necesario, pero el recurso en sí (Rise, página de Moodle, guion) aún no se arma. Los Rise los arma Natalia.</p>
+    <div class="barra" id="barra" role="img"></div>
+    <div class="leyenda" id="leyenda-avance"></div>
+    <div class="tabla-scroll"><table id="tabla-tipos"></table></div>
+  </section>
+
+  <section aria-labelledby="h-capas">
+    <h2 id="h-capas">Chequeos por capa</h2>
+    <p class="muted">Toca un chequeo para ver qué revisa, por qué y la evidencia.</p>
+    <div class="filtros" id="filtro-estado" role="group" aria-label="Filtrar chequeos por estado"></div>
+    <div id="capas" style="display:flex;flex-direction:column;gap:1rem"></div>
+  </section>
+
+  <section aria-labelledby="h-cob">
+    <h2 id="h-cob">Correspondencia con la planilla: qué pantallas trabajan cada código</h2>
+    <p class="muted">Cada AE de la hoja «Estructura» con sus saberes (S), habilidades (H), actitudes (A) y los criterios (C) de la «Matriz coherencia», y las pantallas del contenido base que dicen cubrirlos.</p>
+    <div class="filtros" id="filtro-modulo" role="group" aria-label="Filtrar por módulo"></div>
+    <div class="cobertura" id="cobertura"></div>
+  </section>
+
+  <section aria-labelledby="h-rec">
+    <h2 id="h-rec">Detalle de los 101 recursos</h2>
+    <div class="filtros" id="filtro-recurso" role="group" aria-label="Filtrar recursos por estado"></div>
+    <div class="tabla-scroll"><table id="tabla-recursos"></table></div>
+  </section>
+</div>
+
+<script>
+const D = /*DATOS*/;
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const MARCA = { ok: '✓', aviso: '!', error: '✗', pendiente: '…' };
+const NOMBRE = { ok: 'sin observaciones', aviso: 'con avisos', error: 'con errores', pendiente: 'pendientes' };
+const COLOR_AV = { 'Hecho': 'var(--ok)', 'Insumo listo': 'var(--insumo)', 'En curso': 'var(--aviso)', 'Pendiente': 'var(--muted)' };
+const ORDEN_AV = ['Hecho', 'Insumo listo', 'En curso', 'Pendiente'];
+const r = D.resumen;
+const fechaGen = new Date(r.generado).toLocaleString('es-CL', { dateStyle: 'long', timeStyle: 'short' });
+
+$('titulo').textContent = `Auditoría · ${D.curso}`;
+$('veredicto').textContent = r.error
+  ? `Hay ${r.error} chequeos con errores: algo no calza con la planilla o falta un archivo. Revisa primero las capas marcadas con ✗.`
+  : `Todo lo producido calza con la planilla: ningún chequeo tiene errores. Quedan ${r.aviso} chequeos con avisos para revisar y ${r.pendiente} con trabajo pendiente.`;
+$('cuentas').innerHTML = ['ok', 'aviso', 'error', 'pendiente'].map(e => `<span class="cuenta ${r[e] || e === 'ok' ? e : ''}" ${r[e] || e === 'ok' ? '' : 'style="background:var(--panel);border:1px solid var(--line)"'}><b>${r[e]}</b> ${NOMBRE[e]}</span>`).join('')
+  + `<span class="cuenta" style="background:var(--panel);border:1px solid var(--line)"><b>${r.chequeos}</b> chequeos</span>`;
+$('generado').textContent = `Generado el ${fechaGen} con node scripts/auditar.mjs. Solo lee: no corrige nada.`;
+
+// flujo
+const PASOS = {
+  C0: ['Planilla → curso.json', 'data/planilla/*.tsv → data/curso.json'],
+  C1: ['Investigación', `investigacion/ · ${D.fuentes} fuentes F-…`],
+  C2: ['Contenido base', 'contenido/M<n>/M<n>-AE<k>.md'],
+  C3: ['Quiz juego SCORM', 'quiz/*.md → entregables/quiz/'],
+  C4: ['Infografías', 'infografias/*.json → HTML + PNG'],
+  C5: ['Casos reales', 'investigacion/casos/ → casos/'],
+  C6: ['Docs y PDF', 'entregables/docs, por-ae, pdf'],
+  C7: ['Revisión de fondo', 'docs/CORRESPONDENCIA-FONDO.md'],
+  C8: ['Google Drive', 'data/drive-inventario.json'],
+  C9: ['Avance vs. recursos', 'hoja «Recursos» (101 filas)'],
+};
+const peor = c => ['error', 'aviso', 'pendiente'].find(e => c.chequeos.some(x => x.estado === e)) || 'ok';
+$('flujo').innerHTML = D.capas.map(c => {
+  const e = peor(c), n = c.chequeos.filter(x => x.estado === e).length;
+  return `<a class="paso" href="#${c.id}" style="text-decoration:none;color:inherit"><span class="capa-id">${c.id}</span><h3>${esc(PASOS[c.id]?.[0] || c.titulo)}</h3>`
+    + `<span class="ruta">${esc(PASOS[c.id]?.[1] || '')}</span><span class="estado-capa ${e}">${MARCA[e]} ${e === 'ok' ? `${c.chequeos.length} ok` : `${n} ${NOMBRE[e]}`}</span></a>`;
+}).join('');
+
+// avance
+const porEstado = Object.fromEntries(ORDEN_AV.map(e => [e, D.avance.filter(x => x.estado === e)]));
+const totalMin = D.avance.reduce((s, x) => s + x.minutos, 0);
+const h = m => (m / 60).toLocaleString('es-CL', { maximumFractionDigits: 1 });
+$('barra').innerHTML = ORDEN_AV.filter(e => porEstado[e].length).map(e => {
+  const m = porEstado[e].reduce((s, x) => s + x.minutos, 0);
+  return `<span style="width:${(m / totalMin * 100).toFixed(2)}%;background:${COLOR_AV[e]}" title="${e}: ${h(m)} h">${m / totalMin > 0.08 ? `${h(m)} h` : ''}</span>`;
+}).join('');
+$('barra').setAttribute('aria-label', ORDEN_AV.map(e => `${e}: ${h(porEstado[e].reduce((s, x) => s + x.minutos, 0))} h`).join(', '));
+$('leyenda-avance').innerHTML = ORDEN_AV.map(e => `<span><i style="background:${COLOR_AV[e]}"></i>${e}: ${porEstado[e].length} recursos · ${h(porEstado[e].reduce((s, x) => s + x.minutos, 0))} h</span>`).join('');
+const tipos = [...new Set(D.avance.map(x => x.tipo))];
+$('tabla-tipos').innerHTML = `<thead><tr><th>Tipo de recurso</th>${ORDEN_AV.map(e => `<th style="text-align:right">${e}</th>`).join('')}<th style="text-align:right">Horas</th></tr></thead><tbody>`
+  + tipos.map(t => {
+    const fs = D.avance.filter(x => x.tipo === t);
+    return `<tr><td>${esc(t)}</td>${ORDEN_AV.map(e => `<td class="num">${fs.filter(x => x.estado === e).length || '<span class="muted">·</span>'}</td>`).join('')}<td class="num">${h(fs.reduce((s, x) => s + x.minutos, 0))}</td></tr>`;
+  }).join('') + '</tbody>';
+
+// capas
+let filtroEstado = 'todos';
+function pintarCapas() {
+  $('capas').innerHTML = D.capas.map(c => {
+    const lista = c.chequeos.filter(x => filtroEstado === 'todos' || x.estado === filtroEstado);
+    if (!lista.length) return '';
+    const e = peor(c);
+    return `<article class="capa" id="${c.id}"><div class="capa-cab"><span class="capa-id mono" style="color:var(--accent);font-weight:600">${c.id}</span><h2>${esc(c.titulo)}</h2>`
+      + `<span class="chip ${e}">${MARCA[e]} ${c.chequeos.filter(x => x.estado === 'ok').length}/${c.chequeos.length} ok</span></div>`
+      + `<p class="muted">${esc(c.explica)}</p><div class="chequeos">`
+      + lista.map(x => {
+        const res = [x.errores.length && `${x.errores.length} errores`, x.avisos.length && `${x.avisos.length} avisos`, x.pendientes.length && `${x.pendientes.length} pendientes`].filter(Boolean).join(' · ') || 'ok';
+        const li = (arr, k) => arr.map(m => `<li class="${k}">${esc(m)}</li>`).join('');
+        return `<details class="ch"${x.estado === 'error' ? ' open' : ''}><summary><span class="marca ${x.estado}">${MARCA[x.estado]}</span><span class="ch-id">${x.id}</span>`
+          + `<span class="ch-titulo">${esc(x.titulo)}</span><span class="ch-resumen">${res}</span></summary>`
+          + `<div class="ch-cuerpo"><p class="muted">${esc(x.porque)}</p><ul>${li(x.errores, 'e')}${li(x.avisos, 'a')}${li(x.pendientes, 'p')}${li(x.evidencia, 'v')}</ul></div></details>`;
+      }).join('') + '</div></article>';
+  }).join('') || '<p class="muted">Ningún chequeo con ese estado.</p>';
+}
+function filtros(contenedor, opciones, actual, alCambiar) {
+  const el = $(contenedor);
+  el.innerHTML = opciones.map(([v, t]) => `<button type="button" data-v="${v}" aria-pressed="${v === actual}">${esc(t)}</button>`).join('');
+  el.addEventListener('click', ev => {
+    const b = ev.target.closest('button'); if (!b) return;
+    el.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b));
+    alCambiar(b.dataset.v);
+  });
+}
+filtros('filtro-estado', [['todos', `Todos (${r.chequeos})`], ['error', `✗ Errores (${r.error})`], ['aviso', `! Avisos (${r.aviso})`], ['pendiente', `… Pendientes (${r.pendiente})`], ['ok', `✓ Ok (${r.ok})`]],
+  'todos', v => { filtroEstado = v; pintarCapas(); });
+pintarCapas();
+
+// cobertura
+let modulo = 'M1';
+function pintarCobertura() {
+  $('cobertura').innerHTML = D.cruce.filter(x => modulo === 'todos' || x.ae.startsWith(modulo + '-')).map(x => {
+    const ch = D.capas.find(c => c.id === 'C2')?.chequeos.find(c => c.id === `C2.${x.ae}`);
+    return `<div class="ae"><div style="display:flex;justify-content:space-between;gap:0.5rem;align-items:baseline"><h3>${esc(ch?.titulo || x.ae)}</h3><span class="chip ${ch?.estado}">${MARCA[ch?.estado] || ''}</span></div>`
+      + x.codigos.map(c => `<div class="cod"><b>${c.codigo}</b><span>${esc(c.texto)}<span class="pant${c.pantallas.length ? '' : ' nada'}">${c.pantallas.length ? c.pantallas.join(' · ') : 'sin pantalla'}</span></span></div>`).join('') + '</div>';
+  }).join('');
+}
+const mods = [...new Set(D.cruce.map(x => x.ae.split('-')[0]))];
+filtros('filtro-modulo', [...mods.map(m => [m, `Módulo ${m.slice(1)}`]), ['todos', 'Todos']], modulo, v => { modulo = v; pintarCobertura(); });
+pintarCobertura();
+
+// recursos
+let filtroRec = 'todos';
+function pintarRecursos() {
+  const fs = D.avance.filter(x => filtroRec === 'todos' || x.estado === filtroRec);
+  const clase = { 'Hecho': 'ok', 'Insumo listo': 'pendiente', 'En curso': 'aviso', 'Pendiente': '' };
+  $('tabla-recursos').innerHTML = `<thead><tr><th>ID</th><th>Mód.</th><th>Tipo</th><th>Recurso</th><th style="text-align:right">Min</th><th>Estado</th><th>Nota</th></tr></thead><tbody>`
+    + fs.map(x => `<tr><td class="mono">${x.id}</td><td class="mono">M${x.modulo}</td><td>${esc(x.tipo)}</td><td>${esc(x.titulo)}</td><td class="num">${x.minutos}</td>`
+      + `<td><span class="chip ${clase[x.estado]}" ${clase[x.estado] ? '' : 'style="border:1px solid var(--line);color:var(--muted)"'}>${x.estado}</span></td><td class="muted">${esc(x.nota)}</td></tr>`).join('') + '</tbody>';
+}
+filtros('filtro-recurso', [['todos', `Todos (${D.avance.length})`], ...ORDEN_AV.map(e => [e, `${e} (${porEstado[e].length})`])], 'todos', v => { filtroRec = v; pintarRecursos(); });
+pintarRecursos();
+if (location.hash && document.querySelector(location.hash)) document.querySelector(location.hash).scrollIntoView();
+</script>

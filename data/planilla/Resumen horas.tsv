@@ -1,0 +1,25 @@
+Resumen y coherencia de horas por módulo (desglose horario)
+La RE 2.484 (IV.2.2 c) exige concordancia entre la duración total y el desglose horario. Todo en minutos, calculado desde «Recursos»; la diferencia debe ser 0.
+
+Módulo	Nombre	Horas objetivo	Min objetivo	Min Rise	Min Quiz formativo	Min Caso de aplicación	Min Hito proyecto	Min Foro	Min Video	Min Evaluación sumativa	Min Inducción/Diagnóstica	Min Resumen y glosario	Min diseñados	Diferencia (min)	Pantallas Rise	N° AE	¿Coherente?
+1.0	Introducción a la IA generativa y prompt básico	16.0	960	487.5	60	180	90	30	6	60	45	1.5	960	0	65	4	OK
+2.0	Comunicación y redacción profesional	16.0	960	532.5	60	180	90	30	6	60	0	1.5	960	0	71	4	OK
+3.0	Investigación y análisis de información	16.0	960	532.5	60	180	90	30	6	60	0	1.5	960	0	71	4	OK
+4.0	Contenido visual, sonoro y audiovisual	16.0	960	442.5	60	270	90	30	6	60	0	1.5	960	0	59	4	OK
+5.0	Automatización de tareas repetitivas	12.0	720	322.5	45	180	90	30	6	45	0	1.5	720	0	43	3	OK
+6.0	Taller de IA generativa para entornos laborales	12.0	720	217.5	45	0	360	30	6	60	0	1.5	720	0	29	3	OK
+Total		88	5280	2535	330	990	810	180	36	345	45	9	5280	0	338	22	OK
+
+Distribución del tiempo por tipo de actividad (total curso)
+Tipo		Horas	% del total
+Rise		42.25	0.4801136364
+Quiz formativo		5.5	0.0625
+Caso de aplicación		16.5	0.1875
+Hito proyecto		13.5	0.1534090909
+Foro		3	0.03409090909
+Video		0.6	0.006818181818
+Evaluación sumativa		5.75	0.06534090909
+Inducción/Diagnóstica		0.75	0.008522727273
+Resumen y glosario		0.15	0.001704545455
+Total		88	1
+Lectura: el tiempo se reparte entre estudio en Rise (≈48%) y aplicación con casos e hitos del proyecto (≈34%); el resto son quizzes, foros, videos y evaluaciones. El desglose suma exactamente las 88 h.

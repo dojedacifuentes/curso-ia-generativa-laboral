@@ -1,0 +1,63 @@
+// M1-AE3 · Parámetros de generación · quiz formativo (generado por scripts/quiz-juego.mjs)
+$CATEGORY: IA-generativa-laboral/Formativos/M1-AE3
+
+::M1-AE3-P1 (S1 S2 C1)::En AI Studio, con un modelo que respeta la temperatura, Andrés va a pasar a una tabla los montos de diez boletas. ¿Qué ajuste le conviene? {
+~Temperatura alta, porque más variación entrega una tabla más completa
+=Temperatura baja, porque la tarea tiene una respuesta acotada y exige precisión
+~Temperatura alta y top-p bajo a la vez, para equilibrar los dos efectos
+~Cualquiera, porque la temperatura solo cambia el largo de la respuesta
+####Copiar montos es una tarea de precisión\: con temperatura baja el modelo se inclina por las opciones más probables y responde de forma más consistente. Mover temperatura y top-p a la vez impide saber cuál produjo el cambio. Pantalla P08 del Rise M1-T3\: «Creatividad y precisión».
+}
+
+::M1-AE3-P2 (S1)::Un compañero de Camila le dice\: «Si subo la temperatura, el modelo va a saber más del tema». ¿Qué le responde Camila? {
+~Que tiene razón, porque con más temperatura el modelo consulta más información
+~Que tiene razón solo con valores sobre 1, que activan respuestas más expertas
+=Que no\: la temperatura no cambia lo que el modelo sabe, sino cuánto se arriesga al elegir
+####La temperatura regula cuánto azar hay al elegir cada fragmento, no el conocimiento del modelo. Más temperatura da respuestas más variadas, no más informadas. Pantalla P03 del Rise M1-T3\: «Temperatura\: por qué varían las respuestas».
+}
+
+::M1-AE3-P3 (S1 S3)::En AI Studio, Andrés elige Gemini 4 y cambia la temperatura de 0,2 a 1,5. Las salidas varían igual que antes. ¿Qué es lo más probable? {
+=Ese modelo ignora la temperatura que se envía\: el valor lo fija el proveedor
+~Debe subirla hasta 2, porque bajo ese valor el ajuste no tiene efecto
+~La temperatura ya no existe en los modelos nuevos, así que el azar desapareció
+~Cambió también el top-p sin darse cuenta, y los dos efectos se anularon
+####Los modelos Gemini 4 y Gemini 3.6 en adelante ignoran la temperatura que les envías. La temperatura sigue existiendo, pero la fija el proveedor; antes de comparar, revisa si el modelo respeta el ajuste. Pantalla P05 del Rise M1-T3\: «En los modelos más nuevos, la temperatura la fija el proveedor».
+}
+
+::M1-AE3-P4 (S1 S3)::En AI Studio, Camila baja mucho la cantidad máxima de tokens de salida. Su resumen termina a mitad de una frase. ¿Qué pasó? {
+~El modelo se ajustó al largo ideal y decidió terminar ahí
+=El tope cortó la respuesta\: limita cuánto puede escribir, aunque quede incompleta
+~La temperatura quedó demasiado alta y el modelo perdió el hilo
+~El tope funciona igual que pedir «en 50 palabras» dentro del prompt
+####El máximo de tokens de salida es un tope\: el modelo no escribe más allá y, si es muy bajo, la respuesta queda incompleta. Pedir un largo en el prompt es distinto\: orienta, pero no corta. Pantalla P06 del Rise M1-T3\: «Longitud\: cuánto escribe el modelo».
+}
+
+::M1-AE3-P5 (S2 S3 C1)::Rosa usa Gemini en el celular, sin control de temperatura, y necesita resumir el reglamento del centro médico sin que el asistente agregue nada. ¿Qué hace? {
+~Busca en los ajustes de la app el control de temperatura y lo baja a 0
+~Pide cinco versiones muy distintas entre sí y elige la más corta
+=Agrega una instrucción de precisión\: «responde solo con el texto; si algo no aparece, escribe "no indica"»
+####En las apps de chat gratuitas no hay control de temperatura, pero la instrucción puede orientar hacia la precisión. Pedir opciones muy distintas va hacia la creatividad, que no es lo que necesita esta tarea. Pantalla P09 del Rise M1-T3\: «En el celular\: instrucciones contrastadas».
+}
+
+::M1-AE3-P6 (H1 A1 C2)::Andrés compara tres versiones de un aviso. Entre una y otra cambió, al mismo tiempo, el largo y el tono. ¿Qué problema tiene su comparación? {
+~Ninguno\: cambiar todo junto ahorra intentos y da más variedad
+~Que tres salidas son pocas\: necesita al menos diez para comparar
+~Que debió usar un prompt distinto en cada versión
+=Que no sabrá cuál de los dos cambios produjo la diferencia
+####Para comparar con rigor se usa la misma consigna y se cambia una cosa a la vez. Si cambias el largo y el tono juntos, no puedes explicar qué produjo el resultado. Pantalla P11 del Rise M1-T3\: «Comparar salidas con rigor».
+}
+
+::M1-AE3-P7 (H1 C2)::Rosa compara tres recordatorios para pacientes. A\: breve y correcto, pero sin la dirección. B\: día, hora y dirección correctos, en tres líneas. C\: el más completo y cálido, pero cambia la hora. ¿Cuál elige? {
+~La A, porque es la más breve y se lee más rápido
+=La B, porque cumple el objetivo con datos correctos y un largo adecuado
+~La C, porque es la que entrega más información y mejor tono
+~Cualquiera, porque las tres salieron del mismo prompt
+####La mejor salida es la que cumple el objetivo con los datos correctos y el largo que el lector necesita. La C se ve más completa, pero con la hora cambiada no sirve. Pantalla P15 del Rise M1-T3\: «Elegir la mejor salida con fundamento».
+}
+
+::M1-AE3-P8 (A1 H1)::Andrés anota en su tabla de registro solo la versión que eligió y borra las otras dos. ¿Qué pierde? {
+=Lo que enseñan las descartadas\: qué ajuste no sirvió para esa tarea
+~Nada importante, porque lo que sirve es la versión ganadora
+~La posibilidad de regenerar ese prompt más adelante
+####Las salidas descartadas también enseñan, porque muestran qué ajuste no funcionó. Registrarlas todas permite repetir el experimento y explicar la elección. Pantalla P14 del Rise M1-T3\: «Tu tabla de registro».
+}

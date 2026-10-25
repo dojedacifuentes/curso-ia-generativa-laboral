@@ -1,0 +1,162 @@
+[
+  {
+    "grupo": "proceso",
+    "nombre": "01-PROCESO",
+    "titulo": "Proceso de producción del curso «IA generativa para entornos laborales»"
+  },
+  {
+    "grupo": "proceso",
+    "nombre": "02-PLAYBOOK-PRODUCCION",
+    "titulo": "Playbook de producción · IA generativa para entornos laborales"
+  },
+  {
+    "grupo": "proceso",
+    "nombre": "03-WORKFLOW",
+    "titulo": "Workflow · investigación → contenido, módulo por módulo"
+  },
+  {
+    "grupo": "proceso",
+    "nombre": "04-FORMATO-CONTENIDO-BASE",
+    "titulo": "Formato del contenido base"
+  },
+  {
+    "grupo": "proceso",
+    "nombre": "05-FORMATO-QUIZ",
+    "titulo": "Formato del quiz formativo (quiz juego SCORM)"
+  },
+  {
+    "grupo": "proceso",
+    "nombre": "06-FORMATO-INFOGRAFIA",
+    "titulo": "Formato de la infografía del módulo"
+  },
+  {
+    "grupo": "proceso",
+    "nombre": "07-FORMATO-CASO",
+    "titulo": "Formato de los casos de aplicación (empresas reales)"
+  },
+  {
+    "grupo": "proceso",
+    "nombre": "08-BRIEF-REDACCION",
+    "titulo": "Brief para redactar el contenido base de un AE"
+  },
+  {
+    "grupo": "proceso",
+    "nombre": "09-PERSONAJES",
+    "titulo": "Personajes del curso"
+  },
+  {
+    "grupo": "proceso",
+    "nombre": "10-CORRESPONDENCIA",
+    "titulo": "Correspondencia contenido ↔ planilla"
+  },
+  {
+    "grupo": "proceso",
+    "nombre": "11-CORRESPONDENCIA-FONDO",
+    "titulo": "Correspondencia de fondo: contenido base ↔ planilla"
+  },
+  {
+    "grupo": "proceso",
+    "nombre": "12-AUDITORIA",
+    "titulo": "Auditoría del curso «IA generativa para entornos laborales»"
+  },
+  {
+    "grupo": "proceso",
+    "nombre": "13-PENDIENTES-VERIFICACION",
+    "titulo": "Pendientes de verificación"
+  },
+  {
+    "grupo": "investigacion",
+    "nombre": "01-M1",
+    "titulo": "Investigación M1 · Introducción a la IA generativa y prompt básico"
+  },
+  {
+    "grupo": "investigacion",
+    "nombre": "02-M2",
+    "titulo": "Investigación M2 · Comunicación y redacción profesional"
+  },
+  {
+    "grupo": "investigacion",
+    "nombre": "03-M3",
+    "titulo": "Investigación M3 · Investigación y análisis de información"
+  },
+  {
+    "grupo": "investigacion",
+    "nombre": "04-M4",
+    "titulo": "Investigación M4 · Contenido visual, sonoro y audiovisual"
+  },
+  {
+    "grupo": "investigacion",
+    "nombre": "05-M5",
+    "titulo": "Investigación M5 · Automatización de tareas repetitivas"
+  },
+  {
+    "grupo": "investigacion",
+    "nombre": "06-M6",
+    "titulo": "Investigación M6 · Taller de IA generativa para entornos laborales"
+  },
+  {
+    "grupo": "investigacion",
+    "nombre": "07-HERRAMIENTAS-1",
+    "titulo": "Herramientas · parte 1 (asistentes, parámetros, investigación, ofimática)"
+  },
+  {
+    "grupo": "investigacion",
+    "nombre": "08-HERRAMIENTAS-2",
+    "titulo": "Herramientas · parte 2 (multimedia y automatización)"
+  },
+  {
+    "grupo": "fichas-casos",
+    "nombre": "Ficha-M1-C1",
+    "titulo": "Verificación M1-C1 · Asistente de IA para asesores financieros (Morgan Stanley)"
+  },
+  {
+    "grupo": "fichas-casos",
+    "nombre": "Ficha-M1-C2",
+    "titulo": "Verificación M1-C2 · Cuando la IA inventa: abogados y jurisprudencia inexistente (Mata v. Avianca, 2023) y chatbot de Air Canada (2024)"
+  },
+  {
+    "grupo": "fichas-casos",
+    "nombre": "Ficha-M2-C1",
+    "titulo": "Verificación M2-C1 · Comunicación con clientes redactada con apoyo de IA (Octopus Energy)"
+  },
+  {
+    "grupo": "fichas-casos",
+    "nombre": "Ficha-M2-C2",
+    "titulo": "Verificación M2-C2 · Asistente de IA en herramientas de oficina para equipos (Vodafone y Microsoft 365 Copilot)"
+  },
+  {
+    "grupo": "fichas-casos",
+    "nombre": "Ficha-M3-C1",
+    "titulo": "Verificación M3-C1 · Informe con referencias inexistentes generadas por IA (Deloitte Australia, 2025)"
+  },
+  {
+    "grupo": "fichas-casos",
+    "nombre": "Ficha-M3-C2",
+    "titulo": "Verificación M3-C2 · Información confidencial ingresada a una herramienta de IA (Samsung, 2023)"
+  },
+  {
+    "grupo": "fichas-casos",
+    "nombre": "Ficha-M4-C1",
+    "titulo": "Verificación M4-C1 · Campañas de marca hechas con IA generativa (Coca-Cola, 2023 y 2024)"
+  },
+  {
+    "grupo": "fichas-casos",
+    "nombre": "Ficha-M4-C2",
+    "titulo": "Verificación M4-C2 · Voz sintética y consentimiento (disputa Scarlett Johansson – OpenAI, 2024)"
+  },
+  {
+    "grupo": "fichas-casos",
+    "nombre": "Ficha-M4-C3",
+    "titulo": "Verificación M4-C3 · Licencias y datos de entrenamiento (Getty Images v. Stability AI)"
+  },
+  {
+    "grupo": "fichas-casos",
+    "nombre": "Ficha-M5-C1",
+    "titulo": "Verificación M5-C1 · Automatización de la atención al cliente con IA (Klarna)"
+  },
+  {
+    "grupo": "fichas-casos",
+    "nombre": "Ficha-M5-C2",
+    "titulo": "Verificación M5-C2 · Estrategia «AI-first» y sus efectos sobre el trabajo (Duolingo, 2025)"
+  }
+]

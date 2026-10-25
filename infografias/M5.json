@@ -1,0 +1,40 @@
+{
+  "modulo": 5,
+  "recurso": "R084",
+  "titulo": "Matriz impacto–riesgo para priorizar tareas a automatizar",
+  "bajada": "Antes de automatizar, elimina lo innecesario y simplifica. Luego cruza impacto y riesgo: qué va primero y qué necesita a una persona.",
+  "tipo": "matriz",
+  "ejes": { "x": "Impacto", "y": "Riesgo" },
+  "bloques": [
+    {
+      "icono": "triangle-alert",
+      "titulo": "No automatices",
+      "texto": "**Impacto bajo, riesgo alto.** No vale la pena el riesgo.",
+      "ejemplo": "Armar los turnos del equipo: datos personales y efecto en las personas.",
+      "ver": ["M5-AE1 P11", "M5-AE1 P12"]
+    },
+    {
+      "icono": "user-check",
+      "titulo": "Con supervisión",
+      "texto": "**Impacto alto, riesgo alto.** No es un no: automatiza solo la parte de menor riesgo y deja la decisión a una persona.",
+      "ejemplo": "Avisar a clientes cuando un despacho se atrasa.",
+      "ver": ["M5-AE1 P11", "M5-AE1 P12"]
+    },
+    {
+      "icono": "calendar-range",
+      "titulo": "Si sobra tiempo",
+      "texto": "**Impacto bajo, riesgo bajo.** Puede esperar.",
+      "ejemplo": "Enviar el reporte semanal a la jefatura, ya simplificado.",
+      "ver": ["M5-AE1 P11", "M5-AE1 P12"]
+    },
+    {
+      "icono": "rocket",
+      "titulo": "Empieza aquí",
+      "texto": "**Impacto alto, riesgo bajo.** Automatiza primero. Si dos tareas quedan aquí, elige la que te cueste menos poner en marcha.",
+      "ejemplo": "Avisar a vendedores cuando un producto baja del mínimo.",
+      "ver": ["M5-AE1 P11", "M5-AE1 P12"]
+    }
+  ],
+  "clave": "**Impacto:** ¿se repite seguido?, ¿te quita tiempo?, ¿mejora algo para otras personas? **Riesgo:** ¿usa datos personales?, ¿afecta a personas, dinero o plazos?, ¿cuesta ver el error a tiempo? **Dos o tres «sí» = alto.**",
+  "pie": "Basado en M5-AE1 (pantallas P08 a P12)"
+}

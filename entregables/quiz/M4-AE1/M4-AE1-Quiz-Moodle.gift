@@ -1,0 +1,66 @@
+// M4-AE1 · Ecosistema multimedia con IA · quiz formativo (generado por scripts/quiz-juego.mjs)
+$CATEGORY: IA-generativa-laboral/Formativos/M4-AE1
+
+::M4-AE1-P1 (S1 C1)::Camila debe preparar un afiche, una locución y un clip para la pantalla de recepción de su oficina. ¿Qué conclusión es correcta antes de elegir herramientas? {
+~Le basta una herramienta de imagen, porque un clip es una sucesión de imágenes
+=Cada tipo de pieza pide su propia herramienta y se relaciona con obras protegidas distintas
+~Conviene usar para todo la herramienta que hace las imágenes más bonitas
+~El tipo de pieza no importa, porque todas las herramientas siguen las mismas reglas
+####El tipo de pieza define qué herramienta necesitas y con qué obras protegidas se relaciona\: imagen, audio y video tienen reglas distintas. La calidad visual es solo un criterio y no resuelve la voz ni el montaje. Pantalla P02 del Rise M4-T1\: «Un mismo método para imagen, audio y video».
+}
+
+::M4-AE1-P2 (S4)::Andrés afirma\: «No necesito avisar que la imagen del afiche se hizo con IA\: el archivo ya trae una marca de procedencia». ¿Qué evaluación es correcta? {
+~Verdadero, porque la marca de procedencia avisa sola a quien vea la imagen
+~Verdadero, porque declarar el uso de IA es opcional en una pieza de trabajo
+=Falso\: esos metadatos pueden perderse al editar, compartir o capturar la pantalla, y ocultar el uso de IA es un riesgo
+~Falso, porque ninguna herramienta agrega marcas de procedencia a sus imágenes
+####Algunas herramientas agregan marcas, pero se pueden alterar al editar y las redes o una captura las borran. Confiar en que el archivo «ya lo dice» y ocultar el uso de IA daña la confianza. Pantalla P12 del Rise M4-T1\: «Riesgos reputacionales y dos casos de cambio».
+}
+
+::M4-AE1-P3 (S2 C2)::Para el boletín interno, Camila encuentra una foto con licencia CC BY-ND. Quiere cambiarle los colores y escribirle un título encima. ¿Puede hacerlo? {
+~Sí, siempre que dé crédito, porque todas las licencias CC incluyen BY
+=No, porque ND no permite modificar la obra ni crear otra a partir de ella
+~Sí, porque ND solo prohíbe los usos comerciales
+~No, porque las licencias CC no permiten ningún uso sin pagar
+####ND significa «sin derivadas»\: la foto se puede compartir con crédito, pero no modificar. Dar crédito cumple BY, no ND; el uso no comercial corresponde a NC. Pantalla P05 del Rise M4-T1\: «Licencias Creative Commons».
+}
+
+::M4-AE1-P4 (S2 C2)::Andrés generó una imagen con una herramienta gratuita y quiere usarla en un afiche para los clientes de su empresa. ¿Dónde confirma si puede hacerlo? {
+~En la publicidad de la página de inicio de la herramienta
+=En los términos de uso\: quién es dueño, qué usos permite, qué prohíbe y qué garantías da
+~En una licencia Creative Commons que acompaña a toda imagen generada
+~En ninguna parte\: si la herramienta es gratis, puede hacer lo que quiera con la imagen
+####Para lo que genera una herramienta de IA, los permisos están en sus términos de uso, y ese texto manda. Que no cobre no significa que no ponga condiciones. Pantalla P07 del Rise M4-T1\: «Términos de uso\: las reglas de lo que generas».
+}
+
+::M4-AE1-P5 (H1 C1 C2)::Una tienda de barrio le pide a Camila un video para mostrar a sus clientes en la caja; el video no se vende. Duda entre dos herramientas. ¿Cuál le conviene? {
+~Una con licencia no comercial, porque el video no se vende
+=Una que permita uso comercial, porque una pieza para clientes puede considerarse uso comercial
+~Cualquiera, porque lo generado con IA no tiene dueño
+~Una con licencia no comercial, siempre que le quite la marca de agua
+####Las piezas que una empresa usa con sus clientes, aunque no se vendan, pueden considerarse uso comercial. Ante la duda, se elige una herramienta que permita ese uso; que el video no se venda no lo vuelve no comercial. Pantalla P13 del Rise M4-T1\: «Análisis comparativo\: el caso de Rosa».
+}
+
+::M4-AE1-P6 (S4)::Rosa publicó un afiche cuya ilustración resultó casi igual a un personaje protegido. Dice\: «No lo hice a propósito, así que no hay problema». ¿Qué evaluación es correcta? {
+~Verdadero, porque sin intención no hay infracción
+~Verdadero, porque el riesgo es solo de quien desarrolló la herramienta
+=Falso, porque en muchos países se infringe aunque no haya intención, y el riesgo recae también en quien la usa
+~Falso, pero basta con dar crédito al dueño del personaje para resolverlo
+####La OMPI advierte que se puede infringir el derecho de autor sin intención, y quien publica también asume el riesgo. Dar crédito no autoriza a copiar un personaje protegido. Pantalla P11 del Rise M4-T1\: «Riesgos legales».
+}
+
+::M4-AE1-P7 (S3 A1)::Andrés recortó una foto y la usó con este crédito\: «"Bodega ordenada", de Luis Pérez, CC BY 4.0 (enlace)». ¿Qué le falta según la fórmula TASL? {
+~Nada\: tiene título, autor y licencia
+=La fuente, con el enlace a la obra original, y el aviso de que la recortó
+~Nombrar a Creative Commons como autora de la foto
+~Solo el año en que se tomó la foto
+####TASL pide título, autor, fuente (enlace a la obra) y licencia, y si modificaste la obra hay que decirlo. Creative Commons no es la autora\: es quien propone la licencia. Pantalla P10 del Rise M4-T1\: «Atribución\: dar crédito bien».
+}
+
+::M4-AE1-P8 (H2 C2)::En su ficha de uso ético, Andrés escribió\: «Herramientas y plan\: una app de imágenes». ¿Qué le falta a ese campo? {
+~Nada, porque la ficha es solo un trámite
+~Los prompts principales que usó
+=El nombre de la herramienta, su plan y la fecha en que revisó sus condiciones
+~Los permisos de las personas que aparecen en la imagen
+####Ese campo pide nombre, plan (gratuito o pagado) y fecha de revisión, porque las condiciones cambian. Los prompts y los permisos también van en la ficha, pero en otros campos. Pantalla P14 del Rise M4-T1\: «La ficha de uso ético».
+}

@@ -1,0 +1,105 @@
+Recursos por módulo (en orden de aprendizaje)
+Cada fila es un recurso producible. Duración en minutos calculada con los parámetros. Estado y responsable se editan.
+
+ID	Módulo	Orden	Tipo	Recurso / título	AE que trabaja	Duración (min)	Cuenta en horas	Interacción facilitador/tutor	Formato / herramienta	Responsable	Archivo o guion	Estado
+R001	1.0	1	Inducción/Diagnóstica	Inducción tecnológica-metodológica (video) + Guía del participante + Evaluación diagnóstica	—	45	Sí	No	Video + PDF + cuestionario	Diseño instruccional		Pendiente
+R002	1.0	2	Video	Video de bienvenida M1 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto	—	3	Sí	No	Video con avatar/locución	Diseño instruccional		Pendiente
+R003	1.0	3	Rise	Rise M1-T1 · Fundamentos de IA generativa	M1-AE1	120	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R004	1.0	4	Quiz formativo	Quiz formativo M1-AE1 · Fundamentos de IA generativa	M1-AE1	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R005	1.0	5	Rise	Rise M1-T2 · Prompts efectivos	M1-AE2	120	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R006	1.0	6	Quiz formativo	Quiz formativo M1-AE2 · Prompts efectivos	M1-AE2	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R007	1.0	7	Rise	Rise M1-T3 · Parámetros de generación	M1-AE3	120	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R008	1.0	8	Quiz formativo	Quiz formativo M1-AE3 · Parámetros de generación	M1-AE3	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R009	1.0	9	Rise	Rise M1-T4 · Validación de resultados	M1-AE4	127.5	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R010	1.0	10	Quiz formativo	Quiz formativo M1-AE4 · Validación de resultados	M1-AE4	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R011	1.0	11	Hito proyecto	Proyecto aplicado · Hito 1: problema u oportunidad real + biblioteca de prompts v1	M1-AE1; M1-AE2	90	Sí	Sí	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R012	1.0	12	Caso de aplicación	Caso M1-C1 · Asistente de IA para asesores financieros (Morgan Stanley)	M1-AE2; M1-AE3	90	Sí	No	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R013	1.0	13	Caso de aplicación	Caso M1-C2 · Cuando la IA inventa: abogados y jurisprudencia inexistente (Mata v. Avianca, 2023) y chatbot de Air Canada (2024)	M1-AE4	90	Sí	No	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R014	1.0	14	Foro	Foro M1: discusión guiada del módulo (tutor responde en <24 h hábiles)	M1-AE1; M1-AE2; M1-AE3; M1-AE4	30	Sí	Sí	Foro Moodle	Diseño instruccional		Pendiente
+R015	1.0	15	Video	Video de resumen M1 (3 min): ideas clave y conexión con el siguiente módulo	—	3	Sí	No	Video con avatar/locución	Diseño instruccional		Pendiente
+R016	1.0	16	Resumen y glosario	Resumen y glosario del módulo M1 (página; lectura 1,5 min)	—	1.5	Sí	No	Página Moodle	Diseño instruccional		Pendiente
+R017	1.0	17	Complemento	Infografía M1: Anatomía de un prompt efectivo (rol · contexto · tarea · formato)	—	0.0	No	No	Infografía (imagen)	Diseño instruccional		Pendiente
+R018	1.0	18	Evaluación sumativa	Evaluación sumativa M1	M1-AE1; M1-AE2; M1-AE3; M1-AE4	60.0	Sí	No	Cuestionario Moodle con retroalimentación automática	Diseño instruccional		Pendiente
+R019	2.0	1	Video	Video de bienvenida M2 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto	—	3	Sí	No	Video con avatar/locución	Diseño instruccional		Pendiente
+R020	2.0	2	Rise	Rise M2-T1 · Redacción y comunicación con IA	M2-AE1	135	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R021	2.0	3	Quiz formativo	Quiz formativo M2-AE1 · Redacción y comunicación con IA	M2-AE1	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R022	2.0	4	Rise	Rise M2-T2 · Prompting avanzado para textos	M2-AE2	135	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R023	2.0	5	Quiz formativo	Quiz formativo M2-AE2 · Prompting avanzado para textos	M2-AE2	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R024	2.0	6	Rise	Rise M2-T3 · Presentaciones con IA	M2-AE3	127.5	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R025	2.0	7	Quiz formativo	Quiz formativo M2-AE3 · Presentaciones con IA	M2-AE3	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R026	2.0	8	Rise	Rise M2-T4 · Planillas de cálculo con IA	M2-AE4	135	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R027	2.0	9	Quiz formativo	Quiz formativo M2-AE4 · Planillas de cálculo con IA	M2-AE4	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R028	2.0	10	Hito proyecto	Proyecto aplicado · Hito 2: brief del proyecto + presentación de 6 láminas	M2-AE1; M2-AE3	90	Sí	Sí	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R029	2.0	11	Caso de aplicación	Caso M2-C1 · Comunicación con clientes redactada con apoyo de IA (Octopus Energy)	M2-AE1; M2-AE2	90	Sí	No	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R030	2.0	12	Caso de aplicación	Caso M2-C2 · Asistente de IA en herramientas de oficina para equipos (Vodafone y Microsoft 365 Copilot)	M2-AE3; M2-AE4	90	Sí	No	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R031	2.0	13	Foro	Foro M2: discusión guiada del módulo (tutor responde en <24 h hábiles)	M2-AE1; M2-AE2; M2-AE3; M2-AE4	30	Sí	Sí	Foro Moodle	Diseño instruccional		Pendiente
+R032	2.0	14	Video	Video de resumen M2 (3 min): ideas clave y conexión con el siguiente módulo	—	3	Sí	No	Video con avatar/locución	Diseño instruccional		Pendiente
+R033	2.0	15	Resumen y glosario	Resumen y glosario del módulo M2 (página; lectura 1,5 min)	—	1.5	Sí	No	Página Moodle	Diseño instruccional		Pendiente
+R034	2.0	16	Complemento	Infografía M2: Flujo de redacción aumentada (borrador → ajuste → verificación)	—	0.0	No	No	Infografía (imagen)	Diseño instruccional		Pendiente
+R035	2.0	17	Evaluación sumativa	Evaluación sumativa M2	M2-AE1; M2-AE2; M2-AE3; M2-AE4	60.0	Sí	No	Cuestionario Moodle con retroalimentación automática	Diseño instruccional		Pendiente
+R036	3.0	1	Video	Video de bienvenida M3 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto	—	3	Sí	No	Video con avatar/locución	Diseño instruccional		Pendiente
+R037	3.0	2	Rise	Rise M3-T1 · Herramientas de IA para investigar	M3-AE1	135	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R038	3.0	3	Quiz formativo	Quiz formativo M3-AE1 · Herramientas de IA para investigar	M3-AE1	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R039	3.0	4	Rise	Rise M3-T2 · Recopilar, validar y sintetizar	M3-AE2	135	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R040	3.0	5	Quiz formativo	Quiz formativo M3-AE2 · Recopilar, validar y sintetizar	M3-AE2	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R041	3.0	6	Rise	Rise M3-T3 · Organizar y presentar información	M3-AE3	127.5	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R042	3.0	7	Quiz formativo	Quiz formativo M3-AE3 · Organizar y presentar información	M3-AE3	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R043	3.0	8	Rise	Rise M3-T4 · Análisis crítico y privacidad	M3-AE4	135	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R044	3.0	9	Quiz formativo	Quiz formativo M3-AE4 · Análisis crítico y privacidad	M3-AE4	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R045	3.0	10	Hito proyecto	Proyecto aplicado · Hito 3: investigación validada con fuentes (informe breve)	M3-AE1; M3-AE3	90	Sí	Sí	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R046	3.0	11	Caso de aplicación	Caso M3-C1 · Informe con referencias inexistentes generadas por IA (Deloitte Australia, 2025)	M3-AE2; M3-AE4	90	Sí	No	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R047	3.0	12	Caso de aplicación	Caso M3-C2 · Información confidencial ingresada a una herramienta de IA (Samsung, 2023)	M3-AE4	90	Sí	No	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R048	3.0	13	Foro	Foro M3: discusión guiada del módulo (tutor responde en <24 h hábiles)	M3-AE1; M3-AE2; M3-AE3; M3-AE4	30	Sí	Sí	Foro Moodle	Diseño instruccional		Pendiente
+R049	3.0	14	Video	Video de resumen M3 (3 min): ideas clave y conexión con el siguiente módulo	—	3	Sí	No	Video con avatar/locución	Diseño instruccional		Pendiente
+R050	3.0	15	Resumen y glosario	Resumen y glosario del módulo M3 (página; lectura 1,5 min)	—	1.5	Sí	No	Página Moodle	Diseño instruccional		Pendiente
+R051	3.0	16	Complemento	Infografía M3: Ruta de una investigación verificada (buscar · contrastar · sintetizar · citar)	—	0.0	No	No	Infografía (imagen)	Diseño instruccional		Pendiente
+R052	3.0	17	Evaluación sumativa	Evaluación sumativa M3	M3-AE1; M3-AE2; M3-AE3; M3-AE4	60.0	Sí	No	Cuestionario Moodle con retroalimentación automática	Diseño instruccional		Pendiente
+R053	4.0	1	Video	Video de bienvenida M4 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto	—	3	Sí	No	Video con avatar/locución	Diseño instruccional		Pendiente
+R054	4.0	2	Rise	Rise M4-T1 · Ecosistema multimedia con IA	M4-AE1	112.5	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R055	4.0	3	Quiz formativo	Quiz formativo M4-AE1 · Ecosistema multimedia con IA	M4-AE1	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R056	4.0	4	Rise	Rise M4-T2 · Imágenes y gráficos	M4-AE2	112.5	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R057	4.0	5	Quiz formativo	Quiz formativo M4-AE2 · Imágenes y gráficos	M4-AE2	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R058	4.0	6	Rise	Rise M4-T3 · Audio y música	M4-AE3	105	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R059	4.0	7	Quiz formativo	Quiz formativo M4-AE3 · Audio y música	M4-AE3	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R060	4.0	8	Rise	Rise M4-T4 · Clips y video breve	M4-AE4	112.5	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R061	4.0	9	Quiz formativo	Quiz formativo M4-AE4 · Clips y video breve	M4-AE4	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R062	4.0	10	Hito proyecto	Proyecto aplicado · Hito 4: pieza multimedia que comunica la solución	M4-AE2; M4-AE4	90	Sí	Sí	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R063	4.0	11	Caso de aplicación	Caso M4-C1 · Campañas de marca hechas con IA generativa (Coca-Cola, 2023 y 2024)	M4-AE2; M4-AE4	90	Sí	No	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R064	4.0	12	Caso de aplicación	Caso M4-C2 · Voz sintética y consentimiento (disputa Scarlett Johansson – OpenAI, 2024)	M4-AE3	90	Sí	No	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R065	4.0	13	Caso de aplicación	Caso M4-C3 · Licencias y datos de entrenamiento (Getty Images v. Stability AI)	M4-AE1	90	Sí	No	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R066	4.0	14	Foro	Foro M4: discusión guiada del módulo (tutor responde en <24 h hábiles)	M4-AE1; M4-AE2; M4-AE3; M4-AE4	30	Sí	Sí	Foro Moodle	Diseño instruccional		Pendiente
+R067	4.0	15	Video	Video de resumen M4 (3 min): ideas clave y conexión con el siguiente módulo	—	3	Sí	No	Video con avatar/locución	Diseño instruccional		Pendiente
+R068	4.0	16	Resumen y glosario	Resumen y glosario del módulo M4 (página; lectura 1,5 min)	—	1.5	Sí	No	Página Moodle	Diseño instruccional		Pendiente
+R069	4.0	17	Complemento	Infografía M4: Mapa del ecosistema multimedia con IA y semáforo de licencias	—	0.0	No	No	Infografía (imagen)	Diseño instruccional		Pendiente
+R070	4.0	18	Evaluación sumativa	Evaluación sumativa M4	M4-AE1; M4-AE2; M4-AE3; M4-AE4	60.0	Sí	No	Cuestionario Moodle con retroalimentación automática	Diseño instruccional		Pendiente
+R071	5.0	1	Video	Video de bienvenida M5 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto	—	3	Sí	No	Video con avatar/locución	Diseño instruccional		Pendiente
+R072	5.0	2	Rise	Rise M5-T1 · Potencial de automatización	M5-AE1	112.5	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R073	5.0	3	Quiz formativo	Quiz formativo M5-AE1 · Potencial de automatización	M5-AE1	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R074	5.0	4	Rise	Rise M5-T2 · Flujos simples con IA	M5-AE2	105	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R075	5.0	5	Quiz formativo	Quiz formativo M5-AE2 · Flujos simples con IA	M5-AE2	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R076	5.0	6	Rise	Rise M5-T3 · Supervisión humana y riesgos	M5-AE3	105	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R077	5.0	7	Quiz formativo	Quiz formativo M5-AE3 · Supervisión humana y riesgos	M5-AE3	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R078	5.0	8	Hito proyecto	Proyecto aplicado · Hito 5: prototipo de automatización de un paso del proceso, con supervisión humana	M5-AE2; M5-AE3	90	Sí	Sí	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R079	5.0	9	Caso de aplicación	Caso M5-C1 · Automatización de la atención al cliente con IA (Klarna)	M5-AE1; M5-AE3	90	Sí	No	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R080	5.0	10	Caso de aplicación	Caso M5-C2 · Estrategia «AI-first» y sus efectos sobre el trabajo (Duolingo, 2025)	M5-AE1; M5-AE3	90	Sí	No	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R081	5.0	11	Foro	Foro M5: discusión guiada del módulo (tutor responde en <24 h hábiles)	M5-AE1; M5-AE2; M5-AE3	30	Sí	Sí	Foro Moodle	Diseño instruccional		Pendiente
+R082	5.0	12	Video	Video de resumen M5 (3 min): ideas clave y conexión con el siguiente módulo	—	3	Sí	No	Video con avatar/locución	Diseño instruccional		Pendiente
+R083	5.0	13	Resumen y glosario	Resumen y glosario del módulo M5 (página; lectura 1,5 min)	—	1.5	Sí	No	Página Moodle	Diseño instruccional		Pendiente
+R084	5.0	14	Complemento	Infografía M5: Matriz impacto–riesgo para priorizar tareas a automatizar	—	0.0	No	No	Infografía (imagen)	Diseño instruccional		Pendiente
+R085	5.0	15	Evaluación sumativa	Evaluación sumativa M5	M5-AE1; M5-AE2; M5-AE3	45.0	Sí	No	Cuestionario Moodle con retroalimentación automática	Diseño instruccional		Pendiente
+R086	6.0	1	Video	Video de bienvenida M6 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto	—	3	Sí	No	Video con avatar/locución	Diseño instruccional		Pendiente
+R087	6.0	2	Rise	Rise M6-T1 · Oportunidad de mejora con IA	M6-AE1	75	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R088	6.0	3	Quiz formativo	Quiz formativo M6-AE1 · Oportunidad de mejora con IA	M6-AE1	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R089	6.0	4	Rise	Rise M6-T2 · Implementar el flujo	M6-AE2	75	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R090	6.0	5	Quiz formativo	Quiz formativo M6-AE2 · Implementar el flujo	M6-AE2	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R091	6.0	6	Rise	Rise M6-T3 · Resultados y aprendizajes	M6-AE3	67.5	Sí	No	Rise (pantallas)	Diseño instruccional		Pendiente
+R092	6.0	7	Quiz formativo	Quiz formativo M6-AE3 · Resultados y aprendizajes	M6-AE3	15	Sí	No	Quiz automatizado con retroalimentación + acción remedial	Diseño instruccional		Pendiente
+R093	6.0	8	Hito proyecto	Proyecto aplicado · Hito 6a: diagnóstico, meta y plan de medición	M6-AE1	90	Sí	Sí	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R094	6.0	9	Hito proyecto	Proyecto aplicado · Hito 6b: implementación del flujo	M6-AE2	90	Sí	Sí	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R095	6.0	10	Hito proyecto	Proyecto aplicado · Hito 6c: medición de resultados y ajustes	M6-AE3	90	Sí	Sí	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R096	6.0	11	Hito proyecto	Proyecto aplicado · Hito 6d: pitch y portafolio final (insumo del Demo Day)	M6-AE3	90	Sí	Sí	Rise + actividad (caso) / entrega con rúbrica (hito)	Diseño instruccional		Pendiente
+R097	6.0	12	Foro	Foro M6: discusión guiada del módulo (tutor responde en <24 h hábiles)	M6-AE1; M6-AE2; M6-AE3	30	Sí	Sí	Foro Moodle	Diseño instruccional		Pendiente
+R098	6.0	13	Video	Video de resumen M6 (3 min): ideas clave y conexión con el siguiente módulo	—	3	Sí	No	Video con avatar/locución	Diseño instruccional		Pendiente
+R099	6.0	14	Resumen y glosario	Resumen y glosario del módulo M6 (página; lectura 1,5 min)	—	1.5	Sí	No	Página Moodle	Diseño instruccional		Pendiente
+R100	6.0	15	Complemento	Infografía M6: Ciclo del proyecto aplicado (oportunidad → flujo → medición → pitch)	—	0.0	No	No	Infografía (imagen)	Diseño instruccional		Pendiente
+R101	6.0	16	Evaluación sumativa	Evaluación sumativa M6 (evaluación final integradora del curso)	M6-AE1; M6-AE2; M6-AE3	60.0	Sí	No	Cuestionario Moodle con retroalimentación automática	Diseño instruccional		Pendiente

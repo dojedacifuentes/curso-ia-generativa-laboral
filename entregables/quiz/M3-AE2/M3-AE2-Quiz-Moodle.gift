@@ -1,0 +1,66 @@
+// M3-AE2 · Recopilar, validar y sintetizar · quiz formativo (generado por scripts/quiz-juego.mjs)
+$CATEGORY: IA-generativa-laboral/Formativos/M3-AE2
+
+::M3-AE2-P1 (S1 C1)::Camila encuentra una página con logo profesional y una lista de referencias académicas, pero no dice quién la escribe ni qué institución la publica. ¿Cómo evalúa la autoría? {
+~Alta, porque las referencias académicas muestran que quien escribe conoce el tema a fondo
+~Alta, porque el logo, el diseño y el dominio del sitio se ven profesionales
+=Averigua fuera del sitio quién la publica; mientras tanto, sus datos necesitan otro respaldo
+~La descarta de inmediato y sin revisarla, porque una fuente sin autor nunca aporta
+####La autoría se comprueba averiguando quién publica, con lectura lateral, no mirando cómo se ve la página\: las referencias y el aspecto académico se pueden imitar. Una fuente sin autor no se puede evaluar, por eso necesita respaldo. Pantalla P04 del Rise M3-T2\: «Autoría\: quién responde por la información».
+}
+
+::M3-AE2-P2 (S1 C1)::¿En cuál de estas preguntas de investigación pesa más la fecha de la fuente? {
+~¿Qué significa «stock de seguridad»?
+=¿Qué requisitos pide hoy un trámite municipal para abrir una bodega?
+~¿Cómo se arma una lista de verificación para revisar un pedido?
+~¿Qué es triangular fuentes?
+####En normas, montos y trámites la fecha es decisiva, porque cambian. Para una definición o un método, una fuente antigua puede seguir sirviendo si el método no cambió. Pantalla P05 del Rise M3-T2\: «Fecha\: ¿está vigente para mi pregunta?».
+}
+
+::M3-AE2-P3 (S1 C1)::Una nota de prensa dice que, según una encuesta de un organismo público, la mitad de las pymes tuvo quiebres de stock. Andrés quiere usar el dato. ¿Qué revisa para el respaldo? {
+~Que el medio que publicó la nota sea reconocido
+=Que puede llegar a la encuesta original y que dice lo mismo, sin recortes ni condiciones perdidas
+~Que otros tres sitios repitan la misma cifra
+~Que un asistente le confirme que la cifra es correcta
+####El respaldo se revisa siguiendo el dato hacia atrás hasta la fuente primaria que lo produjo. Un medio reconocido habla de la autoría de la nota, no del origen del dato, y la confirmación de un asistente no es respaldo. Pantalla P06 del Rise M3-T2\: «Respaldo\: ¿de dónde sale el dato?».
+}
+
+::M3-AE2-P4 (S1 C1)::«Rosa debe descartar el blog de una empresa que vende software de agenda, aunque trae información sobre inasistencia.» ¿Es verdadero o falso? {
+~Verdadero, porque una fuente con propósito comercial nunca es confiable
+~Verdadero, porque el propósito pesa más que la autoría, la fecha y el respaldo
+=Falso, porque puede separar los datos verificables de la promoción y buscar respaldo para los primeros
+~Falso, porque las empresas que venden software publican datos exactos
+####El propósito comercial no invalida todo lo que dice una fuente\: obliga a separar hechos de promoción y a respaldar los hechos. Tampoco garantiza exactitud, por eso la opción d falla. Pantalla P07 del Rise M3-T2\: «Propósito y relevancia\: para qué y para quién se escribió».
+}
+
+::M3-AE2-P5 (S2 H1)::Tres notas de prensa dicen lo mismo sobre los recordatorios de horas, y las tres citan el mismo informe. ¿Qué concluye Rosa? {
+~Está confirmado, porque tres medios distintos llegaron a la misma conclusión
+=Tiene una sola fuente contada tres veces\: debe ir al informe y buscar otra independiente
+~Puede sumar como cuarta fuente el resumen que le hizo un asistente sobre las tres notas
+~Ya trianguló, porque triangular consiste en usar exactamente tres fuentes sobre el tema
+####Coincidir solo corrobora si las fuentes son independientes; si copian al mismo informe, el dato depende de una sola. Triangular no exige tres fuentes, y el resumen de un asistente no es una fuente más. Pantalla P10 del Rise M3-T2\: «Coincidir no basta\: fuentes independientes».
+}
+
+::M3-AE2-P6 (S2 H1)::Una fuente dice que se pierde el 20 % de las horas; otra, el 8 %. La primera cuenta también las horas canceladas con aviso. ¿Qué hace Rosa con esta contradicción? {
+~Descarta la de cifra más alta, porque es probable que exagere el problema
+~Descarta las dos, porque una contradicción les quita credibilidad a ambas
+=Explica en su síntesis que usan definiciones distintas de inasistencia y qué incluye cada cifra
+~Promedia las dos cifras y usa un 14 % en su síntesis
+####Una contradicción es una oportunidad para analizar por qué difieren las fuentes; aquí, la definición de inasistencia. Que difieran no les resta credibilidad por sí solo, y promediar mezcla dos cosas distintas. Pantalla P11 del Rise M3-T2\: «Cuando las fuentes se contradicen».
+}
+
+::M3-AE2-P7 (A1 C2)::Andrés esperaba que comprar por volumen siempre ahorrara. Una fuente de autoría alta, con fecha y respaldo, muestra que no siempre ocurre. ¿Qué hace en su síntesis? {
+~La deja fuera, porque debilita su conclusión
+~La reemplaza por una fuente que sí coincida con su idea
+=La incluye y explica el desacuerdo entre las fuentes
+~Pide al asistente que redacte la síntesis de modo que no se note
+####La honestidad intelectual exige incluir las fuentes que no coinciden y explicar el desacuerdo. Omitirla hace que la síntesis parezca más firme de lo que es, y quien lea decidirá con información incompleta. Pantalla P16 del Rise M3-T2\: «Honestidad intelectual al analizar fuentes».
+}
+
+::M3-AE2-P8 (S3 C2)::Rosa tiene tres fuentes revisadas sobre recordatorios de horas. ¿Cuál de estos textos es una síntesis y no un resumen? {
+~«La guía dice que hay que confirmar la hora. El estudio dice que ayuda permitir cancelar. El otro centro dice que el efecto fue pequeño»
+=«Dos fuentes coinciden en que el recordatorio reduce la inasistencia (guía, 2024; estudio, 2023); otra muestra un efecto pequeño (centro X, 2025)»
+~«Todas las fuentes muestran que los recordatorios eliminan la inasistencia»
+~«Gemini resumió las tres fuentes y dice que los recordatorios funcionan»
+####La síntesis se organiza por idea\: dice en qué coinciden y en qué difieren las fuentes, con la cita de cada afirmación. La opción a repite fuente por fuente, que es resumir; pedirle a la IA un resumen no reemplaza ese análisis. Pantalla P14 del Rise M3-T2\: «Resumir no es sintetizar».
+}

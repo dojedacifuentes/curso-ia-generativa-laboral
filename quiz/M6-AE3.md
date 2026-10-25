@@ -1,0 +1,59 @@
+# Quiz M6-AE3 · Resultados y aprendizajes
+
+**Misión:** leer tus resultados con honestidad y contarlos bien en 3 minutos
+**Cuándo:** al terminar el Rise M6-T3 · Resultados y aprendizajes, antes de entregar los hitos 6c y 6d.
+**Insignia:** Voz de resultados · **Siguiente parada:** Demo Day, la presentación de cierre del curso
+**Estilo:** acento #ff7a59 · acento2 #fbbf24 · fondo neuronas · lema Qué cambió, cómo lo sabes y qué aprendiste
+**Ilustración:** flujo | Tus números (barras) · Tu historia (chat) · Tu audiencia (bandera)
+
+1. *(S1 · C1 · P02)* Rosa midió dos indicadores. Tiempo por consulta: de 9 a 4 minutos, con meta de 4. Respuestas con error: de 12 % a 5 %, con meta de 0 %. ¿Cómo informa el resultado?
+   - a) Cumplió ambas metas, porque los dos indicadores mejoraron
+   - **b) Cumplió la meta de tiempo; los errores bajaron 7 puntos, sin llegar a 0 %**
+   - c) El proyecto falló, porque los errores no llegaron a 0 %
+   *Retroalimentación:* Cada indicador se compara con su línea base y con su meta, con número y unidad. Mejorar sin llegar a la meta no es cumplirla, pero tampoco es un fracaso.
+
+2. *(S1 · A2 · C1 · P03)* Los reclamos del área de Tomás bajaron a la mitad después de usar su flujo con IA. Ese mismo mes llegó una persona más a su equipo. ¿Qué conclusión es honesta?
+   - a) El flujo con IA redujo los reclamos a la mitad
+   - b) No puede informar nada, porque hubo otro cambio en el periodo
+   - c) Debe omitir la llegada de la persona nueva, porque no es parte del proyecto
+   - **d) Los reclamos bajaron a la mitad, pero una parte puede deberse a la persona nueva**
+   *Retroalimentación:* Que un número mejore después de usar IA no prueba que la IA lo causó: la comparación antes y después supone que nada más cambió. Nombrar el otro factor no le quita valor al proyecto, le da credibilidad.
+
+3. *(S1 · C1 · P03)* Rosa sospecha que parte de su mejora viene de haber repetido la tarea muchas veces. ¿Cómo puede comprobarlo?
+   - **a) Respondiendo algunas consultas parecidas sin IA y comparando esos tiempos con los de su flujo**
+   - b) Preguntándole a Gemini cuánto mejora una persona solo con la práctica
+   - c) Midiendo una semana más con el flujo, para tener más datos
+   *Retroalimentación:* Comparar con casos parecidos que no pasaron por el cambio fortalece la conclusión, aunque el grupo sea pequeño. Más semanas con el mismo flujo no separan la práctica de la IA, y un promedio dado por un asistente no describe su caso.
+
+4. *(H1 · A1 · P04)* Rosa revisa sus resultados: las consultas con días acumulados de años anteriores fallaron más que las otras. ¿Cuál propuesta de mejora está bien planteada?
+   - a) «Mejorar el prompt para que responda mejor»
+   - b) «Cambiar a una herramienta de IA más nueva»
+   - **c) «Agregar a la plantilla un ejemplo con días acumulados, porque fallaron más, y probarla con los mismos 10 casos»**
+   - d) «Revisar con más cuidado las consultas difíciles de ahora en adelante»
+   *Retroalimentación:* Una buena propuesta dice qué cambia, por qué y cómo se medirá en el próximo ciclo. «Mejorar el prompt» suena bien, pero no dice qué cambiar ni cómo saber si funcionó.
+
+5. *(S2 · A2 · C2 · P05)* Rosa prepara la frase central de su pitch. ¿Cuál comunica el resultado y su límite con honestidad?
+   - a) «La IA revolucionó la atención de consultas de vacaciones»
+   - b) «Respondo consultas el doble de rápido gracias a la IA»
+   - **c) «En cuatro semanas y con 60 consultas, bajé de 9 a 4 minutos; una parte puede deberse a la práctica»**
+   - d) «Bajé de 9 a 4 minutos por consulta; los límites van en un anexo del informe»
+   *Retroalimentación:* Un cambio se comunica con dirección y tamaño, en contexto, y los límites van en un lugar visible. Dejarlos en un anexo parece ordenado, pero si la audiencia los descubre después, deja de creer en todo lo demás.
+
+6. *(S3 · C2 · P06)* Ordena el pitch de Rosa: 1) lo que propone a su jefatura, 2) «de 9 a 4 minutos», 3) una pregunta que capte la atención, 4) la tarea y su línea base, 5) su flujo con revisión, 6) qué no puede concluir.
+   - a) 3 → 4 → 5 → 2 → 1 → 6
+   - b) 3 → 4 → 2 → 5 → 6 → 1
+   - c) 1 → 3 → 4 → 5 → 2 → 6
+   - **d) 3 → 4 → 5 → 2 → 6 → 1**
+   *Retroalimentación:* El pitch va de la apertura al problema, la solución, la evidencia, los límites y, al final, el llamado a la acción. Lo que se propone tiene sentido solo cuando la audiencia ya conoce el problema, la evidencia y sus límites.
+
+7. *(S2 · H1 · C2 · P07)* Verdadero o falso: «Si le pido a Gemini que acorte mi guion sin cambiar ni agregar cifras, puedo usar su versión sin revisar los números».
+   - a) Verdadero, porque la instrucción le prohíbe expresamente cambiar o agregar cifras
+   - **b) Falso, porque un asistente puede redondear o «mejorar» una cifra sin avisar**
+   - c) Falso, porque Gemini no sirve para editar guiones de un pitch
+   *Retroalimentación:* Pedir que no cambie cifras ayuda, pero no lo garantiza: hay que revisar que cada número del guion coincida con la tabla de resultados. Gemini sí puede ayudar a acortar y simplificar el guion.
+
+8. *(S3 · H1 · P08)* Rosa arma su portafolio para postular a un cargo de analista de recursos humanos. ¿Qué hace?
+   - a) Sube cada borrador, prueba y versión, para mostrar todo su esfuerzo
+   - **b) Elige tres a cinco piezas pensadas para ese empleador, cada una con una nota sobre por qué la incluye**
+   - c) Comparte su carpeta del proyecto completa, ordenada por hito
+   *Retroalimentación:* Un portafolio es una selección intencionada para una audiencia, con una reflexión por pieza. Meter todo no muestra más: obliga a quien lo ve a buscar lo importante, y eso es la carpeta del proyecto, no el portafolio.

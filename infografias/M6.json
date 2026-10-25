@@ -1,0 +1,56 @@
+{
+  "modulo": 6,
+  "recurso": "R100",
+  "titulo": "Ciclo del proyecto aplicado",
+  "bajada": "Diagnosticas una oportunidad, implementas el flujo, mides contra tu punto de partida y cuentas lo que lograste en un pitch.",
+  "tipo": "ciclo",
+  "centro": "Tu proyecto de mejora con IA",
+  "bloques": [
+    {
+      "icono": "lightbulb",
+      "titulo": "Oportunidad",
+      "texto": "**Diagnostica con datos** cómo se hace hoy la tarea. Fija la línea base, dos o tres indicadores (uno de tiempo y uno de calidad) y una meta realista y retadora.",
+      "ejemplo": "«Avisos enviados el mismo día: hoy 45 %; meta, 90 % en cuatro semanas».",
+      "ver": [
+        "M6-AE1 P03",
+        "M6-AE1 P04",
+        "M6-AE1 P05",
+        "M6-AE1 P09"
+      ]
+    },
+    {
+      "icono": "workflow",
+      "titulo": "Flujo",
+      "texto": "**Mapea el flujo completo** y marca qué hace la IA, la herramienta y tú. Define la supervisión humana, documenta y prueba en pequeño, con casos difíciles.",
+      "ejemplo": "«Antes de enviar, comparo pedido y fecha con la planilla; si no coinciden, corrijo y lo anoto».",
+      "ver": [
+        "M6-AE2 P02",
+        "M6-AE2 P03",
+        "M6-AE2 P04",
+        "M6-AE2 P09"
+      ]
+    },
+    {
+      "icono": "chart-column",
+      "titulo": "Medición",
+      "texto": "**Compara el valor final con la línea base y la meta**, con la misma fórmula, fuente y frecuencia. Suma lo cualitativo y nombra otros factores que pudieron influir.",
+      "ver": [
+        "M6-AE3 P02",
+        "M6-AE3 P03"
+      ]
+    },
+    {
+      "icono": "megaphone",
+      "titulo": "Pitch",
+      "texto": "**Tres minutos, en lenguaje simple:** apertura, problema, solución, evidencia, límites y mejoras, y llamado a la acción. Di cuánto cambió y qué no puedes concluir.",
+      "ejemplo": "«El tiempo por aviso bajó de 12 a 5 minutos en cuatro semanas, con 28 avisos».",
+      "ver": [
+        "M6-AE3 P05",
+        "M6-AE3 P06"
+      ]
+    }
+  ],
+  "vuelta": "Adopta, ajusta o descarta: lo aprendido abre el ciclo siguiente",
+  "clave": "Decide **cómo vas a medir antes de implementar**: sin línea base no sabrás si el proyecto funcionó. Un resultado contado **con sus límites a la vista** se defiende ante cualquier pregunta.",
+  "pie": "Basado en M6-AE1 (P03 a P05, P09), M6-AE2 (P02 a P04, P09) y M6-AE3 (P02 a P06)"
+}

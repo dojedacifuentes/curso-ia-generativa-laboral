@@ -1,0 +1,77 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Formato de los casos de aplicación (empresas reales)</title><style>
+:root{--tx:#1f2937;--mu:#64748b;--bg:#f8fafc;--pa:#fff;--li:#e2e8f0;--az:#0f3d5e;--tq:#0e7490;--am:#b45309;--ro:#b91c1c;--ve:#047857;--vi:#6d28d9}
+
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 "Segoe UI",Roboto,Arial,sans-serif}
+.wrap{display:grid;grid-template-columns:300px 1fr;max-width:1300px;margin:0 auto}
+nav{position:sticky;top:0;height:100vh;overflow:auto;padding:24px 16px;border-right:1px solid var(--li);font-size:14px}
+nav ul{list-style:none;padding-left:12px;margin:4px 0}nav>ul{padding:0}nav a{color:var(--tx);text-decoration:none}nav a:hover{color:var(--tq)}
+main{padding:24px 40px;min-width:0}h1{color:var(--az);border-bottom:3px solid var(--tq);padding-bottom:6px;margin-top:48px}
+h2.ae{color:var(--az);margin-top:40px;font-size:1.5em}.aetxt{background:var(--pa);border-left:4px solid var(--tq);padding:10px 14px;font-weight:600}
+h3{margin-top:32px;color:var(--tq)}h4{margin:18px 0 6px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--mu);background:var(--pa);border:1px solid var(--li);border-radius:6px;padding:6px 10px;margin:4px 0 12px}
+.caja{background:var(--pa);border:1px solid var(--li);border-left:5px solid var(--tq);border-radius:8px;padding:10px 14px;margin:14px 0}
+.caja .etq{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--tq);margin-bottom:4px}
+.caja.error{border-left-color:var(--ro)}.caja.error .etq{color:var(--ro)}.caja.clave{border-left-color:var(--am)}.caja.clave .etq{color:var(--am)}
+.caja.actividad{border-left-color:var(--ve)}.caja.actividad .etq{color:var(--ve)}.caja.comprueba{border-left-color:var(--vi)}.caja.comprueba .etq{color:var(--vi)}
+.caja p:last-child{margin-bottom:0}.tabla{overflow-x:auto}table{border-collapse:collapse;margin:10px 0;font-size:14.5px}
+th,td{border:1px solid var(--li);padding:6px 10px;text-align:left;vertical-align:top}th{background:var(--pa)}
+code{background:var(--pa);border:1px solid var(--li);border-radius:4px;padding:0 4px;font-size:.92em}pre{background:var(--pa);border:1px solid var(--li);padding:10px;overflow:auto;white-space:pre-wrap}
+pre code{border:0;padding:0}blockquote.aviso{background:var(--pa);border-left:4px solid var(--mu);margin:14px 0;padding:8px 14px}blockquote.aviso p:last-child{margin-bottom:0}li.chk{list-style:none;margin-left:-18px}a{color:var(--tq);word-break:break-all}.comp{color:var(--mu)}
+header.top{padding:8px 0 0}header.top p{color:var(--mu)}
+@media (max-width:900px){.wrap{display:block}nav{position:static;height:auto;border-right:0;border-bottom:1px solid var(--li)}main{padding:16px}}
+@media print{nav{display:none}.wrap{display:block}article{break-before:page}}
+</style><style>@page{size:A4;margin:16mm 15mm}main{padding:0;max-width:none}h3{break-after:avoid}.caja,table{break-inside:avoid}pre{font-size:11px}</style></head><body><main><p class="comp">IA generativa para entornos laborales · <code>docs/FORMATO-CASO.md</code></p><h1 style="margin-top:0">Formato de los casos de aplicación (empresas reales)</h1><p>La planilla (hoja «Casos y proyecto») trae 11 casos con empresas reales: M1-C1, M1-C2, M2-C1, M2-C2, M3-C1, M3-C2, M4-C1, M4-C2, M4-C3, M5-C1 y M5-C2. Cada uno se entrega como «Actividad de análisis del caso: preguntas guiadas + aplicación al proyecto (1,5 h)», con autocorrección y foro. Están todos marcados «Por verificar», con esta regla: <strong>no se inventan empresas, citas ni resultados</strong>.</p>
+<p>Cada caso tiene dos archivos:</p>
+<h3>1. Ficha de verificación · <code>investigacion/casos/&lt;id&gt;.md</code></h3>
+<pre><code># Verificación &lt;id&gt; · &lt;título de la planilla&gt;
+Consultado: 2026-10-24
+Estado: Verificado | Verificado con ajustes | Descartado
+
+## Fuentes
+### F-M1C1-01 · &lt;Organismo o empresa&gt; (&lt;fecha exacta&gt;) — &lt;Título&gt;
+- URL: …
+- Tipo: primaria (sentencia, resolución, comunicado o documento de la empresa, registro oficial) | secundaria (prensa de calidad)
+- Respalda: &lt;paráfrasis breve; como máximo una cita de menos de 15 palabras&gt;
+
+## Hechos verificados
+- &lt;hecho con fecha&gt; [F-M1C1-01]
+
+## Lo que NO se puede afirmar
+- &lt;cifras sin fuente primaria, versiones de prensa no confirmadas, rumores, etc.&gt;
+
+## Ajustes respecto de la planilla
+- &lt;si el título o el enfoque de la planilla no calzan con lo verificado, qué cambia&gt;</code></pre>
+<p>Reglas de la ficha:</p>
+<ul><li><strong>Fuentes primarias primero.</strong> Para hechos centrales, cifras y citas: la sentencia o resolución, el comunicado de la empresa o el documento oficial. La prensa de calidad sirve solo para complementar, con fecha.</li><li><strong>Cada fuente se abre y se lee.</strong> Si no se puede abrir, no es fuente: va a «Lo que NO se puede afirmar».</li><li><strong>Cifras:</strong> cada una lleva su fecha y dice quién la informa («según la empresa…»). Una cifra que solo publicó la empresa se presenta como cifra informada por la empresa, no como hecho independiente.</li><li><strong>Casos en evolución</strong> (litigios, cambios de estrategia): se informa el estado a la fecha de consulta y se dice que puede cambiar.</li><li><strong>Descarte:</strong> si el caso no se puede respaldar en una fuente primaria, el estado es «Descartado» y se propone un reemplazo verificable que trabaje los mismos AE (también con ficha).</li></ul>
+<h3>2. Caso para el estudiante · <code>casos/&lt;id&gt;.md</code></h3>
+<pre><code># &lt;id&gt; · &lt;título&gt;
+**Aprendizajes esperados que trabaja:** M1-AE2, M1-AE3
+**Hito del proyecto con el que conecta:** Hito 1 …
+
+## 1. Contexto
+fuentes: F-M1C1-01
+&lt;qué empresa, qué problema, por qué importa; 150-250 palabras&gt;
+
+## 2. Qué pasó
+fuentes: F-M1C1-01, F-M1C1-02
+&lt;hechos verificados en orden cronológico, con fecha y atribución; 250-400 palabras; una tabla o línea de tiempo si ayuda&gt;
+
+## 3. Análisis guiado
+cubre: S2, H1, C1 (códigos de los AE que trabaja, en formato AE:código, p. ej. M1-AE2:S1)
+&lt;5 o 6 preguntas numeradas que obligan a aplicar lo aprendido en los AE (remitir a pantallas, p. ej. «revisa M1-AE2 P02»)&gt;
+
+## 4. Aplicación a tu proyecto
+&lt;actividad concreta sobre el desafío laboral real de la persona, que alimenta el hito del módulo; producto breve&gt;
+
+## 5. Autocorrección
+&lt;para cada pregunta del análisis: los elementos que debería tener una buena respuesta; no una respuesta única&gt;
+
+## 6. Para el foro
+&lt;una pregunta de discusión abierta y respetuosa&gt;
+
+## Fuentes
+- F-M1C1-01 · Organismo (fecha). Título. URL</code></pre>
+<p>Reglas del caso:</p>
+<ul><li><strong>Hechos:</strong> solo los de «Hechos verificados» de la ficha, citando <code>fuentes:</code>. Las opiniones o interpretaciones se presentan como preguntas para la persona, no como hechos.</li><li><strong>Personas reales:</strong> de las personas naturales involucradas (abogados, empleados), se habla por su rol, no por su nombre. Las figuras públicas o las empresas pueden nombrarse cuando son parte central del caso, sin calificarlas.</li><li><strong>Tono:</strong> sin sensacionalismo ni burla, en español de Chile, tuteo y frases cortas.</li><li><strong>Audiencia:</strong> cesantes y trabajadores, por eso la aplicación funciona sin un empleo actual: usa el desafío laboral del proyecto.</li><li><strong>Conexión:</strong> los AE y el hito según <code>data/curso.json</code>; el análisis remite a pantallas del contenido base de esos AE.</li></ul>
+<p>Control: <code>node scripts/validar-casos.mjs</code>.</p>
+</main></body></html>

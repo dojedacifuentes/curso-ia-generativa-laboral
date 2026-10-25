@@ -1,0 +1,64 @@
+{
+  "modulo": 4,
+  "recurso": "R069",
+  "titulo": "Mapa del ecosistema multimedia con IA y semáforo de licencias",
+  "bajada": "Qué tipo de herramienta sirve para cada pieza y cómo leer la licencia de lo que generas antes de usarlo en un trabajo.",
+  "tipo": "mapa",
+  "bloques": [
+    {
+      "icono": "image",
+      "titulo": "Imagen",
+      "texto": "Afiches e ilustraciones. **Asistentes generales** que generan y editan, **apps de diseño** que además componen la pieza y **generadores dedicados**.",
+      "ejemplo": "Gemini, ChatGPT, Canva, Adobe Firefly.",
+      "ver": ["M4-AE1 P03"]
+    },
+    {
+      "icono": "megaphone",
+      "titulo": "Voz y audio",
+      "texto": "Locuciones y mensajes: **texto a voz**, biblioteca y diseño de voces. Imitar de forma realista la voz de una persona real es una **réplica digital**.",
+      "ejemplo": "ElevenLabs, CapCut, Canva.",
+      "ver": ["M4-AE1 P04", "M4-AE3 P02"]
+    },
+    {
+      "icono": "activity",
+      "titulo": "Música",
+      "texto": "Pistas generadas a partir de una descripción. **Para montar un video tienes que poder descargarla:** «gratis» no siempre significa «utilizable».",
+      "ejemplo": "Canva, Eleven Music.",
+      "ver": ["M4-AE1 P04", "M4-AE3 P07"]
+    },
+    {
+      "icono": "play",
+      "titulo": "Video",
+      "texto": "Tomas breves generadas desde un texto o una imagen. Conviene **combinar pocas tomas generadas con imágenes fijas**; hay planes que agregan marca de agua.",
+      "ejemplo": "Google Flow, Runway.",
+      "ver": ["M4-AE1 P04", "M4-AE4 P06"]
+    },
+    {
+      "icono": "layers",
+      "titulo": "Composición y edición",
+      "texto": "**Une las piezas:** texto sobre la imagen, o voz, música y tomas en una línea de tiempo. Los elementos de la biblioteca de la app solo se licencian: no pasan a ser tuyos.",
+      "ejemplo": "Canva, CapCut, Clipchamp.",
+      "ver": ["M4-AE2 P10", "M4-AE4 P09"]
+    }
+  ],
+  "semaforoTitulo": "Semáforo de licencias: ¿sirve para una pieza de trabajo?",
+  "semaforo": [
+    {
+      "nivel": "verde",
+      "titulo": "Se usa con revisión normal",
+      "texto": "Los términos te dejan usar lo que generas: eres dueña o dueño, o la herramienta no reclama su propiedad. Igual revisas que no copie obras, marcas ni personas."
+    },
+    {
+      "nivel": "amarillo",
+      "titulo": "Se usa cumpliendo condiciones",
+      "texto": "Uso no comercial, crédito obligatorio, imágenes públicas por defecto, marca de agua o una licencia que la herramienta también usa. Cúmplelas o elige otra."
+    },
+    {
+      "nivel": "rojo",
+      "titulo": "No sirve para una pieza de trabajo",
+      "texto": "Solo uso personal y no comercial, o no deja descargar. **El semáforo depende del uso:** lo que sirve para practicar puede no servir para el afiche de una empresa."
+    }
+  ],
+  "clave": "Elige por **tipo de pieza, licencia y riesgos**. Los permisos de lo generado están en los **términos de uso**: reléelos antes de cada proyecto, porque las herramientas cambian, y da crédito con **TASL**.",
+  "pie": "Basado en M4-AE1 (P02 a P04, P07, P08, P10 y P12), M4-AE2 (P10), M4-AE3 (P02, P07) y M4-AE4 (P06, P09)"
+}

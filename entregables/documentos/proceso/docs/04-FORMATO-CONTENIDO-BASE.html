@@ -1,0 +1,44 @@
+<html><head><meta charset="utf-8"></head><body style="font-family:Arial"><p style="color:#64748B">IA generativa para entornos laborales · FORMATO-CONTENIDO-BASE.md</p><h1>Formato del contenido base</h1><p>Un archivo por aprendizaje esperado: <code>contenido/M&lt;n&gt;/M&lt;n&gt;-AE&lt;k&gt;.md</code>. Es la <strong>fuente única</strong>. El Rise (lo arma Natalia), los quiz, los guiones de video, la infografía, el glosario y la evaluación sumativa salen de aquí. Si algo está mal en un derivado, se corrige aquí y se vuelve a generar.</p>
+<h3>De dónde sale lo que se escribe</h3>
+<p>Solo de la planilla, importada a <code>data/curso.json</code> con <code>node scripts/importar-planilla.mjs</code>. Cada AE trae contenidos con código:</p>
+<div class="tabla"><table style="border-collapse:collapse"><thead><tr><th style="border:1px solid #94A3B8;padding:4px 8px;background:#E2E8F0">Código</th><th style="border:1px solid #94A3B8;padding:4px 8px;background:#E2E8F0">Columna de la planilla</th><th style="border:1px solid #94A3B8;padding:4px 8px;background:#E2E8F0">Ejemplo M1-AE1</th></tr></thead><tbody><tr><td style="border:1px solid #94A3B8;padding:4px 8px">S1…Sn</td><td style="border:1px solid #94A3B8;padding:4px 8px">Saber (conocimientos), partido por «;»</td><td style="border:1px solid #94A3B8;padding:4px 8px">S3 = tokens y contexto</td></tr><tr><td style="border:1px solid #94A3B8;padding:4px 8px">H1…Hn</td><td style="border:1px solid #94A3B8;padding:4px 8px">Saber hacer (habilidades)</td><td style="border:1px solid #94A3B8;padding:4px 8px">H2 = probar un asistente con una tarea simple</td></tr><tr><td style="border:1px solid #94A3B8;padding:4px 8px">A1…An</td><td style="border:1px solid #94A3B8;padding:4px 8px">Saber ser (actitudes)</td><td style="border:1px solid #94A3B8;padding:4px 8px">A1 = Curiosidad crítica</td></tr><tr><td style="border:1px solid #94A3B8;padding:4px 8px">C1…Cn</td><td style="border:1px solid #94A3B8;padding:4px 8px">Criterios de evaluación (hoja Matriz coherencia)</td><td style="border:1px solid #94A3B8;padding:4px 8px">C2 = Ejemplifica al menos 3 usos y 2 límites…</td></tr></tbody></table></div>
+<p>Reglas:</p>
+<ul><li><strong>Todo código se cubre</strong> en al menos una pantalla. <strong>No hay pantallas sin código</strong>: si un tema no está en la planilla, no entra.</li><li>El texto del AE va igual que en la planilla.</li><li>Pantallas: exactamente las de la columna «Pantallas Rise» (M1-AE1 = 16).</li><li>La técnica metodológica de la planilla manda el tipo de pantallas. Por ejemplo, «exposición interactiva + ejemplos guiados» pide un ejemplo laboral en casi todas.</li><li>Audiencia: personas cesantes o en búsqueda de empleo, y personas que ya trabajan. Los ejemplos usan cargos y tareas comunes, sin suponer un empleo actual ni licencias pagadas. Las herramientas deben tener plan gratuito y usarse desde el celular.</li><li>Español de Chile, tuteo, frases cortas. Sin cifras ni casos reales sin fuente: los casos con empresas reales van en su propio recurso (hoja «Casos y proyecto»), una vez verificados.</li><li>Personajes de ejemplo ficticios y recurrentes: no son empresas ni personas reales.</li></ul>
+<h3>Estructura del archivo</h3>
+<pre><code># M1-AE1 · Fundamentos de IA generativa
+
+## P01 · Título de la pantalla
+cubre: S1, C1
+fuentes: F-M1-01, F-H-03      ← ids de investigacion/M1.md o HERRAMIENTAS.md que respaldan lo que se afirma
+bloque: Texto + imagen        ← sugerencia para Natalia (tipo de bloque de Rise)
+
+Texto de la pantalla (unas 200–300 palabras).
+
+:::ejemplo Título             ← caso laboral breve
+:::
+:::error Título               ← error o creencia equivocada frecuente (alimenta los distractores del quiz)
+:::
+:::clave                      ← idea que hay que llevarse
+:::
+:::actividad Título           ← lo que la persona hace en esa pantalla
+:::
+:::comprueba                  ← pregunta de verificación dentro del Rise (knowledge check)
+Pregunta
+- a) …
+- **b) correcta**
+Retroalimentación: …
+:::
+
+## P02 · …
+…
+## Ideas clave            → video de resumen del módulo e infografía
+## Glosario               → glosario del módulo («- **Término**: definición»)
+## Conexión con el proyecto → hito del módulo
+## Fuentes                → lista de los ids citados: «- F-M1-01 · Organismo (año). Título. URL»</code></pre>
+<p>Toda pantalla con afirmaciones de hecho lleva <code>fuentes:</code>. Solo se citan ids que existen en <code>investigacion/</code>, y ahí cada fuente ya se abrió y se leyó (ver <code>WORKFLOW.md</code>).</p>
+<h3>Qué se deriva de cada parte</h3>
+<div class="tabla"><table style="border-collapse:collapse"><thead><tr><th style="border:1px solid #94A3B8;padding:4px 8px;background:#E2E8F0">Derivado</th><th style="border:1px solid #94A3B8;padding:4px 8px;background:#E2E8F0">Sale de</th><th style="border:1px solid #94A3B8;padding:4px 8px;background:#E2E8F0">Cómo</th></tr></thead><tbody><tr><td style="border:1px solid #94A3B8;padding:4px 8px">Rise (Natalia)</td><td style="border:1px solid #94A3B8;padding:4px 8px">Las pantallas P01…Pnn</td><td style="border:1px solid #94A3B8;padding:4px 8px">Una pantalla = una sección o lección del Rise; <code>bloque:</code> sugiere el tipo de bloque</td></tr><tr><td style="border:1px solid #94A3B8;padding:4px 8px">Quiz juego SCORM (8 ítems)</td><td style="border:1px solid #94A3B8;padding:4px 8px">Pantallas + recuadros <code>:::error</code></td><td style="border:1px solid #94A3B8;padding:4px 8px">Cada ítem lleva <code>remite: Pxx</code>: la pantalla a la que vuelve quien falla (acción remedial). Se genera con <code>quiz-juego</code></td></tr><tr><td style="border:1px solid #94A3B8;padding:4px 8px">Infografía del módulo (HTML)</td><td style="border:1px solid #94A3B8;padding:4px 8px"><code>Ideas clave</code> de los AE del módulo</td><td style="border:1px solid #94A3B8;padding:4px 8px">Generador HTML → PNG con paleta neutra</td></tr><tr><td style="border:1px solid #94A3B8;padding:4px 8px">Video de bienvenida</td><td style="border:1px solid #94A3B8;padding:4px 8px">Texto de los AE + <code>Conexión con el proyecto</code></td><td style="border:1px solid #94A3B8;padding:4px 8px">Guion de 3 minutos (unas 400 palabras)</td></tr><tr><td style="border:1px solid #94A3B8;padding:4px 8px">Video de resumen</td><td style="border:1px solid #94A3B8;padding:4px 8px"><code>Ideas clave</code> de los AE del módulo</td><td style="border:1px solid #94A3B8;padding:4px 8px">Guion de 3 minutos</td></tr><tr><td style="border:1px solid #94A3B8;padding:4px 8px">Resumen y glosario</td><td style="border:1px solid #94A3B8;padding:4px 8px"><code>Ideas clave</code> + <code>Glosario</code></td><td style="border:1px solid #94A3B8;padding:4px 8px">Página de Moodle + XML de glosario</td></tr><tr><td style="border:1px solid #94A3B8;padding:4px 8px">Evaluación sumativa</td><td style="border:1px solid #94A3B8;padding:4px 8px">Criterios C1…Cn + pantallas</td><td style="border:1px solid #94A3B8;padding:4px 8px">Banco GIFT con categoría por AE</td></tr></tbody></table></div>
+<h3>Control</h3>
+<p><code>node scripts/validar-contenido.mjs</code> revisa, por AE:</p>
+<ul><li>número de pantallas;</li><li>que cada código exista en la planilla;</li><li>cobertura del 100 % de los códigos;</li><li>que el texto del AE esté igual;</li><li>que haya ideas clave, glosario y fuentes;</li><li>extensión de cada pantalla.</li></ul>
+</body></html>

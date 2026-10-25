@@ -1,0 +1,65 @@
+// M3-AE3 · Organizar y presentar información · quiz formativo (generado por scripts/quiz-juego.mjs)
+$CATEGORY: IA-generativa-laboral/Formativos/M3-AE3
+
+::M3-AE3-P1 (S1 C1)::Andrés arma su informe breve para la jefatura. Ordena las partes\: (1) hallazgos; (2) mensajes clave; (3) referencias; (4) introducción; (5) recomendaciones; (6) lo que se investigó. {
+~4 → 6 → 1 → 5 → 3 → 2
+=2 → 4 → 6 → 1 → 5 → 3
+~6 → 4 → 2 → 1 → 5 → 3
+~2 → 4 → 1 → 6 → 5 → 3
+####El informe parte por los mensajes clave, sigue con la introducción y lo que se investigó, desarrolla los hallazgos, cierra con recomendaciones y termina en las referencias. Empezar por cómo se buscó no le dice nada útil a quien decide. Pantalla P03 del Rise M3-T3\: «La estructura del informe breve».
+}
+
+::M3-AE3-P2 (S1)::Rosa está armando su informe sobre inasistencia. ¿Cuándo le conviene escribir los mensajes clave? {
+~Antes de investigar, para que orienten la búsqueda
+~Justo después de la introducción, en el mismo orden en que se leen
+=Al final, cuando ya tiene claro qué encontró y qué recomienda, aunque vayan al inicio
+~No hace falta escribirlos\: los hallazgos ya dicen lo mismo
+####Los mensajes clave se leen primero, pero se escriben al final, cuando ya está claro qué se encontró. Escribirlos en el orden de lectura obliga a resumir conclusiones que todavía no tienes. Pantalla P05 del Rise M3-T3\: «Mensajes clave\: se leen primero, se escriben al final».
+}
+
+::M3-AE3-P3 (S1 H1)::¿Cuál es el hallazgo mejor presentado en el informe de Rosa? {
+~«Confirmar la hora dos días antes elimina por completo la inasistencia de los pacientes»
+~«Confirmar la hora reduce la inasistencia de los pacientes, como se ve en muchos centros»
+=«Confirmar la hora reduce la inasistencia, según dos guías (2024), ambas de centros grandes\: en uno pequeño podría variar»
+~«Primero busqué en Perplexity y luego armé un cuaderno con mis guías»
+####Un hallazgo dice qué se encontró, quién lo respalda y hasta dónde aplica. La opción b dice lo que se encontró, pero sin cita ni limitación, y quien decide no sabe cuánto confiar en ella. Pantalla P06 del Rise M3-T3\: «Hallazgos con sus limitaciones».
+}
+
+::M3-AE3-P4 (H1 C2)::Las fuentes de Andrés coinciden en definir una reserva mínima de cajas según el consumo semanal; las alertas automáticas solo aparecen en empresas grandes. ¿Qué recomendación es concreta, creíble y viable? {
+~«Comprar un sistema automático de alertas de stock, como el que usan los centros grandes»
+~«Hay que mejorar la gestión de stock de la bodega lo antes posible»
+=«Que el encargado calcule cada lunes una reserva mínima según el consumo semanal»
+~«Contratar más personal para la bodega y así evitar los atrasos»
+####La opción c dice qué hacer, quién y cuándo, y se desprende de un hallazgo. Las alertas automáticas no tienen respaldo para una bodega pequeña\: recomendarlas sería opinar, no concluir. Pantalla P07 del Rise M3-T3\: «Recomendaciones concretas, creíbles y viables».
+}
+
+::M3-AE3-P5 (S2 C2)::En la lista de referencias de Andrés aparece\: «Instituto Logístico. Guía de seguridad en bodegas. https\://…». La guía no indica cuándo se publicó. ¿Cómo corrige la referencia? {
+=Agrega (s.f.) después del autor, porque la fuente no tiene fecha
+~Agrega «Perplexity», que fue la herramienta con que encontró la guía
+~No cambia nada\: autor, título y URL bastan
+~Borra la referencia, porque una fuente sin fecha no se puede citar
+####En APA 7, cuando una página no tiene fecha se escribe (s.f.), que significa «sin fecha»; si el contenido cambia, se agrega la fecha de consulta. La herramienta con que la encontraste no forma parte de la referencia. Pantalla P09 del Rise M3-T3\: «APA 7\: páginas web y documentos en línea».
+}
+
+::M3-AE3-P6 (S2 C2)::En su informe, Rosa usa la Ley 19.628 y en las referencias escribió solo «Ley 19.628.». ¿Cuál es la referencia correcta según la guía de Bibliotecas UC? {
+~Ley 19.628, según LeyChile.
+~Ley No. 19628, Sobre protección de la vida privada (Chile).
+=Ley No. 19628, Sobre protección de la vida privada, Agosto 18, 1999, Diario Oficial [D.O.] (Chile).
+~Ley 19.628, Sobre protección de la vida privada, Gemini (2026).
+####La referencia de una ley chilena lleva número, nombre, fecha de promulgación y Diario Oficial [D.O.]. La opción b omite la fecha y el D.O., y sin ellos no se sabe de qué versión hablas. Pantalla P10 del Rise M3-T3\: «APA 7\: citar una ley chilena».
+}
+
+::M3-AE3-P7 (S2 C2)::Camila usó como base de su tabla una clasificación de avisos que generó Gemini. ¿Qué referencia es la más completa? {
+~Gemini (2026).
+~Google. Clasificación de avisos. Gemini.
+=Google. (2026, 24 de octubre). Clasificación de avisos [Chat de IA generativa]. Gemini [modelo y versión]. URL de la conversación
+~No se cita, porque el texto lo pidió ella y después lo revisó y corrigió
+####Un texto generado por IA se cita con la empresa, la fecha, el título del chat, [Chat de IA generativa], el modelo con su versión y la URL. A la opción b le faltan la fecha, la descripción, la versión y la URL. Pantalla P11 del Rise M3-T3\: «Citar contenido generado por IA».
+}
+
+::M3-AE3-P8 (S3 A1)::Andrés muestra los despachos atrasados de cada semana en un gráfico de columnas cuyo eje parte en 40. Una diferencia pequeña parece enorme. ¿Qué error tiene el gráfico? {
+=El eje de las columnas debe partir en 0
+~Debió usar una torta para comparar las semanas
+~Ninguno\: si los datos son correctos, el gráfico no engaña
+####Si el eje de las columnas no parte en 0, una diferencia pequeña parece enorme. Un gráfico puede engañar aunque los datos sean correctos, y la torta sirve para partes de un todo, no para comparar cantidades. Pantalla P14 del Rise M3-T3\: «Gráficos que no engañan».
+}

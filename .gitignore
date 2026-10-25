@@ -13,3 +13,5 @@ videos/**/*.jpg
 videos/**/*.webp
 videos/**/preview/
 videos/**/fonts/
+videos/**/capturas-gemini/
+videos/**/prueba-fuentes/

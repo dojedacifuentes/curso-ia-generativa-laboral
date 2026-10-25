@@ -13,7 +13,7 @@ def pcm(path):
     return np.frombuffer(raw, dtype=np.float32)
 
 a, b = pcm(sys.argv[1]), pcm(sys.argv[2])
-seg = slice(16000, 16000 * 9)
+seg = slice(3200, min(16000 * 9, min(len(a), len(b)) - 8001))  # sirve también para clips cortos
 xs = a[seg]
 best, bestc = 0, -1
 for L in range(-8000, 8001, 8):

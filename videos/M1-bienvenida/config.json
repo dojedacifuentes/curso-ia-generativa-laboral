@@ -1,5 +1,5 @@
 {
-  "_nota": "Bienvenida M1 (25-10): voz y avatar de EVA (fondo claro), 6 clips (5 Flow + 1 HeyGen Video 1), cámara y Ken Burns.",
+  "_nota": "Bienvenida M1 (25-10, versión con las 6 mejoras): voz y avatar de EVA (fondo claro) + EVA en el Hito, 7 clips (5 Flow, 1 HeyGen Video 1, 1 captura real de Gemini), cámara, Ken Burns, música y efectos con ducking, karaoke y mapa del curso.",
   "duracion": 157.07,
   "voz": "audio/voz.mp3",
   "salida": "M1_bienvenida.mp4",
@@ -18,8 +18,8 @@
       "slot": "camila",
       "video": "media/camila.mp4",
       "visible_desde": 74.16,
-      "visible_hasta": 85.18,
-      "fade_out": 84.78
+      "visible_hasta": 80.3,
+      "fade_out": 79.9
     },
     {
       "slot": "andres",
@@ -28,8 +28,8 @@
       "src_dur": 7.5,
       "estirar": false,
       "visible_desde": 77.68,
-      "visible_hasta": 85.18,
-      "fade_out": 84.78
+      "visible_hasta": 80.3,
+      "fade_out": 79.9
     },
     {
       "slot": "aviso",
@@ -70,7 +70,33 @@
       "visible_desde": 12.95,
       "visible_hasta": 18.39,
       "fade_out": 17.99
+    },
+    {
+      "slot": "gemini",
+      "video": "media/gemini.mp4",
+      "src_start": 0.0,
+      "src_dur": 5.03,
+      "estirar": false,
+      "zoom": 1.0,
+      "visible_desde": 79.95,
+      "visible_hasta": 85.18,
+      "fade_out": 84.78
+    },
+    {
+      "slot": "eva_hito",
+      "video": "heygen/eva_hito_fondo_claro.mp4",
+      "src_start": 0.023,
+      "src_dur": 3.35,
+      "estirar": false,
+      "zoom": 1.0,
+      "visible_desde": 118.45,
+      "visible_hasta": 122.0,
+      "fade_out": 121.7
     }
   ],
-  "zoom_clips": 1.08
+  "zoom_clips": 1.08,
+  "musica": "audio/musica.wav",
+  "sfx": "audio/sfx.wav",
+  "vol_musica": 1.0,
+  "vol_sfx": 1.0
 }

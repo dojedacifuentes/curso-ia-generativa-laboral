@@ -78,8 +78,26 @@ for i, o in enumerate(ov):
     fc.append(ch); last = f'[b{i}]'
 fc.append(f'{last}format=yuv420p[vout]')
 cmd += ['-i', R(cfg['voz'])]
+amap = f'{n}:a'
+if cfg.get('musica') or cfg.get('sfx'):
+    # música con ducking (baja sola cuando habla la voz) + efectos, mezclados sin normalizar: la normalización va al final
+    fc.append(f'[{n}:a]aformat=sample_rates=44100:channel_layouts=stereo,asplit=2[voz][vozsc]')
+    mezcla, k = ['[voz]'], n + 1
+    if cfg.get('musica'):
+        cmd += ['-i', R(cfg['musica'])]
+        fc.append(f'[{k}:a]aformat=sample_rates=44100:channel_layouts=stereo,volume={cfg.get("vol_musica", 1.0)}[mus];'
+                  f'[mus][vozsc]sidechaincompress=threshold=0.02:ratio=10:attack=15:release=400[musd]')
+        mezcla.append('[musd]'); k += 1
+    else:
+        fc.append('[vozsc]anullsink')
+    if cfg.get('sfx'):
+        cmd += ['-i', R(cfg['sfx'])]
+        fc.append(f'[{k}:a]aformat=sample_rates=44100:channel_layouts=stereo,volume={cfg.get("vol_sfx", 1.0)}[sfx]')
+        mezcla.append('[sfx]')
+    fc.append(f'{"".join(mezcla)}amix=inputs={len(mezcla)}:normalize=0:duration=first[aout]')
+    amap = '[aout]'
 tmp = ROOT / '_sin_normalizar.mp4'
-cmd += ['-filter_complex', ';'.join(fc), '-map', '[vout]', '-map', f'{n}:a', '-c:v', 'libx264', '-preset', 'veryfast',
+cmd += ['-filter_complex', ';'.join(fc), '-map', '[vout]', '-map', amap, '-c:v', 'libx264', '-preset', 'veryfast',
         '-crf', '18', '-r', str(FPS), '-c:a', 'aac', '-b:a', '192k', '-t', f'{DUR}', str(tmp)]
 subprocess.run(cmd, check=True)
 

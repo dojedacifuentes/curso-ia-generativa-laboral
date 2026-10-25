@@ -25,13 +25,19 @@ scripts/preview.py            capturas de prueba del HTML en tiempos dados
 scripts/render_graphics.py    renderiza el HTML a graphics.mp4 (30 fps) + slots.json
 scripts/compose.py            arma el video final con config.json (avatar, clips, voz, -16 LUFS)
 scripts/exportar_srt_y_slides.py  .srt para el LMS y PDF de slides
+scripts/alinear_palabras.py   tiempos de cada palabra (faster-whisper) + aviso de pronunciación dudosa
+scripts/insertar_palabras.py  copia esos tiempos a video.html (subtítulos karaoke)
+scripts/audio_fondo.py        música de fondo y efectos generados por código, sincronizados con el HTML
+scripts/fondo_eva.py          cambia el fondo azul de EVA por el claro del curso
+scripts/screencast.py         clip 16:9 desde capturas reales (Gemini escribiendo y respondiendo)
 ejemplo_M1/                   primera versión del M1 (voz Catalina); la vigente está en videos/M1-bienvenida/
 ```
 
 ## Requisitos (PC 1, ya instalados el 25-10)
 
-- Python 3.12 con `playwright` (Chromium), `Pillow`, `numpy`; `ffmpeg`/`ffprobe` 9 (en el PATH).
-  En otro equipo: `python -m pip install playwright pillow numpy` y `python -m playwright install chromium`.
+- Python 3.12 con `playwright` (Chromium), `Pillow`, `numpy`, `faster-whisper`; `ffmpeg`/`ffprobe` 9 (en el PATH).
+  En otro equipo: `python -m pip install playwright pillow numpy faster-whisper` y `python -m playwright install chromium`.
+  La primera vez, Whisper baja su modelo «small» (~500 MB).
 - Conector de **HeyGen** (voz y avatar). Claude in Chrome con sesión del usuario en **Google Flow** (plan Pro).
 - Las descargas del navegador caen en `C:\Users\Asus\Downloads`: se copian de ahí a la carpeta de trabajo.
 
@@ -132,6 +138,35 @@ casos, hito del proyecto y una idea fuerza para el cierre.
 - Solo clips que el usuario aprobó, con su costo. Si faltan puntos, avisar: no se compran.
 - Copiar los MP4 de Descargas a `media/` con nombres cortos (`camila.mp4`, `quiz.mp4`…). Clips de 8 s a 24 fps: en
   `config.json` se elige el tramo con `src_start`/`src_dur` o se estira suavemente con `estirar: true`.
+
+### 6b. Las 6 mejoras de calidad (van en TODOS los videos; registro del M1 en `videos/M1-bienvenida/MEJORAS.md`)
+1. **Música y efectos** (sin licencias ni créditos):
+   `python <skill>/scripts/audio_fondo.py videos/…/video.html DURACION videos/…/audio` → `musica.wav` (-30 LUFS) y
+   `sfx.wav` (whoosh en escenas y paneles, roce al entrar un clip, pop en `data-fx="pop"`, tick en `data-check`).
+   En `config.json`: `"musica": "audio/musica.wav", "sfx": "audio/sfx.wav"`. `compose.py` baja la música cuando habla
+   la voz (ducking) y normaliza todo a -16 LUFS. Correrlo **después** de cerrar el HTML: lee sus tiempos.
+2. **Captura real de Gemini** (Claude in Chrome, sesión del usuario): conversación nueva; el prompt sale del contenido
+   del módulo y los datos de los personajes de `docs/PERSONAJES.md` (nunca datos reales). Se escribe por partes con
+   una captura de pantalla completa (`save_to_disk`, escala 1) después de cada parte; el mouse se deja sobre la barra
+   lateral. Se envía y se capturan la espera y la respuesta final. Las capturas quedan en `tool-results/`: copiarlas a
+   `capturas-gemini/`. Armar: `python <skill>/scripts/screencast.py media/gemini.mp4 --recorte 480,60,1416,586 --zoom 1.04
+   cap1.jpg:0.3 cap2.jpg:0.45 … final.jpg:1.4`. **El recorte deja fuera la barra lateral** (nombre del usuario, plan,
+   historial). Si el prompt dice «la experiencia que te doy a continuación», incluirla, o Gemini la pide y no responde.
+   Avisar al usuario que la conversación queda en su historial de Gemini.
+3. **Palabras clave animadas**: `<div class="abs kw a" data-in=… data-out=… data-fx="pop"><b>8</b><span>preguntas por
+   tema</span></div>` en un espacio libre, cuando la voz dice la cifra. Y **subtítulos karaoke**:
+   `python <skill>/scripts/alinear_palabras.py audio/voz.mp3 voz.txt palabras.json` y
+   `python <skill>/scripts/insertar_palabras.py video.html palabras.json`.
+4. **Mapa del curso**: en la intro, `Módulo N de 6` con 6 segmentos (`.mapa`), el del módulo actual encendido. En los
+   videos de **resumen**, los módulos terminados con check y el siguiente encendido.
+5. **EVA en un momento clave** (además de intro y cierre): cortar esa frase de la voz (`ffmpeg -ss … -to …`), subirla,
+   `create_video_from_avatar` 4:5 con el look de EVA, `fondo_eva.py` y un recuadro `avatar-frame` 480×600 con
+   `data-slot`. En el M1, «Todo esto alimenta el Hito uno…» (3,4 s = 2 créditos). En config va como un clip más con
+   `"zoom": 1.0` y `src_start` = desfase medido.
+6. **Pronunciación y resolución**: `alinear_palabras.py` lista lo que Whisper oyó distinto de lo escrito. Escuchar
+   esos tramos; si una palabra suena mal, escribirla como se dice en `voz.txt` y regenerar la voz **antes** de
+   sincronizar. Clips nuevos en 1080p si la herramienta lo permite (los de Flow vienen en 720p y se ven bien hasta
+   ~820 px de ancho).
 
 ### 7. EVA a cámara (un solo render para intro y cierre)
 - `python <skill>/scripts/cortar_audio_avatar.py audio/voz.mp3 FIN_INTRO INICIO_CIERRE audio/eva_intro_cierre.mp3`

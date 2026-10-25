@@ -3,6 +3,5 @@
   "framework": null,
   "installCommand": "npm install",
   "buildCommand": "npm run panel",
-  "outputDirectory": "panel/dist",
-  "cleanUrls": true
+  "outputDirectory": "panel/dist"
 }

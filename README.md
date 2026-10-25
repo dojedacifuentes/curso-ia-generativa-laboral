@@ -8,7 +8,7 @@ contenido base, los quiz, las infografías, los casos reales, los scripts que ge
 
 `panel/` arma un sitio estático con la metodología, la matriz, la trazabilidad (código de la planilla → pantalla → fuente →
 pregunta del quiz), los 101 recursos, los casos, las fuentes, los pendientes, la auditoría y los documentos del flujo.
-Vercel lo publica en cada push a `main` (ver `vercel.json`).
+Vercel lo publica en cada push a `main` (ver `vercel.json`): **https://curso-ia-generativa-laboral.vercel.app**
 
 ```bash
 npm install

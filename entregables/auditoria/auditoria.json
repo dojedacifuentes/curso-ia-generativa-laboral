@@ -1,6 +1,6 @@
 {
   "resumen": {
-    "generado": "2026-10-25T05:06:26.813Z",
+    "generado": "2026-10-25T05:21:53.305Z",
     "chequeos": 84,
     "ok": 70,
     "aviso": 12,
@@ -1193,25 +1193,35 @@
           "avisos": [],
           "pendientes": [],
           "evidencia": [
-            "tomada el 25-10-26, 12:21 a. m. · 18 carpetas",
+            "tomada el 25-10-26, 2:20 a. m. · 28 carpetas",
             "Curso IA generativa para entornos laborales · Recursos: 11 elementos",
+            "1 Contenidos base · Google Docs: 23 elementos",
+            "Versiones anteriores (24-10): 24 elementos",
             "2 Contenidos base · PDF: 24 elementos",
-            "Versiones anteriores (24-10): 21 elementos",
+            "Versiones anteriores (24-10): 23 elementos",
             "4 Infografías: 13 elementos",
             "Versiones anteriores (24-10): 2 elementos",
-            "1 Contenidos base · Google Docs: 23 elementos",
-            "Versiones anteriores (24-10): 16 elementos",
+            "6 Investigación y fuentes: 9 elementos",
+            "Fichas de verificación de casos: 11 elementos",
             "3 Quiz juego SCORM: 4 elementos",
+            "5 Casos de aplicación: 2 elementos",
             "HTML (juego sin LMS): 22 elementos",
             "SCORM 1.2 (subir al LMS): 22 elementos",
             "GIFT (banco de preguntas Moodle): 22 elementos",
             "Versiones anteriores (24-10): 6 elementos",
-            "5 Casos de aplicación: 2 elementos",
-            "PDF: 11 elementos",
             "Docs: 12 elementos",
-            "6 Investigación y fuentes: 9 elementos",
+            "PDF: 11 elementos",
+            "0 Planilla de origen: 2 elementos",
             "8 Skills de Claude: 10 elementos",
-            "0 Planilla de origen: 2 elementos"
+            "Versiones anteriores: 4 elementos",
+            "9 Proyecto fuente: 2 elementos",
+            "Versiones anteriores: 2 elementos",
+            "7 Proceso y control de calidad: 4 elementos",
+            "Docs: 12 elementos",
+            "Versiones anteriores: 3 elementos",
+            "PDF: 14 elementos",
+            "Versiones anteriores (25-10): 3 elementos",
+            "Versiones anteriores (25-10): 1 elementos"
           ]
         },
         {
@@ -1335,7 +1345,7 @@
           "avisos": [],
           "pendientes": [],
           "evidencia": [
-            "25 elementos en «5 Casos de aplicación»"
+            "11 elementos en «Fichas de verificación de casos»"
           ]
         }
       ]

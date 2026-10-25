@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-25T03:21:35.779Z",
+  "generado": "2026-10-25T05:20:42.231Z",
   "raiz": "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue",
   "carpetas": {
     "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue": {
@@ -21,11 +21,32 @@
           "bytes": null
         },
         {
+          "id": "1R7bdy_5Svb6QOZcjf9-Kbl3G_2RLnJ9q",
+          "titulo": "7 Proceso y control de calidad",
+          "mimeType": "application/vnd.google-apps.folder",
+          "modificado": "2026-10-24T22:53:52.203Z",
+          "bytes": null
+        },
+        {
+          "id": "1vLIwduHnYhEyztrZkfCfpeiLEZLQ9m05",
+          "titulo": "0 Planilla de origen",
+          "mimeType": "application/vnd.google-apps.folder",
+          "modificado": "2026-10-25T05:00:57.523Z",
+          "bytes": null
+        },
+        {
           "id": "1K718o4Y33fhHPc59XyTZIpPgKyfcZ8k1",
           "titulo": "8 Skills de Claude",
           "mimeType": "application/vnd.google-apps.folder",
           "modificado": "2026-10-24T22:53:54.299Z",
           "bytes": null
+        },
+        {
+          "id": "1bBhVa484hffS5Unt4_FEl3nNeF4dQqAAfo5arKODadw",
+          "titulo": "LEEME · qué hay en esta carpeta",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-25T05:09:44.765Z",
+          "bytes": 5337
         },
         {
           "id": "1fSmrxG-EEGjNMPwO5rWYmQRHehdRziiC",
@@ -35,20 +56,6 @@
           "bytes": null
         },
         {
-          "id": "1hjalqn0LaO4lfzvq3x2pRz3OFi3K38xS",
-          "titulo": "4 Infografías",
-          "mimeType": "application/vnd.google-apps.folder",
-          "modificado": "2026-10-24T14:51:42.664Z",
-          "bytes": null
-        },
-        {
-          "id": "1_ony4t5vnCM3DBF5xOh_Qs8n5IZkNRrcxNDPdcRMEik",
-          "titulo": "LEEME · qué hay en esta carpeta",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-25T03:10:23.535Z",
-          "bytes": 4979
-        },
-        {
           "id": "1gO2T_6XBK6rBGaEIL9Y0TJgAwglA6F8p",
           "titulo": "6 Investigación y fuentes",
           "mimeType": "application/vnd.google-apps.folder",
@@ -56,10 +63,10 @@
           "bytes": null
         },
         {
-          "id": "1R7bdy_5Svb6QOZcjf9-Kbl3G_2RLnJ9q",
-          "titulo": "7 Proceso y control de calidad",
+          "id": "1hjalqn0LaO4lfzvq3x2pRz3OFi3K38xS",
+          "titulo": "4 Infografías",
           "mimeType": "application/vnd.google-apps.folder",
-          "modificado": "2026-10-24T22:53:52.203Z",
+          "modificado": "2026-10-24T14:51:42.664Z",
           "bytes": null
         },
         {
@@ -75,13 +82,347 @@
           "mimeType": "application/vnd.google-apps.folder",
           "modificado": "2026-10-24T14:51:41.643Z",
           "bytes": null
+        }
+      ]
+    },
+    "1dIOjEBzMNl5V2tSJf7JL7G6f5ZE2FqjW": {
+      "titulo": "1 Contenidos base · Google Docs",
+      "padre": "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue",
+      "archivos": [
+        {
+          "id": "1DUj28P-DJsKUwlMHF8UX3C_FQ21yXt8UiqYlM_jqArQ",
+          "titulo": "M6-AE1 · Oportunidad de mejora con IA",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T14:58:12.793Z",
+          "bytes": 20677
         },
         {
-          "id": "1vLIwduHnYhEyztrZkfCfpeiLEZLQ9m05",
-          "titulo": "0 Planilla de origen",
+          "id": "1AobXednUZgqK-s7XumObh2HN4PHMVGBYd3kIeSJkWvA",
+          "titulo": "M5-AE3 · Supervisión humana y riesgos",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T22:56:39.311Z",
+          "bytes": 25352
+        },
+        {
+          "id": "1W7hWRkqaSSaWj0qrVWd11a2D_8yF0d0egmfy9TcsHuw",
+          "titulo": "M2-AE2 · Prompting avanzado para textos",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T15:02:12.682Z",
+          "bytes": 27374
+        },
+        {
+          "id": "1J-k4JVu5-X3HJ1JhcE8g3KavBjitmi2Wu4FtxFW_3U4",
+          "titulo": "M3-AE1 · Herramientas de IA para investigar",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T14:54:03.749Z",
+          "bytes": 27795
+        },
+        {
+          "id": "10kax8oN_Wl52Wijg42tcdperFJLB8bYf3aGFfGFirF0",
+          "titulo": "M5-AE1 · Potencial de automatización",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T14:53:44.724Z",
+          "bytes": 23632
+        },
+        {
+          "id": "1Vu23oF1wr30BxsYU9iBArfteChLFNfHyKL5nMWjZJ0M",
+          "titulo": "M1-AE1 · Fundamentos de IA generativa",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T14:53:45.600Z",
+          "bytes": 22099
+        },
+        {
+          "id": "1CBwEx_9NkQVu13B8xF5KsLlPXl3C-UWUNZhVbWW7lSE",
+          "titulo": "M3-AE4 · Análisis crítico y privacidad",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T21:38:53.981Z",
+          "bytes": 31475
+        },
+        {
+          "id": "15ZqRnhM2oVbWoPLCyr9mnQwT-YkQgH7ZdfB-DB8No6g",
+          "titulo": "M1-AE4 · Validación de resultados",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T21:36:59.336Z",
+          "bytes": 26506
+        },
+        {
+          "id": "1r78fbFsTRDLAfRpiioaxBpSe8Pq7OcUPlPqiode1V8I",
+          "titulo": "M4-AE3 · Audio y música",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T21:36:52.103Z",
+          "bytes": 24759
+        },
+        {
+          "id": "10D3mVPuZYcetll85dHsWUUaNUF_6bemzvneXVLoKqNE",
+          "titulo": "M6-AE3 · Resultados y aprendizajes",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:51:32.960Z",
+          "bytes": 20502
+        },
+        {
+          "id": "1Acn1o94zwE4UGR5iv46b_XmfQZJMqzcgL8OXaE14iFE",
+          "titulo": "M4-AE2 · Imágenes y gráficos",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:50:16.387Z",
+          "bytes": 25754
+        },
+        {
+          "id": "1B3lENBMP7finFoAe9u8Ycnifu8B_mTeJ0FklkdgYlkY",
+          "titulo": "M3-AE2 · Recopilar, validar y sintetizar",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:46:20.790Z",
+          "bytes": 28063
+        },
+        {
+          "id": "1lk0vmgSZaFt61aXc4BsKA7fZWDJfsUF1eZWE-PDVHDI",
+          "titulo": "M2-AE4 · Planillas de cálculo con IA",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:44:26.390Z",
+          "bytes": 29685
+        },
+        {
+          "id": "1F8OEa8IyVARa4QsyjEcQxR2F4wE5RYj2myQsFzzJL08",
+          "titulo": "M6-AE2 · Implementar el flujo",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T15:26:10.420Z",
+          "bytes": 20815
+        },
+        {
+          "id": "1q7_P6FPlXpQDl43gdb96Ng4KYApej6C0LhmNwf09Q8o",
+          "titulo": "M5-AE2 · Flujos simples con IA",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T15:24:48.604Z",
+          "bytes": 23714
+        },
+        {
+          "id": "1n-JHqVWIOo6up51steh7Jwc9isW423dInWfIjNpexCI",
+          "titulo": "M4-AE1 · Ecosistema multimedia con IA",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T15:21:38.263Z",
+          "bytes": 31215
+        },
+        {
+          "id": "1eXixbAWHuXis0KTJwf7Wumko4u3I8SJAGekyV4qKTLg",
+          "titulo": "M3-AE3 · Organizar y presentar información",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T15:17:40.382Z",
+          "bytes": 25094
+        },
+        {
+          "id": "1IRdeMY53yJ01wz3PMLi0rgStM4D8BZEx4O8GplIBspk",
+          "titulo": "M1-AE3 · Parámetros de generación",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T15:12:07.866Z",
+          "bytes": 24343
+        },
+        {
+          "id": "1sX1cmfOMdMW2LPyvQQ41symBIRptYq3uspe-OJ_GLqY",
+          "titulo": "M4-AE4 · Clips y video breve",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T15:06:25.533Z",
+          "bytes": 27673
+        },
+        {
+          "id": "1QC2Mnvc6R8rk9WkJiha6UD05cggfGOim6hxkYLgqXus",
+          "titulo": "M2-AE3 · Presentaciones con IA",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T15:03:57.480Z",
+          "bytes": 26497
+        },
+        {
+          "id": "15YK3csRxCDhzao6awZ3RHkIt_XtK0WJzqg9IojaC-6o",
+          "titulo": "M2-AE1 · Redacción y comunicación con IA",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T15:00:18.417Z",
+          "bytes": 29405
+        },
+        {
+          "id": "1cMMpDFtVof6eu_LrajRGawz2VEH1KSrSYVQGg8L8_fM",
+          "titulo": "M1-AE2 · Prompts efectivos",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T14:55:17.743Z",
+          "bytes": 24084
+        },
+        {
+          "id": "1rx9X0Yt_RSSN24IRN8Qwu-UhO-bsBy50",
+          "titulo": "Versiones anteriores (24-10)",
           "mimeType": "application/vnd.google-apps.folder",
-          "modificado": "2026-10-25T05:00:57.523Z",
+          "modificado": "2026-10-24T15:09:55.951Z",
           "bytes": null
+        }
+      ]
+    },
+    "1rx9X0Yt_RSSN24IRN8Qwu-UhO-bsBy50": {
+      "titulo": "Versiones anteriores (24-10)",
+      "padre": "1dIOjEBzMNl5V2tSJf7JL7G6f5ZE2FqjW",
+      "archivos": [
+        {
+          "id": "1Hni7Za7cvbP4TSuZTxoInL9X7K_bUZ4ouLGi70ZjbHs",
+          "titulo": "M6-AE2 · Implementar el flujo",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T14:59:36.152Z",
+          "bytes": 20725
+        },
+        {
+          "id": "1_pDyAl-HPuOIPTjLEBjWdZtpKLQ2V-dcxFINLLT5djo",
+          "titulo": "M1-AE4 · Validación de resultados",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T14:58:28.034Z",
+          "bytes": 25174
+        },
+        {
+          "id": "1tO6GIUGz7pfp4vUJpVZR-IElNQ6ryMqBdZ7ZoypAycE",
+          "titulo": "M3-AE3 · Organizar y presentar información",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T14:57:27.144Z",
+          "bytes": 25033
+        },
+        {
+          "id": "1IfV9CsYcDlcLwArP0EjQu7VitxDB9-NUGUDjd8K62cY",
+          "titulo": "M4-AE2 · Imágenes y gráficos",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T15:03:07.103Z",
+          "bytes": 25796
+        },
+        {
+          "id": "15bRUocgZZuc7NFbSlD-h9YVYfYBe0KM8jKHSYbuqFdg",
+          "titulo": "M4-AE1 · Ecosistema multimedia con IA",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T15:01:25.097Z",
+          "bytes": 31151
+        },
+        {
+          "id": "1_ony4t5vnCM3DBF5xOh_Qs8n5IZkNRrcxNDPdcRMEik",
+          "titulo": "LEEME · qué hay en esta carpeta (versión 25-10 madrugada)",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-25T05:08:57.407Z",
+          "bytes": 4979
+        },
+        {
+          "id": "1P8FB9Y10MSmTysHObSAWRxXq0Q8qv6smp7T-vVOf2k0",
+          "titulo": "LEEME · qué hay en esta carpeta (versión 24-10 noche)",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-25T03:10:34.488Z",
+          "bytes": 4870
+        },
+        {
+          "id": "1Q6TWRelltjjQVfwZZvFpvtX8Vv7WOXZ357B73d38m5I",
+          "titulo": "M5-AE3 · Supervisión humana y riesgos",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T21:38:18.059Z",
+          "bytes": 25371
+        },
+        {
+          "id": "149fBQ-K1WEgcNG063-RWj1Q4Ic_ymidLBcDOM_Nud_Q",
+          "titulo": "LEEME · qué hay en esta carpeta (versión 24-10 tarde)",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T22:59:17.242Z",
+          "bytes": 3053
+        },
+        {
+          "id": "18XBWs5OHtbajh4QJvX5eKtTAiKzix4cvsh6Rf1vN2mM",
+          "titulo": "M3-AE4 · Análisis crítico y privacidad",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:48:19.881Z",
+          "bytes": 29292
+        },
+        {
+          "id": "1Nzy-5QhfhprUGEJydO50IqbSV60rgPPfD3GJSdwwhGc",
+          "titulo": "M1-AE4 · Validación de resultados",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:42:18.470Z",
+          "bytes": 25258
+        },
+        {
+          "id": "168bJ7hy6kwD-QIjeNLvWRqsdTXQs2pUxcuPXIQ3NLek",
+          "titulo": "LEEME · qué hay en esta carpeta (versión 24-10 mañana)",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:46:57.161Z",
+          "bytes": 2644
+        },
+        {
+          "id": "1shoXlQlw9b1J4hWeUJVM2i2mxV-IB8F0fZOXpruKd-I",
+          "titulo": "M4-AE2 · Imágenes y gráficos",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T15:23:14.583Z",
+          "bytes": 25738
+        },
+        {
+          "id": "1VDUgiPr_bxc1h-OyO4H4E2x-lvZxM5uQlhJsWOAXOKk",
+          "titulo": "M3-AE4 · Análisis crítico y privacidad",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T15:19:33.654Z",
+          "bytes": 29287
+        },
+        {
+          "id": "11aiJVuY4E-OQOKc_owSx7urn_JXn57RM3qqJx3GbViU",
+          "titulo": "M3-AE2 · Recopilar, validar y sintetizar",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T15:16:06.245Z",
+          "bytes": 28064
+        },
+        {
+          "id": "1hshYwaWCb6zjiUM-89m3zqFX4oo6Hf0g6Sl0UTHLYMI",
+          "titulo": "M2-AE4 · Planillas de cálculo con IA",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T15:14:15.650Z",
+          "bytes": 29676
+        },
+        {
+          "id": "1-XUhOd9_-w-BUwOnHjpfAp1LXDJQHoI5sJ9sfJf9V_s",
+          "titulo": "M2-AE4 · Planillas de cálculo con IA",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T15:06:03.493Z",
+          "bytes": 29536
+        },
+        {
+          "id": "18v74AjvhpdJXbLaWt7dAZDixAMvlu8JJaV7osCwnu5w",
+          "titulo": "M4-AE3 · Audio y música",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T15:04:38.875Z",
+          "bytes": 23907
+        },
+        {
+          "id": "1uButKe9PqY92Wkgo745iea6bchZDxJtff2E3zm2qyyk",
+          "titulo": "M6-AE3 · Resultados y aprendizajes",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T15:00:55.387Z",
+          "bytes": 20419
+        },
+        {
+          "id": "1A4vq76JRXL5dfenlEK_XW_zlwUVbu8a-oDTEPjl8KSU",
+          "titulo": "M3-AE4 · Análisis crítico y privacidad",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T14:59:19.202Z",
+          "bytes": 29207
+        },
+        {
+          "id": "13Zi-I0-IwLwOPGsZKxAOPd7qqKNL45bcccATAdLAy9g",
+          "titulo": "M1-AE3 · Parámetros de generación",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T14:56:54.606Z",
+          "bytes": 24516
+        },
+        {
+          "id": "172Ql0zbs7Uwa6igQpD1yBZUmKQyMAcuDjoid55XVXAE",
+          "titulo": "M5-AE3 · Supervisión humana y riesgos",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T14:56:46.946Z",
+          "bytes": 23402
+        },
+        {
+          "id": "1rgYO2oFkr_RPV95-xVkqC-wvaZpqfKcBjp1FYvL0SIA",
+          "titulo": "M3-AE2 · Recopilar, validar y sintetizar",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T14:55:54.914Z",
+          "bytes": 28058
+        },
+        {
+          "id": "1MGh7WNOdfSlM1s5pg4ltguREez57cVdxH_YbkDhqutk",
+          "titulo": "M5-AE2 · Flujos simples con IA",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T14:55:18.375Z",
+          "bytes": 23646
         }
       ]
     },
@@ -297,6 +638,20 @@
           "mimeType": "application/pdf",
           "modificado": "2026-10-24T14:53:45.870Z",
           "bytes": 377870
+        },
+        {
+          "id": "1Efm8vEyrKr9c4d6dVz-Za5BqjdB42QEP",
+          "titulo": "Contenidos-completos.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T21:37:33.902Z",
+          "bytes": 6226404
+        },
+        {
+          "id": "1qHz00JlChDWRRy9pO21GnQq75BEoi6xR",
+          "titulo": "M5-AE3.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T21:36:42.139Z",
+          "bytes": 345980
         },
         {
           "id": "1VPovJ-JCbu49lNaSq0yl2awfRb0R04KM",
@@ -529,1046 +884,6 @@
         }
       ]
     },
-    "1dIOjEBzMNl5V2tSJf7JL7G6f5ZE2FqjW": {
-      "titulo": "1 Contenidos base · Google Docs",
-      "padre": "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue",
-      "archivos": [
-        {
-          "id": "10kax8oN_Wl52Wijg42tcdperFJLB8bYf3aGFfGFirF0",
-          "titulo": "M5-AE1 · Potencial de automatización",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T14:53:44.724Z",
-          "bytes": 23632
-        },
-        {
-          "id": "1F8OEa8IyVARa4QsyjEcQxR2F4wE5RYj2myQsFzzJL08",
-          "titulo": "M6-AE2 · Implementar el flujo",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T15:26:10.420Z",
-          "bytes": 20815
-        },
-        {
-          "id": "1B3lENBMP7finFoAe9u8Ycnifu8B_mTeJ0FklkdgYlkY",
-          "titulo": "M3-AE2 · Recopilar, validar y sintetizar",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T19:46:20.790Z",
-          "bytes": 28063
-        },
-        {
-          "id": "15YK3csRxCDhzao6awZ3RHkIt_XtK0WJzqg9IojaC-6o",
-          "titulo": "M2-AE1 · Redacción y comunicación con IA",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T15:00:18.417Z",
-          "bytes": 29405
-        },
-        {
-          "id": "1r78fbFsTRDLAfRpiioaxBpSe8Pq7OcUPlPqiode1V8I",
-          "titulo": "M4-AE3 · Audio y música",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T21:36:52.103Z",
-          "bytes": 24759
-        },
-        {
-          "id": "1Vu23oF1wr30BxsYU9iBArfteChLFNfHyKL5nMWjZJ0M",
-          "titulo": "M1-AE1 · Fundamentos de IA generativa",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T14:53:45.600Z",
-          "bytes": 22099
-        },
-        {
-          "id": "1AobXednUZgqK-s7XumObh2HN4PHMVGBYd3kIeSJkWvA",
-          "titulo": "M5-AE3 · Supervisión humana y riesgos",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T22:56:39.311Z",
-          "bytes": 25352
-        },
-        {
-          "id": "1CBwEx_9NkQVu13B8xF5KsLlPXl3C-UWUNZhVbWW7lSE",
-          "titulo": "M3-AE4 · Análisis crítico y privacidad",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T21:38:53.981Z",
-          "bytes": 31475
-        },
-        {
-          "id": "15ZqRnhM2oVbWoPLCyr9mnQwT-YkQgH7ZdfB-DB8No6g",
-          "titulo": "M1-AE4 · Validación de resultados",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T21:36:59.336Z",
-          "bytes": 26506
-        },
-        {
-          "id": "10D3mVPuZYcetll85dHsWUUaNUF_6bemzvneXVLoKqNE",
-          "titulo": "M6-AE3 · Resultados y aprendizajes",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T19:51:32.960Z",
-          "bytes": 20502
-        },
-        {
-          "id": "1Acn1o94zwE4UGR5iv46b_XmfQZJMqzcgL8OXaE14iFE",
-          "titulo": "M4-AE2 · Imágenes y gráficos",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T19:50:16.387Z",
-          "bytes": 25754
-        },
-        {
-          "id": "1lk0vmgSZaFt61aXc4BsKA7fZWDJfsUF1eZWE-PDVHDI",
-          "titulo": "M2-AE4 · Planillas de cálculo con IA",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T19:44:26.390Z",
-          "bytes": 29685
-        },
-        {
-          "id": "1q7_P6FPlXpQDl43gdb96Ng4KYApej6C0LhmNwf09Q8o",
-          "titulo": "M5-AE2 · Flujos simples con IA",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T15:24:48.604Z",
-          "bytes": 23714
-        },
-        {
-          "id": "1n-JHqVWIOo6up51steh7Jwc9isW423dInWfIjNpexCI",
-          "titulo": "M4-AE1 · Ecosistema multimedia con IA",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T15:21:38.263Z",
-          "bytes": 31215
-        },
-        {
-          "id": "1eXixbAWHuXis0KTJwf7Wumko4u3I8SJAGekyV4qKTLg",
-          "titulo": "M3-AE3 · Organizar y presentar información",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T15:17:40.382Z",
-          "bytes": 25094
-        },
-        {
-          "id": "1IRdeMY53yJ01wz3PMLi0rgStM4D8BZEx4O8GplIBspk",
-          "titulo": "M1-AE3 · Parámetros de generación",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T15:12:07.866Z",
-          "bytes": 24343
-        },
-        {
-          "id": "1sX1cmfOMdMW2LPyvQQ41symBIRptYq3uspe-OJ_GLqY",
-          "titulo": "M4-AE4 · Clips y video breve",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T15:06:25.533Z",
-          "bytes": 27673
-        },
-        {
-          "id": "1QC2Mnvc6R8rk9WkJiha6UD05cggfGOim6hxkYLgqXus",
-          "titulo": "M2-AE3 · Presentaciones con IA",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T15:03:57.480Z",
-          "bytes": 26497
-        },
-        {
-          "id": "1W7hWRkqaSSaWj0qrVWd11a2D_8yF0d0egmfy9TcsHuw",
-          "titulo": "M2-AE2 · Prompting avanzado para textos",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T15:02:12.682Z",
-          "bytes": 27374
-        },
-        {
-          "id": "1DUj28P-DJsKUwlMHF8UX3C_FQ21yXt8UiqYlM_jqArQ",
-          "titulo": "M6-AE1 · Oportunidad de mejora con IA",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T14:58:12.793Z",
-          "bytes": 20677
-        },
-        {
-          "id": "1cMMpDFtVof6eu_LrajRGawz2VEH1KSrSYVQGg8L8_fM",
-          "titulo": "M1-AE2 · Prompts efectivos",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T14:55:17.743Z",
-          "bytes": 24084
-        },
-        {
-          "id": "1J-k4JVu5-X3HJ1JhcE8g3KavBjitmi2Wu4FtxFW_3U4",
-          "titulo": "M3-AE1 · Herramientas de IA para investigar",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T14:54:03.749Z",
-          "bytes": 27795
-        },
-        {
-          "id": "1rx9X0Yt_RSSN24IRN8Qwu-UhO-bsBy50",
-          "titulo": "Versiones anteriores (24-10)",
-          "mimeType": "application/vnd.google-apps.folder",
-          "modificado": "2026-10-24T15:09:55.951Z",
-          "bytes": null
-        }
-      ]
-    },
-    "1rx9X0Yt_RSSN24IRN8Qwu-UhO-bsBy50": {
-      "titulo": "Versiones anteriores (24-10)",
-      "padre": "1dIOjEBzMNl5V2tSJf7JL7G6f5ZE2FqjW",
-      "archivos": [
-        {
-          "id": "15bRUocgZZuc7NFbSlD-h9YVYfYBe0KM8jKHSYbuqFdg",
-          "titulo": "M4-AE1 · Ecosistema multimedia con IA",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T15:01:25.097Z",
-          "bytes": 31151
-        },
-        {
-          "id": "1Hni7Za7cvbP4TSuZTxoInL9X7K_bUZ4ouLGi70ZjbHs",
-          "titulo": "M6-AE2 · Implementar el flujo",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T14:59:36.152Z",
-          "bytes": 20725
-        },
-        {
-          "id": "1_pDyAl-HPuOIPTjLEBjWdZtpKLQ2V-dcxFINLLT5djo",
-          "titulo": "M1-AE4 · Validación de resultados",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T14:58:28.034Z",
-          "bytes": 25174
-        },
-        {
-          "id": "1MGh7WNOdfSlM1s5pg4ltguREez57cVdxH_YbkDhqutk",
-          "titulo": "M5-AE2 · Flujos simples con IA",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T14:55:18.375Z",
-          "bytes": 23646
-        },
-        {
-          "id": "1shoXlQlw9b1J4hWeUJVM2i2mxV-IB8F0fZOXpruKd-I",
-          "titulo": "M4-AE2 · Imágenes y gráficos",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T15:23:14.583Z",
-          "bytes": 25738
-        },
-        {
-          "id": "168bJ7hy6kwD-QIjeNLvWRqsdTXQs2pUxcuPXIQ3NLek",
-          "titulo": "LEEME · qué hay en esta carpeta (versión 24-10 mañana)",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T19:46:57.161Z",
-          "bytes": 2644
-        },
-        {
-          "id": "1VDUgiPr_bxc1h-OyO4H4E2x-lvZxM5uQlhJsWOAXOKk",
-          "titulo": "M3-AE4 · Análisis crítico y privacidad",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T15:19:33.654Z",
-          "bytes": 29287
-        },
-        {
-          "id": "11aiJVuY4E-OQOKc_owSx7urn_JXn57RM3qqJx3GbViU",
-          "titulo": "M3-AE2 · Recopilar, validar y sintetizar",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T15:16:06.245Z",
-          "bytes": 28064
-        },
-        {
-          "id": "1hshYwaWCb6zjiUM-89m3zqFX4oo6Hf0g6Sl0UTHLYMI",
-          "titulo": "M2-AE4 · Planillas de cálculo con IA",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T15:14:15.650Z",
-          "bytes": 29676
-        },
-        {
-          "id": "1-XUhOd9_-w-BUwOnHjpfAp1LXDJQHoI5sJ9sfJf9V_s",
-          "titulo": "M2-AE4 · Planillas de cálculo con IA",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T15:06:03.493Z",
-          "bytes": 29536
-        },
-        {
-          "id": "1IfV9CsYcDlcLwArP0EjQu7VitxDB9-NUGUDjd8K62cY",
-          "titulo": "M4-AE2 · Imágenes y gráficos",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T15:03:07.103Z",
-          "bytes": 25796
-        },
-        {
-          "id": "1uButKe9PqY92Wkgo745iea6bchZDxJtff2E3zm2qyyk",
-          "titulo": "M6-AE3 · Resultados y aprendizajes",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T15:00:55.387Z",
-          "bytes": 20419
-        },
-        {
-          "id": "1A4vq76JRXL5dfenlEK_XW_zlwUVbu8a-oDTEPjl8KSU",
-          "titulo": "M3-AE4 · Análisis crítico y privacidad",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T14:59:19.202Z",
-          "bytes": 29207
-        },
-        {
-          "id": "1tO6GIUGz7pfp4vUJpVZR-IElNQ6ryMqBdZ7ZoypAycE",
-          "titulo": "M3-AE3 · Organizar y presentar información",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T14:57:27.144Z",
-          "bytes": 25033
-        },
-        {
-          "id": "13Zi-I0-IwLwOPGsZKxAOPd7qqKNL45bcccATAdLAy9g",
-          "titulo": "M1-AE3 · Parámetros de generación",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T14:56:54.606Z",
-          "bytes": 24516
-        },
-        {
-          "id": "1rgYO2oFkr_RPV95-xVkqC-wvaZpqfKcBjp1FYvL0SIA",
-          "titulo": "M3-AE2 · Recopilar, validar y sintetizar",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T14:55:54.914Z",
-          "bytes": 28058
-        }
-      ]
-    },
-    "13E1wdKMlZkwxkU9Z5DN2ZlleNrBhjRLX": {
-      "titulo": "3 Quiz juego SCORM",
-      "padre": "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue",
-      "archivos": [
-        {
-          "id": "1AmRJlnQeW3WOiskQg645bfj2yPz07J5D",
-          "titulo": "HTML (juego sin LMS)",
-          "mimeType": "application/vnd.google-apps.folder",
-          "modificado": "2026-10-24T15:13:42.284Z",
-          "bytes": null
-        },
-        {
-          "id": "1MT77POjJk3MxbLwQTAhbk97hk4Aw54yz",
-          "titulo": "SCORM 1.2 (subir al LMS)",
-          "mimeType": "application/vnd.google-apps.folder",
-          "modificado": "2026-10-24T15:13:40.465Z",
-          "bytes": null
-        },
-        {
-          "id": "1s1J1q1biKSNS0bR_QMd3P7Cj-GQOcDAu",
-          "titulo": "GIFT (banco de preguntas Moodle)",
-          "mimeType": "application/vnd.google-apps.folder",
-          "modificado": "2026-10-24T15:13:43.443Z",
-          "bytes": null
-        },
-        {
-          "id": "1QJI-W4u7mQQT96nmdANG42ekgVBk6fdx",
-          "titulo": "Versiones anteriores (24-10)",
-          "mimeType": "application/vnd.google-apps.folder",
-          "modificado": "2026-10-24T21:32:50.343Z",
-          "bytes": null
-        }
-      ]
-    },
-    "1AmRJlnQeW3WOiskQg645bfj2yPz07J5D": {
-      "titulo": "HTML (juego sin LMS)",
-      "padre": "13E1wdKMlZkwxkU9Z5DN2ZlleNrBhjRLX",
-      "archivos": [
-        {
-          "id": "1IBs0BhLis53iWzrzQzEFKSfK5aQpeelO",
-          "titulo": "M1-AE2-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.322Z",
-          "bytes": 229256
-        },
-        {
-          "id": "1TAOwBz-joDJwJKMm0hppS9ygvF5kBUFC",
-          "titulo": "M1-AE4-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.334Z",
-          "bytes": 229543
-        },
-        {
-          "id": "1BaS1OxKF0XzKDTuA-8Id2Qg_GexHa41_",
-          "titulo": "M6-AE2-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.375Z",
-          "bytes": 229494
-        },
-        {
-          "id": "1vChcNqpUyYyRWrHLMpGzBZfCffCQ1UdO",
-          "titulo": "M3-AE2-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.350Z",
-          "bytes": 230127
-        },
-        {
-          "id": "1TEqfHcVO-RVFzCe417KpBQ4yio1phBbK",
-          "titulo": "M4-AE1-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.356Z",
-          "bytes": 229693
-        },
-        {
-          "id": "1bQyVxCWkE0fTZLylpfP-f2isr1JunP28",
-          "titulo": "M5-AE3-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T21:35:27.204Z",
-          "bytes": 229620
-        },
-        {
-          "id": "1Via23cTNXoMLKxynWWxY00V5czVN7XWv",
-          "titulo": "M3-AE1-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T21:35:27.191Z",
-          "bytes": 229789
-        },
-        {
-          "id": "1HckEiZG4p5ky-FjXxRAQs1WZMuirZ6P-",
-          "titulo": "M5-AE2-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.369Z",
-          "bytes": 229460
-        },
-        {
-          "id": "1IlqpGIN7cRA9BXk4SlPPhJ4cIOXX7ce1",
-          "titulo": "M6-AE3-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.377Z",
-          "bytes": 229403
-        },
-        {
-          "id": "1ggapl3nk51yprGkCo4GJGJe3Dr9fOysH",
-          "titulo": "M4-AE3-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.361Z",
-          "bytes": 229621
-        },
-        {
-          "id": "153Zh6shDvyVhrgxSxKmzY7ZPXV9aG4eB",
-          "titulo": "M4-AE2-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.359Z",
-          "bytes": 229114
-        },
-        {
-          "id": "1ygqIMSryMKTyi6YWRq6UbKwwUA7uSw4C",
-          "titulo": "M5-AE1-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.367Z",
-          "bytes": 229823
-        },
-        {
-          "id": "1qmB4q9eDlyGrFp4ljW3qRsiTaB1AudZ3",
-          "titulo": "M4-AE4-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.364Z",
-          "bytes": 229332
-        },
-        {
-          "id": "1EVqVjNdYytWN1nwbMm8YQiuS4OuGhNQ8",
-          "titulo": "M3-AE4-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.354Z",
-          "bytes": 230216
-        },
-        {
-          "id": "1HQ3bUCQWB61egsAwETkKaB1wogE6RGlS",
-          "titulo": "M6-AE1-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.374Z",
-          "bytes": 229519
-        },
-        {
-          "id": "1O1j_JPfBp2Y_V1Lh1NJFC276mc-sfK-l",
-          "titulo": "M2-AE1-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.336Z",
-          "bytes": 229469
-        },
-        {
-          "id": "150QNZN0cS_-8dBW7pi-mUmhGpJlPriyU",
-          "titulo": "M3-AE3-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.352Z",
-          "bytes": 229645
-        },
-        {
-          "id": "1rLemxxHO60kSHKWyUIfrc0RQSjQUokqW",
-          "titulo": "M1-AE3-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.330Z",
-          "bytes": 229445
-        },
-        {
-          "id": "1TlwHP_s2_Lnqf0r-FZKBIlDl6i6D94R9",
-          "titulo": "M2-AE4-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.344Z",
-          "bytes": 229052
-        },
-        {
-          "id": "1Sn_CMWn1XvWsNqGoQkFUo4PRIhELPA60",
-          "titulo": "M2-AE3-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.342Z",
-          "bytes": 229059
-        },
-        {
-          "id": "1NkLyIaPn5gZSuVAN3NVb1ANA95LbUrWo",
-          "titulo": "M2-AE2-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.339Z",
-          "bytes": 228869
-        },
-        {
-          "id": "1aqbBEMT6H0ezQnrftpoIgURqdSpGgOOy",
-          "titulo": "M1-AE1-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.311Z",
-          "bytes": 229836
-        }
-      ]
-    },
-    "1MT77POjJk3MxbLwQTAhbk97hk4Aw54yz": {
-      "titulo": "SCORM 1.2 (subir al LMS)",
-      "padre": "13E1wdKMlZkwxkU9Z5DN2ZlleNrBhjRLX",
-      "archivos": [
-        {
-          "id": "1HWMiICTuNoLE6K7ZfU8kkp4d-JgEvEy0",
-          "titulo": "M6-AE3-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.889Z",
-          "bytes": 125371
-        },
-        {
-          "id": "1vbu-yLZLwEQMUnkW5TIHsuTq_QVh0e6S",
-          "titulo": "M3-AE4-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.872Z",
-          "bytes": 125406
-        },
-        {
-          "id": "1Ztwt4RgJp2iosF-CQOd45BvMlQJ7BSjf",
-          "titulo": "M2-AE3-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.865Z",
-          "bytes": 125117
-        },
-        {
-          "id": "1H7Sg0QuMY9pmQycjiluAfKp0zPlMyuNb",
-          "titulo": "M5-AE1-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.879Z",
-          "bytes": 125419
-        },
-        {
-          "id": "12X1OCUs9xMsStZO19ENcYQiHIstjOmWp",
-          "titulo": "M4-AE4-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.877Z",
-          "bytes": 125332
-        },
-        {
-          "id": "17rQoZHBPaGlFKiwOy-rSuUD23eWcyLR7",
-          "titulo": "M5-AE3-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T21:33:51.787Z",
-          "bytes": 125377
-        },
-        {
-          "id": "1XQG0vZ7JgvKPckQLrlvJgPmC4OZW51l8",
-          "titulo": "M3-AE1-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T21:33:51.758Z",
-          "bytes": 125344
-        },
-        {
-          "id": "1U6w0vAXBlZOHfhnkZALym6e2DCIw0SVc",
-          "titulo": "M6-AE2-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.887Z",
-          "bytes": 125211
-        },
-        {
-          "id": "1rO3i3X8Hd_kcyO_BKWw_EoyxJbmCyUb8",
-          "titulo": "M4-AE3-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.876Z",
-          "bytes": 125384
-        },
-        {
-          "id": "1tS48qm6lLacNNsF8zKIihPuZKY2--UIQ",
-          "titulo": "M5-AE2-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.881Z",
-          "bytes": 125283
-        },
-        {
-          "id": "1U4x-7SZ8CTtai9n1RmSQKps2SlHFA3Nw",
-          "titulo": "M4-AE2-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.875Z",
-          "bytes": 125186
-        },
-        {
-          "id": "1lqa-hIPO9wxqPcmtPEaa11m8wLNdhBOF",
-          "titulo": "M6-AE1-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.885Z",
-          "bytes": 125295
-        },
-        {
-          "id": "17EyMwIZ5TI2AMfR-6NUBceQI2TlstAmS",
-          "titulo": "M4-AE1-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.873Z",
-          "bytes": 125362
-        },
-        {
-          "id": "1lCNGRK91odIlcXoE5nYSjOYVNOKTFtyi",
-          "titulo": "M2-AE4-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.866Z",
-          "bytes": 125158
-        },
-        {
-          "id": "15t6EEEl0mPvIrrCGtZYNaHb5cwp9Dc28",
-          "titulo": "M3-AE3-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.870Z",
-          "bytes": 125365
-        },
-        {
-          "id": "15nCRu01--v15mKiFDgMISO8_4ls01lgs",
-          "titulo": "M2-AE2-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.864Z",
-          "bytes": 125118
-        },
-        {
-          "id": "1BBjKl5hJbSomWk-vHbXjUnfTafvItQZu",
-          "titulo": "M1-AE4-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.857Z",
-          "bytes": 125334
-        },
-        {
-          "id": "189c_kjWRrK86JTcDAMozGq-A7rcRkW76",
-          "titulo": "M3-AE2-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.869Z",
-          "bytes": 125574
-        },
-        {
-          "id": "1YlfkruvGZ_xRoKW4Kk3RYb6n5TBDWlLH",
-          "titulo": "M2-AE1-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.862Z",
-          "bytes": 125352
-        },
-        {
-          "id": "1vUHVq67YPV9ydsiJgu2cok43Q97JQRD5",
-          "titulo": "M1-AE2-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.848Z",
-          "bytes": 125179
-        },
-        {
-          "id": "1VQ9eoI2q-aAdftkM9A5sv8MyrrJaejo1",
-          "titulo": "M1-AE1-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.844Z",
-          "bytes": 125268
-        },
-        {
-          "id": "1rrPO0Z32219jdZyWMg2r9dR5GM_CcWfV",
-          "titulo": "M1-AE3-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.853Z",
-          "bytes": 125231
-        }
-      ]
-    },
-    "1s1J1q1biKSNS0bR_QMd3P7Cj-GQOcDAu": {
-      "titulo": "GIFT (banco de preguntas Moodle)",
-      "padre": "13E1wdKMlZkwxkU9Z5DN2ZlleNrBhjRLX",
-      "archivos": [
-        {
-          "id": "1AJuWVp4yQwyLiIBMnsWDjdYB2s4pMfia",
-          "titulo": "M3-AE2-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.034Z",
-          "bytes": 6342
-        },
-        {
-          "id": "1fgZXazoqD-lHUU65L7SEM8TLKz0ikpt1",
-          "titulo": "M2-AE3-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.031Z",
-          "bytes": 5318
-        },
-        {
-          "id": "1qZR3m_WGPNqInMjShP23kPuCSqCqOb7x",
-          "titulo": "M3-AE1-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T21:36:42.991Z",
-          "bytes": 5977
-        },
-        {
-          "id": "1K-SBim5Au-M3HoIu2I0b-F31tXtGDzDT",
-          "titulo": "M2-AE2-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.030Z",
-          "bytes": 5105
-        },
-        {
-          "id": "19BbIM5zSML6KV0eNrXIez2MDchkqZCi6",
-          "titulo": "M2-AE1-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.028Z",
-          "bytes": 5711
-        },
-        {
-          "id": "1Bdd9flvkjXSKJ3FiGilhn2jsaXDUqHBQ",
-          "titulo": "M5-AE3-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T21:36:42.996Z",
-          "bytes": 5904
-        },
-        {
-          "id": "17Fje5gVHF1BHzWHEGQa_54BETXGgZHJb",
-          "titulo": "M6-AE3-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.041Z",
-          "bytes": 5653
-        },
-        {
-          "id": "1vWSoNWAD1On4o9sCz32XwZ1KlGnfgLO5",
-          "titulo": "M5-AE1-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.039Z",
-          "bytes": 6080
-        },
-        {
-          "id": "1SXCkGl3zLEjpO-LicLy6LkVa66wjm7gQ",
-          "titulo": "M6-AE2-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.041Z",
-          "bytes": 5771
-        },
-        {
-          "id": "17ukRrXrIBi-uZU6dFYjricf9ckJi9LnF",
-          "titulo": "M4-AE2-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.037Z",
-          "bytes": 5394
-        },
-        {
-          "id": "17l7ujG8e1R8ZTdQihyOandpKOSNpP4hE",
-          "titulo": "M4-AE3-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.038Z",
-          "bytes": 5891
-        },
-        {
-          "id": "1s6yz7pzBRjgkWJNRbJTILJ5of_ejHylL",
-          "titulo": "M5-AE2-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.040Z",
-          "bytes": 5730
-        },
-        {
-          "id": "1pNfFDWU4kgmYj38odL5S82dNls2W5tLB",
-          "titulo": "M4-AE1-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.036Z",
-          "bytes": 5947
-        },
-        {
-          "id": "1SzWkrEiXhF1uE92I75x2CpzEzWM2u7Bw",
-          "titulo": "M6-AE1-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.041Z",
-          "bytes": 5795
-        },
-        {
-          "id": "16rEOhy2BwMEChTtwSoeHE9f8XjtFaBjo",
-          "titulo": "M4-AE4-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.038Z",
-          "bytes": 5559
-        },
-        {
-          "id": "1rWhJ15b-F5XoLPjbuXyApoUt4th0c1S3",
-          "titulo": "M3-AE4-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.036Z",
-          "bytes": 6425
-        },
-        {
-          "id": "17yfHu2tzsbbsRITffLAyf4W82Gp9Q1aK",
-          "titulo": "M3-AE3-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.035Z",
-          "bytes": 5896
-        },
-        {
-          "id": "1hI5Z7fq11Po0YFNm6YaVszo-2-jafELZ",
-          "titulo": "M2-AE4-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.032Z",
-          "bytes": 5315
-        },
-        {
-          "id": "1zEViym_hmzPaGXM3sgratXKqUpqEi4FA",
-          "titulo": "M1-AE1-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.023Z",
-          "bytes": 6123
-        },
-        {
-          "id": "1QKlv5T22csmpnUtZk15vsLex23dMCioB",
-          "titulo": "M1-AE3-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.027Z",
-          "bytes": 5708
-        },
-        {
-          "id": "1-VnnezfC88J_eKJQ_3T2HbU1sYv8MY3I",
-          "titulo": "M1-AE4-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.027Z",
-          "bytes": 5841
-        },
-        {
-          "id": "1b8cOmek1VF3OKqQ7hs1FWIL4THeY9Ueq",
-          "titulo": "M1-AE2-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.026Z",
-          "bytes": 5547
-        }
-      ]
-    },
-    "1QJI-W4u7mQQT96nmdANG42ekgVBk6fdx": {
-      "titulo": "Versiones anteriores (24-10)",
-      "padre": "13E1wdKMlZkwxkU9Z5DN2ZlleNrBhjRLX",
-      "archivos": [
-        {
-          "id": "1Mrkv2p-BFfxsFokrDT-6UOv1ecy-xQcz",
-          "titulo": "M3-AE1-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.347Z",
-          "bytes": 229785
-        },
-        {
-          "id": "1xBS9rpValu48zX2M5IMmGT8VIi_gfxSL",
-          "titulo": "M5-AE3-Quiz-Juego.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-24T15:14:55.372Z",
-          "bytes": 229620
-        },
-        {
-          "id": "1ZG-UKvs2_whWUXjejgRGJFXqrdAjgy0y",
-          "titulo": "M3-AE1-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.868Z",
-          "bytes": 125363
-        },
-        {
-          "id": "1CL9N3bpb2sy971y_sHtKHsnDonVcxVVU",
-          "titulo": "M3-AE1-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.033Z",
-          "bytes": 5972
-        },
-        {
-          "id": "1vMNcD94buqZtp8SAiAAvsry6obu1ooEP",
-          "titulo": "M5-AE3-Quiz-Juego-SCORM.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-24T15:14:20.884Z",
-          "bytes": 125378
-        },
-        {
-          "id": "1_UMwubPpmmbNjqlbiy-xz9XTlGXbbZ8w",
-          "titulo": "M5-AE3-Quiz-Moodle.gift",
-          "mimeType": "application/octet-stream",
-          "modificado": "2026-10-24T15:15:32.040Z",
-          "bytes": 5904
-        }
-      ]
-    },
-    "19lgkpBRwVu2GfxtyL3QrA80lioiGKMbD": {
-      "titulo": "5 Casos de aplicación",
-      "padre": "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue",
-      "archivos": [
-        {
-          "id": "1BXxrs7tCfhlqDzPzO3gLpxnKM5CxiveQ",
-          "titulo": "PDF",
-          "mimeType": "application/vnd.google-apps.folder",
-          "modificado": "2026-10-24T19:40:10.331Z",
-          "bytes": null
-        },
-        {
-          "id": "1R81sGNnaYB-kNluo0UJ1nakmKn4cQBSY",
-          "titulo": "Docs",
-          "mimeType": "application/vnd.google-apps.folder",
-          "modificado": "2026-10-24T19:40:09.419Z",
-          "bytes": null
-        }
-      ]
-    },
-    "1BXxrs7tCfhlqDzPzO3gLpxnKM5CxiveQ": {
-      "titulo": "PDF",
-      "padre": "19lgkpBRwVu2GfxtyL3QrA80lioiGKMbD",
-      "archivos": [
-        {
-          "id": "1X7nO7nt7H7Wi4Nf_pwA6KPIzkebKVyMU",
-          "titulo": "M5-C2.pdf",
-          "mimeType": "application/pdf",
-          "modificado": "2026-10-24T19:46:00.879Z",
-          "bytes": 99542
-        },
-        {
-          "id": "1t01C6Py2YdOavZ1N_t2x6Dj5vsneRtJT",
-          "titulo": "M3-C1.pdf",
-          "mimeType": "application/pdf",
-          "modificado": "2026-10-24T19:46:00.863Z",
-          "bytes": 98899
-        },
-        {
-          "id": "1UwA4WEpFCKt6UutL_pfjZkclUoWcqWju",
-          "titulo": "M2-C1.pdf",
-          "mimeType": "application/pdf",
-          "modificado": "2026-10-24T19:46:00.855Z",
-          "bytes": 88162
-        },
-        {
-          "id": "1xwn_m-fSv3DCvC_VIxlDVyUaulsYGHgv",
-          "titulo": "M1-C1.pdf",
-          "mimeType": "application/pdf",
-          "modificado": "2026-10-24T19:46:00.845Z",
-          "bytes": 85434
-        },
-        {
-          "id": "17OiyH2iCdYwTRLrLcYHEKdVqTsjas8cc",
-          "titulo": "M4-C2.pdf",
-          "mimeType": "application/pdf",
-          "modificado": "2026-10-24T19:46:00.873Z",
-          "bytes": 86549
-        },
-        {
-          "id": "1wKgZPdjSbW0JczesRq0soAvZ94X749uq",
-          "titulo": "M5-C1.pdf",
-          "mimeType": "application/pdf",
-          "modificado": "2026-10-24T19:46:00.877Z",
-          "bytes": 90148
-        },
-        {
-          "id": "1ehbJFzSdoURr-vBsbW9TuWdwDzYmD_-R",
-          "titulo": "M4-C3.pdf",
-          "mimeType": "application/pdf",
-          "modificado": "2026-10-24T19:46:00.876Z",
-          "bytes": 99634
-        },
-        {
-          "id": "1d_B3vKm-uJrmEzKjb1nh4RCE9ew1B13S",
-          "titulo": "M3-C2.pdf",
-          "mimeType": "application/pdf",
-          "modificado": "2026-10-24T19:46:00.868Z",
-          "bytes": 93703
-        },
-        {
-          "id": "11cYXZaMucFUWs9x3Tq_Qy8jOK_GtQGly",
-          "titulo": "M4-C1.pdf",
-          "mimeType": "application/pdf",
-          "modificado": "2026-10-24T19:46:00.872Z",
-          "bytes": 101507
-        },
-        {
-          "id": "1yZf114KZST77UNlEtESBf10QDsjhrEv8",
-          "titulo": "M2-C2.pdf",
-          "mimeType": "application/pdf",
-          "modificado": "2026-10-24T19:46:00.859Z",
-          "bytes": 95666
-        },
-        {
-          "id": "1hOA-QCiVdKz0BRnPGZwyz4XaHxiDBkEX",
-          "titulo": "M1-C2.pdf",
-          "mimeType": "application/pdf",
-          "modificado": "2026-10-24T19:46:00.852Z",
-          "bytes": 81711
-        }
-      ]
-    },
-    "1R81sGNnaYB-kNluo0UJ1nakmKn4cQBSY": {
-      "titulo": "Docs",
-      "padre": "19lgkpBRwVu2GfxtyL3QrA80lioiGKMbD",
-      "archivos": [
-        {
-          "id": "1yUW0JIfhQ9d1sJtYmgL8dx8ObwkRY2R0DQszVntnkDw",
-          "titulo": "M1-C2 · Cuando la IA inventa: abogados y jurisprudencia inexistente (Mata v. Avianca, 2023) y chatbot de Air Canada (2024)",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T19:47:00.261Z",
-          "bytes": 8024
-        },
-        {
-          "id": "1ilVQZyqJcpvR6WbDVe_VIyfVCSH7vDm1ttaz5uVL0yI",
-          "titulo": "M3-C1 · Informe con referencias inexistentes en un trabajo hecho con apoyo de IA (Deloitte Australia, 2025)",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T19:48:39.502Z",
-          "bytes": 9369
-        },
-        {
-          "id": "1cz2SgbkitpYz6_exYfPf7RPXzFL_r3DYbrsZd9otdxU",
-          "titulo": "M5-C2 · Estrategia «AI-first» y sus efectos sobre el trabajo (Duolingo, 2025)",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T19:51:57.977Z",
-          "bytes": 9400
-        },
-        {
-          "id": "1ua65TjGKY8StcGqzFYQ9LGT424tWzNvffGJfI-MuPrU",
-          "titulo": "00 · Resumen de verificación de los casos",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T19:46:05.658Z",
-          "bytes": 4750
-        },
-        {
-          "id": "1PYMTIioikmcUxtVkhBzH1iKtTN-hv6a1gOghwOGfo9I",
-          "titulo": "M3-C2 · Archivos con datos personales subidos a sitios públicos de IA (Municipalidad de Eindhoven, Países Bajos, 2025)",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T19:49:14.907Z",
-          "bytes": 9016
-        },
-        {
-          "id": "1hA4AKFKtoMdhojiY_fLgTa3XU0uEap2d8Z6XVPV1YAo",
-          "titulo": "M4-C3 · Licencias y datos de entrenamiento (Getty Images v. Stability AI)",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T19:50:53.028Z",
-          "bytes": 9588
-        },
-        {
-          "id": "1VYtxG2tSQzc7trVSOt5B9A12EX-j0b4KEEXWq06CHW0",
-          "titulo": "M5-C1 · Automatización de la atención al cliente con IA (Klarna)",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T19:51:28.596Z",
-          "bytes": 8754
-        },
-        {
-          "id": "12-00shqHaI3lUz_Lwj3kM0qPmfPNCF_5xrNGuQr1Fmo",
-          "titulo": "M4-C2 · Voz sintética y consentimiento (disputa Scarlett Johansson – OpenAI, 2024)",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T19:50:21.218Z",
-          "bytes": 8562
-        },
-        {
-          "id": "1CaK9LAn1119ZwzQUFy_Q1JQyNTwN-xr4NlrZKsa-4WA",
-          "titulo": "M4-C1 · Campañas de marca hechas con IA generativa (Coca-Cola, 2023 y 2024)",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T19:49:46.532Z",
-          "bytes": 9851
-        },
-        {
-          "id": "1gCDWaA70Wul8g7M5tRsQyBTsDwo-oh9uVyXAS50-ayU",
-          "titulo": "M2-C2 · Asistente de IA en herramientas de oficina para equipos (Vodafone y Microsoft 365 Copilot)",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T19:48:03.766Z",
-          "bytes": 9413
-        },
-        {
-          "id": "1Szn-EV1t6P1m60warjjILmy5KfA_IjLExBjbOADKf90",
-          "titulo": "M2-C1 · Comunicación con clientes redactada con apoyo de IA (Octopus Energy)",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T19:47:26.129Z",
-          "bytes": 8634
-        },
-        {
-          "id": "1Te_I8UFRmJbBkLzS0Rr0WegA87zlPDoBuracs0Qztng",
-          "titulo": "M1-C1 · Asistente de IA para asesores financieros (Morgan Stanley)",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T19:46:29.133Z",
-          "bytes": 8098
-        }
-      ]
-    },
     "1gO2T_6XBK6rBGaEIL9Y0TJgAwglA6F8p": {
       "titulo": "6 Investigación y fuentes",
       "padre": "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue",
@@ -1638,6 +953,864 @@
         }
       ]
     },
+    "13rwALxJy0pMaAF8DzdoFNGFObBN1IDJy": {
+      "titulo": "Fichas de verificación de casos",
+      "padre": "1gO2T_6XBK6rBGaEIL9Y0TJgAwglA6F8p",
+      "archivos": [
+        {
+          "id": "1PngKpAsGbF-Xbmh5U1ZziG7D-5sUlIHp",
+          "titulo": "M1-C2 · Cuando la IA inventa - abogados y jurisprudencia inexistente (Mata v. Avianca, 2023) y chatbot de Air Canada (2024) · ficha.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T22:57:25.374Z",
+          "bytes": 104002
+        },
+        {
+          "id": "1UvIvz2m28ulWkTJbDLwdOMm0f6LQfefA",
+          "titulo": "M4-C2 · Voz sintética y consentimiento (disputa Scarlett Johansson – OpenAI, 2024) · ficha.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T22:57:25.404Z",
+          "bytes": 78464
+        },
+        {
+          "id": "1Gk1JsGyiCyTHLIa4oTSbm1ZXy42i_Bck",
+          "titulo": "M5-C2 · Estrategia «AI-first» y sus efectos sobre el trabajo (Duolingo, 2025) · ficha.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T22:57:25.410Z",
+          "bytes": 116329
+        },
+        {
+          "id": "19ayzM0IXLw2yVaFoAVu8TuhzwogYYMys",
+          "titulo": "M3-C1 · Informe con referencias inexistentes en un trabajo hecho con apoyo de IA (Deloitte Australia, 2025) · ficha.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T22:57:25.394Z",
+          "bytes": 120965
+        },
+        {
+          "id": "1UGdt71McX73W2T-yS_CxOqgnd782UniA",
+          "titulo": "M5-C1 · Automatización de la atención al cliente con IA (Klarna) · ficha.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T22:57:25.408Z",
+          "bytes": 101483
+        },
+        {
+          "id": "1rme5ZNRlYHJ-usQ1ReOfdLEXtE-jAcKG",
+          "titulo": "M4-C3 · Licencias y datos de entrenamiento (Getty Images v. Stability AI) · ficha.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T22:57:25.407Z",
+          "bytes": 116065
+        },
+        {
+          "id": "1dU59fPW5--zT8xNCcF7TDIP5EJsUeu9g",
+          "titulo": "M2-C1 · Comunicación con clientes redactada con apoyo de IA (Octopus Energy) · ficha.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T22:57:25.381Z",
+          "bytes": 89901
+        },
+        {
+          "id": "1GVBOJke6_nBbZLUE5m8cb9MB7eAzBSQ-",
+          "titulo": "M3-C2 · Archivos con datos personales en sitios públicos de IA (Eindhoven, 2025; reemplaza a Samsung) · ficha.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T22:57:25.399Z",
+          "bytes": 124375
+        },
+        {
+          "id": "1F6kA-L6mzTVztxZprj57FDj_8VIhOf35",
+          "titulo": "M4-C1 · Campañas de marca hechas con IA generativa (Coca-Cola, 2023 y 2024) · ficha.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T22:57:25.403Z",
+          "bytes": 110108
+        },
+        {
+          "id": "11I3LnPsI5MwYCP8vBRyYc4nQzY0Jp6S7",
+          "titulo": "M2-C2 · Asistente de IA en herramientas de oficina para equipos (Vodafone y Microsoft 365 Copilot) · ficha.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T22:57:25.387Z",
+          "bytes": 103393
+        },
+        {
+          "id": "15d4lMAS0kBsLKSgV9BwdeKUNkpH5T3Cc",
+          "titulo": "M1-C1 · Asistente de IA para asesores financieros (Morgan Stanley) · ficha.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T22:57:25.366Z",
+          "bytes": 90936
+        }
+      ]
+    },
+    "13E1wdKMlZkwxkU9Z5DN2ZlleNrBhjRLX": {
+      "titulo": "3 Quiz juego SCORM",
+      "padre": "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue",
+      "archivos": [
+        {
+          "id": "1AmRJlnQeW3WOiskQg645bfj2yPz07J5D",
+          "titulo": "HTML (juego sin LMS)",
+          "mimeType": "application/vnd.google-apps.folder",
+          "modificado": "2026-10-24T15:13:42.284Z",
+          "bytes": null
+        },
+        {
+          "id": "1MT77POjJk3MxbLwQTAhbk97hk4Aw54yz",
+          "titulo": "SCORM 1.2 (subir al LMS)",
+          "mimeType": "application/vnd.google-apps.folder",
+          "modificado": "2026-10-24T15:13:40.465Z",
+          "bytes": null
+        },
+        {
+          "id": "1s1J1q1biKSNS0bR_QMd3P7Cj-GQOcDAu",
+          "titulo": "GIFT (banco de preguntas Moodle)",
+          "mimeType": "application/vnd.google-apps.folder",
+          "modificado": "2026-10-24T15:13:43.443Z",
+          "bytes": null
+        },
+        {
+          "id": "1QJI-W4u7mQQT96nmdANG42ekgVBk6fdx",
+          "titulo": "Versiones anteriores (24-10)",
+          "mimeType": "application/vnd.google-apps.folder",
+          "modificado": "2026-10-24T21:32:50.343Z",
+          "bytes": null
+        }
+      ]
+    },
+    "19lgkpBRwVu2GfxtyL3QrA80lioiGKMbD": {
+      "titulo": "5 Casos de aplicación",
+      "padre": "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue",
+      "archivos": [
+        {
+          "id": "1BXxrs7tCfhlqDzPzO3gLpxnKM5CxiveQ",
+          "titulo": "PDF",
+          "mimeType": "application/vnd.google-apps.folder",
+          "modificado": "2026-10-24T19:40:10.331Z",
+          "bytes": null
+        },
+        {
+          "id": "1R81sGNnaYB-kNluo0UJ1nakmKn4cQBSY",
+          "titulo": "Docs",
+          "mimeType": "application/vnd.google-apps.folder",
+          "modificado": "2026-10-24T19:40:09.419Z",
+          "bytes": null
+        }
+      ]
+    },
+    "1AmRJlnQeW3WOiskQg645bfj2yPz07J5D": {
+      "titulo": "HTML (juego sin LMS)",
+      "padre": "13E1wdKMlZkwxkU9Z5DN2ZlleNrBhjRLX",
+      "archivos": [
+        {
+          "id": "1IBs0BhLis53iWzrzQzEFKSfK5aQpeelO",
+          "titulo": "M1-AE2-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.322Z",
+          "bytes": 229256
+        },
+        {
+          "id": "1TAOwBz-joDJwJKMm0hppS9ygvF5kBUFC",
+          "titulo": "M1-AE4-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.334Z",
+          "bytes": 229543
+        },
+        {
+          "id": "1vChcNqpUyYyRWrHLMpGzBZfCffCQ1UdO",
+          "titulo": "M3-AE2-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.350Z",
+          "bytes": 230127
+        },
+        {
+          "id": "1TEqfHcVO-RVFzCe417KpBQ4yio1phBbK",
+          "titulo": "M4-AE1-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.356Z",
+          "bytes": 229693
+        },
+        {
+          "id": "1O1j_JPfBp2Y_V1Lh1NJFC276mc-sfK-l",
+          "titulo": "M2-AE1-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.336Z",
+          "bytes": 229469
+        },
+        {
+          "id": "1bQyVxCWkE0fTZLylpfP-f2isr1JunP28",
+          "titulo": "M5-AE3-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T21:35:27.204Z",
+          "bytes": 229620
+        },
+        {
+          "id": "1Via23cTNXoMLKxynWWxY00V5czVN7XWv",
+          "titulo": "M3-AE1-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T21:35:27.191Z",
+          "bytes": 229789
+        },
+        {
+          "id": "1HckEiZG4p5ky-FjXxRAQs1WZMuirZ6P-",
+          "titulo": "M5-AE2-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.369Z",
+          "bytes": 229460
+        },
+        {
+          "id": "1BaS1OxKF0XzKDTuA-8Id2Qg_GexHa41_",
+          "titulo": "M6-AE2-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.375Z",
+          "bytes": 229494
+        },
+        {
+          "id": "1IlqpGIN7cRA9BXk4SlPPhJ4cIOXX7ce1",
+          "titulo": "M6-AE3-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.377Z",
+          "bytes": 229403
+        },
+        {
+          "id": "1ggapl3nk51yprGkCo4GJGJe3Dr9fOysH",
+          "titulo": "M4-AE3-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.361Z",
+          "bytes": 229621
+        },
+        {
+          "id": "153Zh6shDvyVhrgxSxKmzY7ZPXV9aG4eB",
+          "titulo": "M4-AE2-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.359Z",
+          "bytes": 229114
+        },
+        {
+          "id": "1ygqIMSryMKTyi6YWRq6UbKwwUA7uSw4C",
+          "titulo": "M5-AE1-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.367Z",
+          "bytes": 229823
+        },
+        {
+          "id": "1qmB4q9eDlyGrFp4ljW3qRsiTaB1AudZ3",
+          "titulo": "M4-AE4-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.364Z",
+          "bytes": 229332
+        },
+        {
+          "id": "1EVqVjNdYytWN1nwbMm8YQiuS4OuGhNQ8",
+          "titulo": "M3-AE4-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.354Z",
+          "bytes": 230216
+        },
+        {
+          "id": "1HQ3bUCQWB61egsAwETkKaB1wogE6RGlS",
+          "titulo": "M6-AE1-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.374Z",
+          "bytes": 229519
+        },
+        {
+          "id": "150QNZN0cS_-8dBW7pi-mUmhGpJlPriyU",
+          "titulo": "M3-AE3-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.352Z",
+          "bytes": 229645
+        },
+        {
+          "id": "1rLemxxHO60kSHKWyUIfrc0RQSjQUokqW",
+          "titulo": "M1-AE3-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.330Z",
+          "bytes": 229445
+        },
+        {
+          "id": "1TlwHP_s2_Lnqf0r-FZKBIlDl6i6D94R9",
+          "titulo": "M2-AE4-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.344Z",
+          "bytes": 229052
+        },
+        {
+          "id": "1Sn_CMWn1XvWsNqGoQkFUo4PRIhELPA60",
+          "titulo": "M2-AE3-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.342Z",
+          "bytes": 229059
+        },
+        {
+          "id": "1NkLyIaPn5gZSuVAN3NVb1ANA95LbUrWo",
+          "titulo": "M2-AE2-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.339Z",
+          "bytes": 228869
+        },
+        {
+          "id": "1aqbBEMT6H0ezQnrftpoIgURqdSpGgOOy",
+          "titulo": "M1-AE1-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.311Z",
+          "bytes": 229836
+        }
+      ]
+    },
+    "1MT77POjJk3MxbLwQTAhbk97hk4Aw54yz": {
+      "titulo": "SCORM 1.2 (subir al LMS)",
+      "padre": "13E1wdKMlZkwxkU9Z5DN2ZlleNrBhjRLX",
+      "archivos": [
+        {
+          "id": "1HWMiICTuNoLE6K7ZfU8kkp4d-JgEvEy0",
+          "titulo": "M6-AE3-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.889Z",
+          "bytes": 125371
+        },
+        {
+          "id": "1H7Sg0QuMY9pmQycjiluAfKp0zPlMyuNb",
+          "titulo": "M5-AE1-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.879Z",
+          "bytes": 125419
+        },
+        {
+          "id": "1U6w0vAXBlZOHfhnkZALym6e2DCIw0SVc",
+          "titulo": "M6-AE2-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.887Z",
+          "bytes": 125211
+        },
+        {
+          "id": "17rQoZHBPaGlFKiwOy-rSuUD23eWcyLR7",
+          "titulo": "M5-AE3-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T21:33:51.787Z",
+          "bytes": 125377
+        },
+        {
+          "id": "1XQG0vZ7JgvKPckQLrlvJgPmC4OZW51l8",
+          "titulo": "M3-AE1-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T21:33:51.758Z",
+          "bytes": 125344
+        },
+        {
+          "id": "12X1OCUs9xMsStZO19ENcYQiHIstjOmWp",
+          "titulo": "M4-AE4-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.877Z",
+          "bytes": 125332
+        },
+        {
+          "id": "1rO3i3X8Hd_kcyO_BKWw_EoyxJbmCyUb8",
+          "titulo": "M4-AE3-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.876Z",
+          "bytes": 125384
+        },
+        {
+          "id": "1tS48qm6lLacNNsF8zKIihPuZKY2--UIQ",
+          "titulo": "M5-AE2-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.881Z",
+          "bytes": 125283
+        },
+        {
+          "id": "1U4x-7SZ8CTtai9n1RmSQKps2SlHFA3Nw",
+          "titulo": "M4-AE2-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.875Z",
+          "bytes": 125186
+        },
+        {
+          "id": "1lqa-hIPO9wxqPcmtPEaa11m8wLNdhBOF",
+          "titulo": "M6-AE1-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.885Z",
+          "bytes": 125295
+        },
+        {
+          "id": "17EyMwIZ5TI2AMfR-6NUBceQI2TlstAmS",
+          "titulo": "M4-AE1-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.873Z",
+          "bytes": 125362
+        },
+        {
+          "id": "1vbu-yLZLwEQMUnkW5TIHsuTq_QVh0e6S",
+          "titulo": "M3-AE4-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.872Z",
+          "bytes": 125406
+        },
+        {
+          "id": "1lCNGRK91odIlcXoE5nYSjOYVNOKTFtyi",
+          "titulo": "M2-AE4-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.866Z",
+          "bytes": 125158
+        },
+        {
+          "id": "15t6EEEl0mPvIrrCGtZYNaHb5cwp9Dc28",
+          "titulo": "M3-AE3-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.870Z",
+          "bytes": 125365
+        },
+        {
+          "id": "15nCRu01--v15mKiFDgMISO8_4ls01lgs",
+          "titulo": "M2-AE2-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.864Z",
+          "bytes": 125118
+        },
+        {
+          "id": "1BBjKl5hJbSomWk-vHbXjUnfTafvItQZu",
+          "titulo": "M1-AE4-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.857Z",
+          "bytes": 125334
+        },
+        {
+          "id": "1Ztwt4RgJp2iosF-CQOd45BvMlQJ7BSjf",
+          "titulo": "M2-AE3-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.865Z",
+          "bytes": 125117
+        },
+        {
+          "id": "189c_kjWRrK86JTcDAMozGq-A7rcRkW76",
+          "titulo": "M3-AE2-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.869Z",
+          "bytes": 125574
+        },
+        {
+          "id": "1YlfkruvGZ_xRoKW4Kk3RYb6n5TBDWlLH",
+          "titulo": "M2-AE1-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.862Z",
+          "bytes": 125352
+        },
+        {
+          "id": "1vUHVq67YPV9ydsiJgu2cok43Q97JQRD5",
+          "titulo": "M1-AE2-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.848Z",
+          "bytes": 125179
+        },
+        {
+          "id": "1VQ9eoI2q-aAdftkM9A5sv8MyrrJaejo1",
+          "titulo": "M1-AE1-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.844Z",
+          "bytes": 125268
+        },
+        {
+          "id": "1rrPO0Z32219jdZyWMg2r9dR5GM_CcWfV",
+          "titulo": "M1-AE3-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.853Z",
+          "bytes": 125231
+        }
+      ]
+    },
+    "1s1J1q1biKSNS0bR_QMd3P7Cj-GQOcDAu": {
+      "titulo": "GIFT (banco de preguntas Moodle)",
+      "padre": "13E1wdKMlZkwxkU9Z5DN2ZlleNrBhjRLX",
+      "archivos": [
+        {
+          "id": "1qZR3m_WGPNqInMjShP23kPuCSqCqOb7x",
+          "titulo": "M3-AE1-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T21:36:42.991Z",
+          "bytes": 5977
+        },
+        {
+          "id": "1Bdd9flvkjXSKJ3FiGilhn2jsaXDUqHBQ",
+          "titulo": "M5-AE3-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T21:36:42.996Z",
+          "bytes": 5904
+        },
+        {
+          "id": "17l7ujG8e1R8ZTdQihyOandpKOSNpP4hE",
+          "titulo": "M4-AE3-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.038Z",
+          "bytes": 5891
+        },
+        {
+          "id": "1s6yz7pzBRjgkWJNRbJTILJ5of_ejHylL",
+          "titulo": "M5-AE2-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.040Z",
+          "bytes": 5730
+        },
+        {
+          "id": "17ukRrXrIBi-uZU6dFYjricf9ckJi9LnF",
+          "titulo": "M4-AE2-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.037Z",
+          "bytes": 5394
+        },
+        {
+          "id": "17Fje5gVHF1BHzWHEGQa_54BETXGgZHJb",
+          "titulo": "M6-AE3-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.041Z",
+          "bytes": 5653
+        },
+        {
+          "id": "1vWSoNWAD1On4o9sCz32XwZ1KlGnfgLO5",
+          "titulo": "M5-AE1-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.039Z",
+          "bytes": 6080
+        },
+        {
+          "id": "1SXCkGl3zLEjpO-LicLy6LkVa66wjm7gQ",
+          "titulo": "M6-AE2-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.041Z",
+          "bytes": 5771
+        },
+        {
+          "id": "1pNfFDWU4kgmYj38odL5S82dNls2W5tLB",
+          "titulo": "M4-AE1-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.036Z",
+          "bytes": 5947
+        },
+        {
+          "id": "1SzWkrEiXhF1uE92I75x2CpzEzWM2u7Bw",
+          "titulo": "M6-AE1-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.041Z",
+          "bytes": 5795
+        },
+        {
+          "id": "16rEOhy2BwMEChTtwSoeHE9f8XjtFaBjo",
+          "titulo": "M4-AE4-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.038Z",
+          "bytes": 5559
+        },
+        {
+          "id": "1rWhJ15b-F5XoLPjbuXyApoUt4th0c1S3",
+          "titulo": "M3-AE4-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.036Z",
+          "bytes": 6425
+        },
+        {
+          "id": "17yfHu2tzsbbsRITffLAyf4W82Gp9Q1aK",
+          "titulo": "M3-AE3-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.035Z",
+          "bytes": 5896
+        },
+        {
+          "id": "1hI5Z7fq11Po0YFNm6YaVszo-2-jafELZ",
+          "titulo": "M2-AE4-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.032Z",
+          "bytes": 5315
+        },
+        {
+          "id": "1zEViym_hmzPaGXM3sgratXKqUpqEi4FA",
+          "titulo": "M1-AE1-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.023Z",
+          "bytes": 6123
+        },
+        {
+          "id": "1QKlv5T22csmpnUtZk15vsLex23dMCioB",
+          "titulo": "M1-AE3-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.027Z",
+          "bytes": 5708
+        },
+        {
+          "id": "1-VnnezfC88J_eKJQ_3T2HbU1sYv8MY3I",
+          "titulo": "M1-AE4-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.027Z",
+          "bytes": 5841
+        },
+        {
+          "id": "1AJuWVp4yQwyLiIBMnsWDjdYB2s4pMfia",
+          "titulo": "M3-AE2-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.034Z",
+          "bytes": 6342
+        },
+        {
+          "id": "1K-SBim5Au-M3HoIu2I0b-F31tXtGDzDT",
+          "titulo": "M2-AE2-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.030Z",
+          "bytes": 5105
+        },
+        {
+          "id": "1fgZXazoqD-lHUU65L7SEM8TLKz0ikpt1",
+          "titulo": "M2-AE3-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.031Z",
+          "bytes": 5318
+        },
+        {
+          "id": "19BbIM5zSML6KV0eNrXIez2MDchkqZCi6",
+          "titulo": "M2-AE1-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.028Z",
+          "bytes": 5711
+        },
+        {
+          "id": "1b8cOmek1VF3OKqQ7hs1FWIL4THeY9Ueq",
+          "titulo": "M1-AE2-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.026Z",
+          "bytes": 5547
+        }
+      ]
+    },
+    "1QJI-W4u7mQQT96nmdANG42ekgVBk6fdx": {
+      "titulo": "Versiones anteriores (24-10)",
+      "padre": "13E1wdKMlZkwxkU9Z5DN2ZlleNrBhjRLX",
+      "archivos": [
+        {
+          "id": "1Mrkv2p-BFfxsFokrDT-6UOv1ecy-xQcz",
+          "titulo": "M3-AE1-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.347Z",
+          "bytes": 229785
+        },
+        {
+          "id": "1xBS9rpValu48zX2M5IMmGT8VIi_gfxSL",
+          "titulo": "M5-AE3-Quiz-Juego.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-24T15:14:55.372Z",
+          "bytes": 229620
+        },
+        {
+          "id": "1ZG-UKvs2_whWUXjejgRGJFXqrdAjgy0y",
+          "titulo": "M3-AE1-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.868Z",
+          "bytes": 125363
+        },
+        {
+          "id": "1CL9N3bpb2sy971y_sHtKHsnDonVcxVVU",
+          "titulo": "M3-AE1-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.033Z",
+          "bytes": 5972
+        },
+        {
+          "id": "1vMNcD94buqZtp8SAiAAvsry6obu1ooEP",
+          "titulo": "M5-AE3-Quiz-Juego-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T15:14:20.884Z",
+          "bytes": 125378
+        },
+        {
+          "id": "1_UMwubPpmmbNjqlbiy-xz9XTlGXbbZ8w",
+          "titulo": "M5-AE3-Quiz-Moodle.gift",
+          "mimeType": "application/octet-stream",
+          "modificado": "2026-10-24T15:15:32.040Z",
+          "bytes": 5904
+        }
+      ]
+    },
+    "1R81sGNnaYB-kNluo0UJ1nakmKn4cQBSY": {
+      "titulo": "Docs",
+      "padre": "19lgkpBRwVu2GfxtyL3QrA80lioiGKMbD",
+      "archivos": [
+        {
+          "id": "12-00shqHaI3lUz_Lwj3kM0qPmfPNCF_5xrNGuQr1Fmo",
+          "titulo": "M4-C2 · Voz sintética y consentimiento (disputa Scarlett Johansson – OpenAI, 2024)",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:50:21.218Z",
+          "bytes": 8562
+        },
+        {
+          "id": "1CaK9LAn1119ZwzQUFy_Q1JQyNTwN-xr4NlrZKsa-4WA",
+          "titulo": "M4-C1 · Campañas de marca hechas con IA generativa (Coca-Cola, 2023 y 2024)",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:49:46.532Z",
+          "bytes": 9851
+        },
+        {
+          "id": "1ilVQZyqJcpvR6WbDVe_VIyfVCSH7vDm1ttaz5uVL0yI",
+          "titulo": "M3-C1 · Informe con referencias inexistentes en un trabajo hecho con apoyo de IA (Deloitte Australia, 2025)",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:48:39.502Z",
+          "bytes": 9369
+        },
+        {
+          "id": "1cz2SgbkitpYz6_exYfPf7RPXzFL_r3DYbrsZd9otdxU",
+          "titulo": "M5-C2 · Estrategia «AI-first» y sus efectos sobre el trabajo (Duolingo, 2025)",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:51:57.977Z",
+          "bytes": 9400
+        },
+        {
+          "id": "1PYMTIioikmcUxtVkhBzH1iKtTN-hv6a1gOghwOGfo9I",
+          "titulo": "M3-C2 · Archivos con datos personales subidos a sitios públicos de IA (Municipalidad de Eindhoven, Países Bajos, 2025)",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:49:14.907Z",
+          "bytes": 9016
+        },
+        {
+          "id": "1hA4AKFKtoMdhojiY_fLgTa3XU0uEap2d8Z6XVPV1YAo",
+          "titulo": "M4-C3 · Licencias y datos de entrenamiento (Getty Images v. Stability AI)",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:50:53.028Z",
+          "bytes": 9588
+        },
+        {
+          "id": "1VYtxG2tSQzc7trVSOt5B9A12EX-j0b4KEEXWq06CHW0",
+          "titulo": "M5-C1 · Automatización de la atención al cliente con IA (Klarna)",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:51:28.596Z",
+          "bytes": 8754
+        },
+        {
+          "id": "1gCDWaA70Wul8g7M5tRsQyBTsDwo-oh9uVyXAS50-ayU",
+          "titulo": "M2-C2 · Asistente de IA en herramientas de oficina para equipos (Vodafone y Microsoft 365 Copilot)",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:48:03.766Z",
+          "bytes": 9413
+        },
+        {
+          "id": "1Szn-EV1t6P1m60warjjILmy5KfA_IjLExBjbOADKf90",
+          "titulo": "M2-C1 · Comunicación con clientes redactada con apoyo de IA (Octopus Energy)",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:47:26.129Z",
+          "bytes": 8634
+        },
+        {
+          "id": "1yUW0JIfhQ9d1sJtYmgL8dx8ObwkRY2R0DQszVntnkDw",
+          "titulo": "M1-C2 · Cuando la IA inventa: abogados y jurisprudencia inexistente (Mata v. Avianca, 2023) y chatbot de Air Canada (2024)",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:47:00.261Z",
+          "bytes": 8024
+        },
+        {
+          "id": "1Te_I8UFRmJbBkLzS0Rr0WegA87zlPDoBuracs0Qztng",
+          "titulo": "M1-C1 · Asistente de IA para asesores financieros (Morgan Stanley)",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:46:29.133Z",
+          "bytes": 8098
+        },
+        {
+          "id": "1ua65TjGKY8StcGqzFYQ9LGT424tWzNvffGJfI-MuPrU",
+          "titulo": "00 · Resumen de verificación de los casos",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T19:46:05.658Z",
+          "bytes": 4750
+        }
+      ]
+    },
+    "1BXxrs7tCfhlqDzPzO3gLpxnKM5CxiveQ": {
+      "titulo": "PDF",
+      "padre": "19lgkpBRwVu2GfxtyL3QrA80lioiGKMbD",
+      "archivos": [
+        {
+          "id": "1X7nO7nt7H7Wi4Nf_pwA6KPIzkebKVyMU",
+          "titulo": "M5-C2.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T19:46:00.879Z",
+          "bytes": 99542
+        },
+        {
+          "id": "1t01C6Py2YdOavZ1N_t2x6Dj5vsneRtJT",
+          "titulo": "M3-C1.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T19:46:00.863Z",
+          "bytes": 98899
+        },
+        {
+          "id": "1UwA4WEpFCKt6UutL_pfjZkclUoWcqWju",
+          "titulo": "M2-C1.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T19:46:00.855Z",
+          "bytes": 88162
+        },
+        {
+          "id": "1xwn_m-fSv3DCvC_VIxlDVyUaulsYGHgv",
+          "titulo": "M1-C1.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T19:46:00.845Z",
+          "bytes": 85434
+        },
+        {
+          "id": "17OiyH2iCdYwTRLrLcYHEKdVqTsjas8cc",
+          "titulo": "M4-C2.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T19:46:00.873Z",
+          "bytes": 86549
+        },
+        {
+          "id": "1hOA-QCiVdKz0BRnPGZwyz4XaHxiDBkEX",
+          "titulo": "M1-C2.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T19:46:00.852Z",
+          "bytes": 81711
+        },
+        {
+          "id": "1wKgZPdjSbW0JczesRq0soAvZ94X749uq",
+          "titulo": "M5-C1.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T19:46:00.877Z",
+          "bytes": 90148
+        },
+        {
+          "id": "1ehbJFzSdoURr-vBsbW9TuWdwDzYmD_-R",
+          "titulo": "M4-C3.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T19:46:00.876Z",
+          "bytes": 99634
+        },
+        {
+          "id": "1d_B3vKm-uJrmEzKjb1nh4RCE9ew1B13S",
+          "titulo": "M3-C2.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T19:46:00.868Z",
+          "bytes": 93703
+        },
+        {
+          "id": "11cYXZaMucFUWs9x3Tq_Qy8jOK_GtQGly",
+          "titulo": "M4-C1.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T19:46:00.872Z",
+          "bytes": 101507
+        },
+        {
+          "id": "1yZf114KZST77UNlEtESBf10QDsjhrEv8",
+          "titulo": "M2-C2.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-24T19:46:00.859Z",
+          "bytes": 95666
+        }
+      ]
+    },
+    "1vLIwduHnYhEyztrZkfCfpeiLEZLQ9m05": {
+      "titulo": "0 Planilla de origen",
+      "padre": "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue",
+      "archivos": [
+        {
+          "id": "1F5qgZLYTQjOgJOXPuCIaULKLBGVlgSdrLeokTpgxCR0",
+          "titulo": "Estructura_inicial_contenido_IA_generativa · copia 25-10-2026",
+          "mimeType": "application/vnd.google-apps.spreadsheet",
+          "modificado": "2026-10-25T05:01:02.751Z",
+          "bytes": 38158
+        },
+        {
+          "id": "1Oh09aEp8waXC9m8gQ3_muVcqtWxFRq6B",
+          "titulo": "Estructura_inicial_contenido_IA_generativa.xlsx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "modificado": "2026-10-25T05:01:47.915Z",
+          "bytes": 95548
+        }
+      ]
+    },
     "1K718o4Y33fhHPc59XyTZIpPgKyfcZ8k1": {
       "titulo": "8 Skills de Claude",
       "padre": "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue",
@@ -1678,18 +1851,18 @@
           "bytes": 3559
         },
         {
-          "id": "1v_fkNFmk_51CNf1j26t4VBkQTnnz-qhE",
-          "titulo": "skills-curso-ia-generativa.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-25T03:12:35.360Z",
-          "bytes": 15151
-        },
-        {
-          "id": "1hlrXCPJ2VlPWCtAQWUg1Nda466csRTx9",
+          "id": "1zY2tS6T4auBNWxC3AEZeW_i4MnfoPHOT",
           "titulo": "curso-drive.SKILL.md",
           "mimeType": "text/markdown",
-          "modificado": "2026-10-25T03:12:35.362Z",
-          "bytes": 5890
+          "modificado": "2026-10-25T05:12:09.533Z",
+          "bytes": 6603
+        },
+        {
+          "id": "1mvmK4U1306eFtycJwYcXsXbPBTyOtAHQ",
+          "titulo": "skills-curso-ia-generativa.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-25T05:12:09.530Z",
+          "bytes": 15461
         },
         {
           "id": "1CdGk364MiqCKM11EOkO6OeDNuO0mS40p",
@@ -1714,26 +1887,375 @@
         }
       ]
     },
-    "1vLIwduHnYhEyztrZkfCfpeiLEZLQ9m05": {
-      "titulo": "0 Planilla de origen",
+    "1zOQoMHuNqu7SHhK9zGA5aXd8R3KBniat": {
+      "titulo": "Versiones anteriores",
+      "padre": "1K718o4Y33fhHPc59XyTZIpPgKyfcZ8k1",
+      "archivos": [
+        {
+          "id": "1aipdFfrDMXMRtlnatqFeV1ejBwnYEvSI",
+          "titulo": "curso-drive.SKILL.md",
+          "mimeType": "text/markdown",
+          "modificado": "2026-10-24T22:58:38.347Z",
+          "bytes": 5684
+        },
+        {
+          "id": "1hlrXCPJ2VlPWCtAQWUg1Nda466csRTx9",
+          "titulo": "curso-drive.SKILL.md",
+          "mimeType": "text/markdown",
+          "modificado": "2026-10-25T03:12:35.362Z",
+          "bytes": 5890
+        },
+        {
+          "id": "1v_fkNFmk_51CNf1j26t4VBkQTnnz-qhE",
+          "titulo": "skills-curso-ia-generativa.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-25T03:12:35.360Z",
+          "bytes": 15151
+        },
+        {
+          "id": "1_0PvIXsSnLL2WO3x-lGI4fJfTvlMIeGE",
+          "titulo": "skills-curso-ia-generativa.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-24T22:58:38.340Z",
+          "bytes": 15083
+        }
+      ]
+    },
+    "1nW9ldN_AkOjL9-7VFFyCNdE1jBEzoIJw": {
+      "titulo": "9 Proyecto fuente",
       "padre": "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue",
       "archivos": [
         {
-          "id": "1F5qgZLYTQjOgJOXPuCIaULKLBGVlgSdrLeokTpgxCR0",
-          "titulo": "Estructura_inicial_contenido_IA_generativa · copia 25-10-2026",
-          "mimeType": "application/vnd.google-apps.spreadsheet",
-          "modificado": "2026-10-25T05:01:02.751Z",
-          "bytes": 38158
+          "id": "1-NKvA9kAiw2THgu2z30Lx_QpN5pE25ax",
+          "titulo": "curso-ia-generativa-laboral-proyecto-fuente.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-25T05:11:33.875Z",
+          "bytes": 1018651
         },
         {
-          "id": "1Oh09aEp8waXC9m8gQ3_muVcqtWxFRq6B",
-          "titulo": "Estructura_inicial_contenido_IA_generativa.xlsx",
-          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-          "modificado": "2026-10-25T05:01:47.915Z",
-          "bytes": 95548
+          "id": "1LYqvBN9Ol4wJW1Quro79IiOKuGwFSD4C",
+          "titulo": "Versiones anteriores",
+          "mimeType": "application/vnd.google-apps.folder",
+          "modificado": "2026-10-25T03:10:20.431Z",
+          "bytes": null
+        }
+      ]
+    },
+    "1LYqvBN9Ol4wJW1Quro79IiOKuGwFSD4C": {
+      "titulo": "Versiones anteriores",
+      "padre": "1nW9ldN_AkOjL9-7VFFyCNdE1jBEzoIJw",
+      "archivos": [
+        {
+          "id": "1MoBHJI7d2JOCMfI62gIKbnEC5hAQ5Aw2",
+          "titulo": "curso-ia-generativa-laboral-proyecto-fuente.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-25T03:13:05.953Z",
+          "bytes": 878320
+        },
+        {
+          "id": "1pfrnCvoVFc3oyGEiQnXDJ_P4xdQhZXhw",
+          "titulo": "curso-ia-generativa-laboral-proyecto-fuente.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-25T03:09:21.253Z",
+          "bytes": 878124
+        }
+      ]
+    },
+    "1R7bdy_5Svb6QOZcjf9-Kbl3G_2RLnJ9q": {
+      "titulo": "7 Proceso y control de calidad",
+      "padre": "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue",
+      "archivos": [
+        {
+          "id": "1XeMJCRH3ayQzSo8206yw6LGO1Ol8LGJJ",
+          "titulo": "PDF",
+          "mimeType": "application/vnd.google-apps.folder",
+          "modificado": "2026-10-24T22:54:02.053Z",
+          "bytes": null
+        },
+        {
+          "id": "1_0l57iYsBFbrnO5oPfH8ebTOUnbtagTw",
+          "titulo": "Auditoría interactiva.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-25T05:14:00.708Z",
+          "bytes": 97792
+        },
+        {
+          "id": "1LyYLJrYdmn1N-vsPs77illnl89tWLeTZ",
+          "titulo": "Versiones anteriores (25-10)",
+          "mimeType": "application/vnd.google-apps.folder",
+          "modificado": "2026-10-25T05:08:47.544Z",
+          "bytes": null
+        },
+        {
+          "id": "1gajVGtFMRUMr9yPhIKF1UA6XPNISrwxe",
+          "titulo": "Docs",
+          "mimeType": "application/vnd.google-apps.folder",
+          "modificado": "2026-10-24T22:54:01.191Z",
+          "bytes": null
+        }
+      ]
+    },
+    "1gajVGtFMRUMr9yPhIKF1UA6XPNISrwxe": {
+      "titulo": "Docs",
+      "padre": "1R7bdy_5Svb6QOZcjf9-Kbl3G_2RLnJ9q",
+      "archivos": [
+        {
+          "id": "1dr0OtOyi0GG9cRFtpcLSmNpKqqXRHA5UBKW-PGe9PkM",
+          "titulo": "09 · Personajes del curso",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T22:55:45.685Z",
+          "bytes": 12213
+        },
+        {
+          "id": "16DSdNXata7oGdCK5ao3ziXvsGSPBtS3BpKNFsxfqzHI",
+          "titulo": "08 · Brief de redacción del contenido base",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T22:55:44.260Z",
+          "bytes": 3904
+        },
+        {
+          "id": "1pdwleA0BfkYrdEIhYO8Fk6DVCVE-ZROsKOWu5YsI0U4",
+          "titulo": "05 · Formato del quiz formativo",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T22:55:14.561Z",
+          "bytes": 3867
+        },
+        {
+          "id": "1DhW2tLHR1jp-W9ib46XTt_lbvbdUgxZ_BeP4PYYTDkA",
+          "titulo": "03 · Workflow · investigación → contenido",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-25T05:09:31.319Z",
+          "bytes": 4840
+        },
+        {
+          "id": "1owuDYgGtzglfPvxRDufxrWaPujqhgzt2WndoSGUWsOQ",
+          "titulo": "07 · Formato de los casos de aplicación",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T22:55:35.129Z",
+          "bytes": 3753
+        },
+        {
+          "id": "1Akupy2JbDbT6Cb19IxKbIKylTlqTywwkcLmWaUvPwuw",
+          "titulo": "01 · Proceso de producción del curso",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-25T05:10:30.731Z",
+          "bytes": 12789
+        },
+        {
+          "id": "1DQZoWfoiKt0Cf3U2917gMNDd1MI3dU4KynKLN1pjhKg",
+          "titulo": "13 · Pendientes de verificación",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T22:57:03.335Z",
+          "bytes": 8539
+        },
+        {
+          "id": "1IkxZofBJ_ejcAqK-PIExLjAWKykLBk4dap_ausN7g8U",
+          "titulo": "11 · Correspondencia de fondo con la planilla",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T22:56:27.267Z",
+          "bytes": 10488
+        },
+        {
+          "id": "1hm5c59VtCL4e2NPXYL10D-v0OtMbRNNhs2569tyCMCI",
+          "titulo": "06 · Formato de la infografía",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T22:55:24.197Z",
+          "bytes": 3587
+        },
+        {
+          "id": "17CDoYqIZN714cmQh8UKAFaafScJw77ZPO189T4-oZNA",
+          "titulo": "02 · Playbook de producción",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T22:56:05.535Z",
+          "bytes": 12831
+        },
+        {
+          "id": "1VOpCEnOEnAfTPSl9vxwC36V0jZ59yJYHWa8VknOGi5Q",
+          "titulo": "04 · Formato del contenido base",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T22:55:03.912Z",
+          "bytes": 5276
+        },
+        {
+          "id": "1u6EQ7PPBQXTNrBSNqnzP8K8FqJWnIVN7",
+          "titulo": "Versiones anteriores",
+          "mimeType": "application/vnd.google-apps.folder",
+          "modificado": "2026-10-25T03:10:21.266Z",
+          "bytes": null
+        }
+      ]
+    },
+    "1u6EQ7PPBQXTNrBSNqnzP8K8FqJWnIVN7": {
+      "titulo": "Versiones anteriores",
+      "padre": "1gajVGtFMRUMr9yPhIKF1UA6XPNISrwxe",
+      "archivos": [
+        {
+          "id": "1LMjxjwY0gLbUtxUF9yW_l7In6Xumg6307JtGK7hSxdg",
+          "titulo": "01 · Proceso de producción del curso",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-25T03:11:03.559Z",
+          "bytes": 12627
+        },
+        {
+          "id": "1P1QBjQum4qu4ZlFWTNgH9KUkJrq6ljk1jyMZ4VWTV40",
+          "titulo": "01 · Proceso de producción del curso",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T22:55:23.273Z",
+          "bytes": 12590
+        },
+        {
+          "id": "1g8A3an3wlxxef64fu4s-uZwd1JkY3qDmEU2ykiYUBvQ",
+          "titulo": "03 · Workflow · investigación → contenido",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T22:56:17.010Z",
+          "bytes": 4415
+        }
+      ]
+    },
+    "1XeMJCRH3ayQzSo8206yw6LGO1Ol8LGJJ": {
+      "titulo": "PDF",
+      "padre": "1R7bdy_5Svb6QOZcjf9-Kbl3G_2RLnJ9q",
+      "archivos": [
+        {
+          "id": "1PftDcLJBc-v27oMUDUB0YnkbMF-0wGPk",
+          "titulo": "07 · Formato de los casos de aplicación.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-25T03:24:00.866Z",
+          "bytes": 83452
+        },
+        {
+          "id": "1127kLX4IYxea022cLHdvMIYD8r0iT8OG",
+          "titulo": "09 · Personajes del curso.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-25T03:24:00.869Z",
+          "bytes": 142967
+        },
+        {
+          "id": "1h66273qK74FpsKxE47FfbqxtpVzK0y4p",
+          "titulo": "08 · Brief de redacción del contenido base.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-25T03:24:00.867Z",
+          "bytes": 90569
+        },
+        {
+          "id": "1dwRb7_gXTIbFFl5knYYqXgxOx97bEGcJ",
+          "titulo": "02 · Playbook de producción.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-25T03:24:00.849Z",
+          "bytes": 262876
+        },
+        {
+          "id": "1RE9Iy-Ob3h23cYF7uaSLMxDptmUlEARq",
+          "titulo": "04 · Formato del contenido base.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-25T03:24:00.859Z",
+          "bytes": 100901
+        },
+        {
+          "id": "1Mgh1I8Je44k1cxWmLMsz9KIs_e1asBv0",
+          "titulo": "01 · Proceso de producción del curso.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-25T05:12:42.622Z",
+          "bytes": 236278
+        },
+        {
+          "id": "1pnawMXf7TSMOtsympPXLUUVWahS5whz_",
+          "titulo": "03 · Workflow · investigación → contenido.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-25T05:12:42.630Z",
+          "bytes": 106722
+        },
+        {
+          "id": "10i3IqIsAey_M6kZ0-GQ3h2hjI9NVlo1s",
+          "titulo": "12 · Auditoría del curso.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-25T05:12:42.644Z",
+          "bytes": 549287
+        },
+        {
+          "id": "1itQOQI3VqL9uUu-7sMN-YCmm_FYS6mAK",
+          "titulo": "13 · Pendientes de verificación.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-25T03:24:00.890Z",
+          "bytes": 124899
+        },
+        {
+          "id": "1JTfb4ItLzL7CzCbRGr6y-rv7X1zGyz5a",
+          "titulo": "11 · Correspondencia de fondo con la planilla.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-25T03:24:00.879Z",
+          "bytes": 147307
+        },
+        {
+          "id": "1_lYGrVM6wDAqfQRn6yNrmfFJH1WfRMch",
+          "titulo": "10 · Correspondencia estructural con la planilla.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-25T03:24:00.876Z",
+          "bytes": 450478
+        },
+        {
+          "id": "1QqnLA7jYLz5k6hYKNVSJe9hVBP2GCE1R",
+          "titulo": "05 · Formato del quiz formativo.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-25T03:24:00.862Z",
+          "bytes": 89699
+        },
+        {
+          "id": "1b4kH7oCE0XRAclBdD8rVs6HjDrYYTqUP",
+          "titulo": "06 · Formato de la infografía.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-25T03:24:00.864Z",
+          "bytes": 80644
+        },
+        {
+          "id": "1IjCIS0AzYo-pXuTVL70N8IKw9McBvGEe",
+          "titulo": "Versiones anteriores (25-10)",
+          "mimeType": "application/vnd.google-apps.folder",
+          "modificado": "2026-10-25T05:08:46.046Z",
+          "bytes": null
+        }
+      ]
+    },
+    "1IjCIS0AzYo-pXuTVL70N8IKw9McBvGEe": {
+      "titulo": "Versiones anteriores (25-10)",
+      "padre": "1XeMJCRH3ayQzSo8206yw6LGO1Ol8LGJJ",
+      "archivos": [
+        {
+          "id": "1XIft6w_D2IRLbVJygXWhwhFPsurH8Cg7",
+          "titulo": "01 · Proceso de producción del curso.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-25T03:24:00.836Z",
+          "bytes": 234206
+        },
+        {
+          "id": "1d2q683Cie6-0JJY7CLxKIA4isfJv8pzf",
+          "titulo": "12 · Auditoría del curso.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-25T03:24:00.887Z",
+          "bytes": 547358
+        },
+        {
+          "id": "1VYVz2xG_sKPySbUwxdZJgPr9OW3JAmly",
+          "titulo": "03 · Workflow · investigación → contenido.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-25T03:24:00.853Z",
+          "bytes": 95520
+        }
+      ]
+    },
+    "1LyYLJrYdmn1N-vsPs77illnl89tWLeTZ": {
+      "titulo": "Versiones anteriores (25-10)",
+      "padre": "1R7bdy_5Svb6QOZcjf9-Kbl3G_2RLnJ9q",
+      "archivos": [
+        {
+          "id": "1xSAaTw6oNQNPwCT59HUJn5ZezCOumSpT",
+          "titulo": "Auditoría interactiva.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-25T03:24:24.775Z",
+          "bytes": 97449
         }
       ]
     }
   },
-  "nota": "Docs, PDF, raíz y carpetas 6 y 8 tomadas el 2026-10-25; el resto es la foto anterior (sin cambios desde entonces)."
+  "nota": "Foto completa tomada el 2026-10-25: se recorrió la raíz y todas sus subcarpetas con search_files (parentId), siguiendo nextPageToken."
 }

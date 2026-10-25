@@ -1,0 +1,22 @@
+{
+  "_nota": "Config real del video de bienvenida M1 (toma 1, voz Catalina). Rutas relativas a la carpeta de este archivo. Para un tema nuevo, copia y cambia tiempos y archivos.",
+  "duracion": 160.21,
+  "voz": "audio/voz.mp3",
+  "salida": "M1_bienvenida.mp4",
+  "avatar": {
+    "video": "heygen/avatar.mp4",
+    "clip_dur": 36.268,
+    "offset": 0.023,
+    "crop": {"w": 1080, "h": 1366, "x": 0, "y": 40},
+    "intro_out": 18.22,
+    "cierre_in": 143.72,
+    "cierre_master_t": 143.6,
+    "cierre_clip_t": 19.67
+  },
+  "clips": [
+    {"slot": "camila", "video": "media/camila.mp4", "visible_desde": 74.85, "visible_hasta": 85.77, "fade_out": 85.37},
+    {"slot": "andres", "video": "media/andres.mp4", "src_start": 0.3, "src_dur": 7.32, "estirar": false,
+     "visible_desde": 78.45, "visible_hasta": 85.77, "fade_out": 85.37},
+    {"slot": "aviso", "video": "media/aviso.mp4", "visible_desde": 128.6, "visible_hasta": 137.7, "fade_out": 137.3, "fade_out_d": 0.4}
+  ]
+}

@@ -1,0 +1,647 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Bienvenida Módulo 1</title>
+<style>
+@font-face{font-family:Plex;font-weight:400;src:url(fonts/ibm-plex-sans-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:Plex;font-weight:500;src:url(fonts/ibm-plex-sans-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:Plex;font-weight:600;src:url(fonts/ibm-plex-sans-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:Plex;font-weight:700;src:url(fonts/ibm-plex-sans-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:PlexMono;font-weight:400;src:url(fonts/ibm-plex-mono-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:PlexMono;font-weight:500;src:url(fonts/ibm-plex-mono-latin-500-normal.woff2) format("woff2")}
+
+:root{
+  --ink:#0F172A; --teal:#0E7490; --teal-deep:#155E75; --wash:#E3F0F4; --paper:#F8FAFC;
+  --line:#E2E8F0; --slate:#334155; --muted:#64748B; --faint:#94A3B8;
+  --amber:#B45309; --amber-wash:#FEF3C7; --amber-line:#F59E0B;
+  --red:#B91C1C; --red-wash:#FEE2E2; --green:#15803D; --green-wash:#DCFCE7;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1920px;height:1080px;overflow:hidden;background:var(--paper)}
+body{font-family:Plex,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
+#stage{position:relative;width:1920px;height:1080px;overflow:hidden;
+  background-color:var(--paper);
+  background-image:radial-gradient(#E1E7EE 1.3px,transparent 1.5px);
+  background-size:36px 36px;background-position:18px 18px}
+.abs{position:absolute}
+.scene,.panel{position:absolute;inset:0;visibility:hidden}
+.panel{inset:auto;left:760px;top:150px;width:1040px;height:760px}
+svg{display:block}
+.ic{width:36px;height:36px;stroke:currentColor;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+
+/* header */
+#hdr{position:absolute;left:120px;right:120px;top:52px;height:52px;display:flex;align-items:center;justify-content:space-between}
+.mark{display:flex;align-items:center;gap:18px;font:500 24px/1 Plex;color:var(--muted)}
+.mark .sep{width:2px;height:26px;background:var(--line)}
+.mark .mod{color:var(--teal);font-weight:600}
+#rail{display:flex;gap:8px}
+.seg{position:relative;padding:12px 22px;border-radius:999px;font:600 22px/1 Plex;color:var(--faint);border:2px solid var(--line);background:#fff;overflow:hidden}
+.seg .on{position:absolute;inset:0;background:var(--ink);opacity:0}
+.seg span{position:relative}
+
+/* generic type */
+h1{font:700 86px/1.04 Plex;letter-spacing:-.015em}
+h2{font:700 50px/1.1 Plex;letter-spacing:-.01em}
+h3{font:600 30px/1.2 Plex;color:var(--slate)}
+.tag{display:inline-block;padding:10px 18px;border-radius:10px;background:var(--wash);color:var(--teal-deep);font:600 26px/1 Plex}
+.card{background:#fff;border:2px solid var(--line);border-radius:20px}
+
+/* S1 / S11 */
+.left-col{position:absolute;left:120px;top:150px;width:900px}
+.sub1{font:500 32px/1.3 Plex;color:var(--slate);margin-top:26px}
+.facts{list-style:none;margin-top:64px;display:flex;flex-direction:column;gap:22px}
+.facts li{display:flex;align-items:center;gap:22px;font:600 34px/1.2 Plex}
+.facts .ib{flex:none;width:68px;height:68px;border-radius:18px;background:#fff;border:2px solid var(--line);display:grid;place-items:center;color:var(--teal)}
+.avatar-frame{left:1196px;top:136px;width:604px;height:764px;border-radius:32px;background:var(--wash);
+  box-shadow:0 30px 60px -20px rgba(15,23,42,.28),0 0 0 2px rgba(14,116,144,.18)}
+.slot-label{position:absolute;inset:0;display:grid;place-items:center;font:600 28px/1.3 Plex;color:var(--teal-deep);text-align:center;opacity:0}
+body.preview .slot-label{opacity:.9}
+
+/* topics rail */
+.rail-list{position:absolute;left:120px;top:150px;width:560px}
+.topics{list-style:none;margin-top:34px;display:flex;flex-direction:column;gap:14px}
+.topic{position:relative;display:flex;gap:22px;align-items:flex-start;padding:22px 24px;border-radius:20px}
+.topic .bgc{position:absolute;inset:0;border-radius:20px;background:#fff;border:2px solid var(--teal);box-shadow:0 18px 36px -24px rgba(14,116,144,.55);opacity:0}
+.topic .n{position:relative;flex:none;width:54px;height:54px;border-radius:50%;border:2.5px solid var(--faint);display:grid;place-items:center;font:700 26px/1 Plex;color:var(--slate)}
+.topic .nf{position:absolute;inset:-2.5px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center;opacity:0}
+.topic .tx{position:relative}
+.topic strong{display:block;font:700 31px/1.15 Plex}
+.topic span.d{display:block;margin-top:6px;font:400 24px/1.3 Plex;color:var(--muted)}
+
+/* tema 1 */
+.blk{position:absolute;left:0;width:1040px}
+.blk h3{margin-bottom:16px}
+.prompt{display:flex;gap:16px;align-items:baseline;padding:16px 22px;border-radius:16px;background:var(--ink);color:#fff;font:400 25px/1.35 PlexMono}
+.who{flex:none;font:600 20px/1 Plex;padding:7px 12px;border-radius:8px;background:rgba(255,255,255,.14);color:#CFE3EA}
+.reply{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px 6px;align-items:center;padding:16px 18px;border-radius:16px;background:#fff;border:2px solid var(--line);min-height:128px;align-content:flex-start}
+.reply .who{background:var(--wash);color:var(--teal-deep);margin-right:8px}
+.tok{--hot:0;font:500 26px/1 PlexMono;padding:10px 9px;border-radius:8px;
+  background:color-mix(in srgb,var(--teal) calc(var(--hot)*100%),var(--wash));
+  color:color-mix(in srgb,#fff calc(var(--hot)*100%),var(--teal-deep))}
+.row3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.type{display:flex;gap:18px;align-items:center;padding:16px 18px;min-height:138px}
+.type .vis{flex:none;width:150px;height:96px;border-radius:12px;background:var(--wash);display:grid;place-items:center;color:var(--teal);overflow:hidden}
+.type .vis img{width:100%;height:100%;object-fit:cover}
+.type strong{display:block;font:700 29px/1.1 Plex}
+.type span{display:block;margin-top:6px;font:400 22px/1.3 Plex;color:var(--muted)}
+.lim{padding:20px 22px;border-radius:18px;background:var(--amber-wash);border:2px solid #FDE68A;min-height:138px}
+.lim .t{display:flex;align-items:center;gap:12px;font:700 29px/1.1 Plex;color:#7C2D12}
+.lim .t .ic{width:30px;height:30px;color:var(--amber)}
+.lim span{display:block;margin-top:10px;font:400 23px/1.3 Plex;color:#78350F}
+
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.rows{display:flex;flex-direction:column;gap:12px}
+.trow{display:flex;gap:18px;align-items:center;padding:10px 12px;border-radius:16px;background:#fff;border:2px solid var(--line);min-height:98px}
+.trow .vis{flex:none;width:132px;height:74px;border-radius:10px;background:var(--wash);display:grid;place-items:center;color:var(--teal);overflow:hidden;position:relative}
+.trow .vis img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.trow strong{display:block;font:700 28px/1.1 Plex}
+.trow span{display:block;margin-top:5px;font:400 22px/1.25 Plex;color:var(--muted)}
+.lrow{display:flex;gap:16px;align-items:center;padding:12px 18px;border-radius:16px;background:var(--amber-wash);border:2px solid #FDE68A;min-height:98px}
+.lrow .ib{flex:none;width:52px;height:52px;border-radius:12px;background:#fff;display:grid;place-items:center;color:var(--amber)}
+.lrow .ib .ic{width:30px;height:30px}
+.lrow strong{display:block;font:700 28px/1.1 Plex;color:#7C2D12}
+.lrow span{display:block;margin-top:5px;font:400 22px/1.25 Plex;color:#78350F}
+/* tema 2 */
+.pieces{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.piece .chip{display:inline-block;padding:14px 20px;border-radius:14px;background:var(--teal);color:#fff;font:700 28px/1 Plex}
+.piece .ex{margin-top:12px;padding:16px 18px;border-radius:14px;background:#fff;border:2px solid var(--line);font:400 22px/1.4 PlexMono;color:var(--slate);min-height:132px}
+.loop{display:flex;align-items:center;gap:0}
+.step{padding:16px 24px;border-radius:14px;background:#fff;border:2px solid var(--line);font:600 27px/1 Plex}
+.arrow{width:62px;height:24px;color:var(--faint)}
+.tpl{padding:18px 22px;border-radius:16px;background:#fff;border:2px dashed var(--teal);font:400 25px/1.5 PlexMono;color:var(--slate)}
+.br{color:var(--teal);font-weight:500;background:var(--wash);border-radius:6px;padding:0 4px}
+
+/* tema 3 */
+.ctrl{padding:20px 22px;min-height:250px}
+.ctrl strong{display:block;font:700 29px/1.1 Plex;margin-bottom:22px}
+.slider{position:relative;height:16px;border-radius:99px;background:linear-gradient(90deg,var(--ink),var(--teal) 55%,#67E8F9);margin:46px 6px 0}
+.knob{position:absolute;top:50%;width:38px;height:38px;margin:-19px 0 0 -19px;border-radius:50%;background:#fff;border:4px solid var(--ink);box-shadow:0 6px 14px rgba(15,23,42,.25)}
+.sl-lab{display:flex;justify-content:space-between;margin-top:22px;font:600 21px/1 Plex;color:var(--muted)}
+.goal{margin-top:16px;font:600 22px/1.2 Plex;color:var(--teal-deep)}
+.bar{height:30px;border-radius:8px;background:var(--wash);margin-top:12px;position:relative}
+.bar i{position:absolute;left:0;top:0;bottom:0;border-radius:8px;background:var(--teal);transform-origin:left}
+.bar-lab{display:flex;justify-content:space-between;margin-top:6px;font:500 20px/1 Plex;color:var(--muted)}
+.stack{position:relative;height:150px;margin-top:4px}
+.stack .sc{position:absolute;width:200px;height:110px;border-radius:12px;background:#fff;border:2px solid var(--line);padding:14px 16px;font:700 26px/1 Plex;color:var(--teal-deep);box-shadow:0 10px 20px -14px rgba(15,23,42,.4)}
+.stack .sc em{display:block;margin-top:14px;height:9px;border-radius:5px;background:var(--line);font-style:normal}
+.stack .sc em+em{width:70%;margin-top:9px}
+.cmp{display:flex;flex-direction:column;gap:12px}
+.out{position:relative;display:flex;align-items:center;gap:18px;padding:14px 18px;border-radius:14px;background:#fff;border:2px solid var(--line)}
+.out .L{flex:none;width:46px;height:46px;border-radius:12px;background:var(--wash);display:grid;place-items:center;font:700 24px/1 Plex;color:var(--teal-deep)}
+.out q{flex:1;font:400 23px/1.3 PlexMono;color:var(--slate);quotes:"«" "»"}
+.out .v{flex:none;width:310px;font:500 21px/1.25 Plex;color:var(--muted)}
+.out .sel{position:absolute;inset:-2px;border-radius:14px;border:3px solid var(--green);background:rgba(220,252,231,.35);opacity:0}
+.out .v b{color:var(--green)}
+
+/* tema 4 */
+.resp{padding:22px 26px}
+.resp .lab{font:500 20px/1 Plex;color:var(--muted);margin-bottom:14px;display:flex;justify-content:space-between}
+.resp p{font:400 28px/1.55 Plex;color:var(--slate)}
+.hl{--p:0;background:linear-gradient(#FCD34D,#FCD34D) no-repeat 0 92%/calc(var(--p)*100%) 38%;border-radius:2px}
+.mk{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--amber);color:#fff;font:700 18px/1 Plex;vertical-align:4px;margin-left:4px}
+.legend{display:flex;gap:16px;margin-top:16px}
+.legend div{display:flex;align-items:center;gap:10px;padding:10px 16px;border-radius:12px;background:var(--amber-wash);font:600 22px/1.2 Plex;color:#7C2D12}
+.legend .mk{vertical-align:0;margin:0}
+.flow{position:relative;height:250px}
+.node{position:absolute;padding:16px 20px;border-radius:16px;background:#fff;border:2px solid var(--line);font:600 25px/1.25 Plex}
+.node small{display:block;font:400 20px/1.3 Plex;color:var(--muted);margin-top:4px}
+.node.ok{border-color:#86EFAC}
+.node .chk{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--green);color:#fff;vertical-align:-5px;margin-right:8px}
+.node.dec{background:var(--ink);color:#fff;border-color:var(--ink)}
+.node.dec small{color:#CBD5E1}
+svg.wires{position:absolute;inset:0;overflow:visible}
+svg.wires path{fill:none;stroke:var(--faint);stroke-width:3;stroke-linecap:round}
+
+/* S7 */
+.slot{position:absolute;border-radius:24px;background:var(--wash);box-shadow:0 26px 50px -24px rgba(15,23,42,.35),0 0 0 2px rgba(15,23,42,.06)}
+.cap strong{display:block;font:700 36px/1.1 Plex}
+.cap span{display:block;margin-top:6px;font:400 26px/1.3 Plex;color:var(--slate)}
+.pill{display:inline-flex;align-items:center;gap:12px;padding:14px 22px;border-radius:999px;font:600 26px/1 Plex}
+.pill.main{background:var(--teal);color:#fff}
+.pill.alt{background:#fff;border:2px solid var(--line);color:var(--slate)}
+
+/* S8 */
+.ev{display:flex;flex-direction:column;gap:46px;margin-top:72px}
+.ev .it{display:flex;gap:22px;align-items:flex-start}
+.ev .ib{flex:none;width:68px;height:68px;border-radius:18px;background:var(--wash);display:grid;place-items:center;color:var(--teal)}
+.ev strong{display:block;font:700 33px/1.15 Plex}
+.ev span{display:block;margin-top:6px;font:400 25px/1.3 Plex;color:var(--muted)}
+.quiz{left:1000px;top:150px;width:800px;height:750px;padding:30px 34px}
+.quiz .top{display:flex;justify-content:space-between;align-items:center;font:500 21px/1 Plex;color:var(--muted)}
+.quiz .ttl{font:700 30px/1.2 Plex;margin-top:12px}
+.dots{display:flex;gap:10px;margin-top:18px;align-items:center}
+.dots i{width:22px;height:22px;border-radius:50%;background:var(--line)}
+.dots i.d{background:var(--teal)}
+.dots i.c{background:#fff;border:4px solid var(--teal)}
+.dots b{margin-left:10px;font:600 21px/1 Plex;color:var(--slate)}
+.qq{font:600 29px/1.3 Plex;margin-top:28px}
+.opts{display:flex;flex-direction:column;gap:12px;margin-top:20px}
+.opt{position:relative;display:flex;gap:14px;align-items:center;padding:16px 18px;border-radius:14px;border:2px solid var(--line);font:400 24px/1.3 Plex;color:var(--slate);background:#fff}
+.opt .k{flex:none;width:38px;height:38px;border-radius:10px;background:var(--paper);border:2px solid var(--line);display:grid;place-items:center;font:700 20px/1 Plex}
+.opt .bad{position:absolute;inset:-2px;border-radius:14px;border:3px solid var(--red);background:rgba(254,226,226,.55);opacity:0}
+.opt .bad b{position:absolute;right:16px;top:50%;margin-top:-17px;width:34px;height:34px;border-radius:50%;background:var(--red);color:#fff;display:grid;place-items:center;font:700 22px/1 Plex}
+.score{display:flex;align-items:center;gap:22px;margin-top:24px;padding:16px 20px;border-radius:16px;background:var(--paper);border:2px solid var(--line)}
+.score .num{font:700 54px/1 Plex;color:var(--teal-deep);width:110px}
+.score .bx{flex:1}
+.score .bx div{font:600 21px/1 Plex;color:var(--muted)}
+.score .bx .bar{height:16px;margin-top:12px}
+.hint{display:flex;gap:14px;align-items:center;margin-top:16px;padding:16px 20px;border-radius:16px;background:var(--ink);color:#fff;font:500 23px/1.3 Plex}
+.hint b{color:#7DD3FC;font-weight:600}
+
+/* S9 */
+.case{padding:28px 30px;height:360px}
+.case .tag{font-size:22px}
+.case h4{font:700 36px/1.15 Plex;margin-top:20px}
+.case .org{font:600 24px/1.2 Plex;color:var(--teal-deep);margin-top:12px}
+.case p{font:400 26px/1.4 Plex;color:var(--slate);margin-top:16px}
+.steps4{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.s4{position:relative;padding:18px 20px;border-radius:16px;background:#fff;border:2px solid var(--line);font:600 26px/1.2 Plex;display:flex;gap:14px;align-items:center;min-height:96px}
+.s4 .n{flex:none;width:44px;height:44px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center;font:700 22px/1 Plex}
+
+/* S10 */
+.hito-h{font:700 104px/1 Plex;letter-spacing:-.02em;margin-top:18px}
+.hsteps{display:flex;flex-direction:column;gap:18px;margin-top:40px}
+.hs{display:flex;gap:20px;align-items:flex-start}
+.hs .n{flex:none;width:52px;height:52px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font:700 25px/1 Plex}
+.hs strong{display:block;font:700 32px/1.15 Plex}
+.hs span{display:block;margin-top:6px;font:400 24px/1.3 Plex;color:var(--muted)}
+.tags{display:flex;gap:10px;margin-top:12px}
+.tags i{font-style:normal;padding:9px 14px;border-radius:10px;background:var(--green-wash);color:var(--green);font:600 21px/1 Plex;display:inline-flex;gap:8px;align-items:center}
+.eq{left:1000px;top:170px;width:800px}
+.eqbox{padding:24px 28px}
+.eqbox strong{display:block;font:700 32px/1.15 Plex}
+.eqbox span{display:block;font:400 23px/1.35 Plex;color:var(--muted);margin-top:8px}
+.plus{font:700 54px/1 Plex;color:var(--faint);text-align:center;margin:10px 0}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:8px 14px;margin-top:16px}
+.fields i{font-style:normal;padding:10px 14px;border-radius:10px;background:var(--wash);color:var(--teal-deep);font:600 21px/1 Plex}
+.tcard{position:absolute;left:1000px;width:800px;padding:18px 22px}
+.tcard .tt{font:600 22px/1 Plex;color:var(--muted)}
+.tcard q{display:block;margin-top:10px;font:400 23px/1.35 PlexMono;color:var(--slate);quotes:"«" "»"}
+.tcard .st{display:flex;gap:10px;margin-top:12px}
+.tcard .st i{font-style:normal;padding:7px 12px;border-radius:9px;font:600 19px/1 Plex;background:var(--paper);color:var(--faint);border:2px solid var(--line)}
+
+/* S11 */
+.checks{display:flex;flex-direction:column;gap:20px;margin-top:40px}
+.ck{display:flex;align-items:center;gap:22px;font:600 34px/1.2 Plex}
+.box{position:relative;flex:none;width:54px;height:54px;border-radius:14px;border:3px solid var(--faint);background:#fff}
+.box .f{position:absolute;inset:-3px;border-radius:14px;background:var(--teal);opacity:0;display:grid;place-items:center}
+.box .f svg{width:32px;height:32px;stroke:#fff;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.note{display:inline-block;margin-left:76px;margin-top:-6px;padding:9px 16px;border-radius:10px;background:var(--amber-wash);color:#7C2D12;font:600 23px/1 Plex}
+.quote{margin-top:40px;padding:34px 38px;border-radius:24px;background:var(--ink);color:#fff;font:600 42px/1.22 Plex;letter-spacing:-.005em}
+.quote small{display:block;font:500 22px/1 Plex;color:#7DD3FC;margin-bottom:16px}
+.bye{margin-top:26px;font:600 28px/1.2 Plex;color:var(--teal-deep)}
+
+/* subtitles */
+#subs{position:absolute;left:0;right:0;bottom:36px;display:flex;justify-content:center;pointer-events:none}
+#subs div{max-width:1560px;padding:12px 26px 14px;border-radius:12px;background:rgba(15,23,42,.88);color:#fff;font:600 38px/1.32 Plex;text-align:center;letter-spacing:.005em}
+#subs div:empty{display:none}
+</style>
+</head>
+<body>
+<div id="stage">
+
+<!-- ===== header (desde 18.2 s) ===== -->
+<div id="hdr" class="a" data-in="18.2" data-fx="fade">
+  <div class="mark"><span>IA generativa para entornos laborales</span><span class="sep"></span><span class="mod">Módulo 1</span></div>
+  <div id="rail" class="a" data-in="18.2" data-out="143.72" data-fx="fade">
+    <div class="seg" data-on="18.2,85.37"><div class="on"></div><span>Qué aprenderás</span></div>
+    <div class="seg" data-on="85.37,119.52"><div class="on"></div><span>Cómo se evalúa</span></div>
+    <div class="seg" data-on="119.52,999"><div class="on"></div><span>Hito 1</span></div>
+  </div>
+</div>
+
+<!-- ===== S1 · intro con avatar (0–18.67) ===== -->
+<section class="scene" data-span="0,18.22">
+  <div class="left-col">
+    <div class="tag a" data-in="0.15">Módulo 1</div>
+    <h1 class="a" data-in="0.3" style="margin-top:28px">Introducción<br>a la IA generativa<br>y prompt básico</h1>
+    <p class="sub1 a" data-in="0.55">Curso IA generativa para entornos laborales</p>
+    <ul class="facts">
+      <li class="a" data-in="10.1"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><polyline points="8 7 3 12 8 17"/><polyline points="16 7 21 12 16 17"/><line x1="14" y1="4" x2="10" y2="20"/></svg></div><span>No necesitas programar</span></li>
+      <li class="a" data-in="11.75"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="13" rx="2.5"/><line x1="3" y1="10.5" x2="21" y2="10.5"/><line x1="7" y1="15" x2="11" y2="15"/></svg></div><span>Ni pagar licencias</span></li>
+      <li class="a" data-in="15.0"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><line x1="11" y1="18" x2="13" y2="18"/></svg></div><span>Asistentes gratuitos, también en el celular</span></li>
+    </ul>
+  </div>
+  <div class="abs avatar-frame a" data-in="0" data-fx="lin" data-slot="avatar_intro"><div class="slot-label">Avatar HeyGen<br>(intro)</div></div>
+</section>
+
+<!-- ===== S2–S6 · cuatro temas (18.67–73.76) ===== -->
+<section class="scene" data-span="18.22,73.31">
+  <div class="rail-list">
+    <h2 class="a" data-in="18.45">Cuatro temas</h2>
+    <ol class="topics">
+      <li class="topic a" data-in="18.8" data-on="21.35,39.01"><div class="bgc"></div><div class="n">1<div class="nf">1</div></div><div class="tx"><strong>Fundamentos de IA generativa</strong><span class="d">Qué es, cómo responde y sus límites</span></div></li>
+      <li class="topic a" data-in="19.15" data-on="39.01,51.61"><div class="bgc"></div><div class="n">2<div class="nf">2</div></div><div class="tx"><strong>Prompts efectivos</strong><span class="d">Rol, contexto, tarea y formato</span></div></li>
+      <li class="topic a" data-in="19.5" data-on="51.61,62.54"><div class="bgc"></div><div class="n">3<div class="nf">3</div></div><div class="tx"><strong>Parámetros de generación</strong><span class="d">Temperatura, longitud e iteración</span></div></li>
+      <li class="topic a" data-in="19.85" data-on="62.54,73.31"><div class="bgc"></div><div class="n">4<div class="nf">4</div></div><div class="tx"><strong>Validación de resultados</strong><span class="d">Contrastar antes de usar</span></div></li>
+    </ol>
+  </div>
+
+  <!-- Tema 1 -->
+  <div class="panel" data-span="21.35,39.01">
+    <div class="blk" style="top:0">
+      <h3 class="a" data-in="23.6">Predice el texto, fragmento a fragmento</h3>
+      <div class="prompt a" data-in="23.75"><span class="who">Tu pedido</span><span>Escribe un aviso breve: el viernes cerramos a las 15:00 por inventario.</span></div>
+      <div class="reply"><span class="who a" data-in="25.35" data-fx="fade">Respuesta</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="25.55">El</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="25.75">viernes</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="25.95">cerramos</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="26.15">a</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="26.35">las</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="26.55">15</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="26.75">:00</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="26.95">por</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="27.15">invent</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="27.35">ario</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="27.55">:</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="27.75">esa</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="27.95">tarde</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="28.15">no</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="28.35">se</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="28.55">podrán</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="28.75">retirar</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="28.95">productos</span><span class="tok a" data-fx="pop" data-d="0.18" data-in="29.15">.</span></div>
+    </div>
+    <div class="blk" style="top:322px">
+      <div class="cols2">
+        <div>
+          <h3 class="a" data-in="29.8">Tipos de modelos</h3>
+          <div class="rows">
+            <div class="trow a" data-in="31.05"><div class="vis"><svg class="ic" style="width:44px;height:44px" viewBox="0 0 24 24"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="10" x2="20" y2="10"/><line x1="4" y1="14" x2="20" y2="14"/><line x1="4" y1="18" x2="13" y2="18"/></svg></div><div><strong>Lenguaje</strong><span>Textos y resúmenes</span></div></div>
+            <div class="trow a" data-in="31.9"><div class="vis"><svg class="ic" style="width:44px;height:44px" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2.5"/><circle cx="9" cy="9.5" r="1.8"/><polyline points="21 16 15.5 11 5 20"/></svg><img src="media/bodega.png" alt="" onerror="this.remove()"></div><div><strong>Imagen</strong><span>Ilustraciones y afiches</span></div></div>
+            <div class="trow a" data-in="32.55"><div class="vis"><svg class="ic" style="width:48px;height:48px" viewBox="0 0 24 24"><line x1="3" y1="10" x2="3" y2="14"/><line x1="6.5" y1="7" x2="6.5" y2="17"/><line x1="10" y1="4" x2="10" y2="20"/><line x1="13.5" y1="8" x2="13.5" y2="16"/><line x1="17" y1="5.5" x2="17" y2="18.5"/><line x1="20.5" y1="10" x2="20.5" y2="14"/></svg></div><div><strong>Audio</strong><span>Voz y música</span></div></div>
+          </div>
+        </div>
+        <div>
+          <h3 class="a" data-in="33.7">Tres límites clave</h3>
+          <div class="rows">
+            <div class="lrow a" data-in="35.55"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><path d="M10.3 3.9 1.8 18.5a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><line x1="12" y1="9.5" x2="12" y2="13.5"/><line x1="12" y1="17.2" x2="12" y2="17.3"/></svg></div><div><strong>Alucinación</strong><span>Inventa datos que suenan verdaderos</span></div></div>
+            <div class="lrow a" data-in="36.7"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><line x1="12" y1="3" x2="12" y2="21"/><line x1="5" y1="7" x2="19" y2="7"/><path d="M5 7 2 14a3.2 3.2 0 0 0 6 0z"/><path d="M19 7l-3 7a3.2 3.2 0 0 0 6 0z"/><line x1="8" y1="21" x2="16" y2="21"/></svg></div><div><strong>Sesgo</strong><span>Repite estereotipos de sus datos</span></div></div>
+            <div class="lrow a" data-in="37.55"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2.5"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="3" x2="8" y2="7"/><line x1="16" y1="3" x2="16" y2="7"/></svg></div><div><strong>Fecha de corte</strong><span>No conoce lo más reciente</span></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tema 2 -->
+  <div class="panel" data-span="39.01,51.61">
+    <div class="blk" style="top:0">
+      <h3 class="a" data-in="41.95">Un prompt efectivo tiene</h3>
+      <div class="pieces">
+        <div class="piece a" data-in="43.2"><span class="chip">Rol</span><div class="ex">«Actúa como asistente administrativa»</div></div>
+        <div class="piece a" data-in="43.95"><span class="chip">Contexto</span><div class="ex">«Postulo a un cargo en una clínica»</div></div>
+        <div class="piece a" data-in="44.65"><span class="chip">Tarea</span><div class="ex">«Redacta el primer párrafo de mi carta»</div></div>
+        <div class="piece a" data-in="45.3"><span class="chip">Formato</span><div class="ex">«Máximo 80 palabras, tono cordial»</div></div>
+      </div>
+    </div>
+    <div class="blk" style="top:300px">
+      <h3 class="a" data-in="46.35">Itera hasta que la respuesta te sirva</h3>
+      <div class="loop">
+        <div class="step a" data-in="46.5">Pides</div>
+        <svg class="arrow a" data-in="46.75" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="step a" data-in="47.0">Revisas</div>
+        <svg class="arrow a" data-in="47.25" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="step a" data-in="47.5">Ajustas</div>
+        <svg class="arrow a" data-in="47.75" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="step a" data-in="48.0" style="border-color:var(--teal);color:var(--teal-deep)">Repites</div>
+      </div>
+      <svg class="a" data-in="48.25" data-fx="fade" viewBox="0 0 760 70" style="position:absolute;left:0;top:118px;width:760px;height:70px;color:var(--teal);overflow:visible"><path d="M672 4 C 672 58, 60 58, 60 4" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="2 9"/><path d="M48 16 L60 4 L72 16" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="366" y="66" text-anchor="middle" font-family="Plex" font-weight="600" font-size="21" fill="currentColor">y vuelves a pedir</text></svg>
+    </div>
+    <div class="blk" style="top:530px">
+      <h3 class="a" data-in="48.95">Guarda lo que funciona como plantilla</h3>
+      <div class="tpl a" data-in="49.15">«Actúa como encargado de bodega. El <span class="br">[día]</span> cerramos a las <span class="br">[hora]</span> por <span class="br">[motivo]</span>. Redacta un aviso para <span class="br">[destinatarios]</span>.»</div>
+    </div>
+  </div>
+
+  <!-- Tema 3 -->
+  <div class="panel" data-span="51.61,62.54">
+    <div class="blk" style="top:0">
+      <h3 class="a" data-in="54.6">Tres ajustes</h3>
+      <div class="row3">
+        <div class="card ctrl a" data-in="54.75"><strong>Temperatura</strong>
+          <div class="slider"><div class="knob" id="knob" style="left:50%"></div></div>
+          <div class="sl-lab"><span>Precisión</span><span>Creatividad</span></div>
+          <div class="goal a" data-in="57.75" data-fx="fade">Según tu objetivo</div>
+        </div>
+        <div class="card ctrl a" data-in="55.75"><strong>Longitud</strong>
+          <div class="bar"><i class="a" data-in="55.95" data-fx="grow" data-d="0.6" style="width:33%"></i></div>
+          <div class="bar-lab"><span>Máximo 40 palabras</span></div>
+          <div class="bar"><i class="a" data-in="56.15" data-fx="grow" data-d="0.8" style="width:100%"></i></div>
+          <div class="bar-lab"><span>Máximo 120 palabras</span></div>
+        </div>
+        <div class="card ctrl a" data-in="56.4"><strong>Iteración</strong>
+          <div class="stack">
+            <div class="sc a" data-in="56.5" style="left:0;top:34px">A<em></em><em></em></div>
+            <div class="sc a" data-in="56.75" style="left:46px;top:17px">B<em></em><em></em></div>
+            <div class="sc a" data-in="57.0" style="left:92px;top:0">C<em></em><em></em></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blk" style="top:330px">
+      <h3 class="a" data-in="60.2">Compara varias salidas con método</h3>
+      <div class="cmp">
+        <div class="out a" data-in="60.35"><div class="L">A</div><q>Me dirijo a ustedes para postular al cargo…</q><div class="v">Correcta, pero genérica</div></div>
+        <div class="out a" data-in="60.7"><div class="sel" id="selB"></div><div class="L">B</div><q>Con cinco años en atención de público y manejo de agenda…</q><div class="v"><b>Elegida:</b> experiencia real y tono cordial</div></div>
+        <div class="out a" data-in="61.05"><div class="L">C</div><q>¡Soy la persona que su clínica necesita…!</q><div class="v">Exagera y no dice nada concreto</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tema 4 -->
+  <div class="panel" data-span="62.54,73.31">
+    <div class="blk" style="top:0">
+      <h3 class="a" data-in="64.9">Detecta los errores antes de usar la respuesta</h3>
+      <div class="card resp a" data-in="65.0">
+        <div class="lab"><span>Respuesta de ejemplo, con datos ficticios</span></div>
+        <p>Según el estudio <span class="hl" id="h1">«Perfiles Administrativos 2019»<span class="mk">1</span></span>, el 87 % de las empresas pide Excel avanzado. <span class="hl" id="h2">El sueldo mínimo vigente es de $350.000.<span class="mk">2</span></span> <span class="hl" id="h3">Las mujeres suelen destacar en este cargo por su paciencia<span class="mk">3</span></span>.</p>
+      </div>
+      <div class="legend">
+        <div class="a" data-in="65.6"><span class="mk">1</span>Alucinación: estudio inventado</div>
+        <div class="a" data-in="66.4"><span class="mk">2</span>Error: dato desactualizado</div>
+        <div class="a" data-in="67.0"><span class="mk">3</span>Sesgo</div>
+      </div>
+    </div>
+    <div class="blk" style="top:440px">
+      <h3 class="a" data-in="68.15">Contrasta con al menos dos fuentes confiables</h3>
+      <div class="flow">
+        <svg class="wires" viewBox="0 0 1040 250">
+          <path class="a" data-in="69.75" data-fx="draw" data-len="200" stroke-dasharray="200" d="M262 105 C 320 105, 330 52, 390 52"/>
+          <path class="a" data-in="70.45" data-fx="draw" data-len="200" stroke-dasharray="200" d="M262 105 C 320 105, 330 158, 390 158"/>
+          <path class="a" data-in="71.55" data-fx="draw" data-len="200" stroke-dasharray="200" d="M650 52 C 700 52, 700 105, 740 105"/>
+          <path class="a" data-in="71.55" data-fx="draw" data-len="200" stroke-dasharray="200" d="M650 158 C 700 158, 700 105, 740 105"/>
+        </svg>
+        <div class="node a" data-in="68.3" style="left:0;top:62px;width:262px">Afirmación<small>Un dato de la respuesta</small></div>
+        <div class="node ok a" data-in="69.9" style="left:390px;top:12px;width:260px"><span class="chk"><svg viewBox="0 0 24 24" style="width:18px;height:18px;stroke:#fff;stroke-width:3.5;fill:none;stroke-linecap:round;stroke-linejoin:round"><polyline points="5 12.5 10 17 19 7"/></svg></span>Fuente 1</div>
+        <div class="node ok a" data-in="70.6" style="left:390px;top:118px;width:260px"><span class="chk"><svg viewBox="0 0 24 24" style="width:18px;height:18px;stroke:#fff;stroke-width:3.5;fill:none;stroke-linecap:round;stroke-linejoin:round"><polyline points="5 12.5 10 17 19 7"/></svg></span>Fuente 2</div>
+        <div class="node dec a" data-in="71.7" style="left:740px;top:50px;width:300px">Antes de usarla<small>Mantener, corregir o descartar</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== S7 · Camila y Andrés (73.76–85.82) ===== -->
+<section class="scene" data-span="73.31,85.37">
+  <h2 class="abs a" data-in="73.55" style="left:120px;top:140px">Te acompañan en los ejemplos</h2>
+  <div class="slot a" data-in="74.85" data-fx="lin" data-slot="camila" style="left:120px;top:228px;width:820px;height:461px"><div class="slot-label">Clip Flow: Camila</div></div>
+  <div class="slot a" data-in="78.45" data-fx="lin" data-slot="andres" style="left:980px;top:228px;width:820px;height:461px"><div class="slot-label">Clip Flow: Andrés</div></div>
+  <div class="abs cap" style="left:120px;top:712px;width:820px"><strong class="a" data-in="74.95">Camila</strong><span class="a" data-in="75.9">Busca trabajo como asistente administrativa</span></div>
+  <div class="abs cap" style="left:980px;top:712px;width:820px"><strong class="a" data-in="78.55">Andrés</strong><span class="a" data-in="79.3">Encargado de bodega en una distribuidora</span></div>
+  <div class="abs" style="left:120px;top:832px;display:flex;gap:14px;align-items:center">
+    <span class="pill main a" data-in="80.85">Practicarás con Gemini</span>
+    <span class="pill alt a" data-in="82.25">También sirven ChatGPT o Copilot</span>
+  </div>
+</section>
+
+<!-- ===== S8 · evaluación (85.82–99.39) ===== -->
+<section class="scene" data-span="85.37,98.94">
+  <div class="left-col" style="width:820px">
+    <h2 class="a" data-in="85.55" style="font-size:64px">¿Cómo se evalúa?</h2>
+    <div class="ev">
+      <div class="it a" data-in="87.2"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><rect x="2.5" y="7" width="19" height="11" rx="5.5"/><line x1="7" y1="10.5" x2="7" y2="14.5"/><line x1="5" y1="12.5" x2="9" y2="12.5"/><circle cx="15.5" cy="11" r=".6"/><circle cx="17.5" cy="13.5" r=".6"/></svg></div><div><strong>Un quiz en formato de juego por tema</strong><span>8 preguntas cada uno</span></div></div>
+      <div class="it a" data-in="91.7"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg></div><div><strong>Se registra tu mejor puntaje</strong><span>De 0 a 100</span></div></div>
+      <div class="it a" data-in="95.3"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"/><polyline points="3 4 3 9 8 9"/></svg></div><div><strong>Si te equivocas, te dice qué repasar</strong><span>La pantalla exacta del contenido</span></div></div>
+    </div>
+  </div>
+  <div class="abs card quiz a" data-in="87.3">
+    <div class="top"><span>Ejemplo de quiz juego</span><span>Tema 1</span></div>
+    <div class="ttl">Fundamentos de IA generativa</div>
+    <div class="dots"><i class="d"></i><i class="d"></i><i class="c"></i><i></i><i></i><i></i><i></i><i></i><b>Pregunta 3 de 8</b></div>
+    <div class="qq">¿Cuál de estas tareas es propia de un modelo de lenguaje?</div>
+    <div class="opts">
+      <div class="opt"><div class="bad" id="bad"><b>✕</b></div><span class="k">a</span>Crear una fotografía de un producto</div>
+      <div class="opt"><span class="k">b</span>Resumir un reglamento interno en cinco puntos</div>
+      <div class="opt"><span class="k">c</span>Generar la voz para un video</div>
+    </div>
+    <div class="score a" data-in="91.75"><div class="num" id="scoreNum">0</div><div class="bx"><div>Mejor puntaje, de 0 a 100</div><div class="bar"><i id="scoreBar" style="width:100%;transform:scaleX(0)"></i></div></div></div>
+    <div class="hint a" data-in="96.3"><svg class="ic" style="width:30px;height:30px;flex:none;color:#7DD3FC" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"/><polyline points="3 4 3 9 8 9"/></svg><span>Repasa la pantalla <b>P04 · Modelos de lenguaje</b></span></div>
+  </div>
+</section>
+
+<!-- ===== S9 · casos (99.39–119.97) ===== -->
+<section class="scene" data-span="98.94,119.52">
+  <h2 class="abs a" data-in="99.2" style="left:120px;top:140px">Dos casos reales</h2>
+  <div class="abs card case a" data-in="102.45" style="left:120px;top:236px;width:820px">
+    <span class="tag">Caso M1-C1</span>
+    <h4>Asistente de IA para asesores financieros</h4>
+    <div class="org">Morgan Stanley, 2023 y 2024</div>
+    <p>Prueba la calidad de cada uso de la IA antes de ponerlo en marcha.</p>
+  </div>
+  <div class="abs card case a" data-in="106.4" style="left:980px;top:236px;width:820px">
+    <span class="tag" style="background:var(--amber-wash);color:#7C2D12">Caso M1-C2</span>
+    <h4>Cuando la IA inventa</h4>
+    <div class="org" style="color:var(--amber)">Mata v. Avianca, Nueva York, 2023</div>
+    <p>Un escrito citó seis fallos judiciales que no existían.</p>
+  </div>
+  <div class="abs" style="left:120px;top:640px;width:1680px">
+    <h3 class="a" data-in="112.1" style="margin-bottom:16px">Cada caso incluye</h3>
+    <div class="steps4">
+      <div class="s4 a" data-in="112.95"><span class="n">1</span>Análisis guiado</div>
+      <div class="s4 a" data-in="114.45"><span class="n">2</span>Aplicación a tu proyecto</div>
+      <div class="s4 a" data-in="116.2"><span class="n">3</span>Autocorrección</div>
+      <div class="s4 a" data-in="117.65"><span class="n">4</span>Pregunta para el foro</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== S10 · Hito 1 (119.97–144.17) ===== -->
+<section class="scene" data-span="119.52,143.72">
+  <div class="left-col" style="width:820px">
+    <span class="tag a" data-in="119.75">Proyecto aplicado</span>
+    <div class="hito-h a" data-in="119.85">Hito 1</div>
+    <div class="hsteps">
+      <div class="hs a" data-in="128.85"><span class="n">1</span><div><strong>Guarda un aviso de empleo real</strong><span class="a" data-in="131.35" data-fx="fade">De un cargo que ejerces o al que aspiras</span></div></div>
+      <div class="hs a" data-in="134.2"><span class="n">2</span><div><strong>Elige una tarea</strong><span class="a" data-in="135.4" data-fx="fade">Será tu desafío laboral</span></div></div>
+      <div class="hs a" data-in="137.65"><span class="n">3</span><div><strong>Arma tres plantillas de prompts</strong>
+        <div class="tags"><i class="a" data-in="139.85" data-fx="pop">✓ Probadas</i><i class="a" data-in="140.65" data-fx="pop">✓ Mejoradas</i><i class="a" data-in="141.45" data-fx="pop">✓ Validadas</i></div></div></div>
+    </div>
+  </div>
+  <!-- derecha, fase 1: la ecuación del hito -->
+  <div class="abs eq a" data-in="123.45" data-out="128.4" data-fx="fade">
+    <div class="card eqbox"><strong>Un problema u oportunidad real</strong><span>Una tarea de tu trabajo actual o del cargo al que postulas</span></div>
+    <div class="plus a" data-in="125.6" data-fx="fade">+</div>
+    <div class="card eqbox a" data-in="125.75" style="border-color:var(--teal)"><strong>Tu biblioteca de prompts v1</strong>
+      <div class="fields"><i>Nombre</i><i>Tarea</i><i>Plantilla</i><i>Cuándo usarla</i><i>Notas de iteración</i><i>Herramienta y fecha</i></div></div>
+  </div>
+  <!-- derecha, fase 2: clip del aviso -->
+  <div class="slot a" data-in="128.6" data-out="137.3" data-fx="lin" data-slot="aviso" style="left:1000px;top:200px;width:800px;height:450px"><div class="slot-label">Clip Flow: aviso de empleo</div></div>
+  <p class="abs a" data-in="129.2" data-out="137.3" style="left:1000px;top:676px;width:800px;font:500 26px/1.35 Plex;color:var(--slate)">Tu aviso de empleo es el punto de partida del proyecto.</p>
+  <!-- derecha, fase 3: tres plantillas -->
+  <div class="card tcard a" data-in="137.75" style="top:170px"><div class="tt">Plantilla 1 · Resumir</div><q>Resume este aviso de empleo en tres viñetas: funciones, requisitos y lo que ofrece. No agregues nada que no esté en el texto.</q></div>
+  <div class="card tcard a" data-in="138.1" style="top:398px"><div class="tt">Plantilla 2 · Reescribir</div><q>Reescribe mi mensaje en tono cordial, en un correo de máximo 70 palabras. Aviso: [texto]</q></div>
+  <div class="card tcard a" data-in="138.45" style="top:600px"><div class="tt">Plantilla 3 · Clasificar</div><q>Clasifica estas solicitudes en [categorías]. Si una no calza, ponla en Otro.</q></div>
+</section>
+
+<!-- ===== S11 · cierre con avatar (144.17–160.21) ===== -->
+<section class="scene" data-span="143.72,999">
+  <div class="left-col" style="width:900px">
+    <h2 class="a" data-in="143.9" style="font-size:64px">Para empezar</h2>
+    <div class="checks">
+      <div class="ck a" data-in="144.4"><div class="box"><div class="f" data-check="145.6"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Tu celular o computador</div>
+      <div class="ck a" data-in="146.95"><div class="box"><div class="f" data-check="147.7"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Gemini abierto</div>
+      <div class="ck a" data-in="148.1"><div class="box"><div class="f" data-check="149.1"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Tu aviso de empleo</div>
+      <div><span class="note a" data-in="149.85">Sin datos personales</span></div>
+    </div>
+    <div class="quote a" data-in="153.85"><small>Quédate con esta idea</small>Una respuesta que suena segura no es una respuesta verificada.</div>
+    <div class="bye a" data-in="158.5">Nos vemos en el Tema 1: Fundamentos de IA generativa</div>
+  </div>
+  <div class="abs avatar-frame a" data-in="143.92" data-d="0.3" data-fx="lin" data-slot="avatar_cierre"><div class="slot-label">Avatar HeyGen<br>(cierre)</div></div>
+</section>
+
+<div id="subs"><div></div></div>
+</div>
+
+<script>
+const SUBS = [
+ [0.05,3.0,"¡Hola! Te doy la bienvenida al Módulo 1"],
+ [3.0,5.8,"del curso IA generativa para entornos laborales:"],
+ [6.2,9.65,"Introducción a la IA generativa y prompt básico."],
+ [10.2,13.1,"No necesitas saber programar ni pagar una licencia:"],
+ [13.55,17.9,"todo lo vas a poder probar con asistentes gratuitos,<br>incluso desde el celular."],
+ [18.65,21.1,"En este módulo vas a recorrer cuatro temas."],
+ [21.78,25.25,"Primero, los fundamentos: qué es la IA generativa,"],
+ [25.6,29.35,"cómo arma sus respuestas,<br>prediciendo texto fragmento a fragmento,"],
+ [29.95,33.4,"qué tipos existen, de lenguaje, de imagen y de audio,"],
+ [33.83,38.55,"y sus tres límites clave:<br>la alucinación, el sesgo y la fecha de corte."],
+ [39.44,41.65,"Segundo, prompts efectivos:"],
+ [42.14,46.0,"aprenderás a pedir con rol, contexto, tarea y formato,"],
+ [46.49,48.8,"a iterar hasta que la respuesta te sirva"],
+ [49.09,51.2,"y a guardar lo que funciona como plantilla."],
+ [52.04,54.35,"Tercero, los parámetros de generación:"],
+ [54.85,57.3,"temperatura, longitud e iteración,"],
+ [57.73,62.2,"para ajustar cada respuesta a tu objetivo<br>y comparar varias salidas con método."],
+ [62.97,64.55,"Y cuarto, la validación:"],
+ [65.08,67.6,"detectar alucinaciones, errores y sesgos,"],
+ [67.9,72.85,"y contrastar lo importante con al menos<br>dos fuentes confiables antes de usarlo."],
+ [73.74,75.75,"En los ejemplos te acompañan Camila,"],
+ [75.98,78.3,"que busca trabajo como asistente administrativa,"],
+ [78.57,80.4,"y Andrés, encargado de bodega."],
+ [81.0,84.95,"Practicarás con Gemini,<br>aunque también sirven ChatGPT o Copilot."],
+ [85.8,86.75,"¿Y cómo se evalúa?"],
+ [87.34,91.25,"Cada tema cierra con un quiz en formato de juego,<br>de 8 preguntas."],
+ [91.84,95.0,"Queda registrado tu mejor puntaje, de 0 a 100,"],
+ [95.43,98.65,"y si te equivocas,<br>el juego te indica qué pantalla repasar."],
+ [99.37,102.0,"Además, vas a analizar dos casos reales:"],
+ [102.58,106.1,"cómo Morgan Stanley controla<br>la calidad de su asistente de IA,"],
+ [106.54,111.3,"y qué pasó cuando la IA inventó fallos judiciales<br>en un juicio contra Avianca."],
+ [112.24,115.85,"Cada caso tiene un análisis guiado,<br>una aplicación a tu proyecto,"],
+ [116.0,119.2,"una autocorrección y una pregunta para el foro."],
+ [119.95,123.1,"Todo esto alimenta el Hito 1 de tu proyecto aplicado:"],
+ [123.61,128.25,"un problema u oportunidad real<br>y tu biblioteca de prompts, versión 1."],
+ [128.97,133.5,"Partes guardando un aviso de empleo real,<br>de un cargo que ejerces o al que aspiras."],
+ [134.33,137.35,"De ahí eliges una tarea como tu desafío laboral,"],
+ [137.76,139.65,"y armas tres plantillas de prompts:"],
+ [139.95,143.15,"probadas, mejoradas y validadas antes de usarlas."],
+ [144.15,146.7,"Así que ten a mano tu celular o tu computador,"],
+ [147.11,151.5,"abre Gemini y busca ese aviso de empleo,<br>sin incluir datos personales."],
+ [152.25,153.5,"Y quédate con esta idea:"],
+ [154.02,158.0,"una respuesta que suena segura<br>no es una respuesta verificada."],
+ [158.67,160.15,"¡Nos vemos en el primer tema!"]
+];
+window.SUBS = SUBS;
+
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const ease=p=>1-Math.pow(1-p,3);
+const prog=(t,s,d)=>clamp((t-s)/d);
+const FADE=0.4;
+const r3=x=>Math.round(x*1000)/1000;
+
+const spans=[...document.querySelectorAll('[data-span]')].map(el=>{const [a,b]=el.dataset.span.split(',').map(Number);return {el,a,b};});
+const anims=[...document.querySelectorAll('.a')].map(el=>({el,s:+el.dataset.in,d:+(el.dataset.d||0.5),fx:el.dataset.fx||'rise',o:el.dataset.out?+el.dataset.out:null,len:+(el.dataset.len||400)}));
+const segs=[...document.querySelectorAll('.seg')].map(el=>{const [a,b]=el.dataset.on.split(',').map(Number);return {el,a,b,on:el.querySelector('.on'),tx:el.querySelector('span')};});
+const topics=[...document.querySelectorAll('.topic')].map(el=>{const [a,b]=el.dataset.on.split(',').map(Number);return {el,a,b,bg:el.querySelector('.bgc'),nf:el.querySelector('.nf'),tx:el.querySelector('.tx')};});
+const toks=[...document.querySelectorAll('.tok')].map(el=>({el,s:+el.dataset.in}));
+const checks=[...document.querySelectorAll('[data-check]')].map(el=>({el,s:+el.dataset.check}));
+const subEl=document.querySelector('#subs div');
+const knob=document.getElementById('knob');
+const selB=document.getElementById('selB');
+const bad=document.getElementById('bad');
+const scoreNum=document.getElementById('scoreNum');
+const scoreBar=document.getElementById('scoreBar');
+const hls=[['h1',65.55],['h2',66.35],['h3',66.95]].map(([id,s])=>({el:document.getElementById(id),s}));
+
+function renderAt(t){
+  const sig=[];
+  for(const s of spans){
+    const pin = s.a<=0.001 ? 1 : prog(t,s.a+0.2,0.3);
+    const pout = prog(t,s.b,0.25);
+    const o = r3(pin*(1-pout));
+    s.el.style.opacity=o; s.el.style.visibility=o<=0?'hidden':'visible'; sig.push(o);
+  }
+  for(const a of anims){
+    let p;
+    if(a.fx==='lin'){ const dl=+(a.el.dataset.d||FADE); p = a.s<=0.001?1:prog(t,a.s,dl); if(a.o!==null) p*=1-prog(t,a.o,FADE); }
+    else { p=ease(prog(t,a.s,a.d)); if(a.o!==null) p*=1-ease(prog(t,a.o,0.35)); }
+    p=r3(p); sig.push(p);
+    const st=a.el.style;
+    switch(a.fx){
+      case 'rise': st.opacity=p; st.transform=p>=1?'none':`translateY(${((1-p)*18).toFixed(2)}px)`; break;
+      case 'fade': case 'lin': st.opacity=p; break;
+      case 'pop': st.opacity=p; st.transform=p>=1?'none':`scale(${(0.82+0.18*p).toFixed(3)})`; break;
+      case 'grow': st.transform=`scaleX(${p})`; st.transformOrigin='left'; break;
+      case 'draw': st.strokeDashoffset=((1-p)*a.len).toFixed(1); st.opacity=p>0?1:0; break;
+    }
+  }
+  for(const g of segs){
+    const on = r3(prog(t,g.a,0.3)*(1-prog(t,g.b,0.3)));
+    g.on.style.opacity=on; g.tx.style.color = on>0.5?'#fff':''; sig.push(on);
+  }
+  const anyActive = t>=21.35 && t<73.71;
+  for(const k of topics){
+    const act=r3(prog(t,k.a,0.35)*(1-prog(t,k.b,0.35)));
+    k.bg.style.opacity=act; k.nf.style.opacity=act;
+    const dim = anyActive ? 1-act : 0;
+    k.tx.style.opacity = r3(1-0.55*dim);
+    sig.push(act, dim);
+  }
+  for(const k of toks){
+    const hot = t<k.s ? 0 : r3(1-prog(t,k.s+0.12,0.45));
+    k.el.style.setProperty('--hot',hot); sig.push(hot);
+  }
+  for(const h of hls){ const p=r3(ease(prog(t,h.s,0.45))); h.el.style.setProperty('--p',p); sig.push(p); }
+  // temperatura: el control se mueve hacia precisión cuando se habla del objetivo
+  const kp = ease(prog(t,57.75,0.8)); const kl = 50-34*kp; knob.style.left=kl.toFixed(2)+'%'; sig.push(r3(kp));
+  const sb = r3(ease(prog(t,61.55,0.4))); selB.style.opacity=sb; sig.push(sb);
+  const bd = r3(ease(prog(t,95.7,0.35))); bad.style.opacity=bd; sig.push(bd);
+  const sc = ease(prog(t,92.0,1.2)); scoreNum.textContent=Math.round(88*sc); scoreBar.style.transform=`scaleX(${(0.88*sc).toFixed(3)})`; sig.push(Math.round(88*sc));
+  for(const c of checks){ const p=r3(ease(prog(t,c.s,0.3))); c.el.style.opacity=p; c.el.style.transform=p>=1?'none':`scale(${(0.6+0.4*p).toFixed(3)})`; sig.push(p); }
+  let cue=''; for(const [a,b,txt] of SUBS){ if(t>=a && t<b){cue=txt;break;} }
+  if(subEl.innerHTML!==cue) subEl.innerHTML=cue; sig.push(cue);
+  return sig.join('|');
+}
+window.renderAt=renderAt;
+window.slotInfo=()=>[...document.querySelectorAll('[data-slot]')].map(el=>{
+  const r=el.getBoundingClientRect(); const sc=el.closest('[data-span]');
+  const [sa,sb]=sc.dataset.span.split(',').map(Number);
+  return {name:el.dataset.slot,x:Math.round(r.left),y:Math.round(r.top),w:Math.round(r.width),h:Math.round(r.height),
+    radius:parseFloat(getComputedStyle(el).borderRadius),in:+el.dataset.in,out:el.dataset.out?+el.dataset.out:null,sceneIn:sa,sceneOut:sb};
+});
+if(location.search.includes('preview')) document.body.classList.add('preview');
+const m=location.search.match(/t=([\d.]+)/); renderAt(m?+m[1]:0);
+</script>
+</body>
+</html>

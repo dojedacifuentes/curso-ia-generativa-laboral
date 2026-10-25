@@ -1,0 +1,190 @@
+1
+00:00:00,050 --> 00:00:03,000
+¡Hola! Te doy la bienvenida al Módulo 1
+
+2
+00:00:03,000 --> 00:00:05,800
+del curso IA generativa para entornos laborales:
+
+3
+00:00:06,200 --> 00:00:09,650
+Introducción a la IA generativa y prompt básico.
+
+4
+00:00:10,200 --> 00:00:13,100
+No necesitas saber programar ni pagar una licencia:
+
+5
+00:00:13,550 --> 00:00:17,900
+todo lo vas a poder probar con asistentes gratuitos,
+incluso desde el celular.
+
+6
+00:00:18,650 --> 00:00:21,100
+En este módulo vas a recorrer cuatro temas.
+
+7
+00:00:21,780 --> 00:00:25,250
+Primero, los fundamentos: qué es la IA generativa,
+
+8
+00:00:25,600 --> 00:00:29,350
+cómo arma sus respuestas,
+prediciendo texto fragmento a fragmento,
+
+9
+00:00:29,950 --> 00:00:33,400
+qué tipos existen, de lenguaje, de imagen y de audio,
+
+10
+00:00:33,830 --> 00:00:38,550
+y sus tres límites clave:
+la alucinación, el sesgo y la fecha de corte.
+
+11
+00:00:39,440 --> 00:00:41,650
+Segundo, prompts efectivos:
+
+12
+00:00:42,140 --> 00:00:46,000
+aprenderás a pedir con rol, contexto, tarea y formato,
+
+13
+00:00:46,490 --> 00:00:48,800
+a iterar hasta que la respuesta te sirva
+
+14
+00:00:49,090 --> 00:00:51,200
+y a guardar lo que funciona como plantilla.
+
+15
+00:00:52,040 --> 00:00:54,350
+Tercero, los parámetros de generación:
+
+16
+00:00:54,850 --> 00:00:57,300
+temperatura, longitud e iteración,
+
+17
+00:00:57,730 --> 00:01:02,200
+para ajustar cada respuesta a tu objetivo
+y comparar varias salidas con método.
+
+18
+00:01:02,970 --> 00:01:04,550
+Y cuarto, la validación:
+
+19
+00:01:05,080 --> 00:01:07,600
+detectar alucinaciones, errores y sesgos,
+
+20
+00:01:07,900 --> 00:01:12,850
+y contrastar lo importante con al menos
+dos fuentes confiables antes de usarlo.
+
+21
+00:01:13,740 --> 00:01:15,750
+En los ejemplos te acompañan Camila,
+
+22
+00:01:15,980 --> 00:01:18,300
+que busca trabajo como asistente administrativa,
+
+23
+00:01:18,570 --> 00:01:20,400
+y Andrés, encargado de bodega.
+
+24
+00:01:21,000 --> 00:01:24,950
+Practicarás con Gemini,
+aunque también sirven ChatGPT o Copilot.
+
+25
+00:01:25,800 --> 00:01:26,750
+¿Y cómo se evalúa?
+
+26
+00:01:27,340 --> 00:01:31,250
+Cada tema cierra con un quiz en formato de juego,
+de 8 preguntas.
+
+27
+00:01:31,840 --> 00:01:35,000
+Queda registrado tu mejor puntaje, de 0 a 100,
+
+28
+00:01:35,430 --> 00:01:38,650
+y si te equivocas,
+el juego te indica qué pantalla repasar.
+
+29
+00:01:39,370 --> 00:01:42,000
+Además, vas a analizar dos casos reales:
+
+30
+00:01:42,580 --> 00:01:46,100
+cómo Morgan Stanley controla
+la calidad de su asistente de IA,
+
+31
+00:01:46,540 --> 00:01:51,300
+y qué pasó cuando la IA inventó fallos judiciales
+en un juicio contra Avianca.
+
+32
+00:01:52,240 --> 00:01:55,850
+Cada caso tiene un análisis guiado,
+una aplicación a tu proyecto,
+
+33
+00:01:56,000 --> 00:01:59,200
+una autocorrección y una pregunta para el foro.
+
+34
+00:01:59,950 --> 00:02:03,100
+Todo esto alimenta el Hito 1 de tu proyecto aplicado:
+
+35
+00:02:03,610 --> 00:02:08,250
+un problema u oportunidad real
+y tu biblioteca de prompts, versión 1.
+
+36
+00:02:08,970 --> 00:02:13,500
+Partes guardando un aviso de empleo real,
+de un cargo que ejerces o al que aspiras.
+
+37
+00:02:14,330 --> 00:02:17,350
+De ahí eliges una tarea como tu desafío laboral,
+
+38
+00:02:17,760 --> 00:02:19,650
+y armas tres plantillas de prompts:
+
+39
+00:02:19,950 --> 00:02:23,150
+probadas, mejoradas y validadas antes de usarlas.
+
+40
+00:02:24,150 --> 00:02:26,700
+Así que ten a mano tu celular o tu computador,
+
+41
+00:02:27,110 --> 00:02:31,500
+abre Gemini y busca ese aviso de empleo,
+sin incluir datos personales.
+
+42
+00:02:32,250 --> 00:02:33,500
+Y quédate con esta idea:
+
+43
+00:02:34,020 --> 00:02:38,000
+una respuesta que suena segura
+no es una respuesta verificada.
+
+44
+00:02:38,670 --> 00:02:40,150
+¡Nos vemos en el primer tema!

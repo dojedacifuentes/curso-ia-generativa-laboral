@@ -111,17 +111,14 @@ casos, hito del proyecto y una idea fuerza para el cierre.
   - Mock de quiz con puntaje y retroalimentación, tarjetas de casos y pasos del hito.
   - Checklist de cierre y cita final.
 
-### 6. Clips e imagen en Google Flow (Claude in Chrome)
-- `https://labs.google/fx/es/tools/flow` → «Nuevo proyecto».
-- La primera vez Flow muestra un **aviso de privacidad**: es un consentimiento a nombre del usuario, **pídele que lo acepte él**.
-  Deja sin marcar las casillas de marketing.
-- Ajustes del agente: video x1, Veo 3.1 Rápido, 16:9; imagen x1 (prompts §3).
-- **Cuidado:** en el cuadro del agente cada salto de línea **envía** el mensaje. Escribe el pedido completo **sin saltos de
-  línea**. Si el agente pregunta el tema, envía la especificación completa.
-- El agente pide aprobación con el costo («60 credits» para 3 videos + 1 imagen): «Approve» solo si el usuario pidió el video.
-- Descargar cada recurso: cursor sobre la tarjeta → «⋮» → Descargar → **720p (tamaño original)**. Imagen: 1K. Copiarlos de
-  Descargas a `media/`.
-- Clips de 8 s a 24 fps. `compose.py` los estira suavemente si la ventana es más larga (`estirar: true`).
+### 6. Clips en Google Flow (Claude in Chrome)
+- `https://flow.google.com` → «Nuevo proyecto». Interfaz, modelo, costos y descarga en `prompts.md` §3; descripciones de
+  los clips en el mismo apartado.
+- La primera vez Flow puede mostrar un **aviso de privacidad**: es un consentimiento a nombre del usuario, **pídele que lo
+  acepte él**.
+- Solo clips que el usuario aprobó, con su costo. Si faltan puntos, avisar: no se compran.
+- Copiar los MP4 de Descargas a `media/` con nombres cortos (`camila.mp4`, `quiz.mp4`…). Clips de 8 s a 24 fps: en
+  `config.json` se elige el tramo con `src_start`/`src_dur` o se estira suavemente con `estirar: true`.
 
 ### 7. EVA a cámara (un solo render para intro y cierre)
 - `python <skill>/scripts/cortar_audio_avatar.py audio/voz.mp3 FIN_INTRO INICIO_CIERRE audio/eva_intro_cierre.mp3`
@@ -129,6 +126,8 @@ casos, hito del proyecto y una idea fuerza para el cierre.
 - Si el usuario no pidió todavía el video completo, **confirmar antes** de gastar créditos de HeyGen.
 - Subir y generar con el conector de HeyGen: `prompts.md` §4 (opción A, el look de EVA de fondo azul; opción B, su retrato).
   Formato 4:5, 1080p. Descargar a `heygen/avatar.mp4`.
+- Cambiar el fondo azul por el claro del curso: `python <skill>/scripts/fondo_eva.py heygen/avatar.mp4 heygen/avatar_fondo_claro.mp4`
+  (revisar antes un cuadro con `--cuadro 16 prueba.png`) y usar ese archivo en `avatar.video`.
 - `python <skill>/scripts/medir_desfase.py heygen/avatar.mp4 audio/eva_intro_cierre.mp3` da `avatar.offset` (M1: +0.023 s).
 - Recorte: `"crop": "auto"` en el config centra el video en la proporción del recuadro, sea cual sea su tamaño.
 
@@ -170,10 +169,10 @@ casos, hito del proyecto y una idea fuerza para el cierre.
 `guion.md`, `video.html`, `config.json`, `slots.json` y `subtitulos.srt` de cada carpeta de `videos/`. El audio, los clips,
 el avatar, `graphics.mp4`, el video final, el PDF y las capturas **no** (están en `.gitignore`): el repo es público y pesan.
 
-## Costos de referencia (M1, 2:40)
-- Voz: ~2.300 caracteres (una toma).
-- Google Flow: 60 créditos (3 clips Veo 3.1 Rápido + 1 imagen).
-- HeyGen avatar: 12 créditos (36 s de EVA, intro + cierre).
+## Costos de referencia (M1 con la voz de EVA, 25-10, 2:37)
+- Voz: una toma de ~2.500 caracteres (cuota de voz de HeyGen, no créditos premium).
+- HeyGen avatar: 20 créditos premium (35 s de EVA, intro + cierre).
+- Google Flow: 90 puntos (4 clips Veo 3.1 Fast a 20 + 1 Lite a 10). La cuenta quedó sin puntos hasta la renovación mensual.
 
 ## Reglas de seguridad al operar el navegador
 - No aceptar términos ni avisos de privacidad a nombre del usuario: pedirle que lo haga.

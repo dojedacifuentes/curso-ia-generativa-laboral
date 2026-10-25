@@ -1,0 +1,65 @@
+{
+  "_nota": "Bienvenida M1 con la voz de EVA (25-10). Avatar: look EVA fondo azul (360c41ac…) con el fondo cambiado a claro por fondo_eva.py; 5 clips de Flow.",
+  "duracion": 157.07,
+  "voz": "audio/voz.mp3",
+  "salida": "M1_bienvenida.mp4",
+  "avatar": {
+    "video": "heygen/avatar_fondo_claro.mp4",
+    "clip_dur": 34.967,
+    "offset": 0.023,
+    "crop": "auto",
+    "intro_out": 17.99,
+    "cierre_in": 141.31,
+    "cierre_master_t": 141.3,
+    "cierre_clip_t": 19.2
+  },
+  "clips": [
+    {
+      "slot": "camila",
+      "video": "media/camila.mp4",
+      "visible_desde": 74.16,
+      "visible_hasta": 85.18,
+      "fade_out": 84.78
+    },
+    {
+      "slot": "andres",
+      "video": "media/andres.mp4",
+      "src_start": 0.3,
+      "src_dur": 7.5,
+      "estirar": false,
+      "visible_desde": 77.68,
+      "visible_hasta": 85.18,
+      "fade_out": 84.78
+    },
+    {
+      "slot": "aviso",
+      "video": "media/aviso.mp4",
+      "visible_desde": 126.47,
+      "visible_hasta": 134.98,
+      "fade_out": 134.58,
+      "fade_out_d": 0.4
+    },
+    {
+      "slot": "quiz",
+      "video": "media/quiz.mp4",
+      "src_start": 3.4,
+      "src_dur": 4.6,
+      "estirar": false,
+      "visible_desde": 86.4,
+      "visible_hasta": 91.0,
+      "fade_out": 90.6,
+      "fade_out_d": 0.4
+    },
+    {
+      "slot": "plantillas",
+      "video": "media/plantillas.mp4",
+      "src_start": 4.0,
+      "src_dur": 3.0,
+      "estirar": false,
+      "visible_desde": 134.58,
+      "visible_hasta": 137.35,
+      "fade_out": 136.95,
+      "fade_out_d": 0.4
+    }
+  ]
+}

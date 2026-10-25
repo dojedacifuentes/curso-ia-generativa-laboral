@@ -1,6 +1,6 @@
 # Auditoría del curso «IA generativa para entornos laborales»
 
-Generado con `node scripts/auditar.mjs` el 25-10-26, 2:23 a. m.. Solo lee: no corrige nada.
+Generado con `node scripts/auditar.mjs` el 25-10-26, 3:44 a. m.. Solo lee: no corrige nada.
 Fuente de verdad: planilla «Estructura_inicial_contenido_IA_generativa» (Drive 1v_NCRQGZnajDLesIw8haIMrw4551q6C8Om6AOM8RoHM).
 
 **Resultado:** 84 chequeos · ✓ 70 sin observaciones · ! 12 con avisos · ✗ 0 con errores · … 2 pendientes.
@@ -45,14 +45,13 @@ investigacion/M<n>.md, HERRAMIENTAS-*.md  (fuentes F-…, abiertas y leídas)   
 | Estado | Recursos | Horas |
 |---|---|---|
 | Pendiente | 18 | 9.8 |
-| En curso | 1 | 0.1 |
+| Hecho | 40 | 22.1 |
 | Insumo listo | 43 | 56.2 |
-| Hecho | 39 | 22.0 |
 
 | Tipo | Hecho | Insumo listo | En curso | Pendiente |
 |---|---|---|---|---|
 | Inducción/Diagnóstica |  |  |  | 1 |
-| Video |  | 6 | 1 | 5 |
+| Video | 1 | 6 |  | 5 |
 | Rise |  | 22 |  |  |
 | Quiz formativo | 22 |  |  |  |
 | Hito proyecto |  | 9 |  |  |
@@ -303,7 +302,7 @@ Cruza cada fila de la hoja «Recursos» con lo producido. «Hecho» = el entrega
 | ID | Módulo | Tipo | Recurso | Min | Estado | Nota |
 |---|---|---|---|---|---|---|
 | R001 | M1 | Inducción/Diagnóstica | Inducción tecnológica-metodológica (video) + Guía del participante + Evaluación diagnóstica | 45 | Pendiente | Falta video de inducción, guía del participante y diagnóstica |
-| R002 | M1 | Video | Video de bienvenida M1 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto | 3 | En curso | Guion en videos/M1-bienvenida; falta el video |
+| R002 | M1 | Video | Video de bienvenida M1 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto | 3 | Hecho | Video, .srt y slides (videos/M1-bienvenida) |
 | R003 | M1 | Rise | Rise M1-T1 · Fundamentos de IA generativa | 120 | Insumo listo | Contenido base validado; el Rise lo arma Natalia |
 | R004 | M1 | Quiz formativo | Quiz formativo M1-AE1 · Fundamentos de IA generativa | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
 | R005 | M1 | Rise | Rise M1-T2 · Prompts efectivos | 120 | Insumo listo | Contenido base validado; el Rise lo arma Natalia |

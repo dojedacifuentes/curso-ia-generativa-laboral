@@ -1,44 +1,42 @@
 # Video de bienvenida · Módulo 1
 **Curso:** IA generativa para entornos laborales
 **Módulo 1:** Introducción a la IA generativa y prompt básico
-**Voz:** Catalina – Chilean Spanish (ElevenLabs, modelo Eleven v4)
-**Duración:** toma 1, 2:40 · toma 2, 2:39 (máximo pedido: 3:00)
-Los tiempos de abajo son de la toma 1.
+**Voz:** EVA · Camila Vega (HeyGen, ElevenLabs eleven_v4)
+**Duración:** 2:37 (máximo pedido: 3:00)
 
-> **Estado (25-10):** el video del M1 se hizo con la voz Catalina y con avisos de IA. Se rehace con la voz de EVA y sin avisos.
-> El guion queda como está hasta saber cuánto margen hay para adaptar el texto del material (consulta del 25-10).
+> El texto es el mismo de la versión con la voz Catalina; está pendiente saber cuánto margen hay para adaptarlo (consulta del 25-10).
 
 ---
 
-## 1. Intro · avatar · 0:00–0:19
+## 1. Intro · avatar · 0:00–0:18
 
 ¡Hola! Te doy la bienvenida al Módulo uno del curso IA generativa para entornos laborales: Introducción a la IA generativa y prompt básico. No necesitas saber programar ni pagar una licencia: todo lo vas a poder probar con asistentes gratuitos, incluso desde el celular.
 
-## 2. Qué vas a aprender · voz + slides · 0:19–1:26
+## 2. Qué vas a aprender · voz + slides · 0:18–1:25
 
 En este módulo vas a recorrer cuatro temas.
 
 **0:22 ·** Primero, los fundamentos: qué es la IA generativa, cómo arma sus respuestas, prediciendo texto fragmento a fragmento, qué tipos existen, de lenguaje, de imagen y de audio, y sus tres límites clave: la alucinación, el sesgo y la fecha de corte.
 
-**0:39 ·** Segundo, prompts efectivos: aprenderás a pedir con rol, contexto, tarea y formato, a iterar hasta que la respuesta te sirva y a guardar lo que funciona como plantilla.
+**0:40 ·** Segundo, prompts efectivos: aprenderás a pedir con rol, contexto, tarea y formato, a iterar hasta que la respuesta te sirva y a guardar lo que funciona como plantilla.
 
 **0:52 ·** Tercero, los parámetros de generación: temperatura, longitud e iteración, para ajustar cada respuesta a tu objetivo y comparar varias salidas con método.
 
 **1:03 ·** Y cuarto, la validación: detectar alucinaciones, errores y sesgos, y contrastar lo importante con al menos dos fuentes confiables antes de usarlo.
 
-**1:14 ·** En los ejemplos te acompañan Camila, que busca trabajo como asistente administrativa, y Andrés, encargado de bodega. Practicarás con Gemini, aunque también sirven ChatGPT o Copilot.
+**1:13 ·** En los ejemplos te acompañan Camila, que busca trabajo como asistente administrativa, y Andrés, encargado de bodega. Practicarás con Gemini, aunque también sirven ChatGPT o Copilot.
 
-## 3. Cómo se evalúa · voz + slides · 1:26–2:00
+## 3. Cómo se evalúa · voz + slides · 1:25–1:58
 
 ¿Y cómo se evalúa? Cada tema cierra con un quiz en formato de juego, de ocho preguntas. Queda registrado tu mejor puntaje, de cero a cien, y si te equivocas, el juego te indica qué pantalla repasar.
 
 **1:39 ·** Además, vas a analizar dos casos reales: cómo Morgan Stanley controla la calidad de su asistente de IA, y qué pasó cuando la IA inventó fallos judiciales en un juicio contra Avianca. Cada caso tiene un análisis guiado, una aplicación a tu proyecto, una autocorrección y una pregunta para el foro.
 
-## 4. Hito 1 del proyecto · voz + slides · 2:00–2:24
+## 4. Hito 1 del proyecto · voz + slides · 1:58–2:21
 
 Todo esto alimenta el Hito uno de tu proyecto aplicado: un problema u oportunidad real y tu biblioteca de prompts, versión uno. Partes guardando un aviso de empleo real, de un cargo que ejerces o al que aspiras. De ahí eliges una tarea como tu desafío laboral, y armas tres plantillas de prompts: probadas, mejoradas y validadas antes de usarlas.
 
-## 5. Cierre · avatar · 2:24–2:40
+## 5. Cierre · avatar · 2:21–2:37
 
 Así que ten a mano tu celular o tu computador, abre Gemini y busca ese aviso de empleo, sin incluir datos personales. Y quédate con esta idea: una respuesta que suena segura no es una respuesta verificada. ¡Nos vemos en el primer tema!
 

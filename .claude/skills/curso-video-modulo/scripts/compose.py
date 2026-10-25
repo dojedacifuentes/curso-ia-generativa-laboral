@@ -75,10 +75,17 @@ cmd += ['-filter_complex', ';'.join(fc), '-map', '[vout]', '-map', f'{n}:a', '-c
         '-crf', '18', '-r', str(FPS), '-c:a', 'aac', '-b:a', '192k', '-t', f'{DUR}', str(tmp)]
 subprocess.run(cmd, check=True)
 
-# normalización de volumen a -16 LUFS (estándar de video en línea), sin recodificar la imagen
+# normalización de volumen a -16 LUFS (estándar de video en línea), sin recodificar la imagen.
+# Dos pasadas: una pasada sola deja la voz ~1 dB bajo la meta.
+LN = 'loudnorm=I=-16:TP=-1.5:LRA=11'
+med = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', str(tmp), '-vn', '-af', LN + ':print_format=json', '-f', 'null', '-'],
+                     capture_output=True, text=True).stderr
+m = json.loads(med[med.rindex('{'):med.rindex('}') + 1])
+LN += (f":measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}"
+       f":measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
 out = R(cfg['salida'])
 subprocess.run(['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', '-i', str(tmp), '-map', '0:v', '-map', '0:a',
-                '-c:v', 'copy', '-af', 'loudnorm=I=-16:TP=-1.5:LRA=11', '-ar', '44100', '-c:a', 'aac', '-b:a', '192k',
+                '-c:v', 'copy', '-af', LN, '-ar', '44100', '-c:a', 'aac', '-b:a', '192k',
                 '-movflags', '+faststart', out], check=True)
 tmp.unlink()
 print('listo ->', out)

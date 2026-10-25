@@ -55,15 +55,17 @@ create_speech_without_player(
   para la voz; el guion y los subtítulos conservan la ortografía real.
 - Si el total pasa de 3:00, se acorta el texto. No se acelera la toma entera.
 
-## 3. Clips e imágenes en Google Flow (agente de Flow)
+## 3. Clips en Google Flow (flow.google.com)
 
-Configuración del agente (ícono de ajustes junto al cuadro de texto): video 16:9, **x1**, **Veo 3.1 - Rápido** (20 créditos por clip de 8 s); imagen 16:9, x1, Nano Banana. «Confirmar antes de generar: Siempre».
+Interfaz al 25-10: no hace falta el agente. Abajo, el botón del modelo («Nano Banana… x1») abre el panel: **Video**,
+**16:9**, modelo **Veo 3.1 - Fast** (20 puntos por clip de 8 s, 720p) y **x1**. Un pedido por clip: se pega la
+descripción en el cuadro y se pulsa la flecha. Se pueden encolar varios seguidos.
 
-Plantilla de pedido (pegarla en UNA sola línea; cada salto de línea envía el mensaje):
-
-```
-Genera estos N recursos para un video de capacitación. Videos: 16:9, Veo 3.1 Rápido, 1 salida cada uno, sin texto en pantalla, sin logos y sin diálogo. Imagen: 16:9, 1 salida. 1) Video "nombre": <descripción en inglés> 2) ...
-```
+- Si quedan pocos puntos, el botón de enviar se pone naranjo («Advertencia de puntos insuficientes»). **Veo 3.1 - Lite**
+  cuesta 10 y se ve un poco menos fino. No se compran puntos: se avisa al usuario.
+- Descargar: el ícono de descarga de cada fila baja el MP4 de 720p directo a `Descargas`, con un nombre en inglés
+  («Woman_reading_job_listing_….mp4»).
+- Proyecto del M1: «oct 25 - 02:57» (5 clips).
 
 Fórmula de descripción de video (en inglés funciona mejor):
 `<plano> of a Latin American <persona/edad/ropa>, <lugar>, <acción concreta de 8 s>. <luz>, realistic documentary style, 35mm lens, shallow depth of field, <movimiento de cámara lento>. <pantalla de laptop/celular no visible o desenfocada>. No on-screen text, no logos, no dialogue.`
@@ -72,7 +74,13 @@ Ejemplos usados en el M1:
 - camila: Medium shot of a Latin American woman in her late twenties with shoulder-length dark hair and a simple light blue blouse, sitting at a tidy home desk with a laptop and an open notebook. She reads a job listing on the laptop and writes short notes by hand, focused and calm. Soft natural window light, realistic documentary style, 35mm lens, shallow depth of field, slow subtle push-in. The laptop screen faces away from the camera. No on-screen text, no logos, no dialogue.
 - andres: Medium shot of a Latin American man in his late thirties wearing a high-visibility safety vest over a navy polo shirt, standing in an aisle of an organized distribution warehouse with metal shelves full of cardboard boxes. He checks stock on a tablet, then looks up at the shelves and nods. Soft even industrial lighting, realistic documentary style, 35mm lens, slow lateral tracking shot. The tablet screen is not visible. No readable text on boxes, no logos, no dialogue.
 - aviso: Close-up over-the-shoulder shot of a person at a wooden desk holding a smartphone, scrolling and tapping to save a job listing, then writing a short checklist in a notebook with a pen. Warm natural morning light, realistic, shallow depth of field. The phone screen is softly out of focus and unreadable. No on-screen text, no logos, no dialogue.
+- quiz: Close-up of a Latin American woman in her thirties sitting at a kitchen table, holding a smartphone with both hands and tapping answers in a quiz game, then smiling with a small satisfied fist pump when she gets one right. Warm natural morning light, realistic documentary style, 35mm lens, shallow depth of field, slow subtle push-in. The phone screen faces away from the camera or is softly out of focus and unreadable. No on-screen text, no logos, no dialogue.
+- plantillas (Camila, Veo Lite): Medium shot of a Latin American woman in her late twenties with shoulder-length dark hair and a simple light blue blouse, sitting at a tidy home desk with a laptop and an open notebook. She types a short text on the laptop, reads the result, crosses out a line in her notebook and writes a better version, then nods with a small smile. Soft natural window light, realistic documentary style, 35mm lens, shallow depth of field, slow lateral camera move. The laptop screen faces away from the camera. No on-screen text, no logos, no dialogue.
 - imagen bodega (prompt que aparece en el propio curso): Ilustración simple de una bodega ordenada, estilo plano, colores azul y gris, sin texto.
+
+Dónde van los clips: donde la voz **presenta** algo y todavía no hay contenido en pantalla. Patrón que funcionó: el clip
+ocupa grande la mitad derecha (800×450) mientras la voz introduce el tema, y al salir entra el contenido (mock del quiz,
+tarjetas de plantillas). Nunca encima de un diagrama ni en recuadros chicos que tapen texto.
 
 Los personajes deben calzar con `docs/PERSONAJES.md` (Camila, Andrés, Rosa, Paula).
 
@@ -104,4 +112,9 @@ Un solo render con la intro y el cierre unidos (`cortar_audio_avatar.py`), lip-s
 
 | Dato | Valor |
 |---|---|
-| Look de EVA para los videos del curso | _(anotar el id la primera vez)_ |
+| Look de EVA para los videos del curso | `360c41ac5b6d49278664c96507da6762` (grupo «EVA», fondo azul, blusa azul marino, 1254×1254) |
+| Llamada | `create_video_from_avatar(avatarId=…, audioAssetId=…, aspectRatio="4:5", fit="cover", resolution="1080p")` → 1080×1350 |
+| Fondo | `python <skill>/scripts/fondo_eva.py heygen/avatar.mp4 heygen/avatar_fondo_claro.mp4` lo cambia por el claro del curso (sin créditos). Probar antes con `--cuadro 16 prueba.png` |
+| Costo real M1 (35 s) | 20 créditos premium (532 → 512) |
+
+El otro grupo «EVA» (`be416c9a…`) es la versión de laboratorio futurista: no va en el curso.

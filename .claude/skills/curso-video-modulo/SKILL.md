@@ -5,8 +5,8 @@ description: Produce los videos de bienvenida y de resumen de cada módulo (máx
 
 # Videos de bienvenida y resumen de módulo
 
-Reproduce el flujo con que se hizo el video de bienvenida del Módulo 1 (2:40, 1080p; lámina de referencia en
-`ejemplo_M1/slides_referencia.png`). Para otro módulo cambian el guion, los tiempos, los clips y los textos de las slides; la
+Reproduce el flujo con que se hizo el video de bienvenida del Módulo 1. **Referencia vigente: `videos/M1-bienvenida/`**
+(voz y avatar de EVA, 6 clips, cámara, 2:37). `ejemplo_M1/` es la primera versión (voz Catalina, sin movimiento). Para otro módulo cambian el guion, los tiempos, los clips y los textos de las slides; la
 estructura, los scripts y el diseño se mantienen. La planilla pide 12 videos: bienvenida y resumen de M1 a M6.
 
 `<skill>` = `.claude/skills/curso-video-modulo`. Carpeta de trabajo: `videos/M<n>-<bienvenida|resumen>/`.
@@ -17,7 +17,7 @@ estructura, los scripts y el diseño se mantienen. La planilla pide 12 videos: b
 SKILL.md                      este procedimiento
 prompts.md                    estructura y reglas del guion, voz de EVA, prompts de Flow, avatar de EVA en HeyGen
 plantilla/video.html          slides + animaciones + subtítulos (plantilla con el M1 como contenido)
-plantilla/fonts/              IBM Plex Sans/Mono (la tipografía de las infografías del curso)
+plantilla/fonts/              Schibsted Grotesk (texto) e IBM Plex Mono (prompts)
 scripts/detectar_pausas.py    tiempos de cada frase a partir de la voz
 scripts/cortar_audio_avatar.py   une intro + cierre para UN solo render de HeyGen
 scripts/medir_desfase.py      desfase labios/audio del video HeyGen
@@ -25,7 +25,7 @@ scripts/preview.py            capturas de prueba del HTML en tiempos dados
 scripts/render_graphics.py    renderiza el HTML a graphics.mp4 (30 fps) + slots.json
 scripts/compose.py            arma el video final con config.json (avatar, clips, voz, -16 LUFS)
 scripts/exportar_srt_y_slides.py  .srt para el LMS y PDF de slides
-ejemplo_M1/                   guion, config.json, slots.json, .srt y lámina de referencia del M1
+ejemplo_M1/                   primera versión del M1 (voz Catalina); la vigente está en videos/M1-bienvenida/
 ```
 
 ## Requisitos (PC 1, ya instalados el 25-10)
@@ -64,7 +64,7 @@ Extraer: título del módulo, título y aprendizaje de cada AE, conceptos clave,
 casos, hito del proyecto y una idea fuerza para el cierre.
 
 ### 2. Escribir el guion
-- Estructura y reglas en `prompts.md` §1 (bienvenida o resumen). Ejemplo completo: `ejemplo_M1/guion.md`.
+- Estructura y reglas en `prompts.md` §1 (bienvenida o resumen). Ejemplo completo: `videos/M1-bienvenida/guion.md`.
 - Incluir la tabla de correspondencia. Cada frase debe poder rastrearse a un archivo del proyecto (`contenido/…`, `casos/…`).
 - Guardarlo como `videos/M<n>-<tipo>/guion.md`.
 
@@ -93,10 +93,23 @@ casos, hito del proyecto y una idea fuerza para el cierre.
 - Recuadros de video: `data-slot="nombre"`. Su posición la toma `compose.py` desde `slots.json`. Avatar: `avatar_intro` /
   `avatar_cierre` (604×764, x=1196, y=136). Clips: 16:9.
 - Subtítulos: arreglo `SUBS = [[inicio, fin, "texto<br>2ª línea"], …]` al final del HTML.
+- Movimiento (pedido del usuario el 25-10: «zoom, coordinación, animación, atractivo y tecnológico»). Lo hace el motor
+  de la plantilla, sin tocar cada escena:
+  - **Cámara:** todo lo que no es recuadro de video va en una capa (`.camwrap`) que se acerca un 3 % durante la escena
+    y entra con zoom y desenfoque breve. Los recuadros `[data-slot]` quedan fuera de la capa, así el clip compuesto
+    después calza siempre con su marco.
+  - **Zoom de foco:** `data-focus="t0,t1,zoom"` en el elemento que nombra la voz (zoom 1.04–1.05; el punto de zoom va a
+    medio camino del centro para no sacar del cuadro lo del otro lado). No usarlo en escenas con EVA.
+  - **Fondo vivo** (puntos que se desplazan y dos brillos teal), **barra de progreso** arriba y entradas `rise`/`pop`
+    con desenfoque.
+  - Como la cámara se mueve en cada cuadro, `render_graphics.py` captura todos los cuadros: ~13 min para 2:37.
+  - Clips: Ken Burns con `"zoom_clips": 1.08` en `config.json` (o `"zoom"` por clip).
+  - Escena estática = escena por mejorar: cada frase debe cambiar algo en pantalla (un paso que entra, un dato que se
+    marca, un diagrama que avanza). Ej.: los casos llevan un mini diagrama de 3 pasos sincronizado con la voz.
 - Reglas de diseño:
   - Paleta del curso: tinta #0F172A, teal #0E7490, fondo #F8FAFC, ámbar para límites y errores. (La marca del cliente se
     aplica después.)
-  - Tipografía IBM Plex Sans; Plex Mono solo para prompts y tokens.
+  - Tipografía Schibsted Grotesk (familia `Sans`, elegida el 25-10 por verse menos «plantilla de IA»); IBM Plex Mono solo para prompts y tokens. Las infografías siguen en IBM Plex.
   - Ningún contenido bajo y = 900: esa franja es de los subtítulos.
   - Los textos de las slides salen del contenido del módulo.
 - Revisar con `python <skill>/scripts/preview.py videos/…/video.html 16.5 38.8 …` y mirar los PNG con Read antes de
@@ -133,7 +146,7 @@ casos, hito del proyecto y una idea fuerza para el cierre.
 
 ### 8. Render y montaje
 1. `python <skill>/scripts/render_graphics.py videos/…/video.html DURACION` → `graphics.mp4` + `slots.json` (~2,5 min).
-2. Llenar `config.json` (ver `ejemplo_M1/config.json`):
+2. Llenar `config.json` (ver `videos/M1-bienvenida/config.json`):
    - `intro_out`: escena 1 sale (inicio bloque 2 − 0.45).
    - `cierre_in`: escena final entra (inicio cierre − 0.45).
    - `cierre_master_t`: inicio del corte de cierre.
@@ -173,6 +186,7 @@ el avatar, `graphics.mp4`, el video final, el PDF y las capturas **no** (están 
 - Voz: una toma de ~2.500 caracteres (cuota de voz de HeyGen, no créditos premium).
 - HeyGen avatar: 20 créditos premium (35 s de EVA, intro + cierre).
 - Google Flow: 90 puntos (4 clips Veo 3.1 Fast a 20 + 1 Lite a 10). La cuenta quedó sin puntos hasta la renovación mensual.
+- HeyGen Video 1: 2 créditos por clip de 5 s (3 intentos para el clip del celular = 6).
 
 ## Reglas de seguridad al operar el navegador
 - No aceptar términos ni avisos de privacidad a nombre del usuario: pedirle que lo haga.

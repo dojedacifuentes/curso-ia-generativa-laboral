@@ -43,7 +43,8 @@ for c in cfg.get('clips', []):
     src_d = c.get('src_dur', 8.0)
     ov.append(dict(slot=c['slot'], src=c['video'], ss=c.get('src_start', 0.0), d=src_d,
                    speed=vis / src_d if c.get('estirar', True) else 1.0, t0=c['visible_desde'],
-                   fin=c['visible_desde'], fout=c['fade_out'], fid=0.4, fod=c.get('fade_out_d', 0.25), crop=None))
+                   fin=c['visible_desde'], fout=c['fade_out'], fid=0.4, fod=c.get('fade_out_d', 0.25), crop=None,
+                   zoom=c.get('zoom', cfg.get('zoom_clips', 1.0))))
 
 cmd = ['ffmpeg', '-hide_banner', '-loglevel', 'error', '-stats', '-y', '-i', R('graphics.mp4')]
 fc, n, last = [], 1, '[0:v]'
@@ -62,7 +63,14 @@ for i, o in enumerate(ov):
         ch += f",crop='min(iw,ih*{w}/{h})':'min(ih,iw*{h}/{w})'"
     elif o['crop']:
         cr = o['crop']; ch += f",crop={cr['w']}:{cr['h']}:{cr['x']}:{cr['y']}"
-    ch += f',scale={w}:{h}:flags=lanczos,format=yuva420p[v{i}];[{mi}:v]format=gray,scale={w}:{h}[m{i}];'
+    if o.get('zoom', 1) > 1:
+        # Ken Burns: el clip se acerca lento durante su ventana (se escala al doble antes para que no tiemble)
+        nf = max(1, int(round(out_d * FPS)))
+        ch += (f",scale={w * 2}:{h * 2}:flags=lanczos,zoompan=z='1+{o['zoom'] - 1:.4f}*on/{nf}'"
+               f":x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={w}x{h}:fps={FPS}")
+    else:
+        ch += f',scale={w}:{h}:flags=lanczos'
+    ch += f',format=yuva420p[v{i}];[{mi}:v]format=gray,scale={w}:{h}[m{i}];'
     ch += f"[v{i}][m{i}]alphamerge,trim=duration={out_d:.3f},setpts=PTS-STARTPTS+{o['t0']:.3f}/TB"
     if o['fin'] is not None: ch += f",fade=t=in:st={o['fin']:.3f}:d={o['fid']}:alpha=1"
     if o['fout'] is not None: ch += f",fade=t=out:st={o['fout']:.3f}:d={o['fod']}:alpha=1"

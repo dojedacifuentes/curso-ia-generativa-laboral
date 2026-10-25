@@ -1,5 +1,5 @@
 {
-  "_nota": "Bienvenida M1 con la voz de EVA (25-10). Avatar: look EVA fondo azul (360c41ac…) con el fondo cambiado a claro por fondo_eva.py; 5 clips de Flow.",
+  "_nota": "Bienvenida M1 (25-10): voz y avatar de EVA (fondo claro), 6 clips (5 Flow + 1 HeyGen Video 1), cámara y Ken Burns.",
   "duracion": 157.07,
   "voz": "audio/voz.mp3",
   "salida": "M1_bienvenida.mp4",
@@ -60,6 +60,17 @@
       "visible_hasta": 137.35,
       "fade_out": 136.95,
       "fade_out_d": 0.4
+    },
+    {
+      "slot": "celular",
+      "video": "media/celular.mp4",
+      "src_start": 0.0,
+      "src_dur": 5.2,
+      "estirar": false,
+      "visible_desde": 12.95,
+      "visible_hasta": 18.39,
+      "fade_out": 17.99
     }
-  ]
+  ],
+  "zoom_clips": 1.08
 }

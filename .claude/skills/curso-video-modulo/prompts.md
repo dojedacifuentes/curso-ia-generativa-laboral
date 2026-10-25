@@ -78,6 +78,19 @@ Ejemplos usados en el M1:
 - plantillas (Camila, Veo Lite): Medium shot of a Latin American woman in her late twenties with shoulder-length dark hair and a simple light blue blouse, sitting at a tidy home desk with a laptop and an open notebook. She types a short text on the laptop, reads the result, crosses out a line in her notebook and writes a better version, then nods with a small smile. Soft natural window light, realistic documentary style, 35mm lens, shallow depth of field, slow lateral camera move. The laptop screen faces away from the camera. No on-screen text, no logos, no dialogue.
 - imagen bodega (prompt que aparece en el propio curso): Ilustración simple de una bodega ordenada, estilo plano, colores azul y gris, sin texto.
 
+### Alternativa: HeyGen Video 1 (conector de HeyGen, créditos premium)
+
+Cuando Flow no tiene puntos. `text_to_video(prompt, duration=5, aspectRatio="16:9", resolution="768p",
+promptEnhancement="disabled")` → `get_model_video` cada ~30 s hasta `completed` → descargar `video_url` (1344×768, 24 fps).
+Costo medido el 25-10: **2 créditos por clip de 5 s**. Calidad comparable a Veo.
+
+Trampa: si la persona «escribe un mensaje» o «usa un chat», el modelo **dibuja una interfaz flotante** (burbujas, teclado)
+aunque el prompt lo prohíba. Pedir acciones sin pantalla visible («scrolls with his thumb, then looks up and smiles») y
+cerrar con «Pure live-action camera footage. Absolutely no interface graphics, no keyboard, no chat bubbles, no overlays,
+no on-screen text». Revisar 3 cuadros de cada clip antes de usarlo.
+
+Clip usado en el M1 (intro, «incluso desde el celular»): Medium shot of a Latin American man in his early forties wearing a simple grey jacket, sitting by the window of a city bus. He holds a smartphone at chest height with the screen facing him, scrolls with his thumb, then looks up through the window and smiles, satisfied. Soft natural daylight, realistic documentary style, 35mm lens, shallow depth of field, slow subtle push-in. Pure live-action camera footage. Absolutely no interface graphics, no keyboard, no chat bubbles, no overlays, no on-screen text, no logos, no subtitles, no dialogue.
+
 Dónde van los clips: donde la voz **presenta** algo y todavía no hay contenido en pantalla. Patrón que funcionó: el clip
 ocupa grande la mitad derecha (800×450) mientras la voz introduce el tema, y al salir entra el contenido (mock del quiz,
 tarjetas de plantillas). Nunca encima de un diagrama ni en recuadros chicos que tapen texto.

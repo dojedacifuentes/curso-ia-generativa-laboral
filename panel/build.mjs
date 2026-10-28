@@ -188,7 +188,7 @@ for (const a of AES) {
     auditoria: chequeos.filter(k => k.id === `C2.${id}` || k.id === `C3.${id}`).map(k => ({ id: k.id, titulo: k.titulo, estado: k.estado, mensajes: mensajes(k) })),
   };
 }
-// Fuentes que los casos citan desde el contenido (recuadro «Caso real» y sección Fuentes)
+// Fuentes de casos que cite el contenido (desde el 28-10 el contenido no cita casos)
 for (const a of AES) {
   const archivo = `contenido/${a.id.split('-')[0]}/${a.id}.md`;
   if (!existe(archivo)) continue;

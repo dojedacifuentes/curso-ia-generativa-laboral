@@ -143,11 +143,11 @@ function vMetodologia() {
 }
 const REGLAS = [
   ['La planilla manda', 'Nada fuera de sus saberes y criterios. Cada código del AE queda cubierto por al menos una pantalla y ninguna pantalla queda sin código.', 'workflow'],
-  ['Fuente abierta y leída', 'Toda afirmación de hecho cita una fuente que se abrió y leyó: normativa, ayuda oficial, academia o prensa con fecha. Lo no verificado va a pendientes.', 'workflow'],
+  ['Fuente abierta y leída', 'Toda afirmación de hecho cita una fuente que se abrió y leyó: normativa, ayuda oficial, academia o prensa con fecha. Máximo 2 fuentes por pantalla. Lo no verificado va a pendientes.', 'workflow'],
   ['Cada pantalla se declara', 'Cada pantalla dice qué cubre (cubre:), qué cita (fuentes:) y qué bloque de Rise usa (bloque:).', 'formato-contenido-base'],
   ['El quiz remite', 'Cada pregunta evalúa códigos del AE y manda a repasar una pantalla que trabaja esos códigos. Todos los criterios se evalúan.', 'docs-formato-quiz'],
-  ['Empresas reales, solo verificadas', 'Los casos con empresas se verifican en fuente primaria. En el contenido base solo aparecen dentro de un recuadro «Caso real».', 'docs-formato-caso'],
-  ['Audiencia real', 'Personas cesantes o que buscan empleo y personas que ya trabajan. Herramientas gratuitas, en el celular, en español de Chile y con tuteo.', 'workflow'],
+  ['Empresas reales, solo verificadas', 'Los casos con empresas se verifican en fuente primaria y son un recurso aparte: el contenido, los quiz, las infografías y los videos no los nombran.', 'docs-formato-caso'],
+  ['Audiencia real', 'Solo personas que están trabajando y usan IA en tareas administrativas y de productividad. Herramientas gratuitas, en el celular, en español de Chile y con tuteo.', 'workflow'],
   ['Personajes recurrentes', 'Camila y Andrés acompañan todo el curso, con Rosa y Paula en algunos módulos. Son ficticios.', 'docs-personajes'],
   ['Nada se borra en Drive', 'Lo que se reemplaza pasa a «Versiones anteriores». Los ids quedan anotados en data/drive.json.', 'docs-leeme-drive'],
   ['Lo derivado va al día', 'Quiz, Docs y PDF deben ser posteriores a su fuente. La auditoría avisa cuando algo quedó atrasado.', 'docs-auditoria'],

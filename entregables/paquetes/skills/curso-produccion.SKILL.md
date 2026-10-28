@@ -11,7 +11,7 @@ Proyecto: `Desktop\NATY,PROYECTO01\curso-ia-generativa-laboral\`. Proceso comple
 ## Fuente única y orden
 
 ```
-planilla (Drive) → data/planilla/*.tsv → data/curso.json → investigación → contenido base → quiz · infografías · casos → Docs/PDF → Drive → auditoría
+planilla (Drive) → data/planilla/*.tsv → data/curso.json → investigación → contenido base → quiz · infografías · casos · videos → Docs/PDF → Drive → auditoría
 ```
 
 Si algo está mal en un derivado (quiz, Doc, PDF, infografía), **se corrige en la fuente** y se vuelve a generar. Nunca a mano.
@@ -25,6 +25,7 @@ Si algo está mal en un derivado (quiz, Doc, PDF, infografía), **se corrige en 
 | 5. Docs y PDF | — | `node scripts/compilar-contenidos.mjs` (`--solo-casos`, `--solo-documentos`, `--sin-pdf`) | archivos en `entregables/` |
 | 6. Drive | `curso-drive` | — | `search_files` + `comparar-doc.js` |
 | 7. Auditoría | `curso-auditoria` | `node scripts/correspondencia.mjs`, `node scripts/auditar.mjs` | 0 errores |
+| 8. Videos de bienvenida y resumen | `curso-video-modulo` | scripts Python de la skill (voz y avatar de EVA con el conector de HeyGen) | C9 de la auditoría |
 
 ## Reglas que valen para todo
 

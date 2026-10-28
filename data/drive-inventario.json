@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T15:52:00.000Z",
+  "generado": "2026-10-28T16:10:00.000Z",
   "raiz": "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue",
   "carpetas": {
     "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue": {
@@ -84,10 +84,10 @@
           "bytes": null
         },
         {
-          "id": "1nkIC3DtqKCDmlZCCmZ9RK8fuB7onMQM3Jm6z5FLc4Nc",
+          "id": "1184g7b-l8qF3WBSoRp84IURhtJ1wdUh7QPERcOY6Rfs",
           "titulo": "LEEME · qué hay en esta carpeta",
           "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-28T15:52:00.000Z",
+          "modificado": "2026-10-28T16:10:00.000Z",
           "bytes": null
         }
       ]
@@ -291,11 +291,11 @@
           "bytes": null
         },
         {
-          "id": "14nfr9HJUkx9zlhpO4rsZoAAPIdxDpq-c",
+          "id": "1WZJI6GstluhlIAaf_A0f4JEjicdWQD_V",
           "titulo": "curso-ia-generativa-laboral-proyecto-fuente.zip",
           "mimeType": "application/zip",
-          "modificado": "2026-10-28T15:29:30.000Z",
-          "bytes": 3918408
+          "modificado": "2026-10-28T16:10:00.000Z",
+          "bytes": 3931117
         }
       ]
     },
@@ -325,11 +325,11 @@
           "bytes": null
         },
         {
-          "id": "1gCiiyNKd5flMrZxwO4nwDhEgj--NLRwy",
+          "id": "1PjbAA9xyNUm5lnHuNqSLi-LVV4hbTPBI",
           "titulo": "Auditoría interactiva.html",
           "mimeType": "text/html",
-          "modificado": "2026-10-28T15:29:30.000Z",
-          "bytes": 95678
+          "modificado": "2026-10-28T16:10:00.000Z",
+          "bytes": 95972
         }
       ]
     },
@@ -350,13 +350,6 @@
           "mimeType": "text/markdown",
           "modificado": "2026-10-24T22:58:38.348Z",
           "bytes": 2785
-        },
-        {
-          "id": "1wmaY2TJvOGMtnWeL20jj_e-tUpojXOLU",
-          "titulo": "curso-quiz-infografias.SKILL.md",
-          "mimeType": "text/markdown",
-          "modificado": "2026-10-24T22:58:38.344Z",
-          "bytes": 3059
         },
         {
           "id": "1CdGk364MiqCKM11EOkO6OeDNuO0mS40p",
@@ -408,11 +401,18 @@
           "bytes": 4551
         },
         {
-          "id": "1r15ch7gWLoI2mNp7F3ZqV_msvO1OwFqa",
+          "id": "1onoJmqXa4mDcjcSZbywUgckAvA6GzHZx",
+          "titulo": "curso-quiz-infografias.SKILL.md",
+          "mimeType": "text/markdown",
+          "modificado": "2026-10-28T16:10:00.000Z",
+          "bytes": 4339
+        },
+        {
+          "id": "1K-IyFUp8QUYR21sXUPs4DlfCdAOKM_J0",
           "titulo": "skills-curso-ia-generativa.zip",
           "mimeType": "application/zip",
-          "modificado": "2026-10-28T15:29:30.000Z",
-          "bytes": 2883317
+          "modificado": "2026-10-28T16:10:00.000Z",
+          "bytes": 2883953
         }
       ]
     },
@@ -679,46 +679,88 @@
           "bytes": null
         },
         {
-          "id": "1lTBz6yIycZHqxfw5L8IscCJU2___6cVT",
+          "id": "1StiTffq3G9_2ZFT0CUTcrKzx776qAByZ",
           "titulo": "M1-Infografia-interactiva.html",
           "mimeType": "text/html",
-          "modificado": "2026-10-28T15:52:00.000Z",
-          "bytes": 122934
+          "modificado": "2026-10-28T16:10:00.000Z",
+          "bytes": 125225
         },
         {
-          "id": "1S-F6q99KuGwI0dVyGFOHdB9tXW56oy-i",
+          "id": "1QSX9n61DmfuBZ3lPdmRDWQAQ9CLKYnqw",
           "titulo": "M2-Infografia-interactiva.html",
           "mimeType": "text/html",
-          "modificado": "2026-10-28T15:52:00.000Z",
-          "bytes": 122634
+          "modificado": "2026-10-28T16:10:00.000Z",
+          "bytes": 124925
         },
         {
-          "id": "1j5orKdg0pl3O76r8VUMrPsLaV9uize-2",
+          "id": "1oUwmZQ925FWpDrqkqCByuQ-6rYEOMNgH",
           "titulo": "M3-Infografia-interactiva.html",
           "mimeType": "text/html",
-          "modificado": "2026-10-28T15:52:00.000Z",
-          "bytes": 121783
+          "modificado": "2026-10-28T16:10:00.000Z",
+          "bytes": 124074
         },
         {
-          "id": "14u-SNQvnyF5FobA5V2ewifFLW-7ZCr-m",
+          "id": "16QsCnVRaYbDVLhHqMyoAJ_uIF3e8uBIZ",
           "titulo": "M4-Infografia-interactiva.html",
           "mimeType": "text/html",
-          "modificado": "2026-10-28T15:52:00.000Z",
-          "bytes": 123871
+          "modificado": "2026-10-28T16:10:00.000Z",
+          "bytes": 126162
         },
         {
-          "id": "1KZAUqEYiu1Ez1K0-lMnfAbrFp66DA16C",
+          "id": "1xG9pz_3h29jIXHqrWu0m5XF7z81MXdxj",
           "titulo": "M5-Infografia-interactiva.html",
           "mimeType": "text/html",
-          "modificado": "2026-10-28T15:52:00.000Z",
-          "bytes": 121327
+          "modificado": "2026-10-28T16:10:00.000Z",
+          "bytes": 123618
         },
         {
-          "id": "14ZPbTKv3-z9uouzqSVHrHL2scnQgfeF3",
+          "id": "1RzUIWIXG6_dEaMwk6MZdlKs7-lBwu79T",
           "titulo": "M6-Infografia-interactiva.html",
           "mimeType": "text/html",
-          "modificado": "2026-10-28T15:52:00.000Z",
-          "bytes": 122065
+          "modificado": "2026-10-28T16:10:00.000Z",
+          "bytes": 124356
+        },
+        {
+          "id": "1rRxMq-zYTp6puHTTdF1zZWzbkel3JLl_",
+          "titulo": "M1-Infografia-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-28T16:10:00.000Z",
+          "bytes": 81294
+        },
+        {
+          "id": "1uXuKh2ibSCfLlsCOIsWos5ry4M_RAh49",
+          "titulo": "M2-Infografia-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-28T16:10:00.000Z",
+          "bytes": 81359
+        },
+        {
+          "id": "1FgaaAAMYrkmY5RNq12O7pE2BQhwQcRJH",
+          "titulo": "M3-Infografia-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-28T16:10:00.000Z",
+          "bytes": 81240
+        },
+        {
+          "id": "17OCZtpWjhJ3VyKcgK0ycdGBVYGXQxHIa",
+          "titulo": "M4-Infografia-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-28T16:10:00.000Z",
+          "bytes": 81856
+        },
+        {
+          "id": "1J9XRqGealpSwIr1ViM1XZvK0HOFQ-fnk",
+          "titulo": "M5-Infografia-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-28T16:10:00.000Z",
+          "bytes": 81109
+        },
+        {
+          "id": "1r9GxAKgvNQmstAdZfH112RxgJLih2dWy",
+          "titulo": "M6-Infografia-SCORM.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-28T16:10:00.000Z",
+          "bytes": 81344
         }
       ]
     },
@@ -911,6 +953,13 @@
           "mimeType": "application/vnd.google-apps.document",
           "modificado": "2026-10-28T15:29:30.000Z",
           "bytes": null
+        },
+        {
+          "id": "1nkIC3DtqKCDmlZCCmZ9RK8fuB7onMQM3Jm6z5FLc4Nc",
+          "titulo": "LEEME · qué hay en esta carpeta (28-10, antes del SCORM de infografías)",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-28T15:52:00.000Z",
+          "bytes": null
         }
       ]
     },
@@ -945,6 +994,13 @@
           "mimeType": "application/zip",
           "modificado": "2026-10-28T14:44:02.732Z",
           "bytes": 3908762
+        },
+        {
+          "id": "14nfr9HJUkx9zlhpO4rsZoAAPIdxDpq-c",
+          "titulo": "curso-ia-generativa-laboral-proyecto-fuente.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-28T15:29:30.000Z",
+          "bytes": 3918408
         }
       ]
     },
@@ -1037,13 +1093,6 @@
           "bytes": 89699
         },
         {
-          "id": "1b4kH7oCE0XRAclBdD8rVs6HjDrYYTqUP",
-          "titulo": "06 · Formato de la infografía.pdf",
-          "mimeType": "application/pdf",
-          "modificado": "2026-10-25T03:24:00.864Z",
-          "bytes": 80644
-        },
-        {
           "id": "1IjCIS0AzYo-pXuTVL70N8IKw9McBvGEe",
           "titulo": "Versiones anteriores (25-10)",
           "mimeType": "application/vnd.google-apps.folder",
@@ -1051,11 +1100,18 @@
           "bytes": null
         },
         {
-          "id": "1ONKr9IdLTzZEmdqS30Gk54DqQLucbp1V",
+          "id": "1a4Zfe1dNhFdePOXy1ewvjM5_tchzF0MS",
+          "titulo": "06 · Formato de la infografía.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-28T16:10:00.000Z",
+          "bytes": 83847
+        },
+        {
+          "id": "1ZRJ-GuCBUUStPKPQBNob6itqTlihdia6",
           "titulo": "12 · Auditoría del curso.pdf",
           "mimeType": "application/pdf",
-          "modificado": "2026-10-28T15:29:30.000Z",
-          "bytes": 527258
+          "modificado": "2026-10-28T16:10:00.000Z",
+          "bytes": 532281
         }
       ]
     },
@@ -1147,13 +1203,6 @@
           "bytes": 8539
         },
         {
-          "id": "1hm5c59VtCL4e2NPXYL10D-v0OtMbRNNhs2569tyCMCI",
-          "titulo": "06 · Formato de la infografía",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-24T22:55:24.197Z",
-          "bytes": 3587
-        },
-        {
           "id": "1pdwleA0BfkYrdEIhYO8Fk6DVCVE-ZROsKOWu5YsI0U4",
           "titulo": "05 · Formato del quiz formativo",
           "mimeType": "application/vnd.google-apps.document",
@@ -1165,6 +1214,13 @@
           "titulo": "Versiones anteriores",
           "mimeType": "application/vnd.google-apps.folder",
           "modificado": "2026-10-25T03:10:21.266Z",
+          "bytes": null
+        },
+        {
+          "id": "1c562QZ_zyqOFvue7eSf5i8oEhhNbAWFTwAyKPvAVuJk",
+          "titulo": "06 · Formato de la infografía",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-28T16:10:00.000Z",
           "bytes": null
         }
       ]
@@ -1242,6 +1298,20 @@
           "mimeType": "application/zip",
           "modificado": "2026-10-28T14:44:41.893Z",
           "bytes": 2882905
+        },
+        {
+          "id": "1wmaY2TJvOGMtnWeL20jj_e-tUpojXOLU",
+          "titulo": "curso-quiz-infografias.SKILL.md",
+          "mimeType": "text/markdown",
+          "modificado": "2026-10-24T22:58:38.344Z",
+          "bytes": 3059
+        },
+        {
+          "id": "1r15ch7gWLoI2mNp7F3ZqV_msvO1OwFqa",
+          "titulo": "skills-curso-ia-generativa.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-28T15:29:30.000Z",
+          "bytes": 2883317
         }
       ]
     },
@@ -1332,6 +1402,48 @@
           "mimeType": "image/png",
           "modificado": "2026-10-24T15:15:59.969Z",
           "bytes": 216198
+        },
+        {
+          "id": "1lTBz6yIycZHqxfw5L8IscCJU2___6cVT",
+          "titulo": "M1-Infografia-interactiva.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-28T15:52:00.000Z",
+          "bytes": 122934
+        },
+        {
+          "id": "1S-F6q99KuGwI0dVyGFOHdB9tXW56oy-i",
+          "titulo": "M2-Infografia-interactiva.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-28T15:52:00.000Z",
+          "bytes": 122634
+        },
+        {
+          "id": "1j5orKdg0pl3O76r8VUMrPsLaV9uize-2",
+          "titulo": "M3-Infografia-interactiva.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-28T15:52:00.000Z",
+          "bytes": 121783
+        },
+        {
+          "id": "14u-SNQvnyF5FobA5V2ewifFLW-7ZCr-m",
+          "titulo": "M4-Infografia-interactiva.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-28T15:52:00.000Z",
+          "bytes": 123871
+        },
+        {
+          "id": "1KZAUqEYiu1Ez1K0-lMnfAbrFp66DA16C",
+          "titulo": "M5-Infografia-interactiva.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-28T15:52:00.000Z",
+          "bytes": 121327
+        },
+        {
+          "id": "14ZPbTKv3-z9uouzqSVHrHL2scnQgfeF3",
+          "titulo": "M6-Infografia-interactiva.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-28T15:52:00.000Z",
+          "bytes": 122065
         }
       ]
     },
@@ -2328,6 +2440,34 @@
           "mimeType": "text/html",
           "modificado": "2026-10-28T14:45:20.326Z",
           "bytes": 108822
+        },
+        {
+          "id": "1hm5c59VtCL4e2NPXYL10D-v0OtMbRNNhs2569tyCMCI",
+          "titulo": "06 · Formato de la infografía",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-24T22:55:24.197Z",
+          "bytes": 3587
+        },
+        {
+          "id": "1b4kH7oCE0XRAclBdD8rVs6HjDrYYTqUP",
+          "titulo": "06 · Formato de la infografía.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-25T03:24:00.864Z",
+          "bytes": 80644
+        },
+        {
+          "id": "1ONKr9IdLTzZEmdqS30Gk54DqQLucbp1V",
+          "titulo": "12 · Auditoría del curso.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-28T15:29:30.000Z",
+          "bytes": 527258
+        },
+        {
+          "id": "1gCiiyNKd5flMrZxwO4nwDhEgj--NLRwy",
+          "titulo": "Auditoría interactiva.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-28T15:29:30.000Z",
+          "bytes": 95678
         }
       ]
     },

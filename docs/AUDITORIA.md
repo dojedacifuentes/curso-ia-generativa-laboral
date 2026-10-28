@@ -1,9 +1,9 @@
 # Auditoría del curso «IA generativa para entornos laborales»
 
-Generado con `node scripts/auditar.mjs` el 28-10-26, 1:00 p. m.. Solo lee: no corrige nada.
+Generado con `node scripts/auditar.mjs` el 28-10-26, 1:11 p. m.. Solo lee: no corrige nada.
 Fuente de verdad: planilla «Estructura_inicial_contenido_IA_generativa» (Drive 1v_NCRQGZnajDLesIw8haIMrw4551q6C8Om6AOM8RoHM).
 
-**Resultado:** 84 chequeos · ✓ 77 sin observaciones · ! 4 con avisos · ✗ 1 con errores · … 2 pendientes.
+**Resultado:** 84 chequeos · ✓ 78 sin observaciones · ! 4 con avisos · ✗ 0 con errores · … 2 pendientes.
 
 - **✗ error:** algo no calza con la planilla o con el formato, o falta un archivo que debería existir.
 - **! aviso:** funciona, pero conviene mirarlo (un derivado desactualizado, una pantalla corta, un «Parcial» de fondo).
@@ -228,7 +228,7 @@ Los entregables se subieron a la carpeta «Curso IA generativa para entornos lab
 
 | | Chequeo | Resultado |
 |---|---|---|
-| ✓ | C8.0 Foto de Drive | tomada el 28-10-26, 12:52 p. m. · 36 carpetas · Curso IA generativa para entornos laborales · Recursos: 12 elementos |
+| ✓ | C8.0 Foto de Drive | tomada el 28-10-26, 1:10 p. m. · 36 carpetas · Curso IA generativa para entornos laborales · Recursos: 12 elementos |
 | ✓ | C8.Docs-del-contenido-base Docs del contenido base en Drive | 22 archivos en la carpeta |
 | ✓ | C8.PDF-del-contenido-base PDF del contenido base en Drive | 22 archivos en la carpeta |
 | ✓ | C8.Quiz-SCORM Quiz SCORM en Drive | 22 archivos en la carpeta |
@@ -236,20 +236,8 @@ Los entregables se subieron a la carpeta «Curso IA generativa para entornos lab
 | ✓ | C8.Quiz-GIFT Quiz GIFT en Drive | 22 archivos en la carpeta |
 | ✓ | C8.planilla La planilla de origen está en Drive | copia en Google Sheets · copia .xlsx |
 | ✓ | C8.ids Los ids de data/drive.json existen en Drive | 22 Docs registrados |
-| ✗ | C8.info Infografías en Drive | 6 errores |
+| ✓ | C8.info Infografías en Drive | 24 archivos |
 | ✓ | C8.casos Casos de aplicación en Drive | 25 elementos en «5 Casos de aplicación» |
-
-<details><summary>Detalle</summary>
-
-- **C8.info Infografías en Drive**
-  - ✗ falta M1-Infografia-SCORM.zip
-  - ✗ falta M2-Infografia-SCORM.zip
-  - ✗ falta M3-Infografia-SCORM.zip
-  - ✗ falta M4-Infografia-SCORM.zip
-  - ✗ falta M5-Infografia-SCORM.zip
-  - ✗ falta M6-Infografia-SCORM.zip
-
-</details>
 
 ## C9 · Avance frente a los 101 recursos de la planilla
 

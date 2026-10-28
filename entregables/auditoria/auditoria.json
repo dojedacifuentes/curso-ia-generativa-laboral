@@ -1,10 +1,10 @@
 {
   "resumen": {
-    "generado": "2026-10-28T16:00:40.237Z",
+    "generado": "2026-10-28T16:11:22.688Z",
     "chequeos": 84,
-    "ok": 77,
+    "ok": 78,
     "aviso": 4,
-    "error": 1,
+    "error": 0,
     "pendiente": 2
   },
   "capas": [
@@ -1153,7 +1153,7 @@
           "avisos": [],
           "pendientes": [],
           "evidencia": [
-            "tomada el 28-10-26, 12:52 p. m. · 36 carpetas",
+            "tomada el 28-10-26, 1:10 p. m. · 36 carpetas",
             "Curso IA generativa para entornos laborales · Recursos: 12 elementos",
             "1 Contenidos base · Google Docs: 23 elementos",
             "0 Planilla de origen: 2 elementos",
@@ -1161,22 +1161,22 @@
             "7 Proceso y control de calidad: 4 elementos",
             "8 Skills de Claude: 11 elementos",
             "2 Contenidos base · PDF: 23 elementos",
-            "4 Infografías: 19 elementos",
+            "4 Infografías: 25 elementos",
             "6 Investigación y fuentes: 9 elementos",
             "5 Casos de aplicación: 2 elementos",
             "3 Quiz juego SCORM: 4 elementos",
-            "Versiones anteriores (28-10) · antes del cambio de audiencia: 9 elementos",
-            "Versiones anteriores: 4 elementos",
+            "Versiones anteriores (28-10) · antes del cambio de audiencia: 10 elementos",
+            "Versiones anteriores: 5 elementos",
             "PDF: 15 elementos",
             "Versiones anteriores (25-10): 1 elementos",
             "Docs: 13 elementos",
-            "Versiones anteriores: 10 elementos",
-            "4 Infografías: 12 elementos",
+            "Versiones anteriores: 12 elementos",
+            "4 Infografías: 18 elementos",
             "3 Quiz: 66 elementos",
             "2 PDF: 23 elementos",
             "0 Planilla: 2 elementos",
             "1 Docs: 26 elementos",
-            "7 Proceso: 21 elementos",
+            "7 Proceso: 25 elementos",
             "5 Casos: 23 elementos",
             "Versiones anteriores (24-10): 23 elementos",
             "Fichas de verificación de casos: 11 elementos",
@@ -1281,19 +1281,12 @@
           "id": "C8.info",
           "titulo": "Infografías en Drive",
           "porque": "HTML, PNG, interactiva y SCORM de cada módulo.",
-          "estado": "error",
-          "errores": [
-            "falta M1-Infografia-SCORM.zip",
-            "falta M2-Infografia-SCORM.zip",
-            "falta M3-Infografia-SCORM.zip",
-            "falta M4-Infografia-SCORM.zip",
-            "falta M5-Infografia-SCORM.zip",
-            "falta M6-Infografia-SCORM.zip"
-          ],
+          "estado": "ok",
+          "errores": [],
           "avisos": [],
           "pendientes": [],
           "evidencia": [
-            "18 archivos"
+            "24 archivos"
           ]
         },
         {

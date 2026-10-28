@@ -40,13 +40,23 @@ Cada zip pesa menos de 10 MB, así que se sube con `file_upload`.
   modelos que cambian rápido.
 
 ```bash
-node scripts/infografias.mjs            # todas: HTML + PNG de 1080 px con Edge headless
+node scripts/infografias.mjs            # todas: HTML + PNG de 1080 px (Chrome headless, fuera del sandbox) + interactiva
 node scripts/infografias.mjs M4         # una
 node scripts/infografias.mjs --sin-png  # solo HTML
 ```
 
-Salida: `entregables/infografias/M<n>-Infografia.{html,png}`. Paleta neutra con un acento por módulo, IBM Plex Sans
-(`scripts/fuentes/`, licencia OFL), contraste WCAG AA.
+Salida: `entregables/infografias/M<n>-Infografia.{html,png}` (estática, para imprimir o insertar como imagen) y
+`M<n>-Infografia-interactiva.html` (28-10, pedido del usuario: animada, con botones y microinteracciones). Paleta neutra con
+un acento por módulo, IBM Plex Sans (`scripts/fuentes/`, licencia OFL), contraste WCAG AA.
+
+**Versión interactiva** (plantilla `scripts/lib/infografia-interactiva.mjs`, mismos datos del JSON): un solo HTML sin
+dependencias externas, que funciona sin internet y en el celular. Tarjetas que se abren, anillo de avance, «Recorrido guiado»
+(botones y flechas del teclado), «Abrir todo», «Reiniciar», idea clave que se desbloquea al explorarlo todo, y un efecto por
+tipo: `anatomia` arma el prompt con los ejemplos, `pasos` llena la línea, `matriz` enfoca el cuadrante, `mapa` enciende el
+semáforo y `ciclo` hace girar la rueda. Respeta «reducir movimiento»; sin JavaScript se ve todo abierto. «ver» se muestra como
+«Lo ves en «tema» · pantalla n». **SCORM 1.2** (`M<n>-Infografia-SCORM.zip`, mismo HTML como `index.html`): si hay LMS,
+registra «incompleto» al abrir, puntaje = % explorado (guarda el mejor), «completado» al explorarlo todo y las partes vistas en
+`cmi.suspend_data` para retomar; sin LMS no hace nada. Aún no probado en un LMS real (el usuario lo probará). Para probarla: preview `infografias` de `.claude/launch.json` (carpeta de la sesión).
 
 ## Verificación
 

@@ -54,7 +54,9 @@ dependencias externas, que funciona sin internet y en el celular. Tarjetas que s
 (botones y flechas del teclado), «Abrir todo», «Reiniciar», idea clave que se desbloquea al explorarlo todo, y un efecto por
 tipo: `anatomia` arma el prompt con los ejemplos, `pasos` llena la línea, `matriz` enfoca el cuadrante, `mapa` enciende el
 semáforo y `ciclo` hace girar la rueda. Respeta «reducir movimiento»; sin JavaScript se ve todo abierto. «ver» se muestra como
-«Lo ves en «tema» · pantalla n». Para probarla: preview `infografias` de `.claude/launch.json` (carpeta de la sesión).
+«Lo ves en «tema» · pantalla n». **SCORM 1.2** (`M<n>-Infografia-SCORM.zip`, mismo HTML como `index.html`): si hay LMS,
+registra «incompleto» al abrir, puntaje = % explorado (guarda el mejor), «completado» al explorarlo todo y las partes vistas en
+`cmi.suspend_data` para retomar; sin LMS no hace nada. Aún no probado en un LMS real (el usuario lo probará). Para probarla: preview `infografias` de `.claude/launch.json` (carpeta de la sesión).
 
 ## Verificación
 

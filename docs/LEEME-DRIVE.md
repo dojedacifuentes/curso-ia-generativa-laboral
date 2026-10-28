@@ -41,8 +41,9 @@ Los mismos 22 contenidos en PDF, más «Contenidos-completos.pdf» con todo el c
 
 Una por módulo (R017, R034, R051, R069, R084 y R100 de la planilla), en PNG de 1080 px de ancho y en HTML. Desde el 28-10 cada una tiene además una versión **interactiva**
 (`M<n>-Infografia-interactiva.html`): animada, con tarjetas que se abren, recorrido guiado paso a paso e idea clave que se
-desbloquea al explorarla. Es un solo archivo que funciona sin internet y en el celular; se puede subir a Moodle como archivo o
-página. Usan una paleta neutra:
+desbloquea al explorarla. Es un solo archivo que funciona sin internet y en el celular. También va como paquete **SCORM 1.2**
+(`M<n>-Infografia-SCORM.zip`), que se sube a Moodle en Agregar actividad → Paquete SCORM: queda «completado» cuando la persona
+explora todas las partes, el puntaje es el porcentaje explorado y al volver encuentra marcado lo que ya vio. Falta probarlo en el LMS. Usan una paleta neutra:
 la marca del cliente se aplica después.
 
 ## 5 Casos de aplicación

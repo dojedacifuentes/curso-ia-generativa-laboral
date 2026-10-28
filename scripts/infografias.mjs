@@ -1,5 +1,6 @@
 // Infografía por módulo: infografias/M<n>.json → entregables/infografias/M<n>-Infografia.html y .png (1080 px de ancho),
-// más M<n>-Infografia-interactiva.html (animada, con botones; plantilla en scripts/lib/infografia-interactiva.mjs).
+// más M<n>-Infografia-interactiva.html (animada, con botones; plantilla en scripts/lib/infografia-interactiva.mjs) y su paquete
+// SCORM 1.2 M<n>-Infografia-SCORM.zip (completado al explorar todo).
 // Formato de la fuente en docs/FORMATO-INFOGRAFIA.md. Íconos Lucide (ISC) de scripts/lib/iconos-lucide/.
 //
 //   node scripts/infografias.mjs               todas
@@ -10,6 +11,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { htmlInteractivo } from './lib/infografia-interactiva.mjs';
+import { crearZip } from './lib/zip.mjs';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const curso = JSON.parse(fs.readFileSync(path.join(RAIZ, 'data', 'curso.json'), 'utf8'));
@@ -19,6 +21,26 @@ const TIPOS = ['anatomia', 'pasos', 'matriz', 'mapa', 'ciclo'];
 // Un acento por módulo (contraste AA sobre blanco y con texto blanco encima)
 const ACENTO = { 1: '#0E7490', 2: '#4F46E5', 3: '#B45309', 4: '#BE185D', 5: '#047857', 6: '#6D28D9' };
 const SEMAFORO = { verde: '#15803D', amarillo: '#B45309', rojo: '#B91C1C' };
+// Paquete SCORM 1.2 de la interactiva (mismo manifiesto que el quiz juego); fecha fija para que el zip no cambie si no cambia nada
+const FECHA_ZIP = new Date(2026, 9, 28, 12, 0, 0);
+const xml = t => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const manifiesto = (id, titulo) => `<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="${id}" version="1.0"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata><schema>ADL SCORM</schema><schemaversion>1.2</schemaversion></metadata>
+  <organizations default="ORG-${id}">
+    <organization identifier="ORG-${id}"><title>${xml(titulo)}</title>
+      <item identifier="ITEM-${id}" identifierref="RES-${id}" isvisible="true"><title>${xml(titulo)}</title></item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-${id}" type="webcontent" adlcp:scormtype="sco" href="index.html"><file href="index.html"/></resource>
+  </resources>
+</manifest>
+`;
 // Chrome primero: desde el 28-10 Edge headless deja de abrir archivos locales en este equipo (ERR_FILE_NOT_FOUND)
 const NAV = ['C:/Program Files/Google/Chrome/Application/chrome.exe', 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',
   'C:/Program Files/Microsoft/Edge/Application/msedge.exe'].find(c => fs.existsSync(c));
@@ -125,9 +147,12 @@ for (const id of ids) {
     const m = validar(j, archivo);
     const salida = path.join(SALIDA, `${id}-Infografia.html`);
     fs.writeFileSync(salida, html(j, m));
-    fs.writeFileSync(path.join(SALIDA, `${id}-Infografia-interactiva.html`),
-      htmlInteractivo(j, m, { curso, ac: ACENTO[m.n], semaforo: SEMAFORO, icono, esc, negrita, fuentes: FUENTES }));
-    let info = ' · interactiva';
+    const interactiva = htmlInteractivo(j, m, { curso, ac: ACENTO[m.n], semaforo: SEMAFORO, icono, esc, negrita, fuentes: FUENTES });
+    fs.writeFileSync(path.join(SALIDA, `${id}-Infografia-interactiva.html`), interactiva);
+    const titulo = `Infografía M${m.n} · ${j.titulo}`;
+    fs.writeFileSync(path.join(SALIDA, `${id}-Infografia-SCORM.zip`), crearZip([
+      { nombre: 'imsmanifest.xml', contenido: manifiesto(`${id}-INFOGRAFIA`, titulo) }, { nombre: 'index.html', contenido: interactiva }], { fecha: FECHA_ZIP }));
+    let info = ' · interactiva · SCORM';
     if (conPng) {
       if (!NAV) throw new Error('No encontré Edge ni Chrome para el PNG');
       const dom = execFileSync(NAV, ['--headless=new', '--disable-gpu', '--virtual-time-budget=3000', '--window-size=1080,1920', '--dump-dom', pathToFileURL(salida).href], { encoding: 'utf8', timeout: 120000 });

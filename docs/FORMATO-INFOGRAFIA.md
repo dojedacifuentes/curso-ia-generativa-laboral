@@ -3,7 +3,8 @@
 La planilla pide una infografía por módulo (hoja «Recursos», tipo «Complemento»): R017, R034, R051, R069, R084 y R100. La fuente es
 `infografias/M<n>.json`. `node scripts/infografias.mjs M<n>` la valida y escribe `entregables/infografias/M<n>-Infografia.html` y su
 `.png` (1080 px de ancho; el alto se calcula solo), y `M<n>-Infografia-interactiva.html`: la misma infografía animada, con
-botones y microinteracciones (tarjetas que se abren, recorrido guiado, avance e idea clave que se desbloquea). La paleta es neutra, con un acento por módulo; la tipografía es IBM Plex Sans y
+botones y microinteracciones (tarjetas que se abren, recorrido guiado, avance e idea clave que se desbloquea), con su paquete
+SCORM 1.2 `M<n>-Infografia-SCORM.zip` (completado al explorar todas las partes). La paleta es neutra, con un acento por módulo; la tipografía es IBM Plex Sans y
 los íconos son Lucide.
 
 ## Campos

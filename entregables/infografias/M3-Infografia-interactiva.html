@@ -239,8 +239,50 @@ const quieto = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 document.body.classList.replace('no-js', 'js');
 const vistos = new Set();
+let retomando = false;
 const tarjetas = $$('.tarjeta'), paneles = $$('.panel'), luces = $$('.luz');
 const anillo = $('.anillo .v');
+
+// SCORM 1.2 (solo si hay un LMS; fuera de él no hace nada): incompleto al abrir, puntaje = % explorado (se guarda el mejor),
+// completado al explorar todo, y las partes vistas quedan en suspend_data para retomar.
+const lms = (() => {
+  let api = null, activo = false, mejor = 0, completo = false;
+  const buscar = w => {
+    for (let n = 0; w && n < 12; n++) {
+      try { if (w.API) return w.API; } catch (e) { return null; }
+      if (!w.parent || w.parent === w) break;
+      w = w.parent;
+    }
+    return null;
+  };
+  try { api = buscar(window) || (window.opener ? buscar(window.opener) : null); } catch (e) { api = null; }
+  const llamar = (f, ...a) => { try { return String(api[f](...a)); } catch (e) { return ''; } };
+  return {
+    iniciar() {
+      if (!api || llamar('LMSInitialize', '') !== 'true') return [];
+      activo = true;
+      mejor = Number(llamar('LMSGetValue', 'cmi.core.score.raw')) || 0;
+      const estado = llamar('LMSGetValue', 'cmi.core.lesson_status');
+      completo = estado === 'completed' || estado === 'passed';
+      if (!estado || estado === 'not attempted') llamar('LMSSetValue', 'cmi.core.lesson_status', 'incomplete');
+      llamar('LMSCommit', '');
+      try { return JSON.parse(llamar('LMSGetValue', 'cmi.suspend_data') || '[]').filter(i => i >= 0 && i < TOTAL); } catch (e) { return []; }
+    },
+    guardar(lista) {
+      if (!activo) return;
+      mejor = Math.max(mejor, Math.round((lista.length / TOTAL) * 100));
+      llamar('LMSSetValue', 'cmi.suspend_data', JSON.stringify(lista));
+      llamar('LMSSetValue', 'cmi.core.score.min', '0');
+      llamar('LMSSetValue', 'cmi.core.score.max', '100');
+      llamar('LMSSetValue', 'cmi.core.score.raw', String(mejor));
+      if (lista.length === TOTAL) completo = true;
+      llamar('LMSSetValue', 'cmi.core.lesson_status', completo ? 'completed' : 'incomplete');
+      llamar('LMSCommit', '');
+    },
+    cerrar() { if (!activo) return; activo = false; llamar('LMSFinish', ''); },
+  };
+})();
+addEventListener('pagehide', () => lms.cerrar());
 
 function avance() {
   anillo.style.strokeDashoffset = 100 - (vistos.size / TOTAL) * 100;
@@ -250,9 +292,9 @@ function avance() {
     $('.linea').style.setProperty('--av', (ult + 1) / tarjetas.length);
   }
   $$('.nodo').forEach(n => n.classList.toggle('vista', vistos.has(+n.dataset.ir)));
-  if (vistos.size === TOTAL) abrirClave();
+  if (vistos.size === TOTAL) abrirClave(!retomando);
 }
-function marcar(i) { if (!vistos.has(i)) { vistos.add(i); avance(); } }
+function marcar(i) { if (!vistos.has(i)) { vistos.add(i); avance(); lms.guardar([...vistos]); } }
 
 function abrir(i, solo) {
   const t = tarjetas[i]; if (!t) return;
@@ -371,6 +413,10 @@ if (!quieto && 'IntersectionObserver' in window) {
   const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { const t = e.target; t.classList.add('ya'); io.unobserve(t); setTimeout(() => t.classList.remove('entra', 'ya'), 1400); } }), { threshold: .12 });
   anima.forEach(el => io.observe(el));
 }
+// Retoma lo que ya exploró en el LMS: quedan marcadas, cerradas
+retomando = true;
+for (const i of lms.iniciar()) { vistos.add(i); tarjetas[i]?.classList.add('vista'); }
 avance();
+retomando = false;
 })();
 </script></body></html>

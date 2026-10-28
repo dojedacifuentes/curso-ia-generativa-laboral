@@ -1,6 +1,6 @@
 # Auditoría del curso «IA generativa para entornos laborales»
 
-Generado con `node scripts/auditar.mjs` el 28-10-26, 12:17 p. m.. Solo lee: no corrige nada.
+Generado con `node scripts/auditar.mjs` el 28-10-26, 12:35 p. m.. Solo lee: no corrige nada.
 Fuente de verdad: planilla «Estructura_inicial_contenido_IA_generativa» (Drive 1v_NCRQGZnajDLesIw8haIMrw4551q6C8Om6AOM8RoHM).
 
 **Resultado:** 84 chequeos · ✓ 78 sin observaciones · ! 4 con avisos · ✗ 0 con errores · … 2 pendientes.
@@ -228,7 +228,7 @@ Los entregables se subieron a la carpeta «Curso IA generativa para entornos lab
 
 | | Chequeo | Resultado |
 |---|---|---|
-| ✓ | C8.0 Foto de Drive | tomada el 28-10-26, 12:17 p. m. · 36 carpetas · Curso IA generativa para entornos laborales · Recursos: 12 elementos |
+| ✓ | C8.0 Foto de Drive | tomada el 28-10-26, 12:29 p. m. · 36 carpetas · Curso IA generativa para entornos laborales · Recursos: 12 elementos |
 | ✓ | C8.Docs-del-contenido-base Docs del contenido base en Drive | 22 archivos en la carpeta |
 | ✓ | C8.PDF-del-contenido-base PDF del contenido base en Drive | 22 archivos en la carpeta |
 | ✓ | C8.Quiz-SCORM Quiz SCORM en Drive | 22 archivos en la carpeta |

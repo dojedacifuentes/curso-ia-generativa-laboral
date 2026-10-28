@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T15:17:08.294Z",
+  "generado": "2026-10-28T15:29:30.000Z",
   "raiz": "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue",
   "carpetas": {
     "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue": {
@@ -77,17 +77,17 @@
           "bytes": null
         },
         {
-          "id": "1bBhVa484hffS5Unt4_FEl3nNeF4dQqAAfo5arKODadw",
-          "titulo": "LEEME · qué hay en esta carpeta",
-          "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-25T05:09:44.765Z",
-          "bytes": 5337
-        },
-        {
           "id": "1IINL3tT7BFP58s4qFIZFxE7SyVDHnW4t",
           "titulo": "Versiones anteriores (28-10) · antes del cambio de audiencia",
           "mimeType": "application/vnd.google-apps.folder",
           "modificado": "2026-10-28T14:27:04.600Z",
+          "bytes": null
+        },
+        {
+          "id": "1hZShjSWsXIyMDnBsT6319hAGX2elloXiTxAdu4vfymQ",
+          "titulo": "LEEME · qué hay en esta carpeta",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-28T15:29:30.000Z",
           "bytes": null
         }
       ]
@@ -284,18 +284,18 @@
       "padre": "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue",
       "archivos": [
         {
-          "id": "1YLUacaAUinFB4nIpiEIMqCzYQTTENisH",
-          "titulo": "curso-ia-generativa-laboral-proyecto-fuente.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-28T14:44:02.732Z",
-          "bytes": 3908762
-        },
-        {
           "id": "1LYqvBN9Ol4wJW1Quro79IiOKuGwFSD4C",
           "titulo": "Versiones anteriores",
           "mimeType": "application/vnd.google-apps.folder",
           "modificado": "2026-10-25T03:10:20.431Z",
           "bytes": null
+        },
+        {
+          "id": "14nfr9HJUkx9zlhpO4rsZoAAPIdxDpq-c",
+          "titulo": "curso-ia-generativa-laboral-proyecto-fuente.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-28T15:29:30.000Z",
+          "bytes": 3918408
         }
       ]
     },
@@ -311,13 +311,6 @@
           "bytes": null
         },
         {
-          "id": "1ymtPTqleoeYEZPtKyfvNTjcEHcqna5Gn",
-          "titulo": "Auditoría interactiva.html",
-          "mimeType": "text/html",
-          "modificado": "2026-10-28T14:45:20.326Z",
-          "bytes": 108822
-        },
-        {
           "id": "1LyYLJrYdmn1N-vsPs77illnl89tWLeTZ",
           "titulo": "Versiones anteriores (25-10)",
           "mimeType": "application/vnd.google-apps.folder",
@@ -330,6 +323,13 @@
           "mimeType": "application/vnd.google-apps.folder",
           "modificado": "2026-10-24T22:54:01.191Z",
           "bytes": null
+        },
+        {
+          "id": "1gCiiyNKd5flMrZxwO4nwDhEgj--NLRwy",
+          "titulo": "Auditoría interactiva.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-28T15:29:30.000Z",
+          "bytes": 95678
         }
       ]
     },
@@ -345,13 +345,6 @@
           "bytes": 19574
         },
         {
-          "id": "1zY2tS6T4auBNWxC3AEZeW_i4MnfoPHOT",
-          "titulo": "curso-drive.SKILL.md",
-          "mimeType": "text/markdown",
-          "modificado": "2026-10-25T05:12:09.533Z",
-          "bytes": 6603
-        },
-        {
           "id": "15B1TOZZw-cdjcikueOIt1jOdoM_HHSFn",
           "titulo": "curso-auditoria.SKILL.md",
           "mimeType": "text/markdown",
@@ -359,32 +352,11 @@
           "bytes": 2785
         },
         {
-          "id": "1MYbaz3pGMRJiOBEnSIYJmYyNa0yjketE",
-          "titulo": "curso-casos-reales.SKILL.md",
-          "mimeType": "text/markdown",
-          "modificado": "2026-10-24T22:58:38.346Z",
-          "bytes": 4049
-        },
-        {
           "id": "1wmaY2TJvOGMtnWeL20jj_e-tUpojXOLU",
           "titulo": "curso-quiz-infografias.SKILL.md",
           "mimeType": "text/markdown",
           "modificado": "2026-10-24T22:58:38.344Z",
           "bytes": 3059
-        },
-        {
-          "id": "1itoSEg8nTDridkuh5yxjvs4h8yB1H8I0",
-          "titulo": "skills-curso-ia-generativa.zip",
-          "mimeType": "application/zip",
-          "modificado": "2026-10-28T14:44:41.893Z",
-          "bytes": 2882905
-        },
-        {
-          "id": "1qOvypXoN0w8SOFQ-ATizjjEDGrzJCCmT",
-          "titulo": "curso-produccion.SKILL.md",
-          "mimeType": "text/markdown",
-          "modificado": "2026-10-24T22:58:38.343Z",
-          "bytes": 4256
         },
         {
           "id": "1CdGk364MiqCKM11EOkO6OeDNuO0mS40p",
@@ -401,18 +373,46 @@
           "bytes": 1387
         },
         {
-          "id": "1WF8JjCBM-Ks4vdUbVXUxmfHyPmm8vsvD",
-          "titulo": "curso-contenido-base.SKILL.md",
-          "mimeType": "text/markdown",
-          "modificado": "2026-10-24T22:58:38.344Z",
-          "bytes": 3559
-        },
-        {
           "id": "1zOQoMHuNqu7SHhK9zGA5aXd8R3KBniat",
           "titulo": "Versiones anteriores",
           "mimeType": "application/vnd.google-apps.folder",
           "modificado": "2026-10-25T03:10:19.619Z",
           "bytes": null
+        },
+        {
+          "id": "1-rcRKq0KBEdftlMz26-qUSdNBsyA8WHJ",
+          "titulo": "curso-casos-reales.SKILL.md",
+          "mimeType": "text/markdown",
+          "modificado": "2026-10-28T15:29:30.000Z",
+          "bytes": 4155
+        },
+        {
+          "id": "17Q46EgYrFemozBQDA0xzg0yXgtLaW_8u",
+          "titulo": "curso-contenido-base.SKILL.md",
+          "mimeType": "text/markdown",
+          "modificado": "2026-10-28T15:29:30.000Z",
+          "bytes": 3613
+        },
+        {
+          "id": "18KWZMpA4m5ydoH-2L-fR5Yg35chPE_f8",
+          "titulo": "curso-drive.SKILL.md",
+          "mimeType": "text/markdown",
+          "modificado": "2026-10-28T15:29:30.000Z",
+          "bytes": 7189
+        },
+        {
+          "id": "10uvF_a6T5Z_5xgP4mea-Dv2LagDjZa8S",
+          "titulo": "curso-produccion.SKILL.md",
+          "mimeType": "text/markdown",
+          "modificado": "2026-10-28T15:29:30.000Z",
+          "bytes": 4551
+        },
+        {
+          "id": "1r15ch7gWLoI2mNp7F3ZqV_msvO1OwFqa",
+          "titulo": "skills-curso-ia-generativa.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-28T15:29:30.000Z",
+          "bytes": 2883317
         }
       ]
     },
@@ -855,6 +855,13 @@
           "mimeType": "application/vnd.google-apps.folder",
           "modificado": "2026-10-28T14:27:21.616Z",
           "bytes": null
+        },
+        {
+          "id": "1bBhVa484hffS5Unt4_FEl3nNeF4dQqAAfo5arKODadw",
+          "titulo": "LEEME · qué hay en esta carpeta",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-25T05:09:44.765Z",
+          "bytes": 5337
         }
       ]
     },
@@ -882,6 +889,13 @@
           "mimeType": "application/zip",
           "modificado": "2026-10-25T03:09:21.253Z",
           "bytes": 878124
+        },
+        {
+          "id": "1YLUacaAUinFB4nIpiEIMqCzYQTTENisH",
+          "titulo": "curso-ia-generativa-laboral-proyecto-fuente.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-28T14:44:02.732Z",
+          "bytes": 3908762
         }
       ]
     },
@@ -930,13 +944,6 @@
           "mimeType": "application/pdf",
           "modificado": "2026-10-28T14:46:06.266Z",
           "bytes": 135095
-        },
-        {
-          "id": "1lJgCYojJXiv7eQL7MyVAs03o5Ap1Ynit",
-          "titulo": "12 · Auditoría del curso.pdf",
-          "mimeType": "application/pdf",
-          "modificado": "2026-10-28T14:46:06.262Z",
-          "bytes": 549626
         },
         {
           "id": "1PAl9azvTJfCTCLxsOto0bEsYcZviiLVJ",
@@ -993,6 +1000,13 @@
           "mimeType": "application/vnd.google-apps.folder",
           "modificado": "2026-10-25T05:08:46.046Z",
           "bytes": null
+        },
+        {
+          "id": "1ONKr9IdLTzZEmdqS30Gk54DqQLucbp1V",
+          "titulo": "12 · Auditoría del curso.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-28T15:29:30.000Z",
+          "bytes": 527258
         }
       ]
     },
@@ -1144,6 +1158,41 @@
           "mimeType": "application/zip",
           "modificado": "2026-10-24T22:58:38.340Z",
           "bytes": 15083
+        },
+        {
+          "id": "1zY2tS6T4auBNWxC3AEZeW_i4MnfoPHOT",
+          "titulo": "curso-drive.SKILL.md",
+          "mimeType": "text/markdown",
+          "modificado": "2026-10-25T05:12:09.533Z",
+          "bytes": 6603
+        },
+        {
+          "id": "1MYbaz3pGMRJiOBEnSIYJmYyNa0yjketE",
+          "titulo": "curso-casos-reales.SKILL.md",
+          "mimeType": "text/markdown",
+          "modificado": "2026-10-24T22:58:38.346Z",
+          "bytes": 4049
+        },
+        {
+          "id": "1qOvypXoN0w8SOFQ-ATizjjEDGrzJCCmT",
+          "titulo": "curso-produccion.SKILL.md",
+          "mimeType": "text/markdown",
+          "modificado": "2026-10-24T22:58:38.343Z",
+          "bytes": 4256
+        },
+        {
+          "id": "1WF8JjCBM-Ks4vdUbVXUxmfHyPmm8vsvD",
+          "titulo": "curso-contenido-base.SKILL.md",
+          "mimeType": "text/markdown",
+          "modificado": "2026-10-24T22:58:38.344Z",
+          "bytes": 3559
+        },
+        {
+          "id": "1itoSEg8nTDridkuh5yxjvs4h8yB1H8I0",
+          "titulo": "skills-curso-ia-generativa.zip",
+          "mimeType": "application/zip",
+          "modificado": "2026-10-28T14:44:41.893Z",
+          "bytes": 2882905
         }
       ]
     },
@@ -2216,6 +2265,20 @@
           "mimeType": "application/vnd.google-apps.document",
           "modificado": "2026-10-24T22:55:03.912Z",
           "bytes": 5276
+        },
+        {
+          "id": "1lJgCYojJXiv7eQL7MyVAs03o5Ap1Ynit",
+          "titulo": "12 · Auditoría del curso.pdf",
+          "mimeType": "application/pdf",
+          "modificado": "2026-10-28T14:46:06.262Z",
+          "bytes": 549626
+        },
+        {
+          "id": "1ymtPTqleoeYEZPtKyfvNTjcEHcqna5Gn",
+          "titulo": "Auditoría interactiva.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-28T14:45:20.326Z",
+          "bytes": 108822
         }
       ]
     },

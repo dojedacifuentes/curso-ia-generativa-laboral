@@ -45,12 +45,10 @@ fichas: que cada hecho tenga fuente y que no se afirme nada de «Lo que NO se pu
 
 ## 3. Conectar el caso con los AE
 
-En el AE que trabaja el caso, agrega un recuadro `:::ejemplo Caso real: <título breve> (<Empresa>, <año>)`:
-- de 4 a 6 frases, solo con hechos de la ficha;
-- cita en `fuentes:` de esa pantalla los ids de la ficha (`F-M5C1-05`…);
-- agrega esos ids a la sección «Fuentes» del AE.
-
-Fuera del recuadro no se nombra la empresa. Si el título del caso cambió, actualiza también la «Conexión con el proyecto».
+Desde el 28-10 (`docs/CRITERIOS-28-10.md`) el caso es un recurso aparte: **no se nombra en el contenido base, los quiz, las
+infografías ni los videos** (ni la empresa, ni el hecho, ni el id), para que cambiar un caso no obligue a cambiar todo. Cambiar o
+reemplazar un caso solo toca `casos/` e `investigacion/casos/`. El caso puede referirse a los AE en general («lo que viste sobre
+validación en el módulo 1»), sin citar pantallas. Audiencia: solo personas que trabajan; máximo 2 fuentes por caso cuando se pueda.
 
 ## Control y salida
 

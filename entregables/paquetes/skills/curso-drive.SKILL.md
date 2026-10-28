@@ -42,6 +42,11 @@ Mueve el archivo viejo **antes** de subir el nuevo, para que no queden dos con e
    - ejecuta `await ccComparar('<id>')`. Tiene que dar `D: 0`. Si no, rehaz ese Doc.
    No sirve `export?format=txt`: redirige a otro dominio y el navegador lo bloquea. `mobilebasic` sí funciona.
 4. No hay herramienta para editar el contenido de un Doc: para cambiarlo, crea uno nuevo y mueve el viejo.
+5. **Signos `$`** (28-10): al convertir HTML en Doc, Drive toma el texto entre dos `$` como ecuación y lo deja como imagen
+   (pasa con `&#36;`, `<span>`, `<code>`, espacios invisibles y tablas). En los HTML con referencias de Excel como `$C$2`
+   (M2-AE4), usa el signo de ancho completo `＄` (U+FF04) antes de `create_file`; el PDF conserva el `$` normal. Claude in
+   Chrome no tiene acceso al editor de Docs, así que el cambio de vuelta a `$` («Buscar y reemplazar») lo tiene que hacer una
+   persona. `comparar-doc.js` lo detecta: el Doc queda con menos palabras que el HTML.
 
 ## PDF, zip, PNG, HTML y Markdown (archivos tal cual)
 

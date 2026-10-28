@@ -26,9 +26,9 @@ Flujo y reglas de investigación: `WORKFLOW.md`.
   distractores del quiz.
 - Cierra con las secciones `## Ideas clave`, `## Glosario` (al menos 5 términos), `## Conexión con el proyecto` y `## Fuentes`.
 - Cada pantalla tiene entre 120 y 420 palabras. Si la redacción la hacen subagentes en paralelo, usa el brief: un AE por agente.
-- **Empresas reales:** solo dentro de un recuadro `:::ejemplo Caso real: … (Empresa, año)`, con hechos de la ficha del caso y
-  citando sus fuentes (`F-M1C2-01`…). Fuera del recuadro se habla de «el caso de P06» o «las dos empresas», sin nombrarlas.
-  La auditoría avisa si una empresa aparece fuera.
+- **Criterios del 28-10 (`docs/CRITERIOS-28-10.md`):** solo personas que trabajan (Camila es asistente administrativa en
+  una constructora); los casos de empresas reales no se nombran; máximo 2 fuentes, 1 recuadro, 1 lista y 2 negritas por
+  pantalla, en prosa. Control: `node scripts/revisar-criterios.mjs M<n>` (y la auditoría marca error si aparece un caso).
 
 ## 3. Control
 

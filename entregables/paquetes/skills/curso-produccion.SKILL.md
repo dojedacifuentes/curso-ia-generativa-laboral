@@ -34,7 +34,8 @@ Si algo está mal en un derivado (quiz, Doc, PDF, infografía), **se corrige en 
   no se pudo verificar, va a «Alertas» o a «Lo que NO se puede afirmar», nunca al contenido.
 - **Casos reales solo con fuente primaria** (sentencia, resolución, documento de la empresa, registro oficial). Si un caso no la
   tiene, se descarta y se reemplaza por otro que trabaje el mismo AE.
-- **Audiencia:** personas cesantes o en búsqueda de empleo, y trabajadores. Herramientas gratuitas, que funcionen en el celular.
+- **Audiencia (28-10):** solo personas que están trabajando, en tareas administrativas y de productividad. Herramientas gratuitas,
+  que funcionen en el celular. Criterios en `docs/CRITERIOS-28-10.md` (casos aparte, máx. 2 fuentes por pantalla, prosa).
 - **Tono:** español de Chile, tuteo y frases cortas. Personajes ficticios: Camila, Andrés, Rosa y Paula (`docs/PERSONAJES.md`).
 - **Lo legal** es orientación general, no asesoría. La Ley 21.719 y el boletín 18623-07 se revisan antes de publicar.
 - **Aquí sí hay horas** (RE 2.484). Las reglas de la licitación TD 2026 sobre «sin horas ni modalidad» no se aplican.

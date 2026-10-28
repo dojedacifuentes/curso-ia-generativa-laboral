@@ -10,7 +10,7 @@ a generar. El proceso completo está en «7 Proceso y control de calidad › Pro
 
 La planilla «Estructura_inicial_contenido_IA_generativa», de la que sale todo el curso: módulos, competencias, aprendizajes
 esperados, saberes y criterios, los 101 recursos con sus horas, los casos y el proyecto, la evaluación, el cumplimiento de la
-RE 2.484 y los pendientes. Hay dos copias del 25-10-2026, iguales a la original:
+RE 2.484 y los pendientes. Hay dos copias del 28-10-2026, iguales a la original:
 - **la hoja de cálculo de Google**, para leerla o filtrarla;
 - **el archivo .xlsx**, para descargarla.
 
@@ -22,7 +22,7 @@ Un Doc por aprendizaje esperado (22). Cada pantalla indica qué contenido de la 
 respaldan (detalle en la carpeta 6) y el bloque de Rise sugerido. Es la base para que Natalia arme los Rise. Desde el 28-10 el
 curso es solo para personas que trabajan y los contenidos no nombran los casos (van solo en la carpeta 5); criterios en el documento
 «14 · Criterios de corrección del 28-10» de la carpeta 7. En M2-AE4 las fórmulas de Excel llevan el signo ＄ (ancho completo)
-porque Google Docs convierte el texto entre dos $ en ecuaciones; el PDF trae el $ normal. Las versiones reemplazadas están en
+porque Google Docs convierte en ecuación el texto que queda entre dos signos de peso; el PDF trae el signo normal. Las versiones reemplazadas están en
 «Versiones anteriores (24-10)» y en «Versiones anteriores (28-10) · antes del cambio de audiencia», en la raíz.
 
 ## 2 Contenidos base · PDF
@@ -48,7 +48,7 @@ Los 11 casos con empresas reales de la hoja «Casos y proyecto», en Docs y PDF.
 resoluciones, documentos de la empresa y registros oficiales. Cada caso es una actividad de 1,5 h con estas partes:
 - contexto;
 - qué pasó;
-- análisis guiado: 6 preguntas que remiten a pantallas del contenido;
+- análisis guiado: 6 preguntas que se apoyan en los temas del módulo;
 - aplicación al proyecto;
 - autocorrección;
 - pregunta para el foro.
@@ -78,13 +78,14 @@ interactiva (`AUDITORIA.html`).
 
 ## 8 Skills de Claude
 
-Los 6 manuales que usa Claude para mantener el curso:
+Los 7 manuales que usa Claude para mantener el curso:
 - **curso-produccion:** el mapa general;
 - **curso-contenido-base:** investigación y redacción de cada AE;
 - **curso-quiz-infografias:** quiz e infografías;
 - **curso-casos-reales:** verificación de los casos con empresas reales;
 - **curso-drive:** subida y orden en esta carpeta;
-- **curso-auditoria:** revisión contra la planilla.
+- **curso-auditoria:** revisión contra la planilla;
+- **curso-video-modulo:** videos de bienvenida y resumen de cada módulo.
 
 Están en un zip y también como archivos sueltos. Para usarlas, se copian a `.claude/skills/` del proyecto.
 

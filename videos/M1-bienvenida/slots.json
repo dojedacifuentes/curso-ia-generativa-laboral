@@ -1,5 +1,17 @@
 [
  {
+  "name": "celular",
+  "x": 120,
+  "y": 170,
+  "w": 640,
+  "h": 360,
+  "radius": 24,
+  "in": 12.95,
+  "out": null,
+  "sceneIn": 0,
+  "sceneOut": 17.99
+ },
+ {
   "name": "avatar_intro",
   "x": 1196,
   "y": 136,
@@ -19,7 +31,7 @@
   "h": 461,
   "radius": 24,
   "in": 74.16,
-  "out": null,
+  "out": 79.9,
   "sceneIn": 72.77,
   "sceneOut": 84.78
  },
@@ -31,6 +43,18 @@
   "h": 461,
   "radius": 24,
   "in": 77.68,
+  "out": 79.9,
+  "sceneIn": 72.77,
+  "sceneOut": 84.78
+ },
+ {
+  "name": "gemini",
+  "x": 440,
+  "y": 196,
+  "w": 1040,
+  "h": 585,
+  "radius": 24,
+  "in": 79.95,
   "out": null,
   "sceneIn": 72.77,
   "sceneOut": 84.78
@@ -45,31 +69,43 @@
   "in": 86.4,
   "out": 90.6,
   "sceneIn": 84.78,
-  "sceneOut": 98.18
+  "sceneOut": 93.97
  },
  {
-  "name": "aviso",
+  "name": "eva_proyecto",
+  "x": 1240,
+  "y": 170,
+  "w": 480,
+  "h": 600,
+  "radius": 32,
+  "in": 105.17,
+  "out": 108.1,
+  "sceneIn": 104.87,
+  "sceneOut": 115.5
+ },
+ {
+  "name": "andres2",
   "x": 1000,
   "y": 200,
   "w": 800,
   "h": 450,
   "radius": 24,
-  "in": 126.47,
-  "out": 134.58,
-  "sceneIn": 118.18,
-  "sceneOut": 141.31
+  "in": 108.2,
+  "out": 110.4,
+  "sceneIn": 104.87,
+  "sceneOut": 115.5
  },
  {
-  "name": "plantillas",
+  "name": "camila2",
   "x": 1000,
   "y": 200,
   "w": 800,
   "h": 450,
   "radius": 24,
-  "in": 134.58,
-  "out": 136.95,
-  "sceneIn": 118.18,
-  "sceneOut": 141.31
+  "in": 110.4,
+  "out": 112.3,
+  "sceneIn": 104.87,
+  "sceneOut": 115.5
  },
  {
   "name": "avatar_cierre",
@@ -78,9 +114,9 @@
   "w": 604,
   "h": 764,
   "radius": 32,
-  "in": 141.52,
+  "in": 115.52,
   "out": null,
-  "sceneIn": 141.31,
+  "sceneIn": 115.5,
   "sceneOut": 995.86
  }
 ]

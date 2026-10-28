@@ -27,14 +27,14 @@
    - **d) «Actúa como asistente administrativa. Resume los acuerdos para dos compañeras que no asistieron, en cinco viñetas. Usa solo el acta»**
    *Retroalimentación:* La opción d tiene rol, contexto, tarea, formato y una restricción. La a mezcla tres tareas, la b dice solo lo que no quiere y la c no da contexto ni formato.
 
-4. *(S2 · P06)* Camila envía un solo mensaje: «Resume este aviso, adapta mi carta a sus requisitos y escribe un correo de seguimiento». Recibe las tres cosas a medias. ¿Qué error cometió?
+4. *(S2 · P06)* Camila envía un solo mensaje: «Resume este instructivo, responde el correo del proveedor y escribe un recordatorio para mi jefatura». Recibe las tres cosas a medias. ¿Qué error cometió?
    - **a) Mezcló varias tareas: conviene pedir una a la vez y usar cada respuesta como base**
    - b) Le faltó un ejemplo de cómo quería cada una de las tres respuestas
-   - c) Dio demasiado contexto sobre el aviso y el asistente se confundió
+   - c) Dio demasiado contexto sobre el instructivo y el asistente se confundió
    - d) No indicó un rol, que es el componente que más cambia la respuesta
-   *Retroalimentación:* Juntar varias tareas en un prompt parece más rápido, pero suele dar un resultado a medias. Lo recomendado es dividir: primero el resumen, después la carta, después el correo.
+   *Retroalimentación:* Juntar varias tareas en un prompt parece más rápido, pero suele dar un resultado a medias. Lo recomendado es dividir: primero el resumen, después el correo, después el recordatorio.
 
-5. *(S1 · H1 · P05)* Para que el asistente ordene avisos de empleo en una tabla, Camila pega antes doce filas de ejemplo ya llenas con otros avisos. ¿Qué riesgo corre?
+5. *(S1 · H1 · P05)* Para que el asistente ordene facturas en una tabla, Camila pega antes doce filas de ejemplo ya llenas con otras facturas. ¿Qué riesgo corre?
    - a) Ninguno: mientras más ejemplos le da, mejor sigue el formato
    - **b) Que el asistente copie de más esos ejemplos en vez de trabajar con sus datos**
    - c) Que el asistente no acepte tablas dentro de un prompt

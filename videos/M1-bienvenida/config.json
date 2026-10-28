@@ -1,16 +1,16 @@
 {
-  "_nota": "Bienvenida M1 (25-10, versión con las 6 mejoras): voz y avatar de EVA (fondo claro) + EVA en el Hito, 7 clips (5 Flow, 1 HeyGen Video 1, 1 captura real de Gemini), cámara, Ken Burns, música y efectos con ducking, karaoke y mapa del curso.",
-  "duracion": 157.07,
+  "_nota": "Bienvenida M1 v5 (25-10): bloques 3-5 en genérico (sin casos ni evaluaciones). Voz de EVA: bloques 1-2 de la v4 + bloques 3-5 nuevos, unidos en 85,17 s. Avatar: intro de la v4 + cierre nuevo (heygen/eva_v5). EVA en el momento del proyecto. 6 clips: celular, Camila, Andrés, Gemini, práctica en el celular, y Andrés/Camila otra vez en el proyecto.",
+  "duracion": 133.13,
   "voz": "audio/voz.mp3",
   "salida": "M1_bienvenida.mp4",
   "avatar": {
     "video": "heygen/avatar_fondo_claro.mp4",
-    "clip_dur": 34.967,
+    "clip_dur": 36.8,
     "offset": 0.023,
     "crop": "auto",
     "intro_out": 17.99,
-    "cierre_in": 141.31,
-    "cierre_master_t": 141.3,
+    "cierre_in": 115.5,
+    "cierre_master_t": 115.5,
     "cierre_clip_t": 19.2
   },
   "clips": [
@@ -32,14 +32,6 @@
       "fade_out": 79.9
     },
     {
-      "slot": "aviso",
-      "video": "media/aviso.mp4",
-      "visible_desde": 126.47,
-      "visible_hasta": 134.98,
-      "fade_out": 134.58,
-      "fade_out_d": 0.4
-    },
-    {
       "slot": "quiz",
       "video": "media/quiz.mp4",
       "src_start": 3.4,
@@ -48,17 +40,6 @@
       "visible_desde": 86.4,
       "visible_hasta": 91.0,
       "fade_out": 90.6,
-      "fade_out_d": 0.4
-    },
-    {
-      "slot": "plantillas",
-      "video": "media/plantillas.mp4",
-      "src_start": 4.0,
-      "src_dur": 3.0,
-      "estirar": false,
-      "visible_desde": 134.58,
-      "visible_hasta": 137.35,
-      "fade_out": 136.95,
       "fade_out_d": 0.4
     },
     {
@@ -83,15 +64,37 @@
       "fade_out": 84.78
     },
     {
-      "slot": "eva_hito",
-      "video": "heygen/eva_hito_fondo_claro.mp4",
+      "slot": "eva_proyecto",
+      "video": "heygen/eva_proyecto_fondo_claro.mp4",
       "src_start": 0.023,
-      "src_dur": 3.35,
+      "src_dur": 3.3,
       "estirar": false,
       "zoom": 1.0,
-      "visible_desde": 118.45,
-      "visible_hasta": 122.0,
-      "fade_out": 121.7
+      "visible_desde": 105.2,
+      "visible_hasta": 108.5,
+      "fade_out": 108.1
+    },
+    {
+      "slot": "andres2",
+      "video": "media/andres.mp4",
+      "src_start": 3.5,
+      "src_dur": 2.65,
+      "estirar": false,
+      "visible_desde": 108.2,
+      "visible_hasta": 110.8,
+      "fade_out": 110.4,
+      "fade_out_d": 0.4
+    },
+    {
+      "slot": "camila2",
+      "video": "media/camila.mp4",
+      "src_start": 3.0,
+      "src_dur": 2.35,
+      "estirar": false,
+      "visible_desde": 110.4,
+      "visible_hasta": 112.7,
+      "fade_out": 112.3,
+      "fade_out_d": 0.4
     }
   ],
   "zoom_clips": 1.08,

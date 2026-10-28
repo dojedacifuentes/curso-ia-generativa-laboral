@@ -1,20 +1,20 @@
 // M5-AE1 · Potencial de automatización · quiz formativo (generado por scripts/quiz-juego.mjs)
 $CATEGORY: IA-generativa-laboral/Formativos/M5-AE1
 
-::M5-AE1-P1 (S1 A2)::Camila lee que el trabajo administrativo es el grupo más expuesto a la IA generativa y duda de seguir postulando a esos cargos. ¿Qué conclusión es la más defendible? {
-~Tiene razón\: un cargo muy expuesto es un cargo que se va a perder
-=Algunas tareas pueden hacerse con IA; lo más probable es que el cargo se transforme
+::M5-AE1-P1 (S1 A2)::Camila lee que el trabajo administrativo es el grupo más expuesto a la IA generativa y se pregunta si su cargo de asistente va a desaparecer. ¿Qué conclusión es la más defendible? {
+~Sí\: un cargo muy expuesto es un cargo que se va a perder
+=Algunas tareas pueden hacerse con IA; lo más probable es que su trabajo cambie
 ~La exposición alta solo afecta a cargos con destrezas manuales y fuerza
 ~Las cifras de la OIT y la OCDE se suman y muestran que el cargo desaparecerá
 ####Exposición no es pérdida del empleo\: significa que algunas tareas pueden hacerse con IA y, según la OIT, lo más probable es que el trabajo cambie. Además, cada estudio usa su método y sus cifras no se comparan. Pantalla P03 del Rise M5-T1\: «Qué dicen los estudios sobre la exposición».
 }
 
-::M5-AE1-P2 (S1 C1)::Rosa, encargada de un minimarket, afirma\: «Reponer los productos en las góndolas cada mañana es buena candidata para automatizar, porque se hace igual todos los días». ¿Verdadero o falso? {
+::M5-AE1-P2 (S1 C1)::Jorge, compañero de bodega de Andrés, afirma\: «Reponer las cajas en los estantes cada mañana es buena candidata para automatizar con IA, porque se hace igual todos los días». ¿Verdadero o falso? {
 ~Verdadero, porque se repite a diario y sigue siempre los mismos pasos
 ~Verdadero, porque toda tarea repetitiva es buena candidata
 ~Falso, porque las tareas diarias son demasiado frecuentes para automatizarlas
 =Falso, porque trabaja con objetos y con el cuerpo, no con información
-####Repetirse no basta\: una buena candidata también trabaja con información, como correos, planillas o fechas. Reponer góndolas es trabajo con objetos y con las manos. Pantalla P05 del Rise M5-T1\: «Señales de una buena candidata».
+####Repetirse no basta\: una buena candidata también trabaja con información, como correos, planillas o fechas. Reponer cajas es trabajo con objetos y con las manos. Pantalla P05 del Rise M5-T1\: «Señales de una buena candidata».
 }
 
 ::M5-AE1-P3 (S1 H1 C1)::En el mapa de Andrés aparece «responder a vendedores que preguntan por stock»\: las preguntas se repiten, pero a veces piden excepciones que exigen su criterio. ¿Cómo la clasifica mejor? {
@@ -22,10 +22,10 @@ $CATEGORY: IA-generativa-laboral/Formativos/M5-AE1
 ~Candidata completa, porque se repite a diario
 =Candidata en parte\: se automatiza lo fijo y él revisa lo que exige criterio
 ~No candidata, porque trata con personas y eso nunca se automatiza
-####«Sigue reglas» no siempre es sí o no. Si la tarea tiene una parte fija y otra que exige criterio, se puede automatizar en parte, con revisión, como las consultas frecuentes de Camila. Pantalla P07 del Rise M5-T1\: «Ejemplo guiado\: el mapa de Camila».
+####«Sigue reglas» no siempre es sí o no. Si la tarea tiene una parte fija y otra que exige criterio, se puede automatizar en parte, con revisión, como las consultas de proveedores de Camila. Pantalla P07 del Rise M5-T1\: «Ejemplo guiado\: el mapa de Camila».
 }
 
-::M5-AE1-P4 (S2 A2)::Rosa quiere automatizar la planilla de ventas que arma cada tarde para su jefatura. No sabe si alguien la lee completa. ¿Qué le conviene hacer primero? {
+::M5-AE1-P4 (S2 A2)::Rosa, recepcionista de un centro médico, arma cada tarde una planilla con las horas que quedaron sin usar, para su coordinadora. No sabe si alguien la lee completa. ¿Qué le conviene hacer primero? {
 =Preguntar qué parte se usa, eliminar lo que sobra y simplificar el resto
 ~Automatizarla ya, porque se repite todos los días
 ~Ubicarla en la matriz sin cambiarla, para ver en qué cuadrante queda
@@ -33,15 +33,15 @@ $CATEGORY: IA-generativa-laboral/Formativos/M5-AE1
 ####Primero se elimina y se simplifica; solo lo que queda pasa a un flujo. Automatizar una tarea mal diseñada la repite sola, más rápido y más veces. Pantalla P08 del Rise M5-T1\: «Antes de automatizar\: eliminar y simplificar».
 }
 
-::M5-AE1-P5 (S2 C2)::Camila evalúa «enviar a cada cliente una confirmación cuando su pedido queda registrado». Se hace varias veces al día y le toma poco tiempo, pero el cliente sabe al instante que su pedido llegó. ¿Qué impacto tiene? {
+::M5-AE1-P5 (S2 C2)::Camila evalúa «enviar a cada proveedor una confirmación cuando su factura queda registrada». Se hace varias veces al día y le toma poco tiempo, pero el proveedor sabe al instante que su factura llegó. ¿Qué impacto tiene? {
 ~Bajo, porque casi no le quita tiempo a Camila
-=Alto, porque se repite seguido y mejora algo para los clientes
+=Alto, porque se repite seguido y mejora algo para los proveedores
 ~Bajo, porque es una tarea pequeña
 ~No se puede estimar sin saber cuánto riesgo tiene
 ####Hay dos sí\: se repite seguido y mejora la experiencia de otras personas. Esa tercera pregunta es la que más se olvida\: el impacto no se mide solo por el tiempo que te ahorra a ti. Pantalla P09 del Rise M5-T1\: «Primer criterio\: el impacto».
 }
 
-::M5-AE1-P6 (S2 C2)::Andrés piensa automatizar un recordatorio a cuarenta clientes con el monto y la fecha de vencimiento de su factura. «Es un mensaje corto, no tiene riesgo», dice. ¿Qué responderías? {
+::M5-AE1-P6 (S2 C2)::Camila piensa automatizar un recordatorio a cuarenta clientes con deuda de la constructora, con el monto y la fecha de vencimiento. «Es un mensaje corto, no tiene riesgo», dice. ¿Qué responderías? {
 ~Tiene razón\: un recordatorio es una tarea pequeña y, por eso, inofensiva
 ~El riesgo depende solo de cuántas veces al mes se envíe
 ~El riesgo es bajo, porque el texto se escribe una sola vez
@@ -53,14 +53,14 @@ $CATEGORY: IA-generativa-laboral/Formativos/M5-AE1
 =Responder a diario consultas de clientes sobre sus pedidos, con los datos de cada compra
 ~Copiar a la planilla los pedidos que llegan por formulario, a diario y sin datos sensibles
 ~Cambiar cada trimestre el formato de una planilla interna que casi nadie usa
-~Decidir solo con un puntaje a qué postulante se llama a entrevista
-####Responder consultas tiene impacto alto (diario, ayuda a clientes) y riesgo alto (datos personales, afecta a personas)\: se automatiza una parte con control humano. Decidir por puntaje quién pasa a entrevista va en «No automatices». Pantalla P11 del Rise M5-T1\: «La matriz de priorización».
+~Decidir solo con un puntaje a qué trabajador se le renueva el contrato
+####Responder consultas tiene impacto alto (diario, ayuda a clientes) y riesgo alto (datos personales, afecta a personas)\: se automatiza una parte con control humano. Decidir con un puntaje quién sigue en su trabajo va en «No automatices». Pantalla P11 del Rise M5-T1\: «La matriz de priorización».
 }
 
-::M5-AE1-P8 (C2 H1 A1)::Andrés debe explicar a su jefatura por qué «avisar a vendedores cuando un producto baja del mínimo» va en «Empieza aquí». ¿Cuál es el mejor fundamento? {
+::M5-AE1-P8 (C2 H1 A1)::Andrés debe explicar a su jefatura por qué «registrar en la planilla la mercadería recibida» va en «Empieza aquí». ¿Cuál es el mejor fundamento? {
 ~«Empieza aquí, porque es fácil, rápida de armar y no me quita mucho trabajo»
 ~«Empieza aquí, porque al responder las preguntas me dio impacto alto y riesgo bajo»
-=«Empieza aquí\: es diaria y evita vender sin stock; no usa datos personales y un error se nota el mismo día»
+=«Empieza aquí\: llega mercadería a diario y registrarla me quita tiempo; no usa datos personales y un error se ve al contar stock»
 ~«Empieza aquí, porque es una tarea importante para la empresa y para ventas»
-####Un buen fundamento nombra el cuadrante y da razones con datos para el impacto y para el riesgo. Decir solo «impacto alto y riesgo bajo» nombra los criterios, pero no muestra en qué se basan. Pantalla P13 del Rise M5-T1\: «Fundamenta tu priorización».
+####Un buen fundamento nombra el cuadrante y da una razón con datos para el impacto y otra para el riesgo. Decir solo «impacto alto y riesgo bajo» nombra los criterios, pero no muestra en qué se basan. Pantalla P13 del Rise M5-T1\: «Fundamenta tu priorización».
 }

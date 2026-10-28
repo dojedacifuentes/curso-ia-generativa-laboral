@@ -26,17 +26,18 @@ El inventario de herramientas es transversal y va primero: `investigacion/HERRAM
 - **Herramientas:** plan gratuito, uso en celular (app o navegador), función que importa para el AE y si exige cuenta o tiene límite
   de edad. Fecha de consulta siempre, porque los planes cambian.
 - **Lo que no se pudo verificar** va en «Alertas», nunca en el contenido.
-- **Los 11 casos con empresas reales** no se investigan en esta etapa: tienen su propio recurso. El contenido los nombra solo en general,
-  salvo dentro de un recuadro `:::ejemplo Caso real: …` (resumen breve con fuentes de la ficha del caso); `auditar.mjs` avisa si una
-  empresa aparece fuera de ese recuadro.
+- **Los 11 casos con empresas reales** tienen su propio recurso (`casos/`). Desde el 28-10 el contenido, los quiz, las infografías y
+  los guiones **no los nombran** (ni empresa, ni hecho, ni id), para que cambiar un caso no obligue a cambiar todo. Máximo 2 fuentes
+  por pantalla.
 
 ## Reglas de contenido (resumen)
 
 - Solo los códigos de la planilla; todos cubiertos; ninguna pantalla sin código.
 - Las afirmaciones de hecho (qué hace una herramienta, qué dice una ley, una definición técnica) citan su fuente `F-…`.
-- **Audiencia:** cesantes o en búsqueda de empleo, y personas que ya trabajan. Herramientas gratuitas, celular, sin licencias corporativas.
-- **Tono:** español de Chile, tuteo, frases cortas. Personajes ficticios recurrentes: Camila (busca empleo como asistente
-  administrativa) y Andrés (encargado de bodega).
+- **Audiencia (28-10):** solo personas que están trabajando, que usan IA en tareas administrativas y de productividad. Herramientas
+  gratuitas y celular. Criterios completos en `docs/CRITERIOS-28-10.md`; control con `node scripts/revisar-criterios.mjs`.
+- **Tono:** español de Chile, tuteo, frases cortas. Personajes ficticios recurrentes: Camila (asistente administrativa en una
+  constructora) y Andrés (encargado de bodega).
 - **Muestra de referencia:** `contenido/M1/M1-AE1.md`.
 
 ## Auditoría de todo lo producido

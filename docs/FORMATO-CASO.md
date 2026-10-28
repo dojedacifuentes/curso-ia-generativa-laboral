@@ -77,7 +77,8 @@ Reglas del caso:
 - **Personas reales:** de las personas naturales involucradas (abogados, empleados), se habla por su rol, no por su nombre. Las
   figuras públicas o las empresas pueden nombrarse cuando son parte central del caso, sin calificarlas.
 - **Tono:** sin sensacionalismo ni burla, en español de Chile, tuteo y frases cortas.
-- **Audiencia:** cesantes y trabajadores, por eso la aplicación funciona sin un empleo actual: usa el desafío laboral del proyecto.
+- **Audiencia (28-10):** solo personas que están trabajando; la aplicación se hace sobre una tarea de su cargo actual (el desafío
+  laboral del proyecto). Ver `docs/CRITERIOS-28-10.md`.
 - **Conexión:** los AE y el hito según `data/curso.json`; el análisis remite a pantallas del contenido base de esos AE.
 
 Control: `node scripts/validar-casos.mjs`.

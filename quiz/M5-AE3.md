@@ -6,7 +6,7 @@
 **Estilo:** acento #ff7a59 · acento2 #fbbf24 · fondo neuronas · lema Quién mira, cuándo y qué pasa si falla
 **Ilustración:** flujo | Tu flujo (engranaje) · Tu mirada (escudo) · Tu plan (ruta)
 
-1. *(S1 · A2 · P02)* El flujo de Rosa pasó todas sus pruebas. Un mes después, un proveedor nuevo envía facturas con otro formato y doce filas quedan con montos errados. ¿Qué explica mejor lo ocurrido?
+1. *(S1 · A2 · P02)* El flujo de Camila para registrar facturas pasó todas sus pruebas y su empresa autorizó usarlo. Un mes después, un proveedor nuevo envía facturas con otro formato y doce filas quedan con montos errados. ¿Qué explica mejor lo ocurrido?
    - **a) Un error en cadena: ese formato no estaba en las pruebas y el error se repitió en cada ejecución**
    - b) Una falla de la herramienta: si el flujo pasó las pruebas, el diseño no tiene nada que ver
    - c) Sesgo de automatización: la IA trató peor al proveedor nuevo
@@ -20,7 +20,7 @@
    - d) Error en cadena: un mapeo roto se repite en cada fila
    *Retroalimentación:* El sesgo de automatización está en las personas: dejan de revisar porque lo hizo un sistema. El sesgo dañino es el criterio injusto de la IA; aquí la conducta del equipo es la que agrava el error.
 
-3. *(H1 · C1 · P07)* Flujo de Rosa: (1) llega una factura por correo; (2) la IA extrae proveedor, monto y fecha; (3) se agrega una fila a la planilla que tesorería usa para pagar. ¿Dónde conviene más un punto de control humano?
+3. *(H1 · C1 · P07)* Flujo de Camila: (1) llega una factura por correo; (2) la IA extrae proveedor, monto y fecha; (3) se agrega una fila a la planilla de pagos que usa la constructora. ¿Dónde conviene más un punto de control humano?
    - a) Antes del paso 1, para revisar cada correo que llega a la bandeja
    - **b) Entre los pasos 2 y 3, antes de que los datos lleguen a la planilla de pagos**
    - c) Después del pago, revisando el estado de cuenta a fin de mes
@@ -34,16 +34,16 @@
    - **d) «¿La fecha del aviso coincide con la de la planilla?»**
    *Retroalimentación:* Un criterio de aprobación es una pregunta de sí o no que se responde en segundos comparando con el dato original. Sin criterios, la revisión se vuelve un clic automático: «aprobado, aprobado, aprobado».
 
-5. *(S2 · C1 · P08)* A la jefatura de Camila le gustaría que un flujo ponga puntaje a cada currículum y descarte solo a los de puntaje bajo. Según la tabla de supervisión del curso, ¿qué corresponde?
+5. *(S2 · C1 · P08)* A la jefatura de Camila le gustaría que un flujo ponga puntaje a cada currículum de una vacante y descarte solo a los de puntaje bajo. Según la tabla de supervisión del curso, ¿qué corresponde?
    - **a) Mando humano: no automatizar la decisión; la toma una persona**
    - b) Control humano: revisar cada semana una muestra de los descartados
-   - c) Dejar que el flujo descarte y avisar por correo a cada postulante
-   - d) Revisar solo los casos en que un postulante reclame
-   *Retroalimentación:* Descartar postulantes decide algo importante sobre una persona: esa decisión no se automatiza. Revisar una muestra sirve para pasos de riesgo bajo, no para decisiones así.
+   - c) Dejar que el flujo descarte y avisar por correo a cada persona descartada
+   - d) Revisar solo los casos en que alguien reclame
+   *Retroalimentación:* Descartar a alguien en una selección decide algo importante sobre una persona: esa decisión no se automatiza. Revisar una muestra sirve para pasos de riesgo bajo, no para decisiones así.
 
-6. *(S3 · C2 · P10)* Rosa quiere que la IA corrija los nombres de proveedores mal escritos en su planilla. ¿Qué diseño hace el flujo más reversible?
+6. *(S3 · C2 · P10)* Andrés quiere que la IA corrija los nombres de clientes mal escritos en su planilla de despachos. ¿Qué diseño hace el flujo más reversible?
    - a) Reemplazar el nombre original por el corregido, para no duplicar datos
-   - b) Enviar la corrección directo a cada proveedor, para que la confirme
+   - b) Enviar la corrección directo a cada cliente, para que la confirme
    - **c) Escribir el nombre corregido en una columna nueva y conservar el original**
    - d) Borrar el historial de ejecuciones, para dejar la planilla ordenada
    *Retroalimentación:* Un flujo reversible no sobrescribe el original: así puedes comparar y deshacer si la IA se equivoca. Un correo enviado no se puede recoger, y sin historial se pierde la huella.
@@ -55,7 +55,7 @@
    - **d) Falso, porque también debe decir cómo detectar la falla, seguir a mano, recuperar, avisar y quién responde**
    *Retroalimentación:* Un plan de contingencia responde seis preguntas, y detener el flujo es solo una. Además, quien lo pone en marcha responde por sus resultados: la respuesta no puede ser «el sistema».
 
-8. *(C1 · A2 · P12)* Rosa sembró 3 errores en 10 casos ficticios. Sin su control llegaron 3 de 3 errores al resultado; con su control, todavía llegaron 2 de 3. ¿Qué decisión corresponde?
+8. *(C1 · A2 · P12)* Paula sembró 3 errores en 10 reclamos ficticios. Sin su control llegaron 3 de 3 errores al resultado; con su control, todavía llegaron 2 de 3. ¿Qué decisión corresponde?
    - a) Mantener el control tal como está, porque ya redujo los errores
    - **b) Subir la supervisión, porque todavía pasan errores importantes**
    - c) Quitar el control, porque no detecta todos los errores

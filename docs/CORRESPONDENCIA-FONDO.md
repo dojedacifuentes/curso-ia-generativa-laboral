@@ -16,6 +16,11 @@ corrección aplicada en el archivo. Los 4 Parcial de técnica (M1-AE4, M3-AE4, M
 los casos reales quedaron verificados en fuente primaria: cada AE resume ahora uno o dos de esos casos, con su fuente. No hay
 ningún «No» ni ningún Parcial abierto.
 
+**Cambio del 28-10-2026:** los 22 AE se reescribieron para la audiencia nueva (solo personas que trabajan), con máximo 2 fuentes y 1
+recuadro por pantalla, y sin nombrar los casos (`docs/CRITERIOS-28-10.md`). Se mantuvieron los códigos cubiertos, las pantallas y el
+alcance. En M1-AE4, M3-AE2, M3-AE4, M4-AE3 y M5-AE3 la técnica «casos reales» ya no se cumple dentro del AE sino con la actividad de
+análisis de cada caso (recurso aparte); dentro del AE la idea se muestra con personajes ficticios.
+
 ## Resumen
 
 | AE | 1 Códigos | 2 Bloom | 3 Técnica | 4 Criterios | 5 Alcance | 6 Quiz |

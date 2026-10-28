@@ -1,7 +1,7 @@
 # Quiz M3-AE4 · Análisis crítico y privacidad
 
 **Misión:** decidir qué información puede entrar a una herramienta de IA y cómo cuidarla
-**Cuándo:** al terminar el Rise M3-T4 · Análisis crítico y privacidad, antes del Hito 3 del proyecto y de los casos del módulo.
+**Cuándo:** al terminar el Rise M3-T4 · Análisis crítico y privacidad, antes de entregar el Hito 3 del proyecto.
 **Insignia:** Escudo de datos · **Siguiente parada:** Proyecto aplicado, Hito 3: investigación validada con fuentes
 **Estilo:** acento #a78bfa · acento2 #5eead4 · fondo neuronas · lema Antes de pegar, piensa qué entregas
 **Ilustración:** flujo | Tu información (bd) · Tu decisión (rombo) · La herramienta (chip)
@@ -55,7 +55,7 @@
    - d) Falso, porque ninguna herramienta permite apagar el uso de los chats para entrenar
    *Retroalimentación:* Configurar la privacidad reduce el riesgo, pero no lo elimina: Google, por ejemplo, guarda las conversaciones por un tiempo aunque apagues la actividad. La lista de clientes es confidencial y tiene datos personales, así que no ingresa a una herramienta no autorizada.
 
-8. *(S3 · C2 · P12)* En su nuevo trabajo, Camila quiere ordenar con un asistente gratuito y muy conocido unos correos con datos de clientes. La empresa no tiene política sobre IA. ¿Qué hace?
+8. *(S3 · C2 · P12)* En la constructora, Camila quiere ordenar con un asistente gratuito y muy conocido unos correos con datos de clientes. La empresa no tiene política sobre IA. ¿Qué hace?
    - a) Lo usa, porque una herramienta gratuita y popular es segura para el trabajo
    - b) Lo usa, porque los lineamientos del Oficio 711 solo son recomendaciones para el Estado
    - **c) Aplica los criterios del Oficio 711: no ingresa datos personales en una herramienta que la empresa no contrató**

@@ -2,191 +2,122 @@
 
 ## P01 · Qué vas a lograr en este tema
 cubre: C1, C2
-fuentes: F-H-10, F-H-14, F-M2-08
-bloque: Texto + lista con viñetas
+fuentes: F-H-14, F-M2-08
+bloque: Texto + actividad
 
-En el módulo 1 aprendiste a escribir prompts con rol, contexto, tarea y formato, y a validar lo que entrega la IA. Ahora vas a usar
-eso en lo que más se escribe en cualquier trabajo: correos, minutas e informes.
+En el módulo 1 aprendiste a escribir prompts con rol, contexto, tarea y formato, y a revisar lo que entrega la IA. Ahora vas a aplicar eso a lo que más se escribe en cualquier oficina: correos, minutas e informes. Son textos cortos, pero de ellos depende que un proveedor responda, que un acuerdo se cumpla o que tu jefatura tome una decisión a tiempo.
 
-**Aprendizaje esperado:** Redactar correos, minutas e informes con apoyo de IA, ajustando tono, registro y audiencia.
+El aprendizaje esperado es este: Redactar correos, minutas e informes con apoyo de IA, ajustando tono, registro y audiencia. Al final del tema deberías poder ajustar el tono y el registro de un texto a la audiencia que se te indica, y entregar un texto claro y sin errores relevantes, porque lo revisaste tú antes de enviarlo.
 
-Al terminar, deberías poder:
-- ajustar el tono y el registro de un texto a la audiencia que se indica;
-- entregar un texto claro y sin errores relevantes, revisado por ti.
+Vas a trabajar con Gemini, el asistente principal del curso. Tiene app para Android y para iOS y se usa con una cuenta personal de Google; como viste en el módulo 1, también funciona en el navegador. Si en tu trabajo usan otro asistente, los pasos son los mismos. Como cualquier asistente, sus respuestas pueden traer errores, así que todo lo que redacte será un borrador que tú corriges.
 
-Trabajarás con **Gemini**, el asistente principal del curso. Puedes usar la app para Android o iOS, o entrar desde el navegador en
-gemini.google.com. Si prefieres otro asistente gratuito, como ChatGPT, Copilot o Claude, los pasos son los mismos.
-
-Te siguen acompañando **Camila**, que busca trabajo como asistente administrativa, y **Andrés**, encargado de bodega en una
-distribuidora. Camila escribe correos a empresas a las que postula. Andrés escribe avisos a su equipo, minutas de reuniones y un
-informe semanal para su jefatura. Sus textos son de cualquier oficina, tienda o bodega.
-
-:::clave
-La IA te entrega un **borrador**. El texto final, el que lleva tu nombre, lo decides y lo revisas tú. Las respuestas de un asistente
-pueden traer errores y hay que revisarlas antes de usarlas.
-:::
+Te siguen acompañando Camila y Andrés. Camila es asistente administrativa en una constructora: responde correos de proveedores y clientes, lleva la agenda de la gerenta de administración y prepara las minutas de sus reuniones. Andrés es encargado de bodega en una distribuidora y escribe avisos a su equipo, minutas de reuniones y un informe semanal para su jefatura.
 
 :::actividad Tu punto de partida
-Piensa en el último texto de trabajo que escribiste o que tendrías que escribir en el cargo al que aspiras: un correo, un aviso, un
-resumen. Anota para quién era y qué querías lograr. Lo usarás en la práctica de cierre.
+Piensa en el último texto de trabajo que escribiste: un correo, un aviso, un resumen para tu jefatura. Anota para quién era y qué querías lograr con él. Lo vas a usar en la práctica de cierre.
 :::
 
 ## P02 · Tres géneros de la comunicación laboral
 cubre: S1
-fuentes: F-M2-03, F-M2-05, F-M2-06
+fuentes: F-M2-06, F-M2-05
 bloque: Texto + tabla comparativa
 
-Un **género** es un tipo de texto con un propósito y unas partes que quien lo lee espera encontrar. En el trabajo se repiten tres:
+Un **género** es un tipo de texto con un propósito y unas partes que quien lo lee espera encontrar. En el trabajo administrativo se repiten tres. El correo sirve para pedir, informar o responder algo puntual. La minuta, que en muchas oficinas se llama acta, deja registro de una reunión: qué se trató, qué se acordó y quién se comprometió a qué, con fecha. El informe ejecutivo le entrega a quien decide lo que necesita para decidir, por lo general en una página.
 
-| Género | Para qué sirve | Partes que no pueden faltar |
+| Género | Pregunta que responde | Lo que no puede faltar |
 |---|---|---|
-| Correo | Pedir, informar o responder algo puntual | Asunto breve, saludo, cuerpo conciso, despedida |
-| Minuta o acta de reunión | Dejar registro de lo que se habló y se acordó | Temas tratados, acuerdos, compromisos con responsable y fecha |
-| Informe ejecutivo | Darle a quien decide lo que necesita para decidir | Resultado principal, por qué importa, qué se recomienda hacer |
+| Correo | ¿Qué necesito de ti o qué te aviso? | Un asunto que diga de qué se trata y un pedido claro |
+| Minuta | ¿Qué quedó acordado y quién hace qué? | Acuerdos y compromisos con responsable y fecha |
+| Informe ejecutivo | ¿Qué debo saber, por qué me importa y qué debo hacer? | El resultado y la recomendación al principio |
 
-Cada género responde a una pregunta distinta. El correo responde «¿qué necesito de ti o qué te aviso?». La minuta responde «¿qué
-quedó acordado y quién hace qué?». El informe ejecutivo responde «¿qué debo saber, por qué me importa y qué debo hacer?».
+Un mismo tema puede pedir los tres. El lunes, el equipo de Andrés se reunió por unos despachos atrasados. Ese día él escribe un correo al proveedor para pedir una nueva fecha de entrega y la minuta de la reunión con los compromisos de cada persona. El viernes le entrega a su jefatura un informe de una página con el resultado de la semana y una recomendación.
 
-Saber qué género necesitas es el primer dato que le das a la IA. No es lo mismo pedir «escribe algo sobre la reunión» que pedir
-«redacta la minuta de la reunión, con acuerdos y compromisos».
-
-:::ejemplo Un mismo tema, tres textos
-El lunes se reunió el equipo de Andrés para revisar los despachos atrasados. Ese día él escribe tres textos: un **correo** al
-proveedor para pedir una nueva fecha de entrega, la **minuta** de la reunión con los compromisos de cada persona y, el viernes, un
-**informe ejecutivo** de una página para su jefatura con el resultado de la semana y una recomendación.
-:::
+Saber qué género necesitas es el primer dato que le das a la IA. No es lo mismo pedir «escribe algo sobre la reunión» que pedir «redacta la minuta de la reunión, con los acuerdos y una tabla de compromisos». En las próximas pantallas vas a ver cada género por separado y lo vas a practicar con Gemini.
 
 :::comprueba
 Andrés necesita dejar registro de quién se comprometió a revisar el stock y para cuándo. ¿Qué género le sirve?
 - a) Un correo al proveedor
 - **b) Una minuta de la reunión**
 - c) Un informe ejecutivo
-Retroalimentación: La minuta registra los acuerdos y los compromisos con responsable y fecha. El informe ejecutivo resume para
-quien decide, y el correo resuelve algo puntual.
+Retroalimentación: La minuta registra los acuerdos y los compromisos con responsable y fecha. El informe ejecutivo resume para quien decide, y el correo resuelve algo puntual.
 :::
 
 ## P03 · Tono, registro y audiencia
 cubre: S2, C1
-fuentes: F-M2-03, F-M2-04, F-M2-02
-bloque: Texto + pestañas (tabs) con los tres conceptos
+fuentes: F-M2-04, F-M2-03
+bloque: Texto + tabla comparativa
 
-Tres decisiones cambian cómo suena un texto, aunque diga lo mismo.
+Tres decisiones cambian cómo suena un texto, aunque diga lo mismo. La primera es la audiencia: la persona o el grupo que lo va a leer. En un mismo día puedes escribirle a tu jefatura, a una colega, a un proveedor y a un cliente, y para cada uno conviene adaptar el tono, el formato y el nivel de detalle. Tampoco es lo mismo escribirle a una sola persona que a todo un equipo.
 
-**Audiencia** es la persona o el grupo que lo va a leer. Quien escribe en el trabajo suele escribir para varias audiencias en un
-mismo día: una jefatura, colegas, un cliente, el público general. Para cada una conviene adaptar el tono, el formato y el nivel de
-detalle. No es lo mismo escribirle a una sola persona que a todo un equipo.
+La segunda es el **registro**, que es el grado de formalidad. El registro formal es el del intercambio profesional, y el informal, el de la familia y las amistades. En el trabajo se prefiere tratar de usted, salvo que haya una relación cercana, como la que quizá tienes con tu equipo de todos los días.
 
-**Registro** es el grado de formalidad. El registro **formal** es el del intercambio profesional, con un lenguaje más cuidado. El
-**informal** es el de la familia y las amistades. En lo profesional se prefiere tratar de **usted**, salvo que haya una relación
-cercana.
-
-**Tono** es la actitud que transmite el texto: cordial, firme, neutro, agradecido, de disculpa. Un correo formal puede ser cordial o
-puede ser seco; el registro es el mismo, el tono cambia.
+La tercera es el **tono**: la actitud que transmite el texto. Puede ser cordial, firme, neutro, agradecido o de disculpa. Un correo formal puede sonar cordial o puede sonar seco; el registro es el mismo y lo que cambia es el tono. Por eso un reclamo a un proveedor puede ser firme sin dejar de ser respetuoso.
 
 | Audiencia | Registro | Tono posible |
 |---|---|---|
 | Jefatura | Formal | Directo y respetuoso |
 | Colegas del equipo | Formal o semiformal | Cercano y claro |
 | Cliente con un reclamo | Formal | Cordial y de disculpa |
-| Empresa a la que postulas | Formal | Cordial y seguro |
+| Proveedor que se atrasó | Formal | Firme y cordial |
 
-:::error «Formal es lo mismo que difícil»
-Un texto formal no necesita palabras rebuscadas ni frases largas. Las guías de lenguaje claro piden un estilo sencillo y directo sin
-perder precisión. Formal es respetuoso, no complicado.
-:::
+Cuando le pidas un texto a la IA, estas tres decisiones van en el prompt. Si no las dices, el asistente elige por ti y el resultado suele quedar genérico, con un tono que después hay que corregir.
 
 ## P04 · Antes de escribir: piensa en quien lee
 cubre: S2, C1
-fuentes: F-M2-02, F-M2-04, F-M2-05
+fuentes: F-M2-02, F-M2-04
 bloque: Texto + lista de verificación (checklist)
 
-Las guías de redacción coinciden en algo: antes de escribir hay que tener claro **para qué** es el texto y **quién** lo va a leer.
-Con eso eliges mejor las palabras, no das por sabidos conceptos que la otra persona no maneja y entregas solo la información que
-necesita.
+Las guías de redacción coinciden en que antes de escribir hay que tener claro para qué es el texto y quién lo va a leer. Con eso eliges mejor las palabras, no das por sabido algo que la otra persona no maneja y entregas solo la información que necesita. Conocer a la audiencia también te dice qué género usar y qué dato poner primero. Antes de abrir el asistente, responde cuatro preguntas:
 
-Hazte estas cuatro preguntas antes de abrir el asistente:
-- [ ] **¿Para qué escribo?** Pedir, informar, acordar, recomendar.
-- [ ] **¿Quién lo lee?** Cargo, relación contigo, cuánto sabe del tema.
-- [ ] **¿Qué necesita saber?** Lo mínimo para entender y actuar, nada más.
-- [ ] **¿Qué quiero que haga?** Responder, aprobar, asistir, revisar.
+- ¿Para qué escribo: pedir, informar, acordar o recomendar?
+- ¿Quién lo lee, qué relación tiene conmigo y cuánto sabe del tema?
+- ¿Qué necesita saber para entender y actuar, y qué puedo dejar fuera?
+- ¿Qué quiero que haga después de leerlo: responder, aprobar, asistir o revisar?
 
-Las respuestas a estas preguntas son, justamente, el **contexto** que le das a la IA. Si tú no las tienes claras, el asistente
-tampoco: escribirá un texto genérico que habrá que rehacer.
+Tus respuestas son el contexto que le das a la IA. Si tú no las tienes claras, el asistente tampoco, y escribirá un texto genérico que habrá que rehacer.
 
-:::ejemplo Camila define su audiencia
-Camila quiere escribir a una empresa para preguntar por el estado de su postulación. Responde las preguntas: escribe para saber si
-sigue en el proceso; la lee una persona de selección que no la conoce; necesita su nombre, el cargo y la fecha en que postuló; quiere
-que le responda. Con eso, ya sabe qué pedirle a Gemini.
-:::
+Camila lo hizo con un correo de su semana. Un proveedor de materiales entregó un pedido hace diez días, pero la factura no ha llegado y ella la necesita para registrarla en su planilla. Escribe para pedir la factura. La lee una ejecutiva del proveedor que no la conoce, y que necesita el número de la orden de compra, la fecha de entrega y el correo al que debe enviar el documento; no necesita saber cómo funciona la planilla de la constructora. Camila quiere que le respondan con la factura adjunta. Con esas cuatro respuestas ya sabe qué pedirle a Gemini.
 
 :::comprueba
 Andrés escribe un aviso para todo su equipo sobre el inventario del viernes. ¿Qué información sobra?
 - a) La fecha y la hora del inventario
 - b) Qué debe hacer cada persona ese día
 - **c) La explicación detallada de cómo calcula él las diferencias de stock**
-Retroalimentación: El equipo necesita saber cuándo es y qué le toca hacer. El detalle del cálculo no le sirve para actuar: pensar en
-quien lee también es saber qué dejar fuera.
+Retroalimentación: El equipo necesita saber cuándo es y qué le toca hacer. El detalle del cálculo no le sirve para actuar: pensar en quien lee también es saber qué dejar fuera.
 :::
 
 ## P05 · La IA como borrador
 cubre: S3, A2
-fuentes: F-M2-07, F-M2-08, F-M1-09
+fuentes: F-M2-07, F-M2-08
 bloque: Texto + recuadro destacado
 
-En este tema la IA cumple un rol preciso: **produce el borrador**. Tú pones el propósito, los datos y la revisión final.
+En este tema la IA cumple un papel preciso: produce el borrador. Tú pones el propósito, los datos y la revisión final. Hay tres razones para no pedirle más que eso.
 
-¿Por qué solo borrador? Por lo que ya viste en el módulo 1:
-- **Puede inventar.** Un modelo puede producir contenido falso presentado con seguridad. En un correo, eso puede ser una fecha, un
-  monto o un compromiso que nadie hizo. El riesgo es que el tono seguro hace creer y difundir esa información.
-- **Varía.** La misma indicación puede dar respuestas distintas, así que no basta con que haya salido bien una vez.
-- **No conoce tu situación.** Solo sabe lo que le das. No sabe qué le prometiste a un cliente ni cómo se llama tu jefatura.
+La primera es que puede inventar. Un modelo de lenguaje puede producir contenido falso presentado con seguridad, lo que se llama **confabulación** o, de forma más coloquial, alucinación. En un correo, eso puede ser una fecha, un monto o un compromiso que nadie hizo, y el riesgo está en el tono seguro, que lleva a creer y a difundir esa información. La segunda es que varía: la misma indicación puede dar respuestas distintas, así que no basta con que una vez haya salido bien. La tercera es que no conoce tu situación. Solo sabe lo que le escribes; no sabe qué le prometió tu jefatura a un cliente ni qué facturas están pendientes de pago.
 
-Los proveedores de estos asistentes dicen lo mismo: las respuestas pueden contener errores y deben revisarse antes de usarse.
+Los propios proveedores lo advierten: las respuestas de sus asistentes pueden contener errores y hay que revisarlas antes de usarlas.
 
-Lo que la IA sí hace bien como borrador:
-- ordenar ideas sueltas en un texto con estructura;
-- proponer varias versiones con tonos distintos;
-- acortar un texto largo o hacerlo más formal;
-- sugerir un asunto o una despedida.
+Dentro de ese límite, la IA ayuda mucho. Ordena ideas sueltas en un texto con estructura, propone versiones con tonos distintos, acorta un texto largo o lo vuelve más formal, y sugiere un asunto o una despedida. Piensa en ella como una persona que te ayuda a escribir pero que no estuvo en la reunión: redacta rápido, y tú sabes lo que pasó.
 
 :::error «El texto de la IA está listo para enviar»
-Un borrador bien escrito no es un texto revisado. Puede sonar impecable y tener un dato equivocado, un nombre mal escrito o un tono
-que no corresponde a la relación con quien lo lee.
-:::
-
-:::clave
-Piensa en la IA como una persona que te ayuda a escribir y que no estuvo en la reunión: redacta rápido, pero tú sabes lo que pasó.
+Un borrador bien escrito no es un texto revisado. Puede sonar impecable y tener un dato equivocado, un nombre mal escrito o un tono que no corresponde a la relación con quien lo lee.
 :::
 
 ## P06 · Cómo pedirle un texto a la IA
 cubre: H1, S2
-fuentes: F-M2-08, F-M1-12, F-M2-11
+fuentes: F-M2-08, F-M2-11
 bloque: Texto + imagen de un prompt con sus partes destacadas
 
-Para pedir un texto laboral sirven las partes de un prompt que conociste en el módulo 1. Las guías de los proveedores las ordenan de
-formas parecidas: **objetivo** (lo único imprescindible), **contexto** (por qué y quiénes participan), **fuente** (la información que
-debe usar) y **expectativas** (formato y extensión). Puedes sumarle un **rol**.
+Para pedir un texto de trabajo sirven las partes de un prompt que conociste en el módulo 1. La guía de Microsoft para su asistente las ordena así: el objetivo, que es lo único imprescindible; el contexto, es decir, por qué lo necesitas y quiénes participan; la fuente, que son los datos que debe usar; y las expectativas de formato y extensión. A eso puedes sumarle un rol.
 
-Aplicado a la redacción, queda así:
+En un texto laboral, el objetivo incluye el género, y el contexto incluye las tres decisiones de la pantalla 3: audiencia, registro y tono. No tienes que usar todas las partes siempre, pero mientras más incluyas, menos tendrás que corregir.
 
-| Parte | Qué le dices | Ejemplo |
-|---|---|---|
-| Rol | Desde dónde escribe | «Actúa como asistente administrativa» |
-| Objetivo y género | Qué texto necesitas | «Redacta un correo para confirmar una entrevista» |
-| Audiencia | Quién lo lee | «Lo lee la encargada de selección, a quien no conozco» |
-| Registro y tono | Cómo debe sonar | «Formal, de usted, cordial» |
-| Fuente | Los datos que debe usar | «Entrevista el martes 12 a las 10:00, cargo asistente administrativa» |
-| Expectativas | Largo y formato | «Máximo 80 palabras, con asunto» |
+Después del primer borrador, sigue conversando. Pide «hazlo más breve», «quita la segunda oración» o «más cordial», de a un cambio. La documentación de otro proveedor describe un ciclo que sirve para cualquier texto: borrador, revisión contra lo que necesitas y versión mejorada.
 
-No tienes que usar todas las partes siempre, pero cuantas más incluyas, menos tendrás que corregir.
-
-Después del primer borrador, **sigue conversando**: «hazlo más breve», «quita la segunda oración», «más cordial». Es la iteración que
-practicaste en el módulo 1. Un ciclo útil es: borrador, revisión contra lo que necesitas y versión mejorada.
+Así quedó el prompt de Camila para confirmar una reunión con un proveedor. Fíjate en que cada parte se reconoce, y en la última frase, que le cierra la puerta a los datos inventados.
 
 :::ejemplo El prompt de Camila
-«Actúa como asistente administrativa. Redacta un correo para confirmar mi asistencia a una entrevista. Lo lee la encargada de
-selección, a quien no conozco. Registro formal, de usted, tono cordial. Datos: entrevista el martes 12 a las 10:00 para el cargo de
-asistente administrativa. Máximo 80 palabras, con asunto. No agregues datos que no te di.»
+«Actúa como asistente administrativa de una constructora. Redacta un correo para confirmar la reunión con el proveedor de áridos. Lo lee el ejecutivo de ventas, a quien no conozco en persona. Registro formal, de usted, tono cordial. Datos: reunión el martes 12 a las 10:00 en nuestra oficina, para revisar los plazos de entrega del próximo mes; asistirá la gerenta de administración. Máximo 80 palabras, con asunto. No agregues datos que no te di.»
 :::
 
 ## P07 · El correo: partes y cortesía
@@ -194,216 +125,151 @@ cubre: S1, A1
 fuentes: F-M2-03
 bloque: Texto + imagen de un correo con sus partes rotuladas
 
-Un correo profesional tiene cuatro partes. Una guía universitaria sobre correo electrónico propone estas recomendaciones, que son
-sugerencias y no normas obligatorias:
+Un correo profesional tiene cuatro partes. Las recomendaciones que siguen vienen de una guía universitaria sobre correo electrónico en español, que aclara que son sugerencias y no normas obligatorias:
 
-1. **Asunto:** siempre presente y breve. Dice de qué se trata antes de abrirlo: «Confirmación de entrevista, martes 12».
-2. **Saludo:** «Estimada Sra. Pérez:». En español el saludo va seguido de **dos puntos**; la coma es un calco del inglés.
-3. **Cuerpo:** conciso. Lo importante primero y una idea por párrafo.
-4. **Despedida:** «Saludos cordiales,» o «Atentamente,», seguida de tu nombre.
+1. El asunto, siempre presente y breve, dice de qué se trata antes de abrirlo: «Confirmación de reunión, martes 12».
+2. El saludo va seguido de dos puntos: «Estimada Sra. Pérez:».
+3. El cuerpo es conciso, con lo importante primero y una idea por párrafo.
+4. La despedida, como «Saludos cordiales,» o «Atentamente,», va seguida de tu nombre.
 
-La **cortesía** se nota en detalles concretos:
-- tratar de usted, salvo que haya cercanía;
-- no escribir en **mayúsculas sostenidas**, que equivalen a gritar;
-- no usar emojis ni signos duplicados («¡¡urgente!!») en un correo profesional;
-- agradecer cuando corresponde y pedir con claridad.
+Un error común está en el saludo. Muchos asistentes escriben «Estimada Sra. Pérez,» con coma, porque aprendieron de textos en inglés. En español se recomienda cerrar el saludo con dos puntos, así que revísalo siempre en el borrador.
 
-Cuando le pides un correo a la IA, puedes incluir estas reglas en el prompt: «saludo con dos puntos, sin emojis, con asunto». Así te
-ahorras corregirlas después.
-
-:::error «Estimada Sra. Pérez,» con coma
-Es frecuente, y muchos asistentes lo escriben así porque aprendieron de textos en inglés. En español se recomienda cerrar el saludo
-con dos puntos. Revísalo siempre en el borrador.
-:::
+La cortesía se nota en detalles concretos. Se trata de usted, salvo que haya cercanía. No se escribe en mayúsculas sostenidas, que se leen como un grito, ni se usan emojis o signos duplicados como «¡¡urgente!!». Se agradece cuando corresponde y se pide con claridad. Puedes ahorrarte buena parte de estas correcciones si las pones en el prompt desde el principio: «saludo con dos puntos, sin emojis, con asunto».
 
 :::comprueba
-¿Cuál de estos asuntos es más adecuado para un correo de Camila a una empresa?
+¿Cuál de estos asuntos es más adecuado para el correo de Camila al proveedor que no ha enviado una factura?
 - a) «Hola!!»
-- **b) «Consulta por postulación al cargo de asistente administrativa»**
+- **b) «Factura pendiente, orden de compra 2045»**
 - c) «URGENTE: RESPUESTA»
-Retroalimentación: El asunto debe ser breve y decir de qué trata el correo. Los signos duplicados y las mayúsculas sostenidas se
-leen como descortesía.
+Retroalimentación: El asunto debe ser breve y decir de qué trata el correo. Los signos duplicados y las mayúsculas sostenidas se leen como descortesía.
 :::
 
 ## P08 · Práctica guiada 1: un correo con IA
 cubre: H1, C1
-fuentes: F-M2-08, F-M2-03, F-M2-04
+fuentes: F-M2-08, F-M2-03
 bloque: Proceso paso a paso + actividad
 
-Vas a producir y ajustar un correo con Gemini. El caso es de Camila, pero puedes adaptarlo a tu cargo.
+Ahora vas a producir y ajustar un correo con Gemini. El caso es de Camila, pero puedes cambiarlo por uno de tu trabajo.
 
-**Situación:** Camila postuló hace dos semanas al cargo de asistente administrativa en una empresa de servicios. No ha recibido
-respuesta y quiere preguntar, sin sonar insistente.
+Hace dos semanas, un proveedor de ferretería entregó en la obra un pedido de la constructora. La factura no ha llegado y Camila la necesita para registrarla y pasarla a pago. Ya la pidió una vez por teléfono, así que quiere un correo claro que no suene insistente. Para practicar, usa nombres y números inventados: no hace falta pegar en el chat datos reales del proveedor ni de tu empresa.
 
-1. **Abre Gemini** en la app o en el navegador. No uses datos reales de otras personas: el nombre de la empresa y de la encargada
-   pueden ser inventados.
-2. **Escribe el prompt** con sus partes: «Actúa como asistente administrativa. Redacta un correo para preguntar por el estado de mi
-   postulación al cargo de asistente administrativa, enviada el 3 de octubre. Lo lee la encargada de selección, a quien no conozco.
-   Registro formal, de usted, tono cordial y seguro, sin sonar insistente. Máximo 90 palabras. Incluye asunto. Saludo con dos
-   puntos. No inventes datos».
-3. **Lee el borrador** y marca: ¿tiene asunto?, ¿el saludo termina en dos puntos?, ¿agregó algo que no dijiste?
-4. **Ajusta conversando:** pide un cambio a la vez, por ejemplo «hazlo más breve» o «cambia la última oración por un agradecimiento».
-5. **Edita tú** el texto final: que suene a ti y que los datos sean los correctos.
+1. Abre Gemini en la app o en el navegador.
+2. Escribe el prompt con sus partes: «Actúa como asistente administrativa de una constructora. Redacta un correo para pedir la factura de la orden de compra 2045, entregada el 3 de octubre. Lo lee la ejecutiva de ventas del proveedor, a quien no conozco. Registro formal, de usted, tono cordial y firme, sin sonar insistente. Máximo 90 palabras. Incluye asunto. Saludo con dos puntos. No inventes datos».
+3. Lee el borrador y revisa si tiene asunto, si el saludo termina en dos puntos y si agregó algo que no dijiste.
+4. Ajusta conversando, de a un cambio: «hazlo más breve» o «cambia la última oración por un agradecimiento».
+5. Edita tú el texto final, para que suene a ti y los datos sean los correctos.
+
+Pedir un cambio a la vez tiene una ventaja: ves qué produjo cada mejora. Si pides cinco cambios juntos, cuesta saber cuál funcionó.
 
 :::actividad Antes y después
-Copia en tu bitácora el primer borrador y tu versión final. Anota tres cambios que hiciste y por qué: uno de tono, uno de registro y
-uno de contenido.
-:::
-
-:::clave
-Pedir un cambio a la vez te permite ver qué produjo cada mejora. Si pides cinco cambios juntos, es más difícil saber cuál funcionó.
+Copia en tu bitácora el primer borrador y tu versión final. Anota tres cambios que hiciste y por qué: uno de tono, uno de registro y uno de contenido.
 :::
 
 ## P09 · El mismo mensaje, tres audiencias
 cubre: C1, S2, H1
-fuentes: F-M2-04, F-M2-02, F-M2-03
-bloque: Pestañas (tabs) con las tres versiones
+fuentes: F-M2-04, F-M2-03
+bloque: Texto + tabla o pestañas con las tres versiones
 
-Adaptar un texto a distintas audiencias es una de las tareas en que la IA más ayuda. Tú defines el mensaje y las audiencias; el
-asistente propone versiones; tú eliges y corriges.
+Adaptar un texto a distintas audiencias es una de las tareas en que más ayuda la IA. Tú defines el mensaje y a quién va dirigido; el asistente propone versiones; tú eliges y corriges.
 
-**Mensaje:** un despacho a un cliente se atrasará dos días porque el proveedor no entregó a tiempo.
+Andrés tiene que comunicar un hecho: el despacho de un cliente se atrasará dos días porque el proveedor no entregó a tiempo. A su jefatura le importan la causa y lo que él propone hacer. Al equipo de bodega le importa qué cambia en su trabajo. Al cliente le importa cuándo recibe su pedido. Es el mismo hecho con tres focos, y cada foco pide su registro y su tono.
 
 | Audiencia | Qué cambia | Cómo empieza |
 |---|---|---|
-| Jefatura | Formal, directo, con la causa y la solución propuesta | «Le informo que el despacho del pedido 418 se atrasará dos días…» |
+| Jefatura | Formal y directo, con la causa y la solución propuesta | «Le informo que el despacho del pedido 418 se atrasará dos días…» |
 | Equipo de bodega | Cercano, centrado en qué hacer | «Equipo: el pedido 418 sale el jueves y no el martes. Les pido…» |
-| Cliente | Formal, cordial, con disculpa y nueva fecha | «Estimada Sra. Rojas: lamentamos informarle que su pedido…» |
+| Cliente | Formal y cordial, con disculpa y nueva fecha | «Estimada Sra. Rojas: lamentamos informarle que su pedido…» |
 
-Para la jefatura importa la causa y la solución. Al equipo le importa qué cambia en su trabajo. Al cliente le importa cuándo recibe
-su pedido. Es el mismo hecho con tres focos distintos.
-
-Puedes pedirlo así: «Con estos datos, escribe tres versiones del aviso: una para mi jefatura, otra para mi equipo y otra para el
-cliente. Ajusta registro, tono y nivel de detalle a cada una. Máximo 70 palabras cada una».
+Puedes pedir las tres versiones de una vez: «Con estos datos, escribe tres versiones del aviso: una para mi jefatura, otra para mi equipo y otra para el cliente. Ajusta registro, tono y nivel de detalle a cada una. Máximo 70 palabras cada una». Después revisa cada versión por separado, porque un dato que sirve para la jefatura, como el nombre del proveedor que falló, puede sobrar en la del cliente.
 
 :::comprueba
 ¿Cuál de estas frases corresponde a la versión para el cliente?
 - a) «Equipo, ojo con el 418, sale el jueves»
 - **b) «Lamentamos el inconveniente. Su pedido llegará el jueves 14»**
 - c) «El atraso se debe a un incumplimiento del proveedor que ya escalé»
-Retroalimentación: Al cliente le importa la disculpa y la nueva fecha, en registro formal. El detalle interno del proveedor es para
-la jefatura, y el tono cercano es para el equipo.
+Retroalimentación: Al cliente le importan la disculpa y la nueva fecha, en registro formal. El detalle interno del proveedor es para la jefatura, y el tono cercano es para el equipo.
 :::
 
 ## P10 · La minuta: lo que se acordó
 cubre: S1
 fuentes: F-M2-06
-bloque: Texto + plantilla descargable o imagen de una minuta
+bloque: Texto + tabla de compromisos (o plantilla descargable)
 
-La **minuta** (también llamada acta de reunión) deja registro de una reunión. Su valor no está en contar todo lo que se dijo, sino
-en dejar claro **qué se acordó y quién hace qué**.
+La **minuta**, que también se llama acta de reunión, deja registro de una reunión. Su valor no está en contar todo lo que se dijo, sino en dejar claro qué se acordó y quién hace qué.
 
-Según un instructivo de reuniones de una institución pública, en una reunión se designa a una persona que registre los temas
-tratados y los compromisos. Se establecen acuerdos y compromisos **con fechas y responsables**. Después, el acta se comparte, se
-revisa, se reciben aportes y se hace seguimiento a lo comprometido.
+Un instructivo de reuniones de una institución pública lo describe así: en cada reunión se designa a una persona que registra los temas tratados y los compromisos; los acuerdos y compromisos se establecen con fechas y responsables; y después el acta se comparte, se revisa, se reciben aportes y se hace seguimiento a lo comprometido. Camila, que prepara las minutas de las reuniones de su jefatura, cumple justamente ese papel.
 
-Una minuta breve puede tener estas partes:
-1. **Datos de la reunión:** fecha, participantes, tema.
-2. **Temas tratados:** una línea por tema.
-3. **Acuerdos:** lo que se decidió.
-4. **Compromisos:** qué, quién y para cuándo.
-5. **Próxima revisión:** cuándo se verá el avance.
+Una minuta breve parte con los datos de la reunión (fecha, participantes y tema), sigue con una línea por cada tema tratado y con los acuerdos, y termina con los compromisos y la fecha de la próxima revisión. Los compromisos se leen mejor en una tabla:
 
 | Compromiso | Responsable | Fecha |
 |---|---|---|
 | Revisar el stock de cajas medianas | Andrés | Miércoles 13 |
 | Pedir nueva fecha de entrega al proveedor | Jefatura de compras | Martes 12 |
 
-:::clave
-Un compromiso sin responsable o sin fecha no es un compromiso: es una buena intención. La minuta sirve para que nadie tenga que
-acordarse de memoria.
-:::
+Un compromiso sin responsable o sin fecha no es un compromiso: es una buena intención. La minuta existe para que nadie tenga que acordarse de memoria.
 
 :::ejemplo La minuta que nadie leyó
-Andrés recibió una minuta de dos páginas que contaba la reunión de principio a fin. Los compromisos estaban perdidos en el tercer
-párrafo y nadie los cumplió. Desde entonces, él pone la tabla de compromisos al principio.
+Andrés recibió una vez una minuta de dos páginas que contaba la reunión de principio a fin. Los compromisos estaban perdidos en el tercer párrafo y nadie los cumplió. Desde entonces, él pone la tabla de compromisos al principio.
 :::
 
 ## P11 · Práctica guiada 2: de notas sueltas a minuta
 cubre: H1, C2
-fuentes: F-M2-06, F-M2-07, F-M2-12
+fuentes: F-M2-06, F-M2-12
 bloque: Proceso paso a paso + actividad
 
-Las notas de una reunión suelen quedar desordenadas. La IA ayuda a convertirlas en minuta, siempre que no le dejes inventar.
+Las notas de una reunión suelen quedar desordenadas. La IA ayuda a convertirlas en minuta, siempre que no la dejes inventar. Estas son las notas de Andrés, con datos ficticios: «reunión lunes 11 despachos. estaban: Andrés, Marta (ventas), Jorge (bodega). 3 pedidos atrasados por proveedor de cajas. Marta avisa a clientes hoy. Jorge revisa stock cajas. Ver de nuevo el viernes. compras tiene que pedir otra fecha al proveedor».
 
-**Notas de Andrés (datos ficticios):**
-«reunión lunes 11 despachos. estaban: Andrés, Marta (ventas), Jorge (bodega). 3 pedidos atrasados por proveedor de cajas. Marta avisa
-a clientes hoy. Jorge revisa stock cajas. Ver de nuevo el viernes. compras tiene que pedir otra fecha al proveedor»
+1. Pega las notas en Gemini con este prompt: «Convierte estas notas en una minuta con los datos de la reunión, los temas, los acuerdos y una tabla de compromisos con responsable y fecha. Usa solo la información de las notas. Si falta un responsable o una fecha, escribe [FALTA] en vez de completarlo».
+2. Revisa la tabla de compromisos: en las notas, la tarea de Jorge no tiene fecha y «compras» no tiene una persona a cargo.
+3. Completa tú lo que falta, preguntando a quien corresponda.
+4. Compara la minuta con las notas y busca si la IA agregó algún acuerdo.
 
-1. **Pega las notas en Gemini** con este prompt: «Convierte estas notas en una minuta de reunión con: datos de la reunión, temas,
-   acuerdos y una tabla de compromisos con responsable y fecha. Usa solo la información de las notas. Si falta un responsable o una
-   fecha, escribe [FALTA] en vez de completarlo».
-2. **Revisa la tabla de compromisos.** En las notas, la fecha de Jorge no está, y «compras» no tiene una persona a cargo.
-3. **Completa tú** lo que falta, preguntando a quien corresponda.
-4. **Compara** la minuta con las notas: ¿hay algún acuerdo que la IA agregó?
-
-Pedir que marque lo que falta le da al modelo una salida distinta de inventar. Aun así, la revisión es tuya.
-
-:::error La IA completa los vacíos
-Si no se lo prohíbes, el asistente puede poner una fecha «razonable» o asignar un responsable que nadie nombró. En una minuta, eso
-crea un compromiso falso. Marca los vacíos y complétalos tú.
-:::
+La regla de [FALTA] tiene una razón. Si no se lo prohíbes, el asistente puede poner una fecha «razonable» o asignar un responsable que nadie nombró, y en una minuta eso crea un compromiso falso. Darle al modelo una salida distinta de inventar, como marcar lo que no encuentra, es una recomendación de la documentación de los proveedores. Aun así, la revisión sigue siendo tuya.
 
 :::actividad Tu minuta
-Escribe en cinco líneas las notas de una reunión real o imaginada de tu área. Pídele a Gemini la minuta con la regla de [FALTA] y
-revisa cuántos vacíos detectó.
+Escribe en cinco líneas las notas de una reunión reciente de tu área, con los nombres cambiados si son datos internos. Pídele a Gemini la minuta con la regla de [FALTA] y revisa cuántos vacíos detectó.
 :::
 
 ## P12 · El informe ejecutivo: lo esencial para decidir
 cubre: S1, C1
 fuentes: F-M2-05
-bloque: Texto + imagen de un informe de una página
+bloque: Texto + comparación antes y después
 
-El **informe ejecutivo** (o resumen ejecutivo) condensa la información para la persona que decide. Suele ocupar **una página** y
-responde tres preguntas de quien lo lee:
-1. **¿Qué debo saber?** El resultado o hallazgo principal.
-2. **¿Por qué me importa?** La consecuencia para el área o la empresa.
-3. **¿Qué debo hacer?** La recomendación o la decisión que se pide.
+El **informe ejecutivo**, también llamado resumen ejecutivo, condensa la información para la persona que decide. Suele ocupar una página y responde tres preguntas de quien lo lee: qué debo saber, por qué me importa y qué debo hacer. La primera se responde con el resultado o el hallazgo principal; la segunda, con la consecuencia para el área o la empresa; la tercera, con la recomendación o la decisión que se pide.
 
-Una guía universitaria sobre este género aconseja:
-- **empezar por los resultados y la recomendación**, no por la historia de cómo se hizo el trabajo;
-- reducir al mínimo la descripción de los métodos;
-- usar viñetas y párrafos cortos;
-- comparar con las alternativas cuando se recomienda algo.
+Una guía universitaria sobre este género aconseja empezar por los resultados y la recomendación, no por la historia de cómo se hizo el trabajo. También pide reducir al mínimo la descripción de los métodos, usar viñetas y párrafos cortos y, cuando se recomienda algo, compararlo con las alternativas.
 
 | Así no | Así sí |
 |---|---|
 | «Esta semana revisamos los registros de despacho, conversamos con el equipo y analizamos…» | «Esta semana se atrasaron 3 de 40 despachos, todos por falta de cajas. Recomiendo pedir cajas a un segundo proveedor.» |
 
-La jefatura de Andrés lee muchos informes. Si el resultado está en el cuarto párrafo, quizás no llegue a leerlo.
+La jefatura de Andrés lee muchos informes a la semana, y si el resultado está en el cuarto párrafo, quizás no llegue a leerlo. Lo mismo vale para Camila cuando le resume a la gerenta de administración cuántas facturas del mes quedaron sin registrar: primero el número y lo que propone, después el detalle.
 
 :::comprueba
 ¿Con qué conviene empezar un informe ejecutivo?
 - a) Con la descripción de cómo se recopiló la información
 - **b) Con el resultado principal y la recomendación**
 - c) Con los antecedentes históricos del área
-Retroalimentación: Quien decide necesita primero saber qué pasó y qué se recomienda. Los métodos y los antecedentes van después, y
-de forma breve.
+Retroalimentación: Quien decide necesita primero saber qué pasó y qué se recomienda. Los métodos y los antecedentes van después, y de forma breve.
 :::
 
 ## P13 · Práctica guiada 3: un informe ejecutivo con IA
 cubre: H1, C1
-fuentes: F-M2-05, F-M2-08, F-M2-11
+fuentes: F-M2-05, F-M2-11
 bloque: Proceso paso a paso + actividad
 
-Andrés debe entregar el viernes un informe ejecutivo a su jefatura. Tiene los datos de la semana (ficticios) en una lista:
-«40 despachos; 37 a tiempo; 3 atrasados, los 3 por falta de cajas del proveedor; el stock de cajas medianas quedó en 20; un segundo
-proveedor ofrece entrega en 48 horas».
+Andrés debe entregar el viernes un informe ejecutivo a su jefatura. Tiene los datos de la semana, ficticios, en una lista: «40 despachos; 37 a tiempo; 3 atrasados, los 3 por falta de cajas del proveedor; el stock de cajas medianas quedó en 20; un segundo proveedor ofrece entrega en 48 horas».
 
-1. **Pide el borrador:** «Actúa como encargado de bodega. Redacta un informe ejecutivo de máximo una página para mi jefatura. Usa solo
-   estos datos. Estructura: resultado de la semana, por qué importa y recomendación. Viñetas cortas. Registro formal».
-2. **Revisa el orden:** ¿el resultado está al principio?, ¿la recomendación es clara?
-3. **Revisa los datos:** que cada cifra coincida con la lista. Si aparece un porcentaje, calcúlalo tú.
-4. **Pide una revisión contra criterios:** «Revisa tu informe: ¿responde qué debo saber, por qué me importa y qué debo hacer? Señala
-   qué falta y entrega una versión mejorada».
-5. **Decide tú** la versión final.
+1. Pide el borrador: «Actúa como encargado de bodega. Redacta un informe ejecutivo de máximo una página para mi jefatura. Usa solo estos datos. Estructura: resultado de la semana, por qué importa y recomendación. Viñetas cortas. Registro formal».
+2. Revisa el orden: el resultado tiene que estar al principio y la recomendación tiene que entenderse.
+3. Revisa los datos, cifra por cifra, contra la lista. Si aparece un porcentaje, calcúlalo tú.
+4. Pide una revisión contra criterios: «Revisa tu informe: ¿responde qué debo saber, por qué me importa y qué debo hacer? Señala qué falta y entrega una versión mejorada».
+5. Decide tú la versión final.
 
-El paso 4 es un ciclo de borrador, revisión y mejora: le pides al asistente que se revise contra criterios claros. Igual compruebas
-tú el resultado, porque la revisión del asistente también puede fallar.
+El paso 4 aplica el ciclo de borrador, revisión y mejora que viste en la pantalla 6: le pides al asistente que se revise contra criterios claros. Igual compruebas tú el resultado, porque esa autorrevisión también puede fallar.
 
 :::actividad Tu informe de una página
-Con datos inventados de tu cargo (ventas del mes, consultas atendidas, pedidos despachados), pide un informe ejecutivo con las tres
-preguntas. Anota qué tuviste que corregir.
+Con datos inventados parecidos a los de tu cargo, como facturas registradas en el mes, consultas atendidas o pedidos despachados, pide un informe ejecutivo que responda las tres preguntas. Anota qué tuviste que corregir.
 :::
 
 ## P14 · Lenguaje claro: escribir para que te entiendan
@@ -411,37 +277,26 @@ cubre: A1, C2
 fuentes: F-M2-01, F-M2-02
 bloque: Texto + comparación antes y después
 
-En Chile, varios organismos públicos forman la **Red de Lenguaje Claro**. La Red describe el lenguaje claro como un estilo de
-redacción simple y eficiente, que facilita que las personas entiendan lo que se escribe. Abarca el texto, pero también la estructura,
-la edición y el diseño.
+En Chile, varios organismos públicos forman la Red de Lenguaje Claro. La Red describe el **lenguaje claro** como un estilo de redacción simple y eficiente, que facilita que las personas entiendan lo que se escribe. No se queda en las palabras: abarca también la estructura, la edición y el diseño del texto.
 
-Una guía de lenguaje claro del Senado de Chile entrega recomendaciones que sirven para cualquier texto laboral:
-- **Oraciones breves**, con una idea cada una.
-- Orden **sujeto, verbo y complementos**.
-- **Voz activa**: «Jorge revisará el stock», no «El stock será revisado».
-- **Estilo afirmativo**: «Llegue a las 9:00», no «No llegue después de las 9:00».
-- **Títulos, subtítulos y viñetas** cuando el texto es largo.
-- **Definir siglas y tecnicismos** la primera vez que aparecen.
-- Revisar al final con una **lista de verificación**.
+Una guía de lenguaje claro del Senado de Chile trae recomendaciones que sirven para cualquier texto de oficina. Pide oraciones breves, con una idea cada una, en el orden sujeto, verbo y complementos. Prefiere la voz activa («Jorge revisará el stock») a la pasiva («El stock será revisado por Jorge») y el estilo afirmativo («Llegue a las 9:00») al negativo («No llegue después de las 9:00»). Cuando el texto es largo, sugiere títulos y viñetas; las siglas y los tecnicismos se definen la primera vez que aparecen, y al final se revisa con una lista de verificación.
 
 | Antes | Después |
 |---|---|
 | «Se informa que, en atención a dificultades de abastecimiento, la entrega no podrá ser efectuada en la fecha originalmente comprometida.» | «Su pedido no llegará el martes. Llegará el jueves, porque el proveedor se atrasó.» |
 
-Puedes pedirle a la IA que aplique estas reglas: «Reescribe este texto en lenguaje claro: oraciones breves, voz activa y sin
-tecnicismos». Después lee el resultado y verifica que no haya perdido información.
+Puedes pedirle a la IA que aplique estas reglas: «Reescribe este texto en lenguaje claro, con oraciones breves, voz activa y sin tecnicismos». Después lee el resultado y verifica que no se haya perdido información.
 
-:::clave
-Claro no es lo mismo que informal. Un texto puede ser formal, cordial y fácil de entender a la vez.
+:::error «Formal es lo mismo que difícil»
+Un texto formal no necesita palabras rebuscadas ni frases largas. La misma guía describe el lenguaje claro como sencillo y directo, sin renunciar a la precisión. Un texto puede ser formal, cordial y fácil de entender a la vez.
 :::
 
 ## P15 · El ajuste fino: cortesía y claridad
 cubre: A1, C1
-fuentes: F-M2-08, F-M2-03, F-M2-02
+fuentes: F-M2-08, F-M2-03
 bloque: Escenario o conversación de ejemplo
 
-Casi nunca el primer borrador tiene el tono justo. A veces sale demasiado ceremonioso, otras veces demasiado seco. El ajuste se hace
-conversando con el asistente, una instrucción a la vez:
+Casi nunca el primer borrador tiene el tono justo. A veces sale demasiado ceremonioso; otras, demasiado seco. El ajuste se hace conversando con el asistente, con una instrucción a la vez, y estas son algunas que funcionan bien:
 
 | Si el borrador… | Pídele… |
 |---|---|
@@ -451,80 +306,49 @@ conversando con el asistente, una instrucción a la vez:
 | Suena a reclamo | «Cambia el tono a uno neutro: describe el problema y pide una solución» |
 | No suena a ti | «Usa frases simples, como las que yo escribiría» |
 
-La cortesía profesional no es adornar: es saludar, agradecer, pedir con claridad y no culpar. La claridad es que quien lee entienda
-a la primera qué pasa y qué tiene que hacer.
+La cortesía profesional no es adornar: es saludar, agradecer, pedir con claridad y no culpar. Mucha gente cree que más formal es más largo, y no es así. Fórmulas como «tengo el agrado de dirigirme a usted con el propósito de» no hacen más cortés un correo; solo lo alargan y lo hacen más difícil de leer. La claridad, por su parte, es que quien lee entienda a la primera qué pasa y qué tiene que hacer.
 
 :::ejemplo Andrés y el reclamo al proveedor
-El primer borrador de Andrés decía: «Es inaceptable que nuevamente no cumplan con los plazos». Le pidió a Gemini un tono neutro y
-recibió: «Le escribo porque el pedido del 7 de octubre no llegó en la fecha acordada. ¿Nos puede confirmar una nueva fecha de
-entrega?». Dice lo mismo, con más posibilidades de una respuesta rápida.
-:::
-
-:::error «Más formal es más largo»
-Agregar fórmulas como «tengo el agrado de dirigirme a usted con el propósito de» no hace el correo más cortés: lo hace más largo y
-más difícil de leer. La cortesía está en el trato, no en el largo.
+El primer borrador de Andrés decía: «Es inaceptable que nuevamente no cumplan con los plazos». Le pidió a Gemini un tono neutro y recibió: «Le escribo porque el pedido del 7 de octubre no llegó en la fecha acordada. ¿Nos puede confirmar una nueva fecha de entrega?». Dice lo mismo, con más posibilidades de una respuesta rápida.
 :::
 
 ## P16 · Revisión humana: tu lista de verificación
 cubre: C2, A2, S3
-fuentes: F-M2-02, F-M2-03, F-M2-07
+fuentes: F-M2-02, F-M2-07
 bloque: Lista de verificación (checklist) interactiva
 
-Un texto claro y sin errores relevantes no sale solo: sale de una revisión. Esta lista reúne lo que viste en el tema. Úsala antes de
-enviar cualquier texto hecho con IA.
+Un texto claro y sin errores relevantes no sale solo: sale de una revisión. La guía de lenguaje claro del Senado recomienda cerrar siempre con una lista de verificación, y esta reúne lo que viste en el tema. Úsala antes de enviar cualquier texto hecho con IA.
 
-**Contenido**
 - [ ] El objetivo se entiende en las primeras líneas.
-- [ ] Los datos son correctos: nombres, fechas, montos, números de pedido. Los comparé con el original.
-- [ ] No hay nada que la IA haya agregado y que yo no haya dicho.
+- [ ] Nombres, fechas, montos y números de pedido o de factura coinciden con el original.
+- [ ] No hay nada que la IA haya agregado sin que yo lo dijera.
+- [ ] El registro corresponde a la relación con quien lee, de usted o de tú.
+- [ ] El tono es el que necesito y el nivel de detalle es el que esa persona necesita.
+- [ ] Las oraciones son breves, en voz activa, y las siglas están explicadas.
+- [ ] Tiene asunto, el saludo termina en dos puntos y la despedida es adecuada.
+- [ ] La ortografía y la puntuación están revisadas.
 
-**Audiencia, tono y registro**
-- [ ] El registro corresponde a la relación con quien lee (usted o tú).
-- [ ] El tono es el que necesito: cordial, neutro, de disculpa.
-- [ ] El nivel de detalle es el que esa persona necesita.
-
-**Forma**
-- [ ] Oraciones breves y voz activa.
-- [ ] Siglas y tecnicismos explicados.
-- [ ] Saludo con dos puntos, despedida adecuada, asunto presente.
-- [ ] Ortografía y puntuación revisadas.
-
-Los errores de hecho son los más graves, porque la IA puede introducirlos con total seguridad. Una coma mal puesta se perdona; una
-fecha de entrega equivocada genera un problema.
+Los errores de hecho son los más graves, porque la IA puede introducirlos con total seguridad. Una coma mal puesta se perdona; una fecha de entrega o un monto equivocado generan un problema con un cliente o con un proveedor.
 
 :::comprueba
 El borrador de un correo de Andrés está bien escrito, pero dice «pedido 481» y el pedido real es el 418. ¿Qué tipo de error es?
 - a) Un error de tono
 - **b) Un error de hecho, el más relevante**
 - c) Un error de registro
-Retroalimentación: Es un dato equivocado. Puede generar confusión o un despacho mal hecho. Por eso los datos se comparan siempre con
-el original.
+Retroalimentación: Es un dato equivocado. Puede generar confusión o un despacho mal hecho. Por eso los datos se comparan siempre con el original.
 :::
 
 ## P17 · Tu firma, tu responsabilidad
 cubre: A2, S3
-fuentes: F-M2-07, F-M2-08, F-M1-12, F-H-15
+fuentes: F-M2-07, F-H-15
 bloque: Texto + recuadro destacado
 
-Cuando envías un texto, respondes por él. Da lo mismo si lo escribiste tú, si te ayudó una colega o si lo redactó un asistente de
-IA. Quien firma se hace cargo del mensaje.
+Cuando envías un texto, respondes por él. Da lo mismo si lo escribiste tú, si te ayudó una colega o si lo redactó un asistente: quien firma se hace cargo del mensaje. Es tentador pensar que, si lo escribió la IA, el error es de la IA. Para quien recibe el correo, el mensaje es tuyo; si promete una fecha que no se puede cumplir o trata mal a un cliente, la consecuencia es para ti y para tu equipo, no para la herramienta.
 
-La **responsabilidad sobre el mensaje** se traduce en prácticas concretas:
-- **Revisar todo antes de enviar.** Las guías de los proveedores insisten en que la persona es responsable del resultado final.
-- **Verificar los datos.** La IA puede inventar datos e incluso justificaciones que suenan convincentes.
-- **Cuidar la información.** No pegues en el asistente datos personales de clientes o colegas, ni información confidencial de una
-  empresa. Para practicar, usa datos ficticios, como los de Camila y Andrés.
-- **Configurar tu asistente.** En Gemini, si el ajuste de actividad está encendido, personas que revisan pueden leer conversaciones
-  para mejorar el servicio. Para evitarlo, se apaga ese ajuste o se usan chats temporales. Lo verás en detalle en el módulo 3.
+Esa responsabilidad se nota en tres hábitos. El primero es revisar todo antes de enviar y verificar los datos, porque un modelo puede inventar datos e incluso justificaciones que suenan convincentes. El segundo es cuidar la información. En tu trabajo manejas datos reales de clientes, proveedores y colegas: no los pegues en un asistente si tu empresa no lo permite, y para practicar usa copias sin datos sensibles o datos inventados. El tercero es configurar tu asistente. En Gemini, si el ajuste de actividad está encendido, personas que revisan pueden leer conversaciones para mejorar el servicio; para evitarlo se apaga ese ajuste o se usan chats temporales. Lo vas a ver en detalle en el módulo 3.
 
-:::error «Si lo escribió la IA, el error es de la IA»
-Para quien recibe el correo, el mensaje es tuyo. Si promete una fecha que no se puede cumplir o trata mal a un cliente, la
-consecuencia es para ti y para tu equipo, no para la herramienta.
-:::
-
-:::ejemplo Camila revisa antes de postular
-Gemini le propuso a Camila una carta que decía «manejo avanzado de sistemas de gestión». Ella nunca usó uno. Borró la frase y escribió
-lo que sí sabe hacer. Una afirmación falsa en una postulación puede costar más que una carta sencilla.
+:::ejemplo Camila revisa antes de enviar
+Un proveedor preguntó cuándo se le pagaría una factura. Gemini redactó una respuesta impecable que terminaba con «el pago se realizará este viernes». Nadie se había comprometido a esa fecha. Camila borró la frase, escribió que confirmaría la fecha con la gerenta de administración y recién entonces envió el correo.
 :::
 
 ## P18 · Cierre: tres textos para tu cargo
@@ -532,51 +356,40 @@ cubre: H1, C1, C2
 fuentes: F-M2-08, F-M2-02
 bloque: Texto + actividad de cierre (respuesta abierta)
 
-En este tema viste que en el trabajo se escriben géneros distintos: el **correo** resuelve algo puntual, la **minuta** registra
-acuerdos y compromisos, y el **informe ejecutivo** le da a quien decide lo esencial. Aprendiste a ajustar **audiencia, registro y
-tono**, a usar la IA como **borrador** y a revisar con una lista de verificación.
+En este tema viste que en el trabajo se escriben géneros distintos. El correo resuelve algo puntual, la minuta registra acuerdos y compromisos, y el informe ejecutivo le da a quien decide lo esencial. Aprendiste a decidir audiencia, registro y tono antes de escribir, a usar la IA para el borrador y ajustarlo conversando, y a revisar el resultado con una lista de verificación antes de firmarlo.
+
+La práctica de cierre junta todo eso con textos de tu propio cargo. Retoma el texto que anotaste en la primera pantalla y súmale los otros dos géneros. Si los datos son internos, cambia nombres y montos: lo que importa aquí es cómo ajustas el texto, no la información de tu empresa.
 
 :::actividad Tres textos, tres audiencias
-Toma el cargo del aviso de empleo que guardaste en el módulo 1 y produce con Gemini:
-1. **Un correo** para alguien externo (un cliente, un proveedor o una empresa a la que postulas).
-2. **Una minuta** breve de una reunión inventada de ese cargo, con al menos dos compromisos.
-3. **Un informe ejecutivo** de media página para una jefatura, con datos inventados.
+Produce con Gemini estos tres textos:
+1. Un correo para alguien externo, como un cliente o un proveedor.
+2. Una minuta breve de una reunión de tu área, con al menos dos compromisos.
+3. Un informe ejecutivo de media página para tu jefatura, con datos inventados o cambiados.
 
-Para cada texto:
-- anota la audiencia, el registro y el tono que elegiste;
-- guarda el primer borrador y tu versión final;
-- revisa con la lista de verificación de la pantalla 16 y marca qué corregiste.
-:::
-
-:::clave
-El informe ejecutivo que practicaste es la base del **brief** del Hito 2: objetivo, audiencia y mensaje. Guárdalo.
+Para cada uno, anota la audiencia, el registro y el tono que elegiste; guarda el primer borrador y tu versión final, y revísalo con la lista de la pantalla 16 marcando qué corregiste. El informe ejecutivo te va a servir de base para el brief del Hito 2.
 :::
 
 ## Ideas clave
 
-1. En el trabajo se repiten tres géneros: el correo resuelve algo puntual, la minuta registra acuerdos y compromisos, y el informe
-   ejecutivo le entrega a quien decide qué saber, por qué importa y qué hacer.
+1. En el trabajo se repiten tres géneros: el correo resuelve algo puntual, la minuta registra acuerdos y compromisos con responsable y fecha, y el informe ejecutivo le entrega a quien decide qué saber, por qué importa y qué hacer.
 2. Audiencia, registro y tono son tres decisiones distintas: quién lee, cuánta formalidad y qué actitud transmite el texto.
 3. Antes de escribir hay que saber para qué y para quién: esas respuestas son el contexto que se le da a la IA.
 4. La IA produce borradores: puede inventar datos con seguridad y varía entre respuestas, por eso todo se revisa antes de enviar.
-5. Un buen pedido de texto incluye objetivo y género, audiencia, registro y tono, datos y expectativas de largo y formato; luego se
-   ajusta conversando, un cambio a la vez.
-6. Lenguaje claro: oraciones breves, voz activa, estilo afirmativo y siglas explicadas. Formal no significa complicado.
-7. Quien firma responde por el mensaje: se verifican los datos y no se pegan datos personales ni confidenciales.
+5. Un buen pedido de texto incluye objetivo y género, audiencia, registro y tono, datos y expectativas de largo y formato; luego se ajusta conversando, un cambio a la vez.
+6. El lenguaje claro usa oraciones breves, voz activa, estilo afirmativo y siglas explicadas. Formal no significa complicado.
+7. Quien firma responde por el mensaje: verifica los datos y, para practicar, usa copias sin datos sensibles y respeta lo que diga su empresa.
 
 ## Glosario
 
-- **Género (de comunicación laboral)**: tipo de texto con un propósito y unas partes reconocibles, como el correo, la minuta o el
-  informe ejecutivo.
+- **Género (de comunicación laboral)**: tipo de texto con un propósito y unas partes reconocibles, como el correo, la minuta o el informe ejecutivo.
 - **Correo profesional**: mensaje breve con asunto, saludo, cuerpo conciso y despedida, escrito en registro formal.
-- **Minuta**: registro de una reunión con los temas tratados, los acuerdos y los compromisos con responsable y fecha. También se le
-  llama acta.
+- **Minuta**: registro de una reunión con los temas tratados, los acuerdos y los compromisos con responsable y fecha. También se le llama acta.
 - **Compromiso**: tarea acordada en una reunión, con una persona responsable y una fecha de cumplimiento.
-- **Informe ejecutivo**: texto breve, por lo general de una página, que entrega a quien decide el resultado principal, por qué importa
-  y la recomendación.
+- **Informe ejecutivo**: texto breve, por lo general de una página, que entrega a quien decide el resultado principal, por qué importa y la recomendación.
 - **Audiencia**: persona o grupo que va a leer un texto.
 - **Registro**: grado de formalidad de un texto: formal en lo profesional, informal con familia y amistades.
 - **Tono**: actitud que transmite un texto, como cordial, neutro, firme o de disculpa.
+- **Confabulación**: contenido falso que un modelo de IA presenta con seguridad; de forma coloquial se le llama alucinación.
 - **Lenguaje claro**: estilo de redacción simple y directo que facilita que las personas entiendan lo escrito, sin perder precisión.
 - **Voz activa**: forma de la oración en que quien hace la acción va primero: «Jorge revisará el stock».
 - **Borrador**: primera versión de un texto, que se revisa y corrige antes de usarla.
@@ -584,16 +397,11 @@ El informe ejecutivo que practicaste es la base del **brief** del Hito 2: objeti
 
 ## Conexión con el proyecto
 
-Este tema alimenta el **Hito 2 del proyecto aplicado: brief del proyecto + presentación de 6 láminas**. El problema u oportunidad
-que definiste en el Hito 1 se convierte ahora en un **brief**: un texto breve con objetivo, audiencia y mensaje. Escribirlo es
-aplicar lo que viste aquí: pensar en quien lee, empezar por lo esencial, como en el informe ejecutivo (P12 y P13), y revisarlo con la
-lista de verificación (P16). En el tema 3 de este módulo convertirás ese brief en las seis láminas. En el **caso M2-C1** analizarás
-cómo una empresa redacta con apoyo de IA sus respuestas a clientes y cómo las supervisa, y lo compararás con tu lista de verificación.
+Este tema alimenta el **Hito 2 del proyecto aplicado: brief del proyecto + presentación de 6 láminas**. El problema u oportunidad de tu trabajo que definiste en el Hito 1 se convierte ahora en un brief: un texto breve con objetivo, audiencia y mensaje, que por lo general va dirigido a tu jefatura. Escribirlo es aplicar lo que viste aquí: pensar en quien lee, empezar por lo esencial como en el informe ejecutivo (P12 y P13) y revisarlo con la lista de verificación (P16). En el tema 3 de este módulo vas a convertir ese brief en las seis láminas.
 
 ## Fuentes
 
-Detalle de cada fuente y de lo que respalda: `investigacion/M2.md`, `investigacion/M1.md` y `investigacion/HERRAMIENTAS-1.md`
-(consultadas el 24-10-2026).
+Detalle de cada fuente y de lo que respalda: `investigacion/M2.md` y `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
 
 - F-M2-01 · Red de Lenguaje Claro Chile (s. f.). Sitio institucional. https://www.lenguajeclarochile.cl/
 - F-M2-02 · Senado de Chile, Redacción de Sesiones (2025). Guía de lenguaje claro para el ámbito legislativo. https://cdn.senado.cl/portal-senado-produccion/s3fs-public/2025-09/guia-de-lenguaje-claro-para-el-ambito-legislativo.pdf
@@ -605,8 +413,5 @@ Detalle de cada fuente y de lo que respalda: `investigacion/M2.md`, `investigaci
 - F-M2-08 · Microsoft Support (2026). Introducción a la escritura de indicaciones en Microsoft Copilot. https://support.microsoft.com/es-es/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5
 - F-M2-11 · Anthropic (s. f.). Prompting best practices. https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices
 - F-M2-12 · Microsoft Learn (2026). Técnicas de ingeniería de indicaciones. https://learn.microsoft.com/es-es/azure/ai-foundry/openai/concepts/prompt-engineering
-- F-M1-09 · OpenAI Help Center (2026). ¿Dice ChatGPT la verdad? https://help.openai.com/es-es/articles/8313428-does-chatgpt-tell-the-truth
-- F-M1-12 · Google Workspace (2026). Cómo escribir instrucciones eficaces. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
-- F-H-10 · Google (s. f.). Dónde se puede usar la aplicación web de Gemini. https://support.google.com/gemini/answer/13575153?hl=es
 - F-H-14 · Google (s. f.). Empezar a usar la aplicación móvil Gemini. https://support.google.com/gemini/answer/14554984?hl=es
 - F-H-15 · Google (s. f.). Centro de Privacidad de las Aplicaciones de Gemini. https://support.google.com/gemini/answer/13594961?hl=es

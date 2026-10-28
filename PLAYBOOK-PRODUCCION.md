@@ -208,3 +208,5 @@ Lo que **sí** se traspasa:
   real: …`, citando las fuentes de la ficha del caso (F-M1C2-01, F-M3C1-02…). `validar-contenido.mjs` y `auditar.mjs` aceptan esas
   fuentes de `investigacion/casos/`. Pantallas: M1-AE4 P02, P13 y P16 (Mata v. Avianca, Air Canada); M3-AE4 P05 y P06 (Deloitte,
   Eindhoven); M4-AE3 P12 (voz Sky); M5-AE3 P06 y P13 (Klarna, Duolingo). Correspondencia de fondo sin ningún Parcial.
+- **Cambio 28-10:** se quitaron esos recuadros. Los casos ya no se nombran fuera de `casos/` (criterios en
+  `docs/CRITERIOS-28-10.md`); la técnica «casos reales» la cubre la actividad de análisis de cada caso.

@@ -9,38 +9,49 @@
       "icono": "user-check",
       "titulo": "Rol",
       "texto": "**¿Desde qué perspectiva responde?** Orienta el vocabulario, el tono y lo que considera importante.",
-      "ejemplo": "«Actúa como asistente administrativa con experiencia en atención de público».",
-      "ver": ["M1-AE2 P03"]
+      "ejemplo": "«Actúa como asistente administrativa de una constructora».",
+      "ver": [
+        "M1-AE2 P03"
+      ]
     },
     {
       "icono": "notebook-pen",
       "titulo": "Contexto",
       "texto": "**¿Cuál es la situación, para quién y por qué?** El asistente solo sabe lo que le cuentas: si un colega no entendería tu pedido, el modelo tampoco.",
-      "ejemplo": "«La carta la leerá la jefa de recursos humanos de una clínica».",
-      "ver": ["M1-AE2 P03"]
+      "ejemplo": "«Un proveedor pregunta por el pago de su factura; el pago está programado para el día 15».",
+      "ver": [
+        "M1-AE2 P03"
+      ]
     },
     {
       "icono": "target",
       "titulo": "Tarea",
       "texto": "**¿Qué tiene que hacer?** Empieza con un verbo claro: resume, reescribe, clasifica, redacta, ordena, compara.",
-      "ejemplo": "«Redacta el primer párrafo de mi carta de presentación».",
-      "ver": ["M1-AE2 P04"]
+      "ejemplo": "«Redacta la respuesta a su correo».",
+      "ver": [
+        "M1-AE2 P04"
+      ]
     },
     {
       "icono": "layout-template",
       "titulo": "Formato",
       "texto": "**¿Cómo lo entrega?** Forma (viñetas, tabla, párrafo), extensión y tono.",
-      "ejemplo": "«Un párrafo de no más de 80 palabras, tono cordial».",
-      "ver": ["M1-AE2 P04"]
+      "ejemplo": "«Un correo de no más de 80 palabras, tono cordial».",
+      "ver": [
+        "M1-AE2 P04"
+      ]
     },
     {
       "icono": "shield-check",
       "titulo": "Restricciones",
       "texto": "**¿Qué límites respeta?** Qué incluir, qué dejar fuera y de dónde sacar la información. Di qué hacer, no solo qué no hacer.",
-      "ejemplo": "«Usa solo la experiencia que te doy; no inventes logros».",
-      "ver": ["M1-AE2 P04"]
+      "ejemplo": "«Usa solo los datos que te doy; no prometas nada que no esté aquí».",
+      "ver": [
+        "M1-AE2 P04",
+        "M1-AE2 P07"
+      ]
     }
   ],
   "clave": "Meta mínima: **rol, contexto, tarea y formato**. Después revisa la respuesta, ajusta **una cosa a la vez** y guarda el prompt que funcionó como plantilla en tu biblioteca.",
-  "pie": "Basado en M1-AE2 (pantallas P02 a P04, P10 y P14)"
+  "pie": "Basado en M1-AE2 (pantallas P02 a P04, P07, P10 y P14)"
 }

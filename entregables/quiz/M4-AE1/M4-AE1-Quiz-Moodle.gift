@@ -12,9 +12,9 @@ $CATEGORY: IA-generativa-laboral/Formativos/M4-AE1
 ::M4-AE1-P2 (S4)::Andrés afirma\: «No necesito avisar que la imagen del afiche se hizo con IA\: el archivo ya trae una marca de procedencia». ¿Qué evaluación es correcta? {
 ~Verdadero, porque la marca de procedencia avisa sola a quien vea la imagen
 ~Verdadero, porque declarar el uso de IA es opcional en una pieza de trabajo
-=Falso\: esos metadatos pueden perderse al editar, compartir o capturar la pantalla, y ocultar el uso de IA es un riesgo
+=Falso\: esos metadatos pueden alterarse al editar o borrarse al compartir, y ocultar el uso de IA es un riesgo
 ~Falso, porque ninguna herramienta agrega marcas de procedencia a sus imágenes
-####Algunas herramientas agregan marcas, pero se pueden alterar al editar y las redes o una captura las borran. Confiar en que el archivo «ya lo dice» y ocultar el uso de IA daña la confianza. Pantalla P12 del Rise M4-T1\: «Riesgos reputacionales y dos casos de cambio».
+####Algunas herramientas agregan marcas, pero quien edita el archivo puede alterarlas y las redes sociales suelen borrarlas al compartir. Si la pieza tiene que decir que se hizo con IA, se dice de forma visible. Pantalla P12 del Rise M4-T1\: «Riesgos reputacionales y herramientas que cambian».
 }
 
 ::M4-AE1-P3 (S2 C2)::Para el boletín interno, Camila encuentra una foto con licencia CC BY-ND. Quiere cambiarle los colores y escribirle un título encima. ¿Puede hacerlo? {
@@ -33,12 +33,12 @@ $CATEGORY: IA-generativa-laboral/Formativos/M4-AE1
 ####Para lo que genera una herramienta de IA, los permisos están en sus términos de uso, y ese texto manda. Que no cobre no significa que no ponga condiciones. Pantalla P07 del Rise M4-T1\: «Términos de uso\: las reglas de lo que generas».
 }
 
-::M4-AE1-P5 (H1 C1 C2)::Una tienda de barrio le pide a Camila un video para mostrar a sus clientes en la caja; el video no se vende. Duda entre dos herramientas. ¿Cuál le conviene? {
+::M4-AE1-P5 (H1 C1 C2)::Camila prepara un video para la pantalla de la recepción de la constructora, donde esperan clientes y proveedores; el video no se vende. Duda entre dos herramientas. ¿Cuál le conviene? {
 ~Una con licencia no comercial, porque el video no se vende
 =Una que permita uso comercial, porque una pieza para clientes puede considerarse uso comercial
 ~Cualquiera, porque lo generado con IA no tiene dueño
 ~Una con licencia no comercial, siempre que le quite la marca de agua
-####Las piezas que una empresa usa con sus clientes, aunque no se vendan, pueden considerarse uso comercial. Ante la duda, se elige una herramienta que permita ese uso; que el video no se venda no lo vuelve no comercial. Pantalla P13 del Rise M4-T1\: «Análisis comparativo\: el caso de Rosa».
+####Las piezas que una organización usa con sus clientes, aunque no se vendan, pueden considerarse uso comercial. Ante la duda, se elige una herramienta que permita ese uso; que el video no se venda no lo vuelve no comercial. Pantalla P13 del Rise M4-T1\: «Análisis comparativo\: las piezas de Rosa».
 }
 
 ::M4-AE1-P6 (S4)::Rosa publicó un afiche cuya ilustración resultó casi igual a un personaje protegido. Dice\: «No lo hice a propósito, así que no hay problema». ¿Qué evaluación es correcta? {

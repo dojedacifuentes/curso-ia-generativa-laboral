@@ -1,7 +1,7 @@
 // M1-AE4 · Validación de resultados · quiz formativo (generado por scripts/quiz-juego.mjs)
 $CATEGORY: IA-generativa-laboral/Formativos/M1-AE4
 
-::M1-AE4-P1 (S1 C1)::Camila pide consejos para su entrevista y recibe\: «Según el estudio "Reclutamiento Hoy 2021", el 92 % de los reclutadores descarta a quien llega tarde». ¿Qué debe hacer con ese dato antes de usarlo? {
+::M1-AE4-P1 (S1 C1)::Camila prepara una minuta y el asistente le entrega\: «Según el estudio "Pagos Hoy 2021", el 92 % de las constructoras paga con atraso a sus proveedores». ¿Qué debe hacer con ese dato antes de usarlo? {
 ~Usarlo tal cual, porque el nombre del estudio y el año muestran que es real
 =Buscar el estudio en su origen, porque el nombre y el año también pueden ser inventados
 ~Pedir al asistente el enlace del estudio y usar el dato si se lo entrega
@@ -9,12 +9,12 @@ $CATEGORY: IA-generativa-laboral/Formativos/M1-AE4
 ####Un nombre de estudio, un año y un porcentaje dan apariencia de rigor, pero el modelo también los puede inventar. Toda cita se busca en su origen; un enlace que entrega el asistente es solo una pista hasta abrirlo y leerlo. Pantalla P03 del Rise M1-T4\: «Error 1\: alucinación».
 }
 
-::M1-AE4-P2 (S1 C1)::Andrés pide un aviso de bodeguero y entrega los requisitos\: grúa horquilla y turnos. El borrador dice\: «Buscamos un hombre joven, con experiencia en grúa horquilla y disponibilidad para turnos». ¿Qué error tiene? {
+::M1-AE4-P2 (S1 C1)::Andrés redacta con un asistente la publicación de una vacante de bodeguero y entrega los requisitos\: grúa horquilla y turnos. El borrador dice\: «Buscamos un hombre joven, con experiencia en grúa horquilla y disponibilidad para turnos». ¿Qué error tiene? {
 ~Desactualización, porque los requisitos del cargo pueden haber cambiado
 ~Ninguno, porque la grúa horquilla y los turnos son datos correctos del cargo
-=Sesgo, porque supone el género y la edad de quien postula sin que se pidiera
+=Sesgo, porque supone el género y la edad de quien ocupará el cargo sin que se pidiera
 ~Alucinación, porque agregó la experiencia en grúa horquilla como si fuera un dato propio
-####El texto puede ser correcto en los datos y aun así ser parcial. Preguntarse a quién deja fuera la respuesta muestra el sesgo\: el aviso debe hablar del cargo y sus requisitos, no del género ni la edad. Pantalla P04 del Rise M1-T4\: «Error 2\: sesgo».
+####El texto puede ser correcto en los datos y aun así ser parcial. Preguntarse a quién deja fuera la respuesta muestra el sesgo\: la publicación debe hablar del cargo y sus requisitos, no del género ni la edad. Pantalla P04 del Rise M1-T4\: «Error 2\: sesgo».
 }
 
 ::M1-AE4-P3 (S1 C1)::El asistente le da a Rosa el valor de un examen y agrega «información actualizada a 2026». ¿Basta eso para usar el valor? {
@@ -33,7 +33,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M1-AE4
 ####El resumen omitió una excepción del texto entregado. Ese error se detecta comparando con el original\: el reporte es la referencia y no se necesita otra fuente. Pantalla P06 del Rise M1-T4\: «Otros errores\: no seguir el texto y contradecirse».
 }
 
-::M1-AE4-P5 (S2 C2)::El asistente le da a Camila el enlace a un sitio con consejos para postular, que ella no conoce. El sitio se ve muy profesional. ¿Qué hace para evaluarlo? {
+::M1-AE4-P5 (S2 C2)::El asistente le da a Camila el enlace a un sitio con consejos para archivar documentos digitales, que ella no conoce. El sitio se ve muy profesional. ¿Qué hace para evaluarlo? {
 ~Lo lee completo, de arriba abajo, antes de formarse una opinión
 ~Revisa que tenga logo, buen diseño y un dominio de aspecto institucional
 ~Le pregunta al asistente si ese sitio es confiable
@@ -49,7 +49,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M1-AE4
 ####No todo exige el checklist completo\: un saludo no lo necesita. Una cifra que irá en un informe, un requisito legal o un dato que afecta a otra persona, sí. Pantalla P12 del Rise M1-T4\: «Tu checklist de validación».
 }
 
-::M1-AE4-P7 (H1 C2)::Camila revisa un dato de su carta. Dos fuentes confiables e independientes coinciden en un valor distinto del que dio el asistente. ¿Qué hace? {
+::M1-AE4-P7 (H1 C2)::Camila revisa un dato de su minuta. Dos fuentes confiables e independientes coinciden en un valor distinto del que dio el asistente. ¿Qué hace? {
 ~Lo mantiene, porque el asistente lo entregó con seguridad
 ~Le pregunta al asistente «¿estás seguro?» y usa lo que responda
 =Lo corrige con el dato de la fuente original

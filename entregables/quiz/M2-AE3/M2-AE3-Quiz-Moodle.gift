@@ -1,12 +1,12 @@
 // M2-AE3 · Presentaciones con IA · quiz formativo (generado por scripts/quiz-juego.mjs)
 $CATEGORY: IA-generativa-laboral/Formativos/M2-AE3
 
-::M2-AE3-P1 (S1 A1)::Camila prepara una presentación para su jefatura sobre la atención de clientes en la oficina. ¿Cuál funciona mejor como mensaje clave? {
-~«La atención de clientes en la oficina»
-~«Atención de clientes, archivo de documentos y agenda de reuniones»
-=«Responder las consultas en el día reduce los reclamos»
-~«Es importante atender bien a los clientes»
-####El mensaje clave es una oración con verbo, con una sola idea y que se puede discutir. «La atención de clientes en la oficina» es un tema, la lista junta tres ideas y «Es importante atender bien» nadie lo discutiría, así que no dice nada. Pantalla P03 del Rise M2-T3\: «El mensaje clave en una oración».
+::M2-AE3-P1 (S1 A1)::Camila prepara para la gerenta de administración una presentación sobre el archivo de documentos de la oficina. ¿Cuál funciona mejor como mensaje clave? {
+~«El archivo de documentos de la oficina»
+~«Archivo de documentos, registro de facturas y agenda de reuniones»
+=«Ordenar el archivo por fecha y tipo de documento permite encontrar cualquier papel rápido»
+~«Es importante tener ordenada la oficina»
+####El mensaje clave es una oración con verbo, con una sola idea y que se puede discutir. «El archivo de documentos de la oficina» es un tema, la lista junta tres ideas y «Es importante tener ordenada la oficina» nadie lo discutiría, así que no dice nada. Pantalla P03 del Rise M2-T3\: «El mensaje clave en una oración».
 }
 
 ::M2-AE3-P2 (S1 C1)::Andrés tiene estas láminas desordenadas\: (1) propuesta; (2) qué pedimos; (3) mensaje clave; (4) problema y por qué importa; (5) situación actual; (6) qué se necesita y qué se gana. ¿Qué orden cuenta mejor la historia para su jefatura? {

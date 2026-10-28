@@ -48,10 +48,10 @@
    - d) Ley 19.628, Sobre protección de la vida privada, Gemini (2026).
    *Retroalimentación:* La referencia de una ley chilena lleva número, nombre, fecha de promulgación y Diario Oficial [D.O.]. La opción b omite la fecha y el D.O., y sin ellos no se sabe de qué versión hablas.
 
-7. *(S2 · C2 · P11)* Camila usó como base de su tabla una clasificación de avisos que generó Gemini. ¿Qué referencia es la más completa?
+7. *(S2 · C2 · P11)* Camila usó como base de su tabla una clasificación de facturas que generó Gemini. ¿Qué referencia es la más completa?
    - a) Gemini (2026).
-   - b) Google. *Clasificación de avisos*. Gemini.
-   - **c) Google. (2026, 24 de octubre). *Clasificación de avisos* [Chat de IA generativa]. Gemini [modelo y versión]. URL de la conversación**
+   - b) Google. *Clasificación de facturas*. Gemini.
+   - **c) Google. (2026, 24 de octubre). *Clasificación de facturas* [Chat de IA generativa]. Gemini [modelo y versión]. URL de la conversación**
    - d) No se cita, porque el texto lo pidió ella y después lo revisó y corrigió
    *Retroalimentación:* Un texto generado por IA se cita con la empresa, la fecha, el título del chat, [Chat de IA generativa], el modelo con su versión y la URL. A la opción b le faltan la fecha, la descripción, la versión y la URL.
 

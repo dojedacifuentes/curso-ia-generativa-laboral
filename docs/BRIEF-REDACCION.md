@@ -7,7 +7,8 @@ Vas a redactar **un** archivo `contenido/M<n>/M<n>-AE<k>.md` del curso «IA gene
 1. `WORKFLOW.md` y `FORMATO-CONTENIDO-BASE.md`: reglas y formato. Son obligatorios.
 2. `data/curso.json`: tu AE (texto, Bloom, códigos S/H/A/C, técnica, número de pantallas, descripción del quiz) y el módulo (competencia,
    recursos, casos e hito del proyecto).
-3. `contenido/M1/M1-AE1.md`: la **muestra**. Imita su estructura, extensión (unas 180–260 palabras por pantalla), tono y recuadros.
+3. `contenido/M1/M1-AE1.md`: la **muestra**. Imita su extensión (unas 180–260 palabras por pantalla) y tono; el estilo y los recuadros siguen
+   `docs/CRITERIOS-28-10.md` §5.
 4. `investigacion/M<n>.md`, `investigacion/HERRAMIENTAS-1.md` y `investigacion/HERRAMIENTAS-2.md`: las fuentes que puedes citar.
 5. Los demás AE ya escritos de tu módulo, si existen, para no repetirte y para conectar con lo anterior.
 
@@ -25,25 +26,24 @@ Vas a redactar **un** archivo `contenido/M<n>/M<n>-AE<k>.md` del curso «IA gene
   - En la sección final «Fuentes» se listan todas las que citaste: `- F-M2-03 · Organismo (año). Título. URL`.
   - Si algo no tiene respaldo en `investigacion/`, no lo afirmes: plantéalo como recomendación del curso o déjalo fuera. Nunca inventes
     fuentes, cifras, artículos de ley ni funciones de herramientas.
-- **No uses los casos de empresas reales** de la hoja «Casos y proyecto» (Morgan Stanley, Samsung, Klarna, etc.): tienen su propio
-  recurso y aún no están verificados.
+- **No nombres los casos de empresas reales** de la hoja «Casos y proyecto»: tienen su propio recurso (`casos/`).
 - **Herramientas.**
   - Usa el asistente principal recomendado en HERRAMIENTAS-1 y las alternativas gratuitas que ahí figuran.
   - Las prácticas tienen que poder hacerse gratis y desde el celular. Si una herramienta requiere pago para algo, dilo o propone la
     alternativa gratuita.
-- **Audiencia:** personas cesantes o en búsqueda de empleo y personas que ya trabajan. Usa cargos y tareas comunes, sin suponer un
-  empleo actual.
-- **Personajes:** usa los mismos de la muestra, Camila (busca empleo como asistente administrativa) y Andrés (encargado de bodega). Si
+- **Audiencia (28-10):** solo personas que están trabajando, en tareas administrativas y de productividad. Lee y aplica
+  `docs/CRITERIOS-28-10.md` (audiencia, personajes, casos, máximo 2 fuentes y 1 recuadro por pantalla, estilo).
+- **Personajes:** usa los mismos de la muestra, Camila (asistente administrativa en una constructora) y Andrés (encargado de bodega). Si
   hace falta, agrega una tercera persona ficticia con un oficio común.
 - **Tono:** español de Chile, tuteo, frases cortas. No digas «oficial», «textual», «literal» ni «plan formativo».
 - **Técnica metodológica:** la de la planilla manda el tipo de pantallas. Por ejemplo, «laboratorio de prompts» pide actividades de
   antes/después y «resolución de problemas» pide ejercicios con datos de práctica.
-- **Recuadros:** incluye al menos 3 `:::error` en el AE (alimentan los distractores del quiz), al menos 3 `:::comprueba` y
-  `:::actividad` donde la técnica lo pida.
+- **Recuadros (28-10):** máximo 1 por pantalla. Al menos 2 `:::comprueba` en el AE y las `:::actividad` que pida la técnica.
+  Los errores frecuentes pueden ir en el texto («Un error común es…»).
 - **Cierre:** termina con:
   - «Ideas clave» (5–7);
   - «Glosario» (8–14 términos; no repitas los de AE anteriores del módulo salvo que el AE los redefina);
-  - «Conexión con el proyecto» (el hito y el caso del módulo que trabajan tu AE, según curso.json);
+  - «Conexión con el proyecto» (el hito del módulo que trabaja tu AE, según curso.json; sin nombrar casos);
   - «Fuentes».
 
 ## Al terminar

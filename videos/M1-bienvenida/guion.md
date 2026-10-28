@@ -2,9 +2,15 @@
 **Curso:** IA generativa para entornos laborales
 **Módulo 1:** Introducción a la IA generativa y prompt básico
 **Voz:** EVA · Camila Vega (HeyGen, ElevenLabs eleven_v4)
-**Duración:** 2:37 (máximo pedido: 3:00)
+**Duración:** 2:13 (v5; máximo pedido: 3:00)
 
-> El texto es el mismo de la versión con la voz Catalina; está pendiente saber cuánto margen hay para adaptarlo (consulta del 25-10).
+> **v5 (25-10):** los bloques 3, 4 y 5 quedaron en genérico, sin nombrar casos ni evaluaciones (pedido del usuario: que el video
+> sirva aunque cambien los casos). Los bloques 1 y 2 no cambian: su voz es la de la v4 y los bloques 3 a 5 se generaron aparte
+> (misma voz y modelo) y se unieron en la pausa de 85,17 s. Sigue pendiente saber cuánto margen hay para adaptar el texto (consulta del 25-10).
+
+> **28-10 · audiencia (pendiente de regrabar):** el curso ahora es solo para personas que trabajan (`docs/CRITERIOS-28-10.md`). Este
+> guion ya trae las dos frases corregidas (1:13 y bloque 4), pero el MP4 v5 todavía tiene las frases viejas: Camila como
+> postulante y el proyecto sobre un trabajo futuro. Hay que regenerar esas dos frases (voz, karaoke y subtítulos) con el método «Cambiar solo una parte del guion».
 
 ---
 
@@ -24,21 +30,21 @@ En este módulo vas a recorrer cuatro temas.
 
 **1:03 ·** Y cuarto, la validación: detectar alucinaciones, errores y sesgos, y contrastar lo importante con al menos dos fuentes confiables antes de usarlo.
 
-**1:13 ·** En los ejemplos te acompañan Camila, que busca trabajo como asistente administrativa, y Andrés, encargado de bodega. Practicarás con Gemini, aunque también sirven ChatGPT o Copilot.
+**1:13 ·** En los ejemplos te acompañan Camila, asistente administrativa en una constructora, y Andrés, encargado de bodega. Practicarás con Gemini, aunque también sirven ChatGPT o Copilot.
 
-## 3. Cómo se evalúa · voz + slides · 1:25–1:58
+## 3. Cómo vas a avanzar · voz + slides · 1:25–1:45
 
-¿Y cómo se evalúa? Cada tema cierra con un quiz en formato de juego, de ocho preguntas. Queda registrado tu mejor puntaje, de cero a cien, y si te equivocas, el juego te indica qué pantalla repasar.
+¿Y cómo vas a saber si vas aprendiendo? Al cerrar cada tema pondrás a prueba lo que aprendiste, y si algo no quedó claro, sabrás qué repasar.
 
-**1:39 ·** Además, vas a analizar dos casos reales: cómo Morgan Stanley controla la calidad de su asistente de IA, y qué pasó cuando la IA inventó fallos judiciales en un juicio contra Avianca. Cada caso tiene un análisis guiado, una aplicación a tu proyecto, una autocorrección y una pregunta para el foro.
+**1:34 ·** Además, vas a analizar casos reales del uso de la IA generativa en el trabajo: qué se hizo, qué salió bien, qué salió mal y qué puedes llevar a tu propio trabajo.
 
-## 4. Hito 1 del proyecto · voz + slides · 1:58–2:21
+## 4. Tu proyecto · voz + slides · 1:45–1:56
 
-Todo esto alimenta el Hito uno de tu proyecto aplicado: un problema u oportunidad real y tu biblioteca de prompts, versión uno. Partes guardando un aviso de empleo real, de un cargo que ejerces o al que aspiras. De ahí eliges una tarea como tu desafío laboral, y armas tres plantillas de prompts: probadas, mejoradas y validadas antes de usarlas.
+Y todo esto lo vas a llevar a tu proyecto aplicado: partes de una tarea real de tu trabajo y en cada módulo la vas a ir mejorando con lo que aprendes.
 
-## 5. Cierre · avatar · 2:21–2:37
+## 5. Cierre · avatar · 1:56–2:13
 
-Así que ten a mano tu celular o tu computador, abre Gemini y busca ese aviso de empleo, sin incluir datos personales. Y quédate con esta idea: una respuesta que suena segura no es una respuesta verificada. ¡Nos vemos en el primer tema!
+Así que ten a mano tu celular o tu computador, abre Gemini y piensa en una tarea de tu trabajo en la que te gustaría que te ayudara, sin incluir datos personales. Y quédate con esta idea: una respuesta que suena segura no es una respuesta verificada. ¡Nos vemos en el primer tema!
 
 ---
 
@@ -52,7 +58,8 @@ Así que ten a mano tu celular o tu computador, abre Gemini y busca ese aviso de
 | Temperatura, longitud e iteración; comparar salidas con método | M1-AE3 · P01 y P11 |
 | Contrastar con al menos dos fuentes confiables | M1-AE4 · P12 |
 | Camila y Andrés; Gemini, ChatGPT o Copilot | M1-AE1 · P01; M1-AE2 · P01 |
-| Quiz juego de 8 preguntas, mejor puntaje de 0 a 100, indica qué pantalla repasar | LEEME · 3 Quiz juego SCORM |
-| Casos M1-C1 (Morgan Stanley) y M1-C2 (Mata v. Avianca); partes de cada caso | 5 Casos de aplicación; LEEME |
-| Hito 1: problema u oportunidad real + biblioteca de prompts v1; aviso de empleo; tres plantillas | M1-AE1 · P14 y Conexión con el proyecto; M1-AE2 · P16; M1-C2 · Aplicación |
-| «Una respuesta que suena segura no es una respuesta verificada»; sin datos personales | M1-C2 · Contexto; M1-AE1 · P14 |
+| Al cerrar cada tema pones a prueba lo aprendido y sabes qué repasar (en genérico) | LEEME · 3 Quiz juego SCORM (acción remedial) |
+| Casos reales del uso de la IA generativa en el trabajo (en genérico, sin nombrarlos) | Carpeta 5 de Drive (en genérico) |
+| Proyecto aplicado: una tarea real de tu trabajo, que mejoras en cada módulo | M1-AE1 · Conexión con el proyecto; data/curso.json (hito por módulo) |
+| Sin datos personales | M1-AE1 · P14 |
+| «Una respuesta que suena segura no es una respuesta verificada» | M1-AE4 · «suena segura aunque no lo esté» |

@@ -232,7 +232,7 @@ if (casos.length) console.log(`${casos.length} casos en entregables/casos`);
 const DOCUMENTOS = {
   proceso: ['docs/PROCESO.md', 'PLAYBOOK-PRODUCCION.md', 'WORKFLOW.md', 'FORMATO-CONTENIDO-BASE.md', 'docs/FORMATO-QUIZ.md',
     'docs/FORMATO-INFOGRAFIA.md', 'docs/FORMATO-CASO.md', 'docs/BRIEF-REDACCION.md', 'docs/PERSONAJES.md', 'docs/CORRESPONDENCIA.md',
-    'docs/CORRESPONDENCIA-FONDO.md', 'docs/AUDITORIA.md', 'docs/PENDIENTES-VERIFICACION.md'],
+    'docs/CORRESPONDENCIA-FONDO.md', 'docs/AUDITORIA.md', 'docs/PENDIENTES-VERIFICACION.md', 'docs/CRITERIOS-28-10.md'],
   investigacion: ['investigacion/M1.md', 'investigacion/M2.md', 'investigacion/M3.md', 'investigacion/M4.md', 'investigacion/M5.md',
     'investigacion/M6.md', 'investigacion/HERRAMIENTAS-1.md', 'investigacion/HERRAMIENTAS-2.md'],
   'fichas-casos': casos.map(id => `investigacion/casos/${id}.md`).filter(f => fs.existsSync(path.join(RAIZ, f))),
@@ -270,8 +270,9 @@ console.log(`${documentos.length} documentos en entregables/documentos`);
 if (!process.argv.includes('--sin-pdf')) {
   const { execFileSync } = await import('node:child_process');
   const { pathToFileURL } = await import('node:url');
-  const nav = ['C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe', 'C:/Program Files/Microsoft/Edge/Application/msedge.exe',
-    'C:/Program Files/Google/Chrome/Application/chrome.exe'].find(c => fs.existsSync(c));
+  // Chrome primero: desde el 28-10 Edge headless deja de abrir archivos locales en este equipo (ERR_FILE_NOT_FOUND)
+  const nav = ['C:/Program Files/Google/Chrome/Application/chrome.exe', 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',
+    'C:/Program Files/Microsoft/Edge/Application/msedge.exe'].find(c => fs.existsSync(c));
   if (!nav) throw new Error('No encontré Edge ni Chrome para imprimir PDF');
   const imprimir = (html, pdf) => {
     if (fs.existsSync(pdf)) fs.unlinkSync(pdf);

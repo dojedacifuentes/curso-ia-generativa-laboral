@@ -75,7 +75,8 @@ investigacion/ (fuentes F-…) ────────────────�
   - Al final: ideas clave, glosario, conexión con el proyecto y fuentes.
 - **Muestra y brief:** primero se escribió M1-AE1 como muestra. Los demás se redactaron con `docs/BRIEF-REDACCION.md`, un AE por
   subagente.
-- **Audiencia:** personas cesantes o en búsqueda de empleo, y trabajadores. Herramientas gratuitas y que funcionen en el celular.
+- **Audiencia (corregida el 28-10):** solo personas que están trabajando, que usan IA en tareas administrativas y de productividad.
+  Herramientas gratuitas y que funcionen en el celular. Criterios en `docs/CRITERIOS-28-10.md`.
   Personajes ficticios recurrentes, descritos en `docs/PERSONAJES.md`.
 - **Control:** `node scripts/validar-contenido.mjs` revisa:
   - el título y el texto del AE, iguales a la planilla;
@@ -113,8 +114,9 @@ La planilla trae 11 casos con empresas reales, todos marcados «Por verificar» 
      **lo que NO se puede afirmar** y los ajustes respecto de la planilla.
   2. **Caso para el estudiante** (`casos/<id>.md`): contexto, qué pasó, análisis guiado de 5 o 6 preguntas, aplicación al proyecto,
      autocorrección y pregunta para el foro.
-  3. **Conexión con los AE:** los AE cuya técnica pide «casos reales» resumen el caso en un recuadro «Caso real», con las
-     fuentes de la ficha. Son M1-AE4, M3-AE4, M4-AE3 y M5-AE3.
+  3. **Conexión con los AE:** desde el 28-10 los casos son un recurso aparte. El contenido base, los quiz, las infografías y los
+     videos no los nombran (antes los AE M1-AE4, M3-AE4, M4-AE3 y M5-AE3 los resumían en un recuadro «Caso real»), para que cambiar
+     un caso no obligue a cambiar todo. La técnica «casos reales» de esos AE se cumple con la actividad de análisis del caso.
 - **Resultado de la verificación:**
 
   | Estado | Casos |

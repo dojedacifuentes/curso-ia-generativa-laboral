@@ -21,10 +21,13 @@ Reglas:
 - Pantallas: exactamente las de la columna «Pantallas Rise» (M1-AE1 = 16).
 - La técnica metodológica de la planilla manda el tipo de pantallas. Por ejemplo, «exposición interactiva + ejemplos guiados» pide un
   ejemplo laboral en casi todas.
-- Audiencia: personas cesantes o en búsqueda de empleo, y personas que ya trabajan. Los ejemplos usan cargos y tareas comunes, sin
-  suponer un empleo actual ni licencias pagadas. Las herramientas deben tener plan gratuito y usarse desde el celular.
-- Español de Chile, tuteo, frases cortas. Sin cifras ni casos reales sin fuente: los casos con empresas reales van en su propio recurso
-  (hoja «Casos y proyecto»), una vez verificados.
+- Audiencia (cambio del 28-10): **solo personas que están trabajando**, que usan IA en tareas administrativas y de productividad. Los
+  ejemplos hablan de su cargo actual. Las herramientas siguen siendo gratuitas y usables desde el celular. Detalle en
+  `docs/CRITERIOS-28-10.md`.
+- Español de Chile, tuteo, frases cortas. Sin cifras sin fuente. Los casos con empresas reales van solo en su propio recurso
+  (`casos/`): el contenido no los nombra.
+- Máximo 2 fuentes y 1 recuadro por pantalla; prosa antes que listas (ver `docs/CRITERIOS-28-10.md` §5). Control:
+  `node scripts/revisar-criterios.mjs`.
 - Personajes de ejemplo ficticios y recurrentes: no son empresas ni personas reales.
 
 ## Estructura del archivo

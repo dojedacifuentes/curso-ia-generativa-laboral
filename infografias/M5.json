@@ -2,7 +2,7 @@
   "modulo": 5,
   "recurso": "R084",
   "titulo": "Matriz impacto–riesgo para priorizar tareas a automatizar",
-  "bajada": "Antes de automatizar, elimina lo innecesario y simplifica. Luego cruza impacto y riesgo: qué va primero y qué necesita a una persona.",
+  "bajada": "Antes de automatizar una tarea de tu cargo, elimina lo innecesario y simplifica. Luego cruza impacto y riesgo: qué va primero y qué necesita a una persona.",
   "tipo": "matriz",
   "ejes": { "x": "Impacto", "y": "Riesgo" },
   "bloques": [
@@ -36,5 +36,5 @@
     }
   ],
   "clave": "**Impacto:** ¿se repite seguido?, ¿te quita tiempo?, ¿mejora algo para otras personas? **Riesgo:** ¿usa datos personales?, ¿afecta a personas, dinero o plazos?, ¿cuesta ver el error a tiempo? **Dos o tres «sí» = alto.**",
-  "pie": "Basado en M5-AE1 (pantallas P08 a P12)"
+  "pie": "Basado en M5-AE1 (pantallas P08 a P13)"
 }

@@ -49,10 +49,10 @@ $CATEGORY: IA-generativa-laboral/Formativos/M3-AE3
 ####La referencia de una ley chilena lleva número, nombre, fecha de promulgación y Diario Oficial [D.O.]. La opción b omite la fecha y el D.O., y sin ellos no se sabe de qué versión hablas. Pantalla P10 del Rise M3-T3\: «APA 7\: citar una ley chilena».
 }
 
-::M3-AE3-P7 (S2 C2)::Camila usó como base de su tabla una clasificación de avisos que generó Gemini. ¿Qué referencia es la más completa? {
+::M3-AE3-P7 (S2 C2)::Camila usó como base de su tabla una clasificación de facturas que generó Gemini. ¿Qué referencia es la más completa? {
 ~Gemini (2026).
-~Google. Clasificación de avisos. Gemini.
-=Google. (2026, 24 de octubre). Clasificación de avisos [Chat de IA generativa]. Gemini [modelo y versión]. URL de la conversación
+~Google. Clasificación de facturas. Gemini.
+=Google. (2026, 24 de octubre). Clasificación de facturas [Chat de IA generativa]. Gemini [modelo y versión]. URL de la conversación
 ~No se cita, porque el texto lo pidió ella y después lo revisó y corrigió
 ####Un texto generado por IA se cita con la empresa, la fecha, el título del chat, [Chat de IA generativa], el modelo con su versión y la URL. A la opción b le faltan la fecha, la descripción, la versión y la URL. Pantalla P11 del Rise M3-T3\: «Citar contenido generado por IA».
 }

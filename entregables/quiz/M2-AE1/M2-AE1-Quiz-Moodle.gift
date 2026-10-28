@@ -23,7 +23,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M2-AE1
 ####El informe ejecutivo le da a quien decide lo que necesita para decidir. La minuta registra acuerdos y compromisos de una reunión, y el correo resuelve algo puntual. Pantalla P02 del Rise M2-T1\: «Tres géneros de la comunicación laboral».
 }
 
-::M2-AE1-P4 (A1 C2)::Gemini le entrega a Camila este borrador\: asunto «Consulta por postulación», saludo «Estimada Sra. Pérez,» y un cuerpo breve y cordial. ¿Qué corrección corresponde antes de enviarlo? {
+::M2-AE1-P4 (A1 C2)::Gemini le entrega a Camila un correo para un proveedor\: asunto «Factura pendiente, orden de compra 2045», saludo «Estimada Sra. Pérez,» y un cuerpo breve y cordial. ¿Qué corrección corresponde antes de enviarlo? {
 =Cambiar la coma del saludo por dos puntos
 ~Agregar «tengo el agrado de dirigirme a usted» para sonar más cortés
 ~Pasar a un trato de tú para sonar más cercana

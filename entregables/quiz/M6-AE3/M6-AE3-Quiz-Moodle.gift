@@ -8,7 +8,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M6-AE3
 ####Cada indicador se compara con su línea base y con su meta, con número y unidad. Mejorar sin llegar a la meta no es cumplirla, pero tampoco es un fracaso. Pantalla P02 del Rise M6-T3\: «Mide contra tu línea base».
 }
 
-::M6-AE3-P2 (S1 A2 C1)::Los reclamos del área de Tomás bajaron a la mitad después de usar su flujo con IA. Ese mismo mes llegó una persona más a su equipo. ¿Qué conclusión es honesta? {
+::M6-AE3-P2 (S1 A2 C1)::Tomás supervisa un equipo de atención al cliente. Los reclamos de su área bajaron a la mitad después de usar su flujo con IA. Ese mismo mes llegó una persona más a su equipo. ¿Qué conclusión es honesta? {
 ~El flujo con IA redujo los reclamos a la mitad
 ~No puede informar nada, porque hubo otro cambio en el periodo
 ~Debe omitir la llegada de la persona nueva, porque no es parte del proyecto
@@ -23,23 +23,23 @@ $CATEGORY: IA-generativa-laboral/Formativos/M6-AE3
 ####Comparar con casos parecidos que no pasaron por el cambio fortalece la conclusión, aunque el grupo sea pequeño. Más semanas con el mismo flujo no separan la práctica de la IA, y un promedio dado por un asistente no describe su caso. Pantalla P03 del Rise M6-T3\: «Lo que el antes y después no te dice».
 }
 
-::M6-AE3-P4 (H1 A1)::Rosa revisa sus resultados\: las consultas con días acumulados de años anteriores fallaron más que las otras. ¿Cuál propuesta de mejora está bien planteada? {
+::M6-AE3-P4 (H1 A1)::Rosa revisa sus resultados\: las consultas sobre preparación de exámenes fallaron más que las otras. ¿Cuál propuesta de mejora está bien planteada? {
 ~«Mejorar el prompt para que responda mejor»
 ~«Cambiar a una herramienta de IA más nueva»
-=«Agregar a la plantilla un ejemplo con días acumulados, porque fallaron más, y probarla con los mismos 10 casos»
+=«Agregar a la plantilla un ejemplo de consulta sobre preparación de exámenes, porque fallaron más, y probarla con los mismos 10 casos»
 ~«Revisar con más cuidado las consultas difíciles de ahora en adelante»
 ####Una buena propuesta dice qué cambia, por qué y cómo se medirá en el próximo ciclo. «Mejorar el prompt» suena bien, pero no dice qué cambiar ni cómo saber si funcionó. Pantalla P04 del Rise M6-T3\: «Propón mejoras\: cierra el ciclo».
 }
 
 ::M6-AE3-P5 (S2 A2 C2)::Rosa prepara la frase central de su pitch. ¿Cuál comunica el resultado y su límite con honestidad? {
-~«La IA revolucionó la atención de consultas de vacaciones»
+~«La IA revolucionó la atención de consultas de los pacientes»
 ~«Respondo consultas el doble de rápido gracias a la IA»
 =«En cuatro semanas y con 60 consultas, bajé de 9 a 4 minutos; una parte puede deberse a la práctica»
 ~«Bajé de 9 a 4 minutos por consulta; los límites van en un anexo del informe»
 ####Un cambio se comunica con dirección y tamaño, en contexto, y los límites van en un lugar visible. Dejarlos en un anexo parece ordenado, pero si la audiencia los descubre después, deja de creer en todo lo demás. Pantalla P05 del Rise M6-T3\: «Cuenta tus resultados con honestidad».
 }
 
-::M6-AE3-P6 (S3 C2)::Ordena el pitch de Rosa\: 1) lo que propone a su jefatura, 2) «de 9 a 4 minutos», 3) una pregunta que capte la atención, 4) la tarea y su línea base, 5) su flujo con revisión, 6) qué no puede concluir. {
+::M6-AE3-P6 (S3 C2)::Ordena el pitch de Rosa\: 1) lo que propone a la coordinadora del centro, 2) «de 9 a 4 minutos», 3) una pregunta que capte la atención, 4) la tarea y su línea base, 5) su flujo con revisión, 6) qué no puede concluir. {
 ~3 → 4 → 5 → 2 → 1 → 6
 ~3 → 4 → 2 → 5 → 6 → 1
 ~1 → 3 → 4 → 5 → 2 → 6
@@ -54,9 +54,9 @@ $CATEGORY: IA-generativa-laboral/Formativos/M6-AE3
 ####Pedir que no cambie cifras ayuda, pero no lo garantiza\: hay que revisar que cada número del guion coincida con la tabla de resultados. Gemini sí puede ayudar a acortar y simplificar el guion. Pantalla P07 del Rise M6-T3\: «Escribe y ensaya tu pitch».
 }
 
-::M6-AE3-P8 (S3 H1)::Rosa arma su portafolio para postular a un cargo de analista de recursos humanos. ¿Qué hace? {
+::M6-AE3-P8 (S3 H1)::Rosa arma su portafolio para la conversación de su evaluación de desempeño con la coordinadora del centro. ¿Qué hace? {
 ~Sube cada borrador, prueba y versión, para mostrar todo su esfuerzo
-=Elige tres a cinco piezas pensadas para ese empleador, cada una con una nota sobre por qué la incluye
+=Elige tres a cinco piezas pensadas para esa conversación, cada una con una nota sobre por qué la incluye
 ~Comparte su carpeta del proyecto completa, ordenada por hito
 ####Un portafolio es una selección intencionada para una audiencia, con una reflexión por pieza. Meter todo no muestra más\: obliga a quien lo ve a buscar lo importante, y eso es la carpeta del proyecto, no el portafolio. Pantalla P08 del Rise M6-T3\: «Tu portafolio\: una selección con intención».
 }

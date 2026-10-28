@@ -16,9 +16,9 @@
 2. *(S4 · P12)* Andrés afirma: «No necesito avisar que la imagen del afiche se hizo con IA: el archivo ya trae una marca de procedencia». ¿Qué evaluación es correcta?
    - a) Verdadero, porque la marca de procedencia avisa sola a quien vea la imagen
    - b) Verdadero, porque declarar el uso de IA es opcional en una pieza de trabajo
-   - **c) Falso: esos metadatos pueden perderse al editar, compartir o capturar la pantalla, y ocultar el uso de IA es un riesgo**
+   - **c) Falso: esos metadatos pueden alterarse al editar o borrarse al compartir, y ocultar el uso de IA es un riesgo**
    - d) Falso, porque ninguna herramienta agrega marcas de procedencia a sus imágenes
-   *Retroalimentación:* Algunas herramientas agregan marcas, pero se pueden alterar al editar y las redes o una captura las borran. Confiar en que el archivo «ya lo dice» y ocultar el uso de IA daña la confianza.
+   *Retroalimentación:* Algunas herramientas agregan marcas, pero quien edita el archivo puede alterarlas y las redes sociales suelen borrarlas al compartir. Si la pieza tiene que decir que se hizo con IA, se dice de forma visible.
 
 3. *(S2 · C2 · P05)* Para el boletín interno, Camila encuentra una foto con licencia CC BY-ND. Quiere cambiarle los colores y escribirle un título encima. ¿Puede hacerlo?
    - a) Sí, siempre que dé crédito, porque todas las licencias CC incluyen BY
@@ -34,12 +34,12 @@
    - d) En ninguna parte: si la herramienta es gratis, puede hacer lo que quiera con la imagen
    *Retroalimentación:* Para lo que genera una herramienta de IA, los permisos están en sus términos de uso, y ese texto manda. Que no cobre no significa que no ponga condiciones.
 
-5. *(H1 · C1 · C2 · P13)* Una tienda de barrio le pide a Camila un video para mostrar a sus clientes en la caja; el video no se vende. Duda entre dos herramientas. ¿Cuál le conviene?
+5. *(H1 · C1 · C2 · P13)* Camila prepara un video para la pantalla de la recepción de la constructora, donde esperan clientes y proveedores; el video no se vende. Duda entre dos herramientas. ¿Cuál le conviene?
    - a) Una con licencia no comercial, porque el video no se vende
    - **b) Una que permita uso comercial, porque una pieza para clientes puede considerarse uso comercial**
    - c) Cualquiera, porque lo generado con IA no tiene dueño
    - d) Una con licencia no comercial, siempre que le quite la marca de agua
-   *Retroalimentación:* Las piezas que una empresa usa con sus clientes, aunque no se vendan, pueden considerarse uso comercial. Ante la duda, se elige una herramienta que permita ese uso; que el video no se venda no lo vuelve no comercial.
+   *Retroalimentación:* Las piezas que una organización usa con sus clientes, aunque no se vendan, pueden considerarse uso comercial. Ante la duda, se elige una herramienta que permita ese uso; que el video no se venda no lo vuelve no comercial.
 
 6. *(S4 · P11)* Rosa publicó un afiche cuya ilustración resultó casi igual a un personaje protegido. Dice: «No lo hice a propósito, así que no hay problema». ¿Qué evaluación es correcta?
    - a) Verdadero, porque sin intención no hay infracción

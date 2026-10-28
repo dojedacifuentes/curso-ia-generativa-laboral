@@ -25,7 +25,7 @@
    - c) Un correo al proveedor, para pedirle una nueva fecha de entrega
    *Retroalimentación:* El informe ejecutivo le da a quien decide lo que necesita para decidir. La minuta registra acuerdos y compromisos de una reunión, y el correo resuelve algo puntual.
 
-4. *(A1 · C2 · P07)* Gemini le entrega a Camila este borrador: asunto «Consulta por postulación», saludo «Estimada Sra. Pérez,» y un cuerpo breve y cordial. ¿Qué corrección corresponde antes de enviarlo?
+4. *(A1 · C2 · P07)* Gemini le entrega a Camila un correo para un proveedor: asunto «Factura pendiente, orden de compra 2045», saludo «Estimada Sra. Pérez,» y un cuerpo breve y cordial. ¿Qué corrección corresponde antes de enviarlo?
    - **a) Cambiar la coma del saludo por dos puntos**
    - b) Agregar «tengo el agrado de dirigirme a usted» para sonar más cortés
    - c) Pasar a un trato de tú para sonar más cercana

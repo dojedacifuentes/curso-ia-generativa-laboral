@@ -6,18 +6,18 @@
 **Estilo:** acento #a78bfa · acento2 #22d3ee · fondo circuito · lema Probar, ajustar y dejarlo por escrito
 **Ilustración:** flujo | Tu flujo (engranaje) · Tus pruebas (repetir) · Tus notas (doc)
 
-1. *(S1 · C1 · P03)* Rosa, de recursos humanos, va a implementar su flujo. Etapas: 1) probar con pocos casos, 2) mapear el flujo, 3) usar en la tarea real, 4) definir controles, 5) escribir la ficha, 6) ajustar y registrar. ¿En qué orden van?
+1. *(S1 · C1 · P03)* Rosa, recepcionista de un centro médico, va a implementar su flujo de consultas. Etapas: 1) probar con pocos casos, 2) mapear el flujo, 3) usar en la tarea real, 4) definir controles, 5) escribir la ficha, 6) ajustar y registrar. ¿En qué orden van?
    - a) 2 → 1 → 6 → 4 → 3 → 5
    - b) 2 → 4 → 1 → 6 → 3 → 5
    - **c) 2 → 4 → 5 → 1 → 6 → 3**
    - d) 2 → 4 → 5 → 3 → 6 → 1
    *Retroalimentación:* Primero se mapea, se definen los controles y se escribe la ficha; recién entonces se prueba en pequeño, se ajusta y se usa en la tarea real. Dejar la ficha para el final hace que se olviden dependencias y ajustes, y usar el flujo antes de probarlo lleva los errores directo a la tarea real.
 
-2. *(S1 · A1 · P03)* Rosa prueba su flujo con cinco consultas del mes pasado, ya resueltas. Esperaba cinco borradores correctos, pero dos calculan mal los días pendientes. Según el ciclo PDSA, ¿qué le toca ahora?
+2. *(S1 · A1 · P03)* Rosa prueba su flujo con cinco consultas del mes pasado, ya resueltas y sin nombres. Esperaba cinco borradores correctos, pero dos dan un horario equivocado. Según el ciclo PDSA, ¿qué le toca ahora?
    - **a) Comparar con lo que esperaba, ajustar la plantilla y probar de nuevo con otros casos**
    - b) Usar el flujo con las consultas reales, porque tres de cinco salieron bien
    - c) Descartar la IA, porque el flujo tenía que funcionar a la primera
-   - d) Esperar a que su jefatura le diga qué cambiar antes de seguir
+   - d) Esperar a que la coordinadora del centro le diga qué cambiar
    *Retroalimentación:* Después de hacer la prueba vienen estudiar (comparar con lo esperado) y actuar (ajustar y planificar otro ciclo). No se espera que salga perfecto a la primera, y decidir qué probar y cuándo ajustar le corresponde a ella: eso es autonomía.
 
 3. *(S2 · C1 · P04)* En la ficha de su flujo, Rosa anotó: «Supervisión: Rosa revisa las respuestas». ¿Qué le falta a ese punto de control?
@@ -29,12 +29,12 @@
 4. *(S2 · C1 · P04)* Verdadero o falso: «Si el flujo lleva tres semanas sin errores, puedo revisar solo algunos casos al azar».
    - a) Verdadero, porque tres semanas sin errores demuestran que el flujo funciona
    - b) Verdadero, siempre que lo anote en la bitácora de decisiones
-   - **c) Falso: sería sesgo de automatización; la revisión se mantiene durante todo el proyecto**
+   - **c) Falso: sería sesgo de automatización; mientras dure el proyecto, la revisión se mantiene en cada caso**
    *Retroalimentación:* Mientras más veces funciona un flujo, más fácil es dejar de mirarlo, y justo ahí se cuela el error. Anotar la decisión en la bitácora no quita el riesgo: la revisión sigue en cada caso.
 
 5. *(S2 · C1 · P05)* Rosa revisa su tabla de riesgos. ¿Qué riesgo quedó sin un control eficaz?
-   - a) Datos personales: escribe códigos de trabajador en vez de nombres
-   - b) Dato inventado: compara los días con la planilla de vacaciones antes de enviar
+   - a) Datos personales: escribe códigos de paciente en vez de nombres
+   - b) Dato inventado: compara el horario con la agenda del centro antes de enviar
    - c) Cambio en la plantilla: la vuelve a probar con los mismos casos antes de usarla
    - **d) Herramienta sin servicio: si se agota el límite de Gemini, su plan B es abrir otro chat de Gemini**
    *Retroalimentación:* El plan de contingencia no puede depender de la misma herramienta, porque si esa falla, el plan B también; la plantilla manual de su biblioteca sí sirve. Los otros tres riesgos tienen un control definido.
@@ -53,7 +53,7 @@
    - **d) Agrega una entrada nueva y marca la del 10-11 como reemplazada**
    *Retroalimentación:* Una decisión ya aplicada no se borra ni se reescribe: se agrega otra entrada y la anterior queda como reemplazada. Así se conserva la historia completa y se puede responder «¿por qué lo hiciste así?».
 
-8. *(H1 · C2 · P09)* En una prueba, un borrador de Rosa inventa un saldo de días. Pasos: 1) registrar el ajuste en la bitácora, 2) volver a probar con los mismos casos, 3) ubicar el paso que falló, 4) corregir la causa. ¿En qué orden?
+8. *(H1 · C2 · P09)* En una prueba, un borrador de Rosa inventa un horario de atención. Pasos: 1) registrar el ajuste en la bitácora, 2) volver a probar con los mismos casos, 3) ubicar el paso que falló, 4) corregir la causa. ¿En qué orden?
    - a) 4 → 2 → 1 → 3
    - **b) 3 → 4 → 1 → 2**
    - c) 3 → 4 → 2 → 1

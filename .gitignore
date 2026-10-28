@@ -15,3 +15,7 @@ videos/**/preview/
 videos/**/fonts/
 videos/**/capturas-gemini/
 videos/**/prueba-fuentes/
+videos/**/v4/
+
+# carpeta temporal para subir a Drive (se arma desde entregables/)
+entregables/subir-*/

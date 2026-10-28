@@ -1,12 +1,12 @@
 // M4-AE2 · Imágenes y gráficos · quiz formativo (generado por scripts/quiz-juego.mjs)
 $CATEGORY: IA-generativa-laboral/Formativos/M4-AE2
 
-::M4-AE2-P1 (S1)::Camila escribe\: «Ilustración plana de un guardia revisando credenciales en la entrada de una oficina, con plantas y ventanales». ¿Qué parte del prompt es el contexto y fondo? {
+::M4-AE2-P1 (S1)::Para su campaña de reciclaje, Camila escribe\: «Ilustración plana de una trabajadora dejando hojas en una caja de reciclaje, en una oficina con plantas y ventanales». ¿Qué parte del prompt es el contexto y fondo? {
 ~«Ilustración plana»
-~«Un guardia revisando credenciales»
-=«En la entrada de una oficina, con plantas y ventanales»
+~«Una trabajadora dejando hojas en una caja de reciclaje»
+=«En una oficina con plantas y ventanales»
 ~El prompt no tiene contexto\: solo sujeto y estilo
-####El contexto y fondo dice dónde está el sujeto y qué lo rodea. «Un guardia revisando credenciales» es el sujeto, y «ilustración plana», el estilo. Pantalla P03 del Rise M4-T2\: «Anatomía de un prompt visual».
+####El contexto y fondo dice dónde está el sujeto y qué lo rodea. «Una trabajadora dejando hojas en una caja de reciclaje» es el sujeto, y «ilustración plana», el estilo. Pantalla P03 del Rise M4-T2\: «Anatomía de un prompt visual».
 }
 
 ::M4-AE2-P2 (S1 C1)::Andrés quiere que la imagen muestre que todo el pasillo está despejado, sin dramatismo. ¿Qué modificador le conviene agregar? {
@@ -57,7 +57,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M4-AE2
 ####Los generadores aprenden estereotipos de las imágenes con que se entrenan, y pueden producirlos aunque nadie los pida. Que el prompt no mencione el género no evita el sesgo. Pantalla P11 del Rise M4-T2\: «Sesgos visuales».
 }
 
-::M4-AE2-P8 (C2 S3)::Para su campaña de reciclaje, Camila pidió «trabajadores de oficina reciclando» y todas las imágenes muestran mujeres jóvenes. ¿Cuál es la mejor corrección? {
+::M4-AE2-P8 (C2 S3)::Para la campaña de reciclaje de su oficina, Camila pidió «trabajadores de oficina reciclando» y todas las imágenes muestran mujeres jóvenes. ¿Cuál es la mejor corrección? {
 ~Publicarla igual, porque es una campaña interna
 =Cambiar el prompt describiendo la diversidad que quiere y volver a revisar las variantes
 ~Agregar un texto que diga que todas las personas deben reciclar

@@ -22,7 +22,7 @@
 
 3. *(S1 · H1 · A2 · P05)* El borrador de Gemini para el clip de Camila dice: «Es de suma importancia que todos y cada uno de los integrantes de esta organización tomen conciencia de la relevancia del reciclaje». ¿Cuál es la mejor corrección?
    - a) Dejarla tal cual, porque el borrador lo escribió la IA
-   - **b) «Cada envase en su contenedor: así reciclamos todos.»**
+   - **b) «Cada hoja en su caja de reciclaje: así reciclamos todos.»**
    - c) «Es de suma importancia que todos tomen conciencia del reciclaje, según la política interna vigente.»
    - d) Agregarle cifras de reciclaje del país para darle más peso
    *Retroalimentación:* Una frase para un clip breve dice una sola idea concreta y se entiende al escucharla una vez. El borrador de la IA es un punto de partida: el tono y la claridad los decides tú.

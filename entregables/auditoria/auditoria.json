@@ -1,9 +1,9 @@
 {
   "resumen": {
-    "generado": "2026-10-25T06:44:01.954Z",
+    "generado": "2026-10-28T14:24:19.139Z",
     "chequeos": 84,
-    "ok": 70,
-    "aviso": 12,
+    "ok": 72,
+    "aviso": 10,
     "error": 0,
     "pendiente": 2
   },
@@ -140,11 +140,11 @@
           "estado": "aviso",
           "errores": [],
           "avisos": [
-            "12 sin citar: F-H-01, F-H-05, F-H-06, F-H-09, F-H-11, F-H-22, F-H-25, F-H-28, F-H-34, F-H-36, F-H-43, F-H-89"
+            "56 sin citar: F-H-01, F-H-03, F-H-04, F-H-05, F-H-06, F-H-08, F-H-09, F-H-10, F-H-11, F-H-13, F-H-17, F-H-18, F-H-19, F-H-21, F-H-22, F-H-23, F-H-24, F-H-25, F-H-26, F-H-27, F-H-28, F-H-31, F-H-32, F-H-34, F-H-35, F-H-36, F-H-38, F-H-39, F-H-41, F-H-42, F-H-43, F-H-48, F-H-51, F-H-58, F-H-59, F-H-62, F-H-66, F-H-70, F-H-71, F-H-72, F-H-73, F-H-74, F-H-80, F-H-81, F-H-87, F-H-88, F-H-89, F-H-90, F-H-91, F-H-92, F-H-96, F-H-97, F-H-98, F-M1-17, F-M4-13, F-M4-18"
           ],
           "pendientes": [],
           "evidencia": [
-            "200 de 212 fuentes se citan en el contenido base"
+            "156 de 212 fuentes se citan en el contenido base"
           ]
         }
       ]
@@ -158,11 +158,9 @@
           "id": "C2.M1-AE1",
           "titulo": "M1-AE1 · Fundamentos de IA generativa",
           "porque": "Pide 16 pantallas y cubrir 10 códigos (S/H/A/C) de la planilla.",
-          "estado": "aviso",
+          "estado": "ok",
           "errores": [],
-          "avisos": [
-            "1 marcas de «pilotear / revisar antes de publicar» en el texto (ver docs/PENDIENTES-VERIFICACION.md)"
-          ],
+          "avisos": [],
           "pendientes": [],
           "evidencia": [
             "16 pantallas, como pide la planilla",
@@ -183,8 +181,7 @@
             "16 pantallas, como pide la planilla",
             "9/9 códigos cubiertos",
             "10 términos de glosario",
-            "«Conexión» nombra Hito 1",
-            "«Conexión» nombra M1-C1"
+            "«Conexión» nombra Hito 1"
           ]
         },
         {
@@ -198,8 +195,7 @@
           "evidencia": [
             "16 pantallas, como pide la planilla",
             "7/7 códigos cubiertos",
-            "10 términos de glosario",
-            "«Conexión» nombra M1-C1"
+            "10 términos de glosario"
           ]
         },
         {
@@ -213,9 +209,7 @@
           "evidencia": [
             "17 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
-            "12 términos de glosario",
-            "«Conexión» nombra M1-C2",
-            "2 recuadro(s) «Caso real»"
+            "12 términos de glosario"
           ]
         },
         {
@@ -229,9 +223,8 @@
           "evidencia": [
             "18 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
-            "12 términos de glosario",
-            "«Conexión» nombra Hito 2",
-            "«Conexión» nombra M2-C1"
+            "13 términos de glosario",
+            "«Conexión» nombra Hito 2"
           ]
         },
         {
@@ -245,8 +238,7 @@
           "evidencia": [
             "18 pantallas, como pide la planilla",
             "6/6 códigos cubiertos",
-            "13 términos de glosario",
-            "«Conexión» nombra M2-C1"
+            "13 términos de glosario"
           ]
         },
         {
@@ -261,8 +253,7 @@
             "17 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
             "12 términos de glosario",
-            "«Conexión» nombra Hito 2",
-            "«Conexión» nombra M2-C2"
+            "«Conexión» nombra Hito 2"
           ]
         },
         {
@@ -276,8 +267,7 @@
           "evidencia": [
             "18 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
-            "14 términos de glosario",
-            "«Conexión» nombra M2-C2"
+            "14 términos de glosario"
           ]
         },
         {
@@ -306,8 +296,7 @@
           "evidencia": [
             "18 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
-            "14 términos de glosario",
-            "«Conexión» nombra M3-C1"
+            "14 términos de glosario"
           ]
         },
         {
@@ -336,10 +325,7 @@
           "evidencia": [
             "18 pantallas, como pide la planilla",
             "9/9 códigos cubiertos",
-            "13 términos de glosario",
-            "«Conexión» nombra M3-C1",
-            "«Conexión» nombra M3-C2",
-            "2 recuadro(s) «Caso real»"
+            "13 términos de glosario"
           ]
         },
         {
@@ -349,14 +335,13 @@
           "estado": "aviso",
           "errores": [],
           "avisos": [
-            "1 marcas de «pilotear / revisar antes de publicar» en el texto (ver docs/PENDIENTES-VERIFICACION.md)"
+            "2 marcas de «pilotear / revisar antes de publicar» en el texto (ver docs/PENDIENTES-VERIFICACION.md)"
           ],
           "pendientes": [],
           "evidencia": [
             "15 pantallas, como pide la planilla",
             "9/9 códigos cubiertos",
-            "12 términos de glosario",
-            "«Conexión» nombra M4-C3"
+            "12 términos de glosario"
           ]
         },
         {
@@ -366,15 +351,14 @@
           "estado": "aviso",
           "errores": [],
           "avisos": [
-            "1 marcas de «pilotear / revisar antes de publicar» en el texto (ver docs/PENDIENTES-VERIFICACION.md)"
+            "2 marcas de «pilotear / revisar antes de publicar» en el texto (ver docs/PENDIENTES-VERIFICACION.md)"
           ],
           "pendientes": [],
           "evidencia": [
             "15 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
             "13 términos de glosario",
-            "«Conexión» nombra Hito 4",
-            "«Conexión» nombra M4-C1"
+            "«Conexión» nombra Hito 4"
           ]
         },
         {
@@ -388,9 +372,7 @@
           "evidencia": [
             "14 pantallas, como pide la planilla",
             "7/7 códigos cubiertos",
-            "12 términos de glosario",
-            "«Conexión» nombra M4-C2",
-            "1 recuadro(s) «Caso real»"
+            "12 términos de glosario"
           ]
         },
         {
@@ -405,8 +387,7 @@
             "15 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
             "14 términos de glosario",
-            "«Conexión» nombra Hito 4",
-            "«Conexión» nombra M4-C1"
+            "«Conexión» nombra Hito 4"
           ]
         },
         {
@@ -420,9 +401,7 @@
           "evidencia": [
             "15 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
-            "11 términos de glosario",
-            "«Conexión» nombra M5-C1",
-            "«Conexión» nombra M5-C2"
+            "11 términos de glosario"
           ]
         },
         {
@@ -452,10 +431,7 @@
             "14 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
             "14 términos de glosario",
-            "«Conexión» nombra Hito 5",
-            "«Conexión» nombra M5-C1",
-            "«Conexión» nombra M5-C2",
-            "2 recuadro(s) «Caso real»"
+            "«Conexión» nombra Hito 5"
           ]
         },
         {
@@ -560,13 +536,9 @@
           "id": "C3.M1-AE4",
           "titulo": "Quiz M1-AE4",
           "porque": "La planilla pide: 8 ítems: detectar errores en respuestas dadas, decidir qué verificar y cómo",
-          "estado": "aviso",
+          "estado": "ok",
           "errores": [],
-          "avisos": [
-            "M1-AE4-Quiz-Juego.html es anterior a su fuente: volver a correr quiz-juego.mjs",
-            "M1-AE4-Quiz-Juego-SCORM.zip es anterior a su fuente: volver a correr quiz-juego.mjs",
-            "M1-AE4-Quiz-Moodle.gift es anterior a su fuente: volver a correr quiz-juego.mjs"
-          ],
+          "avisos": [],
           "pendientes": [],
           "evidencia": [
             "8 preguntas",
@@ -684,13 +656,9 @@
           "id": "C3.M3-AE4",
           "titulo": "Quiz M3-AE4",
           "porque": "La planilla pide: 8 ítems: clasificar datos por sensibilidad, decidir ante escenarios",
-          "estado": "aviso",
+          "estado": "ok",
           "errores": [],
-          "avisos": [
-            "M3-AE4-Quiz-Juego.html es anterior a su fuente: volver a correr quiz-juego.mjs",
-            "M3-AE4-Quiz-Juego-SCORM.zip es anterior a su fuente: volver a correr quiz-juego.mjs",
-            "M3-AE4-Quiz-Moodle.gift es anterior a su fuente: volver a correr quiz-juego.mjs"
-          ],
+          "avisos": [],
           "pendientes": [],
           "evidencia": [
             "8 preguntas",
@@ -733,13 +701,9 @@
           "id": "C3.M4-AE3",
           "titulo": "Quiz M4-AE3",
           "porque": "La planilla pide: 8 ítems: decidir cuándo se requiere consentimiento, elegir voz/pista según uso",
-          "estado": "aviso",
+          "estado": "ok",
           "errores": [],
-          "avisos": [
-            "M4-AE3-Quiz-Juego.html es anterior a su fuente: volver a correr quiz-juego.mjs",
-            "M4-AE3-Quiz-Juego-SCORM.zip es anterior a su fuente: volver a correr quiz-juego.mjs",
-            "M4-AE3-Quiz-Moodle.gift es anterior a su fuente: volver a correr quiz-juego.mjs"
-          ],
+          "avisos": [],
           "pendientes": [],
           "evidencia": [
             "8 preguntas",
@@ -797,13 +761,9 @@
           "id": "C3.M5-AE3",
           "titulo": "Quiz M5-AE3",
           "porque": "La planilla pide: 8 ítems: decidir dónde ubicar controles humanos según el riesgo",
-          "estado": "aviso",
+          "estado": "ok",
           "errores": [],
-          "avisos": [
-            "M5-AE3-Quiz-Juego.html es anterior a su fuente: volver a correr quiz-juego.mjs",
-            "M5-AE3-Quiz-Juego-SCORM.zip es anterior a su fuente: volver a correr quiz-juego.mjs",
-            "M5-AE3-Quiz-Moodle.gift es anterior a su fuente: volver a correr quiz-juego.mjs"
-          ],
+          "avisos": [],
           "pendientes": [],
           "evidencia": [
             "8 preguntas",
@@ -875,7 +835,7 @@
           "evidencia": [
             "recurso R017",
             "título «Anatomía de un prompt efectivo» igual que en la planilla",
-            "5 remisiones a pantallas"
+            "6 remisiones a pantallas"
           ]
         },
         {
@@ -889,7 +849,7 @@
           "evidencia": [
             "recurso R034",
             "título «Flujo de redacción aumentada» igual que en la planilla",
-            "7 remisiones a pantallas"
+            "8 remisiones a pantallas"
           ]
         },
         {
@@ -903,7 +863,7 @@
           "evidencia": [
             "recurso R051",
             "título «Ruta de una investigación verificada» igual que en la planilla",
-            "10 remisiones a pantallas"
+            "12 remisiones a pantallas"
           ]
         },
         {
@@ -917,7 +877,7 @@
           "evidencia": [
             "recurso R069",
             "título «Mapa del ecosistema multimedia con IA y semáforo de licencias» igual que en la planilla",
-            "9 remisiones a pantallas"
+            "10 remisiones a pantallas"
           ]
         },
         {
@@ -966,7 +926,7 @@
           "evidencia": [
             "estado: Verificado con ajustes",
             "4 fuentes, 4 primarias",
-            "1469 palabras"
+            "1365 palabras"
           ]
         },
         {
@@ -980,7 +940,7 @@
           "evidencia": [
             "estado: Verificado con ajustes",
             "3 fuentes, 3 primarias",
-            "1533 palabras"
+            "1506 palabras"
           ]
         },
         {
@@ -994,7 +954,7 @@
           "evidencia": [
             "estado: Verificado con ajustes",
             "5 fuentes, 4 primarias",
-            "1572 palabras"
+            "1432 palabras"
           ]
         },
         {
@@ -1008,7 +968,7 @@
           "evidencia": [
             "estado: Verificado con ajustes",
             "7 fuentes, 7 primarias",
-            "1435 palabras"
+            "1313 palabras"
           ]
         },
         {
@@ -1022,7 +982,7 @@
           "evidencia": [
             "estado: Verificado con ajustes",
             "6 fuentes, 5 primarias",
-            "1558 palabras"
+            "1487 palabras"
           ]
         },
         {
@@ -1051,7 +1011,7 @@
           "evidencia": [
             "estado: Verificado con ajustes",
             "9 fuentes, 4 primarias",
-            "1567 palabras"
+            "1477 palabras"
           ]
         },
         {
@@ -1065,7 +1025,7 @@
           "evidencia": [
             "estado: Verificado",
             "3 fuentes, 1 primarias",
-            "1585 palabras"
+            "1499 palabras"
           ]
         },
         {
@@ -1079,7 +1039,7 @@
           "evidencia": [
             "estado: Verificado con ajustes",
             "10 fuentes, 9 primarias",
-            "1635 palabras"
+            "1424 palabras"
           ]
         },
         {
@@ -1093,7 +1053,7 @@
           "evidencia": [
             "estado: Verificado con ajustes",
             "7 fuentes, 6 primarias",
-            "1474 palabras"
+            "1437 palabras"
           ]
         },
         {
@@ -1107,7 +1067,7 @@
           "evidencia": [
             "estado: Verificado con ajustes",
             "10 fuentes, 7 primarias",
-            "1433 palabras"
+            "1392 palabras"
           ]
         }
       ]
@@ -1228,9 +1188,32 @@
           "id": "C8.Docs-del-contenido-base",
           "titulo": "Docs del contenido base en Drive",
           "porque": "Uno por AE, sin duplicados y subido después del último cambio de su fuente (contenido o quiz).",
-          "estado": "ok",
+          "estado": "aviso",
           "errores": [],
-          "avisos": [],
+          "avisos": [
+            "M1-AE1: lo de Drive (24-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (28-10-26, 10:54 a. m.)",
+            "M1-AE2: lo de Drive (24-10-26, 11:55 a. m.) es anterior al último cambio de su fuente (28-10-26, 10:56 a. m.)",
+            "M1-AE3: lo de Drive (24-10-26, 12:12 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:58 a. m.)",
+            "M1-AE4: lo de Drive (24-10-26, 6:36 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:01 a. m.)",
+            "M2-AE1: lo de Drive (24-10-26, 12:00 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:06 a. m.)",
+            "M2-AE2: lo de Drive (24-10-26, 12:02 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:06 a. m.)",
+            "M2-AE3: lo de Drive (24-10-26, 12:03 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:06 a. m.)",
+            "M2-AE4: lo de Drive (24-10-26, 4:44 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:05 a. m.)",
+            "M3-AE1: lo de Drive (24-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (28-10-26, 10:53 a. m.)",
+            "M3-AE2: lo de Drive (24-10-26, 4:46 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:55 a. m.)",
+            "M3-AE3: lo de Drive (24-10-26, 12:17 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:57 a. m.)",
+            "M3-AE4: lo de Drive (24-10-26, 6:38 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:59 a. m.)",
+            "M4-AE1: lo de Drive (24-10-26, 12:21 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:59 a. m.)",
+            "M4-AE2: lo de Drive (24-10-26, 4:50 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:00 a. m.)",
+            "M4-AE3: lo de Drive (24-10-26, 6:36 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:02 a. m.)",
+            "M4-AE4: lo de Drive (24-10-26, 12:06 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:03 a. m.)",
+            "M5-AE1: lo de Drive (24-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (28-10-26, 10:57 a. m.)",
+            "M5-AE2: lo de Drive (24-10-26, 12:24 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:58 a. m.)",
+            "M5-AE3: lo de Drive (24-10-26, 7:56 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:00 a. m.)",
+            "M6-AE1: lo de Drive (24-10-26, 11:58 a. m.) es anterior al último cambio de su fuente (28-10-26, 10:54 a. m.)",
+            "M6-AE2: lo de Drive (24-10-26, 12:26 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:56 a. m.)",
+            "M6-AE3: lo de Drive (24-10-26, 4:51 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:59 a. m.)"
+          ],
           "pendientes": [],
           "evidencia": [
             "22 archivos en la carpeta"
@@ -1240,9 +1223,32 @@
           "id": "C8.PDF-del-contenido-base",
           "titulo": "PDF del contenido base en Drive",
           "porque": "Uno por AE, sin duplicados y subido después del último cambio de su fuente (contenido o quiz).",
-          "estado": "ok",
+          "estado": "aviso",
           "errores": [],
-          "avisos": [],
+          "avisos": [
+            "M1-AE1: lo de Drive (24-10-26, 11:52 a. m.) es anterior al último cambio de su fuente (28-10-26, 10:54 a. m.)",
+            "M1-AE2: lo de Drive (24-10-26, 11:52 a. m.) es anterior al último cambio de su fuente (28-10-26, 10:56 a. m.)",
+            "M1-AE3: lo de Drive (24-10-26, 12:13 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:58 a. m.)",
+            "M1-AE4: lo de Drive (24-10-26, 6:36 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:01 a. m.)",
+            "M2-AE1: lo de Drive (24-10-26, 11:52 a. m.) es anterior al último cambio de su fuente (28-10-26, 11:06 a. m.)",
+            "M2-AE2: lo de Drive (24-10-26, 11:52 a. m.) es anterior al último cambio de su fuente (28-10-26, 11:06 a. m.)",
+            "M2-AE3: lo de Drive (24-10-26, 11:52 a. m.) es anterior al último cambio de su fuente (28-10-26, 11:06 a. m.)",
+            "M2-AE4: lo de Drive (24-10-26, 4:41 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:05 a. m.)",
+            "M3-AE1: lo de Drive (24-10-26, 11:52 a. m.) es anterior al último cambio de su fuente (28-10-26, 10:53 a. m.)",
+            "M3-AE2: lo de Drive (24-10-26, 4:41 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:55 a. m.)",
+            "M3-AE3: lo de Drive (24-10-26, 12:13 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:57 a. m.)",
+            "M3-AE4: lo de Drive (24-10-26, 6:36 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:59 a. m.)",
+            "M4-AE1: lo de Drive (24-10-26, 12:13 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:59 a. m.)",
+            "M4-AE2: lo de Drive (24-10-26, 4:41 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:00 a. m.)",
+            "M4-AE3: lo de Drive (24-10-26, 6:36 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:02 a. m.)",
+            "M4-AE4: lo de Drive (24-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (28-10-26, 11:03 a. m.)",
+            "M5-AE1: lo de Drive (24-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (28-10-26, 10:57 a. m.)",
+            "M5-AE2: lo de Drive (24-10-26, 12:13 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:58 a. m.)",
+            "M5-AE3: lo de Drive (24-10-26, 8:00 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:00 a. m.)",
+            "M6-AE1: lo de Drive (24-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (28-10-26, 10:54 a. m.)",
+            "M6-AE2: lo de Drive (24-10-26, 12:13 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:56 a. m.)",
+            "M6-AE3: lo de Drive (24-10-26, 4:41 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:59 a. m.)"
+          ],
           "pendientes": [],
           "evidencia": [
             "23 archivos en la carpeta"
@@ -1255,10 +1261,28 @@
           "estado": "aviso",
           "errores": [],
           "avisos": [
-            "M1-AE4: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (24-10-26, 6:29 p. m.)",
-            "M3-AE4: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (24-10-26, 6:30 p. m.)",
-            "M4-AE3: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (24-10-26, 6:30 p. m.)",
-            "M5-AE3: lo de Drive (24-10-26, 6:33 p. m.) es anterior al último cambio de su fuente (24-10-26, 7:47 p. m.)"
+            "M1-AE1: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:00 a. m.)",
+            "M1-AE2: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:00 a. m.)",
+            "M1-AE3: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:58 a. m.)",
+            "M1-AE4: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:01 a. m.)",
+            "M2-AE1: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:06 a. m.)",
+            "M2-AE2: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:06 a. m.)",
+            "M2-AE3: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:12 a. m.)",
+            "M2-AE4: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:05 a. m.)",
+            "M3-AE1: lo de Drive (24-10-26, 6:33 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:12 a. m.)",
+            "M3-AE2: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:55 a. m.)",
+            "M3-AE3: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:59 a. m.)",
+            "M3-AE4: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:59 a. m.)",
+            "M4-AE1: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:04 a. m.)",
+            "M4-AE2: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:09 a. m.)",
+            "M4-AE3: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:04 a. m.)",
+            "M4-AE4: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:09 a. m.)",
+            "M5-AE1: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:01 a. m.)",
+            "M5-AE2: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:01 a. m.)",
+            "M5-AE3: lo de Drive (24-10-26, 6:33 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:09 a. m.)",
+            "M6-AE1: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:10 a. m.)",
+            "M6-AE2: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:58 a. m.)",
+            "M6-AE3: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:59 a. m.)"
           ],
           "pendientes": [],
           "evidencia": [
@@ -1272,10 +1296,28 @@
           "estado": "aviso",
           "errores": [],
           "avisos": [
-            "M1-AE4: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (24-10-26, 6:29 p. m.)",
-            "M3-AE4: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (24-10-26, 6:30 p. m.)",
-            "M4-AE3: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (24-10-26, 6:30 p. m.)",
-            "M5-AE3: lo de Drive (24-10-26, 6:35 p. m.) es anterior al último cambio de su fuente (24-10-26, 7:47 p. m.)"
+            "M1-AE1: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:00 a. m.)",
+            "M1-AE2: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:00 a. m.)",
+            "M1-AE3: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:58 a. m.)",
+            "M1-AE4: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:01 a. m.)",
+            "M2-AE1: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:06 a. m.)",
+            "M2-AE2: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:06 a. m.)",
+            "M2-AE3: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:12 a. m.)",
+            "M2-AE4: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:05 a. m.)",
+            "M3-AE1: lo de Drive (24-10-26, 6:35 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:12 a. m.)",
+            "M3-AE2: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:55 a. m.)",
+            "M3-AE3: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:59 a. m.)",
+            "M3-AE4: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:59 a. m.)",
+            "M4-AE1: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:04 a. m.)",
+            "M4-AE2: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:09 a. m.)",
+            "M4-AE3: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:04 a. m.)",
+            "M4-AE4: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:09 a. m.)",
+            "M5-AE1: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:01 a. m.)",
+            "M5-AE2: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:01 a. m.)",
+            "M5-AE3: lo de Drive (24-10-26, 6:35 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:09 a. m.)",
+            "M6-AE1: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:10 a. m.)",
+            "M6-AE2: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:58 a. m.)",
+            "M6-AE3: lo de Drive (24-10-26, 12:14 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:59 a. m.)"
           ],
           "pendientes": [],
           "evidencia": [
@@ -1289,10 +1331,28 @@
           "estado": "aviso",
           "errores": [],
           "avisos": [
-            "M1-AE4: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (24-10-26, 6:29 p. m.)",
-            "M3-AE4: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (24-10-26, 6:30 p. m.)",
-            "M4-AE3: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (24-10-26, 6:30 p. m.)",
-            "M5-AE3: lo de Drive (24-10-26, 6:36 p. m.) es anterior al último cambio de su fuente (24-10-26, 7:47 p. m.)"
+            "M1-AE1: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:00 a. m.)",
+            "M1-AE2: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:00 a. m.)",
+            "M1-AE3: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:58 a. m.)",
+            "M1-AE4: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:01 a. m.)",
+            "M2-AE1: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:06 a. m.)",
+            "M2-AE2: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:06 a. m.)",
+            "M2-AE3: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:12 a. m.)",
+            "M2-AE4: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:05 a. m.)",
+            "M3-AE1: lo de Drive (24-10-26, 6:36 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:12 a. m.)",
+            "M3-AE2: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:55 a. m.)",
+            "M3-AE3: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:59 a. m.)",
+            "M3-AE4: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:59 a. m.)",
+            "M4-AE1: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:04 a. m.)",
+            "M4-AE2: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:09 a. m.)",
+            "M4-AE3: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:04 a. m.)",
+            "M4-AE4: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:09 a. m.)",
+            "M5-AE1: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:01 a. m.)",
+            "M5-AE2: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:01 a. m.)",
+            "M5-AE3: lo de Drive (24-10-26, 6:36 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:09 a. m.)",
+            "M6-AE1: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 11:10 a. m.)",
+            "M6-AE2: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:58 a. m.)",
+            "M6-AE3: lo de Drive (24-10-26, 12:15 p. m.) es anterior al último cambio de su fuente (28-10-26, 10:59 a. m.)"
           ],
           "pendientes": [],
           "evidencia": [
@@ -1328,9 +1388,22 @@
           "id": "C8.info",
           "titulo": "Infografías en Drive",
           "porque": "HTML y PNG de cada módulo.",
-          "estado": "ok",
+          "estado": "aviso",
           "errores": [],
-          "avisos": [],
+          "avisos": [
+            "M1-Infografia.html: Drive es anterior al último cambio de infografias/M1.json",
+            "M1-Infografia.png: Drive es anterior al último cambio de infografias/M1.json",
+            "M2-Infografia.html: Drive es anterior al último cambio de infografias/M2.json",
+            "M2-Infografia.png: Drive es anterior al último cambio de infografias/M2.json",
+            "M3-Infografia.html: Drive es anterior al último cambio de infografias/M3.json",
+            "M3-Infografia.png: Drive es anterior al último cambio de infografias/M3.json",
+            "M4-Infografia.html: Drive es anterior al último cambio de infografias/M4.json",
+            "M4-Infografia.png: Drive es anterior al último cambio de infografias/M4.json",
+            "M5-Infografia.html: Drive es anterior al último cambio de infografias/M5.json",
+            "M5-Infografia.png: Drive es anterior al último cambio de infografias/M5.json",
+            "M6-Infografia.html: Drive es anterior al último cambio de infografias/M6.json",
+            "M6-Infografia.png: Drive es anterior al último cambio de infografias/M6.json"
+          ],
           "pendientes": [],
           "evidencia": [
             "12 archivos"

@@ -17,8 +17,9 @@ const TIPOS = ['anatomia', 'pasos', 'matriz', 'mapa', 'ciclo'];
 // Un acento por módulo (contraste AA sobre blanco y con texto blanco encima)
 const ACENTO = { 1: '#0E7490', 2: '#4F46E5', 3: '#B45309', 4: '#BE185D', 5: '#047857', 6: '#6D28D9' };
 const SEMAFORO = { verde: '#15803D', amarillo: '#B45309', rojo: '#B91C1C' };
-const NAV = ['C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe', 'C:/Program Files/Microsoft/Edge/Application/msedge.exe',
-  'C:/Program Files/Google/Chrome/Application/chrome.exe'].find(c => fs.existsSync(c));
+// Chrome primero: desde el 28-10 Edge headless deja de abrir archivos locales en este equipo (ERR_FILE_NOT_FOUND)
+const NAV = ['C:/Program Files/Google/Chrome/Application/chrome.exe', 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',
+  'C:/Program Files/Microsoft/Edge/Application/msedge.exe'].find(c => fs.existsSync(c));
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const negrita = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');

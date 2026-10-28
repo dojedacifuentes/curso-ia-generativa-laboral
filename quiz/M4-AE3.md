@@ -32,7 +32,7 @@
    - b) Verdadero, si menciona la herramienta en los créditos
    - **c) Falso: para montar necesita descargar la pista, y los términos deben permitir ese uso**
    - d) Falso, porque la música generada con IA nunca se puede usar en un video
-   *Retroalimentación:* Escuchar no es lo mismo que tener permiso para usar: sin descarga no hay pista para el editor, y el plan puede limitar el uso a lo personal. Dar crédito no reemplaza lo que los términos no permiten.
+   *Retroalimentación:* Escuchar no es lo mismo que tener permiso para usar: sin descarga no hay pista para el editor, y el plan puede no dar derechos comerciales. Dar crédito no reemplaza lo que los términos no permiten.
 
 5. *(S2 · P09)* Un colega de Andrés dice: «Imitar la voz de la gerenta no es plagio, así que está permitido». ¿Qué le responde?
    - a) Tiene razón: el derecho de autor no protege la voz, así que no hay problema
@@ -48,7 +48,7 @@
    - d) No, porque nunca se puede usar la voz de una colega
    *Retroalimentación:* El consentimiento tiene que ser libre, específico, inequívoco e informado, y para datos sensibles, expreso. Un «ya, dale» sin saber para qué no cumple esas condiciones, aunque sea un sí.
 
-7. *(S3 · A1 · C2 · P11)* Camila prepara un clip de bienvenida para su oficina. ¿En cuál de estos casos necesita el consentimiento expreso de alguien?
+7. *(S3 · A1 · C2 · P11)* Camila prepara la locución de la campaña de reciclaje de su oficina. ¿En cuál de estos casos necesita el consentimiento expreso de alguien?
    - a) Si usa una voz de la biblioteca de la herramienta
    - b) Si diseña una voz nueva a partir de una descripción
    - c) Si graba su propia voz para narrar

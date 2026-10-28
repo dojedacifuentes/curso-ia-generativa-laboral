@@ -1,9 +1,9 @@
 // M6-AE1 · Oportunidad de mejora con IA · quiz formativo (generado por scripts/quiz-juego.mjs)
 $CATEGORY: IA-generativa-laboral/Formativos/M6-AE1
 
-::M6-AE1-P1 (S1 C1)::Rosa, asistente de recursos humanos, escribe su diagnóstico\: «Respondo muchas consultas de vacaciones y me demoro mucho». ¿Qué le falta para que sirva como situación inicial? {
+::M6-AE1-P1 (S1 C1)::Rosa, recepcionista de un centro médico, escribe su diagnóstico\: «Respondo muchas consultas de pacientes por correo y me demoro mucho». ¿Qué le falta para que sirva como situación inicial? {
 ~Nombrar la herramienta de IA con que va a responder las consultas
-=Datos\: cuántas consultas responde por semana, cuántos minutos le toma cada una y de dónde lo sabe
+=Datos\: cuántas consultas responde por semana, cuántos minutos le toma cada una y cómo lo sabe
 ~Una meta del 100 % para mostrar que el proyecto es ambicioso
 ~Nada\: ya describe bien lo que le cuesta la tarea
 ####«Me demoro mucho» es una impresión\: sin saber cuánto es «mucho», al final no podrá demostrar que mejoró. La herramienta y la meta vienen después; el diagnóstico primero necesita datos. Pantalla P03 del Rise M6-T1\: «Diagnóstico\: cómo se hace la tarea hoy».
@@ -25,33 +25,33 @@ $CATEGORY: IA-generativa-laboral/Formativos/M6-AE1
 ####Un indicador se define con fórmula, fuente, frecuencia y línea base, y solo una versión trae las cuatro. La que tiene fórmula y meta no dice de dónde sale el dato, cada cuánto se mide ni cuánto vale hoy. Pantalla P05 del Rise M6-T1\: «Indicadores\: qué vas a medir».
 }
 
-::M6-AE1-P4 (S2 C1)::Pedro busca empleo como ejecutivo de ventas y practica con IA responder correos de clientes ficticios. ¿Qué conviene usar como indicadores de su proyecto? {
-=Minutos por respuesta y respuestas con errores, según su registro de práctica
-~Conseguir trabajo en los próximos tres meses
-~Número de entrevistas a las que lo llamen durante el curso
-####Conviene medir lo que su flujo cambia, con un indicador de tiempo y uno de calidad. Conseguir trabajo o ser llamado a entrevistas depende de muchos factores fuera del proyecto\: sirven como contexto, no como meta. Pantalla P05 del Rise M6-T1\: «Indicadores\: qué vas a medir».
+::M6-AE1-P4 (S2 C1)::Pedro, ejecutivo de ventas, usa IA para responder los correos de sus clientes. ¿Qué conviene usar como indicadores de su proyecto? {
+=Minutos por respuesta y respuestas con errores, según su registro propio
+~«Sentirme más tranquilo con la bandeja de entrada»
+~Las ventas de su equipo durante el semestre
+####Conviene medir lo que su flujo cambia, con un indicador de tiempo y uno de calidad. «Sentirse más tranquilo» no tiene fórmula ni fuente, y las ventas dependen de muchos factores fuera del proyecto\: sirven como contexto, no como meta. Pantalla P05 del Rise M6-T1\: «Indicadores\: qué vas a medir».
 }
 
 ::M6-AE1-P5 (S2 A2 C1)::Rosa tarda hoy 9 minutos por consulta. ¿Cuál de estas metas permite saber, sin discusión, si se cumplió? {
-~«Responder mejor las consultas de vacaciones usando IA»
+~«Responder mejor las consultas de los pacientes usando IA»
 ~«Bajar el tiempo por consulta a 4 minutos»
 =«En cuatro semanas, bajar de 9 a 4 minutos el tiempo promedio por consulta»
 ~«En cuatro semanas, entender cómo la IA puede ayudarme con las consultas»
 ####La meta correcta tiene número, unidad, línea base y plazo, así que al final se sabrá sin discusión si se cumplió. «Bajar a 4 minutos» tiene número, pero le faltan el plazo y el punto de referencia; «mejorar» y «entender» son verbos vagos. Pantalla P06 del Rise M6-T1\: «La meta\: qué cambio esperas y cuándo».
 }
 
-::M6-AE1-P6 (A2 C1)::Hoy, Rosa responde el mismo día el 40 % de las consultas. En el módulo 5, su borrador salía bien, pero no siempre alcanzaba a revisarlo a tiempo. ¿Qué meta es realista y retadora? {
+::M6-AE1-P6 (A2 C1)::Hoy, Rosa responde el mismo día el 40 % de las consultas. En sus pruebas, el borrador salía bien, pero no siempre alcanzaba a revisarlo a tiempo. ¿Qué meta es realista y retadora? {
 =80 % el mismo día en cuatro semanas
 ~100 % el mismo día en dos semanas
 ~42 % el mismo día en cuatro semanas, para asegurar que se cumpla
 ####El 80 % en cuatro semanas exige un cambio real y se apoya en lo que vio en sus pruebas. Saltar al 100 % en dos semanas no calza con su línea base, y el 42 % casi ya lo cumple\: parecería éxito sin haber mejorado nada. Pantalla P07 del Rise M6-T1\: «Realismo\: metas posibles, pero no fáciles».
 }
 
-::M6-AE1-P7 (S3 C2)::Marta, de contabilidad, justifica su proyecto\: «Es viable, porque Gemini resume muy bien las boletas de los clientes; lo probé con boletas reales, con su RUT y sus montos». ¿Qué criterio de viabilidad falla? {
+::M6-AE1-P7 (S3 C2)::Verónica, de contabilidad, justifica su proyecto\: «Es viable, porque Gemini resume muy bien las boletas de los clientes; lo probé con boletas reales, con su RUT y sus montos». ¿Qué criterio de viabilidad falla? {
 ~Ninguno\: la herramienta ya demostró que puede hacer la tarea
 =El riesgo está controlado\: ingresó datos personales de clientes reales
 ~La herramienta es accesible\: debería usar un plan de pago
-####Que la IA pueda hacer la tarea no la hace viable\: con datos personales expuestos, el proyecto no pasa la prueba aunque funcione. Puede ajustar el alcance, por ejemplo con boletas de práctica o códigos en vez de RUT. Pantalla P08 del Rise M6-T1\: «¿Es viable usar IA en este desafío?».
+####Que la IA pueda hacer la tarea no la hace viable\: con datos personales expuestos, el proyecto no pasa la prueba aunque funcione. Puede ajustar el alcance, por ejemplo con copias sin datos sensibles o códigos en vez de RUT. Pantalla P08 del Rise M6-T1\: «¿Es viable usar IA en este desafío?».
 }
 
 ::M6-AE1-P8 (H1 A1 C1)::Rosa ya tiene su plan de medición. En la segunda semana del flujo decide cambiar la fórmula del tiempo por consulta para sumar la revisión. ¿Qué problema le trae? {

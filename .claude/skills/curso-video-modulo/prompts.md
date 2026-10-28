@@ -8,14 +8,15 @@
 |---|---|---|---|
 | 1. Intro | Bienvenida, nombre del curso y del módulo, «sin programar ni licencia» si aplica | **Avatar** + título | 15–20 s (~270 caracteres) |
 | 2. Qué vas a aprender | Un párrafo por aprendizaje esperado (AE) con 2–3 conceptos clave de cada uno; personajes del curso; herramienta principal | Riel de temas + diagrama por tema | 60–70 s |
-| 3. Cómo se evalúa | Quiz juego, puntaje, retroalimentación; casos del módulo | Mock de quiz + tarjetas de casos | 30–35 s |
-| 4. Hito del proyecto | Nombre del hito y sus pasos | Pasos numerados + clip Flow | 20–25 s |
+| 3. Cómo vas a avanzar | **En genérico:** al cerrar cada tema pones a prueba lo aprendido y sabes qué repasar; vas a analizar casos reales (sin nombrarlos) | Íconos genéricos (practicar, repasar, caso real) + clip Flow genérico | 15–20 s |
+| 4. Tu proyecto | **En genérico:** llevar lo aprendido a una tarea real de tu trabajo, módulo a módulo (sin hito, entregable ni pasos concretos) | Diagrama genérico tarea → prompts → mejora + clip Flow | 15–20 s |
 | 5. Cierre | Qué tener a mano para empezar + una idea clave del módulo + despedida | **Avatar** + checklist + cita | 15–17 s |
 
 ### Resumen (máximo 3:00)
 
 Mismo armado, con otro contenido: intro con avatar → una idea clave por AE (sección «Ideas clave» del contenido base) → qué
-quedó listo del hito → conexión con el módulo siguiente → cierre con avatar.
+puedes aplicar ya en tu trabajo (en genérico, sin nombrar el hito ni el entregable) → conexión con el módulo siguiente →
+cierre con avatar.
 
 ### Reglas del guion
 
@@ -24,8 +25,15 @@ quedó listo del hito → conexión con el módulo siguiente → cierre con avat
   respondan, actualizar esta regla.
 - Cada afirmación del guion debe estar en un documento del módulo. Al final del guion va una tabla «Lo que dice el guion → dónde
   está en el material».
-- **Los hechos de los casos, exactos:** quién hizo qué. Ej.: en Mata v. Avianca fueron los abogados quienes presentaron fallos
-  inventados por ChatGPT sin revisarlos; no «la IA inventó fallos en un juicio».
+- **Sin casos ni evaluaciones concretas (decisión del usuario, 25-10).** El video tiene que seguir sirviendo aunque cambien
+  los casos o las evaluaciones. No se nombran casos de aplicación (empresas, instituciones, juicios, códigos M<n>-C<n>) ni
+  evaluaciones específicas (quiz, cantidad de preguntas, puntajes, tareas, foros, hitos, entregables, plantillas pedidas).
+  Se habla en genérico: «vas a analizar casos reales», «al cerrar cada tema pondrás a prueba lo que aprendiste», «lo vas a
+  llevar a una tarea real de tu trabajo». Vale para la voz, las slides, los subtítulos, los clips y la idea del cierre
+  (la idea fuerza sale del contenido de los AE, no de un caso). Los personajes del contenido (`docs/PERSONAJES.md`) sí
+  pueden aparecer.
+- **Audiencia (28-10):** solo personas que trabajan, en tareas administrativas y de productividad. Se les habla de su trabajo
+  actual; nunca de buscar empleo ni del trabajo al que aspiran. Máximo 2 fuentes por guion. Ver `docs/CRITERIOS-28-10.md`.
 - Escribe para el oído: frases cortas, números en palabras («Módulo uno», «de cero a cien»), sin siglas difíciles o explicadas.
   Ninguna frase que se pueda entender de dos maneras.
 - **Español neutro con «tú»**, como habla la voz de EVA. Nunca voseo («revisá», «pagás»).
@@ -97,7 +105,9 @@ tarjetas de plantillas). Nunca encima de un diagrama ni en recuadros chicos que 
 
 Los personajes deben calzar con `docs/PERSONAJES.md` (Camila, Andrés, Rosa, Paula).
 
-Criterios: clips solo para personajes ficticios o acciones genéricas del curso. **No** generar escenas que simulen hechos reales (juicios, empresas reales de los casos): esos van como tarjetas de texto.
+Criterios: clips solo para personajes ficticios o acciones genéricas del curso. **No** generar escenas que simulen hechos
+reales (juicios, empresas) ni que muestren una evaluación concreta: los casos y las evaluaciones no se nombran en el video
+(§1, reglas del guion).
 
 ## 4. Avatar de EVA (HeyGen, con el conector)
 

@@ -10,28 +10,46 @@
       "titulo": "Buscar",
       "texto": "**Parte de una pregunta acotada**, con conceptos clave y sinónimos. Usa herramientas que muestran sus fuentes, abre cada cita y registra el enlace original, no el nombre de la herramienta.",
       "ejemplo": "«¿Qué medidas usan los centros médicos pequeños para reducir las horas a las que el paciente no se presenta?»",
-      "ver": ["M3-AE1 P03", "M3-AE1 P06", "M3-AE1 P16"]
+      "ver": [
+        "M3-AE1 P03",
+        "M3-AE1 P06",
+        "M3-AE1 P16"
+      ]
     },
     {
       "icono": "scale",
       "titulo": "Contrastar",
       "texto": "**Evalúa cada fuente** por autoría, fecha y respaldo. Triangula con fuentes independientes y, si se contradicen, analiza por qué antes de decidir y deja escrito tu criterio.",
       "ejemplo": "En la matriz de contraste, un dato que solo viene del asistente no cuenta como fuente: se descarta.",
-      "ver": ["M3-AE2 P03", "M3-AE2 P09", "M3-AE2 P13"]
+      "ver": [
+        "M3-AE2 P03",
+        "M3-AE2 P09",
+        "M3-AE2 P11",
+        "M3-AE2 P13"
+      ]
     },
     {
       "icono": "combine",
       "titulo": "Sintetizar",
       "texto": "**Organiza por idea, no por fuente:** en qué coinciden, en qué difieren y hasta dónde aplica cada hallazgo. La IA puede ordenar lo verificado; el análisis lo haces tú.",
-      "ver": ["M3-AE2 P14", "M3-AE2 P15"]
+      "ver": [
+        "M3-AE2 P14",
+        "M3-AE2 P15"
+      ],
+      "ejemplo": "«Las fuentes coinciden en definir una reserva mínima de cajas; las alertas automáticas solo aparecen en empresas grandes.»"
     },
     {
       "icono": "file-check",
       "titulo": "Citar",
       "texto": "**APA 7:** autor y año en el texto, y la referencia completa al final. Un dato se cita con su fuente original; la IA se cita solo cuando usas un texto que ella generó.",
-      "ver": ["M3-AE3 P08", "M3-AE3 P11"]
+      "ver": [
+        "M3-AE3 P08",
+        "M3-AE3 P09",
+        "M3-AE3 P11"
+      ],
+      "ejemplo": "Un dato que Gemini encontró en la página de un organismo se cita con esa página, no con Gemini."
     }
   ],
   "clave": "Solo entra al informe **lo que está respaldado** por fuentes independientes o rastreado hasta su origen. Lo demás se descarta o se marca **como no verificado**.",
-  "pie": "Basado en M3-AE1 (P03, P06, P16), M3-AE2 (P03, P09, P13 a P15) y M3-AE3 (P08, P11)"
+  "pie": "Basado en M3-AE1 (P03, P06, P16), M3-AE2 (P03, P09, P11, P13 a P15) y M3-AE3 (P08, P09, P11)"
 }

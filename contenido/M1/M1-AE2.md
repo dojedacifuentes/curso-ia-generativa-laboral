@@ -2,105 +2,92 @@
 
 ## P01 · Qué vas a lograr en este tema
 cubre: C1, C2
-fuentes: F-M1-12, F-M1-13, F-H-14, F-H-12, F-H-02, F-H-17, F-H-23
-bloque: Texto + lista con viñetas
+fuentes: F-H-14, F-H-02
+bloque: Texto + imagen de portada
 
 En el tema anterior viste que la calidad de lo que recibes depende mucho de lo que pides. Ahora vas a aprender a pedir bien: a
 escribir instrucciones claras, revisar la respuesta y ajustar el pedido hasta que te sirva.
 
-**Aprendizaje esperado:** Formular prompts efectivos con rol, contexto, tarea y formato para obtener respuestas útiles en tareas
-laborales simples.
+El aprendizaje esperado es este: Formular prompts efectivos con rol, contexto, tarea y formato para obtener respuestas útiles en
+tareas laborales simples. Al terminar deberías poder escribir un prompt con esos cuatro componentes y mejorar una respuesta iterando al
+menos una vez, hasta que de verdad te sirva en tu trabajo.
 
-Al terminar, deberías poder:
-- escribir un prompt que incluya rol, contexto, tarea y formato;
-- mejorar una respuesta iterando al menos una vez, hasta que sea útil para tu tarea.
+En este curso vas a usar **Gemini** como asistente principal. Tiene aplicación para Android y para iPhone, y funciona con una cuenta de
+Google personal. Si prefieres otro, ChatGPT también tiene un plan gratuito que funciona en el navegador y en el celular. Y si en tu
+empresa ya usan un asistente, como Copilot, puedes practicar con ese, respetando lo que tu empresa permita.
 
-En este curso usarás **Gemini** como asistente principal: tiene aplicación gratuita para Android y iPhone, y funciona con tu cuenta de
-Google. Si prefieres otro, sirven también **ChatGPT** o **Microsoft Copilot**, que tienen versión gratuita y aplicación para el
-celular. **Claude** es otra alternativa, pero exige ser mayor de 18 años.
-
-Vuelven Camila y Andrés. **Camila** sigue postulando a cargos de asistente administrativa. **Andrés** quiere que sus reportes de
-bodega le tomen menos tiempo. Los dos van a pasar de pedidos vagos a prompts que funcionan.
-
-:::clave
-Un buen prompt no es una fórmula mágica. Es una instrucción clara, como la que le darías a una persona que recién llega a tu equipo,
-y casi siempre necesita una segunda vuelta.
-:::
+Vuelven Camila y Andrés. Camila responde todos los días correos de proveedores y clientes, y quiere dejar de escribirlos desde cero.
+Andrés quiere que sus reportes y avisos de bodega le tomen menos tiempo. Los dos van a pasar de pedidos vagos a prompts que funcionan,
+y vas a ver que un buen prompt no tiene nada de fórmula mágica: es una instrucción clara, como la que le darías a alguien que recién
+llega a tu equipo.
 
 ## P02 · Anatomía de un prompt
 cubre: S1, C1
-fuentes: F-M1-12, F-M1-13, F-M1-14, F-M1-15
+fuentes: F-M1-12, F-M1-13
 bloque: Texto + tabla o imagen con etiquetas (labeled graphic)
 
-Las guías de Google, Microsoft y Anthropic proponen estructuras parecidas para escribir prompts. Con distintos nombres, todas hablan de
-lo mismo: quién responde, qué necesita saber, qué tiene que hacer y cómo entregarlo. En este curso usamos cinco componentes.
+Las guías de Google y de Microsoft proponen estructuras parecidas para escribir prompts. Con distintos nombres, las dos hablan de lo
+mismo: quién responde, qué necesita saber, qué tiene que hacer y cómo entregarlo. En este curso usamos cinco componentes, con un
+ejemplo de Camila en cada uno.
 
 | Componente | Pregunta que responde | Ejemplo |
 |---|---|---|
-| **Rol** | ¿Desde qué perspectiva responde? | «Actúa como asistente administrativa con experiencia en atención de público» |
-| **Contexto** | ¿Cuál es la situación, para quién y por qué? | «Postulo a un cargo en una clínica; la carta la leerá la jefa de recursos humanos» |
-| **Tarea** | ¿Qué tiene que hacer? | «Redacta el primer párrafo de mi carta de presentación» |
-| **Formato** | ¿Cómo lo entrega? | «Un párrafo de no más de 80 palabras, tono cordial» |
-| **Restricciones** | ¿Qué límites debe respetar? | «Usa solo la experiencia que te doy; no inventes logros» |
+| Rol | ¿Desde qué perspectiva responde? | «Actúa como asistente administrativa de una constructora» |
+| Contexto | ¿Cuál es la situación, para quién y por qué? | «Un proveedor pregunta por el pago de su factura de octubre; el pago está programado para el día 15» |
+| Tarea | ¿Qué tiene que hacer? | «Redacta la respuesta a su correo» |
+| Formato | ¿Cómo lo entrega? | «Un correo de no más de 80 palabras, tono cordial» |
+| Restricciones | ¿Qué límites debe respetar? | «Usa solo los datos que te doy; no prometas nada que no esté aquí» |
 
-No es obligatorio usar los cinco en cada prompt. Un pedido muy simple puede funcionar con tarea y formato. Pero mientras más depende
-la respuesta de tu situación, más componentes conviene incluir. En este tema, la meta mínima es que tus prompts tengan **rol,
-contexto, tarea y formato**.
+No es obligatorio usar los cinco en cada prompt. Un pedido muy simple puede funcionar solo con tarea y formato. Pero mientras más
+depende la respuesta de tu situación, más componentes conviene incluir, y en este tema la meta mínima es que tus prompts tengan
+**rol, contexto, tarea y formato**.
 
 :::ejemplo El prompt completo de Camila
-«Actúa como asistente administrativa con experiencia en atención de público. Postulo a un cargo en una clínica y la carta la leerá la
-jefa de recursos humanos. Redacta el primer párrafo de mi carta de presentación. Entrégalo en un párrafo de no más de 80 palabras, con
-tono cordial. Usa solo la experiencia que te doy a continuación y no inventes logros.»
+«Actúa como asistente administrativa de una constructora. Un proveedor pregunta por el pago de su factura de octubre; el pago está
+programado para el día 15 y el correo lo leerá su encargada de cobranza. Redacta la respuesta a su correo. Entrégala como un correo de
+no más de 80 palabras, con tono cordial. Usa solo los datos que te doy y no prometas nada que no esté aquí.»
 :::
 
 ## P03 · Rol y contexto: ponerlo al día
 cubre: S1, C1
-fuentes: F-M1-12, F-M1-14, F-M1-13
+fuentes: F-M1-14, F-M1-12
 bloque: Texto + pestañas (tabs): rol / contexto
 
 La guía de Anthropic propone una prueba sencilla: imagina que el asistente es una persona nueva en tu trabajo, inteligente pero sin
-ningún antecedente. Si un colega no entendería tu pedido, el modelo tampoco.
+ningún antecedente. Si un colega recién llegado no entendería tu pedido, el modelo tampoco. Un error común es pensar que el asistente
+ya sabe a qué te refieres; como viste en el tema anterior, solo trabaja con lo que está en su contexto y no conoce tu empresa, tu
+cargo ni tu jefatura si no se lo dices.
 
-**El rol** le indica desde qué perspectiva responder. No le da conocimientos que no tiene, pero orienta el vocabulario, el tono y lo
-que considera importante. Ejemplos útiles para oficina:
-- «Actúa como encargado de bodega que escribe a su jefatura».
-- «Actúa como asistente de recursos humanos que revisa una carta».
-- «Actúa como ejecutiva de atención al cliente».
+El **rol** le indica desde qué perspectiva responder. No le da conocimientos que no tiene, pero orienta el vocabulario, el tono y lo
+que considera importante. En una oficina sirven roles como «encargado de bodega que escribe a su jefatura», «asistente de recursos
+humanos que redacta un aviso interno» o «ejecutiva de atención al cliente».
 
-**El contexto** explica la situación: para quién es el texto, para qué se usará y qué antecedentes importan. Google y Microsoft
-coinciden en que el contexto mejora mucho la respuesta. También ayuda explicar el **motivo** de una instrucción: «escríbelo corto
-porque se leerá en el celular» funciona mejor que solo «escríbelo corto».
+El **contexto** explica la situación: para quién es el texto, para qué se usará y qué antecedentes importan. Ayuda mucho explicar
+también el motivo de una instrucción. «Escríbelo corto porque se leerá en el celular» funciona mejor que solo «escríbelo corto»,
+porque el asistente entiende qué busca y puede decidir mejor.
 
 :::ejemplo Andrés pone al día al asistente
-Sin contexto: «Escribe un aviso sobre el inventario».
-Con rol y contexto: «Actúa como encargado de bodega. El viernes cerramos a las 15:00 para hacer inventario y el equipo de ventas no
-podrá retirar productos esa tarde. El aviso lo leerán vendedores que suelen pasar a buscar mercadería».
-La segunda versión le permite al asistente saber a quién le habla y qué es lo importante.
-:::
-
-:::error «El asistente ya sabe a qué me refiero»
-El modelo solo trabaja con lo que está en su contexto, como viste en el tema anterior. No conoce tu empresa, tu cargo ni tu jefatura
-si no se lo dices.
+Sin contexto, Andrés escribía: «Escribe un aviso sobre el inventario». Ahora escribe: «Actúa como encargado de bodega. El viernes
+cerramos a las 15:00 para hacer inventario y el equipo de ventas no podrá retirar productos esa tarde. El aviso lo leerán vendedores
+que suelen pasar a buscar mercadería». Con la segunda versión, el asistente sabe a quién le habla y qué es lo importante.
 :::
 
 ## P04 · Tarea, formato y restricciones
 cubre: S1, C1
-fuentes: F-M1-13, F-M1-14, F-M1-15, F-M1-12
-bloque: Texto + lista + knowledge check
+fuentes: F-M1-13, F-M1-14
+bloque: Texto + knowledge check
 
-**La tarea** es lo que quieres que haga. Conviene empezar con un verbo claro: resume, reescribe, clasifica, redacta, ordena, compara.
-Si la tarea tiene varios pasos y el orden importa, numéralos.
+La tarea es lo que quieres que haga. Conviene empezar con un verbo claro: resume, reescribe, clasifica, redacta, ordena, compara. Si
+la tarea tiene varios pasos y el orden importa, numéralos.
 
-**El formato** es cómo quieres recibir el resultado. Las guías recomiendan ser específico:
-- **Forma:** viñetas, tabla, párrafo, correo con asunto.
-- **Extensión:** «en tres viñetas», «máximo 100 palabras».
-- **Tono:** formal, cordial, directo.
+El formato es cómo quieres recibir el resultado, y las guías recomiendan ser específico en tres cosas: la forma (viñetas, tabla,
+párrafo o correo con asunto), la extensión («en tres viñetas», «máximo 100 palabras») y el tono (formal, cordial, directo). Si no lo
+dices, el asistente decide por ti.
 
-**Las restricciones** son los límites que debe respetar: qué incluir, qué dejar fuera y de qué información sacar la respuesta. Por
-ejemplo: «usa solo el texto que te pego», «no agregues datos que no estén en el reporte».
-
-Un consejo de la guía de Anthropic: di **qué hacer** en vez de solo qué no hacer. «Escribe en frases cortas y simples» orienta mejor
-que «no uses palabras difíciles».
+Las **restricciones** son los límites que la respuesta debe respetar: qué incluir, qué dejar fuera y de qué información sacar la
+respuesta. Por ejemplo, «usa solo el texto que te pego» o «no agregues datos que no estén en el reporte». La guía de Anthropic suma un
+consejo útil: di qué hacer en vez de decir solo lo que no quieres. «Escribe en frases cortas y simples» orienta mejor que «no uses
+palabras difíciles».
 
 :::comprueba
 En el prompt «Resume este reglamento en cinco viñetas para trabajadores nuevos, sin agregar información externa», ¿qué parte es una
@@ -112,68 +99,46 @@ Retroalimentación: «Resume» es la tarea y «en cinco viñetas» es el formato
 sacar la respuesta: es una restricción.
 :::
 
-:::comprueba
-¿Cuál de estos prompts incluye rol, contexto, tarea y formato?
-- a) «Escribe un correo para un proveedor»
-- **b) «Actúa como encargado de bodega. Un proveedor atrasó una entrega dos días. Redacta un correo para pedirle una nueva fecha, en
-  cinco líneas y tono cordial»**
-- c) «Redacta un correo cordial de cinco líneas»
-Retroalimentación: La opción b dice quién escribe (rol), qué pasó (contexto), qué hacer (tarea) y cómo entregarlo (formato).
-:::
-
 ## P05 · Ejemplos y datos dentro del prompt
 cubre: S1, H1
-fuentes: F-M1-14, F-M1-15, F-M1-02
+fuentes: F-M1-14, F-M1-15
 bloque: Texto + ejemplo destacado
 
-A veces la manera más rápida de explicar lo que quieres es **mostrar un ejemplo**. Si le das un modelo del formato o del tono que
-buscas, el asistente tiende a seguirlo. Las guías de Google, Anthropic y la UNESCO recomiendan incluir ejemplos cuando ayudan.
+A veces la manera más rápida de explicar lo que quieres es mostrar un ejemplo. Si le das un modelo del formato o del tono que buscas,
+el asistente tiende a seguirlo. Las guías de Anthropic y de Google recomiendan incluir ejemplos cuando ayudan, con dos cuidados.
+El primero es que sean pocos: la guía de Google advierte que demasiados ejemplos pueden hacer que el modelo los copie de más y pierda
+flexibilidad. El segundo es que se parezcan a lo que quieres, porque si tu ejemplo es largo, la respuesta también lo será.
 
-Dos cuidados:
-- **Pocos y variados.** La guía de Google advierte que demasiados ejemplos pueden hacer que el modelo los copie de más y pierda
-  flexibilidad.
-- **Que sean del tipo que quieres.** Si tu ejemplo es largo, la respuesta también lo será.
-
-Otra práctica útil es **separar las instrucciones de los datos**. Cuando pegas un texto para trabajar (un aviso, unas notas, un
-correo), deja claro dónde empieza y dónde termina. Por ejemplo, escribe primero la instrucción y luego «Texto:», o pon el texto entre
-comillas. Así el asistente no confunde tus indicaciones con el contenido.
+Otra práctica útil es separar las instrucciones de los datos. Cuando pegas un texto para trabajar, como unas notas, un correo o el
+detalle de unas facturas, deja claro dónde empieza y dónde termina. Escribe primero la instrucción y luego «Texto:», o pon el texto
+entre comillas. Así el asistente no confunde tus indicaciones con el contenido.
 
 :::ejemplo Camila muestra el formato
-«Ordena estos avisos de empleo en una tabla con estas columnas, como en el ejemplo:
-Cargo | Empresa | Jornada | Requisito principal
-Asistente administrativa | Clínica del Sur | Completa | Excel intermedio
-Avisos: "…"»
-Con una sola fila de ejemplo, el asistente entiende qué va en cada columna.
-:::
-
-:::error «Mientras más ejemplos, mejor»
-Uno o dos ejemplos bien elegidos orientan el formato. Muchos ejemplos parecidos pueden hacer que el asistente copie su contenido en
-vez de trabajar con tus datos.
+«Ordena estas facturas en una tabla con estas columnas, como en el ejemplo:
+N.º | Proveedor | Fecha | Monto total
+1520 | Áridos del Sur | 03-10-2026 | $1.250.000
+Facturas: "…"»
+Con una sola fila de ejemplo, inventada, el asistente entiende qué va en cada columna.
 :::
 
 ## P06 · Errores frecuentes al escribir prompts
 cubre: S2
-fuentes: F-M1-14, F-M1-12, F-M1-15, F-M1-02
+fuentes: F-M1-14, F-M1-15
 bloque: Pestañas o acordeón (un error por pestaña)
 
-Las guías de los proveedores coinciden en varios errores que hacen que la respuesta no sirva:
+Las guías de los proveedores coinciden en varios errores que hacen que la respuesta no sirva. Casi todos nacen de lo mismo: escribir
+como si el asistente supiera lo que tú sabes.
 
-1. **Pedido vago o ambiguo.** «Hazme algo para el cliente» admite mil interpretaciones. Di qué necesitas exactamente.
-2. **Falta de contexto.** Sin saber para quién ni para qué, el asistente entrega algo genérico.
-3. **Jerga o redacción enredada.** Las guías recomiendan lenguaje natural, en oraciones completas, y evitar siglas internas que el
-   modelo no conoce.
-4. **Varias tareas mezcladas.** «Resume el acta, escribe el correo para el gerente y arma la lista de pendientes» en un solo pedido
-   suele dar un resultado a medias. La guía de Google sugiere dividir las tareas complejas en varios prompts.
-5. **No indicar formato ni restricciones.** Si no dices el largo ni la forma, el asistente decide por ti.
-6. **Decir solo lo que no quieres.** «No lo hagas largo ni formal» deja abierto qué sí quieres.
+1. Pedido vago o ambiguo: «hazme algo para el cliente» admite mil interpretaciones.
+2. Falta de contexto: sin saber para quién ni para qué, el asistente entrega algo genérico.
+3. Jerga o siglas internas que un colega nuevo no entendería, y el modelo tampoco.
+4. Varias tareas mezcladas en un solo mensaje.
+5. No indicar formato ni restricciones, de modo que el asistente decide el largo y la forma.
+6. Decir solo lo que no quieres: «no lo hagas largo ni formal» deja abierto qué sí quieres.
 
-La UNESCO agrega un cuidado: evitar prompts que pidan o refuercen contenido sesgado, por ejemplo suponer que un cargo es «de hombres» o
-«de mujeres».
-
-:::error Pedir todo en un solo mensaje
-Juntar tres tareas en un prompt parece más rápido, pero suele salir peor. Pide una cosa a la vez y usa la respuesta anterior como base
-para la siguiente.
-:::
+El cuarto merece una explicación, porque es tentador. Escribir «resume el acta, redacta el correo para el gerente y arma la lista de
+pendientes» parece más rápido, pero suele dar un resultado a medias en las tres cosas. La guía de Google recomienda dividir las tareas
+complejas en varios prompts: pides una cosa a la vez y usas cada respuesta como base para la siguiente.
 
 :::comprueba
 Andrés escribe: «Revisa esto y mejóralo». ¿Cuál es el error principal?
@@ -188,60 +153,47 @@ cubre: H1, C1
 fuentes: F-M1-12, F-M1-13
 bloque: Comparación antes/después (dos columnas o flashcards)
 
-Resumir es una de las tareas de oficina que mejor delega un asistente, siempre que tú le entregues el texto. Mira cómo cambia el
-resultado al agregar componentes.
+Resumir es una de las tareas de oficina que mejor delega un asistente, siempre que tú le entregues el texto. Andrés lo ve con la minuta
+de la reunión semanal con ventas. Cuando escribía solo «Resume esta minuta», recibía un párrafo largo que mezclaba temas y no
+destacaba lo que él necesitaba: los compromisos. Ahora agrega los componentes que faltaban:
 
-**Antes:** «Resume esta minuta».
-El asistente entrega un párrafo largo, mezcla temas y no destaca lo que Andrés necesita: los compromisos.
+> «Actúa como encargado de bodega [rol]. Esta es la minuta de la reunión semanal con ventas; la leerá mi equipo de tres personas, que
+> no estuvo en la reunión [contexto]. Resume los acuerdos y los compromisos con su responsable y su fecha [tarea]. Entrégalo en una
+> lista de máximo seis viñetas, con el formato "Compromiso – Responsable – Fecha" [formato]. Usa solo la información de la minuta; si
+> falta un responsable o una fecha, escribe "sin definir" [restricción]. Minuta: "…"»
 
-**Después:**
-«Actúa como encargado de bodega **[rol]**. Esta es la minuta de la reunión semanal con ventas; la leerá mi equipo de tres personas,
-que no estuvo en la reunión **[contexto]**. Resume los acuerdos y los compromisos con su responsable y su fecha **[tarea]**. Entrégalo
-en una lista de máximo seis viñetas, con el formato "Compromiso – Responsable – Fecha" **[formato]**. Usa solo la información de la
-minuta; si falta un responsable o una fecha, escribe "sin definir" **[restricción]**.
-Minuta: "…"»
-
-El resultado es una lista corta que el equipo puede leer en el celular, y los vacíos quedan a la vista en vez de rellenarse con datos
-inventados.
+El resultado es una lista corta que el equipo puede leer en el celular. Además, los vacíos quedan a la vista en vez de rellenarse con
+datos inventados. Esa última restricción, «si falta, escribe "sin definir"», sirve en muchos prompts: le da al asistente una salida
+honesta cuando no tiene el dato.
 
 :::actividad Mejora tú el prompt
 Toma este pedido: «Resume el reglamento interno». Reescríbelo agregando rol, contexto, tarea, formato y una restricción. Piensa en un
-lector concreto, por ejemplo una persona que entra a trabajar el lunes.
-:::
-
-:::clave
-La restricción «si falta, escribe "sin definir"» es muy útil: le da al asistente una salida honesta cuando no tiene el dato.
+lector concreto, por ejemplo una persona que entra a trabajar el lunes a tu área.
 :::
 
 ## P08 · Antes y después: reescribir
 cubre: H1, C1
-fuentes: F-M1-12, F-M1-13, F-M1-14
+fuentes: F-M1-12, F-M1-13
 bloque: Comparación antes/después (dos columnas o flashcards)
 
-Reescribir es cambiar el tono, el largo o el destinatario de un texto que ya tienes. Camila escribió un mensaje para preguntar por una
-postulación, pero le salió muy informal.
+Reescribir es cambiar el tono, el largo o el destinatario de un texto que ya tienes. Camila escribió rápido un mensaje para un
+proveedor que no ha confirmado la entrega de un pedido, y le salió demasiado informal: «Hola! Les escribimos hace como dos semanas por
+los sacos de cemento y nadie nos dice nada, ¿llegan o no?».
 
-**Su borrador:** «Hola! Postulé hace como dos semanas y nadie me dice nada, quería saber si todavía está el puesto o no».
+Primero pidió solo «Mejora este mensaje». El asistente lo dejó más formal, pero le agregó frases que Camila nunca diría y lo alargó al
+triple. Entonces escribió un prompt completo:
 
-**Antes:** «Mejora este mensaje».
-El asistente lo deja más formal, pero le agrega frases que Camila nunca diría y lo alarga al triple.
+> «Actúa como asistente administrativa de una constructora [rol]. Hace dos semanas hicimos un pedido de cemento a este proveedor y no
+> ha confirmado la fecha de entrega; necesito saberla sin sonar molesta [contexto]. Reescribe mi mensaje en tono cordial y profesional
+> [tarea]. Entrégalo como correo, con asunto y un máximo de 70 palabras [formato]. Mantén la información que doy y no agregues datos
+> nuevos [restricción]. Mensaje: "…"»
 
-**Después:**
-«Actúa como asistente de recursos humanos con experiencia en selección **[rol]**. Postulé hace dos semanas a un cargo de asistente
-administrativa y quiero preguntar por el estado del proceso sin sonar insistente **[contexto]**. Reescribe mi mensaje en tono cordial y
-profesional **[tarea]**. Entrégalo como correo, con asunto y un máximo de 70 palabras **[formato]**. Mantén la información que doy y no
-agregues logros ni datos nuevos **[restricción]**.
-Mensaje: "…"»
-
-Ahora el correo es breve, respetuoso y sigue sonando a ella.
-
-:::ejemplo El mismo texto, otro destinatario
-Si Camila quiere enviar la misma consulta por WhatsApp, basta con cambiar el formato: «Entrégalo como mensaje de WhatsApp de dos
-líneas». El resto del prompt sirve igual. Esa es la idea que usarás más adelante para armar plantillas.
-:::
+Ahora el correo es breve, firme y sigue sonando a ella. Si quisiera mandar la misma consulta por WhatsApp, le bastaría con cambiar el
+formato: «Entrégalo como mensaje de dos líneas». El resto del prompt sirve igual, y esa es la idea que usarás más adelante para armar
+plantillas.
 
 :::comprueba
-Camila quiere que el texto conserve su forma de hablar. ¿Qué parte del prompt la protege mejor?
+Camila quiere que el texto conserve su información y no sume nada. ¿Qué parte del prompt la protege mejor?
 - a) El rol
 - **b) La restricción «mantén la información que doy y no agregues datos nuevos»**
 - c) El asunto del correo
@@ -250,69 +202,58 @@ Retroalimentación: La restricción le pone límites al asistente para que no ca
 
 ## P09 · Antes y después: clasificar
 cubre: H1, C1, S1
-fuentes: F-M1-12, F-M1-15, F-M1-14
+fuentes: F-M1-12, F-M1-15
 bloque: Comparación antes/después + tabla
 
-Clasificar es ordenar información en categorías: correos por tema, solicitudes por urgencia, gastos por tipo. Aquí aparece **Rosa**,
-recepcionista en un centro médico, que cada mañana revisa los mensajes que dejan los pacientes.
+Clasificar es ordenar información en categorías: correos por tema, solicitudes por urgencia, gastos por tipo. Aquí aparece Rosa,
+recepcionista en un centro médico, que cada mañana revisa los mensajes que dejan los pacientes. Cuando pedía «Ordena estos mensajes»,
+el asistente los ordenaba por largo o los resumía uno por uno, y eso no le servía. Ahora escribe:
 
-**Antes:** «Ordena estos mensajes».
-El asistente los ordena por largo, o los resume uno por uno. No era lo que Rosa necesitaba.
+> «Actúa como recepcionista de un centro médico [rol]. Estos son mensajes de pacientes que debo derivar a distintas áreas antes de las
+> 9:00 [contexto]. Clasifica cada mensaje en una de estas categorías: Agendar hora, Cambiar o anular hora, Resultados de exámenes,
+> Otro [tarea]. Entrega una tabla con las columnas "N.º", "Resumen en cinco palabras" y "Categoría" [formato]. Usa solo esas cuatro
+> categorías; si un mensaje no calza, ponlo en Otro [restricción]. Mensajes: 1. "…" 2. "…"»
 
-**Después:**
-«Actúa como recepcionista de un centro médico **[rol]**. Estos son mensajes de pacientes que debo derivar a distintas áreas antes de
-las 9:00 **[contexto]**. Clasifica cada mensaje en una de estas categorías: Agendar hora, Cambiar o anular hora, Resultados de
-exámenes, Otro **[tarea]**. Entrega una tabla con las columnas "N.º", "Resumen en cinco palabras" y "Categoría" **[formato]**. Usa solo
-esas cuatro categorías; si un mensaje no calza, ponlo en Otro **[restricción]**.
-Mensajes: 1. "…" 2. "…"»
-
-Con las categorías definidas de antemano, la clasificación sale pareja y Rosa puede revisarla rápido.
-
-:::clave
-Al clasificar, **tú defines las categorías**. Si dejas que el asistente las invente, cada vez puede usar otras distintas. Además, no
-pegues nombres, RUT ni datos de salud reales: para practicar, usa mensajes ficticios. Qué datos no compartir se profundiza en el
-módulo 3.
-:::
+Con las categorías definidas de antemano, la clasificación sale pareja y Rosa la revisa rápido. Al clasificar, **tú defines las
+categorías**: si dejas que el asistente las invente, cada vez puede usar otras distintas. Y para practicar no pegues nombres, RUT ni
+datos de salud reales; usa mensajes de prueba. Qué datos no compartir lo vas a ver a fondo en el módulo 3.
 
 :::actividad Arma tu clasificación
-Escribe cinco solicitudes ficticias que podrían llegar en el cargo de tu aviso de empleo. Define tres o cuatro categorías y escribe un
-prompt con rol, contexto, tarea, formato y restricción para clasificarlas.
+Escribe cinco solicitudes de prueba parecidas a las que llegan en tu trabajo. Define tres o cuatro categorías y escribe un prompt con
+rol, contexto, tarea, formato y restricción para clasificarlas.
 :::
 
 ## P10 · Iterar: la segunda vuelta
 cubre: S3, C2
-fuentes: F-M1-12, F-M1-13, F-M1-15, F-M1-02
+fuentes: F-M1-12, F-M1-15
 bloque: Proceso (process block) en 4 pasos
 
-Casi nunca la primera respuesta es la definitiva. Microsoft lo describe como un ida y vuelta; Google, como una conversación; la UNESCO
-recomienda refinar e iterar. A ese ciclo se le llama **iteración**:
+Casi nunca la primera respuesta es la definitiva. Las guías de los proveedores proponen tratar el trabajo con el asistente como una
+conversación, y a ese ciclo de pedir, mirar y corregir se le llama **iteración**:
 
-1. **Pides** con tu mejor prompt.
-2. **Revisas** la respuesta: ¿sirve para lo que necesitas?
-3. **Ajustas**: corriges el prompt o haces una pregunta de seguimiento.
-4. **Repites** hasta que la respuesta sea útil.
+1. Pides con tu mejor prompt.
+2. Revisas la respuesta: ¿sirve para lo que necesitas?
+3. Ajustas: corriges el prompt o haces una pregunta de seguimiento.
+4. Repites hasta que la respuesta sea útil.
 
-Formas de iterar que proponen las guías:
-- **Agregar contexto** que faltaba: «es para un cliente molesto».
-- **Precisar el formato**: «más corto, en tres viñetas».
-- **Reformular** la tarea con otras palabras.
-- **Dividir** la tarea en pasos: primero el resumen, después el correo.
-- **Cambiar el orden** del prompt, por ejemplo poner el texto antes de la instrucción.
-- **Pedirle al asistente que mejore tu prompt**: la guía de Google lo sugiere como recurso.
-
-Puedes iterar dentro de la misma conversación («ahora hazlo más formal») o editar tu prompt y volver a enviarlo.
+Hay varias formas de ajustar. Puedes agregar el contexto que faltaba («es para un cliente molesto»), precisar el formato («más corto,
+en tres viñetas») o reformular la tarea con otras palabras. También puedes dividirla en pasos, primero el resumen y después el correo,
+o cambiar el orden del prompt y poner el texto antes de la instrucción. Y la guía de Google sugiere un recurso más: pedirle al propio
+asistente que mejore tu prompt. Puedes iterar dentro de la misma conversación («ahora hazlo más formal») o editar tu prompt y volver a
+enviarlo.
 
 :::ejemplo Andrés itera una vez
-Primera respuesta: un aviso correcto, pero largo. Andrés escribe: «Acórtalo a tres líneas y pon la hora de cierre al principio». La
-segunda versión ya la puede pegar en el grupo del equipo.
+La primera respuesta de Andrés fue un aviso correcto, pero largo. Escribió: «Acórtalo a tres líneas y pon la hora de cierre al
+principio». La segunda versión ya la pudo pegar en el grupo del equipo.
 :::
 
 ## P11 · Leer la respuesta para saber qué ajustar
 cubre: S3, H1, C2
-fuentes: F-M1-12, F-M1-15, F-M1-13
+fuentes: F-M1-12, F-M1-13
 bloque: Tabla + escenario
 
-Iterar no es probar al azar. Mira qué falla en la respuesta y ajusta el componente que corresponde.
+Iterar no es probar al azar. Lo que falla en la respuesta te dice qué faltó en el prompt, así que conviene mirarla primero y ajustar
+el componente que corresponde.
 
 | Si la respuesta… | Probablemente faltó… | Ajuste posible |
 |---|---|---|
@@ -323,11 +264,9 @@ Iterar no es probar al azar. Mira qué falla en la respuesta y ajusta el compone
 | Hace otra cosa de lo que pediste | Tarea | Reformula con un verbo claro: «clasifica», no «revisa» |
 | Mezcla varios temas | División en pasos | Pide una tarea a la vez |
 
-:::ejemplo Camila diagnostica
-Camila pidió un resumen de un aviso y recibió un texto bonito, pero con un requisito que el aviso no menciona. No pierde tiempo
-reescribiendo todo: agrega una restricción («usa solo la información del aviso y marca con "no indica" lo que falte») y vuelve a
-pedir.
-:::
+Camila usó esta lógica con el instructivo de rendición de gastos. Su resumen venía bien escrito, pero traía la firma del gerente
+general, que el instructivo no pide. No reescribió todo: agregó una restricción («usa solo la información del instructivo y marca con
+"no indica" lo que falte») y volvió a pedir.
 
 :::comprueba
 La respuesta del asistente está bien escrita, pero es tan general que serviría para cualquier empresa. ¿Qué conviene agregar?
@@ -339,59 +278,47 @@ Retroalimentación: Una respuesta genérica suele indicar falta de contexto. El 
 
 ## P12 · Perseverancia en la iteración
 cubre: A1, S3
-fuentes: F-M1-02, F-M1-13, F-H-12
+fuentes: F-M1-13, F-H-12
 bloque: Texto + recuadro destacado
 
-La **perseverancia** es no rendirse con la primera respuesta, y tampoco quedarse dando vueltas sin rumbo. La UNESCO y Microsoft
-coinciden en que llegar al resultado suele requerir varias iteraciones. Es normal, no es señal de que lo hiciste mal.
+La **perseverancia** es no rendirse con la primera respuesta, y tampoco quedarse dando vueltas sin rumbo. La guía de Microsoft advierte
+que llegar al resultado suele requerir un ida y vuelta. Es normal, no es señal de que lo hiciste mal. Un error común es concluir que la
+herramienta no sirve porque la primera respuesta salió mala, cuando muchas veces basta una iteración con más contexto o un formato más
+preciso.
 
-Algunas actitudes que ayudan:
-- **Mirar cada respuesta como información.** Lo que salió mal te dice qué faltaba en el prompt.
-- **Cambiar una cosa a la vez.** Si cambias todo de golpe, no sabrás qué funcionó.
-- **Empezar de nuevo cuando conviene.** Si la conversación se llenó de intentos o cambiaste de tema, abre una nueva y pega tu mejor
-  versión del prompt. La ayuda de Gemini también recomienda abrir una conversación nueva al cambiar de tema, para aprovechar mejor el
-  uso disponible.
-- **Saber cuándo parar.** Si después de varios intentos la tarea no sale, quizás no conviene delegarla. Recuerda el semáforo del tema
-  anterior.
+Ayuda mirar cada respuesta como información: lo que salió mal te dice qué faltaba. Ayuda también cambiar una cosa a la vez, porque si
+cambias todo de golpe no sabrás qué funcionó. A veces conviene empezar de nuevo: si la conversación se llenó de intentos o cambiaste de
+tema, abre una nueva y pega tu mejor versión del prompt. La ayuda de Gemini lo recomienda al cambiar de tema, para aprovechar mejor el
+uso disponible.
 
-:::error «Si la primera respuesta es mala, la herramienta no sirve»
-La primera respuesta es un punto de partida. Muchas veces basta una iteración con más contexto o un formato más preciso para que sea
-útil.
-:::
+Perseverar también es saber cuándo parar. Si después de varios intentos la tarea no sale, quizás no conviene delegarla; recuerda el
+semáforo del tema anterior.
 
 :::ejemplo Rosa no se rinde
-La primera clasificación de Rosa mezcló «cambiar hora» con «agendar hora». En vez de dejarlo, agrega un ejemplo de cada categoría. En
-la segunda vuelta la tabla sale bien, y Rosa guarda ese prompt mejorado para el día siguiente.
+La primera clasificación de Rosa mezcló «Cambiar o anular hora» con «Agendar hora». En vez de dejarlo, agregó un ejemplo de cada
+categoría. En la segunda vuelta la tabla salió bien, y Rosa guardó ese prompt mejorado para el día siguiente.
 :::
 
 ## P13 · Laboratorio de prompts
 cubre: H1, C1, C2, A1
-fuentes: F-M1-12, F-H-14, F-H-15
+fuentes: F-H-14, F-H-15
 bloque: Proceso paso a paso + actividad
 
-Ahora te toca. Vas a escribir, probar e iterar un prompt para una tarea real del cargo que elegiste en el tema anterior.
+Ahora te toca. Vas a escribir, probar e iterar un prompt para una tarea real de tu cargo. Antes de empezar, una advertencia sobre los
+datos: con el ajuste de actividad encendido, Gemini guarda tus conversaciones y revisores humanos pueden leer algunas. Por eso aquí se
+trabaja con copias sin datos sensibles o con datos de prueba, y se respeta lo que diga tu empresa. Cómo configurar la privacidad lo
+verás en el módulo 3.
 
-1. **Abre Gemini** en la app del celular o en el navegador (o la alternativa que uses).
-2. **Elige una tarea** de tu aviso de empleo que sea de resumir, reescribir o clasificar. Por ejemplo: resumir un procedimiento,
-   reescribir una respuesta a un cliente o clasificar solicitudes.
-3. **Prepara los datos** con información pública o ficticia. No pegues datos personales tuyos ni de otras personas.
-4. **Escribe la versión 1** con rol, contexto, tarea y formato. Si puedes, agrega una restricción.
-5. **Envíala y revisa** la respuesta con la tabla de la pantalla anterior.
-6. **Itera al menos una vez:** ajusta el componente que falló y vuelve a enviar.
-7. **Anota en tu bitácora** las dos versiones del prompt, qué cambiaste y por qué la segunda respuesta es más útil.
+1. Abre Gemini en la app del celular o en el navegador, o el asistente que uses.
+2. Elige una tarea de tu trabajo que sea de resumir, reescribir o clasificar: un procedimiento, una respuesta a un cliente, solicitudes que llegan a tu correo.
+3. Prepara los datos con una copia sin nombres, RUT ni montos reales, o con datos de prueba.
+4. Escribe la versión 1 con rol, contexto, tarea y formato; si puedes, agrega una restricción.
+5. Envíala y revisa la respuesta con la tabla de la pantalla anterior.
+6. Itera al menos una vez: ajusta el componente que falló y vuelve a enviar.
 
 :::actividad Tu laboratorio
-Completa este registro:
-- Tarea elegida:
-- Prompt versión 1:
-- Qué falló en la respuesta 1:
-- Prompt versión 2 (qué cambiaste):
-- Por qué la respuesta 2 es útil:
-:::
-
-:::clave
-Gemini puede guardar tu actividad, y revisores humanos pueden leer algunas conversaciones si ese ajuste está encendido. Por eso, para
-practicar, usa datos ficticios. Cómo configurar la privacidad lo verás en el módulo 3.
+Anota en tu bitácora la tarea que elegiste, las dos versiones del prompt, qué falló en la primera respuesta, qué cambiaste en la
+segunda versión y por qué la segunda respuesta te sirve más.
 :::
 
 ## P14 · De prompt a plantilla
@@ -400,13 +327,15 @@ fuentes: F-M1-12
 bloque: Texto + ejemplo con resaltado de las partes variables
 
 Si un prompt te funcionó, no lo pierdas. Conviértelo en una **plantilla**: un prompt reutilizable donde las partes que cambian cada vez
-quedan entre **[corchetes]**. La guía de Google para Gemini ofrece una biblioteca de prompts de ejemplo por cargo, con corchetes para
+quedan entre [corchetes]. La guía de Google para Gemini ofrece una biblioteca de prompts de ejemplo por cargo, con corchetes para
 personalizar, y entre ellos hay ejemplos para asistencia administrativa y para bodega.
 
-Para armar una plantilla:
-1. Toma tu mejor versión, la que obtuviste después de iterar.
-2. Marca lo que cambiará la próxima vez: nombres, fechas, textos pegados, destinatarios.
-3. Reemplaza cada parte por un corchete que diga qué va ahí.
+Armarla es simple. Tomas tu mejor versión, la que obtuviste después de iterar, y marcas lo que cambiará la próxima vez: nombres,
+fechas, textos pegados, destinatarios. Luego reemplazas cada una de esas partes por un corchete que diga qué va ahí.
+
+Un error común es dejar datos reales dentro de la plantilla. Si quedó con el nombre de un cliente, un local o un número de teléfono,
+cámbialo por un corchete como [cliente] o [teléfono]. Una plantilla se reutiliza y se comparte con el equipo, así que tiene que quedar
+limpia de datos personales.
 
 :::ejemplo La plantilla de Andrés
 «Actúa como encargado de bodega. El [día] cerramos a las [hora] por [motivo] y [quién se ve afectado] no podrá [qué no podrá hacer].
@@ -415,20 +344,14 @@ Redacta un aviso para [destinatarios]. Entrégalo en un máximo de [número] lí
 La próxima vez, Andrés solo llena los corchetes y envía.
 :::
 
-:::error Dejar datos reales dentro de la plantilla
-Si tu plantilla quedó con el nombre de un cliente o un número de teléfono, cámbialo por un corchete. Una plantilla se comparte y se
-reutiliza: debe quedar limpia de datos personales.
-:::
-
 ## P15 · Tu biblioteca personal de prompts
 cubre: H2, A2
 fuentes: F-M1-12
 bloque: Texto + tabla descargable (plantilla de la biblioteca)
 
-Una **biblioteca personal de prompts** es tu colección ordenada de plantillas que funcionan, agrupadas por tarea. Es la misma lógica
-de las bibliotecas que publican los proveedores, pero hecha para tu cargo y con tus aprendizajes.
-
-Te proponemos este formato. Puedes llevarlo en un documento, una planilla o las notas del celular:
+Una **biblioteca personal de prompts** es tu colección ordenada de plantillas que funcionan, agrupadas por tarea. Sigue la misma lógica
+de las bibliotecas que publican los proveedores, pero hecha para tu cargo y con lo que tú aprendiste. Puedes llevarla en un documento,
+en una planilla o en las notas del celular, con este formato:
 
 | Campo | Qué anotar |
 |---|---|
@@ -439,14 +362,11 @@ Te proponemos este formato. Puedes llevarlo en un documento, una planilla o las 
 | Notas de iteración | Qué ajuste la hizo funcionar: «agregar el destinatario mejoró el tono» |
 | Herramienta y fecha | En qué asistente la probaste y cuándo |
 
-**Orden y documentación** del propio trabajo no es burocracia. Te ahorra rehacer lo que ya resolviste, te permite mostrar cómo
-trabajas en una entrevista y facilita compartir una plantilla con tu equipo.
-
-:::ejemplo La biblioteca de Camila
-Camila tiene cuatro plantillas: «Resumir aviso de empleo», «Adaptar carta a un aviso», «Correo de seguimiento» y «Ordenar avisos en
-tabla». En cada una anotó qué ajuste la hizo funcionar. Cuando aparece un aviso nuevo, prepara su postulación en la mitad del tiempo.
-Para su proyecto eligió una tarea del aviso que guardó: registrar y clasificar los documentos que llegan a la oficina.
-:::
+Ordenar y documentar tu propio trabajo no es burocracia. Te ahorra rehacer lo que ya resolviste, te permite mostrarle a tu jefatura
+cómo trabajas y facilita compartir una plantilla con tu equipo. La biblioteca de Camila, por ejemplo, tiene cuatro plantillas:
+«Resumir instructivo», «Responder a proveedor», «Correo de seguimiento de pago» y «Ordenar facturas en tabla». En cada una anotó qué
+ajuste la hizo funcionar, y cuando llega un correo parecido parte de la plantilla en vez de escribir desde cero. Para su proyecto
+eligió una tarea que le toma tiempo todas las semanas: registrar y clasificar los documentos que llegan a la oficina.
 
 :::actividad Empieza tu biblioteca
 Abre un documento o una nota y crea la tabla con los seis campos. Agrega la plantilla de tu laboratorio como primera entrada.
@@ -457,11 +377,10 @@ cubre: C1, C2, H2, A2
 fuentes: F-M1-12, F-M1-13
 bloque: Texto + lista de verificación (checklist) + actividad de cierre
 
-En este tema viste que un prompt efectivo tiene **rol, contexto, tarea, formato** y, cuando hace falta, **restricciones**. Conociste
-los errores más comunes, practicaste resumir, reescribir y clasificar con ejemplos antes y después, y aprendiste a **iterar** mirando
-qué falló en la respuesta.
+En este tema viste que un prompt efectivo tiene rol, contexto, tarea y formato y, cuando hace falta, restricciones. Conociste los
+errores más comunes, practicaste resumir, reescribir y clasificar con ejemplos de antes y después, y aprendiste a iterar mirando qué
+falló en la respuesta. Antes de guardar una plantilla en tu biblioteca, revísala con esta lista:
 
-Antes de guardar una plantilla en tu biblioteca, revísala con esta lista:
 - [ ] Tiene rol, contexto, tarea y formato.
 - [ ] Incluye al menos una restricción cuando hay riesgo de que invente o se alargue.
 - [ ] La probé y la mejoré al menos una vez.
@@ -469,13 +388,13 @@ Antes de guardar una plantilla en tu biblioteca, revísala con esta lista:
 - [ ] No tiene datos personales ni confidenciales.
 - [ ] Anoté qué ajuste la hizo funcionar.
 
+En el próximo tema verás por qué el mismo prompt puede dar respuestas distintas y cómo ajustar la longitud y la variación según lo que
+necesitas.
+
 :::actividad Tres plantillas para tu cargo
 Vuelve a los tres usos que escribiste al cierre del tema anterior. Para cada uno, escribe una plantilla, pruébala en Gemini, itera al
 menos una vez y guárdala en tu biblioteca con sus notas. Esa será tu **biblioteca de prompts v1**.
 :::
-
-En el próximo tema verás por qué el mismo prompt puede dar respuestas distintas y cómo ajustar la longitud y la variación según lo que
-necesitas.
 
 ## Ideas clave
 
@@ -504,15 +423,13 @@ necesitas.
 ## Conexión con el proyecto
 
 Tus tres plantillas de la actividad de cierre (P16), con sus notas de iteración, forman la **biblioteca de prompts v1** del **Hito 1
-del proyecto aplicado: problema u oportunidad real + biblioteca de prompts v1**. La armas para resolver la tarea del cargo que elegiste
-en el tema anterior, a partir de tu aviso de empleo. En el **caso M1-C1** analizarás cómo una empresa usa instrucciones y fuentes en
-un asistente de IA, y aplicarás lo aprendido a tu biblioteca.
+del proyecto aplicado: problema u oportunidad real + biblioteca de prompts v1**. La armas para resolver tareas de tu propio cargo, y
+en el hito eliges entre ellas el desafío laboral en que vas a trabajar durante el curso.
 
 ## Fuentes
 
 Detalle de cada fuente y de lo que respalda: `investigacion/M1.md` e `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
 
-- F-M1-02 · UNESCO; Miao y Holmes (2024). Guía para el uso de IA generativa en educación e investigación. https://unesdoc.unesco.org/ark:/48223/pf0000389227_spa
 - F-M1-12 · Google Workspace (2026). Cómo escribir instrucciones eficaces. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
 - F-M1-13 · Microsoft Support (2026). Introducción a la escritura de indicaciones en Copilot. https://support.microsoft.com/es-es/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot
 - F-M1-14 · Anthropic (2026). Mejores prácticas de prompting. https://platform.claude.com/docs/es/build-with-claude/prompt-engineering/claude-prompting-best-practices
@@ -521,8 +438,6 @@ Detalle de cada fuente y de lo que respalda: `investigacion/M1.md` e `investigac
 - F-H-12 · Google (s. f.). Límites de las aplicaciones de Gemini y cambios a planes superiores. https://support.google.com/gemini/answer/16275805?hl=es
 - F-H-14 · Google (s. f.). Empezar a usar la aplicación móvil Gemini. https://support.google.com/gemini/answer/14554984?hl=es
 - F-H-15 · Google (s. f.). Centro de Privacidad de las Aplicaciones de Gemini. https://support.google.com/gemini/answer/13594961?hl=es
-- F-H-17 · Microsoft (2026). Microsoft Copilot para personas: sus controles y opciones de privacidad. https://support.microsoft.com/es-es/privacy/microsoft-copilot/privacy-controls
-- F-H-23 · Anthropic (2025). Consumer Terms of Service. https://www.anthropic.com/legal/consumer-terms
 
 Recomendaciones del curso, sin fuente: el formato de seis campos de la biblioteca (P15), la tabla de diagnóstico de P11 como
 organización didáctica y la lista de verificación de P16.

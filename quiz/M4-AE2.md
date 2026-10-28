@@ -6,12 +6,12 @@
 **Estilo:** acento #ff7a59 · acento2 #a78bfa · fondo neuronas · lema Del mensaje a la pieza, mirando cada detalle
 **Ilustración:** flujo | Tu mensaje (chat) · La imagen (chispa) · Tu mirada (escudo)
 
-1. *(S1 · P03)* Camila escribe: «Ilustración plana de un guardia revisando credenciales en la entrada de una oficina, con plantas y ventanales». ¿Qué parte del prompt es el contexto y fondo?
+1. *(S1 · P03)* Para su campaña de reciclaje, Camila escribe: «Ilustración plana de una trabajadora dejando hojas en una caja de reciclaje, en una oficina con plantas y ventanales». ¿Qué parte del prompt es el contexto y fondo?
    - a) «Ilustración plana»
-   - b) «Un guardia revisando credenciales»
-   - **c) «En la entrada de una oficina, con plantas y ventanales»**
+   - b) «Una trabajadora dejando hojas en una caja de reciclaje»
+   - **c) «En una oficina con plantas y ventanales»**
    - d) El prompt no tiene contexto: solo sujeto y estilo
-   *Retroalimentación:* El contexto y fondo dice dónde está el sujeto y qué lo rodea. «Un guardia revisando credenciales» es el sujeto, y «ilustración plana», el estilo.
+   *Retroalimentación:* El contexto y fondo dice dónde está el sujeto y qué lo rodea. «Una trabajadora dejando hojas en una caja de reciclaje» es el sujeto, y «ilustración plana», el estilo.
 
 2. *(S1 · C1 · P04)* Andrés quiere que la imagen muestre que todo el pasillo está despejado, sin dramatismo. ¿Qué modificador le conviene agregar?
    - a) «Primer plano de un pie tropezando con una caja»
@@ -55,7 +55,7 @@
    - d) Un problema de contraste entre las personas y el fondo
    *Retroalimentación:* Los generadores aprenden estereotipos de las imágenes con que se entrenan, y pueden producirlos aunque nadie los pida. Que el prompt no mencione el género no evita el sesgo.
 
-8. *(C2 · S3 · P12)* Para su campaña de reciclaje, Camila pidió «trabajadores de oficina reciclando» y todas las imágenes muestran mujeres jóvenes. ¿Cuál es la mejor corrección?
+8. *(C2 · S3 · P12)* Para la campaña de reciclaje de su oficina, Camila pidió «trabajadores de oficina reciclando» y todas las imágenes muestran mujeres jóvenes. ¿Cuál es la mejor corrección?
    - a) Publicarla igual, porque es una campaña interna
    - **b) Cambiar el prompt describiendo la diversidad que quiere y volver a revisar las variantes**
    - c) Agregar un texto que diga que todas las personas deben reciclar

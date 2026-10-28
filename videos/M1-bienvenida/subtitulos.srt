@@ -101,90 +101,75 @@ Practicarás con Gemini,
 aunque también sirven ChatGPT o Copilot.
 
 25
-00:01:25,190 --> 00:01:26,480
-¿Y cómo se evalúa?
+00:01:25,070 --> 00:01:27,570
+¿Y cómo vas a saber si vas aprendiendo?
 
 26
-00:01:26,510 --> 00:01:30,800
-Cada tema cierra con un quiz en formato de juego,
-de 8 preguntas.
+00:01:27,730 --> 00:01:30,920
+Al cerrar cada tema
+pondrás a prueba lo que aprendiste,
 
 27
-00:01:30,830 --> 00:01:34,360
-Queda registrado tu mejor puntaje, de 0 a 100,
+00:01:30,950 --> 00:01:34,210
+y si algo no quedó claro,
+sabrás qué repasar.
 
 28
-00:01:34,390 --> 00:01:37,950
-y si te equivocas,
-el juego te indica qué pantalla repasar.
+00:01:34,370 --> 00:01:36,780
+Además, vas a analizar casos reales
 
 29
-00:01:38,590 --> 00:01:41,710
-Además, vas a analizar dos casos reales:
+00:01:36,810 --> 00:01:39,450
+del uso de la IA generativa en el trabajo:
 
 30
-00:01:41,750 --> 00:01:45,560
-cómo Morgan Stanley controla
-la calidad de su asistente de IA,
+00:01:39,570 --> 00:01:42,220
+qué se hizo, qué salió bien, qué salió mal
 
 31
-00:01:45,590 --> 00:01:50,590
-y qué pasó cuando la IA inventó fallos judiciales
-en un juicio contra Avianca.
+00:01:42,250 --> 00:01:45,030
+y qué puedes llevar a tu propio trabajo.
 
 32
-00:01:50,670 --> 00:01:54,640
-Cada caso tiene un análisis guiado,
-una aplicación a tu proyecto,
+00:01:45,200 --> 00:01:48,320
+Y todo esto lo vas a llevar
+a tu proyecto aplicado:
 
 33
-00:01:54,670 --> 00:01:57,790
-una autocorrección y una pregunta para el foro.
+00:01:48,350 --> 00:01:50,440
+partes de una tarea real de tu trabajo,
 
 34
-00:01:58,560 --> 00:02:01,950
-Todo esto alimenta el Hito 1 de tu proyecto aplicado:
+00:01:50,470 --> 00:01:52,340
+o del trabajo al que aspiras,
 
 35
-00:02:01,990 --> 00:02:06,670
-un problema u oportunidad real
-y tu biblioteca de prompts, versión 1.
+00:01:52,370 --> 00:01:55,790
+y en cada módulo la vas a ir mejorando
+con lo que aprendes.
 
 36
-00:02:06,750 --> 00:02:11,760
-Partes guardando un aviso de empleo real,
-de un cargo que ejerces o al que aspiras.
-
-37
-00:02:11,790 --> 00:02:14,920
-De ahí eliges una tarea como tu desafío laboral,
-
-38
-00:02:14,950 --> 00:02:17,230
-y armas tres plantillas de prompts:
-
-39
-00:02:17,270 --> 00:02:20,990
-probadas, mejoradas y validadas antes de usarlas.
-
-40
-00:02:21,710 --> 00:02:24,480
+00:01:55,850 --> 00:01:58,740
 Así que ten a mano tu celular o tu computador,
 
-41
-00:02:24,510 --> 00:02:29,680
-abre Gemini y busca ese aviso de empleo,
+37
+00:01:58,770 --> 00:02:01,460
+abre Gemini y piensa en una tarea de tu trabajo
+
+38
+00:02:01,490 --> 00:02:05,180
+en la que te gustaría que te ayudara,
 sin incluir datos personales.
 
-42
-00:02:29,710 --> 00:02:31,390
+39
+00:02:05,690 --> 00:02:07,250
 Y quédate con esta idea:
 
-43
-00:02:31,470 --> 00:02:35,470
+40
+00:02:07,370 --> 00:02:11,510
 una respuesta que suena segura
 no es una respuesta verificada.
 
-44
-00:02:35,530 --> 00:02:37,070
+41
+00:02:11,550 --> 00:02:12,950
 ¡Nos vemos en el primer tema!

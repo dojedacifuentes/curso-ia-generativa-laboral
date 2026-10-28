@@ -3,49 +3,42 @@
 ## P01 · Qué vas a lograr en este tema
 cubre: C1, C2
 fuentes: F-M5-12, F-M5-13
-bloque: Texto + lista con viñetas
+bloque: Texto
 
-En el tema anterior construiste un flujo que funciona solo. Eso es una ventaja y también un riesgo: un flujo no se cansa, pero
-tampoco duda. Si algo sale mal, lo repite cada vez. En este tema vas a decidir **dónde tiene que mirar una persona** y **qué hacer si
-el flujo falla**.
+En el tema anterior construiste un flujo que funciona solo. Eso es una ventaja y también un riesgo: un flujo no se cansa, pero tampoco
+duda, y si algo sale mal, lo repite cada vez. En este tema vas a decidir dónde tiene que mirar una persona y qué hacer si el flujo
+falla.
 
-**Aprendizaje esperado:** Incorporar puntos de supervisión humana y controles de riesgo en un flujo automatizado, evaluando su efecto.
+El aprendizaje esperado es este: Incorporar puntos de supervisión humana y controles de riesgo en un flujo automatizado, evaluando su efecto.
+Al final deberías poder definir puntos de control humano según el riesgo de cada paso, escribir un plan de contingencia para tu flujo y
+comprobar con pruebas si tus controles sirven.
 
-Al terminar, deberías poder:
-- definir puntos de control humano según el riesgo de cada paso;
-- elaborar un plan de contingencia para tu flujo;
-- comprobar con pruebas si tus controles sirven.
+Vas a trabajar con casos de oficina en que un flujo automatizado con IA trae un problema. En cada uno vas a analizar qué pasó, qué
+riesgo apareció y qué control lo habría evitado, con ideas de marcos reconocidos, como las directrices éticas de la Comisión Europea y
+el marco de gestión de riesgos de IA del NIST de Estados Unidos. Además de Camila y Andrés aparece Paula, ejecutiva de atención al
+cliente en una tienda de electrodomésticos. Las tres personas y sus casos son ficticios; las situaciones reales las vas a ver en la
+actividad de análisis de casos.
 
-Vas a trabajar con **casos**: situaciones de trabajo en que un flujo automatizado con IA trae un problema. En cada uno vas a analizar
-qué pasó, qué riesgo apareció y qué control lo habría evitado. Para eso usarás ideas de tres marcos reconocidos: las directrices
-éticas de la Comisión Europea, el marco de gestión de riesgos de IA del NIST de Estados Unidos y los principios de la OCDE.
-
-Además de Camila y Andrés, aparece **Paula**, ejecutiva de atención al cliente en una tienda de electrodomésticos. Las tres personas
-y sus casos son ficticios. También verás dos casos reales de empresas, en P06 y en P13, que analizarás a fondo en los
-casos M5-C1 y M5-C2.
-
-:::clave
-Automatizar una tarea no te quita la responsabilidad por su resultado. Te cambia el trabajo: de hacer la tarea a supervisar que se
-haga bien.
-:::
+Hay una idea que recorre todo el tema. Automatizar una tarea no te quita la **responsabilidad** por su resultado. Lo que cambia es tu
+trabajo: pasas de hacer la tarea a supervisar que se haga bien.
 
 ## P02 · Caso 1: el error que se repite solo
 cubre: S1
 fuentes: F-M5-10, F-M5-14
-bloque: Escenario (scenario) con preguntas
+bloque: Escenario (scenario) con preguntas + recuadro de error
 
-Andrés puso en marcha su flujo: cuando marca un despacho como «atrasado» en la planilla, la IA redacta el aviso al cliente con la
-nueva fecha y lo deja en la columna «Borrador». Andrés copia el borrador y lo envía. Funcionó en todas sus pruebas.
+Andrés puso en marcha su flujo: cuando marca un despacho como «atrasado» en la planilla, la IA redacta el aviso al cliente con la nueva
+fecha y lo deja en la columna «Borrador». Andrés copia el borrador y lo envía. En todas sus pruebas funcionó.
 
-Una semana después, un cliente llama molesto: su pedido no llegó el día que decía el aviso. Andrés revisa la planilla: desde el
-lunes, una compañera anota las fechas nuevas de otra forma y la IA las interpreta mal. **Cinco avisos** salieron con la fecha
-equivocada, y los clientes ya habían organizado su recepción con esos datos.
+Una semana después, un cliente llama molesto porque su pedido no llegó el día que decía el aviso. Andrés revisa la planilla y descubre
+que, desde el lunes, una compañera anota las fechas nuevas de otra forma y la IA las interpreta mal. Cinco avisos salieron con la
+fecha equivocada, y los clientes ya habían organizado su recepción con esos datos.
 
-Esto es un **error en cadena**. En un flujo, los datos de un paso alimentan al siguiente. Un dato erróneo, o un mapeo que se rompió,
-se repite en cada ejecución y pasa a quien usa el resultado. Además, la IA generativa puede **confabular**: entregar contenido falso
-con tono seguro, como una fecha que la planilla no decía.
+Esto es un **error en cadena**. En un flujo, los datos de un paso alimentan al siguiente, así que un dato erróneo, o un mapeo que se
+rompió, se repite en cada ejecución y llega a quien usa el resultado. A eso se suma que la IA generativa puede **confabular**, es decir,
+entregar contenido falso con tono seguro, como una fecha que la planilla no decía.
 
-Preguntas para analizar el caso:
+Antes de seguir, piensa en estas preguntas:
 1. ¿En qué paso nació el error y en qué paso se hizo visible?
 2. ¿Quién se dio cuenta, y cuánto tiempo pasó?
 3. ¿Qué control habría detectado el problema el primer día?
@@ -57,28 +50,26 @@ reenviado. Por eso un flujo necesita supervisión también después de ponerlo e
 
 ## P03 · Caso 2: datos personales en el flujo
 cubre: S1, A1
-fuentes: F-M5-14, F-M5-06, F-H-15, F-H-61
-bloque: Escenario (scenario) con preguntas
+fuentes: F-M5-14, F-H-15
+bloque: Escenario (scenario) con preguntas + recuadro destacado
 
-Camila prepara una entrevista para un puesto de asistente administrativa. Le preguntan qué automatizaría. Ella piensa en las
-postulaciones que llegan por correo: un flujo podría copiar a una planilla los datos de cada currículum y pedirle a la IA un resumen
-de cada postulante.
+La constructora donde trabaja Camila abrió una vacante y llegan decenas de currículums por correo. En la reunión de la semana, su
+jefatura propone automatizar la revisión: un flujo copiaría a una planilla los datos de cada currículum y le pediría a la IA un resumen
+y una opinión sobre cada persona.
 
-Antes de responder, Camila analiza el riesgo. Ella misma es postulante, y sabe lo que hay en un currículum: nombre, RUT, teléfono,
-dirección, experiencia y a veces datos de salud o de familia.
+Antes de opinar, Camila piensa en el riesgo. Sabe lo que trae un currículum, porque los recibe cada vez que hay una vacante: nombre,
+RUT, teléfono, dirección, experiencia y a veces datos de salud o de familia. El perfil de riesgos de IA generativa del NIST incluye la
+**privacidad**, es decir, la filtración o el uso no autorizado de datos personales. Y si el flujo usara Gemini con la actividad guardada,
+según Google, revisores humanos podrían leer esas conversaciones.
 
-El perfil de riesgos de IA generativa del NIST incluye la **privacidad**: la filtración o el uso no autorizado de datos personales. La
-guía de la Universidad de Bath pide cuidar la protección de datos en cada flujo. Y en el camino del celular hay un punto más: para
-usar acciones programadas, Gemini necesita la actividad guardada, y con ese ajuste encendido revisores humanos pueden leer
-conversaciones.
+Camila propone otra cosa: «Automaticemos solo el registro de que llegó una postulación, con la fecha y el cargo. El análisis de cada
+currículum lo hace una persona». Su jefatura acepta probarlo así. Con esa propuesta, los datos sensibles no pasan por la IA y la
+decisión sobre cada persona queda en manos de alguien que puede responder por ella.
 
-Camila responde en la entrevista: «Automatizaría solo el registro de que llegó una postulación, con fecha y cargo. El análisis de
-cada currículum lo haría una persona».
-
-Preguntas para analizar el caso:
-1. ¿Qué datos personales pasan por cada paso del flujo?
+Antes de seguir, piensa en estas preguntas:
+1. ¿Qué datos personales pasarían por cada paso del flujo que propuso la jefatura?
 2. ¿Cuáles son necesarios para la tarea y cuáles sobran?
-3. ¿Qué parte del flujo decide algo sobre una persona?
+3. ¿Qué parte de ese flujo decidiría algo sobre una persona?
 
 :::clave
 El dato más seguro es el que no entra al flujo. Antes de agregar un campo, pregúntate si la tarea lo necesita de verdad.
@@ -87,45 +78,46 @@ El dato más seguro es el que no entra al flujo. Antes de agregar un campo, preg
 ## P04 · Caso 3: el sesgo que se multiplica
 cubre: S1, A2
 fuentes: F-M5-14
-bloque: Escenario (scenario) con preguntas
+bloque: Escenario (scenario) con preguntas + recuadro de error
 
-Paula armó un flujo que clasifica los reclamos de clientes en urgencia alta, media o baja. Así el equipo atiende primero lo urgente.
-Al mes, revisa la planilla y nota algo: los reclamos escritos con faltas de ortografía o en tono muy informal quedan casi siempre en
-«baja», aunque algunos eran graves, como un refrigerador que llegó sin funcionar.
+Paula, ejecutiva de atención al cliente en una tienda de electrodomésticos, armó un flujo que clasifica los reclamos de clientes en
+urgencia alta, media o baja, para que el equipo atienda primero lo urgente. Al mes revisa la planilla y nota algo raro: los reclamos
+escritos con faltas de ortografía o en un tono muy informal quedan casi siempre en «baja», aunque algunos eran graves, como un
+refrigerador que llegó sin funcionar.
 
-El NIST describe dos riesgos que aparecen juntos en este caso:
-- **Sesgo dañino.** La IA puede reproducir sesgos y, al automatizarla, aumenta la **velocidad y la escala** con que se propagan. Un
-  criterio injusto aplicado a mano afecta a unos pocos; dentro de un flujo, afecta a todos.
-- **Sesgo de automatización.** Es confiar de más en lo que entrega un sistema automático. El equipo de Paula dejó de leer los reclamos
-  marcados como «baja» porque «el sistema ya los clasificó». Esa dependencia excesiva agrava el error.
+El NIST describe dos riesgos que aparecen juntos en este caso. El primero es el **sesgo dañino**: la IA puede reproducir sesgos, y al
+automatizarla aumentan la velocidad y la escala con que se propagan. Un criterio injusto aplicado a mano afecta a unos pocos; dentro de
+un flujo, afecta a todos. El segundo es el **sesgo de automatización**, que consiste en confiar de más en lo que entrega un sistema
+automático. El equipo de Paula dejó de leer los reclamos marcados como «baja» porque «el sistema ya los clasificó», y esa dependencia
+agravó el error.
 
-Preguntas para analizar el caso:
+Antes de seguir, piensa en estas preguntas:
 1. ¿A quiénes perjudicó la clasificación, y por qué nadie lo notó antes?
 2. ¿Qué habría pasado si una persona revisaba cada semana una muestra de reclamos en «baja»?
 3. ¿Debería la IA decidir sola la urgencia de un reclamo?
 
 :::error «Lo decidió el sistema, así que es objetivo»
-Un sistema automático puede repetir sesgos de sus datos y aplicarlos a todos los casos, más rápido. Que no lo haya decidido una
-persona no lo hace neutral: hay que revisar sus resultados.
+Un sistema automático puede repetir sesgos de sus datos y aplicarlos a todos los casos, más rápido. Que no lo haya decidido una persona
+no lo hace neutral: hay que revisar sus resultados.
 :::
 
 ## P05 · Decisiones automatizadas sobre personas: la ley en Chile
 cubre: S1, S2, A1
 fuentes: F-M5-16, F-M3-16
-bloque: Texto + recuadro destacado
+bloque: Texto + comprueba
 
-Los casos 2 y 3 tienen algo en común: el flujo decide o influye en algo que afecta a una persona. En Chile, la **Ley 21.719** modifica
-la Ley 19.628 sobre datos personales y agrega un artículo 8° bis sobre **decisiones automatizadas**.
+Los casos de Camila y de Paula tienen algo en común: el flujo decide, o influye en, algo que afecta a una persona. En Chile, la Ley
+21.719 modifica la Ley 19.628 sobre datos personales y agrega un artículo 8° bis sobre **decisiones automatizadas**.
 
-Según ese artículo, toda persona tiene derecho a **oponerse y a no ser objeto de decisiones basadas en el tratamiento automatizado de
-sus datos**, incluida la elaboración de perfiles, cuando le produzcan efectos jurídicos o le afecten significativamente. Hay
-excepciones, por ejemplo cuando la decisión es necesaria para un contrato, cuando hay consentimiento expreso o cuando lo autoriza una
-ley. Pero aun en esos casos, quien es responsable de los datos debe asegurar que la persona reciba información y una explicación,
-pueda pedir **intervención humana**, expresar su punto de vista y pedir que se revise la decisión.
+Según ese artículo, toda persona tiene derecho a oponerse y a no ser objeto de decisiones basadas en el tratamiento automatizado de sus
+datos, incluida la elaboración de perfiles, cuando le produzcan efectos jurídicos o le afecten significativamente. Hay excepciones, por
+ejemplo cuando la decisión es necesaria para un contrato, cuando hay consentimiento expreso o cuando lo autoriza una ley. Pero aun en
+esos casos, quien es responsable de los datos debe asegurar que la persona reciba información y una explicación, pueda pedir
+**intervención humana**, expresar su punto de vista y pedir que se revise la decisión.
 
-**¿Desde cuándo?** Según su texto, estos cambios rigen desde el **1 de diciembre de 2026**. Hay un proyecto de ley en trámite en el
-Senado que propone postergar esa fecha a diciembre de 2027; todavía no está aprobado. Antes de aplicar esta norma, revisa en qué
-estado está.
+En tu trabajo esto importa cada vez que un flujo toca a otras personas, sean clientes, proveedores, compañeros o candidatos a un puesto.
+Según su texto, estos cambios rigen desde el 1 de diciembre de 2026. Hay un proyecto de ley en trámite en el Senado que propone
+postergar esa fecha a diciembre de 2027 y que todavía no está aprobado, así que antes de aplicar esta norma revisa en qué estado está.
 
 :::comprueba
 Según la Ley 21.719, ¿qué debe poder pedir una persona afectada significativamente por una decisión automatizada, en los casos en que
@@ -138,56 +130,45 @@ Retroalimentación: La ley asegura información, explicación, intervención hum
 
 ## P06 · Tres formas de supervisión humana
 cubre: S2
-fuentes: F-M5-12, F-M5-13, F-M5-15, F-M5C1-01, F-M5C1-05, F-M5C1-06
-bloque: Pestañas (tabs) con los tres niveles
+fuentes: F-M5-12, F-M5-13
+bloque: Tabla + ejemplo
 
-Las directrices éticas para una IA fiable de la Comisión Europea ponen como primer requisito la **acción y supervisión humanas**.
-Describen tres formas de supervisar, que en inglés se conocen con nombres que vas a encontrar a menudo:
+Las directrices éticas para una IA fiable de la Comisión Europea ponen como primer requisito la acción y supervisión humanas, y
+describen tres formas de supervisar. En inglés se conocen con nombres que vas a encontrar a menudo:
 
 | Forma | Qué hace la persona | En inglés | En un flujo |
 |---|---|---|---|
-| **Participación humana** | Interviene en cada ciclo de decisión | *Human-in-the-loop* (en el circuito) | Revisa y aprueba cada resultado antes de que se use |
-| **Control humano** | Interviene en el diseño y en el seguimiento del funcionamiento | *Human-on-the-loop* (sobre el circuito) | El flujo corre solo; la persona revisa el registro y corrige |
-| **Mando humano** | Supervisa la actividad global y decide cuándo y cómo usar el sistema, o no usarlo | *Human-in-command* | Decide si el flujo se usa, se pausa o se apaga |
+| Participación humana | Interviene en cada ciclo de decisión | *Human-in-the-loop* (en el circuito) | Revisa y aprueba cada resultado antes de que se use |
+| Control humano | Interviene en el diseño y en el seguimiento del funcionamiento | *Human-on-the-loop* (sobre el circuito) | El flujo corre solo; la persona revisa el registro y corrige |
+| Mando humano | Supervisa la actividad global y decide cuándo y cómo usar el sistema, o no usarlo | *Human-in-command* | Decide si el flujo se usa, se pausa o se apaga |
 
-Las directrices agregan una regla útil: **cuanto menor sea la supervisión posible, mayores deben ser las verificaciones**.
+Las directrices agregan una regla útil: cuanto menor sea la supervisión posible, mayores deben ser las verificaciones. El marco del
+NIST, por su parte, explica que las configuraciones entre personas e IA van de totalmente autónomas a totalmente manuales, y pide
+definir y documentar los procesos de supervisión y los roles de cada persona.
 
-El marco del NIST explica que las configuraciones entre personas e IA van de totalmente autónomas a totalmente manuales, y pide
-**definir y documentar** los procesos de supervisión y los roles de cada persona. Los principios de la OCDE piden salvaguardas que
-incluyan la capacidad de acción y supervisión humanas.
-
-:::ejemplo Las tres formas en el flujo de Paula
-Participación: alguien confirma cada reclamo clasificado como «baja». Control: una vez por semana, alguien revisa una muestra en el
-registro. Mando: la jefatura decide si el flujo sigue en uso tras ver los resultados del mes.
-:::
-
-:::ejemplo Caso real: un asistente de IA en la atención al cliente (Klarna, 2024-2026)
-En febrero de 2024, la empresa de pagos Klarna anunció que su asistente de IA, hecho con OpenAI, atendía dos tercios de los chats de
-atención al cliente; según la empresa, en 2025 llegó al 80 %. En sus documentos ante el regulador bursátil de Estados Unidos, la propia
-empresa advierte que el chatbot puede dar respuestas inexactas o engañosas difíciles de detectar, y dice tener controles con
-participación humana. Desde 2025 describe un «doble carril»: la IA atiende la mayoría de las consultas y todos los clientes pueden
-elegir hablar con una persona.
+:::ejemplo Las tres formas en la tienda de Paula
+Con participación humana, alguien confirma cada reclamo que el flujo clasifica como «baja». Con control humano, una vez por semana
+alguien revisa una muestra en el registro. Con mando humano, la jefatura decide si el flujo sigue en uso después de ver los resultados
+del mes, y decide también que cualquier cliente pueda pedir que su reclamo lo lea una persona desde el comienzo.
 :::
 
 ## P07 · Dónde poner un punto de control
 cubre: H1, C1
-fuentes: F-M5-08, F-H-93, F-H-62
-bloque: Texto + lista con viñetas
+fuentes: F-M5-08, F-H-93
+bloque: Texto + lista + comprueba
 
-Un **punto de control** es un lugar del flujo donde una persona revisa antes de que el resultado siga. No va en todos los pasos:
-va donde el riesgo es mayor. Estos son los lugares típicos:
-- **Antes de que algo salga hacia otra persona:** un correo a un cliente, un aviso a un equipo.
-- **Antes de escribir en un registro que otros usan para decidir:** la planilla de turnos, el registro de pedidos.
-- **Cuando la IA clasifica, resume o extrae datos** que luego se usan sin volver al original.
-- **Cuando aparecen datos personales.**
-- **Cuando un dato no cumple una regla.** Una condición puede detener el flujo o desviarlo a revisión: por ejemplo, si la fecha
-  extraída está vacía o es anterior a hoy.
+Un **punto de control** es un lugar del flujo donde una persona revisa antes de que el resultado siga. No va en todos los pasos, sino
+donde el riesgo es mayor. Estos son los lugares típicos:
+- Antes de que algo salga hacia otra persona, como un correo a un cliente o un aviso al equipo.
+- Antes de escribir en un registro que otros usan para decidir, como la planilla de pagos o el registro de pedidos.
+- Cuando la IA clasifica, resume o extrae datos que luego se usan sin volver al original.
+- Cuando aparecen datos personales.
+- Cuando un dato no cumple una regla; una condición puede detener el flujo o desviarlo a revisión, por ejemplo si la fecha extraída está vacía o es anterior a hoy.
 
-¿Cómo se hace la revisión? Algunas plataformas tienen pasos de aprobación automática, pero en planes de pago: en Zapier gratis, por
-ejemplo, el flujo solo puede tener dos pasos. Por eso en este curso usamos **revisión manual**, que funciona gratis:
-- el flujo deja el resultado en una columna «Estado» con el valor **«por revisar»**, y nadie lo usa hasta que una persona lo cambia a
-  «aprobado»;
-- en el camino del celular, Gemini **propone** el evento y lo crea en Calendar solo después de que tú lo confirmas.
+Algunas plataformas tienen pasos de aprobación ya hechos, pero no caben en sus planes gratuitos más básicos: Zapier gratis, por
+ejemplo, solo permite flujos de dos pasos. Por eso en este curso usamos la revisión manual, que funciona gratis. El flujo deja el
+resultado en una columna «Estado» con el valor «por revisar», y nadie lo usa hasta que una persona lo cambia a «aprobado». En el camino
+del celular la lógica es la misma: Gemini te entrega la lista y nada queda registrado hasta que tú la revisas.
 
 :::comprueba
 En el flujo de Andrés, ¿dónde conviene más un punto de control humano?
@@ -200,52 +181,52 @@ Retroalimentación: El riesgo está en el aviso que redacta la IA y que sale hac
 ## P08 · Criterios de aprobación humana
 cubre: H1, C1, A2
 fuentes: F-M5-12, F-M5-13
-bloque: Tabla + lista de verificación (checklist)
+bloque: Lista de verificación (checklist) + tabla + actividad
 
-Una revisión sin criterios se vuelve un clic automático: «aprobado, aprobado, aprobado». Para que el control sirva, define **qué
-revisa la persona** y **cuándo aprueba**. El NIST pide que estos procesos queden definidos y documentados.
+Una revisión sin criterios se vuelve un clic automático: «aprobado, aprobado, aprobado». Para que el control sirva, define qué revisa la
+persona y cuándo aprueba. El NIST pide que estos procesos de supervisión queden definidos y documentados.
 
-Un criterio de aprobación es una pregunta que se responde con sí o no. Por ejemplo:
-- [ ] ¿Los datos coinciden con el correo o documento original?
+Un **criterio de aprobación** es una pregunta que se responde con sí o no en pocos segundos, por ejemplo:
+- [ ] ¿Los datos coinciden con el correo o el documento original?
 - [ ] ¿La categoría o el resumen de la IA es correcto?
 - [ ] ¿Hay datos personales que no deberían estar?
 - [ ] ¿El tono es adecuado para quien lo va a recibir?
-- [ ] Si algo no cumple, ¿lo corrijo o lo hago a mano?
 
-¿Cuánta revisión? Ajústala al riesgo, usando la matriz del tema 1 y la regla de la Comisión Europea: menos supervisión pide más
-verificaciones. Esta tabla es una propuesta del curso:
+Si algo no cumple, la persona decide si lo corrige o si hace esa tarea a mano. La cantidad de revisión depende del riesgo, y para
+decidirla sirven la matriz del tema 1 y la regla de la Comisión Europea: menos supervisión pide más verificaciones. Esta tabla es una
+propuesta del curso:
 
 | Riesgo del paso | Forma de supervisión | Cómo se revisa |
 |---|---|---|
 | Bajo | Control humano | Revisión de una muestra del registro, por ejemplo una vez al día |
-| Alto | Participación humana | Revisión de **cada** resultado antes de que se use |
+| Alto | Participación humana | Revisión de cada resultado antes de que se use |
 | Decide algo importante sobre una persona | Mando humano | No se automatiza la decisión: la toma una persona |
 
 :::actividad Define tus criterios
-Escribe tres o cuatro criterios de aprobación para el punto de control más importante de tu flujo. Cada uno debe poder responderse
-con sí o no en pocos segundos.
+Escribe tres o cuatro criterios de aprobación para el punto de control más importante de tu flujo. Cada uno debe poder responderse con
+sí o no en pocos segundos.
 :::
 
 ## P09 · Registro: que quede huella
 cubre: S3, A1
-fuentes: F-M5-12, F-M5-15, F-M5-11
-bloque: Texto + tabla de ejemplo
+fuentes: F-M5-12, F-M5-11
+bloque: Texto + tabla de ejemplo + ejemplo
 
-Cuando algo sale mal, la primera pregunta es «¿qué pasó?». Para responderla necesitas un **registro**. Las directrices europeas
-piden documentar los datos, los procesos y las decisiones para lograr **trazabilidad**: poder reconstruir qué pasó, entender por qué
-hubo un error y prevenir otros. Los principios de la OCDE piden lo mismo a lo largo de toda la vida de un sistema.
+Cuando algo sale mal, la primera pregunta es qué pasó, y para responderla necesitas un **registro**. Las directrices europeas piden
+documentar los datos, los procesos y las decisiones para lograr **trazabilidad**: poder reconstruir qué pasó, entender por qué hubo un
+error y prevenir otros.
 
-En tu flujo hay dos registros:
-1. **El historial de la plataforma.** En Zapier, por ejemplo, cada ejecución queda guardada con el paso que falló y su mensaje de
-   error.
-2. **Tu propio registro**, en la planilla del flujo. Agrégale columnas para la supervisión:
+En tu flujo hay dos registros. Uno es el historial de la plataforma; en Zapier, por ejemplo, cada ejecución queda guardada con el paso
+que falló y su mensaje de error. El otro es tu propio registro en la planilla del flujo, al que conviene agregarle columnas para la
+supervisión, como en este ejemplo de Andrés:
 
 | Fecha | Dato original | Resultado de la IA | Estado | Revisó | Observación |
 |---|---|---|---|---|---|
 | 12-11 | Pedido 412 · nueva fecha 14-11 | «Llegará el jueves 14» | Aprobado | Andrés | — |
 | 13-11 | Pedido 415 · nueva fecha 05-12 | «Llegará el 12 de mayo» | Corregido | Andrés | La IA leyó la fecha al revés |
 
-La columna **«Dato original»** es la más importante: permite comparar lo que entró con lo que salió sin buscar el dato de origen otra vez.
+La columna «Dato original» es la más útil, porque permite comparar lo que entró con lo que salió sin tener que buscar otra vez el dato
+de origen.
 
 :::ejemplo El registro de Paula
 Con la columna «Revisó», Paula descubrió que nadie miraba los reclamos en «baja». El problema no era solo de la IA: el punto de control
@@ -254,20 +235,18 @@ existía en el papel, pero nadie lo había asumido.
 
 ## P10 · Reversibilidad: poder detener y deshacer
 cubre: S3, C2
-fuentes: F-M5-13, F-M5-15, F-M5-11
-bloque: Texto + recuadro destacado
+fuentes: F-M5-13, F-M5-15
+bloque: Texto + lista + comprueba
 
-Un flujo seguro es un flujo que se puede **detener** y cuyos efectos se pueden **deshacer**. El marco del NIST pide mecanismos y
-responsables para reemplazar, desconectar o desactivar un sistema que no funciona como se espera. Los principios de la OCDE piden que
-un sistema que arriesga causar daños pueda ser anulado, reparado o retirado de forma segura.
+Un flujo seguro es uno que se puede detener y cuyos efectos se pueden deshacer. A eso se le llama **reversibilidad**. El marco del NIST
+pide mecanismos y responsables para reemplazar, desconectar o desactivar un sistema que no funciona como se espera, y los principios de
+la OCDE piden que un sistema que arriesga causar daños pueda ser anulado, reparado o retirado de forma segura.
 
-En un flujo simple, eso se traduce en prácticas concretas, que el curso te recomienda:
-- **Saber dónde se apaga.** Antes de activar el flujo, ubica cómo se pausa o se desactiva en la herramienta que usas.
-- **No sobrescribir el original.** Que el flujo agregue filas nuevas en vez de reemplazar datos, y que guarde el dato original.
-- **Preferir acciones que se pueden corregir.** Anotar en una planilla se arregla fácil; un correo enviado a un cliente no se puede
-  recoger.
-- **Recuperar lo que falló.** En Zapier, una vez corregida la causa, se pueden volver a ejecutar las ejecuciones fallidas para no
-  perder datos.
+En un flujo simple, eso se traduce en cuatro prácticas que el curso te recomienda:
+- Saber dónde se apaga: antes de activar el flujo, ubica cómo se pausa o se desactiva en tu herramienta.
+- No sobrescribir el original: que el flujo agregue filas nuevas en vez de reemplazar datos, y que guarde el dato original.
+- Preferir acciones que se pueden corregir: una fila en una planilla se arregla fácil, pero un correo enviado a un cliente no se puede recoger.
+- Recuperar lo que falló: como viste en el tema 2, algunas plataformas permiten volver a ejecutar lo que falló una vez corregida la causa.
 
 :::comprueba
 ¿Cuál de estas acciones es más difícil de revertir si el flujo se equivoca?
@@ -279,46 +258,42 @@ Retroalimentación: Un correo enviado no se puede recoger. Las acciones hacia ot
 
 ## P11 · Plan de contingencia
 cubre: H1, C2
-fuentes: F-M5-06, F-M5-13, F-M5-11
-bloque: Proceso (process block) + plantilla
+fuentes: F-M5-06, F-M5-13
+bloque: Proceso (process block) + ejemplo
 
 Un **plan de contingencia** dice qué hacer si el flujo deja de funcionar o empieza a equivocarse. La guía de la Universidad de Bath lo
-pide para todo flujo importante, y el NIST incluye la respuesta a incidentes y la recuperación en el seguimiento posterior a ponerlo
-en marcha.
+pide para todo flujo importante, y el NIST incluye la respuesta a incidentes y la recuperación en el seguimiento que se hace después de
+poner un sistema en marcha. Tu plan responde seis preguntas:
 
-Tu plan responde seis preguntas:
-1. **¿Cómo me doy cuenta?** Las señales: un error en el historial, filas vacías, un aviso de alguien.
-2. **¿Cómo lo detengo?** Dónde se pausa el flujo y quién lo hace.
-3. **¿Cómo sigue el trabajo mientras tanto?** La forma manual de hacer la tarea.
-4. **¿Cómo recupero lo que falló?** Revisar el registro, corregir las filas malas, volver a ejecutar lo pendiente.
-5. **¿A quién aviso?** Las personas que usan el resultado.
-6. **¿Quién responde?** Una persona con nombre, no «el sistema».
+1. ¿Cómo me doy cuenta? Por ejemplo, por un error en el historial, filas vacías o el aviso de alguien.
+2. ¿Cómo lo detengo? Dónde se pausa el flujo y quién lo hace.
+3. ¿Cómo sigue el trabajo mientras tanto? Con la forma manual de hacer la tarea.
+4. ¿Cómo recupero lo que falló? Revisando el registro, corrigiendo las filas malas y volviendo a ejecutar lo pendiente.
+5. ¿A quién aviso? A las personas que usan el resultado.
+6. ¿Quién responde? Una persona con nombre, no «el sistema».
+
+Escribe tus seis respuestas pensando en tu flujo y en tu equipo. Si alguna es «no sé», ese es el punto débil que tienes que resolver
+antes de ponerlo en marcha.
 
 :::ejemplo El plan de Andrés
-1. Señal: un borrador sin fecha, con una fecha distinta a la de la planilla o un reclamo de un cliente. 2. Pausa el escenario desde
-su cuenta. 3. Mientras tanto, escribe los avisos con la plantilla manual de su biblioteca. 4. Compara los avisos de la semana con la
-planilla y, si uno salió mal, escribe al cliente para corregirlo. 5. Avisa a su jefatura y a ventas. 6. Responde él; si está de
-vacaciones, su compañera de turno.
-:::
-
-:::actividad Escribe tu plan
-Responde las seis preguntas para tu flujo. Si alguna respuesta es «no sé», ese es el punto débil que tienes que resolver antes de
-ponerlo en marcha.
+Andrés sabrá que algo anda mal si ve un borrador sin fecha, una fecha distinta a la de la planilla o el reclamo de un cliente. En ese
+caso pausa el escenario desde su cuenta y, mientras tanto, escribe los avisos con la plantilla manual de su biblioteca. Después compara
+los avisos de la semana con la planilla y, si uno salió mal, escribe al cliente para corregirlo. Avisa a su jefatura y a ventas.
+Responde él, y si está de vacaciones, su compañera de turno.
 :::
 
 ## P12 · Evalúa el efecto de tus controles
 cubre: C1, A2, H1
 fuentes: F-M5-13
-bloque: Tabla + actividad
+bloque: Proceso + tabla + actividad
 
-Poner un control no basta: hay que comprobar que **sirve**. El marco del NIST pide medir con pruebas y documentar los resultados. En tu
-flujo puedes hacerlo así:
+Poner un control no basta: hay que comprobar que sirve. El marco del NIST pide medir con pruebas y documentar los resultados, y en tu
+flujo puedes hacerlo en cuatro pasos:
 
-1. **Prepara 10 casos ficticios** y, en 3 de ellos, **siembra un error**: un correo con una fecha ambigua, uno con un dato personal
-   que no debería pasar, uno que debería detenerse.
-2. **Corre el flujo sin el control** y anota cuántos errores llegan al resultado.
-3. **Corre el flujo con el control** y anota cuántos errores detectó la persona revisora.
-4. **Mide el costo:** cuánto tiempo tomó revisar y cuántas veces el control marcó algo que estaba bien (falsas alarmas).
+1. Prepara 10 casos ficticios y, en 3 de ellos, siembra un error: un correo con una fecha ambigua, uno con un dato personal que no debería pasar y uno que debería detenerse.
+2. Corre el flujo sin el control y anota cuántos errores llegan al resultado.
+3. Corre el flujo con el control y anota cuántos errores detectó la persona revisora.
+4. Mide el costo: cuánto tiempo tomó revisar y cuántas veces el control marcó algo que estaba bien, lo que se llama falsa alarma.
 
 | Indicador | Sin control | Con control |
 |---|---|---|
@@ -326,46 +301,35 @@ flujo puedes hacerlo así:
 | Falsas alarmas | — | 1 |
 | Tiempo de revisión | — | Pocos minutos por tanda |
 
-Con los datos, decide: **mantener** el control, **ajustarlo** (por ejemplo, revisar solo una muestra si nunca encuentra errores) o
-**subir** la supervisión si pasaron errores.
+Con los datos, decides. Puedes mantener el control, ajustarlo, por ejemplo revisando solo una muestra si nunca encuentra errores, o
+subir la supervisión si pasaron errores. Un buen control detecta los errores importantes sin volver más lento todo el trabajo, y si no
+lo mides, no sabes si cumple.
 
 :::actividad Mide tu control
-Haz la prueba con tu flujo y completa la tabla. Escribe una conclusión de dos líneas: ¿tu control reduce el riesgo lo suficiente para
-lo que cuesta?
-:::
-
-:::clave
-Un buen control detecta los errores importantes sin volver más lento todo el trabajo. Si no lo mides, no sabes si cumple.
+Haz la prueba con tu flujo y completa la tabla. Escribe una conclusión de dos líneas: ¿tu control reduce el riesgo lo suficiente para lo
+que cuesta?
 :::
 
 ## P13 · Responsabilidad y prudencia
 cubre: A1, A2
-fuentes: F-M5-15, F-M5-13, F-M5-14, F-M5C2-01, F-M5C2-07
-bloque: Texto + escenario breve
+fuentes: F-M5-15, F-M5-13
+bloque: Texto + escenario breve + comprueba
 
 Los principios de la OCDE incluyen la **rendición de cuentas**: quienes ponen en marcha un sistema de IA responden por su
 funcionamiento, y deben registrar datos, procesos y decisiones y gestionar los riesgos de forma sistemática. El marco del NIST pide,
-además, roles claros: quién supervisa, quién puede apagar el sistema, quién atiende un incidente.
+además, roles claros: quién supervisa, quién puede apagar el sistema y quién atiende un incidente.
 
-Para ti, esto tiene un sentido práctico: **el flujo actúa en tu nombre**. Si manda un dato equivocado, para quien lo recibe el error
-es tuyo, no de la herramienta.
+Para ti esto tiene un sentido práctico: el flujo actúa en tu nombre. Si manda un dato equivocado a un cliente o a un proveedor, para
+quien lo recibe el error es tuyo y de tu empresa, no de la herramienta. Un error común es pensar lo contrario, que si el flujo se
+equivocó la culpa es del sistema. Justamente para poder responder cuando algo falla se definen puntos de control, registros y un plan
+de contingencia.
 
-La **prudencia** es la actitud que acompaña esa responsabilidad. No es miedo a automatizar: es no confiar de más. El sesgo de
+La **prudencia** es la actitud que acompaña esa responsabilidad. No es miedo a automatizar, sino no confiar de más. El sesgo de
 automatización, que viste en el caso de Paula, aparece cuando el flujo funciona bien por un tiempo y la revisión se relaja. La persona
-prudente sigue mirando, sobre todo cuando cambia algo: un proveedor nuevo, un formato distinto, un cambio en la herramienta.
-
-:::ejemplo Caso real: una estrategia «AI-first» y su efecto en la marca (Duolingo, 2025)
-El 28-04-2025, Duolingo publicó un correo de su director ejecutivo que anunciaba que la empresa sería «AI-first». Entre otras medidas,
-dejaría gradualmente de usar contratistas para el trabajo que la IA pudiera hacer, y aceptaba bajas ocasionales de calidad para no
-avanzar lento. En su informe anual (27-02-2026), la empresa reconoció que ese anuncio pudo contribuir a publicidad desfavorable, a
-dañar su marca y a desacelerar el crecimiento de usuarios. Ser prudente también es pensar en cómo una automatización afecta a quienes
-trabajan y a quienes reciben el servicio.
-:::
-
-:::error «Si el flujo se equivocó, la culpa es de la herramienta»
-Quien pone en marcha un flujo responde por sus resultados. Por eso se definen puntos de control, registros y un plan de contingencia:
-para poder responder cuando algo falla.
-:::
+prudente sigue mirando, sobre todo cuando cambia algo: un proveedor nuevo, un formato distinto, un cambio en la herramienta. Y también
+mira más allá de su flujo. Una empresa que decide automatizar todo lo que pueda, aunque baje la calidad, arriesga la confianza de sus
+clientes y de su propio equipo, así que conviene pensar cómo una automatización afecta a quienes trabajan y a quienes reciben el
+servicio.
 
 :::comprueba
 Paula lleva dos meses sin encontrar errores en la revisión. ¿Qué es lo más prudente?
@@ -377,27 +341,26 @@ Retroalimentación: Sin errores, el control puede aliviarse, pero no desaparecer
 
 ## P14 · Cierre: tu flujo con supervisión humana
 cubre: C1, C2, H1, A1
-fuentes: F-M5-12, F-M5-13, F-M5-06
+fuentes: F-M5-12, F-M5-13
 bloque: Texto + actividad de cierre (entrega)
 
-En este tema analizaste tres casos: un **error en cadena**, un flujo con **datos personales** y un **sesgo** que se multiplicaba.
-Viste que la supervisión humana puede ser participación, control o mando, y que se ajusta al riesgo. Aprendiste a dejar **registro**,
-a hacer el flujo **reversible**, a escribir un **plan de contingencia** y a **medir** si tus controles sirven.
+En este tema analizaste tres casos: un error en cadena, un flujo con datos personales y un sesgo que se multiplicaba. Viste que la
+supervisión humana puede ser participación, control o mando, y que se ajusta al riesgo. También aprendiste a dejar registro, a hacer el
+flujo reversible, a escribir un plan de contingencia y a medir si tus controles sirven.
+
+Con eso puedes completar tu prototipo. Un flujo con supervisión humana no es más lento: es uno en el que puedes confiar y del que puedes
+responder ante tu jefatura. Cuando esté listo, tu empresa podrá decidir con evidencia si se usa con los datos reales.
 
 :::actividad Completa tu prototipo
 Toma el flujo que construiste en el tema 2 y agrégale:
-1. **Mapa de riesgos:** para cada paso, qué podría salir mal (errores en cadena, privacidad, sesgo).
-2. **Puntos de control:** dónde revisa una persona, con qué forma de supervisión y por qué, según el riesgo.
-3. **Criterios de aprobación:** tres o cuatro preguntas de sí o no para cada punto de control.
-4. **Registro:** las columnas de supervisión en tu planilla.
-5. **Plan de contingencia:** las seis respuestas de P11.
-6. **Evaluación:** tu tabla con y sin control, y tu conclusión.
+1. Un mapa de riesgos: para cada paso, qué podría salir mal (errores en cadena, privacidad, sesgo).
+2. Los puntos de control: dónde revisa una persona, con qué forma de supervisión y por qué, según el riesgo.
+3. Los criterios de aprobación: tres o cuatro preguntas de sí o no para cada punto de control.
+4. El registro: las columnas de supervisión en tu planilla.
+5. El plan de contingencia: las seis respuestas de P11.
+6. La evaluación: tu tabla con y sin control, y tu conclusión.
 
-Trabaja siempre con datos ficticios.
-:::
-
-:::clave
-Un prototipo con supervisión humana no es más lento: es uno en el que puedes confiar y del que puedes responder.
+Trabaja siempre con datos ficticios o con copias sin datos sensibles.
 :::
 
 ## Ideas clave
@@ -435,14 +398,12 @@ Un prototipo con supervisión humana no es más lento: es uno en el que puedes c
 
 Con la actividad de cierre (P14) completas el **Hito 5 del proyecto aplicado: prototipo de automatización de un paso del proceso,
 con supervisión humana**. Entregas el flujo del tema 2 con su mapa de riesgos, puntos de control, criterios de aprobación, registro,
-plan de contingencia y la evaluación de tus controles. En los **casos M5-C1 y M5-C2** analizarás a fondo cómo las dos empresas de P06 y P13
-automatizaron tareas con IA, qué efectos tuvo en clientes y trabajadores, y qué controles humanos habrían cambiado el resultado.
+plan de contingencia y la evaluación de tus controles.
 
 ## Fuentes
 
-Detalle de cada fuente y de lo que respalda: `investigacion/M5.md`, `investigacion/M3.md`, `investigacion/HERRAMIENTAS-1.md`,
-`investigacion/HERRAMIENTAS-2.md` y, para los casos reales, `investigacion/casos/M5-C1.md` y `investigacion/casos/M5-C2.md`
-(consultadas el 24-10-2026).
+Detalle de cada fuente y de lo que respalda: `investigacion/M5.md`, `investigacion/M3.md`, `investigacion/HERRAMIENTAS-1.md` y
+`investigacion/HERRAMIENTAS-2.md` (consultadas el 24-10-2026).
 
 - F-M5-06 · University of Bath (s. f.). Automation standards for Microsoft Power Automate. https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate
 - F-M5-08 · Microsoft Learn (2022). Agregar una condición a un flujo de nube en Power Automate. https://learn.microsoft.com/es-es/power-automate/add-condition
@@ -454,19 +415,10 @@ Detalle de cada fuente y de lo que respalda: `investigacion/M5.md`, `investigaci
 - F-M5-15 · OCDE (2019, actualizados en 2024). Principios de la OCDE sobre IA (principios 1.2, 1.4 y 1.5). https://oecd.ai/en/ai-principles
 - F-M5-16 · Congreso Nacional de Chile, BCN LeyChile (2024). Ley 21.719, regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales. https://www.bcn.cl/leychile/navegar?idLey=21719
 - F-M3-16 · Senado de Chile (2026). Tramitación del boletín 18623-07: proyecto que modifica la Ley 21.719. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=18623
-- F-M5C1-01 · Klarna (27-02-2024). Klarna AI assistant handles two-thirds of customer service chats in its first month. https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/
-- F-M5C1-05 · Klarna Group plc (09-09-2025). Prospecto definitivo 424B4, SEC. https://www.sec.gov/Archives/edgar/data/2003292/000200329225000052/klarnagroupplc424b4.htm
-- F-M5C1-06 · Klarna Group plc (26-02-2026). Formulario 20-F, ejercicio 2025, SEC. https://www.sec.gov/Archives/edgar/data/2003292/000200329226000007/klar-20251231.htm
-- F-M5C2-01 · Duolingo (28-04-2025). Below is an all-hands email from our CEO (LinkedIn). https://www.linkedin.com/posts/duolingo_below-is-an-all-hands-email-from-our-activity-7322560534824865792-l9vh
-- F-M5C2-07 · Duolingo, Inc. (27-02-2026). Formulario 10-K, ejercicio 2025, SEC. https://www.sec.gov/Archives/edgar/data/1562088/000162828026012494/duol-20251231.htm
 - F-H-15 · Google (s. f.). Centro de Privacidad de las Aplicaciones de Gemini. https://support.google.com/gemini/answer/13594961?hl=es
-- F-H-61 · Google (s. f.). Acciones programadas en las aplicaciones de Gemini (Android). https://support.google.com/gemini/answer/16316416?hl=es&co=GENIE.Platform%3DAndroid
-- F-H-62 · Google (s. f.). Utilizar y gestionar Aplicaciones conectadas en Gemini. https://support.google.com/gemini/answer/13695044?hl=es
 - F-H-93 · Zapier (2026). Plans & Pricing. https://zapier.com/pricing
 
 Notas para revisar antes de publicar:
-- **Casos reales (P06 y P13):** las cifras de Klarna son cifras informadas por la empresa; ambos casos siguen en evolución (estado al
-  24-10-2026).
 - **Ley 21.719 (P05):** según su texto, rige desde el 01-12-2026; el boletín 18623-07, que propone postergarla al 01-12-2027, sigue
   en trámite (F-M3-16). **Revisar antes de publicar** y ajustar la fecha si la ley se modifica.
 - **NIST AI RMF:** la ficha de NIST indica que el AI RMF 1.0 está en revisión. Revisar antes de publicar.
@@ -474,6 +426,7 @@ Notas para revisar antes de publicar:
   dice con esas palabras.
 - **Equivalencias en inglés (P06):** la versión en español de las directrices no usa *human-in-the-loop*, *on-the-loop* ni
   *in-command*; la equivalencia sale de comparar con los términos en inglés de la Comisión.
-- **Aprobación humana automática de Zapier (P07):** su ayuda la sitúa en planes de pago; el contenido solo afirma lo verificado en
-  F-H-93 (Zapier gratis permite dos pasos). La tabla de niveles de revisión (P08) y la prueba de controles (P12) son propuestas del
-  curso.
+- **Aprobación humana automática (P07):** el contenido solo afirma lo verificado en F-H-93 (Zapier gratis permite dos pasos). La tabla
+  de niveles de revisión (P08) y la prueba de controles (P12) son propuestas del curso.
+- **P10:** volver a ejecutar lo fallido se respalda en M5-AE2 P12 (F-M5-11). **P13:** el sesgo de automatización se respalda en P04
+  (F-M5-14); el ejemplo de la empresa que automatiza todo es ficticio y general.

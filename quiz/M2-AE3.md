@@ -6,12 +6,12 @@
 **Estilo:** acento #fbbf24 · acento2 #a78bfa · fondo neuronas · lema Mensaje, historia y depuración
 **Ilustración:** flujo | Tu brief (doc) · El esquema (niveles) · Tu presentación (play)
 
-1. *(S1 · A1 · P03)* Camila prepara una presentación para su jefatura sobre la atención de clientes en la oficina. ¿Cuál funciona mejor como mensaje clave?
-   - a) «La atención de clientes en la oficina»
-   - b) «Atención de clientes, archivo de documentos y agenda de reuniones»
-   - **c) «Responder las consultas en el día reduce los reclamos»**
-   - d) «Es importante atender bien a los clientes»
-   *Retroalimentación:* El mensaje clave es una oración con verbo, con una sola idea y que se puede discutir. «La atención de clientes en la oficina» es un tema, la lista junta tres ideas y «Es importante atender bien» nadie lo discutiría, así que no dice nada.
+1. *(S1 · A1 · P03)* Camila prepara para la gerenta de administración una presentación sobre el archivo de documentos de la oficina. ¿Cuál funciona mejor como mensaje clave?
+   - a) «El archivo de documentos de la oficina»
+   - b) «Archivo de documentos, registro de facturas y agenda de reuniones»
+   - **c) «Ordenar el archivo por fecha y tipo de documento permite encontrar cualquier papel rápido»**
+   - d) «Es importante tener ordenada la oficina»
+   *Retroalimentación:* El mensaje clave es una oración con verbo, con una sola idea y que se puede discutir. «El archivo de documentos de la oficina» es un tema, la lista junta tres ideas y «Es importante tener ordenada la oficina» nadie lo discutiría, así que no dice nada.
 
 2. *(S1 · C1 · P04)* Andrés tiene estas láminas desordenadas: (1) propuesta; (2) qué pedimos; (3) mensaje clave; (4) problema y por qué importa; (5) situación actual; (6) qué se necesita y qué se gana. ¿Qué orden cuenta mejor la historia para su jefatura?
    - a) 3 → 1 → 5 → 4 → 6 → 2

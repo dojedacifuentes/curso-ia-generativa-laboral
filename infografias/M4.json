@@ -9,36 +9,51 @@
       "icono": "image",
       "titulo": "Imagen",
       "texto": "Afiches e ilustraciones. **Asistentes generales** que generan y editan, **apps de diseño** que además componen la pieza y **generadores dedicados**.",
-      "ejemplo": "Gemini, ChatGPT, Canva, Adobe Firefly.",
-      "ver": ["M4-AE1 P03"]
+      "ejemplo": "Gemini, ChatGPT, Canva.",
+      "ver": [
+        "M4-AE1 P03",
+        "M4-AE2 P05"
+      ]
     },
     {
       "icono": "megaphone",
       "titulo": "Voz y audio",
       "texto": "Locuciones y mensajes: **texto a voz**, biblioteca y diseño de voces. Imitar de forma realista la voz de una persona real es una **réplica digital**.",
-      "ejemplo": "ElevenLabs, CapCut, Canva.",
-      "ver": ["M4-AE1 P04", "M4-AE3 P02"]
+      "ejemplo": "ElevenLabs, Canva, CapCut.",
+      "ver": [
+        "M4-AE3 P02",
+        "M4-AE3 P06"
+      ]
     },
     {
       "icono": "activity",
       "titulo": "Música",
       "texto": "Pistas generadas a partir de una descripción. **Para montar un video tienes que poder descargarla:** «gratis» no siempre significa «utilizable».",
       "ejemplo": "Canva, Eleven Music.",
-      "ver": ["M4-AE1 P04", "M4-AE3 P07"]
+      "ver": [
+        "M4-AE1 P04",
+        "M4-AE3 P07"
+      ]
     },
     {
       "icono": "play",
       "titulo": "Video",
-      "texto": "Tomas breves generadas desde un texto o una imagen. Conviene **combinar pocas tomas generadas con imágenes fijas**; hay planes que agregan marca de agua.",
-      "ejemplo": "Google Flow, Runway.",
-      "ver": ["M4-AE1 P04", "M4-AE4 P06"]
+      "texto": "Tomas breves generadas desde un texto o una imagen. Conviene **combinar pocas tomas generadas con imágenes fijas** y revisar si el plan gratuito agrega marca de agua.",
+      "ejemplo": "Google Flow.",
+      "ver": [
+        "M4-AE4 P06",
+        "M4-AE4 P07"
+      ]
     },
     {
       "icono": "layers",
       "titulo": "Composición y edición",
       "texto": "**Une las piezas:** texto sobre la imagen, o voz, música y tomas en una línea de tiempo. Los elementos de la biblioteca de la app solo se licencian: no pasan a ser tuyos.",
-      "ejemplo": "Canva, CapCut, Clipchamp.",
-      "ver": ["M4-AE2 P10", "M4-AE4 P09"]
+      "ejemplo": "Canva, CapCut.",
+      "ver": [
+        "M4-AE2 P10",
+        "M4-AE4 P09"
+      ]
     }
   ],
   "semaforoTitulo": "Semáforo de licencias: ¿sirve para una pieza de trabajo?",
@@ -51,7 +66,7 @@
     {
       "nivel": "amarillo",
       "titulo": "Se usa cumpliendo condiciones",
-      "texto": "Uso no comercial, crédito obligatorio, imágenes públicas por defecto, marca de agua o una licencia que la herramienta también usa. Cúmplelas o elige otra."
+      "texto": "Condiciones como dar crédito, no usar lo generado con fines comerciales, aceptar que tus creaciones queden públicas o llevar marca de agua. Si no puedes cumplirlas, elige otra."
     },
     {
       "nivel": "rojo",
@@ -60,5 +75,5 @@
     }
   ],
   "clave": "Elige por **tipo de pieza, licencia y riesgos**. Los permisos de lo generado están en los **términos de uso**: reléelos antes de cada proyecto, porque las herramientas cambian, y da crédito con **TASL**.",
-  "pie": "Basado en M4-AE1 (P02 a P04, P07, P08, P10 y P12), M4-AE2 (P10), M4-AE3 (P02, P07) y M4-AE4 (P06, P09)"
+  "pie": "Basado en M4-AE1 (P03, P04, P07, P08, P10 y P12), M4-AE2 (P05 y P10), M4-AE3 (P02, P06 y P07) y M4-AE4 (P06, P07 y P09)"
 }

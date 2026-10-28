@@ -255,6 +255,29 @@ svg.wires path{fill:none;stroke:var(--faint);stroke-width:3;stroke-linecap:round
 .kw{display:flex;align-items:baseline;gap:22px}
 .kw b{font:800 128px/1 Sans;letter-spacing:-.03em;background:linear-gradient(90deg,var(--teal),#38BDF8);-webkit-background-clip:text;background-clip:text;color:transparent}
 .kw span{font:600 34px/1.2 Sans;color:var(--slate)}
+.loop{padding:44px 54px;display:flex;flex-direction:column;justify-content:center;gap:22px}
+.loop .ln{display:flex;gap:20px;align-items:center;font:700 38px/1.1 Sans;padding:14px 18px;border-radius:16px;background:var(--wash);color:var(--teal-deep);width:560px}
+.loop .ln .n{flex:none;width:52px;height:52px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center;font:700 25px/1 Sans}
+.loop .ln.warn{background:var(--amber-wash);color:#7C2D12}.loop .ln.warn .n{background:var(--amber)}
+.loop .back{position:absolute;right:70px;top:75px;width:110px;height:300px;fill:none;stroke:var(--teal);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+.q4{display:grid;grid-template-columns:repeat(4,1fr);gap:26px}
+.qc{height:400px;padding:36px 30px;display:flex;flex-direction:column;justify-content:space-between}
+.qc .ib{width:84px;height:84px;border-radius:22px;background:var(--wash);display:grid;place-items:center;color:var(--teal)}
+.qc .ib .ic{width:44px;height:44px}
+.qc strong{font:700 40px/1.15 Sans}
+.qc.ok .ib{background:var(--green-wash);color:var(--green)}
+.qc.warn .ib{background:var(--amber-wash);color:var(--amber)}
+.qc.go{border-color:var(--teal)}
+.mods{padding:40px 44px}
+.mods .tt{font:700 34px/1.2 Sans}
+.mrow{display:flex;justify-content:space-between;margin-top:40px}
+.mrow .m{display:flex;flex-direction:column;align-items:center;gap:12px}
+.mrow .m i{display:block;width:64px;height:64px;border-radius:50%;background:var(--wash);border:3px solid var(--teal)}
+.mrow .m:first-child i{background:linear-gradient(135deg,var(--teal),#38BDF8);box-shadow:0 0 14px rgba(56,189,248,.55)}
+.mrow .m span{font:600 24px/1 Sans;color:var(--slate)}
+.mbar{height:12px;border-radius:7px;background:var(--line);margin-top:34px;overflow:hidden}
+.mbar b{display:block;height:100%;width:100%;background:linear-gradient(90deg,var(--teal),#38BDF8)}
+.mcap{margin-top:26px;font:500 27px/1.35 Sans;color:var(--slate)}
 </style>
 </head>
 <body>
@@ -265,10 +288,10 @@ svg.wires path{fill:none;stroke:var(--faint);stroke-width:3;stroke-linecap:round
 <!-- ===== header (desde 18.2 s) ===== -->
 <div id="hdr" class="a" data-in="17.97" data-fx="fade">
   <div class="mark"><span>IA generativa para entornos laborales</span><span class="sep"></span><span class="mod">Módulo 1</span></div>
-  <div id="rail" class="a" data-in="17.97" data-out="141.31" data-fx="fade">
+  <div id="rail" class="a" data-in="17.97" data-out="115.50" data-fx="fade">
     <div class="seg" data-on="17.97,84.78"><div class="on"></div><span>Qué aprenderás</span></div>
-    <div class="seg" data-on="84.78,118.18"><div class="on"></div><span>Cómo se evalúa</span></div>
-    <div class="seg" data-on="118.18,999"><div class="on"></div><span>Hito 1</span></div>
+    <div class="seg" data-on="84.78,104.87"><div class="on"></div><span>Cómo avanzas</span></div>
+    <div class="seg" data-on="104.87,999"><div class="on"></div><span>Tu proyecto</span></div>
   </div>
 </div>
 
@@ -440,122 +463,90 @@ svg.wires path{fill:none;stroke:var(--faint);stroke-width:3;stroke-linecap:round
   </div>
 </section>
 
-<!-- ===== S8 · evaluación (85.82–99.39) ===== -->
-<section class="scene" data-span="84.78,98.18">
+<!-- ===== S8 · cómo vas a avanzar (v5, genérico: sin quiz ni puntajes) ===== -->
+<section class="scene" data-span="84.78,93.97">
   <div class="left-col" style="width:820px">
-    <h2 class="a" data-in="84.97" style="font-size:64px">¿Cómo se evalúa?</h2>
+    <h2 class="a" data-in="84.97" style="font-size:60px">¿Cómo vas a saber si vas aprendiendo?</h2>
     <div class="ev">
-      <div class="it a" data-in="86.44"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><rect x="2.5" y="7" width="19" height="11" rx="5.5"/><line x1="7" y1="10.5" x2="7" y2="14.5"/><line x1="5" y1="12.5" x2="9" y2="12.5"/><circle cx="15.5" cy="11" r=".6"/><circle cx="17.5" cy="13.5" r=".6"/></svg></div><div><strong>Un quiz en formato de juego por tema</strong><span>8 preguntas cada uno</span></div></div>
-      <div class="it a" data-in="90.75"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg></div><div><strong>Se registra tu mejor puntaje</strong><span>De 0 a 100</span></div></div>
-      <div class="it a" data-in="94.31"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"/><polyline points="3 4 3 9 8 9"/></svg></div><div><strong>Si te equivocas, te dice qué repasar</strong><span>La pantalla exacta del contenido</span></div></div>
+      <div class="it a" data-in="87.63"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><polyline points="7.5 12.5 10.5 15.5 16.5 9"/></svg></div><div><strong>Al cerrar cada tema</strong><span class="a" data-in="88.99" data-fx="fade">Pones a prueba lo que aprendiste</span></div></div>
+      <div class="it a" data-in="90.85"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"/><polyline points="3 4 3 9 8 9"/></svg></div><div><strong>Si algo no quedó claro</strong><span class="a" data-in="92.55" data-fx="fade">Sabrás qué repasar</span></div></div>
     </div>
   </div>
-  <div class="abs kw a" data-in="89.50" data-out="92.80" data-fx="pop" style="left:120px;top:650px"><b>8</b><span>preguntas por tema</span></div>
-  <div class="abs kw a" data-in="93.15" data-out="97.70" data-fx="pop" style="left:120px;top:650px"><b>0–100</b><span>tu mejor puntaje</span></div>
-  <div class="slot a" data-in="86.40" data-out="90.60" data-fx="lin" data-slot="quiz" style="left:1000px;top:200px;width:800px;height:450px"><div class="slot-label">Clip Flow: quiz en el celular</div></div>
-  <div class="abs card quiz a" data-in="90.60" data-focus="94.4,97.9,1.04">
-    <div class="top"><span>Ejemplo de quiz juego</span><span>Tema 1</span></div>
-    <div class="ttl">Fundamentos de IA generativa</div>
-    <div class="dots"><i class="d"></i><i class="d"></i><i class="c"></i><i></i><i></i><i></i><i></i><i></i><b>Pregunta 3 de 8</b></div>
-    <div class="qq">¿Cuál de estas tareas es propia de un modelo de lenguaje?</div>
-    <div class="opts">
-      <div class="opt"><div class="bad" id="bad"><b>✕</b></div><span class="k">a</span>Crear una fotografía de un producto</div>
-      <div class="opt"><span class="k">b</span>Resumir un reglamento interno en cinco puntos</div>
-      <div class="opt"><span class="k">c</span>Generar la voz para un video</div>
-    </div>
-    <div class="score a" data-in="90.79"><div class="num" id="scoreNum">0</div><div class="bx"><div>Mejor puntaje, de 0 a 100</div><div class="bar"><i id="scoreBar" style="width:100%;transform:scaleX(0)"></i></div></div></div>
-    <div class="hint a" data-in="95.37"><svg class="ic" style="width:30px;height:30px;flex:none;color:#7DD3FC" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"/><polyline points="3 4 3 9 8 9"/></svg><span>Repasa la pantalla <b>P04 · Modelos de lenguaje</b></span></div>
+  <div class="slot a" data-in="86.40" data-out="90.60" data-fx="lin" data-slot="quiz" style="left:1000px;top:200px;width:800px;height:450px"><div class="slot-label">Clip Flow: practicar en el celular</div></div>
+  <div class="abs card loop a" data-in="90.60" data-focus="92.4,93.9,1.04" style="left:1000px;top:200px;width:800px;height:450px">
+    <div class="ln a" data-in="90.75"><span class="n">1</span>Aprendes</div>
+    <div class="ln a" data-in="90.95"><span class="n">2</span>Pones a prueba</div>
+    <div class="ln warn a" data-in="92.55"><span class="n">3</span>Repasas lo que faltó</div>
+    <svg class="back a" data-in="92.85" data-fx="fade" viewBox="0 0 120 300"><path d="M20 260 C 100 260, 100 40, 20 40"/><polyline points="34 28 20 40 34 52"/></svg>
   </div>
 </section>
 
-<!-- ===== S9 · casos (99.39–119.97) ===== -->
-<section class="scene" data-span="98.18,118.18">
-  <h2 class="abs a" data-in="98.46" style="left:120px;top:140px">Dos casos reales</h2>
-  <div class="abs card case a" data-in="101.67" style="left:120px;top:236px;width:820px">
-    <span class="tag">Caso M1-C1</span>
-    <h4>Asistente de IA para asesores financieros</h4>
-    <div class="org">Morgan Stanley, 2023 y 2024</div>
-    <div class="cflow">
-      <span class="cs a" data-in="103.30">Cada uso de la IA</span><i class="ar a" data-in="103.85" data-fx="fade">→</i>
-      <span class="cs a" data-in="103.95">Se prueba con evaluaciones</span><i class="ar a" data-in="104.65" data-fx="fade">→</i>
-      <span class="cs a" data-in="104.75">Recién ahí, en marcha</span>
-    </div>
-  </div>
-  <div class="abs card case a" data-focus="107.0,110.6,1.04" data-in="105.50" style="left:980px;top:236px;width:820px">
-    <span class="tag" style="background:var(--amber-wash);color:#7C2D12">Caso M1-C2</span>
-    <h4>Cuando la IA inventa</h4>
-    <div class="org" style="color:var(--amber)">Mata v. Avianca, Nueva York, 2023</div>
-    <div class="cflow">
-      <span class="cs warn a" data-in="107.20"><span>Un escrito cita <b>6 fallos</b></span></span><i class="ar a" data-in="107.95" data-fx="fade">→</i>
-      <span class="cs warn a" data-in="108.10">No existían: venían de ChatGPT</span><i class="ar a" data-in="109.55" data-fx="fade">→</i>
-      <span class="cs warn a" data-in="109.70">Multa de US$&nbsp;5.000</span>
-    </div>
-  </div>
-  <div class="abs" style="left:120px;top:640px;width:1680px">
-    <h3 class="a" data-in="110.60" style="margin-bottom:16px">Cada caso incluye</h3>
-    <div class="steps4">
-      <div class="s4 a" data-in="111.48"><span class="n">1</span>Análisis guiado</div>
-      <div class="s4 a" data-in="113.07"><span class="n">2</span>Aplicación a tu proyecto</div>
-      <div class="s4 a" data-in="114.92"><span class="n">3</span>Autocorrección</div>
-      <div class="s4 a" data-in="116.34"><span class="n">4</span>Pregunta para el foro</div>
-    </div>
+<!-- ===== S9 · casos reales (v5, genérico: sin nombres) ===== -->
+<section class="scene" data-span="93.97,104.87">
+  <h2 class="abs a" data-in="94.27" style="left:120px;top:150px;font-size:72px">Casos reales</h2>
+  <p class="abs a" data-in="96.71" style="left:120px;top:248px;width:1680px;font:500 34px/1.3 Sans;color:var(--slate)">Del uso de la IA generativa en el trabajo</p>
+  <div class="abs q4" style="left:120px;top:360px;width:1680px" data-focus="101.5,104.3,1.03">
+    <div class="card qc a" data-in="97.00"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2.5"/><line x1="8" y1="8" x2="16" y2="8"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="8" y1="16" x2="12" y2="16"/></svg></div><strong class="a" data-in="99.47">Qué se hizo</strong></div>
+    <div class="card qc ok a" data-in="97.12"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><polyline points="7.5 12.5 10.5 15.5 16.5 9"/></svg></div><strong class="a" data-in="100.43">Qué salió bien</strong></div>
+    <div class="card qc warn a" data-in="97.24"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><path d="M12 3 2.5 20h19z"/><line x1="12" y1="10" x2="12" y2="14"/><circle cx="12" cy="17" r=".6"/></svg></div><strong class="a" data-in="101.53">Qué salió mal</strong></div>
+    <div class="card qc go a" data-in="97.36"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><strong class="a" data-in="102.61">Qué puedes llevar a tu trabajo</strong></div>
   </div>
 </section>
 
-<!-- ===== S10 · Hito 1 (119.97–144.17) ===== -->
-<section class="scene" data-span="118.18,141.31">
+<!-- ===== S10 · tu proyecto (v5, genérico: sin hito ni entregables) ===== -->
+<section class="scene" data-span="104.87,115.50">
   <div class="left-col" style="width:820px">
-    <span class="tag a" data-in="118.41">Proyecto aplicado</span>
-    <div class="hito-h a" data-in="118.51">Hito 1</div>
-    <div class="hsteps">
-      <div class="hs a" data-in="126.69"><span class="n">1</span><div><strong>Guarda un aviso de empleo real</strong><span class="a" data-in="129.04" data-fx="fade">De un cargo que ejerces o al que aspiras</span></div></div>
-      <div class="hs a" data-in="131.72"><span class="n">2</span><div><strong>Elige una tarea</strong><span class="a" data-in="132.83" data-fx="fade">Será tu desafío laboral</span></div></div>
-      <div class="hs a" data-in="134.90"><span class="n">3</span><div><strong>Arma tres plantillas de prompts</strong>
-        <div class="tags"><i class="a" data-in="137.21" data-fx="pop">✓ Probadas</i><i class="a" data-in="138.06" data-fx="pop">✓ Mejoradas</i><i class="a" data-in="138.91" data-fx="pop">✓ Validadas</i></div></div></div>
+    <span class="tag a" data-in="105.10">Proyecto aplicado</span>
+    <div class="hito-h a" data-in="105.30" style="font-size:96px">Tu proyecto</div>
+    <div class="hsteps" style="margin-top:56px">
+      <div class="hs a" data-in="108.25"><span class="n">1</span><div><strong>Partes de una tarea real</strong><span class="a" data-in="109.91" data-fx="fade">De tu trabajo o del trabajo al que aspiras</span></div></div>
+      <div class="hs a" data-in="112.27"><span class="n">2</span><div><strong>La mejoras en cada módulo</strong><span class="a" data-in="114.53" data-fx="fade">Con lo que aprendes</span></div></div>
     </div>
   </div>
-  <!-- derecha, fase 0: EVA presenta el hito -->
-  <div class="abs avatar-frame a" data-in="118.42" data-out="121.70" data-d="0.3" data-fx="lin" data-slot="eva_hito" style="left:1240px;top:170px;width:480px;height:600px"><div class="slot-label">EVA (hito)</div></div>
-  <!-- derecha, fase 1: la ecuación del hito -->
-  <div class="abs eq a" data-in="121.89" data-out="126.29" data-fx="fade">
-    <div class="card eqbox"><strong>Un problema u oportunidad real</strong><span>Una tarea de tu trabajo actual o del cargo al que postulas</span></div>
-    <div class="plus a" data-in="123.81" data-fx="fade">+</div>
-    <div class="card eqbox a" data-in="123.94" style="border-color:var(--teal)"><strong>Tu biblioteca de prompts v1</strong>
-      <div class="fields"><i>Nombre</i><i>Tarea</i><i>Plantilla</i><i>Cuándo usarla</i><i>Notas de iteración</i><i>Herramienta y fecha</i></div></div>
+  <!-- derecha, fase 0: EVA presenta el proyecto -->
+  <div class="abs avatar-frame a" data-in="105.17" data-out="108.10" data-d="0.3" data-fx="lin" data-slot="eva_proyecto" style="left:1240px;top:170px;width:480px;height:600px"><div class="slot-label">EVA (proyecto)</div></div>
+  <!-- derecha, fase 1: una tarea real (Andrés en su trabajo, Camila en el que busca) -->
+  <div class="slot a" data-in="108.20" data-out="110.40" data-fx="lin" data-slot="andres2" style="left:1000px;top:200px;width:800px;height:450px"><div class="slot-label">Clip Flow: Andrés</div></div>
+  <div class="slot a" data-in="110.40" data-out="112.30" data-fx="lin" data-slot="camila2" style="left:1000px;top:200px;width:800px;height:450px"><div class="slot-label">Clip Flow: Camila</div></div>
+  <p class="abs a" data-in="108.35" data-out="112.30" style="left:1000px;top:676px;width:800px;font:500 26px/1.35 Sans;color:var(--slate)">Una tarea real es el punto de partida.</p>
+  <!-- derecha, fase 2: la tarea mejora módulo a módulo -->
+  <div class="abs card mods a" data-in="112.35" style="left:1000px;top:250px;width:800px">
+    <div class="tt">Tu tarea, módulo a módulo</div>
+    <div class="mrow">
+      <div class="m a" data-in="112.85" data-fx="pop"><i></i><span>M1</span></div>
+      <div class="m a" data-in="113.05" data-fx="pop"><i></i><span>M2</span></div>
+      <div class="m a" data-in="113.25" data-fx="pop"><i></i><span>M3</span></div>
+      <div class="m a" data-in="113.45" data-fx="pop"><i></i><span>M4</span></div>
+      <div class="m a" data-in="113.65" data-fx="pop"><i></i><span>M5</span></div>
+      <div class="m a" data-in="113.85" data-fx="pop"><i></i><span>M6</span></div>
+    </div>
+    <div class="mbar"><b class="a" data-in="113.90" data-d="1.2" data-fx="grow"></b></div>
+    <div class="mcap a" data-in="114.60" data-fx="fade">Cada módulo suma algo nuevo a la misma tarea</div>
   </div>
-  <!-- derecha, fase 2: clip del aviso -->
-  <div class="slot a" data-in="126.47" data-out="134.58" data-fx="lin" data-slot="aviso" style="left:1000px;top:200px;width:800px;height:450px"><div class="slot-label">Clip Flow: aviso de empleo</div></div>
-  <p class="abs a" data-in="127.02" data-out="134.58" style="left:1000px;top:676px;width:800px;font:500 26px/1.35 Sans;color:var(--slate)">Tu aviso de empleo es el punto de partida del proyecto.</p>
-  <!-- derecha, fase 3a: clip de Camila probando una plantilla -->
-  <div class="slot a" data-in="134.58" data-out="136.95" data-fx="lin" data-slot="plantillas" style="left:1000px;top:200px;width:800px;height:450px"><div class="slot-label">Clip Flow: plantillas</div></div>
-  <!-- derecha, fase 3: tres plantillas -->
-  <div class="card tcard a" data-in="137.00" style="top:170px"><div class="tt">Plantilla 1 · Resumir</div><q>Resume este aviso de empleo en tres viñetas: funciones, requisitos y lo que ofrece. No agregues nada que no esté en el texto.</q></div>
-  <div class="card tcard a" data-in="137.25" style="top:398px"><div class="tt">Plantilla 2 · Reescribir</div><q>Reescribe mi mensaje en tono cordial, en un correo de máximo 70 palabras. Aviso: [texto]</q></div>
-  <div class="card tcard a" data-in="137.50" style="top:600px"><div class="tt">Plantilla 3 · Clasificar</div><q>Clasifica estas solicitudes en [categorías]. Si una no calza, ponla en Otro.</q></div>
 </section>
 
-<!-- ===== S11 · cierre con avatar (144.17–160.21) ===== -->
-<section class="scene" data-span="141.31,995.86">
+<!-- ===== S11 · cierre con avatar (v5) ===== -->
+<section class="scene" data-span="115.50,995.86">
   <div class="left-col" style="width:900px">
-    <h2 class="a" data-in="141.50" style="font-size:64px">Para empezar</h2>
+    <h2 class="a" data-in="115.70" style="font-size:64px">Para empezar</h2>
     <div class="checks">
-      <div class="ck a" data-in="142.00"><div class="box"><div class="f" data-check="145.6"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Tu celular o computador</div>
-      <div class="ck a" data-in="144.41"><div class="box"><div class="f" data-check="147.7"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Gemini abierto</div>
-      <div class="ck a" data-in="145.56"><div class="box"><div class="f" data-check="149.1"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Tu aviso de empleo</div>
-      <div><span class="note a" data-in="147.33">Sin datos personales</span></div>
+      <div class="ck a" data-in="116.20"><div class="box"><div class="f" data-check="118.00"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Tu celular o computador</div>
+      <div class="ck a" data-in="118.67"><div class="box"><div class="f" data-check="119.30"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Gemini abierto</div>
+      <div class="ck a" data-in="120.41"><div class="box"><div class="f" data-check="121.40"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Una tarea de tu trabajo</div>
+      <div><span class="note a" data-in="123.41">Sin datos personales</span></div>
     </div>
-    <div class="quote a" data-in="151.35"><small>Quédate con esta idea</small>Una respuesta que suena segura no es una respuesta verificada.</div>
-    <div class="bye a" data-in="155.43">Nos vemos en el Tema 1: Fundamentos de IA generativa</div>
+    <div class="quote a" data-in="125.60"><small>Quédate con esta idea</small>Una respuesta que suena segura no es una respuesta verificada.</div>
+    <div class="bye a" data-in="131.45">Nos vemos en el Tema 1: Fundamentos de IA generativa</div>
   </div>
-  <div class="abs avatar-frame a" data-in="141.52" data-d="0.3" data-fx="lin" data-slot="avatar_cierre"><div class="slot-label">Avatar HeyGen<br>(cierre)</div></div>
+  <div class="abs avatar-frame a" data-in="115.52" data-d="0.3" data-fx="lin" data-slot="avatar_cierre"><div class="slot-label">Avatar HeyGen<br>(cierre)</div></div>
 </section>
 
 <div id="subs"><div></div></div>
 </div>
 
 <script>
-const SUBS = [[0.05,2.56,"¡Hola! Te doy la bienvenida al Módulo 1"],[2.59,6.00,"del curso IA generativa para entornos laborales:"],[6.03,9.47,"Introducción a la IA generativa y prompt básico."],[9.63,12.83,"No necesitas saber programar ni pagar una licencia:"],[12.91,17.63,"todo lo vas a poder probar con asistentes gratuitos,<br>incluso desde el celular."],[18.41,21.31,"En este módulo vas a recorrer cuatro temas."],[21.84,25.60,"Primero, los fundamentos: qué es la IA generativa,"],[25.63,30.00,"cómo arma sus respuestas,<br>prediciendo texto fragmento a fragmento,"],[30.03,33.72,"qué tipos existen, de lenguaje, de imagen y de audio,"],[33.75,39.07,"y sus tres límites clave:<br>la alucinación, el sesgo y la fecha de corte."],[39.71,42.16,"Segundo, prompts efectivos:"],[42.19,46.28,"aprenderás a pedir con rol, contexto, tarea y formato,"],[46.31,48.44,"a iterar hasta que la respuesta te sirva"],[48.47,50.99,"y a guardar lo que funciona como plantilla."],[51.62,54.27,"Tercero, los parámetros de generación:"],[54.35,57.12,"temperatura, longitud e iteración,"],[57.15,61.95,"para ajustar cada respuesta a tu objetivo<br>y comparar varias salidas con método."],[62.50,64.51,"Y cuarto, la validación:"],[64.67,67.63,"detectar alucinaciones, errores y sesgos,"],[67.66,72.43,"y contrastar lo importante con al menos<br>dos fuentes confiables antes de usarlo."],[73.13,75.08,"En los ejemplos te acompañan Camila,"],[75.11,77.72,"que busca trabajo como asistente administrativa,"],[77.75,80.00,"y Andrés, encargado de bodega."],[80.03,84.59,"Practicarás con Gemini,<br>aunque también sirven ChatGPT o Copilot."],[85.19,86.48,"¿Y cómo se evalúa?"],[86.51,90.80,"Cada tema cierra con un quiz en formato de juego,<br>de 8 preguntas."],[90.83,94.36,"Queda registrado tu mejor puntaje, de 0 a 100,"],[94.39,97.95,"y si te equivocas,<br>el juego te indica qué pantalla repasar."],[98.59,101.71,"Además, vas a analizar dos casos reales:"],[101.75,105.56,"cómo Morgan Stanley controla<br>la calidad de su asistente de IA,"],[105.59,110.59,"y qué pasó cuando la IA inventó fallos judiciales<br>en un juicio contra Avianca."],[110.67,114.64,"Cada caso tiene un análisis guiado,<br>una aplicación a tu proyecto,"],[114.67,117.79,"una autocorrección y una pregunta para el foro."],[118.56,121.95,"Todo esto alimenta el Hito 1 de tu proyecto aplicado:"],[121.99,126.67,"un problema u oportunidad real<br>y tu biblioteca de prompts, versión 1."],[126.75,131.76,"Partes guardando un aviso de empleo real,<br>de un cargo que ejerces o al que aspiras."],[131.79,134.92,"De ahí eliges una tarea como tu desafío laboral,"],[134.95,137.23,"y armas tres plantillas de prompts:"],[137.27,140.99,"probadas, mejoradas y validadas antes de usarlas."],[141.71,144.48,"Así que ten a mano tu celular o tu computador,"],[144.51,149.68,"abre Gemini y busca ese aviso de empleo,<br>sin incluir datos personales."],[149.71,151.39,"Y quédate con esta idea:"],[151.47,155.47,"una respuesta que suena segura<br>no es una respuesta verificada."],[155.53,157.07,"¡Nos vemos en el primer tema!"]];
-const WORDS = [[0.0,0.3],[0.72,0.86],[0.86,1.04],[1.04,1.12],[1.12,1.66],[1.66,1.96],[1.96,2.3],[2.3,2.58],[2.58,2.82],[2.82,3.04],[3.04,3.7],[3.7,4.32],[4.32,4.58],[4.58,5.08],[5.08,5.6],[6.04,6.68],[6.68,6.98],[6.98,7.06],[7.06,7.44],[7.44,8.1],[8.1,8.36],[8.36,8.64],[8.64,9.18],[9.68,9.84],[9.84,10.32],[10.32,10.6],[10.6,11.26],[11.26,11.42],[11.42,11.68],[11.68,11.92],[11.92,12.46],[12.88,13.1],[13.1,13.3],[13.3,13.46],[13.46,13.56],[13.56,13.78],[13.78,14.2],[14.2,14.36],[14.36,14.86],[14.86,15.64],[15.8,16.28],[16.28,16.7],[16.7,16.9],[16.9,17.22],[18.38,18.54],[18.54,18.74],[18.74,19.18],[19.18,19.46],[19.46,19.58],[19.58,20.0],[20.0,20.38],[20.38,21.04],[21.66,22.14],[22.54,22.62],[22.62,23.38],[23.38,24.0],[24.0,24.24],[24.24,24.4],[24.4,24.64],[24.64,25.24],[25.68,25.94],[25.94,26.26],[26.26,26.46],[26.46,27.06],[27.3,27.86],[27.86,28.22],[28.22,29.02],[29.02,29.1],[29.1,29.78],[29.98,30.2],[30.28,30.48],[30.48,31.02],[31.36,31.44],[31.44,31.96],[32.24,32.3],[32.3,32.7],[32.7,33.0],[33.0,33.12],[33.12,33.42],[33.8,33.94],[33.94,34.1],[34.1,34.38],[34.38,34.82],[34.82,35.26],[35.7,35.8],[35.8,36.48],[36.9,37.04],[37.04,37.5],[37.5,37.78],[37.78,37.9],[37.9,38.24],[38.24,38.36],[38.36,38.88],[39.6,40.22],[40.68,40.96],[40.96,41.68],[42.22,42.76],[42.76,42.84],[42.84,43.08],[43.08,43.34],[43.34,43.7],[44.06,44.42],[44.9,45.2],[45.2,45.5],[45.5,46.0],[46.4,46.52],[46.52,46.9],[46.9,47.1],[47.1,47.22],[47.22,47.34],[47.34,47.74],[47.74,47.98],[47.98,48.34],[48.34,48.64],[48.64,48.72],[48.72,49.1],[49.1,49.24],[49.24,49.32],[49.32,49.8],[49.8,50.1],[50.1,50.64],[51.56,52.36],[52.54,52.64],[52.64,53.16],[53.16,53.34],[53.34,53.9],[54.4,55.06],[55.36,55.64],[55.64,56.2],[56.2,56.8],[57.3,57.34],[57.34,57.8],[57.8,58.1],[58.1,58.58],[58.58,58.82],[58.82,58.9],[58.9,59.36],[59.36,59.66],[59.66,60.12],[60.12,60.52],[60.52,60.92],[60.92,61.2],[61.2,61.58],[62.48,62.64],[62.64,62.94],[63.44,63.5],[63.5,64.08],[64.68,65.04],[65.04,65.82],[66.22,66.64],[66.64,66.9],[66.9,67.32],[67.7,67.82],[67.82,68.32],[68.32,68.42],[68.42,68.86],[68.86,69.2],[69.2,69.32],[69.32,69.52],[69.52,69.92],[69.92,70.32],[70.32,70.96],[70.96,71.46],[71.46,71.66],[71.66,72.1],[73.04,73.24],[73.24,73.34],[73.34,73.84],[73.84,74.0],[74.0,74.5],[74.5,74.94],[75.26,75.28],[75.28,75.52],[75.52,75.96],[75.96,76.22],[76.22,76.64],[76.64,77.46],[77.46,77.9],[77.9,78.22],[78.56,79.1],[79.1,79.26],[79.26,79.64],[80.12,80.68],[80.68,80.84],[80.84,81.2],[81.52,81.7],[81.7,82.16],[82.16,82.56],[82.56,83.38],[83.38,83.6],[83.6,84.14],[84.9,85.36],[85.36,85.56],[85.56,85.74],[85.74,86.1],[86.52,86.82],[86.82,87.14],[87.14,87.48],[87.48,87.68],[87.68,87.8],[87.8,88.06],[88.06,88.3],[88.3,88.68],[88.68,88.84],[88.84,89.14],[89.4,89.52],[89.52,89.92],[89.92,90.36],[90.94,91.12],[91.12,91.7],[91.7,91.92],[91.92,92.26],[92.26,92.88],[93.12,93.22],[93.22,93.6],[93.6,93.8],[93.8,94.12],[94.48,94.6],[94.6,94.68],[94.68,94.8],[94.8,95.34],[95.56,95.6],[95.6,95.82],[95.82,96.0],[96.0,96.34],[96.34,96.62],[96.62,97.0],[97.0,97.62],[98.5,98.98],[99.3,99.44],[99.44,99.6],[99.6,100.0],[100.0,100.4],[100.4,100.78],[100.78,101.5],[101.5,102.02],[102.02,102.36],[102.36,102.8],[102.8,103.34],[103.34,103.48],[103.48,103.84],[103.84,104.1],[104.1,104.2],[104.2,104.66],[104.66,104.9],[104.9,105.2],[105.2,105.74],[105.74,105.94],[105.94,106.34],[106.34,106.58],[106.58,106.84],[106.84,107.16],[107.16,107.7],[107.7,108.1],[108.1,108.84],[108.84,109.0],[109.0,109.12],[109.12,109.44],[109.44,109.76],[109.76,110.28],[110.7,110.92],[110.92,111.3],[111.3,111.56],[111.56,111.72],[111.72,112.12],[112.12,112.64],[112.94,113.1],[113.1,113.62],[113.62,113.76],[113.76,113.82],[113.82,114.16],[114.7,114.88],[114.88,115.84],[115.84,116.16],[116.16,116.34],[116.34,116.74],[116.74,117.02],[117.02,117.18],[117.18,117.48],[118.3,118.64],[118.64,119.04],[119.04,119.353],[119.353,119.667],[119.667,119.98],[119.98,120.34],[120.34,120.52],[120.52,120.64],[120.64,120.98],[120.98,121.62],[122.0,122.18],[122.18,122.6],[122.6,122.9],[122.9,123.3],[123.3,123.82],[123.82,124.18],[124.18,124.32],[124.32,124.86],[124.86,125.04],[125.04,125.38],[125.58,125.8],[125.8,126.34],[126.34,127.16],[127.16,127.6],[127.6,127.76],[127.76,128.02],[128.02,128.16],[128.16,128.52],[128.52,128.88],[129.22,129.36],[129.36,129.48],[129.48,129.68],[129.68,129.94],[129.94,130.42],[130.42,130.7],[130.7,130.96],[130.96,131.22],[131.22,131.48],[131.9,131.98],[131.98,132.22],[132.22,132.66],[132.66,132.9],[132.9,133.2],[133.2,133.52],[133.52,133.68],[133.68,134.14],[134.14,134.72],[134.72,135.12],[135.12,135.34],[135.34,135.74],[135.74,136.28],[136.28,136.46],[136.46,136.82],[137.14,137.74],[138.06,138.6],[138.6,138.92],[138.92,139.46],[139.46,139.96],[139.96,140.14],[140.14,140.72],[141.46,141.94],[141.94,142.12],[142.12,142.28],[142.28,142.36],[142.36,142.54],[142.54,142.74],[142.74,143.14],[143.14,143.42],[143.42,143.52],[143.52,144.14],[144.54,144.8],[144.8,145.2],[145.2,145.58],[145.58,145.88],[145.88,146.32],[146.32,146.66],[146.66,146.82],[146.82,147.3],[147.48,147.82],[147.82,148.32],[148.32,148.54],[148.54,149.64],[149.72,149.88],[149.88,150.2],[150.2,150.44],[150.44,150.66],[150.66,150.94],[151.46,151.62],[151.62,152.04],[152.04,152.32],[152.32,152.56],[152.56,153.04],[153.04,153.52],[153.52,153.78],[153.78,153.94],[153.94,154.34],[154.34,155.1],[155.1,155.68],[155.68,155.92],[155.92,156.12],[156.12,156.22],[156.22,156.44],[156.44,156.74]];
+const SUBS = [[0.05,2.56,"¡Hola! Te doy la bienvenida al Módulo 1"],[2.59,6.00,"del curso IA generativa para entornos laborales:"],[6.03,9.47,"Introducción a la IA generativa y prompt básico."],[9.63,12.83,"No necesitas saber programar ni pagar una licencia:"],[12.91,17.63,"todo lo vas a poder probar con asistentes gratuitos,<br>incluso desde el celular."],[18.41,21.31,"En este módulo vas a recorrer cuatro temas."],[21.84,25.60,"Primero, los fundamentos: qué es la IA generativa,"],[25.63,30.00,"cómo arma sus respuestas,<br>prediciendo texto fragmento a fragmento,"],[30.03,33.72,"qué tipos existen, de lenguaje, de imagen y de audio,"],[33.75,39.07,"y sus tres límites clave:<br>la alucinación, el sesgo y la fecha de corte."],[39.71,42.16,"Segundo, prompts efectivos:"],[42.19,46.28,"aprenderás a pedir con rol, contexto, tarea y formato,"],[46.31,48.44,"a iterar hasta que la respuesta te sirva"],[48.47,50.99,"y a guardar lo que funciona como plantilla."],[51.62,54.27,"Tercero, los parámetros de generación:"],[54.35,57.12,"temperatura, longitud e iteración,"],[57.15,61.95,"para ajustar cada respuesta a tu objetivo<br>y comparar varias salidas con método."],[62.50,64.51,"Y cuarto, la validación:"],[64.67,67.63,"detectar alucinaciones, errores y sesgos,"],[67.66,72.43,"y contrastar lo importante con al menos<br>dos fuentes confiables antes de usarlo."],[73.13,75.08,"En los ejemplos te acompañan Camila,"],[75.11,77.72,"que busca trabajo como asistente administrativa,"],[77.75,80.00,"y Andrés, encargado de bodega."],[80.03,84.59,"Practicarás con Gemini,<br>aunque también sirven ChatGPT o Copilot."],[85.07,87.57,"¿Y cómo vas a saber si vas aprendiendo?"],[87.73,90.92,"Al cerrar cada tema<br>pondrás a prueba lo que aprendiste,"],[90.95,94.21,"y si algo no quedó claro,<br>sabrás qué repasar."],[94.37,96.78,"Además, vas a analizar casos reales"],[96.81,99.45,"del uso de la IA generativa en el trabajo:"],[99.57,102.22,"qué se hizo, qué salió bien, qué salió mal"],[102.25,105.03,"y qué puedes llevar a tu propio trabajo."],[105.20,108.32,"Y todo esto lo vas a llevar<br>a tu proyecto aplicado:"],[108.35,110.44,"partes de una tarea real de tu trabajo,"],[110.47,112.34,"o del trabajo al que aspiras,"],[112.37,115.79,"y en cada módulo la vas a ir mejorando<br>con lo que aprendes."],[115.85,118.74,"Así que ten a mano tu celular o tu computador,"],[118.77,121.46,"abre Gemini y piensa en una tarea de tu trabajo"],[121.49,125.18,"en la que te gustaría que te ayudara,<br>sin incluir datos personales."],[125.69,127.25,"Y quédate con esta idea:"],[127.37,131.51,"una respuesta que suena segura<br>no es una respuesta verificada."],[131.55,132.95,"¡Nos vemos en el primer tema!"]];
+const WORDS = [[0.0,0.3],[0.72,0.86],[0.86,1.04],[1.04,1.12],[1.12,1.66],[1.66,1.96],[1.96,2.3],[2.3,2.58],[2.58,2.82],[2.82,3.06],[3.06,3.7],[3.7,4.32],[4.32,4.58],[4.58,5.08],[5.08,5.6],[6.04,6.68],[6.68,6.98],[6.98,7.06],[7.06,7.44],[7.44,8.1],[8.1,8.36],[8.36,8.64],[8.64,9.18],[9.68,9.84],[9.84,10.32],[10.32,10.6],[10.6,11.26],[11.26,11.42],[11.42,11.68],[11.68,11.92],[11.92,12.46],[12.88,13.1],[13.1,13.3],[13.3,13.46],[13.46,13.56],[13.56,13.78],[13.78,14.2],[14.2,14.36],[14.36,14.86],[14.86,15.64],[15.8,16.26],[16.26,16.7],[16.7,16.9],[16.9,17.24],[18.38,18.54],[18.54,18.74],[18.74,19.18],[19.18,19.46],[19.46,19.58],[19.58,20.0],[20.0,20.38],[20.38,21.04],[21.7,22.14],[22.52,22.62],[22.62,23.38],[23.38,24.0],[24.0,24.24],[24.24,24.4],[24.4,24.64],[24.64,25.24],[25.68,25.94],[25.94,26.26],[26.26,26.46],[26.46,27.06],[27.3,27.86],[27.86,28.22],[28.22,29.02],[29.02,29.1],[29.1,29.78],[29.98,30.2],[30.3,30.48],[30.48,31.02],[31.3,31.44],[31.44,31.96],[32.24,32.3],[32.3,32.7],[32.7,33.0],[33.0,33.12],[33.12,33.42],[33.78,33.94],[33.94,34.1],[34.1,34.38],[34.38,34.82],[34.82,35.26],[35.72,35.8],[35.8,36.48],[36.9,37.04],[37.04,37.5],[37.5,37.78],[37.78,37.9],[37.9,38.24],[38.24,38.36],[38.36,38.88],[39.58,40.22],[40.62,40.96],[40.96,41.68],[42.2,42.76],[42.76,42.84],[42.84,43.06],[43.06,43.34],[43.34,43.7],[44.04,44.42],[44.9,45.18],[45.18,45.5],[45.5,46.0],[46.4,46.52],[46.52,46.9],[46.9,47.1],[47.1,47.22],[47.22,47.34],[47.34,47.72],[47.72,47.96],[47.96,48.34],[48.34,48.64],[48.64,48.72],[48.72,49.12],[49.12,49.24],[49.24,49.32],[49.32,49.82],[49.82,50.1],[50.1,50.64],[51.56,52.36],[52.52,52.64],[52.64,53.16],[53.16,53.34],[53.34,53.92],[54.4,55.08],[55.36,55.64],[55.64,56.2],[56.2,56.8],[57.3,57.34],[57.34,57.8],[57.8,58.1],[58.1,58.58],[58.58,58.82],[58.82,58.9],[58.9,59.36],[59.36,59.66],[59.66,60.12],[60.12,60.52],[60.52,60.92],[60.92,61.2],[61.2,61.58],[62.38,62.64],[62.64,62.94],[63.44,63.5],[63.5,64.08],[64.68,65.04],[65.04,65.82],[66.22,66.64],[66.64,66.9],[66.9,67.32],[67.68,67.82],[67.82,68.32],[68.32,68.42],[68.42,68.86],[68.86,69.2],[69.2,69.32],[69.32,69.52],[69.52,69.92],[69.92,70.32],[70.32,70.96],[70.96,71.46],[71.46,71.66],[71.66,72.1],[72.92,73.24],[73.24,73.34],[73.34,73.84],[73.84,73.98],[73.98,74.5],[74.5,74.94],[75.26,75.28],[75.28,75.52],[75.52,75.96],[75.96,76.22],[76.22,76.64],[76.64,77.46],[77.46,77.9],[77.9,78.22],[78.5,79.08],[79.08,79.26],[79.26,79.64],[80.1,80.68],[80.68,80.86],[80.86,81.2],[81.5,81.7],[81.7,82.16],[82.16,82.54],[82.54,83.38],[83.38,83.6],[83.6,84.16],[85.12,85.34],[85.34,85.6],[85.6,85.82],[85.82,85.92],[85.92,86.22],[86.22,86.42],[86.42,86.58],[86.58,87.22],[87.78,87.96],[87.96,88.24],[88.24,88.62],[88.62,89.0],[89.14,89.46],[89.46,89.6],[89.6,89.8],[89.8,90.02],[90.02,90.1],[90.1,90.7],[91.0,91.14],[91.14,91.24],[91.24,91.48],[91.48,91.74],[91.74,92.02],[92.02,92.32],[92.7,93.08],[93.08,93.32],[93.32,93.86],[94.42,94.76],[95.3,95.34],[95.34,95.52],[95.52,95.88],[95.88,96.28],[96.28,96.86],[96.86,96.98],[96.98,97.2],[97.2,97.36],[97.36,97.46],[97.46,97.84],[97.84,98.44],[98.44,98.58],[98.58,98.7],[98.7,99.1],[99.62,99.74],[99.74,99.9],[99.9,100.32],[100.58,100.68],[100.68,101.0],[101.0,101.38],[101.68,101.7],[101.7,102.0],[102.0,102.3],[102.3,102.76],[102.76,103.0],[103.0,103.34],[103.34,103.58],[103.58,103.78],[103.78,103.92],[103.92,104.2],[104.2,104.68],[105.3,105.44],[105.44,105.72],[105.72,106.12],[106.12,106.32],[106.32,106.5],[106.5,106.56],[106.56,106.76],[106.76,106.92],[106.92,107.04],[107.04,107.38],[107.38,108.02],[108.4,108.76],[108.76,108.88],[108.88,109.0],[109.0,109.26],[109.26,109.8],[109.8,109.92],[109.92,110.06],[110.06,110.52],[110.52,110.84],[110.84,110.98],[110.98,111.24],[111.24,111.44],[111.44,111.52],[111.52,112.06],[112.42,112.48],[112.48,112.62],[112.62,112.88],[112.88,113.34],[113.34,113.56],[113.56,113.72],[113.72,113.82],[113.82,113.92],[113.92,114.48],[114.48,114.68],[114.68,114.76],[114.76,114.88],[114.88,115.44],[115.9,116.16],[116.16,116.36],[116.36,116.62],[116.62,116.72],[116.72,116.9],[116.9,117.08],[117.08,117.52],[117.52,117.72],[117.72,117.82],[117.82,118.44],[118.82,119.08],[119.08,119.52],[119.52,119.88],[119.88,120.32],[120.32,120.44],[120.44,120.56],[120.56,120.8],[120.8,121.02],[121.02,121.12],[121.12,121.54],[121.54,121.72],[121.72,121.8],[121.8,121.94],[121.94,122.04],[122.04,122.52],[122.52,122.72],[122.72,122.84],[122.84,123.3],[123.56,123.86],[123.86,124.34],[124.34,124.58],[124.58,124.83],[125.74,125.88],[125.88,126.18],[126.18,126.4],[126.4,126.62],[126.62,126.9],[127.42,127.6],[127.6,128.04],[128.04,128.3],[128.3,128.6],[128.6,129.1],[129.1,129.62],[129.62,129.88],[129.88,130.04],[130.04,130.46],[130.46,131.16],[131.6,131.76],[131.76,132.02],[132.02,132.2],[132.2,132.3],[132.3,132.5],[132.5,132.8]];
 window.SUBS = SUBS;
 // palabras de cada subtítulo (inicio, fin), para iluminarlas a medida que se dicen
 const CUEW = SUBS.map(c=>WORDS.filter(w=>w[0]>=c[0]-0.05 && w[0]<c[1]));
@@ -575,9 +566,6 @@ const checks=[...document.querySelectorAll('[data-check]')].map(el=>({el,s:+el.d
 const subEl=document.querySelector('#subs div');
 const knob=document.getElementById('knob');
 const selB=document.getElementById('selB');
-const bad=document.getElementById('bad');
-const scoreNum=document.getElementById('scoreNum');
-const scoreBar=document.getElementById('scoreBar');
 const DUR=SUBS[SUBS.length-1][1];
 const stage=document.getElementById('stage'), glow=document.getElementById('glow'), bar=document.getElementById('progress');
 // cámara: todo lo que no es recuadro de video va en una capa que se acerca, entra con zoom y se enfoca en lo que se nombra
@@ -653,8 +641,6 @@ function renderAt(t){
   // temperatura: el control se mueve hacia precisión cuando se habla del objetivo
   const kp = ease(prog(t,57.22,0.8)); const kl = 50-34*kp; knob.style.left=kl.toFixed(2)+'%'; sig.push(r3(kp));
   const sb = r3(ease(prog(t,61.10,0.4))); selB.style.opacity=sb; sig.push(sb);
-  const bd = r3(ease(prog(t,94.73,0.35))); bad.style.opacity=bd; sig.push(bd);
-  const sc = ease(prog(t,91.04,1.2)); scoreNum.textContent=Math.round(88*sc); scoreBar.style.transform=`scaleX(${(0.88*sc).toFixed(3)})`; sig.push(Math.round(88*sc));
   for(const c of checks){ const p=r3(ease(prog(t,c.s,0.3))); c.el.style.opacity=p; c.el.style.transform=p>=1?'none':`scale(${(0.6+0.4*p).toFixed(3)})`; sig.push(p); }
   let cue=''; 
   for(let q=0;q<SUBS.length;q++){ const [a,b,txt]=SUBS[q]; if(t>=a && t<b){

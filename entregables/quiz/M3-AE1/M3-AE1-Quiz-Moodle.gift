@@ -1,27 +1,27 @@
 // M3-AE1 · Herramientas de IA para investigar · quiz formativo (generado por scripts/quiz-juego.mjs)
 $CATEGORY: IA-generativa-laboral/Formativos/M3-AE1
 
-::M3-AE1-P1 (S1 H1)::Andrés quiere saber qué se ha publicado sobre seguridad en bodegas pequeñas. Todavía no tiene ningún documento y necesita enlaces para revisar cada dato. ¿Con qué herramienta le conviene partir? {
+::M3-AE1-P1 (S1 H1)::Andrés quiere saber qué se ha publicado sobre cómo evitan las bodegas pequeñas quedarse sin cajas. Todavía no tiene ningún documento y necesita enlaces para revisar cada dato. ¿Con qué herramienta le conviene partir? {
 =Un buscador con citas, como Perplexity
 ~Un asistente sobre fuentes propias, como Gemini Notebook
 ~Un asistente general sin búsqueda, para que redacte el panorama
 ####Para saber qué se ha publicado y tener enlaces se usa un buscador con citas. Un asistente sobre fuentes propias solo responde con documentos que ya reuniste, y Andrés aún no tiene ninguno. Pantalla P15 del Rise M3-T1\: «Elegir la herramienta según la necesidad».
 }
 
-::M3-AE1-P2 (S3 H1)::Camila ya guardó en PDF cinco avisos de asistente administrativa. Quiere preguntarles qué conocimientos digitales se repiten y que cada respuesta indique de qué aviso sale. ¿Qué tipo de herramienta le sirve más? {
+::M3-AE1-P2 (S3 H1)::Camila ya guardó en PDF cinco guías públicas sobre cómo archivar documentos digitales. Quiere preguntarles qué prácticas se repiten y que cada respuesta indique de qué guía sale. ¿Qué tipo de herramienta le sirve más? {
 ~Un buscador con citas, porque enlaza cada dato a una página web
 =Un asistente sobre fuentes propias, que responde a partir de los documentos que ella sube
 ~La investigación a fondo, porque revisa muchas páginas a la vez
-~Un asistente general sin búsqueda, porque ya conoce los avisos típicos
+~Un asistente general sin búsqueda, porque ya conoce las prácticas típicas
 ####Cuando ya tienes los documentos, el asistente sobre fuentes propias responde con ellos y cita la parte de cada uno. El buscador con citas consulta internet, no los PDF que Camila reunió. Pantalla P10 del Rise M3-T1\: «Trabajar sobre tus documentos\: Gemini Notebook».
 }
 
-::M3-AE1-P3 (C1 H1)::Andrés tiene el tema «accidentes en la bodega». ¿Cuál es la pregunta de investigación más específica? {
-~¿Cómo evitar accidentes?
-~¿Qué se ha escrito en el mundo sobre seguridad laboral en todo tipo de empresas?
-=¿Qué medidas recomiendan las guías de organismos públicos de Chile para prevenir caídas de carga en bodegas pequeñas?
-~¿Es peligroso trabajar en una bodega?
-####La opción c dice quién (bodegas pequeñas), qué (caídas de carga) y dónde (Chile), así que se sabe qué respuesta esperar. La opción b trae más resultados, pero menos útiles\: más amplia no es mejor. Pantalla P04 del Rise M3-T1\: «Preguntas específicas\: antes y después».
+::M3-AE1-P3 (C1 H1)::Andrés tiene el tema «falta de cajas en la bodega». ¿Cuál es la pregunta de investigación más específica? {
+~¿Cómo evitar que falten cajas?
+~¿Qué se ha escrito en el mundo sobre logística en todo tipo de empresas?
+=¿Qué recomiendan las guías de organismos públicos de Chile para que las bodegas pequeñas no se queden sin cajas de embalaje?
+~¿Es grave quedarse sin cajas en una bodega?
+####La opción c dice quién (bodegas pequeñas), qué (cajas de embalaje) y dónde (Chile), así que se sabe qué respuesta esperar. La opción b trae más resultados, pero menos útiles\: más amplia no es mejor. Pantalla P04 del Rise M3-T1\: «Preguntas específicas\: antes y después».
 }
 
 ::M3-AE1-P4 (C1 H1)::Rosa quiere pasar de un tema amplio a una búsqueda precisa. Ordena los pasos\: (1) preparar sinónimos; (2) identificar el tema general; (3) reconocer los conceptos clave; (4) acotar con criterios como lugar o período. {

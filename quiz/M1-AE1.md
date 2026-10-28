@@ -34,10 +34,10 @@
    - **d) Falso, porque lo que puede procesar tiene un máximo en tokens y una parte puede quedar fuera**
    *Retroalimentación:* Lo que el modelo puede leer y escribir de una vez tiene un máximo, contado en tokens. Si el texto lo supera, una parte puede quedar fuera sin un aviso claro; conviene trabajar por partes.
 
-5. *(S3 · C1 · P09)* Camila lleva una conversación muy larga revisando su carta y ahora quiere preparar una entrevista para otro cargo. ¿Qué le conviene hacer?
+5. *(S3 · C1 · P09)* Camila lleva una conversación muy larga respondiendo correos de proveedores y ahora quiere preparar la minuta de una reunión de otro tema. ¿Qué le conviene hacer?
    - a) Seguir en la misma conversación, porque el modelo considera todo lo anterior con el mismo peso
-   - **b) Empezar una conversación nueva y entregarle lo que necesita saber sobre ese cargo**
-   - c) Pedir la preparación sin dar detalles, porque el asistente ya sabe a qué empresa postula
+   - **b) Empezar una conversación nueva y entregarle lo que necesita saber sobre esa reunión**
+   - c) Pedir la minuta sin dar detalles, porque el asistente ya sabe de qué reunión se trata
    *Retroalimentación:* En una conversación muy larga lo del inicio puede perder peso o quedar fuera de la ventana de contexto, y el modelo no conoce lo que no le dices. Al cambiar de tarea conviene empezar de nuevo y darle el contexto.
 
 6. *(S4 · C2 · P10)* Andrés pide documentos sobre seguridad en bodegas. El asistente le entrega tres títulos con enlaces, en tono seguro, pero uno de esos documentos no existe. ¿Qué límite explica ese error?
@@ -47,10 +47,10 @@
    - d) El límite de tokens, porque la pregunta era demasiado larga para procesarla
    *Retroalimentación:* Inventar títulos de documentos o enlaces es una alucinación, y es más probable cuando se piden fuentes o citas. La fecha de corte explica datos que cambiaron, no documentos que nunca existieron.
 
-7. *(S4 · H1 · C2 · P11)* La jefatura de Andrés le sugiere pegar los antecedentes de cinco postulantes y pedirle al asistente que elija al mejor. ¿Cuál es el problema principal?
-   - a) Ninguno, si los antecedentes están completos y bien ordenados
+7. *(S4 · H1 · C2 · P11)* La jefatura de Andrés le sugiere pegar las evaluaciones de cinco bodegueros y pedirle al asistente que elija a quién ascender a supervisor. ¿Cuál es el problema principal?
+   - a) Ninguno, si las evaluaciones están completas y bien ordenadas
    - **b) Traslada los sesgos del modelo a una decisión que afecta a personas**
-   - c) El asistente no puede leer antecedentes laborales escritos en tablas
+   - c) El asistente no puede leer evaluaciones escritas en tablas
    - d) El modelo solo puede elegir entre tres opciones a la vez
    *Retroalimentación:* El modelo puede repetir estereotipos de sus datos, y al elegir personas esos sesgos afectan a alguien. Las decisiones sobre personas las toman personas, con criterios explícitos.
 

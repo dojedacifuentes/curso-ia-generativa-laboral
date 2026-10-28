@@ -9,13 +9,13 @@
     {
       "icono": "lightbulb",
       "titulo": "Oportunidad",
-      "texto": "**Diagnostica con datos** cómo se hace hoy la tarea. Fija la línea base, dos o tres indicadores (uno de tiempo y uno de calidad) y una meta realista y retadora.",
+      "texto": "**Diagnostica con datos** cómo haces hoy una tarea de tu cargo. Fija la línea base, dos o tres indicadores (uno de tiempo y uno de calidad) y una meta realista y retadora.",
       "ejemplo": "«Avisos enviados el mismo día: hoy 45 %; meta, 90 % en cuatro semanas».",
       "ver": [
         "M6-AE1 P03",
         "M6-AE1 P04",
         "M6-AE1 P05",
-        "M6-AE1 P09"
+        "M6-AE1 P07"
       ]
     },
     {
@@ -52,5 +52,5 @@
   ],
   "vuelta": "Adopta, ajusta o descarta: lo aprendido abre el ciclo siguiente",
   "clave": "Decide **cómo vas a medir antes de implementar**: sin línea base no sabrás si el proyecto funcionó. Un resultado contado **con sus límites a la vista** se defiende ante cualquier pregunta.",
-  "pie": "Basado en M6-AE1 (P03 a P05, P09), M6-AE2 (P02 a P04, P09) y M6-AE3 (P02 a P06)"
+  "pie": "Basado en M6-AE1 (P03 a P07), M6-AE2 (P02 a P04, P09) y M6-AE3 (P02 a P06)"
 }

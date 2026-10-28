@@ -33,10 +33,10 @@ $CATEGORY: IA-generativa-laboral/Formativos/M1-AE1
 ####Lo que el modelo puede leer y escribir de una vez tiene un máximo, contado en tokens. Si el texto lo supera, una parte puede quedar fuera sin un aviso claro; conviene trabajar por partes. Pantalla P08 del Rise M1-T1\: «Tokens\: cómo «lee» el modelo».
 }
 
-::M1-AE1-P5 (S3 C1)::Camila lleva una conversación muy larga revisando su carta y ahora quiere preparar una entrevista para otro cargo. ¿Qué le conviene hacer? {
+::M1-AE1-P5 (S3 C1)::Camila lleva una conversación muy larga respondiendo correos de proveedores y ahora quiere preparar la minuta de una reunión de otro tema. ¿Qué le conviene hacer? {
 ~Seguir en la misma conversación, porque el modelo considera todo lo anterior con el mismo peso
-=Empezar una conversación nueva y entregarle lo que necesita saber sobre ese cargo
-~Pedir la preparación sin dar detalles, porque el asistente ya sabe a qué empresa postula
+=Empezar una conversación nueva y entregarle lo que necesita saber sobre esa reunión
+~Pedir la minuta sin dar detalles, porque el asistente ya sabe de qué reunión se trata
 ####En una conversación muy larga lo del inicio puede perder peso o quedar fuera de la ventana de contexto, y el modelo no conoce lo que no le dices. Al cambiar de tarea conviene empezar de nuevo y darle el contexto. Pantalla P09 del Rise M1-T1\: «Contexto\: lo que el modelo tiene a la vista».
 }
 
@@ -48,10 +48,10 @@ $CATEGORY: IA-generativa-laboral/Formativos/M1-AE1
 ####Inventar títulos de documentos o enlaces es una alucinación, y es más probable cuando se piden fuentes o citas. La fecha de corte explica datos que cambiaron, no documentos que nunca existieron. Pantalla P10 del Rise M1-T1\: «Primer límite\: la alucinación».
 }
 
-::M1-AE1-P7 (S4 H1 C2)::La jefatura de Andrés le sugiere pegar los antecedentes de cinco postulantes y pedirle al asistente que elija al mejor. ¿Cuál es el problema principal? {
-~Ninguno, si los antecedentes están completos y bien ordenados
+::M1-AE1-P7 (S4 H1 C2)::La jefatura de Andrés le sugiere pegar las evaluaciones de cinco bodegueros y pedirle al asistente que elija a quién ascender a supervisor. ¿Cuál es el problema principal? {
+~Ninguno, si las evaluaciones están completas y bien ordenadas
 =Traslada los sesgos del modelo a una decisión que afecta a personas
-~El asistente no puede leer antecedentes laborales escritos en tablas
+~El asistente no puede leer evaluaciones escritas en tablas
 ~El modelo solo puede elegir entre tres opciones a la vez
 ####El modelo puede repetir estereotipos de sus datos, y al elegir personas esos sesgos afectan a alguien. Las decisiones sobre personas las toman personas, con criterios explícitos. Pantalla P11 del Rise M1-T1\: «Segundo límite\: el sesgo».
 }

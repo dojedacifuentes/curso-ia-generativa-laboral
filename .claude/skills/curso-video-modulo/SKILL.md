@@ -8,6 +8,9 @@ description: Produce los videos de bienvenida y de resumen de cada módulo (máx
 Reproduce el flujo con que se hizo el video de bienvenida del Módulo 1. **Referencia vigente: `videos/M1-bienvenida/`**
 (voz y avatar de EVA, 6 clips, cámara, 2:37). `ejemplo_M1/` es la primera versión (voz Catalina, sin movimiento). Para otro módulo cambian el guion, los tiempos, los clips y los textos de las slides; la
 estructura, los scripts y el diseño se mantienen. La planilla pide 12 videos: bienvenida y resumen de M1 a M6.
+**M1 v5 (25-10):** guion, voz, slides y video sin casos ni evaluaciones concretas (2:13). Los bloques 1-2 conservan la voz y
+el avatar de la v4; los bloques 3-5 se generaron aparte y se unieron en la pausa (ver «Cambiar solo una parte del guion»).
+La v4 quedó en `videos/M1-bienvenida/v4/` (fuera del repo).
 
 `<skill>` = `.claude/skills/curso-video-modulo`. Carpeta de trabajo: `videos/M<n>-<bienvenida|resumen>/`.
 
@@ -49,7 +52,13 @@ ejemplo_M1/                   primera versión del M1 (voz Catalina); la vigente
   «Catalina – Chilean Spanish»; el 25-10 el usuario pidió la voz de EVA porque suena mejor.)
 - **EVA a cámara solo en la primera y la última escena** (ahorro de créditos), con su look de fondo azul.
 - **Sin avisos de «generado con IA»** sobre la presentadora, la voz o los personajes (25-10). Sí se mantienen las etiquetas que
-  dicen qué es un ejemplo: «Ejemplo de quiz juego», «Respuesta de ejemplo, con datos ficticios».
+  dicen qué es un ejemplo: «Respuesta de ejemplo, con datos ficticios».
+- **Sin casos ni evaluaciones concretas** (25-10): el video tiene que servir aunque cambien los casos o las evaluaciones. Ni
+  la voz, ni las slides, ni los subtítulos nombran casos de aplicación (empresas, juicios, M<n>-C<n>) ni evaluaciones
+  específicas (quiz, preguntas, puntajes, foros, hitos, entregables). Se habla en genérico (`prompts.md` §1, reglas).
+- **Audiencia: solo personas que trabajan** (28-10, `docs/CRITERIOS-28-10.md`). Nada de «si buscas trabajo», «el trabajo al
+  que aspiras» ni Camila buscando empleo: Camila es asistente administrativa en una constructora. El proyecto es sobre una tarea
+  de su trabajo actual. **Máximo 2 fuentes por guion.** Antes de enviar: `node scripts/revisar-criterios.mjs M<n>-` sin errores.
 - El resto: clips de Flow, diagramas, tarjetas de texto e imágenes, **cada cuadro con propósito y sincronizado con la voz**.
 - **Totalmente subtitulado**: subtítulos incrustados + archivo .srt.
 - EVA aquí es la presentadora del curso: el guion sigue el tono del curso (`curso-produccion`), no el de sus redes. Estos videos
@@ -64,14 +73,16 @@ Lleva la lista de tareas con estos pasos.
 Todo está en el proyecto; Drive no hace falta:
 - `data/curso.json`: título del módulo, AE con su aprendizaje esperado, recursos y hito.
 - `contenido/M<n>/M<n>-AE1…AE4.md`: conceptos clave, «Ideas clave», «Conexión con el proyecto».
-- `casos/M<n>-C*.md`, `quiz/` (8 ítems por AE, mejor puntaje, remite a pantalla), `infografias/M<n>.json`, `docs/PERSONAJES.md`.
+- `infografias/M<n>.json`, `docs/PERSONAJES.md`.
 
-Extraer: título del módulo, título y aprendizaje de cada AE, conceptos clave, personajes, herramienta principal, evaluación,
-casos, hito del proyecto y una idea fuerza para el cierre.
+Extraer: título del módulo, título y aprendizaje de cada AE, conceptos clave, personajes, herramienta principal y una idea
+fuerza para el cierre (de los AE). De `casos/`, `quiz/` y el hito basta saber que existen: en el video van en genérico.
 
 ### 2. Escribir el guion
 - Estructura y reglas en `prompts.md` §1 (bienvenida o resumen). Ejemplo completo: `videos/M1-bienvenida/guion.md`.
-- Incluir la tabla de correspondencia. Cada frase debe poder rastrearse a un archivo del proyecto (`contenido/…`, `casos/…`).
+- Incluir la tabla de correspondencia. Cada frase debe poder rastrearse a un archivo del proyecto (`contenido/…`).
+- Antes de enviar, buscar en el guion nombres de casos y de evaluaciones (empresas, «caso M», «quiz», «preguntas», «puntaje»,
+  «hito», «foro», «entregable») y pasarlos a genérico.
 - Guardarlo como `videos/M<n>-<tipo>/guion.md`.
 
 ### 3. Generar la voz y ENVIARLA con el guion
@@ -111,7 +122,7 @@ casos, hito del proyecto y una idea fuerza para el cierre.
   - Como la cámara se mueve en cada cuadro, `render_graphics.py` captura todos los cuadros: ~13 min para 2:37.
   - Clips: Ken Burns con `"zoom_clips": 1.08` en `config.json` (o `"zoom"` por clip).
   - Escena estática = escena por mejorar: cada frase debe cambiar algo en pantalla (un paso que entra, un dato que se
-    marca, un diagrama que avanza). Ej.: los casos llevan un mini diagrama de 3 pasos sincronizado con la voz.
+    marca, un diagrama que avanza). Ej.: el ciclo de iteración del prompt avanza paso a paso con la voz.
 - Reglas de diseño:
   - Paleta del curso: tinta #0F172A, teal #0E7490, fondo #F8FAFC, ámbar para límites y errores. (La marca del cliente se
     aplica después.)
@@ -127,7 +138,8 @@ casos, hito del proyecto y una idea fuerza para el cierre.
   - Controles (temperatura, longitud, iteración) y comparación A/B/C con la elegida marcada.
   - Respuesta con errores numerados y su leyenda.
   - Diagrama afirmación → 2 fuentes → decisión.
-  - Mock de quiz con puntaje y retroalimentación, tarjetas de casos y pasos del hito.
+  - Íconos genéricos de «practicar, repasar, caso real» y diagrama tarea → prompts → mejora para el proyecto (nada de
+    mock de quiz, puntajes, tarjetas de casos con nombre ni pasos del hito: ver Decisiones fijas).
   - Checklist de cierre y cita final.
 
 ### 6. Clips en Google Flow (Claude in Chrome)
@@ -161,7 +173,7 @@ casos, hito del proyecto y una idea fuerza para el cierre.
    videos de **resumen**, los módulos terminados con check y el siguiente encendido.
 5. **EVA en un momento clave** (además de intro y cierre): cortar esa frase de la voz (`ffmpeg -ss … -to …`), subirla,
    `create_video_from_avatar` 4:5 con el look de EVA, `fondo_eva.py` y un recuadro `avatar-frame` 480×600 con
-   `data-slot`. En el M1, «Todo esto alimenta el Hito uno…» (3,4 s = 2 créditos). En config va como un clip más con
+   `data-slot`. En el M1 v4, la frase del hito (3,4 s = 2 créditos); en la v5, la frase del proyecto aplicado. En config va como un clip más con
    `"zoom": 1.0` y `src_start` = desfase medido.
 6. **Pronunciación y resolución**: `alinear_palabras.py` lista lo que Whisper oyó distinto de lo escrito. Escuchar
    esos tramos; si una palabra suena mal, escribirla como se dice en `voz.txt` y regenerar la voz **antes** de
@@ -211,6 +223,16 @@ casos, hito del proyecto y una idea fuerza para el cierre.
 - `node scripts/auditar.mjs`: la capa C9 marca el video «Hecho» cuando la carpeta tiene `subtitulos.srt`, y «En curso» si
   solo tiene `guion.md`.
 - Cerrar las pestañas de Chrome abiertas.
+
+## Cambiar solo una parte del guion (hecho en el M1 v5)
+Si los primeros bloques no cambian, se conserva su voz y su avatar y solo se rehace lo demás:
+1. Generar la voz solo de los bloques nuevos (misma llamada, una toma) y unirla a la voz vieja en la pausa larga anterior
+   (`ffmpeg atrim` + `concat`), igualando el volumen (`ebur128`; en el M1, -1 dB a la toma nueva).
+2. `alinear_palabras.py` sobre la voz completa; revisar palabras que Whisper adelante (en el M1, la «Y» de 105,3 s).
+3. Un solo render de EVA con el momento clave + 1 s + el cierre nuevo. El clip del avatar se arma con la intro vieja
+   (hasta `cierre_clip_t`) + el cierre nuevo, con el mismo desfase (+0,023 s); el momento clave va como clip aparte.
+   Costo M1 v5: 21,6 s de EVA.
+4. Rehacer las escenas, los SUBS de los bloques nuevos, `audio_fondo.py`, render y montaje como siempre.
 
 ## Qué va al repo
 

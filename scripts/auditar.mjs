@@ -262,18 +262,17 @@ for (const a of AES) {
     glos >= 5 ? r.ev(`${glos} términos de glosario`) : r.aviso(`glosario con ${glos} términos`);
     const secF = c.seccion('Fuentes') || '';
     for (const f of new Set(c.pantallas.flatMap(p => p.fuentes))) if (!secF.includes(f)) r.error(`${f} se cita pero no está en la sección «Fuentes»`);
-    // Hitos y casos de la planilla que trabajan este AE deben nombrarse en «Conexión con el proyecto»
+    // Los hitos de la planilla que trabajan este AE se nombran en «Conexión con el proyecto»; los casos no (criterios 28-10)
     const con = c.seccion('Conexión con el proyecto') || '';
-    for (const x of MODULOS.flatMap(m => m.casos).filter(x => x.aes.split(/;\s*/).includes(a.id))) {
-      const clave = x.tipo === 'Hito proyecto' ? `Hito ${/Hito (\d+[a-d]?)/.exec(x.titulo)?.[1]}` : x.id;
+    for (const x of MODULOS.flatMap(m => m.casos).filter(x => x.tipo === 'Hito proyecto' && x.aes.split(/;\s*/).includes(a.id))) {
+      const clave = `Hito ${/Hito (\d+[a-d]?)/.exec(x.titulo)?.[1]}`;
       con.includes(clave) ? r.ev(`«Conexión» nombra ${clave}`) : r.aviso(`«Conexión con el proyecto» no nombra ${clave} (${x.tipo})`);
     }
-    // WORKFLOW: las empresas reales van en su caso, no en el contenido base; se aceptan dentro del recuadro «:::ejemplo Caso real»
+    // Criterios 28-10: los casos con empresas reales van solo en casos/; el contenido base no los nombra
     const cuerpo = c.md.split(/^## Fuentes/m)[0];
-    const recuadros = cuerpo.match(/^:::ejemplo Caso real\b[\s\S]*?^:::\s*$/gm) || [];
-    const fuera = recuadros.reduce((t, x) => t.replace(x, ''), cuerpo);
-    if (recuadros.length) r.ev(`${recuadros.length} recuadro(s) «Caso real»`);
-    for (const e of EMPRESAS) if (new RegExp(`\\b${e}\\b`, 'i').test(fuera)) r.aviso(`nombra «${e}» fuera del recuadro «Caso real» (las empresas reales van en su caso o en ese recuadro)`);
+    if (/^:::ejemplo Caso real\b/m.test(cuerpo)) r.error('tiene un recuadro «Caso real» (los casos van solo en su recurso)');
+    for (const e of EMPRESAS) if (new RegExp(`\\b${e}\\b`, 'i').test(cuerpo)) r.error(`nombra «${e}», empresa de un caso (los casos van solo en su recurso)`);
+    if (/\bM\d-C\d\b/.test(cuerpo)) r.error('nombra el id de un caso');
     if (!/Camila|Andrés/.test(cuerpo)) r.aviso('no aparece ningún personaje recurrente (Camila o Andrés)');
     const pend = (cuerpo.match(/pilotear|antes de publicar|falta confirmar|por confirmar/gi) || []).length;
     if (pend) r.aviso(`${pend} marcas de «pilotear / revisar antes de publicar» en el texto (ver docs/PENDIENTES-VERIFICACION.md)`);

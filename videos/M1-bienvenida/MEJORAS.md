@@ -31,5 +31,19 @@ el video no van al repo: están en esta carpeta, en el PC 1.
 
 ## Pendientes
 
-- Escuchar «IA» y «Avianca» en el tramo de los casos (mejora 6).
+- ~~Escuchar «IA» y «Avianca» en el tramo de los casos~~: ya no aplica en la v5.
 - Margen de adaptación del guion: consulta abierta (el texto sigue el del material, incluido «la IA inventó fallos»).
+
+## v5 (25-10): sin casos ni evaluaciones concretas
+
+Pedido del usuario: que el video sirva aunque cambien los casos o las evaluaciones. Bloques 3-5 reescritos en genérico
+(guion.md). Bloques 1-2 intactos: misma voz y avatar de la v4.
+
+- Voz: solo los bloques 3-5 (una toma, eleven_v4), unida en 85,17 s con -1 dB. Total 2:13.
+- Escenas nuevas: «¿Cómo vas a saber si vas aprendiendo?» (ciclo aprendes → pones a prueba → repasas), «Casos reales»
+  (qué se hizo / bien / mal / qué llevar a tu trabajo, sin nombres), «Tu proyecto» (EVA, Andrés y Camila, la tarea
+  módulo a módulo) y cierre («Una tarea de tu trabajo» en vez del aviso de empleo).
+- Salen el mock del quiz, las cifras «8» y «0–100», las tarjetas de Morgan Stanley y Avianca y el Hito 1. Los
+  pendientes de pronunciación de «Avianca» y de «la IA inventó fallos» ya no aplican.
+- EVA: un render de 21,6 s (proyecto + cierre); intro de la v4. HeyGen 504 → 494 (10 créditos).
+- La v4 completa quedó en `v4/` (fuera del repo).

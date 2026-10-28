@@ -1,24 +1,24 @@
 # Quiz M1-AE4 · Validación de resultados
 
 **Misión:** revisar con método lo que genera la IA antes de usarlo o compartirlo
-**Cuándo:** al terminar el Rise M1-T4 · Validación de resultados, antes del caso M1-C2.
-**Insignia:** Datos verificados · **Siguiente parada:** caso M1-C2, cuando la IA inventa
+**Cuándo:** al terminar el Rise M1-T4 · Validación de resultados, antes de entregar el Hito 1 del proyecto.
+**Insignia:** Datos verificados · **Siguiente parada:** Hito 1 del proyecto, biblioteca de prompts v1
 **Estilo:** acento #34d399 · acento2 #ff7a59 · fondo circuito · lema Qué revisar, dónde y cuándo
 **Ilustración:** flujo | La respuesta (chat) · Las fuentes (bd) · Tu decisión (bandera)
 
-1. *(S1 · C1 · P03)* Camila pide consejos para su entrevista y recibe: «Según el estudio "Reclutamiento Hoy 2021", el 92 % de los reclutadores descarta a quien llega tarde». ¿Qué debe hacer con ese dato antes de usarlo?
+1. *(S1 · C1 · P03)* Camila prepara una minuta y el asistente le entrega: «Según el estudio "Pagos Hoy 2021", el 92 % de las constructoras paga con atraso a sus proveedores». ¿Qué debe hacer con ese dato antes de usarlo?
    - a) Usarlo tal cual, porque el nombre del estudio y el año muestran que es real
    - **b) Buscar el estudio en su origen, porque el nombre y el año también pueden ser inventados**
    - c) Pedir al asistente el enlace del estudio y usar el dato si se lo entrega
    - d) Redondear el porcentaje a 90 %, para que se vea menos exacto
    *Retroalimentación:* Un nombre de estudio, un año y un porcentaje dan apariencia de rigor, pero el modelo también los puede inventar. Toda cita se busca en su origen; un enlace que entrega el asistente es solo una pista hasta abrirlo y leerlo.
 
-2. *(S1 · C1 · P04)* Andrés pide un aviso de bodeguero y entrega los requisitos: grúa horquilla y turnos. El borrador dice: «Buscamos un hombre joven, con experiencia en grúa horquilla y disponibilidad para turnos». ¿Qué error tiene?
+2. *(S1 · C1 · P04)* Andrés redacta con un asistente la publicación de una vacante de bodeguero y entrega los requisitos: grúa horquilla y turnos. El borrador dice: «Buscamos un hombre joven, con experiencia en grúa horquilla y disponibilidad para turnos». ¿Qué error tiene?
    - a) Desactualización, porque los requisitos del cargo pueden haber cambiado
    - b) Ninguno, porque la grúa horquilla y los turnos son datos correctos del cargo
-   - **c) Sesgo, porque supone el género y la edad de quien postula sin que se pidiera**
+   - **c) Sesgo, porque supone el género y la edad de quien ocupará el cargo sin que se pidiera**
    - d) Alucinación, porque agregó la experiencia en grúa horquilla como si fuera un dato propio
-   *Retroalimentación:* El texto puede ser correcto en los datos y aun así ser parcial. Preguntarse a quién deja fuera la respuesta muestra el sesgo: el aviso debe hablar del cargo y sus requisitos, no del género ni la edad.
+   *Retroalimentación:* El texto puede ser correcto en los datos y aun así ser parcial. Preguntarse a quién deja fuera la respuesta muestra el sesgo: la publicación debe hablar del cargo y sus requisitos, no del género ni la edad.
 
 3. *(S1 · C1 · P05)* El asistente le da a Rosa el valor de un examen y agrega «información actualizada a 2026». ¿Basta eso para usar el valor?
    - a) Sí, porque si la respuesta menciona el año actual, el dato está al día
@@ -34,7 +34,7 @@
    - d) Preguntándole al asistente si está seguro de su resumen
    *Retroalimentación:* El resumen omitió una excepción del texto entregado. Ese error se detecta comparando con el original: el reporte es la referencia y no se necesita otra fuente.
 
-5. *(S2 · C2 · P09)* El asistente le da a Camila el enlace a un sitio con consejos para postular, que ella no conoce. El sitio se ve muy profesional. ¿Qué hace para evaluarlo?
+5. *(S2 · C2 · P09)* El asistente le da a Camila el enlace a un sitio con consejos para archivar documentos digitales, que ella no conoce. El sitio se ve muy profesional. ¿Qué hace para evaluarlo?
    - a) Lo lee completo, de arriba abajo, antes de formarse una opinión
    - b) Revisa que tenga logo, buen diseño y un dominio de aspecto institucional
    - c) Le pregunta al asistente si ese sitio es confiable
@@ -48,7 +48,7 @@
    - d) Tres ideas de nombre para la campaña de orden en la bodega
    *Retroalimentación:* No todo exige el checklist completo: un saludo no lo necesita. Una cifra que irá en un informe, un requisito legal o un dato que afecta a otra persona, sí.
 
-7. *(H1 · C2 · P13)* Camila revisa un dato de su carta. Dos fuentes confiables e independientes coinciden en un valor distinto del que dio el asistente. ¿Qué hace?
+7. *(H1 · C2 · P13)* Camila revisa un dato de su minuta. Dos fuentes confiables e independientes coinciden en un valor distinto del que dio el asistente. ¿Qué hace?
    - a) Lo mantiene, porque el asistente lo entregó con seguridad
    - b) Le pregunta al asistente «¿estás seguro?» y usa lo que responda
    - **c) Lo corrige con el dato de la fuente original**

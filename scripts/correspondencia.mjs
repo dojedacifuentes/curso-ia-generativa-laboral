@@ -26,9 +26,12 @@ for (const m of curso.modulos) for (const ae of m.aes) {
   const minDis = pant.length * MIN_PANTALLA;
   const conexion = bloques.find(b => b.startsWith('Conexión con el proyecto')) || '';
   const recursosAE = m.recursos.filter(r => r.aes.split(/;\s*/).includes(ae.id) && /Hito|Caso/.test(r.tipo));
+  // Criterios 28-10: «Conexión» nombra el hito; el caso no se nombra (es un recurso aparte)
   const nombra = recursosAE.map(r => {
-    const clave = r.tipo === 'Hito proyecto' ? (/Hito (\d+[a-d]?)/.exec(r.titulo)?.[1]) : (/Caso (M\d-C\d)/.exec(r.titulo)?.[1]);
-    return { r, clave, ok: clave ? conexion.includes(r.tipo === 'Hito proyecto' ? `Hito ${clave}` : clave) : false };
+    const hito = r.tipo === 'Hito proyecto';
+    const clave = hito ? (/Hito (\d+[a-d]?)/.exec(r.titulo)?.[1]) : (/Caso (M\d-C\d)/.exec(r.titulo)?.[1]);
+    const ok = clave ? (hito ? conexion.includes(`Hito ${clave}`) : !md.includes(clave)) : false;
+    return { r, clave: hito ? clave : `${clave} sin nombrar`, ok };
   });
   const cajas = t => (md.match(new RegExp(`^:::${t}`, 'gm')) || []).length;
   const fuentes = new Set([...md.matchAll(/^fuentes:[ \t]*(F-.+)$/gm)].flatMap(x => x[1].split(/,\s*/)));
@@ -53,7 +56,7 @@ Generado con \`node scripts/correspondencia.mjs\` el ${new Date().toISOString().
 
 ## Resumen por AE
 
-| AE | Texto del AE igual | Pantallas | Min Rise (diseñado / planilla) | Códigos S/H/A/C cubiertos | Hito y casos nombrados en «Conexión» | Comprueba / error / actividad | Fuentes citadas |
+| AE | Texto del AE igual | Pantallas | Min Rise (diseñado / planilla) | Códigos S/H/A/C cubiertos | Hito en «Conexión» y casos sin nombrar | Comprueba / error / actividad | Fuentes citadas |
 |---|---|---|---|---|---|---|---|
 ${filas.join('\n')}
 

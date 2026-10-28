@@ -295,7 +295,7 @@ const metodologia = [
     entra: ['infografias/M<n>.json'], sale: ['entregables/infografias/'], script: 'scripts/infografias.mjs',
     regla: doc('docs/FORMATO-INFOGRAFIA.md'), skill: 'curso-quiz-infografias', capa: 'C4', vista: 'recursos', cifra: `${infografias.filter(i => i.png).length} infografías` },
   { n: 5, id: 'casos', nombre: 'Casos reales', rol: 'Empresas verificadas',
-    que: 'Cada caso con empresa real se verifica en fuente primaria (ficha con hechos verificados y lo que no se puede afirmar) y luego se redacta para el estudiante. En el contenido base solo aparecen dentro de un recuadro «Caso real».',
+    que: 'Cada caso con empresa real se verifica en fuente primaria (ficha con hechos verificados y lo que no se puede afirmar) y luego se redacta para el estudiante. Son un recurso aparte: desde el 28-10 el contenido base, los quiz, las infografías y los videos no los nombran, para que cambiar un caso no obligue a cambiar todo.',
     entra: ['Hoja «Casos y proyecto»'], sale: ['investigacion/casos/', 'casos/', 'entregables/casos/'], script: 'scripts/validar-casos.mjs',
     regla: doc('docs/FORMATO-CASO.md'), skill: 'curso-casos-reales', capa: 'C5', vista: 'casos', cifra: `${casosApl.length} casos` },
   { n: 6, id: 'compilacion', nombre: 'Docs y PDF', rol: 'Documentos para revisar',

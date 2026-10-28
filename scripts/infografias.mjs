@@ -1,4 +1,5 @@
-// Infografía por módulo: infografias/M<n>.json → entregables/infografias/M<n>-Infografia.html y .png (1080 px de ancho).
+// Infografía por módulo: infografias/M<n>.json → entregables/infografias/M<n>-Infografia.html y .png (1080 px de ancho),
+// más M<n>-Infografia-interactiva.html (animada, con botones; plantilla en scripts/lib/infografia-interactiva.mjs).
 // Formato de la fuente en docs/FORMATO-INFOGRAFIA.md. Íconos Lucide (ISC) de scripts/lib/iconos-lucide/.
 //
 //   node scripts/infografias.mjs               todas
@@ -8,6 +9,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
+import { htmlInteractivo } from './lib/infografia-interactiva.mjs';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const curso = JSON.parse(fs.readFileSync(path.join(RAIZ, 'data', 'curso.json'), 'utf8'));
@@ -123,7 +125,9 @@ for (const id of ids) {
     const m = validar(j, archivo);
     const salida = path.join(SALIDA, `${id}-Infografia.html`);
     fs.writeFileSync(salida, html(j, m));
-    let info = '';
+    fs.writeFileSync(path.join(SALIDA, `${id}-Infografia-interactiva.html`),
+      htmlInteractivo(j, m, { curso, ac: ACENTO[m.n], semaforo: SEMAFORO, icono, esc, negrita, fuentes: FUENTES }));
+    let info = ' · interactiva';
     if (conPng) {
       if (!NAV) throw new Error('No encontré Edge ni Chrome para el PNG');
       const dom = execFileSync(NAV, ['--headless=new', '--disable-gpu', '--virtual-time-budget=3000', '--window-size=1080,1920', '--dump-dom', pathToFileURL(salida).href], { encoding: 'utf8', timeout: 120000 });

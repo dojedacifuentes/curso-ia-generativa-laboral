@@ -39,7 +39,10 @@ Los mismos 22 contenidos en PDF, más «Contenidos-completos.pdf» con todo el c
 
 ## 4 Infografías
 
-Una por módulo (R017, R034, R051, R069, R084 y R100 de la planilla), en PNG de 1080 px de ancho y en HTML. Usan una paleta neutra:
+Una por módulo (R017, R034, R051, R069, R084 y R100 de la planilla), en PNG de 1080 px de ancho y en HTML. Desde el 28-10 cada una tiene además una versión **interactiva**
+(`M<n>-Infografia-interactiva.html`): animada, con tarjetas que se abren, recorrido guiado paso a paso e idea clave que se
+desbloquea al explorarla. Es un solo archivo que funciona sin internet y en el celular; se puede subir a Moodle como archivo o
+página. Usan una paleta neutra:
 la marca del cliente se aplica después.
 
 ## 5 Casos de aplicación

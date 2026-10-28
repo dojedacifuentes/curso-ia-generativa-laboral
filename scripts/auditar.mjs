@@ -334,7 +334,7 @@ for (const a of AES) {
 // =====================================================================================================
 nuevaCapa('C4', 'Infografías por módulo (6)',
   'infografias/M<n>.json es la fuente de cada infografía (recursos «Complemento» de la planilla); scripts/infografias.mjs la convierte '
-  + 'en HTML y PNG. Cada bloque remite con «ver» a las pantallas donde se desarrolla.');
+  + 'en HTML y PNG, y en una versión interactiva (animada, con botones). Cada bloque remite con «ver» a las pantallas donde se desarrolla.');
 
 for (const m of MODULOS) {
   const rec = m.recursos.find(x => x.tipo === 'Complemento');
@@ -351,8 +351,8 @@ for (const m of MODULOS) {
       else if (AE[ae].modulo !== m.n) r.aviso(`«ver» ${ref} es de otro módulo`);
     }
     r.ev(`${refs.length} remisiones a pantallas`);
-    for (const ext of ['html', 'png']) {
-      const f = path.join('entregables', 'infografias', `M${m.n}-Infografia.${ext}`);
+    for (const ext of ['html', 'png', 'interactiva.html']) {
+      const f = path.join('entregables', 'infografias', `M${m.n}-Infografia${ext === 'interactiva.html' ? '-' : '.'}${ext}`);
       if (!existe(f)) r.error(`falta ${f}`);
       else if (mtime(f) + HOLGURA < mtime('infografias', `M${m.n}.json`)) r.aviso(`${ext.toUpperCase()} anterior al JSON: volver a correr infografias.mjs`);
     }
@@ -492,10 +492,10 @@ if (!drive) {
     for (const [ae, id] of Object.entries(driveIds.docs_por_ae || {})) if (!todos.has(id)) r.error(`${ae}: el Doc ${id} no está en la foto`);
     r.ev(`${Object.keys(driveIds.docs_por_ae || {}).length} Docs registrados`);
   });
-  chequeo('info', 'Infografías en Drive', 'HTML y PNG de cada módulo.', r => {
+  chequeo('info', 'Infografías en Drive', 'HTML, PNG e interactiva de cada módulo.', r => {
     const lista = archivos(driveIds.infografias);
-    for (const m of MODULOS) for (const ext of ['html', 'png']) {
-      const t = `M${m.n}-Infografia.${ext}`, f = lista.filter(x => x.titulo === t);
+    for (const m of MODULOS) for (const ext of ['.html', '.png', '-interactiva.html']) {
+      const t = `M${m.n}-Infografia${ext}`, f = lista.filter(x => x.titulo === t);
       if (!f.length) r.error(`falta ${t}`);
       else if (Date.parse(f[0].modificado) + 60000 < mtime('infografias', `M${m.n}.json`)) r.aviso(`${t}: Drive es anterior al último cambio de infografias/M${m.n}.json`);
     }

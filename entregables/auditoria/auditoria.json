@@ -1,10 +1,10 @@
 {
   "resumen": {
-    "generado": "2026-10-28T15:35:03.202Z",
+    "generado": "2026-10-28T15:46:33.472Z",
     "chequeos": 84,
-    "ok": 78,
+    "ok": 77,
     "aviso": 4,
-    "error": 0,
+    "error": 1,
     "pendiente": 2
   },
   "capas": [
@@ -822,7 +822,7 @@
     {
       "id": "C4",
       "titulo": "Infografías por módulo (6)",
-      "explica": "infografias/M<n>.json es la fuente de cada infografía (recursos «Complemento» de la planilla); scripts/infografias.mjs la convierte en HTML y PNG. Cada bloque remite con «ver» a las pantallas donde se desarrolla.",
+      "explica": "infografias/M<n>.json es la fuente de cada infografía (recursos «Complemento» de la planilla); scripts/infografias.mjs la convierte en HTML y PNG, y en una versión interactiva (animada, con botones). Cada bloque remite con «ver» a las pantallas donde se desarrolla.",
       "chequeos": [
         {
           "id": "C4.M1",
@@ -1280,9 +1280,16 @@
         {
           "id": "C8.info",
           "titulo": "Infografías en Drive",
-          "porque": "HTML y PNG de cada módulo.",
-          "estado": "ok",
-          "errores": [],
+          "porque": "HTML, PNG e interactiva de cada módulo.",
+          "estado": "error",
+          "errores": [
+            "falta M1-Infografia-interactiva.html",
+            "falta M2-Infografia-interactiva.html",
+            "falta M3-Infografia-interactiva.html",
+            "falta M4-Infografia-interactiva.html",
+            "falta M5-Infografia-interactiva.html",
+            "falta M6-Infografia-interactiva.html"
+          ],
           "avisos": [],
           "pendientes": [],
           "evidencia": [

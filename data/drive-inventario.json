@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T15:29:30.000Z",
+  "generado": "2026-10-28T15:52:00.000Z",
   "raiz": "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue",
   "carpetas": {
     "14eGjbx_bwAkahiA8QsRMsfcqnCf_U7ue": {
@@ -84,10 +84,10 @@
           "bytes": null
         },
         {
-          "id": "1hZShjSWsXIyMDnBsT6319hAGX2elloXiTxAdu4vfymQ",
+          "id": "1nkIC3DtqKCDmlZCCmZ9RK8fuB7onMQM3Jm6z5FLc4Nc",
           "titulo": "LEEME · qué hay en esta carpeta",
           "mimeType": "application/vnd.google-apps.document",
-          "modificado": "2026-10-28T15:29:30.000Z",
+          "modificado": "2026-10-28T15:52:00.000Z",
           "bytes": null
         }
       ]
@@ -677,6 +677,48 @@
           "mimeType": "application/vnd.google-apps.folder",
           "modificado": "2026-10-24T21:32:51.435Z",
           "bytes": null
+        },
+        {
+          "id": "1lTBz6yIycZHqxfw5L8IscCJU2___6cVT",
+          "titulo": "M1-Infografia-interactiva.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-28T15:52:00.000Z",
+          "bytes": 122934
+        },
+        {
+          "id": "1S-F6q99KuGwI0dVyGFOHdB9tXW56oy-i",
+          "titulo": "M2-Infografia-interactiva.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-28T15:52:00.000Z",
+          "bytes": 122634
+        },
+        {
+          "id": "1j5orKdg0pl3O76r8VUMrPsLaV9uize-2",
+          "titulo": "M3-Infografia-interactiva.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-28T15:52:00.000Z",
+          "bytes": 121783
+        },
+        {
+          "id": "14u-SNQvnyF5FobA5V2ewifFLW-7ZCr-m",
+          "titulo": "M4-Infografia-interactiva.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-28T15:52:00.000Z",
+          "bytes": 123871
+        },
+        {
+          "id": "1KZAUqEYiu1Ez1K0-lMnfAbrFp66DA16C",
+          "titulo": "M5-Infografia-interactiva.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-28T15:52:00.000Z",
+          "bytes": 121327
+        },
+        {
+          "id": "14ZPbTKv3-z9uouzqSVHrHL2scnQgfeF3",
+          "titulo": "M6-Infografia-interactiva.html",
+          "mimeType": "text/html",
+          "modificado": "2026-10-28T15:52:00.000Z",
+          "bytes": 122065
         }
       ]
     },
@@ -862,6 +904,13 @@
           "mimeType": "application/vnd.google-apps.document",
           "modificado": "2026-10-25T05:09:44.765Z",
           "bytes": 5337
+        },
+        {
+          "id": "1hZShjSWsXIyMDnBsT6319hAGX2elloXiTxAdu4vfymQ",
+          "titulo": "LEEME · qué hay en esta carpeta (28-10, antes de las infografías interactivas)",
+          "mimeType": "application/vnd.google-apps.document",
+          "modificado": "2026-10-28T15:29:30.000Z",
+          "bytes": null
         }
       ]
     },

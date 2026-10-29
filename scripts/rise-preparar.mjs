@@ -40,8 +40,9 @@ for (const parrafo of contenido.split(/\n\s*\n/)) {
     anclas.push({ ancla, cita: cita[k++] });
   }
 }
-// Las marcas de las actividades se resuelven aparte, al armar su HTML
-const resolverEn = md => resolverCitas(md, apa).texto;
+// Las marcas de las actividades usan las mismas citas del documento completo (mismas letras), en el orden en que aparecen
+let kAct = k;
+const resolverEn = md => md.replace(/\[(n)?@[^\]]+\]/g, () => cita[kAct++]);
 
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const enLinea = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>')

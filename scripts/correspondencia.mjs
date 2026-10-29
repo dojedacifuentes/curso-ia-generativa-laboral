@@ -24,14 +24,15 @@ for (const m of curso.modulos) for (const ae of m.aes) {
   const sinCubrir = codigos.filter(c => !porCodigo[c.codigo]);
   const textoAE = md.replace(/\s+/g, ' ').includes(ae.texto);
   const minDis = pant.length * MIN_PANTALLA;
-  const conexion = bloques.find(b => b.startsWith('Conexión con el proyecto')) || '';
   const recursosAE = m.recursos.filter(r => r.aes.split(/;\s*/).includes(ae.id) && /Hito|Caso/.test(r.tipo));
-  // Criterios 28-10: «Conexión» nombra el hito; el caso no se nombra (es un recurso aparte)
+  // Criterios 29-10: sin «Conexión con el proyecto»; el hito se trabaja en las actividades de aplicación práctica del AE.
+  // Criterios 28-10: el caso no se nombra (es un recurso aparte)
+  const conActividades = fs.existsSync(path.join(RAIZ, 'actividades', `${ae.id}.md`));
   const nombra = recursosAE.map(r => {
     const hito = r.tipo === 'Hito proyecto';
     const clave = hito ? (/Hito (\d+[a-d]?)/.exec(r.titulo)?.[1]) : (/Caso (M\d-C\d)/.exec(r.titulo)?.[1]);
-    const ok = clave ? (hito ? conexion.includes(`Hito ${clave}`) : !md.includes(clave)) : false;
-    return { r, clave: hito ? clave : `${clave} sin nombrar`, ok };
+    const ok = clave ? (hito ? conActividades : !md.includes(clave)) : false;
+    return { r, clave: hito ? `Hito ${clave} con actividades` : `${clave} sin nombrar`, ok };
   });
   const cajas = t => (md.match(new RegExp(`^:::${t}`, 'gm')) || []).length;
   const fuentes = new Set([...md.matchAll(/^fuentes:[ \t]*(F-.+)$/gm)].flatMap(x => x[1].split(/,\s*/)));
@@ -56,7 +57,7 @@ Generado con \`node scripts/correspondencia.mjs\` el ${new Date().toISOString().
 
 ## Resumen por AE
 
-| AE | Texto del AE igual | Pantallas | Min Rise (diseñado / planilla) | Códigos S/H/A/C cubiertos | Hito en «Conexión» y casos sin nombrar | Comprueba / error / actividad | Fuentes citadas |
+| AE | Texto del AE igual | Pantallas | Min Rise (diseñado / planilla) | Códigos S/H/A/C cubiertos | Hito con actividades y casos sin nombrar | Comprueba / error / actividad | Fuentes citadas |
 |---|---|---|---|---|---|---|---|
 ${filas.join('\n')}
 

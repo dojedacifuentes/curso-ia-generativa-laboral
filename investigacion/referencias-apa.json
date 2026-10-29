@@ -1,0 +1,1595 @@
+{
+ "F-H-02": {
+  "autor": "OpenAI",
+  "autorCita": "OpenAI",
+  "anio": "s. f.",
+  "titulo": "Planes y precios",
+  "sitio": "ChatGPT",
+  "url": "https://chatgpt.com/es-419/pricing/",
+  "revisada": true
+ },
+ "F-H-07": {
+  "autor": "OpenAI",
+  "autorCita": "OpenAI",
+  "anio": "2026",
+  "titulo": "Searching the web with ChatGPT",
+  "sitio": "OpenAI Help Center",
+  "url": "https://help.openai.com/en/articles/9237897-chatgpt-search",
+  "revisada": true
+ },
+ "F-H-12": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Límites de las aplicaciones de Gemini y cambios a planes superiores",
+  "sitio": "",
+  "url": "https://support.google.com/gemini/answer/16275805?hl=es",
+  "revisada": true
+ },
+ "F-H-14": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Empezar a usar la aplicación móvil Gemini",
+  "sitio": "",
+  "url": "https://support.google.com/gemini/answer/14554984?hl=es",
+  "revisada": true
+ },
+ "F-H-15": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Centro de privacidad de las aplicaciones de Gemini",
+  "sitio": "",
+  "url": "https://support.google.com/gemini/answer/13594961?hl=es",
+  "revisada": true
+ },
+ "F-H-16": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Ver fuentes relacionadas de las aplicaciones de Gemini",
+  "sitio": "",
+  "url": "https://support.google.com/gemini/answer/14143489?hl=es",
+  "revisada": true
+ },
+ "F-H-20": {
+  "autor": "Microsoft",
+  "autorCita": "Microsoft",
+  "anio": "s. f.",
+  "titulo": "Compara todos los planes y precios de Microsoft 365",
+  "sitio": "",
+  "url": "https://www.microsoft.com/es-cl/microsoft-365/buy/compare-all-microsoft-365-products",
+  "revisada": true
+ },
+ "F-H-29": {
+  "autor": "Perplexity",
+  "autorCita": "Perplexity",
+  "anio": "s. f.",
+  "titulo": "Which Perplexity subscription plan is right for you?",
+  "sitio": "",
+  "url": "https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you",
+  "revisada": true
+ },
+ "F-H-30": {
+  "autor": "Perplexity",
+  "autorCita": "Perplexity",
+  "anio": "s. f.",
+  "titulo": "Data collection at Perplexity",
+  "sitio": "",
+  "url": "https://www.perplexity.ai/help-center/en/articles/11564572-data-collection-at-perplexity",
+  "revisada": true
+ },
+ "F-H-33": {
+  "autor": "Perplexity",
+  "autorCita": "Perplexity",
+  "anio": "s. f.",
+  "titulo": "Mobile apps",
+  "sitio": "",
+  "url": "https://www.perplexity.ai/help-center/en/collections/18799299-mobile-apps",
+  "revisada": true
+ },
+ "F-H-37": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "2026, 30 de julio",
+  "titulo": "Guía de inicio rápido de Google AI Studio",
+  "sitio": "Google AI for Developers",
+  "url": "https://ai.google.dev/gemini-api/docs/ai-studio-quickstart?hl=es-419",
+  "revisada": true
+ },
+ "F-H-40": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "2026, 28 de abril",
+  "titulo": "Gemini API additional terms of service",
+  "sitio": "Google AI for Developers",
+  "url": "https://ai.google.dev/gemini-api/terms?hl=en",
+  "revisada": true
+ },
+ "F-H-44": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Cambiar a un plan superior de Gemini Notebook",
+  "sitio": "",
+  "url": "https://support.google.com/notebooklm/answer/16213268?hl=es",
+  "revisada": true
+ },
+ "F-H-45": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Información sobre Gemini Notebook",
+  "sitio": "",
+  "url": "https://support.google.com/gemininotebook/answer/16164461?hl=es",
+  "revisada": true
+ },
+ "F-H-46": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Empezar a usar la aplicación móvil Gemini Notebook",
+  "sitio": "",
+  "url": "https://support.google.com/gemininotebook/answer/16296687?hl=es",
+  "revisada": true
+ },
+ "F-H-47": {
+  "autor": "Gamma",
+  "autorCita": "Gamma",
+  "anio": "s. f.",
+  "titulo": "Planes y precios",
+  "sitio": "",
+  "url": "https://gamma.app/es/pricing",
+  "revisada": true
+ },
+ "F-H-49": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Planes Google AI",
+  "sitio": "Google One",
+  "url": "https://one.google.com/intl/es-419_cl/about/google-ai-plans/",
+  "revisada": true
+ },
+ "F-H-50": {
+  "autor": "OpenAI",
+  "autorCita": "OpenAI",
+  "anio": "2026, 24 de octubre",
+  "titulo": "Images in ChatGPT",
+  "sitio": "OpenAI Help Center",
+  "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+  "revisada": true
+ },
+ "F-H-52": {
+  "autor": "OpenAI",
+  "autorCita": "OpenAI",
+  "anio": "2026, 24 de octubre",
+  "titulo": "Provenance signals in OpenAI-generated content",
+  "sitio": "OpenAI Help Center",
+  "url": "https://help.openai.com/en/articles/8912793-provenance-signals-in-openai-generated-content",
+  "revisada": true
+ },
+ "F-H-53": {
+  "autor": "OpenAI",
+  "autorCita": "OpenAI",
+  "anio": "2026",
+  "titulo": "Qué debes saber sobre la interrupción de Sora",
+  "sitio": "OpenAI Help Center",
+  "url": "https://help.openai.com/es-es/articles/20001152-what-to-know-about-the-sora-discontinuation",
+  "revisada": true
+ },
+ "F-H-55": {
+  "autor": "OpenAI",
+  "autorCita": "OpenAI",
+  "anio": "2026, 23 de octubre",
+  "titulo": "Scheduled tasks in ChatGPT",
+  "sitio": "OpenAI Help Center",
+  "url": "https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt",
+  "revisada": true
+ },
+ "F-H-56": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Generar imágenes con las aplicaciones de Gemini",
+  "sitio": "",
+  "url": "https://support.google.com/gemini/answer/14286560?hl=es",
+  "revisada": true
+ },
+ "F-H-57": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Verificar imágenes, vídeos y audio generados por IA",
+  "sitio": "",
+  "url": "https://support.google.com/gemini/answer/16722517?hl=es",
+  "revisada": true
+ },
+ "F-H-61": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Acciones programadas en las aplicaciones de Gemini",
+  "sitio": "",
+  "url": "https://support.google.com/gemini/answer/16316416?hl=es&co=GENIE.Platform%3DAndroid",
+  "revisada": true
+ },
+ "F-H-63": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Gestionar tus créditos de Google Flow",
+  "sitio": "",
+  "url": "https://support.google.com/flow/answer/16526234?hl=es",
+  "revisada": true
+ },
+ "F-H-64": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Modelos y funciones compatibles de Google Flow",
+  "sitio": "",
+  "url": "https://support.google.com/flow/answer/16352836?hl=es",
+  "revisada": true
+ },
+ "F-H-65": {
+  "autor": "Microsoft",
+  "autorCita": "Microsoft",
+  "anio": "s. f.",
+  "titulo": "Preguntas frecuentes sobre Microsoft Designer",
+  "sitio": "Microsoft Support",
+  "url": "https://support.microsoft.com/en-us/designer/frequently-asked-questions-about-microsoft-designer",
+  "revisada": true
+ },
+ "F-H-67": {
+  "autor": "Canva",
+  "autorCita": "Canva",
+  "anio": "2026, 26 de junio",
+  "titulo": "AI product terms",
+  "sitio": "",
+  "url": "https://www.canva.com/policies/ai-product-terms/",
+  "revisada": true
+ },
+ "F-H-68": {
+  "autor": "Canva",
+  "autorCita": "Canva",
+  "anio": "s. f.",
+  "titulo": "Comprender el uso de la IA",
+  "sitio": "",
+  "url": "https://www.canva.com/es_es/help/ai-access/",
+  "revisada": true
+ },
+ "F-H-69": {
+  "autor": "Canva",
+  "autorCita": "Canva",
+  "anio": "s. f.",
+  "titulo": "Canva for Android",
+  "sitio": "",
+  "url": "https://www.canva.com/download/android/",
+  "revisada": true
+ },
+ "F-H-75": {
+  "autor": "ElevenLabs",
+  "autorCita": "ElevenLabs",
+  "anio": "s. f.",
+  "titulo": "Pricing",
+  "sitio": "",
+  "url": "https://elevenlabs.io/pricing",
+  "revisada": true
+ },
+ "F-H-76": {
+  "autor": "ElevenLabs",
+  "autorCita": "ElevenLabs",
+  "anio": "s. f.",
+  "titulo": "Can I publish the content I generate on the platform?",
+  "sitio": "",
+  "url": "https://elevenlabs.io/docs/help-center/legal/can-i-publish-the-content-i-generate-on-the-platform",
+  "revisada": true
+ },
+ "F-H-77": {
+  "autor": "ElevenLabs",
+  "autorCita": "ElevenLabs",
+  "anio": "2026, 9 de octubre",
+  "titulo": "Prohibited use policy",
+  "sitio": "",
+  "url": "https://elevenlabs.io/use-policy",
+  "revisada": true
+ },
+ "F-H-78": {
+  "autor": "ElevenLabs",
+  "autorCita": "ElevenLabs",
+  "anio": "s. f.",
+  "titulo": "What features are available in the ElevenLabs mobile app?",
+  "sitio": "",
+  "url": "https://elevenlabs.io/docs/help-center/product/mobile-apps/eleven-labs-for-ios-and-android/what-features-are-available-in-the-eleven-labs-mobile-app",
+  "revisada": true
+ },
+ "F-H-79": {
+  "autor": "Suno",
+  "autorCita": "Suno",
+  "anio": "s. f.",
+  "titulo": "Pricing",
+  "sitio": "",
+  "url": "https://suno.com/pricing",
+  "revisada": true
+ },
+ "F-H-82": {
+  "autor": "Udio",
+  "autorCita": "Udio",
+  "anio": "2026, 17 de febrero",
+  "titulo": "Changes associated with the Universal Music Group partnership",
+  "sitio": "",
+  "url": "https://help.udio.com/en/articles/12683565-changes-associated-with-the-universal-music-group-umg-partnership",
+  "revisada": true
+ },
+ "F-H-83": {
+  "autor": "CapCut",
+  "autorCita": "CapCut",
+  "anio": "2026, 15 de abril",
+  "titulo": "Terms of service",
+  "sitio": "",
+  "url": "https://www.capcut.com/clause/terms-of-service",
+  "revisada": true
+ },
+ "F-H-84": {
+  "autor": "CapCut",
+  "autorCita": "CapCut",
+  "anio": "2026, 22 de enero",
+  "titulo": "Materials license agreement",
+  "sitio": "",
+  "url": "https://www.capcut.com/clause/material-license-agreement",
+  "revisada": true
+ },
+ "F-H-85": {
+  "autor": "CapCut",
+  "autorCita": "CapCut",
+  "anio": "s. f.",
+  "titulo": "Text to speech",
+  "sitio": "",
+  "url": "https://www.capcut.com/tools/text-to-speech",
+  "revisada": true
+ },
+ "F-H-86": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Enunciar selección",
+  "sitio": "",
+  "url": "https://support.google.com/accessibility/android/answer/7349565?hl=es",
+  "revisada": true
+ },
+ "F-H-93": {
+  "autor": "Zapier",
+  "autorCita": "Zapier",
+  "anio": "2026, 23 de octubre",
+  "titulo": "Plans & pricing",
+  "sitio": "",
+  "url": "https://zapier.com/pricing",
+  "revisada": true
+ },
+ "F-H-94": {
+  "autor": "Make",
+  "autorCita": "Make",
+  "anio": "s. f.",
+  "titulo": "Pricing",
+  "sitio": "",
+  "url": "https://www.make.com/pricing",
+  "revisada": true
+ },
+ "F-M1-01": {
+  "autor": "National Institute of Standards and Technology",
+  "autorCita": "National Institute of Standards and Technology",
+  "anio": "2024",
+  "titulo": "Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)",
+  "sitio": "",
+  "url": "https://doi.org/10.6028/NIST.AI.600-1",
+  "revisada": true
+ },
+ "F-M1-02": {
+  "autor": "Miao, F. y Holmes, W.",
+  "autorCita": "Miao y Holmes",
+  "anio": "2024",
+  "titulo": "Guía para el uso de IA generativa en educación e investigación",
+  "sitio": "UNESCO",
+  "url": "https://unesdoc.unesco.org/ark:/48223/pf0000389227_spa",
+  "revisada": true
+ },
+ "F-M1-03": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "2026",
+  "titulo": "Introducción a los modelos de lenguaje grandes (Curso intensivo de aprendizaje automático)",
+  "sitio": "Google for Developers",
+  "url": "https://developers.google.com/machine-learning/crash-course/llm?hl=es-419",
+  "revisada": true
+ },
+ "F-M1-04": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "¿Qué es la IA multimodal?",
+  "sitio": "Google Cloud",
+  "url": "https://cloud.google.com/use-cases/multimodal-ai?hl=es",
+  "revisada": true
+ },
+ "F-M1-05": {
+  "autor": "OpenAI",
+  "autorCita": "OpenAI",
+  "anio": "s. f.",
+  "titulo": "Image generation",
+  "sitio": "OpenAI API Docs",
+  "url": "https://developers.openai.com/api/docs/guides/image-generation",
+  "revisada": true
+ },
+ "F-M1-06": {
+  "autor": "OpenAI",
+  "autorCita": "OpenAI",
+  "anio": "2026",
+  "titulo": "Entender y contar tokens",
+  "sitio": "OpenAI Help Center",
+  "url": "https://help.openai.com/es-es/articles/4936856-understanding-and-counting-tokens",
+  "revisada": true
+ },
+ "F-M1-07": {
+  "autor": "Anthropic",
+  "autorCita": "Anthropic",
+  "anio": "s. f.",
+  "titulo": "Context windows",
+  "sitio": "Claude Docs",
+  "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+  "revisada": true
+ },
+ "F-M1-08": {
+  "autor": "OpenAI",
+  "autorCita": "OpenAI",
+  "anio": "2026",
+  "titulo": "Memoria en ChatGPT",
+  "sitio": "OpenAI Help Center",
+  "url": "https://help.openai.com/es-es/articles/8590148-memory-in-chatgpt",
+  "revisada": true
+ },
+ "F-M1-09": {
+  "autor": "OpenAI",
+  "autorCita": "OpenAI",
+  "anio": "2026",
+  "titulo": "¿Dice ChatGPT la verdad?",
+  "sitio": "OpenAI Help Center",
+  "url": "https://help.openai.com/es-es/articles/8313428-does-chatgpt-tell-the-truth",
+  "revisada": true
+ },
+ "F-M1-10": {
+  "autor": "OpenAI",
+  "autorCita": "OpenAI",
+  "anio": "2025, 5 de septiembre",
+  "titulo": "Por qué alucinan los modelos de lenguaje",
+  "sitio": "",
+  "url": "https://openai.com/es-419/index/why-language-models-hallucinate/",
+  "revisada": true
+ },
+ "F-M1-11": {
+  "autor": "Noticias ONU",
+  "autorCita": "Noticias ONU",
+  "anio": "2024, 7 de marzo",
+  "titulo": "La inteligencia artificial ya reproduce estereotipos de género",
+  "sitio": "",
+  "url": "https://news.un.org/es/story/2024/03/1528182",
+  "revisada": true
+ },
+ "F-M1-12": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Cómo escribir instrucciones eficaces",
+  "sitio": "Google Workspace",
+  "url": "https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/",
+  "revisada": true
+ },
+ "F-M1-13": {
+  "autor": "Microsoft",
+  "autorCita": "Microsoft",
+  "anio": "2026",
+  "titulo": "Introducción a la escritura de indicaciones en Microsoft Copilot",
+  "sitio": "Microsoft Support",
+  "url": "https://support.microsoft.com/es-es/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot",
+  "revisada": true
+ },
+ "F-M1-14": {
+  "autor": "Anthropic",
+  "autorCita": "Anthropic",
+  "anio": "s. f.",
+  "titulo": "Mejores prácticas de prompting",
+  "sitio": "Claude Docs",
+  "url": "https://platform.claude.com/docs/es/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+  "revisada": true
+ },
+ "F-M1-15": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "2026, 13 de octubre",
+  "titulo": "Estrategias de diseño de instrucciones",
+  "sitio": "Google AI for Developers",
+  "url": "https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419",
+  "revisada": true
+ },
+ "F-M1-16": {
+  "autor": "OpenAI",
+  "autorCita": "OpenAI",
+  "anio": "s. f.",
+  "titulo": "API reference: Create chat completion",
+  "sitio": "OpenAI API Docs",
+  "url": "https://developers.openai.com/api/reference/resources/chat/subresources/completions/methods/create",
+  "revisada": true
+ },
+ "F-M1-18": {
+  "autor": "Anthropic",
+  "autorCita": "Anthropic",
+  "anio": "2026",
+  "titulo": "Migrating to API version 2026-10-21",
+  "sitio": "Claude Docs",
+  "url": "https://platform.claude.com/docs/en/api/migration-2026-10-21",
+  "revisada": true
+ },
+ "F-M1-19": {
+  "autor": "Caulfield, M.",
+  "autorCita": "Caulfield",
+  "anio": "2019, 19 de junio",
+  "titulo": "SIFT (The four moves)",
+  "sitio": "Hapgood",
+  "url": "https://hapgood.us/2019/06/19/sift-the-four-moves/",
+  "revisada": true
+ },
+ "F-M1-20": {
+  "autor": "Wineburg, S. y McGrew, S.",
+  "autorCita": "Wineburg y McGrew",
+  "anio": "2018",
+  "titulo": "Lateral reading and the nature of expertise: Reading less and learning more when evaluating digital information",
+  "sitio": "Stanford Digital Repository",
+  "url": "https://purl.stanford.edu/yk133ht8603",
+  "revisada": true
+ },
+ "F-M1C1-01": {
+  "autor": "Morgan Stanley Wealth Management",
+  "autorCita": "Morgan Stanley Wealth Management",
+  "anio": "2023, 14 de marzo",
+  "titulo": "Morgan Stanley Wealth Management announces key milestone in innovation journey with OpenAI",
+  "sitio": "Morgan Stanley",
+  "url": "https://www.morganstanley.com/press-releases/key-milestone-in-innovation-journey-with-openai",
+  "revisada": true
+ },
+ "F-M1C1-03": {
+  "autor": "OpenAI",
+  "autorCita": "OpenAI",
+  "anio": "2024, 4 de diciembre",
+  "titulo": "Morgan Stanley uses AI evals to shape the future of financial services",
+  "sitio": "",
+  "url": "https://openai.com/index/morgan-stanley/",
+  "revisada": true
+ },
+ "F-M1C2-01": {
+  "autor": "Mata v. Avianca, Inc.",
+  "autorCita": "Mata v. Avianca",
+  "anio": "2023, 22 de junio",
+  "titulo": "Opinion and order on sanctions (22-cv-1461 [PKC])",
+  "sitio": "Tribunal de Distrito de los Estados Unidos para el Distrito Sur de Nueva York",
+  "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.575368/gov.uscourts.nysd.575368.54.0.pdf",
+  "revisada": true
+ },
+ "F-M1C2-03": {
+  "autor": "Moffatt v. Air Canada",
+  "autorCita": "Moffatt v. Air Canada",
+  "anio": "2024, 14 de febrero",
+  "titulo": "Decisión 2024 BCCRT 149 (expediente SC-2023-005609)",
+  "sitio": "Civil Resolution Tribunal de Columbia Británica",
+  "url": "https://decisions.civilresolutionbc.ca/crt/crtd/en/item/525448/index.do",
+  "revisada": true
+ },
+ "F-M2-01": {
+  "autor": "Red de Lenguaje Claro Chile",
+  "autorCita": "Red de Lenguaje Claro Chile",
+  "anio": "s. f.",
+  "titulo": "Sitio institucional de la Red de Lenguaje Claro Chile",
+  "sitio": "",
+  "url": "https://www.lenguajeclarochile.cl/",
+  "revisada": true
+ },
+ "F-M2-02": {
+  "autor": "Senado de Chile",
+  "autorCita": "Senado de Chile",
+  "anio": "2025",
+  "titulo": "Guía de lenguaje claro para el ámbito legislativo",
+  "sitio": "",
+  "url": "https://cdn.senado.cl/portal-senado-produccion/s3fs-public/2025-09/guia-de-lenguaje-claro-para-el-ambito-legislativo.pdf",
+  "revisada": true
+ },
+ "F-M2-03": {
+  "autor": "Rodríguez-Rodríguez, M. N. y García-Sánchez, S.",
+  "autorCita": "Rodríguez-Rodríguez y García-Sánchez",
+  "anio": "s. f.",
+  "titulo": "Redacción del correo electrónico en español e inglés: breves recomendaciones",
+  "sitio": "Universidad de Las Palmas de Gran Canaria",
+  "url": "https://iatext.ulpgc.es/sites/default/files/recomendaciones_correo_electronico_0.pdf",
+  "revisada": true
+ },
+ "F-M2-04": {
+  "autor": "Purdue University",
+  "autorCita": "Purdue University",
+  "anio": "s. f.",
+  "titulo": "Audience (Business writing for administrative and clerical staff)",
+  "sitio": "Purdue OWL",
+  "url": "https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/business_writing_for_administrative_and_clerical_staff/audience.html",
+  "revisada": true
+ },
+ "F-M2-05": {
+  "autor": "Carnegie Mellon University",
+  "autorCita": "Carnegie Mellon University",
+  "anio": "s. f.",
+  "titulo": "Executive summaries",
+  "sitio": "Student Academic Success Center",
+  "url": "https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/executive-summaries.pdf",
+  "revisada": true
+ },
+ "F-M2-06": {
+  "autor": "Secretaría de Cultura, Recreación y Deporte",
+  "autorCita": "Secretaría de Cultura, Recreación y Deporte",
+  "anio": "2018",
+  "titulo": "Instructivo para el manejo de reuniones efectivas (IT-02-CP-EST-COM, versión 02)",
+  "sitio": "",
+  "url": "https://mail.culturarecreacionydeporte.gov.co/sites/default/files/2023-04/instructivo_para_el_manejo_de_la_reuniones_efectivas_v2.pdf",
+  "revisada": true
+ },
+ "F-M2-07": {
+  "autor": "National Institute of Standards and Technology",
+  "autorCita": "National Institute of Standards and Technology",
+  "anio": "2024",
+  "titulo": "Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)",
+  "sitio": "",
+  "url": "https://doi.org/10.6028/NIST.AI.600-1",
+  "revisada": true
+ },
+ "F-M2-08": {
+  "autor": "Microsoft",
+  "autorCita": "Microsoft",
+  "anio": "2026",
+  "titulo": "Introducción a la escritura de indicaciones en Microsoft Copilot",
+  "sitio": "Microsoft Support",
+  "url": "https://support.microsoft.com/es-es/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5",
+  "revisada": true
+ },
+ "F-M2-09": {
+  "autor": "OpenAI",
+  "autorCita": "OpenAI",
+  "anio": "s. f.",
+  "titulo": "Prompt engineering",
+  "sitio": "OpenAI API Docs",
+  "url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+  "revisada": true
+ },
+ "F-M2-10": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "2026, 13 de octubre",
+  "titulo": "Prompt design strategies",
+  "sitio": "Google AI for Developers",
+  "url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
+  "revisada": true
+ },
+ "F-M2-11": {
+  "autor": "Anthropic",
+  "autorCita": "Anthropic",
+  "anio": "s. f.",
+  "titulo": "Prompting best practices",
+  "sitio": "Claude Docs",
+  "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+  "revisada": true
+ },
+ "F-M2-12": {
+  "autor": "Microsoft",
+  "autorCita": "Microsoft",
+  "anio": "2026, 13 de mayo",
+  "titulo": "Técnicas de ingeniería de indicaciones",
+  "sitio": "Microsoft Learn",
+  "url": "https://learn.microsoft.com/es-es/azure/ai-foundry/openai/concepts/prompt-engineering",
+  "revisada": true
+ },
+ "F-M2-13": {
+  "autor": "Hirst, C. y Jepeal, S.",
+  "autorCita": "Hirst y Jepeal",
+  "anio": "s. f.",
+  "titulo": "Slide design (CommKit)",
+  "sitio": "MIT Nuclear Science and Engineering Communication Lab",
+  "url": "https://mitcommlab.mit.edu/nse/commkit/slide-design",
+  "revisada": true
+ },
+ "F-M2-14": {
+  "autor": "Microsoft",
+  "autorCita": "Microsoft",
+  "anio": "s. f.",
+  "titulo": "Sugerencias para crear y ofrecer una presentación eficaz",
+  "sitio": "Microsoft Support",
+  "url": "https://support.microsoft.com/es-es/office/sugerencias-para-crear-y-presentar-una-presentación-eficaz-f43156b0-20d2-4c51-8345-0c337cefb88b",
+  "revisada": true
+ },
+ "F-M2-15": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "BUSCARV",
+  "sitio": "Ayuda de Editores de Documentos",
+  "url": "https://support.google.com/docs/answer/3093318?hl=es",
+  "revisada": true
+ },
+ "F-M2-16": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "SUMAR.SI",
+  "sitio": "Ayuda de Editores de Documentos",
+  "url": "https://support.google.com/docs/answer/3093583?hl=es",
+  "revisada": true
+ },
+ "F-M2-17": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Ordenar y filtrar tus datos",
+  "sitio": "Ayuda de Editores de Documentos",
+  "url": "https://support.google.com/docs/answer/3540681?hl=es",
+  "revisada": true
+ },
+ "F-M2-18": {
+  "autor": "Microsoft",
+  "autorCita": "Microsoft",
+  "anio": "s. f.",
+  "titulo": "Cambiar entre referencias relativas, absolutas y mixtas",
+  "sitio": "Microsoft Support",
+  "url": "https://support.microsoft.com/es-es/office/cambiar-entre-referencias-relativas-absolutas-y-mixtas-dfec08cd-ae65-4f56-839e-5f0d8d0baca9",
+  "revisada": true
+ },
+ "F-M2-19": {
+  "autor": "Microsoft",
+  "autorCita": "Microsoft",
+  "anio": "s. f.",
+  "titulo": "Detectar errores en las fórmulas",
+  "sitio": "Microsoft Support",
+  "url": "https://support.microsoft.com/es-es/office/detectar-errores-en-las-fórmulas-3a8acca5-1d61-4702-80e0-99a36a2822c1",
+  "revisada": true
+ },
+ "F-M2-20": {
+  "autor": "Panko, R. R.",
+  "autorCita": "Panko",
+  "anio": "2000",
+  "titulo": "Spreadsheet errors: What we know. What we think we can do",
+  "sitio": "arXiv",
+  "url": "https://arxiv.org/abs/0802.3457",
+  "revisada": true
+ },
+ "F-M2C1-01": {
+  "autor": "Kraken",
+  "autorCita": "Kraken",
+  "anio": "2024, 6 de agosto",
+  "titulo": "AI adoption case study: Kraken's generative AI tool for customer service helping Octopus Energy",
+  "sitio": "techUK",
+  "url": "https://www.techuk.org/resource/case-study-kraken-tech-s-generative-ai-tool-for-customer-service.html",
+  "revisada": true
+ },
+ "F-M2C1-03": {
+  "autor": "Octopus Energy",
+  "autorCita": "Octopus Energy",
+  "anio": "2026, 7 de julio",
+  "titulo": "Octopus Energy's AI trial wins customer approval",
+  "sitio": "",
+  "url": "https://octopus.energy/press/more-news-press-releases/octopus-energy-s-ai-trial-wins-customer-approval/",
+  "revisada": true
+ },
+ "F-M2C2-02": {
+  "autor": "Microsoft",
+  "autorCita": "Microsoft",
+  "anio": "2024, 16 de septiembre",
+  "titulo": "Vodafone to roll out Microsoft 365 Copilot to 68,000 employees to boost productivity, innovation, and quality",
+  "sitio": "Microsoft Source EMEA",
+  "url": "https://news.microsoft.com/source/emea/features/vodafone-to-roll-out-microsoft-365-copilot-to-68000-employees-to-boost-productivity-innovation-and-quality/",
+  "revisada": true
+ },
+ "F-M2C2-05": {
+  "autor": "Microsoft",
+  "autorCita": "Microsoft",
+  "anio": "s. f.",
+  "titulo": "Preguntas más frecuentes sobre Copilot en PowerPoint",
+  "sitio": "Microsoft Support",
+  "url": "https://support.microsoft.com/es-es/office/preguntas-m%C3%A1s-frecuentes-sobre-copilot-en-powerpoint-3e229188-9086-4f4c-9f9f-824cd25ae84f",
+  "revisada": true
+ },
+ "F-M2C2-06": {
+  "autor": "Microsoft",
+  "autorCita": "Microsoft",
+  "anio": "s. f.",
+  "titulo": "Preguntas más frecuentes sobre Copilot en Excel",
+  "sitio": "Microsoft Support",
+  "url": "https://support.microsoft.com/es-es/excel/copilot/frequently-asked-questions-about-copilot-in-excel",
+  "revisada": true
+ },
+ "F-M3-01": {
+  "autor": "Perplexity",
+  "autorCita": "Perplexity",
+  "anio": "s. f.",
+  "titulo": "How does Perplexity work?",
+  "sitio": "",
+  "url": "https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work",
+  "revisada": true
+ },
+ "F-M3-02": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Más información sobre Gemini Notebook",
+  "sitio": "Ayuda de NotebookLM",
+  "url": "https://support.google.com/notebooklm/answer/16164461?hl=es-419",
+  "revisada": true
+ },
+ "F-M3-03": {
+  "autor": "Bibliotecas Duoc UC",
+  "autorCita": "Bibliotecas Duoc UC",
+  "anio": "2023, 21 de julio",
+  "titulo": "¿Cómo formular una necesidad de información?",
+  "sitio": "",
+  "url": "https://bibliotecas.duoc.cl/busqueda-de-informacion/formular-necesidad-de-informacion",
+  "revisada": true
+ },
+ "F-M3-04": {
+  "autor": "Caulfield, M.",
+  "autorCita": "Caulfield",
+  "anio": "2019, 19 de junio",
+  "titulo": "SIFT (The four moves)",
+  "sitio": "Hapgood",
+  "url": "https://hapgood.us/2019/06/19/sift-the-four-moves/",
+  "revisada": true
+ },
+ "F-M3-05": {
+  "autor": "Spector, C.",
+  "autorCita": "Spector",
+  "anio": "2017, 24 de octubre",
+  "titulo": "Stanford scholars observe 'experts' to see how they evaluate the credibility of information online",
+  "sitio": "Stanford Graduate School of Education",
+  "url": "https://ed.stanford.edu/news/stanford-scholars-observe-experts-see-how-they-evaluate-credibility-information-online",
+  "revisada": true
+ },
+ "F-M3-06": {
+  "autor": "Meriam Library",
+  "autorCita": "Meriam Library",
+  "anio": "2010",
+  "titulo": "Evaluating information: Applying the CRAAP test",
+  "sitio": "California State University, Chico",
+  "url": "https://library.csuchico.edu/sites/default/files/craap-test.pdf",
+  "revisada": true
+ },
+ "F-M3-07": {
+  "autor": "Okuda Benavides, M. y Gómez-Restrepo, C.",
+  "autorCita": "Okuda Benavides y Gómez-Restrepo",
+  "anio": "2005",
+  "titulo": "Métodos en investigación cualitativa: triangulación",
+  "sitio": "Revista Colombiana de Psiquiatría, 34(1), 118-124",
+  "url": "https://www.redalyc.org/pdf/806/80628403009.pdf",
+  "revisada": true
+ },
+ "F-M3-08": {
+  "autor": "LibreTexts Español",
+  "autorCita": "LibreTexts Español",
+  "anio": "2022, 30 de octubre",
+  "titulo": "Sintetizar fuentes (Introducción a la composición universitaria, 17.5)",
+  "sitio": "",
+  "url": "https://espanol.libretexts.org/Bookshelves/Humanidades/Humanidades/Composicion/Composicion_Introductoria/Libro%3A_Introduccion_a_la_composicion_universitaria_(Lumen)/03%3A_Investigaci%C3%B3n/17%3A_An%C3%A1lisis_de_fuente/17.5%3A_Sintetizar_fuentes",
+  "revisada": true
+ },
+ "F-M3-09": {
+  "autor": "International Development Research Centre",
+  "autorCita": "International Development Research Centre",
+  "anio": "s. f.",
+  "titulo": "How to write a policy brief",
+  "sitio": "",
+  "url": "https://idrc-crdi.ca/en/funding/resources-idrc-grantees/how-write-policy-brief",
+  "revisada": true
+ },
+ "F-M3-10": {
+  "autor": "datos.gob.es",
+  "autorCita": "datos.gob.es",
+  "anio": "2023, 5 de enero",
+  "titulo": "Cómo elegir el gráfico correcto para visualizar datos abiertos",
+  "sitio": "Gobierno de España",
+  "url": "https://datos.gob.es/es/blog/como-elegir-el-grafico-correcto-para-visualizar-datos-abiertos",
+  "revisada": true
+ },
+ "F-M3-11": {
+  "autor": "Bibliotecas UC",
+  "autorCita": "Bibliotecas UC",
+  "anio": "2026, 20 de octubre",
+  "titulo": "Guía de normas APA 7",
+  "sitio": "Pontificia Universidad Católica de Chile",
+  "url": "https://guiastematicas.bibliotecas.uc.cl/c.php?g=992585&p=7181600",
+  "revisada": true
+ },
+ "F-M3-12": {
+  "autor": "Bibliotecas UC",
+  "autorCita": "Bibliotecas UC",
+  "anio": "2026, 13 de agosto",
+  "titulo": "IA: citar y referenciar",
+  "sitio": "Pontificia Universidad Católica de Chile",
+  "url": "https://guiastematicas.bibliotecas.uc.cl/ia/citar",
+  "revisada": true
+ },
+ "F-M3-13": {
+  "autor": "National Institute of Standards and Technology",
+  "autorCita": "National Institute of Standards and Technology",
+  "anio": "2024",
+  "titulo": "Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)",
+  "sitio": "",
+  "url": "https://doi.org/10.6028/NIST.AI.600-1",
+  "revisada": true
+ },
+ "F-M3-14": {
+  "autor": "Ley 19.628",
+  "autorCita": "Ley 19.628",
+  "anio": "1999, 28 de agosto",
+  "titulo": "Sobre protección de la vida privada",
+  "sitio": "Biblioteca del Congreso Nacional de Chile",
+  "url": "https://www.bcn.cl/leychile/navegar?idNorma=141599",
+  "revisada": true
+ },
+ "F-M3-15": {
+  "autor": "Ley 21.719",
+  "autorCita": "Ley 21.719",
+  "anio": "2024, 13 de diciembre",
+  "titulo": "Regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales",
+  "sitio": "Biblioteca del Congreso Nacional de Chile",
+  "url": "https://www.bcn.cl/leychile/navegar?idNorma=1209272",
+  "revisada": true
+ },
+ "F-M3-16": {
+  "autor": "Senado de Chile",
+  "autorCita": "Senado de Chile",
+  "anio": "2026",
+  "titulo": "Proyecto que modifica la Ley 21.719 (Boletín 18623-07)",
+  "sitio": "",
+  "url": "https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=18623",
+  "revisada": true
+ },
+ "F-M3-17": {
+  "autor": "Oficio Circular 711",
+  "autorCita": "Oficio Circular 711",
+  "anio": "2023",
+  "titulo": "Lineamientos para el uso de herramientas de inteligencia artificial en el sector público",
+  "sitio": "Ministerio de Ciencia, Tecnología, Conocimiento e Innovación",
+  "url": "https://minciencia.gob.cl/uploads/filer_public/ae/9a/ae9a7ce7-807b-4781-9ac3-9b253bfbe735/of_n711_2023_dis_lin_ia_minciencia.pdf",
+  "revisada": true
+ },
+ "F-M3-18": {
+  "autor": "Senado de Chile",
+  "autorCita": "Senado de Chile",
+  "anio": "2026",
+  "titulo": "Proyecto que regula los sistemas de inteligencia artificial (Boletín 16821-19)",
+  "sitio": "",
+  "url": "https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=16821",
+  "revisada": true
+ },
+ "F-M3-19": {
+  "autor": "Instituto Nacional de Ciberseguridad",
+  "autorCita": "Instituto Nacional de Ciberseguridad",
+  "anio": "2018, 7 de diciembre",
+  "titulo": "Para proteger la información de tu empresa, primero clasifícala",
+  "sitio": "INCIBE",
+  "url": "https://www.incibe.es/empresas/blog/proteger-informacion-tu-empresa-primero-clasificala",
+  "revisada": true
+ },
+ "F-M3-20": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "2026, 23 de octubre",
+  "titulo": "Centro de privacidad de Apps con Gemini",
+  "sitio": "",
+  "url": "https://support.google.com/gemini/answer/13594961?hl=es-419",
+  "revisada": true
+ },
+ "F-M3C1-05": {
+  "autor": "Senado de Australia",
+  "autorCita": "Senado de Australia",
+  "anio": "2025, 9 de octubre",
+  "titulo": "Estimates: Education and Employment Legislation Committee (Hansard oficial)",
+  "sitio": "Parlamento de Australia",
+  "url": "https://parlinfo.aph.gov.au/parlInfo/download/committees/estimate/28997/toc_pdf/Education%20and%20Employment%20Legislation%20Committee_2025_10_09_Official.pdf;fileType=application%2Fpdf",
+  "revisada": true
+ },
+ "F-M3C1-06": {
+  "autor": "Associated Press",
+  "autorCita": "Associated Press",
+  "anio": "2025, 7 de octubre",
+  "titulo": "Deloitte to partially refund Australian government for report with apparent AI-generated errors",
+  "sitio": "News4JAX",
+  "url": "https://www.news4jax.com/business/2025/10/07/deloitte-to-partially-refund-australian-government-for-report-with-apparent-ai-generated-errors/",
+  "revisada": true
+ },
+ "F-M3C2-01": {
+  "autor": "Gemeente Eindhoven",
+  "autorCita": "Gemeente Eindhoven",
+  "anio": "2025, 18 de diciembre",
+  "titulo": "Datalek gemeente Eindhoven door gebruik openbare AI-diensten (Raadsbrief 8096090_3.4.1)",
+  "sitio": "",
+  "url": "https://raadsinformatie.eindhoven.nl/document/16415812/1?connection_type=17&connection_id=12780262",
+  "revisada": true
+ },
+ "F-M3C2-02": {
+  "autor": "Hooghiemstra & Partners",
+  "autorCita": "Hooghiemstra & Partners",
+  "anio": "2025",
+  "titulo": "Advies over onderzoeksbevindingen gebruik van generatieve AI binnen de gemeente Eindhoven",
+  "sitio": "Gemeente Eindhoven",
+  "url": "https://raadsinformatie.eindhoven.nl/document/16415814/1?connection_type=16&connection_id=1118032",
+  "revisada": true
+ },
+ "F-M4-01": {
+  "autor": "Creative Commons",
+  "autorCita": "Creative Commons",
+  "anio": "s. f.",
+  "titulo": "About CC licenses",
+  "sitio": "",
+  "url": "https://creativecommons.org/share-your-work/cclicenses/",
+  "revisada": true
+ },
+ "F-M4-02": {
+  "autor": "Creative Commons",
+  "autorCita": "Creative Commons",
+  "anio": "s. f.",
+  "titulo": "Atribución-NoComercial-CompartirIgual 4.0 Internacional",
+  "sitio": "",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es",
+  "revisada": true
+ },
+ "F-M4-03": {
+  "autor": "Creative Commons",
+  "autorCita": "Creative Commons",
+  "anio": "2024, 4 de diciembre",
+  "titulo": "Recommended practices for attribution",
+  "sitio": "Creative Commons Wiki",
+  "url": "https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution",
+  "revisada": true
+ },
+ "F-M4-04": {
+  "autor": "Ley 17.336",
+  "autorCita": "Ley 17.336",
+  "anio": "1970, 2 de octubre",
+  "titulo": "Sobre propiedad intelectual",
+  "sitio": "Biblioteca del Congreso Nacional de Chile",
+  "url": "https://www.bcn.cl/leychile/navegar?idNorma=28933",
+  "revisada": true
+ },
+ "F-M4-05": {
+  "autor": "U.S. Copyright Office",
+  "autorCita": "U.S. Copyright Office",
+  "anio": "2025",
+  "titulo": "Copyright and artificial intelligence, part 2: Copyrightability",
+  "sitio": "",
+  "url": "https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf",
+  "revisada": true
+ },
+ "F-M4-06": {
+  "autor": "OMPI",
+  "autorCita": "OMPI",
+  "anio": "2024",
+  "titulo": "IA generativa: cómo abordar la propiedad intelectual (RN2024-8ES)",
+  "sitio": "",
+  "url": "https://doi.org/10.34667/tind.49471",
+  "revisada": true
+ },
+ "F-M4-07": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "2026, 30 de julio",
+  "titulo": "Condiciones del servicio de Google",
+  "sitio": "",
+  "url": "https://policies.google.com/terms?hl=es-419",
+  "revisada": true
+ },
+ "F-M4-08": {
+  "autor": "W3C",
+  "autorCita": "W3C",
+  "anio": "2024, 12 de diciembre",
+  "titulo": "Web Content Accessibility Guidelines (WCAG) 2.2",
+  "sitio": "",
+  "url": "https://www.w3.org/TR/WCAG22/",
+  "revisada": true
+ },
+ "F-M4-09": {
+  "autor": "Gordon, K.",
+  "autorCita": "Gordon",
+  "anio": "2021, 17 de enero",
+  "titulo": "Visual hierarchy in UX: Definition",
+  "sitio": "Nielsen Norman Group",
+  "url": "https://www.nngroup.com/articles/visual-hierarchy-ux-definition/",
+  "revisada": true
+ },
+ "F-M4-10": {
+  "autor": "Gobierno de Chile",
+  "autorCita": "Gobierno de Chile",
+  "anio": "2024",
+  "titulo": "Guía ilustrada: comunicación sin estereotipos de género",
+  "sitio": "Kit Digital",
+  "url": "https://kitdigital.gob.cl/archivos/insumos/2025/Nueva%20Guia%20Ilustrada%20Comunicacion%202024.pdf",
+  "revisada": true
+ },
+ "F-M4-11": {
+  "autor": "Luccioni, A. S., Akiki, C., Mitchell, M. y Jernite, Y.",
+  "autorCita": "Luccioni et al.",
+  "anio": "2023",
+  "titulo": "Stable bias: Analyzing societal representations in diffusion models",
+  "sitio": "arXiv",
+  "url": "https://arxiv.org/abs/2303.11408",
+  "revisada": true
+ },
+ "F-M4-12": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "2026, 23 de octubre",
+  "titulo": "Guía de atributos de imágenes y mensajes (Vertex AI)",
+  "sitio": "Google Cloud",
+  "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/image/img-gen-prompt-guide?hl=es-419",
+  "revisada": true
+ },
+ "F-M4-14": {
+  "autor": "National Institute of Standards and Technology",
+  "autorCita": "National Institute of Standards and Technology",
+  "anio": "2024",
+  "titulo": "Reducing risks posed by synthetic content (NIST AI 100-4)",
+  "sitio": "",
+  "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf",
+  "revisada": true
+ },
+ "F-M4-15": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Divulgación de contenido alterado o sintético",
+  "sitio": "Ayuda de YouTube",
+  "url": "https://support.google.com/youtube/answer/14328491?hl=es-419",
+  "revisada": true
+ },
+ "F-M4-16": {
+  "autor": "Ley 21.719",
+  "autorCita": "Ley 21.719",
+  "anio": "2024, 13 de diciembre",
+  "titulo": "Regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales",
+  "sitio": "Biblioteca del Congreso Nacional de Chile",
+  "url": "https://www.bcn.cl/leychile/navegar?idNorma=1209272",
+  "revisada": true
+ },
+ "F-M4-17": {
+  "autor": "Constitución Política de la República de Chile",
+  "autorCita": "Constitución Política de la República de Chile",
+  "anio": "1980",
+  "titulo": "Texto refundido (art. 19 n.º 4)",
+  "sitio": "Biblioteca del Congreso Nacional de Chile",
+  "url": "https://www.bcn.cl/leychile/navegar?idNorma=242302",
+  "revisada": true
+ },
+ "F-M4-19": {
+  "autor": "U.S. Copyright Office",
+  "autorCita": "U.S. Copyright Office",
+  "anio": "2024",
+  "titulo": "Copyright and artificial intelligence, part 1: Digital replicas",
+  "sitio": "",
+  "url": "https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-1-Digital-Replicas-Report.pdf",
+  "revisada": true
+ },
+ "F-M4-20": {
+  "autor": "Universidad Simón Bolívar",
+  "autorCita": "Universidad Simón Bolívar",
+  "anio": "s. f.",
+  "titulo": "Guía para la creación de videos educativos",
+  "sitio": "Departamento de Pedagogía",
+  "url": "https://unisimon.edu.co/showimagen/v/Comunicaciones/20200925103940_0.pdf",
+  "revisada": true
+ },
+ "F-M4-21": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Configuración de codificación recomendada para subir videos",
+  "sitio": "Ayuda de YouTube",
+  "url": "https://support.google.com/youtube/answer/1722171?hl=es-419",
+  "revisada": true
+ },
+ "F-M4C1-03": {
+  "autor": "D&AD",
+  "autorCita": "D&AD",
+  "anio": "2023, 9 de octubre",
+  "titulo": "How to stop worrying and learn to love AI, according to the team behind Coca-Cola's 'Masterpiece'",
+  "sitio": "",
+  "url": "https://www.dandad.org/work/annual-2023/behind-the-work/how-to-stop-worrying-and-learn-to-love-ai-according-to-the-team-behind-coca-colas-masterpiece",
+  "revisada": true
+ },
+ "F-M4C1-05": {
+  "autor": "The Coca-Cola Company",
+  "autorCita": "The Coca-Cola Company",
+  "anio": "2024, 10 de diciembre",
+  "titulo": "Groundbreaking digital experience and films fuse holiday heritage with cutting-edge tech",
+  "sitio": "",
+  "url": "https://www.coca-colacompany.com/media-center/groundbreaking-digital-experience-and-films-fuse-holiday-heritage-with-cutting-edge-tech",
+  "revisada": true
+ },
+ "F-M4C1-06": {
+  "autor": "NBC News",
+  "autorCita": "NBC News",
+  "anio": "2024, 18 de noviembre",
+  "titulo": "Coca-Cola causes controversy with AI-made ad",
+  "sitio": "",
+  "url": "https://www.nbcnews.com/tech/innovation/coca-cola-causes-controversy-ai-made-ad-rcna180665",
+  "revisada": true
+ },
+ "F-M4C2-01": {
+  "autor": "OpenAI",
+  "autorCita": "OpenAI",
+  "anio": "2024, 19 de mayo",
+  "titulo": "How the voices for ChatGPT were chosen",
+  "sitio": "",
+  "url": "https://openai.com/index/how-the-voices-for-chatgpt-were-chosen/",
+  "revisada": true
+ },
+ "F-M4C2-02": {
+  "autor": "TechCrunch",
+  "autorCita": "TechCrunch",
+  "anio": "2024, 20 de mayo",
+  "titulo": "Scarlett Johansson says that OpenAI approached her to use her voice",
+  "sitio": "",
+  "url": "https://techcrunch.com/2024/05/20/scarlett-johansson-says-that-openai-approached-her-to-use-her-voice/",
+  "revisada": true
+ },
+ "F-M4C3-02": {
+  "autor": "Getty Images (US) Inc & Ors v Stability AI Ltd",
+  "autorCita": "Getty Images v Stability AI",
+  "anio": "2025, 4 de noviembre",
+  "titulo": "Sentencia [2025] EWHC 2863 (Ch) (caso IL-2023-000007)",
+  "sitio": "High Court of Justice (Inglaterra y Gales)",
+  "url": "https://www.judiciary.uk/judgments/getty-images-v-stability-ai/",
+  "revisada": true
+ },
+ "F-M4C3-03": {
+  "autor": "Getty Images (US) Inc & Ors v Stability AI Ltd",
+  "autorCita": "Getty Images v Stability AI",
+  "anio": "2025, 16 de diciembre",
+  "titulo": "Resolución sobre asuntos consecuenciales [2025] EWHC 3343 (Ch)",
+  "sitio": "High Court of Justice (Inglaterra y Gales)",
+  "url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/3343",
+  "revisada": true
+ },
+ "F-M5-01": {
+  "autor": "Gmyrek, P., Berg, J. y Bescond, D.",
+  "autorCita": "Gmyrek et al.",
+  "anio": "2023",
+  "titulo": "Generative AI and jobs: A global analysis of potential effects on job quantity and quality (ILO Working Paper 96)",
+  "sitio": "OIT",
+  "url": "https://doi.org/10.54394/FHEM8239",
+  "revisada": true
+ },
+ "F-M5-02": {
+  "autor": "OIT y NASK",
+  "autorCita": "OIT y NASK",
+  "anio": "2025",
+  "titulo": "Generative AI and jobs: A refined global index of occupational exposure (ILO Working Paper 140)",
+  "sitio": "",
+  "url": "https://doi.org/10.54394/HETP0387",
+  "revisada": true
+ },
+ "F-M5-03": {
+  "autor": "Lane, M.",
+  "autorCita": "Lane",
+  "anio": "2024",
+  "titulo": "Who will be the workers most affected by AI? A closer look at the impact of AI on women, low-skilled workers and other groups (OECD Artificial Intelligence Papers n.º 26)",
+  "sitio": "OCDE",
+  "url": "https://doi.org/10.1787/14dc6f89-en",
+  "revisada": true
+ },
+ "F-M5-04": {
+  "autor": "Autor, D. H., Levy, F. y Murnane, R. J.",
+  "autorCita": "Autor et al.",
+  "anio": "2001",
+  "titulo": "The skill content of recent technological change: An empirical exploration (NBER Working Paper 8337)",
+  "sitio": "NBER",
+  "url": "https://www.nber.org/papers/w8337",
+  "revisada": true
+ },
+ "F-M5-05": {
+  "autor": "NHS Lothian",
+  "autorCita": "NHS Lothian",
+  "anio": "s. f.",
+  "titulo": "Prioritisation matrix",
+  "sitio": "Lothian Quality",
+  "url": "https://qilothian.scot.nhs.uk/pc-resources-prioritisation-matrix",
+  "revisada": true
+ },
+ "F-M5-06": {
+  "autor": "University of Bath",
+  "autorCita": "University of Bath",
+  "anio": "s. f.",
+  "titulo": "Automation standards for Microsoft Power Automate",
+  "sitio": "",
+  "url": "https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate",
+  "revisada": true
+ },
+ "F-M5-07": {
+  "autor": "Microsoft",
+  "autorCita": "Microsoft",
+  "anio": "2026, 18 de septiembre",
+  "titulo": "Triggers (Power Automate)",
+  "sitio": "Microsoft Learn",
+  "url": "https://learn.microsoft.com/es-es/power-automate/triggers-introduction",
+  "revisada": true
+ },
+ "F-M5-08": {
+  "autor": "Microsoft",
+  "autorCita": "Microsoft",
+  "anio": "2022, 16 de mayo",
+  "titulo": "Agregar una condición a un flujo de nube en Power Automate",
+  "sitio": "Microsoft Learn",
+  "url": "https://learn.microsoft.com/es-es/power-automate/add-condition",
+  "revisada": true
+ },
+ "F-M5-09": {
+  "autor": "Zapier",
+  "autorCita": "Zapier",
+  "anio": "2026, 13 de agosto",
+  "titulo": "Learn key concepts in Zap workflows",
+  "sitio": "Zapier Help Center",
+  "url": "https://help.zapier.com/hc/en-us/articles/8496181725453-Learn-key-concepts-in-Zapier",
+  "revisada": true
+ },
+ "F-M5-10": {
+  "autor": "Zapier",
+  "autorCita": "Zapier",
+  "anio": "2026, 18 de junio",
+  "titulo": "Send data between steps by mapping fields",
+  "sitio": "Zapier Help Center",
+  "url": "https://help.zapier.com/hc/en-us/articles/8496343026701",
+  "revisada": true
+ },
+ "F-M5-11": {
+  "autor": "Zapier",
+  "autorCita": "Zapier",
+  "anio": "2026, 15 de octubre",
+  "titulo": "How to troubleshoot errors in Zap workflows",
+  "sitio": "Zapier Help Center",
+  "url": "https://help.zapier.com/hc/en-us/articles/8496037690637",
+  "revisada": true
+ },
+ "F-M5-12": {
+  "autor": "Grupo independiente de expertos de alto nivel sobre inteligencia artificial",
+  "autorCita": "Grupo independiente de expertos de alto nivel sobre inteligencia artificial",
+  "anio": "2019",
+  "titulo": "Directrices éticas para una IA fiable",
+  "sitio": "Comisión Europea",
+  "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60423",
+  "revisada": true
+ },
+ "F-M5-13": {
+  "autor": "National Institute of Standards and Technology",
+  "autorCita": "National Institute of Standards and Technology",
+  "anio": "2023",
+  "titulo": "Artificial intelligence risk management framework (AI RMF 1.0) (NIST AI 100-1)",
+  "sitio": "",
+  "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+  "revisada": true
+ },
+ "F-M5-14": {
+  "autor": "National Institute of Standards and Technology",
+  "autorCita": "National Institute of Standards and Technology",
+  "anio": "2024",
+  "titulo": "Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)",
+  "sitio": "",
+  "url": "https://doi.org/10.6028/NIST.AI.600-1",
+  "revisada": true
+ },
+ "F-M5-15": {
+  "autor": "OCDE",
+  "autorCita": "OCDE",
+  "anio": "2024",
+  "titulo": "Principios de la OCDE sobre IA",
+  "sitio": "OECD.AI",
+  "url": "https://oecd.ai/en/ai-principles",
+  "revisada": true
+ },
+ "F-M5-16": {
+  "autor": "Ley 21.719",
+  "autorCita": "Ley 21.719",
+  "anio": "2024, 13 de diciembre",
+  "titulo": "Regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales",
+  "sitio": "Biblioteca del Congreso Nacional de Chile",
+  "url": "https://www.bcn.cl/leychile/navegar?idLey=21719",
+  "revisada": true
+ },
+ "F-M5C1-01": {
+  "autor": "Klarna",
+  "autorCita": "Klarna",
+  "anio": "2024, 27 de febrero",
+  "titulo": "Klarna AI assistant handles two-thirds of customer service chats in its first month",
+  "sitio": "",
+  "url": "https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/",
+  "revisada": true
+ },
+ "F-M5C1-05": {
+  "autor": "Klarna Group plc",
+  "autorCita": "Klarna Group plc",
+  "anio": "2025",
+  "titulo": "Prospecto definitivo (formulario 424B4)",
+  "sitio": "U.S. Securities and Exchange Commission",
+  "url": "https://www.sec.gov/Archives/edgar/data/2003292/000200329225000052/klarnagroupplc424b4.htm",
+  "revisada": true
+ },
+ "F-M5C2-01": {
+  "autor": "Duolingo",
+  "autorCita": "Duolingo",
+  "anio": "2025, 28 de abril",
+  "titulo": "Below is an all-hands email from our CEO",
+  "sitio": "LinkedIn",
+  "url": "https://www.linkedin.com/posts/duolingo_below-is-an-all-hands-email-from-our-activity-7322560534824865792-l9vh",
+  "revisada": true
+ },
+ "F-M5C2-03": {
+  "autor": "von Ahn, L.",
+  "autorCita": "von Ahn",
+  "anio": "2025, 22 de mayo",
+  "titulo": "Publicación sobre el memo de IA de Duolingo",
+  "sitio": "LinkedIn",
+  "url": "https://www.linkedin.com/feed/update/urn:li:activity:7331386411670982658/",
+  "revisada": true
+ },
+ "F-M5C2-07": {
+  "autor": "Duolingo, Inc.",
+  "autorCita": "Duolingo, Inc.",
+  "anio": "2026",
+  "titulo": "Formulario 10-K: informe anual del ejercicio 2025",
+  "sitio": "U.S. Securities and Exchange Commission",
+  "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026012494/duol-20251231.htm",
+  "revisada": true
+ },
+ "F-M6-01": {
+  "autor": "CONEVAL",
+  "autorCita": "CONEVAL",
+  "anio": "2019",
+  "titulo": "Guía para el establecimiento y cálculo de líneas base y metas",
+  "sitio": "",
+  "url": "https://www.coneval.org.mx/InformesPublicaciones/Documents/Guia_lineas_base_metas.pdf",
+  "revisada": true
+ },
+ "F-M6-02": {
+  "autor": "CIPPEC",
+  "autorCita": "CIPPEC",
+  "anio": "2019",
+  "titulo": "Guía n.º 5: cómo construir indicadores",
+  "sitio": "",
+  "url": "https://www.cippec.org/wp-content/uploads/2019/06/PP-ME-Guia-5.pdf",
+  "revisada": true
+ },
+ "F-M6-03": {
+  "autor": "CDC",
+  "autorCita": "CDC",
+  "anio": "2018",
+  "titulo": "Writing SMART objectives (Evaluation Brief n.º 3b)",
+  "sitio": "",
+  "url": "https://spice.unc.edu/wp-content/uploads/2023/11/CDC-SMART.pdf",
+  "revisada": true
+ },
+ "F-M6-04": {
+  "autor": "Institute for Healthcare Improvement",
+  "autorCita": "Institute for Healthcare Improvement",
+  "anio": "s. f.",
+  "titulo": "Model for improvement",
+  "sitio": "",
+  "url": "https://www.ihi.org/library/model-for-improvement",
+  "revisada": true
+ },
+ "F-M6-05": {
+  "autor": "Anthropic",
+  "autorCita": "Anthropic",
+  "anio": "s. f.",
+  "titulo": "Define success criteria and build evaluations",
+  "sitio": "Claude Docs",
+  "url": "https://platform.claude.com/docs/en/test-and-evaluate/develop-tests",
+  "revisada": true
+ },
+ "F-M6-06": {
+  "autor": "National Institute of Standards and Technology",
+  "autorCita": "National Institute of Standards and Technology",
+  "anio": "2023",
+  "titulo": "Artificial intelligence risk management framework (AI RMF 1.0) (NIST AI 100-1)",
+  "sitio": "",
+  "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+  "revisada": true
+ },
+ "F-M6-07": {
+  "autor": "University of Bath",
+  "autorCita": "University of Bath",
+  "anio": "s. f.",
+  "titulo": "Automation standards for Microsoft Power Automate",
+  "sitio": "",
+  "url": "https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate",
+  "revisada": true
+ },
+ "F-M6-08": {
+  "autor": "Government Digital Service",
+  "autorCita": "Government Digital Service",
+  "anio": "2026, 5 de marzo",
+  "titulo": "The GDS Way: Architecture decisions",
+  "sitio": "",
+  "url": "https://gds-way.digital.cabinet-office.gov.uk/standards/architecture-decisions.html",
+  "revisada": true
+ },
+ "F-M6-09": {
+  "autor": "Google",
+  "autorCita": "Google",
+  "anio": "s. f.",
+  "titulo": "Cómo ver los cambios de un archivo",
+  "sitio": "Ayuda de Editores de Documentos",
+  "url": "https://support.google.com/docs/answer/190843?hl=es-419",
+  "revisada": true
+ },
+ "F-M6-10": {
+  "autor": "OpenAI",
+  "autorCita": "OpenAI",
+  "anio": "s. f.",
+  "titulo": "Prompt engineering",
+  "sitio": "OpenAI API Docs",
+  "url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+  "revisada": true
+ },
+ "F-M6-11": {
+  "autor": "TASO",
+  "autorCita": "TASO",
+  "anio": "s. f.",
+  "titulo": "Evaluation methods",
+  "sitio": "",
+  "url": "https://cdn.taso.org.uk/wp-content/uploads/TASO-Evaluation-Methods.pdf",
+  "revisada": true
+ },
+ "F-M6-12": {
+  "autor": "Government Analysis Function",
+  "autorCita": "Government Analysis Function",
+  "anio": "2018, 17 de diciembre",
+  "titulo": "Communicating quality, uncertainty and change",
+  "sitio": "",
+  "url": "https://analysisfunction.civilservice.gov.uk/policy-store/communicating-quality-uncertainty-and-change/",
+  "revisada": true
+ },
+ "F-M6-13": {
+  "autor": "GSA",
+  "autorCita": "GSA",
+  "anio": "s. f.",
+  "titulo": "Data story",
+  "sitio": "Data & Analytics Center of Excellence",
+  "url": "https://coe.gsa.gov/coe/data-story/",
+  "revisada": true
+ },
+ "F-M6-14": {
+  "autor": "Seibel, M.",
+  "autorCita": "Seibel",
+  "anio": "2016, 19 de julio",
+  "titulo": "How to pitch your company",
+  "sitio": "Y Combinator",
+  "url": "https://www.ycombinator.com/blog/how-to-pitch-your-company/",
+  "revisada": true
+ },
+ "F-M6-15": {
+  "autor": "CATIE",
+  "autorCita": "CATIE",
+  "anio": "s. f.",
+  "titulo": "El secreto de un pitch infalible",
+  "sitio": "",
+  "url": "https://agromira.catie.ac.cr/wp-content/uploads/2025/05/El-secreto-de-un-pitch-infalible-Taller-presencial.pdf",
+  "revisada": true
+ },
+ "F-M6-16": {
+  "autor": "Unisa",
+  "autorCita": "Unisa",
+  "anio": "2023, 7 de agosto",
+  "titulo": "Career portfolio",
+  "sitio": "Directorate of Counselling and Career Development",
+  "url": "https://www.unisa.ac.za/sites/corporate/default/Apply-for-admission/Undergraduate-qualifications/Counselling-and-Career-Development/Prepare-for-job-opportunities/Career-portfolio",
+  "revisada": true
+ }
+}

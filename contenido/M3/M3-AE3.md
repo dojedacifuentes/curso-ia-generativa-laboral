@@ -19,7 +19,7 @@ Al final armas el informe con ayuda de Gemini y lo revisas tú.
 
 En el módulo 2 escribiste un informe ejecutivo de una página. El informe breve se le parece, pero agrega dos cosas: los hallazgos de
 tu investigación con sus fuentes y las referencias completas al final. Las guías que vas a usar son las del Centro Internacional de
-Investigaciones para el Desarrollo, de Canadá, para la estructura, y la guía de normas APA 7 de Bibliotecas UC, para las citas.
+Investigaciones para el Desarrollo, de Canadá, para la estructura, y la guía de normas APA 7 de Bibliotecas UC, para las citas [@F-M3-09; @F-M3-11].
 
 ## P02 · Qué es un informe breve
 cubre: S1
@@ -29,7 +29,7 @@ bloque: Texto + imagen de un informe de dos páginas
 El Centro Internacional de Investigaciones para el Desarrollo (IDRC), de Canadá, explica cómo escribir documentos breves que presentan
 hallazgos y recomendaciones. Sus características sirven para tu informe. Está pensado para alguien que debe decidir, que no es
 especialista en el tema y que no tiene tiempo para leer toda tu investigación. Trata un solo tema, así que si tienes dos problemas,
-son dos informes. Es corto: idealmente no supera unas 1.500 palabras o dos páginas. Y termina en recomendaciones concretas, que se
+son dos informes. Es corto: idealmente no supera unas 1.500 palabras o dos páginas [@F-M3-09]. Y termina en recomendaciones concretas, que se
 desprenden de lo que encontraste.
 
 Piensa en quién va a leer el tuyo. Para Andrés es su jefatura. Para Rosa, la coordinadora del centro médico. Para Camila, la gerenta
@@ -49,8 +49,8 @@ cubre: S1, C1
 fuentes: F-M3-09, F-M3-11
 bloque: Proceso (process block) o acordeón
 
-Según la guía del IDRC, un documento breve suele tener estas partes, en este orden. A ellas se suma la lista de referencias que pide la
-norma APA.
+Según la guía del IDRC, un documento breve suele tener estas partes, en este orden [@F-M3-09]. A ellas se suma la lista de referencias que pide
+la norma APA [@F-M3-11].
 
 | Parte | Qué responde | Extensión aproximada |
 |---|---|---|
@@ -61,7 +61,7 @@ norma APA.
 | 5. Recomendaciones | ¿Qué conviene hacer? | 3 a 5 viñetas |
 | 6. Referencias | ¿Dónde puedo revisar cada fuente? | Lista completa |
 
-El IDRC recomienda además usar títulos que informen, porque permiten entender el informe con solo leerlos. En vez de «Hallazgos»,
+El IDRC recomienda además usar títulos que informen, porque permiten entender el informe con solo leerlos [@F-M3-09]. En vez de «Hallazgos»,
 Andrés puede escribir «Tres prácticas para no quedarse sin cajas», y Camila, «Cómo ordenan sus archivos digitales las oficinas
 pequeñas».
 
@@ -86,7 +86,7 @@ Fíjate, mientras ordenas, en la diferencia entre los mensajes clave y los halla
 oración. Los hallazgos lo desarrollan con sus fuentes y sus límites.
 
 Un error frecuente es empezar el informe por la historia de cómo se buscó. «Primero busqué en Perplexity, después armé un cuaderno…»
-no le dice nada útil a quien decide. El método va breve, en la parte 3, después de los mensajes clave y la introducción.
+no le dice nada útil a quien decide. El método va breve, en la parte 3, después de los mensajes clave y la introducción [@F-M3-09].
 
 :::actividad Arma el informe de Rosa
 Ordena estos fragmentos según la estructura del informe breve:
@@ -104,7 +104,7 @@ fuentes: F-M3-09
 bloque: Texto + comparación antes/después
 
 Los **mensajes clave** son las ideas que una persona debe llevarse aunque no lea nada más. El IDRC da un consejo práctico: esta parte
-va al inicio, pero se escribe al final, cuando ya está claro qué encontraste y qué recomiendas.
+va al inicio, pero se escribe al final, cuando ya está claro qué encontraste y qué recomiendas [@F-M3-09].
 
 Para escribirlos, pon una idea por viñeta y usa oraciones completas que digan algo, no solo un tema. El hallazgo más importante va
 primero, y si hay una recomendación central, también va aquí. Mira la diferencia en el informe de Andrés.
@@ -132,9 +132,9 @@ fuentes: F-M3-09, F-M3-08
 bloque: Texto + ejemplo guiado
 
 Los **hallazgos** son lo que tu investigación encontró. Salen directamente de la síntesis contrastada que escribiste en el tema
-anterior, así que ya están organizados por idea y cada afirmación tiene su fuente.
+anterior, así que ya están organizados por idea y cada afirmación tiene su fuente [@F-M3-08].
 
-El IDRC recomienda presentar los hallazgos junto con sus limitaciones. Una limitación es lo que no pudiste confirmar o lo que hace que
+El IDRC recomienda presentar los hallazgos junto con sus limitaciones [@F-M3-09]. Una limitación es lo que no pudiste confirmar o lo que hace que
 un hallazgo aplique solo en ciertos casos: que las fuentes eran de otro país o de empresas más grandes, que encontraste pocas fuentes
 sobre un punto, que dos fuentes se contradecían y no pudiste resolverlo, o que el dato puede cambiar pronto.
 
@@ -151,7 +151,7 @@ cubre: H1, C2
 fuentes: F-M3-09
 bloque: Texto + comparación antes/después
 
-Las recomendaciones son el motivo por el que alguien lee tu informe. El IDRC pide que sean concretas, creíbles y viables. Una
+Las recomendaciones son el motivo por el que alguien lee tu informe. El IDRC pide que sean concretas, creíbles y viables [@F-M3-09]. Una
 recomendación concreta dice qué hacer, quién y cuándo. Es creíble cuando se desprende de los hallazgos: si no hay un hallazgo detrás,
 no hay recomendación. Y es viable cuando se puede hacer con los recursos que hay.
 
@@ -179,7 +179,7 @@ puede ir a la fuente y comprobar. Respeta la autoría, porque reconoce el trabaj
 tema anterior. Y te protege: si un dato resulta equivocado, queda claro de dónde vino y qué hiciste para revisarlo.
 
 En este curso vas a usar APA 7, una norma de citación reconocida. La guía de Bibliotecas UC, de la Pontificia Universidad Católica de
-Chile, la explica en español, con ejemplos para páginas web, leyes y contenido generado por IA.
+Chile, la explica en español, con ejemplos para páginas web, leyes y contenido generado por IA [@F-M3-11; @F-M3-12].
 
 APA tiene dos piezas que van juntas. La cita en el texto es breve y va junto a la idea, con el autor y el año. La lista de referencias
 va al final y tiene los datos completos de cada fuente. Toda fuente citada en el texto aparece en la lista, y toda fuente de la lista
@@ -205,7 +205,7 @@ elementos, en este orden:
 4. Nombre del sitio, si es distinto del autor.
 5. URL.
 
-Si el contenido de la página cambia con frecuencia, se agrega la **fecha de recuperación**, que es la fecha en que la consultaste. Una
+Si el contenido de la página cambia con frecuencia, se agrega la **fecha de recuperación**, que es la fecha en que la consultaste [@F-M3-11]. Una
 referencia con fecha queda así:
 
 Bibliotecas Duoc UC. (2023). *¿Cómo formular una necesidad de información?* https://bibliotecas.duoc.cl/busqueda-de-informacion/formular-necesidad-de-informacion
@@ -238,10 +238,10 @@ Con la Ley 19.628, promulgada el 18 de agosto de 1999, la referencia queda así:
 Ley No. 19628, Sobre protección de la vida privada, Agosto 18, 1999, Diario Oficial [D.O.] (Chile).
 
 En el texto se cita como (Chile, 1999). Hay dos detalles que conviene mirar. La fecha que va es la de **promulgación**, que no siempre
-coincide con la de publicación. Y si citas un artículo, la guía muestra que se agrega después del número: «Ley No. 19628 art. 4».
+coincide con la de publicación. Y si citas un artículo, la guía muestra que se agrega después del número: «Ley No. 19628 art. 4» [@F-M3-11].
 
 El texto de las leyes chilenas está en el sitio LeyChile de la Biblioteca del Congreso Nacional. Allí ves la fecha de promulgación y
-la de publicación, y también si la versión que lees está vigente.
+la de publicación, y también si la versión que lees está vigente [@F-M3-14].
 
 :::error Citar una ley solo con su número
 «Ley 19.628» sin nombre ni fecha no permite saber de qué versión hablas. La referencia completa le da a quien lee lo necesario para
@@ -253,7 +253,7 @@ cubre: S2, C2
 fuentes: F-M3-12
 bloque: Texto + plantilla con ejemplo
 
-Si usaste un texto generado por IA, también se cita. Bibliotecas UC explica cómo hacerlo en APA. La referencia lleva, en orden:
+Si usaste un texto generado por IA, también se cita. Bibliotecas UC explica cómo hacerlo en APA [@F-M3-12]. La referencia lleva, en orden:
 
 1. La empresa como autora.
 2. La fecha de la conversación.
@@ -266,7 +266,7 @@ Con Gemini, la plantilla queda así: Google. (2026, 24 de octubre). *Título de 
 versión]. URL de la conversación. En el texto se cita como (Google, 2026).
 
 La guía pide además transparencia: indicar la herramienta, la versión exacta y la fecha de la consulta, y guardar un registro de los
-prompts y las respuestas. Muchos estilos piden adjuntar el texto generado como anexo.
+prompts y las respuestas [@F-M3-12]. Muchos estilos piden adjuntar el texto generado como anexo.
 
 En este curso hay una distinción que conviene tener clara. Un dato que encontraste con ayuda de la IA se cita con su fuente original,
 la página que lo produjo. La cita de la IA se usa cuando incorporas un texto que la IA generó, por ejemplo un borrador o una
@@ -288,7 +288,7 @@ bloque: Actividad de corrección (escenario)
 Andrés armó su lista de referencias, pero varias están incompletas. Usa lo que viste en las tres pantallas anteriores para
 corregirlas. Las fuentes son ficticias.
 
-Antes de empezar, recuerda la regla de P08: la cita en el texto y la referencia van juntas. Si en el informe aparece «(Instituto
+Antes de empezar, recuerda la regla de P08: la cita en el texto y la referencia van juntas [@F-M3-11]. Si en el informe aparece «(Instituto
 Logístico, 2024)» pero esa fuente no está en la lista del final, la cita está incompleta, porque quien lee no tiene cómo encontrar la
 fuente. Lo mismo al revés: una referencia que nadie cita en el texto sobra.
 
@@ -297,7 +297,7 @@ fuente. Lo mismo al revés: una referencia que nadie cita en el texto sobra.
 2. «Perplexity (2026).» → Perplexity es la herramienta, no la fuente. Hay que citar la página a la que llevaba la cita.
 3. «Ley 19.628.» → Faltan el nombre, la fecha de promulgación y el D.O.: Ley No. 19628, Sobre protección de la vida privada, Agosto 18, 1999, Diario Oficial [D.O.] (Chile).
 4. «Blog Embalajes del Sur. *Cómo ahorrar en cajas*. https://…» → Falta la fecha. Si no tiene, va (s.f.); como el contenido puede cambiar, agrega la fecha de consulta.
-5. «Google. *Resumen de mis fuentes*. Gemini.» → Faltan la fecha, [Chat de IA generativa], la versión del modelo y la URL de la conversación.
+5. «Google. *Resumen de mis fuentes*. Gemini.» → Faltan la fecha, [Chat de IA generativa], la versión del modelo y la URL de la conversación [@F-M3-12].
 :::
 
 ## P13 · Visualización simple: elige el gráfico
@@ -305,8 +305,8 @@ cubre: S3
 fuentes: F-M3-10, F-M3-09
 bloque: Texto + tabla con íconos de gráficos
 
-A veces un dato se entiende mejor en un gráfico. El IDRC aconseja incluir solo los gráficos que aporten al argumento. Para elegir
-cuál, el portal de datos abiertos del Gobierno de España propone partir de la relación que quieres mostrar.
+A veces un dato se entiende mejor en un gráfico. El IDRC aconseja incluir solo los gráficos que aporten al argumento [@F-M3-09]. Para
+elegir cuál, el portal de datos abiertos del Gobierno de España propone partir de la relación que quieres mostrar [@F-M3-10].
 
 | Quieres mostrar… | Gráfico | Ejemplo |
 |---|---|---|
@@ -332,14 +332,14 @@ cubre: S3, A1
 fuentes: F-M3-10, F-M3-13
 bloque: Texto + comparación de dos gráficos
 
-Un gráfico puede comunicar algo falso aunque los datos sean correctos. La guía de datos.gob.es advierte varios cuidados. El eje de las
+Un gráfico puede comunicar algo falso aunque los datos sean correctos. La guía de datos.gob.es advierte varios cuidados [@F-M3-10]. El eje de las
 columnas tiene que partir en 0, porque si parte en otro número, una diferencia pequeña parece enorme. Las tortas dificultan comparar
 tamaños, así que se usan solo con pocas partes; si tienes muchas, son mejores las barras ordenadas. Y muchos lectores ven causa y
 efecto donde no la hay: si muestras dos cosas que suben juntas, aclara si una causa la otra o si solo ocurren al mismo tiempo.
 
 Hay un cuidado más, propio del trabajo con IA. Si le pides a un asistente que haga un gráfico o una tabla, entrégale tus datos
 verificados y compara cada número del resultado con tu planilla. NIST recuerda que la IA puede presentar contenido falso con
-seguridad, y eso incluye una cifra mal copiada en un gráfico.
+seguridad [@F-M3-13]. Eso incluye una cifra mal copiada en un gráfico.
 
 Para hacerlo, usa la planilla que tengas a mano o pide a Gemini que ordene tus datos en una tabla. Lo importante no es la herramienta,
 sino que el gráfico diga una sola cosa, con un título que la diga.
@@ -363,7 +363,7 @@ la información de la síntesis. Mantén cada cita entre paréntesis junto a su 
 que no se desprendan de los hallazgos».
 
 El segundo es Gemini Notebook. Si tus fuentes ya están en un cuaderno, puedes pedirle un informe a partir de ellas, porque el plan
-gratuito permite hasta 10 informes al día. Igual vas a tener que ajustarlo a la estructura del informe breve.
+gratuito permite hasta 10 informes al día [@F-H-44]. Igual vas a tener que ajustarlo a la estructura del informe breve [@F-M3-09].
 
 En los dos casos, lo que obtienes es un borrador. Ya viste en este módulo que la IA puede agregar con seguridad contenido que no
 estaba en tus fuentes, así que el paso siguiente es revisarlo línea por línea.
@@ -379,7 +379,7 @@ fuentes: F-M3-09, F-M3-11
 bloque: Lista de verificación (checklist) descargable
 
 La claridad y el orden son una forma de respeto por quien lee. El IDRC recomienda lenguaje claro y sin jerga, títulos informativos,
-listas de cinco a siete viñetas como máximo, y pedirle a alguien ajeno al tema que lea el informe antes de enviarlo. Revisa tu
+listas de cinco a siete viñetas como máximo, y pedirle a alguien ajeno al tema que lea el informe antes de enviarlo [@F-M3-09]. Revisa tu
 borrador con esta lista:
 
 - [ ] Tiene las seis partes en orden, y los títulos dicen algo, no solo nombran la sección.
@@ -388,7 +388,7 @@ borrador con esta lista:
 - [ ] Cada recomendación se desprende de un hallazgo.
 - [ ] No hay datos que no estén en tu síntesis.
 - [ ] Cada cita del texto está en las referencias, y al revés.
-- [ ] Cada referencia tiene autor, fecha (o s.f.), título y URL.
+- [ ] Cada referencia tiene autor, fecha (o s.f.), título y URL [@F-M3-11].
 - [ ] Si usaste un texto generado por IA, está citado y guardaste el prompt.
 - [ ] Una persona ajena al tema lo leyó y entendió los mensajes clave.
 
@@ -407,7 +407,7 @@ bloque: Texto + actividad de cierre (entrega)
 
 En este taller armaste las piezas de un informe breve: mensajes clave que se escriben al final, hallazgos con sus limitaciones,
 recomendaciones concretas, creíbles y viables, citas en APA 7, incluidas las de leyes y de contenido generado por IA, y un gráfico
-simple que no engaña. Después hiciste un borrador con IA y lo revisaste con una lista de verificación.
+simple que no engaña [@F-M3-09; @F-M3-11]. Después hiciste un borrador con IA y lo revisaste con una lista de verificación.
 
 Tu informe no tiene que ser perfecto. Tiene que ser claro, ordenado y verificable: que cualquier persona pueda seguir cada dato hasta
 su fuente y entender por qué recomiendas lo que recomiendas.
@@ -435,47 +435,13 @@ Antes de entregar, aplica la lista de verificación de P16 y pídele a alguien q
 6. El gráfico se elige según la relación que se quiere mostrar, con el eje en 0 para comparar cantidades y aclarando cuando no hay causa y efecto.
 7. La IA puede hacer el borrador del informe, pero la estructura, los datos y las citas los revisa una persona antes de entregar.
 
-## Glosario
+## Referencias bibliográficas
 
-- **Informe breve**: documento de hasta unas dos páginas que presenta hallazgos y recomendaciones sobre un solo tema a quien debe decidir.
-- **Mensajes clave**: viñetas al inicio de un informe con lo esencial que debe llevarse quien lo lee.
-- **Hallazgo**: resultado de una investigación, respaldado por una o más fuentes.
-- **Limitación**: aspecto que reduce el alcance de un hallazgo, como pocas fuentes o datos de otro contexto.
-- **Recomendación**: acción concreta, creíble y viable que se desprende de los hallazgos.
-- **Citar**: indicar de dónde sale cada idea o dato que se usa en un texto.
-- **APA 7**: séptima edición de la norma de citación de la Asociación Estadounidense de Psicología (American Psychological Association).
-- **Cita en el texto**: indicación breve, con autor y año, junto a la idea que se toma de una fuente.
-- **Lista de referencias**: lista al final de un texto con los datos completos de cada fuente citada.
-- **s.f.**: abreviatura de «sin fecha», que se usa en la referencia cuando la fuente no indica su fecha.
-- **Fecha de recuperación**: fecha en que se consultó una página cuyo contenido puede cambiar.
-- **Fecha de promulgación**: fecha en que se aprueba formalmente una ley; es la que se usa al citarla en APA.
-- **Visualización de datos**: representación de datos en un gráfico o una tabla para facilitar su comprensión.
-
-## Conexión con el proyecto
-
-Este taller produce la entrega del **Hito 3 del proyecto aplicado: investigación validada con fuentes (informe breve)**. El informe de
-P17 reúne el levantamiento de información del tema 1 (tus preguntas y tus dos herramientas) y la síntesis contrastada del tema 2, con
-fuentes citadas en APA 7 y recomendaciones. El tutor lo revisará con la rúbrica general del proyecto. En el tema 4 vas a revisar que
-tu investigación no haya expuesto datos personales ni información confidencial de tu empresa.
-
-## Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M3.md` e `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
-
-- F-M3-08 · LibreTexts Español (2022). 17.5: Sintetizar fuentes. https://espanol.libretexts.org/Bookshelves/Humanidades/Humanidades/Composicion/Composicion_Introductoria/Libro%3A_Introduccion_a_la_composicion_universitaria_(Lumen)/03%3A_Investigaci%C3%B3n/17%3A_An%C3%A1lisis_de_fuente/17.5%3A_Sintetizar_fuentes
-- F-M3-09 · International Development Research Centre, IDRC (s. f.). How to write a policy brief. https://idrc-crdi.ca/en/funding/resources-idrc-grantees/how-write-policy-brief
-- F-M3-10 · datos.gob.es, Gobierno de España (2023). Cómo elegir el gráfico correcto para visualizar datos abiertos. https://datos.gob.es/es/blog/como-elegir-el-grafico-correcto-para-visualizar-datos-abiertos
-- F-M3-11 · Bibliotecas UC (2026). Guía de Normas APA 7: Documentos en sitio web y Legislación. https://guiastematicas.bibliotecas.uc.cl/c.php?g=992585&p=7181600 y https://guiastematicas.bibliotecas.uc.cl/c.php?g=992585&p=7219857
-- F-M3-12 · Bibliotecas UC (2026). IA: Citar y referenciar. https://guiastematicas.bibliotecas.uc.cl/ia/citar
-- F-M3-13 · NIST (2024). Generative Artificial Intelligence Profile (NIST AI 600-1). https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
-- F-M3-14 · Chile, Ministerio Secretaría General de la Presidencia (1999). Ley 19.628, sobre Protección de la Vida Privada. https://www.bcn.cl/leychile/navegar?idNorma=141599
-- F-H-44 · Google (s. f.). Cambiar a un plan superior de Gemini Notebook. https://support.google.com/notebooklm/answer/16213268?hl=es
-
-Recomendaciones del curso, sin fuente: las extensiones aproximadas por parte del informe (P03); la prueba de «señalar el hallazgo»
-para cada recomendación (P07); la idea de usar uno o dos gráficos o una tabla simple (P13); el prompt del borrador (P15); la lista de
-verificación de P16, que ordena los consejos del IDRC y de APA, y la distinción entre citar la fuente original de un dato y citar a la
-IA solo cuando se usa un texto que ella generó (P11). Los datos de Rosa, Andrés y Camila, el «Instituto de Archivo X» de P08 y las
-referencias de P12 son ficticios.
-
-Formato de ley de P10: tomado del ejemplo de Bibliotecas UC (página «Legislación»), que escribe el número sin punto («Ley No. 19496»)
-y la fecha en orden mes, día, año; revisado el 24-10-2026. El ejemplo de «art.» después del número también sale de esa página.
+- Bibliotecas UC. (2026a, 20 de octubre). *Guía de normas APA 7*. Pontificia Universidad Católica de Chile. https://guiastematicas.bibliotecas.uc.cl/c.php?g=992585&p=7181600
+- Bibliotecas UC. (2026b, 13 de agosto). *IA: citar y referenciar*. Pontificia Universidad Católica de Chile. https://guiastematicas.bibliotecas.uc.cl/ia/citar
+- datos.gob.es. (2023, 5 de enero). *Cómo elegir el gráfico correcto para visualizar datos abiertos*. Gobierno de España. https://datos.gob.es/es/blog/como-elegir-el-grafico-correcto-para-visualizar-datos-abiertos
+- Google. (s. f.). *Cambiar a un plan superior de Gemini Notebook*. https://support.google.com/notebooklm/answer/16213268?hl=es
+- International Development Research Centre. (s. f.). *How to write a policy brief*. https://idrc-crdi.ca/en/funding/resources-idrc-grantees/how-write-policy-brief
+- Ley 19.628. (1999, 28 de agosto). *Sobre protección de la vida privada*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idNorma=141599
+- LibreTexts Español. (2022, 30 de octubre). *Sintetizar fuentes (Introducción a la composición universitaria, 17.5)*. https://espanol.libretexts.org/Bookshelves/Humanidades/Humanidades/Composicion/Composicion_Introductoria/Libro%3A_Introduccion_a_la_composicion_universitaria_(Lumen)/03%3A_Investigaci%C3%B3n/17%3A_An%C3%A1lisis_de_fuente/17.5%3A_Sintetizar_fuentes
+- National Institute of Standards and Technology. (2024). *Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)*. https://doi.org/10.6028/NIST.AI.600-1

@@ -1,9 +1,9 @@
 # Auditoría del curso «IA generativa para entornos laborales»
 
-Generado con `node scripts/auditar.mjs` el 28-10-26, 1:11 p. m.. Solo lee: no corrige nada.
+Generado con `node scripts/auditar.mjs` el 29-10-26, 5:06 p. m.. Solo lee: no corrige nada.
 Fuente de verdad: planilla «Estructura_inicial_contenido_IA_generativa» (Drive 1v_NCRQGZnajDLesIw8haIMrw4551q6C8Om6AOM8RoHM).
 
-**Resultado:** 84 chequeos · ✓ 78 sin observaciones · ! 4 con avisos · ✗ 0 con errores · … 2 pendientes.
+**Resultado:** 107 chequeos · ✓ 96 sin observaciones · ! 9 con avisos · ✗ 0 con errores · … 2 pendientes.
 
 - **✗ error:** algo no calza con la planilla o con el formato, o falta un archivo que debería existir.
 - **! aviso:** funciona, pero conviene mirarlo (un derivado desactualizado, una pantalla corta, un «Parcial» de fondo).
@@ -86,7 +86,7 @@ Antes de redactar, cada módulo tuvo una investigación con fuentes abiertas y l
 <details><summary>Detalle</summary>
 
 - **C1.3 Fuentes registradas que nadie cita**
-  - ! 56 sin citar: F-H-01, F-H-03, F-H-04, F-H-05, F-H-06, F-H-08, F-H-09, F-H-10, F-H-11, F-H-13, F-H-17, F-H-18, F-H-19, F-H-21, F-H-22, F-H-23, F-H-24, F-H-25, F-H-26, F-H-27, F-H-28, F-H-31, F-H-32, F-H-34, F-H-35, F-H-36, F-H-38, F-H-39, F-H-41, F-H-42, F-H-43, F-H-48, F-H-51, F-H-58, F-H-59, F-H-62, F-H-66, F-H-70, F-H-71, F-H-72, F-H-73, F-H-74, F-H-80, F-H-81, F-H-87, F-H-88, F-H-89, F-H-90, F-H-91, F-H-92, F-H-96, F-H-97, F-H-98, F-M1-17, F-M4-13, F-M4-18
+  - ! 60 sin citar: F-H-01, F-H-03, F-H-04, F-H-05, F-H-06, F-H-08, F-H-09, F-H-10, F-H-11, F-H-13, F-H-17, F-H-18, F-H-19, F-H-21, F-H-22, F-H-23, F-H-24, F-H-25, F-H-26, F-H-27, F-H-28, F-H-31, F-H-32, F-H-34, F-H-35, F-H-36, F-H-38, F-H-39, F-H-41, F-H-42, F-H-43, F-H-48, F-H-51, F-H-54, F-H-58, F-H-59, F-H-60, F-H-62, F-H-66, F-H-70, F-H-71, F-H-72, F-H-73, F-H-74, F-H-80, F-H-81, F-H-87, F-H-88, F-H-89, F-H-90, F-H-91, F-H-92, F-H-95, F-H-96, F-H-97, F-H-98, F-H-99, F-M1-17, F-M4-13, F-M4-18
 
 </details>
 
@@ -118,6 +118,29 @@ contenido/M<n>/M<n>-AE<k>.md es la fuente única de cada AE: de ahí salen el Ri
 | ✓ | C2.M6-AE1 M6-AE1 · Oportunidad de mejora con IA | 10 pantallas, como pide la planilla · 8/8 códigos cubiertos |
 | ✓ | C2.M6-AE2 M6-AE2 · Implementar el flujo | 10 pantallas, como pide la planilla · 9/9 códigos cubiertos |
 | ✓ | C2.M6-AE3 M6-AE3 · Resultados y aprendizajes | 9 pantallas, como pide la planilla · 8/8 códigos cubiertos |
+| ✓ | C2.act.M1-AE1 Actividades M1-AE1 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M1-AE2 Actividades M1-AE2 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M1-AE3 Actividades M1-AE3 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M1-AE4 Actividades M1-AE4 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M2-AE1 Actividades M2-AE1 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M2-AE2 Actividades M2-AE2 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M2-AE3 Actividades M2-AE3 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M2-AE4 Actividades M2-AE4 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M3-AE1 Actividades M3-AE1 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M3-AE2 Actividades M3-AE2 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M3-AE3 Actividades M3-AE3 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M3-AE4 Actividades M3-AE4 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M4-AE1 Actividades M4-AE1 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M4-AE2 Actividades M4-AE2 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M4-AE3 Actividades M4-AE3 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M4-AE4 Actividades M4-AE4 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M5-AE1 Actividades M5-AE1 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M5-AE2 Actividades M5-AE2 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M5-AE3 Actividades M5-AE3 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M6-AE1 Actividades M6-AE1 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M6-AE2 Actividades M6-AE2 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.act.M6-AE3 Actividades M6-AE3 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.glosario Glosario del curso | glosario/M1.md: 44 términos · glosario/M2.md: 52 términos |
 
 <details><summary>Detalle</summary>
 
@@ -229,15 +252,135 @@ Los entregables se subieron a la carpeta «Curso IA generativa para entornos lab
 | | Chequeo | Resultado |
 |---|---|---|
 | ✓ | C8.0 Foto de Drive | tomada el 28-10-26, 1:10 p. m. · 36 carpetas · Curso IA generativa para entornos laborales · Recursos: 12 elementos |
-| ✓ | C8.Docs-del-contenido-base Docs del contenido base en Drive | 22 archivos en la carpeta |
-| ✓ | C8.PDF-del-contenido-base PDF del contenido base en Drive | 22 archivos en la carpeta |
-| ✓ | C8.Quiz-SCORM Quiz SCORM en Drive | 22 archivos en la carpeta |
-| ✓ | C8.Quiz-HTML Quiz HTML en Drive | 22 archivos en la carpeta |
-| ✓ | C8.Quiz-GIFT Quiz GIFT en Drive | 22 archivos en la carpeta |
+| ! | C8.Docs-del-contenido-base Docs del contenido base en Drive |  22 avisos |
+| ! | C8.PDF-del-contenido-base PDF del contenido base en Drive |  22 avisos |
+| ! | C8.Quiz-SCORM Quiz SCORM en Drive |  22 avisos |
+| ! | C8.Quiz-HTML Quiz HTML en Drive |  22 avisos |
+| ! | C8.Quiz-GIFT Quiz GIFT en Drive |  22 avisos |
 | ✓ | C8.planilla La planilla de origen está en Drive | copia en Google Sheets · copia .xlsx |
 | ✓ | C8.ids Los ids de data/drive.json existen en Drive | 22 Docs registrados |
 | ✓ | C8.info Infografías en Drive | 24 archivos |
 | ✓ | C8.casos Casos de aplicación en Drive | 25 elementos en «5 Casos de aplicación» |
+
+<details><summary>Detalle</summary>
+
+- **C8.Docs-del-contenido-base Docs del contenido base en Drive**
+  - ! M1-AE1: lo de Drive (28-10-26, 11:43 a. m.) es anterior al último cambio de su fuente (29-10-26, 5:01 p. m.)
+  - ! M1-AE2: lo de Drive (28-10-26, 11:45 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M1-AE3: lo de Drive (28-10-26, 11:44 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M1-AE4: lo de Drive (28-10-26, 11:45 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M2-AE1: lo de Drive (28-10-26, 11:44 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M2-AE2: lo de Drive (28-10-26, 11:44 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M2-AE3: lo de Drive (28-10-26, 11:46 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M2-AE4: lo de Drive (28-10-26, 12:07 p. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M3-AE1: lo de Drive (28-10-26, 11:44 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M3-AE2: lo de Drive (28-10-26, 11:44 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M3-AE3: lo de Drive (28-10-26, 11:46 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M3-AE4: lo de Drive (28-10-26, 11:44 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE1: lo de Drive (28-10-26, 11:45 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE2: lo de Drive (28-10-26, 11:46 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE3: lo de Drive (28-10-26, 11:46 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE4: lo de Drive (28-10-26, 11:46 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M5-AE1: lo de Drive (28-10-26, 11:44 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M5-AE2: lo de Drive (28-10-26, 11:46 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M5-AE3: lo de Drive (28-10-26, 11:45 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M6-AE1: lo de Drive (28-10-26, 11:46 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M6-AE2: lo de Drive (28-10-26, 11:44 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M6-AE3: lo de Drive (28-10-26, 11:45 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+- **C8.PDF-del-contenido-base PDF del contenido base en Drive**
+  - ! M1-AE1: lo de Drive (28-10-26, 11:55 a. m.) es anterior al último cambio de su fuente (29-10-26, 5:01 p. m.)
+  - ! M1-AE2: lo de Drive (28-10-26, 11:55 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M1-AE3: lo de Drive (28-10-26, 11:55 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M1-AE4: lo de Drive (28-10-26, 11:55 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M2-AE1: lo de Drive (28-10-26, 11:55 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M2-AE2: lo de Drive (28-10-26, 11:55 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M2-AE3: lo de Drive (28-10-26, 11:55 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M2-AE4: lo de Drive (28-10-26, 11:55 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M3-AE1: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M3-AE2: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M3-AE3: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M3-AE4: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE1: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE2: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE3: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE4: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M5-AE1: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M5-AE2: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M5-AE3: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M6-AE1: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M6-AE2: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M6-AE3: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+- **C8.Quiz-SCORM Quiz SCORM en Drive**
+  - ! M1-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 5:01 p. m.)
+  - ! M1-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M1-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M1-AE4: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M2-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M2-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M2-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M2-AE4: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M3-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M3-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M3-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M3-AE4: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE4: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M5-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M5-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M5-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M6-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M6-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M6-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+- **C8.Quiz-HTML Quiz HTML en Drive**
+  - ! M1-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 5:01 p. m.)
+  - ! M1-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M1-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M1-AE4: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M2-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M2-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M2-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M2-AE4: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M3-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M3-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M3-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M3-AE4: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE4: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M5-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M5-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M5-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M6-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M6-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M6-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+- **C8.Quiz-GIFT Quiz GIFT en Drive**
+  - ! M1-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 5:01 p. m.)
+  - ! M1-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M1-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M1-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M2-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M2-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M2-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M2-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M3-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M3-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M3-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M3-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M4-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M5-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M5-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M5-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M6-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M6-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
+  - ! M6-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+
+</details>
 
 ## C9 · Avance frente a los 101 recursos de la planilla
 
@@ -268,12 +411,12 @@ Cruza cada fila de la hoja «Recursos» con lo producido. «Hecho» = el entrega
 | R008 | M1 | Quiz formativo | Quiz formativo M1-AE3 · Parámetros de generación | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
 | R009 | M1 | Rise | Rise M1-T4 · Validación de resultados | 127.5 | Insumo listo | Contenido base validado; el Rise lo arma Natalia |
 | R010 | M1 | Quiz formativo | Quiz formativo M1-AE4 · Validación de resultados | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
-| R011 | M1 | Hito proyecto | Proyecto aplicado · Hito 1: problema u oportunidad real + biblioteca de prompts v1 | 90 | Insumo listo | «Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito |
+| R011 | M1 | Hito proyecto | Proyecto aplicado · Hito 1: problema u oportunidad real + biblioteca de prompts v1 | 90 | Insumo listo | Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito |
 | R012 | M1 | Caso de aplicación | Caso M1-C1 · Asistente de IA para asesores financieros (Morgan Stanley) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R013 | M1 | Caso de aplicación | Caso M1-C2 · Cuando la IA inventa: abogados y jurisprudencia inexistente (Mata v. Avianca, 2023) y chatbot de Air Canada (2024) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R014 | M1 | Foro | Foro M1: discusión guiada del módulo (tutor responde en <24 h hábiles) | 30 | Pendiente | Falta la consigna del foro (los casos traen «Para el foro») |
 | R015 | M1 | Video | Video de resumen M1 (3 min): ideas clave y conexión con el siguiente módulo | 3 | Insumo listo | Ideas clave disponibles; falta el guion y el video |
-| R016 | M1 | Resumen y glosario | Resumen y glosario del módulo M1 (página; lectura 1,5 min) | 1.5 | Insumo listo | Ideas clave y glosario en el contenido base; falta la página de Moodle |
+| R016 | M1 | Resumen y glosario | Resumen y glosario del módulo M1 (página; lectura 1,5 min) | 1.5 | Insumo listo | Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle |
 | R017 | M1 | Complemento | Infografía M1: Anatomía de un prompt efectivo (rol · contexto · tarea · formato) | 0 | Hecho | Infografía HTML + PNG |
 | R018 | M1 | Evaluación sumativa | Evaluación sumativa M1 | 60 | Pendiente | Falta el banco GIFT por criterios |
 | R019 | M2 | Video | Video de bienvenida M2 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto | 3 | Pendiente | Falta el guion y el video |
@@ -285,12 +428,12 @@ Cruza cada fila de la hoja «Recursos» con lo producido. «Hecho» = el entrega
 | R025 | M2 | Quiz formativo | Quiz formativo M2-AE3 · Presentaciones con IA | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
 | R026 | M2 | Rise | Rise M2-T4 · Planillas de cálculo con IA | 135 | Insumo listo | Contenido base validado; el Rise lo arma Natalia |
 | R027 | M2 | Quiz formativo | Quiz formativo M2-AE4 · Planillas de cálculo con IA | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
-| R028 | M2 | Hito proyecto | Proyecto aplicado · Hito 2: brief del proyecto + presentación de 6 láminas | 90 | Insumo listo | «Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito |
+| R028 | M2 | Hito proyecto | Proyecto aplicado · Hito 2: brief del proyecto + presentación de 6 láminas | 90 | Insumo listo | Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito |
 | R029 | M2 | Caso de aplicación | Caso M2-C1 · Comunicación con clientes redactada con apoyo de IA (Octopus Energy) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R030 | M2 | Caso de aplicación | Caso M2-C2 · Asistente de IA en herramientas de oficina para equipos (Vodafone y Microsoft 365 Copilot) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R031 | M2 | Foro | Foro M2: discusión guiada del módulo (tutor responde en <24 h hábiles) | 30 | Pendiente | Falta la consigna del foro (los casos traen «Para el foro») |
 | R032 | M2 | Video | Video de resumen M2 (3 min): ideas clave y conexión con el siguiente módulo | 3 | Insumo listo | Ideas clave disponibles; falta el guion y el video |
-| R033 | M2 | Resumen y glosario | Resumen y glosario del módulo M2 (página; lectura 1,5 min) | 1.5 | Insumo listo | Ideas clave y glosario en el contenido base; falta la página de Moodle |
+| R033 | M2 | Resumen y glosario | Resumen y glosario del módulo M2 (página; lectura 1,5 min) | 1.5 | Insumo listo | Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle |
 | R034 | M2 | Complemento | Infografía M2: Flujo de redacción aumentada (borrador → ajuste → verificación) | 0 | Hecho | Infografía HTML + PNG |
 | R035 | M2 | Evaluación sumativa | Evaluación sumativa M2 | 60 | Pendiente | Falta el banco GIFT por criterios |
 | R036 | M3 | Video | Video de bienvenida M3 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto | 3 | Pendiente | Falta el guion y el video |
@@ -302,12 +445,12 @@ Cruza cada fila de la hoja «Recursos» con lo producido. «Hecho» = el entrega
 | R042 | M3 | Quiz formativo | Quiz formativo M3-AE3 · Organizar y presentar información | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
 | R043 | M3 | Rise | Rise M3-T4 · Análisis crítico y privacidad | 135 | Insumo listo | Contenido base validado; el Rise lo arma Natalia |
 | R044 | M3 | Quiz formativo | Quiz formativo M3-AE4 · Análisis crítico y privacidad | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
-| R045 | M3 | Hito proyecto | Proyecto aplicado · Hito 3: investigación validada con fuentes (informe breve) | 90 | Insumo listo | «Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito |
+| R045 | M3 | Hito proyecto | Proyecto aplicado · Hito 3: investigación validada con fuentes (informe breve) | 90 | Insumo listo | Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito |
 | R046 | M3 | Caso de aplicación | Caso M3-C1 · Informe con referencias inexistentes generadas por IA (Deloitte Australia, 2025) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R047 | M3 | Caso de aplicación | Caso M3-C2 · Información confidencial ingresada a una herramienta de IA (Samsung, 2023) | 90 | Hecho | Caso verificado (Descartado) |
 | R048 | M3 | Foro | Foro M3: discusión guiada del módulo (tutor responde en <24 h hábiles) | 30 | Pendiente | Falta la consigna del foro (los casos traen «Para el foro») |
 | R049 | M3 | Video | Video de resumen M3 (3 min): ideas clave y conexión con el siguiente módulo | 3 | Insumo listo | Ideas clave disponibles; falta el guion y el video |
-| R050 | M3 | Resumen y glosario | Resumen y glosario del módulo M3 (página; lectura 1,5 min) | 1.5 | Insumo listo | Ideas clave y glosario en el contenido base; falta la página de Moodle |
+| R050 | M3 | Resumen y glosario | Resumen y glosario del módulo M3 (página; lectura 1,5 min) | 1.5 | Insumo listo | Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle |
 | R051 | M3 | Complemento | Infografía M3: Ruta de una investigación verificada (buscar · contrastar · sintetizar · citar) | 0 | Hecho | Infografía HTML + PNG |
 | R052 | M3 | Evaluación sumativa | Evaluación sumativa M3 | 60 | Pendiente | Falta el banco GIFT por criterios |
 | R053 | M4 | Video | Video de bienvenida M4 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto | 3 | Pendiente | Falta el guion y el video |
@@ -319,13 +462,13 @@ Cruza cada fila de la hoja «Recursos» con lo producido. «Hecho» = el entrega
 | R059 | M4 | Quiz formativo | Quiz formativo M4-AE3 · Audio y música | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
 | R060 | M4 | Rise | Rise M4-T4 · Clips y video breve | 112.5 | Insumo listo | Contenido base validado; el Rise lo arma Natalia |
 | R061 | M4 | Quiz formativo | Quiz formativo M4-AE4 · Clips y video breve | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
-| R062 | M4 | Hito proyecto | Proyecto aplicado · Hito 4: pieza multimedia que comunica la solución | 90 | Insumo listo | «Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito |
+| R062 | M4 | Hito proyecto | Proyecto aplicado · Hito 4: pieza multimedia que comunica la solución | 90 | Insumo listo | Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito |
 | R063 | M4 | Caso de aplicación | Caso M4-C1 · Campañas de marca hechas con IA generativa (Coca-Cola, 2023 y 2024) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R064 | M4 | Caso de aplicación | Caso M4-C2 · Voz sintética y consentimiento (disputa Scarlett Johansson – OpenAI, 2024) | 90 | Hecho | Caso verificado (Verificado) |
 | R065 | M4 | Caso de aplicación | Caso M4-C3 · Licencias y datos de entrenamiento (Getty Images v. Stability AI) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R066 | M4 | Foro | Foro M4: discusión guiada del módulo (tutor responde en <24 h hábiles) | 30 | Pendiente | Falta la consigna del foro (los casos traen «Para el foro») |
 | R067 | M4 | Video | Video de resumen M4 (3 min): ideas clave y conexión con el siguiente módulo | 3 | Insumo listo | Ideas clave disponibles; falta el guion y el video |
-| R068 | M4 | Resumen y glosario | Resumen y glosario del módulo M4 (página; lectura 1,5 min) | 1.5 | Insumo listo | Ideas clave y glosario en el contenido base; falta la página de Moodle |
+| R068 | M4 | Resumen y glosario | Resumen y glosario del módulo M4 (página; lectura 1,5 min) | 1.5 | Insumo listo | Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle |
 | R069 | M4 | Complemento | Infografía M4: Mapa del ecosistema multimedia con IA y semáforo de licencias | 0 | Hecho | Infografía HTML + PNG |
 | R070 | M4 | Evaluación sumativa | Evaluación sumativa M4 | 60 | Pendiente | Falta el banco GIFT por criterios |
 | R071 | M5 | Video | Video de bienvenida M5 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto | 3 | Pendiente | Falta el guion y el video |
@@ -335,12 +478,12 @@ Cruza cada fila de la hoja «Recursos» con lo producido. «Hecho» = el entrega
 | R075 | M5 | Quiz formativo | Quiz formativo M5-AE2 · Flujos simples con IA | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
 | R076 | M5 | Rise | Rise M5-T3 · Supervisión humana y riesgos | 105 | Insumo listo | Contenido base validado; el Rise lo arma Natalia |
 | R077 | M5 | Quiz formativo | Quiz formativo M5-AE3 · Supervisión humana y riesgos | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
-| R078 | M5 | Hito proyecto | Proyecto aplicado · Hito 5: prototipo de automatización de un paso del proceso, con supervisión humana | 90 | Insumo listo | «Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito |
+| R078 | M5 | Hito proyecto | Proyecto aplicado · Hito 5: prototipo de automatización de un paso del proceso, con supervisión humana | 90 | Insumo listo | Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito |
 | R079 | M5 | Caso de aplicación | Caso M5-C1 · Automatización de la atención al cliente con IA (Klarna) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R080 | M5 | Caso de aplicación | Caso M5-C2 · Estrategia «AI-first» y sus efectos sobre el trabajo (Duolingo, 2025) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R081 | M5 | Foro | Foro M5: discusión guiada del módulo (tutor responde en <24 h hábiles) | 30 | Pendiente | Falta la consigna del foro (los casos traen «Para el foro») |
 | R082 | M5 | Video | Video de resumen M5 (3 min): ideas clave y conexión con el siguiente módulo | 3 | Insumo listo | Ideas clave disponibles; falta el guion y el video |
-| R083 | M5 | Resumen y glosario | Resumen y glosario del módulo M5 (página; lectura 1,5 min) | 1.5 | Insumo listo | Ideas clave y glosario en el contenido base; falta la página de Moodle |
+| R083 | M5 | Resumen y glosario | Resumen y glosario del módulo M5 (página; lectura 1,5 min) | 1.5 | Insumo listo | Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle |
 | R084 | M5 | Complemento | Infografía M5: Matriz impacto–riesgo para priorizar tareas a automatizar | 0 | Hecho | Infografía HTML + PNG |
 | R085 | M5 | Evaluación sumativa | Evaluación sumativa M5 | 45 | Pendiente | Falta el banco GIFT por criterios |
 | R086 | M6 | Video | Video de bienvenida M6 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto | 3 | Pendiente | Falta el guion y el video |
@@ -350,12 +493,12 @@ Cruza cada fila de la hoja «Recursos» con lo producido. «Hecho» = el entrega
 | R090 | M6 | Quiz formativo | Quiz formativo M6-AE2 · Implementar el flujo | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
 | R091 | M6 | Rise | Rise M6-T3 · Resultados y aprendizajes | 67.5 | Insumo listo | Contenido base validado; el Rise lo arma Natalia |
 | R092 | M6 | Quiz formativo | Quiz formativo M6-AE3 · Resultados y aprendizajes | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
-| R093 | M6 | Hito proyecto | Proyecto aplicado · Hito 6a: diagnóstico, meta y plan de medición | 90 | Insumo listo | «Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito |
-| R094 | M6 | Hito proyecto | Proyecto aplicado · Hito 6b: implementación del flujo | 90 | Insumo listo | «Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito |
-| R095 | M6 | Hito proyecto | Proyecto aplicado · Hito 6c: medición de resultados y ajustes | 90 | Insumo listo | «Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito |
-| R096 | M6 | Hito proyecto | Proyecto aplicado · Hito 6d: pitch y portafolio final (insumo del Demo Day) | 90 | Insumo listo | «Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito |
+| R093 | M6 | Hito proyecto | Proyecto aplicado · Hito 6a: diagnóstico, meta y plan de medición | 90 | Insumo listo | Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito |
+| R094 | M6 | Hito proyecto | Proyecto aplicado · Hito 6b: implementación del flujo | 90 | Insumo listo | Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito |
+| R095 | M6 | Hito proyecto | Proyecto aplicado · Hito 6c: medición de resultados y ajustes | 90 | Insumo listo | Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito |
+| R096 | M6 | Hito proyecto | Proyecto aplicado · Hito 6d: pitch y portafolio final (insumo del Demo Day) | 90 | Insumo listo | Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito |
 | R097 | M6 | Foro | Foro M6: discusión guiada del módulo (tutor responde en <24 h hábiles) | 30 | Pendiente | Falta la consigna del foro (los casos traen «Para el foro») |
 | R098 | M6 | Video | Video de resumen M6 (3 min): ideas clave y conexión con el siguiente módulo | 3 | Insumo listo | Ideas clave disponibles; falta el guion y el video |
-| R099 | M6 | Resumen y glosario | Resumen y glosario del módulo M6 (página; lectura 1,5 min) | 1.5 | Insumo listo | Ideas clave y glosario en el contenido base; falta la página de Moodle |
+| R099 | M6 | Resumen y glosario | Resumen y glosario del módulo M6 (página; lectura 1,5 min) | 1.5 | Insumo listo | Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle |
 | R100 | M6 | Complemento | Infografía M6: Ciclo del proyecto aplicado (oportunidad → flujo → medición → pitch) | 0 | Hecho | Infografía HTML + PNG |
 | R101 | M6 | Evaluación sumativa | Evaluación sumativa M6 (evaluación final integradora del curso) | 60 | Pendiente | Falta el banco GIFT por criterios |

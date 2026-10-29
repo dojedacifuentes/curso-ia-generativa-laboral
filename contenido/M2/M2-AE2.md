@@ -5,11 +5,11 @@ cubre: C1, C2
 fuentes: F-M2-08, F-M2-09
 bloque: Texto + actividad
 
-En el tema anterior escribiste correos, minutas e informes con un buen prompt y ajustaste el resultado conversando. Eso funciona, pero tiene un problema: si mañana repites el pedido, el texto puede salir distinto. La misma indicación puede dar respuestas diferentes, y en una oficina se nota cuando el mismo tipo de correo sale cada semana con otro formato o con otro tono.
+En el tema anterior escribiste correos, minutas e informes con un buen prompt y ajustaste el resultado conversando. Eso funciona, pero tiene un problema: si mañana repites el pedido, el texto puede salir distinto. La misma indicación puede dar respuestas diferentes, y en una oficina se nota cuando el mismo tipo de correo sale cada semana con otro formato o con otro tono [@F-M2-08].
 
 El aprendizaje esperado es este: Aplicar técnicas de prompting avanzado (ejemplos, restricciones, encadenamiento) para mejorar la calidad y consistencia de textos profesionales. Al final deberías poder aplicar al menos dos de esas técnicas y obtener textos consistentes entre versiones, comprobándolo con pruebas y no con una impresión.
 
-El tema funciona como un laboratorio de prompts. En cada técnica vas a ver una versión «antes» y otra «después», las vas a probar en Gemini y vas a comparar los resultados. Como la salida de un modelo no es determinista, la documentación de los proveedores recomienda justamente eso: probar las indicaciones y medir cómo se comportan. Al terminar tendrás plantillas que podrás reutilizar en las tareas que se repiten en tu cargo, como Camila con las respuestas a proveedores o Andrés con los avisos a clientes.
+El tema funciona como un laboratorio de prompts. En cada técnica vas a ver una versión «antes» y otra «después», las vas a probar en Gemini y vas a comparar los resultados. Como la salida de un modelo no es determinista, la documentación de los proveedores recomienda justamente eso: probar las indicaciones y medir cómo se comportan [@F-M2-09]. Al terminar tendrás plantillas que podrás reutilizar en las tareas que se repiten en tu cargo, como Camila con las respuestas a proveedores o Andrés con los avisos a clientes.
 
 Un prompt avanzado no es un prompt más largo. Es uno que da resultados parecidos cada vez que lo usas, con la calidad que necesitas.
 
@@ -33,7 +33,7 @@ Hay cuatro herramientas para lograrlo. Las tres primeras son técnicas que se ap
 | Encadenamiento | La tarea es compleja y sale mal de una vez | Primero extraer los hechos, después redactar, después revisar |
 | Plantilla reutilizable | Cada vez escribes el prompt desde cero | Un texto guardado con partes fijas y espacios para los datos |
 
-Un error común es dar por listo un prompt porque funcionó una vez. Una buena respuesta puede ser suerte. Como la salida no es determinista, la documentación de los proveedores recomienda probar las indicaciones con casos variados y diseñarlas de forma iterativa, ajustando según lo que resulta. Un prompt se vuelve confiable después de probarlo varias veces y con casos distintos.
+Un error común es dar por listo un prompt porque funcionó una vez. Una buena respuesta puede ser suerte. Como la salida no es determinista, la documentación de los proveedores recomienda probar las indicaciones con casos variados y diseñarlas de forma iterativa, ajustando según lo que resulta [@F-M2-09; @F-M2-10]. Un prompt se vuelve confiable después de probarlo varias veces y con casos distintos.
 
 :::comprueba
 Cada vez que Andrés pide el aviso semanal de inventario, la respuesta sale con un formato distinto. ¿Qué técnica le conviene probar primero?
@@ -48,10 +48,10 @@ cubre: A1, A2, C2
 fuentes: F-M2-10, F-M2-09
 bloque: Proceso (process block) en 5 pasos + tabla de bitácora
 
-El diseño de prompts es iterativo: se empieza simple y se agregan detalles según los resultados. Para que esa iteración te enseñe algo, conviene hacerla con orden. Este es el método del laboratorio:
+El diseño de prompts es iterativo: se empieza simple y se agregan detalles según los resultados [@F-M2-10]. Para que esa iteración te enseñe algo, conviene hacerla con orden. Este es el método del laboratorio:
 
 1. Escribe la versión 1 del prompt y guárdala en tu bitácora con un nombre.
-2. Pruébala siempre con los mismos dos o tres casos de prueba, por ejemplo, tres consultas distintas de proveedores.
+2. Pruébala siempre con los mismos dos o tres casos de prueba, por ejemplo, tres consultas distintas de proveedores [@F-M2-09].
 3. Anota qué salió bien y qué no, con criterios fijos: formato, largo, tono y datos exactos.
 4. Cambia una sola cosa y guarda la versión 2.
 5. Compara las versiones con los mismos casos y quédate con la mejor.
@@ -72,9 +72,9 @@ bloque: Texto + imagen de un prompt con ejemplos destacados
 
 **Few-shot**, que en español sería «con pocos ejemplos», significa incluir en el prompt uno o varios ejemplos de entrada y salida para que el modelo capte el patrón y lo imite. La entrada son los datos de un caso; la salida, el texto que esperas obtener con ellos.
 
-La documentación de los proveedores coincide en que los ejemplos son una de las formas más confiables de orientar el formato, el tono y la estructura de una respuesta, y en que mejoran la consistencia. Para que funcionen, tienen que parecerse a los casos reales que vas a pedir y ser variados, de modo que cubran situaciones distintas y el modelo no copie un solo caso. Además, todos deben tener el mismo formato y quedar separados de las instrucciones con una etiqueta clara, como «EJEMPLO 1».
+La documentación de los proveedores coincide en que los ejemplos son una de las formas más confiables de orientar el formato, el tono y la estructura de una respuesta, y en que mejoran la consistencia [@F-M2-11]. Para que funcionen, tienen que parecerse a los casos reales que vas a pedir y ser variados, de modo que cubran situaciones distintas y el modelo no copie un solo caso. Además, todos deben tener el mismo formato y quedar separados de las instrucciones con una etiqueta clara, como «EJEMPLO 1» [@F-M2-10; @F-M2-11].
 
-Sobre cuántos ejemplos usar no hay una regla fija. Una guía sugiere de tres a cinco; otra advierte que demasiados pueden hacer que el modelo los copie de más. Para textos breves, este curso propone partir con dos o tres, y tu laboratorio te dirá si hacen falta más.
+Sobre cuántos ejemplos usar no hay una regla fija. Una guía sugiere de tres a cinco [@F-M2-11]; otra advierte que demasiados pueden hacer que el modelo los copie de más [@F-M2-10]. Para textos breves, este curso propone partir con dos o tres, y tu laboratorio te dirá si hacen falta más.
 
 Para armar ejemplos tampoco necesitas copiar correos reales con nombres, teléfonos o direcciones de clientes. El modelo imita la forma y no necesita los datos verdaderos, así que puedes inventarlos.
 
@@ -102,7 +102,7 @@ AHORA
 Entrada: pedido 455, llega el miércoles 20, cliente Distribuidora Sur.
 ```
 
-Fíjate en que el segundo ejemplo no es igual al primero: trae un faltante. Así el modelo aprende qué hacer en ese caso, que en una bodega es frecuente. Son los ejemplos variados y bien separados los que mejoran la consistencia; dos ejemplos casi idénticos le enseñarían menos.
+Fíjate en que el segundo ejemplo no es igual al primero: trae un faltante. Así el modelo aprende qué hacer en ese caso, que en una bodega es frecuente. Son los ejemplos variados y bien separados los que mejoran la consistencia; dos ejemplos casi idénticos le enseñarían menos [@F-M2-11; @F-M2-09].
 
 :::actividad Prueba las dos versiones
 Pega la primera versión en Gemini tres veces, cada una en un chat nuevo, y luego haz lo mismo con la segunda. Anota en tu bitácora cuántas veces salió el asunto, cuántas veces se mantuvo la despedida y si alguna agregó algo que no estaba.
@@ -113,9 +113,9 @@ cubre: S1, C2
 fuentes: F-M2-10, F-M2-11
 bloque: Texto + escenario
 
-Los ejemplos son poderosos, y por eso también pueden llevar a errores. El más frecuente es que el modelo copie de más. Si todos los ejemplos dicen «lunes», puede poner «lunes» aunque la entrada diga otro día. Las guías advierten que demasiados ejemplos, o ejemplos muy parecidos, llevan a este **sobreajuste**: el modelo copia detalles en vez de aplicar el patrón. Por eso es un error creer que mientras más ejemplos, mejor. Conviene empezar con pocos y variados, y agregar uno solo cuando las pruebas muestran que falta cubrir un caso.
+Los ejemplos son poderosos, y por eso también pueden llevar a errores. El más frecuente es que el modelo copie de más. Si todos los ejemplos dicen «lunes», puede poner «lunes» aunque la entrada diga otro día. Las guías advierten que demasiados ejemplos, o ejemplos muy parecidos, llevan a este **sobreajuste**: el modelo copia detalles en vez de aplicar el patrón [@F-M2-10]. Por eso es un error creer que mientras más ejemplos, mejor. Conviene empezar con pocos y variados, y agregar uno solo cuando las pruebas muestran que falta cubrir un caso.
 
-El segundo problema son los ejemplos que se contradicen. Si uno termina con «Saludos cordiales» y otro con «Atentamente», el modelo no sabe cuál usar; por eso el formato debe ser idéntico entre ejemplos. El tercero aparece cuando los ejemplos están mezclados con las instrucciones, porque el modelo puede confundir un ejemplo con un dato real; para evitarlo sirven etiquetas como «EJEMPLO 1» y «AHORA». El último es usar ejemplos que no se parecen a lo que pides: si el ejemplo es un aviso de despacho y necesitas responder un reclamo, el patrón no sirve.
+El segundo problema son los ejemplos que se contradicen. Si uno termina con «Saludos cordiales» y otro con «Atentamente», el modelo no sabe cuál usar; por eso el formato debe ser idéntico entre ejemplos [@F-M2-10]. El tercero aparece cuando los ejemplos están mezclados con las instrucciones, porque el modelo puede confundir un ejemplo con un dato real; para evitarlo sirven etiquetas como «EJEMPLO 1» y «AHORA» [@F-M2-11]. El último es usar ejemplos que no se parecen a lo que pides: si el ejemplo es un aviso de despacho y necesitas responder un reclamo, el patrón no sirve.
 
 Un buen conjunto de ejemplos, entonces, es corto, variado, parejo en el formato y fácil de distinguir del resto del prompt.
 
@@ -132,7 +132,7 @@ cubre: S1, C1
 fuentes: F-M2-10, F-M1-14
 bloque: Texto + tabla por tipo de restricción
 
-Una **restricción** es un límite claro que el texto debe cumplir. Las guías de los proveedores recomiendan decir qué hacer y qué no, fijar un largo máximo e indicar el formato de la respuesta. En textos de oficina, las más útiles son de seis tipos:
+Una **restricción** es un límite claro que el texto debe cumplir. Las guías de los proveedores recomiendan decir qué hacer y qué no, fijar un largo máximo e indicar el formato de la respuesta [@F-M2-10]. En textos de oficina, las más útiles son de seis tipos:
 
 | Tipo | Ejemplo |
 |---|---|
@@ -143,7 +143,7 @@ Una **restricción** es un límite claro que el texto debe cumplir. Las guías d
 | Contenido prohibido | «Sin emojis», «sin promesas de plazos», «sin signos de exclamación» |
 | Qué hacer si falta algo | «Si falta un dato, escribe [FALTA]» |
 
-Cuando puedas, di qué hacer en vez de solo qué no hacer. «Escribe en párrafos cortos» funciona mejor que «no escribas párrafos largos», porque le da al modelo una dirección.
+Cuando puedas, di qué hacer en vez de solo qué no hacer [@F-M1-14]. «Escribe en párrafos cortos» funciona mejor que «no escribas párrafos largos», porque le da al modelo una dirección.
 
 Las restricciones son especialmente útiles para la exactitud. «Usa solo los datos que te entrego», junto con la regla de [FALTA], le da al modelo una alternativa a completar con datos inventados. Y hay una condición para que sirvan: que puedas comprobar si se cumplieron. «Que sea breve» es difícil de medir; «máximo 90 palabras» se cuenta.
 
@@ -170,7 +170,7 @@ No uses frases como "es un placer" ni signos de exclamación.
 Cierra con "Saludos cordiales," y mi nombre: Camila Soto.
 ```
 
-Con las restricciones en líneas separadas, el prompt es más fácil de leer para ti y para el modelo, y más fácil de cambiar después. Cada una, además, se puede comprobar: las palabras se cuentan, el saludo se mira y el acuerdo se compara con lo que se habló en la reunión. Las de asunto y saludo vienen de las recomendaciones sobre el correo que viste en el tema 1.
+Con las restricciones en líneas separadas, el prompt es más fácil de leer para ti y para el modelo, y más fácil de cambiar después [@F-M2-10]. Cada una, además, se puede comprobar: las palabras se cuentan, el saludo se mira y el acuerdo se compara con lo que se habló en la reunión. Las de asunto y saludo vienen de las recomendaciones sobre el correo que viste en el tema 1 [@F-M2-03].
 
 :::actividad Mide el efecto
 Prueba la primera y la segunda versión dos veces cada una, en chats nuevos. Cuenta las palabras de cada resultado, revisa si cumple cada restricción y anota en tu bitácora cuántas cumplió cada versión.
@@ -181,15 +181,15 @@ cubre: S1, C1, A1
 fuentes: F-M2-10, F-M2-11
 bloque: Proceso (process block) en 3 pasos
 
-El **encadenamiento** divide una tarea compleja en pasos, y la salida de un paso alimenta al siguiente. En vez de pedir todo de una vez, pides una cosa, la revisas y usas ese resultado en el pedido que sigue. Una cadena típica para textos tiene tres eslabones:
+El **encadenamiento** divide una tarea compleja en pasos, y la salida de un paso alimenta al siguiente [@F-M2-10]. En vez de pedir todo de una vez, pides una cosa, la revisas y usas ese resultado en el pedido que sigue. Una cadena típica para textos tiene tres eslabones:
 
 1. Primero extraes los hechos: «De estas notas, lista solo los hechos: fechas, cifras, nombres y acuerdos».
 2. Después redactas con ellos: «Con esta lista de hechos, redacta el informe».
 3. Al final revisas y mejoras: «Revisa el informe contra estos criterios. Señala qué no cumple y entrega una versión corregida».
 
-El tercer paso se conoce como autocorrección: el borrador se revisa contra criterios claros y se entrega una versión mejorada.
+El tercer paso se conoce como autocorrección: el borrador se revisa contra criterios claros y se entrega una versión mejorada [@F-M2-11].
 
-Podrías pensar que dividir no hace falta, si los modelos actuales ya razonan bastante por su cuenta. La documentación de un proveedor lo explica: encadenar sirve sobre todo para revisar los resultados intermedios. Si la lista de hechos del primer paso trae un error, lo detectas antes de que se convierta en un párrafo bien escrito. Un solo prompt es más rápido, pero si sale mal no sabes dónde falló, y mezcla lo que hay que verificar con lo que hay que redactar. La cadena toma un poco más de tiempo y te deja ver y corregir cada paso. Por eso el encadenamiento es orden metodológico aplicado: cada paso tiene una tarea, un resultado y una revisión.
+Podrías pensar que dividir no hace falta, si los modelos actuales ya razonan bastante por su cuenta. La documentación de un proveedor lo explica: encadenar sirve sobre todo para revisar los resultados intermedios [@F-M2-11]. Si la lista de hechos del primer paso trae un error, lo detectas antes de que se convierta en un párrafo bien escrito. Un solo prompt es más rápido, pero si sale mal no sabes dónde falló, y mezcla lo que hay que verificar con lo que hay que redactar. La cadena toma un poco más de tiempo y te deja ver y corregir cada paso. Por eso el encadenamiento es orden metodológico aplicado: cada paso tiene una tarea, un resultado y una revisión.
 
 ## P10 · Laboratorio 3: una cadena de tres pasos
 cubre: S1, C1, A1
@@ -202,7 +202,7 @@ Andrés tiene notas desordenadas de su semana y necesita un informe ejecutivo pa
 2. «Con esta lista, redacta un informe ejecutivo de media página para mi jefatura: resultado de la semana, por qué importa y recomendación. Usa solo estos hechos».
 3. «Revisa el informe: ¿empieza por el resultado?, ¿cada cifra está en la lista?, ¿la recomendación es clara? Señala qué no cumple y entrega una versión corregida».
 
-El segundo paso sigue la estructura del informe ejecutivo del tema 1: resultado, por qué importa y qué hacer. Un error frecuente es saltarse la revisión del primer paso y pegar la lista directamente en el segundo. Entonces la cadena pierde su ventaja: un error de la lista llega intacto al informe, y ahora suena convincente.
+El segundo paso sigue la estructura del informe ejecutivo del tema 1: resultado, por qué importa y qué hacer [@F-M2-05]. Un error frecuente es saltarse la revisión del primer paso y pegar la lista directamente en el segundo. Entonces la cadena pierde su ventaja: un error de la lista llega intacto al informe, y ahora suena convincente [@F-M2-11].
 
 :::actividad Compara el camino corto y el largo
 Haz el caso con un solo prompt y luego con la cadena. En tu bitácora, anota en cuál detectaste antes un error y cuál resultado necesitó menos correcciones tuyas.
@@ -213,7 +213,7 @@ cubre: C1, S1
 fuentes: F-M2-11, F-M2-10
 bloque: Tabla + actividad de clasificación
 
-Las técnicas se combinan. Un mismo prompt puede traer ejemplos, una lista de restricciones y ser parte de una cadena. La pregunta útil no es cuántas técnicas usar, sino cuál ataca el problema que tienes.
+Las técnicas se combinan. Un mismo prompt puede traer ejemplos, una lista de restricciones y ser parte de una cadena [@F-M2-11; @F-M2-10]. La pregunta útil no es cuántas técnicas usar, sino cuál ataca el problema que tienes.
 
 | Si el problema es… | Prueba primero… |
 |---|---|
@@ -240,9 +240,9 @@ cubre: S1, H1
 fuentes: F-M2-09, F-M1-12
 bloque: Texto + imagen de una plantilla con secciones
 
-Cuando un prompt funciona, conviene guardarlo como **plantilla**: un texto con partes fijas, que no cambian, y campos variables, que completas cada vez. La guía de instrucciones de Google para Gemini marca con corchetes lo que hay que personalizar, por ejemplo [nombre del cliente].
+Cuando un prompt funciona, conviene guardarlo como **plantilla**: un texto con partes fijas, que no cambian, y campos variables, que completas cada vez. La guía de instrucciones de Google para Gemini marca con corchetes lo que hay que personalizar, por ejemplo [nombre del cliente] [@F-M1-12].
 
-La documentación de OpenAI propone ordenar un prompt en secciones: la identidad o rol, las instrucciones, los ejemplos y el contexto, que son los datos de cada vez, separadas con encabezados o etiquetas. Una plantilla para textos de oficina puede verse así:
+La documentación de OpenAI propone ordenar un prompt en secciones: la identidad o rol, las instrucciones, los ejemplos y el contexto, que son los datos de cada vez, separadas con encabezados o etiquetas [@F-M2-09]. Una plantilla para textos de oficina puede verse así:
 
 ```
 ROL: Eres [cargo] en [tipo de empresa].
@@ -286,7 +286,7 @@ INFORMACIÓN DISPONIBLE: [horarios, precios, plazos]
 CONSULTA: [texto del cliente]
 ```
 
-Lo que se completa cada vez son la consulta y la información disponible. Las restricciones y la estructura quedan fijas, y por eso la plantilla da resultados parecidos. Las guías de los proveedores recomiendan precisamente usar etiquetas consistentes para separar instrucciones, contexto y datos.
+Lo que se completa cada vez son la consulta y la información disponible. Las restricciones y la estructura quedan fijas, y por eso la plantilla da resultados parecidos. Las guías de los proveedores recomiendan precisamente usar etiquetas consistentes para separar instrucciones, contexto y datos [@F-M2-11; @F-M2-09].
 
 :::actividad Completa tu plantilla
 1. Elige el texto repetitivo de tu cargo.
@@ -300,7 +300,7 @@ cubre: H1, C2
 fuentes: F-M2-09, F-M2-08
 bloque: Texto + tabla de evaluación
 
-Una plantilla es **consistente** cuando entrega textos con la misma calidad y el mismo formato, aunque cambien los datos y aunque la uses varias veces. Como la misma indicación puede dar respuestas distintas, la única forma de saberlo es probar.
+Una plantilla es **consistente** cuando entrega textos con la misma calidad y el mismo formato, aunque cambien los datos y aunque la uses varias veces. Como la misma indicación puede dar respuestas distintas, la única forma de saberlo es probar [@F-M2-08; @F-M2-09].
 
 Prepara tres casos de prueba distintos: uno simple, uno con un dato que falta y uno difícil, por ejemplo, un cliente molesto. Usa la plantilla con cada caso dos veces, en chats nuevos, para que la conversación anterior no influya, y revisa cada resultado con los mismos criterios:
 
@@ -323,7 +323,7 @@ cubre: C2, H1, A2
 fuentes: F-M2-09, F-M2-10
 bloque: Comparación antes y después + actividad
 
-Ahora vas a mejorar tu plantilla con datos, no con impresiones. Mira primero cómo lo hizo Andrés con su plantilla de avisos de despacho. Probó cada versión con sus tres casos, dos veces cada uno, y anotó los resultados, que son ficticios:
+Ahora vas a mejorar tu plantilla con datos, no con impresiones [@F-M2-09]. Mira primero cómo lo hizo Andrés con su plantilla de avisos de despacho. Probó cada versión con sus tres casos, dos veces cada uno, y anotó los resultados, que son ficticios:
 
 | Criterio | v1 (sin ejemplos) | v2 (con 2 ejemplos) | v3 (con ejemplos y regla de [FALTA]) |
 |---|---|---|---|
@@ -332,7 +332,7 @@ Ahora vas a mejorar tu plantilla con datos, no con impresiones. Mira primero có
 | Datos exactos | 5 de 6 | 5 de 6 | 6 de 6 |
 | Marcó lo que faltaba | 0 de 2 | 1 de 2 | 2 de 2 |
 
-La v2 resolvió el formato y la v3 resolvió los datos que faltaban. Como cada versión cambió una sola cosa, Andrés sabe qué produjo cada mejora, y se queda con la v3. Si una versión nueva no hubiera mejorado, también habría aprendido algo: volvería a la anterior y probaría otro cambio. La mejora continua incluye descartar.
+La v2 resolvió el formato y la v3 resolvió los datos que faltaban. Como cada versión cambió una sola cosa, Andrés sabe qué produjo cada mejora, y se queda con la v3. Si una versión nueva no hubiera mejorado, también habría aprendido algo: volvería a la anterior y probaría otro cambio [@F-M2-10]. La mejora continua incluye descartar.
 
 :::actividad Tu comparación
 1. Prueba tu plantilla v1 con tus tres casos, dos veces cada uno.
@@ -346,11 +346,11 @@ cubre: A2, H1
 fuentes: F-M2-11, F-M1-12
 bloque: Texto + escenario
 
-La documentación de Anthropic propone una prueba simple: muéstrale tu prompt a una colega que no sabe nada de la tarea. Si ella no entendería qué se pide, el modelo probablemente tampoco. El asistente no conoce tu trabajo; solo sabe lo que está escrito.
+La documentación de Anthropic propone una prueba simple: muéstrale tu prompt a una colega que no sabe nada de la tarea [@F-M2-11]. Si ella no entendería qué se pide, el modelo probablemente tampoco. El asistente no conoce tu trabajo; solo sabe lo que está escrito.
 
 En esa revisión conviene mirar cuatro cosas: si se entiende qué texto hay que producir y para quién, si hay palabras que solo entiende tu equipo, como siglas o nombres internos, si las restricciones se contradicen entre sí y si queda claro qué es ejemplo y qué es dato real. Es fácil caer en la idea de que «si lo entiendo yo, lo entiende el modelo». Tú conoces el contexto y llenas los vacíos sin darte cuenta; el modelo no puede hacerlo, y lo que no está escrito en el prompt no existe para él.
 
-También puedes pedirle al asistente que mejore tu prompt, como sugiere la guía de instrucciones de Google para Gemini: «Revisa esta plantilla. ¿Qué instrucción es ambigua? ¿Qué falta para que el resultado sea siempre igual de bueno?». Sus propuestas son eso, propuestas: pruébalas en el laboratorio antes de aceptarlas.
+También puedes pedirle al asistente que mejore tu prompt, como sugiere la guía de instrucciones de Google para Gemini: «Revisa esta plantilla. ¿Qué instrucción es ambigua? ¿Qué falta para que el resultado sea siempre igual de bueno?» [@F-M1-12]. Sus propuestas son eso, propuestas: pruébalas en el laboratorio antes de aceptarlas.
 
 :::ejemplo La sigla que nadie entendía
 La plantilla de Andrés decía «avisar si hay OC pendiente». Una colega de ventas le preguntó qué era «OC». Andrés lo cambió por «orden de compra pendiente», y los avisos dejaron de salir con interpretaciones raras.
@@ -361,7 +361,7 @@ cubre: A1, A2
 fuentes: F-M2-09, F-M2-10
 bloque: Texto + lista de verificación (checklist)
 
-Las plantillas no se terminan nunca del todo. Cambian tus tareas, cambian los casos y cambian los modelos. La documentación de OpenAI recomienda volver a probar las indicaciones cuando se cambia de modelo, porque el comportamiento puede variar, y la de Google insiste en que el diseño de prompts es iterativo. Estos hábitos te ayudan a sostener el orden y la mejora en el tiempo:
+Las plantillas no se terminan nunca del todo. Cambian tus tareas, cambian los casos y cambian los modelos. La documentación de OpenAI recomienda volver a probar las indicaciones cuando se cambia de modelo, porque el comportamiento puede variar [@F-M2-09], y la de Google insiste en que el diseño de prompts es iterativo [@F-M2-10]. Estos hábitos te ayudan a sostener el orden y la mejora en el tiempo:
 
 - [ ] Cada plantilla tiene un nombre claro y un número de versión.
 - [ ] Guardo junto a la plantilla sus casos de prueba y anoto qué cambié en cada versión y por qué.
@@ -385,7 +385,7 @@ cubre: C1, C2, H1
 fuentes: F-M2-09, F-M2-11
 bloque: Texto + actividad de cierre (respuesta abierta)
 
-En este tema aplicaste tres técnicas. Los ejemplos fijan el formato y el tono, las restricciones ponen límites que se pueden comprobar y el encadenamiento divide una tarea para revisar cada paso. Guardaste lo aprendido en plantillas reutilizables y mediste su consistencia comparando versiones con los mismos casos de prueba.
+En este tema aplicaste tres técnicas. Los ejemplos fijan el formato y el tono, las restricciones ponen límites que se pueden comprobar y el encadenamiento divide una tarea para revisar cada paso [@F-M2-11]. Guardaste lo aprendido en plantillas reutilizables y mediste su consistencia comparando versiones con los mismos casos de prueba [@F-M2-09].
 
 En el Hito 1 armaste tu primera biblioteca de prompts. Ahora vas a sumarle dos plantillas probadas para tu cargo, que son las que más tiempo te van a ahorrar en las tareas que se repiten. Una plantilla que pasó tus pruebas es una herramienta de trabajo; una que no probaste es solo un buen intento.
 
@@ -407,35 +407,13 @@ Para cada una, guarda la versión final con su número, tus tres casos de prueba
 6. La consistencia se evalúa con casos de prueba fijos, criterios claros y versiones que cambian una cosa a la vez.
 7. Las plantillas se vuelven a probar cuando cambian la tarea, los casos o el modelo: es un proceso de mejora continua.
 
-## Glosario
+## Referencias bibliográficas
 
-- **Few-shot**: técnica que incluye en el prompt unos pocos ejemplos de entrada y salida para que el modelo imite el patrón.
-- **Ejemplo de entrada y salida**: par que muestra un caso (los datos) y el texto que se espera obtener con ellos.
-- **Sobreajuste a los ejemplos**: cuando el modelo copia detalles de los ejemplos en vez de aplicar solo su patrón.
-- **Restricción**: límite que el texto debe cumplir, como un largo máximo, un formato o un contenido prohibido.
-- **Encadenamiento**: división de una tarea en pasos, en que la salida de cada paso se usa en el siguiente.
-- **Autocorrección**: paso de una cadena en que se pide revisar un borrador contra criterios y entregar una versión mejorada.
-- **Plantilla de prompt**: prompt guardado con partes fijas y campos variables, para reutilizarlo.
-- **Campo variable**: parte de una plantilla, marcada con corchetes, que se completa con los datos de cada caso.
-- **Etiqueta**: palabra o encabezado que separa las secciones de un prompt, como ROL, EJEMPLO o DATOS.
-- **Consistencia**: capacidad de un prompt de dar resultados con la misma calidad y formato en distintos usos.
-- **Caso de prueba**: situación fija que se usa para probar un prompt y comparar sus versiones.
-- **Versión de un prompt**: cada variante guardada y numerada de un prompt, con registro de qué cambió.
-- **Bitácora de laboratorio**: registro de las versiones, los casos de prueba y los resultados de cada prueba.
-
-## Conexión con el proyecto
-
-Tus dos plantillas probadas (P18) amplían la **biblioteca de prompts** que empezaste en el Hito 1. En el **Hito 2: brief del proyecto + presentación de 6 láminas** te van a servir para redactar el brief: puedes usar una cadena de pasos (extraer los hechos de tu problema, redactar el brief y revisarlo contra objetivo, audiencia y mensaje) y aplicar restricciones para que quede breve y sin datos inventados.
-
-## Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M2.md` y `investigacion/M1.md` (consultadas el 24-10-2026).
-
-- F-M2-03 · Universidad de Las Palmas de Gran Canaria; Rodríguez-Rodríguez y García-Sánchez (s. f.). Redacción del correo electrónico en español e inglés: breves recomendaciones. https://iatext.ulpgc.es/sites/default/files/recomendaciones_correo_electronico_0.pdf
-- F-M2-05 · Carnegie Mellon University, Student Academic Success Center (s. f.). Executive Summaries. https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/executive-summaries.pdf
-- F-M2-08 · Microsoft Support (2026). Introducción a la escritura de indicaciones en Microsoft Copilot. https://support.microsoft.com/es-es/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5
-- F-M2-09 · OpenAI (s. f.). Prompt engineering. https://developers.openai.com/api/docs/guides/prompt-engineering
-- F-M2-10 · Google AI for Developers (2026). Prompt design strategies. https://ai.google.dev/gemini-api/docs/prompting-strategies
-- F-M2-11 · Anthropic (s. f.). Prompting best practices. https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices
-- F-M1-12 · Google Workspace (2026). Cómo escribir instrucciones eficaces. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
-- F-M1-14 · Anthropic (2026). Mejores prácticas de prompting. https://platform.claude.com/docs/es/build-with-claude/prompt-engineering/claude-prompting-best-practices
+- Anthropic. (s. f.-a). *Mejores prácticas de prompting*. Claude Docs. https://platform.claude.com/docs/es/build-with-claude/prompt-engineering/claude-prompting-best-practices
+- Anthropic. (s. f.-b). *Prompting best practices*. Claude Docs. https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices
+- Carnegie Mellon University. (s. f.). *Executive summaries*. Student Academic Success Center. https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/executive-summaries.pdf
+- Google. (s. f.). *Cómo escribir instrucciones eficaces*. Google Workspace. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
+- Google. (2026, 13 de octubre). *Prompt design strategies*. Google AI for Developers. https://ai.google.dev/gemini-api/docs/prompting-strategies
+- Microsoft. (2026). *Introducción a la escritura de indicaciones en Microsoft Copilot*. Microsoft Support. https://support.microsoft.com/es-es/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5
+- OpenAI. (s. f.). *Prompt engineering*. OpenAI API Docs. https://developers.openai.com/api/docs/guides/prompt-engineering
+- Rodríguez-Rodríguez, M. N. y García-Sánchez, S. (s. f.). *Redacción del correo electrónico en español e inglés: breves recomendaciones*. Universidad de Las Palmas de Gran Canaria. https://iatext.ulpgc.es/sites/default/files/recomendaciones_correo_electronico_0.pdf

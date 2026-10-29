@@ -17,7 +17,7 @@ justificación de por qué usar IA en ella es viable.
 El taller avanza en cuatro hitos. En este tema entregas el Hito 6a, con el diagnóstico, la meta y el plan de medición. En el segundo
 tema implementas y documentas el flujo (Hito 6b), y en el tercero mides los resultados (Hito 6c) y preparas un pitch de tres minutos
 y tu portafolio final (Hito 6d). Un método de mejora muy usado se ordena con tres preguntas: qué quieres lograr, cómo sabrás que un
-cambio es una mejora y qué cambio vas a probar. Este tema responde las dos primeras, porque sin un punto de partida medido no hay
+cambio es una mejora y qué cambio vas a probar [@F-M6-04]. Este tema responde las dos primeras, porque sin un punto de partida medido no hay
 forma de saber, al final, si tu proyecto funcionó.
 
 :::ejemplo Dos proyectos que se cierran
@@ -49,7 +49,7 @@ qué. Si un hito quedó incompleto, no lo rehagas entero: anota qué le falta y 
 inicial y no la perfección de lo anterior.
 
 Tener a la vista lo que ya hiciste es parte de la **orientación a resultados**: mirar el proyecto como un todo que tiene que producir
-una mejora en tu trabajo, y no como una lista de tareas sueltas del curso.
+una mejora en tu trabajo, y no como una lista de tareas sueltas del curso [@F-M6-04].
 
 :::actividad Arma tu carpeta del proyecto
 Crea una carpeta llamada «Proyecto IA · [tu nombre]» y guarda en ella una copia de cada hito, del 1 al 5, junto con la
@@ -63,7 +63,7 @@ fuentes: F-M6-01, F-M6-04
 bloque: Texto + escenario (el diagnóstico de Andrés)
 
 Un **diagnóstico** describe la situación actual de la tarea que quieres mejorar: cómo se hace, cuánto cuesta en tiempo o en errores
-y qué la complica. Es la foto del «antes», y para tomarla conviene responder cinco preguntas en orden:
+y qué la complica [@F-M6-01]. Es la foto del «antes», y para tomarla conviene responder cinco preguntas en orden:
 
 1. ¿Cuál es la tarea? Una sola, con un verbo: registrar, responder, resumir, avisar.
 2. ¿Cómo se hace hoy? Los pasos, en orden, y quién hace cada uno.
@@ -72,7 +72,7 @@ y qué la complica. Es la foto del «antes», y para tomarla conviene responder 
 5. ¿Cómo lo sabes? Un registro, una planilla, tu propia medición.
 
 La quinta pregunta es la que más se olvida. Un error común es escribir «me demoro mucho» o «hay muchos errores». ¿Cuánto es mucho?
-Sin datos, el diagnóstico es una impresión y al final no podrás demostrar que algo mejoró. Con datos, se convierte en una situación
+Sin datos, el diagnóstico es una impresión y al final no podrás demostrar que algo mejoró [@F-M6-04]. Con datos, se convierte en una situación
 inicial contra la que vas a comparar después.
 
 Como tu proyecto es sobre una tarea de tu cargo, el diagnóstico lo escribes desde lo que ves cada semana. Si la tarea pasa por varias
@@ -89,10 +89,10 @@ cubre: S1, C1
 fuentes: F-M6-01, F-M6-02
 bloque: Texto + tabla de registro descargable + pregunta de verificación
 
-La **línea base** es el valor de un indicador en el punto de partida. Informa la situación inicial y es la referencia para saber, más
-adelante, si tus esfuerzos dieron resultado. Sin línea base no se puede fijar una meta con sentido.
+La **línea base** es el valor de un indicador en el punto de partida [@F-M6-02]. Informa la situación inicial y es la referencia para saber, más
+adelante, si tus esfuerzos dieron resultado. Sin línea base no se puede fijar una meta con sentido [@F-M6-01].
 
-Si no tienes datos, lo recomendable es levantarlos en un primer periodo, antes de cambiar nada. Para tu proyecto basta con registrar
+Si no tienes datos, lo recomendable es levantarlos en un primer periodo, antes de cambiar nada [@F-M6-01]. Para tu proyecto basta con registrar
 la tarea durante una o dos semanas, tal como la haces hoy. Una tabla simple funciona bien:
 
 | Fecha | Caso | Minutos | Errores | Observación |
@@ -120,7 +120,7 @@ fuentes: F-M6-02, F-M6-05
 bloque: Texto + tabla (las cuatro partes de un indicador) + actividad
 
 Un **indicador** es la medida que te dice si avanzas. No basta con nombrarlo: se define con cuatro partes, que en el caso de Andrés
-quedan así.
+quedan así [@F-M6-02].
 
 | Parte | Pregunta | Ejemplo de Andrés |
 |---|---|---|
@@ -133,7 +133,7 @@ Los indicadores pueden mirar cosas distintas. Algunos miden el proceso, como cu�
 cuántos avisos salen bien hechos; y otros, el resultado, como si bajan los reclamos. También se distinguen por lo que cuidan: la
 eficiencia, que es tiempo y recursos, o la calidad, que es errores y claridad. En un flujo con IA puedes combinar medidas numéricas,
 como el tiempo o la cantidad de tareas completadas, con escalas de calidad, como una rúbrica simple de 1 a 4 para la claridad de un
-texto. En la mayoría de los casos conviene usar varios indicadores a la vez.
+texto [@F-M6-05]. En la mayoría de los casos conviene usar varios indicadores a la vez.
 
 Un error común es elegir algo que no se puede medir. Camila pensó primero en «sentirme más ordenada». Es una buena aspiración, pero
 no tiene fórmula ni fuente: nadie podría decir cuánto vale hoy ni cuánto al final. Le sirve mucho más medir lo que su flujo cambia,
@@ -153,8 +153,8 @@ bloque: Texto + comparación antes y después + pregunta de verificación
 La **meta** dice cuánto esperas que cambie un indicador y en qué plazo. Una forma clásica de revisarla es el criterio **SMART**, por
 sus iniciales en inglés. Una meta SMART es específica, porque dice quién hace qué con un solo verbo de acción y evita verbos vagos
 como «mejorar» o «entender». Es medible, porque dice cuánto cambio esperas desde un punto de referencia, que es tu línea base. Es
-alcanzable con el tiempo y los recursos que tienes, realista para el tamaño del problema y tiene un plazo, que es cuándo vas a medir.
-Algunas guías leen la R como «relevante»; en este curso usamos «realista», porque pide lo mismo que el realismo al fijar metas.
+alcanzable con el tiempo y los recursos que tienes, realista para el tamaño del problema y tiene un plazo, que es cuándo vas a medir [@F-M6-03].
+Algunas guías leen la R como «relevante» [@F-M6-05]; en este curso usamos «realista», porque pide lo mismo que el realismo al fijar metas.
 
 Mira cómo cambian dos metas cuando pasan por ese filtro:
 
@@ -179,8 +179,8 @@ cubre: A2, S3, C1
 fuentes: F-M6-01, F-M6-03
 bloque: Texto + escenario (Andrés ajusta su meta) + actividad
 
-Una meta tiene que ser **realista y retadora** a la vez. Realista, porque se puede cumplir con las personas, el tiempo y las
-herramientas que tienes. Retadora, porque no se cumple sola, sin hacer nada distinto. Una meta demasiado fácil no demuestra nada, y
+Una meta tiene que ser **realista y retadora** a la vez [@F-M6-01]. Realista, porque se puede cumplir con las personas, el tiempo y las
+herramientas que tienes [@F-M6-03]. Retadora, porque no se cumple sola, sin hacer nada distinto. Una meta demasiado fácil no demuestra nada, y
 una imposible desanima y empuja a maquillar los resultados al final.
 
 Para calibrarla, mira tres cosas. La primera es tu línea base: si hoy haces 45 %, saltar a 100 % en dos semanas es poco probable. La
@@ -206,8 +206,8 @@ fuentes: F-M6-06, F-M6-07
 bloque: Texto + lista de verificación (checklist)
 
 Antes de implementar conviene tomar una decisión explícita: seguir o no seguir con la IA en este desafío. Esa decisión se apoya en lo
-que sabes del contexto, de los beneficios que esperas y de los daños posibles. Que la herramienta pueda hacer la tarea no basta: sin
-datos para medir, sin permiso o con datos personales expuestos, el proyecto no pasa la prueba aunque la IA funcione.
+que sabes del contexto, de los beneficios que esperas y de los daños posibles [@F-M6-06]. Que la herramienta pueda hacer la tarea no basta: sin
+datos para medir, sin permiso o con datos personales expuestos, el proyecto no pasa la prueba aunque la IA funcione [@F-M6-07].
 
 Revisa tu desafío con estos criterios de **viabilidad**:
 
@@ -233,7 +233,7 @@ fuentes: F-M6-02, F-M6-04
 bloque: Texto + tabla descargable (plantilla del plan) + pregunta de verificación
 
 El **plan de medición** reúne en una tabla lo que decidiste: qué indicador, cómo se calcula, de dónde sale el dato, cada cuánto se
-mide, cuánto vale hoy y cuánto debería valer al final. Es tu respuesta a la pregunta «¿cómo sabré que el cambio es una mejora?». Este
+mide, cuánto vale hoy y cuánto debería valer al final [@F-M6-02]. Es tu respuesta a la pregunta «¿cómo sabré que el cambio es una mejora?» [@F-M6-04]. Este
 es el de Andrés:
 
 | Indicador | Fórmula | Fuente | Frecuencia | Línea base | Meta (4 semanas) |
@@ -265,7 +265,7 @@ fuentes: F-M6-01, F-M6-03
 bloque: Texto + tabla de la rúbrica + lista de verificación
 
 Ya tienes todas las piezas. El Hito 6a, diagnóstico, meta y plan de medición, es un documento breve, de una o dos páginas. Parte con
-el diagnóstico de la tarea (P03) y la línea base, explicando cómo obtuviste los datos (P04). Sigue con la meta SMART y sus
+el diagnóstico de la tarea (P03) y la línea base, explicando cómo obtuviste los datos (P04) [@F-M6-01]. Sigue con la meta SMART [@F-M6-03] y sus
 indicadores (P05 a P07), la justificación de viabilidad con los criterios de P08 y, al final, la tabla del plan de medición (P09).
 
 Tu tutor lo revisa con la rúbrica general de hitos del curso y te responde en un plazo de 72 horas como máximo. Cada criterio se
@@ -302,36 +302,12 @@ Hito 6d. Aprovéchalos para corregir ahora lo que después costaría más.
    jefatura está de acuerdo; si falla un criterio, a veces basta con cambiar el alcance.
 7. El plan de medición se decide antes de implementar, para que la comparación final sea válida.
 
-## Glosario
+## Referencias bibliográficas
 
-- **Diagnóstico**: descripción de cómo se hace hoy una tarea, cuánto cuesta y qué sale mal, apoyada en datos.
-- **Situación inicial**: estado de la tarea antes de cualquier cambio, descrito con el diagnóstico y la línea base.
-- **Línea base**: valor de un indicador en el punto de partida, que sirve de referencia para comparar después.
-- **Indicador**: medida que muestra si se avanza hacia una meta.
-- **Fórmula del indicador**: forma de calcular el indicador a partir de los datos.
-- **Fuente del indicador**: lugar de donde sale el dato, como un registro o una planilla.
-- **Frecuencia de medición**: cada cuánto se calcula el indicador.
-- **Indicador de proceso**: indicador que mide cómo se hace la tarea, por ejemplo el tiempo que toma.
-- **Indicador de resultado**: indicador que mide el efecto buscado, por ejemplo la baja de los reclamos.
-- **Meta**: cambio esperado en un indicador, con un valor y un plazo.
-- **Meta SMART**: meta específica, medible, alcanzable, realista y con plazo.
-- **Viabilidad**: condición de un proyecto que se puede llevar a cabo y medir con los datos, recursos y permisos disponibles.
-- **Plan de medición**: tabla que define, para cada indicador, fórmula, fuente, frecuencia, línea base y meta.
-
-## Conexión con el proyecto
-
-Este tema es el **Hito 6a del proyecto aplicado: diagnóstico, meta y plan de medición**. El documento que armas en P10 retoma el
-desafío del Hito 1, el brief del Hito 2, la investigación del Hito 3 y el prototipo del Hito 5, y fija la línea base contra la que
-compararás tus resultados en el Hito 6c. El tutor te devuelve su retroalimentación en un plazo de 72 horas como máximo.
-
-## Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M6.md` (consultadas el 24-10-2026).
-
-- F-M6-01 · CONEVAL (2019). Guía para el establecimiento y cálculo de líneas base y metas. https://www.coneval.org.mx/InformesPublicaciones/Documents/Guia_lineas_base_metas.pdf
-- F-M6-02 · CIPPEC; Aquilino, Arena, Gutiérrez Bode y Scolari (2019). Guía N.º 5: Cómo construir indicadores. https://www.cippec.org/wp-content/uploads/2019/06/PP-ME-Guia-5.pdf
-- F-M6-03 · CDC (2018). Writing SMART Objectives (Evaluation Brief n.º 3b). https://spice.unc.edu/wp-content/uploads/2023/11/CDC-SMART.pdf
-- F-M6-04 · Institute for Healthcare Improvement (s. f.). Model for Improvement. https://www.ihi.org/library/model-for-improvement
-- F-M6-05 · Anthropic (s. f.). Define success criteria and build evaluations. https://platform.claude.com/docs/es/test-and-evaluate/develop-tests
-- F-M6-06 · NIST (2023). Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf
-- F-M6-07 · University of Bath (s. f.). Automation standards for Microsoft Power Automate. https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate
+- Anthropic. (s. f.). *Define success criteria and build evaluations*. Claude Docs. https://platform.claude.com/docs/en/test-and-evaluate/develop-tests
+- CDC. (2018). *Writing SMART objectives (Evaluation Brief n.º 3b)*. https://spice.unc.edu/wp-content/uploads/2023/11/CDC-SMART.pdf
+- CIPPEC. (2019). *Guía n.º 5: cómo construir indicadores*. https://www.cippec.org/wp-content/uploads/2019/06/PP-ME-Guia-5.pdf
+- CONEVAL. (2019). *Guía para el establecimiento y cálculo de líneas base y metas*. https://www.coneval.org.mx/InformesPublicaciones/Documents/Guia_lineas_base_metas.pdf
+- Institute for Healthcare Improvement. (s. f.). *Model for improvement*. https://www.ihi.org/library/model-for-improvement
+- National Institute of Standards and Technology. (2023). *Artificial intelligence risk management framework (AI RMF 1.0) (NIST AI 100-1)*. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf
+- University of Bath. (s. f.). *Automation standards for Microsoft Power Automate*. https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate

@@ -1,6 +1,6 @@
 # IA generativa para entornos laborales · Contenidos base
 
-Generado el 2026-10-28 desde `contenido/`. 6 módulos · 22 aprendizajes esperados.
+Generado el 2026-10-29 desde `contenido/`. 6 módulos · 22 aprendizajes esperados.
 
 
 ---
@@ -18,7 +18,7 @@ fuentes: F-M1-02
 bloque: Texto + imagen de portada
 
 En este tema vas a conocer la herramienta con la que trabajarás todo el curso. Antes de pedirle algo a una inteligencia artificial
-conviene saber qué es, cómo produce sus respuestas, qué tipos existen y dónde se equivoca. Con eso vas a poder decidir cuándo te
+conviene saber qué es, cómo produce sus respuestas, qué tipos existen y dónde se equivoca [@F-M1-02]. Con eso vas a poder decidir cuándo te
 ahorra tiempo en tu trabajo y cuándo no.
 
 El aprendizaje esperado es este: Explicar el funcionamiento general, los tipos y los límites de la IA generativa, ejemplificando sus
@@ -36,7 +36,7 @@ fuentes: F-M1-02, F-M1-01
 bloque: Texto + tabla comparativa
 
 La **inteligencia artificial generativa** es un tipo de IA que produce contenido nuevo: textos, imágenes, audio, y también código o
-video. No te entrega algo que estaba guardado en alguna parte, como hace un buscador cuando te muestra una página que ya existe. Crea
+video [@F-M1-02; @F-M1-01]. No te entrega algo que estaba guardado en alguna parte, como hace un buscador cuando te muestra una página que ya existe. Crea
 un resultado a partir de lo que le pides.
 
 La diferencia se ve mejor al lado de herramientas que ya usas en la oficina:
@@ -62,7 +62,7 @@ fuentes: F-M1-02, F-M1-09
 bloque: Proceso (process block) en 3 pasos
 
 Un modelo generativo de texto aprendió a partir de enormes cantidades de ejemplos escritos. De ese entrenamiento sacó sobre todo
-patrones: qué palabras suelen ir con otras, cómo se ordena un correo, cómo se responde una pregunta. Cuando le escribes, no busca una
+patrones: qué palabras suelen ir con otras, cómo se ordena un correo, cómo se responde una pregunta [@F-M1-02]. Cuando le escribes, no busca una
 respuesta guardada. Arma una nueva, pieza por pieza, y lo hace tan rápido que parece que escribiera frente a ti.
 
 El proceso se repite muchas veces en cada respuesta:
@@ -73,7 +73,7 @@ El proceso se repite muchas veces en cada respuesta:
 
 Esa elección tiene algo de azar, y por eso el mismo pedido puede darte respuestas distintas. También explica algo más importante: el
 modelo no «sabe» ni «entiende» como una persona, sino que predice texto plausible. Casi siempre eso coincide con algo correcto y útil,
-pero no siempre, y de esa diferencia nacen los límites que verás más adelante en este tema.
+pero no siempre, y de esa diferencia nacen los límites que verás más adelante en este tema [@F-M1-09].
 
 :::error «Si lo dice con seguridad, es verdad»
 El tono seguro es parte del estilo que aprendió el modelo, no una prueba de que el contenido sea correcto. Una respuesta puede sonar
@@ -85,10 +85,10 @@ cubre: S2, C1, C2
 fuentes: F-M1-02, F-M1-12
 bloque: Texto + knowledge check
 
-Los **modelos de lenguaje** generan texto. Son la base de los asistentes conversacionales más conocidos, a los que les escribes como si
+Los **modelos de lenguaje** generan texto [@F-M1-02]. Son la base de los asistentes conversacionales más conocidos, a los que les escribes como si
 fuera un chat. En una oficina sirven para redactar borradores de correos, avisos y minutas; para resumir un documento largo o un
 reglamento interno; para pasar un texto informal a uno formal, o acortarlo; para ordenar notas sueltas en una lista o una tabla, y
-para que te expliquen un término técnico con un ejemplo simple.
+para que te expliquen un término técnico con un ejemplo simple [@F-M1-12].
 
 Camila los usa casi a diario. Un proveedor le escribió para reclamar por un pago y ella tomó apuntes sueltos de lo que averiguó con
 contabilidad. Le pide a un asistente que ordene esos apuntes en un correo de respuesta de diez líneas y recibe un borrador en segundos.
@@ -110,7 +110,7 @@ cubre: S2, C1, C2
 fuentes: F-M1-02, F-M1-05
 bloque: Texto + galería o imagen con descripción
 
-Los **modelos de imagen** generan imágenes a partir de una descripción escrita. También pueden modificar una imagen que ya tienes:
+Los **modelos de imagen** generan imágenes a partir de una descripción escrita [@F-M1-02]. También pueden modificar una imagen que ya tienes:
 cambiar el fondo, quitar un objeto o crear variaciones. En el trabajo sirven para ilustrar una presentación o un afiche, para mostrar
 una idea en un boceto antes de encargar un diseño, o para probar varias versiones y ver cuál comunica mejor.
 
@@ -118,7 +118,7 @@ Para pedir una imagen se describe lo que se quiere ver: el objeto, el estilo, lo
 simple de una bodega ordenada, estilo plano, colores azul y gris, sin texto».
 
 Un error común es usar la imagen generada sin mirarla con calma. A estos modelos todavía les cuesta escribir texto nítido dentro de la
-imagen y ubicar cada elemento justo donde se pidió, así que una imagen puede traer letras ilegibles o piezas fuera de lugar. Se revisa
+imagen y ubicar cada elemento justo donde se pidió, así que una imagen puede traer letras ilegibles o piezas fuera de lugar [@F-M1-05]. Se revisa
 siempre antes de imprimirla o publicarla. Las licencias y los derechos de uso los verás en detalle en el módulo 4.
 
 :::ejemplo Andrés y el afiche de seguridad
@@ -132,8 +132,8 @@ cubre: S2, C1, C2
 fuentes: F-M1-02, F-M1-04
 bloque: Texto + audio de ejemplo (opcional)
 
-Los **modelos de audio** generan sonido: voz sintética a partir de un texto, música o efectos. Algunas herramientas además hacen lo
-contrario y convierten una grabación en texto, algo útil para tomar notas de una reunión. En el trabajo se usan para locutar un video
+Los **modelos de audio** generan sonido: voz sintética a partir de un texto, música o efectos [@F-M1-02]. Algunas herramientas además hacen lo
+contrario y convierten una grabación en texto, algo útil para tomar notas de una reunión [@F-M1-04]. En el trabajo se usan para locutar un video
 de capacitación o un mensaje informativo, para escuchar en voz alta un texto mientras lo revisas, o para crear una pista musical de
 fondo para un video breve.
 
@@ -151,7 +151,7 @@ cubre: S2, C1
 fuentes: F-M1-04
 bloque: Ordenar o clasificar (sorting activity)
 
-Muchas herramientas actuales son **multimodales**: reciben o entregan más de un tipo de contenido. Puedes, por ejemplo, sacarle una
+Muchas herramientas actuales son **multimodales**: reciben o entregan más de un tipo de contenido [@F-M1-04]. Puedes, por ejemplo, sacarle una
 foto a una factura en papel y pedir que te pase sus datos a una tabla. Entra una imagen y sale texto.
 
 Aun así, cada tarea tiene un tipo de salida, y esa salida te dice qué buscar. Si necesitas un correo, un resumen o una lista, trabajas
@@ -175,8 +175,8 @@ bloque: Texto + imagen de un texto dividido en fragmentos
 
 Los modelos no leen palabras completas como tú: dividen el texto en fragmentos llamados **tokens**. Un token puede ser una palabra
 corta, parte de una palabra larga, un carácter o un signo de puntuación, y los espacios y las mayúsculas también cambian la forma en
-que se divide. Una palabra como «inventario» puede quedar partida en más de un token, y la cantidad de tokens de un mismo texto cambia
-según el idioma y el modelo.
+que se divide [@F-M1-06]. Una palabra como «inventario» puede quedar partida en más de un token, y la cantidad de tokens de un mismo texto cambia
+según el idioma y el modelo [@F-M1-03].
 
 Te importa porque los tokens son la unidad con que el modelo mide su trabajo. Lo que puede leer de una vez tiene un máximo, contado en
 tokens, y la respuesta tiene su propio tope. Un error común es suponer que el asistente siempre lee completo el documento que pegaste:
@@ -194,14 +194,14 @@ fuentes: F-M1-07, F-M1-08
 bloque: Texto + escenario o conversación de ejemplo
 
 El **contexto** es todo lo que el modelo tiene a la vista para responder: tus instrucciones, los mensajes anteriores de la
-conversación y los archivos o textos que le entregaste. A su capacidad máxima se le llama **ventana de contexto**, y también se mide en
+conversación y los archivos o textos que le entregaste [@F-M1-07]. A su capacidad máxima se le llama **ventana de contexto**, y también se mide en
 tokens.
 
 De ahí salen tres consecuencias prácticas. Lo que no está en el contexto, el modelo no lo conoce: no sabe en qué empresa trabajas, qué
 acordaste con un proveedor ni cómo se llama tu jefatura, salvo que se lo digas. En una conversación muy larga, lo que escribiste al
-inicio puede perder peso o quedar fuera de la ventana, así que al cambiar de tarea a veces conviene empezar una conversación nueva. Y
+inicio puede perder peso o quedar fuera de la ventana, así que al cambiar de tarea a veces conviene empezar una conversación nueva [@F-M1-07]. Y
 una conversación nueva parte, en general, sin lo anterior. Algunas herramientas tienen funciones de memoria, pero no guardan todos los
-detalles; revisa cómo funciona la tuya antes de suponer que «se acuerda».
+detalles [@F-M1-08]; revisa cómo funciona la tuya antes de suponer que «se acuerda».
 
 Camila lo comprobó con un correo. Primero preguntó: «¿Mi respuesta está bien?», y el asistente le contestó con generalidades. Después
 pegó el correo del proveedor y su borrador, y preguntó: «¿Mi respuesta contesta todas las preguntas de este proveedor?». Esta vez
@@ -221,14 +221,14 @@ fuentes: F-M1-01, F-M1-10
 bloque: Texto + recuadro destacado
 
 Como el modelo predice texto plausible, a veces produce información falsa que suena verdadera: datos, fechas, nombres, citas o
-referencias que no existen. A esto se le llama **alucinación**, aunque algunos organismos prefieren decir «confabulación».
+referencias que no existen. A esto se le llama **alucinación**, aunque algunos organismos prefieren decir «confabulación» [@F-M1-01].
 
 No pasa al azar. Es más probable cuando le pides hechos muy puntuales y poco frecuentes, como una fecha o un nombre que casi nadie ha
 escrito; cuando le pides fuentes o citas, porque puede inventar títulos de documentos o enlaces; y cuando haces una pregunta abierta
-que pide una respuesta larga sobre un tema que exige conocimiento experto.
+que pide una respuesta larga sobre un tema que exige conocimiento experto [@F-M1-10; @F-M1-01].
 
 Una alucinación no avisa: llega con el mismo tono que una respuesta correcta. La defensa principal es verificar lo importante en una
-fuente confiable. También ayuda pedirle que diga «no lo sé» cuando no tenga la información, en vez de rellenar. Cómo verificar con
+fuente confiable. También ayuda pedirle que diga «no lo sé» cuando no tenga la información, en vez de rellenar [@F-M1-10]. Cómo verificar con
 método lo vas a trabajar en el tema 4 de este módulo.
 
 :::ejemplo La firma que nadie pidió
@@ -246,9 +246,9 @@ Los modelos aprenden de lo que la gente ha escrito y publicado. Si en esos datos
 repetirlos. A esto se le llama **sesgo**.
 
 Se ha documentado de varias formas. Al pedir imágenes de una persona gerente, de un médico o de un juez, los modelos de imagen tienden
-a mostrar el mismo tipo de persona y dejan fuera a mujeres y a otros grupos. En un estudio de la UNESCO, al pedir historias sobre
+a mostrar el mismo tipo de persona y dejan fuera a mujeres y a otros grupos [@F-M1-01]. En un estudio de la UNESCO, al pedir historias sobre
 distintas personas, los modelos de lenguaje asignaron a los hombres trabajos más variados y de más prestigio, y a las mujeres roles
-domésticos o desvalorizados. Además, un modelo puede responder mejor en unos idiomas o formas de hablar que en otros.
+domésticos o desvalorizados [@F-M1-11]. Además, un modelo puede responder mejor en unos idiomas o formas de hablar que en otros [@F-M1-01].
 
 Por eso un error común es usar la IA para decidir sobre personas. Pedirle a un asistente que elija a quién contratar o ascender, o que
 califique a un trabajador, traslada sus sesgos a una decisión que afecta a alguien. Las decisiones sobre personas las toman personas,
@@ -264,7 +264,7 @@ cubre: S4, C1, C2
 fuentes: F-M1-09
 bloque: Texto + línea de tiempo
 
-Un modelo se entrena con información reunida hasta cierta fecha, su **fecha de corte**. Lo que pasó después no está en su
+Un modelo se entrena con información reunida hasta cierta fecha, su **fecha de corte** [@F-M1-09]. Lo que pasó después no está en su
 entrenamiento, y por eso puede dar como vigentes un valor, una norma o un precio que ya cambiaron.
 
 A Andrés le pasó con un valor que se actualiza cada año, fijado por una norma. El asistente le dio una cifra de hace dos años, con
@@ -273,7 +273,7 @@ valor vigente.
 
 Algunos asistentes pueden buscar en internet antes de responder y mostrar las fuentes que usaron. Eso ayuda con lo reciente, pero no
 elimina el problema: la búsqueda puede traer páginas poco confiables, el asistente puede no tener acceso a ciertos sitios o resumir mal
-lo que leyó. Por eso las citas se revisan y los enlaces se abren.
+lo que leyó [@F-M1-09]. Por eso las citas se revisan y los enlaces se abren.
 
 :::comprueba
 Verdadero o falso: «Si el asistente puede buscar en internet, ya no es necesario revisar sus respuestas».
@@ -288,7 +288,7 @@ cubre: H1, C2
 fuentes: F-M1-01, F-M1-09
 bloque: Escenario o clasificación por semáforo
 
-Saber cómo funciona la IA generativa y dónde se equivoca te permite decidir qué tareas de tu cargo conviene delegarle. Un criterio
+Saber cómo funciona la IA generativa y dónde se equivoca te permite decidir qué tareas de tu cargo conviene delegarle [@F-M1-09]. Un criterio
 práctico es pensarlo como un semáforo:
 
 | | Tipo de tarea | Ejemplos |
@@ -299,7 +299,7 @@ práctico es pensarlo como un semáforo:
 
 La pregunta que ordena todo es esta: **si la respuesta está mal, ¿quién se da cuenta y cuánto cuesta el error?** Si el error es fácil
 de ver y barato, delega. Si es difícil de detectar o grave, revisa a fondo o no delegues. Ese cuidado importa más mientras más cómodo
-se vuelve el asistente, porque es fácil confiar de más en lo que entrega una máquina.
+se vuelve el asistente, porque es fácil confiar de más en lo que entrega una máquina [@F-M1-01].
 
 :::actividad Semáforo de tareas
 Clasifica cada tarea en verde, amarillo o rojo:
@@ -318,8 +318,8 @@ bloque: Proceso paso a paso + actividad
 
 Ahora te toca probar. Vas a usar un asistente de IA generativa con una tarea simple de tu trabajo y a mirar qué hace bien y qué no.
 
-Como trabajas con información real, practica con una copia sin datos sensibles. Elige un documento corto que uses en tu cargo, por
-ejemplo un instructivo, un procedimiento o un correo interno. Si tiene nombres, RUT, teléfonos o montos de clientes, haz una copia y
+Como trabajas con información real, practica con una copia sin datos sensibles [@F-M1-02]. Elige un documento corto que uses en tu cargo, por
+ejemplo un instructivo, un procedimiento o un correo interno [@F-M1-12]. Si tiene nombres, RUT, teléfonos o montos de clientes, haz una copia y
 bórralos o cámbialos por datos de prueba. Respeta también lo que diga tu empresa sobre el uso de estas herramientas.
 
 :::actividad Tu primera prueba
@@ -342,7 +342,7 @@ tiempo, preguntarse por qué el resultado salió así. Quien la practica no desc
 prueba otra forma de pedir, compara y saca conclusiones.
 
 La **apertura a un uso responsable** es estar dispuesto a usar la tecnología haciéndose cargo de lo que produce. Usar un asistente casi
-siempre implica compartir datos con el proveedor, y quien entrega el resultado final responde por él. En la práctica, eso se traduce
+siempre implica compartir datos con el proveedor, y quien entrega el resultado final responde por él [@F-M1-02; @F-M1-12]. En la práctica, eso se traduce
 en cuatro hábitos:
 
 - [ ] Reviso lo que el asistente me entrega antes de usarlo o compartirlo.
@@ -360,8 +360,8 @@ fuentes: F-M1-02, F-M1-09
 bloque: Texto + actividad de cierre (respuesta abierta)
 
 En este tema viste que la IA generativa produce contenido nuevo a partir de patrones aprendidos, que arma sus respuestas fragmento a
-fragmento y que trabaja solo con lo que tiene en su contexto. Conociste los modelos de lenguaje, de imagen y de audio, y tres límites
-que conviene tener siempre presentes: la alucinación, el sesgo y la fecha de corte.
+fragmento y que trabaja solo con lo que tiene en su contexto [@F-M1-02]. Conociste los modelos de lenguaje, de imagen y de audio, y tres límites
+que conviene tener siempre presentes: la alucinación, el sesgo y la fecha de corte [@F-M1-09].
 
 Con eso ya puedes mirar tu propio trabajo con otros ojos. Hay tareas en que un asistente te sirve como primer borrador y otras en que
 la respuesta necesita una revisión a fondo antes de salir con tu nombre. Antes de seguir, ponlo por escrito.
@@ -384,50 +384,20 @@ Guarda tu respuesta. En el próximo tema aprenderás a escribir prompts efectivo
 5. Tres límites para tener siempre presentes: alucinación, sesgo y fecha de corte.
 6. Conviene delegar lo que es fácil de revisar y barato si falla; lo grave o difícil de detectar se revisa a fondo o no se delega.
 
-### Glosario
+### Referencias bibliográficas
 
-- **IA generativa**: tipo de inteligencia artificial que produce contenido nuevo, como texto, imágenes o audio, a partir de una
-  instrucción.
-- **Prompt**: instrucción, pregunta o texto que se le entrega a un modelo de IA generativa para obtener una respuesta.
-- **Modelo de lenguaje**: modelo de IA generativa que produce y transforma texto.
-- **Modelo de imagen**: modelo que genera o modifica imágenes a partir de una descripción.
-- **Modelo de audio**: modelo que genera voz, música o efectos de sonido.
-- **Multimodal**: herramienta o modelo que recibe o entrega más de un tipo de contenido, por ejemplo imagen y texto.
-- **Token**: fragmento de texto (palabra, parte de palabra o signo) con el que el modelo lee y escribe.
-- **Contexto**: información que el modelo tiene a la vista para responder: instrucciones, conversación y archivos entregados.
-- **Ventana de contexto**: cantidad máxima de tokens que el modelo puede considerar de una vez.
-- **Alucinación**: información falsa o inventada que el modelo presenta como si fuera verdadera.
-- **Sesgo**: tendencia a repetir estereotipos o miradas parciales presentes en los datos de entrenamiento.
-- **Fecha de corte**: fecha hasta la cual llega la información con que se entrenó un modelo.
-
-### Conexión con el proyecto
-
-La copia del documento de tu trabajo que usaste en la práctica guiada (P14) y tus tres usos y dos límites (P16) son el punto de
-partida del **Hito 1 del proyecto aplicado: problema u oportunidad real + biblioteca de prompts v1**. Allí elegirás una tarea de tu
-cargo como tu desafío laboral real.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M1.md` (consultadas el 24-10-2026).
-
-- F-M1-01 · NIST (2024). Generative Artificial Intelligence Profile (NIST AI 600-1). https://doi.org/10.6028/NIST.AI.600-1
-- F-M1-02 · UNESCO; Miao y Holmes (2024). Guía para el uso de IA generativa en educación e investigación. https://unesdoc.unesco.org/ark:/48223/pf0000389227_spa
-- F-M1-03 · Google for Developers (2026). Introducción a los modelos de lenguaje grandes. https://developers.google.com/machine-learning/crash-course/llm?hl=es-419
-- F-M1-04 · Google Cloud (s. f.). ¿Qué es la IA multimodal? https://cloud.google.com/use-cases/multimodal-ai?hl=es
-- F-M1-05 · OpenAI (2026). Image generation: limitations. https://developers.openai.com/api/docs/guides/image-generation
-- F-M1-06 · OpenAI Help Center (2026). Entender y contar tokens. https://help.openai.com/es-es/articles/4936856-understanding-and-counting-tokens
-- F-M1-07 · Anthropic (2026). Context windows. https://platform.claude.com/docs/en/build-with-claude/context-windows
-- F-M1-08 · OpenAI Help Center (2026). Memoria en ChatGPT. https://help.openai.com/es-es/articles/8590148-memory-in-chatgpt
-- F-M1-09 · OpenAI Help Center (2026). ¿Dice ChatGPT la verdad? https://help.openai.com/es-es/articles/8313428-does-chatgpt-tell-the-truth
-- F-M1-10 · OpenAI; Kalai y otros (2025). Por qué alucinan los modelos de lenguaje. https://openai.com/es-419/index/why-language-models-hallucinate/
-- F-M1-11 · Noticias ONU (2024). La inteligencia artificial ya reproduce estereotipos de género. https://news.un.org/es/story/2024/03/1528182
-- F-M1-12 · Google Workspace (2026). Cómo escribir instrucciones eficaces. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
-
-Recomendaciones del curso, sin fuente: la pregunta del semáforo de P13 («¿quién se da cuenta y cuánto cuesta el error?») y el consejo
-de escuchar siglas, nombres y números en una locución (P06).
-
-Pendiente de probar a mano: el tokenizador de OpenAI (https://platform.openai.com/tokenizer) para la actividad de P08 (si pide cuenta y
-si funciona en el celular).
+- Anthropic. (s. f.). *Context windows*. Claude Docs. https://platform.claude.com/docs/en/build-with-claude/context-windows
+- Google. (s. f.-a). *¿Qué es la IA multimodal?* Google Cloud. https://cloud.google.com/use-cases/multimodal-ai?hl=es
+- Google. (s. f.-b). *Cómo escribir instrucciones eficaces*. Google Workspace. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
+- Google. (2026). *Introducción a los modelos de lenguaje grandes (Curso intensivo de aprendizaje automático)*. Google for Developers. https://developers.google.com/machine-learning/crash-course/llm?hl=es-419
+- Miao, F. y Holmes, W. (2024). *Guía para el uso de IA generativa en educación e investigación*. UNESCO. https://unesdoc.unesco.org/ark:/48223/pf0000389227_spa
+- National Institute of Standards and Technology. (2024). *Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)*. https://doi.org/10.6028/NIST.AI.600-1
+- Noticias ONU. (2024, 7 de marzo). *La inteligencia artificial ya reproduce estereotipos de género*. https://news.un.org/es/story/2024/03/1528182
+- OpenAI. (s. f.). *Image generation*. OpenAI API Docs. https://developers.openai.com/api/docs/guides/image-generation
+- OpenAI. (2025, 5 de septiembre). *Por qué alucinan los modelos de lenguaje*. https://openai.com/es-419/index/why-language-models-hallucinate/
+- OpenAI. (2026a). *¿Dice ChatGPT la verdad?* OpenAI Help Center. https://help.openai.com/es-es/articles/8313428-does-chatgpt-tell-the-truth
+- OpenAI. (2026b). *Entender y contar tokens*. OpenAI Help Center. https://help.openai.com/es-es/articles/4936856-understanding-and-counting-tokens
+- OpenAI. (2026c). *Memoria en ChatGPT*. OpenAI Help Center. https://help.openai.com/es-es/articles/8590148-memory-in-chatgpt
 
 
 ## M1-AE2 · Prompts efectivos
@@ -445,7 +415,7 @@ tareas laborales simples. Al terminar deberías poder escribir un prompt con eso
 menos una vez, hasta que de verdad te sirva en tu trabajo.
 
 En este curso vas a usar **Gemini** como asistente principal. Tiene aplicación para Android y para iPhone, y funciona con una cuenta de
-Google personal. Si prefieres otro, ChatGPT también tiene un plan gratuito que funciona en el navegador y en el celular. Y si en tu
+Google personal [@F-H-14]. Si prefieres otro, ChatGPT también tiene un plan gratuito que funciona en el navegador y en el celular [@F-H-02]. Y si en tu
 empresa ya usan un asistente, como Copilot, puedes practicar con ese, respetando lo que tu empresa permita.
 
 Vuelven Camila y Andrés. Camila responde todos los días correos de proveedores y clientes, y quiere dejar de escribirlos desde cero.
@@ -458,7 +428,7 @@ cubre: S1, C1
 fuentes: F-M1-12, F-M1-13
 bloque: Texto + tabla o imagen con etiquetas (labeled graphic)
 
-Las guías de Google y de Microsoft proponen estructuras parecidas para escribir prompts. Con distintos nombres, las dos hablan de lo
+Las guías de Google y de Microsoft proponen estructuras parecidas para escribir prompts [@F-M1-12; @F-M1-13]. Con distintos nombres, las dos hablan de lo
 mismo: quién responde, qué necesita saber, qué tiene que hacer y cómo entregarlo. En este curso usamos cinco componentes, con un
 ejemplo de Camila en cada uno.
 
@@ -470,7 +440,7 @@ ejemplo de Camila en cada uno.
 | Formato | ¿Cómo lo entrega? | «Un correo de no más de 80 palabras, tono cordial» |
 | Restricciones | ¿Qué límites debe respetar? | «Usa solo los datos que te doy; no prometas nada que no esté aquí» |
 
-No es obligatorio usar los cinco en cada prompt. Un pedido muy simple puede funcionar solo con tarea y formato. Pero mientras más
+No es obligatorio usar los cinco en cada prompt [@F-M1-12]. Un pedido muy simple puede funcionar solo con tarea y formato. Pero mientras más
 depende la respuesta de tu situación, más componentes conviene incluir, y en este tema la meta mínima es que tus prompts tengan
 **rol, contexto, tarea y formato**.
 
@@ -486,7 +456,7 @@ fuentes: F-M1-14, F-M1-12
 bloque: Texto + pestañas (tabs): rol / contexto
 
 La guía de Anthropic propone una prueba sencilla: imagina que el asistente es una persona nueva en tu trabajo, inteligente pero sin
-ningún antecedente. Si un colega recién llegado no entendería tu pedido, el modelo tampoco. Un error común es pensar que el asistente
+ningún antecedente. Si un colega recién llegado no entendería tu pedido, el modelo tampoco [@F-M1-14]. Un error común es pensar que el asistente
 ya sabe a qué te refieres; como viste en el tema anterior, solo trabaja con lo que está en su contexto y no conoce tu empresa, tu
 cargo ni tu jefatura si no se lo dices.
 
@@ -494,8 +464,8 @@ El **rol** le indica desde qué perspectiva responder. No le da conocimientos qu
 que considera importante. En una oficina sirven roles como «encargado de bodega que escribe a su jefatura», «asistente de recursos
 humanos que redacta un aviso interno» o «ejecutiva de atención al cliente».
 
-El **contexto** explica la situación: para quién es el texto, para qué se usará y qué antecedentes importan. Ayuda mucho explicar
-también el motivo de una instrucción. «Escríbelo corto porque se leerá en el celular» funciona mejor que solo «escríbelo corto»,
+El **contexto** explica la situación: para quién es el texto, para qué se usará y qué antecedentes importan [@F-M1-12]. Ayuda mucho explicar
+también el motivo de una instrucción [@F-M1-14]. «Escríbelo corto porque se leerá en el celular» funciona mejor que solo «escríbelo corto»,
 porque el asistente entiende qué busca y puede decidir mejor.
 
 :::ejemplo Andrés pone al día al asistente
@@ -510,15 +480,15 @@ fuentes: F-M1-13, F-M1-14
 bloque: Texto + knowledge check
 
 La tarea es lo que quieres que haga. Conviene empezar con un verbo claro: resume, reescribe, clasifica, redacta, ordena, compara. Si
-la tarea tiene varios pasos y el orden importa, numéralos.
+la tarea tiene varios pasos y el orden importa, numéralos [@F-M1-14].
 
 El formato es cómo quieres recibir el resultado, y las guías recomiendan ser específico en tres cosas: la forma (viñetas, tabla,
-párrafo o correo con asunto), la extensión («en tres viñetas», «máximo 100 palabras») y el tono (formal, cordial, directo). Si no lo
+párrafo o correo con asunto), la extensión («en tres viñetas», «máximo 100 palabras») y el tono (formal, cordial, directo) [@F-M1-13; @F-M1-14]. Si no lo
 dices, el asistente decide por ti.
 
 Las **restricciones** son los límites que la respuesta debe respetar: qué incluir, qué dejar fuera y de qué información sacar la
 respuesta. Por ejemplo, «usa solo el texto que te pego» o «no agregues datos que no estén en el reporte». La guía de Anthropic suma un
-consejo útil: di qué hacer en vez de decir solo lo que no quieres. «Escribe en frases cortas y simples» orienta mejor que «no uses
+consejo útil: di qué hacer en vez de decir solo lo que no quieres [@F-M1-14]. «Escribe en frases cortas y simples» orienta mejor que «no uses
 palabras difíciles».
 
 :::comprueba
@@ -537,11 +507,11 @@ fuentes: F-M1-14, F-M1-15
 bloque: Texto + ejemplo destacado
 
 A veces la manera más rápida de explicar lo que quieres es mostrar un ejemplo. Si le das un modelo del formato o del tono que buscas,
-el asistente tiende a seguirlo. Las guías de Anthropic y de Google recomiendan incluir ejemplos cuando ayudan, con dos cuidados.
+el asistente tiende a seguirlo. Las guías de Anthropic y de Google recomiendan incluir ejemplos cuando ayudan, con dos cuidados [@F-M1-14; @F-M1-15].
 El primero es que sean pocos: la guía de Google advierte que demasiados ejemplos pueden hacer que el modelo los copie de más y pierda
-flexibilidad. El segundo es que se parezcan a lo que quieres, porque si tu ejemplo es largo, la respuesta también lo será.
+flexibilidad [@F-M1-15]. El segundo es que se parezcan a lo que quieres, porque si tu ejemplo es largo, la respuesta también lo será.
 
-Otra práctica útil es separar las instrucciones de los datos. Cuando pegas un texto para trabajar, como unas notas, un correo o el
+Otra práctica útil es separar las instrucciones de los datos [@F-M1-14]. Cuando pegas un texto para trabajar, como unas notas, un correo o el
 detalle de unas facturas, deja claro dónde empieza y dónde termina. Escribe primero la instrucción y luego «Texto:», o pon el texto
 entre comillas. Así el asistente no confunde tus indicaciones con el contenido.
 
@@ -558,7 +528,7 @@ cubre: S2
 fuentes: F-M1-14, F-M1-15
 bloque: Pestañas o acordeón (un error por pestaña)
 
-Las guías de los proveedores coinciden en varios errores que hacen que la respuesta no sirva. Casi todos nacen de lo mismo: escribir
+Las guías de los proveedores coinciden en varios errores que hacen que la respuesta no sirva [@F-M1-14; @F-M1-15]. Casi todos nacen de lo mismo: escribir
 como si el asistente supiera lo que tú sabes.
 
 1. Pedido vago o ambiguo: «hazme algo para el cliente» admite mil interpretaciones.
@@ -570,7 +540,7 @@ como si el asistente supiera lo que tú sabes.
 
 El cuarto merece una explicación, porque es tentador. Escribir «resume el acta, redacta el correo para el gerente y arma la lista de
 pendientes» parece más rápido, pero suele dar un resultado a medias en las tres cosas. La guía de Google recomienda dividir las tareas
-complejas en varios prompts: pides una cosa a la vez y usas cada respuesta como base para la siguiente.
+complejas en varios prompts: pides una cosa a la vez y usas cada respuesta como base para la siguiente [@F-M1-15].
 
 :::comprueba
 Andrés escribe: «Revisa esto y mejóralo». ¿Cuál es el error principal?
@@ -585,9 +555,9 @@ cubre: H1, C1
 fuentes: F-M1-12, F-M1-13
 bloque: Comparación antes/después (dos columnas o flashcards)
 
-Resumir es una de las tareas de oficina que mejor delega un asistente, siempre que tú le entregues el texto. Andrés lo ve con la minuta
+Resumir es una de las tareas de oficina que mejor delega un asistente, siempre que tú le entregues el texto [@F-M1-12]. Andrés lo ve con la minuta
 de la reunión semanal con ventas. Cuando escribía solo «Resume esta minuta», recibía un párrafo largo que mezclaba temas y no
-destacaba lo que él necesitaba: los compromisos. Ahora agrega los componentes que faltaban:
+destacaba lo que él necesitaba: los compromisos. Ahora agrega los componentes que faltaban [@F-M1-13]:
 
 > «Actúa como encargado de bodega [rol]. Esta es la minuta de la reunión semanal con ventas; la leerá mi equipo de tres personas, que
 > no estuvo en la reunión [contexto]. Resume los acuerdos y los compromisos con su responsable y su fecha [tarea]. Entrégalo en una
@@ -613,7 +583,7 @@ proveedor que no ha confirmado la entrega de un pedido, y le salió demasiado in
 los sacos de cemento y nadie nos dice nada, ¿llegan o no?».
 
 Primero pidió solo «Mejora este mensaje». El asistente lo dejó más formal, pero le agregó frases que Camila nunca diría y lo alargó al
-triple. Entonces escribió un prompt completo:
+triple. Entonces escribió un prompt completo [@F-M1-12; @F-M1-13]:
 
 > «Actúa como asistente administrativa de una constructora [rol]. Hace dos semanas hicimos un pedido de cemento a este proveedor y no
 > ha confirmado la fecha de entrega; necesito saberla sin sonar molesta [contexto]. Reescribe mi mensaje en tono cordial y profesional
@@ -637,7 +607,7 @@ cubre: H1, C1, S1
 fuentes: F-M1-12, F-M1-15
 bloque: Comparación antes/después + tabla
 
-Clasificar es ordenar información en categorías: correos por tema, solicitudes por urgencia, gastos por tipo. Aquí aparece Rosa,
+Clasificar es ordenar información en categorías: correos por tema, solicitudes por urgencia, gastos por tipo [@F-M1-12]. Aquí aparece Rosa,
 recepcionista en un centro médico, que cada mañana revisa los mensajes que dejan los pacientes. Cuando pedía «Ordena estos mensajes»,
 el asistente los ordenaba por largo o los resumía uno por uno, y eso no le servía. Ahora escribe:
 
@@ -646,7 +616,7 @@ el asistente los ordenaba por largo o los resumía uno por uno, y eso no le serv
 > Otro [tarea]. Entrega una tabla con las columnas "N.º", "Resumen en cinco palabras" y "Categoría" [formato]. Usa solo esas cuatro
 > categorías; si un mensaje no calza, ponlo en Otro [restricción]. Mensajes: 1. "…" 2. "…"»
 
-Con las categorías definidas de antemano, la clasificación sale pareja y Rosa la revisa rápido. Al clasificar, **tú defines las
+Con las categorías definidas de antemano, la clasificación sale pareja y Rosa la revisa rápido [@F-M1-15]. Al clasificar, **tú defines las
 categorías**: si dejas que el asistente las invente, cada vez puede usar otras distintas. Y para practicar no pegues nombres, RUT ni
 datos de salud reales; usa mensajes de prueba. Qué datos no compartir lo vas a ver a fondo en el módulo 3.
 
@@ -661,7 +631,7 @@ fuentes: F-M1-12, F-M1-15
 bloque: Proceso (process block) en 4 pasos
 
 Casi nunca la primera respuesta es la definitiva. Las guías de los proveedores proponen tratar el trabajo con el asistente como una
-conversación, y a ese ciclo de pedir, mirar y corregir se le llama **iteración**:
+conversación, y a ese ciclo de pedir, mirar y corregir se le llama **iteración** [@F-M1-12]:
 
 1. Pides con tu mejor prompt.
 2. Revisas la respuesta: ¿sirve para lo que necesitas?
@@ -670,8 +640,8 @@ conversación, y a ese ciclo de pedir, mirar y corregir se le llama **iteración
 
 Hay varias formas de ajustar. Puedes agregar el contexto que faltaba («es para un cliente molesto»), precisar el formato («más corto,
 en tres viñetas») o reformular la tarea con otras palabras. También puedes dividirla en pasos, primero el resumen y después el correo,
-o cambiar el orden del prompt y poner el texto antes de la instrucción. Y la guía de Google sugiere un recurso más: pedirle al propio
-asistente que mejore tu prompt. Puedes iterar dentro de la misma conversación («ahora hazlo más formal») o editar tu prompt y volver a
+o cambiar el orden del prompt y poner el texto antes de la instrucción [@F-M1-15]. Y la guía de Google sugiere un recurso más: pedirle al propio
+asistente que mejore tu prompt [@F-M1-12]. Puedes iterar dentro de la misma conversación («ahora hazlo más formal») o editar tu prompt y volver a
 enviarlo.
 
 :::ejemplo Andrés itera una vez
@@ -685,7 +655,7 @@ fuentes: F-M1-12, F-M1-13
 bloque: Tabla + escenario
 
 Iterar no es probar al azar. Lo que falla en la respuesta te dice qué faltó en el prompt, así que conviene mirarla primero y ajustar
-el componente que corresponde.
+el componente que corresponde [@F-M1-12; @F-M1-13].
 
 | Si la respuesta… | Probablemente faltó… | Ajuste posible |
 |---|---|---|
@@ -714,14 +684,14 @@ fuentes: F-M1-13, F-H-12
 bloque: Texto + recuadro destacado
 
 La **perseverancia** es no rendirse con la primera respuesta, y tampoco quedarse dando vueltas sin rumbo. La guía de Microsoft advierte
-que llegar al resultado suele requerir un ida y vuelta. Es normal, no es señal de que lo hiciste mal. Un error común es concluir que la
+que llegar al resultado suele requerir un ida y vuelta [@F-M1-13]. Es normal, no es señal de que lo hiciste mal. Un error común es concluir que la
 herramienta no sirve porque la primera respuesta salió mala, cuando muchas veces basta una iteración con más contexto o un formato más
 preciso.
 
 Ayuda mirar cada respuesta como información: lo que salió mal te dice qué faltaba. Ayuda también cambiar una cosa a la vez, porque si
 cambias todo de golpe no sabrás qué funcionó. A veces conviene empezar de nuevo: si la conversación se llenó de intentos o cambiaste de
 tema, abre una nueva y pega tu mejor versión del prompt. La ayuda de Gemini lo recomienda al cambiar de tema, para aprovechar mejor el
-uso disponible.
+uso disponible [@F-H-12].
 
 Perseverar también es saber cuándo parar. Si después de varios intentos la tarea no sale, quizás no conviene delegarla; recuerda el
 semáforo del tema anterior.
@@ -737,11 +707,11 @@ fuentes: F-H-14, F-H-15
 bloque: Proceso paso a paso + actividad
 
 Ahora te toca. Vas a escribir, probar e iterar un prompt para una tarea real de tu cargo. Antes de empezar, una advertencia sobre los
-datos: con el ajuste de actividad encendido, Gemini guarda tus conversaciones y revisores humanos pueden leer algunas. Por eso aquí se
+datos: con el ajuste de actividad encendido, Gemini guarda tus conversaciones y revisores humanos pueden leer algunas [@F-H-15]. Por eso aquí se
 trabaja con copias sin datos sensibles o con datos de prueba, y se respeta lo que diga tu empresa. Cómo configurar la privacidad lo
 verás en el módulo 3.
 
-1. Abre Gemini en la app del celular o en el navegador, o el asistente que uses.
+1. Abre Gemini en la app del celular o en el navegador, o el asistente que uses [@F-H-14].
 2. Elige una tarea de tu trabajo que sea de resumir, reescribir o clasificar: un procedimiento, una respuesta a un cliente, solicitudes que llegan a tu correo.
 3. Prepara los datos con una copia sin nombres, RUT ni montos reales, o con datos de prueba.
 4. Escribe la versión 1 con rol, contexto, tarea y formato; si puedes, agrega una restricción.
@@ -760,7 +730,7 @@ bloque: Texto + ejemplo con resaltado de las partes variables
 
 Si un prompt te funcionó, no lo pierdas. Conviértelo en una **plantilla**: un prompt reutilizable donde las partes que cambian cada vez
 quedan entre [corchetes]. La guía de Google para Gemini ofrece una biblioteca de prompts de ejemplo por cargo, con corchetes para
-personalizar, y entre ellos hay ejemplos para asistencia administrativa y para bodega.
+personalizar, y entre ellos hay ejemplos para asistencia administrativa y para bodega [@F-M1-12].
 
 Armarla es simple. Tomas tu mejor versión, la que obtuviste después de iterar, y marcas lo que cambiará la próxima vez: nombres,
 fechas, textos pegados, destinatarios. Luego reemplazas cada una de esas partes por un corchete que diga qué va ahí.
@@ -782,7 +752,7 @@ fuentes: F-M1-12
 bloque: Texto + tabla descargable (plantilla de la biblioteca)
 
 Una **biblioteca personal de prompts** es tu colección ordenada de plantillas que funcionan, agrupadas por tarea. Sigue la misma lógica
-de las bibliotecas que publican los proveedores, pero hecha para tu cargo y con lo que tú aprendiste. Puedes llevarla en un documento,
+de las bibliotecas que publican los proveedores, pero hecha para tu cargo y con lo que tú aprendiste [@F-M1-12]. Puedes llevarla en un documento,
 en una planilla o en las notas del celular, con este formato:
 
 | Campo | Qué anotar |
@@ -809,7 +779,7 @@ cubre: C1, C2, H2, A2
 fuentes: F-M1-12, F-M1-13
 bloque: Texto + lista de verificación (checklist) + actividad de cierre
 
-En este tema viste que un prompt efectivo tiene rol, contexto, tarea y formato y, cuando hace falta, restricciones. Conociste los
+En este tema viste que un prompt efectivo tiene rol, contexto, tarea y formato y, cuando hace falta, restricciones [@F-M1-12; @F-M1-13]. Conociste los
 errores más comunes, practicaste resumir, reescribir y clasificar con ejemplos de antes y después, y aprendiste a iterar mirando qué
 falló en la respuesta. Antes de guardar una plantilla en tu biblioteca, revísala con esta lista:
 
@@ -839,40 +809,16 @@ menos una vez y guárdala en tu biblioteca con sus notas. Esa será tu **bibliot
 5. Iterar es normal: revisa la respuesta, identifica qué componente falló y ajústalo, una cosa a la vez.
 6. Un prompt que funciona se convierte en plantilla con [corchetes] y se guarda, con sus notas, en tu biblioteca personal.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Rol**: perspectiva desde la que se le pide al asistente que responda, por ejemplo «encargado de bodega».
-- **Contexto (en un prompt)**: parte del prompt que explica la situación, para quién es la respuesta y para qué se usará.
-- **Tarea**: lo que se le pide hacer al asistente, expresado con un verbo claro, como resumir o clasificar.
-- **Formato**: forma, extensión y tono en que se pide la respuesta.
-- **Restricción**: límite que la respuesta debe respetar, como qué información usar o qué no agregar.
-- **Ejemplo en el prompt**: muestra del resultado esperado que se incluye para orientar el formato o el tono.
-- **Iteración**: ciclo de pedir, revisar, ajustar y volver a pedir hasta obtener una respuesta útil.
-- **Pregunta de seguimiento**: mensaje que se envía en la misma conversación para corregir o precisar la respuesta anterior.
-- **Plantilla de prompt**: prompt reutilizable con las partes variables entre [corchetes].
-- **Biblioteca de prompts**: colección ordenada de plantillas probadas, con notas sobre cuándo y cómo usarlas.
-
-### Conexión con el proyecto
-
-Tus tres plantillas de la actividad de cierre (P16), con sus notas de iteración, forman la **biblioteca de prompts v1** del **Hito 1
-del proyecto aplicado: problema u oportunidad real + biblioteca de prompts v1**. La armas para resolver tareas de tu propio cargo, y
-en el hito eliges entre ellas el desafío laboral en que vas a trabajar durante el curso.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M1.md` e `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
-
-- F-M1-12 · Google Workspace (2026). Cómo escribir instrucciones eficaces. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
-- F-M1-13 · Microsoft Support (2026). Introducción a la escritura de indicaciones en Copilot. https://support.microsoft.com/es-es/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot
-- F-M1-14 · Anthropic (2026). Mejores prácticas de prompting. https://platform.claude.com/docs/es/build-with-claude/prompt-engineering/claude-prompting-best-practices
-- F-M1-15 · Google AI for Developers (2026). Estrategias de diseño de instrucciones. https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419
-- F-H-02 · OpenAI (s. f.). Planes y precios de ChatGPT. https://chatgpt.com/es-419/pricing/
-- F-H-12 · Google (s. f.). Límites de las aplicaciones de Gemini y cambios a planes superiores. https://support.google.com/gemini/answer/16275805?hl=es
-- F-H-14 · Google (s. f.). Empezar a usar la aplicación móvil Gemini. https://support.google.com/gemini/answer/14554984?hl=es
-- F-H-15 · Google (s. f.). Centro de Privacidad de las Aplicaciones de Gemini. https://support.google.com/gemini/answer/13594961?hl=es
-
-Recomendaciones del curso, sin fuente: el formato de seis campos de la biblioteca (P15), la tabla de diagnóstico de P11 como
-organización didáctica y la lista de verificación de P16.
+- Anthropic. (s. f.). *Mejores prácticas de prompting*. Claude Docs. https://platform.claude.com/docs/es/build-with-claude/prompt-engineering/claude-prompting-best-practices
+- Google. (s. f.-a). *Centro de privacidad de las aplicaciones de Gemini*. https://support.google.com/gemini/answer/13594961?hl=es
+- Google. (s. f.-b). *Cómo escribir instrucciones eficaces*. Google Workspace. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
+- Google. (s. f.-c). *Empezar a usar la aplicación móvil Gemini*. https://support.google.com/gemini/answer/14554984?hl=es
+- Google. (s. f.-d). *Límites de las aplicaciones de Gemini y cambios a planes superiores*. https://support.google.com/gemini/answer/16275805?hl=es
+- Google. (2026, 13 de octubre). *Estrategias de diseño de instrucciones*. Google AI for Developers. https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419
+- Microsoft. (2026). *Introducción a la escritura de indicaciones en Microsoft Copilot*. Microsoft Support. https://support.microsoft.com/es-es/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot
+- OpenAI. (s. f.). *Planes y precios*. ChatGPT. https://chatgpt.com/es-419/pricing/
 
 
 ## M1-AE3 · Parámetros de generación
@@ -882,7 +828,7 @@ cubre: C1, C2
 fuentes: F-M1-03, F-M1-13
 bloque: Texto + imagen de portada
 
-En el primer tema viste que el modelo genera su respuesta fragmento a fragmento y que esa elección tiene algo de azar. En el segundo
+En el primer tema viste que el modelo genera su respuesta fragmento a fragmento y que esa elección tiene algo de azar [@F-M1-03]. En el segundo
 aprendiste a escribir prompts con rol, contexto, tarea y formato. Ahora vas a ver qué más influye en la respuesta, además de tus
 palabras, y cómo manejarlo según lo que necesita cada tarea.
 
@@ -894,7 +840,7 @@ Vas a trabajar con tres ideas. La temperatura, que regula cuánta variación hay
 escribe el modelo, y la iteración, que es pedir otra respuesta y compararla con la anterior.
 
 Para entender por qué importan, mira lo que le pasó a Camila. Le pidió dos veces a Gemini «tres asuntos para un correo de seguimiento
-de pago» y recibió dos listas distintas. No es un error: es parte de cómo funcionan estos modelos. En este tema vas a experimentar, y
+de pago» y recibió dos listas distintas. No es un error: es parte de cómo funcionan estos modelos [@F-M1-13]. En este tema vas a experimentar, y
 lo importante no será memorizar números, sino comparar con método: cambiar una cosa, mirar qué pasa y anotarlo.
 
 ### P02 · Qué es un parámetro de generación
@@ -904,7 +850,7 @@ bloque: Texto + tabla
 
 Un **parámetro de generación** es un ajuste que cambia cómo el modelo produce la respuesta, sin tocar tu prompt. Se parece a los
 controles de una cámara: la escena es la misma, pero la foto cambia según cómo la configures. Las documentaciones de Google y de OpenAI
-describen varios, y los más comunes son estos tres:
+describen varios, y los más comunes son estos tres [@F-M1-15; @F-M1-16]:
 
 | Parámetro | Qué controla | Efecto |
 |---|---|---|
@@ -928,9 +874,9 @@ Recuerda cómo genera texto el modelo: en cada paso estima qué continuaciones s
 en la opción más probable, porque tiene algo de azar. La **temperatura** regula cuánto azar hay.
 
 Con temperatura baja, el modelo se inclina por las opciones más probables y las respuestas salen más enfocadas y parecidas entre sí;
-según la guía de Google, con temperatura 0 elige siempre la opción más probable. Con temperatura alta, da más espacio a opciones menos
+según la guía de Google, con temperatura 0 elige siempre la opción más probable [@F-M1-15]. Con temperatura alta, da más espacio a opciones menos
 probables y las respuestas salen más diversas y, a veces, más originales. OpenAI, cuya API acepta valores de 0 a 2, lo ilustra así:
-0,8 da salidas más aleatorias y 0,2 más enfocadas.
+0,8 da salidas más aleatorias y 0,2 más enfocadas [@F-M1-16].
 
 Más alto no es «mejor». Más azar también trae más opciones que no te sirven, y te toca elegir. Y hay algo que la temperatura no hace:
 no cambia lo que el modelo sabe. Cambia cuánto se arriesga al elegir las palabras.
@@ -949,11 +895,11 @@ bloque: Texto + knowledge check
 El **top-p** es otro parámetro relacionado con el azar. En vez de regular cuánto se arriesga el modelo, limita entre qué opciones
 elige: solo considera las más probables hasta sumar cierta probabilidad. Con un top-p bajo, la elección se reduce a pocas opciones.
 OpenAI recomienda ajustar la temperatura o el top-p, pero no los dos a la vez, porque ambos influyen en la variación y después es
-difícil saber cuál causó el cambio. También advierte que no todos sus modelos admiten estos ajustes, sobre todo los que razonan antes
+difícil saber cuál causó el cambio [@F-M1-16]. También advierte que no todos sus modelos admiten estos ajustes, sobre todo los que razonan antes
 de responder.
 
 ¿Dónde se ajustan? En entornos para desarrolladores, como la API de cada proveedor o Google AI Studio, que tiene un panel llamado
-«Configuración de ejecución» para cambiar los parámetros del modelo. En las aplicaciones de chat gratuitas, como Gemini o ChatGPT en el
+«Configuración de ejecución» para cambiar los parámetros del modelo [@F-H-37]. En las aplicaciones de chat gratuitas, como Gemini o ChatGPT en el
 celular, no vas a encontrar un control de temperatura ni de top-p. Ahí la variación la manejas de otras formas, que verás en las
 próximas pantallas.
 
@@ -971,9 +917,9 @@ fuentes: F-M1-15, F-M1-18
 bloque: Texto + recuadro destacado
 
 En 2026 hay algo que conviene saber: los proveedores están dejando de permitir que cambies la temperatura y el top-p en sus modelos más
-recientes. Google indica que los modelos Gemini 4 y Gemini 3.6 en adelante ignoran los valores de temperatura y top-p que les envíes.
+recientes. Google indica que los modelos Gemini 4 y Gemini 3.6 en adelante ignoran los valores de temperatura y top-p que les envíes [@F-M1-15].
 Anthropic fue más lejos: sus modelos Claude desde la versión 4.7 solo aceptan los valores predeterminados, y desde la versión de su API
-del 21 de octubre de 2026 una solicitud que trae temperatura o top-p da error.
+del 21 de octubre de 2026 una solicitud que trae temperatura o top-p da error [@F-M1-18].
 
 Para ti, eso significa que en los modelos nuevos la temperatura sigue existiendo, pero la fija el proveedor. El concepto te sirve
 igual, porque explica por qué el mismo pedido da respuestas distintas y por qué a veces conviene pedir otra versión. Que un control
@@ -991,11 +937,11 @@ fuentes: F-M1-15, F-M1-13
 bloque: Texto + comparación de dos respuestas
 
 La **longitud** se puede manejar de dos maneras. La primera es el parámetro de tokens máximos de salida, que existe en la API y en AI
-Studio: fijas cuántos tokens puede escribir el modelo como máximo. Es un tope, así que el modelo no escribe más allá de ese número y
+Studio: fijas cuántos tokens puede escribir el modelo como máximo [@F-M1-15]. Es un tope, así que el modelo no escribe más allá de ese número y
 puede terminar antes; si el tope es muy bajo, la respuesta queda cortada, a veces a mitad de una frase.
 
 La segunda es pedirla en el prompt, y funciona en cualquier app de chat: «en 50 palabras», «en tres viñetas», «en un párrafo». La guía
-de Microsoft recomienda justamente dar expectativas de extensión y restricciones concretas, como un límite de palabras. Las dos formas
+de Microsoft recomienda justamente dar expectativas de extensión y restricciones concretas, como un límite de palabras [@F-M1-13]. Las dos formas
 son distintas: el tope corta y la instrucción orienta. Cuando pides «en 50 palabras», el asistente intenta ajustarse, pero puede
 pasarse o quedarse corto, así que conviene revisar.
 
@@ -1020,9 +966,9 @@ La **iteración** es el tercer recurso del tema. En el tema anterior la usaste p
 forma de obtener varias salidas y compararlas. Hay dos maneras de hacerlo.
 
 La primera es regenerar con el mismo prompt. Como la generación tiene azar, el mismo pedido puede dar una respuesta distinta en cada
-intento, como advierte Microsoft. Si tu app tiene una opción para volver a generar la respuesta, úsala; si no, pega el mismo prompt en
+intento, como advierte Microsoft [@F-M1-13]. Si tu app tiene una opción para volver a generar la respuesta, úsala; si no, pega el mismo prompt en
 una conversación nueva. Así obtienes varias versiones sin cambiar nada y eliges la mejor. La segunda es iterar con un ajuste: cambias
-una parte del prompt, como el largo, el tono o una restricción, y vuelves a pedir. Es lo que practicaste con los ejemplos de antes y
+una parte del prompt, como el largo, el tono o una restricción, y vuelves a pedir [@F-M1-12]. Es lo que practicaste con los ejemplos de antes y
 después.
 
 | | Qué cambias | Para qué sirve |
@@ -1049,7 +995,7 @@ bloque: Texto + tabla o escala de dos extremos
 Entre creatividad y precisión hay una relación que conviene tener clara. Mientras más variación permites, más ideas distintas
 aparecen, pero también más riesgo de que algo se salga del pedido. Mientras menos variación, más consistentes son las respuestas, pero
 también más parecidas entre sí. Las guías de Google y de OpenAI lo resumen así: valores bajos de temperatura para tareas con una
-respuesta acotada y valores altos para resultados diversos o creativos.
+respuesta acotada y valores altos para resultados diversos o creativos [@F-M1-15; @F-M1-16].
 
 | Tarea | Qué necesitas | Hacia dónde ajustar |
 |---|---|---|
@@ -1074,7 +1020,7 @@ fuentes: F-M1-15, F-M1-13
 bloque: Comparación en dos columnas
 
 Si tu app no tiene control de temperatura, igual puedes orientar la respuesta hacia la precisión o hacia la creatividad con la
-instrucción. A esto le llamamos **instrucciones contrastadas**: la misma consigna, con dos indicaciones opuestas. Para ir hacia la
+instrucción [@F-M1-13]. A esto le llamamos **instrucciones contrastadas**: la misma consigna, con dos indicaciones opuestas. Para ir hacia la
 precisión, Camila escribe:
 
 > «Responde solo con la información del texto que te pego. Si algo no aparece, escribe "no indica". Usa frases cortas y no agregues
@@ -1086,7 +1032,7 @@ Y para ir hacia la creatividad:
 > sorprendente.»
 
 La guía de Google sugiere limitar al modelo al contexto que le entregas para que no agregue información de otra parte, y eso es lo que
-hace la primera instrucción. Ojo con la diferencia: la instrucción no cambia la temperatura, cambia lo que le pides. El efecto se
+hace la primera instrucción [@F-M1-15]. Ojo con la diferencia: la instrucción no cambia la temperatura, cambia lo que le pides. El efecto se
 parece, y por eso te sirve en el celular, pero no es el mismo ajuste.
 
 :::comprueba
@@ -1104,7 +1050,7 @@ fuentes: F-M1-15, F-M1-16
 bloque: Escenario con decisiones (scenario block)
 
 Configurar según la tarea es decidir, antes de pedir, qué necesita tu objetivo: precisión o variedad, un texto corto o largo, una
-respuesta o varias para elegir. Google recomienda experimentar con los ajustes hasta encontrar los adecuados para cada tarea, y para
+respuesta o varias para elegir. Google recomienda experimentar con los ajustes hasta encontrar los adecuados para cada tarea [@F-M1-15; @F-M1-16], y para
 no hacerlo a ciegas sirven tres preguntas.
 
 La primera es si hay una respuesta correcta. Si la hay, como en datos, categorías o fechas, buscas precisión: poca variación y la
@@ -1131,7 +1077,7 @@ bloque: Texto + lista de verificación (checklist)
 Comparar salidas no es elegir la que «suena mejor» a primera vista. El **rigor** está en comparar con método, para que tu elección se
 pueda explicar y otra persona, con tu registro, pueda llegar a algo parecido.
 
-Una buena comparación usa exactamente la misma consigna en todas las versiones, salvo lo que quieres probar. Cambia una cosa a la vez,
+Una buena comparación usa exactamente la misma consigna en todas las versiones, salvo lo que quieres probar [@F-M1-13; @F-M1-15]. Cambia una cosa a la vez,
 porque si cambias el largo y el tono juntos no sabrás cuál de los dos produjo la diferencia. Junta al menos tres salidas, ya que con
 dos cuesta ver qué varía y qué se mantiene. Y define los criterios antes de leer, para no dejarte llevar por la primera impresión. En
 tareas de oficina sirven estos cinco:
@@ -1154,8 +1100,8 @@ bloque: Proceso paso a paso (process block)
 Esta práctica es opcional. Es para personas mayores de 18 años, con computador o navegador web, que quieran ver con sus ojos el efecto
 de la temperatura. Si no es tu caso, pasa directo a la práctica B: con ella cumples lo que pide el tema.
 
-**Google AI Studio** es un entorno de Google para probar modelos e instrucciones, y se puede usar sin pagar. Sus términos exigen tener
-18 años o más. Como viste en la pantalla 5, los modelos más nuevos de Gemini ignoran la temperatura, así que para esta práctica
+**Google AI Studio** es un entorno de Google para probar modelos e instrucciones, y se puede usar sin pagar [@F-H-37]. Sus términos exigen tener
+18 años o más [@F-H-40]. Como viste en la pantalla 5, los modelos más nuevos de Gemini ignoran la temperatura, así que para esta práctica
 necesitas un modelo anterior a Gemini 3.6, si la lista te lo ofrece.
 
 1. Entra a AI Studio con tu cuenta de Google.
@@ -1176,14 +1122,14 @@ cubre: H1, C1, C2, A1
 fuentes: F-M1-13, F-H-14
 bloque: Proceso paso a paso + actividad
 
-Esta práctica la puede hacer cualquier persona con la app de Gemini, que está para Android y para iPhone, o con el asistente que uses.
+Esta práctica la puede hacer cualquier persona con la app de Gemini, que está para Android y para iPhone, o con el asistente que uses [@F-H-14].
 Vas a trabajar los tres recursos del tema con una misma tarea de tu trabajo, por ejemplo redactar un aviso, resumir un procedimiento o
 responder a un cliente. Usa una copia sin datos sensibles o datos de prueba.
 
 Son tres experimentos. En el primero pruebas la longitud: envías tu prompt pidiendo «máximo 40 palabras» y, en una conversación
 nueva, el mismo prompt con «máximo 120 palabras»; luego miras qué se perdió en la versión corta y qué sobra en la larga. En el segundo
 pruebas la iteración: envías el mismo prompt tres veces, regenerando o en tres conversaciones nuevas, y comparas qué cambia y qué se
-mantiene. En el tercero comparas precisión y creatividad: envías la misma consigna con la instrucción de precisión y luego con la de
+mantiene [@F-M1-13]. En el tercero comparas precisión y creatividad: envías la misma consigna con la instrucción de precisión y luego con la de
 creatividad de la pantalla 9, y decides cuál sirve mejor para tu objetivo.
 
 Cada vez que cambies algo, abre una conversación nueva. Así la respuesta anterior no influye en la siguiente. Al final, elige la mejor
@@ -1200,7 +1146,7 @@ fuentes: F-M1-15
 bloque: Tabla descargable (plantilla de registro)
 
 El **registro** es lo que convierte una prueba en un experimento. La guía de Google recomienda experimentar con los ajustes según la
-tarea, y anotar lo que pruebas te permite aprender de cada intento. Puedes usar esta tabla en un documento, una planilla o las notas
+tarea [@F-M1-15], y anotar lo que pruebas te permite aprender de cada intento. Puedes usar esta tabla en un documento, una planilla o las notas
 del celular, y anotar también la fecha de la prueba:
 
 | N.º | Herramienta y modelo | Prompt (igual en todas) | Qué cambié | Salida (resumen) | Exactitud | Formato y largo | Tono | Utilidad | Elegida |
@@ -1224,7 +1170,7 @@ fuentes: F-M1-15, F-M1-13
 bloque: Escenario + knowledge check
 
 Elegir con fundamento es decir qué versión elegiste, con qué criterio y por qué las otras no. Camila pidió tres veces, con el mismo
-prompt y los mismos datos, la respuesta a un proveedor que preguntaba por el pago de su factura:
+prompt y los mismos datos, la respuesta a un proveedor que preguntaba por el pago de su factura [@F-M1-13]:
 
 - A: «Junto con saludar, le informamos que su consulta fue recibida y será respondida a la brevedad.»
 - B: «Su factura de octubre está aprobada y se pagará el día 15 por transferencia. Cualquier duda, quedo atenta.»
@@ -1234,7 +1180,7 @@ Camila elige la B y lo justifica: «Responde lo que el proveedor preguntó, con 
 pero no responde nada. La C exagera y promete algo que no puedo asegurar».
 
 Un error común es quedarse con la respuesta más larga o la que trae más detalles. Más texto no significa más útil: la mejor salida es
-la que cumple el objetivo, con los datos correctos y el largo que el lector necesita.
+la que cumple el objetivo, con los datos correctos y el largo que el lector necesita [@F-M1-15].
 
 :::comprueba
 Andrés compara tres resúmenes del reporte semanal. Uno es el más largo y detallado, pero cambia una cifra de stock. ¿Cuál conviene
@@ -1251,7 +1197,7 @@ fuentes: F-M1-15, F-M1-13
 bloque: Texto + actividad de cierre (respuesta abierta)
 
 En este tema viste que la temperatura regula cuánto azar hay en la respuesta, que la longitud se maneja con un tope o con la
-instrucción y que la iteración te da varias salidas para comparar. También viste que en los modelos más nuevos la temperatura la fija
+instrucción y que la iteración te da varias salidas para comparar [@F-M1-15; @F-M1-13]. También viste que en los modelos más nuevos la temperatura la fija
 el proveedor: lo que siempre controlas es tu prompt, el largo que pides y cuántas versiones generas.
 
 La regla práctica cabe en una línea: **primero defines el objetivo, después eliges el ajuste**. Precisión para datos y categorías,
@@ -1278,47 +1224,17 @@ Mira tus tres experimentos y escribe:
 6. Para datos y categorías conviene precisión; para ideas, variedad; y la elección se justifica con criterios definidos.
 7. Comparar con rigor es usar la misma consigna, cambiar una cosa a la vez y registrar todas las salidas.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Parámetro de generación**: ajuste que cambia cómo el modelo produce la respuesta sin modificar el prompt.
-- **Temperatura**: parámetro que regula cuánto azar hay al elegir cada fragmento de la respuesta.
-- **Top-p**: parámetro que limita la elección a las opciones más probables hasta sumar cierta probabilidad.
-- **Tokens máximos de salida**: tope de tokens que el modelo puede escribir en una respuesta.
-- **Valor predeterminado**: valor que el proveedor asigna a un parámetro cuando la persona no lo cambia o no puede cambiarlo.
-- **Regenerar**: pedir una nueva respuesta al mismo prompt, sin cambiarlo.
-- **Instrucción contrastada**: la misma consigna con dos indicaciones opuestas, una hacia la precisión y otra hacia la creatividad.
-- **Precisión**: cualidad de una respuesta que se ajusta a los datos y al pedido, sin agregar ni cambiar información.
-- **Google AI Studio**: entorno de Google para probar modelos e instrucciones y ajustar sus parámetros; exige 18 años o más.
-- **Registro de resultados**: tabla donde se anotan el prompt, el ajuste, cada salida y su evaluación.
-
-### Conexión con el proyecto
-
-Tu regla de configuración (P16) queda como nota en una de las plantillas de tu **biblioteca de prompts**, la del **Hito 1 del proyecto
-aplicado: problema u oportunidad real + biblioteca de prompts v1**. Así, cuando vuelvas a usar esa plantilla en tu trabajo, sabrás qué
-ajuste te dio el mejor resultado y por qué.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M1.md` e `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
-
-- F-M1-03 · Google for Developers (2026). Introducción a los modelos de lenguaje grandes. https://developers.google.com/machine-learning/crash-course/llm?hl=es-419
-- F-M1-12 · Google Workspace (2026). Cómo escribir instrucciones eficaces. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
-- F-M1-13 · Microsoft Support (2026). Introducción a la escritura de indicaciones en Copilot. https://support.microsoft.com/es-es/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot
-- F-M1-15 · Google AI for Developers (2026). Estrategias de diseño de instrucciones. https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419
-- F-M1-16 · OpenAI (2026). API Reference: Create chat completion. https://developers.openai.com/api/reference/resources/chat/subresources/completions/methods/create
-- F-M1-18 · Anthropic (2026). Migrating to API version 2026-10-21. https://platform.claude.com/docs/en/api/migration-2026-10-21
-- F-H-14 · Google (s. f.). Empezar a usar la aplicación móvil Gemini. https://support.google.com/gemini/answer/14554984?hl=es
-- F-H-37 · Google (2026). Guía de inicio rápido de Google AI Studio. https://ai.google.dev/gemini-api/docs/ai-studio-quickstart?hl=es-419
-- F-H-40 · Google (2026). Gemini API Additional Terms of Service. https://ai.google.dev/gemini-api/terms?hl=en
-
-Recomendaciones del curso, sin fuente: las tres preguntas para configurar según la tarea (P10), las reglas y criterios de comparación
-(P11), la tabla de registro con escala bien/regular/mal (P14) y los textos de las instrucciones contrastadas (P09). Que las apps de
-chat gratuitas no muestran control de temperatura se deduce de las páginas de planes y funciones; ningún proveedor lo dice de forma
-expresa (ver Alertas de HERRAMIENTAS-1).
-
-Antes de publicar: pilotear la práctica A en Google AI Studio (P12). No se pudo revisar por dentro: falta confirmar qué modelos
-anteriores a Gemini 3.6 aparecen en la lista y si respetan la temperatura, qué controles muestra «Configuración de ejecución» para cada
-modelo y si funciona en el navegador del celular. Los valores 0,2 y 1,5 son de ejemplo y hay que comprobar que el panel los admita.
+- Anthropic. (2026). *Migrating to API version 2026-10-21*. Claude Docs. https://platform.claude.com/docs/en/api/migration-2026-10-21
+- Google. (s. f.-a). *Cómo escribir instrucciones eficaces*. Google Workspace. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
+- Google. (s. f.-b). *Empezar a usar la aplicación móvil Gemini*. https://support.google.com/gemini/answer/14554984?hl=es
+- Google. (2026a, 13 de octubre). *Estrategias de diseño de instrucciones*. Google AI for Developers. https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419
+- Google. (2026b, 28 de abril). *Gemini API additional terms of service*. Google AI for Developers. https://ai.google.dev/gemini-api/terms?hl=en
+- Google. (2026c, 30 de julio). *Guía de inicio rápido de Google AI Studio*. Google AI for Developers. https://ai.google.dev/gemini-api/docs/ai-studio-quickstart?hl=es-419
+- Google. (2026d). *Introducción a los modelos de lenguaje grandes (Curso intensivo de aprendizaje automático)*. Google for Developers. https://developers.google.com/machine-learning/crash-course/llm?hl=es-419
+- Microsoft. (2026). *Introducción a la escritura de indicaciones en Microsoft Copilot*. Microsoft Support. https://support.microsoft.com/es-es/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot
+- OpenAI. (s. f.). *API reference: Create chat completion*. OpenAI API Docs. https://developers.openai.com/api/reference/resources/chat/subresources/completions/methods/create
 
 
 ## M1-AE4 · Validación de resultados
@@ -1337,7 +1253,7 @@ alucinaciones, errores y sesgos. Al terminar deberías poder identificar errores
 importante con al menos dos fuentes confiables y corregir o descartar lo que no puedas verificar.
 
 El tema se apoya en casos. Los errores que vas a ver son de tipos que documentan organismos y proveedores, como el NIST de Estados
-Unidos y OpenAI. Los ejemplos con Camila, Andrés, Rosa y otras personas son ficticios, pero muestran cómo aparecen esos errores en
+Unidos y OpenAI [@F-M1-01; @F-M1-09]. Los ejemplos con Camila, Andrés, Rosa y otras personas son ficticios, pero muestran cómo aparecen esos errores en
 tareas de oficina. En la actividad de análisis de casos vas a ver además situaciones reales en que alguien usó una respuesta sin
 verificarla.
 
@@ -1350,10 +1266,10 @@ bloque: Texto + recuadro destacado
 
 Un modelo de lenguaje no consulta una base de datos de verdades: produce texto plausible a partir de patrones. El NIST explica que
 inventar contenido es un resultado natural de ese diseño, porque el modelo predice el texto según los patrones estadísticos de sus
-datos, no según lo que es cierto. Y lo inventado sale con la misma seguridad que lo correcto.
+datos, no según lo que es cierto [@F-M1-01]. Y lo inventado sale con la misma seguridad que lo correcto.
 
 La ayuda de ChatGPT lo dice de forma directa: el asistente puede dar respuestas incorrectas o engañosas con aparente seguridad, y esa
-seguridad no garantiza que sea fiable. Por eso recomienda usarlo como primer borrador y no como fuente final. Un error común es pensar
+seguridad no garantiza que sea fiable [@F-M1-09]. Por eso recomienda usarlo como primer borrador y no como fuente final. Un error común es pensar
 que una respuesta detallada debe ser cierta. El detalle es parte del estilo del modelo: una cifra con decimales o una cita con número
 de artículo también pueden ser inventadas.
 
@@ -1373,13 +1289,13 @@ cubre: S1, C1
 fuentes: F-M1-01, F-M1-09
 bloque: Texto + knowledge check
 
-La **alucinación**, que el NIST llama confabulación, es contenido falso o erróneo presentado con seguridad. Puede tomar la forma de
+La **alucinación**, que el NIST llama confabulación, es contenido falso o erróneo presentado con seguridad [@F-M1-01]. Puede tomar la forma de
 datos inventados, como cifras, fechas o nombres de personas y empresas que no existen o no corresponden. Puede aparecer como citas y
 fuentes inventadas: títulos de estudios, artículos de una ley o enlaces que no llevan a ninguna parte o que dicen otra cosa, algo que
-la propia ayuda de ChatGPT advierte. Y puede venir envuelta en un razonamiento que justifica algo falso, porque el modelo es capaz de
+la propia ayuda de ChatGPT advierte [@F-M1-09]. Y puede venir envuelta en un razonamiento que justifica algo falso, porque el modelo es capaz de
 entregar pasos «lógicos» que hacen parecer correcta una respuesta equivocada.
 
-Es más probable cuando pides citas o estudios, en respuestas largas a preguntas abiertas y en temas que exigen conocimiento experto. Un
+Es más probable cuando pides citas o estudios, en respuestas largas a preguntas abiertas y en temas que exigen conocimiento experto [@F-M1-01]. Un
 error común es dar por real un estudio porque trae nombre y año. Esos detalles dan apariencia de rigor, pero el modelo también los
 puede inventar, así que toda cita se busca en su origen.
 
@@ -1405,8 +1321,8 @@ El **sesgo** aparece cuando la respuesta repite estereotipos o presenta una sola
 que una cifra inventada, porque el texto puede ser correcto en los datos y aun así ser parcial.
 
 Hay formas documentadas. Un estudio de la UNESCO encontró que, al pedir historias, los modelos asignaban a los hombres trabajos más
-variados y de más prestigio, y a las mujeres roles domésticos o desvalorizados. El NIST describe modelos de imagen que, al pedir un
-gerente, un médico o un juez, dejan fuera a mujeres, a minorías y a personas con discapacidad. Y llama «homogeneización» a las salidas
+variados y de más prestigio, y a las mujeres roles domésticos o desvalorizados [@F-M1-11]. El NIST describe modelos de imagen que, al pedir un
+gerente, un médico o un juez, dejan fuera a mujeres, a minorías y a personas con discapacidad [@F-M1-01]. Y llama «homogeneización» a las salidas
 que se parecen demasiado entre sí, como si hubiera una sola manera de decir las cosas.
 
 Para detectarlo sirven dos preguntas: ¿a quién deja fuera esta respuesta?, ¿qué supone sin que yo se lo haya dicho? Si la respuesta
@@ -1424,14 +1340,14 @@ fuentes: F-M1-09, F-H-16
 bloque: Texto + línea de tiempo
 
 La **desactualización** ocurre cuando la respuesta da como vigente algo que ya cambió. Se debe a la fecha de corte: el modelo no conoce
-lo que pasó después de su entrenamiento, salvo que use herramientas como la búsqueda web. Es más probable con:
+lo que pasó después de su entrenamiento, salvo que use herramientas como la búsqueda web [@F-M1-09]. Es más probable con:
 
 - valores que cambian cada año, como montos, porcentajes o tarifas;
 - normas, trámites y requisitos que se modifican;
 - horarios, direcciones y contactos de servicios;
 - nombres de cargos y autoridades.
 
-Gemini a veces muestra un botón «Fuentes» con los enlaces que usó, y ChatGPT con la búsqueda activada puede citar fuentes recientes.
+Gemini a veces muestra un botón «Fuentes» con los enlaces que usó, y ChatGPT con la búsqueda activada puede citar fuentes recientes [@F-H-16; @F-M1-09].
 Eso ayuda, pero no resuelve todo: la página que encontró puede ser antigua o poco confiable, y el resumen puede tener errores. Camila
 lo comprobó cuando preguntó el horario de atención de una oficina pública donde debía hacer un trámite para la constructora. El
 asistente le dio un horario con total seguridad; en el sitio del servicio vio que había cambiado hace unos meses.
@@ -1446,7 +1362,7 @@ cubre: S1, C1
 fuentes: F-M1-01
 bloque: Texto + knowledge check
 
-Además de los tres errores principales, el NIST documenta salidas que no siguen el texto entregado o que se contradicen. Son
+Además de los tres errores principales, el NIST documenta salidas que no siguen el texto entregado o que se contradicen [@F-M1-01]. Son
 frecuentes cuando le pides resumir o transformar un documento, y aparecen de cuatro maneras:
 
 - agrega algo que el texto no dice, como la firma del gerente general en el resumen del instructivo de Camila;
@@ -1482,7 +1398,7 @@ entrenar el ojo.
 > además inscribirte en un curso de contabilidad avanzada.»
 
 Algunas partes sirven y otras no. La lista de datos que se anotan de cada factura responde bien a lo pedido; el resto merece una
-segunda mirada antes de que Camila use algo de esta respuesta.
+segunda mirada antes de que Camila use algo de esta respuesta [@F-M1-01; @F-M1-11].
 
 :::actividad Marca los errores
 Identifica en la respuesta:
@@ -1500,7 +1416,7 @@ fuentes: F-M1-19, F-M1-20
 bloque: Texto + tabla
 
 Para contrastar necesitas **fuentes confiables**. ¿Cómo sabes si una lo es? El investigador Mike Caulfield propone preguntarse quién
-está detrás, con qué experiencia y con qué intereses. A partir de eso, puedes usar estos criterios:
+está detrás, con qué experiencia y con qué intereses [@F-M1-19]. A partir de eso, puedes usar estos criterios:
 
 | Criterio | Pregunta | Señal de confianza |
 |---|---|---|
@@ -1512,7 +1428,7 @@ está detrás, con qué experiencia y con qué intereses. A partir de eso, puede
 | Independencia | ¿Lo confirman otras? | Otras fuentes sin relación entre sí dicen lo mismo |
 
 Un estudio de la Universidad de Stanford encontró que incluso personas expertas en otros temas se dejaban engañar por logos y dominios
-de apariencia seria. El aspecto de un sitio no prueba que sea confiable.
+de apariencia seria [@F-M1-20]. El aspecto de un sitio no prueba que sea confiable.
 
 :::error «Si el sitio se ve profesional, es confiable»
 Un buen diseño, un logo o un dominio que parece institucional se pueden imitar. Lo que importa es quién está detrás, y eso se averigua
@@ -1527,12 +1443,12 @@ bloque: Texto + proceso en 3 pasos
 Los investigadores Sam Wineburg y Sarah McGrew compararon cómo evalúan un sitio web historiadores, estudiantes y verificadores
 profesionales de información. Historiadores y estudiantes leyeron el sitio de arriba abajo, sin salir de él, y a eso le llamaron
 **lectura vertical**. Los verificadores, en cambio, tras un vistazo rápido salieron del sitio y abrieron otras pestañas para ver qué
-decían otras fuentes de él. A eso le llamaron **lectura lateral**, y con ella llegaron a mejores conclusiones en menos tiempo.
+decían otras fuentes de él. A eso le llamaron **lectura lateral**, y con ella llegaron a mejores conclusiones en menos tiempo [@F-M1-20].
 
 Desde el celular se hace en tres pasos:
 
 1. No te quedes leyendo la página que te dio el asistente.
-2. Abre una pestaña nueva y busca el nombre de la fuente: quién es y qué dicen otros de ella.
+2. Abre una pestaña nueva y busca el nombre de la fuente: quién es y qué dicen otros de ella [@F-M1-19].
 3. Vuelve solo si lo que encontraste te da confianza.
 
 Andrés lo probó con un enlace que le dio el asistente: un sitio con recomendaciones de seguridad para bodegas que se veía serio. En
@@ -1553,7 +1469,7 @@ cubre: S2, S3
 fuentes: F-M1-19
 bloque: Proceso (process block) en 4 pasos o flashcards
 
-Mike Caulfield resumió la evaluación de información en cuatro movimientos, conocidos por su sigla en inglés: **SIFT**.
+Mike Caulfield resumió la evaluación de información en cuatro movimientos, conocidos por su sigla en inglés: **SIFT** [@F-M1-19].
 
 1. Detente (Stop). Antes de usar o compartir, pregúntate si conoces esta fuente y si sabes que es confiable.
 2. Investiga la fuente (Investigate the source). Averigua quién está detrás, qué experiencia tiene y qué intereses; aquí usas la lectura lateral.
@@ -1575,8 +1491,8 @@ fuentes: F-H-16, F-M1-09
 bloque: Texto + imagen de una respuesta con fuentes
 
 Varios asistentes muestran de dónde sacaron la información. A veces Gemini muestra un botón «Fuentes» con enlaces a sitios web o a
-archivos que subiste, y ChatGPT, con la búsqueda activada, puede citar fuentes recientes. Es una gran ayuda, pero una fuente citada no
-es una fuente verificada. La propia ayuda de ChatGPT recomienda revisar las citas y abrir los enlaces.
+archivos que subiste, y ChatGPT, con la búsqueda activada, puede citar fuentes recientes [@F-H-16; @F-M1-09]. Es una gran ayuda, pero una fuente citada no
+es una fuente verificada. La propia ayuda de ChatGPT recomienda revisar las citas y abrir los enlaces [@F-M1-09].
 
 Al abrirlos, comprueba tres cosas:
 
@@ -1608,7 +1524,7 @@ Ahora juntas todo en un **checklist de validación**: una lista de pasos que apl
 7. [ ] Reviso sesgo y vigencia: ¿a quién deja fuera?, ¿el dato sigue vigente?
 8. [ ] Decido: mantengo, corrijo o descarto cada afirmación.
 
-Los pasos 1, 4, 5 y 6 vienen de SIFT y de las recomendaciones de los proveedores. El mínimo de dos fuentes es un criterio de este
+Los pasos 1, 4, 5 y 6 vienen de SIFT y de las recomendaciones de los proveedores [@F-M1-19; @F-M1-09]. El mínimo de dos fuentes es un criterio de este
 curso, no de una fuente externa: te asegura que no dependes de una sola página.
 
 :::clave
@@ -1630,7 +1546,7 @@ Después de contrastar, cada afirmación cae en una de estas situaciones:
 | Las fuentes no coinciden entre sí | Buscas la fuente original o lo dejas fuera hasta aclararlo |
 | No encuentras ninguna fuente | Lo descartas, o lo marcas como «no verificado» si es indispensable mencionarlo |
 
-Fíjate en la última fila. Lo que no puedes verificar no se usa como si fuera cierto, y **descartar** no es perder trabajo: es evitar
+Fíjate en la última fila. Lo que no puedes verificar no se usa como si fuera cierto [@F-M1-09; @F-M1-19], y **descartar** no es perder trabajo: es evitar
 que un error salga con tu nombre. Andrés tenía tres datos en un borrador de procedimiento. El primero lo confirmó en dos fuentes y lo
 mantuvo. El segundo estaba desactualizado y lo corrigió con la norma vigente. El tercero, un porcentaje sin origen, no apareció en
 ninguna parte, así que lo borró.
@@ -1648,8 +1564,8 @@ bloque: Texto + comparación antes/después
 
 Validar es la defensa principal, pero también puedes bajar el riesgo de error desde el prompt. Los proveedores documentan dos medidas.
 La primera es entregar el texto y pedir que use solo ese contexto: la guía de Google propone limitar al modelo a la información que le
-das, para que trabaje sobre tu documento y no rellene con datos de otra parte. La segunda es permitirle decir «no lo sé». OpenAI
-explica que un modelo puede abstenerse en vez de inventar, y si se lo pides de forma explícita le das una salida honesta.
+das, para que trabaje sobre tu documento y no rellene con datos de otra parte [@F-M1-15]. La segunda es permitirle decir «no lo sé». OpenAI
+explica que un modelo puede abstenerse en vez de inventar [@F-M1-10], y si se lo pides de forma explícita le das una salida honesta.
 
 Camila lo aplicó a una consulta frecuente de su equipo. Antes preguntaba: «¿Qué documentos hay que adjuntar a una rendición de
 gastos?», y el asistente respondía con una lista general que mezclaba prácticas de otras empresas. Ahora escribe:
@@ -1674,8 +1590,8 @@ Ahora aplicas el checklist a una respuesta real, sobre un tema de tu trabajo.
 1. Abre Gemini o el asistente que uses.
 2. Pide información verificable sobre un tema de tu cargo, sin datos personales ni de tu empresa. Por ejemplo: «¿Qué elementos de protección personal se usan en una bodega?» o «¿Qué debe tener una boleta electrónica?».
 3. Marca tres afirmaciones verificables de la respuesta.
-4. Revisa si muestra un botón o una lista de fuentes, y ábrelas.
-5. Busca dos fuentes confiables por cada afirmación, con lectura lateral.
+4. Revisa si muestra un botón o una lista de fuentes, y ábrelas [@F-H-16].
+5. Busca dos fuentes confiables por cada afirmación, con lectura lateral [@F-M1-19].
 6. Decide qué haces con cada una.
 
 Si una afirmación no se puede verificar en dos fuentes confiables, no la uses en tu versión final y anota por qué la descartaste.
@@ -1697,8 +1613,8 @@ bloque: Texto + escenario
 
 Cuando firmas un informe, envías un correo o publicas un aviso, quien responde eres tú, no la herramienta. La guía de Google para
 Gemini lo dice con todas sus letras: hay que revisar todo resultado antes de usarlo, porque la persona es responsable del resultado
-final. El NIST agrega un riesgo que conviene conocer, el **sesgo de automatización**: la tendencia a confiar de más en lo que entrega
-una máquina. Mientras más cómodo y rápido es el asistente, más fácil es dejar de revisar.
+final [@F-M1-12]. El NIST agrega un riesgo que conviene conocer, el **sesgo de automatización**: la tendencia a confiar de más en lo que entrega
+una máquina [@F-M1-01]. Mientras más cómodo y rápido es el asistente, más fácil es dejar de revisar.
 
 En la práctica, la **responsabilidad profesional** significa revisar con más cuidado mientras más grave sería el error, no firmar ni
 enviar lo que no entiendes o no revisaste, avisar cuando no pudiste verificar algo en vez de presentarlo como seguro, y corregir rápido
@@ -1726,10 +1642,10 @@ fuentes: F-M1-02, F-M1-09
 bloque: Texto + actividad de cierre
 
 La **honestidad intelectual** es no presentar como propio, ni como seguro, algo que no lo es. Con la IA generativa significa no hacer
-pasar como tuyo un texto generado cuando eso importa, porque la UNESCO lo describe como una forma nueva de plagio, y decir que usaste
+pasar como tuyo un texto generado cuando eso importa, porque la UNESCO lo describe como una forma nueva de plagio [@F-M1-02], y decir que usaste
 IA cuando a quien lo recibe le importa saberlo. Significa también separar lo verificado de lo que no: si algo no lo pudiste confirmar,
 lo dices. Y significa no confiar en los «detectores» de texto hecho con IA; la ayuda de ChatGPT advierte que no puede determinar si un
-texto fue escrito por una IA.
+texto fue escrito por una IA [@F-M1-09].
 
 En este tema viste los tipos de error que conviene buscar (alucinación, sesgo, desactualización y salidas que no siguen el texto), los
 criterios para saber si una fuente es confiable, la lectura lateral, el método SIFT y tu checklist de validación. También practicaste
@@ -1753,48 +1669,18 @@ Escribe en tu bitácora:
 6. Un buen prompt reduce el error, pero no lo elimina: la validación sigue siendo necesaria.
 7. Quien firma o comparte responde por el contenido, y la honestidad intelectual exige decir qué se verificó y cuándo se usó IA.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Validación**: revisión de una respuesta generada, contrastándola con el texto original y con fuentes confiables, antes de usarla.
-- **Confabulación**: nombre que usa el NIST para la alucinación: contenido falso o erróneo presentado con seguridad.
-- **Desactualización**: error de una respuesta que da como vigente un dato que ya cambió.
-- **Afirmación verificable**: dato, cifra, fecha, nombre, cita o referencia que se puede comprobar en una fuente.
-- **Fuente confiable**: fuente con autoría identificable, experiencia en el tema, intereses claros y fecha vigente.
-- **Fuente original**: documento, norma o sitio del que sale un dato, a diferencia de un comentario o resumen sobre él.
-- **Lectura vertical**: evaluar un sitio leyéndolo de arriba abajo, sin salir de él.
-- **Lectura lateral**: evaluar un sitio saliendo de él para ver qué dicen otras fuentes sobre quién está detrás.
-- **SIFT**: método de cuatro pasos para evaluar información: detenerse, investigar la fuente, buscar mejor cobertura y rastrear hasta
-  el original.
-- **Checklist de validación**: lista de pasos que se aplica a una respuesta generada antes de usarla o compartirla.
-- **Sesgo de automatización**: tendencia a confiar de más en lo que entrega una máquina y dejar de revisarlo.
-- **Honestidad intelectual**: actitud de no presentar como propio ni como seguro lo que no lo es.
-
-### Conexión con el proyecto
-
-Tu checklist (P12) y tu tabla de validación (P15) los vas a aplicar a las respuestas que obtienes con tu **biblioteca de prompts** del
-**Hito 1 del proyecto aplicado: problema u oportunidad real + biblioteca de prompts v1**, antes de dar por buena una plantilla. Los
-seguirás usando en los módulos siguientes, cada vez que una respuesta de IA vaya a salir con tu nombre.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M1.md` e `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
-
-- F-M1-01 · NIST (2024). Generative Artificial Intelligence Profile (NIST AI 600-1). https://doi.org/10.6028/NIST.AI.600-1
-- F-M1-02 · UNESCO; Miao y Holmes (2024). Guía para el uso de IA generativa en educación e investigación. https://unesdoc.unesco.org/ark:/48223/pf0000389227_spa
-- F-M1-09 · OpenAI Help Center (2026). ¿Dice ChatGPT la verdad? https://help.openai.com/es-es/articles/8313428-does-chatgpt-tell-the-truth
-- F-M1-10 · OpenAI; Kalai y otros (2025). Por qué alucinan los modelos de lenguaje. https://openai.com/es-419/index/why-language-models-hallucinate/
-- F-M1-11 · Noticias ONU (2024). La inteligencia artificial ya reproduce estereotipos de género. https://news.un.org/es/story/2024/03/1528182
-- F-M1-12 · Google Workspace (2026). Cómo escribir instrucciones eficaces. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
-- F-M1-15 · Google AI for Developers (2026). Estrategias de diseño de instrucciones. https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419
-- F-M1-19 · Caulfield, M. (2019). SIFT (The Four Moves). https://hapgood.us/2019/06/19/sift-the-four-moves/
-- F-M1-20 · Wineburg, S. y McGrew, S. (2018). Lateral Reading and the Nature of Expertise (manuscrito, Stanford Digital Repository). https://purl.stanford.edu/yk133ht8603
-- F-H-16 · Google (s. f.). Ver fuentes relacionadas de las aplicaciones de Gemini. https://support.google.com/gemini/answer/14143489?hl=es
-
-Recomendaciones del curso, sin fuente: el mínimo de **dos fuentes** confiables para contrastar (C2; SIFT y la lectura lateral piden
-contrastar, pero no fijan un número), la tabla de criterios de confiabilidad de P08 como síntesis didáctica, el orden del checklist de
-P12, la tabla de decisión de P13 y el error «pedirle al mismo asistente que confirme» (P13), que se apoya en la recomendación de usar
-la IA como borrador y no como fuente final [F-M1-09]. Todos los ejemplos son ficticios, incluidas las historias de Marcela (P02) y de
-la tienda de electrodomésticos (P16), y los datos de la respuesta de P07 son inventados a propósito.
+- Caulfield, M. (2019, 19 de junio). *SIFT (The four moves)*. Hapgood. https://hapgood.us/2019/06/19/sift-the-four-moves/
+- Google. (s. f.-a). *Cómo escribir instrucciones eficaces*. Google Workspace. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
+- Google. (s. f.-b). *Ver fuentes relacionadas de las aplicaciones de Gemini*. https://support.google.com/gemini/answer/14143489?hl=es
+- Google. (2026, 13 de octubre). *Estrategias de diseño de instrucciones*. Google AI for Developers. https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419
+- Miao, F. y Holmes, W. (2024). *Guía para el uso de IA generativa en educación e investigación*. UNESCO. https://unesdoc.unesco.org/ark:/48223/pf0000389227_spa
+- National Institute of Standards and Technology. (2024). *Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)*. https://doi.org/10.6028/NIST.AI.600-1
+- Noticias ONU. (2024, 7 de marzo). *La inteligencia artificial ya reproduce estereotipos de género*. https://news.un.org/es/story/2024/03/1528182
+- OpenAI. (2025, 5 de septiembre). *Por qué alucinan los modelos de lenguaje*. https://openai.com/es-419/index/why-language-models-hallucinate/
+- OpenAI. (2026). *¿Dice ChatGPT la verdad?* OpenAI Help Center. https://help.openai.com/es-es/articles/8313428-does-chatgpt-tell-the-truth
+- Wineburg, S. y McGrew, S. (2018). *Lateral reading and the nature of expertise: Reading less and learning more when evaluating digital information*. Stanford Digital Repository. https://purl.stanford.edu/yk133ht8603
 
 
 ---
@@ -1815,7 +1701,7 @@ En el módulo 1 aprendiste a escribir prompts con rol, contexto, tarea y formato
 
 El aprendizaje esperado es este: Redactar correos, minutas e informes con apoyo de IA, ajustando tono, registro y audiencia. Al final del tema deberías poder ajustar el tono y el registro de un texto a la audiencia que se te indica, y entregar un texto claro y sin errores relevantes, porque lo revisaste tú antes de enviarlo.
 
-Vas a trabajar con Gemini, el asistente principal del curso. Tiene app para Android y para iOS y se usa con una cuenta personal de Google; como viste en el módulo 1, también funciona en el navegador. Si en tu trabajo usan otro asistente, los pasos son los mismos. Como cualquier asistente, sus respuestas pueden traer errores, así que todo lo que redacte será un borrador que tú corriges.
+Vas a trabajar con Gemini, el asistente principal del curso. Tiene app para Android y para iOS y se usa con una cuenta personal de Google; como viste en el módulo 1, también funciona en el navegador [@F-H-14]. Si en tu trabajo usan otro asistente, los pasos son los mismos. Como cualquier asistente, sus respuestas pueden traer errores, así que todo lo que redacte será un borrador que tú corriges [@F-M2-08].
 
 Te siguen acompañando Camila y Andrés. Camila es asistente administrativa en una constructora: responde correos de proveedores y clientes, lleva la agenda de la gerenta de administración y prepara las minutas de sus reuniones. Andrés es encargado de bodega en una distribuidora y escribe avisos a su equipo, minutas de reuniones y un informe semanal para su jefatura.
 
@@ -1828,7 +1714,7 @@ cubre: S1
 fuentes: F-M2-06, F-M2-05
 bloque: Texto + tabla comparativa
 
-Un **género** es un tipo de texto con un propósito y unas partes que quien lo lee espera encontrar. En el trabajo administrativo se repiten tres. El correo sirve para pedir, informar o responder algo puntual. La minuta, que en muchas oficinas se llama acta, deja registro de una reunión: qué se trató, qué se acordó y quién se comprometió a qué, con fecha. El informe ejecutivo le entrega a quien decide lo que necesita para decidir, por lo general en una página.
+Un **género** es un tipo de texto con un propósito y unas partes que quien lo lee espera encontrar. En el trabajo administrativo se repiten tres. El correo sirve para pedir, informar o responder algo puntual. La minuta, que en muchas oficinas se llama acta, deja registro de una reunión: qué se trató, qué se acordó y quién se comprometió a qué, con fecha [@F-M2-06]. El informe ejecutivo le entrega a quien decide lo que necesita para decidir, por lo general en una página [@F-M2-05].
 
 | Género | Pregunta que responde | Lo que no puede faltar |
 |---|---|---|
@@ -1853,9 +1739,9 @@ cubre: S2, C1
 fuentes: F-M2-04, F-M2-03
 bloque: Texto + tabla comparativa
 
-Tres decisiones cambian cómo suena un texto, aunque diga lo mismo. La primera es la audiencia: la persona o el grupo que lo va a leer. En un mismo día puedes escribirle a tu jefatura, a una colega, a un proveedor y a un cliente, y para cada uno conviene adaptar el tono, el formato y el nivel de detalle. Tampoco es lo mismo escribirle a una sola persona que a todo un equipo.
+Tres decisiones cambian cómo suena un texto, aunque diga lo mismo. La primera es la audiencia: la persona o el grupo que lo va a leer. En un mismo día puedes escribirle a tu jefatura, a una colega, a un proveedor y a un cliente, y para cada uno conviene adaptar el tono, el formato y el nivel de detalle [@F-M2-04]. Tampoco es lo mismo escribirle a una sola persona que a todo un equipo.
 
-La segunda es el **registro**, que es el grado de formalidad. El registro formal es el del intercambio profesional, y el informal, el de la familia y las amistades. En el trabajo se prefiere tratar de usted, salvo que haya una relación cercana, como la que quizá tienes con tu equipo de todos los días.
+La segunda es el **registro**, que es el grado de formalidad. El registro formal es el del intercambio profesional, y el informal, el de la familia y las amistades. En el trabajo se prefiere tratar de usted, salvo que haya una relación cercana, como la que quizá tienes con tu equipo de todos los días [@F-M2-03].
 
 La tercera es el **tono**: la actitud que transmite el texto. Puede ser cordial, firme, neutro, agradecido o de disculpa. Un correo formal puede sonar cordial o puede sonar seco; el registro es el mismo y lo que cambia es el tono. Por eso un reclamo a un proveedor puede ser firme sin dejar de ser respetuoso.
 
@@ -1873,7 +1759,7 @@ cubre: S2, C1
 fuentes: F-M2-02, F-M2-04
 bloque: Texto + lista de verificación (checklist)
 
-Las guías de redacción coinciden en que antes de escribir hay que tener claro para qué es el texto y quién lo va a leer. Con eso eliges mejor las palabras, no das por sabido algo que la otra persona no maneja y entregas solo la información que necesita. Conocer a la audiencia también te dice qué género usar y qué dato poner primero. Antes de abrir el asistente, responde cuatro preguntas:
+Las guías de redacción coinciden en que antes de escribir hay que tener claro para qué es el texto y quién lo va a leer [@F-M2-02; @F-M2-04]. Con eso eliges mejor las palabras, no das por sabido algo que la otra persona no maneja y entregas solo la información que necesita. Conocer a la audiencia también te dice qué género usar y qué dato poner primero. Antes de abrir el asistente, responde cuatro preguntas:
 
 - ¿Para qué escribo: pedir, informar, acordar o recomendar?
 - ¿Quién lo lee, qué relación tiene conmigo y cuánto sabe del tema?
@@ -1899,9 +1785,9 @@ bloque: Texto + recuadro destacado
 
 En este tema la IA cumple un papel preciso: produce el borrador. Tú pones el propósito, los datos y la revisión final. Hay tres razones para no pedirle más que eso.
 
-La primera es que puede inventar. Un modelo de lenguaje puede producir contenido falso presentado con seguridad, lo que se llama **confabulación** o, de forma más coloquial, alucinación. En un correo, eso puede ser una fecha, un monto o un compromiso que nadie hizo, y el riesgo está en el tono seguro, que lleva a creer y a difundir esa información. La segunda es que varía: la misma indicación puede dar respuestas distintas, así que no basta con que una vez haya salido bien. La tercera es que no conoce tu situación. Solo sabe lo que le escribes; no sabe qué le prometió tu jefatura a un cliente ni qué facturas están pendientes de pago.
+La primera es que puede inventar. Un modelo de lenguaje puede producir contenido falso presentado con seguridad, lo que se llama **confabulación** o, de forma más coloquial, alucinación [@F-M2-07]. En un correo, eso puede ser una fecha, un monto o un compromiso que nadie hizo, y el riesgo está en el tono seguro, que lleva a creer y a difundir esa información. La segunda es que varía: la misma indicación puede dar respuestas distintas, así que no basta con que una vez haya salido bien [@F-M2-08]. La tercera es que no conoce tu situación. Solo sabe lo que le escribes; no sabe qué le prometió tu jefatura a un cliente ni qué facturas están pendientes de pago.
 
-Los propios proveedores lo advierten: las respuestas de sus asistentes pueden contener errores y hay que revisarlas antes de usarlas.
+Los propios proveedores lo advierten: las respuestas de sus asistentes pueden contener errores y hay que revisarlas antes de usarlas [@F-M2-08].
 
 Dentro de ese límite, la IA ayuda mucho. Ordena ideas sueltas en un texto con estructura, propone versiones con tonos distintos, acorta un texto largo o lo vuelve más formal, y sugiere un asunto o una despedida. Piensa en ella como una persona que te ayuda a escribir pero que no estuvo en la reunión: redacta rápido, y tú sabes lo que pasó.
 
@@ -1914,11 +1800,11 @@ cubre: H1, S2
 fuentes: F-M2-08, F-M2-11
 bloque: Texto + imagen de un prompt con sus partes destacadas
 
-Para pedir un texto de trabajo sirven las partes de un prompt que conociste en el módulo 1. La guía de Microsoft para su asistente las ordena así: el objetivo, que es lo único imprescindible; el contexto, es decir, por qué lo necesitas y quiénes participan; la fuente, que son los datos que debe usar; y las expectativas de formato y extensión. A eso puedes sumarle un rol.
+Para pedir un texto de trabajo sirven las partes de un prompt que conociste en el módulo 1. La guía de Microsoft para su asistente las ordena así: el objetivo, que es lo único imprescindible; el contexto, es decir, por qué lo necesitas y quiénes participan; la fuente, que son los datos que debe usar; y las expectativas de formato y extensión [@F-M2-08]. A eso puedes sumarle un rol.
 
 En un texto laboral, el objetivo incluye el género, y el contexto incluye las tres decisiones de la pantalla 3: audiencia, registro y tono. No tienes que usar todas las partes siempre, pero mientras más incluyas, menos tendrás que corregir.
 
-Después del primer borrador, sigue conversando. Pide «hazlo más breve», «quita la segunda oración» o «más cordial», de a un cambio. La documentación de otro proveedor describe un ciclo que sirve para cualquier texto: borrador, revisión contra lo que necesitas y versión mejorada.
+Después del primer borrador, sigue conversando. Pide «hazlo más breve», «quita la segunda oración» o «más cordial», de a un cambio. La documentación de otro proveedor describe un ciclo que sirve para cualquier texto: borrador, revisión contra lo que necesitas y versión mejorada [@F-M2-11].
 
 Así quedó el prompt de Camila para confirmar una reunión con un proveedor. Fíjate en que cada parte se reconoce, y en la última frase, que le cierra la puerta a los datos inventados.
 
@@ -1931,7 +1817,7 @@ cubre: S1, A1
 fuentes: F-M2-03
 bloque: Texto + imagen de un correo con sus partes rotuladas
 
-Un correo profesional tiene cuatro partes. Las recomendaciones que siguen vienen de una guía universitaria sobre correo electrónico en español, que aclara que son sugerencias y no normas obligatorias:
+Un correo profesional tiene cuatro partes. Las recomendaciones que siguen vienen de una guía universitaria sobre correo electrónico en español, que aclara que son sugerencias y no normas obligatorias [@F-M2-03]:
 
 1. El asunto, siempre presente y breve, dice de qué se trata antes de abrirlo: «Confirmación de reunión, martes 12».
 2. El saludo va seguido de dos puntos: «Estimada Sra. Pérez:».
@@ -1961,8 +1847,8 @@ Hace dos semanas, un proveedor de ferretería entregó en la obra un pedido de l
 
 1. Abre Gemini en la app o en el navegador.
 2. Escribe el prompt con sus partes: «Actúa como asistente administrativa de una constructora. Redacta un correo para pedir la factura de la orden de compra 2045, entregada el 3 de octubre. Lo lee la ejecutiva de ventas del proveedor, a quien no conozco. Registro formal, de usted, tono cordial y firme, sin sonar insistente. Máximo 90 palabras. Incluye asunto. Saludo con dos puntos. No inventes datos».
-3. Lee el borrador y revisa si tiene asunto, si el saludo termina en dos puntos y si agregó algo que no dijiste.
-4. Ajusta conversando, de a un cambio: «hazlo más breve» o «cambia la última oración por un agradecimiento».
+3. Lee el borrador y revisa si tiene asunto, si el saludo termina en dos puntos y si agregó algo que no dijiste [@F-M2-03].
+4. Ajusta conversando, de a un cambio: «hazlo más breve» o «cambia la última oración por un agradecimiento» [@F-M2-08].
 5. Edita tú el texto final, para que suene a ti y los datos sean los correctos.
 
 Pedir un cambio a la vez tiene una ventaja: ves qué produjo cada mejora. Si pides cinco cambios juntos, cuesta saber cuál funcionó.
@@ -1978,7 +1864,7 @@ bloque: Texto + tabla o pestañas con las tres versiones
 
 Adaptar un texto a distintas audiencias es una de las tareas en que más ayuda la IA. Tú defines el mensaje y a quién va dirigido; el asistente propone versiones; tú eliges y corriges.
 
-Andrés tiene que comunicar un hecho: el despacho de un cliente se atrasará dos días porque el proveedor no entregó a tiempo. A su jefatura le importan la causa y lo que él propone hacer. Al equipo de bodega le importa qué cambia en su trabajo. Al cliente le importa cuándo recibe su pedido. Es el mismo hecho con tres focos, y cada foco pide su registro y su tono.
+Andrés tiene que comunicar un hecho: el despacho de un cliente se atrasará dos días porque el proveedor no entregó a tiempo. A su jefatura le importan la causa y lo que él propone hacer. Al equipo de bodega le importa qué cambia en su trabajo. Al cliente le importa cuándo recibe su pedido. Es el mismo hecho con tres focos, y cada foco pide su registro y su tono [@F-M2-04; @F-M2-03].
 
 | Audiencia | Qué cambia | Cómo empieza |
 |---|---|---|
@@ -2003,7 +1889,7 @@ bloque: Texto + tabla de compromisos (o plantilla descargable)
 
 La **minuta**, que también se llama acta de reunión, deja registro de una reunión. Su valor no está en contar todo lo que se dijo, sino en dejar claro qué se acordó y quién hace qué.
 
-Un instructivo de reuniones de una institución pública lo describe así: en cada reunión se designa a una persona que registra los temas tratados y los compromisos; los acuerdos y compromisos se establecen con fechas y responsables; y después el acta se comparte, se revisa, se reciben aportes y se hace seguimiento a lo comprometido. Camila, que prepara las minutas de las reuniones de su jefatura, cumple justamente ese papel.
+Un instructivo de reuniones de una institución pública lo describe así: en cada reunión se designa a una persona que registra los temas tratados y los compromisos; los acuerdos y compromisos se establecen con fechas y responsables; y después el acta se comparte, se revisa, se reciben aportes y se hace seguimiento a lo comprometido [@F-M2-06]. Camila, que prepara las minutas de las reuniones de su jefatura, cumple justamente ese papel.
 
 Una minuta breve parte con los datos de la reunión (fecha, participantes y tema), sigue con una línea por cada tema tratado y con los acuerdos, y termina con los compromisos y la fecha de la próxima revisión. Los compromisos se leen mejor en una tabla:
 
@@ -2026,11 +1912,11 @@ bloque: Proceso paso a paso + actividad
 Las notas de una reunión suelen quedar desordenadas. La IA ayuda a convertirlas en minuta, siempre que no la dejes inventar. Estas son las notas de Andrés, con datos ficticios: «reunión lunes 11 despachos. estaban: Andrés, Marta (ventas), Jorge (bodega). 3 pedidos atrasados por proveedor de cajas. Marta avisa a clientes hoy. Jorge revisa stock cajas. Ver de nuevo el viernes. compras tiene que pedir otra fecha al proveedor».
 
 1. Pega las notas en Gemini con este prompt: «Convierte estas notas en una minuta con los datos de la reunión, los temas, los acuerdos y una tabla de compromisos con responsable y fecha. Usa solo la información de las notas. Si falta un responsable o una fecha, escribe [FALTA] en vez de completarlo».
-2. Revisa la tabla de compromisos: en las notas, la tarea de Jorge no tiene fecha y «compras» no tiene una persona a cargo.
+2. Revisa la tabla de compromisos, porque cada uno necesita responsable y fecha [@F-M2-06]. En las notas, la tarea de Jorge no tiene fecha y «compras» no tiene una persona a cargo.
 3. Completa tú lo que falta, preguntando a quien corresponda.
 4. Compara la minuta con las notas y busca si la IA agregó algún acuerdo.
 
-La regla de [FALTA] tiene una razón. Si no se lo prohíbes, el asistente puede poner una fecha «razonable» o asignar un responsable que nadie nombró, y en una minuta eso crea un compromiso falso. Darle al modelo una salida distinta de inventar, como marcar lo que no encuentra, es una recomendación de la documentación de los proveedores. Aun así, la revisión sigue siendo tuya.
+La regla de [FALTA] tiene una razón. Si no se lo prohíbes, el asistente puede poner una fecha «razonable» o asignar un responsable que nadie nombró, y en una minuta eso crea un compromiso falso. Darle al modelo una salida distinta de inventar, como marcar lo que no encuentra, es una recomendación de la documentación de los proveedores [@F-M2-12]. Aun así, la revisión sigue siendo tuya.
 
 :::actividad Tu minuta
 Escribe en cinco líneas las notas de una reunión reciente de tu área, con los nombres cambiados si son datos internos. Pídele a Gemini la minuta con la regla de [FALTA] y revisa cuántos vacíos detectó.
@@ -2041,9 +1927,9 @@ cubre: S1, C1
 fuentes: F-M2-05
 bloque: Texto + comparación antes y después
 
-El **informe ejecutivo**, también llamado resumen ejecutivo, condensa la información para la persona que decide. Suele ocupar una página y responde tres preguntas de quien lo lee: qué debo saber, por qué me importa y qué debo hacer. La primera se responde con el resultado o el hallazgo principal; la segunda, con la consecuencia para el área o la empresa; la tercera, con la recomendación o la decisión que se pide.
+El **informe ejecutivo**, también llamado resumen ejecutivo, condensa la información para la persona que decide. Suele ocupar una página y responde tres preguntas de quien lo lee: qué debo saber, por qué me importa y qué debo hacer [@F-M2-05]. La primera se responde con el resultado o el hallazgo principal; la segunda, con la consecuencia para el área o la empresa; la tercera, con la recomendación o la decisión que se pide.
 
-Una guía universitaria sobre este género aconseja empezar por los resultados y la recomendación, no por la historia de cómo se hizo el trabajo. También pide reducir al mínimo la descripción de los métodos, usar viñetas y párrafos cortos y, cuando se recomienda algo, compararlo con las alternativas.
+Una guía universitaria sobre este género aconseja empezar por los resultados y la recomendación, no por la historia de cómo se hizo el trabajo. También pide reducir al mínimo la descripción de los métodos, usar viñetas y párrafos cortos y, cuando se recomienda algo, compararlo con las alternativas [@F-M2-05].
 
 | Así no | Así sí |
 |---|---|
@@ -2067,12 +1953,12 @@ bloque: Proceso paso a paso + actividad
 Andrés debe entregar el viernes un informe ejecutivo a su jefatura. Tiene los datos de la semana, ficticios, en una lista: «40 despachos; 37 a tiempo; 3 atrasados, los 3 por falta de cajas del proveedor; el stock de cajas medianas quedó en 20; un segundo proveedor ofrece entrega en 48 horas».
 
 1. Pide el borrador: «Actúa como encargado de bodega. Redacta un informe ejecutivo de máximo una página para mi jefatura. Usa solo estos datos. Estructura: resultado de la semana, por qué importa y recomendación. Viñetas cortas. Registro formal».
-2. Revisa el orden: el resultado tiene que estar al principio y la recomendación tiene que entenderse.
+2. Revisa el orden: el resultado tiene que estar al principio y la recomendación tiene que entenderse [@F-M2-05].
 3. Revisa los datos, cifra por cifra, contra la lista. Si aparece un porcentaje, calcúlalo tú.
 4. Pide una revisión contra criterios: «Revisa tu informe: ¿responde qué debo saber, por qué me importa y qué debo hacer? Señala qué falta y entrega una versión mejorada».
 5. Decide tú la versión final.
 
-El paso 4 aplica el ciclo de borrador, revisión y mejora que viste en la pantalla 6: le pides al asistente que se revise contra criterios claros. Igual compruebas tú el resultado, porque esa autorrevisión también puede fallar.
+El paso 4 aplica el ciclo de borrador, revisión y mejora que viste en la pantalla 6: le pides al asistente que se revise contra criterios claros [@F-M2-11]. Igual compruebas tú el resultado, porque esa autorrevisión también puede fallar.
 
 :::actividad Tu informe de una página
 Con datos inventados parecidos a los de tu cargo, como facturas registradas en el mes, consultas atendidas o pedidos despachados, pide un informe ejecutivo que responda las tres preguntas. Anota qué tuviste que corregir.
@@ -2083,9 +1969,9 @@ cubre: A1, C2
 fuentes: F-M2-01, F-M2-02
 bloque: Texto + comparación antes y después
 
-En Chile, varios organismos públicos forman la Red de Lenguaje Claro. La Red describe el **lenguaje claro** como un estilo de redacción simple y eficiente, que facilita que las personas entiendan lo que se escribe. No se queda en las palabras: abarca también la estructura, la edición y el diseño del texto.
+En Chile, varios organismos públicos forman la Red de Lenguaje Claro. La Red describe el **lenguaje claro** como un estilo de redacción simple y eficiente, que facilita que las personas entiendan lo que se escribe [@F-M2-01]. No se queda en las palabras: abarca también la estructura, la edición y el diseño del texto.
 
-Una guía de lenguaje claro del Senado de Chile trae recomendaciones que sirven para cualquier texto de oficina. Pide oraciones breves, con una idea cada una, en el orden sujeto, verbo y complementos. Prefiere la voz activa («Jorge revisará el stock») a la pasiva («El stock será revisado por Jorge») y el estilo afirmativo («Llegue a las 9:00») al negativo («No llegue después de las 9:00»). Cuando el texto es largo, sugiere títulos y viñetas; las siglas y los tecnicismos se definen la primera vez que aparecen, y al final se revisa con una lista de verificación.
+Una guía de lenguaje claro del Senado de Chile trae recomendaciones que sirven para cualquier texto de oficina. Pide oraciones breves, con una idea cada una, en el orden sujeto, verbo y complementos. Prefiere la voz activa («Jorge revisará el stock») a la pasiva («El stock será revisado por Jorge») y el estilo afirmativo («Llegue a las 9:00») al negativo («No llegue después de las 9:00»). Cuando el texto es largo, sugiere títulos y viñetas; las siglas y los tecnicismos se definen la primera vez que aparecen, y al final se revisa con una lista de verificación [@F-M2-02].
 
 | Antes | Después |
 |---|---|
@@ -2094,7 +1980,7 @@ Una guía de lenguaje claro del Senado de Chile trae recomendaciones que sirven 
 Puedes pedirle a la IA que aplique estas reglas: «Reescribe este texto en lenguaje claro, con oraciones breves, voz activa y sin tecnicismos». Después lee el resultado y verifica que no se haya perdido información.
 
 :::error «Formal es lo mismo que difícil»
-Un texto formal no necesita palabras rebuscadas ni frases largas. La misma guía describe el lenguaje claro como sencillo y directo, sin renunciar a la precisión. Un texto puede ser formal, cordial y fácil de entender a la vez.
+Un texto formal no necesita palabras rebuscadas ni frases largas. La misma guía describe el lenguaje claro como sencillo y directo, sin renunciar a la precisión [@F-M2-02]. Un texto puede ser formal, cordial y fácil de entender a la vez.
 :::
 
 ### P15 · El ajuste fino: cortesía y claridad
@@ -2102,7 +1988,7 @@ cubre: A1, C1
 fuentes: F-M2-08, F-M2-03
 bloque: Escenario o conversación de ejemplo
 
-Casi nunca el primer borrador tiene el tono justo. A veces sale demasiado ceremonioso; otras, demasiado seco. El ajuste se hace conversando con el asistente, con una instrucción a la vez, y estas son algunas que funcionan bien:
+Casi nunca el primer borrador tiene el tono justo. A veces sale demasiado ceremonioso; otras, demasiado seco. El ajuste se hace conversando con el asistente, con una instrucción a la vez [@F-M2-08]. Estas son algunas que funcionan bien:
 
 | Si el borrador… | Pídele… |
 |---|---|
@@ -2112,7 +1998,7 @@ Casi nunca el primer borrador tiene el tono justo. A veces sale demasiado ceremo
 | Suena a reclamo | «Cambia el tono a uno neutro: describe el problema y pide una solución» |
 | No suena a ti | «Usa frases simples, como las que yo escribiría» |
 
-La cortesía profesional no es adornar: es saludar, agradecer, pedir con claridad y no culpar. Mucha gente cree que más formal es más largo, y no es así. Fórmulas como «tengo el agrado de dirigirme a usted con el propósito de» no hacen más cortés un correo; solo lo alargan y lo hacen más difícil de leer. La claridad, por su parte, es que quien lee entienda a la primera qué pasa y qué tiene que hacer.
+La cortesía profesional no es adornar: es saludar, agradecer, pedir con claridad y no culpar [@F-M2-03]. Mucha gente cree que más formal es más largo, y no es así. Fórmulas como «tengo el agrado de dirigirme a usted con el propósito de» no hacen más cortés un correo; solo lo alargan y lo hacen más difícil de leer. La claridad, por su parte, es que quien lee entienda a la primera qué pasa y qué tiene que hacer.
 
 :::ejemplo Andrés y el reclamo al proveedor
 El primer borrador de Andrés decía: «Es inaceptable que nuevamente no cumplan con los plazos». Le pidió a Gemini un tono neutro y recibió: «Le escribo porque el pedido del 7 de octubre no llegó en la fecha acordada. ¿Nos puede confirmar una nueva fecha de entrega?». Dice lo mismo, con más posibilidades de una respuesta rápida.
@@ -2123,7 +2009,7 @@ cubre: C2, A2, S3
 fuentes: F-M2-02, F-M2-07
 bloque: Lista de verificación (checklist) interactiva
 
-Un texto claro y sin errores relevantes no sale solo: sale de una revisión. La guía de lenguaje claro del Senado recomienda cerrar siempre con una lista de verificación, y esta reúne lo que viste en el tema. Úsala antes de enviar cualquier texto hecho con IA.
+Un texto claro y sin errores relevantes no sale solo: sale de una revisión. La guía de lenguaje claro del Senado recomienda cerrar siempre con una lista de verificación [@F-M2-02]. Esta reúne lo que viste en el tema. Úsala antes de enviar cualquier texto hecho con IA.
 
 - [ ] El objetivo se entiende en las primeras líneas.
 - [ ] Nombres, fechas, montos y números de pedido o de factura coinciden con el original.
@@ -2134,7 +2020,7 @@ Un texto claro y sin errores relevantes no sale solo: sale de una revisión. La 
 - [ ] Tiene asunto, el saludo termina en dos puntos y la despedida es adecuada.
 - [ ] La ortografía y la puntuación están revisadas.
 
-Los errores de hecho son los más graves, porque la IA puede introducirlos con total seguridad. Una coma mal puesta se perdona; una fecha de entrega o un monto equivocado generan un problema con un cliente o con un proveedor.
+Los errores de hecho son los más graves, porque la IA puede introducirlos con total seguridad [@F-M2-07]. Una coma mal puesta se perdona; una fecha de entrega o un monto equivocado generan un problema con un cliente o con un proveedor.
 
 :::comprueba
 El borrador de un correo de Andrés está bien escrito, pero dice «pedido 481» y el pedido real es el 418. ¿Qué tipo de error es?
@@ -2151,7 +2037,7 @@ bloque: Texto + recuadro destacado
 
 Cuando envías un texto, respondes por él. Da lo mismo si lo escribiste tú, si te ayudó una colega o si lo redactó un asistente: quien firma se hace cargo del mensaje. Es tentador pensar que, si lo escribió la IA, el error es de la IA. Para quien recibe el correo, el mensaje es tuyo; si promete una fecha que no se puede cumplir o trata mal a un cliente, la consecuencia es para ti y para tu equipo, no para la herramienta.
 
-Esa responsabilidad se nota en tres hábitos. El primero es revisar todo antes de enviar y verificar los datos, porque un modelo puede inventar datos e incluso justificaciones que suenan convincentes. El segundo es cuidar la información. En tu trabajo manejas datos reales de clientes, proveedores y colegas: no los pegues en un asistente si tu empresa no lo permite, y para practicar usa copias sin datos sensibles o datos inventados. El tercero es configurar tu asistente. En Gemini, si el ajuste de actividad está encendido, personas que revisan pueden leer conversaciones para mejorar el servicio; para evitarlo se apaga ese ajuste o se usan chats temporales. Lo vas a ver en detalle en el módulo 3.
+Esa responsabilidad se nota en tres hábitos. El primero es revisar todo antes de enviar y verificar los datos, porque un modelo puede inventar datos e incluso justificaciones que suenan convincentes [@F-M2-07]. El segundo es cuidar la información. En tu trabajo manejas datos reales de clientes, proveedores y colegas: no los pegues en un asistente si tu empresa no lo permite, y para practicar usa copias sin datos sensibles o datos inventados. El tercero es configurar tu asistente. En Gemini, si el ajuste de actividad está encendido, personas que revisan pueden leer conversaciones para mejorar el servicio; para evitarlo se apaga ese ajuste o se usan chats temporales [@F-H-15]. Lo vas a ver en detalle en el módulo 3.
 
 :::ejemplo Camila revisa antes de enviar
 Un proveedor preguntó cuándo se le pagaría una factura. Gemini redactó una respuesta impecable que terminaba con «el pago se realizará este viernes». Nadie se había comprometido a esa fecha. Camila borró la frase, escribió que confirmaría la fecha con la gerenta de administración y recién entonces envió el correo.
@@ -2162,7 +2048,7 @@ cubre: H1, C1, C2
 fuentes: F-M2-08, F-M2-02
 bloque: Texto + actividad de cierre (respuesta abierta)
 
-En este tema viste que en el trabajo se escriben géneros distintos. El correo resuelve algo puntual, la minuta registra acuerdos y compromisos, y el informe ejecutivo le da a quien decide lo esencial. Aprendiste a decidir audiencia, registro y tono antes de escribir, a usar la IA para el borrador y ajustarlo conversando, y a revisar el resultado con una lista de verificación antes de firmarlo.
+En este tema viste que en el trabajo se escriben géneros distintos. El correo resuelve algo puntual, la minuta registra acuerdos y compromisos, y el informe ejecutivo le da a quien decide lo esencial. Aprendiste a decidir audiencia, registro y tono antes de escribir, a usar la IA para el borrador y ajustarlo conversando, y a revisar el resultado con una lista de verificación antes de firmarlo [@F-M2-08; @F-M2-02].
 
 La práctica de cierre junta todo eso con textos de tu propio cargo. Retoma el texto que anotaste en la primera pantalla y súmale los otros dos géneros. Si los datos son internos, cambia nombres y montos: lo que importa aquí es cómo ajustas el texto, no la información de tu empresa.
 
@@ -2185,42 +2071,20 @@ Para cada uno, anota la audiencia, el registro y el tono que elegiste; guarda el
 6. El lenguaje claro usa oraciones breves, voz activa, estilo afirmativo y siglas explicadas. Formal no significa complicado.
 7. Quien firma responde por el mensaje: verifica los datos y, para practicar, usa copias sin datos sensibles y respeta lo que diga su empresa.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Género (de comunicación laboral)**: tipo de texto con un propósito y unas partes reconocibles, como el correo, la minuta o el informe ejecutivo.
-- **Correo profesional**: mensaje breve con asunto, saludo, cuerpo conciso y despedida, escrito en registro formal.
-- **Minuta**: registro de una reunión con los temas tratados, los acuerdos y los compromisos con responsable y fecha. También se le llama acta.
-- **Compromiso**: tarea acordada en una reunión, con una persona responsable y una fecha de cumplimiento.
-- **Informe ejecutivo**: texto breve, por lo general de una página, que entrega a quien decide el resultado principal, por qué importa y la recomendación.
-- **Audiencia**: persona o grupo que va a leer un texto.
-- **Registro**: grado de formalidad de un texto: formal en lo profesional, informal con familia y amistades.
-- **Tono**: actitud que transmite un texto, como cordial, neutro, firme o de disculpa.
-- **Confabulación**: contenido falso que un modelo de IA presenta con seguridad; de forma coloquial se le llama alucinación.
-- **Lenguaje claro**: estilo de redacción simple y directo que facilita que las personas entiendan lo escrito, sin perder precisión.
-- **Voz activa**: forma de la oración en que quien hace la acción va primero: «Jorge revisará el stock».
-- **Borrador**: primera versión de un texto, que se revisa y corrige antes de usarla.
-- **Revisión humana**: lectura que hace una persona para comprobar datos, tono y forma antes de usar un texto generado con IA.
-
-### Conexión con el proyecto
-
-Este tema alimenta el **Hito 2 del proyecto aplicado: brief del proyecto + presentación de 6 láminas**. El problema u oportunidad de tu trabajo que definiste en el Hito 1 se convierte ahora en un brief: un texto breve con objetivo, audiencia y mensaje, que por lo general va dirigido a tu jefatura. Escribirlo es aplicar lo que viste aquí: pensar en quien lee, empezar por lo esencial como en el informe ejecutivo (P12 y P13) y revisarlo con la lista de verificación (P16). En el tema 3 de este módulo vas a convertir ese brief en las seis láminas.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M2.md` y `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
-
-- F-M2-01 · Red de Lenguaje Claro Chile (s. f.). Sitio institucional. https://www.lenguajeclarochile.cl/
-- F-M2-02 · Senado de Chile, Redacción de Sesiones (2025). Guía de lenguaje claro para el ámbito legislativo. https://cdn.senado.cl/portal-senado-produccion/s3fs-public/2025-09/guia-de-lenguaje-claro-para-el-ambito-legislativo.pdf
-- F-M2-03 · Universidad de Las Palmas de Gran Canaria; Rodríguez-Rodríguez y García-Sánchez (s. f.). Redacción del correo electrónico en español e inglés: breves recomendaciones. https://iatext.ulpgc.es/sites/default/files/recomendaciones_correo_electronico_0.pdf
-- F-M2-04 · Purdue University, Purdue OWL (s. f.). Audience (Business Writing for Administrative and Clerical Staff). https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/business_writing_for_administrative_and_clerical_staff/audience.html
-- F-M2-05 · Carnegie Mellon University, Student Academic Success Center (s. f.). Executive Summaries. https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/executive-summaries.pdf
-- F-M2-06 · Secretaría de Cultura, Recreación y Deporte, Colombia (2018). Instructivo para el manejo de reuniones efectivas. https://mail.culturarecreacionydeporte.gov.co/sites/default/files/2023-04/instructivo_para_el_manejo_de_la_reuniones_efectivas_v2.pdf
-- F-M2-07 · NIST (2024). Generative Artificial Intelligence Profile (NIST AI 600-1). https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
-- F-M2-08 · Microsoft Support (2026). Introducción a la escritura de indicaciones en Microsoft Copilot. https://support.microsoft.com/es-es/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5
-- F-M2-11 · Anthropic (s. f.). Prompting best practices. https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices
-- F-M2-12 · Microsoft Learn (2026). Técnicas de ingeniería de indicaciones. https://learn.microsoft.com/es-es/azure/ai-foundry/openai/concepts/prompt-engineering
-- F-H-14 · Google (s. f.). Empezar a usar la aplicación móvil Gemini. https://support.google.com/gemini/answer/14554984?hl=es
-- F-H-15 · Google (s. f.). Centro de Privacidad de las Aplicaciones de Gemini. https://support.google.com/gemini/answer/13594961?hl=es
+- Anthropic. (s. f.). *Prompting best practices*. Claude Docs. https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices
+- Carnegie Mellon University. (s. f.). *Executive summaries*. Student Academic Success Center. https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/executive-summaries.pdf
+- Google. (s. f.-a). *Centro de privacidad de las aplicaciones de Gemini*. https://support.google.com/gemini/answer/13594961?hl=es
+- Google. (s. f.-b). *Empezar a usar la aplicación móvil Gemini*. https://support.google.com/gemini/answer/14554984?hl=es
+- Microsoft. (2026a). *Introducción a la escritura de indicaciones en Microsoft Copilot*. Microsoft Support. https://support.microsoft.com/es-es/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5
+- Microsoft. (2026b, 13 de mayo). *Técnicas de ingeniería de indicaciones*. Microsoft Learn. https://learn.microsoft.com/es-es/azure/ai-foundry/openai/concepts/prompt-engineering
+- National Institute of Standards and Technology. (2024). *Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)*. https://doi.org/10.6028/NIST.AI.600-1
+- Purdue University. (s. f.). *Audience (Business writing for administrative and clerical staff)*. Purdue OWL. https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/business_writing_for_administrative_and_clerical_staff/audience.html
+- Red de Lenguaje Claro Chile. (s. f.). *Sitio institucional de la Red de Lenguaje Claro Chile*. https://www.lenguajeclarochile.cl/
+- Rodríguez-Rodríguez, M. N. y García-Sánchez, S. (s. f.). *Redacción del correo electrónico en español e inglés: breves recomendaciones*. Universidad de Las Palmas de Gran Canaria. https://iatext.ulpgc.es/sites/default/files/recomendaciones_correo_electronico_0.pdf
+- Secretaría de Cultura, Recreación y Deporte. (2018). *Instructivo para el manejo de reuniones efectivas (IT-02-CP-EST-COM, versión 02)*. https://mail.culturarecreacionydeporte.gov.co/sites/default/files/2023-04/instructivo_para_el_manejo_de_la_reuniones_efectivas_v2.pdf
+- Senado de Chile. (2025). *Guía de lenguaje claro para el ámbito legislativo*. https://cdn.senado.cl/portal-senado-produccion/s3fs-public/2025-09/guia-de-lenguaje-claro-para-el-ambito-legislativo.pdf
 
 
 ## M2-AE2 · Prompting avanzado para textos
@@ -2230,11 +2094,11 @@ cubre: C1, C2
 fuentes: F-M2-08, F-M2-09
 bloque: Texto + actividad
 
-En el tema anterior escribiste correos, minutas e informes con un buen prompt y ajustaste el resultado conversando. Eso funciona, pero tiene un problema: si mañana repites el pedido, el texto puede salir distinto. La misma indicación puede dar respuestas diferentes, y en una oficina se nota cuando el mismo tipo de correo sale cada semana con otro formato o con otro tono.
+En el tema anterior escribiste correos, minutas e informes con un buen prompt y ajustaste el resultado conversando. Eso funciona, pero tiene un problema: si mañana repites el pedido, el texto puede salir distinto. La misma indicación puede dar respuestas diferentes, y en una oficina se nota cuando el mismo tipo de correo sale cada semana con otro formato o con otro tono [@F-M2-08].
 
 El aprendizaje esperado es este: Aplicar técnicas de prompting avanzado (ejemplos, restricciones, encadenamiento) para mejorar la calidad y consistencia de textos profesionales. Al final deberías poder aplicar al menos dos de esas técnicas y obtener textos consistentes entre versiones, comprobándolo con pruebas y no con una impresión.
 
-El tema funciona como un laboratorio de prompts. En cada técnica vas a ver una versión «antes» y otra «después», las vas a probar en Gemini y vas a comparar los resultados. Como la salida de un modelo no es determinista, la documentación de los proveedores recomienda justamente eso: probar las indicaciones y medir cómo se comportan. Al terminar tendrás plantillas que podrás reutilizar en las tareas que se repiten en tu cargo, como Camila con las respuestas a proveedores o Andrés con los avisos a clientes.
+El tema funciona como un laboratorio de prompts. En cada técnica vas a ver una versión «antes» y otra «después», las vas a probar en Gemini y vas a comparar los resultados. Como la salida de un modelo no es determinista, la documentación de los proveedores recomienda justamente eso: probar las indicaciones y medir cómo se comportan [@F-M2-09]. Al terminar tendrás plantillas que podrás reutilizar en las tareas que se repiten en tu cargo, como Camila con las respuestas a proveedores o Andrés con los avisos a clientes.
 
 Un prompt avanzado no es un prompt más largo. Es uno que da resultados parecidos cada vez que lo usas, con la calidad que necesitas.
 
@@ -2258,7 +2122,7 @@ Hay cuatro herramientas para lograrlo. Las tres primeras son técnicas que se ap
 | Encadenamiento | La tarea es compleja y sale mal de una vez | Primero extraer los hechos, después redactar, después revisar |
 | Plantilla reutilizable | Cada vez escribes el prompt desde cero | Un texto guardado con partes fijas y espacios para los datos |
 
-Un error común es dar por listo un prompt porque funcionó una vez. Una buena respuesta puede ser suerte. Como la salida no es determinista, la documentación de los proveedores recomienda probar las indicaciones con casos variados y diseñarlas de forma iterativa, ajustando según lo que resulta. Un prompt se vuelve confiable después de probarlo varias veces y con casos distintos.
+Un error común es dar por listo un prompt porque funcionó una vez. Una buena respuesta puede ser suerte. Como la salida no es determinista, la documentación de los proveedores recomienda probar las indicaciones con casos variados y diseñarlas de forma iterativa, ajustando según lo que resulta [@F-M2-09; @F-M2-10]. Un prompt se vuelve confiable después de probarlo varias veces y con casos distintos.
 
 :::comprueba
 Cada vez que Andrés pide el aviso semanal de inventario, la respuesta sale con un formato distinto. ¿Qué técnica le conviene probar primero?
@@ -2273,10 +2137,10 @@ cubre: A1, A2, C2
 fuentes: F-M2-10, F-M2-09
 bloque: Proceso (process block) en 5 pasos + tabla de bitácora
 
-El diseño de prompts es iterativo: se empieza simple y se agregan detalles según los resultados. Para que esa iteración te enseñe algo, conviene hacerla con orden. Este es el método del laboratorio:
+El diseño de prompts es iterativo: se empieza simple y se agregan detalles según los resultados [@F-M2-10]. Para que esa iteración te enseñe algo, conviene hacerla con orden. Este es el método del laboratorio:
 
 1. Escribe la versión 1 del prompt y guárdala en tu bitácora con un nombre.
-2. Pruébala siempre con los mismos dos o tres casos de prueba, por ejemplo, tres consultas distintas de proveedores.
+2. Pruébala siempre con los mismos dos o tres casos de prueba, por ejemplo, tres consultas distintas de proveedores [@F-M2-09].
 3. Anota qué salió bien y qué no, con criterios fijos: formato, largo, tono y datos exactos.
 4. Cambia una sola cosa y guarda la versión 2.
 5. Compara las versiones con los mismos casos y quédate con la mejor.
@@ -2297,9 +2161,9 @@ bloque: Texto + imagen de un prompt con ejemplos destacados
 
 **Few-shot**, que en español sería «con pocos ejemplos», significa incluir en el prompt uno o varios ejemplos de entrada y salida para que el modelo capte el patrón y lo imite. La entrada son los datos de un caso; la salida, el texto que esperas obtener con ellos.
 
-La documentación de los proveedores coincide en que los ejemplos son una de las formas más confiables de orientar el formato, el tono y la estructura de una respuesta, y en que mejoran la consistencia. Para que funcionen, tienen que parecerse a los casos reales que vas a pedir y ser variados, de modo que cubran situaciones distintas y el modelo no copie un solo caso. Además, todos deben tener el mismo formato y quedar separados de las instrucciones con una etiqueta clara, como «EJEMPLO 1».
+La documentación de los proveedores coincide en que los ejemplos son una de las formas más confiables de orientar el formato, el tono y la estructura de una respuesta, y en que mejoran la consistencia [@F-M2-11]. Para que funcionen, tienen que parecerse a los casos reales que vas a pedir y ser variados, de modo que cubran situaciones distintas y el modelo no copie un solo caso. Además, todos deben tener el mismo formato y quedar separados de las instrucciones con una etiqueta clara, como «EJEMPLO 1» [@F-M2-10; @F-M2-11].
 
-Sobre cuántos ejemplos usar no hay una regla fija. Una guía sugiere de tres a cinco; otra advierte que demasiados pueden hacer que el modelo los copie de más. Para textos breves, este curso propone partir con dos o tres, y tu laboratorio te dirá si hacen falta más.
+Sobre cuántos ejemplos usar no hay una regla fija. Una guía sugiere de tres a cinco [@F-M2-11]; otra advierte que demasiados pueden hacer que el modelo los copie de más [@F-M2-10]. Para textos breves, este curso propone partir con dos o tres, y tu laboratorio te dirá si hacen falta más.
 
 Para armar ejemplos tampoco necesitas copiar correos reales con nombres, teléfonos o direcciones de clientes. El modelo imita la forma y no necesita los datos verdaderos, así que puedes inventarlos.
 
@@ -2327,7 +2191,7 @@ AHORA
 Entrada: pedido 455, llega el miércoles 20, cliente Distribuidora Sur.
 ```
 
-Fíjate en que el segundo ejemplo no es igual al primero: trae un faltante. Así el modelo aprende qué hacer en ese caso, que en una bodega es frecuente. Son los ejemplos variados y bien separados los que mejoran la consistencia; dos ejemplos casi idénticos le enseñarían menos.
+Fíjate en que el segundo ejemplo no es igual al primero: trae un faltante. Así el modelo aprende qué hacer en ese caso, que en una bodega es frecuente. Son los ejemplos variados y bien separados los que mejoran la consistencia; dos ejemplos casi idénticos le enseñarían menos [@F-M2-11; @F-M2-09].
 
 :::actividad Prueba las dos versiones
 Pega la primera versión en Gemini tres veces, cada una en un chat nuevo, y luego haz lo mismo con la segunda. Anota en tu bitácora cuántas veces salió el asunto, cuántas veces se mantuvo la despedida y si alguna agregó algo que no estaba.
@@ -2338,9 +2202,9 @@ cubre: S1, C2
 fuentes: F-M2-10, F-M2-11
 bloque: Texto + escenario
 
-Los ejemplos son poderosos, y por eso también pueden llevar a errores. El más frecuente es que el modelo copie de más. Si todos los ejemplos dicen «lunes», puede poner «lunes» aunque la entrada diga otro día. Las guías advierten que demasiados ejemplos, o ejemplos muy parecidos, llevan a este **sobreajuste**: el modelo copia detalles en vez de aplicar el patrón. Por eso es un error creer que mientras más ejemplos, mejor. Conviene empezar con pocos y variados, y agregar uno solo cuando las pruebas muestran que falta cubrir un caso.
+Los ejemplos son poderosos, y por eso también pueden llevar a errores. El más frecuente es que el modelo copie de más. Si todos los ejemplos dicen «lunes», puede poner «lunes» aunque la entrada diga otro día. Las guías advierten que demasiados ejemplos, o ejemplos muy parecidos, llevan a este **sobreajuste**: el modelo copia detalles en vez de aplicar el patrón [@F-M2-10]. Por eso es un error creer que mientras más ejemplos, mejor. Conviene empezar con pocos y variados, y agregar uno solo cuando las pruebas muestran que falta cubrir un caso.
 
-El segundo problema son los ejemplos que se contradicen. Si uno termina con «Saludos cordiales» y otro con «Atentamente», el modelo no sabe cuál usar; por eso el formato debe ser idéntico entre ejemplos. El tercero aparece cuando los ejemplos están mezclados con las instrucciones, porque el modelo puede confundir un ejemplo con un dato real; para evitarlo sirven etiquetas como «EJEMPLO 1» y «AHORA». El último es usar ejemplos que no se parecen a lo que pides: si el ejemplo es un aviso de despacho y necesitas responder un reclamo, el patrón no sirve.
+El segundo problema son los ejemplos que se contradicen. Si uno termina con «Saludos cordiales» y otro con «Atentamente», el modelo no sabe cuál usar; por eso el formato debe ser idéntico entre ejemplos [@F-M2-10]. El tercero aparece cuando los ejemplos están mezclados con las instrucciones, porque el modelo puede confundir un ejemplo con un dato real; para evitarlo sirven etiquetas como «EJEMPLO 1» y «AHORA» [@F-M2-11]. El último es usar ejemplos que no se parecen a lo que pides: si el ejemplo es un aviso de despacho y necesitas responder un reclamo, el patrón no sirve.
 
 Un buen conjunto de ejemplos, entonces, es corto, variado, parejo en el formato y fácil de distinguir del resto del prompt.
 
@@ -2357,7 +2221,7 @@ cubre: S1, C1
 fuentes: F-M2-10, F-M1-14
 bloque: Texto + tabla por tipo de restricción
 
-Una **restricción** es un límite claro que el texto debe cumplir. Las guías de los proveedores recomiendan decir qué hacer y qué no, fijar un largo máximo e indicar el formato de la respuesta. En textos de oficina, las más útiles son de seis tipos:
+Una **restricción** es un límite claro que el texto debe cumplir. Las guías de los proveedores recomiendan decir qué hacer y qué no, fijar un largo máximo e indicar el formato de la respuesta [@F-M2-10]. En textos de oficina, las más útiles son de seis tipos:
 
 | Tipo | Ejemplo |
 |---|---|
@@ -2368,7 +2232,7 @@ Una **restricción** es un límite claro que el texto debe cumplir. Las guías d
 | Contenido prohibido | «Sin emojis», «sin promesas de plazos», «sin signos de exclamación» |
 | Qué hacer si falta algo | «Si falta un dato, escribe [FALTA]» |
 
-Cuando puedas, di qué hacer en vez de solo qué no hacer. «Escribe en párrafos cortos» funciona mejor que «no escribas párrafos largos», porque le da al modelo una dirección.
+Cuando puedas, di qué hacer en vez de solo qué no hacer [@F-M1-14]. «Escribe en párrafos cortos» funciona mejor que «no escribas párrafos largos», porque le da al modelo una dirección.
 
 Las restricciones son especialmente útiles para la exactitud. «Usa solo los datos que te entrego», junto con la regla de [FALTA], le da al modelo una alternativa a completar con datos inventados. Y hay una condición para que sirvan: que puedas comprobar si se cumplieron. «Que sea breve» es difícil de medir; «máximo 90 palabras» se cuenta.
 
@@ -2395,7 +2259,7 @@ No uses frases como "es un placer" ni signos de exclamación.
 Cierra con "Saludos cordiales," y mi nombre: Camila Soto.
 ```
 
-Con las restricciones en líneas separadas, el prompt es más fácil de leer para ti y para el modelo, y más fácil de cambiar después. Cada una, además, se puede comprobar: las palabras se cuentan, el saludo se mira y el acuerdo se compara con lo que se habló en la reunión. Las de asunto y saludo vienen de las recomendaciones sobre el correo que viste en el tema 1.
+Con las restricciones en líneas separadas, el prompt es más fácil de leer para ti y para el modelo, y más fácil de cambiar después [@F-M2-10]. Cada una, además, se puede comprobar: las palabras se cuentan, el saludo se mira y el acuerdo se compara con lo que se habló en la reunión. Las de asunto y saludo vienen de las recomendaciones sobre el correo que viste en el tema 1 [@F-M2-03].
 
 :::actividad Mide el efecto
 Prueba la primera y la segunda versión dos veces cada una, en chats nuevos. Cuenta las palabras de cada resultado, revisa si cumple cada restricción y anota en tu bitácora cuántas cumplió cada versión.
@@ -2406,15 +2270,15 @@ cubre: S1, C1, A1
 fuentes: F-M2-10, F-M2-11
 bloque: Proceso (process block) en 3 pasos
 
-El **encadenamiento** divide una tarea compleja en pasos, y la salida de un paso alimenta al siguiente. En vez de pedir todo de una vez, pides una cosa, la revisas y usas ese resultado en el pedido que sigue. Una cadena típica para textos tiene tres eslabones:
+El **encadenamiento** divide una tarea compleja en pasos, y la salida de un paso alimenta al siguiente [@F-M2-10]. En vez de pedir todo de una vez, pides una cosa, la revisas y usas ese resultado en el pedido que sigue. Una cadena típica para textos tiene tres eslabones:
 
 1. Primero extraes los hechos: «De estas notas, lista solo los hechos: fechas, cifras, nombres y acuerdos».
 2. Después redactas con ellos: «Con esta lista de hechos, redacta el informe».
 3. Al final revisas y mejoras: «Revisa el informe contra estos criterios. Señala qué no cumple y entrega una versión corregida».
 
-El tercer paso se conoce como autocorrección: el borrador se revisa contra criterios claros y se entrega una versión mejorada.
+El tercer paso se conoce como autocorrección: el borrador se revisa contra criterios claros y se entrega una versión mejorada [@F-M2-11].
 
-Podrías pensar que dividir no hace falta, si los modelos actuales ya razonan bastante por su cuenta. La documentación de un proveedor lo explica: encadenar sirve sobre todo para revisar los resultados intermedios. Si la lista de hechos del primer paso trae un error, lo detectas antes de que se convierta en un párrafo bien escrito. Un solo prompt es más rápido, pero si sale mal no sabes dónde falló, y mezcla lo que hay que verificar con lo que hay que redactar. La cadena toma un poco más de tiempo y te deja ver y corregir cada paso. Por eso el encadenamiento es orden metodológico aplicado: cada paso tiene una tarea, un resultado y una revisión.
+Podrías pensar que dividir no hace falta, si los modelos actuales ya razonan bastante por su cuenta. La documentación de un proveedor lo explica: encadenar sirve sobre todo para revisar los resultados intermedios [@F-M2-11]. Si la lista de hechos del primer paso trae un error, lo detectas antes de que se convierta en un párrafo bien escrito. Un solo prompt es más rápido, pero si sale mal no sabes dónde falló, y mezcla lo que hay que verificar con lo que hay que redactar. La cadena toma un poco más de tiempo y te deja ver y corregir cada paso. Por eso el encadenamiento es orden metodológico aplicado: cada paso tiene una tarea, un resultado y una revisión.
 
 ### P10 · Laboratorio 3: una cadena de tres pasos
 cubre: S1, C1, A1
@@ -2427,7 +2291,7 @@ Andrés tiene notas desordenadas de su semana y necesita un informe ejecutivo pa
 2. «Con esta lista, redacta un informe ejecutivo de media página para mi jefatura: resultado de la semana, por qué importa y recomendación. Usa solo estos hechos».
 3. «Revisa el informe: ¿empieza por el resultado?, ¿cada cifra está en la lista?, ¿la recomendación es clara? Señala qué no cumple y entrega una versión corregida».
 
-El segundo paso sigue la estructura del informe ejecutivo del tema 1: resultado, por qué importa y qué hacer. Un error frecuente es saltarse la revisión del primer paso y pegar la lista directamente en el segundo. Entonces la cadena pierde su ventaja: un error de la lista llega intacto al informe, y ahora suena convincente.
+El segundo paso sigue la estructura del informe ejecutivo del tema 1: resultado, por qué importa y qué hacer [@F-M2-05]. Un error frecuente es saltarse la revisión del primer paso y pegar la lista directamente en el segundo. Entonces la cadena pierde su ventaja: un error de la lista llega intacto al informe, y ahora suena convincente [@F-M2-11].
 
 :::actividad Compara el camino corto y el largo
 Haz el caso con un solo prompt y luego con la cadena. En tu bitácora, anota en cuál detectaste antes un error y cuál resultado necesitó menos correcciones tuyas.
@@ -2438,7 +2302,7 @@ cubre: C1, S1
 fuentes: F-M2-11, F-M2-10
 bloque: Tabla + actividad de clasificación
 
-Las técnicas se combinan. Un mismo prompt puede traer ejemplos, una lista de restricciones y ser parte de una cadena. La pregunta útil no es cuántas técnicas usar, sino cuál ataca el problema que tienes.
+Las técnicas se combinan. Un mismo prompt puede traer ejemplos, una lista de restricciones y ser parte de una cadena [@F-M2-11; @F-M2-10]. La pregunta útil no es cuántas técnicas usar, sino cuál ataca el problema que tienes.
 
 | Si el problema es… | Prueba primero… |
 |---|---|
@@ -2465,9 +2329,9 @@ cubre: S1, H1
 fuentes: F-M2-09, F-M1-12
 bloque: Texto + imagen de una plantilla con secciones
 
-Cuando un prompt funciona, conviene guardarlo como **plantilla**: un texto con partes fijas, que no cambian, y campos variables, que completas cada vez. La guía de instrucciones de Google para Gemini marca con corchetes lo que hay que personalizar, por ejemplo [nombre del cliente].
+Cuando un prompt funciona, conviene guardarlo como **plantilla**: un texto con partes fijas, que no cambian, y campos variables, que completas cada vez. La guía de instrucciones de Google para Gemini marca con corchetes lo que hay que personalizar, por ejemplo [nombre del cliente] [@F-M1-12].
 
-La documentación de OpenAI propone ordenar un prompt en secciones: la identidad o rol, las instrucciones, los ejemplos y el contexto, que son los datos de cada vez, separadas con encabezados o etiquetas. Una plantilla para textos de oficina puede verse así:
+La documentación de OpenAI propone ordenar un prompt en secciones: la identidad o rol, las instrucciones, los ejemplos y el contexto, que son los datos de cada vez, separadas con encabezados o etiquetas [@F-M2-09]. Una plantilla para textos de oficina puede verse así:
 
 ```
 ROL: Eres [cargo] en [tipo de empresa].
@@ -2511,7 +2375,7 @@ INFORMACIÓN DISPONIBLE: [horarios, precios, plazos]
 CONSULTA: [texto del cliente]
 ```
 
-Lo que se completa cada vez son la consulta y la información disponible. Las restricciones y la estructura quedan fijas, y por eso la plantilla da resultados parecidos. Las guías de los proveedores recomiendan precisamente usar etiquetas consistentes para separar instrucciones, contexto y datos.
+Lo que se completa cada vez son la consulta y la información disponible. Las restricciones y la estructura quedan fijas, y por eso la plantilla da resultados parecidos. Las guías de los proveedores recomiendan precisamente usar etiquetas consistentes para separar instrucciones, contexto y datos [@F-M2-11; @F-M2-09].
 
 :::actividad Completa tu plantilla
 1. Elige el texto repetitivo de tu cargo.
@@ -2525,7 +2389,7 @@ cubre: H1, C2
 fuentes: F-M2-09, F-M2-08
 bloque: Texto + tabla de evaluación
 
-Una plantilla es **consistente** cuando entrega textos con la misma calidad y el mismo formato, aunque cambien los datos y aunque la uses varias veces. Como la misma indicación puede dar respuestas distintas, la única forma de saberlo es probar.
+Una plantilla es **consistente** cuando entrega textos con la misma calidad y el mismo formato, aunque cambien los datos y aunque la uses varias veces. Como la misma indicación puede dar respuestas distintas, la única forma de saberlo es probar [@F-M2-08; @F-M2-09].
 
 Prepara tres casos de prueba distintos: uno simple, uno con un dato que falta y uno difícil, por ejemplo, un cliente molesto. Usa la plantilla con cada caso dos veces, en chats nuevos, para que la conversación anterior no influya, y revisa cada resultado con los mismos criterios:
 
@@ -2548,7 +2412,7 @@ cubre: C2, H1, A2
 fuentes: F-M2-09, F-M2-10
 bloque: Comparación antes y después + actividad
 
-Ahora vas a mejorar tu plantilla con datos, no con impresiones. Mira primero cómo lo hizo Andrés con su plantilla de avisos de despacho. Probó cada versión con sus tres casos, dos veces cada uno, y anotó los resultados, que son ficticios:
+Ahora vas a mejorar tu plantilla con datos, no con impresiones [@F-M2-09]. Mira primero cómo lo hizo Andrés con su plantilla de avisos de despacho. Probó cada versión con sus tres casos, dos veces cada uno, y anotó los resultados, que son ficticios:
 
 | Criterio | v1 (sin ejemplos) | v2 (con 2 ejemplos) | v3 (con ejemplos y regla de [FALTA]) |
 |---|---|---|---|
@@ -2557,7 +2421,7 @@ Ahora vas a mejorar tu plantilla con datos, no con impresiones. Mira primero có
 | Datos exactos | 5 de 6 | 5 de 6 | 6 de 6 |
 | Marcó lo que faltaba | 0 de 2 | 1 de 2 | 2 de 2 |
 
-La v2 resolvió el formato y la v3 resolvió los datos que faltaban. Como cada versión cambió una sola cosa, Andrés sabe qué produjo cada mejora, y se queda con la v3. Si una versión nueva no hubiera mejorado, también habría aprendido algo: volvería a la anterior y probaría otro cambio. La mejora continua incluye descartar.
+La v2 resolvió el formato y la v3 resolvió los datos que faltaban. Como cada versión cambió una sola cosa, Andrés sabe qué produjo cada mejora, y se queda con la v3. Si una versión nueva no hubiera mejorado, también habría aprendido algo: volvería a la anterior y probaría otro cambio [@F-M2-10]. La mejora continua incluye descartar.
 
 :::actividad Tu comparación
 1. Prueba tu plantilla v1 con tus tres casos, dos veces cada uno.
@@ -2571,11 +2435,11 @@ cubre: A2, H1
 fuentes: F-M2-11, F-M1-12
 bloque: Texto + escenario
 
-La documentación de Anthropic propone una prueba simple: muéstrale tu prompt a una colega que no sabe nada de la tarea. Si ella no entendería qué se pide, el modelo probablemente tampoco. El asistente no conoce tu trabajo; solo sabe lo que está escrito.
+La documentación de Anthropic propone una prueba simple: muéstrale tu prompt a una colega que no sabe nada de la tarea [@F-M2-11]. Si ella no entendería qué se pide, el modelo probablemente tampoco. El asistente no conoce tu trabajo; solo sabe lo que está escrito.
 
 En esa revisión conviene mirar cuatro cosas: si se entiende qué texto hay que producir y para quién, si hay palabras que solo entiende tu equipo, como siglas o nombres internos, si las restricciones se contradicen entre sí y si queda claro qué es ejemplo y qué es dato real. Es fácil caer en la idea de que «si lo entiendo yo, lo entiende el modelo». Tú conoces el contexto y llenas los vacíos sin darte cuenta; el modelo no puede hacerlo, y lo que no está escrito en el prompt no existe para él.
 
-También puedes pedirle al asistente que mejore tu prompt, como sugiere la guía de instrucciones de Google para Gemini: «Revisa esta plantilla. ¿Qué instrucción es ambigua? ¿Qué falta para que el resultado sea siempre igual de bueno?». Sus propuestas son eso, propuestas: pruébalas en el laboratorio antes de aceptarlas.
+También puedes pedirle al asistente que mejore tu prompt, como sugiere la guía de instrucciones de Google para Gemini: «Revisa esta plantilla. ¿Qué instrucción es ambigua? ¿Qué falta para que el resultado sea siempre igual de bueno?» [@F-M1-12]. Sus propuestas son eso, propuestas: pruébalas en el laboratorio antes de aceptarlas.
 
 :::ejemplo La sigla que nadie entendía
 La plantilla de Andrés decía «avisar si hay OC pendiente». Una colega de ventas le preguntó qué era «OC». Andrés lo cambió por «orden de compra pendiente», y los avisos dejaron de salir con interpretaciones raras.
@@ -2586,7 +2450,7 @@ cubre: A1, A2
 fuentes: F-M2-09, F-M2-10
 bloque: Texto + lista de verificación (checklist)
 
-Las plantillas no se terminan nunca del todo. Cambian tus tareas, cambian los casos y cambian los modelos. La documentación de OpenAI recomienda volver a probar las indicaciones cuando se cambia de modelo, porque el comportamiento puede variar, y la de Google insiste en que el diseño de prompts es iterativo. Estos hábitos te ayudan a sostener el orden y la mejora en el tiempo:
+Las plantillas no se terminan nunca del todo. Cambian tus tareas, cambian los casos y cambian los modelos. La documentación de OpenAI recomienda volver a probar las indicaciones cuando se cambia de modelo, porque el comportamiento puede variar [@F-M2-09], y la de Google insiste en que el diseño de prompts es iterativo [@F-M2-10]. Estos hábitos te ayudan a sostener el orden y la mejora en el tiempo:
 
 - [ ] Cada plantilla tiene un nombre claro y un número de versión.
 - [ ] Guardo junto a la plantilla sus casos de prueba y anoto qué cambié en cada versión y por qué.
@@ -2610,7 +2474,7 @@ cubre: C1, C2, H1
 fuentes: F-M2-09, F-M2-11
 bloque: Texto + actividad de cierre (respuesta abierta)
 
-En este tema aplicaste tres técnicas. Los ejemplos fijan el formato y el tono, las restricciones ponen límites que se pueden comprobar y el encadenamiento divide una tarea para revisar cada paso. Guardaste lo aprendido en plantillas reutilizables y mediste su consistencia comparando versiones con los mismos casos de prueba.
+En este tema aplicaste tres técnicas. Los ejemplos fijan el formato y el tono, las restricciones ponen límites que se pueden comprobar y el encadenamiento divide una tarea para revisar cada paso [@F-M2-11]. Guardaste lo aprendido en plantillas reutilizables y mediste su consistencia comparando versiones con los mismos casos de prueba [@F-M2-09].
 
 En el Hito 1 armaste tu primera biblioteca de prompts. Ahora vas a sumarle dos plantillas probadas para tu cargo, que son las que más tiempo te van a ahorrar en las tareas que se repiten. Una plantilla que pasó tus pruebas es una herramienta de trabajo; una que no probaste es solo un buen intento.
 
@@ -2632,38 +2496,16 @@ Para cada una, guarda la versión final con su número, tus tres casos de prueba
 6. La consistencia se evalúa con casos de prueba fijos, criterios claros y versiones que cambian una cosa a la vez.
 7. Las plantillas se vuelven a probar cuando cambian la tarea, los casos o el modelo: es un proceso de mejora continua.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Few-shot**: técnica que incluye en el prompt unos pocos ejemplos de entrada y salida para que el modelo imite el patrón.
-- **Ejemplo de entrada y salida**: par que muestra un caso (los datos) y el texto que se espera obtener con ellos.
-- **Sobreajuste a los ejemplos**: cuando el modelo copia detalles de los ejemplos en vez de aplicar solo su patrón.
-- **Restricción**: límite que el texto debe cumplir, como un largo máximo, un formato o un contenido prohibido.
-- **Encadenamiento**: división de una tarea en pasos, en que la salida de cada paso se usa en el siguiente.
-- **Autocorrección**: paso de una cadena en que se pide revisar un borrador contra criterios y entregar una versión mejorada.
-- **Plantilla de prompt**: prompt guardado con partes fijas y campos variables, para reutilizarlo.
-- **Campo variable**: parte de una plantilla, marcada con corchetes, que se completa con los datos de cada caso.
-- **Etiqueta**: palabra o encabezado que separa las secciones de un prompt, como ROL, EJEMPLO o DATOS.
-- **Consistencia**: capacidad de un prompt de dar resultados con la misma calidad y formato en distintos usos.
-- **Caso de prueba**: situación fija que se usa para probar un prompt y comparar sus versiones.
-- **Versión de un prompt**: cada variante guardada y numerada de un prompt, con registro de qué cambió.
-- **Bitácora de laboratorio**: registro de las versiones, los casos de prueba y los resultados de cada prueba.
-
-### Conexión con el proyecto
-
-Tus dos plantillas probadas (P18) amplían la **biblioteca de prompts** que empezaste en el Hito 1. En el **Hito 2: brief del proyecto + presentación de 6 láminas** te van a servir para redactar el brief: puedes usar una cadena de pasos (extraer los hechos de tu problema, redactar el brief y revisarlo contra objetivo, audiencia y mensaje) y aplicar restricciones para que quede breve y sin datos inventados.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M2.md` y `investigacion/M1.md` (consultadas el 24-10-2026).
-
-- F-M2-03 · Universidad de Las Palmas de Gran Canaria; Rodríguez-Rodríguez y García-Sánchez (s. f.). Redacción del correo electrónico en español e inglés: breves recomendaciones. https://iatext.ulpgc.es/sites/default/files/recomendaciones_correo_electronico_0.pdf
-- F-M2-05 · Carnegie Mellon University, Student Academic Success Center (s. f.). Executive Summaries. https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/executive-summaries.pdf
-- F-M2-08 · Microsoft Support (2026). Introducción a la escritura de indicaciones en Microsoft Copilot. https://support.microsoft.com/es-es/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5
-- F-M2-09 · OpenAI (s. f.). Prompt engineering. https://developers.openai.com/api/docs/guides/prompt-engineering
-- F-M2-10 · Google AI for Developers (2026). Prompt design strategies. https://ai.google.dev/gemini-api/docs/prompting-strategies
-- F-M2-11 · Anthropic (s. f.). Prompting best practices. https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices
-- F-M1-12 · Google Workspace (2026). Cómo escribir instrucciones eficaces. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
-- F-M1-14 · Anthropic (2026). Mejores prácticas de prompting. https://platform.claude.com/docs/es/build-with-claude/prompt-engineering/claude-prompting-best-practices
+- Anthropic. (s. f.-a). *Mejores prácticas de prompting*. Claude Docs. https://platform.claude.com/docs/es/build-with-claude/prompt-engineering/claude-prompting-best-practices
+- Anthropic. (s. f.-b). *Prompting best practices*. Claude Docs. https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices
+- Carnegie Mellon University. (s. f.). *Executive summaries*. Student Academic Success Center. https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/executive-summaries.pdf
+- Google. (s. f.). *Cómo escribir instrucciones eficaces*. Google Workspace. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
+- Google. (2026, 13 de octubre). *Prompt design strategies*. Google AI for Developers. https://ai.google.dev/gemini-api/docs/prompting-strategies
+- Microsoft. (2026). *Introducción a la escritura de indicaciones en Microsoft Copilot*. Microsoft Support. https://support.microsoft.com/es-es/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5
+- OpenAI. (s. f.). *Prompt engineering*. OpenAI API Docs. https://developers.openai.com/api/docs/guides/prompt-engineering
+- Rodríguez-Rodríguez, M. N. y García-Sánchez, S. (s. f.). *Redacción del correo electrónico en español e inglés: breves recomendaciones*. Universidad de Las Palmas de Gran Canaria. https://iatext.ulpgc.es/sites/default/files/recomendaciones_correo_electronico_0.pdf
 
 
 ## M2-AE3 · Presentaciones con IA
@@ -2677,7 +2519,7 @@ Una presentación sirve para que una audiencia entienda una idea y haga algo con
 
 El aprendizaje esperado es este: Estructurar presentaciones de 6 láminas con apoyo de IA a partir de un mensaje clave y una audiencia definida. Al final deberías poder ordenar seis láminas alrededor de un mensaje clave coherente y depurar lo que genera la IA, quitando lo que sobra y corrigiendo los errores.
 
-El tema es un taller y termina con un producto. Vas a definir tu mensaje y tu audiencia, pedirle a Gemini el esquema, revisarlo, armar las láminas, cuidar cómo se ven y escribir el guion. Es el mismo camino que vas a seguir en el Hito 2. La presentación tiene seis láminas, un formato corto que obliga a elegir lo importante. Una guía universitaria de diseño de láminas pone el punto de partida antes de cualquier herramienta: se definen el propósito, la audiencia y el mensaje, y después las láminas se unen en una historia coherente.
+El tema es un taller y termina con un producto. Vas a definir tu mensaje y tu audiencia, pedirle a Gemini el esquema, revisarlo, armar las láminas, cuidar cómo se ven y escribir el guion. Es el mismo camino que vas a seguir en el Hito 2. La presentación tiene seis láminas, un formato corto que obliga a elegir lo importante. Una guía universitaria de diseño de láminas pone el punto de partida antes de cualquier herramienta: se definen el propósito, la audiencia y el mensaje, y después las láminas se unen en una historia coherente [@F-M2-13].
 
 En el taller te acompañan dos presentaciones. Andrés quiere proponerle a su jefatura que la bodega tenga siempre una reserva de cajas, para que no se atrasen los despachos, y va a tener poco tiempo en la reunión del lunes. Camila quiere mostrarle a la gerenta de administración cómo organizar el archivo de documentos de la oficina, porque hoy encontrar una factura antigua toma demasiado tiempo.
 
@@ -2688,9 +2530,9 @@ cubre: S1, C1
 fuentes: F-M2-13, F-M2-05
 bloque: Texto + tabla + actividad
 
-Las guías de diseño de presentaciones coinciden en que antes de armar láminas hay que definir tres cosas. El propósito es lo que quieres que pase al final: que aprueben, que entiendan o que cambien algo. La audiencia es quien te escucha, qué sabe del tema y qué le preocupa. El mensaje es la idea que tiene que llevarse aunque olvide todo lo demás.
+Las guías de diseño de presentaciones coinciden en que antes de armar láminas hay que definir tres cosas [@F-M2-13]. El propósito es lo que quieres que pase al final: que aprueben, que entiendan o que cambien algo. La audiencia es quien te escucha, qué sabe del tema y qué le preocupa. El mensaje es la idea que tiene que llevarse aunque olvide todo lo demás.
 
-Si tu audiencia es alguien que decide, como tu jefatura, te sirven las tres preguntas del informe ejecutivo del tema 1: qué debo saber, por qué me importa y qué debo hacer. Así quedaron las respuestas de Andrés:
+Si tu audiencia es alguien que decide, como tu jefatura, te sirven las tres preguntas del informe ejecutivo del tema 1: qué debo saber, por qué me importa y qué debo hacer [@F-M2-05]. Así quedaron las respuestas de Andrés:
 
 | | Andrés |
 |---|---|
@@ -2719,7 +2561,7 @@ El **mensaje clave** es la idea central de la presentación, dicha en una oraci�
 
 Hay tres pruebas sencillas para saber si tu mensaje funciona. La primera es que sea una oración con verbo: «Los despachos» no lo es. La segunda es que alguien pueda estar en desacuerdo, porque si nadie podría discutirlo, quizás no dice nada. La tercera es que quepa en una sola idea; si tiene tres «y», probablemente son tres mensajes.
 
-Cada lámina de tu presentación va a tener que apoyar ese mensaje, y lo que no lo apoye sobra. Por eso conviene trabajarlo antes de abrir cualquier herramienta. Poder decir lo esencial en una oración es lo que llamamos **sentido de síntesis**: si no lo logras, todavía no tienes clara tu presentación, y la IA tampoco la va a tener.
+Cada lámina de tu presentación va a tener que apoyar ese mensaje, y lo que no lo apoye sobra [@F-M2-13]. Por eso conviene trabajarlo antes de abrir cualquier herramienta. Poder decir lo esencial en una oración es lo que llamamos **sentido de síntesis**: si no lo logras, todavía no tienes clara tu presentación, y la IA tampoco la va a tener.
 
 :::error Confundir el tema con el mensaje
 Pedirle a la IA «una presentación sobre los despachos» produce láminas genéricas sobre logística. Pedirle una presentación cuyo mensaje es «si mantenemos 30 cajas de reserva, evitamos atrasos» produce láminas que defienden esa idea.
@@ -2730,7 +2572,7 @@ cubre: S1, C1
 fuentes: F-M2-13, F-M2-05
 bloque: Línea de tiempo (timeline) o proceso en 6 pasos
 
-Una presentación no es una lista de datos: es una historia que lleva a la audiencia desde la situación actual hasta lo que quieres que haga. Las láminas se encadenan para contar esa historia de forma coherente. Para audiencias que deciden, la secuencia qué debo saber, por qué me importa y qué debo hacer da un buen hilo, y este curso propone una estructura posible para seis láminas:
+Una presentación no es una lista de datos: es una historia que lleva a la audiencia desde la situación actual hasta lo que quieres que haga. Las láminas se encadenan para contar esa historia de forma coherente [@F-M2-13]. Para audiencias que deciden, la secuencia qué debo saber, por qué me importa y qué debo hacer da un buen hilo [@F-M2-05]. Este curso propone una estructura posible para seis láminas:
 
 | Lámina | Función | Ejemplo de Andrés |
 |---|---|---|
@@ -2754,7 +2596,7 @@ bloque: Ordenar o clasificar (sorting activity)
 
 Ahora te toca ordenar una historia, y el caso es el de Camila. La gerenta de administración le pidió que le mostrara, en seis láminas, cómo organizaría el archivo de documentos de la oficina, porque hoy las facturas, las órdenes de compra y los contratos se guardan en cajas por orden de llegada. Su mensaje clave es «Un archivo ordenado por fecha y tipo de documento permite encontrar cualquier papel rápido».
 
-Para ordenar las láminas, piensa en lo que necesita la gerenta para decidir. Primero tiene que saber de qué se trata y cómo están las cosas hoy; después, por qué eso es un problema; recién entonces puede evaluar una propuesta, lo que cuesta y lo que se gana. Lo que Camila pide va al final, porque si lo pide antes de explicar, su jefatura no tiene cómo evaluarlo. Y si falta la lámina del problema, la propuesta queda sin justificación: es la que responde por qué me importa.
+Para ordenar las láminas, piensa en lo que necesita la gerenta para decidir. Primero tiene que saber de qué se trata y cómo están las cosas hoy; después, por qué eso es un problema; recién entonces puede evaluar una propuesta, lo que cuesta y lo que se gana [@F-M2-13]. Lo que Camila pide va al final, porque si lo pide antes de explicar, su jefatura no tiene cómo evaluarlo. Y si falta la lámina del problema, la propuesta queda sin justificación: es la que responde por qué me importa [@F-M2-05].
 
 :::actividad Ordena las láminas
 Ordena estas láminas de la 1 a la 6:
@@ -2773,7 +2615,7 @@ cubre: S2, C1
 fuentes: F-M2-13
 bloque: Texto + comparación antes y después
 
-La relación entre el mensaje y las láminas se resume en una regla: cada lámina transmite una sola idea, y esa idea apoya el mensaje clave. Una guía universitaria de diseño de láminas agrega que el título de cada lámina debe enunciar su conclusión principal, idealmente como una oración completa. A eso se le llama **título-oración**.
+La relación entre el mensaje y las láminas se resume en una regla: cada lámina transmite una sola idea, y esa idea apoya el mensaje clave. Una guía universitaria de diseño de láminas agrega que el título de cada lámina debe enunciar su conclusión principal, idealmente como una oración completa [@F-M2-13]. A eso se le llama **título-oración**.
 
 | Título que nombra un tema | Título que dice la conclusión |
 |---|---|
@@ -2806,7 +2648,7 @@ Varias herramientas usan IA para ayudarte con una presentación. Para este curso
 | Límite | Un uso que se renueva cada cierto tiempo, con tope semanal | 400 créditos al registrarte, que no se recargan; cada acción gasta una cantidad distinta |
 | Para tener en cuenta | Conviene llegar con el brief listo y no gastar intentos en pedidos vagos | No pide tarjeta, exporta a PDF, PPTX, PNG y Google Slides, y las láminas llevan la marca de Gamma |
 
-Con ellas tienes dos caminos gratuitos. En el primero, Gemini te ayuda con el esquema, el texto y el guion, y tú armas las láminas en Google Slides. En el segundo, pegas tu esquema ya revisado en Gamma para que diseñe las láminas, y después las revisas.
+Con ellas tienes dos caminos gratuitos [@F-H-12; @F-H-47]. En el primero, Gemini te ayuda con el esquema, el texto y el guion, y tú armas las láminas en Google Slides. En el segundo, pegas tu esquema ya revisado en Gamma para que diseñe las láminas, y después las revisas.
 
 Si en tu empresa usan otro programa de presentaciones con un asistente incluido, el método del taller sirve igual: el mensaje, la estructura y la depuración no dependen de la herramienta. Los planes gratuitos cambian a menudo, así que antes de empezar revisa los límites vigentes de la que elijas.
 
@@ -2815,7 +2657,7 @@ cubre: H1, S3
 fuentes: F-M2-08, F-M2-13
 bloque: Proceso paso a paso + actividad
 
-Con tu brief listo, le pides a Gemini el esquema: la lista de las seis láminas, cada una con su título y su contenido principal. Para eso usas las partes de un prompt que ya conoces, el objetivo, el contexto (audiencia y propósito), la fuente (tus datos) y las expectativas (número de láminas y formato). Este es el prompt de Andrés:
+Con tu brief listo, le pides a Gemini el esquema: la lista de las seis láminas, cada una con su título y su contenido principal. Para eso usas las partes de un prompt que ya conoces, el objetivo, el contexto (audiencia y propósito), la fuente (tus datos) y las expectativas (número de láminas y formato) [@F-M2-08]. Este es el prompt de Andrés:
 
 ```
 Actúa como encargado de bodega que prepara una propuesta para su jefatura.
@@ -2827,7 +2669,7 @@ FORMATO: para cada lámina, un título que sea una oración con su conclusión y
 Usa solo estos datos. Si necesitas un dato que no te di, escribe [FALTA DATO] en vez de inventarlo.
 ```
 
-El prompt ya trae restricciones que vas a trabajar en las próximas pantallas: títulos-oración, pocas viñetas y nada inventado. Pedirlas desde el principio te ahorra trabajo de depuración, porque cada lámina parte más cerca de lo que necesitas. Igual, lo que entregue será un borrador que puede traer errores.
+El prompt ya trae restricciones que vas a trabajar en las próximas pantallas: títulos-oración, pocas viñetas y nada inventado [@F-M2-13]. Pedirlas desde el principio te ahorra trabajo de depuración, porque cada lámina parte más cerca de lo que necesitas. Igual, lo que entregue será un borrador que puede traer errores [@F-M2-08].
 
 :::actividad Tu esquema
 Escribe tu propio prompt con tu brief y pídele a Gemini el esquema de seis láminas. Guarda la respuesta tal como salió: al final la vas a comparar con tu versión depurada.
@@ -2846,9 +2688,9 @@ El esquema que entrega la IA es un borrador. Antes de pasar a las láminas, rev�
 - [ ] Cada cifra está en los datos que diste, y anoté dónde apareció [FALTA DATO].
 - [ ] La última lámina dice qué esperas de la audiencia.
 
-Es tentador aceptar el esquema porque trae las seis láminas pedidas. Que tenga el número correcto no significa que esté bien: la IA puede rellenar con láminas genéricas, como «Introducción», «Contexto» o «Conclusiones», que no dicen nada. Cada lámina tiene que ganarse su lugar.
+Es tentador aceptar el esquema porque trae las seis láminas pedidas. Que tenga el número correcto no significa que esté bien: la IA puede rellenar con láminas genéricas, como «Introducción», «Contexto» o «Conclusiones», que no dicen nada. Cada lámina tiene que ganarse su lugar [@F-M2-13].
 
-Eso le pasó a Andrés. El esquema de Gemini traía una lámina titulada «Importancia de la logística en la empresa moderna», que no apoyaba su mensaje; la eliminó y dejó el problema y sus cifras en una lámina propia. También traía la viñeta «Los atrasos generan un 15 % de reclamos», un dato que él no había dado y que el modelo pudo inventar con total seguridad, así que la borró. En la lámina 5 apareció [FALTA DATO] en el costo del pedido extra, y Andrés fue a preguntarlo a compras.
+Eso le pasó a Andrés. El esquema de Gemini traía una lámina titulada «Importancia de la logística en la empresa moderna», que no apoyaba su mensaje; la eliminó y dejó el problema y sus cifras en una lámina propia. También traía la viñeta «Los atrasos generan un 15 % de reclamos», un dato que él no había dado y que el modelo pudo inventar con total seguridad, así que la borró [@F-M2-07]. En la lámina 5 apareció [FALTA DATO] en el costo del pedido extra, y Andrés fue a preguntarlo a compras.
 
 :::comprueba
 Una viñeta del esquema dice «Según estudios, el 80 % de las bodegas tiene este problema». Andrés no dio ese dato. ¿Qué hace?
@@ -2863,7 +2705,7 @@ cubre: H1, A1
 fuentes: F-M2-14, F-M2-13
 bloque: Texto + comparación antes y después
 
-Con el esquema revisado, escribes el contenido de cada lámina. Las recomendaciones para presentaciones eficaces van en la misma dirección: pocas palabras por lámina y viñetas cortas, de una línea, que sirvan de guía a quien presenta y no de texto completo. Cuando lo visual explica mejor que el texto, una imagen o un gráfico simple refuerza el mensaje, y las palabras tienen que ser las que tu audiencia entiende, sin jerga.
+Con el esquema revisado, escribes el contenido de cada lámina. Las recomendaciones para presentaciones eficaces van en la misma dirección: pocas palabras por lámina y viñetas cortas, de una línea, que sirvan de guía a quien presenta y no de texto completo [@F-M2-14]. Cuando lo visual explica mejor que el texto, una imagen o un gráfico simple refuerza el mensaje, y las palabras tienen que ser las que tu audiencia entiende, sin jerga [@F-M2-13].
 
 | Antes | Después |
 |---|---|
@@ -2878,7 +2720,7 @@ cubre: C2, A1
 fuentes: F-M2-14, F-M2-13
 bloque: Escenario o clasificación por semáforo
 
-Una lámina está **sobrecargada** cuando tiene más de lo que la audiencia puede captar de un vistazo. La señal más visible son los párrafos en lugar de viñetas de una línea. Otra es la letra pequeña: las recomendaciones de PowerPoint piden no bajar de 18 puntos. También sobrecargan las imágenes que saturan en vez de reforzar el mensaje y el contenido que no apoya la idea de la lámina; una guía universitaria lo llama ruido y pide eliminar todo lo que no es señal. La última señal son dos ideas que compiten en la misma lámina.
+Una lámina está **sobrecargada** cuando tiene más de lo que la audiencia puede captar de un vistazo. La señal más visible son los párrafos en lugar de viñetas de una línea. Otra es la letra pequeña: las recomendaciones de PowerPoint piden no bajar de 18 puntos [@F-M2-14]. También sobrecargan las imágenes que saturan en vez de reforzar el mensaje y el contenido que no apoya la idea de la lámina; una guía universitaria lo llama ruido y pide eliminar todo lo que no es señal [@F-M2-13]. La última señal son dos ideas que compiten en la misma lámina.
 
 Cuando una lámina tiene demasiadas viñetas, achicar la letra para que quepan empeora las cosas. Lo que conviene es quedarse con las que apoyan la idea de la lámina y llevar el resto al guion, para decirlo en vez de mostrarlo.
 
@@ -2898,10 +2740,10 @@ bloque: Texto + recuadro destacado
 
 Depurar no es solo quitar texto: también es corregir errores. El contenido que generan las herramientas de IA para presentaciones puede traer los mismos problemas que cualquier texto generado, y algunos propios de las imágenes:
 
-- cifras y datos inventados, presentados con seguridad, como el «15 % de reclamos» que encontró Andrés;
+- cifras y datos inventados, presentados con seguridad, como el «15 % de reclamos» que encontró Andrés [@F-M2-07];
 - citas o referencias a estudios que no existen, o que existen y dicen otra cosa;
 - afirmaciones genéricas que suenan bien, pero que no corresponden a tu caso;
-- imágenes que no calzan, como una bodega que no se parece a la tuya, personas que no son de tu equipo o texto mal escrito dentro de la imagen.
+- imágenes que no calzan, como una bodega que no se parece a la tuya, personas que no son de tu equipo o texto mal escrito dentro de la imagen [@F-M1-05].
 
 La regla para una presentación es simple: cada dato tiene que poder respaldarse. Si viene de tus registros, revisa que coincida. Si viene de afuera, busca la fuente como aprendiste en el módulo 1. Si no puedes respaldarlo, sale. Una cifra inventada es peligrosa justamente porque se ve profesional: la audiencia la cree y puede repetirla, y si te preguntan de dónde salió y no lo sabes, pierdes credibilidad en toda la presentación.
 
@@ -2919,12 +2761,12 @@ Con el contenido depurado, llega el momento de armar las láminas por uno de los
 El primer camino es Google Slides. Abres una presentación en blanco con tu cuenta de Google, creas seis láminas y copias en cada una su título y sus viñetas depuradas. Eliges un diseño simple y lo aplicas a todas por igual. Si una lámina necesita un gráfico o una imagen, la agregas tú y revisas que refuerce la idea.
 
 El segundo camino es Gamma Free:
-1. Crea una cuenta gratuita; no pide tarjeta.
+1. Crea una cuenta gratuita; no pide tarjeta [@F-H-47].
 2. Pega tu esquema depurado e indica que son 6 láminas.
 3. Revisa el resultado con la lista de la pantalla 9, porque la herramienta puede agregar texto o imágenes que no pediste.
 4. Exporta a Google Slides, PPTX o PDF si necesitas editar o entregar el archivo.
 
-Como los 400 créditos del plan Free no se recargan, conviene llegar a Gamma con el esquema ya revisado y no gastarlos en pruebas. Y si solo tienes celular, puedes hacer el esquema, el contenido y el guion en la app de Gemini, que también genera diapositivas sin plan pagado, y dejar el ajuste del diseño para cuando tengas un computador.
+Como los 400 créditos del plan Free no se recargan, conviene llegar a Gamma con el esquema ya revisado y no gastarlos en pruebas [@F-H-47]. Y si solo tienes celular, puedes hacer el esquema, el contenido y el guion en la app de Gemini, que también genera diapositivas sin plan pagado, y dejar el ajuste del diseño para cuando tengas un computador [@F-H-12].
 
 :::actividad Tus seis láminas
 Arma tus seis láminas por el camino que prefieras. Si la presentación es para tu trabajo y usa datos internos, revisa qué permite tu empresa antes de subir esa información a una herramienta externa.
@@ -2935,7 +2777,7 @@ cubre: A2
 fuentes: F-M2-14, F-M2-02
 bloque: Lista de verificación (checklist) interactiva
 
-Tu presentación habla de ti antes de que digas una palabra. Cuidar la imagen profesional no exige saber de diseño: exige que la presentación se lea bien y se vea ordenada. Las recomendaciones de PowerPoint piden letra de 18 puntos o más, contraste entre el fondo y el texto, e imágenes que refuercen el mensaje sin saturar. La guía de lenguaje claro del Senado suma la letra sin adornos. A eso, este curso agrega cuatro cuidados propios: un diseño parejo, nada de jerga, la ortografía revisada y las imágenes revisadas.
+Tu presentación habla de ti antes de que digas una palabra. Cuidar la imagen profesional no exige saber de diseño: exige que la presentación se lea bien y se vea ordenada. Las recomendaciones de PowerPoint piden letra de 18 puntos o más, contraste entre el fondo y el texto, e imágenes que refuercen el mensaje sin saturar [@F-M2-14]. La guía de lenguaje claro del Senado suma la letra sin adornos [@F-M2-02]. A eso, este curso agrega cuatro cuidados propios: un diseño parejo, nada de jerga, la ortografía revisada y las imágenes revisadas.
 
 - [ ] Ninguna letra está bajo 18 puntos.
 - [ ] Hay contraste entre el fondo y el texto: letra oscura sobre fondo claro, o al revés.
@@ -2960,11 +2802,11 @@ bloque: Texto + escenario o conversación de ejemplo
 El **guion** es lo que dices mientras muestras cada lámina. Las viñetas son la guía de quien presenta; el guion es la explicación completa. Por eso la lámina puede tener pocas palabras: el resto lo pones tú. Puedes pedirle a Gemini un primer borrador: «Para cada una de estas 6 láminas, escribe un guion de 2 o 3 oraciones, en primera persona, con un tono profesional y cercano. No repitas las viñetas palabra por palabra: explícalas. Usa solo estos datos». Desde ahí, el trabajo es tuyo:
 
 1. Reescribe el guion con tus palabras, como hablas tú, porque un guion que no suena a ti se nota.
-2. Revisa que los datos que menciona sean los mismos de las láminas.
+2. Revisa que los datos que menciona sean los mismos de las láminas [@F-M2-08].
 3. Ensaya en voz alta, mirando las viñetas y no un texto leído.
 4. Si tropiezas en una frase, cámbiala.
 
-Lo que sí conviene evitar es leer las láminas en voz alta. Si el guion es igual a lo que dice la lámina, la audiencia lee más rápido de lo que hablas y deja de escucharte. Las recomendaciones para presentar piden ensayar para hablar a partir de las viñetas, no leerlas.
+Lo que sí conviene evitar es leer las láminas en voz alta. Si el guion es igual a lo que dice la lámina, la audiencia lee más rápido de lo que hablas y deja de escucharte. Las recomendaciones para presentar piden ensayar para hablar a partir de las viñetas, no leerlas [@F-M2-14].
 
 :::ejemplo Guion de la lámina 3 de Andrés
 Lámina: «Este mes se atrasaron 3 despachos por falta de cajas». Guion: «De los 40 despachos del mes, tres salieron tarde. En los tres casos fue lo mismo: no teníamos cajas medianas. Los clientes nos llamaron para reclamar, y tuvimos que explicarles el atraso».
@@ -2975,7 +2817,7 @@ cubre: C2, C1, A1
 fuentes: F-M2-13, F-M2-14
 bloque: Lista de verificación (checklist)
 
-Antes de presentar o entregar, haz una revisión completa. Esta lista reúne todo el taller, desde el mensaje hasta el guion:
+Antes de presentar o entregar, haz una revisión completa. Esta lista reúne todo el taller, desde el mensaje hasta el guion [@F-M2-13; @F-M2-14]:
 
 - [ ] El mensaje clave es una oración y aparece en la lámina 1.
 - [ ] Los seis títulos, leídos en orden, cuentan la historia.
@@ -3001,7 +2843,7 @@ cubre: C1, C2, H1
 fuentes: F-M2-13, F-M2-14
 bloque: Texto + actividad de cierre (entrega)
 
-En este taller construiste una presentación completa. Definiste propósito, audiencia y mensaje, ordenaste una historia en seis láminas y escribiste títulos que dicen la conclusión. Le pediste el esquema a la IA y lo depuraste: quitaste la sobrecarga, corregiste los datos sin respaldo y cuidaste cómo se ve. Al final escribiste el guion con tus palabras.
+En este taller construiste una presentación completa. Definiste propósito, audiencia y mensaje, ordenaste una historia en seis láminas y escribiste títulos que dicen la conclusión [@F-M2-13]. Le pediste el esquema a la IA y lo depuraste: quitaste la sobrecarga, corregiste los datos sin respaldo y cuidaste cómo se ve [@F-M2-14]. Al final escribiste el guion con tus palabras.
 
 La IA te ahorró tiempo en el borrador. Lo que hace buena a tu presentación es lo que decidiste quitar, corregir y decir con tus palabras, y por eso la entrega muestra las dos versiones, la inicial y la final.
 
@@ -3026,38 +2868,17 @@ Con el problema u oportunidad que elegiste en el Hito 1:
 6. Depurar es quitar la sobrecarga (párrafos, letra pequeña, imágenes que saturan, lo que no apoya el mensaje) y corregir los datos sin respaldo.
 7. Las viñetas guían a quien presenta: el guion se dice con palabras propias y se ensaya, no se lee.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Brief**: texto breve con el propósito, la audiencia y el mensaje de una presentación o de un proyecto.
-- **Mensaje clave**: idea central de una presentación, dicha en una oración completa.
-- **Estructura narrativa**: orden de las láminas que cuenta una historia desde la situación actual hasta lo que se pide a la audiencia.
-- **Lámina**: cada una de las diapositivas de una presentación.
-- **Título-oración**: título de una lámina que enuncia su conclusión principal como una oración completa.
-- **Esquema**: lista de las láminas con su título y su contenido principal, antes de armarlas.
-- **Viñeta**: línea breve, marcada con un punto o un guion, que resume una idea dentro de una lámina.
-- **Lámina sobrecargada**: lámina con más contenido del que se capta de un vistazo: párrafos, letra pequeña, imágenes que saturan o ideas que no apoyan el mensaje.
-- **Ruido**: todo lo que aparece en una lámina sin apoyar su mensaje.
-- **Contraste**: diferencia entre el color del fondo y el del texto, que hace legible una lámina.
-- **Guion (de una presentación)**: lo que dice quien presenta mientras muestra cada lámina.
-- **Depuración**: revisión crítica que elimina lo que sobra y corrige los errores del contenido generado.
-
-### Conexión con el proyecto
-
-Este taller es el camino del **Hito 2 del proyecto aplicado: brief del proyecto + presentación de 6 láminas**. El problema u oportunidad de tu trabajo que elegiste en el Hito 1 se convierte en un brief (objetivo, audiencia y mensaje, P02 y P03) y en una presentación de seis láminas hecha con IA y depurada por ti (P08 a P16), pensada para la persona que puede aprobar tu propuesta. La actividad de cierre (P17) es tu borrador de entrega. Para redactar el brief, usa lo que aprendiste en el tema 1 sobre audiencia e informe ejecutivo, y las plantillas del tema 2.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M2.md`, `investigacion/M1.md` y `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
-
-- F-M2-02 · Senado de Chile, Redacción de Sesiones (2025). Guía de lenguaje claro para el ámbito legislativo. https://cdn.senado.cl/portal-senado-produccion/s3fs-public/2025-09/guia-de-lenguaje-claro-para-el-ambito-legislativo.pdf
-- F-M2-05 · Carnegie Mellon University, Student Academic Success Center (s. f.). Executive Summaries. https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/executive-summaries.pdf
-- F-M2-07 · NIST (2024). Generative Artificial Intelligence Profile (NIST AI 600-1). https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
-- F-M2-08 · Microsoft Support (2026). Introducción a la escritura de indicaciones en Microsoft Copilot. https://support.microsoft.com/es-es/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5
-- F-M2-13 · MIT, NSE Communication Lab; Hirst y Jepeal (s. f.). Slide Design (CommKit). https://mitcommlab.mit.edu/nse/commkit/slide-design
-- F-M2-14 · Microsoft Support (s. f.). Sugerencias para crear y ofrecer una presentación eficaz. https://support.microsoft.com/es-es/office/sugerencias-para-crear-y-presentar-una-presentación-eficaz-f43156b0-20d2-4c51-8345-0c337cefb88b
-- F-M1-05 · OpenAI (2026). Image generation: limitations. https://developers.openai.com/api/docs/guides/image-generation
-- F-H-12 · Google (s. f.). Límites de las aplicaciones de Gemini y cambios a planes superiores. https://support.google.com/gemini/answer/16275805?hl=es
-- F-H-47 · Gamma (s. f.). Planes y precios. https://gamma.app/es/pricing
+- Carnegie Mellon University. (s. f.). *Executive summaries*. Student Academic Success Center. https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/executive-summaries.pdf
+- Gamma. (s. f.). *Planes y precios*. https://gamma.app/es/pricing
+- Google. (s. f.). *Límites de las aplicaciones de Gemini y cambios a planes superiores*. https://support.google.com/gemini/answer/16275805?hl=es
+- Hirst, C. y Jepeal, S. (s. f.). *Slide design (CommKit)*. MIT Nuclear Science and Engineering Communication Lab. https://mitcommlab.mit.edu/nse/commkit/slide-design
+- Microsoft. (s. f.). *Sugerencias para crear y ofrecer una presentación eficaz*. Microsoft Support. https://support.microsoft.com/es-es/office/sugerencias-para-crear-y-presentar-una-presentación-eficaz-f43156b0-20d2-4c51-8345-0c337cefb88b
+- Microsoft. (2026). *Introducción a la escritura de indicaciones en Microsoft Copilot*. Microsoft Support. https://support.microsoft.com/es-es/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5
+- National Institute of Standards and Technology. (2024). *Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)*. https://doi.org/10.6028/NIST.AI.600-1
+- OpenAI. (s. f.). *Image generation*. OpenAI API Docs. https://developers.openai.com/api/docs/guides/image-generation
+- Senado de Chile. (2025). *Guía de lenguaje claro para el ámbito legislativo*. https://cdn.senado.cl/portal-senado-produccion/s3fs-public/2025-09/guia-de-lenguaje-claro-para-el-ambito-legislativo.pdf
 
 
 ## M2-AE4 · Planillas de cálculo con IA
@@ -3071,7 +2892,7 @@ Las planillas de cálculo están en casi cualquier oficina: inventarios, registr
 
 El aprendizaje esperado es este: Resolver análisis en planillas de cálculo con fórmulas generadas por IA, verificando su exactitud. Al final deberías poder generar una fórmula correcta para un problema concreto, comprobar el resultado con datos de prueba y corregir los errores que encuentres.
 
-Si en tu trabajo tienes Gemini dentro de Hojas de cálculo de Google o Copilot dentro de Excel, puedes usarlos, pero son funciones de pago: Gemini en Hojas de cálculo viene con el plan Google AI Pro, y Copilot en Excel, con los planes pagados de Microsoft 365. Por eso este tema usa un camino gratuito. Pides la fórmula a Gemini en el chat, la pegas en Hojas de cálculo de Google y la compruebas con datos de práctica. Si usas Excel, los pasos son casi los mismos.
+Si en tu trabajo tienes Gemini dentro de Hojas de cálculo de Google o Copilot dentro de Excel, puedes usarlos, pero son funciones de pago: Gemini en Hojas de cálculo viene con el plan Google AI Pro, y Copilot en Excel, con los planes pagados de Microsoft 365 [@F-H-49; @F-H-20]. Por eso este tema usa un camino gratuito. Pides la fórmula a Gemini en el chat, la pegas en Hojas de cálculo de Google y la compruebas con datos de práctica. Si usas Excel, los pasos son casi los mismos.
 
 Vas a trabajar con una planilla de inventario de Andrés, con datos ficticios. Lo que aprendas sirve igual para una planilla como la de Camila, que registra facturas, órdenes de compra y contratos. Y hay una idea que te va a acompañar en todo el tema: como viste en el tema 1, un asistente puede entregar una respuesta errónea con total seguridad, así que aquí la IA propone y tú compruebas.
 
@@ -3080,9 +2901,9 @@ cubre: S1
 fuentes: F-M2-16, F-M2-15
 bloque: Texto + imagen de una planilla con celdas rotuladas
 
-Antes de pedir fórmulas, conviene repasar cómo se leen. Una planilla tiene columnas, nombradas con letras, y filas, numeradas. Cada celda se nombra por su columna y su fila: D2 es la columna D, fila 2. Un **rango** es un grupo de celdas, como C2:C7, que va de C2 a C7; la ayuda de Google lo llama intervalo. Una fórmula siempre empieza con el signo =, y =D2*E2, por ejemplo, multiplica lo que hay en D2 por lo que hay en E2. Una **función** es una operación con nombre, como SUMAR.SI o BUSCARV, y lo que va entre sus paréntesis son sus argumentos.
+Antes de pedir fórmulas, conviene repasar cómo se leen. Una planilla tiene columnas, nombradas con letras, y filas, numeradas. Cada celda se nombra por su columna y su fila: D2 es la columna D, fila 2. Un **rango** es un grupo de celdas, como C2:C7, que va de C2 a C7; la ayuda de Google lo llama intervalo [@F-M2-15]. Una fórmula siempre empieza con el signo =, y =D2*E2, por ejemplo, multiplica lo que hay en D2 por lo que hay en E2. Una **función** es una operación con nombre, como SUMAR.SI o BUSCARV, y lo que va entre sus paréntesis son sus argumentos.
 
-En la ayuda de Google en español, los argumentos se separan con punto y coma: =SUMAR.SI(C2:C7;"EPP";F2:F7). Según la configuración regional de la planilla, el separador puede ser la coma. Un error común es copiar una fórmula que la IA entregó con comas en una planilla que usa punto y coma, o al revés. La fórmula no funciona aunque esté bien pensada, y no es un error de lógica, sino de escritura. Lo más simple es decirle al asistente desde el principio qué separador usa tu planilla.
+En la ayuda de Google en español, los argumentos se separan con punto y coma: =SUMAR.SI(C2:C7;"EPP";F2:F7) [@F-M2-16]. Según la configuración regional de la planilla, el separador puede ser la coma. Un error común es copiar una fórmula que la IA entregó con comas en una planilla que usa punto y coma, o al revés. La fórmula no funciona aunque esté bien pensada, y no es un error de lógica, sino de escritura. Lo más simple es decirle al asistente desde el principio qué separador usa tu planilla.
 
 :::comprueba
 ¿Qué hace la fórmula =D3*E3?
@@ -3109,7 +2930,7 @@ Vas a trabajar con una tabla pequeña de datos de práctica: datos ficticios, po
 | 6 | P05 | Zapatos de seguridad | EPP | 8 | 24990 |
 | 7 | P06 | Film stretch | Embalaje | 25 | 6500 |
 
-Hay dos razones para no partir con la planilla real. La investigación sobre errores en planillas muestra que son comunes y no triviales, y probar primero con una tabla en que conoces las respuestas permite detectarlos antes de que lleguen a un informe. Además, una tabla ficticia evita pegar información de tu empresa en el chat. Cuando pases a tu planilla real, trabaja sobre una copia sin datos sensibles. Este método de datos de práctica es una recomendación del curso.
+Hay dos razones para no partir con la planilla real. La investigación sobre errores en planillas muestra que son comunes y no triviales [@F-M2-20], y probar primero con una tabla en que conoces las respuestas permite detectarlos antes de que lleguen a un informe. Además, una tabla ficticia evita pegar información de tu empresa en el chat. Cuando pases a tu planilla real, trabaja sobre una copia sin datos sensibles. Este método de datos de práctica es una recomendación del curso.
 
 :::actividad Prepara tu planilla
 1. Copia la tabla en una hoja nueva y nómbrala «Práctica M2».
@@ -3121,7 +2942,7 @@ cubre: S1, C1
 fuentes: F-M2-18, F-M2-15
 bloque: Texto + imagen animada de una fórmula copiada hacia abajo
 
-Cuando copias una fórmula a otra celda, sus referencias pueden moverse o quedarse fijas, y esa diferencia explica muchos errores. La referencia **relativa** es la predeterminada y cambia al copiar: si en F2 escribes =D2*E2 y la copias a F3, queda =D3*E3, que es justo lo que necesitas para cada producto. La referencia **absoluta** no cambia, porque el signo $ delante de la columna y de la fila la ancla: $D$2 sigue siendo D2 donde la copies. Entre ambas está la mixta, que fija solo la columna ($D2) o solo la fila (D$2). En Excel, la tecla F4 recorre los tres tipos.
+Cuando copias una fórmula a otra celda, sus referencias pueden moverse o quedarse fijas, y esa diferencia explica muchos errores. La referencia **relativa** es la predeterminada y cambia al copiar: si en F2 escribes =D2*E2 y la copias a F3, queda =D3*E3, que es justo lo que necesitas para cada producto. La referencia **absoluta** no cambia, porque el signo $ delante de la columna y de la fila la ancla: $D$2 sigue siendo D2 donde la copies. Entre ambas está la mixta, que fija solo la columna ($D2) o solo la fila (D$2). En Excel, la tecla F4 recorre los tres tipos [@F-M2-18].
 
 La absoluta se usa cuando algo no debe moverse, como un rango que todas las fórmulas tienen que mirar completo. Mira qué pasa con una suma por categoría que se copia de I2 a I3:
 
@@ -3130,7 +2951,7 @@ La absoluta se usa cuando algo no debe moverse, como un rango que todas las fór
 | =SUMAR.SI(C2:C7;H2;F2:F7) | =SUMAR.SI(C3:C8;H3;F3:F8): el rango se movió |
 | =SUMAR.SI($C$2:$C$7;H2;$F$2:$F$7) | =SUMAR.SI($C$2:$C$7;H3;$F$2:$F$7): el rango quedó fijo |
 
-En la segunda fórmula, H2 es relativa a propósito: cada fila del resumen tiene que mirar su propia categoría. La ayuda de Google recomienda lo mismo para BUSCARV, con referencias absolutas para que el intervalo no se mueva al copiar. Antes de copiar cualquier fórmula, pregúntate qué debe moverse y qué no. Lo que no debe moverse lleva $.
+En la segunda fórmula, H2 es relativa a propósito: cada fila del resumen tiene que mirar su propia categoría. La ayuda de Google recomienda lo mismo para BUSCARV, con referencias absolutas para que el intervalo no se mueva al copiar [@F-M2-15]. Antes de copiar cualquier fórmula, pregúntate qué debe moverse y qué no. Lo que no debe moverse lleva $.
 
 ### P05 · SUMAR.SI: sumar con una condición
 cubre: S1, C1
@@ -3146,7 +2967,7 @@ SUMAR.SI suma solo los valores que cumplen una condición. Su forma es =SUMAR.SI
 
 Compruébalo a mano. Las unidades de EPP son 40 + 12 + 8 = 60, y el único producto con más de 100 unidades es la cinta, con 150.
 
-SUMAR.SI admite un solo criterio. Si necesitas dos condiciones a la vez, por ejemplo EPP y más de 10 unidades, hace falta otra función: pídesela a la IA diciendo que tienes dos condiciones, y compruébala igual.
+SUMAR.SI admite un solo criterio [@F-M2-16]. Si necesitas dos condiciones a la vez, por ejemplo EPP y más de 10 unidades, hace falta otra función: pídesela a la IA diciendo que tienes dos condiciones, y compruébala igual.
 
 :::error Criterio de texto sin comillas
 =SUMAR.SI(C2:C7;EPP;D2:D7), sin comillas, no busca la palabra «EPP»: la planilla la interpreta de otra forma y el resultado falla. Los criterios de texto van entre comillas dobles.
@@ -3157,13 +2978,13 @@ cubre: S1, C1
 fuentes: F-M2-15
 bloque: Texto + ejemplo guiado
 
-BUSCARV busca un valor en la primera columna de un rango y devuelve el valor de la misma fila en la columna que le indiques. Sirve, por ejemplo, para escribir un código y obtener su precio. Su forma es =BUSCARV(valor_buscado; intervalo; índice; está_ordenado).
+BUSCARV busca un valor en la primera columna de un rango y devuelve el valor de la misma fila en la columna que le indiques [@F-M2-15]. Sirve, por ejemplo, para escribir un código y obtener su precio. Su forma es =BUSCARV(valor_buscado; intervalo; índice; está_ordenado).
 
 El valor_buscado es lo que buscas, como el código P05. El intervalo es la tabla donde buscar, y su primera columna tiene que ser la que contiene ese valor. El índice es el número de la columna del intervalo que quieres traer, contado desde la primera columna del intervalo y no desde la A de la hoja. En está_ordenado escribes FALSO para pedir una coincidencia exacta.
 
 Con tus datos de práctica, =BUSCARV("P05";A2:E7;5;FALSO) devuelve 24990. El intervalo A2:E7 tiene cinco columnas: Código, Producto, Categoría, Unidades y Precio unitario, en ese orden. El índice 5 trae el precio; con índice 4 traería las unidades, que son 8.
 
-La ayuda de Google destaca dos detalles. BUSCARV devuelve solo la primera coincidencia, así que si un código está repetido verás un solo resultado. Y si omites el último argumento, la función supone VERDADERO y busca una coincidencia aproximada, que exige que la primera columna esté ordenada; si no lo está, el resultado puede ser incorrecto. Por eso se recomienda escribir siempre FALSO.
+La ayuda de Google destaca dos detalles. BUSCARV devuelve solo la primera coincidencia, así que si un código está repetido verás un solo resultado. Y si omites el último argumento, la función supone VERDADERO y busca una coincidencia aproximada, que exige que la primera columna esté ordenada; si no lo está, el resultado puede ser incorrecto. Por eso se recomienda escribir siempre FALSO [@F-M2-15].
 
 :::comprueba
 En =BUSCARV("P03";A2:E7;2;FALSO), ¿qué devuelve la fórmula?
@@ -3178,7 +2999,7 @@ cubre: S2
 fuentes: F-M2-10, F-M2-15
 bloque: Texto + imagen de un prompt con sus partes destacadas
 
-La IA no ve tu planilla. Si pides «una fórmula para sumar los EPP», tiene que adivinar dónde están los datos. La documentación de los proveedores recomienda dar instrucciones específicas, con contexto de referencia y el formato de respuesta que esperas, y en una fórmula eso significa describir con precisión cómo está armada tu tabla:
+La IA no ve tu planilla. Si pides «una fórmula para sumar los EPP», tiene que adivinar dónde están los datos. La documentación de los proveedores recomienda dar instrucciones específicas, con contexto de referencia y el formato de respuesta que esperas [@F-M2-10], y en una fórmula eso significa describir con precisión cómo está armada tu tabla:
 
 | Dile… | Ejemplo |
 |---|---|
@@ -3190,7 +3011,7 @@ La IA no ve tu planilla. Si pides «una fórmula para sumar los EPP», tiene que
 | Cómo vienen los datos | «Puede haber espacios de más en los códigos» |
 | Qué formato quieres | «Solo la fórmula y una explicación de cada argumento» |
 
-Decir dónde va la fórmula y hacia dónde la vas a copiar le permite al asistente decidir qué referencias deben ser absolutas. Avisar si los datos pueden venir sucios también importa, porque un espacio de más o un número guardado como texto rompen las búsquedas. Puedes pegar las primeras filas de tu tabla de práctica, que son ficticias; con tu planilla real, basta con los encabezados.
+Decir dónde va la fórmula y hacia dónde la vas a copiar le permite al asistente decidir qué referencias deben ser absolutas. Avisar si los datos pueden venir sucios también importa, porque un espacio de más o un número guardado como texto rompen las búsquedas [@F-M2-15]. Puedes pegar las primeras filas de tu tabla de práctica, que son ficticias; con tu planilla real, basta con los encabezados.
 
 Todo eso cabe en una plantilla que puedes guardar en tu biblioteca de prompts: «Uso [programa] en español, con [separador] como separador. Mis datos están en [rango]: [qué hay en cada columna]. Necesito una fórmula para [resultado], que va en [celda] y que voy a copiar a [celdas]. Entrega la fórmula y explica cada argumento».
 
@@ -3213,7 +3034,7 @@ Para la fila 2, el cálculo es 40 × 3500 = 140000, y para la fila 6, 8 × 24990
 |---|---|---|---|---|---|---|
 | Valor total | 140000 | 118800 | 180000 | 64000 | 199920 | 162500 |
 
-Aquí la referencia relativa trabaja a tu favor: al copiar, cada fila multiplica sus propias celdas. Si el asistente te da una fórmula escrita de otra manera, no la descartes de inmediato; léela, pídele que explique cada parte y compruébala con los resultados de la tabla.
+Aquí la referencia relativa trabaja a tu favor: al copiar, cada fila multiplica sus propias celdas [@F-M2-18]. Si el asistente te da una fórmula escrita de otra manera, no la descartes de inmediato; léela, pídele que explique cada parte y compruébala con los resultados de la tabla [@F-M2-08].
 
 :::actividad Revisa la copia
 Haz clic en F5 y mira la fórmula en la barra de fórmulas. Tiene que decir =D5*E5; si dice otra cosa, la copia no se hizo bien. Revisar la fórmula, y no solo el resultado, es lo que hace la diferencia.
@@ -3231,7 +3052,7 @@ Comprobar una fórmula es más que mirar si el número se ve razonable. Este cur
 3. Cambia un dato y observa. Si subes las unidades de P01 de 40 a 41, el valor total debería subir exactamente 3500; si no cambia, la fórmula no está mirando esa celda.
 4. Revisa la fórmula celda por celda: haz clic en algunas celdas copiadas y lee si apuntan a las celdas correctas.
 
-El último paso tiene respaldo en la investigación. Después de años de estudios sobre errores en planillas, la técnica que ha mostrado eficacia es la inspección celda por celda. Los programas también ayudan: Excel, por ejemplo, marca las fórmulas que no siguen el patrón de sus vecinas, los rangos que omiten celdas con datos y las referencias a celdas vacías. Después de cada prueba, devuelve los datos a su valor original. Esa costumbre de no aceptar un resultado que no comprobaste es lo que llamamos **rigor numérico**.
+El último paso tiene respaldo en la investigación. Después de años de estudios sobre errores en planillas, la técnica que ha mostrado eficacia es la inspección celda por celda [@F-M2-20]. Los programas también ayudan: Excel, por ejemplo, marca las fórmulas que no siguen el patrón de sus vecinas, los rangos que omiten celdas con datos y las referencias a celdas vacías [@F-M2-19]. Después de cada prueba, devuelve los datos a su valor original. Esa costumbre de no aceptar un resultado que no comprobaste es lo que llamamos **rigor numérico**.
 
 :::error «Si no aparece un mensaje de error, la fórmula está bien»
 Los errores más peligrosos no muestran ningún aviso: entregan un número equivocado con buen aspecto. Un mensaje de error es fácil de ver; una suma que omite una fila, no.
@@ -3249,7 +3070,7 @@ La jefatura de Andrés quiere una tabla pequeña con el valor total del stock po
 3. Calcula a mano los resultados esperados.
 4. Compara, y aunque los dos coincidan, revisa la fórmula de I3: los rangos tienen que seguir siendo C2:C7 y F2:F7.
 
-Los resultados esperados son 406500 para Embalaje (180000 + 64000 + 162500) y 458720 para EPP (140000 + 118800 + 199920). La fórmula que esperas es =SUMAR.SI($C$2:$C$7;H2;$F$2:$F$7), con los rangos fijos y la categoría relativa, porque al copiarla a I3 tiene que pasar a H3, la siguiente categoría. Los rangos de datos, en cambio, no deben moverse.
+Los resultados esperados son 406500 para Embalaje (180000 + 64000 + 162500) y 458720 para EPP (140000 + 118800 + 199920). La fórmula que esperas es =SUMAR.SI($C$2:$C$7;H2;$F$2:$F$7), con los rangos fijos y la categoría relativa, porque al copiarla a I3 tiene que pasar a H3, la siguiente categoría [@F-M2-16; @F-M2-18]. Los rangos de datos, en cambio, no deben moverse.
 
 :::actividad ¿Qué te propuso la IA?
 Anota en tu bitácora la fórmula exacta que te dio Gemini y si usó el signo $ en los rangos. Si no lo usó, la siguiente pantalla te muestra qué puede pasar.
@@ -3262,9 +3083,9 @@ bloque: Escenario + comparación antes y después
 
 Supón que la IA te dio la fórmula sin el signo $: =SUMAR.SI(C2:C7;H2;F2:F7). En I2, para Embalaje, da 406500, que es correcto. Pero al copiarla a I3 se convierte en =SUMAR.SI(C3:C8;H3;F3:F8). El rango bajó una fila y dejó fuera la fila 2, que es un EPP, los guantes. El resultado es 318720 en vez de 458720.
 
-Lo engañoso es que la primera fila del resumen está bien. Si solo compruebas I2, no ves el error, y el número de I3 parece razonable: ningún mensaje avisa. Por eso un error común es comprobar solo la primera celda. Los errores de referencia aparecen al copiar, así que siempre se revisa al menos una celda copiada y se lee su fórmula en la barra.
+Lo engañoso es que la primera fila del resumen está bien. Si solo compruebas I2, no ves el error, y el número de I3 parece razonable: ningún mensaje avisa. Por eso un error común es comprobar solo la primera celda. Los errores de referencia aparecen al copiar, así que siempre se revisa al menos una celda copiada y se lee su fórmula en la barra [@F-M2-18].
 
-La corrección es fijar los rangos con $, para que no se muevan al copiar: =SUMAR.SI($C$2:$C$7;H2;$F$2:$F$7). La ayuda de Google recomienda lo mismo para BUSCARV, como viste en la pantalla 4.
+La corrección es fijar los rangos con $, para que no se muevan al copiar: =SUMAR.SI($C$2:$C$7;H2;$F$2:$F$7). La ayuda de Google recomienda lo mismo para BUSCARV, como viste en la pantalla 4 [@F-M2-15].
 
 :::actividad Provoca el error y corrígelo
 En tu hoja de práctica, escribe en I2 la fórmula sin $ y cópiala a I3. Comprueba que I3 da 318720 y no 458720. Luego corrige la fórmula con $, cópiala de nuevo y anota en tu bitácora la fórmula antes y después, y cómo detectaste el error.
@@ -3281,7 +3102,7 @@ Andrés quiere escribir un código en una celda y ver al lado el precio de ese p
 2. Pide la fórmula a Gemini: «Uso Hojas de cálculo de Google en español, con punto y coma. En A2:A7 tengo códigos de producto y en E2:E7, precios. Quiero que en L2 aparezca el precio del código que escribo en K2. Necesito coincidencia exacta. Entrega la fórmula y explica cada argumento».
 3. Pega la fórmula en L2. La respuesta esperada es =BUSCARV(K2;$A$2:$E$7;5;FALSO).
 4. Comprueba que el precio de P05 sea 24990, el mismo de la tabla.
-5. Prueba otros códigos en K2: P01 tiene que dar 3500, P04 tiene que dar 800 y P09, que no existe, tiene que mostrar un error de valor no encontrado.
+5. Prueba otros códigos en K2: P01 tiene que dar 3500, P04 tiene que dar 800 y P09, que no existe, tiene que mostrar un error de valor no encontrado [@F-M2-15].
 
 El código P09 es un dato de prueba a propósito: con él compruebas que la fórmula no inventa un precio cuando el código no está. La misma idea sirve en un registro de facturas como el de Camila, donde buscar un número de factura que no existe debería dar un error y no el monto de otra.
 
@@ -3294,7 +3115,7 @@ cubre: C2
 fuentes: F-M2-15
 bloque: Pestañas (tabs) con cuatro errores
 
-Un **error de lógica** es una fórmula bien escrita que no hace lo que necesitas. Con BUSCARV hay cuatro frecuentes, y los cuatro aparecen en la ayuda de Google.
+Un **error de lógica** es una fórmula bien escrita que no hace lo que necesitas. Con BUSCARV hay cuatro frecuentes, y los cuatro aparecen en la ayuda de Google [@F-M2-15].
 
 El primero es omitir el último argumento. =BUSCARV(K2;$A$2:$E$7;5) parece igual a la fórmula correcta, pero sin FALSO busca una coincidencia aproximada, y si la primera columna no está ordenada puede devolver el dato de otro producto sin avisar. No des por hecho que la IA siempre lo incluye: una fórmula sin FALSO puede funcionar con tus datos de práctica, que están ordenados, y fallar con otros. Revisa el último argumento cada vez.
 
@@ -3317,7 +3138,7 @@ cubre: S3, C2, H1
 fuentes: F-M2-19, F-M2-15
 bloque: Tabla + tarjetas (flashcards)
 
-Cuando una fórmula falla de forma visible, la planilla muestra un valor de error. Cada uno da una pista de qué revisar, aunque los nombres cambian un poco entre programas:
+Cuando una fórmula falla de forma visible, la planilla muestra un valor de error. Cada uno da una pista de qué revisar, aunque los nombres cambian un poco entre programas [@F-M2-15; @F-M2-19]:
 
 | Error | Qué suele significar | Qué revisar |
 |---|---|---|
@@ -3327,7 +3148,7 @@ Cuando una fórmula falla de forma visible, la planilla muestra un valor de erro
 | #¡DIV/0! en Excel | Se está dividiendo por cero o por una celda vacía | La celda del divisor |
 | #¿NOMBRE? en Excel | El nombre de la función está mal escrito | Que la función esté bien escrita, por ejemplo BUSCARV |
 
-Puedes pegar el error en el chat y preguntar qué significa: «Mi fórmula =BUSCARV(K2;$A$2:$E$7;6;FALSO) da #REF!. ¿Por qué?». La explicación te orienta, pero la compruebas tú con la tabla. En Excel para Windows existe además «Evaluar fórmula», que muestra paso a paso cómo se calcula una fórmula anidada; no está disponible en el celular.
+Puedes pegar el error en el chat y preguntar qué significa: «Mi fórmula =BUSCARV(K2;$A$2:$E$7;6;FALSO) da #REF!. ¿Por qué?». La explicación te orienta, pero la compruebas tú con la tabla. En Excel para Windows existe además «Evaluar fórmula», que muestra paso a paso cómo se calcula una fórmula anidada; no está disponible en el celular [@F-M2-19].
 
 :::comprueba
 Andrés escribe P02 en K2 y aparece #N/A. En la tabla, el código P02 existe. ¿Qué revisa primero?
@@ -3342,14 +3163,14 @@ cubre: H1, S3
 fuentes: F-M2-17
 bloque: Proceso paso a paso + actividad
 
-Los **filtros** ocultan las filas que no quieres ver, sin borrarlas. Sirven para trabajar con una parte de los datos y también para comprobar el resultado de una fórmula. En Hojas de cálculo de Google se crean así:
+Los **filtros** ocultan las filas que no quieres ver, sin borrarlas [@F-M2-17]. Sirven para trabajar con una parte de los datos y también para comprobar el resultado de una fórmula. En Hojas de cálculo de Google se crean así:
 
 1. Selecciona tu tabla de datos, de A1 a F7.
 2. Ve a Datos > Crear un filtro; aparece un ícono en cada encabezado.
 3. En el encabezado Categoría, filtra por valores y deja marcado solo EPP.
 4. Ahora ves solo los guantes, el casco y los zapatos.
 
-Con el filtro puesto, suma a mano los valores totales visibles: 140000 + 118800 + 199920. Si da 458720, lo mismo que tu fórmula en I3, tienes dos caminos distintos que llegan al mismo número, y esa es una de las mejores defensas contra una fórmula que parece correcta. También puedes ordenar la tabla por una columna, por ejemplo por unidades de menor a mayor, para ver de inmediato qué productos tienen poco stock. Si necesitas mirar los datos de distintas formas, las vistas de filtro permiten guardar y compartir varios filtros. Cuando termines, quita el filtro para volver a ver todas las filas.
+Con el filtro puesto, suma a mano los valores totales visibles: 140000 + 118800 + 199920. Si da 458720, lo mismo que tu fórmula en I3, tienes dos caminos distintos que llegan al mismo número, y esa es una de las mejores defensas contra una fórmula que parece correcta. También puedes ordenar la tabla por una columna, por ejemplo por unidades de menor a mayor, para ver de inmediato qué productos tienen poco stock. Si necesitas mirar los datos de distintas formas, las vistas de filtro permiten guardar y compartir varios filtros [@F-M2-17]. Cuando termines, quita el filtro para volver a ver todas las filas.
 
 :::actividad Dos caminos, un resultado
 Filtra la categoría Embalaje y suma a mano los valores visibles. Compara con tu fórmula en I2 y anota en tu bitácora si coinciden y, si no, cuál de los dos caminos tenía el error.
@@ -3360,7 +3181,7 @@ cubre: S2, A2, C2
 fuentes: F-M2-07, F-M2-08
 bloque: Texto + escenario o conversación de ejemplo
 
-Pedirle a la IA que explique cada argumento de la fórmula es una buena práctica: te ayuda a entenderla y a ver si apunta a lo que necesitas. Pero la explicación también es texto generado. Un modelo puede dar una respuesta errónea con seguridad, incluso con un razonamiento que parece lógico y que justifica la respuesta incorrecta, y los propios proveedores piden revisar lo que entregan sus asistentes. Por eso la explicación se compara con lo que sabes:
+Pedirle a la IA que explique cada argumento de la fórmula es una buena práctica: te ayuda a entenderla y a ver si apunta a lo que necesitas. Pero la explicación también es texto generado. Un modelo puede dar una respuesta errónea con seguridad, incluso con un razonamiento que parece lógico y que justifica la respuesta incorrecta [@F-M2-07], y los propios proveedores piden revisar lo que entregan sus asistentes [@F-M2-08]. Por eso la explicación se compara con lo que sabes:
 
 | La IA dice… | Tú compruebas… |
 |---|---|
@@ -3379,7 +3200,7 @@ cubre: A1, A2
 fuentes: F-M2-20, F-M1-02
 bloque: Texto + lista de verificación (checklist)
 
-Los errores en planillas son comunes y no triviales; así lo resume la investigación sobre el tema. Cuando una planilla alimenta un pedido, un pago a un proveedor o un informe a la jefatura, un error se convierte en un problema real. Por eso el rigor numérico, que es cuidar que cada número sea exacto y que puedas explicar de dónde sale, va junto con la desconfianza metódica ante lo que propone la IA. Antes de usar una fórmula generada con IA, revisa esta lista:
+Los errores en planillas son comunes y no triviales; así lo resume la investigación sobre el tema [@F-M2-20]. Cuando una planilla alimenta un pedido, un pago a un proveedor o un informe a la jefatura, un error se convierte en un problema real. Por eso el rigor numérico, que es cuidar que cada número sea exacto y que puedas explicar de dónde sale, va junto con la desconfianza metódica ante lo que propone la IA. Antes de usar una fórmula generada con IA, revisa esta lista:
 
 - [ ] Le di a la IA el programa, el separador, las columnas, las filas y la celda de destino.
 - [ ] Entiendo qué hace cada argumento de la fórmula.
@@ -3390,7 +3211,7 @@ Los errores en planillas son comunes y no triviales; así lo resume la investiga
 - [ ] Revisé los avisos de error de la planilla.
 - [ ] No pegué en el chat datos personales ni información confidencial: usé datos ficticios, una copia sin datos sensibles o solo los encabezados.
 
-El último punto importa siempre, porque usar un asistente de IA casi siempre implica compartir con el proveedor lo que le escribes. Si tu empresa tiene reglas sobre qué información se puede usar en estas herramientas, esas reglas mandan.
+El último punto importa siempre, porque usar un asistente de IA casi siempre implica compartir con el proveedor lo que le escribes [@F-M1-02]. Si tu empresa tiene reglas sobre qué información se puede usar en estas herramientas, esas reglas mandan.
 
 :::comprueba
 Gemini le entrega a Andrés una fórmula y le dice que «está verificada». ¿Qué hace Andrés?
@@ -3405,7 +3226,7 @@ cubre: C1, C2, H1
 fuentes: F-M2-16, F-M2-15
 bloque: Texto + actividad de cierre (respuesta abierta)
 
-En este tema pediste fórmulas a la IA con contexto concreto, las pegaste en Hojas de cálculo de Google y las comprobaste con datos de práctica. Trabajaste con referencias relativas y absolutas, SUMAR.SI, BUSCARV y filtros, y aprendiste a reconocer dos familias de errores: los de referencia, como el rango que se mueve o el índice fuera del intervalo, y los de lógica, como la coincidencia aproximada o los datos sucios.
+En este tema pediste fórmulas a la IA con contexto concreto, las pegaste en Hojas de cálculo de Google y las comprobaste con datos de práctica. Trabajaste con referencias relativas y absolutas, SUMAR.SI, BUSCARV y filtros, y aprendiste a reconocer dos familias de errores: los de referencia, como el rango que se mueve o el índice fuera del intervalo, y los de lógica, como la coincidencia aproximada o los datos sucios [@F-M2-16; @F-M2-15].
 
 Una fórmula correcta no es la que entrega la IA, sino la que tú comprobaste con datos de resultado conocido. Para cerrar, vas a resolver de principio a fin dos preguntas de la jefatura de Andrés. Si en tu trabajo llevas una planilla, después repite el ejercicio con una copia sin datos sensibles.
 
@@ -3425,43 +3246,20 @@ Resultados para comprobar: los productos con precio sobre 5000 son el casco (12)
 6. Se verifica con datos de prueba: cálculo a mano, casos extremos, cambio de un dato, un camino distinto como un filtro y revisión celda por celda.
 7. Los errores más peligrosos no muestran aviso: un rango desplazado o un índice equivocado entregan un número con buen aspecto.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Celda**: casilla de una planilla, nombrada por su columna y su fila, como D2.
-- **Rango**: grupo de celdas, como C2:C7. La ayuda de Google lo llama intervalo.
-- **Fórmula**: instrucción que empieza con = y calcula un resultado a partir de valores o celdas.
-- **Función**: operación con nombre dentro de una fórmula, como SUMAR.SI o BUSCARV.
-- **Argumento**: cada dato que recibe una función entre sus paréntesis.
-- **Separador de argumentos**: signo que separa los argumentos de una función; punto y coma o coma, según la configuración regional.
-- **Referencia relativa**: referencia a una celda que cambia al copiar la fórmula, como D2.
-- **Referencia absoluta**: referencia fija, marcada con $, que no cambia al copiar, como $D$2.
-- **Referencia mixta**: referencia que fija solo la columna ($D2) o solo la fila (D$2).
-- **SUMAR.SI**: función que suma los valores que cumplen un criterio.
-- **BUSCARV**: función que busca un valor en la primera columna de un rango y devuelve el valor de otra columna de la misma fila.
-- **Datos de práctica**: tabla pequeña de datos ficticios con resultados conocidos, usada para comprobar fórmulas.
-- **Filtro (en una planilla)**: herramienta que oculta las filas que no cumplen una condición, sin borrarlas.
-- **Datos sucios**: datos con diferencias invisibles, como espacios de más o números guardados como texto, que hacen fallar las fórmulas.
-
-### Conexión con el proyecto
-
-El **Hito 2 del proyecto aplicado: brief del proyecto + presentación de 6 láminas** se apoya en los temas 1 y 3, pero este tema te sirve si tu problema tiene números. Si una de tus láminas muestra un dato de tu trabajo, como pedidos atrasados, facturas pendientes o consultas atendidas, calcúlalo en una planilla, compruébalo con el método de la pantalla 9 y anota de dónde sale. Así tu presentación solo va a tener cifras que puedes defender ante tu jefatura.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M2.md`, `investigacion/M1.md` y `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
-
-- F-M2-07 · NIST (2024). Generative Artificial Intelligence Profile (NIST AI 600-1). https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
-- F-M2-08 · Microsoft Support (2026). Introducción a la escritura de indicaciones en Microsoft Copilot. https://support.microsoft.com/es-es/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5
-- F-M2-10 · Google AI for Developers (2026). Prompt design strategies. https://ai.google.dev/gemini-api/docs/prompting-strategies
-- F-M2-15 · Google, Ayuda de Editores de Documentos (s. f.). BUSCARV. https://support.google.com/docs/answer/3093318?hl=es
-- F-M2-16 · Google, Ayuda de Editores de Documentos (s. f.). SUMAR.SI. https://support.google.com/docs/answer/3093583?hl=es
-- F-M2-17 · Google, Ayuda de Editores de Documentos (s. f.). Ordenar y filtrar tus datos. https://support.google.com/docs/answer/3540681?hl=es
-- F-M2-18 · Microsoft Support (s. f.). Cambiar entre referencias relativas, absolutas y mixtas. https://support.microsoft.com/es-es/office/cambiar-entre-referencias-relativas-absolutas-y-mixtas-dfec08cd-ae65-4f56-839e-5f0d8d0baca9
-- F-M2-19 · Microsoft Support (s. f.). Detectar errores en las fórmulas. https://support.microsoft.com/es-es/office/detectar-errores-en-las-fórmulas-3a8acca5-1d61-4702-80e0-99a36a2822c1
-- F-M2-20 · Panko, R. R. (2000). Spreadsheet Errors: What We Know. What We Think We Can Do. https://arxiv.org/abs/0802.3457
-- F-M1-02 · UNESCO; Miao y Holmes (2024). Guía para el uso de IA generativa en educación e investigación. https://unesdoc.unesco.org/ark:/48223/pf0000389227_spa
-- F-H-20 · Microsoft (s. f.). Compara todos los planes y precios de Microsoft 365 (Chile). https://www.microsoft.com/es-cl/microsoft-365/buy/compare-all-microsoft-365-products
-- F-H-49 · Google (s. f.). Planes Google AI (Google One, Chile). https://one.google.com/intl/es-419_cl/about/google-ai-plans/
+- Google. (s. f.-a). *BUSCARV*. Ayuda de Editores de Documentos. https://support.google.com/docs/answer/3093318?hl=es
+- Google. (s. f.-b). *Ordenar y filtrar tus datos*. Ayuda de Editores de Documentos. https://support.google.com/docs/answer/3540681?hl=es
+- Google. (s. f.-c). *Planes Google AI*. Google One. https://one.google.com/intl/es-419_cl/about/google-ai-plans/
+- Google. (s. f.-d). *SUMAR.SI*. Ayuda de Editores de Documentos. https://support.google.com/docs/answer/3093583?hl=es
+- Google. (2026, 13 de octubre). *Prompt design strategies*. Google AI for Developers. https://ai.google.dev/gemini-api/docs/prompting-strategies
+- Miao, F. y Holmes, W. (2024). *Guía para el uso de IA generativa en educación e investigación*. UNESCO. https://unesdoc.unesco.org/ark:/48223/pf0000389227_spa
+- Microsoft. (s. f.-a). *Cambiar entre referencias relativas, absolutas y mixtas*. Microsoft Support. https://support.microsoft.com/es-es/office/cambiar-entre-referencias-relativas-absolutas-y-mixtas-dfec08cd-ae65-4f56-839e-5f0d8d0baca9
+- Microsoft. (s. f.-b). *Compara todos los planes y precios de Microsoft 365*. https://www.microsoft.com/es-cl/microsoft-365/buy/compare-all-microsoft-365-products
+- Microsoft. (s. f.-c). *Detectar errores en las fórmulas*. Microsoft Support. https://support.microsoft.com/es-es/office/detectar-errores-en-las-fórmulas-3a8acca5-1d61-4702-80e0-99a36a2822c1
+- Microsoft. (2026). *Introducción a la escritura de indicaciones en Microsoft Copilot*. Microsoft Support. https://support.microsoft.com/es-es/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5
+- National Institute of Standards and Technology. (2024). *Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)*. https://doi.org/10.6028/NIST.AI.600-1
+- Panko, R. R. (2000). *Spreadsheet errors: What we know. What we think we can do*. arXiv. https://arxiv.org/abs/0802.3457
 
 
 ---
@@ -3488,8 +3286,8 @@ y levantar información sobre un problema de su sector. Al final deberías poder
 investigación específicas, usar al menos dos herramientas distintas y anotar cada fuente con su cita.
 
 Vas a trabajar con dos tipos de herramienta. El **buscador con citas** consulta internet y enlaza cada dato a la página de donde
-salió. El **asistente sobre fuentes propias** responde solo a partir de los documentos que tú le entregas. Las dos tienen plan
-gratuito y se pueden usar desde el celular.
+salió [@F-M3-01]. El **asistente sobre fuentes propias** responde solo a partir de los documentos que tú le entregas [@F-M3-02]. Las
+dos tienen plan gratuito y se pueden usar desde el celular.
 
 Siguen contigo las mismas personas de los módulos anteriores. Camila, asistente administrativa en una constructora, quiere saber
 cómo registran y archivan sus documentos digitales otras oficinas. Andrés, encargado de bodega en una distribuidora, quiere evitar
@@ -3507,8 +3305,8 @@ muestren. Las puedes agrupar en tres tipos.
 
 | Tipo | Qué hace | Ejemplo gratuito |
 |---|---|---|
-| Buscador con citas | Busca en internet en el momento, resume lo que encuentra y pone citas numeradas que enlazan a cada página | Perplexity |
-| Asistente sobre fuentes propias | Responde a partir de los documentos que tú subes y cita la parte de donde sacó cada idea | Gemini Notebook |
+| Buscador con citas | Busca en internet en el momento, resume lo que encuentra y pone citas numeradas que enlazan a cada página [@F-M3-01] | Perplexity |
+| Asistente sobre fuentes propias | Responde a partir de los documentos que tú subes y cita la parte de donde sacó cada idea [@F-M3-02] | Gemini Notebook |
 | Asistente general con búsqueda | Conversa como siempre, pero a veces busca en la web y muestra las fuentes que usó | Gemini (lo verás en P09) |
 
 Lo que decide cuál usar es en qué punto de la investigación estás. Andrés, por ejemplo, quiere saber cómo evitan otras bodegas
@@ -3531,7 +3329,7 @@ fuentes: F-M3-03
 bloque: Proceso (process block) en 4 pasos
 
 Una pregunta vaga da resultados vagos, aunque la herramienta sea muy buena. Las bibliotecas de Duoc UC proponen un camino de cuatro
-pasos para pasar de un tema amplio a una búsqueda precisa. Míralo con el tema de Rosa:
+pasos para pasar de un tema amplio a una búsqueda precisa [@F-M3-03]. Míralo con el tema de Rosa:
 
 1. Identifica el tema general: «inasistencia de pacientes».
 2. Acótalo con criterios como el lugar, el período, el tipo de organización o el uso que te interesa: «inasistencia a horas médicas agendadas en centros médicos pequeños de Chile, en los últimos años».
@@ -3554,7 +3352,7 @@ cubre: C1, H1
 fuentes: F-M3-03
 bloque: Texto + comparación antes/después
 
-Una **pregunta específica** nombra el tema acotado y sus conceptos clave. La reconoces porque, al leerla, sabes qué tipo de respuesta
+Una **pregunta específica** nombra el tema acotado y sus conceptos clave [@F-M3-03]. La reconoces porque, al leerla, sabes qué tipo de respuesta
 esperas y dónde podrías buscarla. Compara estas versiones de las preguntas de Andrés, Camila y Rosa.
 
 | Antes (tema general) | Después (pregunta específica) |
@@ -3583,7 +3381,7 @@ bloque: Texto + escenario
 Quien busca con autonomía no abre la herramienta y pregunta lo primero que se le ocurre. Antes decide qué necesita. La guía de Duoc
 UC sugiere definir seis cosas: cuánta información te hace falta (un dato, unas pocas fuentes o un panorama completo), en qué idioma
 la quieres, qué tipo de fuente te sirve (normas, guías de organismos, estudios, noticias), de qué período, cuánto tiempo tienes para
-buscar y qué profundidad necesitas.
+buscar y qué profundidad necesitas [@F-M3-03].
 
 Estas decisiones te sirven también para escribir el prompt, porque las puedes agregar al final de tu pregunta: «Busca fuentes en
 español, de organismos públicos o instituciones educativas, publicadas desde 2023». Además te dicen cuándo detenerte. Si decidiste
@@ -3606,8 +3404,8 @@ bloque: Texto + imagen de una respuesta con citas numeradas
 
 Un buscador con citas combina un buscador con un asistente de IA. Según el centro de ayuda de Perplexity, la herramienta busca en
 internet en tiempo real a partir de tu pregunta, resume lo que encontró en una respuesta breve y pone **citas numeradas** que enlazan
-a las páginas de origen, para que verifiques o profundices. También acepta preguntas de seguimiento que conservan el contexto: puedes
-escribir «¿y en oficinas pequeñas?» sin repetir todo.
+a las páginas de origen, para que verifiques o profundices [@F-M3-01]. También acepta preguntas de seguimiento que conservan el
+contexto: puedes escribir «¿y en oficinas pequeñas?» sin repetir todo.
 
 La diferencia con un buscador común es que no te entrega una lista de páginas para leer, sino una respuesta ya redactada con los
 números de las fuentes al lado de cada afirmación. Eso ahorra tiempo, pero cambia tu trabajo: ahora tienes que comprobar que cada
@@ -3615,7 +3413,7 @@ número lleve a una página que de verdad diga eso.
 
 Un error común es creer que si la respuesta trae citas, está correcta. NIST, el instituto de normas y tecnología de Estados Unidos,
 advierte que la IA generativa puede producir contenido falso con total seguridad, e incluso citas inventadas que parecen respaldar la
-respuesta. Una cita es una pista para ir a la fuente. La verificación la haces tú, al abrirla.
+respuesta [@F-M3-13]. Una cita es una pista para ir a la fuente. La verificación la haces tú, al abrirla.
 
 :::comprueba
 ¿Qué hace un buscador con citas que no hace un asistente sin búsqueda?
@@ -3633,10 +3431,10 @@ bloque: Texto + imagen de la aplicación
 
 En este curso vas a usar Perplexity como buscador con citas. Su plan gratuito se llama Standard e incluye búsquedas básicas
 prácticamente ilimitadas, muy pocas búsquedas avanzadas (que el proveedor llama «Pro Search»), una subida de archivos limitada y el
-historial de tus búsquedas. No trae los modelos avanzados ni la creación de imágenes, que están en el plan Pro, de pago. Para este
+historial de tus búsquedas. No trae los modelos avanzados ni la creación de imágenes, que están en el plan Pro, de pago [@F-H-29]. Para este
 tema la búsqueda básica alcanza: no necesitas pagar ni gastar las búsquedas avanzadas.
 
-Además de la versión web, Perplexity tiene aplicación para Android y para iPhone, así que puedes hacer tus búsquedas desde el
+Además de la versión web, Perplexity tiene aplicación para Android y para iPhone [@F-H-33], así que puedes hacer tus búsquedas desde el
 teléfono, por ejemplo en un rato libre de la jornada, y revisar después las fuentes con calma en el computador.
 
 Hay una precaución que vale desde la primera búsqueda. Lo que escribes en una herramienta gratuita queda en los sistemas del
@@ -3661,11 +3459,11 @@ Ahora te toca levantar información sobre tu propio tema. Sigue estos pasos en e
 3. Lee la respuesta y fíjate en los números de las citas.
 4. Abre cada cita, revisa que el enlace funcione y que la página diga lo que la respuesta afirma.
 5. Haz una pregunta de seguimiento para profundizar, por ejemplo «¿Qué fuentes de Chile tratan este tema?».
-6. Si los resultados no sirven, repite la búsqueda con los sinónimos que preparaste.
+6. Si los resultados no sirven, repite la búsqueda con los sinónimos que preparaste [@F-M3-03].
 7. Anota cada fuente útil en tu registro de fuentes (lo armarás en P16): título, quién la publica, fecha y enlace.
 
 Un error frecuente en este paso es copiar la respuesta del buscador como si fuera la fuente. La respuesta redactada es un resumen
-hecho por la IA; la fuente es la página a la que lleva la cita. Lo que anotas y citas es esa página de origen, no el resumen.
+hecho por la IA; la fuente es la página a la que lleva la cita [@F-M3-01]. Lo que anotas y citas es esa página de origen, no el resumen.
 
 :::actividad Tus primeras fuentes
 Al terminar deberías tener al menos tres fuentes que abriste y leíste. Para cada una, escribe en tu bitácora una línea con lo que
@@ -3682,9 +3480,9 @@ Los asistentes generales que ya conoces también pueden buscar en la web. La dif
 hacen: a veces responden solo con lo que aprendieron. Por eso conviene mirar si la respuesta trae fuentes antes de usarla.
 
 Gemini a veces muestra un botón «Fuentes» con enlaces a sitios web, a archivos que subiste o a documentos vinculados, y eso funciona
-en el computador, en Android y en iPhone. En ChatGPT la búsqueda web está en el plan gratuito, incluso sin iniciar sesión, tanto en
-la web como en las aplicaciones. Sus respuestas pueden traer citas que abren la fuente y un panel con las fuentes usadas, aunque cada
-búsqueda descuenta del límite del plan.
+en el computador, en Android y en iPhone [@F-H-16]. En ChatGPT la búsqueda web está en el plan gratuito, incluso sin iniciar sesión,
+tanto en la web como en las aplicaciones. Sus respuestas pueden traer citas que abren la fuente y un panel con las fuentes usadas,
+aunque cada búsqueda descuenta del límite del plan [@F-H-07].
 
 Si la respuesta de un asistente general llega sin fuentes, pídele que busque en la web y que indique las páginas que usó. Una
 respuesta sin fuentes te puede dar ideas, pero no te sirve para investigar, porque no tienes cómo comprobarla. Hacer la misma
@@ -3706,13 +3504,13 @@ El segundo tipo de herramienta trabaja con fuentes que tú eliges. En este curso
 que antes se llamaba NotebookLM; si no la encuentras con el nombre nuevo, búscala con el anterior. Funciona con **cuadernos**: en cada
 uno subes tus fuentes y luego conversas con ellas.
 
-Según la ayuda de Google, acepta PDF, sitios web, videos de YouTube, audio y documentos de Google. Responde a partir de esas fuentes y
-no de su conocimiento general, muestra citas en línea que llevan a la parte exacta de la fuente y, si tus fuentes no tienen la
-respuesta, puede no responder.
+Según la ayuda de Google, acepta PDF, sitios web, videos de YouTube, audio y documentos de Google [@F-H-45]. Responde a partir de esas
+fuentes y no de su conocimiento general, muestra citas en línea que llevan a la parte exacta de la fuente y, si tus fuentes no tienen
+la respuesta, puede no responder [@F-M3-02].
 
 Esto cambia bastante el riesgo. Un asistente general puede rellenar con datos de cualquier parte; uno sobre fuentes propias se
 limita a lo que le entregaste y te muestra dónde lo leyó. Aun así, Google advierte que sus respuestas pueden tener errores y que en
-temas médicos, legales o financieros conviene consultar a un profesional.
+temas médicos, legales o financieros conviene consultar a un profesional [@F-M3-02].
 
 Por eso un error común es pensar que, si trabaja sobre tus documentos, no se equivoca. Limitarlo a tus fuentes reduce el riesgo, pero
 no lo elimina: puede resumir mal o mezclar ideas de dos documentos. Toca las citas y compara con el texto.
@@ -3730,14 +3528,14 @@ bloque: Texto + imagen de la aplicación
 Gemini Notebook tiene un plan gratuito, llamado Standard, que se usa con una cuenta de Google personal. Te permite tener hasta 100
 cuadernos, con un máximo de 50 fuentes cada uno, y hacer 50 conversaciones al día. Incluye además algunos productos que se generan a
 partir de tus fuentes: hasta 10 informes al día, tres resúmenes de audio y tres de video al día, y la investigación a fondo (Deep
-Research) 10 veces al mes. Google aclara que estos límites pueden cambiar.
+Research) 10 veces al mes. Google aclara que estos límites pueden cambiar [@F-H-44].
 
 Para tu proyecto no vas a acercarte a esos topes. Un cuaderno con cinco a diez fuentes es más que suficiente, y lo que importa es que
 cada una sea buena, no que sean muchas.
 
 En el celular hay aplicación para Android 10 o superior y para iPhone y iPad. Desde ella puedes preguntar a tus fuentes, escuchar los
 resúmenes de audio sin conexión y compartir hacia la aplicación un sitio, un PDF o un video que encontraste navegando. El lanzamiento
-de la aplicación es gradual, aunque Chile está en la lista de países. Si todavía no te aparece en la tienda, usa la versión web en el
+de la aplicación es gradual, aunque Chile está en la lista de países [@F-H-46]. Si todavía no te aparece en la tienda, usa la versión web en el
 navegador del teléfono: funciona igual para lo que harás en este tema.
 
 Una forma práctica de usarla es ir guardando en el cuaderno, desde el teléfono, cada fuente buena que encuentres en el buscador. Así,
@@ -3757,7 +3555,7 @@ las planillas de clientes, remuneraciones o ventas de la empresa, ni los documen
 compartir. Si necesitas trabajar con un documento real, usa una copia sin datos sensibles o con datos de prueba.
 
 Sobre privacidad, Google indica que, con una cuenta personal, tus datos de Gemini Notebook no se usan para entrenar sus modelos,
-salvo que envíes comentarios, porque en ese caso la interacción puede ser revisada. Es una buena política, pero no cambia la regla:
+salvo que envíes comentarios, porque en ese caso la interacción puede ser revisada [@F-M3-02]. Es una buena política, pero no cambia la regla:
 lo confidencial no se sube a una herramienta que tu empresa no autorizó. Lo verás a fondo en el tema 4.
 
 :::actividad ¿Lo subo o no?
@@ -3776,11 +3574,11 @@ bloque: Proceso paso a paso + actividad
 
 Ahora usas la segunda herramienta con las fuentes que encontraste en la práctica 1:
 
-1. Abre Gemini Notebook, en la web o en la aplicación, con tu cuenta de Google.
+1. Abre Gemini Notebook, en la web o en la aplicación, con tu cuenta de Google [@F-H-46].
 2. Crea un cuaderno con el nombre de tu proyecto.
 3. Agrega de tres a cinco fuentes públicas (los enlaces que abriste en Perplexity, un PDF o un video) y revisa que ninguna tenga datos personales.
 4. Hazle al cuaderno tu segunda pregunta de investigación.
-5. Toca cada cita de la respuesta y lee el párrafo de origen para ver si dice lo mismo.
+5. Toca cada cita de la respuesta y lee el párrafo de origen para ver si dice lo mismo [@F-M3-02].
 6. Pregunta qué falta: «¿Qué parte de mi pregunta no responden estas fuentes?».
 7. Anota en tu registro cada dato útil con la fuente y la parte donde aparece.
 
@@ -3804,7 +3602,7 @@ bloque: Texto + escenario
 
 Algunas herramientas ofrecen un modo de **investigación a fondo**: en vez de una respuesta breve, revisan muchas páginas y entregan un
 informe largo con fuentes. En Gemini se llama Deep Research y está disponible sin plan pagado, aunque gasta más cuota que una
-conversación normal. En Gemini Notebook, el plan gratuito permite usarla 10 veces al mes.
+conversación normal [@F-H-12]. En Gemini Notebook, el plan gratuito permite usarla 10 veces al mes [@F-H-44].
 
 Conviene cuando necesitas un panorama amplio de un tema que no conoces, al comienzo de la investigación. No conviene para responder
 una pregunta puntual, porque una búsqueda con citas es más rápida y gasta menos.
@@ -3828,8 +3626,8 @@ Ya conoces las herramientas. La pregunta práctica es cuál usar en cada momento
 
 | Si necesitas… | Usa… |
 |---|---|
-| Saber qué se ha publicado sobre un tema y tener enlaces | Un buscador con citas, como Perplexity, o la búsqueda de un asistente general |
-| Preguntar sobre documentos que ya reuniste | Un asistente sobre fuentes propias, como Gemini Notebook |
+| Saber qué se ha publicado sobre un tema y tener enlaces | Un buscador con citas, como Perplexity, o la búsqueda de un asistente general [@F-M3-01] |
+| Preguntar sobre documentos que ya reuniste | Un asistente sobre fuentes propias, como Gemini Notebook [@F-M3-02] |
 | Un panorama amplio de un tema que no conoces | La investigación a fondo, una vez, como mapa |
 | Redactar, ordenar o resumir lo que ya verificaste | El asistente general, sin búsqueda |
 
@@ -3853,7 +3651,7 @@ bloque: Texto + tabla descargable
 
 Investigar sin registrar es perder trabajo: dentro de una semana no vas a saber de dónde salió cada dato. Por eso llevas un **registro
 de fuentes** desde el primer día. Lo central es guardar el enlace a la fuente original que te entrega la herramienta, no solo el
-nombre de la herramienta.
+nombre de la herramienta [@F-M3-01].
 
 | Pregunta | Herramienta | Fecha de búsqueda | Fuente (título y quién la publica) | Fecha de la fuente | Enlace | Qué aporta |
 |---|---|---|---|---|---|---|
@@ -3863,7 +3661,7 @@ nombre de la herramienta.
 El error más frecuente es anotar «Fuente: Perplexity». Perplexity, Gemini o ChatGPT no son la fuente de un dato: son la herramienta
 con que lo encontraste. La fuente es la página o el documento al que lleva la cita.
 
-Si además vas a usar un texto generado por la IA, por ejemplo un resumen que te sirvió de base, Bibliotecas UC recomienda anotar la
+Si además vas a usar un texto generado por la IA, por ejemplo un resumen que te sirvió de base, [n@F-M3-12] recomienda anotar la
 herramienta, su versión, la fecha de la consulta y el prompt, y guardar la respuesta. En el tema 3 aprenderás a citarlo.
 
 :::comprueba
@@ -3881,10 +3679,10 @@ bloque: Texto + escenario
 
 La herramienta hace la búsqueda, pero el rumbo lo pones tú. La autonomía se nota en decisiones pequeñas: defines antes qué necesitas
 (P05) y sabes cuándo tienes suficiente; cuando un resultado no sirve, reformulas con sinónimos en vez de rendirte; haces preguntas de
-seguimiento para ir más allá de la primera respuesta, y usas más de una herramienta para comparar.
+seguimiento para ir más allá de la primera respuesta, y usas más de una herramienta para comparar [@F-M3-03].
 
 La curiosidad se nota en preguntarte qué no sabes todavía. El método SIFT, que viste en el módulo 1, empieza con un paso que sirve
-aquí: detenerte antes de aceptar una fuente y preguntarte qué sabes de ella. En el próximo tema vas a hacer ese análisis a fondo.
+aquí: detenerte antes de aceptar una fuente y preguntarte qué sabes de ella [@F-M3-04]. En el próximo tema vas a hacer ese análisis a fondo.
 
 Ninguna de estas actitudes depende de la herramienta que uses. Son las mismas que te sirven cuando tu jefatura te pide averiguar algo
 que nadie en la oficina sabe: buscar con un rumbo, no conformarte con lo primero y saber decir qué quedó sin respuesta.
@@ -3901,7 +3699,7 @@ fuentes: F-M3-01, F-M3-02
 bloque: Texto + actividad de cierre (entrega)
 
 En este tema conociste tres tipos de herramientas para investigar: el buscador con citas, el asistente sobre fuentes propias y el
-asistente general con búsqueda, que en algunos casos trae un modo de investigación a fondo. Aprendiste a pasar de un tema general a
+asistente general con búsqueda, que en algunos casos trae un modo de investigación a fondo [@F-M3-01; @F-M3-02]. Aprendiste a pasar de un tema general a
 una pregunta específica, a definir tu necesidad antes de buscar y a registrar cada fuente con su enlace original.
 
 Ahora reúnes todo en un levantamiento de información. No se trata de juntar muchas fuentes, sino de responder tu pregunta con fuentes
@@ -3926,55 +3724,22 @@ Este levantamiento es la materia prima del próximo tema, donde vas a evaluar y 
 5. Un asistente sobre fuentes propias, como Gemini Notebook, responde solo con tus documentos y cita dónde lo leyó; si no responde, te muestra un vacío. A esa herramienta no se suben documentos de la empresa con datos personales o confidenciales.
 6. Se usan al menos dos herramientas distintas, y cada fuente se registra con su enlace original, no con el nombre de la herramienta.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Pregunta de investigación**: pregunta específica sobre un tema acotado que se puede responder buscando información.
-- **Tema acotado**: tema general al que se le agregaron criterios, como lugar, período o tipo de organización.
-- **Concepto clave**: palabra o expresión central de una pregunta, que se usa para buscar.
-- **Necesidad de información**: lo que una persona define antes de buscar: cuánta información, de qué tipo, de qué período y con qué profundidad.
-- **Buscador con citas**: herramienta que busca en internet al momento, resume lo encontrado y enlaza cada afirmación a su página de origen.
-- **Cita (en una respuesta de IA)**: número o enlace que indica de qué fuente salió una afirmación.
-- **Pregunta de seguimiento**: pregunta que continúa una búsqueda anterior y conserva su contexto.
-- **Asistente sobre fuentes propias**: herramienta que responde a partir de los documentos que la persona le entrega.
-- **Cuaderno**: espacio de Gemini Notebook donde se reúnen las fuentes de un tema para hacerles preguntas.
-- **Investigación a fondo**: modo de algunos asistentes que revisa muchas páginas y entrega un informe largo con fuentes.
-- **Registro de fuentes**: tabla donde se anota cada fuente con título, autor, fecha, enlace y lo que aporta.
-- **Fuente de un dato**: página o documento de donde sale una información, distinto de la herramienta con que se encontró.
-
-### Conexión con el proyecto
-
-Tus preguntas de investigación (P04) y tu levantamiento de información con dos herramientas (P18) son el primer paso del **Hito 3 del
-proyecto aplicado: investigación validada con fuentes (informe breve)**. En el Hito 3 investigas el problema que elegiste en el Hito 1
-con fuentes contrastadas y citadas. En los temas 2 y 3 de este módulo vas a contrastar estas fuentes y a presentarlas en un informe
-breve.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M3.md` e `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
-
-- F-M3-01 · Perplexity (s. f.). How does Perplexity work? https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work
-- F-M3-02 · Google (s. f.). Más información sobre Gemini Notebook (Ayuda de NotebookLM). https://support.google.com/notebooklm/answer/16164461?hl=es-419
-- F-M3-03 · Bibliotecas Duoc UC (2023). ¿Cómo formular una necesidad de información? https://bibliotecas.duoc.cl/busqueda-de-informacion/formular-necesidad-de-informacion
-- F-M3-04 · Caulfield, M. (2019). SIFT (The Four Moves). https://hapgood.us/2019/06/19/sift-the-four-moves/
-- F-M3-12 · Bibliotecas UC (2026). IA: Citar y referenciar. https://guiastematicas.bibliotecas.uc.cl/ia/citar
-- F-M3-13 · NIST (2024). Generative Artificial Intelligence Profile (NIST AI 600-1). https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
-- F-H-07 · OpenAI (2026). Searching the web with ChatGPT. https://help.openai.com/en/articles/9237897-chatgpt-search
-- F-H-12 · Google (s. f.). Límites de las aplicaciones de Gemini y cambios a planes superiores. https://support.google.com/gemini/answer/16275805?hl=es
-- F-H-16 · Google (s. f.). Ver fuentes relacionadas de las aplicaciones de Gemini. https://support.google.com/gemini/answer/14143489?hl=es
-- F-H-29 · Perplexity (s. f.). Which Perplexity Subscription Plan is right for you? https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you
-- F-H-33 · Perplexity (s. f.). Mobile Apps. https://www.perplexity.ai/help-center/en/collections/18799299-mobile-apps
-- F-H-44 · Google (s. f.). Cambiar a un plan superior de Gemini Notebook. https://support.google.com/notebooklm/answer/16213268?hl=es
-- F-H-45 · Google (s. f.). Información sobre Gemini Notebook. https://support.google.com/gemininotebook/answer/16164461?hl=es
-- F-H-46 · Google (s. f.). Empezar a usar la aplicación móvil Gemini Notebook. https://support.google.com/gemininotebook/answer/16296687?hl=es
-
-Recomendaciones del curso, sin fuente: el mínimo de dos herramientas (C2) y de cinco fuentes en el levantamiento (P18); el consejo de
-pedir al asistente general que busque y muestre sus páginas cuando no trae fuentes (P09); no escribir datos personales ni información
-interna en el buscador (P07), que adelanta el tema 4; el cuadro de P15 para elegir herramienta; la tabla de registro de P16; usar la
-investigación a fondo como «mapa» y una sola vez (P14), y la lista de documentos que conviene o no subir (P12). Camila, Andrés y Rosa
-y sus búsquedas son ficticios.
-
-Pendiente de probar a mano: si Perplexity se puede usar sin cuenta en Chile; si la aplicación Gemini Notebook ya aparece en las
-tiendas chilenas con ese nombre.
+- Bibliotecas Duoc UC. (2023, 21 de julio). *¿Cómo formular una necesidad de información?* https://bibliotecas.duoc.cl/busqueda-de-informacion/formular-necesidad-de-informacion
+- Bibliotecas UC. (2026, 13 de agosto). *IA: citar y referenciar*. Pontificia Universidad Católica de Chile. https://guiastematicas.bibliotecas.uc.cl/ia/citar
+- Caulfield, M. (2019, 19 de junio). *SIFT (The four moves)*. Hapgood. https://hapgood.us/2019/06/19/sift-the-four-moves/
+- Google. (s. f.-a). *Cambiar a un plan superior de Gemini Notebook*. https://support.google.com/notebooklm/answer/16213268?hl=es
+- Google. (s. f.-b). *Empezar a usar la aplicación móvil Gemini Notebook*. https://support.google.com/gemininotebook/answer/16296687?hl=es
+- Google. (s. f.-c). *Información sobre Gemini Notebook*. https://support.google.com/gemininotebook/answer/16164461?hl=es
+- Google. (s. f.-d). *Límites de las aplicaciones de Gemini y cambios a planes superiores*. https://support.google.com/gemini/answer/16275805?hl=es
+- Google. (s. f.-e). *Más información sobre Gemini Notebook*. Ayuda de NotebookLM. https://support.google.com/notebooklm/answer/16164461?hl=es-419
+- Google. (s. f.-f). *Ver fuentes relacionadas de las aplicaciones de Gemini*. https://support.google.com/gemini/answer/14143489?hl=es
+- National Institute of Standards and Technology. (2024). *Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)*. https://doi.org/10.6028/NIST.AI.600-1
+- OpenAI. (2026). *Searching the web with ChatGPT*. OpenAI Help Center. https://help.openai.com/en/articles/9237897-chatgpt-search
+- Perplexity. (s. f.-a). *How does Perplexity work?* https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work
+- Perplexity. (s. f.-b). *Mobile apps*. https://www.perplexity.ai/help-center/en/collections/18799299-mobile-apps
+- Perplexity. (s. f.-c). *Which Perplexity subscription plan is right for you?* https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you
 
 
 ## M3-AE2 · Recopilar, validar y sintetizar
@@ -3990,7 +3755,7 @@ dejar fuera lo que no tiene respaldo y unir lo que sí lo tiene en una síntesis
 
 El aprendizaje esperado es este: Contrastar y sintetizar información de múltiples fuentes aplicando criterios de confiabilidad. Al
 final deberías poder revisar cada fuente según su autoría, su fecha y su respaldo, y escribir una síntesis de hallazgos contrastados
-en la que no quede ninguna afirmación sin respaldo.
+en la que no quede ninguna afirmación sin respaldo [@F-M3-06; @F-M3-07].
 
 En el módulo 1 aprendiste a validar una respuesta de IA con lectura lateral, el método SIFT y tu lista de verificación. Aquí das un
 paso más: ya no revisas un dato suelto, sino un conjunto de fuentes sobre una misma pregunta. Vas a trabajar con los tipos de fuente
@@ -4008,13 +3773,13 @@ bloque: Texto + proceso en 4 pasos
 Cuando investigas un problema reúnes fuentes de distinto tipo: una norma, una guía de un organismo, una nota de prensa, el blog de
 una empresa, la respuesta de un asistente. Cada una tiene fortalezas y debilidades distintas, y la IA no hace este análisis por ti.
 NIST, el instituto de normas y tecnología de Estados Unidos, advierte que la IA generativa puede entregar contenido que no distingue
-hechos de opiniones ni reconoce la incertidumbre. Un resumen hecho por IA puede mezclar la opinión de un blog con un dato de una
+hechos de opiniones ni reconoce la incertidumbre [@F-M3-13]. Un resumen hecho por IA puede mezclar la opinión de un blog con un dato de una
 norma, en el mismo tono.
 
 Por eso el análisis sigue cuatro pasos:
 
 1. Evaluar cada fuente con criterios de confiabilidad.
-2. Contrastar las fuentes entre sí, afirmación por afirmación.
+2. Contrastar las fuentes entre sí, afirmación por afirmación [@F-M3-07].
 3. Descartar lo que no tiene respaldo.
 4. Sintetizar lo verificado en un texto propio.
 
@@ -4034,7 +3799,7 @@ fuentes: F-M3-06
 bloque: Texto + tabla (flashcards opcional)
 
 La Biblioteca Meriam de la Universidad Estatal de California en Chico propuso una lista de preguntas para evaluar información,
-conocida por su sigla en inglés: **CRAAP**. Agrupa las preguntas en cinco criterios.
+conocida por su sigla en inglés: **CRAAP**. Agrupa las preguntas en cinco criterios [@F-M3-06].
 
 | Criterio | Pregunta central |
 |---|---|
@@ -4064,7 +3829,7 @@ cubre: S1, C1
 fuentes: F-M3-06, F-M3-05
 bloque: Texto + tabla de ejemplos
 
-El criterio de **autoría** pregunta quién escribió o publicó la fuente, qué credenciales tiene y a qué institución pertenece. No basta
+El criterio de **autoría** pregunta quién escribió o publicó la fuente, qué credenciales tiene y a qué institución pertenece [@F-M3-06]. No basta
 con que tenga un nombre: importa si esa persona o entidad sabe del tema y si responde por lo que dice. Mira cómo se aplica a fuentes
 que ya usaste en este curso.
 
@@ -4077,7 +3842,7 @@ que ya usaste en este curso.
 
 En el módulo 1 viste un estudio de Stanford en que historiadores y estudiantes se dejaban convencer por un logo profesional, por
 referencias académicas o por el dominio del sitio, mientras los verificadores profesionales averiguaban fuera del sitio quién estaba
-detrás. Esa lectura lateral es la forma práctica de revisar la autoría: abres otra pestaña y buscas qué se dice de quien publica.
+detrás [@F-M3-05]. Esa lectura lateral es la forma práctica de revisar la autoría: abres otra pestaña y buscas qué se dice de quien publica.
 
 :::error «Si la página tiene referencias académicas, el autor es experto»
 Las referencias y el aspecto académico se pueden imitar. La autoría se comprueba averiguando quién publica, no mirando cómo se ve la
@@ -4089,14 +3854,14 @@ cubre: S1, C1
 fuentes: F-M3-06, F-M3-14
 bloque: Texto + línea de tiempo
 
-El criterio de **actualidad** revisa cuándo se publicó la fuente y si se revisó después. No hay una regla única, porque depende de lo
+El criterio de **actualidad** revisa cuándo se publicó la fuente y si se revisó después [@F-M3-06]. No hay una regla única, porque depende de lo
 que preguntas. En normas, montos y trámites la fecha es decisiva, ya que una ley o un requisito pueden cambiar. Las herramientas
 digitales cambian sus planes y funciones a menudo, así que una página de ayuda de hace dos años puede describir algo que ya no existe.
 En cambio, una guía sobre un método o una definición puede seguir sirviendo años después, si el método no cambió.
 
 Un ejemplo real: si abres la Ley 19.628, sobre protección de la vida privada, en el sitio de la Biblioteca del Congreso Nacional,
 verás que la página indica que su versión actual rige hasta el 30 de noviembre de 2026 y que hay una versión diferida que empieza a
-regir el 1 de diciembre de 2026. Una fuente que copie el artículo antiguo después de esa fecha estaría desactualizada, aunque cite
+regir el 1 de diciembre de 2026 [@F-M3-14]. Una fuente que copie el artículo antiguo después de esa fecha estaría desactualizada, aunque cite
 bien el número de la ley.
 
 Cuando una fuente no tiene fecha, no la descartes de inmediato. Anótalo como debilidad en tu registro y busca otra fuente con fecha
@@ -4114,10 +3879,10 @@ fuentes: F-M3-06, F-M3-04
 bloque: Texto + proceso en 3 pasos
 
 El criterio de **respaldo**, la exactitud de CRAAP, pregunta de dónde sale la información, si trae evidencia y si se puede verificar
-en otra fuente. Es el que más te protege de los datos inventados. Para revisarlo, sigues el dato hacia atrás:
+en otra fuente [@F-M3-06]. Es el que más te protege de los datos inventados. Para revisarlo, sigues el dato hacia atrás:
 
 1. Mira si la fuente dice de dónde lo sacó: un estudio, una norma, una encuesta, un registro.
-2. Intenta llegar a ese origen. El último paso de SIFT es justamente rastrear la afirmación hasta su contexto original.
+2. Intenta llegar a ese origen. El último paso de SIFT es justamente rastrear la afirmación hasta su contexto original [@F-M3-04].
 3. Comprueba que el origen diga lo mismo, porque a veces el dato se recortó, se redondeó o perdió una condición importante.
 
 Una **fuente primaria** es la que produce el dato: el texto de la ley, el informe con la encuesta, el registro del organismo. Las
@@ -4142,12 +3907,12 @@ bloque: Texto + escenario
 Los otros dos criterios de CRAAP te ayudan a leer bien una fuente que ya pasó por autoría, fecha y respaldo.
 
 El propósito pregunta si la fuente busca informar, enseñar, vender, entretener o persuadir, y si presenta hechos, opiniones o
-propaganda. Un blog de una empresa que vende software de agenda puede tener buena información sobre inasistencia, pero también quiere
+propaganda [@F-M3-06]. Un blog de una empresa que vende software de agenda puede tener buena información sobre inasistencia, pero también quiere
 que compres su producto. Un error común es descartar todo lo que dice una fuente porque vende algo. El propósito comercial no invalida
 la fuente: te obliga a separar el dato verificable de la promoción y a buscar respaldo para el dato.
 
 La relevancia pregunta si la fuente responde a tu pregunta y para qué público se escribió. Un ejemplo es la guía del Instituto
-Nacional de Ciberseguridad de España (INCIBE) sobre cómo clasificar la información de una empresa, que usarás en el tema 4. Es una
+Nacional de Ciberseguridad de España (INCIBE) sobre cómo clasificar la información de una empresa, que usarás en el tema 4 [@F-M3-19]. Es una
 fuente pública y bien respaldada, y su método sirve en cualquier país. Pero si lo que buscas es qué dice la ley chilena, no es
 relevante: para eso necesitas normas chilenas.
 
@@ -4179,10 +3944,10 @@ qué.
 :::actividad Clasifica la confiabilidad
 Para cada fuente, decide si su confiabilidad es alta, media o baja, y escribe por qué en una línea. Luego compara con esta propuesta:
 - A → Alta: autoría identificada, fecha reciente y método explicado.
-- B → Baja para datos; sirve solo como idea que hay que respaldar. Tiene propósito comercial y no tiene fecha.
+- B → Baja para datos; sirve solo como idea que hay que respaldar. Tiene propósito comercial y no tiene fecha [@F-M3-06].
 - C → Media: autoría y fecha claras, pero trata de una empresa grande, no de una bodega pequeña (relevancia).
 - D → Baja: no se puede saber de dónde sale. Sirve solo como pista.
-- E → Media: tiene experiencia declarada, pero no respaldo; conviene contrastarla.
+- E → Media: tiene experiencia declarada, pero no respaldo; conviene contrastarla [@F-M3-04].
 :::
 
 ### P09 · Triangulación: varias miradas sobre lo mismo
@@ -4192,7 +3957,7 @@ bloque: Texto + diagrama de tres vértices
 
 **Triangular** es usar varias fuentes, estrategias o métodos para estudiar un mismo tema, de modo que las debilidades de una se
 compensen con las otras. La idea viene de la investigación cualitativa, y un artículo de la Revista Colombiana de Psiquiatría aclara
-un error común: no significa usar exactamente tres fuentes. El número importa menos que el hecho de que sean miradas distintas.
+un error común: no significa usar exactamente tres fuentes [@F-M3-07]. El número importa menos que el hecho de que sean miradas distintas.
 
 El sociólogo Norman Denzin describió cuatro tipos de triangulación, y tres de ellos se aplican bien a una investigación en el
 trabajo.
@@ -4221,10 +3986,10 @@ cubre: S2, H1
 fuentes: F-M3-07, F-M3-04
 bloque: Texto + diagrama
 
-Cuando dos fuentes coinciden, el hallazgo se corrobora y tienes más razones para creerlo. Pero hay una condición: que las fuentes sean
+Cuando dos fuentes coinciden, el hallazgo se corrobora y tienes más razones para creerlo [@F-M3-07]. Pero hay una condición: que las fuentes sean
 **independientes**, es decir, que cada una haya llegado al dato por su cuenta.
 
-Para saberlo aplicas el último paso de SIFT y rastreas cada afirmación hasta su origen. Si dos notas de prensa citan el mismo informe,
+Para saberlo aplicas el último paso de SIFT y rastreas cada afirmación hasta su origen [@F-M3-04]. Si dos notas de prensa citan el mismo informe,
 no tienes dos fuentes independientes, sino una contada dos veces. Lo que corrobora es llegar al informe y, si se puede, encontrar otra
 fuente que haya llegado a lo mismo por otro camino.
 
@@ -4248,7 +4013,7 @@ bloque: Texto + lista de verificación
 
 Que dos fuentes se contradigan no es un fracaso de tu investigación. El artículo sobre triangulación lo dice así: cuando dos
 estrategias difieren, la diferencia no resta credibilidad por sí sola, y es una oportunidad para analizar por qué difieren, por
-ejemplo quién produjo cada dato. Para explicar una contradicción, revisa estas preguntas:
+ejemplo quién produjo cada dato [@F-M3-07]. Para explicar una contradicción, revisa estas preguntas:
 
 - ¿Son de fechas distintas? Quizás una describe la situación anterior.
 - ¿Hablan de lo mismo? Una puede referirse a empresas grandes y otra a pequeñas, o a otro país.
@@ -4258,7 +4023,7 @@ ejemplo quién produjo cada dato. Para explicar una contradicción, revisa estas
 - ¿Una es una propuesta y la otra algo ya decidido?
 
 Después de analizar, decides. La guía de síntesis de LibreTexts recomienda que, cuando las fuentes no coinciden, decidas a cuál dar
-más crédito y expliques por qué. A veces la respuesta es que las dos tienen razón en su contexto, y eso también se dice.
+más crédito y expliques por qué [@F-M3-08]. A veces la respuesta es que las dos tienen razón en su contexto, y eso también se dice.
 
 :::ejemplo Camila encuentra una contradicción
 Una fuente recomienda guardar las facturas digitales en un sistema de gestión documental con búsqueda automática. Otra dice que basta
@@ -4277,8 +4042,8 @@ reúnes tres fuentes.
 
 | Fuente | Qué dice |
 |---|---|
-| 1. Texto de la Ley 21.719, en el sitio de la Biblioteca del Congreso Nacional | Se publicó el 13 de diciembre de 2024. Sus cambios rigen desde el primer día del mes 24 posterior a la publicación, y el sitio registra esa fecha como el 1 de diciembre de 2026 |
-| 2. Ficha de tramitación del boletín 18623-07, en el sitio del Senado | Un proyecto del Ejecutivo propone postergar la entrada en vigencia al 1 de diciembre de 2027. Al 24 de octubre de 2026 está en primer trámite en el Senado y no ha sido aprobado |
+| 1. Texto de la Ley 21.719, en el sitio de la Biblioteca del Congreso Nacional | Se publicó el 13 de diciembre de 2024. Sus cambios rigen desde el primer día del mes 24 posterior a la publicación, y el sitio registra esa fecha como el 1 de diciembre de 2026 [@F-M3-15] |
+| 2. Ficha de tramitación del boletín 18623-07, en el sitio del Senado | Un proyecto del Ejecutivo propone postergar la entrada en vigencia al 1 de diciembre de 2027. Al 24 de octubre de 2026 está en primer trámite en el Senado y no ha sido aprobado [@F-M3-16] |
 | 3. Una nota en un blog (ejemplo ficticio) | «La nueva ley se postergó para 2027» |
 
 Fíjate en la frase final de la actividad: dice qué se sabe, según quién y a qué fecha. Cuando el tema puede cambiar, tu síntesis debe
@@ -4307,7 +4072,7 @@ las columnas. En cada casilla anotas si la fuente confirma (✓), contradice (�
 | Un 30 % de las bodegas se queda sin cajas cada mes | — | — | — | Se descarta: venía del resumen del asistente, sin origen |
 
 La regla para tu síntesis es simple: solo entra lo que está respaldado por más de una fuente independiente o lo que pudiste rastrear
-hasta su fuente primaria. Lo demás queda fuera o, si es importante mencionarlo, se marca como no verificado. En la matriz, un dato que
+hasta su fuente primaria [@F-M3-07; @F-M3-04]. Lo demás queda fuera o, si es importante mencionarlo, se marca como no verificado. En la matriz, un dato que
 solo viene de un asistente no cuenta como fuente: necesita una columna con una fuente verificable.
 
 :::comprueba
@@ -4326,7 +4091,7 @@ bloque: Texto + comparación antes/después
 
 Una vez que sabes qué está respaldado, toca escribir, y aquí aparece una confusión frecuente. La guía de LibreTexts distingue dos
 operaciones. Resumir es repetir lo que dice cada fuente, una después de la otra. **Sintetizar** es unir las ideas de varias fuentes
-después de analizarlas: buscar en qué coinciden, qué patrones aparecen y qué conclusión se puede sacar.
+después de analizarlas: buscar en qué coinciden, qué patrones aparecen y qué conclusión se puede sacar [@F-M3-08].
 
 Mira la diferencia con las fuentes de Andrés. Un resumen fuente por fuente diría: «La guía del instituto dice que hay que tener una
 reserva. El video dice que él calcula la reserva con el consumo semanal. La nota de prensa dice que una empresa grande usa alertas
@@ -4347,7 +4112,7 @@ cubre: S3, H1
 fuentes: F-M3-08, F-M3-13
 bloque: Proceso paso a paso
 
-La guía de LibreTexts propone estas técnicas para sintetizar:
+La guía de LibreTexts propone estas técnicas para sintetizar [@F-M3-08]:
 
 1. Busca los puntos en común y los temas que conectan las fuentes.
 2. Identifica patrones y saca conclusiones.
@@ -4361,7 +4126,7 @@ escribe dos oraciones que digan en qué coinciden las fuentes y en qué difieren
 ni fuentes. Mantén entre paréntesis la fuente de cada afirmación».
 
 Después revisa el borrador con calma. Fíjate si agregó algo, si cambió el sentido de una fuente y si cada fuente sigue junto a su
-afirmación. NIST advierte que la IA puede presentar contenido falso con seguridad, y eso vale también cuando trabaja sobre tus datos.
+afirmación. NIST advierte que la IA puede presentar contenido falso con seguridad [@F-M3-13]. Eso vale también cuando trabaja sobre tus datos.
 
 :::clave
 La IA puede ayudarte a ordenar y redactar la síntesis. El análisis, es decir, qué entra, qué se descarta y qué se concluye, lo haces
@@ -4377,9 +4142,9 @@ En el módulo 1 viste que la honestidad intelectual es no presentar como propio 
 fuentes aparece una tentación más: quedarte solo con las que dicen lo que esperabas.
 
 Practicar la **honestidad intelectual** en una investigación significa incluir las fuentes que no coinciden con tu idea inicial y
-explicar el desacuerdo, en lugar de omitirlo. También significa decir lo que no sabes: si un punto quedó sin respaldo, lo dices, y
+explicar el desacuerdo, en lugar de omitirlo [@F-M3-08]. También significa decir lo que no sabes: si un punto quedó sin respaldo, lo dices, y
 así haces algo que la IA no siempre hace, que es reconocer la incertidumbre. Significa separar lo que dicen las fuentes de tu propia
-conclusión. Y significa declarar el uso de IA: Bibliotecas UC pide indicar la herramienta, su versión y la fecha de la consulta cuando
+conclusión. Y significa declarar el uso de IA: [n@F-M3-12] pide indicar la herramienta, su versión y la fecha de la consulta cuando
 usas contenido generado por IA.
 
 Un error común es omitir la fuente que contradice tu conclusión. Dejarla fuera hace que tu síntesis parezca más firme de lo que es, y
@@ -4398,14 +4163,14 @@ bloque: Texto + comparación antes/después
 
 Cada idea que usas tiene un autor. Respetar la autoría significa reconocer de quién es cada idea y no cambiar lo que quiso decir. La
 guía de LibreTexts lo resume en dos prácticas: presentar a cada autor cuando integras su idea, diciendo quién es y por qué importa su
-punto de vista, y ser fiel a su contexto e intención, sin recortar una frase para que diga algo distinto.
+punto de vista, y ser fiel a su contexto e intención, sin recortar una frase para que diga algo distinto [@F-M3-08].
 
 Compara dos formas de usar la nota de prensa de Andrés. «Las bodegas pequeñas deben automatizar sus alertas de stock» le hace decir a
 la fuente algo que no dijo. «Una nota de prensa de 2025 describe cómo un centro de distribución grande usa alertas automáticas; la
 fuente no dice que esa práctica sirva para bodegas pequeñas» mantiene el contexto y deja claro de quién es la idea.
 
 El respeto por la autoría se completa con la citación, que es indicar la fuente de cada idea con una norma reconocida, como APA 7, que
-Bibliotecas UC explica en español. Si copias una frase tal como está, va entre comillas y con su fuente; si la dices con tus
+Bibliotecas UC explica en español [@F-M3-11]. Si copias una frase tal como está, va entre comillas y con su fuente; si la dices con tus
 palabras, también lleva la fuente. En el próximo tema aprenderás a citar paso a paso.
 
 :::comprueba
@@ -4421,9 +4186,9 @@ cubre: H1, C1, C2
 fuentes: F-M3-06, F-M3-07
 bloque: Proceso paso a paso + actividad de cierre
 
-En este tema aplicaste tres criterios de confiabilidad, autoría, fecha y respaldo, con el apoyo del test CRAAP. Aprendiste a
+En este tema aplicaste tres criterios de confiabilidad, autoría, fecha y respaldo, con el apoyo del test CRAAP [@F-M3-06]. Aprendiste a
 triangular con fuentes independientes, a analizar contradicciones, a descartar lo que no tiene respaldo y a sintetizar por ideas, con
-honestidad y respeto por la autoría. Ahora lo aplicas a tu propia investigación.
+honestidad y respeto por la autoría [@F-M3-07]. Ahora lo aplicas a tu propia investigación.
 
 Esta síntesis es el centro de tu informe del Hito 3. En el próximo tema le vas a dar estructura, citas completas y recomendaciones.
 
@@ -4447,54 +4212,20 @@ Con el registro de fuentes del tema anterior:
 6. Sintetizar es organizar por ideas y concluir; resumir fuente por fuente deja el análisis sin hacer.
 7. La honestidad intelectual y el respeto por la autoría exigen incluir lo que no coincide, decir lo que no se sabe y atribuir cada idea a su autor.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Confiabilidad**: grado en que se puede confiar en una fuente según su autoría, su fecha, su respaldo y su propósito.
-- **Test CRAAP**: lista de preguntas para evaluar información con cinco criterios: actualidad, relevancia, autoridad, exactitud y propósito.
-- **Autoría**: quién escribe o publica una fuente, con qué credenciales y desde qué institución.
-- **Actualidad**: criterio que revisa cuándo se publicó o revisó una fuente y si esa fecha sirve para la pregunta.
-- **Respaldo**: origen verificable de un dato, como un estudio, una norma o un registro. En CRAAP se llama exactitud.
-- **Propósito**: intención de una fuente: informar, enseñar, vender, entretener o persuadir.
-- **Fuente primaria**: fuente que produce el dato, como el texto de una ley o el informe de una encuesta.
-- **Triangulación**: uso de varias fuentes, métodos o personas sobre un mismo tema para compensar las debilidades de cada uno.
-- **Fuentes independientes**: fuentes que llegaron a un dato por caminos distintos, sin copiarse entre sí.
-- **Corroborar**: confirmar un hallazgo porque otras fuentes independientes llegan a lo mismo.
-- **Contradicción entre fuentes**: situación en que dos fuentes afirman cosas incompatibles sobre lo mismo.
-- **Matriz de contraste**: tabla que cruza afirmaciones y fuentes para ver cuáles confirman, contradicen o no dicen nada.
-- **Síntesis**: texto que une las ideas de varias fuentes, organizado por temas, con conclusiones propias.
-- **Respeto por la autoría**: reconocer de quién es cada idea y mantener su contexto e intención.
-
-### Conexión con el proyecto
-
-Tu síntesis contrastada (P18) es la base del **Hito 3 del proyecto aplicado: investigación validada con fuentes (informe breve)**, que
-pide investigar tu problema con fuentes contrastadas y citadas. La matriz de contraste (P13) y el análisis de contradicciones (P11 y
-P12) son las herramientas con que vas a decidir qué entra en tu informe y qué queda fuera.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M3.md` (consultadas el 24-10-2026).
-
-- F-M3-04 · Caulfield, M. (2019). SIFT (The Four Moves). https://hapgood.us/2019/06/19/sift-the-four-moves/
-- F-M3-05 · Spector, C. / Stanford Graduate School of Education (2017). Stanford scholars observe 'experts' to see how they evaluate the credibility of information online. https://ed.stanford.edu/news/stanford-scholars-observe-experts-see-how-they-evaluate-credibility-information-online
-- F-M3-06 · Meriam Library, California State University, Chico (2010). Evaluating Information – Applying the CRAAP Test. https://library.csuchico.edu/sites/default/files/craap-test.pdf
-- F-M3-07 · Okuda Benavides, M. y Gómez-Restrepo, C. (2005). Métodos en investigación cualitativa: triangulación. https://www.redalyc.org/pdf/806/80628403009.pdf
-- F-M3-08 · LibreTexts Español (2022). 17.5: Sintetizar fuentes. https://espanol.libretexts.org/Bookshelves/Humanidades/Humanidades/Composicion/Composicion_Introductoria/Libro%3A_Introduccion_a_la_composicion_universitaria_(Lumen)/03%3A_Investigaci%C3%B3n/17%3A_An%C3%A1lisis_de_fuente/17.5%3A_Sintetizar_fuentes
-- F-M3-11 · Bibliotecas UC (2026). Guía de Normas APA 7. https://guiastematicas.bibliotecas.uc.cl/c.php?g=992585&p=7181600
-- F-M3-12 · Bibliotecas UC (2026). IA: Citar y referenciar. https://guiastematicas.bibliotecas.uc.cl/ia/citar
-- F-M3-13 · NIST (2024). Generative Artificial Intelligence Profile (NIST AI 600-1). https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
-- F-M3-14 · Chile, Ministerio Secretaría General de la Presidencia (1999). Ley 19.628, sobre Protección de la Vida Privada. https://www.bcn.cl/leychile/navegar?idNorma=141599
-- F-M3-15 · Chile, Ministerio Secretaría General de la Presidencia (2024). Ley 21.719, que regula la protección y el tratamiento de los datos personales. https://www.bcn.cl/leychile/navegar?idNorma=1209272
-- F-M3-16 · Senado de Chile (2026). Tramitación del boletín 18623-07. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=18623
-- F-M3-19 · INCIBE (2018). Para proteger la información de tu empresa, primero clasifícala. https://www.incibe.es/empresas/blog/proteger-informacion-tu-empresa-primero-clasificala
-
-Revisar el estado del boletín 18623-07 antes de publicar: el ejercicio 2 (P12) describe la situación al 24-10-2026.
-
-Recomendaciones del curso, sin fuente: concentrar el análisis en tres criterios (autoría, fecha y respaldo), tomados del criterio C1
-y de CRAAP (P03); que las páginas de ayuda de herramientas digitales se desactualizan pronto (P05); la tabla de autoría de P04 y la
-escala alta, media y baja de P08; la lista de preguntas para explicar una contradicción (P11), que concreta lo que piden F-M3-07 y
-F-M3-08; la matriz de contraste y su regla de inclusión (P13); la idea de que el resumen de un asistente no es una fuente más (P10);
-el prompt de síntesis de P15, y la norma de poner entre comillas una frase copiada (P17). Las fuentes de Andrés (P08 y P13), las de
-Camila (P07 y P11) y la nota del blog del ejercicio 2 son ficticias; las fuentes 1 y 2 del ejercicio 2 son reales.
+- Bibliotecas UC. (2026a, 20 de octubre). *Guía de normas APA 7*. Pontificia Universidad Católica de Chile. https://guiastematicas.bibliotecas.uc.cl/c.php?g=992585&p=7181600
+- Bibliotecas UC. (2026b, 13 de agosto). *IA: citar y referenciar*. Pontificia Universidad Católica de Chile. https://guiastematicas.bibliotecas.uc.cl/ia/citar
+- Caulfield, M. (2019, 19 de junio). *SIFT (The four moves)*. Hapgood. https://hapgood.us/2019/06/19/sift-the-four-moves/
+- Instituto Nacional de Ciberseguridad. (2018, 7 de diciembre). *Para proteger la información de tu empresa, primero clasifícala*. INCIBE. https://www.incibe.es/empresas/blog/proteger-informacion-tu-empresa-primero-clasificala
+- Ley 19.628. (1999, 28 de agosto). *Sobre protección de la vida privada*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idNorma=141599
+- Ley 21.719. (2024, 13 de diciembre). *Regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idNorma=1209272
+- LibreTexts Español. (2022, 30 de octubre). *Sintetizar fuentes (Introducción a la composición universitaria, 17.5)*. https://espanol.libretexts.org/Bookshelves/Humanidades/Humanidades/Composicion/Composicion_Introductoria/Libro%3A_Introduccion_a_la_composicion_universitaria_(Lumen)/03%3A_Investigaci%C3%B3n/17%3A_An%C3%A1lisis_de_fuente/17.5%3A_Sintetizar_fuentes
+- Meriam Library. (2010). *Evaluating information: Applying the CRAAP test*. California State University, Chico. https://library.csuchico.edu/sites/default/files/craap-test.pdf
+- National Institute of Standards and Technology. (2024). *Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)*. https://doi.org/10.6028/NIST.AI.600-1
+- Okuda Benavides, M. y Gómez-Restrepo, C. (2005). *Métodos en investigación cualitativa: triangulación*. Revista Colombiana de Psiquiatría, 34(1), 118-124. https://www.redalyc.org/pdf/806/80628403009.pdf
+- Senado de Chile. (2026). *Proyecto que modifica la Ley 21.719 (Boletín 18623-07)*. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=18623
+- Spector, C. (2017, 24 de octubre). *Stanford scholars observe 'experts' to see how they evaluate the credibility of information online*. Stanford Graduate School of Education. https://ed.stanford.edu/news/stanford-scholars-observe-experts-see-how-they-evaluate-credibility-information-online
 
 
 ## M3-AE3 · Organizar y presentar información
@@ -4518,7 +4249,7 @@ Al final armas el informe con ayuda de Gemini y lo revisas tú.
 
 En el módulo 2 escribiste un informe ejecutivo de una página. El informe breve se le parece, pero agrega dos cosas: los hallazgos de
 tu investigación con sus fuentes y las referencias completas al final. Las guías que vas a usar son las del Centro Internacional de
-Investigaciones para el Desarrollo, de Canadá, para la estructura, y la guía de normas APA 7 de Bibliotecas UC, para las citas.
+Investigaciones para el Desarrollo, de Canadá, para la estructura, y la guía de normas APA 7 de Bibliotecas UC, para las citas [@F-M3-09; @F-M3-11].
 
 ### P02 · Qué es un informe breve
 cubre: S1
@@ -4528,7 +4259,7 @@ bloque: Texto + imagen de un informe de dos páginas
 El Centro Internacional de Investigaciones para el Desarrollo (IDRC), de Canadá, explica cómo escribir documentos breves que presentan
 hallazgos y recomendaciones. Sus características sirven para tu informe. Está pensado para alguien que debe decidir, que no es
 especialista en el tema y que no tiene tiempo para leer toda tu investigación. Trata un solo tema, así que si tienes dos problemas,
-son dos informes. Es corto: idealmente no supera unas 1.500 palabras o dos páginas. Y termina en recomendaciones concretas, que se
+son dos informes. Es corto: idealmente no supera unas 1.500 palabras o dos páginas [@F-M3-09]. Y termina en recomendaciones concretas, que se
 desprenden de lo que encontraste.
 
 Piensa en quién va a leer el tuyo. Para Andrés es su jefatura. Para Rosa, la coordinadora del centro médico. Para Camila, la gerenta
@@ -4548,8 +4279,8 @@ cubre: S1, C1
 fuentes: F-M3-09, F-M3-11
 bloque: Proceso (process block) o acordeón
 
-Según la guía del IDRC, un documento breve suele tener estas partes, en este orden. A ellas se suma la lista de referencias que pide la
-norma APA.
+Según la guía del IDRC, un documento breve suele tener estas partes, en este orden [@F-M3-09]. A ellas se suma la lista de referencias que pide
+la norma APA [@F-M3-11].
 
 | Parte | Qué responde | Extensión aproximada |
 |---|---|---|
@@ -4560,7 +4291,7 @@ norma APA.
 | 5. Recomendaciones | ¿Qué conviene hacer? | 3 a 5 viñetas |
 | 6. Referencias | ¿Dónde puedo revisar cada fuente? | Lista completa |
 
-El IDRC recomienda además usar títulos que informen, porque permiten entender el informe con solo leerlos. En vez de «Hallazgos»,
+El IDRC recomienda además usar títulos que informen, porque permiten entender el informe con solo leerlos [@F-M3-09]. En vez de «Hallazgos»,
 Andrés puede escribir «Tres prácticas para no quedarse sin cajas», y Camila, «Cómo ordenan sus archivos digitales las oficinas
 pequeñas».
 
@@ -4585,7 +4316,7 @@ Fíjate, mientras ordenas, en la diferencia entre los mensajes clave y los halla
 oración. Los hallazgos lo desarrollan con sus fuentes y sus límites.
 
 Un error frecuente es empezar el informe por la historia de cómo se buscó. «Primero busqué en Perplexity, después armé un cuaderno…»
-no le dice nada útil a quien decide. El método va breve, en la parte 3, después de los mensajes clave y la introducción.
+no le dice nada útil a quien decide. El método va breve, en la parte 3, después de los mensajes clave y la introducción [@F-M3-09].
 
 :::actividad Arma el informe de Rosa
 Ordena estos fragmentos según la estructura del informe breve:
@@ -4603,7 +4334,7 @@ fuentes: F-M3-09
 bloque: Texto + comparación antes/después
 
 Los **mensajes clave** son las ideas que una persona debe llevarse aunque no lea nada más. El IDRC da un consejo práctico: esta parte
-va al inicio, pero se escribe al final, cuando ya está claro qué encontraste y qué recomiendas.
+va al inicio, pero se escribe al final, cuando ya está claro qué encontraste y qué recomiendas [@F-M3-09].
 
 Para escribirlos, pon una idea por viñeta y usa oraciones completas que digan algo, no solo un tema. El hallazgo más importante va
 primero, y si hay una recomendación central, también va aquí. Mira la diferencia en el informe de Andrés.
@@ -4631,9 +4362,9 @@ fuentes: F-M3-09, F-M3-08
 bloque: Texto + ejemplo guiado
 
 Los **hallazgos** son lo que tu investigación encontró. Salen directamente de la síntesis contrastada que escribiste en el tema
-anterior, así que ya están organizados por idea y cada afirmación tiene su fuente.
+anterior, así que ya están organizados por idea y cada afirmación tiene su fuente [@F-M3-08].
 
-El IDRC recomienda presentar los hallazgos junto con sus limitaciones. Una limitación es lo que no pudiste confirmar o lo que hace que
+El IDRC recomienda presentar los hallazgos junto con sus limitaciones [@F-M3-09]. Una limitación es lo que no pudiste confirmar o lo que hace que
 un hallazgo aplique solo en ciertos casos: que las fuentes eran de otro país o de empresas más grandes, que encontraste pocas fuentes
 sobre un punto, que dos fuentes se contradecían y no pudiste resolverlo, o que el dato puede cambiar pronto.
 
@@ -4650,7 +4381,7 @@ cubre: H1, C2
 fuentes: F-M3-09
 bloque: Texto + comparación antes/después
 
-Las recomendaciones son el motivo por el que alguien lee tu informe. El IDRC pide que sean concretas, creíbles y viables. Una
+Las recomendaciones son el motivo por el que alguien lee tu informe. El IDRC pide que sean concretas, creíbles y viables [@F-M3-09]. Una
 recomendación concreta dice qué hacer, quién y cuándo. Es creíble cuando se desprende de los hallazgos: si no hay un hallazgo detrás,
 no hay recomendación. Y es viable cuando se puede hacer con los recursos que hay.
 
@@ -4678,7 +4409,7 @@ puede ir a la fuente y comprobar. Respeta la autoría, porque reconoce el trabaj
 tema anterior. Y te protege: si un dato resulta equivocado, queda claro de dónde vino y qué hiciste para revisarlo.
 
 En este curso vas a usar APA 7, una norma de citación reconocida. La guía de Bibliotecas UC, de la Pontificia Universidad Católica de
-Chile, la explica en español, con ejemplos para páginas web, leyes y contenido generado por IA.
+Chile, la explica en español, con ejemplos para páginas web, leyes y contenido generado por IA [@F-M3-11; @F-M3-12].
 
 APA tiene dos piezas que van juntas. La cita en el texto es breve y va junto a la idea, con el autor y el año. La lista de referencias
 va al final y tiene los datos completos de cada fuente. Toda fuente citada en el texto aparece en la lista, y toda fuente de la lista
@@ -4704,7 +4435,7 @@ elementos, en este orden:
 4. Nombre del sitio, si es distinto del autor.
 5. URL.
 
-Si el contenido de la página cambia con frecuencia, se agrega la **fecha de recuperación**, que es la fecha en que la consultaste. Una
+Si el contenido de la página cambia con frecuencia, se agrega la **fecha de recuperación**, que es la fecha en que la consultaste [@F-M3-11]. Una
 referencia con fecha queda así:
 
 Bibliotecas Duoc UC. (2023). *¿Cómo formular una necesidad de información?* https://bibliotecas.duoc.cl/busqueda-de-informacion/formular-necesidad-de-informacion
@@ -4737,10 +4468,10 @@ Con la Ley 19.628, promulgada el 18 de agosto de 1999, la referencia queda así:
 Ley No. 19628, Sobre protección de la vida privada, Agosto 18, 1999, Diario Oficial [D.O.] (Chile).
 
 En el texto se cita como (Chile, 1999). Hay dos detalles que conviene mirar. La fecha que va es la de **promulgación**, que no siempre
-coincide con la de publicación. Y si citas un artículo, la guía muestra que se agrega después del número: «Ley No. 19628 art. 4».
+coincide con la de publicación. Y si citas un artículo, la guía muestra que se agrega después del número: «Ley No. 19628 art. 4» [@F-M3-11].
 
 El texto de las leyes chilenas está en el sitio LeyChile de la Biblioteca del Congreso Nacional. Allí ves la fecha de promulgación y
-la de publicación, y también si la versión que lees está vigente.
+la de publicación, y también si la versión que lees está vigente [@F-M3-14].
 
 :::error Citar una ley solo con su número
 «Ley 19.628» sin nombre ni fecha no permite saber de qué versión hablas. La referencia completa le da a quien lee lo necesario para
@@ -4752,7 +4483,7 @@ cubre: S2, C2
 fuentes: F-M3-12
 bloque: Texto + plantilla con ejemplo
 
-Si usaste un texto generado por IA, también se cita. Bibliotecas UC explica cómo hacerlo en APA. La referencia lleva, en orden:
+Si usaste un texto generado por IA, también se cita. Bibliotecas UC explica cómo hacerlo en APA [@F-M3-12]. La referencia lleva, en orden:
 
 1. La empresa como autora.
 2. La fecha de la conversación.
@@ -4765,7 +4496,7 @@ Con Gemini, la plantilla queda así: Google. (2026, 24 de octubre). *Título de 
 versión]. URL de la conversación. En el texto se cita como (Google, 2026).
 
 La guía pide además transparencia: indicar la herramienta, la versión exacta y la fecha de la consulta, y guardar un registro de los
-prompts y las respuestas. Muchos estilos piden adjuntar el texto generado como anexo.
+prompts y las respuestas [@F-M3-12]. Muchos estilos piden adjuntar el texto generado como anexo.
 
 En este curso hay una distinción que conviene tener clara. Un dato que encontraste con ayuda de la IA se cita con su fuente original,
 la página que lo produjo. La cita de la IA se usa cuando incorporas un texto que la IA generó, por ejemplo un borrador o una
@@ -4787,7 +4518,7 @@ bloque: Actividad de corrección (escenario)
 Andrés armó su lista de referencias, pero varias están incompletas. Usa lo que viste en las tres pantallas anteriores para
 corregirlas. Las fuentes son ficticias.
 
-Antes de empezar, recuerda la regla de P08: la cita en el texto y la referencia van juntas. Si en el informe aparece «(Instituto
+Antes de empezar, recuerda la regla de P08: la cita en el texto y la referencia van juntas [@F-M3-11]. Si en el informe aparece «(Instituto
 Logístico, 2024)» pero esa fuente no está en la lista del final, la cita está incompleta, porque quien lee no tiene cómo encontrar la
 fuente. Lo mismo al revés: una referencia que nadie cita en el texto sobra.
 
@@ -4796,7 +4527,7 @@ fuente. Lo mismo al revés: una referencia que nadie cita en el texto sobra.
 2. «Perplexity (2026).» → Perplexity es la herramienta, no la fuente. Hay que citar la página a la que llevaba la cita.
 3. «Ley 19.628.» → Faltan el nombre, la fecha de promulgación y el D.O.: Ley No. 19628, Sobre protección de la vida privada, Agosto 18, 1999, Diario Oficial [D.O.] (Chile).
 4. «Blog Embalajes del Sur. *Cómo ahorrar en cajas*. https://…» → Falta la fecha. Si no tiene, va (s.f.); como el contenido puede cambiar, agrega la fecha de consulta.
-5. «Google. *Resumen de mis fuentes*. Gemini.» → Faltan la fecha, [Chat de IA generativa], la versión del modelo y la URL de la conversación.
+5. «Google. *Resumen de mis fuentes*. Gemini.» → Faltan la fecha, [Chat de IA generativa], la versión del modelo y la URL de la conversación [@F-M3-12].
 :::
 
 ### P13 · Visualización simple: elige el gráfico
@@ -4804,8 +4535,8 @@ cubre: S3
 fuentes: F-M3-10, F-M3-09
 bloque: Texto + tabla con íconos de gráficos
 
-A veces un dato se entiende mejor en un gráfico. El IDRC aconseja incluir solo los gráficos que aporten al argumento. Para elegir
-cuál, el portal de datos abiertos del Gobierno de España propone partir de la relación que quieres mostrar.
+A veces un dato se entiende mejor en un gráfico. El IDRC aconseja incluir solo los gráficos que aporten al argumento [@F-M3-09]. Para
+elegir cuál, el portal de datos abiertos del Gobierno de España propone partir de la relación que quieres mostrar [@F-M3-10].
 
 | Quieres mostrar… | Gráfico | Ejemplo |
 |---|---|---|
@@ -4831,14 +4562,14 @@ cubre: S3, A1
 fuentes: F-M3-10, F-M3-13
 bloque: Texto + comparación de dos gráficos
 
-Un gráfico puede comunicar algo falso aunque los datos sean correctos. La guía de datos.gob.es advierte varios cuidados. El eje de las
+Un gráfico puede comunicar algo falso aunque los datos sean correctos. La guía de datos.gob.es advierte varios cuidados [@F-M3-10]. El eje de las
 columnas tiene que partir en 0, porque si parte en otro número, una diferencia pequeña parece enorme. Las tortas dificultan comparar
 tamaños, así que se usan solo con pocas partes; si tienes muchas, son mejores las barras ordenadas. Y muchos lectores ven causa y
 efecto donde no la hay: si muestras dos cosas que suben juntas, aclara si una causa la otra o si solo ocurren al mismo tiempo.
 
 Hay un cuidado más, propio del trabajo con IA. Si le pides a un asistente que haga un gráfico o una tabla, entrégale tus datos
 verificados y compara cada número del resultado con tu planilla. NIST recuerda que la IA puede presentar contenido falso con
-seguridad, y eso incluye una cifra mal copiada en un gráfico.
+seguridad [@F-M3-13]. Eso incluye una cifra mal copiada en un gráfico.
 
 Para hacerlo, usa la planilla que tengas a mano o pide a Gemini que ordene tus datos en una tabla. Lo importante no es la herramienta,
 sino que el gráfico diga una sola cosa, con un título que la diga.
@@ -4862,7 +4593,7 @@ la información de la síntesis. Mantén cada cita entre paréntesis junto a su 
 que no se desprendan de los hallazgos».
 
 El segundo es Gemini Notebook. Si tus fuentes ya están en un cuaderno, puedes pedirle un informe a partir de ellas, porque el plan
-gratuito permite hasta 10 informes al día. Igual vas a tener que ajustarlo a la estructura del informe breve.
+gratuito permite hasta 10 informes al día [@F-H-44]. Igual vas a tener que ajustarlo a la estructura del informe breve [@F-M3-09].
 
 En los dos casos, lo que obtienes es un borrador. Ya viste en este módulo que la IA puede agregar con seguridad contenido que no
 estaba en tus fuentes, así que el paso siguiente es revisarlo línea por línea.
@@ -4878,7 +4609,7 @@ fuentes: F-M3-09, F-M3-11
 bloque: Lista de verificación (checklist) descargable
 
 La claridad y el orden son una forma de respeto por quien lee. El IDRC recomienda lenguaje claro y sin jerga, títulos informativos,
-listas de cinco a siete viñetas como máximo, y pedirle a alguien ajeno al tema que lea el informe antes de enviarlo. Revisa tu
+listas de cinco a siete viñetas como máximo, y pedirle a alguien ajeno al tema que lea el informe antes de enviarlo [@F-M3-09]. Revisa tu
 borrador con esta lista:
 
 - [ ] Tiene las seis partes en orden, y los títulos dicen algo, no solo nombran la sección.
@@ -4887,7 +4618,7 @@ borrador con esta lista:
 - [ ] Cada recomendación se desprende de un hallazgo.
 - [ ] No hay datos que no estén en tu síntesis.
 - [ ] Cada cita del texto está en las referencias, y al revés.
-- [ ] Cada referencia tiene autor, fecha (o s.f.), título y URL.
+- [ ] Cada referencia tiene autor, fecha (o s.f.), título y URL [@F-M3-11].
 - [ ] Si usaste un texto generado por IA, está citado y guardaste el prompt.
 - [ ] Una persona ajena al tema lo leyó y entendió los mensajes clave.
 
@@ -4906,7 +4637,7 @@ bloque: Texto + actividad de cierre (entrega)
 
 En este taller armaste las piezas de un informe breve: mensajes clave que se escriben al final, hallazgos con sus limitaciones,
 recomendaciones concretas, creíbles y viables, citas en APA 7, incluidas las de leyes y de contenido generado por IA, y un gráfico
-simple que no engaña. Después hiciste un borrador con IA y lo revisaste con una lista de verificación.
+simple que no engaña [@F-M3-09; @F-M3-11]. Después hiciste un borrador con IA y lo revisaste con una lista de verificación.
 
 Tu informe no tiene que ser perfecto. Tiene que ser claro, ordenado y verificable: que cualquier persona pueda seguir cada dato hasta
 su fuente y entender por qué recomiendas lo que recomiendas.
@@ -4934,50 +4665,16 @@ Antes de entregar, aplica la lista de verificación de P16 y pídele a alguien q
 6. El gráfico se elige según la relación que se quiere mostrar, con el eje en 0 para comparar cantidades y aclarando cuando no hay causa y efecto.
 7. La IA puede hacer el borrador del informe, pero la estructura, los datos y las citas los revisa una persona antes de entregar.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Informe breve**: documento de hasta unas dos páginas que presenta hallazgos y recomendaciones sobre un solo tema a quien debe decidir.
-- **Mensajes clave**: viñetas al inicio de un informe con lo esencial que debe llevarse quien lo lee.
-- **Hallazgo**: resultado de una investigación, respaldado por una o más fuentes.
-- **Limitación**: aspecto que reduce el alcance de un hallazgo, como pocas fuentes o datos de otro contexto.
-- **Recomendación**: acción concreta, creíble y viable que se desprende de los hallazgos.
-- **Citar**: indicar de dónde sale cada idea o dato que se usa en un texto.
-- **APA 7**: séptima edición de la norma de citación de la Asociación Estadounidense de Psicología (American Psychological Association).
-- **Cita en el texto**: indicación breve, con autor y año, junto a la idea que se toma de una fuente.
-- **Lista de referencias**: lista al final de un texto con los datos completos de cada fuente citada.
-- **s.f.**: abreviatura de «sin fecha», que se usa en la referencia cuando la fuente no indica su fecha.
-- **Fecha de recuperación**: fecha en que se consultó una página cuyo contenido puede cambiar.
-- **Fecha de promulgación**: fecha en que se aprueba formalmente una ley; es la que se usa al citarla en APA.
-- **Visualización de datos**: representación de datos en un gráfico o una tabla para facilitar su comprensión.
-
-### Conexión con el proyecto
-
-Este taller produce la entrega del **Hito 3 del proyecto aplicado: investigación validada con fuentes (informe breve)**. El informe de
-P17 reúne el levantamiento de información del tema 1 (tus preguntas y tus dos herramientas) y la síntesis contrastada del tema 2, con
-fuentes citadas en APA 7 y recomendaciones. El tutor lo revisará con la rúbrica general del proyecto. En el tema 4 vas a revisar que
-tu investigación no haya expuesto datos personales ni información confidencial de tu empresa.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M3.md` e `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
-
-- F-M3-08 · LibreTexts Español (2022). 17.5: Sintetizar fuentes. https://espanol.libretexts.org/Bookshelves/Humanidades/Humanidades/Composicion/Composicion_Introductoria/Libro%3A_Introduccion_a_la_composicion_universitaria_(Lumen)/03%3A_Investigaci%C3%B3n/17%3A_An%C3%A1lisis_de_fuente/17.5%3A_Sintetizar_fuentes
-- F-M3-09 · International Development Research Centre, IDRC (s. f.). How to write a policy brief. https://idrc-crdi.ca/en/funding/resources-idrc-grantees/how-write-policy-brief
-- F-M3-10 · datos.gob.es, Gobierno de España (2023). Cómo elegir el gráfico correcto para visualizar datos abiertos. https://datos.gob.es/es/blog/como-elegir-el-grafico-correcto-para-visualizar-datos-abiertos
-- F-M3-11 · Bibliotecas UC (2026). Guía de Normas APA 7: Documentos en sitio web y Legislación. https://guiastematicas.bibliotecas.uc.cl/c.php?g=992585&p=7181600 y https://guiastematicas.bibliotecas.uc.cl/c.php?g=992585&p=7219857
-- F-M3-12 · Bibliotecas UC (2026). IA: Citar y referenciar. https://guiastematicas.bibliotecas.uc.cl/ia/citar
-- F-M3-13 · NIST (2024). Generative Artificial Intelligence Profile (NIST AI 600-1). https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
-- F-M3-14 · Chile, Ministerio Secretaría General de la Presidencia (1999). Ley 19.628, sobre Protección de la Vida Privada. https://www.bcn.cl/leychile/navegar?idNorma=141599
-- F-H-44 · Google (s. f.). Cambiar a un plan superior de Gemini Notebook. https://support.google.com/notebooklm/answer/16213268?hl=es
-
-Recomendaciones del curso, sin fuente: las extensiones aproximadas por parte del informe (P03); la prueba de «señalar el hallazgo»
-para cada recomendación (P07); la idea de usar uno o dos gráficos o una tabla simple (P13); el prompt del borrador (P15); la lista de
-verificación de P16, que ordena los consejos del IDRC y de APA, y la distinción entre citar la fuente original de un dato y citar a la
-IA solo cuando se usa un texto que ella generó (P11). Los datos de Rosa, Andrés y Camila, el «Instituto de Archivo X» de P08 y las
-referencias de P12 son ficticios.
-
-Formato de ley de P10: tomado del ejemplo de Bibliotecas UC (página «Legislación»), que escribe el número sin punto («Ley No. 19496»)
-y la fecha en orden mes, día, año; revisado el 24-10-2026. El ejemplo de «art.» después del número también sale de esa página.
+- Bibliotecas UC. (2026a, 20 de octubre). *Guía de normas APA 7*. Pontificia Universidad Católica de Chile. https://guiastematicas.bibliotecas.uc.cl/c.php?g=992585&p=7181600
+- Bibliotecas UC. (2026b, 13 de agosto). *IA: citar y referenciar*. Pontificia Universidad Católica de Chile. https://guiastematicas.bibliotecas.uc.cl/ia/citar
+- datos.gob.es. (2023, 5 de enero). *Cómo elegir el gráfico correcto para visualizar datos abiertos*. Gobierno de España. https://datos.gob.es/es/blog/como-elegir-el-grafico-correcto-para-visualizar-datos-abiertos
+- Google. (s. f.). *Cambiar a un plan superior de Gemini Notebook*. https://support.google.com/notebooklm/answer/16213268?hl=es
+- International Development Research Centre. (s. f.). *How to write a policy brief*. https://idrc-crdi.ca/en/funding/resources-idrc-grantees/how-write-policy-brief
+- Ley 19.628. (1999, 28 de agosto). *Sobre protección de la vida privada*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idNorma=141599
+- LibreTexts Español. (2022, 30 de octubre). *Sintetizar fuentes (Introducción a la composición universitaria, 17.5)*. https://espanol.libretexts.org/Bookshelves/Humanidades/Humanidades/Composicion/Composicion_Introductoria/Libro%3A_Introduccion_a_la_composicion_universitaria_(Lumen)/03%3A_Investigaci%C3%B3n/17%3A_An%C3%A1lisis_de_fuente/17.5%3A_Sintetizar_fuentes
+- National Institute of Standards and Technology. (2024). *Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)*. https://doi.org/10.6028/NIST.AI.600-1
 
 
 ## M3-AE4 · Análisis crítico y privacidad
@@ -4997,7 +4694,7 @@ proponiendo prácticas de uso seguro. Al final deberías poder clasificar la inf
 fundamento qué puede ingresar a una herramienta de IA y proponer una práctica segura para lo que no puede.
 
 Los riesgos que vas a ver no son supuestos: están descritos por organismos como el NIST, el instituto de normas y tecnología de Estados
-Unidos, y por la ley chilena de protección de datos. Los ejemplos con Camila, Andrés y Rosa son ficticios, pero muestran cómo aparecen
+Unidos, y por la ley chilena de protección de datos [@F-M3-13; @F-M3-14]. Los ejemplos con Camila, Andrés y Rosa son ficticios, pero muestran cómo aparecen
 esos riesgos en tareas de oficina comunes. En la actividad de análisis de casos vas a ver situaciones reales.
 
 Como trabajas con información real todos los días, este tema tiene una consecuencia práctica: cuando quieras probar una herramienta
@@ -5022,8 +4719,8 @@ preguntas, en este orden:
 3. ¿Qué límites tiene? ¿Qué no puede hacer bien esta herramienta, aunque lo intente?
 
 NIST describe estos tres frentes entre los riesgos de la IA generativa: el sesgo dañino, la confabulación (lo que solemos llamar
-alucinación) y los problemas de integridad de la información. Las herramientas de este módulo ayudan con la trazabilidad, porque un
-buscador con citas enlaza cada afirmación a su fuente, pero no resuelven los otros dos frentes.
+alucinación) y los problemas de integridad de la información [@F-M3-13]. Las herramientas de este módulo ayudan con la trazabilidad, porque un
+buscador con citas enlaza cada afirmación a su fuente [@F-M3-01]. Los otros dos frentes, en cambio, no los resuelven.
 
 Camila aplicó las tres preguntas al borrador de su informe del Hito 3 antes de entregarlo a la gerenta de administración. Descubrió
 que casi todas las fuentes sobre archivo de documentos digitales eran de otros países y que un párrafo no tenía ninguna cita. Ajustó
@@ -5044,7 +4741,7 @@ fuentes: F-M3-13
 bloque: Texto + escenario
 
 NIST explica que la IA generativa puede amplificar sesgos históricos y sociales y rendir distinto según el grupo o el idioma, en parte
-porque sus datos de entrenamiento no son representativos. También describe la **homogeneización**: respuestas demasiado parecidas
+porque sus datos de entrenamiento no son representativos [@F-M3-13]. También describe la **homogeneización**: respuestas demasiado parecidas
 entre sí, que repiten una sola mirada.
 
 En una investigación de trabajo esto se nota de formas concretas. Si hay más información en inglés o sobre otros países, la respuesta
@@ -5074,11 +4771,11 @@ las respuestas de IA la tienen en el mismo nivel.
 | Situación | Trazabilidad | Qué hacer |
 |---|---|---|
 | Respuesta de un asistente sin fuentes | Baja: no sabes de dónde salió | Úsala solo como pista y busca la fuente |
-| Respuesta de un buscador con citas | Media: cada afirmación enlaza a una página | Abre cada cita y revisa que diga eso |
+| Respuesta de un buscador con citas | Media: cada afirmación enlaza a una página [@F-M3-01] | Abre cada cita y revisa que diga eso |
 | Respuesta de un asistente sobre tus fuentes | Alta: cita la parte exacta de tus documentos, como viste en el tema 1 | Toca las citas y compara con el texto |
 
 Hay un límite que ninguna herramienta resuelve hoy. NIST señala que la mayoría de los desarrolladores no informa con qué datos entrenó
-sus modelos. Cuando un asistente responde «de memoria», no hay forma de saber de qué textos aprendió eso.
+sus modelos [@F-M3-13]. Cuando un asistente responde «de memoria», no hay forma de saber de qué textos aprendió eso.
 
 Por eso, en este curso, la regla es simple: lo que no puedes rastrear no lo presentas como hecho. Si necesitas mencionarlo, dices que
 no está verificado.
@@ -5098,8 +4795,8 @@ bloque: Texto + escenario
 
 Aun con buenas herramientas, hay límites que siguen ahí. NIST explica que la IA puede producir contenido falso con total seguridad,
 incluso razonamientos o **citas inventadas** para justificar la respuesta, y que puede presentar una opinión como si fuera un hecho sin
-reconocer cuándo no está segura. Trabajar sobre tus propios documentos tampoco lo elimina: la ayuda de Gemini Notebook advierte que
-sus respuestas pueden tener errores, y recomienda consultar a un profesional en temas médicos, legales o financieros.
+reconocer cuándo no está segura [@F-M3-13]. Trabajar sobre tus propios documentos tampoco lo elimina: la ayuda de Gemini Notebook advierte que
+sus respuestas pueden tener errores, y recomienda consultar a un profesional en temas médicos, legales o financieros [@F-M3-02].
 
 Este último punto importa mucho en el trabajo. Una herramienta puede ayudarte a entender una norma o a ordenar información, pero no
 reemplaza a quien tiene la responsabilidad y la formación para decidir. Andrés, por ejemplo, le preguntó a un asistente si su bodega
@@ -5126,10 +4823,10 @@ sale de tu control y queda en los sistemas de un proveedor.
 
 El Centro de Privacidad de Gemini lo explica con claridad. Con el ajuste de actividad encendido, Google usa tu actividad para mejorar
 sus servicios, incluido el entrenamiento de IA generativa, y revisores humanos leen una parte de las conversaciones, desvinculadas de
-tu cuenta. El mismo centro recomienda expresamente no ingresar datos confidenciales ni nada que no quieras que vea un revisor.
+tu cuenta. El mismo centro recomienda expresamente no ingresar datos confidenciales ni nada que no quieras que vea un revisor [@F-M3-20].
 
 NIST agrega otro riesgo: los modelos pueden filtrar, generar o inferir datos sensibles de personas, incluso combinando información que
-estaba dispersa. Un dato suelto puede parecer inofensivo, pero junto con otros puede identificar a alguien.
+estaba dispersa [@F-M3-13]. Un dato suelto puede parecer inofensivo, pero junto con otros puede identificar a alguien.
 
 Por eso, antes de escribir o subir algo, la pregunta no es solo si te va a servir la respuesta, sino también si puedes entregar esa
 información. Una vez que pegas algo en una herramienta ya no lo puedes «des-pegar», así que la decisión se toma antes.
@@ -5147,10 +4844,10 @@ fuentes: F-M3-14, F-M3-15
 bloque: Texto + tarjetas (flashcards)
 
 Para decidir qué puedes entregar, primero tienes que reconocer un **dato personal**. En Chile lo define la ley. La Ley 19.628, vigente,
-dice que es cualquier información sobre personas naturales identificadas o identificables. La Ley 21.719, que según su texto rige
+dice que es cualquier información sobre personas naturales identificadas o identificables [@F-M3-14]. La Ley 21.719, que según su texto rige
 desde el 1 de diciembre de 2026, lo amplía: es cualquier información vinculada a una persona natural identificada o identificable,
 directa o indirectamente, y da como ejemplos el nombre, el RUN y elementos de su identidad física, genética, psíquica, económica,
-cultural o social.
+cultural o social [@F-M3-15].
 
 Fíjate en la palabra identificable. No hace falta el nombre para que un dato sea personal: basta con que, juntando datos, se pueda
 saber de quién se habla. Por ejemplo, «el paciente de las 10:30 del martes con el doctor de traumatología», «la única supervisora del
@@ -5179,7 +4876,7 @@ más fuerza. Las dos leyes los describen así.
 
 | Ley 19.628 (vigente) | Ley 21.719 (según su texto, desde el 1 de diciembre de 2026) |
 |---|---|
-| Datos que se refieren a características físicas o morales de las personas, o a su vida privada o intimidad. Por ejemplo: hábitos personales, origen racial, ideologías y opiniones políticas, creencias religiosas, salud física o psíquica, vida sexual | Datos que revelan, entre otros: origen étnico o racial; afiliación política, sindical o gremial; situación socioeconómica; convicciones ideológicas o filosóficas; creencias religiosas; salud; perfil biológico; datos biométricos; vida sexual; orientación sexual e identidad de género |
+| Datos que se refieren a características físicas o morales de las personas, o a su vida privada o intimidad. Por ejemplo: hábitos personales, origen racial, ideologías y opiniones políticas, creencias religiosas, salud física o psíquica, vida sexual [@F-M3-14] | Datos que revelan, entre otros: origen étnico o racial; afiliación política, sindical o gremial; situación socioeconómica; convicciones ideológicas o filosóficas; creencias religiosas; salud; perfil biológico; datos biométricos; vida sexual; orientación sexual e identidad de género [@F-M3-15] |
 
 Las dos leyes coinciden en lo central: salud, creencias, origen, opiniones políticas y vida sexual son datos sensibles. La Ley 21.719
 nombra de forma expresa otros que aparecen a menudo en el trabajo, como la afiliación sindical, la situación socioeconómica y los datos
@@ -5200,7 +4897,7 @@ bloque: Texto + tabla de tres niveles
 
 No todo lo que hay que proteger son datos de personas. Una empresa también tiene **información confidencial**: precios negociados,
 listas de clientes, ventas, remuneraciones, contratos o planes que aún no se anuncian. El Instituto Nacional de Ciberseguridad de
-España (INCIBE) propone clasificar la información de una empresa según quién puede acceder a ella, en tres niveles.
+España (INCIBE) propone clasificar la información de una empresa según quién puede acceder a ella, en tres niveles [@F-M3-19].
 
 | Nivel | Quién accede | Ejemplos |
 |---|---|---|
@@ -5211,7 +4908,7 @@ España (INCIBE) propone clasificar la información de una empresa según quién
 INCIBE propone además pensar en el daño que causaría que esa información se pierda o se filtre: daño a la imagen, consecuencias
 legales o económicas, o que el trabajo se detenga. Por ejemplo, solo quienes procesan las remuneraciones deberían acceder a esos
 datos. En Chile, los lineamientos del Estado para el uso de IA, que verás en P12, también piden cuidar la información confidencial de
-las personas jurídicas y no solo la de las personas.
+las personas jurídicas y no solo la de las personas [@F-M3-17].
 
 :::ejemplo Andrés clasifica
 Andrés revisa los documentos que maneja. El catálogo de productos es público. El reporte semanal de stock es interno. La lista de
@@ -5227,7 +4924,7 @@ La Ley 19.628, sobre protección de la vida privada, se publicó en 1999 y es la
 directamente con el uso de IA en el trabajo.
 
 La primera es que para tratar datos personales se necesita una base. El artículo 4 dice que el tratamiento de datos personales requiere
-que una ley lo autorice o que la persona dueña de los datos, el **titular**, dé su consentimiento expreso, informado y por escrito.
+que una ley lo autorice o que la persona dueña de los datos, el **titular**, dé su consentimiento expreso, informado y por escrito [@F-M3-14].
 Piénsalo en tu trabajo: pegar la lista de clientes en una herramienta de IA para que la ordene ya es hacer algo con datos personales
 de otras personas, y antes de hacerlo tienes que preguntarte si tienes una base para ello.
 
@@ -5255,10 +4952,10 @@ bloque: Texto + línea de tiempo
 
 La Ley 21.719 moderniza la Ley 19.628: regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de
 Datos Personales. Se publicó el 13 de diciembre de 2024. Su texto dice que sus cambios rigen desde el primer día del mes 24 posterior a
-la publicación, y el sitio LeyChile de la Biblioteca del Congreso Nacional registra esa fecha como el 1 de diciembre de 2026.
+la publicación, y el sitio LeyChile de la Biblioteca del Congreso Nacional registra esa fecha como el 1 de diciembre de 2026 [@F-M3-15].
 
 Esa fecha podría cambiar. Hay un proyecto de ley del Ejecutivo, el boletín 18623-07, que propone postergar la entrada en vigencia al 1
-de diciembre de 2027. Al 24 de octubre de 2026, según la ficha de tramitación del Senado, está en primer trámite y no ha sido aprobado.
+de diciembre de 2027. Al 24 de octubre de 2026, según la ficha de tramitación del Senado, está en primer trámite y no ha sido aprobado [@F-M3-16].
 Mientras no se apruebe y publique, la fecha que fija la ley es el 1 de diciembre de 2026.
 
 | Fecha | Hecho |
@@ -5282,11 +4979,11 @@ fuentes: F-M3-17, F-M3-18
 bloque: Texto + lista con viñetas
 
 Chile todavía no tiene una ley general de inteligencia artificial: el proyecto que regula los sistemas de IA, el boletín 16821-19, está
-en segundo trámite en el Senado. Por eso, en el día a día, lo que más pesa son las **políticas internas**, que son las reglas propias de
+en segundo trámite en el Senado [@F-M3-18]. Por eso, en el día a día, lo que más pesa son las **políticas internas**, que son las reglas propias de
 cada organización sobre qué herramientas se pueden usar y qué información puede salir.
 
 Un ejemplo chileno es el Oficio Circular N.° 711, de 2023, disponible en el sitio del Ministerio de Ciencia, con lineamientos para el
-uso de IA en el sector público. Son recomendaciones para los órganos del Estado, no obligaciones para las empresas privadas, pero
+uso de IA en el sector público [@F-M3-17]. Son recomendaciones para los órganos del Estado, no obligaciones para las empresas privadas, pero
 sirven como referencia de lo que hace una organización cuidadosa. Recomiendan:
 
 - tratar los datos personales, en especial los sensibles, de acuerdo con la Ley 19.628 y solo para fines autorizados;
@@ -5308,8 +5005,8 @@ fuentes: F-M3-19, F-M3-15
 bloque: Diagrama de decisión + tabla
 
 Ahora juntas todo en un método para decidir qué puede ingresar a una herramienta de IA. Se basa en dos preguntas. La primera es quién
-puede acceder a esa información, y la respondes con la clasificación de INCIBE: pública, interna o confidencial. La segunda es si tiene
-datos personales y si son sensibles, y la respondes con las definiciones de la ley. Con las dos respuestas, decides.
+puede acceder a esa información, y la respondes con la clasificación de INCIBE: pública, interna o confidencial [@F-M3-19]. La segunda es si
+tiene datos personales y si son sensibles, y la respondes con las definiciones de la ley [@F-M3-15]. Con las dos respuestas, decides.
 
 | | Sin datos personales | Con datos personales | Con datos sensibles |
 |---|---|---|---|
@@ -5338,11 +5035,11 @@ cálculo en tu propia planilla. Una decisión con fundamento dice qué informaci
 
 :::actividad Decide y fundamenta
 1. Andrés quiere que Gemini redacte un aviso con el horario de atención de la bodega, que está publicado en la puerta. → Pública, sin datos personales. Puede ingresar.
-2. Rosa quiere ordenar la lista de pacientes del día con su especialidad. → Confidencial, con datos sensibles (salud). No ingresa. Regla: dato sensible según la ley (P08).
+2. Rosa quiere ordenar la lista de pacientes del día con su especialidad. → Confidencial, con datos sensibles (salud). No ingresa. Regla: dato sensible según la ley (P08) [@F-M3-15].
 3. Camila quiere que Gemini ordene la ficha de un proveedor que trabaja por su cuenta, con su nombre, RUT, dirección y cuenta bancaria. → Interna, con datos personales. No ingresa así: quita el RUT, la dirección y la cuenta, y pide solo el formato de la ficha con datos inventados.
 4. Andrés quiere resumir el reporte de stock de la semana, sin nombres de clientes. → Interna, sin datos personales. Solo sin detalles que identifiquen a la empresa, o en una herramienta autorizada.
 5. Rosa quiere redactar un correo a una compañera sobre su licencia médica. → Dato sensible de otra persona. No ingresa. Escribe ella el correo, o pide una plantilla general.
-6. Andrés quiere comparar los sueldos del equipo para proponer un bono. → Confidencial, con datos personales. No ingresa. Regla: las remuneraciones son confidenciales (INCIBE); el asistente puede darle la fórmula sin ver los datos.
+6. Andrés quiere comparar los sueldos del equipo para proponer un bono. → Confidencial, con datos personales. No ingresa. Regla: las remuneraciones son confidenciales [@F-M3-19]; el asistente puede darle la fórmula sin ver los datos.
 :::
 
 ### P15 · Anonimizar y no pegar datos de terceros
@@ -5364,9 +5061,9 @@ datos sensibles de una paciente. «Redacta un correo cordial para un paciente qu
 fecha» consigue lo mismo sin entregar nada. Rosa hace eso con sus recordatorios: pide una plantilla con espacios en blanco y la
 completa ella en el sistema del centro.
 
-Cuidado con la reidentificación. NIST advierte que un modelo puede inferir datos de una persona combinando información dispersa. Si
+Cuidado con la reidentificación. NIST advierte que un modelo puede inferir datos de una persona combinando información dispersa [@F-M3-13]. Si
 quitas el nombre pero dejas el cargo, el turno y la sucursal, alguien puede saber de quién hablas. Por eso la Ley 21.719 habla de
-personas identificables directa o indirectamente.
+personas identificables directa o indirectamente [@F-M3-15].
 
 :::error «Si son datos de otra persona pero no los publico, no hay problema»
 Pegar datos de un tercero en una herramienta ya es entregarlos a otra organización. La regla práctica es no pegar datos de terceros, y
@@ -5384,11 +5081,11 @@ los nombres de los ajustes pueden cambiar con cada versión de la aplicación.
 
 En Gemini, cuando el ajuste de actividad está encendido (aparece como «Guardar actividad» o «Conservar la actividad», según la
 traducción), revisores humanos pueden leer conversaciones para mejorar los servicios de Google. Para evitarlo hay que apagar ese ajuste
-o usar conversaciones temporales. Aun así, Google guarda las conversaciones por un tiempo corto para responder y por seguridad.
+o usar conversaciones temporales. Aun así, Google guarda las conversaciones por un tiempo corto para responder y por seguridad [@F-H-15].
 
 En Perplexity, el plan gratuito trae activado el ajuste «AI data retention», lo que significa que tus datos se usan para entrenar. Se
 apaga en la configuración de la cuenta, en la sección Preferences, y la exclusión rige solo desde ese momento: lo que ya se usó antes
-no se retira.
+no se retira [@F-H-30].
 
 Gemini Notebook, como viste en el tema 1, no entrena con tus datos si usas una cuenta personal, salvo que envíes comentarios. Si en tu
 trabajo usas otra herramienta, busca en su configuración un ajuste parecido antes de empezar.
@@ -5407,7 +5104,7 @@ Proteger la información no es solo cumplir una regla. Es una forma de **respons
 organización: clientes, pacientes, proveedores y compañeros.
 
 Actuar con responsabilidad y ética significa usar los datos de otras personas solo para los fines que ellas o la ley autorizaron, como
-recomiendan los lineamientos del Estado de acuerdo con la Ley 19.628. Usar la planilla de clientes para «probar» una herramienta es un
+recomiendan los lineamientos del Estado de acuerdo con la Ley 19.628 [@F-M3-17; @F-M3-14]. Usar la planilla de clientes para «probar» una herramienta es un
 fin distinto del que tuvo esa información, aunque la intención sea buena.
 
 La **confidencialidad** es guardar reserva sobre lo que conoces por tu trabajo, y no es solo una buena costumbre: la Ley 19.628 obliga
@@ -5430,7 +5127,7 @@ bloque: Texto + actividad de cierre (respuesta abierta)
 
 En este tema evaluaste los resultados de la IA con tres preguntas, sobre sus sesgos, su trazabilidad y sus límites. Luego miraste lo
 que tú entregas: aprendiste a reconocer datos personales, datos sensibles e información confidencial, conociste lo que piden la Ley
-19.628 y la Ley 21.719 y el ejemplo de política interna del Estado, y armaste un método para clasificar y decidir. También practicaste
+19.628 y la Ley 21.719 y el ejemplo de política interna del Estado, y armaste un método para clasificar y decidir [@F-M3-17; @F-M3-19]. También practicaste
 anonimizar y configurar la privacidad.
 
 Ahora lo conviertes en un protocolo para tu propio cargo. Una decisión con fundamento tiene tres partes: qué información es, qué regla
@@ -5455,57 +5152,20 @@ Escribe en tu bitácora:
 6. Para decidir qué ingresa a una herramienta de IA: clasifica por acceso (pública, interna, confidencial) y por tipo de dato (personal, sensible); lo confidencial y lo sensible no ingresan a una herramienta no autorizada.
 7. Las prácticas seguras son anonimizar, no pegar datos de terceros, apagar el uso de los chats para entrenar, probar con copias sin datos sensibles y seguir la política de tu empresa.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Evaluación crítica**: revisión de un resultado de IA que considera sus sesgos, su trazabilidad y sus límites.
-- **Trazabilidad**: posibilidad de seguir una afirmación hasta la fuente de donde salió.
-- **Dato personal**: información que identifica o permite identificar, directa o indirectamente, a una persona natural.
-- **Dato sensible**: dato personal sobre aspectos como la salud, el origen étnico, las creencias, la afiliación sindical o la vida sexual, que la ley protege con más fuerza.
-- **Persona natural**: ser humano, a diferencia de una persona jurídica como una empresa.
-- **Titular de datos**: persona a quien se refieren los datos personales.
-- **Consentimiento**: autorización expresa e informada que da el titular para que se usen sus datos.
-- **Deber de secreto**: obligación de guardar reserva sobre los datos personales que se conocen por el trabajo, incluso después de dejar esa función.
-- **Información confidencial**: información a la que solo pueden acceder personas concretas, como remuneraciones o contratos.
-- **Información interna**: información a la que solo accede el personal de una organización.
-- **Política interna**: reglas propias de una organización sobre qué herramientas se usan y qué información puede salir.
-- **Anonimizar**: quitar o cambiar los datos de modo que ya no se pueda saber a quién se refieren.
-- **Reidentificación**: volver a saber a quién se refiere un dato anonimizado, combinándolo con otra información.
-
-### Conexión con el proyecto
-
-Tu protocolo de uso seguro (P18) se aplica primero a tu propio **Hito 3 del proyecto aplicado: investigación validada con fuentes
-(informe breve)**. Antes de entregarlo, revisa que el informe no incluya datos personales ni información confidencial de tu empresa, y
-que cada afirmación que vino de la IA se pueda rastrear hasta su fuente. El método para clasificar y decidir (P13) te va a servir
-también en los módulos siguientes, cada vez que quieras probar una herramienta con información de tu trabajo.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M3.md` e `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
-
-- F-M3-01 · Perplexity (s. f.). How does Perplexity work? https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work
-- F-M3-02 · Google (s. f.). Más información sobre Gemini Notebook (Ayuda de NotebookLM). https://support.google.com/notebooklm/answer/16164461?hl=es-419
-- F-M3-13 · NIST (2024). Generative Artificial Intelligence Profile (NIST AI 600-1). https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
-- F-M3-14 · Chile, Ministerio Secretaría General de la Presidencia (1999). Ley 19.628, sobre Protección de la Vida Privada. https://www.bcn.cl/leychile/navegar?idNorma=141599
-- F-M3-15 · Chile, Ministerio Secretaría General de la Presidencia (2024). Ley 21.719, que regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales. https://www.bcn.cl/leychile/navegar?idNorma=1209272
-- F-M3-16 · Senado de Chile (2026). Tramitación del boletín 18623-07: proyecto que modifica la Ley 21.719. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=18623
-- F-M3-17 · Chile, Ministerio de Ciencia, Tecnología, Conocimiento e Innovación y Ministerio Secretaría General de la Presidencia (2023). Oficio Circular N.° 711: lineamientos para el uso de herramientas de inteligencia artificial en el sector público. https://minciencia.gob.cl/uploads/filer_public/ae/9a/ae9a7ce7-807b-4781-9ac3-9b253bfbe735/of_n711_2023_dis_lin_ia_minciencia.pdf
-- F-M3-18 · Senado de Chile (2026). Tramitación del boletín 16821-19: regula los sistemas de inteligencia artificial. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=16821
-- F-M3-19 · INCIBE (2018). Para proteger la información de tu empresa, primero clasifícala. https://www.incibe.es/empresas/blog/proteger-informacion-tu-empresa-primero-clasificala
-- F-M3-20 · Google (2026). Centro de privacidad de Apps con Gemini. https://support.google.com/gemini/answer/13594961?hl=es-419
-- F-H-15 · Google (s. f.). Centro de Privacidad de las Aplicaciones de Gemini. https://support.google.com/gemini/answer/13594961?hl=es
-- F-H-30 · Perplexity (s. f.). Data Collection at Perplexity. https://www.perplexity.ai/help-center/en/articles/11564572-data-collection-at-perplexity
-
-**Revisar el estado del boletín 18623-07 antes de publicar.** P07, P08, P11 y las Ideas clave describen la vigencia de la Ley 21.719 al
-24-10-2026. Si el proyecto se aprueba y publica, hay que cambiar la fecha de vigencia en esas pantallas.
-
-Recomendaciones del curso, sin fuente: las tres preguntas de evaluación crítica (P02), que ordenan riesgos de NIST; la tabla de niveles
-de trazabilidad (P04) y la regla «lo que no puedes rastrear no se presenta como hecho»; la tabla de decisión de P13, que cruza la
-clasificación de INCIBE con las definiciones de la ley y la recomendación del Oficio 711; elegir la casilla más estricta en caso de
-duda; las técnicas de anonimización de P15; las respuestas del ejercicio de P14; probar con copias sin datos sensibles (P01), y el
-consejo de preguntar por la política de la empresa y dejar por escrito qué herramienta se usa (P12). Los ejemplos de datos
-identificables de P07 y los escenarios de Camila, Andrés, Rosa y sus compañeros (P05, P06) son ficticios. Los nombres de los ajustes de
-P16 cambian con la versión de cada aplicación: comprobarlos en el celular antes de publicar. Este contenido es orientación general, no
-asesoría legal.
+- Google. (s. f.-a). *Centro de privacidad de las aplicaciones de Gemini*. https://support.google.com/gemini/answer/13594961?hl=es
+- Google. (s. f.-b). *Más información sobre Gemini Notebook*. Ayuda de NotebookLM. https://support.google.com/notebooklm/answer/16164461?hl=es-419
+- Google. (2026, 23 de octubre). *Centro de privacidad de Apps con Gemini*. https://support.google.com/gemini/answer/13594961?hl=es-419
+- Instituto Nacional de Ciberseguridad. (2018, 7 de diciembre). *Para proteger la información de tu empresa, primero clasifícala*. INCIBE. https://www.incibe.es/empresas/blog/proteger-informacion-tu-empresa-primero-clasificala
+- Ley 19.628. (1999, 28 de agosto). *Sobre protección de la vida privada*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idNorma=141599
+- Ley 21.719. (2024, 13 de diciembre). *Regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idNorma=1209272
+- National Institute of Standards and Technology. (2024). *Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)*. https://doi.org/10.6028/NIST.AI.600-1
+- Oficio Circular 711. (2023). *Lineamientos para el uso de herramientas de inteligencia artificial en el sector público*. Ministerio de Ciencia, Tecnología, Conocimiento e Innovación. https://minciencia.gob.cl/uploads/filer_public/ae/9a/ae9a7ce7-807b-4781-9ac3-9b253bfbe735/of_n711_2023_dis_lin_ia_minciencia.pdf
+- Perplexity. (s. f.-a). *Data collection at Perplexity*. https://www.perplexity.ai/help-center/en/articles/11564572-data-collection-at-perplexity
+- Perplexity. (s. f.-b). *How does Perplexity work?* https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work
+- Senado de Chile. (2026a). *Proyecto que modifica la Ley 21.719 (Boletín 18623-07)*. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=18623
+- Senado de Chile. (2026b). *Proyecto que regula los sistemas de inteligencia artificial (Boletín 16821-19)*. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=16821
 
 
 ---
@@ -5522,7 +5182,7 @@ cubre: C1, C2
 fuentes: F-M4-06
 bloque: Texto + imagen
 
-En este módulo pasas del texto a las imágenes, el audio y el video. Hay muchas herramientas de IA que producen piezas visuales y sonoras, y cada una pone sus propias reglas sobre lo que generas: si lo puedes usar en tu trabajo, si lo puedes publicar y qué tienes que declarar. La Organización Mundial de la Propiedad Intelectual (OMPI) recomienda revisar los términos de cada herramienta para saber de quién es lo que se genera. Por eso, antes de crear, conviene saber elegir.
+En este módulo pasas del texto a las imágenes, el audio y el video. Hay muchas herramientas de IA que producen piezas visuales y sonoras, y cada una pone sus propias reglas sobre lo que generas: si lo puedes usar en tu trabajo, si lo puedes publicar y qué tienes que declarar. La Organización Mundial de la Propiedad Intelectual (OMPI) recomienda revisar los términos de cada herramienta para saber de quién es lo que se genera [@F-M4-06]. Por eso, antes de crear, conviene saber elegir.
 
 El aprendizaje esperado es este: Seleccionar herramientas de IA para contenido multimedia según el tipo de pieza, sus licencias y sus riesgos de uso. Al final deberías poder comparar herramientas según la pieza que necesitas e interpretar las licencias y condiciones de uso de la que elijas.
 
@@ -5535,9 +5195,9 @@ cubre: S1, C1
 fuentes: F-M4-06, F-M4-04
 bloque: Texto + tabla
 
-La OMPI describe la IA generativa como la que crea texto, código, imágenes, audio, sonido y video a partir de una instrucción. Por eso el método que aprendiste en el módulo 1 te sirve también aquí: describes bien lo que quieres, revisas el resultado y vuelves a pedir con más detalle. Lo que cambia de una pieza a otra es el **tipo de pieza**, y eso importa por dos razones.
+La OMPI describe la IA generativa como la que crea texto, código, imágenes, audio, sonido y video a partir de una instrucción [@F-M4-06]. Por eso el método que aprendiste en el módulo 1 te sirve también aquí: describes bien lo que quieres, revisas el resultado y vuelves a pedir con más detalle. Lo que cambia de una pieza a otra es el **tipo de pieza**, y eso importa por dos razones.
 
-La primera es práctica: el tipo de pieza define qué herramienta necesitas, porque no se hace con la misma aplicación una ilustración, una locución y un clip. La segunda es legal: define con qué obras protegidas te relacionas. La Ley 17.336 de Propiedad Intelectual protege por separado, entre otras, las fotografías, las ilustraciones, las composiciones musicales, los guiones, las obras cinematográficas y los videogramas.
+La primera es práctica: el tipo de pieza define qué herramienta necesitas, porque no se hace con la misma aplicación una ilustración, una locución y un clip. La segunda es legal: define con qué obras protegidas te relacionas. La Ley 17.336 de Propiedad Intelectual protege por separado, entre otras, las fotografías, las ilustraciones, las composiciones musicales, los guiones, las obras cinematográficas y los videogramas [@F-M4-04].
 
 | Tipo de pieza | Ejemplo en una oficina | Obras protegidas con que se relaciona |
 |---|---|---|
@@ -5554,9 +5214,9 @@ bloque: Texto + imagen comparativa de dos herramientas
 
 Para crear imágenes con IA hay muchas opciones con plan gratuito, y la lista cambia casi cada mes. Más que memorizar nombres, conviene reconocer tres familias. Están los asistentes generales, que conversan contigo y además generan y editan imágenes; las aplicaciones de diseño, que generan la imagen y también te dejan componer la pieza con su texto; y los generadores dedicados solo a imágenes. En este módulo usarás una herramienta de cada una de las dos primeras familias.
 
-Gemini, el asistente que ya conoces, genera y edita imágenes con un modelo llamado Nano Banana 2. Para hacerlo tienes que iniciar sesión con tu cuenta de Google, y Google pide 13 años o más para generar y 18 o más para editar. Tiene un límite diario que su página de ayuda no expresa en cifras, y sin un plan pagado las imágenes se descargan en resolución 1K.
+Gemini, el asistente que ya conoces, genera y edita imágenes con un modelo llamado Nano Banana 2. Para hacerlo tienes que iniciar sesión con tu cuenta de Google, y Google pide 13 años o más para generar y 18 o más para editar. Tiene un límite diario que su página de ayuda no expresa en cifras, y sin un plan pagado las imágenes se descargan en resolución 1K [@F-H-56].
 
-Canva sirve para generar una imagen y, en el mismo lugar, armar el afiche con su título y sus textos. En el plan gratuito tienes hasta 20 usos de IA al mes, compartidos entre todas sus funciones de IA, como crear imágenes, la voz o el generador de música, así que conviene gastarlos con cuidado.
+Canva sirve para generar una imagen y, en el mismo lugar, armar el afiche con su título y sus textos. En el plan gratuito tienes hasta 20 usos de IA al mes, compartidos entre todas sus funciones de IA, como crear imágenes, la voz o el generador de música [@F-H-68], así que conviene gastarlos con cuidado.
 
 Fíjate en que esta comparación todavía no dice cuál es mejor. Para elegir faltan dos datos que verás en las próximas pantallas: qué licencia te dan sobre lo que generas y qué riesgos trae cada una.
 
@@ -5569,9 +5229,9 @@ cubre: S1, H1, C1
 fuentes: F-H-75, F-H-79
 bloque: Texto + tarjetas por tipo de herramienta
 
-En audio hay herramientas que convierten un texto en voz, otras que diseñan voces nuevas y otras que generan música a partir de una descripción. ElevenLabs, que usarás en el tema 3, reúne varias de esas funciones: su plan gratuito entrega 10.000 créditos al mes para texto a voz, efectos de sonido, diseño de voz y música. Eso sí, la licencia comercial empieza recién en su plan Starter, que es de pago.
+En audio hay herramientas que convierten un texto en voz, otras que diseñan voces nuevas y otras que generan música a partir de una descripción. ElevenLabs, que usarás en el tema 3, reúne varias de esas funciones: su plan gratuito entrega 10.000 créditos al mes para texto a voz, efectos de sonido, diseño de voz y música. Eso sí, la licencia comercial empieza recién en su plan Starter, que es de pago [@F-H-75].
 
-Suno, un generador de canciones, muestra una lección importante. Su plan gratuito da 50 créditos al día, pero no incluye derechos comerciales ni descargas de canciones. Puedes escuchar lo que creas, pero no llevar la pista a tu editor de video. **Gratis no siempre significa utilizable**: antes de entusiasmarte con una herramienta, revisa si te deja descargar lo que generas y para qué usos.
+Suno, un generador de canciones, muestra una lección importante. Su plan gratuito da 50 créditos al día, pero no incluye derechos comerciales ni descargas de canciones [@F-H-79]. Puedes escuchar lo que creas, pero no llevar la pista a tu editor de video. **Gratis no siempre significa utilizable**: antes de entusiasmarte con una herramienta, revisa si te deja descargar lo que generas y para qué usos.
 
 Las herramientas de video las revisarás en el tema 4, cuando armes tu clip. Lo que sí puedes anticipar es que un clip casi nunca sale de una sola herramienta: lo normal es usar una para la voz, otra para la música, otra para las imágenes y una más para montar, cada una con sus propias reglas. Por eso la comparación que harás en este tema se repite pieza por pieza.
 
@@ -5597,7 +5257,7 @@ Muchas fotos, ilustraciones y pistas que encuentras en internet se comparten con
 | NC | No comercial | Usarla solo con fines no comerciales |
 | ND | Sin derivadas | No modificarla ni crear obras a partir de ella |
 
-Con esos elementos se forman seis licencias. Ordenadas de la más a la menos permisiva, son CC BY, CC BY-SA, CC BY-ND, CC BY-NC, CC BY-NC-SA y CC BY-NC-ND. Todas incluyen BY, así que en cualquiera de ellas hay que dar crédito. Aparte está CC0, que no es una de esas seis licencias: es una herramienta para que quien creó una obra la dedique al dominio público.
+Con esos elementos se forman seis licencias. Ordenadas de la más a la menos permisiva, son CC BY, CC BY-SA, CC BY-ND, CC BY-NC, CC BY-NC-SA y CC BY-NC-ND [@F-M4-01]. Todas incluyen BY, así que en cualquiera de ellas hay que dar crédito. Aparte está CC0, que no es una de esas seis licencias: es una herramienta para que quien creó una obra la dedique al dominio público.
 
 Leerlas se aprende rápido, porque cada sigla es una condición. Además, las licencias están traducidas a más de 45 idiomas, también al español, así que puedes revisar sus condiciones sin depender de otro idioma.
 
@@ -5614,11 +5274,11 @@ cubre: S2, S3, C2
 fuentes: F-M4-02, F-M4-01
 bloque: Texto + actividad con preguntas guiadas
 
-Cada licencia CC tiene un resumen en español que dice qué permite y con qué condiciones. Toma como ejemplo la licencia Atribución-NoComercial-CompartirIgual 4.0, que se abrevia CC BY-NC-SA 4.0. Su resumen dice que puedes compartir la obra, es decir, copiarla y redistribuirla, y adaptarla, es decir, modificarla y crear a partir de ella.
+Cada licencia CC tiene un resumen en español que dice qué permite y con qué condiciones [@F-M4-01]. Toma como ejemplo la licencia Atribución-NoComercial-CompartirIgual 4.0, que se abrevia CC BY-NC-SA 4.0. Su resumen dice que puedes compartir la obra, es decir, copiarla y redistribuirla, y adaptarla, es decir, modificarla y crear a partir de ella [@F-M4-02].
 
 Esos permisos vienen con condiciones. Tienes que dar crédito, enlazar la licencia e indicar si hiciste cambios, sin sugerir que quien creó la obra respalda tu uso. No puedes usarla con fines comerciales. Si la adaptas, tu versión va con la misma licencia. Y no puedes agregar condiciones que impidan a otras personas hacer lo que la licencia permite.
 
-Al final, el resumen trae avisos que se pasan por alto con facilidad. La licencia no da garantías. Los derechos de imagen, de privacidad o morales pueden requerir permisos aparte: si en la foto aparece una persona, la licencia de la foto no reemplaza el permiso de esa persona. Y el resumen no reemplaza el texto legal de la licencia, que es el que manda.
+Al final, el resumen trae avisos que se pasan por alto con facilidad. La licencia no da garantías. Los derechos de imagen, de privacidad o morales pueden requerir permisos aparte: si en la foto aparece una persona, la licencia de la foto no reemplaza el permiso de esa persona. Y el resumen no reemplaza el texto legal de la licencia, que es el que manda [@F-M4-02].
 
 :::actividad Interpreta la licencia
 Rosa encuentra una ilustración de una sala de espera con licencia CC BY-NC-SA 4.0. Responde cada pregunta y después compara con la respuesta:
@@ -5633,11 +5293,11 @@ cubre: S2, C2
 fuentes: F-M4-06, F-M4-07
 bloque: Texto + acordeón con las cuatro preguntas
 
-Las licencias CC sirven para las obras que otras personas comparten. Para lo que genera una herramienta de IA, los permisos están en otro lugar: sus **términos de uso**. La OMPI recomienda revisarlos para saber de quién es lo que se genera, y no es un trámite menor, porque cada empresa los redacta a su manera.
+Las licencias CC sirven para las obras que otras personas comparten. Para lo que genera una herramienta de IA, los permisos están en otro lugar: sus **términos de uso**. La OMPI recomienda revisarlos para saber de quién es lo que se genera [@F-M4-06], y no es un trámite menor, porque cada empresa los redacta a su manera.
 
 Cuando los leas, busca respuesta a cuatro preguntas: quién es dueño del resultado, qué usos permite, qué prohíbe y qué garantías da. No esperes encontrarlas juntas ni con esas palabras. Si los términos no responden alguna, anótala como una duda: eso también es información para decidir.
 
-Mira cómo se responden en las Condiciones del Servicio de Google, que rigen servicios como Gemini. En la sección «Su contenido», Google declara que no reclamará la propiedad del contenido original que generan sus servicios. Los mismos términos prohíben engañar a otras personas para que crean que un contenido hecho con IA generativa lo creó una persona, y piden no confiar en sus servicios como asesoría profesional. Ahí tienes tres respuestas: quién es dueño, una prohibición y un límite a lo que puedes esperar del servicio.
+Mira cómo se responden en las Condiciones del Servicio de Google, que rigen servicios como Gemini. En la sección «Su contenido», Google declara que no reclamará la propiedad del contenido original que generan sus servicios [@F-M4-07]. Los mismos términos prohíben engañar a otras personas para que crean que un contenido hecho con IA generativa lo creó una persona, y piden no confiar en sus servicios como asesoría profesional [@F-M4-07]. Ahí tienes tres respuestas: quién es dueño, una prohibición y un límite a lo que puedes esperar del servicio.
 
 Ser dueña o dueño del resultado no es lo único que importa. Lee con la misma atención qué puede hacer la herramienta con lo que creas y quién responde si hay un problema, porque eso cambia lo que puedes hacer con una pieza de trabajo.
 
@@ -5654,11 +5314,11 @@ Con las cuatro preguntas respondidas, puedes clasificar una herramienta con un s
 
 | Color | Qué significa | Ejemplo |
 |---|---|---|
-| Verde | Los términos te dejan usar lo que generas; se usa con revisión normal | Canva: eres dueña o dueño de lo que generas con su IA, salvo el contenido de su biblioteca, que solo se licencia |
+| Verde | Los términos te dejan usar lo que generas; se usa con revisión normal | Canva: eres dueña o dueño de lo que generas con su IA, salvo el contenido de su biblioteca, que solo se licencia [@F-H-67] |
 | Amarillo | Se puede usar si cumples condiciones, como dar crédito, no usarlo con fines comerciales, aceptar que tus creaciones queden públicas o llevar marca de agua | Lo verás con la voz y la música del tema 3 |
-| Rojo | La licencia no alcanza para una pieza de trabajo | Microsoft Designer: es gratis, pero su licencia es personal y no comercial |
+| Rojo | La licencia no alcanza para una pieza de trabajo | Microsoft Designer: es gratis, pero su licencia es personal y no comercial [@F-H-65] |
 
-El semáforo depende del uso que le darás a la pieza. Designer sirve para practicar por tu cuenta; para un afiche que pondrá tu empresa, no. Y una herramienta en verde no te libera de revisar: Canva permite usar lo generado para cualquier fin lícito, pero bajo tu propio riesgo, y prohíbe hacer pasar por humano lo que generó la IA.
+El semáforo depende del uso que le darás a la pieza. Designer sirve para practicar por tu cuenta; para un afiche que pondrá tu empresa, no. Y una herramienta en verde no te libera de revisar: Canva permite usar lo generado para cualquier fin lícito, pero bajo tu propio riesgo, y prohíbe hacer pasar por humano lo que generó la IA [@F-H-67].
 
 Cuando clasifiques una herramienta, anota la fecha en que leíste sus condiciones. Las herramientas cambian sus planes y sus términos, y lo que hoy está en verde puede pasar a amarillo. Por eso, en la ficha de uso ético que verás en P14, cada herramienta va con su plan y con esa fecha.
 
@@ -5677,9 +5337,9 @@ bloque: Texto + recuadro destacado
 
 Que los términos de una herramienta digan que eres dueña o dueño del resultado no responde otra pregunta, más de fondo: lo que generó la IA, ¿es una obra protegida por el derecho de autor? Esa pregunta todavía está abierta y conviene tratarla con cautela.
 
-En Chile, la Ley 17.336 dice que quien crea una obra adquiere sus derechos por el solo hecho de crearla. Esos derechos son patrimoniales, como usarla y explotarla, y morales, como que se reconozca su autoría. La protección dura toda la vida del autor y 70 años más. La misma ley define la obra individual como la producida por una «persona natural», y como es de 1970, no dice nada sobre lo que genera una IA.
+En Chile, la Ley 17.336 dice que quien crea una obra adquiere sus derechos por el solo hecho de crearla. Esos derechos son patrimoniales, como usarla y explotarla, y morales, como que se reconozca su autoría. La protección dura toda la vida del autor y 70 años más [@F-M4-04]. La misma ley define la obra individual como la producida por una «persona natural», y como es de 1970, no dice nada sobre lo que genera una IA.
 
-En Estados Unidos, la oficina de derecho de autor concluyó en 2025 que sus reglas actuales bastan para decidir caso a caso. Lo generado puede protegerse, en todo o en parte, cuando una persona usa la IA como herramienta y decide los elementos expresivos. En cambio, un prompt por sí solo, hoy, difícilmente basta para que haya autoría. Esa conclusión rige solo en ese país: sirve para entender el debate, no como regla en Chile.
+En Estados Unidos, la oficina de derecho de autor concluyó en 2025 que sus reglas actuales bastan para decidir caso a caso. Lo generado puede protegerse, en todo o en parte, cuando una persona usa la IA como herramienta y decide los elementos expresivos. En cambio, un prompt por sí solo, hoy, difícilmente basta para que haya autoría [@F-M4-05]. Esa conclusión rige solo en ese país: sirve para entender el debate, no como regla en Chile.
 
 Para tu trabajo, la consecuencia es concreta: tu **aporte humano** importa. Elegir entre versiones, corregir, componer la pieza y escribir el texto es lo que más pesa, y por eso conviene dejarlo registrado en la ficha de uso ético de P14.
 
@@ -5692,7 +5352,7 @@ cubre: S3, A1
 fuentes: F-M4-03, F-M4-04
 bloque: Texto + ejemplo comparativo (bueno y malo)
 
-**Atribuir** es reconocer quién creó lo que usas. Creative Commons propone recordar cuatro datos con la sigla TASL: el título de la obra, su autor o autora, la fuente, que en inglés se dice *source* y es el enlace a la obra original, y la licencia, también con su enlace. Si modificaste la obra, agregas qué cambiaste.
+**Atribuir** es reconocer quién creó lo que usas. Creative Commons propone recordar cuatro datos con la sigla TASL: el título de la obra, su autor o autora, la fuente, que en inglés se dice *source* y es el enlace a la obra original, y la licencia, también con su enlace [@F-M4-03]. Si modificaste la obra, agregas qué cambiaste.
 
 | Crédito | ¿Sirve? |
 |---|---|
@@ -5702,7 +5362,7 @@ bloque: Texto + ejemplo comparativo (bueno y malo)
 
 Daniela Soto es un nombre inventado para el ejemplo. Fíjate en que el segundo crédito parece correcto porque nombra una licencia, pero confunde a quien propone la licencia con quien creó la obra.
 
-Dar crédito no es solo cortesía. En Chile, el derecho moral del autor incluye que se reconozca la paternidad de su obra y oponerse a modificaciones que no autorizó. La ley también permite citar fragmentos breves para criticar, enseñar o investigar, siempre que se mencionen la fuente, el título y el autor. Algunas herramientas de IA, además, piden su propia forma de crédito para lo que generas con su plan gratuito; lo verás en el tema 3 con la voz y la música.
+Dar crédito no es solo cortesía. En Chile, el derecho moral del autor incluye que se reconozca la paternidad de su obra y oponerse a modificaciones que no autorizó. La ley también permite citar fragmentos breves para criticar, enseñar o investigar, siempre que se mencionen la fuente, el título y el autor [@F-M4-04]. Algunas herramientas de IA, además, piden su propia forma de crédito para lo que generas con su plan gratuito; lo verás en el tema 3 con la voz y la música.
 
 :::actividad Corrige el crédito
 Andrés puso en un afiche de la bodega: «Ícono: Creative Commons». Reescríbelo con la fórmula TASL. Usa datos inventados si no tienes los reales y marca qué dato le faltaba.
@@ -5715,9 +5375,9 @@ bloque: Texto + escenarios (tarjetas)
 
 Usar IA para crear piezas trae riesgos legales que conviene reconocer antes de publicar. La OMPI menciona varios. Uno es infringir derechos de autor o marcas, por ejemplo al pedir una imagen que copie un personaje o un logo conocido. Otro es revelar datos personales o información confidencial, ya sea en las instrucciones que escribes o en la pieza final. Un tercero es producir **ultrafalsos**: imágenes, audios o videos que hacen pasar por real algo que no ocurrió.
 
-La OMPI agrega un punto que pocas personas esperan: en muchos países se puede infringir el derecho de autor aunque no haya intención. Un error común es pensar «si no lo hice a propósito, no hay problema». El riesgo no recae solo en la empresa que desarrolla la herramienta, sino también en quien la usa y publica la pieza.
+La OMPI agrega un punto que pocas personas esperan: en muchos países se puede infringir el derecho de autor aunque no haya intención [@F-M4-06]. Un error común es pensar «si no lo hice a propósito, no hay problema». El riesgo no recae solo en la empresa que desarrolla la herramienta, sino también en quien la usa y publica la pieza.
 
-Las mismas herramientas lo dejan claro en sus términos. CapCut, por ejemplo, dice que no garantiza que el contenido generado sea legal o apropiado y que la persona responde por lo que crea. Leído desde tu puesto de trabajo, el mensaje es simple: la revisión antes de publicar es tuya, y no se puede delegar en la herramienta.
+Las mismas herramientas lo dejan claro en sus términos. CapCut, por ejemplo, dice que no garantiza que el contenido generado sea legal o apropiado y que la persona responde por lo que crea [@F-H-83]. Leído desde tu puesto de trabajo, el mensaje es simple: la revisión antes de publicar es tuya, y no se puede delegar en la herramienta.
 
 :::ejemplo El personaje famoso
 Andrés quiere un afiche simpático para la bodega y pide «un personaje igual al de una película animada famosa, con el logo de una marca de zapatillas». Es justo lo que hay que evitar, porque usa obras y marcas de terceros. Cambia el pedido por «un personaje original, estilo ilustración plana, con zapatos de seguridad sin marca».
@@ -5730,9 +5390,9 @@ bloque: Texto + línea de tiempo
 
 Además del riesgo legal está el **riesgo reputacional**: lo que le pasa a tu imagen o a la de tu organización si una pieza sale mal. Una imagen con estereotipos daña la confianza aunque nadie lo haya buscado, y lo verás en detalle en el tema 2. Otro riesgo es ocultar que usaste IA: ya viste en P07 y P08 que hay términos de uso que prohíben hacer pasar por humano lo que generó una herramienta.
 
-Tampoco conviene confiar en que el archivo «ya dice» que es sintético. Algunas herramientas agregan marcas de procedencia a lo que generan, pero el NIST, el instituto de normas técnicas de Estados Unidos, advierte que quien copia o edita un archivo puede alterar esos metadatos y que las redes sociales suelen borrarlos al compartir. Si la pieza tiene que decir que se hizo con IA, dilo tú, de forma visible.
+Tampoco conviene confiar en que el archivo «ya dice» que es sintético. Algunas herramientas agregan marcas de procedencia a lo que generan, pero el NIST, el instituto de normas técnicas de Estados Unidos, advierte que quien copia o edita un archivo puede alterar esos metadatos y que las redes sociales suelen borrarlos al compartir [@F-M4-14]. Si la pieza tiene que decir que se hizo con IA, dilo tú, de forma visible.
 
-Hay un riesgo más, menos visible: la herramienta puede cambiar o desaparecer. Sora, el generador de video de OpenAI, retiró su web y su app el 26 de abril de 2026, y su API el 24 de septiembre del mismo año. Quien tenía un trabajo armado solo sobre esa herramienta tuvo que buscar otra y rehacerlo. La recomendación del curso es guardar tus archivos y tus registros, y volver a revisar los términos antes de cada proyecto.
+Hay un riesgo más, menos visible: la herramienta puede cambiar o desaparecer. Sora, el generador de video de OpenAI, retiró su web y su app el 26 de abril de 2026, y su API el 24 de septiembre del mismo año [@F-H-53]. Quien tenía un trabajo armado solo sobre esa herramienta tuvo que buscar otra y rehacerlo. La recomendación del curso es guardar tus archivos y tus registros, y volver a revisar los términos antes de cada proyecto.
 
 :::comprueba
 ¿Qué lección deja el retiro de Sora en 2026?
@@ -5747,7 +5407,7 @@ cubre: H1, C1, C2
 fuentes: F-M4-06, F-H-75
 bloque: Escenario + tabla para completar
 
-Ya tienes los elementos para el análisis. La OMPI sugiere que, para comparar herramientas, no basta con ver qué producen: hay que revisar en sus términos quién es dueño de lo generado, si guarda las instrucciones, con qué datos se entrenó y si ofrece garantías o indemnizaciones. También propone clasificarlas por nivel de riesgo en permitidas, restringidas y prohibidas, y aconseja usar IA cuando la titularidad no sea crítica, por ejemplo en usos internos o para generar ideas.
+Ya tienes los elementos para el análisis. La OMPI sugiere que, para comparar herramientas, no basta con ver qué producen: hay que revisar en sus términos quién es dueño de lo generado, si guarda las instrucciones, con qué datos se entrenó y si ofrece garantías o indemnizaciones. También propone clasificarlas por nivel de riesgo en permitidas, restringidas y prohibidas, y aconseja usar IA cuando la titularidad no sea crítica, por ejemplo en usos internos o para generar ideas [@F-M4-06].
 
 Rosa lo aplica a sus piezas. Para el afiche piensa en Gemini para la imagen y Canva para el texto; para el mensaje telefónico duda entre la voz con IA de Canva y el plan gratuito de ElevenLabs.
 
@@ -5755,7 +5415,7 @@ Rosa lo aplica a sus piezas. Para el afiche piensa en Gemini para la imagen y Ca
 |---|---|---|---|
 | Afiche | Gemini y Canva | Google no reclama la propiedad; en Canva, la biblioteca solo se licencia (P07 y P08) | Permitida |
 | Mensaje telefónico | Voz con IA de Canva | Lo generado es suyo; gasta usos de IA del mes (P03 y P08) | Permitida |
-| Mensaje telefónico | ElevenLabs gratis | El plan gratuito no tiene licencia comercial | Restringida |
+| Mensaje telefónico | ElevenLabs gratis | El plan gratuito no tiene licencia comercial [@F-H-75] | Restringida |
 
 El video lo dejará para el tema 4, cuando conozca las herramientas de video. Para elegir la voz, Rosa usa un criterio del curso: las piezas que una organización usa con sus clientes o pacientes, aunque no se vendan, pueden considerarse uso comercial. El mensaje lo escucharán pacientes, así que prefiere la herramienta que permite ese uso. Ante la duda, elige una herramienta que lo permita o pregunta a quien corresponda en tu organización.
 
@@ -5768,7 +5428,7 @@ cubre: H2, A1
 fuentes: F-M4-06, F-M4-03
 bloque: Texto + plantilla descargable
 
-Una **ficha de uso ético** es un registro breve que acompaña a una pieza. Reúne lo que la OMPI recomienda documentar cuando se usa IA, como qué se generó, con qué instrucciones y cuál fue el aporte humano, y suma los créditos de lo que no es tuyo con la fórmula TASL. La vas a usar en todo el módulo y la entregarás junto con tu pieza del Hito 4.
+Una **ficha de uso ético** es un registro breve que acompaña a una pieza. Reúne lo que la OMPI recomienda documentar cuando se usa IA, como qué se generó, con qué instrucciones y cuál fue el aporte humano [@F-M4-06], y suma los créditos de lo que no es tuyo con la fórmula TASL [@F-M4-03]. La vas a usar en todo el módulo y la entregarás junto con tu pieza del Hito 4.
 
 | Campo | Qué escribes |
 |---|---|
@@ -5791,7 +5451,7 @@ cubre: C1, C2, H1, H2
 fuentes: F-M4-06, F-M4-03
 bloque: Texto + actividad de cierre (respuesta abierta)
 
-En este tema viste que una herramienta multimedia se elige por tres cosas: el tipo de pieza, la licencia de lo que genera y sus riesgos. Repasaste las licencias Creative Commons y sus cuatro elementos, aprendiste a buscar en los términos de uso quién es dueño, qué se permite, qué se prohíbe y qué garantías hay, y a dar crédito con la fórmula TASL. También viste que la autoría de lo generado con IA es un tema abierto, y que por eso conviene dejar tu aporte humano por escrito.
+En este tema viste que una herramienta multimedia se elige por tres cosas: el tipo de pieza, la licencia de lo que genera y sus riesgos. Repasaste las licencias Creative Commons y sus cuatro elementos, aprendiste a buscar en los términos de uso quién es dueño, qué se permite, qué se prohíbe y qué garantías hay [@F-M4-06], y a dar crédito con la fórmula TASL [@F-M4-03]. También viste que la autoría de lo generado con IA es un tema abierto, y que por eso conviene dejar tu aporte humano por escrito.
 
 Un error común es dejar la licencia para el final, cuando la pieza ya está lista. Si recién entonces descubres que la herramienta no permite tu uso, tienes que rehacer todo. Las condiciones se revisan antes de elegir.
 
@@ -5816,46 +5476,24 @@ Guarda tu respuesta. En los próximos temas producirás imágenes, audio y un cl
 6. Se da crédito con la fórmula TASL (título, autor, fuente y licencia) e indicando los cambios.
 7. Los riesgos son legales (derechos de autor, marcas, datos, ultrafalsos) y reputacionales (estereotipos, ocultar el uso de IA), y las herramientas pueden cambiar o desaparecer.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Licencia**: permiso que da quien tiene los derechos de una obra para usarla con ciertas condiciones.
-- **Creative Commons (CC)**: conjunto de licencias estándar para compartir obras indicando qué usos se permiten.
-- **CC0**: herramienta para dedicar una obra al dominio público, sin condiciones de uso.
-- **Términos de uso**: condiciones que fija una herramienta para usarla y para usar lo que genera.
-- **Uso comercial**: uso de una obra o pieza con fines de lucro o para obtener una ventaja comercial.
-- **Obra derivada**: obra nueva hecha a partir de otra, por ejemplo al modificarla o adaptarla.
-- **Derecho de autor**: conjunto de derechos que la ley reconoce a quien crea una obra; incluye derechos patrimoniales y morales.
-- **Derecho moral**: parte del derecho de autor que protege la autoría y la integridad de la obra.
-- **Atribución**: reconocimiento de quién creó una obra que se usa.
-- **TASL**: fórmula para atribuir: título, autor, fuente y licencia.
-- **Ultrafalso**: imagen, audio o video sintético que hace pasar por real algo que no ocurrió.
-- **Ficha de uso ético**: registro que acompaña una pieza y documenta herramientas, instrucciones, aporte humano, permisos y créditos.
-
-### Conexión con el proyecto
-
-Tu análisis de herramientas (P13) y el borrador de ficha de uso ético (P15) preparan el **Hito 4 del proyecto aplicado: pieza multimedia que comunica la solución**, que se entrega con su ficha de uso ético. Piensa desde ya quién verá tu pieza en tu trabajo, por ejemplo tu jefatura o tu equipo, porque de eso depende qué licencia necesitas.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M4.md` y `investigacion/HERRAMIENTAS-2.md` (consultadas el 24-10-2026).
-Los planes gratuitos cambian a menudo: revisar de nuevo antes de publicar.
-
-- F-M4-01 · Creative Commons (s. f.). About CC Licenses. https://creativecommons.org/share-your-work/cclicenses/
-- F-M4-02 · Creative Commons (s. f.). Atribución-NoComercial-CompartirIgual 4.0 Internacional (resumen de la licencia). https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
-- F-M4-03 · Creative Commons (2024). Recommended practices for attribution. https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution
-- F-M4-04 · Congreso Nacional de Chile / BCN (1970). Ley 17.336 sobre Propiedad Intelectual. https://www.bcn.cl/leychile/navegar?idNorma=28933
-- F-M4-05 · U.S. Copyright Office (2025). Copyright and Artificial Intelligence, Part 2: Copyrightability. https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf
-- F-M4-06 · OMPI (2024). IA generativa: cómo abordar la propiedad intelectual. https://www.wipo.int/edocs/pubdocs/es/wipo-pub-rn2024-8-es-generative-ai-navigating-intellectual-property.pdf
-- F-M4-07 · Google (2026). Condiciones del Servicio de Google. https://policies.google.com/terms?hl=es-419
-- F-M4-14 · NIST (2024). Reducing Risks Posed by Synthetic Content (NIST AI 100-4). https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf
-- F-H-53 · OpenAI (2026). Qué debes saber sobre la interrupción de Sora. https://help.openai.com/es-es/articles/20001152-what-to-know-about-the-sora-discontinuation
-- F-H-56 · Google (s. f.). Generar imágenes con las aplicaciones de Gemini. https://support.google.com/gemini/answer/14286560?hl=es
-- F-H-65 · Microsoft (s. f.). Preguntas frecuentes sobre Microsoft Designer. https://support.microsoft.com/en-us/designer/frequently-asked-questions-about-microsoft-designer
-- F-H-67 · Canva (2026). AI Product Terms. https://www.canva.com/policies/ai-product-terms/
-- F-H-68 · Canva (s. f.). Comprender el uso de la IA. https://www.canva.com/es_es/help/ai-access/
-- F-H-75 · ElevenLabs (s. f.). Pricing. https://elevenlabs.io/pricing
-- F-H-79 · Suno (s. f.). Pricing. https://suno.com/pricing
-- F-H-83 · CapCut (2026). Terms of Service. https://www.capcut.com/clause/terms-of-service
+- Canva. (s. f.). *Comprender el uso de la IA*. https://www.canva.com/es_es/help/ai-access/
+- Canva. (2026, 26 de junio). *AI product terms*. https://www.canva.com/policies/ai-product-terms/
+- CapCut. (2026, 15 de abril). *Terms of service*. https://www.capcut.com/clause/terms-of-service
+- Creative Commons. (s. f.-a). *About CC licenses*. https://creativecommons.org/share-your-work/cclicenses/
+- Creative Commons. (s. f.-b). *Atribución-NoComercial-CompartirIgual 4.0 Internacional*. https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
+- Creative Commons. (2024, 4 de diciembre). *Recommended practices for attribution*. Creative Commons Wiki. https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution
+- ElevenLabs. (s. f.). *Pricing*. https://elevenlabs.io/pricing
+- Google. (s. f.). *Generar imágenes con las aplicaciones de Gemini*. https://support.google.com/gemini/answer/14286560?hl=es
+- Google. (2026, 30 de julio). *Condiciones del servicio de Google*. https://policies.google.com/terms?hl=es-419
+- Ley 17.336. (1970, 2 de octubre). *Sobre propiedad intelectual*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idNorma=28933
+- Microsoft. (s. f.). *Preguntas frecuentes sobre Microsoft Designer*. Microsoft Support. https://support.microsoft.com/en-us/designer/frequently-asked-questions-about-microsoft-designer
+- National Institute of Standards and Technology. (2024). *Reducing risks posed by synthetic content (NIST AI 100-4)*. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf
+- OMPI. (2024). *IA generativa: cómo abordar la propiedad intelectual (RN2024-8ES)*. https://doi.org/10.34667/tind.49471
+- OpenAI. (2026). *Qué debes saber sobre la interrupción de Sora*. OpenAI Help Center. https://help.openai.com/es-es/articles/20001152-what-to-know-about-the-sora-discontinuation
+- Suno. (s. f.). *Pricing*. https://suno.com/pricing
+- U.S. Copyright Office. (2025). *Copyright and artificial intelligence, part 2: Copyrightability*. https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf
 
 
 ## M4-AE2 · Imágenes y gráficos
@@ -5869,7 +5507,7 @@ En el tema anterior aprendiste a elegir herramientas según su licencia y sus ri
 
 El aprendizaje esperado es este: Producir imágenes y gráficos con IA para una campaña interna, aplicando criterios de diseño y uso ético. Al final deberías poder producir piezas coherentes con el mensaje de la campaña e identificar y corregir sesgos o defectos visuales antes de publicarlas.
 
-Este tema es un laboratorio creativo y termina con un producto. Generarás la imagen con Gemini, que te pide iniciar sesión con tu cuenta de Google, y compondrás la pieza en Canva, que tiene app para Android y para iOS. Te acompaña Andrés, el encargado de bodega: su jefatura le pidió una campaña para que los pasillos estén siempre despejados, porque cajas y pallets mal ubicados han provocado tropiezos. Hará un afiche para el diario mural y una versión para el teléfono. Camila, la asistente administrativa de la constructora, también tiene un encargo: la gerenta de administración le pidió una campaña para que en la oficina se recicle el papel, y algunos ejemplos serán suyos.
+Este tema es un laboratorio creativo y termina con un producto. Generarás la imagen con Gemini, que te pide iniciar sesión con tu cuenta de Google [@F-H-56], y compondrás la pieza en Canva, que tiene app para Android y para iOS [@F-H-69]. Te acompaña Andrés, el encargado de bodega: su jefatura le pidió una campaña para que los pasillos estén siempre despejados, porque cajas y pallets mal ubicados han provocado tropiezos. Hará un afiche para el diario mural y una versión para el teléfono. Camila, la asistente administrativa de la constructora, también tiene un encargo: la gerenta de administración le pidió una campaña para que en la oficina se recicle el papel, y algunos ejemplos serán suyos.
 
 Tú harás la tuya con una campaña interna real de tu lugar de trabajo, sobre algo que tu equipo necesite recordar o cambiar. Si no se te ocurre cuál, pregúntale a tu jefatura qué le serviría. Ten presente desde el comienzo que la IA genera la imagen, pero la pieza la diseñas tú: el mensaje, el texto, el orden y la revisión final son tu trabajo.
 
@@ -5887,9 +5525,9 @@ Una imagen bonita no basta: tiene que decir algo. Antes de abrir una herramienta
 | Canal y formato: ¿dónde se verá? | Diario mural (vertical, 3:4) y teléfono (vertical, 9:16) |
 | Tono: ¿cómo tiene que sentirse? | Claro y positivo, sin dramatismo |
 
-El formato se define con la **relación de aspecto**, que es la proporción entre el ancho y el alto. Las guías de generación de imágenes trabajan con algunas comunes: 1:1 (cuadrada), 4:3 y 3:4, 16:9 (horizontal, como una pantalla) y 9:16 (vertical, como un teléfono).
+El formato se define con la **relación de aspecto**, que es la proporción entre el ancho y el alto. Las guías de generación de imágenes trabajan con algunas comunes: 1:1 (cuadrada), 4:3 y 3:4, 16:9 (horizontal, como una pantalla) y 9:16 (vertical, como un teléfono) [@F-M4-12].
 
-Con el mensaje claro sabrás qué tiene que mostrar la imagen y qué no, y podrás ordenar la pieza para que el mensaje sea lo primero que se vea, como verás en P08. Un error común es generar imágenes primero y ver después qué decir: sin mensaje, las imágenes salen al azar y se gastan los usos del día.
+Con el mensaje claro sabrás qué tiene que mostrar la imagen y qué no, y podrás ordenar la pieza para que el mensaje sea lo primero que se vea [@F-M4-09], como verás en P08. Un error común es generar imágenes primero y ver después qué decir: sin mensaje, las imágenes salen al azar y se gastan los usos del día.
 
 :::actividad Tu brief visual
 Escribe el mensaje, el público, el canal con su formato y el tono de tu campaña interna. El mensaje debe caber en una frase de no más de seis palabras: la usarás como título de la pieza.
@@ -5900,9 +5538,9 @@ cubre: S1
 fuentes: F-M4-12
 bloque: Texto + imagen con las partes señaladas
 
-Un **prompt visual** describe la imagen que quieres. Las guías de Google proponen armarlo con tres partes. La primera es el sujeto: qué o quién aparece, por ejemplo «una trabajadora de bodega empujando un carro». La segunda es el contexto y fondo: dónde está y qué la rodea, como «en un pasillo amplio y despejado, con estantes ordenados a los lados». La tercera es el estilo, que dice cómo se ve; puede ser general, como «ilustración» o «fotografía», o más específico, como «ilustración plana con colores sólidos».
+Un **prompt visual** describe la imagen que quieres. Las guías de Google proponen armarlo con tres partes [@F-M4-12]. La primera es el sujeto: qué o quién aparece, por ejemplo «una trabajadora de bodega empujando un carro». La segunda es el contexto y fondo: dónde está y qué la rodea, como «en un pasillo amplio y despejado, con estantes ordenados a los lados». La tercera es el estilo, que dice cómo se ve; puede ser general, como «ilustración» o «fotografía», o más específico, como «ilustración plana con colores sólidos».
 
-La misma guía recomienda partir de una idea central y agregar detalles en cada intento, en vez de escribir todo de una vez. Compara estos dos pedidos:
+La misma guía recomienda partir de una idea central y agregar detalles en cada intento, en vez de escribir todo de una vez [@F-M4-12]. Compara estos dos pedidos:
 
 | Antes | Después |
 |---|---|
@@ -5923,7 +5561,7 @@ cubre: S1, A1
 fuentes: F-M4-12
 bloque: Tabla + galería de variantes
 
-Con sujeto, contexto y estilo ya tienes una imagen. Para acercarla a lo que buscas, agrega **modificadores**: palabras que controlan la composición, la luz y el formato.
+Con sujeto, contexto y estilo ya tienes una imagen. Para acercarla a lo que buscas, agrega **modificadores**: palabras que controlan la composición, la luz y el formato [@F-M4-12].
 
 | Modificador | Qué controla | Ejemplos para tu prompt |
 |---|---|---|
@@ -5953,9 +5591,9 @@ Ahora te toca generar. Usa Gemini, el asistente del curso, en la app o en la web
 3. Mira el resultado y descárgalo. Sin un plan pagado, Gemini descarga en resolución 1K.
 4. Anota en tu bitácora el prompt tal como lo escribiste.
 
-Gemini genera con un modelo llamado Nano Banana 2 y tiene un límite diario de imágenes que Google no publica en cifras. Por eso conviene pensar el prompt antes de escribirlo, en vez de probar al azar hasta que se acabe el día.
+Gemini genera con un modelo llamado Nano Banana 2 y tiene un límite diario de imágenes que Google no publica en cifras [@F-H-56]. Por eso conviene pensar el prompt antes de escribirlo, en vez de probar al azar hasta que se acabe el día.
 
-Si prefieres otra herramienta, ChatGPT también crea y edita imágenes en su plan gratuito, en la web y en la app. Desde el celular deja seleccionar una zona de la imagen para editarla y cambiar la proporción, algo que te servirá cuando tengas que corregir defectos. Como en Gemini, su página de ayuda no dice cuántas imágenes puedes crear.
+Si prefieres otra herramienta, ChatGPT también crea y edita imágenes en su plan gratuito, en la web y en la app. Desde el celular deja seleccionar una zona de la imagen para editarla y cambiar la proporción, algo que te servirá cuando tengas que corregir defectos. Como en Gemini, su página de ayuda no dice cuántas imágenes puedes crear [@F-H-50].
 
 :::error «Pido el afiche completo, con título y todo, en un solo prompt»
 Los generadores todavía fallan con el texto dentro de la imagen. Pide la imagen sin texto y agrega el título en Canva. Lo verás en P07 y P10.
@@ -5966,7 +5604,7 @@ cubre: H1, A1, C1
 fuentes: F-M4-12, F-M4-06
 bloque: Galería con tres versiones + texto
 
-Rara vez la primera imagen es la final. **Iterar** es partir de una idea central y agregar o cambiar un detalle en cada versión, hasta acercarte a lo que buscas. Así lo hizo Andrés:
+Rara vez la primera imagen es la final. **Iterar** es partir de una idea central y agregar o cambiar un detalle en cada versión, hasta acercarte a lo que buscas [@F-M4-12]. Así lo hizo Andrés:
 
 | Versión | Cambio en el prompt | Resultado |
 |---|---|---|
@@ -5976,7 +5614,7 @@ Rara vez la primera imagen es la final. **Iterar** es partir de una idea central
 
 La recomendación del curso es cambiar una cosa a la vez, porque así sabes qué produjo la mejora. Si cambias el estilo, la luz y los personajes al mismo tiempo, pierdes lo que ya funcionaba y no sabes qué causó el cambio. Repetir el mismo prompt esperando que el azar lo arregle tampoco sirve: no aprendes nada y gastas tus usos.
 
-Cuando tengas dos o tres buenas opciones, elige con criterios y no solo por gusto. Pregúntate si se entiende el mensaje sin leer el título, si queda espacio libre para el título y el texto, si sirve en el formato de tu canal y si tiene algún defecto o sesgo, que verás en P07 y P11. La OMPI recomienda llevar registro de las instrucciones y documentar el aporte humano, y elegir entre versiones y decidir qué cambiar es parte de ese aporte.
+Cuando tengas dos o tres buenas opciones, elige con criterios y no solo por gusto. Pregúntate si se entiende el mensaje sin leer el título, si queda espacio libre para el título y el texto, si sirve en el formato de tu canal y si tiene algún defecto o sesgo, que verás en P07 y P11. La OMPI recomienda llevar registro de las instrucciones y documentar el aporte humano [@F-M4-06], y elegir entre versiones y decidir qué cambiar es parte de ese aporte.
 
 :::actividad Tres versiones
 Genera tres versiones de tu imagen cambiando un solo detalle en cada una. Anota en tu bitácora cada prompt, qué cambiaste y cuál elegiste, con una razón basada en los criterios de esta pantalla.
@@ -5987,7 +5625,7 @@ cubre: C2, S2
 fuentes: F-M4-12, F-M1-05
 bloque: Texto + imagen con defectos señalados
 
-Antes de usar una imagen, búscale los defectos. El más frecuente es el texto: dentro de una imagen generada suele salir mal escrito o mal ubicado. La guía de Google aconseja que sea breve, de 25 caracteres o menos, y advierte que su ubicación y su tipografía solo se controlan de forma aproximada. OpenAI reconoce límites parecidos en sus modelos de imagen: les cuesta ubicar el texto con precisión, controlar la composición en diseños estructurados y mantener igual a un personaje o una marca de una imagen a otra. Si haces dos versiones de tu pieza, el personaje puede cambiar.
+Antes de usar una imagen, búscale los defectos. El más frecuente es el texto: dentro de una imagen generada suele salir mal escrito o mal ubicado. La guía de Google aconseja que sea breve, de 25 caracteres o menos, y advierte que su ubicación y su tipografía solo se controlan de forma aproximada [@F-M4-12]. OpenAI reconoce límites parecidos en sus modelos de imagen: les cuesta ubicar el texto con precisión, controlar la composición en diseños estructurados y mantener igual a un personaje o una marca de una imagen a otra [@F-M1-05]. Si haces dos versiones de tu pieza, el personaje puede cambiar.
 
 Hay otros defectos que solo detectas mirando con calma y con zoom, como una etiqueta de seguridad con letras inventadas o una caja flotando sobre un estante. Parecen detalles, pero restan seriedad a una campaña. Cuando encuentres uno, corrige en este orden:
 
@@ -6009,9 +5647,9 @@ cubre: S2, A1, C1
 fuentes: F-M4-09
 bloque: Texto + imagen antes/después
 
-La **jerarquía visual** es el orden en que la vista recorre los elementos de una pieza, según la importancia que les quieres dar. En un afiche de campaña, lo primero que se ve tiene que ser el mensaje principal. Se construye con tres recursos que puedes aplicar sin haber estudiado diseño.
+La **jerarquía visual** es el orden en que la vista recorre los elementos de una pieza, según la importancia que les quieres dar [@F-M4-09]. En un afiche de campaña, lo primero que se ve tiene que ser el mensaje principal. Se construye con tres recursos que puedes aplicar sin haber estudiado diseño.
 
-El primero es el contraste: lo que se diferencia de su entorno llama la atención. Funciona mejor la diferencia de valor, entre claro y oscuro, y la de saturación, entre intenso y apagado, que la diferencia de tono, y no conviene depender solo del color. El segundo es la escala: lo más grande se ve primero. Usa pocos tamaños distintos, un título grande, un texto mediano y, si hace falta, un dato pequeño, porque si todo es grande, nada destaca. El tercero es la agrupación: lo que va junto se entiende como una unidad. Se agrupa por cercanía, con bordes o con un fondo común, y se separa con espacio entre grupos.
+El primero es el contraste: lo que se diferencia de su entorno llama la atención. Funciona mejor la diferencia de valor, entre claro y oscuro, y la de saturación, entre intenso y apagado, que la diferencia de tono, y no conviene depender solo del color. El segundo es la escala: lo más grande se ve primero. Usa pocos tamaños distintos, un título grande, un texto mediano y, si hace falta, un dato pequeño, porque si todo es grande, nada destaca. El tercero es la agrupación: lo que va junto se entiende como una unidad. Se agrupa por cercanía, con bordes o con un fondo común, y se separa con espacio entre grupos [@F-M4-09].
 
 Antes de pasar a Canva, mira tu imagen elegida y decide dónde irá el título, qué irá en segundo lugar y qué espacio quedará libre. Basta un boceto rápido en papel o en una nota del celular.
 
@@ -6024,9 +5662,9 @@ cubre: S2, C1
 fuentes: F-M4-08
 bloque: Texto + ejemplos de contraste (bueno y malo)
 
-Una pieza que no se lee no comunica. Las Pautas de Accesibilidad para el Contenido Web (WCAG) del W3C son un estándar internacional que da criterios concretos para evitarlo. Piden que el texto tenga un **contraste mínimo** de 4,5:1 con su fondo, y de 3:1 si es texto grande, que es el de 18 puntos o más, o de 14 puntos o más en negrita. Los íconos o flechas necesarios para entender la pieza también requieren 3:1.
+Una pieza que no se lee no comunica. Las Pautas de Accesibilidad para el Contenido Web (WCAG) del W3C son un estándar internacional que da criterios concretos para evitarlo. Piden que el texto tenga un **contraste mínimo** de 4,5:1 con su fondo, y de 3:1 si es texto grande, que es el de 18 puntos o más, o de 14 puntos o más en negrita [@F-M4-08]. Los íconos o flechas necesarios para entender la pieza también requieren 3:1.
 
-Las mismas pautas dicen que el color no puede ser el único medio para transmitir información: si marcas en rojo una zona prohibida, agrega un ícono o una palabra. Y si la pieza se publica en digital, la imagen necesita un texto alternativo, una descripción en texto que cumpla la misma función para quien no puede verla.
+Las mismas pautas dicen que el color no puede ser el único medio para transmitir información: si marcas en rojo una zona prohibida, agrega un ícono o una palabra. Y si la pieza se publica en digital, la imagen necesita un texto alternativo, una descripción en texto que cumpla la misma función para quien no puede verla [@F-M4-08].
 
 Un error común es pensar que, si se ve bien en tu pantalla, se lee bien en todas. Tu pantalla puede tener más brillo o tamaño que la de tus colegas, y el contraste mínimo asegura que se lea en distintas condiciones. Como recomendación del curso, usa letra oscura sobre fondo claro, o clara sobre fondo oscuro, evita poner texto sobre zonas de la imagen con muchos detalles y haz una prueba: mira la pieza en el celular con el brillo bajo y a un brazo de distancia. Si te cuesta leer el título, sube el contraste o el tamaño.
 
@@ -6048,9 +5686,9 @@ Con tu imagen elegida, arma la pieza en Canva, en la app o en la web:
 5. Revisa la jerarquía: pocos tamaños, espacio entre grupos, nada amontonado.
 6. Descarga la pieza y, si tu campaña lo necesita, haz una segunda versión en el otro formato.
 
-Canva también genera imágenes con IA. En el plan gratuito tienes hasta 20 usos de IA al mes, compartidos entre todas sus herramientas de IA, y la cuota se renueva el día 1 de cada mes. Si ya generaste tu imagen en Gemini, guarda esos usos para la voz o la música del tema 3.
+Canva también genera imágenes con IA. En el plan gratuito tienes hasta 20 usos de IA al mes, compartidos entre todas sus herramientas de IA, y la cuota se renueva el día 1 de cada mes [@F-H-68]. Si ya generaste tu imagen en Gemini, guarda esos usos para la voz o la música del tema 3.
 
-Según los términos de Canva, eres dueña o dueño de lo que generas con su IA, salvo que incluyas contenido de su biblioteca: las fotos, íconos o ilustraciones de Canva solo se licencian. Canva también prohíbe quitar los metadatos de procedencia y hacer pasar por humano lo generado con IA.
+Según los términos de Canva, eres dueña o dueño de lo que generas con su IA, salvo que incluyas contenido de su biblioteca: las fotos, íconos o ilustraciones de Canva solo se licencian. Canva también prohíbe quitar los metadatos de procedencia y hacer pasar por humano lo generado con IA [@F-H-67].
 
 :::error «Todo lo que está en Canva es mío porque lo usé en mi diseño»
 Los elementos de la biblioteca de Canva solo se licencian: no pasan a ser tuyos. Anótalos en tu ficha de uso ético.
@@ -6061,9 +5699,9 @@ cubre: S3, A2
 fuentes: F-M4-11, F-M4-10
 bloque: Texto + imagen comparativa
 
-Los generadores de imágenes aprenden de imágenes que ya existen, y con ellas aprenden también sus estereotipos. A esto se le llama **sesgo visual**, y no es una sospecha. Un estudio de 2023 pidió a tres generadores de imágenes retratos de distintas profesiones: las imágenes reflejaban en parte la composición de cada oficio en Estados Unidos y, de forma sistemática, subrepresentaban a las identidades marginadas, en distinto grado según el sistema. Por eso el sesgo puede aparecer aunque tu prompt no diga nada sobre género ni edad.
+Los generadores de imágenes aprenden de imágenes que ya existen, y con ellas aprenden también sus estereotipos. A esto se le llama **sesgo visual**, y no es una sospecha. Un estudio de 2023 pidió a tres generadores de imágenes retratos de distintas profesiones: las imágenes reflejaban en parte la composición de cada oficio en Estados Unidos y, de forma sistemática, subrepresentaban a las identidades marginadas, en distinto grado según el sistema [@F-M4-11]. Por eso el sesgo puede aparecer aunque tu prompt no diga nada sobre género ni edad.
 
-El problema no es solo de la IA. La comunicación institucional también puede reforzar estereotipos sin proponérselo. La guía del Gobierno de Chile *Comunicación sin estereotipos de género* muestra campañas visuales en su versión «antes» y «después», por ejemplo cuando los roles de cuidado se asignan solo a mujeres. Si la herramienta te entrega un estereotipo y tú lo publicas, el mensaje pasa a ser de tu organización.
+El problema no es solo de la IA. La comunicación institucional también puede reforzar estereotipos sin proponérselo. La guía del Gobierno de Chile *Comunicación sin estereotipos de género* muestra campañas visuales en su versión «antes» y «después», por ejemplo cuando los roles de cuidado se asignan solo a mujeres [@F-M4-10]. Si la herramienta te entrega un estereotipo y tú lo publicas, el mensaje pasa a ser de tu organización.
 
 Cuidar cómo representas a las personas es parte de comunicar bien. Quien no se ve en la campaña siente que no le habla, y una campaña interna que deja fuera a parte del equipo pierde justo a quienes tenía que convencer.
 
@@ -6076,9 +5714,9 @@ cubre: C2, S3, A2
 fuentes: F-M4-10, F-M4-11
 bloque: Texto + actividad de clasificación
 
-Antes de publicar, revisa tus imágenes con preguntas. La guía de Gobierno sugiere, entre otras, preguntarte si hay diversidad étnica, de género y de roles, y si la imagen refleja equidad sin perpetuar estereotipos. El curso agrega dos más: si aparecen distintas edades y cuerpos, como en un equipo real, y quién hace la acción y quién mira, para notar si el rol importante lo tiene siempre el mismo perfil. Para los defectos, repasa lo de P07: si el texto está bien escrito o lo quitaste, y si hay elementos mal ubicados o sin sentido.
+Antes de publicar, revisa tus imágenes con preguntas. La guía de Gobierno sugiere, entre otras, preguntarte si hay diversidad étnica, de género y de roles, y si la imagen refleja equidad sin perpetuar estereotipos [@F-M4-10]. El curso agrega dos más: si aparecen distintas edades y cuerpos, como en un equipo real, y quién hace la acción y quién mira, para notar si el rol importante lo tiene siempre el mismo perfil. Para los defectos, repasa lo de P07: si el texto está bien escrito o lo quitaste, y si hay elementos mal ubicados o sin sentido.
 
-Si encuentras un sesgo, tienes dos caminos. Puedes cambiar el prompt y describir la diversidad que quieres, por ejemplo «un equipo de bodega con mujeres y hombres de distintas edades». O puedes cambiar la selección: si de cuatro variantes solo una muestra un equipo diverso, elige esa. En los dos casos vuelve a revisar, porque a veces corregir un sesgo trae otro, como dejar a todas las mujeres en segundo plano.
+Si encuentras un sesgo, que en estos generadores es sistemático [@F-M4-11], tienes dos caminos. Puedes cambiar el prompt y describir la diversidad que quieres, por ejemplo «un equipo de bodega con mujeres y hombres de distintas edades». O puedes cambiar la selección: si de cuatro variantes solo una muestra un equipo diverso, elige esa. En los dos casos vuelve a revisar, porque a veces corregir un sesgo trae otro, como dejar a todas las mujeres en segundo plano.
 
 :::actividad Revisa cuatro variantes
 Andrés generó cuatro versiones. Decide cuál usaría y qué corregiría en las otras, y después compara con estas respuestas:
@@ -6093,11 +5731,11 @@ cubre: A2, S3
 fuentes: F-M4-06, F-M4-16
 bloque: Escenarios con decisión (sí o no)
 
-Las imágenes generadas pueden parecerse a una persona real o usar una marca ajena, y en una campaña interna eso también importa. La OMPI recomienda no sintetizar la apariencia de una persona real sin su consentimiento y sin las licencias necesarias. Si quieres poner a alguien de tu equipo en la pieza, pídele permiso antes de usar su foto, y más aún si la vas a editar con IA. En el tema 3 verás además que la Ley 21.719 pone los rasgos faciales como ejemplo de datos biométricos, que pasan a ser datos personales sensibles.
+Las imágenes generadas pueden parecerse a una persona real o usar una marca ajena, y en una campaña interna eso también importa. La OMPI recomienda no sintetizar la apariencia de una persona real sin su consentimiento y sin las licencias necesarias [@F-M4-06]. Si quieres poner a alguien de tu equipo en la pieza, pídele permiso antes de usar su foto, y más aún si la vas a editar con IA. En el tema 3 verás además que la Ley 21.719 pone los rasgos faciales como ejemplo de datos biométricos, que pasan a ser datos personales sensibles [@F-M4-16].
 
 Un error común es pensar que, por ser una campaña interna, se puede usar la cara de un colega o de la gerencia sin preguntar. Que la pieza no salga de la empresa no elimina el derecho de cada persona sobre su imagen: sin consentimiento, no se usa su cara ni se genera una parecida, y nombrarla en los créditos no reemplaza su permiso.
 
-Con las marcas y las obras ajenas pasa algo parecido. La OMPI también recomienda no usar en las instrucciones nombres comerciales, marcas ni obras de terceros, así que no pidas una imagen «al estilo de» un personaje conocido ni con el logo de una marca. Si vas a usar el logo de tu propia organización, la recomendación del curso es hacerlo solo si te autorizaron. Y no inventes hechos: una imagen realista de un accidente que no ocurrió, presentada como real, es un ultrafalso aunque la intención sea buena, y la OMPI recomienda no usar herramientas para producirlos.
+Con las marcas y las obras ajenas pasa algo parecido. La OMPI también recomienda no usar en las instrucciones nombres comerciales, marcas ni obras de terceros [@F-M4-06], así que no pidas una imagen «al estilo de» un personaje conocido ni con el logo de una marca. Si vas a usar el logo de tu propia organización, la recomendación del curso es hacerlo solo si te autorizaron. Y no inventes hechos: una imagen realista de un accidente que no ocurrió, presentada como real, es un ultrafalso aunque la intención sea buena, y la OMPI recomienda no usar herramientas para producirlos.
 
 :::comprueba
 Andrés quiere una imagen «al estilo de una película animada famosa». ¿Qué le recomiendas?
@@ -6112,9 +5750,9 @@ cubre: H1, C1
 fuentes: F-H-57, F-H-52
 bloque: Texto + diagrama de cómo se pierden los metadatos
 
-Algunas herramientas marcan sus imágenes para que se sepa que se hicieron con IA. Google inserta **SynthID**, una marca de agua invisible, en el contenido que crean sus modelos, y en la app Gemini puedes subir un archivo para revisar si se hizo con IA de Google, aunque solo detecta herramientas de Google. OpenAI, por su parte, pone en las imágenes de ChatGPT una marca SynthID y además **credenciales de contenido** C2PA, un registro del origen y las ediciones del archivo que viaja en sus metadatos.
+Algunas herramientas marcan sus imágenes para que se sepa que se hicieron con IA. Google inserta **SynthID**, una marca de agua invisible, en el contenido que crean sus modelos, y en la app Gemini puedes subir un archivo para revisar si se hizo con IA de Google, aunque solo detecta herramientas de Google [@F-H-57]. OpenAI, por su parte, pone en las imágenes de ChatGPT una marca SynthID y además **credenciales de contenido** C2PA, un registro del origen y las ediciones del archivo que viaja en sus metadatos [@F-H-52].
 
-El problema es que los metadatos se pierden con facilidad. OpenAI indica que las credenciales C2PA se pierden con una captura de pantalla o al convertir el archivo, mientras que la marca de agua resiste cambios leves. Si compartes tu afiche con una captura, la constancia de que se hizo con IA puede desaparecer sin que lo notes.
+El problema es que los metadatos se pierden con facilidad. OpenAI indica que las credenciales C2PA se pierden con una captura de pantalla o al convertir el archivo, mientras que la marca de agua resiste cambios leves [@F-H-52]. Si compartes tu afiche con una captura, la constancia de que se hizo con IA puede desaparecer sin que lo notes.
 
 La conclusión práctica es no confiar en que el archivo lo dirá por ti. Si la imagen es realista, agrega una etiqueta visible, como «Imagen generada con IA», y regístralo en tu ficha de uso ético. Tampoco quites las marcas que trae: ya viste en P10 que Canva prohíbe quitar los metadatos de procedencia.
 
@@ -6131,7 +5769,7 @@ cubre: H1, C1, C2, A1, A2
 fuentes: F-M4-09, F-M4-08
 bloque: Lista de verificación (checklist) + actividad de cierre
 
-En este laboratorio pasaste del mensaje a la pieza. Escribiste un brief visual, armaste un prompt con sujeto, contexto, estilo y modificadores, iteraste y elegiste con criterios, corregiste defectos y sesgos, y compusiste la pieza con jerarquía y contraste. Antes de darla por terminada, revísala completa:
+En este laboratorio pasaste del mensaje a la pieza. Escribiste un brief visual, armaste un prompt con sujeto, contexto, estilo y modificadores, iteraste y elegiste con criterios, corregiste defectos y sesgos, y compusiste la pieza con jerarquía y contraste [@F-M4-09; @F-M4-08]. Antes de darla por terminada, revísala completa:
 
 - [ ] El mensaje principal es lo primero que se ve.
 - [ ] Hay pocos tamaños de letra y espacio entre los grupos.
@@ -6156,46 +5794,23 @@ Entrega tu pieza final de la campaña interna en el formato de tu canal. Luego c
 6. Los generadores reproducen sesgos: hay que revisar diversidad y roles, y corregir el prompt o la selección.
 7. Las marcas SynthID y C2PA ayudan, pero los metadatos se pierden al compartir: si la imagen es realista, se etiqueta de forma visible.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Campaña interna**: comunicación dirigida a las personas de una organización para informar o promover una conducta.
-- **Prompt visual**: instrucción que describe la imagen que se quiere generar: sujeto, contexto y estilo.
-- **Modificador**: palabra o frase del prompt que controla un aspecto de la imagen, como el encuadre o la luz.
-- **Encuadre**: qué parte de la escena se ve y qué tan cerca está el sujeto.
-- **Relación de aspecto**: proporción entre el ancho y el alto de una imagen, como 3:4 o 16:9.
-- **Iterar**: mejorar un resultado en versiones sucesivas, cambiando un detalle en cada una.
-- **Jerarquía visual**: orden en que la vista recorre los elementos de una pieza según su importancia.
-- **Contraste**: diferencia de claridad o intensidad entre un elemento y su fondo.
-- **Texto alternativo**: descripción en texto de una imagen, que cumple su función para quien no puede verla.
-- **Sesgo visual**: tendencia de un generador de imágenes a repetir estereotipos o a subrepresentar a ciertos grupos.
-- **SynthID**: marca de agua invisible que Google incrusta en el contenido que crean sus modelos.
-- **Credenciales de contenido (C2PA)**: estándar abierto que registra el origen y las ediciones de un archivo digital.
-- **Metadatos**: datos que acompañan a un archivo y describen, por ejemplo, cómo y con qué se creó.
-
-### Conexión con el proyecto
-
-Este laboratorio alimenta el **Hito 4 del proyecto aplicado: pieza multimedia que comunica la solución**. Si tu pieza del Hito 4 es visual, puedes partir del brief y de la pieza de P15 y adaptarlos a la propuesta de tu proyecto, con su ficha de uso ético. Si haces un clip, esta imagen será uno de sus recursos en el tema 4.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M4.md`, `investigacion/M1.md` y `investigacion/HERRAMIENTAS-2.md`
-(consultadas el 24-10-2026). Los planes gratuitos cambian a menudo: revisar de nuevo antes de publicar.
-
-- F-M4-06 · OMPI (2024). IA generativa: cómo abordar la propiedad intelectual. https://www.wipo.int/edocs/pubdocs/es/wipo-pub-rn2024-8-es-generative-ai-navigating-intellectual-property.pdf
-- F-M4-08 · W3C (2024). Web Content Accessibility Guidelines (WCAG) 2.2. https://www.w3.org/TR/WCAG22/
-- F-M4-09 · Nielsen Norman Group; Kelley Gordon (2021). Visual Hierarchy in UX: Definition. https://www.nngroup.com/articles/visual-hierarchy-ux-definition/
-- F-M4-10 · Gobierno de Chile, Kit Digital (2024). Guía ilustrada: Comunicación sin estereotipos de género. https://kitdigital.gob.cl/archivos/insumos/2025/Nueva%20Guia%20Ilustrada%20Comunicacion%202024.pdf
-- F-M4-11 · Luccioni, Akiki, Mitchell y Jernite (2023). Stable Bias: Analyzing Societal Representations in Diffusion Models. https://arxiv.org/abs/2303.11408
-- F-M4-12 · Google Cloud (2026). Guía de atributos de imágenes y mensajes (Vertex AI). https://docs.cloud.google.com/vertex-ai/generative-ai/docs/image/img-gen-prompt-guide?hl=es-419
-- F-M4-16 · Congreso Nacional de Chile / BCN (2024). Ley 21.719, que regula la protección y el tratamiento de los datos personales. https://www.bcn.cl/leychile/navegar?idNorma=1209272
-- F-M1-05 · OpenAI (2026). Image generation: limitations. https://developers.openai.com/api/docs/guides/image-generation
-- F-H-50 · OpenAI (2026). Images in ChatGPT. https://help.openai.com/en/articles/11084440-images-in-chatgpt
-- F-H-52 · OpenAI (2026). Provenance signals in OpenAI-generated content. https://help.openai.com/en/articles/8912793-provenance-signals-in-openai-generated-content
-- F-H-56 · Google (s. f.). Generar imágenes con las aplicaciones de Gemini. https://support.google.com/gemini/answer/14286560?hl=es
-- F-H-57 · Google (s. f.). Verificar imágenes, vídeos y audio generados por IA. https://support.google.com/gemini/answer/16722517?hl=es
-- F-H-67 · Canva (2026). AI Product Terms. https://www.canva.com/policies/ai-product-terms/
-- F-H-68 · Canva (s. f.). Comprender el uso de la IA. https://www.canva.com/es_es/help/ai-access/
-- F-H-69 · Canva (s. f.). Canva for Android. https://www.canva.com/download/android/
+- Canva. (s. f.-a). *Canva for Android*. https://www.canva.com/download/android/
+- Canva. (s. f.-b). *Comprender el uso de la IA*. https://www.canva.com/es_es/help/ai-access/
+- Canva. (2026, 26 de junio). *AI product terms*. https://www.canva.com/policies/ai-product-terms/
+- Gobierno de Chile. (2024). *Guía ilustrada: comunicación sin estereotipos de género*. Kit Digital. https://kitdigital.gob.cl/archivos/insumos/2025/Nueva%20Guia%20Ilustrada%20Comunicacion%202024.pdf
+- Google. (s. f.-a). *Generar imágenes con las aplicaciones de Gemini*. https://support.google.com/gemini/answer/14286560?hl=es
+- Google. (s. f.-b). *Verificar imágenes, vídeos y audio generados por IA*. https://support.google.com/gemini/answer/16722517?hl=es
+- Google. (2026, 23 de octubre). *Guía de atributos de imágenes y mensajes (Vertex AI)*. Google Cloud. https://docs.cloud.google.com/vertex-ai/generative-ai/docs/image/img-gen-prompt-guide?hl=es-419
+- Gordon, K. (2021, 17 de enero). *Visual hierarchy in UX: Definition*. Nielsen Norman Group. https://www.nngroup.com/articles/visual-hierarchy-ux-definition/
+- Ley 21.719. (2024, 13 de diciembre). *Regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idNorma=1209272
+- Luccioni, A. S., Akiki, C., Mitchell, M. y Jernite, Y. (2023). *Stable bias: Analyzing societal representations in diffusion models*. arXiv. https://arxiv.org/abs/2303.11408
+- OMPI. (2024). *IA generativa: cómo abordar la propiedad intelectual (RN2024-8ES)*. https://doi.org/10.34667/tind.49471
+- OpenAI. (s. f.). *Image generation*. OpenAI API Docs. https://developers.openai.com/api/docs/guides/image-generation
+- OpenAI. (2026a, 24 de octubre). *Images in ChatGPT*. OpenAI Help Center. https://help.openai.com/en/articles/11084440-images-in-chatgpt
+- OpenAI. (2026b, 24 de octubre). *Provenance signals in OpenAI-generated content*. OpenAI Help Center. https://help.openai.com/en/articles/8912793-provenance-signals-in-openai-generated-content
+- W3C. (2024, 12 de diciembre). *Web Content Accessibility Guidelines (WCAG) 2.2*. https://www.w3.org/TR/WCAG22/
 
 
 ## M4-AE3 · Audio y música
@@ -6209,7 +5824,7 @@ Una voz clara y una música bien elegida hacen que un mensaje se escuche y se re
 
 El aprendizaje esperado es este: Generar audio, voz y música con IA para una pieza de comunicación, cuidando derechos de voz y atribución. Al final deberías poder generar una locución y una pista musical adecuadas al uso, y verificar los derechos y el consentimiento que exige tu pieza.
 
-Es un laboratorio guiado en el que producirás dos audios con herramientas gratuitas. La locución la harás con ElevenLabs, que tiene app para iOS y Android con texto a voz, biblioteca de voces y diseño de voz. La pista musical, con el generador de música de Canva, que entra en los 20 usos de IA al mes de su plan gratuito, o con Eleven Music, que está en la versión web de ElevenLabs.
+Es un laboratorio guiado en el que producirás dos audios con herramientas gratuitas. La locución la harás con ElevenLabs, que tiene app para iOS y Android con texto a voz, biblioteca de voces y diseño de voz [@F-H-78]. La pista musical, con el generador de música de Canva, que entra en los 20 usos de IA al mes de su plan gratuito [@F-H-68], o con Eleven Music, que está en la versión web de ElevenLabs [@F-H-78].
 
 Andrés sigue con su campaña de pasillos despejados: después del afiche, su jefatura le pidió un clip de un minuto para la reunión de inicio de turno, y en este tema preparará la voz y la música. Camila hará lo mismo para la campaña de reciclaje de su oficina, y tú, para tu propia campaña interna. Lo que verás sobre leyes es orientación general para trabajar con cuidado, no asesoría legal: si una pieza usa la voz o la imagen de otra persona y tienes dudas, consulta en tu organización o con una persona especialista.
 
@@ -6228,9 +5843,9 @@ En el módulo 1 conociste los modelos de audio, que generan voz, música o efect
 | Cambiador de voz | Transforma una grabación con otra voz |
 | Aislador de voz | Separa la voz del ruido de fondo |
 
-La música generada a partir de una descripción, que en esa herramienta se llama Eleven Music, está solo en la web, no en la app.
+La música generada a partir de una descripción, que en esa herramienta se llama Eleven Music, está solo en la web, no en la app [@F-H-78].
 
-Hay otra función que merece cuidado especial: la **clonación de voz**, que crea una copia de la voz de una persona a partir de grabaciones suyas. Cuando un audio, una imagen o un video imita de forma realista la voz o la apariencia de una persona, se habla de una **réplica digital**. La oficina de derecho de autor de Estados Unidos da como ejemplos las actuaciones musicales generadas con IA y las llamadas automáticas que suplantan a alguien, y aclara que puede haber réplica con o sin autorización de la persona imitada.
+Hay otra función que merece cuidado especial: la **clonación de voz**, que crea una copia de la voz de una persona a partir de grabaciones suyas. Cuando un audio, una imagen o un video imita de forma realista la voz o la apariencia de una persona, se habla de una **réplica digital**. La oficina de derecho de autor de Estados Unidos da como ejemplos las actuaciones musicales generadas con IA y las llamadas automáticas que suplantan a alguien, y aclara que puede haber réplica con o sin autorización de la persona imitada [@F-M4-19].
 
 :::ejemplo Diseñar una voz o clonarla
 Andrés necesita una voz adulta y tranquila. Puede elegir una de la biblioteca o diseñar una nueva con esas características. No necesita clonar la voz de nadie.
@@ -6249,7 +5864,7 @@ La voz y la música se eligen pensando en quién escucha, dónde y para qué. Es
 | Un mensaje telefónico con horarios | Neutra y muy clara | Sin música, o muy baja |
 | Un clip motivacional para una reunión | Cálida y con energía | Con ritmo, que acompañe sin distraer |
 
-Además, mira las reglas del canal donde se publicará la pieza. En YouTube, por ejemplo, la música creada con IA debe declararse cuando es el foco principal del video, mientras que clonar tu propia voz para narrar no requiere declararse. Y si usas el plan gratuito de ElevenLabs y publicas lo que generaste, tienes que poner «elevenlabs.io» o «11.ai» en el título, o «Eleven Music» si es música.
+Además, mira las reglas del canal donde se publicará la pieza. En YouTube, por ejemplo, la música creada con IA debe declararse cuando es el foco principal del video, mientras que clonar tu propia voz para narrar no requiere declararse [@F-M4-15]. Y si usas el plan gratuito de ElevenLabs y publicas lo que generaste, tienes que poner «elevenlabs.io» o «11.ai» en el título, o «Eleven Music» si es música [@F-H-76].
 
 Para Andrés, el clip es para una reunión interna del turno, así que elige una voz clara y cercana y una pista suave de fondo, que no compita con lo que dice la locución.
 
@@ -6275,7 +5890,7 @@ La locución empieza por un buen guion: el texto que la voz va a leer. Se escrib
 
 Puedes pedirle a Gemini un primer borrador, por ejemplo: «Escribe una locución de 30 segundos para un clip interno sobre mantener despejados los pasillos de una bodega. Frases cortas, tono cercano, termina con un llamado a la acción». Después la ajustas tú. Así cambió una frase del borrador de Andrés: «Recuerde: el 100 % de los pasillos (incl. zona B) debe estar libre según proc. interno» pasó a ser «Todos los pasillos, también los de la zona B, tienen que estar despejados. Es nuestra regla».
 
-Luego cronometra la locución, como recomiendan las guías de producción de video, para ajustarla a la duración que necesitas. Léela en voz alta con un cronómetro o deja que el celular la lea: en Android, la función de accesibilidad Enunciar selección lee en voz alta lo que seleccionas en pantalla, y se activa en Ajustes > Accesibilidad.
+Luego cronometra la locución, como recomiendan las guías de producción de video, para ajustarla a la duración que necesitas [@F-M4-20]. Léela en voz alta con un cronómetro o deja que el celular la lea: en Android, la función de accesibilidad Enunciar selección lee en voz alta lo que seleccionas en pantalla, y se activa en Ajustes > Accesibilidad [@F-H-86].
 
 :::actividad Tu guion de locución
 Escribe el guion de una locución de 20 a 40 segundos para tu campaña. Cronométralo y ajústalo hasta que entre en el tiempo.
@@ -6295,7 +5910,7 @@ Ahora genera la voz en la app de ElevenLabs, siguiendo estos pasos:
 5. Descarga el audio y guárdalo con un nombre claro, por ejemplo «locucion-campaña-v1».
 6. Anota en tu bitácora la voz elegida, la fecha y el plan.
 
-El plan gratuito entrega 10.000 créditos al mes, compartidos entre texto a voz, efectos de sonido, diseño de voz y música. No incluye **licencia comercial**, que empieza en el plan Starter, de pago. Si publicas lo que hiciste con el plan gratuito, tienes que poner «elevenlabs.io» o «11.ai» en el título, o «Eleven Music» si es música, y lo hecho con funciones beta no se puede usar comercialmente.
+El plan gratuito entrega 10.000 créditos al mes, compartidos entre texto a voz, efectos de sonido, diseño de voz y música. No incluye **licencia comercial**, que empieza en el plan Starter, de pago [@F-H-75]. Si publicas lo que hiciste con el plan gratuito, tienes que poner «elevenlabs.io» o «11.ai» en el título, o «Eleven Music» si es música, y lo hecho con funciones beta no se puede usar comercialmente [@F-H-76].
 
 Para las prácticas del curso y una campaña interna que no se vende, la recomendación del curso es que el plan gratuito con atribución basta. Si la pieza será para clientes o para vender, necesitas una herramienta o un plan con licencia comercial, como viste en el análisis de las piezas de Rosa en el tema 1.
 
@@ -6318,7 +5933,7 @@ Escucha tu locución con audífonos, de principio a fin, y revísala con estas p
 
 Si algo falla, casi siempre se arregla en el texto. Escribe los números con letras, separa una frase larga en dos o cambia una sigla o una abreviatura por las palabras completas, y vuelve a generar solo el fragmento con problemas. Si lo que no calza es el tono, prueba otra voz.
 
-Si ElevenLabs no te funciona, tienes dos alternativas gratuitas. La Voz con IA de Canva entra en los 20 usos de IA al mes de su plan gratuito. Y CapCut ofrece un texto a voz que, según su página, es gratis, tiene más de 200 voces, incluye español y sirve para usos comerciales si se siguen sus términos; eso sí, los pasos que describe son para computador y web.
+Si ElevenLabs no te funciona, tienes dos alternativas gratuitas. La Voz con IA de Canva entra en los 20 usos de IA al mes de su plan gratuito [@F-H-68]. Y CapCut ofrece un texto a voz que, según su página, es gratis, tiene más de 200 voces, incluye español y sirve para usos comerciales si se siguen sus términos; eso sí, los pasos que describe son para computador y web [@F-H-85].
 
 :::ejemplo La sigla de Andrés
 En la primera versión, la voz leyó «EPP» como una palabra. Andrés cambió el texto por «elementos de protección personal» y la segunda versión salió clara.
@@ -6333,8 +5948,8 @@ Para la pista musical hay varias herramientas, pero no todas sirven gratis para 
 
 | Herramienta | Plan gratuito | ¿Sirve para tu clip? |
 |---|---|---|
-| Suno | 50 créditos al día, sin derechos comerciales y sin descargas de canciones | No: sirve para escuchar, no para montar |
-| Udio | Desactivó las descargas de audio, video y pistas separadas tras su acuerdo con Universal Music Group, en octubre de 2025 | No |
+| Suno | 50 créditos al día, sin derechos comerciales y sin descargas de canciones [@F-H-79] | No: sirve para escuchar, no para montar |
+| Udio | Desactivó las descargas de audio, video y pistas separadas tras su acuerdo con Universal Music Group, en octubre de 2025 [@F-H-82] | No |
 | Generador de música de Canva | Dentro de los 20 usos de IA al mes (P01 y P06) | Sí, si tu cuenta gratuita lo muestra |
 | Eleven Music | Usa los créditos del plan gratuito de ElevenLabs, con la atribución que viste en P05 | Sí, para uso no comercial y con atribución |
 
@@ -6351,7 +5966,7 @@ bloque: Proceso paso a paso + actividad
 
 Ahora genera la música. Para describir una pista, la recomendación del curso es pensar en cuatro cosas: el ánimo (tranquilo, alegre, con energía), los instrumentos (piano, guitarra, percusión suave), el ritmo (lento, medio o rápido) y el uso, por ejemplo «música de fondo, sin voz, para acompañar una locución». Un pedido completo sería: «Pista instrumental alegre y tranquila, guitarra y percusión suave, ritmo medio, sin voz, para fondo de una locución».
 
-No nombres artistas ni canciones. La OMPI recomienda no usar obras de terceros en las instrucciones, así que en vez de pedir algo «al estilo de» una banda conocida, describe el ánimo, los instrumentos y el ritmo. Después sigue estos pasos:
+No nombres artistas ni canciones. La OMPI recomienda no usar obras de terceros en las instrucciones [@F-M4-06], así que en vez de pedir algo «al estilo de» una banda conocida, describe el ánimo, los instrumentos y el ritmo. Después sigue estos pasos:
 
 1. Abre el generador de música de Canva o Eleven Music, en el navegador.
 2. Escribe tu descripción y genera.
@@ -6359,7 +5974,7 @@ No nombres artistas ni canciones. La OMPI recomienda no usar obras de terceros e
 4. Descarga la pista y guárdala con un nombre claro.
 5. Anota la herramienta, el plan, la descripción y la fecha.
 
-En Canva gastarás uno de tus 20 usos de IA del mes; en Eleven Music, créditos del plan gratuito, con la atribución que viste en P05.
+En Canva gastarás uno de tus 20 usos de IA del mes [@F-H-68]; en Eleven Music, créditos del plan gratuito, con la atribución que viste en P05.
 
 :::actividad Tu pista y tu mezcla
 Genera dos pistas con descripciones distintas. Escucha cada una con tu locución y elige la que acompaña mejor sin distraer. Anota por qué la elegiste.
@@ -6372,9 +5987,9 @@ bloque: Texto + recuadro destacado
 
 Cuando una pieza usa la voz o la imagen de una persona real, entran en juego derechos distintos del derecho de autor, y conviene no confundirlos.
 
-En Chile, el artículo 19 n.º 4 de la Constitución asegura a todas las personas el respeto y la protección de su vida privada y de su honra, y de las de su familia, y la protección de sus datos personales. No menciona de forma expresa la propia imagen ni la voz, pero ambas tienen que ver con la vida privada y con los datos personales de cada quien. En la próxima pantalla verás que una ley reciente lo dice de forma directa para la voz y los rasgos faciales.
+En Chile, el artículo 19 n.º 4 de la Constitución asegura a todas las personas el respeto y la protección de su vida privada y de su honra, y de las de su familia, y la protección de sus datos personales [@F-M4-17]. No menciona de forma expresa la propia imagen ni la voz, pero ambas tienen que ver con la vida privada y con los datos personales de cada quien. En la próxima pantalla verás que una ley reciente lo dice de forma directa para la voz y los rasgos faciales.
 
-El derecho de autor, en cambio, no protege la identidad. La oficina de derecho de autor de Estados Unidos lo explica así: copiar solo la voz o la imagen de alguien no infringe el derecho de autor, aunque puede afectar otros derechos. Que algo no sea plagio no significa que esté permitido. Recuerda también lo que viste en el tema 1: la licencia de una foto o de una grabación no reemplaza el permiso de la persona que aparece en ella.
+El derecho de autor, en cambio, no protege la identidad. La oficina de derecho de autor de Estados Unidos lo explica así: copiar solo la voz o la imagen de alguien no infringe el derecho de autor, aunque puede afectar otros derechos [@F-M4-19]. Que algo no sea plagio no significa que esté permitido. Recuerda también lo que viste en el tema 1: la licencia de una foto o de una grabación no reemplaza el permiso de la persona que aparece en ella.
 
 :::clave
 La voz y la imagen se protegen por la vida privada, la honra y los datos personales, no por el derecho de autor. Por eso, ante una voz o una cara real, la pregunta no es «¿es plagio?», sino «¿tengo su permiso?».
@@ -6385,9 +6000,9 @@ cubre: S2, S3
 fuentes: F-M4-16, F-M3-16
 bloque: Texto + línea de tiempo
 
-En 2024 se publicó la Ley 21.719, que modifica la ley de protección de datos personales (Ley 19.628) y crea la Agencia de Protección de Datos Personales. Para la voz y la imagen trae cambios importantes. Llama **datos biométricos** a los que permiten identificar a una persona, y pone como ejemplos los rasgos faciales y la voz. Esos datos pasan a ser datos personales sensibles, y los datos sensibles solo se pueden tratar con consentimiento expreso de la persona, salvo excepciones. Además, quien trate datos biométricos tiene que informar qué sistema usa, para qué, por cuánto tiempo y cómo se ejercen los derechos.
+En 2024 se publicó la Ley 21.719, que modifica la ley de protección de datos personales (Ley 19.628) y crea la Agencia de Protección de Datos Personales. Para la voz y la imagen trae cambios importantes. Llama **datos biométricos** a los que permiten identificar a una persona, y pone como ejemplos los rasgos faciales y la voz. Esos datos pasan a ser datos personales sensibles, y los datos sensibles solo se pueden tratar con consentimiento expreso de la persona, salvo excepciones [@F-M4-16]. Además, quien trate datos biométricos tiene que informar qué sistema usa, para qué, por cuánto tiempo y cómo se ejercen los derechos.
 
-Según su texto, estas modificaciones rigen desde el 1 de diciembre de 2026. Hay, además, un proyecto de ley del Ejecutivo que propone postergar esa fecha (boletín 18623-07), y al 21 de octubre de 2026 seguía en su primer trámite en el Senado. Antes de aplicar la ley, revisa en la Biblioteca del Congreso Nacional (BCN) si la fecha cambió.
+Según su texto, estas modificaciones rigen desde el 1 de diciembre de 2026 [@F-M4-16]. Hay, además, un proyecto de ley del Ejecutivo que propone postergar esa fecha (boletín 18623-07), y al 21 de octubre de 2026 seguía en su primer trámite en el Senado [@F-M3-16]. Antes de aplicar la ley, revisa en la Biblioteca del Congreso Nacional (BCN) si la fecha cambió.
 
 Para tu pieza, la recomendación del curso es actuar desde ya como pide la ley: trata la voz y la cara de otra persona como un dato sensible y pide su consentimiento expreso antes de grabarla, clonarla o editarla con IA. En una oficina esto alcanza también a situaciones cotidianas, como querer usar en un clip el audio de una reunión grabada.
 
@@ -6404,9 +6019,9 @@ cubre: S3, A1, C2
 fuentes: F-M4-16, F-H-77
 bloque: Ordenar o clasificar (sorting activity)
 
-El **consentimiento**, según la Ley 21.719, es una manifestación de voluntad libre, específica, inequívoca e informada. Para los datos sensibles, como la voz, además debe ser expreso: por escrito, de palabra o por un medio tecnológico equivalente.
+El **consentimiento**, según la Ley 21.719, es una manifestación de voluntad libre, específica, inequívoca e informada [@F-M4-16]. Para los datos sensibles, como la voz, además debe ser expreso: por escrito, de palabra o por un medio tecnológico equivalente.
 
-Las herramientas también lo exigen. La política de uso de ElevenLabs prohíbe clonar o imitar la voz o la imagen de una persona viva sin su consentimiento explícito e informado, y no permite usar grabaciones de menores de 18 años para crear voces.
+Las herramientas también lo exigen. La política de uso de ElevenLabs prohíbe clonar o imitar la voz o la imagen de una persona viva sin su consentimiento explícito e informado, y no permite usar grabaciones de menores de 18 años para crear voces [@F-H-77].
 
 En la práctica, el consentimiento sirve cuando la persona sabe qué vas a hacer con su voz, en qué pieza, dónde se va a escuchar y por cuánto tiempo, y te lo dice con claridad. Un «ya, dale» en el pasillo, sin saber para qué es, no cumple esas condiciones aunque sea un sí. La recomendación del curso es dejarlo por escrito, aunque sea en un correo o un mensaje, para tener constancia.
 
@@ -6425,9 +6040,9 @@ cubre: A1, S2
 fuentes: F-M4-15, F-M4-19
 bloque: Texto + escenario
 
-Respetar la identidad es no hacer que una persona real parezca decir o hacer algo que no dijo ni hizo. La voz de alguien es reconocible: si la imitas, quien escucha cree que esa persona habló. Por eso las réplicas digitales pueden dañar a las personas, y la oficina de derecho de autor de Estados Unidos da el ejemplo de las llamadas automáticas que suplantan a alguien.
+Respetar la identidad es no hacer que una persona real parezca decir o hacer algo que no dijo ni hizo. La voz de alguien es reconocible: si la imitas, quien escucha cree que esa persona habló. Por eso las réplicas digitales pueden dañar a las personas, y la oficina de derecho de autor de Estados Unidos da el ejemplo de las llamadas automáticas que suplantan a alguien [@F-M4-19].
 
-Las plataformas también lo piden. YouTube exige declarar el contenido realista hecho o alterado con IA, por ejemplo cuando una persona real parece decir o hacer algo que no hizo, y la declaración agrega una etiqueta visible en el video o en su descripción. Un error común es creer que una sátira o una broma no necesita permiso ni aviso: aunque sea en broma, imitar a una persona real sin permiso afecta su identidad, y si alguna vez una pieza lo hace con permiso, hay que declararlo.
+Las plataformas también lo piden. YouTube exige declarar el contenido realista hecho o alterado con IA, por ejemplo cuando una persona real parece decir o hacer algo que no hizo, y la declaración agrega una etiqueta visible en el video o en su descripción [@F-M4-15]. Un error común es creer que una sátira o una broma no necesita permiso ni aviso: aunque sea en broma, imitar a una persona real sin permiso afecta su identidad, y si alguna vez una pieza lo hace con permiso, hay que declararlo.
 
 Piensa también en el origen de las voces que usa tu organización. Supón que un proveedor le ofrece al centro médico de Rosa una voz sintética para el mensaje telefónico que suena muy parecida a la de una animadora de televisión conocida. Aunque el proveedor asegure que es otra persona, si la animadora reclama, el centro médico tendrá que mostrar de dónde salió esa voz y que quien la prestó dio su consentimiento. Sin ese registro, todo queda en la palabra de cada parte.
 
@@ -6448,7 +6063,7 @@ Antes de usar tu locución y tu pista, verifica sus condiciones. Revisa cada aud
 - [ ] ¿Exige atribución? Cómo y dónde va.
 - [ ] ¿Hay una voz real? Si la hay, ¿tienes el consentimiento expreso de esa persona?
 
-Para los audios de terceros, da crédito con la fórmula TASL (título, autor, fuente y licencia) e indica si los modificaste. Para lo generado con IA, sigue la forma de crédito que pide la herramienta. En el plan gratuito de ElevenLabs, por ejemplo, al publicar va «elevenlabs.io» o «11.ai» en el título, o «Eleven Music» si es música, y lo hecho con funciones beta no se puede usar comercialmente. Anota todo en tu ficha de uso ético: así cualquier persona puede saber de dónde salió cada sonido.
+Para los audios de terceros, da crédito con la fórmula TASL (título, autor, fuente y licencia) e indica si los modificaste [@F-M4-03]. Para lo generado con IA, sigue la forma de crédito que pide la herramienta. En el plan gratuito de ElevenLabs, por ejemplo, al publicar va «elevenlabs.io» o «11.ai» en el título, o «Eleven Music» si es música, y lo hecho con funciones beta no se puede usar comercialmente [@F-H-76]. Anota todo en tu ficha de uso ético: así cualquier persona puede saber de dónde salió cada sonido.
 
 :::comprueba
 Andrés publicará el clip en el canal interno de la empresa. Hizo la música con Eleven Music, plan gratuito. ¿Qué tiene que hacer?
@@ -6463,7 +6078,7 @@ cubre: C1, C2, H1
 fuentes: F-M4-16, F-M4-03
 bloque: Texto + actividad de cierre
 
-En este laboratorio generaste una locución y una pista con IA, y viste que la voz y la imagen de una persona se protegen por su vida privada, su honra y sus datos personales. La Ley 21.719 trata la voz y los rasgos faciales como datos biométricos sensibles, y el consentimiento tiene que ser libre, específico, inequívoco, informado y expreso. Para la atribución, cada herramienta pide su propia forma de crédito, que se suma a la fórmula TASL para los materiales de terceros.
+En este laboratorio generaste una locución y una pista con IA, y viste que la voz y la imagen de una persona se protegen por su vida privada, su honra y sus datos personales. La Ley 21.719 trata la voz y los rasgos faciales como datos biométricos sensibles, y el consentimiento tiene que ser libre, específico, inequívoco, informado y expreso [@F-M4-16]. Para la atribución, cada herramienta pide su propia forma de crédito, que se suma a la fórmula TASL para los materiales de terceros [@F-M4-03].
 
 :::actividad Entrega tus audios
 Entrega lo siguiente:
@@ -6485,48 +6100,25 @@ Guarda los archivos: los usarás en el clip de 60 segundos del próximo tema.
 6. La Ley 21.719 define la voz y los rasgos faciales como datos biométricos sensibles, que solo se tratan con consentimiento expreso; según su texto, rige desde el 1 de diciembre de 2026.
 7. Respetar la identidad es no hacer que una persona real parezca decir algo que no dijo, y poder mostrar de dónde sale cada voz que se usa.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Locución**: texto leído en voz alta que acompaña una pieza de audio o video.
-- **Texto a voz**: función que convierte un texto escrito en voz sintética.
-- **Voz sintética**: voz generada por una herramienta, no grabada por una persona.
-- **Diseño de voz**: creación de una voz sintética nueva, que no copia la de una persona real.
-- **Clonación de voz**: copia de la voz de una persona real a partir de grabaciones suyas.
-- **Réplica digital**: audio, imagen o video que imita de forma realista la voz o la apariencia de una persona.
-- **Música generativa**: música creada por una herramienta de IA a partir de una descripción.
-- **Pista**: archivo de música o sonido que se usa en una pieza.
-- **Derecho a la propia imagen**: derecho de una persona a decidir sobre el uso de su imagen.
-- **Dato biométrico**: dato que permite identificar a una persona, como sus rasgos faciales o su voz.
-- **Dato personal sensible**: dato que la ley protege de forma especial y que solo se trata con consentimiento expreso, salvo excepciones.
-- **Consentimiento expreso**: permiso libre, específico, inequívoco e informado que la persona da de forma clara, por escrito, de palabra o por un medio tecnológico equivalente.
-
-### Conexión con el proyecto
-
-Tu locución y tu pista (P14) son recursos para el **Hito 4 del proyecto aplicado: pieza multimedia que comunica la solución**: puedes entregar una pieza sonora o, como verás en el tema 4, integrarlas en un clip. La ficha de uso ético que completaste aquí es parte de la entrega, y la lista de P13 te sirve para revisar cada audio antes de entregarlo.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M4.md`, `investigacion/M3.md` y `investigacion/HERRAMIENTAS-2.md` (consultadas el 24-10-2026).
-Los planes gratuitos cambian a menudo: revisar de nuevo antes de publicar.
-
-- F-M4-03 · Creative Commons (2024). Recommended practices for attribution. https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution
-- F-M4-06 · OMPI (2024). IA generativa: cómo abordar la propiedad intelectual. https://www.wipo.int/edocs/pubdocs/es/wipo-pub-rn2024-8-es-generative-ai-navigating-intellectual-property.pdf
-- F-M4-15 · YouTube / Google (s. f.). Divulgación de contenido alterado o sintético. https://support.google.com/youtube/answer/14328491?hl=es-419
-- F-M4-16 · Congreso Nacional de Chile / BCN (2024). Ley 21.719, que regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales. https://www.bcn.cl/leychile/navegar?idNorma=1209272
-  - Revisar antes de publicar: fecha de entrada en vigencia (01-12-2026 según su texto) y el proyecto de ley que busca postergarla (boletín 18623-07), en trámite según la ficha del Senado (F-M3-16).
-- F-M3-16 · Senado de Chile (2026). Tramitación del boletín 18623-07: proyecto que modifica la Ley 21.719. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=18623
-- F-M4-17 · Chile / BCN (texto vigente, 2026). Constitución Política de la República, art. 19 n.º 4. https://www.bcn.cl/leychile/navegar?idNorma=242302
-- F-M4-19 · U.S. Copyright Office (2024). Copyright and Artificial Intelligence, Part 1: Digital Replicas. https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-1-Digital-Replicas-Report.pdf
-- F-M4-20 · Universidad Simón Bolívar, Departamento de Pedagogía (2020). Guía para la creación de videos educativos. https://unisimon.edu.co/showimagen/v/Comunicaciones/20200925103940_0.pdf
-- F-H-68 · Canva (s. f.). Comprender el uso de la IA. https://www.canva.com/es_es/help/ai-access/
-- F-H-75 · ElevenLabs (s. f.). Pricing. https://elevenlabs.io/pricing
-- F-H-76 · ElevenLabs (s. f.). Can I publish the content I generate on the platform? https://elevenlabs.io/docs/help-center/legal/can-i-publish-the-content-i-generate-on-the-platform
-- F-H-77 · ElevenLabs (2026). Prohibited Use Policy. https://elevenlabs.io/use-policy
-- F-H-78 · ElevenLabs (s. f.). What features are available in the ElevenLabs mobile app? https://elevenlabs.io/docs/help-center/product/mobile-apps/eleven-labs-for-ios-and-android/what-features-are-available-in-the-eleven-labs-mobile-app
-- F-H-79 · Suno (s. f.). Pricing. https://suno.com/pricing
-- F-H-82 · Udio (2026). Changes associated with the Universal Music Group partnership. https://help.udio.com/en/articles/12683565-changes-associated-with-the-universal-music-group-umg-partnership
-- F-H-85 · CapCut (s. f.). Text to Speech. https://www.capcut.com/tools/text-to-speech
-- F-H-86 · Google (s. f.). Enunciar selección (Android). https://support.google.com/accessibility/android/answer/7349565?hl=es
+- Canva. (s. f.). *Comprender el uso de la IA*. https://www.canva.com/es_es/help/ai-access/
+- CapCut. (s. f.). *Text to speech*. https://www.capcut.com/tools/text-to-speech
+- Constitución Política de la República de Chile. (1980). *Texto refundido (art. 19 n.º 4)*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idNorma=242302
+- Creative Commons. (2024, 4 de diciembre). *Recommended practices for attribution*. Creative Commons Wiki. https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution
+- ElevenLabs. (s. f.-a). *Can I publish the content I generate on the platform?* https://elevenlabs.io/docs/help-center/legal/can-i-publish-the-content-i-generate-on-the-platform
+- ElevenLabs. (s. f.-b). *Pricing*. https://elevenlabs.io/pricing
+- ElevenLabs. (s. f.-c). *What features are available in the ElevenLabs mobile app?* https://elevenlabs.io/docs/help-center/product/mobile-apps/eleven-labs-for-ios-and-android/what-features-are-available-in-the-eleven-labs-mobile-app
+- ElevenLabs. (2026, 9 de octubre). *Prohibited use policy*. https://elevenlabs.io/use-policy
+- Google. (s. f.-a). *Divulgación de contenido alterado o sintético*. Ayuda de YouTube. https://support.google.com/youtube/answer/14328491?hl=es-419
+- Google. (s. f.-b). *Enunciar selección*. https://support.google.com/accessibility/android/answer/7349565?hl=es
+- Ley 21.719. (2024, 13 de diciembre). *Regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idNorma=1209272
+- OMPI. (2024). *IA generativa: cómo abordar la propiedad intelectual (RN2024-8ES)*. https://doi.org/10.34667/tind.49471
+- Senado de Chile. (2026). *Proyecto que modifica la Ley 21.719 (Boletín 18623-07)*. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=18623
+- Suno. (s. f.). *Pricing*. https://suno.com/pricing
+- U.S. Copyright Office. (2024). *Copyright and artificial intelligence, part 1: Digital replicas*. https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-1-Digital-Replicas-Report.pdf
+- Udio. (2026, 17 de febrero). *Changes associated with the Universal Music Group partnership*. https://help.udio.com/en/articles/12683565-changes-associated-with-the-universal-music-group-umg-partnership
+- Universidad Simón Bolívar. (s. f.). *Guía para la creación de videos educativos*. Departamento de Pedagogía. https://unisimon.edu.co/showimagen/v/Comunicaciones/20200925103940_0.pdf
 
 
 ## M4-AE4 · Clips y video breve
@@ -6540,7 +6132,7 @@ En los temas anteriores produjiste una imagen, una locución y una pista musical
 
 El aprendizaje esperado es este: Elaborar un clip de 60 segundos que integre guion, voz, música e imagen generados con IA. Al final deberías poder entregar ese clip y completar su ficha de uso ético.
 
-Es un proyecto breve guiado y termina con un producto. Lo harás en el orden en que se produce cualquier video: primero planificas y escribes el guion, después reúnes y generas los recursos, y al final montas, revisas y exportas. Para el guion usarás Gemini; para algunas tomas de video, Google Flow, si te funciona; y para montar, CapCut o Canva, que tiene app para Android y para iOS.
+Es un proyecto breve guiado y termina con un producto. Lo harás en el orden en que se produce cualquier video: primero planificas y escribes el guion, después reúnes y generas los recursos, y al final montas, revisas y exportas [@F-M4-20]. Para el guion usarás Gemini; para algunas tomas de video, Google Flow, si te funciona; y para montar, CapCut o Canva, que tiene app para Android y para iOS [@F-H-69].
 
 Andrés termina aquí su campaña de pasillos despejados: hará el clip para la reunión de inicio de turno con el afiche, la locución y la pista que ya tiene. Camila hará el de la campaña de reciclaje de su oficina, y tú, el de tu campaña interna. Un minuto parece poco, pero obliga a decidir qué es lo esencial, y esa decisión es tuya, no de la herramienta.
 
@@ -6549,7 +6141,7 @@ cubre: S3, H1
 fuentes: F-M4-20
 bloque: Proceso (process block) en 3 pasos
 
-Las guías de producción de video ordenan el trabajo en tres etapas. Te sirven para no saltarte pasos y para no tener que rehacer todo al final.
+Las guías de producción de video ordenan el trabajo en tres etapas [@F-M4-20]. Te sirven para no saltarte pasos y para no tener que rehacer todo al final.
 
 | Etapa | Qué se hace | En tu clip |
 |---|---|---|
@@ -6570,7 +6162,7 @@ cubre: S1
 fuentes: F-M4-20
 bloque: Texto + diagrama de la estructura
 
-Un guion breve tiene una estructura simple, que las guías de video describen en cuatro movimientos. Abre con el propósito, es decir, de qué trata y por qué importa. Desarrolla pocos puntos clave, uno por momento. Pone un **llamado a la acción**, que dice qué tiene que hacer la persona después de verlo. Y cierra.
+Un guion breve tiene una estructura simple, que las guías de video describen en cuatro movimientos. Abre con el propósito, es decir, de qué trata y por qué importa. Desarrolla pocos puntos clave, uno por momento. Pone un **llamado a la acción**, que dice qué tiene que hacer la persona después de verlo. Y cierra [@F-M4-20].
 
 En 60 segundos no caben muchas ideas. Esta es una distribución posible, como recomendación del curso:
 
@@ -6596,7 +6188,7 @@ cubre: S1, H1
 fuentes: F-M4-20
 bloque: Tabla (guion técnico) + texto
 
-Para producir, el guion se arma por **secuencias**. Cada secuencia lleva su texto, que es lo que dice la voz; su imagen; su plano, que indica qué tan cerca se ve; su sonido, y su duración. Así sabes qué recurso necesitas para cada momento. Este es el guion de Andrés:
+Para producir, el guion se arma por **secuencias**. Cada secuencia lleva su texto, que es lo que dice la voz; su imagen; su plano, que indica qué tan cerca se ve; su sonido, y su duración [@F-M4-20]. Así sabes qué recurso necesitas para cada momento. Este es el guion de Andrés:
 
 | N.º | Texto de la locución | Imagen y plano | Sonido | Duración |
 |---|---|---|---|---|
@@ -6607,7 +6199,7 @@ Para producir, el guion se arma por **secuencias**. Cada secuencia lleva su text
 | 5 | «Pasillo despejado, bodega segura.» | Toma generada: carro por pasillo despejado, plano general | Voz y música sube | 8 s |
 | 6 | (sin voz) | Afiche de la campaña y créditos | Música termina | 12 s |
 
-El total da 60 segundos, pero las duraciones son provisorias: se ajustan al cronometrar la locución, como recomiendan las guías. Fíjate también en que solo dos secuencias usan video generado. El resto son imágenes fijas que Andrés ya tiene o que puede generar con Gemini, lo que le ahorra créditos y tiempo.
+El total da 60 segundos, pero las duraciones son provisorias: se ajustan al cronometrar la locución, como recomiendan las guías [@F-M4-20]. Fíjate también en que solo dos secuencias usan video generado. El resto son imágenes fijas que Andrés ya tiene o que puede generar con Gemini, lo que le ahorra créditos y tiempo.
 
 :::actividad Tu guion por secuencias
 Arma la tabla de tu clip con cinco a siete secuencias. Completa las cinco columnas y suma las duraciones: tienen que dar 60 segundos.
@@ -6618,7 +6210,7 @@ cubre: S1, H1, A2
 fuentes: F-M4-20, F-H-14
 bloque: Ejemplo antes/después + actividad
 
-Gemini te puede ayudar a pasar de una idea a un guion por secuencias, en la app del celular o en la web. Dale el mensaje, la estructura y el formato de la tabla, y ponle un límite a la locución: como recomendación del curso, 100 palabras como máximo, para que quepa con calma en un minuto.
+Gemini te puede ayudar a pasar de una idea a un guion por secuencias, en la app del celular o en la web [@F-H-14]. Dale el mensaje, la estructura y el formato de la tabla, y ponle un límite a la locución: como recomendación del curso, 100 palabras como máximo, para que quepa con calma en un minuto.
 
 Lo que entregue es un borrador. Revísalo tú con estas preguntas:
 
@@ -6627,7 +6219,7 @@ Lo que entregue es un borrador. Revísalo tú con estas preguntas:
 - ¿El texto suena natural en voz alta?
 - ¿Las imágenes pedidas se pueden generar sin personas reales ni marcas?
 
-El primer borrador de Andrés traía frases como «En nuestra empresa, la seguridad es un valor fundamental que todos debemos compartir día a día en cada una de nuestras labores». Él la cambió por «Un pasillo bloqueado es un tropiezo esperando pasar», que es breve, concreta y se entiende al escucharla una vez. Un error común es copiar el guion tal como lo entrega la IA: las duraciones, el tono y lo que se puede mostrar los decides tú. Después cronometra: lee la locución en voz alta con el cronómetro del celular y ajusta las duraciones de la tabla.
+El primer borrador de Andrés traía frases como «En nuestra empresa, la seguridad es un valor fundamental que todos debemos compartir día a día en cada una de nuestras labores». Él la cambió por «Un pasillo bloqueado es un tropiezo esperando pasar», que es breve, concreta y se entiende al escucharla una vez. Un error común es copiar el guion tal como lo entrega la IA: las duraciones, el tono y lo que se puede mostrar los decides tú. Después cronometra: lee la locución en voz alta con el cronómetro del celular y ajusta las duraciones de la tabla [@F-M4-20].
 
 :::ejemplo El prompt de Andrés
 «Escribe el guion de un clip interno de 60 segundos para una bodega. Mensaje: "Pasillo despejado, bodega segura". Estructura: apertura con una pregunta, dos puntos clave, llamado a la acción y cierre. Entrégalo en una tabla con número de secuencia, texto de la locución, imagen y plano, sonido y duración en segundos. La locución no debe pasar de 100 palabras».
@@ -6640,7 +6232,7 @@ bloque: Texto + calculadora de créditos
 
 El **video generativo** produce escenas sintéticas a partir de un texto o de una imagen. Es la parte del panorama que más rápido cambia, como viste con el retiro de Sora en el tema 1. Antes de elegir una herramienta, revisa en su página si el plan gratuito permite generar video, cuántos clips y si agrega marca de agua.
 
-Cuando se preparó este curso, la opción gratuita más útil era Google Flow. Entrega 50 créditos diarios gratis, con o sin suscripción, y no se acumulan de un día para otro. Con los modelos Veo 3.1 genera clips de 4, 6 u 8 segundos a partir de un texto o de una imagen, y el costo depende del modelo: un clip con Veo 3.1 Lite gasta 10 créditos; con Veo 3.1 Fast, 20, y con Veo 3.1 Quality, 100. También ofrece Gemini Omni Flash, con clips de hasta 10 segundos en 720p o 360p, que gasta entre 4 y 15 créditos según la resolución y la duración. Su modelo de imagen por defecto, Nano Banana 2 Lite, no tiene costo.
+Cuando se preparó este curso, la opción gratuita más útil era Google Flow. Entrega 50 créditos diarios gratis, con o sin suscripción, y no se acumulan de un día para otro [@F-H-63]. Con los modelos Veo 3.1 genera clips de 4, 6 u 8 segundos a partir de un texto o de una imagen [@F-H-64], y el costo depende del modelo: un clip con Veo 3.1 Lite gasta 10 créditos; con Veo 3.1 Fast, 20, y con Veo 3.1 Quality, 100 [@F-H-63]. También ofrece Gemini Omni Flash, con clips de hasta 10 segundos en 720p o 360p, que gasta entre 4 y 15 créditos según la resolución y la duración [@F-H-64; @F-H-63]. Su modelo de imagen por defecto, Nano Banana 2 Lite, no tiene costo [@F-H-64].
 
 Haz la cuenta: con 50 créditos al día alcanzas para unos cinco clips de 8 segundos con Veo 3.1 Lite, es decir, unos 40 segundos. No alcanza para un minuto completo de video generado, y tampoco hace falta, porque un buen clip combina pocas tomas generadas con imágenes fijas.
 
@@ -6663,11 +6255,11 @@ Para pedir una toma, usa lo que aprendiste del prompt visual en el tema 2 y agre
 
 1. Elige en tu guion las secuencias que de verdad necesitan movimiento.
 2. Escribe un prompt por toma y elige su duración.
-3. Genera con Veo 3.1 Lite, que gasta 10 créditos por clip, menos que los otros modelos Veo.
+3. Genera con Veo 3.1 Lite, que gasta 10 créditos por clip, menos que los otros modelos Veo [@F-H-63].
 4. Revisa la toma completa: movimientos raros, objetos que aparecen o desaparecen, texto deforme.
 5. Descárgala y anota el prompt, el modelo y los créditos usados.
 
-Si no puedes usar Flow o se te acabaron los créditos del día, arma el clip solo con imágenes fijas: cumple igual con lo que pide el tema. Y crea con responsabilidad: no generes escenas realistas de personas reales ni de hechos que no ocurrieron para presentarlas como reales. La OMPI recomienda no usar herramientas para producir ultrafalsos.
+Si no puedes usar Flow o se te acabaron los créditos del día, arma el clip solo con imágenes fijas: cumple igual con lo que pide el tema. Y crea con responsabilidad: no generes escenas realistas de personas reales ni de hechos que no ocurrieron para presentarlas como reales. La OMPI recomienda no usar herramientas para producir ultrafalsos [@F-M4-06].
 
 :::actividad Tus tomas
 Genera dos tomas para las secuencias de tu guion que más necesitan movimiento. Anota en tu bitácora el prompt de cada una y cuántos créditos te quedaron.
@@ -6678,7 +6270,7 @@ cubre: S3, H1, C2
 fuentes: F-M4-20, F-H-84
 bloque: Tabla para completar (lista de recursos)
 
-Antes de montar, junta todos los recursos en una carpeta del celular y revisa de dónde viene cada uno. Las guías de video piden verificar los derechos de autor o las licencias Creative Commons en la preproducción y referenciar toda imagen que uses. La lista de recursos de Andrés quedó así:
+Antes de montar, junta todos los recursos en una carpeta del celular y revisa de dónde viene cada uno. Las guías de video piden verificar los derechos de autor o las licencias Creative Commons en la preproducción y referenciar toda imagen que uses [@F-M4-20]. La lista de recursos de Andrés quedó así:
 
 | Recurso | Origen | Licencia o condición | Crédito |
 |---|---|---|---|
@@ -6688,7 +6280,7 @@ Antes de montar, junta todos los recursos en una carpeta del celular y revisa de
 | Toma 1 y toma 5 | Google Flow, Veo 3.1 Lite | Google no reclama la propiedad (tema 1) | Etiqueta de IA |
 | Sticker de advertencia | Biblioteca de CapCut | Solo personal y no comercial, salvo marca «commercial use» | Revisar antes de usar |
 
-Si un recurso no tiene licencia clara, no lo uses, y si no sabes de dónde salió una imagen, tampoco: no podrías darle crédito ni saber si permite tu uso. Pon atención a la biblioteca del editor. En CapCut, algunos materiales, como plantillas, stickers, efectos o música, son solo para uso personal y no comercial; los que permiten un uso comercial limitado llevan una marca visible del tipo «commercial use», y usarlos exige una cuenta registrada. En Canva, como viste en el tema 2, el contenido de la biblioteca solo se licencia.
+Si un recurso no tiene licencia clara, no lo uses, y si no sabes de dónde salió una imagen, tampoco: no podrías darle crédito ni saber si permite tu uso. Pon atención a la biblioteca del editor. En CapCut, algunos materiales, como plantillas, stickers, efectos o música, son solo para uso personal y no comercial; los que permiten un uso comercial limitado llevan una marca visible del tipo «commercial use», y usarlos exige una cuenta registrada [@F-H-84]. En Canva, como viste en el tema 2, el contenido de la biblioteca solo se licencia.
 
 :::comprueba
 Andrés encuentra en CapCut una música perfecta, pero no tiene la marca «commercial use». Su clip es para la reunión interna. ¿Qué hace?
@@ -6703,7 +6295,7 @@ cubre: S3, H1
 fuentes: F-M4-20, F-H-83
 bloque: Proceso paso a paso + video demostrativo
 
-El **montaje** ordena las tomas, la voz, la música y las imágenes en una **línea de tiempo**, siguiendo el guion. Puedes hacerlo en el celular con CapCut o con Canva. CapCut es para mayores de 13 años, y los menores de 18 necesitan el consentimiento de sus padres. Sus términos dicen además que no garantiza que el contenido generado sea legal o apropiado y que la persona responde por lo que crea, así que la revisión sigue siendo tuya. Estos son los pasos para montar:
+El **montaje** ordena las tomas, la voz, la música y las imágenes en una **línea de tiempo**, siguiendo el guion [@F-M4-20]. Puedes hacerlo en el celular con CapCut o con Canva. CapCut es para mayores de 13 años, y los menores de 18 necesitan el consentimiento de sus padres. Sus términos dicen además que no garantiza que el contenido generado sea legal o apropiado y que la persona responde por lo que crea [@F-H-83], así que la revisión sigue siendo tuya. Estos son los pasos para montar:
 
 1. Crea un proyecto con el formato de tu canal: vertical (9:16) para el teléfono u horizontal (16:9) para una pantalla.
 2. Pon la locución en la línea de tiempo: es la columna vertebral del clip.
@@ -6724,11 +6316,11 @@ cubre: A2, S3
 fuentes: F-M4-08, F-M4-20
 bloque: Texto + ejemplo
 
-El cuidado del detalle se nota en lo que mucha gente no mira hasta que falta, y lo primero son los subtítulos. Las pautas WCAG piden subtítulos en los videos con audio grabado. Ayudan a quien no oye bien, a quien ve el clip sin sonido en el teléfono y a quien está en un lugar con ruido, como una bodega. Un error común es pensar que sobran si la voz se entiende bien: son parte del clip, no un adorno. Escríbelos en el editor o usa los subtítulos automáticos si tu editor los tiene, pero en ese caso revísalos palabra por palabra.
+El cuidado del detalle se nota en lo que mucha gente no mira hasta que falta, y lo primero son los subtítulos. Las pautas WCAG piden subtítulos en los videos con audio grabado [@F-M4-08]. Ayudan a quien no oye bien, a quien ve el clip sin sonido en el teléfono y a quien está en un lugar con ruido, como una bodega. Un error común es pensar que sobran si la voz se entiende bien: son parte del clip, no un adorno. Escríbelos en el editor o usa los subtítulos automáticos si tu editor los tiene, pero en ese caso revísalos palabra por palabra.
 
 Los textos en pantalla siguen lo que viste en el tema 2: contraste mínimo de 4,5:1, o de 3:1 en texto grande, pocos tamaños y texto breve. Como recomendación del curso, deja cada texto en pantalla el tiempo suficiente para leerlo dos veces.
 
-Al final del clip van los créditos y las referencias, como indican las guías de video: quién lo hizo, con qué herramientas, de dónde salieron la música y las imágenes, y la etiqueta de IA. Antes de seguir, comprueba que los subtítulos coincidan con la locución, que los textos se lean bien en el celular y que cada imagen y cada audio aparezcan en los créditos.
+Al final del clip van los créditos y las referencias, como indican las guías de video [@F-M4-20]: quién lo hizo, con qué herramientas, de dónde salieron la música y las imágenes, y la etiqueta de IA. Antes de seguir, comprueba que los subtítulos coincidan con la locución, que los textos se lean bien en el celular y que cada imagen y cada audio aparezcan en los créditos.
 
 :::ejemplo Los créditos de Andrés
 «Campaña Pasillo despejado. Guion y montaje: Andrés. Imágenes generadas con IA (Gemini y Google Flow). Voz: elevenlabs.io. Música: Eleven Music. Afiche compuesto en Canva».
@@ -6739,7 +6331,7 @@ cubre: C1, A2, S1
 fuentes: F-M4-20
 bloque: Lista de verificación (checklist) + actividad
 
-Con el montaje armado, mira el clip completo de principio a fin, sin detenerte. Luego revísalo por partes, empezando por la duración. La meta son 60 segundos. Si te pasas, acorta las pausas largas entre frases, recorta las tomas que se repiten o elimina la secuencia menos importante. Si te falta tiempo, alarga un poco las imágenes del llamado a la acción en vez de agregar ideas nuevas. Acelerar la voz para que todo quepa no es buena salida, porque cuesta entenderla.
+Con el montaje armado, mira el clip completo de principio a fin, sin detenerte. Luego revísalo por partes, empezando por la duración. La meta son 60 segundos, y las guías recomiendan ajustar la duración cronometrando la locución [@F-M4-20]. Si te pasas, acorta las pausas largas entre frases, recorta las tomas que se repiten o elimina la secuencia menos importante. Si te falta tiempo, alarga un poco las imágenes del llamado a la acción en vez de agregar ideas nuevas. Acelerar la voz para que todo quepa no es buena salida, porque cuesta entenderla.
 
 Después revisa que los cuatro elementos estén y trabajen juntos, y que no se te escape ningún detalle:
 
@@ -6760,7 +6352,7 @@ cubre: S3
 fuentes: F-M4-21
 bloque: Texto + tabla de configuración
 
-**Exportar** es generar el archivo final de video a partir del proyecto de montaje. Las recomendaciones de YouTube para subir videos sirven como referencia, aunque tu clip no vaya a YouTube:
+**Exportar** es generar el archivo final de video a partir del proyecto de montaje. Las recomendaciones de YouTube para subir videos sirven como referencia, aunque tu clip no vaya a YouTube [@F-M4-21]:
 
 | Ajuste | Recomendación |
 |---|---|
@@ -6785,9 +6377,9 @@ cubre: A1, S2, C2
 fuentes: F-M4-15, F-M4-14
 bloque: Texto + escenarios con decisión
 
-Crear con responsabilidad es etiquetar el contenido sintético realista y no suplantar a personas reales. YouTube sirve de referencia para saber cuándo declarar: lo exige cuando una persona real parece decir o hacer algo que no hizo, cuando se alteran hechos o lugares reales, cuando se crean escenas realistas que no ocurrieron y cuando la música creada con IA es el foco principal del video. No exige declarar lo que es claramente irreal, las ediciones menores ni la ayuda con guiones o subtítulos.
+Crear con responsabilidad es etiquetar el contenido sintético realista y no suplantar a personas reales. YouTube sirve de referencia para saber cuándo declarar: lo exige cuando una persona real parece decir o hacer algo que no hizo, cuando se alteran hechos o lugares reales, cuando se crean escenas realistas que no ocurrieron y cuando la música creada con IA es el foco principal del video. No exige declarar lo que es claramente irreal, las ediciones menores ni la ayuda con guiones o subtítulos [@F-M4-15].
 
-En el tema 2 viste que algunas herramientas marcan lo que generan con marcas de agua invisibles o con credenciales de contenido. Ayudan, pero no bastan. El NIST advierte que quien copia o edita un archivo puede alterar o falsear sus metadatos, que las redes sociales suelen borrarlos al compartir y que algunas marcas de agua se pueden eliminar, así que ninguna técnica sirve sola. Al montar y exportar tu clip puede pasar lo mismo.
+En el tema 2 viste que algunas herramientas marcan lo que generan con marcas de agua invisibles o con credenciales de contenido. Ayudan, pero no bastan. El NIST advierte que quien copia o edita un archivo puede alterar o falsear sus metadatos, que las redes sociales suelen borrarlos al compartir y que algunas marcas de agua se pueden eliminar, así que ninguna técnica sirve sola [@F-M4-14]. Al montar y exportar tu clip puede pasar lo mismo.
 
 Por eso, la recomendación del curso es declarar de forma visible, con una línea en los créditos o en la descripción, como «Imágenes, voz y música generadas con IA». Y no quitar las marcas de agua ni los metadatos que traen los recursos, aunque sepas que se pueden perder después.
 
@@ -6804,7 +6396,7 @@ cubre: H1, C2
 fuentes: F-M4-06, F-M4-03
 bloque: Plantilla descargable + ejemplo completo
 
-El clip se entrega con su ficha de uso ético, la misma que empezaste en el tema 1. Para un clip, la ficha está completa cuando tiene la etiqueta de IA, el registro de instrucciones, el aporte humano y los consentimientos, que es lo que la OMPI recomienda documentar, más los créditos de los materiales de terceros con la fórmula TASL. El curso agrega un campo: la marca de agua o credencial de cada recurso, si la tiene.
+El clip se entrega con su ficha de uso ético, la misma que empezaste en el tema 1. Para un clip, la ficha está completa cuando tiene la etiqueta de IA, el registro de instrucciones, el aporte humano y los consentimientos, que es lo que la OMPI recomienda documentar [@F-M4-06], más los créditos de los materiales de terceros con la fórmula TASL [@F-M4-03]. El curso agrega un campo: la marca de agua o credencial de cada recurso, si la tiene.
 
 Un error que se repite es anotar «ninguno» en el aporte humano porque todo se generó con IA. Generar con IA no borra lo que decidiste e hiciste: el mensaje, el guion final, la selección de tomas, el montaje, los subtítulos y la revisión son tuyos, y dejarlos fuera deja sin respaldo tu trabajo.
 
@@ -6819,7 +6411,7 @@ cubre: C1, C2, H1, A1, A2
 fuentes: F-M4-20, F-M4-21
 bloque: Lista de verificación (checklist) + actividad de cierre
 
-En este proyecto hiciste un video completo: planificaste con un guion por secuencias, generaste y reuniste recursos verificando sus licencias, montaste en una línea de tiempo, agregaste subtítulos y créditos, exportaste y documentaste todo en la ficha de uso ético. Antes de entregar, revisa:
+En este proyecto hiciste un video completo: planificaste con un guion por secuencias, generaste y reuniste recursos verificando sus licencias, montaste en una línea de tiempo, agregaste subtítulos y créditos [@F-M4-20], exportaste [@F-M4-21] y documentaste todo en la ficha de uso ético. Antes de entregar, revisa:
 
 - [ ] El clip dura 60 segundos.
 - [ ] Integra guion, voz, música e imagen.
@@ -6844,46 +6436,21 @@ Entrega el clip en MP4, el guion por secuencias con sus duraciones y la ficha de
 6. Para exportar se recomienda MP4, con video H.264 y audio AAC-LC.
 7. El contenido sintético realista se declara de forma visible, porque los metadatos se pierden; la ficha de uso ético registra herramientas, instrucciones, aporte humano, consentimientos, créditos y marcas.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Clip**: video breve, de pocos segundos o minutos, con un solo mensaje.
-- **Guion (de un video)**: texto que organiza lo que se dirá y se mostrará en un video.
-- **Secuencia**: tramo del guion con un texto, una imagen, un plano, un sonido y una duración.
-- **Plano**: qué tan cerca o lejos se muestra el sujeto en una imagen o toma.
-- **Toma**: fragmento continuo de video, grabado o generado.
-- **Llamado a la acción**: parte del guion que dice qué tiene que hacer la persona después de ver la pieza.
-- **Preproducción**: etapa de planificación: tema, guion, recursos y verificación de licencias.
-- **Producción**: etapa en que se graban o generan los recursos del video.
-- **Postproducción**: etapa de edición y publicación del video.
-- **Montaje**: ordenar y unir tomas, imágenes, voz y música para formar el video.
-- **Línea de tiempo**: espacio del editor donde se ordenan los recursos según el momento en que aparecen.
-- **Video generativo**: video sintético creado por una herramienta de IA a partir de un texto o una imagen.
-- **Exportar**: generar el archivo final de video a partir del proyecto de montaje.
-- **Subtítulos**: texto en pantalla que reproduce lo que se dice en el audio.
-
-### Conexión con el proyecto
-
-Este clip es el camino del **Hito 4 del proyecto aplicado: pieza multimedia que comunica la solución**. En el hito harás una pieza visual, sonora o audiovisual que comunique la propuesta de tu proyecto a quien tiene que aprobarla o usarla en tu trabajo, y la entregarás con su ficha de uso ético. Si eliges un clip, sigue los mismos pasos de este tema con el mensaje de tu proyecto.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M4.md`, `investigacion/HERRAMIENTAS-1.md` y
-`investigacion/HERRAMIENTAS-2.md` (consultadas el 24-10-2026). Los planes gratuitos cambian a menudo: revisar de nuevo antes de
-publicar.
-
-- F-M4-03 · Creative Commons (2024). Recommended practices for attribution. https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution
-- F-M4-06 · OMPI (2024). IA generativa: cómo abordar la propiedad intelectual. https://www.wipo.int/edocs/pubdocs/es/wipo-pub-rn2024-8-es-generative-ai-navigating-intellectual-property.pdf
-- F-M4-08 · W3C (2024). Web Content Accessibility Guidelines (WCAG) 2.2. https://www.w3.org/TR/WCAG22/
-- F-M4-14 · NIST (2024). Reducing Risks Posed by Synthetic Content (NIST AI 100-4). https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf
-- F-M4-15 · YouTube / Google (s. f.). Divulgación de contenido alterado o sintético. https://support.google.com/youtube/answer/14328491?hl=es-419
-- F-M4-20 · Universidad Simón Bolívar, Departamento de Pedagogía (2020). Guía para la creación de videos educativos. https://unisimon.edu.co/showimagen/v/Comunicaciones/20200925103940_0.pdf
-- F-M4-21 · YouTube / Google (s. f.). Configuración de codificación recomendada para subir videos. https://support.google.com/youtube/answer/1722171?hl=es-419
-- F-H-14 · Google (s. f.). Empezar a usar la aplicación móvil Gemini. https://support.google.com/gemini/answer/14554984?hl=es
-- F-H-63 · Google (s. f.). Gestionar tus créditos de Google Flow. https://support.google.com/flow/answer/16526234?hl=es
-- F-H-64 · Google (s. f.). Modelos y funciones compatibles de Google Flow. https://support.google.com/flow/answer/16352836?hl=es
-- F-H-69 · Canva (s. f.). Canva for Android. https://www.canva.com/download/android/
-- F-H-83 · CapCut (2026). Terms of Service. https://www.capcut.com/clause/terms-of-service
-- F-H-84 · CapCut (2026). Materials License Agreement. https://www.capcut.com/clause/material-license-agreement
+- Canva. (s. f.). *Canva for Android*. https://www.canva.com/download/android/
+- CapCut. (2026a, 22 de enero). *Materials license agreement*. https://www.capcut.com/clause/material-license-agreement
+- CapCut. (2026b, 15 de abril). *Terms of service*. https://www.capcut.com/clause/terms-of-service
+- Creative Commons. (2024, 4 de diciembre). *Recommended practices for attribution*. Creative Commons Wiki. https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution
+- Google. (s. f.-a). *Configuración de codificación recomendada para subir videos*. Ayuda de YouTube. https://support.google.com/youtube/answer/1722171?hl=es-419
+- Google. (s. f.-b). *Divulgación de contenido alterado o sintético*. Ayuda de YouTube. https://support.google.com/youtube/answer/14328491?hl=es-419
+- Google. (s. f.-c). *Empezar a usar la aplicación móvil Gemini*. https://support.google.com/gemini/answer/14554984?hl=es
+- Google. (s. f.-d). *Gestionar tus créditos de Google Flow*. https://support.google.com/flow/answer/16526234?hl=es
+- Google. (s. f.-e). *Modelos y funciones compatibles de Google Flow*. https://support.google.com/flow/answer/16352836?hl=es
+- National Institute of Standards and Technology. (2024). *Reducing risks posed by synthetic content (NIST AI 100-4)*. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf
+- OMPI. (2024). *IA generativa: cómo abordar la propiedad intelectual (RN2024-8ES)*. https://doi.org/10.34667/tind.49471
+- Universidad Simón Bolívar. (s. f.). *Guía para la creación de videos educativos*. Departamento de Pedagogía. https://unisimon.edu.co/showimagen/v/Comunicaciones/20200925103940_0.pdf
+- W3C. (2024, 12 de diciembre). *Web Content Accessibility Guidelines (WCAG) 2.2*. https://www.w3.org/TR/WCAG22/
 
 
 ---
@@ -6909,7 +6476,7 @@ Al final deberías poder nombrar al menos tres tareas automatizables de tu cargo
 por qué cada una quedó donde quedó.
 
 Vas a mirar el trabajo como lo miran los estudios de la Organización Internacional del Trabajo (OIT): tarea por tarea, no cargo por
-cargo. Y vas a usar una herramienta simple, la **matriz de priorización**, que ayuda a decidir qué conviene probar primero. Automatizar
+cargo [@F-M5-01]. Y vas a usar una herramienta simple, la **matriz de priorización**, que ayuda a decidir qué conviene probar primero [@F-M5-05]. Automatizar
 no es un fin en sí mismo. Lo que buscas es ganar tiempo y calidad en lo que importa sin crear riesgos nuevos, y a veces la mejor
 decisión es dejar una tarea como está.
 
@@ -6924,13 +6491,13 @@ bloque: Texto + imagen (un cargo dividido en tareas) + ejemplo
 
 Cuando se habla de IA y trabajo, la primera pregunta que aparece es si tu trabajo va a desaparecer. Los estudios serios no parten de
 ahí. La OIT mide la exposición a la IA generativa tarea por tarea, porque dentro de un mismo cargo hay tareas muy expuestas y otras que
-siguen necesitando a una persona.
+siguen necesitando a una persona [@F-M5-01].
 
 La **exposición** no es lo mismo que el reemplazo. Que una tarea esté expuesta significa que la IA generativa podría hacer una parte o
 ayudar a hacerla. El estudio de la OIT de 2023 concluye que el efecto principal será aumentar el trabajo, es decir, automatizar algunas
-tareas y dejar tiempo para otras, más que eliminar ocupaciones completas. La actualización de 2025 confirma que las ocupaciones
+tareas y dejar tiempo para otras, más que eliminar ocupaciones completas [@F-M5-01]. La actualización de 2025 confirma que las ocupaciones
 administrativas siguen siendo las más expuestas y llega a una conclusión parecida: como la mayoría de las ocupaciones tiene tareas que
-requieren intervención humana, lo más probable es que los empleos se transformen.
+requieren intervención humana, lo más probable es que los empleos se transformen [@F-M5-02].
 
 Mirar tu cargo así tiene una ventaja práctica. En vez de una pregunta que angustia, tienes una lista que puedes analizar: qué tareas
 haces en una semana, cuáles se repiten igual cada vez y cuáles necesitan tu criterio, tu trato con las personas o tus manos.
@@ -6950,12 +6517,12 @@ Dos estudios ayudan a entender dónde está el potencial de automatización. Cad
 comparan entre sí.
 
 El primero es el de la OIT de 2023. Según ese estudio, el trabajo administrativo es el único grupo de ocupaciones muy expuesto: el 24 %
-de sus tareas tiene exposición alta y el 58 %, exposición media. En los demás grupos, las tareas muy expuestas van del 1 % al 4 %. La
+de sus tareas tiene exposición alta y el 58 %, exposición media [@F-M5-01]. En los demás grupos, las tareas muy expuestas van del 1 % al 4 %. La
 exposición es más del doble en las mujeres. El mismo estudio advierte que la calidad del empleo, como la intensidad del trabajo y la
 autonomía, puede importar más que las cifras.
 
 El segundo es un documento de la OCDE de 2024. Explica que la IA avanzó sobre todo en tareas cognitivas no rutinarias, como redactar o
-resumir, y que por eso los cargos más expuestos son de oficina. Los que dependen de destrezas manuales y de fuerza, como el aseo o
+resumir, y que por eso los cargos más expuestos son de oficina [@F-M5-03]. Los que dependen de destrezas manuales y de fuerza, como el aseo o
 ayudar en una cocina, tienen baja exposición.
 
 Si trabajas en una oficina, estas cifras hablan de ti. Lo que muestran no es que tu cargo vaya a desaparecer, sino que buena parte de
@@ -6973,11 +6540,11 @@ bloque: Proceso (process block) en 5 partes + ejemplo
 
 Desde hace décadas se sabe que los computadores funcionan bien con reglas. Un estudio clásico de Autor, Levy y Murnane mostró que la
 tecnología sustituye sobre todo las **tareas rutinarias**, las que se repiten y siguen pasos claros, y que en cambio complementa las
-tareas de resolver problemas y tratar con personas. La IA generativa, como viste en el módulo 1, agrega algo a esa historia: también
+tareas de resolver problemas y tratar con personas [@F-M5-04]. La IA generativa, como viste en el módulo 1, agrega algo a esa historia: también
 trabaja con texto, así que puede resumir un correo o clasificar una consulta.
 
 Para saber si una tarea es candidata, conviene descomponerla en cinco partes. Esta lista es del curso y se inspira en lo que la guía de
-automatización de la Universidad de Bath pide documentar de cada flujo: su propósito, sus entradas, sus salidas y sus dependencias.
+automatización de la Universidad de Bath pide documentar de cada flujo: su propósito, sus entradas, sus salidas y sus dependencias [@F-M5-06].
 
 1. Qué la inicia: llega un correo, es lunes, alguien completa un formulario.
 2. Con qué datos trabaja: un correo, una fila de planilla, una fecha.
@@ -7001,8 +6568,8 @@ pueden escribir y trabaja con información, como correos, planillas o fechas. Un
 criterio del momento, trabaja con objetos o con el cuerpo, o decide algo importante sobre una persona.
 
 Las tareas de manejo de información son justamente las típicas del trabajo administrativo, y por eso ese grupo aparece como el más
-expuesto en el estudio de la OIT. En cambio, como explica la OCDE, las tareas que dependen de las manos y de la fuerza tienen baja
-exposición. Si tu trabajo combina las dos cosas, como el de Andrés, que pasa parte del día en la planilla y parte entre las cajas, lo
+expuesto en el estudio de la OIT [@F-M5-01]. En cambio, como explica la OCDE, las tareas que dependen de las manos y de la fuerza tienen baja
+exposición [@F-M5-03]. Si tu trabajo combina las dos cosas, como el de Andrés, que pasa parte del día en la planilla y parte entre las cajas, lo
 más probable es que tus candidatas estén en la primera mitad.
 
 La última señal merece una pausa. Una tarea puede repetirse y seguir reglas, y aun así ser mala candidata si decide algo sobre alguien,
@@ -7028,7 +6595,7 @@ Ahora vas a hacer tu propio **mapa de tareas**: la lista de lo que haces en tu c
 necesitas ningún documento de la empresa. Te basta tu descripción de cargo, si la tienes, o tus propias notas de lo que haces en una
 semana normal.
 
-Gemini puede acelerar la primera versión. La app es gratuita y funciona en el celular, en Android y en iPhone. Estos son los pasos:
+Gemini puede acelerar la primera versión. La app es gratuita y funciona en el celular, en Android y en iPhone [@F-H-14]. Estos son los pasos:
 
 1. Escribe en una nota lo que haces en una semana, con tus palabras, sin nombres de clientes ni datos de la empresa.
 2. Pega esa nota en Gemini y escribe: «Lista las tareas concretas de esta persona. Escribe cada una con un verbo y un objeto, por ejemplo "registrar facturas". No agregues tareas que mis notas no permitan suponer».
@@ -7065,14 +6632,14 @@ quedó así:
 
 Camila encontró cuatro tareas candidatas, más que las tres que pide el tema. En su mapa hay dos cosas que vale la pena mirar. La
 primera es que «sigue reglas» no siempre es sí o no. Las consultas de proveedores tienen una parte fija, porque las preguntas se
-repiten, y otra que exige criterio, porque cada caso es distinto. Esas tareas se pueden automatizar en parte, con revisión.
+repiten, y otra que exige criterio, porque cada caso es distinto [@F-M5-04]. Esas tareas se pueden automatizar en parte, con revisión.
 
 La segunda es que Camila descartó preseleccionar currículums, aunque se lo piden cada vez que la constructora abre una vacante. Es una
 tarea que decide algo importante sobre otras personas, y eso pesa más que la repetición.
 
 :::actividad Revisa tu mapa
 Compara tu mapa con el de Camila. ¿Tienes al menos tres tareas candidatas? Si no, busca las que trabajan con correo, planillas o
-agenda, que suelen ser las más repetitivas.
+agenda, que suelen ser las más repetitivas [@F-M5-01].
 :::
 
 ### P08 · Antes de automatizar: eliminar y simplificar
@@ -7081,7 +6648,7 @@ fuentes: F-M5-06
 bloque: Proceso (process block) en 3 pasos + ejemplo
 
 La guía de automatización de la Universidad de Bath da un consejo que ahorra mucho trabajo: partir de la necesidad y no automatizar algo
-solo porque se puede. Para eso propone una secuencia en tres pasos.
+solo porque se puede [@F-M5-06]. Para eso propone una secuencia en tres pasos.
 
 1. Eliminar: preguntarse si la tarea es necesaria, porque a veces se hace por costumbre y nadie usa el resultado.
 2. Simplificar: ver si se puede hacer con menos pasos; un formulario bien hecho puede ahorrar tres correos de ida y vuelta.
@@ -7103,7 +6670,7 @@ fuentes: F-M5-06
 bloque: Texto + lista de verificación (checklist) + ejemplo
 
 Para elegir qué automatizar, la guía de Bath recomienda mirar la frecuencia de la tarea, su complejidad, el ahorro de tiempo y costo, y
-el efecto en la experiencia de las personas. En este curso los juntamos en un solo criterio, el **impacto**: cuánto mejora el trabajo
+el efecto en la experiencia de las personas [@F-M5-06]. En este curso los juntamos en un solo criterio, el **impacto**: cuánto mejora el trabajo
 si la tarea se automatiza.
 
 Para estimarlo, responde tres preguntas con sí o no:
@@ -7130,10 +6697,10 @@ bloque: Texto + lista de verificación (checklist) + recuadro de error
 El **riesgo** es lo que puede salir mal si la tarea se hace sola. Una tarea automatizada no se cansa, pero tampoco duda: si el flujo
 tiene un error, lo repite cada vez. Por eso conviene pensar el riesgo antes de construir nada.
 
-Hay dos factores que lo suben mucho. Uno son los datos personales, cuya protección la guía de Bath pide cuidar en cada flujo; en tu
+Hay dos factores que lo suben mucho. Uno son los datos personales, cuya protección la guía de Bath pide cuidar en cada flujo [@F-M5-06]; en tu
 trabajo eso incluye los datos de clientes, proveedores y compañeros. El otro son las decisiones que afectan a personas. La Ley 21.719,
 que según su texto rige en Chile desde el 1 de diciembre de 2026, reconoce el derecho a no ser objeto de decisiones basadas en el
-tratamiento automatizado de los datos que afecten significativamente a una persona. Lo vas a ver en el tema 3.
+tratamiento automatizado de los datos que afecten significativamente a una persona [@F-M5-16]. Lo vas a ver en el tema 3.
 
 Para estimar el riesgo, responde otras tres preguntas con sí o no:
 - [ ] ¿La tarea usa datos personales o información confidencial?
@@ -7155,7 +6722,7 @@ bloque: Imagen (matriz 2×2) + texto + comprueba
 
 Una **matriz de priorización** es una cuadrícula de 2 × 2 que cruza dos criterios para ver qué conviene hacer primero. En su versión
 más conocida, la que usa por ejemplo el equipo de mejora continua del sistema de salud de Lothian, en Escocia, cruza impacto y
-esfuerzo, y busca las «victorias rápidas»: mucho impacto con poco esfuerzo.
+esfuerzo, y busca las «victorias rápidas»: mucho impacto con poco esfuerzo [@F-M5-05].
 
 En este curso la adaptamos. Cambiamos el esfuerzo por el riesgo, porque al automatizar lo que más importa es qué pasa si algo falla.
 Así queda:
@@ -7193,11 +6760,11 @@ Andrés eligió cinco tareas candidatas de su mapa y respondió las preguntas de
 | Enviar el reporte semanal a la jefatura | Bajo (1 sí) | Bajo (0 sí) | Si sobra tiempo |
 | Armar los turnos del equipo | Bajo (1 sí) | Alto (3 sí: datos y efecto en personas) | No automatices |
 
-El reporte semanal quedó con impacto bajo porque, después de simplificarlo (P08), ya le toma poco tiempo. Los turnos quedaron fuera:
+El reporte semanal quedó con impacto bajo porque, después de simplificarlo (P08), ya le toma poco tiempo [@F-M5-06]. Los turnos quedaron fuera:
 tocan la vida de sus compañeros, usan datos personales y un error se nota tarde.
 
 Andrés tiene dos tareas en «Empieza aquí». La guía de Lothian sugiere que, si hay muchas opciones en el cuadrante prioritario, se elija
-entre ellas en conjunto, por ejemplo votando. Andrés lo conversó con su jefatura y, para su proyecto, eligió otra: el aviso de atraso a
+entre ellas en conjunto, por ejemplo votando [@F-M5-05]. Andrés lo conversó con su jefatura y, para su proyecto, eligió otra: el aviso de atraso a
 clientes, que es la parte de su problema, los despachos atrasados, que más reclamos trae. Como quedó en «Con supervisión», le pondrá un
 control humano en el tema 3.
 
@@ -7217,7 +6784,7 @@ bloque: Texto + ejemplo de respuesta + comprueba
 Ubicar una tarea en la matriz no basta: tienes que poder explicar por qué quedó ahí. Un **fundamento** sirve para que otra persona, como
 tu jefatura o tu equipo, entienda tu decisión y la pueda discutir.
 
-Un buen fundamento nombra el cuadrante y da una razón para cada criterio. Andrés, por ejemplo, escribió: «Ubico esta tarea en Empieza
+Un buen fundamento nombra el cuadrante y da una razón para cada criterio [@F-M5-05; @F-M5-06]. Andrés, por ejemplo, escribió: «Ubico esta tarea en Empieza
 aquí porque se repite a diario y evita que los vendedores ofrezcan productos sin stock, y su riesgo es bajo porque no usa datos
 personales y, si falla, el error se nota el mismo día». El impacto y el riesgo llevan cada uno su razón. Los fundamentos vagos, como
 «porque es importante» o «porque es fácil», no sirven, porque no dicen en qué criterio te basas ni qué dato lo respalda.
@@ -7241,7 +6808,7 @@ fuentes: F-M5-01, F-M5-03
 bloque: Texto + cita destacada + ejemplo
 
 Si la respuesta a para qué automatizar es solo «para hacer más en menos tiempo», falta algo. La OIT advierte que el efecto de la IA
-sobre la calidad del trabajo, como la intensidad y la autonomía, puede importar más que las cifras de empleo. Automatizar mal puede
+sobre la calidad del trabajo, como la intensidad y la autonomía, puede importar más que las cifras de empleo [@F-M5-01]. Automatizar mal puede
 hacer que el trabajo sea más acelerado y no mejor.
 
 Por eso la pregunta de impacto incluye a otras personas. Una buena automatización libera tiempo para lo que necesita a alguien:
@@ -7250,7 +6817,7 @@ pregunta: si esta tarea se automatiza, quién gana y qué hago yo con el tiempo 
 
 Hay otra razón para aprender esto en tu trabajo. Un documento de la OCDE señala que el principal riesgo para las personas sin estudios
 superiores, las mujeres y las personas mayores es quedar atrás por tener menos acceso a herramientas de IA que aumentan la
-productividad. Saber identificar qué automatizar, y hacerlo con cuidado, es una forma de no quedarse atrás.
+productividad [@F-M5-03]. Saber identificar qué automatizar, y hacerlo con cuidado, es una forma de no quedarse atrás.
 
 :::ejemplo Lo que hace Camila con el tiempo ganado
 Camila calcula que, si el registro de facturas se hiciera solo, recuperaría un buen rato cada semana. Lo usaría para responder con
@@ -7264,8 +6831,8 @@ fuentes: F-M5-05, F-M5-06
 bloque: Texto + actividad de cierre (respuesta abierta)
 
 En este tema miraste el trabajo tarea por tarea. Aprendiste a reconocer una tarea automatizable por su anatomía: se repite, sigue
-reglas y trabaja con información. Viste que antes de automatizar conviene eliminar y simplificar, y que la decisión se toma con dos
-criterios, impacto y riesgo, ordenados en una matriz.
+reglas y trabaja con información. Viste que antes de automatizar conviene eliminar y simplificar [@F-M5-06], y que la decisión se toma con dos
+criterios, impacto y riesgo, ordenados en una matriz [@F-M5-05].
 
 Ahora te toca armar la tuya con las tareas de tu cargo. Si la tarea que más te interesa quedó en «Con supervisión», no la descartes: en
 el tema 3 vas a aprender a ponerle puntos de control humano. Y si ninguna tarea te convence, vuelve a tu mapa y busca las que trabajan
@@ -7296,49 +6863,16 @@ Guarda tu matriz. En el próximo tema vas a construir un flujo simple para la ta
    automatices.
 7. Una priorización se fundamenta nombrando cada criterio y el dato que lo respalda.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Automatización**: hacer que una tarea se realice sola, con una herramienta que sigue pasos definidos cada vez que hace falta.
-- **Tarea rutinaria**: tarea que se repite y sigue pasos claros que se pueden escribir como reglas.
-- **Tarea no rutinaria**: tarea que exige resolver problemas, criterio en cada caso o trato con personas.
-- **Exposición a la IA**: grado en que la IA generativa podría hacer o ayudar a hacer una tarea; no equivale a reemplazo.
-- **Aumento del trabajo**: efecto de la tecnología que automatiza algunas tareas y deja tiempo para otras, sin eliminar el cargo.
-- **Mapa de tareas**: lista de las tareas concretas de un cargo, escritas con un verbo y un objeto.
-- **Impacto**: cuánto mejora el trabajo si una tarea se automatiza, por su frecuencia, el tiempo ganado y el beneficio para las
-  personas.
-- **Riesgo**: lo que puede salir mal si una tarea se hace sola, según los datos que usa, el efecto de un error y la dificultad de
-  detectarlo.
-- **Matriz de priorización**: cuadrícula de 2 × 2 que cruza dos criterios para decidir qué hacer primero.
-- **Victoria rápida**: opción de mucho impacto y poco esfuerzo en la matriz clásica de impacto y esfuerzo.
-- **Fundamento**: explicación de por qué una tarea quedó en un cuadrante, con los criterios y los datos que lo respaldan.
-
-### Conexión con el proyecto
-
-Tu matriz de impacto y riesgo (P15) es el primer paso del **Hito 5 del proyecto aplicado: prototipo de automatización de un paso del
-proceso, con supervisión humana**. Aplícala a las tareas del desafío laboral que elegiste en el Hito 1 y elige el paso que vas a
-automatizar. En el tema 2 construirás el flujo y en el tema 3 le agregarás los controles humanos.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M5.md` y `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
-
-- F-M5-01 · OIT; Gmyrek, Berg y Bescond (2023). Generative AI and jobs: A global analysis of potential effects on job quantity and quality (ILO Working Paper 96). https://www.ilo.org/publications/generative-ai-and-jobs-global-analysis-potential-effects-job-quantity-and
-- F-M5-02 · OIT y NASK; Gmyrek, Berg, Kamiński y otros (2025). Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140). https://www.ilo.org/es/node/706766
-- F-M5-03 · OCDE; Lane (2024). Who will be the workers most affected by AI? (OECD Artificial Intelligence Papers n.º 26). https://doi.org/10.1787/14dc6f89-en
-- F-M5-04 · NBER; Autor, Levy y Murnane (2001). The Skill Content of Recent Technological Change: An Empirical Exploration (Working Paper 8337). https://www.nber.org/papers/w8337
-- F-M5-05 · NHS Lothian, Lothian Quality (s. f.). Prioritisation matrix. https://qilothian.scot.nhs.uk/pc-resources-prioritisation-matrix
-- F-M5-06 · University of Bath (s. f.). Automation standards for Microsoft Power Automate. https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate
-- F-M5-16 · Congreso Nacional de Chile, BCN LeyChile (2024). Ley 21.719, regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales. https://www.bcn.cl/leychile/navegar?idLey=21719
-- F-H-14 · Google (s. f.). Empezar a usar la aplicación móvil Gemini. https://support.google.com/gemini/answer/14554984?hl=es
-
-Notas para revisar antes de publicar:
-- La matriz de **impacto y riesgo** es una adaptación del curso de la matriz de impacto y esfuerzo (F-M5-05); no se le atribuye a
-  ninguna fuente. Las reglas de conteo («dos o tres sí») también son del curso.
-- Las cifras de la OIT 2023 (P03) y la conclusión de la OIT 2025 (P02) usan métodos distintos: no deben ponerse juntas en una misma
-  frase ni compararse.
-- P04: que la IA generativa trabaja con texto se apoya en lo visto en M1, no en una fuente de esta pantalla.
-- Ley 21.719: según su texto, rige desde el 01-12-2026; hay un proyecto de postergación en trámite (boletín 18623-07, ver F-M3-16 en
-  `investigacion/M3.md`). Revisar antes de publicar.
+- Autor, D. H., Levy, F. y Murnane, R. J. (2001). *The skill content of recent technological change: An empirical exploration (NBER Working Paper 8337)*. NBER. https://www.nber.org/papers/w8337
+- Gmyrek, P., Berg, J. y Bescond, D. (2023). *Generative AI and jobs: A global analysis of potential effects on job quantity and quality (ILO Working Paper 96)*. OIT. https://doi.org/10.54394/FHEM8239
+- Google. (s. f.). *Empezar a usar la aplicación móvil Gemini*. https://support.google.com/gemini/answer/14554984?hl=es
+- Lane, M. (2024). *Who will be the workers most affected by AI? A closer look at the impact of AI on women, low-skilled workers and other groups (OECD Artificial Intelligence Papers n.º 26)*. OCDE. https://doi.org/10.1787/14dc6f89-en
+- Ley 21.719. (2024, 13 de diciembre). *Regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idLey=21719
+- NHS Lothian. (s. f.). *Prioritisation matrix*. Lothian Quality. https://qilothian.scot.nhs.uk/pc-resources-prioritisation-matrix
+- OIT y NASK. (2025). *Generative AI and jobs: A refined global index of occupational exposure (ILO Working Paper 140)*. https://doi.org/10.54394/HETP0387
+- University of Bath. (s. f.). *Automation standards for Microsoft Power Automate*. https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate
 
 
 ## M5-AE2 · Flujos simples con IA
@@ -7356,8 +6890,8 @@ El aprendizaje esperado es este: Construir un flujo simple con una herramienta n
 Al final deberías tener un flujo de 3 a 5 pasos que funcione, y haberlo probado hasta encontrar sus fallas y corregirlas.
 
 Este tema es un laboratorio y tiene dos caminos. Si tienes un computador con navegador, vas a usar Make, que en su plan gratuito
-permite flujos de varios pasos; Andrés, por ejemplo, arma el suyo en el computador de la bodega. Si solo tienes el celular, vas a usar
-las acciones programadas de Gemini, conectadas a tu correo, como hace Camila. En tu empresa quizá ya exista otra herramienta de
+permite flujos de varios pasos [@F-H-94]; Andrés, por ejemplo, arma el suyo en el computador de la bodega. Si solo tienes el celular, vas a usar
+las acciones programadas de Gemini, conectadas a tu correo, como hace Camila [@F-H-61]. En tu empresa quizá ya exista otra herramienta de
 automatización; si es así, pregunta antes si puedes usarla para este proyecto.
 
 En los dos caminos vas a practicar con una cuenta de prueba y con datos ficticios o copias sin datos sensibles, nunca con la bandeja de
@@ -7371,12 +6905,12 @@ bloque: Proceso (process block) en 3 partes + actividad
 
 Todo flujo automatizado tiene tres elementos. Las plataformas les dan nombres un poco distintos, pero la idea es la misma. El
 **disparador** es el evento que inicia el flujo, por ejemplo «llega un correo nuevo a la bandeja de entrada»; Microsoft lo llama
-desencadenador y Zapier, trigger. Las acciones son lo que el flujo hace después, una o varias, como resumir el correo con IA y agregar
+desencadenador y Zapier, trigger [@F-M5-07]. Las acciones son lo que el flujo hace después, una o varias, como resumir el correo con IA y agregar
 una fila a una planilla. Y los datos son la información que pasa de un paso al siguiente: el remitente, el asunto y el texto del correo
 viajan hasta la IA, y lo que responde la IA viaja hasta la planilla.
 
 Zapier llama a sus flujos Zaps y los define justamente así: un disparador seguido de una o más acciones, que conectan aplicaciones
-distintas.
+distintas [@F-M5-09].
 
 Andrés ya tiene su flujo en la cabeza. Cada vez que marque un despacho como «atrasado» en su planilla de despachos, ese será el
 disparador. La IA redactará el aviso al cliente con su plantilla y lo dejará en la columna «Borrador» de esa fila: esas son las dos
@@ -7392,7 +6926,7 @@ cubre: S1, S2
 fuentes: F-M5-07, F-H-61
 bloque: Tabla + comprueba
 
-La documentación de Power Automate distingue tres tipos de flujo según su disparador, y la distinción sirve para cualquier
+La documentación de Power Automate distingue tres tipos de flujo según su disparador [@F-M5-07], y la distinción sirve para cualquier
 herramienta:
 
 | Tipo | Cuándo se inicia | Ejemplo |
@@ -7406,7 +6940,7 @@ uno automatizado. Si se hace siempre a la misma hora, como un resumen diario, te
 momento, uno manual.
 
 El camino del celular usa disparadores programados. Las acciones programadas de Gemini preparan, por ejemplo, un resumen de tus correos
-o de tu calendario a la hora que elijas, siempre que la aplicación correspondiente esté conectada.
+o de tu calendario a la hora que elijas, siempre que la aplicación correspondiente esté conectada [@F-H-61].
 
 :::comprueba
 Camila quiere, cada mañana, una lista de los correos con documentos nuevos de su cuenta de práctica. ¿Qué disparador le sirve?
@@ -7423,12 +6957,12 @@ bloque: Texto + imagen (flujo con dos ramas) + recuadro de error
 
 Dos piezas más completan el flujo. La primera es la **condición**, que hace que el flujo siga, o haga algo distinto, solo si se cumple
 una regla. En Power Automate una condición tiene dos ramas, una para cuando la regla es verdadera y otra para cuando es falsa. Para
-armarla se elige un dato de un paso anterior, un operador, como «contiene» o «es mayor o igual que», y un valor. Otras plataformas
+armarla se elige un dato de un paso anterior, un operador, como «contiene» o «es mayor o igual que», y un valor [@F-M5-08]. Otras plataformas
 tienen piezas parecidas con otros nombres, como los filtros, que dejan seguir el flujo solo si se cumple la regla.
 
 La segunda pieza es el **mapeo de datos**. Para que un dato pase de un paso a otro, en el campo del paso siguiente eliges el dato que
 viene del paso anterior. Si en vez de mapear escribes un texto a mano, ese texto se repetirá igual en cada ejecución; si mapeas, el
-flujo usa el dato real de cada evento. El mapeo solo va de pasos anteriores a posteriores.
+flujo usa el dato real de cada evento. El mapeo solo va de pasos anteriores a posteriores [@F-M5-10].
 
 En el flujo de Andrés las dos piezas trabajan juntas. La condición deja seguir solo las filas cuya columna «Estado» contiene
 «atrasado», y en la instrucción para la IA el número de pedido va mapeado desde la fila de la planilla. Así cada borrador trae el
@@ -7450,9 +6984,9 @@ límites: cuántos pasos permite el plan gratuito y si incluye IA.
 
 Make cumple con las dos cosas. Su plan gratuito da 1.000 créditos al mes y permite escenarios de varios pasos. Cada acción de un
 módulo, como leer un correo o escribir una fila en Google Sheets, suele gastar un crédito, y las funciones de IA pueden gastar más. Si
-los créditos se acaban, los escenarios se detienen. Para practicar alcanzan de sobra, siempre que no los gastes en pruebas repetidas.
+los créditos se acaban, los escenarios se detienen [@F-H-94]. Para practicar alcanzan de sobra, siempre que no los gastes en pruebas repetidas.
 
-Zapier, en cambio, da en su plan gratuito 100 tareas al mes y solo permite flujos de dos pasos: un disparador y una acción. Los flujos
+Zapier, en cambio, da en su plan gratuito 100 tareas al mes y solo permite flujos de dos pasos: un disparador y una acción [@F-H-93]. Los flujos
 de varios pasos y los campos de IA están en los planes de pago. Sirve para conectar dos servicios, pero no para este laboratorio.
 
 En el celular, el camino son las acciones programadas de Gemini, que vas a ver en P10. Y si en tu empresa usan otra plataforma con una
@@ -7470,13 +7004,13 @@ fuentes: F-M5-07, F-H-15
 bloque: Texto + ejemplo
 
 Un flujo conecta servicios distintos: el correo, una planilla, el calendario y la IA. Para eso las plataformas usan **conectores**,
-piezas listas que cada servicio ofrece con sus propios disparadores y acciones. Al usar un conector, la plataforma te pide iniciar
+piezas listas que cada servicio ofrece con sus propios disparadores y acciones [@F-M5-07]. Al usar un conector, la plataforma te pide iniciar
 sesión en el servicio y darle permiso para leer o escribir en tu cuenta. En la práctica, conectar un servicio es entregarle a otra
 herramienta llaves de tu cuenta.
 
 En el camino del celular pasa algo parecido: Gemini se conecta con tu correo, y para las acciones programadas necesita la actividad
 guardada, como verás en P10. Ese ajuste tiene un costo en privacidad que ya viste en el módulo 3. Según Google, con la actividad
-guardada, revisores humanos pueden leer conversaciones para mejorar sus servicios.
+guardada, revisores humanos pueden leer conversaciones para mejorar sus servicios [@F-H-15].
 
 Como en tu trabajo manejas información real, el curso te recomienda practicar con una cuenta de Gmail creada solo para el laboratorio,
 enviarte correos inventados o copias de documentos sin nombres, RUT ni teléfonos reales, y leer qué permisos pide cada conexión antes de
@@ -7493,7 +7027,7 @@ fuentes: F-M5-06, F-M5-10
 bloque: Tabla + ordenar pasos (sorting activity)
 
 Antes de abrir una herramienta, dibuja el flujo en una tabla. La guía de la Universidad de Bath pide documentar de cada flujo su
-propósito, sus entradas, sus salidas y sus dependencias, y hacerlo antes de construir te evita armar pasos que después no encajan. Este
+propósito, sus entradas, sus salidas y sus dependencias [@F-M5-06], y hacerlo antes de construir te evita armar pasos que después no encajan. Este
 es el flujo del laboratorio, «Registro de consultas»:
 
 | N.º | Tipo | Servicio | Recibe | Entrega |
@@ -7504,7 +7038,7 @@ es el flujo del laboratorio, «Registro de consultas»:
 | 4 | Acción | Google Sheets | Fecha, remitente, respuesta de la IA | Una fila nueva |
 
 Son cuatro pasos. Si quieres un quinto, agrega uno que te avise cuando la categoría sea «reclamo». Fíjate en el orden: cada paso solo
-puede usar datos de los pasos anteriores. La IA no puede trabajar con un correo que todavía no llegó, y la planilla no puede anotar una
+puede usar datos de los pasos anteriores [@F-M5-10]. La IA no puede trabajar con un correo que todavía no llegó, y la planilla no puede anotar una
 categoría que la IA aún no escribió.
 
 Gemini también puede ayudarte con el diseño. Descríbele tu tarea y pídele la tabla de pasos con lo que recibe y entrega cada uno;
@@ -7521,7 +7055,7 @@ fuentes: F-H-94, F-M5-09
 bloque: Proceso paso a paso + recuadro de error
 
 Este camino necesita un computador con navegador. Make llama escenarios a sus flujos y módulos a sus pasos. Como viste en P05, el plan
-gratuito da 1.000 créditos al mes, y para probar alcanza de sobra. En esta primera parte preparas los datos de práctica y creas el
+gratuito da 1.000 créditos al mes [@F-H-94], y para probar alcanza de sobra. En esta primera parte preparas los datos de práctica y creas el
 disparador.
 
 1. Crea en Google Sheets una planilla «Registro de consultas (prueba)» con cuatro columnas: Fecha, Remitente, Asunto y Análisis de la IA. Envía a tu cuenta de práctica tres correos inventados con asunto «[PRUEBA] …»: un pedido, un reclamo y una consulta general.
@@ -7529,7 +7063,7 @@ disparador.
 3. Ponle un nombre claro, como «M5 · Registro de consultas · v1», para saber qué hace y qué versión es.
 4. Agrega el primer módulo, el de Gmail, y elige leer los correos nuevos de la bandeja de entrada.
 5. Conecta tu cuenta de práctica. Make te pedirá permiso para acceder a Gmail: lee qué pide y acepta.
-6. Trae un correo de prueba. Al configurar el disparador, las plataformas no-code suelen traer un registro existente para armar los pasos siguientes, como hace Zapier. Verifica que aparezca uno de tus correos «[PRUEBA]».
+6. Trae un correo de prueba. Al configurar el disparador, las plataformas no-code suelen traer un registro existente para armar los pasos siguientes, como hace Zapier [@F-M5-09]. Verifica que aparezca uno de tus correos «[PRUEBA]».
 
 Si algo no coincide con lo que ves en pantalla, no te preocupes: las plataformas cambian los nombres de sus menús de vez en cuando. Lo
 que importa es la lógica, que ya conoces de la tabla de P07.
@@ -7549,8 +7083,8 @@ Ahora completas los pasos 2 a 4 del diseño de P07. Al terminar vas a tener un f
 planilla.
 
 7. Agrega la condición entre Gmail y el paso siguiente: que el flujo siga solo si el asunto contiene «[PRUEBA]». Elige el asunto desde los datos del módulo de Gmail, el operador «contiene» y el valor «[PRUEBA]».
-8. Agrega el módulo de IA y escribe esta instrucción: «Clasifica esta consulta en una sola categoría: pedido, reclamo u otra. Luego resúmela en una línea. Responde así: Categoría: … · Resumen: … No agregues datos que no estén en el correo. Asunto: [asunto] · Texto: [texto del correo]». Donde dice [asunto] y [texto del correo], mapea los campos de Gmail en vez de escribirlos a mano.
-9. Agrega el módulo de Google Sheets para sumar una fila a tu planilla de prueba. Mapea Fecha, Remitente y Asunto desde Gmail, y Análisis de la IA desde la respuesta del módulo de IA.
+8. Agrega el módulo de IA y escribe esta instrucción: «Clasifica esta consulta en una sola categoría: pedido, reclamo u otra. Luego resúmela en una línea. Responde así: Categoría: … · Resumen: … No agregues datos que no estén en el correo. Asunto: [asunto] · Texto: [texto del correo]». Donde dice [asunto] y [texto del correo], mapea los campos de Gmail en vez de escribirlos a mano [@F-M5-10].
+9. Agrega el módulo de Google Sheets para sumar una fila a tu planilla de prueba [@F-H-94]. Mapea Fecha, Remitente y Asunto desde Gmail, y Análisis de la IA desde la respuesta del módulo de IA.
 10. Guarda el escenario con su nombre.
 
 Si quieres mejorar la instrucción del paso 8, pégala en Gemini y pregúntale qué ambigüedades tiene. Lo que te sugiera, pruébalo antes de
@@ -7568,7 +7102,7 @@ fuentes: F-H-61, F-H-55
 bloque: Proceso paso a paso + texto
 
 Si no tienes computador, puedes armar un flujo programado con Gemini. La app permite hasta 10 acciones programadas activas en Android,
-iPhone o la web, con una cuenta personal y la actividad guardada, y la aplicación que uses, como Gmail, tiene que estar conectada.
+iPhone o la web, con una cuenta personal y la actividad guardada, y la aplicación que uses, como Gmail, tiene que estar conectada [@F-H-61].
 Google la está habilitando de a poco, así que puede que todavía no aparezca en tu cuenta; si no la ves, usa el plan B del final.
 
 1. En tu cuenta de práctica, conecta Gmail con Gemini.
@@ -7581,7 +7115,7 @@ práctica que traen documentos nuevos, y ella los registra.
 
 Si las acciones programadas no están disponibles, el plan B son las tareas programadas de ChatGPT. La cuenta gratuita permite 3 tareas
 activas, que se repiten como máximo una vez al día, en franjas amplias como mañana, tarde o noche, y avisan por notificación o por
-correo. No pueden activarse con un correo de Gmail, así que sirven para un flujo más simple: cada mañana, la IA te prepara una lista de
+correo [@F-H-55]. No pueden activarse con un correo de Gmail, así que sirven para un flujo más simple: cada mañana, la IA te prepara una lista de
 seguimiento a partir de datos ficticios que dejas escritos en la tarea.
 
 ### P11 · Prueba tu flujo como si fuera a fallar
@@ -7590,7 +7124,7 @@ fuentes: F-M5-06, F-M5-09
 bloque: Tabla + actividad
 
 Que el flujo funcione con un correo no significa que esté listo. La guía de Bath pide probar la mayor cantidad posible de escenarios
-antes de poner un flujo en marcha, y probar es eso: buscar a propósito los casos en que podría fallar. Para hacerlo con orden, arma un
+antes de poner un flujo en marcha [@F-M5-06], y probar es eso: buscar a propósito los casos en que podría fallar. Para hacerlo con orden, arma un
 **plan de pruebas** con datos ficticios y anota, para cada caso, qué esperas y qué pasó.
 
 | Caso de prueba | Resultado esperado | Resultado obtenido |
@@ -7604,7 +7138,7 @@ antes de poner un flujo en marcha, y probar es eso: buscar a propósito los caso
 El tercer caso es el más importante, porque comprueba que tu condición protege los correos que no son de prueba. El cuarto revisa si
 la IA inventa contenido cuando le falta información. Si usas el camino del celular, adapta el resultado esperado: en vez de filas,
 revisa que la lista de Gemini traiga cada correo «[PRUEBA]» con su categoría y deje fuera el que no lo tiene. Cada prueba gasta
-créditos o usos del plan gratuito, así que cinco casos bien elegidos valen más que cincuenta iguales.
+créditos o usos del plan gratuito [@F-M5-09], así que cinco casos bien elegidos valen más que cincuenta iguales.
 
 :::actividad Corre tu plan de pruebas
 Envía los cinco correos de prueba y completa la tabla. Marca con una X cada caso en que lo obtenido no coincide con lo esperado. Esas
@@ -7618,11 +7152,11 @@ bloque: Texto + escenario de diagnóstico + comprueba
 
 Cuando un flujo falla, no adivines: busca dónde falló. Las plataformas guardan un **historial de ejecuciones**. En Zapier, por
 ejemplo, se abre la ejecución con error, se ubica el paso que falló y se leen su diagnóstico y el mensaje de error. Busca la opción
-equivalente en la herramienta que uses. Una vez corregida la causa, Zapier permite volver a ejecutar lo que falló para no perder datos.
+equivalente en la herramienta que uses. Una vez corregida la causa, Zapier permite volver a ejecutar lo que falló para no perder datos [@F-M5-11].
 
 Hay fallas que se repiten mucho y conviene reconocerlas:
 - Todas las filas dicen lo mismo: un campo quedó escrito a mano en vez de mapeado.
-- Un campo aparece vacío: el mapeo se rompió, algo que puede pasar al reordenar o duplicar pasos o al cambiar de aplicación; Zapier lo marca con una advertencia amarilla.
+- Un campo aparece vacío: el mapeo se rompió, algo que puede pasar al reordenar o duplicar pasos o al cambiar de aplicación; Zapier lo marca con una advertencia amarilla [@F-M5-10].
 - El flujo no corre: el disparador no detectó el correo o la condición está mal escrita.
 - El escenario se detuvo: en Make, se acabaron los créditos del mes (P05).
 
@@ -7646,7 +7180,7 @@ bloque: Texto + lista de verificación (checklist) + comprueba
 
 Un flujo que solo entiende quien lo armó es frágil. Si mañana falla, si sales de vacaciones o si otra persona de tu equipo tiene que
 revisarlo, la documentación hace la diferencia. La guía de Bath pide documentar el propósito, las entradas, las salidas y las
-dependencias, usar nombres claros y monitorear los flujos: apaga los que fallan una y otra vez o los que llevan 30 días sin activarse.
+dependencias, usar nombres claros y monitorear los flujos: apaga los que fallan una y otra vez o los que llevan 30 días sin activarse [@F-M5-06].
 
 Arma una **ficha del flujo** con esta lista:
 - [ ] Un nombre con convención de módulo, propósito y versión, como «M5 · Registro de consultas · v2».
@@ -7657,7 +7191,7 @@ Arma una **ficha del flujo** con esta lista:
 - [ ] Las dependencias, como cuentas conectadas, planilla, créditos o límites del plan.
 - [ ] Las pruebas, con tu tabla de P11 y lo que corregiste.
 
-Un flujo es funcional cuando el disparador se activa y cada acción recibe los datos correctos del paso anterior, y tu tabla de pruebas
+Un flujo es funcional cuando el disparador se activa y cada acción recibe los datos correctos del paso anterior [@F-M5-10], y tu tabla de pruebas
 es la evidencia de eso.
 
 :::comprueba
@@ -7675,7 +7209,7 @@ fuentes: F-M5-06, F-M5-11
 bloque: Texto + actividad de cierre (entrega)
 
 En este tema armaste un flujo con sus tres elementos, disparador, acciones y datos, más una condición. Elegiste la herramienta según lo
-que permite su plan gratuito, conectaste servicios con una cuenta de práctica y lo probaste y corregiste con datos ficticios. Ahora toca
+que permite su plan gratuito, conectaste servicios con una cuenta de práctica y lo probaste y corregiste con datos ficticios [@F-M5-06; @F-M5-11]. Ahora toca
 hacer lo mismo con la tarea de tu trabajo que marcaste en tu matriz del tema 1.
 
 Ten presente que tu flujo todavía funciona sin control humano. En el próximo tema vas a decidir dónde debe revisar una persona y qué
@@ -7706,61 +7240,19 @@ Guarda capturas de pantalla del flujo y de tu tabla de pruebas, sin datos reales
    probar.
 7. Documentar nombre, propósito, pasos, datos, dependencias y pruebas hace que el flujo se pueda revisar y mantener.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Flujo automatizado**: cadena de pasos que se ejecuta sola cuando ocurre un evento o llega una hora definida.
-- **No-code**: forma de crear flujos o aplicaciones eligiendo bloques ya hechos, sin escribir código.
-- **Disparador**: evento que inicia un flujo, como la llegada de un correo o una hora programada.
-- **Acción**: lo que hace el flujo después del disparador, como resumir un texto o agregar una fila.
-- **Condición**: regla que decide si el flujo sigue o qué camino toma, según un dato de un paso anterior.
-- **Filtro (en un flujo)**: condición que deja seguir el flujo solo si se cumple una regla.
-- **Mapear un campo**: conectar un dato que sale de un paso con un campo de un paso posterior.
-- **Conector**: componente que une una plataforma con un servicio, como Gmail o Google Sheets, y ofrece sus disparadores y acciones.
-- **Datos de prueba**: datos ficticios o de ejemplo que se usan para armar y probar un flujo sin arriesgar información real.
-- **Plan de pruebas**: lista de casos con su resultado esperado, para comprobar si un flujo funciona.
-- **Historial de ejecuciones**: registro de cada vez que corrió un flujo, con los pasos que funcionaron y los que fallaron.
-- **Escenario**: nombre que Make da a un flujo; sus pasos se llaman módulos.
-- **Crédito**: unidad con que Make cuenta el uso del plan; cada acción de un módulo suele gastar uno.
-- **Acción programada**: pedido a Gemini que se ejecuta solo, en un día y hora definidos.
-
-### Conexión con el proyecto
-
-El flujo que construiste y probaste en la actividad de cierre (P14) es el **prototipo del Hito 5 del proyecto aplicado: prototipo de
-automatización de un paso del proceso, con supervisión humana**. Automatiza el paso que elegiste con tu matriz del tema 1, dentro del
-desafío laboral que vienes trabajando desde el Hito 1. Tu ficha (P13) y tu tabla de pruebas (P11) son parte de la entrega. En el tema 3
-le agregarás los puntos de supervisión humana y el plan de contingencia que exige el hito.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M5.md`, `investigacion/HERRAMIENTAS-1.md` y
-`investigacion/HERRAMIENTAS-2.md` (consultadas el 24-10-2026).
-
-- F-M5-06 · University of Bath (s. f.). Automation standards for Microsoft Power Automate. https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate
-- F-M5-07 · Microsoft Learn (2026). Desencadenadores (Triggers) - Power Automate. https://learn.microsoft.com/es-es/power-automate/triggers-introduction
-- F-M5-08 · Microsoft Learn (2022). Agregar una condición a un flujo de nube en Power Automate. https://learn.microsoft.com/es-es/power-automate/add-condition
-- F-M5-09 · Zapier Help Center (2026). Learn key concepts in Zap workflows. https://help.zapier.com/hc/en-us/articles/8496181725453-Learn-key-concepts-in-Zapier
-- F-M5-10 · Zapier Help Center (2026). Send data between steps by mapping fields. https://help.zapier.com/hc/en-us/articles/8496343026701
-- F-M5-11 · Zapier Help Center (2026). How to troubleshoot errors in Zap workflows. https://help.zapier.com/hc/en-us/articles/8496037690637
-- F-H-15 · Google (s. f.). Centro de Privacidad de las Aplicaciones de Gemini. https://support.google.com/gemini/answer/13594961?hl=es
-- F-H-55 · OpenAI (2026). Scheduled tasks in ChatGPT. https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt
-- F-H-61 · Google (s. f.). Acciones programadas en las aplicaciones de Gemini (Android). https://support.google.com/gemini/answer/16316416?hl=es&co=GENIE.Platform%3DAndroid
-- F-H-93 · Zapier (2026). Plans & Pricing. https://zapier.com/pricing
-- F-H-94 · Make (s. f.). Pricing. https://www.make.com/pricing
-
-Pendiente de probar a mano antes de publicar:
-- **Acciones programadas de Gemini (P10):** la ayuda en español no exige plan (F-H-61), pero la tabla de límites (F-H-60) parece
-  dejarlas en planes de pago. **Pilotear con una cuenta gratuita en Chile antes de publicar.** Comprobar también si se crean con un
-  pedido en lenguaje natural y si filtran por asunto.
-- **Tareas programadas de ChatGPT (P10):** la página de precios (F-H-54) las muestra como función de Plus, pero la ayuda (F-H-55) da 3
-  tareas a las cuentas Free. Confirmar en la app.
-- **Make (P08, P09, P12):** las fuentes confirman el plan gratuito, los créditos y los módulos que leen correos y escriben filas en
-  Google Sheets (F-H-94). No confirman los nombres exactos de los módulos de Gmail e IA, la forma de poner la condición (filtro) entre
-  módulos, el historial de ejecuciones ni si el editor funciona en el celular. Recorrer el laboratorio completo con una cuenta
-  gratuita y ajustar los pasos.
-- **Conectores (P06):** la definición se apoya en la documentación de Power Automate (F-M5-07); que Gemini necesite la actividad guardada
-  se respalda en P10 (F-H-61).
-- **Herramientas que salieron de P05 el 28-10** por el máximo de 2 fuentes: IFTTT, Power Automate con cuentas personales, n8n y Google
-  Apps Script (fuentes F-H-95 a F-H-99 en `investigacion/HERRAMIENTAS-2.md`).
+- Google. (s. f.-a). *Acciones programadas en las aplicaciones de Gemini*. https://support.google.com/gemini/answer/16316416?hl=es&co=GENIE.Platform%3DAndroid
+- Google. (s. f.-b). *Centro de privacidad de las aplicaciones de Gemini*. https://support.google.com/gemini/answer/13594961?hl=es
+- Make. (s. f.). *Pricing*. https://www.make.com/pricing
+- Microsoft. (2022, 16 de mayo). *Agregar una condición a un flujo de nube en Power Automate*. Microsoft Learn. https://learn.microsoft.com/es-es/power-automate/add-condition
+- Microsoft. (2026, 18 de septiembre). *Triggers (Power Automate)*. Microsoft Learn. https://learn.microsoft.com/es-es/power-automate/triggers-introduction
+- OpenAI. (2026, 23 de octubre). *Scheduled tasks in ChatGPT*. OpenAI Help Center. https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt
+- University of Bath. (s. f.). *Automation standards for Microsoft Power Automate*. https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate
+- Zapier. (2026a, 15 de octubre). *How to troubleshoot errors in Zap workflows*. Zapier Help Center. https://help.zapier.com/hc/en-us/articles/8496037690637
+- Zapier. (2026b, 13 de agosto). *Learn key concepts in Zap workflows*. Zapier Help Center. https://help.zapier.com/hc/en-us/articles/8496181725453-Learn-key-concepts-in-Zapier
+- Zapier. (2026c, 23 de octubre). *Plans & pricing*. https://zapier.com/pricing
+- Zapier. (2026d, 18 de junio). *Send data between steps by mapping fields*. Zapier Help Center. https://help.zapier.com/hc/en-us/articles/8496343026701
 
 
 ## M5-AE3 · Supervisión humana y riesgos
@@ -7780,7 +7272,7 @@ comprobar con pruebas si tus controles sirven.
 
 Vas a trabajar con casos de oficina en que un flujo automatizado con IA trae un problema. En cada uno vas a analizar qué pasó, qué
 riesgo apareció y qué control lo habría evitado, con ideas de marcos reconocidos, como las directrices éticas de la Comisión Europea y
-el marco de gestión de riesgos de IA del NIST de Estados Unidos. Además de Camila y Andrés aparece Paula, ejecutiva de atención al
+el marco de gestión de riesgos de IA del NIST de Estados Unidos [@F-M5-12; @F-M5-13]. Además de Camila y Andrés aparece Paula, ejecutiva de atención al
 cliente en una tienda de electrodomésticos. Las tres personas y sus casos son ficticios; las situaciones reales las vas a ver en la
 actividad de análisis de casos.
 
@@ -7800,8 +7292,8 @@ que, desde el lunes, una compañera anota las fechas nuevas de otra forma y la I
 fecha equivocada, y los clientes ya habían organizado su recepción con esos datos.
 
 Esto es un **error en cadena**. En un flujo, los datos de un paso alimentan al siguiente, así que un dato erróneo, o un mapeo que se
-rompió, se repite en cada ejecución y llega a quien usa el resultado. A eso se suma que la IA generativa puede **confabular**, es decir,
-entregar contenido falso con tono seguro, como una fecha que la planilla no decía.
+rompió, se repite en cada ejecución y llega a quien usa el resultado [@F-M5-10]. A eso se suma que la IA generativa puede **confabular**, es decir,
+entregar contenido falso con tono seguro [@F-M5-14], como una fecha que la planilla no decía.
 
 Antes de seguir, piensa en estas preguntas:
 1. ¿En qué paso nació el error y en qué paso se hizo visible?
@@ -7824,8 +7316,8 @@ y una opinión sobre cada persona.
 
 Antes de opinar, Camila piensa en el riesgo. Sabe lo que trae un currículum, porque los recibe cada vez que hay una vacante: nombre,
 RUT, teléfono, dirección, experiencia y a veces datos de salud o de familia. El perfil de riesgos de IA generativa del NIST incluye la
-**privacidad**, es decir, la filtración o el uso no autorizado de datos personales. Y si el flujo usara Gemini con la actividad guardada,
-según Google, revisores humanos podrían leer esas conversaciones.
+**privacidad**, es decir, la filtración o el uso no autorizado de datos personales [@F-M5-14]. Y si el flujo usara Gemini con la actividad guardada,
+según Google, revisores humanos podrían leer esas conversaciones [@F-H-15].
 
 Camila propone otra cosa: «Automaticemos solo el registro de que llegó una postulación, con la fecha y el cargo. El análisis de cada
 currículum lo hace una persona». Su jefatura acepta probarlo así. Con esa propuesta, los datos sensibles no pasan por la IA y la
@@ -7851,7 +7343,7 @@ escritos con faltas de ortografía o en un tono muy informal quedan casi siempre
 refrigerador que llegó sin funcionar.
 
 El NIST describe dos riesgos que aparecen juntos en este caso. El primero es el **sesgo dañino**: la IA puede reproducir sesgos, y al
-automatizarla aumentan la velocidad y la escala con que se propagan. Un criterio injusto aplicado a mano afecta a unos pocos; dentro de
+automatizarla aumentan la velocidad y la escala con que se propagan [@F-M5-14]. Un criterio injusto aplicado a mano afecta a unos pocos; dentro de
 un flujo, afecta a todos. El segundo es el **sesgo de automatización**, que consiste en confiar de más en lo que entrega un sistema
 automático. El equipo de Paula dejó de leer los reclamos marcados como «baja» porque «el sistema ya los clasificó», y esa dependencia
 agravó el error.
@@ -7872,7 +7364,7 @@ fuentes: F-M5-16, F-M3-16
 bloque: Texto + comprueba
 
 Los casos de Camila y de Paula tienen algo en común: el flujo decide, o influye en, algo que afecta a una persona. En Chile, la Ley
-21.719 modifica la Ley 19.628 sobre datos personales y agrega un artículo 8° bis sobre **decisiones automatizadas**.
+21.719 modifica la Ley 19.628 sobre datos personales y agrega un artículo 8° bis sobre **decisiones automatizadas** [@F-M5-16].
 
 Según ese artículo, toda persona tiene derecho a oponerse y a no ser objeto de decisiones basadas en el tratamiento automatizado de sus
 datos, incluida la elaboración de perfiles, cuando le produzcan efectos jurídicos o le afecten significativamente. Hay excepciones, por
@@ -7882,7 +7374,7 @@ esos casos, quien es responsable de los datos debe asegurar que la persona recib
 
 En tu trabajo esto importa cada vez que un flujo toca a otras personas, sean clientes, proveedores, compañeros o candidatos a un puesto.
 Según su texto, estos cambios rigen desde el 1 de diciembre de 2026. Hay un proyecto de ley en trámite en el Senado que propone
-postergar esa fecha a diciembre de 2027 y que todavía no está aprobado, así que antes de aplicar esta norma revisa en qué estado está.
+postergar esa fecha a diciembre de 2027 y que todavía no está aprobado [@F-M3-16], así que antes de aplicar esta norma revisa en qué estado está.
 
 :::comprueba
 Según la Ley 21.719, ¿qué debe poder pedir una persona afectada significativamente por una decisión automatizada, en los casos en que
@@ -7899,7 +7391,7 @@ fuentes: F-M5-12, F-M5-13
 bloque: Tabla + ejemplo
 
 Las directrices éticas para una IA fiable de la Comisión Europea ponen como primer requisito la acción y supervisión humanas, y
-describen tres formas de supervisar. En inglés se conocen con nombres que vas a encontrar a menudo:
+describen tres formas de supervisar [@F-M5-12]. En inglés se conocen con nombres que vas a encontrar a menudo:
 
 | Forma | Qué hace la persona | En inglés | En un flujo |
 |---|---|---|---|
@@ -7909,7 +7401,7 @@ describen tres formas de supervisar. En inglés se conocen con nombres que vas a
 
 Las directrices agregan una regla útil: cuanto menor sea la supervisión posible, mayores deben ser las verificaciones. El marco del
 NIST, por su parte, explica que las configuraciones entre personas e IA van de totalmente autónomas a totalmente manuales, y pide
-definir y documentar los procesos de supervisión y los roles de cada persona.
+definir y documentar los procesos de supervisión y los roles de cada persona [@F-M5-13].
 
 :::ejemplo Las tres formas en la tienda de Paula
 Con participación humana, alguien confirma cada reclamo que el flujo clasifica como «baja». Con control humano, una vez por semana
@@ -7928,10 +7420,10 @@ donde el riesgo es mayor. Estos son los lugares típicos:
 - Antes de escribir en un registro que otros usan para decidir, como la planilla de pagos o el registro de pedidos.
 - Cuando la IA clasifica, resume o extrae datos que luego se usan sin volver al original.
 - Cuando aparecen datos personales.
-- Cuando un dato no cumple una regla; una condición puede detener el flujo o desviarlo a revisión, por ejemplo si la fecha extraída está vacía o es anterior a hoy.
+- Cuando un dato no cumple una regla; una condición puede detener el flujo o desviarlo a revisión [@F-M5-08], por ejemplo si la fecha extraída está vacía o es anterior a hoy.
 
 Algunas plataformas tienen pasos de aprobación ya hechos, pero no caben en sus planes gratuitos más básicos: Zapier gratis, por
-ejemplo, solo permite flujos de dos pasos. Por eso en este curso usamos la revisión manual, que funciona gratis. El flujo deja el
+ejemplo, solo permite flujos de dos pasos [@F-H-93]. Por eso en este curso usamos la revisión manual, que funciona gratis. El flujo deja el
 resultado en una columna «Estado» con el valor «por revisar», y nadie lo usa hasta que una persona lo cambia a «aprobado». En el camino
 del celular la lógica es la misma: Gemini te entrega la lista y nada queda registrado hasta que tú la revisas.
 
@@ -7949,7 +7441,7 @@ fuentes: F-M5-12, F-M5-13
 bloque: Lista de verificación (checklist) + tabla + actividad
 
 Una revisión sin criterios se vuelve un clic automático: «aprobado, aprobado, aprobado». Para que el control sirva, define qué revisa la
-persona y cuándo aprueba. El NIST pide que estos procesos de supervisión queden definidos y documentados.
+persona y cuándo aprueba. El NIST pide que estos procesos de supervisión queden definidos y documentados [@F-M5-13].
 
 Un **criterio de aprobación** es una pregunta que se responde con sí o no en pocos segundos, por ejemplo:
 - [ ] ¿Los datos coinciden con el correo o el documento original?
@@ -7958,7 +7450,7 @@ Un **criterio de aprobación** es una pregunta que se responde con sí o no en p
 - [ ] ¿El tono es adecuado para quien lo va a recibir?
 
 Si algo no cumple, la persona decide si lo corrige o si hace esa tarea a mano. La cantidad de revisión depende del riesgo, y para
-decidirla sirven la matriz del tema 1 y la regla de la Comisión Europea: menos supervisión pide más verificaciones. Esta tabla es una
+decidirla sirven la matriz del tema 1 y la regla de la Comisión Europea: menos supervisión pide más verificaciones [@F-M5-12]. Esta tabla es una
 propuesta del curso:
 
 | Riesgo del paso | Forma de supervisión | Cómo se revisa |
@@ -7979,10 +7471,10 @@ bloque: Texto + tabla de ejemplo + ejemplo
 
 Cuando algo sale mal, la primera pregunta es qué pasó, y para responderla necesitas un **registro**. Las directrices europeas piden
 documentar los datos, los procesos y las decisiones para lograr **trazabilidad**: poder reconstruir qué pasó, entender por qué hubo un
-error y prevenir otros.
+error y prevenir otros [@F-M5-12].
 
 En tu flujo hay dos registros. Uno es el historial de la plataforma; en Zapier, por ejemplo, cada ejecución queda guardada con el paso
-que falló y su mensaje de error. El otro es tu propio registro en la planilla del flujo, al que conviene agregarle columnas para la
+que falló y su mensaje de error [@F-M5-11]. El otro es tu propio registro en la planilla del flujo, al que conviene agregarle columnas para la
 supervisión, como en este ejemplo de Andrés:
 
 | Fecha | Dato original | Resultado de la IA | Estado | Revisó | Observación |
@@ -8004,8 +7496,8 @@ fuentes: F-M5-13, F-M5-15
 bloque: Texto + lista + comprueba
 
 Un flujo seguro es uno que se puede detener y cuyos efectos se pueden deshacer. A eso se le llama **reversibilidad**. El marco del NIST
-pide mecanismos y responsables para reemplazar, desconectar o desactivar un sistema que no funciona como se espera, y los principios de
-la OCDE piden que un sistema que arriesga causar daños pueda ser anulado, reparado o retirado de forma segura.
+pide mecanismos y responsables para reemplazar, desconectar o desactivar un sistema que no funciona como se espera [@F-M5-13], y los principios de
+la OCDE piden que un sistema que arriesga causar daños pueda ser anulado, reparado o retirado de forma segura [@F-M5-15].
 
 En un flujo simple, eso se traduce en cuatro prácticas que el curso te recomienda:
 - Saber dónde se apaga: antes de activar el flujo, ubica cómo se pausa o se desactiva en tu herramienta.
@@ -8027,8 +7519,8 @@ fuentes: F-M5-06, F-M5-13
 bloque: Proceso (process block) + ejemplo
 
 Un **plan de contingencia** dice qué hacer si el flujo deja de funcionar o empieza a equivocarse. La guía de la Universidad de Bath lo
-pide para todo flujo importante, y el NIST incluye la respuesta a incidentes y la recuperación en el seguimiento que se hace después de
-poner un sistema en marcha. Tu plan responde seis preguntas:
+pide para todo flujo importante [@F-M5-06], y el NIST incluye la respuesta a incidentes y la recuperación en el seguimiento que se hace después de
+poner un sistema en marcha [@F-M5-13]. Tu plan responde seis preguntas:
 
 1. ¿Cómo me doy cuenta? Por ejemplo, por un error en el historial, filas vacías o el aviso de alguien.
 2. ¿Cómo lo detengo? Dónde se pausa el flujo y quién lo hace.
@@ -8052,7 +7544,7 @@ cubre: C1, A2, H1
 fuentes: F-M5-13
 bloque: Proceso + tabla + actividad
 
-Poner un control no basta: hay que comprobar que sirve. El marco del NIST pide medir con pruebas y documentar los resultados, y en tu
+Poner un control no basta: hay que comprobar que sirve. El marco del NIST pide medir con pruebas y documentar los resultados [@F-M5-13], y en tu
 flujo puedes hacerlo en cuatro pasos:
 
 1. Prepara 10 casos ficticios y, en 3 de ellos, siembra un error: un correo con una fecha ambigua, uno con un dato personal que no debería pasar y uno que debería detenerse.
@@ -8081,8 +7573,8 @@ fuentes: F-M5-15, F-M5-13
 bloque: Texto + escenario breve + comprueba
 
 Los principios de la OCDE incluyen la **rendición de cuentas**: quienes ponen en marcha un sistema de IA responden por su
-funcionamiento, y deben registrar datos, procesos y decisiones y gestionar los riesgos de forma sistemática. El marco del NIST pide,
-además, roles claros: quién supervisa, quién puede apagar el sistema y quién atiende un incidente.
+funcionamiento, y deben registrar datos, procesos y decisiones y gestionar los riesgos de forma sistemática [@F-M5-15]. El marco del NIST pide,
+además, roles claros: quién supervisa, quién puede apagar el sistema y quién atiende un incidente [@F-M5-13].
 
 Para ti esto tiene un sentido práctico: el flujo actúa en tu nombre. Si manda un dato equivocado a un cliente o a un proveedor, para
 quien lo recibe el error es tuyo y de tu empresa, no de la herramienta. Un error común es pensar lo contrario, que si el flujo se
@@ -8110,7 +7602,7 @@ fuentes: F-M5-12, F-M5-13
 bloque: Texto + actividad de cierre (entrega)
 
 En este tema analizaste tres casos: un error en cadena, un flujo con datos personales y un sesgo que se multiplicaba. Viste que la
-supervisión humana puede ser participación, control o mando, y que se ajusta al riesgo. También aprendiste a dejar registro, a hacer el
+supervisión humana puede ser participación, control o mando [@F-M5-12], y que se ajusta al riesgo [@F-M5-13]. También aprendiste a dejar registro, a hacer el
 flujo reversible, a escribir un plan de contingencia y a medir si tus controles sirven.
 
 Con eso puedes completar tu prototipo. Un flujo con supervisión humana no es más lento: es uno en el que puedes confiar y del que puedes
@@ -8141,60 +7633,20 @@ Trabaja siempre con datos ficticios o con copias sin datos sensibles.
 6. Un plan de contingencia dice cómo detectar la falla, detener el flujo, seguir a mano, recuperar lo perdido, avisar y quién responde.
 7. Los controles se evalúan con pruebas: errores detectados, falsas alarmas y tiempo de revisión.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Error en cadena**: error que nace en un paso de un flujo y se repite en los siguientes y en cada ejecución.
-- **Confabulación**: contenido falso que la IA generativa entrega con tono seguro; también se le llama alucinación.
-- **Sesgo de automatización**: tendencia a confiar de más en lo que entrega un sistema automático.
-- **Supervisión humana**: intervención de personas para revisar, corregir o detener lo que hace un sistema de IA.
-- **Participación humana (*human-in-the-loop*)**: supervisión en que una persona interviene en cada decisión del sistema.
-- **Control humano (*human-on-the-loop*)**: supervisión en que una persona diseña el sistema y sigue su funcionamiento, sin revisar
-  cada caso.
-- **Mando humano (*human-in-command*)**: supervisión global en que una persona decide cuándo y cómo usar el sistema, o no usarlo.
-- **Punto de control**: lugar de un flujo donde una persona revisa el resultado antes de que siga.
-- **Criterio de aprobación**: pregunta de sí o no que la persona revisora usa para aprobar o rechazar un resultado.
-- **Trazabilidad (de un flujo)**: posibilidad de reconstruir qué datos, pasos y decisiones llevaron a un resultado.
-- **Reversibilidad**: posibilidad de detener un flujo y deshacer o corregir sus efectos.
-- **Plan de contingencia**: acuerdo previo sobre qué hacer si un flujo falla o se equivoca.
-- **Decisión automatizada**: decisión basada en el tratamiento automatizado de datos, sin intervención de una persona.
-- **Rendición de cuentas**: obligación de responder por el funcionamiento y los resultados de un sistema que se puso en marcha.
-
-### Conexión con el proyecto
-
-Con la actividad de cierre (P14) completas el **Hito 5 del proyecto aplicado: prototipo de automatización de un paso del proceso,
-con supervisión humana**. Entregas el flujo del tema 2 con su mapa de riesgos, puntos de control, criterios de aprobación, registro,
-plan de contingencia y la evaluación de tus controles.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M5.md`, `investigacion/M3.md`, `investigacion/HERRAMIENTAS-1.md` y
-`investigacion/HERRAMIENTAS-2.md` (consultadas el 24-10-2026).
-
-- F-M5-06 · University of Bath (s. f.). Automation standards for Microsoft Power Automate. https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate
-- F-M5-08 · Microsoft Learn (2022). Agregar una condición a un flujo de nube en Power Automate. https://learn.microsoft.com/es-es/power-automate/add-condition
-- F-M5-10 · Zapier Help Center (2026). Send data between steps by mapping fields. https://help.zapier.com/hc/en-us/articles/8496343026701
-- F-M5-11 · Zapier Help Center (2026). How to troubleshoot errors in Zap workflows. https://help.zapier.com/hc/en-us/articles/8496037690637
-- F-M5-12 · Comisión Europea, Grupo independiente de expertos de alto nivel sobre IA (2019). Directrices éticas para una IA fiable. https://digital-strategy.ec.europa.eu/es/node/1950
-- F-M5-13 · NIST (2023). Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf
-- F-M5-14 · NIST (2024). AI RMF: Generative Artificial Intelligence Profile, NIST AI 600-1. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
-- F-M5-15 · OCDE (2019, actualizados en 2024). Principios de la OCDE sobre IA (principios 1.2, 1.4 y 1.5). https://oecd.ai/en/ai-principles
-- F-M5-16 · Congreso Nacional de Chile, BCN LeyChile (2024). Ley 21.719, regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales. https://www.bcn.cl/leychile/navegar?idLey=21719
-- F-M3-16 · Senado de Chile (2026). Tramitación del boletín 18623-07: proyecto que modifica la Ley 21.719. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=18623
-- F-H-15 · Google (s. f.). Centro de Privacidad de las Aplicaciones de Gemini. https://support.google.com/gemini/answer/13594961?hl=es
-- F-H-93 · Zapier (2026). Plans & Pricing. https://zapier.com/pricing
-
-Notas para revisar antes de publicar:
-- **Ley 21.719 (P05):** según su texto, rige desde el 01-12-2026; el boletín 18623-07, que propone postergarla al 01-12-2027, sigue
-  en trámite (F-M3-16). **Revisar antes de publicar** y ajustar la fecha si la ley se modifica.
-- **NIST AI RMF:** la ficha de NIST indica que el AI RMF 1.0 está en revisión. Revisar antes de publicar.
-- **Errores en cadena (P02):** es una explicación del curso a partir de cómo pasan los datos entre pasos (F-M5-10); ninguna fuente lo
-  dice con esas palabras.
-- **Equivalencias en inglés (P06):** la versión en español de las directrices no usa *human-in-the-loop*, *on-the-loop* ni
-  *in-command*; la equivalencia sale de comparar con los términos en inglés de la Comisión.
-- **Aprobación humana automática (P07):** el contenido solo afirma lo verificado en F-H-93 (Zapier gratis permite dos pasos). La tabla
-  de niveles de revisión (P08) y la prueba de controles (P12) son propuestas del curso.
-- **P10:** volver a ejecutar lo fallido se respalda en M5-AE2 P12 (F-M5-11). **P13:** el sesgo de automatización se respalda en P04
-  (F-M5-14); el ejemplo de la empresa que automatiza todo es ficticio y general.
+- Google. (s. f.). *Centro de privacidad de las aplicaciones de Gemini*. https://support.google.com/gemini/answer/13594961?hl=es
+- Grupo independiente de expertos de alto nivel sobre inteligencia artificial. (2019). *Directrices éticas para una IA fiable*. Comisión Europea. https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60423
+- Ley 21.719. (2024, 13 de diciembre). *Regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idLey=21719
+- Microsoft. (2022, 16 de mayo). *Agregar una condición a un flujo de nube en Power Automate*. Microsoft Learn. https://learn.microsoft.com/es-es/power-automate/add-condition
+- National Institute of Standards and Technology. (2023). *Artificial intelligence risk management framework (AI RMF 1.0) (NIST AI 100-1)*. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf
+- National Institute of Standards and Technology. (2024). *Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)*. https://doi.org/10.6028/NIST.AI.600-1
+- OCDE. (2024). *Principios de la OCDE sobre IA*. OECD.AI. https://oecd.ai/en/ai-principles
+- Senado de Chile. (2026). *Proyecto que modifica la Ley 21.719 (Boletín 18623-07)*. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=18623
+- University of Bath. (s. f.). *Automation standards for Microsoft Power Automate*. https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate
+- Zapier. (2026a, 15 de octubre). *How to troubleshoot errors in Zap workflows*. Zapier Help Center. https://help.zapier.com/hc/en-us/articles/8496037690637
+- Zapier. (2026b, 23 de octubre). *Plans & pricing*. https://zapier.com/pricing
+- Zapier. (2026c, 18 de junio). *Send data between steps by mapping fields*. Zapier Help Center. https://help.zapier.com/hc/en-us/articles/8496343026701
 
 
 ---
@@ -8223,7 +7675,7 @@ justificación de por qué usar IA en ella es viable.
 El taller avanza en cuatro hitos. En este tema entregas el Hito 6a, con el diagnóstico, la meta y el plan de medición. En el segundo
 tema implementas y documentas el flujo (Hito 6b), y en el tercero mides los resultados (Hito 6c) y preparas un pitch de tres minutos
 y tu portafolio final (Hito 6d). Un método de mejora muy usado se ordena con tres preguntas: qué quieres lograr, cómo sabrás que un
-cambio es una mejora y qué cambio vas a probar. Este tema responde las dos primeras, porque sin un punto de partida medido no hay
+cambio es una mejora y qué cambio vas a probar [@F-M6-04]. Este tema responde las dos primeras, porque sin un punto de partida medido no hay
 forma de saber, al final, si tu proyecto funcionó.
 
 :::ejemplo Dos proyectos que se cierran
@@ -8255,7 +7707,7 @@ qué. Si un hito quedó incompleto, no lo rehagas entero: anota qué le falta y 
 inicial y no la perfección de lo anterior.
 
 Tener a la vista lo que ya hiciste es parte de la **orientación a resultados**: mirar el proyecto como un todo que tiene que producir
-una mejora en tu trabajo, y no como una lista de tareas sueltas del curso.
+una mejora en tu trabajo, y no como una lista de tareas sueltas del curso [@F-M6-04].
 
 :::actividad Arma tu carpeta del proyecto
 Crea una carpeta llamada «Proyecto IA · [tu nombre]» y guarda en ella una copia de cada hito, del 1 al 5, junto con la
@@ -8269,7 +7721,7 @@ fuentes: F-M6-01, F-M6-04
 bloque: Texto + escenario (el diagnóstico de Andrés)
 
 Un **diagnóstico** describe la situación actual de la tarea que quieres mejorar: cómo se hace, cuánto cuesta en tiempo o en errores
-y qué la complica. Es la foto del «antes», y para tomarla conviene responder cinco preguntas en orden:
+y qué la complica [@F-M6-01]. Es la foto del «antes», y para tomarla conviene responder cinco preguntas en orden:
 
 1. ¿Cuál es la tarea? Una sola, con un verbo: registrar, responder, resumir, avisar.
 2. ¿Cómo se hace hoy? Los pasos, en orden, y quién hace cada uno.
@@ -8278,7 +7730,7 @@ y qué la complica. Es la foto del «antes», y para tomarla conviene responder 
 5. ¿Cómo lo sabes? Un registro, una planilla, tu propia medición.
 
 La quinta pregunta es la que más se olvida. Un error común es escribir «me demoro mucho» o «hay muchos errores». ¿Cuánto es mucho?
-Sin datos, el diagnóstico es una impresión y al final no podrás demostrar que algo mejoró. Con datos, se convierte en una situación
+Sin datos, el diagnóstico es una impresión y al final no podrás demostrar que algo mejoró [@F-M6-04]. Con datos, se convierte en una situación
 inicial contra la que vas a comparar después.
 
 Como tu proyecto es sobre una tarea de tu cargo, el diagnóstico lo escribes desde lo que ves cada semana. Si la tarea pasa por varias
@@ -8295,10 +7747,10 @@ cubre: S1, C1
 fuentes: F-M6-01, F-M6-02
 bloque: Texto + tabla de registro descargable + pregunta de verificación
 
-La **línea base** es el valor de un indicador en el punto de partida. Informa la situación inicial y es la referencia para saber, más
-adelante, si tus esfuerzos dieron resultado. Sin línea base no se puede fijar una meta con sentido.
+La **línea base** es el valor de un indicador en el punto de partida [@F-M6-02]. Informa la situación inicial y es la referencia para saber, más
+adelante, si tus esfuerzos dieron resultado. Sin línea base no se puede fijar una meta con sentido [@F-M6-01].
 
-Si no tienes datos, lo recomendable es levantarlos en un primer periodo, antes de cambiar nada. Para tu proyecto basta con registrar
+Si no tienes datos, lo recomendable es levantarlos en un primer periodo, antes de cambiar nada [@F-M6-01]. Para tu proyecto basta con registrar
 la tarea durante una o dos semanas, tal como la haces hoy. Una tabla simple funciona bien:
 
 | Fecha | Caso | Minutos | Errores | Observación |
@@ -8326,7 +7778,7 @@ fuentes: F-M6-02, F-M6-05
 bloque: Texto + tabla (las cuatro partes de un indicador) + actividad
 
 Un **indicador** es la medida que te dice si avanzas. No basta con nombrarlo: se define con cuatro partes, que en el caso de Andrés
-quedan así.
+quedan así [@F-M6-02].
 
 | Parte | Pregunta | Ejemplo de Andrés |
 |---|---|---|
@@ -8339,7 +7791,7 @@ Los indicadores pueden mirar cosas distintas. Algunos miden el proceso, como cu�
 cuántos avisos salen bien hechos; y otros, el resultado, como si bajan los reclamos. También se distinguen por lo que cuidan: la
 eficiencia, que es tiempo y recursos, o la calidad, que es errores y claridad. En un flujo con IA puedes combinar medidas numéricas,
 como el tiempo o la cantidad de tareas completadas, con escalas de calidad, como una rúbrica simple de 1 a 4 para la claridad de un
-texto. En la mayoría de los casos conviene usar varios indicadores a la vez.
+texto [@F-M6-05]. En la mayoría de los casos conviene usar varios indicadores a la vez.
 
 Un error común es elegir algo que no se puede medir. Camila pensó primero en «sentirme más ordenada». Es una buena aspiración, pero
 no tiene fórmula ni fuente: nadie podría decir cuánto vale hoy ni cuánto al final. Le sirve mucho más medir lo que su flujo cambia,
@@ -8359,8 +7811,8 @@ bloque: Texto + comparación antes y después + pregunta de verificación
 La **meta** dice cuánto esperas que cambie un indicador y en qué plazo. Una forma clásica de revisarla es el criterio **SMART**, por
 sus iniciales en inglés. Una meta SMART es específica, porque dice quién hace qué con un solo verbo de acción y evita verbos vagos
 como «mejorar» o «entender». Es medible, porque dice cuánto cambio esperas desde un punto de referencia, que es tu línea base. Es
-alcanzable con el tiempo y los recursos que tienes, realista para el tamaño del problema y tiene un plazo, que es cuándo vas a medir.
-Algunas guías leen la R como «relevante»; en este curso usamos «realista», porque pide lo mismo que el realismo al fijar metas.
+alcanzable con el tiempo y los recursos que tienes, realista para el tamaño del problema y tiene un plazo, que es cuándo vas a medir [@F-M6-03].
+Algunas guías leen la R como «relevante» [@F-M6-05]; en este curso usamos «realista», porque pide lo mismo que el realismo al fijar metas.
 
 Mira cómo cambian dos metas cuando pasan por ese filtro:
 
@@ -8385,8 +7837,8 @@ cubre: A2, S3, C1
 fuentes: F-M6-01, F-M6-03
 bloque: Texto + escenario (Andrés ajusta su meta) + actividad
 
-Una meta tiene que ser **realista y retadora** a la vez. Realista, porque se puede cumplir con las personas, el tiempo y las
-herramientas que tienes. Retadora, porque no se cumple sola, sin hacer nada distinto. Una meta demasiado fácil no demuestra nada, y
+Una meta tiene que ser **realista y retadora** a la vez [@F-M6-01]. Realista, porque se puede cumplir con las personas, el tiempo y las
+herramientas que tienes [@F-M6-03]. Retadora, porque no se cumple sola, sin hacer nada distinto. Una meta demasiado fácil no demuestra nada, y
 una imposible desanima y empuja a maquillar los resultados al final.
 
 Para calibrarla, mira tres cosas. La primera es tu línea base: si hoy haces 45 %, saltar a 100 % en dos semanas es poco probable. La
@@ -8412,8 +7864,8 @@ fuentes: F-M6-06, F-M6-07
 bloque: Texto + lista de verificación (checklist)
 
 Antes de implementar conviene tomar una decisión explícita: seguir o no seguir con la IA en este desafío. Esa decisión se apoya en lo
-que sabes del contexto, de los beneficios que esperas y de los daños posibles. Que la herramienta pueda hacer la tarea no basta: sin
-datos para medir, sin permiso o con datos personales expuestos, el proyecto no pasa la prueba aunque la IA funcione.
+que sabes del contexto, de los beneficios que esperas y de los daños posibles [@F-M6-06]. Que la herramienta pueda hacer la tarea no basta: sin
+datos para medir, sin permiso o con datos personales expuestos, el proyecto no pasa la prueba aunque la IA funcione [@F-M6-07].
 
 Revisa tu desafío con estos criterios de **viabilidad**:
 
@@ -8439,7 +7891,7 @@ fuentes: F-M6-02, F-M6-04
 bloque: Texto + tabla descargable (plantilla del plan) + pregunta de verificación
 
 El **plan de medición** reúne en una tabla lo que decidiste: qué indicador, cómo se calcula, de dónde sale el dato, cada cuánto se
-mide, cuánto vale hoy y cuánto debería valer al final. Es tu respuesta a la pregunta «¿cómo sabré que el cambio es una mejora?». Este
+mide, cuánto vale hoy y cuánto debería valer al final [@F-M6-02]. Es tu respuesta a la pregunta «¿cómo sabré que el cambio es una mejora?» [@F-M6-04]. Este
 es el de Andrés:
 
 | Indicador | Fórmula | Fuente | Frecuencia | Línea base | Meta (4 semanas) |
@@ -8471,7 +7923,7 @@ fuentes: F-M6-01, F-M6-03
 bloque: Texto + tabla de la rúbrica + lista de verificación
 
 Ya tienes todas las piezas. El Hito 6a, diagnóstico, meta y plan de medición, es un documento breve, de una o dos páginas. Parte con
-el diagnóstico de la tarea (P03) y la línea base, explicando cómo obtuviste los datos (P04). Sigue con la meta SMART y sus
+el diagnóstico de la tarea (P03) y la línea base, explicando cómo obtuviste los datos (P04) [@F-M6-01]. Sigue con la meta SMART [@F-M6-03] y sus
 indicadores (P05 a P07), la justificación de viabilidad con los criterios de P08 y, al final, la tabla del plan de medición (P09).
 
 Tu tutor lo revisa con la rúbrica general de hitos del curso y te responde en un plazo de 72 horas como máximo. Cada criterio se
@@ -8508,39 +7960,15 @@ Hito 6d. Aprovéchalos para corregir ahora lo que después costaría más.
    jefatura está de acuerdo; si falla un criterio, a veces basta con cambiar el alcance.
 7. El plan de medición se decide antes de implementar, para que la comparación final sea válida.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Diagnóstico**: descripción de cómo se hace hoy una tarea, cuánto cuesta y qué sale mal, apoyada en datos.
-- **Situación inicial**: estado de la tarea antes de cualquier cambio, descrito con el diagnóstico y la línea base.
-- **Línea base**: valor de un indicador en el punto de partida, que sirve de referencia para comparar después.
-- **Indicador**: medida que muestra si se avanza hacia una meta.
-- **Fórmula del indicador**: forma de calcular el indicador a partir de los datos.
-- **Fuente del indicador**: lugar de donde sale el dato, como un registro o una planilla.
-- **Frecuencia de medición**: cada cuánto se calcula el indicador.
-- **Indicador de proceso**: indicador que mide cómo se hace la tarea, por ejemplo el tiempo que toma.
-- **Indicador de resultado**: indicador que mide el efecto buscado, por ejemplo la baja de los reclamos.
-- **Meta**: cambio esperado en un indicador, con un valor y un plazo.
-- **Meta SMART**: meta específica, medible, alcanzable, realista y con plazo.
-- **Viabilidad**: condición de un proyecto que se puede llevar a cabo y medir con los datos, recursos y permisos disponibles.
-- **Plan de medición**: tabla que define, para cada indicador, fórmula, fuente, frecuencia, línea base y meta.
-
-### Conexión con el proyecto
-
-Este tema es el **Hito 6a del proyecto aplicado: diagnóstico, meta y plan de medición**. El documento que armas en P10 retoma el
-desafío del Hito 1, el brief del Hito 2, la investigación del Hito 3 y el prototipo del Hito 5, y fija la línea base contra la que
-compararás tus resultados en el Hito 6c. El tutor te devuelve su retroalimentación en un plazo de 72 horas como máximo.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M6.md` (consultadas el 24-10-2026).
-
-- F-M6-01 · CONEVAL (2019). Guía para el establecimiento y cálculo de líneas base y metas. https://www.coneval.org.mx/InformesPublicaciones/Documents/Guia_lineas_base_metas.pdf
-- F-M6-02 · CIPPEC; Aquilino, Arena, Gutiérrez Bode y Scolari (2019). Guía N.º 5: Cómo construir indicadores. https://www.cippec.org/wp-content/uploads/2019/06/PP-ME-Guia-5.pdf
-- F-M6-03 · CDC (2018). Writing SMART Objectives (Evaluation Brief n.º 3b). https://spice.unc.edu/wp-content/uploads/2023/11/CDC-SMART.pdf
-- F-M6-04 · Institute for Healthcare Improvement (s. f.). Model for Improvement. https://www.ihi.org/library/model-for-improvement
-- F-M6-05 · Anthropic (s. f.). Define success criteria and build evaluations. https://platform.claude.com/docs/es/test-and-evaluate/develop-tests
-- F-M6-06 · NIST (2023). Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf
-- F-M6-07 · University of Bath (s. f.). Automation standards for Microsoft Power Automate. https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate
+- Anthropic. (s. f.). *Define success criteria and build evaluations*. Claude Docs. https://platform.claude.com/docs/en/test-and-evaluate/develop-tests
+- CDC. (2018). *Writing SMART objectives (Evaluation Brief n.º 3b)*. https://spice.unc.edu/wp-content/uploads/2023/11/CDC-SMART.pdf
+- CIPPEC. (2019). *Guía n.º 5: cómo construir indicadores*. https://www.cippec.org/wp-content/uploads/2019/06/PP-ME-Guia-5.pdf
+- CONEVAL. (2019). *Guía para el establecimiento y cálculo de líneas base y metas*. https://www.coneval.org.mx/InformesPublicaciones/Documents/Guia_lineas_base_metas.pdf
+- Institute for Healthcare Improvement. (s. f.). *Model for improvement*. https://www.ihi.org/library/model-for-improvement
+- National Institute of Standards and Technology. (2023). *Artificial intelligence risk management framework (AI RMF 1.0) (NIST AI 100-1)*. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf
+- University of Bath. (s. f.). *Automation standards for Microsoft Power Automate*. https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate
 
 
 ## M6-AE2 · Implementar el flujo
@@ -8558,8 +7986,8 @@ Implementar un flujo de trabajo con IA para la oportunidad priorizada, con super
 Al final del tema deberías tener tu flujo funcionando, con al menos un punto de supervisión humana definido por escrito, y un registro
 con la fecha y el motivo de cada decisión y cada ajuste que hiciste.
 
-Implementar no es «encender» la IA y esperar. Es un ciclo: pruebas a pequeña escala, miras qué pasó, ajustas y vuelves a probar. Cada
-vuelta deja un aprendizaje, y ese aprendizaje se anota. Tampoco hace falta un flujo grande. Uno de tres a cinco pasos, que funcione y
+Implementar no es «encender» la IA y esperar. Es un ciclo: pruebas a pequeña escala, miras qué pasó, ajustas y vuelves a probar [@F-M6-04]. Cada
+vuelta deja un aprendizaje, y ese aprendizaje se anota [@F-M6-06]. Tampoco hace falta un flujo grande. Uno de tres a cinco pasos, que funcione y
 esté bien documentado, vale más que uno largo que nadie puede revisar.
 
 :::ejemplo Dónde están Camila y Andrés
@@ -8588,9 +8016,9 @@ documentos. Ella sube cada documento a un chat con su plantilla «Registrar docu
 propone el asistente y, al final, pega la fila en su planilla y nombra el archivo. Son cuatro pasos, y uno de ellos es su revisión.
 
 Antes de armar el tuyo, revisa los límites de tu herramienta. En Make, cada acción gasta créditos del plan gratuito, las funciones de
-IA pueden gastar más y, si los créditos se acaban, el escenario se detiene. En Gemini, las acciones programadas piden una cuenta
+IA pueden gastar más y, si los créditos se acaban, el escenario se detiene [@F-H-94]. En Gemini, las acciones programadas piden una cuenta
 personal, la actividad guardada y la aplicación conectada, y se están habilitando de a poco, así que puede que todavía no aparezcan
-en tu cuenta.
+en tu cuenta [@F-H-61].
 
 :::actividad Dibuja tu flujo
 Escribe tu flujo en tres a cinco pasos numerados y marca cada uno como disparador, herramienta, IA, revisión humana o registro.
@@ -8602,7 +8030,7 @@ fuentes: F-M6-04, F-M6-07
 bloque: Proceso (process block) en etapas + pregunta de verificación
 
 Los cambios se prueban primero a pequeña escala, se ajustan con ciclos repetidos y se prueban en condiciones distintas; solo después
-se adoptan. Un ciclo muy usado tiene cuatro momentos y se conoce como **PDSA**, por sus iniciales en inglés. Planificas qué vas a
+se adoptan [@F-M6-04]. Un ciclo muy usado tiene cuatro momentos y se conoce como **PDSA**, por sus iniciales en inglés. Planificas qué vas a
 probar, con cuántos casos y qué esperas que pase. Haces la prueba y anotas lo que ocurre. Estudias la diferencia entre lo que pasó y
 lo que esperabas. Y actúas: adoptas, ajustas o descartas el cambio, y planificas el ciclo siguiente.
 
@@ -8615,7 +8043,7 @@ Con ese ciclo, tu implementación sigue seis etapas, en este orden:
 5. Estudiar y ajustar, registrando cada decisión (P07 a P09).
 6. Usar el flujo en la tarea real durante el periodo de medición.
 
-Reserva tiempo para las pruebas, porque es la parte que más se subestima. Andrés planificó su primer ciclo con cinco despachos
+Reserva tiempo para las pruebas [@F-M6-07], porque es la parte que más se subestima. Andrés planificó su primer ciclo con cinco despachos
 atrasados de la semana pasada, ya resueltos, y esperaba que los cinco borradores tuvieran pedido y fecha correctos. Dos salieron con
 la fecha en formato inglés. Ajustó la plantilla y repitió con otros cinco. Decidir tú qué probar y cuándo ajustar, sin esperar que
 todo salga perfecto a la primera, es autonomía. Repetir el ciclo las veces que haga falta es constancia.
@@ -8648,11 +8076,11 @@ preguntas, que en el flujo de Andrés quedan así:
 
 En el módulo 5 viste tres niveles de supervisión. Con participación humana, una persona interviene en cada decisión del flujo, como
 Andrés con cada aviso. Con control humano, la persona interviene en el diseño y sigue el funcionamiento. Con mando humano, decide si
-usar el sistema, cuándo y cómo. Tu proyecto debe dejar claro qué nivel aplicas en cada paso y por qué. Dejarlo por escrito, además,
-te ayuda a encontrar después por qué hubo un error y a prevenir el siguiente.
+usar el sistema, cuándo y cómo [@F-M5-12]. Tu proyecto debe dejar claro qué nivel aplicas en cada paso y por qué. Dejarlo por escrito, además,
+te ayuda a encontrar después por qué hubo un error y a prevenir el siguiente [@F-M5-12].
 
 Un error frecuente es pensar «ya funcionó en el módulo 5, no necesito revisar». Confiar de más en lo automatizado tiene nombre:
-**sesgo de automatización**. Mientras más veces funciona un flujo, más fácil es dejar de mirarlo, y justo ahí se cuela el error. Por
+**sesgo de automatización** [@F-M5-14]. Mientras más veces funciona un flujo, más fácil es dejar de mirarlo, y justo ahí se cuela el error. Por
 eso, mientras dure el proyecto, la revisión se mantiene en cada caso.
 
 :::comprueba
@@ -8670,7 +8098,7 @@ fuentes: F-M6-06, F-M6-07
 bloque: Texto + tabla de riesgos + pregunta de verificación
 
 Gestionar riesgos es anticipar qué puede fallar y cómo lo vas a controlar. Y no termina al implementar: después hay que seguir
-mirando, poder anular una decisión, responder si algo sale mal y recuperarse. Estos son los riesgos más comunes en un flujo como los
+mirando, poder anular una decisión, responder si algo sale mal y recuperarse [@F-M6-06]. Estos son los riesgos más comunes en un flujo como los
 del curso:
 
 | Riesgo | Control |
@@ -8682,7 +8110,7 @@ del curso:
 | Dejas de revisar porque «siempre sale bien» | Revisión fija en cada caso y registro de errores |
 
 La cuarta fila es la **gestión de cambios**: cada modificación al flujo o al prompt se vuelve a probar antes de usarla. La tercera es
-el **plan de contingencia**, que dice con qué reemplazas el flujo si deja de funcionar y cómo te vas a enterar. Como ese plan tiene
+el **plan de contingencia**, que dice con qué reemplazas el flujo si deja de funcionar y cómo te vas a enterar [@F-M6-07]. Como ese plan tiene
 que servir justo cuando la herramienta falla, no puede depender de la misma herramienta.
 
 Arma tu propia tabla con al menos cuatro riesgos de tu flujo y su control. Si uno queda sin control, decide si lo aceptas, lo reduces
@@ -8703,7 +8131,7 @@ fuentes: F-M6-07
 bloque: Texto + ficha descargable (plantilla)
 
 Un flujo que solo entiendes tú se pierde el día que no estás o que lo olvidas. Documentarlo es escribir una **ficha** que otra persona
-pueda leer para entender qué hace, qué necesita y qué produce. La ficha tiene ocho campos:
+pueda leer para entender qué hace, qué necesita y qué produce [@F-M6-07]. La ficha tiene ocho campos:
 
 - Nombre, con una convención clara, como «Avisos atraso · Bodega · v2».
 - Propósito: para qué existe, en una línea.
@@ -8714,7 +8142,7 @@ pueda leer para entender qué hace, qué necesita y qué produce. La ficha tiene
 - Contingencia: qué hacer si falla (P05).
 - Responsable y fecha: quién lo mantiene y cuándo se actualizó.
 
-Usa una **convención de nombres** y respétala en todo: el flujo, las plantillas, las planillas y los archivos. Así cualquiera sabe qué
+Usa una **convención de nombres** y respétala en todo: el flujo, las plantillas, las planillas y los archivos [@F-M6-07]. Así cualquiera sabe qué
 versión está mirando. Comparte la ficha con quien corresponda, por ejemplo tu jefatura o tu tutor. Un error común es dejarla para el
 final y escribirla de memoria: se olvidan dependencias y ajustes. Escríbela antes de la primera prueba y actualízala con cada cambio.
 Ese trabajo prolijo es lo que permite que tu flujo se revise, se mejore o lo use otra persona de tu equipo.
@@ -8733,17 +8161,17 @@ fuentes: F-M6-08, F-H-15
 bloque: Texto + entrada de ejemplo + actividad
 
 Los proyectos cambian, y el motivo de cada decisión se olvida rápido. En equipos de tecnología se usan registros de decisiones para
-guardar ese razonamiento y poder juzgar después si una decisión se puede cambiar. En este curso adaptamos esa idea a una **bitácora
+guardar ese razonamiento y poder juzgar después si una decisión se puede cambiar [@F-M6-08]. En este curso adaptamos esa idea a una **bitácora
 de decisiones**, que se suma a la bitácora que ya llevas.
 
 Cada entrada lleva una fecha y un título, por ejemplo «12-11 · Dónde registrar los documentos». Después viene el contexto, que son
 los hechos que te obligaron a decidir; la decisión, que es lo que elegiste; las consecuencias, lo bueno y lo malo que trae, y el
 estado, vigente o reemplazada. Hay una regla que importa más que las otras: una decisión que ya aplicaste no se borra ni se
-reescribe. Si cambias de idea, agregas una entrada nueva y marcas la anterior como reemplazada. Así queda la historia completa, y
+reescribe [@F-M6-08]. Si cambias de idea, agregas una entrada nueva y marcas la anterior como reemplazada. Así queda la historia completa, y
 puedes responder la pregunta que te hará tu tutor o tu jefatura: «¿por qué lo hiciste así?».
 
 Una entrada de Camila muestra cómo se ve. El 12-11 anotó «Dónde uso las aplicaciones conectadas». El contexto: la acción programada
-le pide dejar encendida la actividad guardada, y con ella encendida, revisores humanos pueden leer las conversaciones. La decisión:
+le pide dejar encendida la actividad guardada, y con ella encendida, revisores humanos pueden leer las conversaciones [@F-H-15]. La decisión:
 usar la acción programada solo en su cuenta de práctica, con copias sin datos sensibles. Las consecuencias: puede automatizar la
 lista diaria sin exponer datos de la constructora, pero para trabajar con los documentos reales tendrá que cambiar el flujo y
 acordarlo con su jefatura. Estado: vigente.
@@ -8760,7 +8188,7 @@ bloque: Texto + tabla de versiones + actividad
 
 Tus plantillas también cambian durante la implementación. Una práctica recomendada para quienes construyen con modelos de lenguaje
 es **versionar los prompts**: guardar cada versión para poder revisar sus cambios, anotar el modelo o la herramienta con que se probó
-y probar cada versión con los mismos casos. Así quedó la tabla de versiones de la plantilla «Registrar documento» de Camila:
+y probar cada versión con los mismos casos [@F-M6-10]. Así quedó la tabla de versiones de la plantilla «Registrar documento» de Camila:
 
 | Versión | Fecha | Herramienta | Qué cambió | Resultado con los 10 casos de prueba |
 |---|---|---|---|---|
@@ -8769,9 +8197,9 @@ y probar cada versión con los mismos casos. Así quedó la tabla de versiones d
 | v3 | 12-11 | Gemini | Agrega «si un campo no aparece, escribe NO APARECE» | 10 de 10 |
 
 Si llevas tus plantillas en Documentos o en Hojas de cálculo de Google, el **historial de versiones** te ayuda. Muestra quién cambió
-qué, permite ponerle nombre a una versión, como «Plantilla v2 · 08-11», y volver a una anterior. Hay un máximo de versiones con
+qué, permite ponerle nombre a una versión, como «Plantilla v2 · 08-11», y volver a una anterior [@F-M6-09]. Hay un máximo de versiones con
 nombre: 40 en un documento y 15 en una hoja de cálculo. En Hojas de cálculo, restaurar una versión borra el historial de cambios de
-cada celda, así que conviene hacer una copia antes.
+cada celda, así que conviene hacer una copia antes [@F-M6-09].
 
 Un error común es cambiar la plantilla sobre la marcha, sin guardar la que funcionaba. Si la nueva sale peor, no puedes volver atrás
 ni explicar qué cambió.
@@ -8787,13 +8215,13 @@ fuentes: F-M6-07, F-M5-11
 bloque: Escenario (el atraso sin fecha de Andrés) + actividad
 
 Ahora corres tu flujo con casos de prueba. Antes de usarlo en serio, prueba la mayor cantidad de escenarios posibles: casos normales,
-casos con datos incompletos y casos raros. Para Camila, eso significa probar una factura clara, una foto borrosa, un contrato sin
+casos con datos incompletos y casos raros [@F-M6-07]. Para Camila, eso significa probar una factura clara, una foto borrosa, un contrato sin
 fecha y un documento que no es de ningún tipo conocido. Para Andrés, un atraso de un día, uno sin fecha nueva confirmada y uno de un
 cliente nuevo.
 
 Cuando algo falla, sigue siempre el mismo camino:
 
-1. Ubica el paso que falló. Si tu herramienta guarda un historial de ejecuciones, úsalo: en Zapier, por ejemplo, muestra qué paso falló y por qué, y permite volver a ejecutarlo una vez corregido.
+1. Ubica el paso que falló. Si tu herramienta guarda un historial de ejecuciones, úsalo: en Zapier, por ejemplo, muestra qué paso falló y por qué, y permite volver a ejecutarlo una vez corregido [@F-M5-11].
 2. Corrige la causa, no solo el resultado: la plantilla, el dato de entrada o el punto de control.
 3. Registra el ajuste en la bitácora y, si cambió la plantilla, crea una versión nueva.
 4. Vuelve a probar con los mismos casos.
@@ -8816,8 +8244,8 @@ bloque: Texto + tabla de la rúbrica + lista de verificación
 
 El Hito 6b, implementación del flujo, muestra que tu flujo funciona, que tiene supervisión humana y que quedó documentado. Lo
 entregas en un documento o una carpeta compartida con seis piezas: el flujo en pasos numerados, con lo que hace la IA y lo que haces
-tú (P02); la ficha, con supervisión y contingencia (P04 a P06); la tabla de riesgos con sus controles (P05); la bitácora de
-decisiones con al menos tres entradas (P07); la tabla de versiones de tu plantilla principal (P08), y la evidencia de las pruebas,
+tú (P02); la ficha, con supervisión y contingencia [@F-M6-07] (P04 a P06); la tabla de riesgos con sus controles (P05); la bitácora de
+decisiones con al menos tres entradas [@F-M6-08] (P07); la tabla de versiones de tu plantilla principal (P08), y la evidencia de las pruebas,
 con resultados y capturas sin datos personales ni información de tu empresa (P09).
 
 Tu tutor lo revisa con la rúbrica general de hitos y te responde en un plazo de 72 horas como máximo:
@@ -8852,47 +8280,20 @@ empiezas a juntar los datos que vas a comparar con tu línea base en el tema sig
    entrada.
 7. Cada versión de un prompt se guarda, se fecha y se prueba con los mismos casos.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Implementación**: puesta en marcha de un cambio en una tarea real, con pruebas y ajustes.
-- **Ciclo PDSA**: ciclo de mejora de cuatro momentos: planificar, hacer, estudiar y actuar.
-- **Prueba a pequeña escala**: ensayo de un cambio con pocos casos antes de adoptarlo.
-- **Punto de control**: momento del flujo en que una persona revisa el resultado con un criterio definido.
-- **Sesgo de automatización**: tendencia a confiar de más en lo que produce un sistema automatizado.
-- **Gestión de cambios**: forma de controlar las modificaciones a un flujo, probando de nuevo cada cambio.
-- **Plan de contingencia**: lo que se hace si un flujo deja de funcionar y cómo se detecta la falla.
-- **Ficha del flujo**: documento que describe propósito, entradas, salidas, dependencias, supervisión y contingencia de un flujo.
-- **Dependencia**: herramienta, cuenta o archivo sin el cual el flujo no funciona.
-- **Convención de nombres**: regla fija para nombrar flujos, plantillas y archivos.
-- **Bitácora de decisiones**: registro fechado de cada decisión del proyecto, con su contexto y sus consecuencias.
-- **Versión de un prompt**: cada estado guardado y fechado de una plantilla, probado con los mismos casos.
-- **Historial de versiones**: función de un documento o planilla que guarda sus cambios y permite volver a una versión anterior.
-- **Caso de prueba (de un flujo)**: ejemplo preparado para comprobar si el flujo funciona, incluidos casos difíciles.
-
-### Conexión con el proyecto
-
-Este tema es el **Hito 6b del proyecto aplicado: implementación del flujo**. Partes del prototipo del Hito 5 y de la meta y el plan de
-medición del Hito 6a, y entregas el flujo implementado y documentado: ficha, riesgos, bitácora de decisiones, versiones de prompts y
-evidencia de pruebas. El tutor te devuelve su retroalimentación en un plazo de 72 horas como máximo. Con el flujo en uso, empiezas a
-juntar los datos que medirás en el Hito 6c.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M6.md`, `investigacion/M5.md`, `investigacion/HERRAMIENTAS-1.md` y
-`investigacion/HERRAMIENTAS-2.md` (consultadas el 24-10-2026).
-
-- F-M6-04 · Institute for Healthcare Improvement (s. f.). Model for Improvement. https://www.ihi.org/library/model-for-improvement
-- F-M6-06 · NIST (2023). Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf
-- F-M6-07 · University of Bath (s. f.). Automation standards for Microsoft Power Automate. https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate
-- F-M6-08 · Government Digital Service (2026). The GDS Way: Architecture decisions. https://gds-way.digital.cabinet-office.gov.uk/standards/architecture-decisions.html
-- F-M6-09 · Google, Ayuda de Editores de Documentos (s. f.). Cómo ver los cambios de un archivo. https://support.google.com/docs/answer/190843?hl=es-419
-- F-M6-10 · OpenAI (s. f.). Prompt engineering. https://developers.openai.com/api/docs/guides/prompt-engineering
-- F-M5-11 · Zapier Help Center (2026). How to troubleshoot errors in Zap workflows. https://help.zapier.com/hc/en-us/articles/8496037690637
-- F-M5-12 · Comisión Europea, Grupo de expertos de alto nivel sobre IA (2019). Directrices éticas para una IA fiable. https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60423
-- F-M5-14 · NIST (2024). AI RMF: Generative Artificial Intelligence Profile, NIST AI 600-1. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
-- F-H-15 · Google (s. f.). Centro de Privacidad de las Aplicaciones de Gemini. https://support.google.com/gemini/answer/13594961?hl=es
-- F-H-61 · Google (s. f.). Acciones programadas en las aplicaciones de Gemini. https://support.google.com/gemini/answer/16316416?hl=es&co=GENIE.Platform%3DAndroid
-- F-H-94 · Make (s. f.). Pricing. https://www.make.com/pricing
+- Google. (s. f.-a). *Acciones programadas en las aplicaciones de Gemini*. https://support.google.com/gemini/answer/16316416?hl=es&co=GENIE.Platform%3DAndroid
+- Google. (s. f.-b). *Centro de privacidad de las aplicaciones de Gemini*. https://support.google.com/gemini/answer/13594961?hl=es
+- Google. (s. f.-c). *Cómo ver los cambios de un archivo*. Ayuda de Editores de Documentos. https://support.google.com/docs/answer/190843?hl=es-419
+- Government Digital Service. (2026, 5 de marzo). *The GDS Way: Architecture decisions*. https://gds-way.digital.cabinet-office.gov.uk/standards/architecture-decisions.html
+- Grupo independiente de expertos de alto nivel sobre inteligencia artificial. (2019). *Directrices éticas para una IA fiable*. Comisión Europea. https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60423
+- Institute for Healthcare Improvement. (s. f.). *Model for improvement*. https://www.ihi.org/library/model-for-improvement
+- Make. (s. f.). *Pricing*. https://www.make.com/pricing
+- National Institute of Standards and Technology. (2023). *Artificial intelligence risk management framework (AI RMF 1.0) (NIST AI 100-1)*. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf
+- National Institute of Standards and Technology. (2024). *Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)*. https://doi.org/10.6028/NIST.AI.600-1
+- OpenAI. (s. f.). *Prompt engineering*. OpenAI API Docs. https://developers.openai.com/api/docs/guides/prompt-engineering
+- University of Bath. (s. f.). *Automation standards for Microsoft Power Automate*. https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate
+- Zapier. (2026, 15 de octubre). *How to troubleshoot errors in Zap workflows*. Zapier Help Center. https://help.zapier.com/hc/en-us/articles/8496037690637
 
 
 ## M6-AE3 · Resultados y aprendizajes
@@ -8907,13 +8308,13 @@ cambio fue una mejora? Después vas a contarlo bien a quien tiene que saberlo.
 
 El aprendizaje esperado es este:
 Evaluar los resultados del proyecto y comunicarlos mediante un pitch y un portafolio, proponiendo mejoras.
-Al terminar deberías poder comparar tus resultados con la línea base que fijaste en el Hito 6a, y comunicar resultados y límites con
+Al terminar deberías poder comparar tus resultados con la línea base que fijaste en el Hito 6a [@F-M6-01], y comunicar resultados y límites con
 claridad en un pitch de 3 minutos.
 
 Este tema cierra dos hitos. En el Hito 6c mides tus resultados, los interpretas y propones mejoras. En el Hito 6d presentas tu
 proyecto en tres minutos y reúnes tus mejores evidencias en un portafolio, que es el insumo del Demo Day, la presentación de cierre
 del curso. Un **pitch** es una presentación breve que busca captar la atención en poco tiempo y comunicar una propuesta de forma
-directa. El tuyo no vende una empresa: muestra un problema real de tu trabajo, lo que hiciste con IA y cuánto cambió, con sus límites.
+directa [@F-M6-15]. El tuyo no vende una empresa: muestra un problema real de tu trabajo, lo que hiciste con IA y cuánto cambió, con sus límites.
 Un proyecto que no llegó a su meta también se puede presentar bien. Lo que no se puede es presentar un resultado que no mediste.
 
 :::ejemplo Dos cierres distintos
@@ -8927,7 +8328,7 @@ cubre: S1, C1, H1
 fuentes: F-M6-01, F-M6-04
 bloque: Texto + tabla de resultados + pregunta de verificación
 
-Medir resultados es comparar el **valor final** de cada indicador con su línea base y con su meta. Para que la comparación valga, usa
+Medir resultados es comparar el **valor final** de cada indicador con su línea base y con su meta [@F-M6-01]. Para que la comparación valga, usa
 la misma fórmula, la misma fuente y la misma frecuencia que definiste en tu plan de medición; si algo cambió, dilo. Estos son los
 resultados de Andrés después de cuatro semanas:
 
@@ -8938,7 +8339,7 @@ resultados de Andrés después de cuatro semanas:
 | Avisos enviados con error | 10 % | 0 % | 0 % | −10 puntos | Sí |
 | Claridad (rúbrica 1 a 4) | 2,5 | 3,5 | 3,4 | +0,9 | Casi |
 
-Junto a los números, suma lo cualitativo: lo que observaste, lo que dijeron otras personas, los casos raros. Andrés anotó que su
+Junto a los números, suma lo cualitativo: lo que observaste, lo que dijeron otras personas, los casos raros [@F-M6-04]. Andrés anotó que su
 revisión detectó cuatro borradores con fecha equivocada antes de enviarlos. Ese dato no está en la tabla, pero muestra que la
 supervisión funcionó.
 
@@ -8959,8 +8360,8 @@ cubre: S1, A2, C1
 fuentes: F-M6-11, F-M6-04
 bloque: Texto + escenario (Camila separa la práctica de la IA)
 
-Comparar antes y después muestra si algo cambió en el tiempo, pero descansa en un supuesto fuerte: que nada más cambió entre las dos
-mediciones. Casi nunca es así. Antes de atribuirle la mejora a tu flujo, pregúntate si hubo más o menos trabajo en el periodo final,
+Comparar antes y después muestra si algo cambió en el tiempo [@F-M6-04], pero descansa en un supuesto fuerte: que nada más cambió entre las dos
+mediciones [@F-M6-11]. Casi nunca es así. Antes de atribuirle la mejora a tu flujo, pregúntate si hubo más o menos trabajo en el periodo final,
 si cambió algo más en la tarea, si te volviste más rápida o rápido solo por practicar y si los casos del final eran más fáciles que
 los del inicio.
 
@@ -8975,7 +8376,7 @@ se debe a la práctica, y lo dice así en su informe.
 :::
 
 Lo que hizo Camila tiene una lógica conocida: comparar con un **grupo de comparación**, es decir, con casos parecidos que no pasaron
-por el cambio, fortalece la conclusión. No siempre se puede, pero aunque sea un grupo pequeño ayuda. Reconocer estos factores no le
+por el cambio, fortalece la conclusión [@F-M6-11]. No siempre se puede, pero aunque sea un grupo pequeño ayuda. Reconocer estos factores no le
 quita valor a tu proyecto; le da credibilidad.
 
 ### P04 · Propón mejoras: cierra el ciclo
@@ -8983,7 +8384,7 @@ cubre: H1, A1
 fuentes: F-M6-04, F-M6-16
 bloque: Texto + tabla de decisión + actividad
 
-En el ciclo PDSA, después de estudiar viene actuar. Con tus resultados en la mano decides, para cada parte del flujo, si la adoptas,
+En el ciclo PDSA, después de estudiar viene actuar [@F-M6-04]. Con tus resultados en la mano decides, para cada parte del flujo, si la adoptas,
 la ajustas o la descartas:
 
 | Decisión | Cuándo | Ejemplo |
@@ -8996,7 +8397,7 @@ Una buena propuesta de mejora es concreta: dice qué vas a cambiar, por qué y c
 prompt» no sirve. «Agregar un ejemplo de contrato a la plantilla y probarla con los mismos 10 casos», sí.
 
 La **autocrítica constructiva** es mirar tu proyecto con honestidad para mejorarlo, no para castigarte, y se ordena con dos preguntas:
-qué aprendiste y qué harías distinto. Andrés las respondió así: «Aprendí que el flujo ahorra tiempo, pero que la claridad depende de
+qué aprendiste y qué harías distinto [@F-M6-16]. Andrés las respondió así: «Aprendí que el flujo ahorra tiempo, pero que la claridad depende de
 mi revisión. Haría distinto la rúbrica de claridad: la definí tarde y ventas la aplicó solo dos veces. En el próximo ciclo la
 aplicaré cada semana.»
 
@@ -9010,14 +8411,14 @@ cubre: S2, A2
 fuentes: F-M6-12, F-M6-13
 bloque: Texto + comparación antes y después + pregunta de verificación
 
-Contar resultados con datos les da credibilidad y ayuda a que la audiencia recuerde el mensaje. Conviene planificar el relato antes de
+Contar resultados con datos les da credibilidad y ayuda a que la audiencia recuerde el mensaje [@F-M6-13]. Conviene planificar el relato antes de
 hacer gráficos o láminas: qué tiene que aprender tu audiencia, quién es y qué le importa, de dónde vienen tus datos y por qué
-importan, y cuáles son las una o dos ideas que debería poder repetir después. Si le presentas a tu jefatura, piensa también en la
+importan, y cuáles son las una o dos ideas que debería poder repetir después [@F-M6-13]. Si le presentas a tu jefatura, piensa también en la
 decisión que le estás pidiendo tomar.
 
-Al comunicar un cambio, di su dirección y su tamaño, en contexto, y di qué se puede concluir y qué no. Los límites van en un lugar
+Al comunicar un cambio, di su dirección y su tamaño, en contexto, y di qué se puede concluir y qué no [@F-M6-12]. Los límites van en un lugar
 visible, no escondidos al final ni en un anexo: si la audiencia descubre después un límite que no mencionaste, deja de creerte en todo
-lo demás. Para la incertidumbre, usa palabras simples, como «estimación», «en estas cuatro semanas» o «con 28 casos».
+lo demás. Para la incertidumbre, usa palabras simples, como «estimación», «en estas cuatro semanas» o «con 28 casos» [@F-M6-12].
 
 | Antes | Después |
 |---|---|
@@ -9039,7 +8440,7 @@ cubre: S3, C2
 fuentes: F-M6-15, F-M6-14
 bloque: Texto + tabla + ordenar o clasificar (sorting activity)
 
-Un pitch se arma con tres dimensiones: el contenido, que es lo que dices; el estilo, que es cómo lo dices, y el soporte visual. Para el
+Un pitch se arma con tres dimensiones: el contenido, que es lo que dices; el estilo, que es cómo lo dices, y el soporte visual [@F-M6-15]. Para el
 contenido, esta estructura de tres minutos funciona bien en un proyecto de mejora:
 
 | Parte | Qué cuentas | Tiempo sugerido |
@@ -9055,8 +8456,8 @@ Los tiempos son una sugerencia del curso, y la parte 5 también: el pitch de est
 logros. El llamado a la acción va al final porque lo que pides solo tiene sentido cuando tu audiencia ya entendió el problema, la
 solución y cuánto cambió.
 
-Explica todo en el lenguaje más simple posible, sin siglas ni jerga técnica. Una prueba útil es escribir tu pitch en dos frases,
-mandárselo a alguien y pedirle que te lo explique de vuelta. Si no puede, falta claridad.
+Explica todo en el lenguaje más simple posible, sin siglas ni jerga técnica [@F-M6-14]. Una prueba útil es escribir tu pitch en dos frases,
+mandárselo a alguien y pedirle que te lo explique de vuelta [@F-M6-14]. Si no puede, falta claridad.
 
 :::actividad Ordena el pitch de Andrés
 Ordena estas partes de la 1 a la 6:
@@ -9084,7 +8485,7 @@ pedirle a Gemini que te ayude a ajustarlo con un prompt como este:
 Después revisa que cada número del guion coincida con tu tabla de resultados, porque un asistente puede redondear o «mejorar» una
 cifra sin avisar. Para el soporte visual, reutiliza lo que ya tienes: tus seis láminas del Hito 2, actualizadas con los resultados, y
 tu pieza multimedia del Hito 4. Si necesitas rehacer láminas, Gamma y la generación de diapositivas de Gemini tienen opciones
-gratuitas, con límites.
+gratuitas, con límites [@F-H-47; @F-H-12].
 
 La misma base sirve para distintas audiencias si cambias el énfasis. Camila prepara una versión corta para una reunión con su
 jefatura, centrada en la decisión que necesita: «Diseñé un registro de documentos con IA. Probándolo con copias sin datos sensibles,
@@ -9103,7 +8504,7 @@ cubre: S3, H1, A1
 fuentes: F-M6-16, F-H-76
 bloque: Texto + lista de verificación + plantilla descargable
 
-Un **portafolio profesional** es una colección intencionada de evidencias de tus logros, tu esfuerzo y tu crecimiento. Es una
+Un **portafolio profesional** es una colección intencionada de evidencias de tus logros, tu esfuerzo y tu crecimiento [@F-M6-16]. Es una
 selección de tus mejores trabajos, no un archivo de todo. Conviene distinguir tu carpeta del proyecto, donde guardas todo, del
 portafolio que muestras, adaptado a quien lo va a ver: tu jefatura, la conversación de tu evaluación de desempeño o tu propio plan de
 desarrollo profesional.
@@ -9112,12 +8513,12 @@ Una estructura posible parte con una presentación de tres líneas sobre quién 
 el proyecto en una página (desafío, línea base, flujo, resultados y límites), luego con tres a cinco piezas elegidas de tus hitos,
 como dos plantillas de tu biblioteca, la presentación, la pieza multimedia, la ficha del flujo o la bitácora de decisiones, y termina
 con tu pitch, en guion o grabado. Cada pieza lleva una nota breve que responde por qué la incluyes, qué habilidad muestra, qué
-aprendiste y qué harías distinto. Esas notas son las que hacen que el portafolio hable de ti.
+aprendiste y qué harías distinto [@F-M6-16]. Esas notas son las que hacen que el portafolio hable de ti.
 
 Antes de mostrarlo, revísalo:
 
 - [ ] No trae datos personales de nadie ni información confidencial de tu empresa.
-- [ ] Cumple las licencias y atribuciones de cada herramienta: si publicas audio hecho con el plan gratuito de ElevenLabs, debes poner «elevenlabs.io» en el título.
+- [ ] Cumple las licencias y atribuciones de cada herramienta: si publicas audio hecho con el plan gratuito de ElevenLabs, debes poner «elevenlabs.io» en el título [@F-H-76].
 - [ ] Incluye la ficha de uso ético de tu pieza multimedia.
 - [ ] Indica dónde usaste IA y qué revisaste tú.
 
@@ -9137,7 +8538,7 @@ bloque: Texto + tabla de la rúbrica + lista de verificación
 
 Llegaste al cierre y entregas dos hitos. El Hito 6c, medición de resultados y ajustes, es el documento que armaste en P04, con tus
 resultados frente a la línea base, los otros factores, las propuestas de mejora y tu autocrítica. El Hito 6d, pitch y portafolio
-final, reúne el pitch de tres minutos (guion y grabación, o presentación en vivo, según indique tu tutor) y el portafolio, y es el
+final, reúne el pitch de tres minutos [@F-M6-15] (guion y grabación, o presentación en vivo, según indique tu tutor) y el portafolio, y es el
 insumo del Demo Day.
 
 Tu tutor revisa cada uno con la rúbrica general de hitos y te responde en un plazo de 72 horas como máximo:
@@ -9151,7 +8552,7 @@ Tu tutor revisa cada uno con la rúbrica general de hitos y te responde en un pl
 | Comunicación | 15 % | Resultados y límites claros para tu audiencia |
 
 El Hito 6c es formativo y no pondera. El Hito 6d es sumativo: según el sistema de evaluación del curso, vale 15 % de la nota final. En
-el Demo Day no gana el proyecto con el número más grande. Destaca el que muestra con claridad qué cambió, cómo lo sabe y qué aprendió.
+el Demo Day no gana el proyecto con el número más grande. Destaca el que muestra con claridad qué cambió, cómo lo sabe y qué aprendió [@F-M6-12].
 
 :::actividad Revisión final
 - [ ] Cada resultado se compara con su línea base, con número, unidad y periodo.
@@ -9175,44 +8576,17 @@ el Demo Day no gana el proyecto con el número más grande. Destaca el que muest
 7. Un portafolio es una selección intencionada de evidencias, adaptada a quien lo verá, como tu jefatura o tu evaluación de
    desempeño, con una reflexión sobre cada pieza.
 
-### Glosario
+### Referencias bibliográficas
 
-- **Valor final**: resultado de un indicador al terminar el periodo de medición.
-- **Comparación antes y después**: contraste entre la línea base y el valor final de un indicador.
-- **Factor externo**: cambio ajeno al proyecto que pudo influir en los resultados.
-- **Grupo de comparación**: casos parecidos que no pasaron por el cambio y sirven para contrastar resultados.
-- **Estimación**: valor aproximado que se comunica reconociendo su incertidumbre.
-- **Propuesta de mejora**: cambio concreto para el siguiente ciclo, con su motivo y su forma de medirlo.
-- **Autocrítica constructiva**: revisión honesta del propio trabajo para mejorarlo.
-- **Relato con datos**: forma de comunicar resultados que combina cifras, contexto y una o dos ideas clave.
-- **Pitch**: presentación breve que busca captar la atención y comunicar una propuesta de forma directa.
-- **Apertura**: inicio del pitch que capta la atención con una historia breve, un dato o una pregunta.
-- **Llamado a la acción**: cierre del pitch que dice qué se pide o propone a la audiencia.
-- **Prueba de las dos frases**: resumir el pitch en dos frases y pedir a otra persona que lo explique de vuelta.
-- **Portafolio profesional**: selección intencionada de evidencias de logros, esfuerzo y crecimiento, adaptada a una audiencia.
-- **Demo Day**: presentación de cierre del curso, para la que el pitch y el portafolio son el insumo.
-
-### Conexión con el proyecto
-
-Este tema cierra el proyecto aplicado con dos hitos. El **Hito 6c: medición de resultados y ajustes** compara tus resultados con la
-línea base del Hito 6a y propone mejoras (P02 a P04). El **Hito 6d: pitch y portafolio final (insumo del Demo Day)** reúne el pitch de
-3 minutos y el portafolio con tus mejores piezas de los hitos 1 al 6 (P05 a P08). En ambos, el tutor te devuelve su retroalimentación
-en un plazo de 72 horas como máximo.
-
-### Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M6.md`, `investigacion/HERRAMIENTAS-1.md` y
-`investigacion/HERRAMIENTAS-2.md` (consultadas el 24-10-2026).
-
-- F-M6-01 · CONEVAL (2019). Guía para el establecimiento y cálculo de líneas base y metas. https://www.coneval.org.mx/InformesPublicaciones/Documents/Guia_lineas_base_metas.pdf
-- F-M6-04 · Institute for Healthcare Improvement (s. f.). Model for Improvement. https://www.ihi.org/library/model-for-improvement
-- F-M6-11 · TASO (2020). TASO: Evaluation Methods. https://cdn.taso.org.uk/wp-content/uploads/TASO-Evaluation-Methods.pdf
-- F-M6-12 · Government Analysis Function (2018). Communicating quality, uncertainty and change. https://analysisfunction.civilservice.gov.uk/policy-store/communicating-quality-uncertainty-and-change/
-- F-M6-13 · GSA, Data & Analytics Center of Excellence (s. f.). Data story. https://coe.gsa.gov/coe/data-story/
-- F-M6-14 · Y Combinator; Seibel (2016). How to Pitch Your Company. https://www.ycombinator.com/blog/how-to-pitch-your-company/
-- F-M6-15 · CATIE (2025). El secreto de un pitch infalible. https://agromira.catie.ac.cr/wp-content/uploads/2025/05/El-secreto-de-un-pitch-infalible-Taller-presencial.pdf
-- F-M6-16 · Unisa, Directorate of Counselling and Career Development (2023). Career portfolio. https://www.unisa.ac.za/sites/corporate/default/Apply-for-admission/Undergraduate-qualifications/Counselling-and-Career-Development/Prepare-for-job-opportunities/Career-portfolio
-- F-H-12 · Google (s. f.). Límites de las aplicaciones de Gemini y cambios a planes superiores. https://support.google.com/gemini/answer/16275805?hl=es
-- F-H-47 · Gamma (s. f.). Planes y precios. https://gamma.app/es/pricing
-- F-H-76 · ElevenLabs (s. f.). Can I publish the content I generate on the platform? https://elevenlabs.io/docs/help-center/legal/can-i-publish-the-content-i-generate-on-the-platform
+- CATIE. (s. f.). *El secreto de un pitch infalible*. https://agromira.catie.ac.cr/wp-content/uploads/2025/05/El-secreto-de-un-pitch-infalible-Taller-presencial.pdf
+- CONEVAL. (2019). *Guía para el establecimiento y cálculo de líneas base y metas*. https://www.coneval.org.mx/InformesPublicaciones/Documents/Guia_lineas_base_metas.pdf
+- ElevenLabs. (s. f.). *Can I publish the content I generate on the platform?* https://elevenlabs.io/docs/help-center/legal/can-i-publish-the-content-i-generate-on-the-platform
+- Gamma. (s. f.). *Planes y precios*. https://gamma.app/es/pricing
+- Google. (s. f.). *Límites de las aplicaciones de Gemini y cambios a planes superiores*. https://support.google.com/gemini/answer/16275805?hl=es
+- Government Analysis Function. (2018, 17 de diciembre). *Communicating quality, uncertainty and change*. https://analysisfunction.civilservice.gov.uk/policy-store/communicating-quality-uncertainty-and-change/
+- GSA. (s. f.). *Data story*. Data & Analytics Center of Excellence. https://coe.gsa.gov/coe/data-story/
+- Institute for Healthcare Improvement. (s. f.). *Model for improvement*. https://www.ihi.org/library/model-for-improvement
+- Seibel, M. (2016, 19 de julio). *How to pitch your company*. Y Combinator. https://www.ycombinator.com/blog/how-to-pitch-your-company/
+- TASO. (s. f.). *Evaluation methods*. https://cdn.taso.org.uk/wp-content/uploads/TASO-Evaluation-Methods.pdf
+- Unisa. (2023, 7 de agosto). *Career portfolio*. Directorate of Counselling and Career Development. https://www.unisa.ac.za/sites/corporate/default/Apply-for-admission/Undergraduate-qualifications/Counselling-and-Career-Development/Prepare-for-job-opportunities/Career-portfolio
 

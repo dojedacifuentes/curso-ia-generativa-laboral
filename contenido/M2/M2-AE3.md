@@ -9,7 +9,7 @@ Una presentación sirve para que una audiencia entienda una idea y haga algo con
 
 El aprendizaje esperado es este: Estructurar presentaciones de 6 láminas con apoyo de IA a partir de un mensaje clave y una audiencia definida. Al final deberías poder ordenar seis láminas alrededor de un mensaje clave coherente y depurar lo que genera la IA, quitando lo que sobra y corrigiendo los errores.
 
-El tema es un taller y termina con un producto. Vas a definir tu mensaje y tu audiencia, pedirle a Gemini el esquema, revisarlo, armar las láminas, cuidar cómo se ven y escribir el guion. Es el mismo camino que vas a seguir en el Hito 2. La presentación tiene seis láminas, un formato corto que obliga a elegir lo importante. Una guía universitaria de diseño de láminas pone el punto de partida antes de cualquier herramienta: se definen el propósito, la audiencia y el mensaje, y después las láminas se unen en una historia coherente.
+El tema es un taller y termina con un producto. Vas a definir tu mensaje y tu audiencia, pedirle a Gemini el esquema, revisarlo, armar las láminas, cuidar cómo se ven y escribir el guion. Es el mismo camino que vas a seguir en el Hito 2. La presentación tiene seis láminas, un formato corto que obliga a elegir lo importante. Una guía universitaria de diseño de láminas pone el punto de partida antes de cualquier herramienta: se definen el propósito, la audiencia y el mensaje, y después las láminas se unen en una historia coherente [@F-M2-13].
 
 En el taller te acompañan dos presentaciones. Andrés quiere proponerle a su jefatura que la bodega tenga siempre una reserva de cajas, para que no se atrasen los despachos, y va a tener poco tiempo en la reunión del lunes. Camila quiere mostrarle a la gerenta de administración cómo organizar el archivo de documentos de la oficina, porque hoy encontrar una factura antigua toma demasiado tiempo.
 
@@ -20,9 +20,9 @@ cubre: S1, C1
 fuentes: F-M2-13, F-M2-05
 bloque: Texto + tabla + actividad
 
-Las guías de diseño de presentaciones coinciden en que antes de armar láminas hay que definir tres cosas. El propósito es lo que quieres que pase al final: que aprueben, que entiendan o que cambien algo. La audiencia es quien te escucha, qué sabe del tema y qué le preocupa. El mensaje es la idea que tiene que llevarse aunque olvide todo lo demás.
+Las guías de diseño de presentaciones coinciden en que antes de armar láminas hay que definir tres cosas [@F-M2-13]. El propósito es lo que quieres que pase al final: que aprueben, que entiendan o que cambien algo. La audiencia es quien te escucha, qué sabe del tema y qué le preocupa. El mensaje es la idea que tiene que llevarse aunque olvide todo lo demás.
 
-Si tu audiencia es alguien que decide, como tu jefatura, te sirven las tres preguntas del informe ejecutivo del tema 1: qué debo saber, por qué me importa y qué debo hacer. Así quedaron las respuestas de Andrés:
+Si tu audiencia es alguien que decide, como tu jefatura, te sirven las tres preguntas del informe ejecutivo del tema 1: qué debo saber, por qué me importa y qué debo hacer [@F-M2-05]. Así quedaron las respuestas de Andrés:
 
 | | Andrés |
 |---|---|
@@ -51,7 +51,7 @@ El **mensaje clave** es la idea central de la presentación, dicha en una oraci�
 
 Hay tres pruebas sencillas para saber si tu mensaje funciona. La primera es que sea una oración con verbo: «Los despachos» no lo es. La segunda es que alguien pueda estar en desacuerdo, porque si nadie podría discutirlo, quizás no dice nada. La tercera es que quepa en una sola idea; si tiene tres «y», probablemente son tres mensajes.
 
-Cada lámina de tu presentación va a tener que apoyar ese mensaje, y lo que no lo apoye sobra. Por eso conviene trabajarlo antes de abrir cualquier herramienta. Poder decir lo esencial en una oración es lo que llamamos **sentido de síntesis**: si no lo logras, todavía no tienes clara tu presentación, y la IA tampoco la va a tener.
+Cada lámina de tu presentación va a tener que apoyar ese mensaje, y lo que no lo apoye sobra [@F-M2-13]. Por eso conviene trabajarlo antes de abrir cualquier herramienta. Poder decir lo esencial en una oración es lo que llamamos **sentido de síntesis**: si no lo logras, todavía no tienes clara tu presentación, y la IA tampoco la va a tener.
 
 :::error Confundir el tema con el mensaje
 Pedirle a la IA «una presentación sobre los despachos» produce láminas genéricas sobre logística. Pedirle una presentación cuyo mensaje es «si mantenemos 30 cajas de reserva, evitamos atrasos» produce láminas que defienden esa idea.
@@ -62,7 +62,7 @@ cubre: S1, C1
 fuentes: F-M2-13, F-M2-05
 bloque: Línea de tiempo (timeline) o proceso en 6 pasos
 
-Una presentación no es una lista de datos: es una historia que lleva a la audiencia desde la situación actual hasta lo que quieres que haga. Las láminas se encadenan para contar esa historia de forma coherente. Para audiencias que deciden, la secuencia qué debo saber, por qué me importa y qué debo hacer da un buen hilo, y este curso propone una estructura posible para seis láminas:
+Una presentación no es una lista de datos: es una historia que lleva a la audiencia desde la situación actual hasta lo que quieres que haga. Las láminas se encadenan para contar esa historia de forma coherente [@F-M2-13]. Para audiencias que deciden, la secuencia qué debo saber, por qué me importa y qué debo hacer da un buen hilo [@F-M2-05]. Este curso propone una estructura posible para seis láminas:
 
 | Lámina | Función | Ejemplo de Andrés |
 |---|---|---|
@@ -86,7 +86,7 @@ bloque: Ordenar o clasificar (sorting activity)
 
 Ahora te toca ordenar una historia, y el caso es el de Camila. La gerenta de administración le pidió que le mostrara, en seis láminas, cómo organizaría el archivo de documentos de la oficina, porque hoy las facturas, las órdenes de compra y los contratos se guardan en cajas por orden de llegada. Su mensaje clave es «Un archivo ordenado por fecha y tipo de documento permite encontrar cualquier papel rápido».
 
-Para ordenar las láminas, piensa en lo que necesita la gerenta para decidir. Primero tiene que saber de qué se trata y cómo están las cosas hoy; después, por qué eso es un problema; recién entonces puede evaluar una propuesta, lo que cuesta y lo que se gana. Lo que Camila pide va al final, porque si lo pide antes de explicar, su jefatura no tiene cómo evaluarlo. Y si falta la lámina del problema, la propuesta queda sin justificación: es la que responde por qué me importa.
+Para ordenar las láminas, piensa en lo que necesita la gerenta para decidir. Primero tiene que saber de qué se trata y cómo están las cosas hoy; después, por qué eso es un problema; recién entonces puede evaluar una propuesta, lo que cuesta y lo que se gana [@F-M2-13]. Lo que Camila pide va al final, porque si lo pide antes de explicar, su jefatura no tiene cómo evaluarlo. Y si falta la lámina del problema, la propuesta queda sin justificación: es la que responde por qué me importa [@F-M2-05].
 
 :::actividad Ordena las láminas
 Ordena estas láminas de la 1 a la 6:
@@ -105,7 +105,7 @@ cubre: S2, C1
 fuentes: F-M2-13
 bloque: Texto + comparación antes y después
 
-La relación entre el mensaje y las láminas se resume en una regla: cada lámina transmite una sola idea, y esa idea apoya el mensaje clave. Una guía universitaria de diseño de láminas agrega que el título de cada lámina debe enunciar su conclusión principal, idealmente como una oración completa. A eso se le llama **título-oración**.
+La relación entre el mensaje y las láminas se resume en una regla: cada lámina transmite una sola idea, y esa idea apoya el mensaje clave. Una guía universitaria de diseño de láminas agrega que el título de cada lámina debe enunciar su conclusión principal, idealmente como una oración completa [@F-M2-13]. A eso se le llama **título-oración**.
 
 | Título que nombra un tema | Título que dice la conclusión |
 |---|---|
@@ -138,7 +138,7 @@ Varias herramientas usan IA para ayudarte con una presentación. Para este curso
 | Límite | Un uso que se renueva cada cierto tiempo, con tope semanal | 400 créditos al registrarte, que no se recargan; cada acción gasta una cantidad distinta |
 | Para tener en cuenta | Conviene llegar con el brief listo y no gastar intentos en pedidos vagos | No pide tarjeta, exporta a PDF, PPTX, PNG y Google Slides, y las láminas llevan la marca de Gamma |
 
-Con ellas tienes dos caminos gratuitos. En el primero, Gemini te ayuda con el esquema, el texto y el guion, y tú armas las láminas en Google Slides. En el segundo, pegas tu esquema ya revisado en Gamma para que diseñe las láminas, y después las revisas.
+Con ellas tienes dos caminos gratuitos [@F-H-12; @F-H-47]. En el primero, Gemini te ayuda con el esquema, el texto y el guion, y tú armas las láminas en Google Slides. En el segundo, pegas tu esquema ya revisado en Gamma para que diseñe las láminas, y después las revisas.
 
 Si en tu empresa usan otro programa de presentaciones con un asistente incluido, el método del taller sirve igual: el mensaje, la estructura y la depuración no dependen de la herramienta. Los planes gratuitos cambian a menudo, así que antes de empezar revisa los límites vigentes de la que elijas.
 
@@ -147,7 +147,7 @@ cubre: H1, S3
 fuentes: F-M2-08, F-M2-13
 bloque: Proceso paso a paso + actividad
 
-Con tu brief listo, le pides a Gemini el esquema: la lista de las seis láminas, cada una con su título y su contenido principal. Para eso usas las partes de un prompt que ya conoces, el objetivo, el contexto (audiencia y propósito), la fuente (tus datos) y las expectativas (número de láminas y formato). Este es el prompt de Andrés:
+Con tu brief listo, le pides a Gemini el esquema: la lista de las seis láminas, cada una con su título y su contenido principal. Para eso usas las partes de un prompt que ya conoces, el objetivo, el contexto (audiencia y propósito), la fuente (tus datos) y las expectativas (número de láminas y formato) [@F-M2-08]. Este es el prompt de Andrés:
 
 ```
 Actúa como encargado de bodega que prepara una propuesta para su jefatura.
@@ -159,7 +159,7 @@ FORMATO: para cada lámina, un título que sea una oración con su conclusión y
 Usa solo estos datos. Si necesitas un dato que no te di, escribe [FALTA DATO] en vez de inventarlo.
 ```
 
-El prompt ya trae restricciones que vas a trabajar en las próximas pantallas: títulos-oración, pocas viñetas y nada inventado. Pedirlas desde el principio te ahorra trabajo de depuración, porque cada lámina parte más cerca de lo que necesitas. Igual, lo que entregue será un borrador que puede traer errores.
+El prompt ya trae restricciones que vas a trabajar en las próximas pantallas: títulos-oración, pocas viñetas y nada inventado [@F-M2-13]. Pedirlas desde el principio te ahorra trabajo de depuración, porque cada lámina parte más cerca de lo que necesitas. Igual, lo que entregue será un borrador que puede traer errores [@F-M2-08].
 
 :::actividad Tu esquema
 Escribe tu propio prompt con tu brief y pídele a Gemini el esquema de seis láminas. Guarda la respuesta tal como salió: al final la vas a comparar con tu versión depurada.
@@ -178,9 +178,9 @@ El esquema que entrega la IA es un borrador. Antes de pasar a las láminas, rev�
 - [ ] Cada cifra está en los datos que diste, y anoté dónde apareció [FALTA DATO].
 - [ ] La última lámina dice qué esperas de la audiencia.
 
-Es tentador aceptar el esquema porque trae las seis láminas pedidas. Que tenga el número correcto no significa que esté bien: la IA puede rellenar con láminas genéricas, como «Introducción», «Contexto» o «Conclusiones», que no dicen nada. Cada lámina tiene que ganarse su lugar.
+Es tentador aceptar el esquema porque trae las seis láminas pedidas. Que tenga el número correcto no significa que esté bien: la IA puede rellenar con láminas genéricas, como «Introducción», «Contexto» o «Conclusiones», que no dicen nada. Cada lámina tiene que ganarse su lugar [@F-M2-13].
 
-Eso le pasó a Andrés. El esquema de Gemini traía una lámina titulada «Importancia de la logística en la empresa moderna», que no apoyaba su mensaje; la eliminó y dejó el problema y sus cifras en una lámina propia. También traía la viñeta «Los atrasos generan un 15 % de reclamos», un dato que él no había dado y que el modelo pudo inventar con total seguridad, así que la borró. En la lámina 5 apareció [FALTA DATO] en el costo del pedido extra, y Andrés fue a preguntarlo a compras.
+Eso le pasó a Andrés. El esquema de Gemini traía una lámina titulada «Importancia de la logística en la empresa moderna», que no apoyaba su mensaje; la eliminó y dejó el problema y sus cifras en una lámina propia. También traía la viñeta «Los atrasos generan un 15 % de reclamos», un dato que él no había dado y que el modelo pudo inventar con total seguridad, así que la borró [@F-M2-07]. En la lámina 5 apareció [FALTA DATO] en el costo del pedido extra, y Andrés fue a preguntarlo a compras.
 
 :::comprueba
 Una viñeta del esquema dice «Según estudios, el 80 % de las bodegas tiene este problema». Andrés no dio ese dato. ¿Qué hace?
@@ -195,7 +195,7 @@ cubre: H1, A1
 fuentes: F-M2-14, F-M2-13
 bloque: Texto + comparación antes y después
 
-Con el esquema revisado, escribes el contenido de cada lámina. Las recomendaciones para presentaciones eficaces van en la misma dirección: pocas palabras por lámina y viñetas cortas, de una línea, que sirvan de guía a quien presenta y no de texto completo. Cuando lo visual explica mejor que el texto, una imagen o un gráfico simple refuerza el mensaje, y las palabras tienen que ser las que tu audiencia entiende, sin jerga.
+Con el esquema revisado, escribes el contenido de cada lámina. Las recomendaciones para presentaciones eficaces van en la misma dirección: pocas palabras por lámina y viñetas cortas, de una línea, que sirvan de guía a quien presenta y no de texto completo [@F-M2-14]. Cuando lo visual explica mejor que el texto, una imagen o un gráfico simple refuerza el mensaje, y las palabras tienen que ser las que tu audiencia entiende, sin jerga [@F-M2-13].
 
 | Antes | Después |
 |---|---|
@@ -210,7 +210,7 @@ cubre: C2, A1
 fuentes: F-M2-14, F-M2-13
 bloque: Escenario o clasificación por semáforo
 
-Una lámina está **sobrecargada** cuando tiene más de lo que la audiencia puede captar de un vistazo. La señal más visible son los párrafos en lugar de viñetas de una línea. Otra es la letra pequeña: las recomendaciones de PowerPoint piden no bajar de 18 puntos. También sobrecargan las imágenes que saturan en vez de reforzar el mensaje y el contenido que no apoya la idea de la lámina; una guía universitaria lo llama ruido y pide eliminar todo lo que no es señal. La última señal son dos ideas que compiten en la misma lámina.
+Una lámina está **sobrecargada** cuando tiene más de lo que la audiencia puede captar de un vistazo. La señal más visible son los párrafos en lugar de viñetas de una línea. Otra es la letra pequeña: las recomendaciones de PowerPoint piden no bajar de 18 puntos [@F-M2-14]. También sobrecargan las imágenes que saturan en vez de reforzar el mensaje y el contenido que no apoya la idea de la lámina; una guía universitaria lo llama ruido y pide eliminar todo lo que no es señal [@F-M2-13]. La última señal son dos ideas que compiten en la misma lámina.
 
 Cuando una lámina tiene demasiadas viñetas, achicar la letra para que quepan empeora las cosas. Lo que conviene es quedarse con las que apoyan la idea de la lámina y llevar el resto al guion, para decirlo en vez de mostrarlo.
 
@@ -230,10 +230,10 @@ bloque: Texto + recuadro destacado
 
 Depurar no es solo quitar texto: también es corregir errores. El contenido que generan las herramientas de IA para presentaciones puede traer los mismos problemas que cualquier texto generado, y algunos propios de las imágenes:
 
-- cifras y datos inventados, presentados con seguridad, como el «15 % de reclamos» que encontró Andrés;
+- cifras y datos inventados, presentados con seguridad, como el «15 % de reclamos» que encontró Andrés [@F-M2-07];
 - citas o referencias a estudios que no existen, o que existen y dicen otra cosa;
 - afirmaciones genéricas que suenan bien, pero que no corresponden a tu caso;
-- imágenes que no calzan, como una bodega que no se parece a la tuya, personas que no son de tu equipo o texto mal escrito dentro de la imagen.
+- imágenes que no calzan, como una bodega que no se parece a la tuya, personas que no son de tu equipo o texto mal escrito dentro de la imagen [@F-M1-05].
 
 La regla para una presentación es simple: cada dato tiene que poder respaldarse. Si viene de tus registros, revisa que coincida. Si viene de afuera, busca la fuente como aprendiste en el módulo 1. Si no puedes respaldarlo, sale. Una cifra inventada es peligrosa justamente porque se ve profesional: la audiencia la cree y puede repetirla, y si te preguntan de dónde salió y no lo sabes, pierdes credibilidad en toda la presentación.
 
@@ -251,12 +251,12 @@ Con el contenido depurado, llega el momento de armar las láminas por uno de los
 El primer camino es Google Slides. Abres una presentación en blanco con tu cuenta de Google, creas seis láminas y copias en cada una su título y sus viñetas depuradas. Eliges un diseño simple y lo aplicas a todas por igual. Si una lámina necesita un gráfico o una imagen, la agregas tú y revisas que refuerce la idea.
 
 El segundo camino es Gamma Free:
-1. Crea una cuenta gratuita; no pide tarjeta.
+1. Crea una cuenta gratuita; no pide tarjeta [@F-H-47].
 2. Pega tu esquema depurado e indica que son 6 láminas.
 3. Revisa el resultado con la lista de la pantalla 9, porque la herramienta puede agregar texto o imágenes que no pediste.
 4. Exporta a Google Slides, PPTX o PDF si necesitas editar o entregar el archivo.
 
-Como los 400 créditos del plan Free no se recargan, conviene llegar a Gamma con el esquema ya revisado y no gastarlos en pruebas. Y si solo tienes celular, puedes hacer el esquema, el contenido y el guion en la app de Gemini, que también genera diapositivas sin plan pagado, y dejar el ajuste del diseño para cuando tengas un computador.
+Como los 400 créditos del plan Free no se recargan, conviene llegar a Gamma con el esquema ya revisado y no gastarlos en pruebas [@F-H-47]. Y si solo tienes celular, puedes hacer el esquema, el contenido y el guion en la app de Gemini, que también genera diapositivas sin plan pagado, y dejar el ajuste del diseño para cuando tengas un computador [@F-H-12].
 
 :::actividad Tus seis láminas
 Arma tus seis láminas por el camino que prefieras. Si la presentación es para tu trabajo y usa datos internos, revisa qué permite tu empresa antes de subir esa información a una herramienta externa.
@@ -267,7 +267,7 @@ cubre: A2
 fuentes: F-M2-14, F-M2-02
 bloque: Lista de verificación (checklist) interactiva
 
-Tu presentación habla de ti antes de que digas una palabra. Cuidar la imagen profesional no exige saber de diseño: exige que la presentación se lea bien y se vea ordenada. Las recomendaciones de PowerPoint piden letra de 18 puntos o más, contraste entre el fondo y el texto, e imágenes que refuercen el mensaje sin saturar. La guía de lenguaje claro del Senado suma la letra sin adornos. A eso, este curso agrega cuatro cuidados propios: un diseño parejo, nada de jerga, la ortografía revisada y las imágenes revisadas.
+Tu presentación habla de ti antes de que digas una palabra. Cuidar la imagen profesional no exige saber de diseño: exige que la presentación se lea bien y se vea ordenada. Las recomendaciones de PowerPoint piden letra de 18 puntos o más, contraste entre el fondo y el texto, e imágenes que refuercen el mensaje sin saturar [@F-M2-14]. La guía de lenguaje claro del Senado suma la letra sin adornos [@F-M2-02]. A eso, este curso agrega cuatro cuidados propios: un diseño parejo, nada de jerga, la ortografía revisada y las imágenes revisadas.
 
 - [ ] Ninguna letra está bajo 18 puntos.
 - [ ] Hay contraste entre el fondo y el texto: letra oscura sobre fondo claro, o al revés.
@@ -292,11 +292,11 @@ bloque: Texto + escenario o conversación de ejemplo
 El **guion** es lo que dices mientras muestras cada lámina. Las viñetas son la guía de quien presenta; el guion es la explicación completa. Por eso la lámina puede tener pocas palabras: el resto lo pones tú. Puedes pedirle a Gemini un primer borrador: «Para cada una de estas 6 láminas, escribe un guion de 2 o 3 oraciones, en primera persona, con un tono profesional y cercano. No repitas las viñetas palabra por palabra: explícalas. Usa solo estos datos». Desde ahí, el trabajo es tuyo:
 
 1. Reescribe el guion con tus palabras, como hablas tú, porque un guion que no suena a ti se nota.
-2. Revisa que los datos que menciona sean los mismos de las láminas.
+2. Revisa que los datos que menciona sean los mismos de las láminas [@F-M2-08].
 3. Ensaya en voz alta, mirando las viñetas y no un texto leído.
 4. Si tropiezas en una frase, cámbiala.
 
-Lo que sí conviene evitar es leer las láminas en voz alta. Si el guion es igual a lo que dice la lámina, la audiencia lee más rápido de lo que hablas y deja de escucharte. Las recomendaciones para presentar piden ensayar para hablar a partir de las viñetas, no leerlas.
+Lo que sí conviene evitar es leer las láminas en voz alta. Si el guion es igual a lo que dice la lámina, la audiencia lee más rápido de lo que hablas y deja de escucharte. Las recomendaciones para presentar piden ensayar para hablar a partir de las viñetas, no leerlas [@F-M2-14].
 
 :::ejemplo Guion de la lámina 3 de Andrés
 Lámina: «Este mes se atrasaron 3 despachos por falta de cajas». Guion: «De los 40 despachos del mes, tres salieron tarde. En los tres casos fue lo mismo: no teníamos cajas medianas. Los clientes nos llamaron para reclamar, y tuvimos que explicarles el atraso».
@@ -307,7 +307,7 @@ cubre: C2, C1, A1
 fuentes: F-M2-13, F-M2-14
 bloque: Lista de verificación (checklist)
 
-Antes de presentar o entregar, haz una revisión completa. Esta lista reúne todo el taller, desde el mensaje hasta el guion:
+Antes de presentar o entregar, haz una revisión completa. Esta lista reúne todo el taller, desde el mensaje hasta el guion [@F-M2-13; @F-M2-14]:
 
 - [ ] El mensaje clave es una oración y aparece en la lámina 1.
 - [ ] Los seis títulos, leídos en orden, cuentan la historia.
@@ -333,7 +333,7 @@ cubre: C1, C2, H1
 fuentes: F-M2-13, F-M2-14
 bloque: Texto + actividad de cierre (entrega)
 
-En este taller construiste una presentación completa. Definiste propósito, audiencia y mensaje, ordenaste una historia en seis láminas y escribiste títulos que dicen la conclusión. Le pediste el esquema a la IA y lo depuraste: quitaste la sobrecarga, corregiste los datos sin respaldo y cuidaste cómo se ve. Al final escribiste el guion con tus palabras.
+En este taller construiste una presentación completa. Definiste propósito, audiencia y mensaje, ordenaste una historia en seis láminas y escribiste títulos que dicen la conclusión [@F-M2-13]. Le pediste el esquema a la IA y lo depuraste: quitaste la sobrecarga, corregiste los datos sin respaldo y cuidaste cómo se ve [@F-M2-14]. Al final escribiste el guion con tus palabras.
 
 La IA te ahorró tiempo en el borrador. Lo que hace buena a tu presentación es lo que decidiste quitar, corregir y decir con tus palabras, y por eso la entrega muestra las dos versiones, la inicial y la final.
 
@@ -358,35 +358,14 @@ Con el problema u oportunidad que elegiste en el Hito 1:
 6. Depurar es quitar la sobrecarga (párrafos, letra pequeña, imágenes que saturan, lo que no apoya el mensaje) y corregir los datos sin respaldo.
 7. Las viñetas guían a quien presenta: el guion se dice con palabras propias y se ensaya, no se lee.
 
-## Glosario
+## Referencias bibliográficas
 
-- **Brief**: texto breve con el propósito, la audiencia y el mensaje de una presentación o de un proyecto.
-- **Mensaje clave**: idea central de una presentación, dicha en una oración completa.
-- **Estructura narrativa**: orden de las láminas que cuenta una historia desde la situación actual hasta lo que se pide a la audiencia.
-- **Lámina**: cada una de las diapositivas de una presentación.
-- **Título-oración**: título de una lámina que enuncia su conclusión principal como una oración completa.
-- **Esquema**: lista de las láminas con su título y su contenido principal, antes de armarlas.
-- **Viñeta**: línea breve, marcada con un punto o un guion, que resume una idea dentro de una lámina.
-- **Lámina sobrecargada**: lámina con más contenido del que se capta de un vistazo: párrafos, letra pequeña, imágenes que saturan o ideas que no apoyan el mensaje.
-- **Ruido**: todo lo que aparece en una lámina sin apoyar su mensaje.
-- **Contraste**: diferencia entre el color del fondo y el del texto, que hace legible una lámina.
-- **Guion (de una presentación)**: lo que dice quien presenta mientras muestra cada lámina.
-- **Depuración**: revisión crítica que elimina lo que sobra y corrige los errores del contenido generado.
-
-## Conexión con el proyecto
-
-Este taller es el camino del **Hito 2 del proyecto aplicado: brief del proyecto + presentación de 6 láminas**. El problema u oportunidad de tu trabajo que elegiste en el Hito 1 se convierte en un brief (objetivo, audiencia y mensaje, P02 y P03) y en una presentación de seis láminas hecha con IA y depurada por ti (P08 a P16), pensada para la persona que puede aprobar tu propuesta. La actividad de cierre (P17) es tu borrador de entrega. Para redactar el brief, usa lo que aprendiste en el tema 1 sobre audiencia e informe ejecutivo, y las plantillas del tema 2.
-
-## Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M2.md`, `investigacion/M1.md` y `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
-
-- F-M2-02 · Senado de Chile, Redacción de Sesiones (2025). Guía de lenguaje claro para el ámbito legislativo. https://cdn.senado.cl/portal-senado-produccion/s3fs-public/2025-09/guia-de-lenguaje-claro-para-el-ambito-legislativo.pdf
-- F-M2-05 · Carnegie Mellon University, Student Academic Success Center (s. f.). Executive Summaries. https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/executive-summaries.pdf
-- F-M2-07 · NIST (2024). Generative Artificial Intelligence Profile (NIST AI 600-1). https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
-- F-M2-08 · Microsoft Support (2026). Introducción a la escritura de indicaciones en Microsoft Copilot. https://support.microsoft.com/es-es/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5
-- F-M2-13 · MIT, NSE Communication Lab; Hirst y Jepeal (s. f.). Slide Design (CommKit). https://mitcommlab.mit.edu/nse/commkit/slide-design
-- F-M2-14 · Microsoft Support (s. f.). Sugerencias para crear y ofrecer una presentación eficaz. https://support.microsoft.com/es-es/office/sugerencias-para-crear-y-presentar-una-presentación-eficaz-f43156b0-20d2-4c51-8345-0c337cefb88b
-- F-M1-05 · OpenAI (2026). Image generation: limitations. https://developers.openai.com/api/docs/guides/image-generation
-- F-H-12 · Google (s. f.). Límites de las aplicaciones de Gemini y cambios a planes superiores. https://support.google.com/gemini/answer/16275805?hl=es
-- F-H-47 · Gamma (s. f.). Planes y precios. https://gamma.app/es/pricing
+- Carnegie Mellon University. (s. f.). *Executive summaries*. Student Academic Success Center. https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/executive-summaries.pdf
+- Gamma. (s. f.). *Planes y precios*. https://gamma.app/es/pricing
+- Google. (s. f.). *Límites de las aplicaciones de Gemini y cambios a planes superiores*. https://support.google.com/gemini/answer/16275805?hl=es
+- Hirst, C. y Jepeal, S. (s. f.). *Slide design (CommKit)*. MIT Nuclear Science and Engineering Communication Lab. https://mitcommlab.mit.edu/nse/commkit/slide-design
+- Microsoft. (s. f.). *Sugerencias para crear y ofrecer una presentación eficaz*. Microsoft Support. https://support.microsoft.com/es-es/office/sugerencias-para-crear-y-presentar-una-presentación-eficaz-f43156b0-20d2-4c51-8345-0c337cefb88b
+- Microsoft. (2026). *Introducción a la escritura de indicaciones en Microsoft Copilot*. Microsoft Support. https://support.microsoft.com/es-es/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5
+- National Institute of Standards and Technology. (2024). *Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)*. https://doi.org/10.6028/NIST.AI.600-1
+- OpenAI. (s. f.). *Image generation*. OpenAI API Docs. https://developers.openai.com/api/docs/guides/image-generation
+- Senado de Chile. (2025). *Guía de lenguaje claro para el ámbito legislativo*. https://cdn.senado.cl/portal-senado-produccion/s3fs-public/2025-09/guia-de-lenguaje-claro-para-el-ambito-legislativo.pdf

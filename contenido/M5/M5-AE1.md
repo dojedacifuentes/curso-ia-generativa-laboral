@@ -14,7 +14,7 @@ Al final deberías poder nombrar al menos tres tareas automatizables de tu cargo
 por qué cada una quedó donde quedó.
 
 Vas a mirar el trabajo como lo miran los estudios de la Organización Internacional del Trabajo (OIT): tarea por tarea, no cargo por
-cargo. Y vas a usar una herramienta simple, la **matriz de priorización**, que ayuda a decidir qué conviene probar primero. Automatizar
+cargo [@F-M5-01]. Y vas a usar una herramienta simple, la **matriz de priorización**, que ayuda a decidir qué conviene probar primero [@F-M5-05]. Automatizar
 no es un fin en sí mismo. Lo que buscas es ganar tiempo y calidad en lo que importa sin crear riesgos nuevos, y a veces la mejor
 decisión es dejar una tarea como está.
 
@@ -29,13 +29,13 @@ bloque: Texto + imagen (un cargo dividido en tareas) + ejemplo
 
 Cuando se habla de IA y trabajo, la primera pregunta que aparece es si tu trabajo va a desaparecer. Los estudios serios no parten de
 ahí. La OIT mide la exposición a la IA generativa tarea por tarea, porque dentro de un mismo cargo hay tareas muy expuestas y otras que
-siguen necesitando a una persona.
+siguen necesitando a una persona [@F-M5-01].
 
 La **exposición** no es lo mismo que el reemplazo. Que una tarea esté expuesta significa que la IA generativa podría hacer una parte o
 ayudar a hacerla. El estudio de la OIT de 2023 concluye que el efecto principal será aumentar el trabajo, es decir, automatizar algunas
-tareas y dejar tiempo para otras, más que eliminar ocupaciones completas. La actualización de 2025 confirma que las ocupaciones
+tareas y dejar tiempo para otras, más que eliminar ocupaciones completas [@F-M5-01]. La actualización de 2025 confirma que las ocupaciones
 administrativas siguen siendo las más expuestas y llega a una conclusión parecida: como la mayoría de las ocupaciones tiene tareas que
-requieren intervención humana, lo más probable es que los empleos se transformen.
+requieren intervención humana, lo más probable es que los empleos se transformen [@F-M5-02].
 
 Mirar tu cargo así tiene una ventaja práctica. En vez de una pregunta que angustia, tienes una lista que puedes analizar: qué tareas
 haces en una semana, cuáles se repiten igual cada vez y cuáles necesitan tu criterio, tu trato con las personas o tus manos.
@@ -55,12 +55,12 @@ Dos estudios ayudan a entender dónde está el potencial de automatización. Cad
 comparan entre sí.
 
 El primero es el de la OIT de 2023. Según ese estudio, el trabajo administrativo es el único grupo de ocupaciones muy expuesto: el 24 %
-de sus tareas tiene exposición alta y el 58 %, exposición media. En los demás grupos, las tareas muy expuestas van del 1 % al 4 %. La
+de sus tareas tiene exposición alta y el 58 %, exposición media [@F-M5-01]. En los demás grupos, las tareas muy expuestas van del 1 % al 4 %. La
 exposición es más del doble en las mujeres. El mismo estudio advierte que la calidad del empleo, como la intensidad del trabajo y la
 autonomía, puede importar más que las cifras.
 
 El segundo es un documento de la OCDE de 2024. Explica que la IA avanzó sobre todo en tareas cognitivas no rutinarias, como redactar o
-resumir, y que por eso los cargos más expuestos son de oficina. Los que dependen de destrezas manuales y de fuerza, como el aseo o
+resumir, y que por eso los cargos más expuestos son de oficina [@F-M5-03]. Los que dependen de destrezas manuales y de fuerza, como el aseo o
 ayudar en una cocina, tienen baja exposición.
 
 Si trabajas en una oficina, estas cifras hablan de ti. Lo que muestran no es que tu cargo vaya a desaparecer, sino que buena parte de
@@ -78,11 +78,11 @@ bloque: Proceso (process block) en 5 partes + ejemplo
 
 Desde hace décadas se sabe que los computadores funcionan bien con reglas. Un estudio clásico de Autor, Levy y Murnane mostró que la
 tecnología sustituye sobre todo las **tareas rutinarias**, las que se repiten y siguen pasos claros, y que en cambio complementa las
-tareas de resolver problemas y tratar con personas. La IA generativa, como viste en el módulo 1, agrega algo a esa historia: también
+tareas de resolver problemas y tratar con personas [@F-M5-04]. La IA generativa, como viste en el módulo 1, agrega algo a esa historia: también
 trabaja con texto, así que puede resumir un correo o clasificar una consulta.
 
 Para saber si una tarea es candidata, conviene descomponerla en cinco partes. Esta lista es del curso y se inspira en lo que la guía de
-automatización de la Universidad de Bath pide documentar de cada flujo: su propósito, sus entradas, sus salidas y sus dependencias.
+automatización de la Universidad de Bath pide documentar de cada flujo: su propósito, sus entradas, sus salidas y sus dependencias [@F-M5-06].
 
 1. Qué la inicia: llega un correo, es lunes, alguien completa un formulario.
 2. Con qué datos trabaja: un correo, una fila de planilla, una fecha.
@@ -106,8 +106,8 @@ pueden escribir y trabaja con información, como correos, planillas o fechas. Un
 criterio del momento, trabaja con objetos o con el cuerpo, o decide algo importante sobre una persona.
 
 Las tareas de manejo de información son justamente las típicas del trabajo administrativo, y por eso ese grupo aparece como el más
-expuesto en el estudio de la OIT. En cambio, como explica la OCDE, las tareas que dependen de las manos y de la fuerza tienen baja
-exposición. Si tu trabajo combina las dos cosas, como el de Andrés, que pasa parte del día en la planilla y parte entre las cajas, lo
+expuesto en el estudio de la OIT [@F-M5-01]. En cambio, como explica la OCDE, las tareas que dependen de las manos y de la fuerza tienen baja
+exposición [@F-M5-03]. Si tu trabajo combina las dos cosas, como el de Andrés, que pasa parte del día en la planilla y parte entre las cajas, lo
 más probable es que tus candidatas estén en la primera mitad.
 
 La última señal merece una pausa. Una tarea puede repetirse y seguir reglas, y aun así ser mala candidata si decide algo sobre alguien,
@@ -133,7 +133,7 @@ Ahora vas a hacer tu propio **mapa de tareas**: la lista de lo que haces en tu c
 necesitas ningún documento de la empresa. Te basta tu descripción de cargo, si la tienes, o tus propias notas de lo que haces en una
 semana normal.
 
-Gemini puede acelerar la primera versión. La app es gratuita y funciona en el celular, en Android y en iPhone. Estos son los pasos:
+Gemini puede acelerar la primera versión. La app es gratuita y funciona en el celular, en Android y en iPhone [@F-H-14]. Estos son los pasos:
 
 1. Escribe en una nota lo que haces en una semana, con tus palabras, sin nombres de clientes ni datos de la empresa.
 2. Pega esa nota en Gemini y escribe: «Lista las tareas concretas de esta persona. Escribe cada una con un verbo y un objeto, por ejemplo "registrar facturas". No agregues tareas que mis notas no permitan suponer».
@@ -170,14 +170,14 @@ quedó así:
 
 Camila encontró cuatro tareas candidatas, más que las tres que pide el tema. En su mapa hay dos cosas que vale la pena mirar. La
 primera es que «sigue reglas» no siempre es sí o no. Las consultas de proveedores tienen una parte fija, porque las preguntas se
-repiten, y otra que exige criterio, porque cada caso es distinto. Esas tareas se pueden automatizar en parte, con revisión.
+repiten, y otra que exige criterio, porque cada caso es distinto [@F-M5-04]. Esas tareas se pueden automatizar en parte, con revisión.
 
 La segunda es que Camila descartó preseleccionar currículums, aunque se lo piden cada vez que la constructora abre una vacante. Es una
 tarea que decide algo importante sobre otras personas, y eso pesa más que la repetición.
 
 :::actividad Revisa tu mapa
 Compara tu mapa con el de Camila. ¿Tienes al menos tres tareas candidatas? Si no, busca las que trabajan con correo, planillas o
-agenda, que suelen ser las más repetitivas.
+agenda, que suelen ser las más repetitivas [@F-M5-01].
 :::
 
 ## P08 · Antes de automatizar: eliminar y simplificar
@@ -186,7 +186,7 @@ fuentes: F-M5-06
 bloque: Proceso (process block) en 3 pasos + ejemplo
 
 La guía de automatización de la Universidad de Bath da un consejo que ahorra mucho trabajo: partir de la necesidad y no automatizar algo
-solo porque se puede. Para eso propone una secuencia en tres pasos.
+solo porque se puede [@F-M5-06]. Para eso propone una secuencia en tres pasos.
 
 1. Eliminar: preguntarse si la tarea es necesaria, porque a veces se hace por costumbre y nadie usa el resultado.
 2. Simplificar: ver si se puede hacer con menos pasos; un formulario bien hecho puede ahorrar tres correos de ida y vuelta.
@@ -208,7 +208,7 @@ fuentes: F-M5-06
 bloque: Texto + lista de verificación (checklist) + ejemplo
 
 Para elegir qué automatizar, la guía de Bath recomienda mirar la frecuencia de la tarea, su complejidad, el ahorro de tiempo y costo, y
-el efecto en la experiencia de las personas. En este curso los juntamos en un solo criterio, el **impacto**: cuánto mejora el trabajo
+el efecto en la experiencia de las personas [@F-M5-06]. En este curso los juntamos en un solo criterio, el **impacto**: cuánto mejora el trabajo
 si la tarea se automatiza.
 
 Para estimarlo, responde tres preguntas con sí o no:
@@ -235,10 +235,10 @@ bloque: Texto + lista de verificación (checklist) + recuadro de error
 El **riesgo** es lo que puede salir mal si la tarea se hace sola. Una tarea automatizada no se cansa, pero tampoco duda: si el flujo
 tiene un error, lo repite cada vez. Por eso conviene pensar el riesgo antes de construir nada.
 
-Hay dos factores que lo suben mucho. Uno son los datos personales, cuya protección la guía de Bath pide cuidar en cada flujo; en tu
+Hay dos factores que lo suben mucho. Uno son los datos personales, cuya protección la guía de Bath pide cuidar en cada flujo [@F-M5-06]; en tu
 trabajo eso incluye los datos de clientes, proveedores y compañeros. El otro son las decisiones que afectan a personas. La Ley 21.719,
 que según su texto rige en Chile desde el 1 de diciembre de 2026, reconoce el derecho a no ser objeto de decisiones basadas en el
-tratamiento automatizado de los datos que afecten significativamente a una persona. Lo vas a ver en el tema 3.
+tratamiento automatizado de los datos que afecten significativamente a una persona [@F-M5-16]. Lo vas a ver en el tema 3.
 
 Para estimar el riesgo, responde otras tres preguntas con sí o no:
 - [ ] ¿La tarea usa datos personales o información confidencial?
@@ -260,7 +260,7 @@ bloque: Imagen (matriz 2×2) + texto + comprueba
 
 Una **matriz de priorización** es una cuadrícula de 2 × 2 que cruza dos criterios para ver qué conviene hacer primero. En su versión
 más conocida, la que usa por ejemplo el equipo de mejora continua del sistema de salud de Lothian, en Escocia, cruza impacto y
-esfuerzo, y busca las «victorias rápidas»: mucho impacto con poco esfuerzo.
+esfuerzo, y busca las «victorias rápidas»: mucho impacto con poco esfuerzo [@F-M5-05].
 
 En este curso la adaptamos. Cambiamos el esfuerzo por el riesgo, porque al automatizar lo que más importa es qué pasa si algo falla.
 Así queda:
@@ -298,11 +298,11 @@ Andrés eligió cinco tareas candidatas de su mapa y respondió las preguntas de
 | Enviar el reporte semanal a la jefatura | Bajo (1 sí) | Bajo (0 sí) | Si sobra tiempo |
 | Armar los turnos del equipo | Bajo (1 sí) | Alto (3 sí: datos y efecto en personas) | No automatices |
 
-El reporte semanal quedó con impacto bajo porque, después de simplificarlo (P08), ya le toma poco tiempo. Los turnos quedaron fuera:
+El reporte semanal quedó con impacto bajo porque, después de simplificarlo (P08), ya le toma poco tiempo [@F-M5-06]. Los turnos quedaron fuera:
 tocan la vida de sus compañeros, usan datos personales y un error se nota tarde.
 
 Andrés tiene dos tareas en «Empieza aquí». La guía de Lothian sugiere que, si hay muchas opciones en el cuadrante prioritario, se elija
-entre ellas en conjunto, por ejemplo votando. Andrés lo conversó con su jefatura y, para su proyecto, eligió otra: el aviso de atraso a
+entre ellas en conjunto, por ejemplo votando [@F-M5-05]. Andrés lo conversó con su jefatura y, para su proyecto, eligió otra: el aviso de atraso a
 clientes, que es la parte de su problema, los despachos atrasados, que más reclamos trae. Como quedó en «Con supervisión», le pondrá un
 control humano en el tema 3.
 
@@ -322,7 +322,7 @@ bloque: Texto + ejemplo de respuesta + comprueba
 Ubicar una tarea en la matriz no basta: tienes que poder explicar por qué quedó ahí. Un **fundamento** sirve para que otra persona, como
 tu jefatura o tu equipo, entienda tu decisión y la pueda discutir.
 
-Un buen fundamento nombra el cuadrante y da una razón para cada criterio. Andrés, por ejemplo, escribió: «Ubico esta tarea en Empieza
+Un buen fundamento nombra el cuadrante y da una razón para cada criterio [@F-M5-05; @F-M5-06]. Andrés, por ejemplo, escribió: «Ubico esta tarea en Empieza
 aquí porque se repite a diario y evita que los vendedores ofrezcan productos sin stock, y su riesgo es bajo porque no usa datos
 personales y, si falla, el error se nota el mismo día». El impacto y el riesgo llevan cada uno su razón. Los fundamentos vagos, como
 «porque es importante» o «porque es fácil», no sirven, porque no dicen en qué criterio te basas ni qué dato lo respalda.
@@ -346,7 +346,7 @@ fuentes: F-M5-01, F-M5-03
 bloque: Texto + cita destacada + ejemplo
 
 Si la respuesta a para qué automatizar es solo «para hacer más en menos tiempo», falta algo. La OIT advierte que el efecto de la IA
-sobre la calidad del trabajo, como la intensidad y la autonomía, puede importar más que las cifras de empleo. Automatizar mal puede
+sobre la calidad del trabajo, como la intensidad y la autonomía, puede importar más que las cifras de empleo [@F-M5-01]. Automatizar mal puede
 hacer que el trabajo sea más acelerado y no mejor.
 
 Por eso la pregunta de impacto incluye a otras personas. Una buena automatización libera tiempo para lo que necesita a alguien:
@@ -355,7 +355,7 @@ pregunta: si esta tarea se automatiza, quién gana y qué hago yo con el tiempo 
 
 Hay otra razón para aprender esto en tu trabajo. Un documento de la OCDE señala que el principal riesgo para las personas sin estudios
 superiores, las mujeres y las personas mayores es quedar atrás por tener menos acceso a herramientas de IA que aumentan la
-productividad. Saber identificar qué automatizar, y hacerlo con cuidado, es una forma de no quedarse atrás.
+productividad [@F-M5-03]. Saber identificar qué automatizar, y hacerlo con cuidado, es una forma de no quedarse atrás.
 
 :::ejemplo Lo que hace Camila con el tiempo ganado
 Camila calcula que, si el registro de facturas se hiciera solo, recuperaría un buen rato cada semana. Lo usaría para responder con
@@ -369,8 +369,8 @@ fuentes: F-M5-05, F-M5-06
 bloque: Texto + actividad de cierre (respuesta abierta)
 
 En este tema miraste el trabajo tarea por tarea. Aprendiste a reconocer una tarea automatizable por su anatomía: se repite, sigue
-reglas y trabaja con información. Viste que antes de automatizar conviene eliminar y simplificar, y que la decisión se toma con dos
-criterios, impacto y riesgo, ordenados en una matriz.
+reglas y trabaja con información. Viste que antes de automatizar conviene eliminar y simplificar [@F-M5-06], y que la decisión se toma con dos
+criterios, impacto y riesgo, ordenados en una matriz [@F-M5-05].
 
 Ahora te toca armar la tuya con las tareas de tu cargo. Si la tarea que más te interesa quedó en «Con supervisión», no la descartes: en
 el tema 3 vas a aprender a ponerle puntos de control humano. Y si ninguna tarea te convence, vuelve a tu mapa y busca las que trabajan
@@ -401,46 +401,13 @@ Guarda tu matriz. En el próximo tema vas a construir un flujo simple para la ta
    automatices.
 7. Una priorización se fundamenta nombrando cada criterio y el dato que lo respalda.
 
-## Glosario
+## Referencias bibliográficas
 
-- **Automatización**: hacer que una tarea se realice sola, con una herramienta que sigue pasos definidos cada vez que hace falta.
-- **Tarea rutinaria**: tarea que se repite y sigue pasos claros que se pueden escribir como reglas.
-- **Tarea no rutinaria**: tarea que exige resolver problemas, criterio en cada caso o trato con personas.
-- **Exposición a la IA**: grado en que la IA generativa podría hacer o ayudar a hacer una tarea; no equivale a reemplazo.
-- **Aumento del trabajo**: efecto de la tecnología que automatiza algunas tareas y deja tiempo para otras, sin eliminar el cargo.
-- **Mapa de tareas**: lista de las tareas concretas de un cargo, escritas con un verbo y un objeto.
-- **Impacto**: cuánto mejora el trabajo si una tarea se automatiza, por su frecuencia, el tiempo ganado y el beneficio para las
-  personas.
-- **Riesgo**: lo que puede salir mal si una tarea se hace sola, según los datos que usa, el efecto de un error y la dificultad de
-  detectarlo.
-- **Matriz de priorización**: cuadrícula de 2 × 2 que cruza dos criterios para decidir qué hacer primero.
-- **Victoria rápida**: opción de mucho impacto y poco esfuerzo en la matriz clásica de impacto y esfuerzo.
-- **Fundamento**: explicación de por qué una tarea quedó en un cuadrante, con los criterios y los datos que lo respaldan.
-
-## Conexión con el proyecto
-
-Tu matriz de impacto y riesgo (P15) es el primer paso del **Hito 5 del proyecto aplicado: prototipo de automatización de un paso del
-proceso, con supervisión humana**. Aplícala a las tareas del desafío laboral que elegiste en el Hito 1 y elige el paso que vas a
-automatizar. En el tema 2 construirás el flujo y en el tema 3 le agregarás los controles humanos.
-
-## Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M5.md` y `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
-
-- F-M5-01 · OIT; Gmyrek, Berg y Bescond (2023). Generative AI and jobs: A global analysis of potential effects on job quantity and quality (ILO Working Paper 96). https://www.ilo.org/publications/generative-ai-and-jobs-global-analysis-potential-effects-job-quantity-and
-- F-M5-02 · OIT y NASK; Gmyrek, Berg, Kamiński y otros (2025). Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140). https://www.ilo.org/es/node/706766
-- F-M5-03 · OCDE; Lane (2024). Who will be the workers most affected by AI? (OECD Artificial Intelligence Papers n.º 26). https://doi.org/10.1787/14dc6f89-en
-- F-M5-04 · NBER; Autor, Levy y Murnane (2001). The Skill Content of Recent Technological Change: An Empirical Exploration (Working Paper 8337). https://www.nber.org/papers/w8337
-- F-M5-05 · NHS Lothian, Lothian Quality (s. f.). Prioritisation matrix. https://qilothian.scot.nhs.uk/pc-resources-prioritisation-matrix
-- F-M5-06 · University of Bath (s. f.). Automation standards for Microsoft Power Automate. https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate
-- F-M5-16 · Congreso Nacional de Chile, BCN LeyChile (2024). Ley 21.719, regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales. https://www.bcn.cl/leychile/navegar?idLey=21719
-- F-H-14 · Google (s. f.). Empezar a usar la aplicación móvil Gemini. https://support.google.com/gemini/answer/14554984?hl=es
-
-Notas para revisar antes de publicar:
-- La matriz de **impacto y riesgo** es una adaptación del curso de la matriz de impacto y esfuerzo (F-M5-05); no se le atribuye a
-  ninguna fuente. Las reglas de conteo («dos o tres sí») también son del curso.
-- Las cifras de la OIT 2023 (P03) y la conclusión de la OIT 2025 (P02) usan métodos distintos: no deben ponerse juntas en una misma
-  frase ni compararse.
-- P04: que la IA generativa trabaja con texto se apoya en lo visto en M1, no en una fuente de esta pantalla.
-- Ley 21.719: según su texto, rige desde el 01-12-2026; hay un proyecto de postergación en trámite (boletín 18623-07, ver F-M3-16 en
-  `investigacion/M3.md`). Revisar antes de publicar.
+- Autor, D. H., Levy, F. y Murnane, R. J. (2001). *The skill content of recent technological change: An empirical exploration (NBER Working Paper 8337)*. NBER. https://www.nber.org/papers/w8337
+- Gmyrek, P., Berg, J. y Bescond, D. (2023). *Generative AI and jobs: A global analysis of potential effects on job quantity and quality (ILO Working Paper 96)*. OIT. https://doi.org/10.54394/FHEM8239
+- Google. (s. f.). *Empezar a usar la aplicación móvil Gemini*. https://support.google.com/gemini/answer/14554984?hl=es
+- Lane, M. (2024). *Who will be the workers most affected by AI? A closer look at the impact of AI on women, low-skilled workers and other groups (OECD Artificial Intelligence Papers n.º 26)*. OCDE. https://doi.org/10.1787/14dc6f89-en
+- Ley 21.719. (2024, 13 de diciembre). *Regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idLey=21719
+- NHS Lothian. (s. f.). *Prioritisation matrix*. Lothian Quality. https://qilothian.scot.nhs.uk/pc-resources-prioritisation-matrix
+- OIT y NASK. (2025). *Generative AI and jobs: A refined global index of occupational exposure (ILO Working Paper 140)*. https://doi.org/10.54394/HETP0387
+- University of Bath. (s. f.). *Automation standards for Microsoft Power Automate*. https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate

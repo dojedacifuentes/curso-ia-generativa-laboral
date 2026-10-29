@@ -9,6 +9,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { crearZip } from './lib/zip.mjs';
+import { C, FIRMA, logoDataURI } from './lib/marca.mjs';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const curso = JSON.parse(fs.readFileSync(path.join(RAIZ, 'data', 'curso.json'), 'utf8'));
@@ -16,11 +17,23 @@ const AES = Object.fromEntries(curso.modulos.flatMap(m => m.aes.map(a => [a.id, 
 const ITEMS = 8;
 const ICONOS = 'estrella ok mal play repetir bandera niveles combo bateria comodin sonido silencio candado trofeo diana escudo escalar doc engranaje bd entrada transformar salida paquete rombo ruta bicho enviar chip llaves chat chispa numeral barras on'.split(' ');
 const FECHA_ZIP = new Date(2026, 9, 24, 12, 0, 0);
+// Marca Empoderatech (docs/CRITERIOS-29-10.md §5): Montserrat para el texto y Varela Round para titulares, etiquetas y cifras
 const FUENTES = [
-  ['Plex Sans', 400, 'ibm-plex-sans-latin-400-normal.woff2'], ['Plex Sans', 600, 'ibm-plex-sans-latin-600-normal.woff2'],
-  ['Plex Sans', 700, 'ibm-plex-sans-latin-700-normal.woff2'], ['Plex Mono', 400, 'ibm-plex-mono-latin-400-normal.woff2'],
-  ['Plex Mono', 600, 'ibm-plex-mono-latin-600-normal.woff2'], ['Plex Mono', 700, 'ibm-plex-mono-latin-600-normal.woff2'],
+  ['Montserrat', 400, 'montserrat-latin-400-normal.woff2'], ['Montserrat', 600, 'montserrat-latin-600-normal.woff2'],
+  ['Montserrat', 700, 'montserrat-latin-700-normal.woff2'], ['Varela Round', 400, 'varela-round-latin-400-normal.woff2'],
+  ['Varela Round', 600, 'varela-round-latin-400-normal.woff2'], ['Varela Round', 700, 'varela-round-latin-400-normal.woff2'],
 ];
+// Paleta de marca sobre noche: celeste y fucsia como acentos (la luz neón de la línea IA), frambuesa en el botón principal.
+// Reemplaza los acentos por AE de quiz/*.md («**Estilo:**»), que quedan solo como referencia.
+const MARCA_CSS = `:root{--bg0:${C.noche};--bg1:#0B121D;--tinta:#FFFFFF;--suave:${C.grisClaro};--tenue:${C.grisMedio};
+  --sans:Montserrat,Arial,sans-serif;--mono:"Varela Round",Montserrat,Arial,sans-serif}
+.titulo,.titulo-final,h2,h3{font-family:"Varela Round",Montserrat,Arial,sans-serif!important;font-weight:400!important}
+.kicker{font-family:"Varela Round",Montserrat,Arial,sans-serif;letter-spacing:.04em;text-transform:none}
+.btn.principal{color:#fff;background:${C.frambuesa};box-shadow:0 12px 34px rgba(190,52,85,.42)}
+.btn.principal:hover{background:#A92C4A}
+.logo-marca{display:block;height:38px;width:auto;margin:0 0 14px}
+`;
+const LOGO = logoDataURI('logo-sobre-oscuro');
 
 const plano = t => t.replace(/\*\*|`/g, '').replace(/(^|\s)\*([^*]+)\*/g, '$1$2').trim();
 
@@ -118,9 +131,10 @@ for (const id of ids) {
   try { q = leerQuiz(id); } catch (e) { console.log(`✗ ${e.message}`); fallas++; continue; }
   if (soloValidar) { console.log(`✓ quiz/${id}.md · ${q.preguntas.length} preguntas · insignia «${q.insignia}»`); continue; }
   const datos = { curso: id, cursoNombre: curso.titulo, modulo: q.ae.modulo.n, quiz: q.ae.id, tema: q.ae.tema, aes: q.ae.id, mision: q.mision,
-    cuando: q.cuando, insignia: q.insignia, siguiente: q.siguiente, estilo: q.estilo, preguntas: q.preguntas };
+    cuando: q.cuando, insignia: q.insignia, siguiente: q.siguiente, estilo: { ...q.estilo, acento: C.celeste, acento2: C.fucsia },
+    preguntas: q.preguntas, logo: LOGO, firma: FIRMA };
   const titulo = `${id} · ${q.ae.tema} · Quiz formativo`;
-  const pagina = plantilla.replace('__TITULO__', () => xml(titulo)).replace('/*FUENTES*/', () => fuentesCss)
+  const pagina = plantilla.replace('__TITULO__', () => xml(titulo)).replace('/*FUENTES*/', () => fuentesCss).replace('</style>', () => MARCA_CSS + '</style>')
     .replace('/*DATA*/', () => JSON.stringify(datos).replace(/</g, '\\u003c'));
   const dir = path.join(RAIZ, 'entregables', 'quiz', id);
   fs.mkdirSync(dir, { recursive: true });

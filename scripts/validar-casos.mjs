@@ -8,7 +8,8 @@ const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const curso = JSON.parse(fs.readFileSync(path.join(RAIZ, 'data', 'curso.json'), 'utf8'));
 const CASOS = Object.fromEntries(curso.modulos.flatMap(m => m.casos.filter(c => c.tipo === 'Caso de aplicación').map(c => [c.id, { ...c, modulo: m }])));
 const AES = Object.fromEntries(curso.modulos.flatMap(m => m.aes.map(a => [a.id, a])));
-const SECCIONES = ['1. Contexto', '2. Qué pasó', '3. Análisis guiado', '4. Aplicación a tu proyecto', '5. Autocorrección', '6. Para el foro', 'Fuentes'];
+const APA = JSON.parse(fs.readFileSync(path.join(RAIZ, 'investigacion', 'referencias-apa.json'), 'utf8'));
+const SECCIONES = ['1. Contexto', '2. Qué pasó', '3. Análisis guiado', '4. Aplicación a tu proyecto', '5. Autocorrección', '6. Para el foro', 'Referencias bibliográficas'];
 const palabras = t => t.split(/\s+/).filter(w => /\p{L}/u.test(w)).length;
 
 const ids = process.argv.slice(2).length ? process.argv.slice(2) : Object.keys(CASOS);
@@ -32,8 +33,9 @@ for (const id of ids) {
     const secciones = md.split(/^## /m).slice(1);
     for (const s of SECCIONES) if (!secciones.some(b => b.startsWith(s))) errores.push(`falta la sección «${s}»`);
     for (const m of md.matchAll(/^fuentes:\s*(F-.+)$/gm)) for (const f of m[1].split(/,\s*/)) if (!fuentes.has(f)) errores.push(`la fuente ${f} no está en la ficha`);
-    const fs2 = secciones.find(b => b.startsWith('Fuentes')) || '';
-    for (const m of md.matchAll(/^fuentes:\s*(F-.+)$/gm)) for (const f of m[1].split(/,\s*/)) if (!fs2.includes(f)) errores.push(`la fuente ${f} no está en la sección «Fuentes»`);
+    const fs2 = secciones.find(b => b.startsWith('Referencias bibliográficas')) || '';
+    // Criterios 29-10: la sección trae la referencia APA (la escribe referencias-apa.mjs --escribir); se busca por su URL
+    for (const m of md.matchAll(/^fuentes:\s*(F-.+)$/gm)) for (const f of m[1].split(/,\s*/)) if (!(APA[f] && fs2.includes(APA[f].url))) errores.push(`la fuente ${f} no está en «Referencias bibliográficas» (node scripts/referencias-apa.mjs --escribir)`);
     const aesCaso = c.aes.split(/;\s*/);
     const cubre = /^cubre:\s*(.+)$/m.exec(secciones.find(b => b.startsWith('3. Análisis guiado')) || '')?.[1] || '';
     if (!cubre) errores.push('«3. Análisis guiado» no tiene «cubre:»');
@@ -45,7 +47,7 @@ for (const id of ids) {
     for (const ae of aesCaso) if (!md.includes(ae)) errores.push(`no nombra el AE ${ae}`);
     const preguntas = ((secciones.find(b => b.startsWith('3. Análisis guiado')) || '').replace(/^.*\n/, '').match(/^\d+\.\s/gm) || []).length;
     if (preguntas < 5 || preguntas > 7) avisos.push(`análisis guiado con ${preguntas} preguntas (5 a 6)`);
-    const total = palabras(md.split('## Fuentes')[0]);
+    const total = palabras(md.split('## Referencias bibliográficas')[0]);
     if (total < 900 || total > 2200) avisos.push(`${total} palabras (rango 900-2200)`);
     console.log(`${errores.length ? '✗' : '✓'} ${id} · ${estado} · ${fuentes.size} fuentes (${primarias} primarias) · ${preguntas} preguntas · ${total} palabras`);
   }

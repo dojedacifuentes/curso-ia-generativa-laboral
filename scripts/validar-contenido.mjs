@@ -9,7 +9,10 @@ const curso = JSON.parse(fs.readFileSync(path.join(RAIZ, 'data', 'curso.json'), 
 const AES = Object.fromEntries(curso.modulos.flatMap(m => m.aes.map(a => [a.id, a])));
 
 const PALABRAS_MIN = 120, PALABRAS_MAX = 420;
-const SECCIONES = ['Ideas clave', 'Glosario', 'Conexión con el proyecto', 'Fuentes'];
+// Criterios 29-10: sin «Glosario» (va en glosario/M<n>.md) ni «Conexión con el proyecto»; las fuentes se citan con marcas APA
+const SECCIONES = ['Ideas clave', 'Referencias bibliográficas'];
+const APA = JSON.parse(fs.readFileSync(path.join(RAIZ, 'investigacion', 'referencias-apa.json'), 'utf8'));
+const marcas = t => [...t.matchAll(/\[n?@([^\]]+)\]/g)].flatMap(m => m[1].split(/;\s*@?/).map(x => x.replace(/^@/, '').trim()));
 // Palabras que no van en un texto para el estudiante
 const PROHIBIDAS = [/\b(texto|criterios?|lectura) oficial(es)?\b/i, /\btextual(es|mente)?\b/i, /\bliteral(mente)?\b/i, /\bplan formativo\b/i];
 
@@ -58,8 +61,13 @@ for (const archivo of archivos) {
     if (!fu) avisos.push(`${titulo}: sin «fuentes:»`);
     else for (const f of fu[1].split(/,\s*/)) {
       if (!FUENTES.has(f)) errores.push(`${titulo}: la fuente ${f} no está en investigacion/`);
+      if (!APA[f]) errores.push(`${titulo}: la fuente ${f} no tiene referencia APA (node scripts/referencias-apa.mjs --borrador)`);
       citadas.add(f);
     }
+    // Toda fuente de «fuentes:» se cita en el texto con su marca, y toda marca está en «fuentes:»
+    const enTexto = new Set(marcas(p)), enLinea = new Set(fu ? fu[1].split(/,\s*/) : []);
+    for (const f of enLinea) if (!enTexto.has(f)) errores.push(`${titulo}: ${f} está en «fuentes:» pero no tiene marca [@${f}] en el texto`);
+    for (const f of enTexto) if (!enLinea.has(f)) errores.push(`${titulo}: la marca [@${f}] no está en «fuentes:»`);
     const cuerpo = p.replace(/^.*\n/, '').replace(/^(cubre|bloque|fuentes):.*$/gm, '');
     const palabras = cuerpo.split(/\s+/).filter(w => /\p{L}/u.test(w)).length;
     if (palabras < PALABRAS_MIN || palabras > PALABRAS_MAX) avisos.push(`${titulo}: ${palabras} palabras (rango ${PALABRAS_MIN}-${PALABRAS_MAX})`);
@@ -67,14 +75,16 @@ for (const archivo of archivos) {
 
   for (const [c, t] of codigos) if (!cubiertos.has(c)) errores.push(`sin cubrir ${c}: «${t}»`);
   for (const s of SECCIONES) if (!otras.includes(s)) errores.push(`falta la sección «${s}»`);
-  const seccionFuentes = bloques.find(b => b.startsWith('Fuentes')) || '';
-  for (const f of citadas) if (!seccionFuentes.includes(f)) errores.push(`la fuente ${f} se cita pero no está en la sección «Fuentes»`);
+  const seccionRefs = bloques.find(b => b.startsWith('Referencias bibliográficas')) || '';
+  for (const f of citadas) if (APA[f] && !seccionRefs.includes(APA[f].url)) errores.push(`${f} se cita pero no está en «Referencias bibliográficas» (node scripts/referencias-apa.mjs --escribir)`);
   for (const re of PROHIBIDAS) {
     const m = md.split('## Fuentes')[0].match(re);
     if (m) errores.push(`palabra que no va para el estudiante: «${m[0]}»`);
   }
-  const glosario = (bloques.find(b => b.startsWith('Glosario')) || '').match(/^- \*\*/gm) || [];
-  if (glosario.length < 5) avisos.push(`glosario con ${glosario.length} términos`);
+  // El glosario del AE vive en glosario/M<n>.md
+  const gl = fs.existsSync(path.join(RAIZ, 'glosario', `${id.split('-')[0]}.md`)) ? fs.readFileSync(path.join(RAIZ, 'glosario', `${id.split('-')[0]}.md`), 'utf8') : '';
+  const glosario = ((gl.split(/^## /m).find(b => b.startsWith(id + ' ')) || '').match(/^- \*\*/gm) || []);
+  if (glosario.length < 5) avisos.push(`glosario/${id.split('-')[0]}.md: ${glosario.length} términos para ${id}`);
 
   const total = pantallas.join(' ').split(/\s+/).filter(w => /\p{L}/u.test(w)).length;
   const marca = errores.length ? '✗' : '✓';

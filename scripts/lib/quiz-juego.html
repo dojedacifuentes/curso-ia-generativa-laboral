@@ -626,6 +626,7 @@ const DATOS = /*DATA*/;
   function portada() {
     app.innerHTML = `<section class="panel portada">
       <div>
+        ${D.logo ? `<img class="logo-marca" src="${D.logo}" alt="e-tech">` : ''}
         <p class="kicker">Misión · Módulo ${D.modulo} · ${esc(D.curso)}</p>
         <h1 class="titulo" id="foco" tabindex="-1">${esc(D.tema)}</h1>
         <p class="mision">Tu misión: <b>${esc(D.mision)}</b>.</p>
@@ -993,7 +994,7 @@ const DATOS = /*DATA*/;
   });
   window.addEventListener('pagehide', () => scorm.cerrar());
   window.addEventListener('beforeunload', () => scorm.cerrar());
-  document.getElementById('pie').textContent = `${D.cursoNombre} · Módulo ${D.modulo} · ${D.curso} · Quiz formativo, sin nota`;
+  document.getElementById('pie').textContent = `${D.firma ? D.firma + ' · ' : ''}${D.cursoNombre} · Módulo ${D.modulo} · ${D.curso} · Quiz formativo, sin nota`;
   reiniciar();
   scorm.iniciar();
   fondo();

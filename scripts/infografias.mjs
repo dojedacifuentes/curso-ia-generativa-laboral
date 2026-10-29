@@ -12,6 +12,7 @@ import { execFileSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { htmlInteractivo } from './lib/infografia-interactiva.mjs';
 import { crearZip } from './lib/zip.mjs';
+import { C, FUENTES_CSS, FIRMA, logoDataURI, arcos } from './lib/marca.mjs';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const curso = JSON.parse(fs.readFileSync(path.join(RAIZ, 'data', 'curso.json'), 'utf8'));
@@ -19,7 +20,8 @@ const DIR_ICO = path.join(RAIZ, 'scripts', 'lib', 'iconos-lucide');
 const SALIDA = path.join(RAIZ, 'entregables', 'infografias');
 const TIPOS = ['anatomia', 'pasos', 'matriz', 'mapa', 'ciclo'];
 // Un acento por módulo (contraste AA sobre blanco y con texto blanco encima)
-const ACENTO = { 1: '#0E7490', 2: '#4F46E5', 3: '#B45309', 4: '#BE185D', 5: '#047857', 6: '#6D28D9' };
+// Marca Empoderatech: frambuesa como color principal en todos los módulos (antes había un acento por módulo)
+const ACENTO = { 1: C.frambuesa, 2: C.frambuesa, 3: C.frambuesa, 4: C.frambuesa, 5: C.frambuesa, 6: C.frambuesa };
 const SEMAFORO = { verde: '#15803D', amarillo: '#B45309', rojo: '#B91C1C' };
 // Paquete SCORM 1.2 de la interactiva (mismo manifiesto que el quiz juego); fecha fija para que el zip no cambie si no cambia nada
 const FECHA_ZIP = new Date(2026, 9, 28, 12, 0, 0);
@@ -53,8 +55,8 @@ function icono(nombre, tam = 34, color = 'currentColor') {
   return fs.readFileSync(f, 'utf8').replace(/<!--.*?-->/s, '').replace(/class="[^"]*"/, '')
     .replace(/width="24"/, `width="${tam}"`).replace(/height="24"/, `height="${tam}"`).replace(/stroke="currentColor"/, `stroke="${color}"`).trim();
 }
-const fuente = (peso, f) => `@font-face{font-family:"Plex";font-weight:${peso};src:url(data:font/woff2;base64,${fs.readFileSync(path.join(RAIZ, 'scripts', 'fuentes', f)).toString('base64')}) format("woff2")}`;
-const FUENTES = [fuente(400, 'ibm-plex-sans-latin-400-normal.woff2'), fuente(600, 'ibm-plex-sans-latin-600-normal.woff2'), fuente(700, 'ibm-plex-sans-latin-700-normal.woff2')].join('');
+const FUENTES = FUENTES_CSS;
+const LOGO_OSCURO = logoDataURI('logo-sobre-oscuro');
 
 function validar(j, archivo) {
   const err = m => { throw new Error(`${archivo}: ${m}`); };
@@ -79,7 +81,7 @@ function validar(j, archivo) {
   return m;
 }
 
-const bloque = (x, n, ac) => `<div class="blq">${x.icono ? `<div class="ico" style="color:${ac}">${icono(x.icono)}</div>` : ''}
+const bloque = (x, n, ac) => `<div class="blq">${x.icono ? `<div class="ico" style="color:#fff">${icono(x.icono, 30, '#fff')}</div>` : ''}
   <div><h3>${n ? `<span class="num" style="background:${ac}">${n}</span>` : ''}${esc(x.titulo)}</h3><p>${negrita(x.texto)}</p>
   ${x.ejemplo ? `<p class="ej"><b>Ejemplo:</b> ${negrita(x.ejemplo)}</p>` : ''}</div></div>`;
 
@@ -100,37 +102,38 @@ function html(j, m) {
   const ac = ACENTO[m.n];
   return `<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=1080">
 <title>Infografía M${m.n} · ${esc(j.titulo)}</title><style>${FUENTES}
-*{box-sizing:border-box}html,body{margin:0;background:#F8FAFC}body{width:1080px;font:400 25px/1.4 "Plex",Arial,sans-serif;color:#0F172A}
-header{background:${ac};color:#fff;padding:56px 64px 48px;position:relative;overflow:hidden}
-header:after{content:"";position:absolute;right:-120px;top:-120px;width:380px;height:380px;border-radius:50%;background:rgba(255,255,255,.08)}
-.mod{font:600 22px/1 "Plex";letter-spacing:.12em;text-transform:uppercase;opacity:.9}
-h1{font:700 60px/1.08 "Plex";margin:18px 0 16px;max-width:900px}.bajada{font-size:27px;margin:0;max-width:900px;opacity:.95}
-main{padding:44px 56px 20px}h3{font:700 27px/1.2 "Plex";margin:0 0 6px;display:flex;align-items:center;gap:12px}p{margin:0}
+*{box-sizing:border-box}html,body{margin:0;background:#F8FAFC}body{width:1080px;font:400 24px/1.45 Montserrat,Arial,sans-serif;color:${C.noche}}
+header{background:${C.noche};color:#fff;padding:52px 64px 50px;position:relative;overflow:hidden}
+header .logo{height:54px;display:block;margin-bottom:34px}header .arcos{position:absolute;right:-90px;bottom:-30px;width:460px;height:230px}
+header>*{position:relative}header>.arcos{position:absolute}
+.mod{font:400 22px/1.2 "Varela Round";color:${C.celeste}}.mod:before{content:"";display:inline-block;width:12px;height:12px;border-radius:50%;background:${C.frambuesa};margin-right:12px;vertical-align:middle}
+h1{font:400 60px/1.08 "Varela Round";margin:18px 0 16px;max-width:900px}.bajada{font-size:27px;margin:0;max-width:900px;opacity:.95}
+main{padding:44px 56px 20px}h3{font:400 27px/1.2 "Varela Round";margin:0 0 6px;display:flex;align-items:center;gap:12px}p{margin:0}
 .blq{display:flex;gap:18px;background:#fff;border:2px solid #E2E8F0;border-radius:22px;padding:24px 26px}
-.ico{flex:none;width:58px;height:58px;border-radius:16px;background:#F1F5F9;display:grid;place-items:center}
-.num{flex:none;width:40px;height:40px;border-radius:50%;color:#fff;display:inline-grid;place-items:center;font:700 22px/1 "Plex"}
+.ico{flex:none;width:62px;height:62px;border-radius:50%;background:${C.grafito};display:grid;place-items:center}
+.num{flex:none;width:40px;height:40px;border-radius:50%;color:#fff;display:inline-grid;place-items:center;font:400 22px/1 "Varela Round"}
 .ej{margin-top:8px;font-size:22px;color:#334155;background:#F8FAFC;border-left:4px solid ${ac};padding:6px 12px;border-radius:6px}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}.grid2>.blq:last-child:nth-child(odd),.ciclo>.blq:last-child:nth-child(even){grid-column:1/-1}
 .prompt{display:flex;flex-wrap:wrap;align-items:center;gap:10px;justify-content:center;border:3px dashed;border-radius:24px;padding:26px;margin-bottom:28px;background:#fff}
-.pieza{font:700 28px/1 "Plex";color:#fff;background:var(--c);padding:14px 20px;border-radius:14px}.mas{font:700 34px/1 "Plex";color:#94A3B8}
-.pasos{display:flex;flex-direction:column;gap:0}.flecha{text-align:center;font:700 40px/1.1 "Plex"}
+.pieza{font:400 28px/1 "Varela Round";color:#fff;background:var(--c);padding:14px 20px;border-radius:14px}.mas{font:400 34px/1 "Varela Round";color:#94A3B8}
+.pasos{display:flex;flex-direction:column;gap:0}.flecha{text-align:center;font:400 40px/1.1 "Varela Round"}
 .matriz{display:grid;grid-template-columns:50px 1fr;grid-template-rows:1fr auto;gap:10px}
-.ejey{writing-mode:vertical-rl;transform:rotate(180deg);text-align:center;font:700 24px/1 "Plex";color:#475569}
-.ejex{grid-column:2;text-align:center;font:700 24px/1 "Plex";color:#475569}
+.ejey{writing-mode:vertical-rl;transform:rotate(180deg);text-align:center;font:400 24px/1 "Varela Round";color:#475569}
+.ejex{grid-column:2;text-align:center;font:400 24px/1 "Varela Round";color:#475569}
 .cuad{display:grid;grid-template-columns:1fr 1fr;gap:16px}.q .blq{height:100%;border-color:color-mix(in srgb,var(--c) 35%,#E2E8F0)}
 .q3 .blq{background:color-mix(in srgb,var(--c) 10%,#fff)}
-.sub{font:700 32px/1.2 "Plex";margin:34px 0 16px}
+.sub{font:400 32px/1.2 "Varela Round";margin:34px 0 16px}
 .semaforo{display:flex;flex-direction:column;gap:14px}.luz{display:flex;gap:18px;align-items:flex-start;background:#fff;border:2px solid #E2E8F0;border-radius:18px;padding:18px 22px}
 .foco{flex:none;width:34px;height:34px;border-radius:50%;margin-top:2px;box-shadow:0 0 0 6px #F1F5F9}
 .ciclo{display:grid;grid-template-columns:1fr 1fr;gap:20px;position:relative}
-.centro{grid-column:1/-1;justify-self:center;font:700 30px/1.2 "Plex";border:4px solid;border-radius:999px;padding:16px 34px;background:#fff;text-align:center}
-.vuelta{text-align:center;font:700 26px/1.3 "Plex";margin-top:18px}
-.clave{margin:30px 56px 0;background:#0F172A;color:#fff;border-radius:22px;padding:28px 32px;font:600 28px/1.35 "Plex"}
-.clave b{color:color-mix(in srgb,${ac} 40%,#fff)}
-footer{padding:22px 56px 40px;font-size:18px;color:#64748B}
-</style></head><body><header><div class="mod">Módulo ${m.n} · ${esc(m.nombre)}</div><h1>${esc(j.titulo)}</h1><p class="bajada">${negrita(j.bajada)}</p></header>
+.centro{grid-column:1/-1;justify-self:center;font:400 30px/1.2 "Varela Round";border:4px solid;border-radius:999px;padding:16px 34px;background:#fff;text-align:center}
+.vuelta{text-align:center;font:400 26px/1.3 "Varela Round";margin-top:18px}
+.clave{margin:30px 56px 0;background:${C.noche};border-left:10px solid ${C.fucsia};color:#fff;border-radius:22px;padding:28px 32px;font:400 28px/1.35 "Varela Round"}
+.clave b{color:${C.celeste}}
+footer{padding:22px 56px 40px;font-size:18px;color:${C.grisMedio}}
+</style></head><body><header><img class="logo" src="${LOGO_OSCURO}" alt="e-tech">${arcos(460, 230)}<div class="mod">Módulo ${m.n} · ${esc(m.nombre)}</div><h1>${esc(j.titulo)}</h1><p class="bajada">${negrita(j.bajada)}</p></header>
 <main>${cuerpo(j, ac)}</main><div class="clave">${negrita(j.clave)}</div>
-<footer>${esc(curso.titulo)} · Infografía del módulo ${m.n}${j.pie ? ` · ${esc(j.pie)}` : ''}</footer>
+<footer>${FIRMA} · ${esc(curso.titulo)} · Infografía del módulo ${m.n}${j.pie ? ` · ${esc(j.pie)}` : ''}</footer>
 <script>document.fonts.ready.then(() => { document.body.dataset.alto = Math.ceil(document.body.getBoundingClientRect().height) })</script></body></html>`;
 }
 
@@ -147,7 +150,7 @@ for (const id of ids) {
     const m = validar(j, archivo);
     const salida = path.join(SALIDA, `${id}-Infografia.html`);
     fs.writeFileSync(salida, html(j, m));
-    const interactiva = htmlInteractivo(j, m, { curso, ac: ACENTO[m.n], semaforo: SEMAFORO, icono, esc, negrita, fuentes: FUENTES });
+    const interactiva = htmlInteractivo(j, m, { curso, ac: ACENTO[m.n], semaforo: SEMAFORO, icono, esc, negrita, fuentes: FUENTES, logo: LOGO_OSCURO, arcos, C, firma: FIRMA });
     fs.writeFileSync(path.join(SALIDA, `${id}-Infografia-interactiva.html`), interactiva);
     const titulo = `Infografía M${m.n} · ${j.titulo}`;
     fs.writeFileSync(path.join(SALIDA, `${id}-Infografia-SCORM.zip`), crearZip([

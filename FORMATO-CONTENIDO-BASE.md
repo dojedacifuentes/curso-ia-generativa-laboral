@@ -60,9 +60,10 @@ Retroalimentación: …
 ## P02 · …
 …
 ## Ideas clave            → video de resumen del módulo e infografía
-## Glosario               → glosario del módulo («- **Término**: definición»)
-## Conexión con el proyecto → hito del módulo
-## Fuentes                → lista de los ids citados: «- F-M1-01 · Organismo (año). Título. URL»
+## Referencias bibliográficas → lista APA 7 con enlaces; la escribe `node scripts/referencias-apa.mjs --escribir`
+
+(29-10: sin «Glosario», que va en `glosario/M<n>.md`, ni «Conexión con el proyecto». En el texto, cada afirmación lleva su marca
+`[@F-M1-02]` y el compilador la convierte en la cita APA: ver `docs/CRITERIOS-29-10.md` §1.)
 ```
 
 Toda pantalla con afirmaciones de hecho lleva `fuentes:`. Solo se citan ids que existen en `investigacion/`, y ahí cada fuente
@@ -75,9 +76,10 @@ ya se abrió y se leyó (ver `WORKFLOW.md`).
 | Rise (Natalia) | Las pantallas P01…Pnn | Una pantalla = una sección o lección del Rise; `bloque:` sugiere el tipo de bloque |
 | Quiz juego SCORM (8 ítems) | Pantallas + recuadros `:::error` | Cada ítem lleva `remite: Pxx`: la pantalla a la que vuelve quien falla (acción remedial). Se genera con `quiz-juego` |
 | Infografía del módulo (HTML) | `Ideas clave` de los AE del módulo | Generador HTML → PNG con paleta neutra |
-| Video de bienvenida | Texto de los AE + `Conexión con el proyecto` | Guion de 3 minutos (unas 400 palabras) |
+| Video de bienvenida | Texto de los AE + actividades de aplicación práctica | Guion de 3 minutos (unas 400 palabras) |
 | Video de resumen | `Ideas clave` de los AE del módulo | Guion de 3 minutos |
-| Resumen y glosario | `Ideas clave` + `Glosario` | Página de Moodle + XML de glosario |
+| Resumen y glosario | `Ideas clave` + `glosario/M<n>.md` | Documento «Glosario» (Doc, PDF) + XML de glosario de Moodle |
+| Actividades de aplicación práctica | `actividades/M<n>-AE<k>.md` (2 por AE) | Doc y PDF por AE con la marca |
 | Evaluación sumativa | Criterios C1…Cn + pantallas | Banco GIFT con categoría por AE |
 
 ## Control

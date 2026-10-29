@@ -9,7 +9,7 @@ En el tema anterior aprendiste a elegir herramientas según su licencia y sus ri
 
 El aprendizaje esperado es este: Producir imágenes y gráficos con IA para una campaña interna, aplicando criterios de diseño y uso ético. Al final deberías poder producir piezas coherentes con el mensaje de la campaña e identificar y corregir sesgos o defectos visuales antes de publicarlas.
 
-Este tema es un laboratorio creativo y termina con un producto. Generarás la imagen con Gemini, que te pide iniciar sesión con tu cuenta de Google, y compondrás la pieza en Canva, que tiene app para Android y para iOS. Te acompaña Andrés, el encargado de bodega: su jefatura le pidió una campaña para que los pasillos estén siempre despejados, porque cajas y pallets mal ubicados han provocado tropiezos. Hará un afiche para el diario mural y una versión para el teléfono. Camila, la asistente administrativa de la constructora, también tiene un encargo: la gerenta de administración le pidió una campaña para que en la oficina se recicle el papel, y algunos ejemplos serán suyos.
+Este tema es un laboratorio creativo y termina con un producto. Generarás la imagen con Gemini, que te pide iniciar sesión con tu cuenta de Google [@F-H-56], y compondrás la pieza en Canva, que tiene app para Android y para iOS [@F-H-69]. Te acompaña Andrés, el encargado de bodega: su jefatura le pidió una campaña para que los pasillos estén siempre despejados, porque cajas y pallets mal ubicados han provocado tropiezos. Hará un afiche para el diario mural y una versión para el teléfono. Camila, la asistente administrativa de la constructora, también tiene un encargo: la gerenta de administración le pidió una campaña para que en la oficina se recicle el papel, y algunos ejemplos serán suyos.
 
 Tú harás la tuya con una campaña interna real de tu lugar de trabajo, sobre algo que tu equipo necesite recordar o cambiar. Si no se te ocurre cuál, pregúntale a tu jefatura qué le serviría. Ten presente desde el comienzo que la IA genera la imagen, pero la pieza la diseñas tú: el mensaje, el texto, el orden y la revisión final son tu trabajo.
 
@@ -27,9 +27,9 @@ Una imagen bonita no basta: tiene que decir algo. Antes de abrir una herramienta
 | Canal y formato: ¿dónde se verá? | Diario mural (vertical, 3:4) y teléfono (vertical, 9:16) |
 | Tono: ¿cómo tiene que sentirse? | Claro y positivo, sin dramatismo |
 
-El formato se define con la **relación de aspecto**, que es la proporción entre el ancho y el alto. Las guías de generación de imágenes trabajan con algunas comunes: 1:1 (cuadrada), 4:3 y 3:4, 16:9 (horizontal, como una pantalla) y 9:16 (vertical, como un teléfono).
+El formato se define con la **relación de aspecto**, que es la proporción entre el ancho y el alto. Las guías de generación de imágenes trabajan con algunas comunes: 1:1 (cuadrada), 4:3 y 3:4, 16:9 (horizontal, como una pantalla) y 9:16 (vertical, como un teléfono) [@F-M4-12].
 
-Con el mensaje claro sabrás qué tiene que mostrar la imagen y qué no, y podrás ordenar la pieza para que el mensaje sea lo primero que se vea, como verás en P08. Un error común es generar imágenes primero y ver después qué decir: sin mensaje, las imágenes salen al azar y se gastan los usos del día.
+Con el mensaje claro sabrás qué tiene que mostrar la imagen y qué no, y podrás ordenar la pieza para que el mensaje sea lo primero que se vea [@F-M4-09], como verás en P08. Un error común es generar imágenes primero y ver después qué decir: sin mensaje, las imágenes salen al azar y se gastan los usos del día.
 
 :::actividad Tu brief visual
 Escribe el mensaje, el público, el canal con su formato y el tono de tu campaña interna. El mensaje debe caber en una frase de no más de seis palabras: la usarás como título de la pieza.
@@ -40,9 +40,9 @@ cubre: S1
 fuentes: F-M4-12
 bloque: Texto + imagen con las partes señaladas
 
-Un **prompt visual** describe la imagen que quieres. Las guías de Google proponen armarlo con tres partes. La primera es el sujeto: qué o quién aparece, por ejemplo «una trabajadora de bodega empujando un carro». La segunda es el contexto y fondo: dónde está y qué la rodea, como «en un pasillo amplio y despejado, con estantes ordenados a los lados». La tercera es el estilo, que dice cómo se ve; puede ser general, como «ilustración» o «fotografía», o más específico, como «ilustración plana con colores sólidos».
+Un **prompt visual** describe la imagen que quieres. Las guías de Google proponen armarlo con tres partes [@F-M4-12]. La primera es el sujeto: qué o quién aparece, por ejemplo «una trabajadora de bodega empujando un carro». La segunda es el contexto y fondo: dónde está y qué la rodea, como «en un pasillo amplio y despejado, con estantes ordenados a los lados». La tercera es el estilo, que dice cómo se ve; puede ser general, como «ilustración» o «fotografía», o más específico, como «ilustración plana con colores sólidos».
 
-La misma guía recomienda partir de una idea central y agregar detalles en cada intento, en vez de escribir todo de una vez. Compara estos dos pedidos:
+La misma guía recomienda partir de una idea central y agregar detalles en cada intento, en vez de escribir todo de una vez [@F-M4-12]. Compara estos dos pedidos:
 
 | Antes | Después |
 |---|---|
@@ -63,7 +63,7 @@ cubre: S1, A1
 fuentes: F-M4-12
 bloque: Tabla + galería de variantes
 
-Con sujeto, contexto y estilo ya tienes una imagen. Para acercarla a lo que buscas, agrega **modificadores**: palabras que controlan la composición, la luz y el formato.
+Con sujeto, contexto y estilo ya tienes una imagen. Para acercarla a lo que buscas, agrega **modificadores**: palabras que controlan la composición, la luz y el formato [@F-M4-12].
 
 | Modificador | Qué controla | Ejemplos para tu prompt |
 |---|---|---|
@@ -93,9 +93,9 @@ Ahora te toca generar. Usa Gemini, el asistente del curso, en la app o en la web
 3. Mira el resultado y descárgalo. Sin un plan pagado, Gemini descarga en resolución 1K.
 4. Anota en tu bitácora el prompt tal como lo escribiste.
 
-Gemini genera con un modelo llamado Nano Banana 2 y tiene un límite diario de imágenes que Google no publica en cifras. Por eso conviene pensar el prompt antes de escribirlo, en vez de probar al azar hasta que se acabe el día.
+Gemini genera con un modelo llamado Nano Banana 2 y tiene un límite diario de imágenes que Google no publica en cifras [@F-H-56]. Por eso conviene pensar el prompt antes de escribirlo, en vez de probar al azar hasta que se acabe el día.
 
-Si prefieres otra herramienta, ChatGPT también crea y edita imágenes en su plan gratuito, en la web y en la app. Desde el celular deja seleccionar una zona de la imagen para editarla y cambiar la proporción, algo que te servirá cuando tengas que corregir defectos. Como en Gemini, su página de ayuda no dice cuántas imágenes puedes crear.
+Si prefieres otra herramienta, ChatGPT también crea y edita imágenes en su plan gratuito, en la web y en la app. Desde el celular deja seleccionar una zona de la imagen para editarla y cambiar la proporción, algo que te servirá cuando tengas que corregir defectos. Como en Gemini, su página de ayuda no dice cuántas imágenes puedes crear [@F-H-50].
 
 :::error «Pido el afiche completo, con título y todo, en un solo prompt»
 Los generadores todavía fallan con el texto dentro de la imagen. Pide la imagen sin texto y agrega el título en Canva. Lo verás en P07 y P10.
@@ -106,7 +106,7 @@ cubre: H1, A1, C1
 fuentes: F-M4-12, F-M4-06
 bloque: Galería con tres versiones + texto
 
-Rara vez la primera imagen es la final. **Iterar** es partir de una idea central y agregar o cambiar un detalle en cada versión, hasta acercarte a lo que buscas. Así lo hizo Andrés:
+Rara vez la primera imagen es la final. **Iterar** es partir de una idea central y agregar o cambiar un detalle en cada versión, hasta acercarte a lo que buscas [@F-M4-12]. Así lo hizo Andrés:
 
 | Versión | Cambio en el prompt | Resultado |
 |---|---|---|
@@ -116,7 +116,7 @@ Rara vez la primera imagen es la final. **Iterar** es partir de una idea central
 
 La recomendación del curso es cambiar una cosa a la vez, porque así sabes qué produjo la mejora. Si cambias el estilo, la luz y los personajes al mismo tiempo, pierdes lo que ya funcionaba y no sabes qué causó el cambio. Repetir el mismo prompt esperando que el azar lo arregle tampoco sirve: no aprendes nada y gastas tus usos.
 
-Cuando tengas dos o tres buenas opciones, elige con criterios y no solo por gusto. Pregúntate si se entiende el mensaje sin leer el título, si queda espacio libre para el título y el texto, si sirve en el formato de tu canal y si tiene algún defecto o sesgo, que verás en P07 y P11. La OMPI recomienda llevar registro de las instrucciones y documentar el aporte humano, y elegir entre versiones y decidir qué cambiar es parte de ese aporte.
+Cuando tengas dos o tres buenas opciones, elige con criterios y no solo por gusto. Pregúntate si se entiende el mensaje sin leer el título, si queda espacio libre para el título y el texto, si sirve en el formato de tu canal y si tiene algún defecto o sesgo, que verás en P07 y P11. La OMPI recomienda llevar registro de las instrucciones y documentar el aporte humano [@F-M4-06], y elegir entre versiones y decidir qué cambiar es parte de ese aporte.
 
 :::actividad Tres versiones
 Genera tres versiones de tu imagen cambiando un solo detalle en cada una. Anota en tu bitácora cada prompt, qué cambiaste y cuál elegiste, con una razón basada en los criterios de esta pantalla.
@@ -127,7 +127,7 @@ cubre: C2, S2
 fuentes: F-M4-12, F-M1-05
 bloque: Texto + imagen con defectos señalados
 
-Antes de usar una imagen, búscale los defectos. El más frecuente es el texto: dentro de una imagen generada suele salir mal escrito o mal ubicado. La guía de Google aconseja que sea breve, de 25 caracteres o menos, y advierte que su ubicación y su tipografía solo se controlan de forma aproximada. OpenAI reconoce límites parecidos en sus modelos de imagen: les cuesta ubicar el texto con precisión, controlar la composición en diseños estructurados y mantener igual a un personaje o una marca de una imagen a otra. Si haces dos versiones de tu pieza, el personaje puede cambiar.
+Antes de usar una imagen, búscale los defectos. El más frecuente es el texto: dentro de una imagen generada suele salir mal escrito o mal ubicado. La guía de Google aconseja que sea breve, de 25 caracteres o menos, y advierte que su ubicación y su tipografía solo se controlan de forma aproximada [@F-M4-12]. OpenAI reconoce límites parecidos en sus modelos de imagen: les cuesta ubicar el texto con precisión, controlar la composición en diseños estructurados y mantener igual a un personaje o una marca de una imagen a otra [@F-M1-05]. Si haces dos versiones de tu pieza, el personaje puede cambiar.
 
 Hay otros defectos que solo detectas mirando con calma y con zoom, como una etiqueta de seguridad con letras inventadas o una caja flotando sobre un estante. Parecen detalles, pero restan seriedad a una campaña. Cuando encuentres uno, corrige en este orden:
 
@@ -149,9 +149,9 @@ cubre: S2, A1, C1
 fuentes: F-M4-09
 bloque: Texto + imagen antes/después
 
-La **jerarquía visual** es el orden en que la vista recorre los elementos de una pieza, según la importancia que les quieres dar. En un afiche de campaña, lo primero que se ve tiene que ser el mensaje principal. Se construye con tres recursos que puedes aplicar sin haber estudiado diseño.
+La **jerarquía visual** es el orden en que la vista recorre los elementos de una pieza, según la importancia que les quieres dar [@F-M4-09]. En un afiche de campaña, lo primero que se ve tiene que ser el mensaje principal. Se construye con tres recursos que puedes aplicar sin haber estudiado diseño.
 
-El primero es el contraste: lo que se diferencia de su entorno llama la atención. Funciona mejor la diferencia de valor, entre claro y oscuro, y la de saturación, entre intenso y apagado, que la diferencia de tono, y no conviene depender solo del color. El segundo es la escala: lo más grande se ve primero. Usa pocos tamaños distintos, un título grande, un texto mediano y, si hace falta, un dato pequeño, porque si todo es grande, nada destaca. El tercero es la agrupación: lo que va junto se entiende como una unidad. Se agrupa por cercanía, con bordes o con un fondo común, y se separa con espacio entre grupos.
+El primero es el contraste: lo que se diferencia de su entorno llama la atención. Funciona mejor la diferencia de valor, entre claro y oscuro, y la de saturación, entre intenso y apagado, que la diferencia de tono, y no conviene depender solo del color. El segundo es la escala: lo más grande se ve primero. Usa pocos tamaños distintos, un título grande, un texto mediano y, si hace falta, un dato pequeño, porque si todo es grande, nada destaca. El tercero es la agrupación: lo que va junto se entiende como una unidad. Se agrupa por cercanía, con bordes o con un fondo común, y se separa con espacio entre grupos [@F-M4-09].
 
 Antes de pasar a Canva, mira tu imagen elegida y decide dónde irá el título, qué irá en segundo lugar y qué espacio quedará libre. Basta un boceto rápido en papel o en una nota del celular.
 
@@ -164,9 +164,9 @@ cubre: S2, C1
 fuentes: F-M4-08
 bloque: Texto + ejemplos de contraste (bueno y malo)
 
-Una pieza que no se lee no comunica. Las Pautas de Accesibilidad para el Contenido Web (WCAG) del W3C son un estándar internacional que da criterios concretos para evitarlo. Piden que el texto tenga un **contraste mínimo** de 4,5:1 con su fondo, y de 3:1 si es texto grande, que es el de 18 puntos o más, o de 14 puntos o más en negrita. Los íconos o flechas necesarios para entender la pieza también requieren 3:1.
+Una pieza que no se lee no comunica. Las Pautas de Accesibilidad para el Contenido Web (WCAG) del W3C son un estándar internacional que da criterios concretos para evitarlo. Piden que el texto tenga un **contraste mínimo** de 4,5:1 con su fondo, y de 3:1 si es texto grande, que es el de 18 puntos o más, o de 14 puntos o más en negrita [@F-M4-08]. Los íconos o flechas necesarios para entender la pieza también requieren 3:1.
 
-Las mismas pautas dicen que el color no puede ser el único medio para transmitir información: si marcas en rojo una zona prohibida, agrega un ícono o una palabra. Y si la pieza se publica en digital, la imagen necesita un texto alternativo, una descripción en texto que cumpla la misma función para quien no puede verla.
+Las mismas pautas dicen que el color no puede ser el único medio para transmitir información: si marcas en rojo una zona prohibida, agrega un ícono o una palabra. Y si la pieza se publica en digital, la imagen necesita un texto alternativo, una descripción en texto que cumpla la misma función para quien no puede verla [@F-M4-08].
 
 Un error común es pensar que, si se ve bien en tu pantalla, se lee bien en todas. Tu pantalla puede tener más brillo o tamaño que la de tus colegas, y el contraste mínimo asegura que se lea en distintas condiciones. Como recomendación del curso, usa letra oscura sobre fondo claro, o clara sobre fondo oscuro, evita poner texto sobre zonas de la imagen con muchos detalles y haz una prueba: mira la pieza en el celular con el brillo bajo y a un brazo de distancia. Si te cuesta leer el título, sube el contraste o el tamaño.
 
@@ -188,9 +188,9 @@ Con tu imagen elegida, arma la pieza en Canva, en la app o en la web:
 5. Revisa la jerarquía: pocos tamaños, espacio entre grupos, nada amontonado.
 6. Descarga la pieza y, si tu campaña lo necesita, haz una segunda versión en el otro formato.
 
-Canva también genera imágenes con IA. En el plan gratuito tienes hasta 20 usos de IA al mes, compartidos entre todas sus herramientas de IA, y la cuota se renueva el día 1 de cada mes. Si ya generaste tu imagen en Gemini, guarda esos usos para la voz o la música del tema 3.
+Canva también genera imágenes con IA. En el plan gratuito tienes hasta 20 usos de IA al mes, compartidos entre todas sus herramientas de IA, y la cuota se renueva el día 1 de cada mes [@F-H-68]. Si ya generaste tu imagen en Gemini, guarda esos usos para la voz o la música del tema 3.
 
-Según los términos de Canva, eres dueña o dueño de lo que generas con su IA, salvo que incluyas contenido de su biblioteca: las fotos, íconos o ilustraciones de Canva solo se licencian. Canva también prohíbe quitar los metadatos de procedencia y hacer pasar por humano lo generado con IA.
+Según los términos de Canva, eres dueña o dueño de lo que generas con su IA, salvo que incluyas contenido de su biblioteca: las fotos, íconos o ilustraciones de Canva solo se licencian. Canva también prohíbe quitar los metadatos de procedencia y hacer pasar por humano lo generado con IA [@F-H-67].
 
 :::error «Todo lo que está en Canva es mío porque lo usé en mi diseño»
 Los elementos de la biblioteca de Canva solo se licencian: no pasan a ser tuyos. Anótalos en tu ficha de uso ético.
@@ -201,9 +201,9 @@ cubre: S3, A2
 fuentes: F-M4-11, F-M4-10
 bloque: Texto + imagen comparativa
 
-Los generadores de imágenes aprenden de imágenes que ya existen, y con ellas aprenden también sus estereotipos. A esto se le llama **sesgo visual**, y no es una sospecha. Un estudio de 2023 pidió a tres generadores de imágenes retratos de distintas profesiones: las imágenes reflejaban en parte la composición de cada oficio en Estados Unidos y, de forma sistemática, subrepresentaban a las identidades marginadas, en distinto grado según el sistema. Por eso el sesgo puede aparecer aunque tu prompt no diga nada sobre género ni edad.
+Los generadores de imágenes aprenden de imágenes que ya existen, y con ellas aprenden también sus estereotipos. A esto se le llama **sesgo visual**, y no es una sospecha. Un estudio de 2023 pidió a tres generadores de imágenes retratos de distintas profesiones: las imágenes reflejaban en parte la composición de cada oficio en Estados Unidos y, de forma sistemática, subrepresentaban a las identidades marginadas, en distinto grado según el sistema [@F-M4-11]. Por eso el sesgo puede aparecer aunque tu prompt no diga nada sobre género ni edad.
 
-El problema no es solo de la IA. La comunicación institucional también puede reforzar estereotipos sin proponérselo. La guía del Gobierno de Chile *Comunicación sin estereotipos de género* muestra campañas visuales en su versión «antes» y «después», por ejemplo cuando los roles de cuidado se asignan solo a mujeres. Si la herramienta te entrega un estereotipo y tú lo publicas, el mensaje pasa a ser de tu organización.
+El problema no es solo de la IA. La comunicación institucional también puede reforzar estereotipos sin proponérselo. La guía del Gobierno de Chile *Comunicación sin estereotipos de género* muestra campañas visuales en su versión «antes» y «después», por ejemplo cuando los roles de cuidado se asignan solo a mujeres [@F-M4-10]. Si la herramienta te entrega un estereotipo y tú lo publicas, el mensaje pasa a ser de tu organización.
 
 Cuidar cómo representas a las personas es parte de comunicar bien. Quien no se ve en la campaña siente que no le habla, y una campaña interna que deja fuera a parte del equipo pierde justo a quienes tenía que convencer.
 
@@ -216,9 +216,9 @@ cubre: C2, S3, A2
 fuentes: F-M4-10, F-M4-11
 bloque: Texto + actividad de clasificación
 
-Antes de publicar, revisa tus imágenes con preguntas. La guía de Gobierno sugiere, entre otras, preguntarte si hay diversidad étnica, de género y de roles, y si la imagen refleja equidad sin perpetuar estereotipos. El curso agrega dos más: si aparecen distintas edades y cuerpos, como en un equipo real, y quién hace la acción y quién mira, para notar si el rol importante lo tiene siempre el mismo perfil. Para los defectos, repasa lo de P07: si el texto está bien escrito o lo quitaste, y si hay elementos mal ubicados o sin sentido.
+Antes de publicar, revisa tus imágenes con preguntas. La guía de Gobierno sugiere, entre otras, preguntarte si hay diversidad étnica, de género y de roles, y si la imagen refleja equidad sin perpetuar estereotipos [@F-M4-10]. El curso agrega dos más: si aparecen distintas edades y cuerpos, como en un equipo real, y quién hace la acción y quién mira, para notar si el rol importante lo tiene siempre el mismo perfil. Para los defectos, repasa lo de P07: si el texto está bien escrito o lo quitaste, y si hay elementos mal ubicados o sin sentido.
 
-Si encuentras un sesgo, tienes dos caminos. Puedes cambiar el prompt y describir la diversidad que quieres, por ejemplo «un equipo de bodega con mujeres y hombres de distintas edades». O puedes cambiar la selección: si de cuatro variantes solo una muestra un equipo diverso, elige esa. En los dos casos vuelve a revisar, porque a veces corregir un sesgo trae otro, como dejar a todas las mujeres en segundo plano.
+Si encuentras un sesgo, que en estos generadores es sistemático [@F-M4-11], tienes dos caminos. Puedes cambiar el prompt y describir la diversidad que quieres, por ejemplo «un equipo de bodega con mujeres y hombres de distintas edades». O puedes cambiar la selección: si de cuatro variantes solo una muestra un equipo diverso, elige esa. En los dos casos vuelve a revisar, porque a veces corregir un sesgo trae otro, como dejar a todas las mujeres en segundo plano.
 
 :::actividad Revisa cuatro variantes
 Andrés generó cuatro versiones. Decide cuál usaría y qué corregiría en las otras, y después compara con estas respuestas:
@@ -233,11 +233,11 @@ cubre: A2, S3
 fuentes: F-M4-06, F-M4-16
 bloque: Escenarios con decisión (sí o no)
 
-Las imágenes generadas pueden parecerse a una persona real o usar una marca ajena, y en una campaña interna eso también importa. La OMPI recomienda no sintetizar la apariencia de una persona real sin su consentimiento y sin las licencias necesarias. Si quieres poner a alguien de tu equipo en la pieza, pídele permiso antes de usar su foto, y más aún si la vas a editar con IA. En el tema 3 verás además que la Ley 21.719 pone los rasgos faciales como ejemplo de datos biométricos, que pasan a ser datos personales sensibles.
+Las imágenes generadas pueden parecerse a una persona real o usar una marca ajena, y en una campaña interna eso también importa. La OMPI recomienda no sintetizar la apariencia de una persona real sin su consentimiento y sin las licencias necesarias [@F-M4-06]. Si quieres poner a alguien de tu equipo en la pieza, pídele permiso antes de usar su foto, y más aún si la vas a editar con IA. En el tema 3 verás además que la Ley 21.719 pone los rasgos faciales como ejemplo de datos biométricos, que pasan a ser datos personales sensibles [@F-M4-16].
 
 Un error común es pensar que, por ser una campaña interna, se puede usar la cara de un colega o de la gerencia sin preguntar. Que la pieza no salga de la empresa no elimina el derecho de cada persona sobre su imagen: sin consentimiento, no se usa su cara ni se genera una parecida, y nombrarla en los créditos no reemplaza su permiso.
 
-Con las marcas y las obras ajenas pasa algo parecido. La OMPI también recomienda no usar en las instrucciones nombres comerciales, marcas ni obras de terceros, así que no pidas una imagen «al estilo de» un personaje conocido ni con el logo de una marca. Si vas a usar el logo de tu propia organización, la recomendación del curso es hacerlo solo si te autorizaron. Y no inventes hechos: una imagen realista de un accidente que no ocurrió, presentada como real, es un ultrafalso aunque la intención sea buena, y la OMPI recomienda no usar herramientas para producirlos.
+Con las marcas y las obras ajenas pasa algo parecido. La OMPI también recomienda no usar en las instrucciones nombres comerciales, marcas ni obras de terceros [@F-M4-06], así que no pidas una imagen «al estilo de» un personaje conocido ni con el logo de una marca. Si vas a usar el logo de tu propia organización, la recomendación del curso es hacerlo solo si te autorizaron. Y no inventes hechos: una imagen realista de un accidente que no ocurrió, presentada como real, es un ultrafalso aunque la intención sea buena, y la OMPI recomienda no usar herramientas para producirlos.
 
 :::comprueba
 Andrés quiere una imagen «al estilo de una película animada famosa». ¿Qué le recomiendas?
@@ -252,9 +252,9 @@ cubre: H1, C1
 fuentes: F-H-57, F-H-52
 bloque: Texto + diagrama de cómo se pierden los metadatos
 
-Algunas herramientas marcan sus imágenes para que se sepa que se hicieron con IA. Google inserta **SynthID**, una marca de agua invisible, en el contenido que crean sus modelos, y en la app Gemini puedes subir un archivo para revisar si se hizo con IA de Google, aunque solo detecta herramientas de Google. OpenAI, por su parte, pone en las imágenes de ChatGPT una marca SynthID y además **credenciales de contenido** C2PA, un registro del origen y las ediciones del archivo que viaja en sus metadatos.
+Algunas herramientas marcan sus imágenes para que se sepa que se hicieron con IA. Google inserta **SynthID**, una marca de agua invisible, en el contenido que crean sus modelos, y en la app Gemini puedes subir un archivo para revisar si se hizo con IA de Google, aunque solo detecta herramientas de Google [@F-H-57]. OpenAI, por su parte, pone en las imágenes de ChatGPT una marca SynthID y además **credenciales de contenido** C2PA, un registro del origen y las ediciones del archivo que viaja en sus metadatos [@F-H-52].
 
-El problema es que los metadatos se pierden con facilidad. OpenAI indica que las credenciales C2PA se pierden con una captura de pantalla o al convertir el archivo, mientras que la marca de agua resiste cambios leves. Si compartes tu afiche con una captura, la constancia de que se hizo con IA puede desaparecer sin que lo notes.
+El problema es que los metadatos se pierden con facilidad. OpenAI indica que las credenciales C2PA se pierden con una captura de pantalla o al convertir el archivo, mientras que la marca de agua resiste cambios leves [@F-H-52]. Si compartes tu afiche con una captura, la constancia de que se hizo con IA puede desaparecer sin que lo notes.
 
 La conclusión práctica es no confiar en que el archivo lo dirá por ti. Si la imagen es realista, agrega una etiqueta visible, como «Imagen generada con IA», y regístralo en tu ficha de uso ético. Tampoco quites las marcas que trae: ya viste en P10 que Canva prohíbe quitar los metadatos de procedencia.
 
@@ -271,7 +271,7 @@ cubre: H1, C1, C2, A1, A2
 fuentes: F-M4-09, F-M4-08
 bloque: Lista de verificación (checklist) + actividad de cierre
 
-En este laboratorio pasaste del mensaje a la pieza. Escribiste un brief visual, armaste un prompt con sujeto, contexto, estilo y modificadores, iteraste y elegiste con criterios, corregiste defectos y sesgos, y compusiste la pieza con jerarquía y contraste. Antes de darla por terminada, revísala completa:
+En este laboratorio pasaste del mensaje a la pieza. Escribiste un brief visual, armaste un prompt con sujeto, contexto, estilo y modificadores, iteraste y elegiste con criterios, corregiste defectos y sesgos, y compusiste la pieza con jerarquía y contraste [@F-M4-09; @F-M4-08]. Antes de darla por terminada, revísala completa:
 
 - [ ] El mensaje principal es lo primero que se ve.
 - [ ] Hay pocos tamaños de letra y espacio entre los grupos.
@@ -296,43 +296,20 @@ Entrega tu pieza final de la campaña interna en el formato de tu canal. Luego c
 6. Los generadores reproducen sesgos: hay que revisar diversidad y roles, y corregir el prompt o la selección.
 7. Las marcas SynthID y C2PA ayudan, pero los metadatos se pierden al compartir: si la imagen es realista, se etiqueta de forma visible.
 
-## Glosario
+## Referencias bibliográficas
 
-- **Campaña interna**: comunicación dirigida a las personas de una organización para informar o promover una conducta.
-- **Prompt visual**: instrucción que describe la imagen que se quiere generar: sujeto, contexto y estilo.
-- **Modificador**: palabra o frase del prompt que controla un aspecto de la imagen, como el encuadre o la luz.
-- **Encuadre**: qué parte de la escena se ve y qué tan cerca está el sujeto.
-- **Relación de aspecto**: proporción entre el ancho y el alto de una imagen, como 3:4 o 16:9.
-- **Iterar**: mejorar un resultado en versiones sucesivas, cambiando un detalle en cada una.
-- **Jerarquía visual**: orden en que la vista recorre los elementos de una pieza según su importancia.
-- **Contraste**: diferencia de claridad o intensidad entre un elemento y su fondo.
-- **Texto alternativo**: descripción en texto de una imagen, que cumple su función para quien no puede verla.
-- **Sesgo visual**: tendencia de un generador de imágenes a repetir estereotipos o a subrepresentar a ciertos grupos.
-- **SynthID**: marca de agua invisible que Google incrusta en el contenido que crean sus modelos.
-- **Credenciales de contenido (C2PA)**: estándar abierto que registra el origen y las ediciones de un archivo digital.
-- **Metadatos**: datos que acompañan a un archivo y describen, por ejemplo, cómo y con qué se creó.
-
-## Conexión con el proyecto
-
-Este laboratorio alimenta el **Hito 4 del proyecto aplicado: pieza multimedia que comunica la solución**. Si tu pieza del Hito 4 es visual, puedes partir del brief y de la pieza de P15 y adaptarlos a la propuesta de tu proyecto, con su ficha de uso ético. Si haces un clip, esta imagen será uno de sus recursos en el tema 4.
-
-## Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M4.md`, `investigacion/M1.md` y `investigacion/HERRAMIENTAS-2.md`
-(consultadas el 24-10-2026). Los planes gratuitos cambian a menudo: revisar de nuevo antes de publicar.
-
-- F-M4-06 · OMPI (2024). IA generativa: cómo abordar la propiedad intelectual. https://www.wipo.int/edocs/pubdocs/es/wipo-pub-rn2024-8-es-generative-ai-navigating-intellectual-property.pdf
-- F-M4-08 · W3C (2024). Web Content Accessibility Guidelines (WCAG) 2.2. https://www.w3.org/TR/WCAG22/
-- F-M4-09 · Nielsen Norman Group; Kelley Gordon (2021). Visual Hierarchy in UX: Definition. https://www.nngroup.com/articles/visual-hierarchy-ux-definition/
-- F-M4-10 · Gobierno de Chile, Kit Digital (2024). Guía ilustrada: Comunicación sin estereotipos de género. https://kitdigital.gob.cl/archivos/insumos/2025/Nueva%20Guia%20Ilustrada%20Comunicacion%202024.pdf
-- F-M4-11 · Luccioni, Akiki, Mitchell y Jernite (2023). Stable Bias: Analyzing Societal Representations in Diffusion Models. https://arxiv.org/abs/2303.11408
-- F-M4-12 · Google Cloud (2026). Guía de atributos de imágenes y mensajes (Vertex AI). https://docs.cloud.google.com/vertex-ai/generative-ai/docs/image/img-gen-prompt-guide?hl=es-419
-- F-M4-16 · Congreso Nacional de Chile / BCN (2024). Ley 21.719, que regula la protección y el tratamiento de los datos personales. https://www.bcn.cl/leychile/navegar?idNorma=1209272
-- F-M1-05 · OpenAI (2026). Image generation: limitations. https://developers.openai.com/api/docs/guides/image-generation
-- F-H-50 · OpenAI (2026). Images in ChatGPT. https://help.openai.com/en/articles/11084440-images-in-chatgpt
-- F-H-52 · OpenAI (2026). Provenance signals in OpenAI-generated content. https://help.openai.com/en/articles/8912793-provenance-signals-in-openai-generated-content
-- F-H-56 · Google (s. f.). Generar imágenes con las aplicaciones de Gemini. https://support.google.com/gemini/answer/14286560?hl=es
-- F-H-57 · Google (s. f.). Verificar imágenes, vídeos y audio generados por IA. https://support.google.com/gemini/answer/16722517?hl=es
-- F-H-67 · Canva (2026). AI Product Terms. https://www.canva.com/policies/ai-product-terms/
-- F-H-68 · Canva (s. f.). Comprender el uso de la IA. https://www.canva.com/es_es/help/ai-access/
-- F-H-69 · Canva (s. f.). Canva for Android. https://www.canva.com/download/android/
+- Canva. (s. f.-a). *Canva for Android*. https://www.canva.com/download/android/
+- Canva. (s. f.-b). *Comprender el uso de la IA*. https://www.canva.com/es_es/help/ai-access/
+- Canva. (2026, 26 de junio). *AI product terms*. https://www.canva.com/policies/ai-product-terms/
+- Gobierno de Chile. (2024). *Guía ilustrada: comunicación sin estereotipos de género*. Kit Digital. https://kitdigital.gob.cl/archivos/insumos/2025/Nueva%20Guia%20Ilustrada%20Comunicacion%202024.pdf
+- Google. (s. f.-a). *Generar imágenes con las aplicaciones de Gemini*. https://support.google.com/gemini/answer/14286560?hl=es
+- Google. (s. f.-b). *Verificar imágenes, vídeos y audio generados por IA*. https://support.google.com/gemini/answer/16722517?hl=es
+- Google. (2026, 23 de octubre). *Guía de atributos de imágenes y mensajes (Vertex AI)*. Google Cloud. https://docs.cloud.google.com/vertex-ai/generative-ai/docs/image/img-gen-prompt-guide?hl=es-419
+- Gordon, K. (2021, 17 de enero). *Visual hierarchy in UX: Definition*. Nielsen Norman Group. https://www.nngroup.com/articles/visual-hierarchy-ux-definition/
+- Ley 21.719. (2024, 13 de diciembre). *Regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idNorma=1209272
+- Luccioni, A. S., Akiki, C., Mitchell, M. y Jernite, Y. (2023). *Stable bias: Analyzing societal representations in diffusion models*. arXiv. https://arxiv.org/abs/2303.11408
+- OMPI. (2024). *IA generativa: cómo abordar la propiedad intelectual (RN2024-8ES)*. https://doi.org/10.34667/tind.49471
+- OpenAI. (s. f.). *Image generation*. OpenAI API Docs. https://developers.openai.com/api/docs/guides/image-generation
+- OpenAI. (2026a, 24 de octubre). *Images in ChatGPT*. OpenAI Help Center. https://help.openai.com/en/articles/11084440-images-in-chatgpt
+- OpenAI. (2026b, 24 de octubre). *Provenance signals in OpenAI-generated content*. OpenAI Help Center. https://help.openai.com/en/articles/8912793-provenance-signals-in-openai-generated-content
+- W3C. (2024, 12 de diciembre). *Web Content Accessibility Guidelines (WCAG) 2.2*. https://www.w3.org/TR/WCAG22/

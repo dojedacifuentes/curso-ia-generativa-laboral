@@ -24,7 +24,8 @@ Flujo y reglas de investigación: `WORKFLOW.md`.
 - El número de pantallas sale de `data/curso.json` (`pantallas`). Cada `## Pnn · Título` lleva `cubre:`, `fuentes:` y `bloque:`.
 - Usa los recuadros `:::ejemplo`, `:::error`, `:::clave`, `:::actividad` y `:::comprueba`. Los `:::error` alimentan los
   distractores del quiz.
-- Cierra con las secciones `## Ideas clave`, `## Glosario` (al menos 5 términos), `## Conexión con el proyecto` y `## Fuentes`.
+- Cierra con `## Ideas clave` y `## Referencias bibliográficas` (29-10: la escribe `node scripts/referencias-apa.mjs --escribir`). El glosario va en
+  `glosario/M<n>.md` y las 2 actividades de aplicación práctica en `actividades/M<n>-AE<k>.md`. Citas con marcas `[@F-…]` (APA 7).
 - Cada pantalla tiene entre 120 y 420 palabras. Si la redacción la hacen subagentes en paralelo, usa el brief: un AE por agente.
 - **Criterios del 28-10 (`docs/CRITERIOS-28-10.md`):** solo personas que trabajan (Camila es asistente administrativa en
   una constructora); los casos de empresas reales no se nombran; máximo 2 fuentes, 1 recuadro, 1 lista y 2 negritas por

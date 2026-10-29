@@ -25,6 +25,15 @@ curso es solo para personas que trabajan y los contenidos no nombran los casos (
 porque Google Docs convierte en ecuación el texto que queda entre dos signos de peso; el PDF trae el signo normal. Las versiones reemplazadas están en
 «Versiones anteriores (24-10)» y en «Versiones anteriores (28-10) · antes del cambio de audiencia», en la raíz.
 
+## Marca, citas, glosario y actividades (29-10)
+
+Todos los recursos llevan la marca **Empoderatech** (manual de marca e-tech): portada noche con el logo, títulos en Varela Round,
+texto en Montserrat (Arial en los Docs) y la paleta noche, frambuesa y grafito. Las afirmaciones citan en **APA 7** y cada documento
+cierra con «Referencias bibliográficas», con enlaces que se revisaron uno por uno. Los contenidos ya no traen «Conexión con el
+proyecto» ni glosario: el glosario está en la carpeta **11 Glosario** y las **2 actividades de aplicación práctica por AE** en la
+carpeta **10 Actividades de aplicación práctica**. Las versiones anteriores quedaron en «Versiones anteriores (29-10) · antes de la
+marca Empoderatech», en la raíz.
+
 ## 2 Contenidos base · PDF
 
 Los mismos 22 contenidos en PDF, más «Contenidos-completos.pdf» con todo el curso.

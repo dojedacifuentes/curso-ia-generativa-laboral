@@ -9,7 +9,7 @@ En los temas anteriores produjiste una imagen, una locución y una pista musical
 
 El aprendizaje esperado es este: Elaborar un clip de 60 segundos que integre guion, voz, música e imagen generados con IA. Al final deberías poder entregar ese clip y completar su ficha de uso ético.
 
-Es un proyecto breve guiado y termina con un producto. Lo harás en el orden en que se produce cualquier video: primero planificas y escribes el guion, después reúnes y generas los recursos, y al final montas, revisas y exportas. Para el guion usarás Gemini; para algunas tomas de video, Google Flow, si te funciona; y para montar, CapCut o Canva, que tiene app para Android y para iOS.
+Es un proyecto breve guiado y termina con un producto. Lo harás en el orden en que se produce cualquier video: primero planificas y escribes el guion, después reúnes y generas los recursos, y al final montas, revisas y exportas [@F-M4-20]. Para el guion usarás Gemini; para algunas tomas de video, Google Flow, si te funciona; y para montar, CapCut o Canva, que tiene app para Android y para iOS [@F-H-69].
 
 Andrés termina aquí su campaña de pasillos despejados: hará el clip para la reunión de inicio de turno con el afiche, la locución y la pista que ya tiene. Camila hará el de la campaña de reciclaje de su oficina, y tú, el de tu campaña interna. Un minuto parece poco, pero obliga a decidir qué es lo esencial, y esa decisión es tuya, no de la herramienta.
 
@@ -18,7 +18,7 @@ cubre: S3, H1
 fuentes: F-M4-20
 bloque: Proceso (process block) en 3 pasos
 
-Las guías de producción de video ordenan el trabajo en tres etapas. Te sirven para no saltarte pasos y para no tener que rehacer todo al final.
+Las guías de producción de video ordenan el trabajo en tres etapas [@F-M4-20]. Te sirven para no saltarte pasos y para no tener que rehacer todo al final.
 
 | Etapa | Qué se hace | En tu clip |
 |---|---|---|
@@ -39,7 +39,7 @@ cubre: S1
 fuentes: F-M4-20
 bloque: Texto + diagrama de la estructura
 
-Un guion breve tiene una estructura simple, que las guías de video describen en cuatro movimientos. Abre con el propósito, es decir, de qué trata y por qué importa. Desarrolla pocos puntos clave, uno por momento. Pone un **llamado a la acción**, que dice qué tiene que hacer la persona después de verlo. Y cierra.
+Un guion breve tiene una estructura simple, que las guías de video describen en cuatro movimientos. Abre con el propósito, es decir, de qué trata y por qué importa. Desarrolla pocos puntos clave, uno por momento. Pone un **llamado a la acción**, que dice qué tiene que hacer la persona después de verlo. Y cierra [@F-M4-20].
 
 En 60 segundos no caben muchas ideas. Esta es una distribución posible, como recomendación del curso:
 
@@ -65,7 +65,7 @@ cubre: S1, H1
 fuentes: F-M4-20
 bloque: Tabla (guion técnico) + texto
 
-Para producir, el guion se arma por **secuencias**. Cada secuencia lleva su texto, que es lo que dice la voz; su imagen; su plano, que indica qué tan cerca se ve; su sonido, y su duración. Así sabes qué recurso necesitas para cada momento. Este es el guion de Andrés:
+Para producir, el guion se arma por **secuencias**. Cada secuencia lleva su texto, que es lo que dice la voz; su imagen; su plano, que indica qué tan cerca se ve; su sonido, y su duración [@F-M4-20]. Así sabes qué recurso necesitas para cada momento. Este es el guion de Andrés:
 
 | N.º | Texto de la locución | Imagen y plano | Sonido | Duración |
 |---|---|---|---|---|
@@ -76,7 +76,7 @@ Para producir, el guion se arma por **secuencias**. Cada secuencia lleva su text
 | 5 | «Pasillo despejado, bodega segura.» | Toma generada: carro por pasillo despejado, plano general | Voz y música sube | 8 s |
 | 6 | (sin voz) | Afiche de la campaña y créditos | Música termina | 12 s |
 
-El total da 60 segundos, pero las duraciones son provisorias: se ajustan al cronometrar la locución, como recomiendan las guías. Fíjate también en que solo dos secuencias usan video generado. El resto son imágenes fijas que Andrés ya tiene o que puede generar con Gemini, lo que le ahorra créditos y tiempo.
+El total da 60 segundos, pero las duraciones son provisorias: se ajustan al cronometrar la locución, como recomiendan las guías [@F-M4-20]. Fíjate también en que solo dos secuencias usan video generado. El resto son imágenes fijas que Andrés ya tiene o que puede generar con Gemini, lo que le ahorra créditos y tiempo.
 
 :::actividad Tu guion por secuencias
 Arma la tabla de tu clip con cinco a siete secuencias. Completa las cinco columnas y suma las duraciones: tienen que dar 60 segundos.
@@ -87,7 +87,7 @@ cubre: S1, H1, A2
 fuentes: F-M4-20, F-H-14
 bloque: Ejemplo antes/después + actividad
 
-Gemini te puede ayudar a pasar de una idea a un guion por secuencias, en la app del celular o en la web. Dale el mensaje, la estructura y el formato de la tabla, y ponle un límite a la locución: como recomendación del curso, 100 palabras como máximo, para que quepa con calma en un minuto.
+Gemini te puede ayudar a pasar de una idea a un guion por secuencias, en la app del celular o en la web [@F-H-14]. Dale el mensaje, la estructura y el formato de la tabla, y ponle un límite a la locución: como recomendación del curso, 100 palabras como máximo, para que quepa con calma en un minuto.
 
 Lo que entregue es un borrador. Revísalo tú con estas preguntas:
 
@@ -96,7 +96,7 @@ Lo que entregue es un borrador. Revísalo tú con estas preguntas:
 - ¿El texto suena natural en voz alta?
 - ¿Las imágenes pedidas se pueden generar sin personas reales ni marcas?
 
-El primer borrador de Andrés traía frases como «En nuestra empresa, la seguridad es un valor fundamental que todos debemos compartir día a día en cada una de nuestras labores». Él la cambió por «Un pasillo bloqueado es un tropiezo esperando pasar», que es breve, concreta y se entiende al escucharla una vez. Un error común es copiar el guion tal como lo entrega la IA: las duraciones, el tono y lo que se puede mostrar los decides tú. Después cronometra: lee la locución en voz alta con el cronómetro del celular y ajusta las duraciones de la tabla.
+El primer borrador de Andrés traía frases como «En nuestra empresa, la seguridad es un valor fundamental que todos debemos compartir día a día en cada una de nuestras labores». Él la cambió por «Un pasillo bloqueado es un tropiezo esperando pasar», que es breve, concreta y se entiende al escucharla una vez. Un error común es copiar el guion tal como lo entrega la IA: las duraciones, el tono y lo que se puede mostrar los decides tú. Después cronometra: lee la locución en voz alta con el cronómetro del celular y ajusta las duraciones de la tabla [@F-M4-20].
 
 :::ejemplo El prompt de Andrés
 «Escribe el guion de un clip interno de 60 segundos para una bodega. Mensaje: "Pasillo despejado, bodega segura". Estructura: apertura con una pregunta, dos puntos clave, llamado a la acción y cierre. Entrégalo en una tabla con número de secuencia, texto de la locución, imagen y plano, sonido y duración en segundos. La locución no debe pasar de 100 palabras».
@@ -109,7 +109,7 @@ bloque: Texto + calculadora de créditos
 
 El **video generativo** produce escenas sintéticas a partir de un texto o de una imagen. Es la parte del panorama que más rápido cambia, como viste con el retiro de Sora en el tema 1. Antes de elegir una herramienta, revisa en su página si el plan gratuito permite generar video, cuántos clips y si agrega marca de agua.
 
-Cuando se preparó este curso, la opción gratuita más útil era Google Flow. Entrega 50 créditos diarios gratis, con o sin suscripción, y no se acumulan de un día para otro. Con los modelos Veo 3.1 genera clips de 4, 6 u 8 segundos a partir de un texto o de una imagen, y el costo depende del modelo: un clip con Veo 3.1 Lite gasta 10 créditos; con Veo 3.1 Fast, 20, y con Veo 3.1 Quality, 100. También ofrece Gemini Omni Flash, con clips de hasta 10 segundos en 720p o 360p, que gasta entre 4 y 15 créditos según la resolución y la duración. Su modelo de imagen por defecto, Nano Banana 2 Lite, no tiene costo.
+Cuando se preparó este curso, la opción gratuita más útil era Google Flow. Entrega 50 créditos diarios gratis, con o sin suscripción, y no se acumulan de un día para otro [@F-H-63]. Con los modelos Veo 3.1 genera clips de 4, 6 u 8 segundos a partir de un texto o de una imagen [@F-H-64], y el costo depende del modelo: un clip con Veo 3.1 Lite gasta 10 créditos; con Veo 3.1 Fast, 20, y con Veo 3.1 Quality, 100 [@F-H-63]. También ofrece Gemini Omni Flash, con clips de hasta 10 segundos en 720p o 360p, que gasta entre 4 y 15 créditos según la resolución y la duración [@F-H-64; @F-H-63]. Su modelo de imagen por defecto, Nano Banana 2 Lite, no tiene costo [@F-H-64].
 
 Haz la cuenta: con 50 créditos al día alcanzas para unos cinco clips de 8 segundos con Veo 3.1 Lite, es decir, unos 40 segundos. No alcanza para un minuto completo de video generado, y tampoco hace falta, porque un buen clip combina pocas tomas generadas con imágenes fijas.
 
@@ -132,11 +132,11 @@ Para pedir una toma, usa lo que aprendiste del prompt visual en el tema 2 y agre
 
 1. Elige en tu guion las secuencias que de verdad necesitan movimiento.
 2. Escribe un prompt por toma y elige su duración.
-3. Genera con Veo 3.1 Lite, que gasta 10 créditos por clip, menos que los otros modelos Veo.
+3. Genera con Veo 3.1 Lite, que gasta 10 créditos por clip, menos que los otros modelos Veo [@F-H-63].
 4. Revisa la toma completa: movimientos raros, objetos que aparecen o desaparecen, texto deforme.
 5. Descárgala y anota el prompt, el modelo y los créditos usados.
 
-Si no puedes usar Flow o se te acabaron los créditos del día, arma el clip solo con imágenes fijas: cumple igual con lo que pide el tema. Y crea con responsabilidad: no generes escenas realistas de personas reales ni de hechos que no ocurrieron para presentarlas como reales. La OMPI recomienda no usar herramientas para producir ultrafalsos.
+Si no puedes usar Flow o se te acabaron los créditos del día, arma el clip solo con imágenes fijas: cumple igual con lo que pide el tema. Y crea con responsabilidad: no generes escenas realistas de personas reales ni de hechos que no ocurrieron para presentarlas como reales. La OMPI recomienda no usar herramientas para producir ultrafalsos [@F-M4-06].
 
 :::actividad Tus tomas
 Genera dos tomas para las secuencias de tu guion que más necesitan movimiento. Anota en tu bitácora el prompt de cada una y cuántos créditos te quedaron.
@@ -147,7 +147,7 @@ cubre: S3, H1, C2
 fuentes: F-M4-20, F-H-84
 bloque: Tabla para completar (lista de recursos)
 
-Antes de montar, junta todos los recursos en una carpeta del celular y revisa de dónde viene cada uno. Las guías de video piden verificar los derechos de autor o las licencias Creative Commons en la preproducción y referenciar toda imagen que uses. La lista de recursos de Andrés quedó así:
+Antes de montar, junta todos los recursos en una carpeta del celular y revisa de dónde viene cada uno. Las guías de video piden verificar los derechos de autor o las licencias Creative Commons en la preproducción y referenciar toda imagen que uses [@F-M4-20]. La lista de recursos de Andrés quedó así:
 
 | Recurso | Origen | Licencia o condición | Crédito |
 |---|---|---|---|
@@ -157,7 +157,7 @@ Antes de montar, junta todos los recursos en una carpeta del celular y revisa de
 | Toma 1 y toma 5 | Google Flow, Veo 3.1 Lite | Google no reclama la propiedad (tema 1) | Etiqueta de IA |
 | Sticker de advertencia | Biblioteca de CapCut | Solo personal y no comercial, salvo marca «commercial use» | Revisar antes de usar |
 
-Si un recurso no tiene licencia clara, no lo uses, y si no sabes de dónde salió una imagen, tampoco: no podrías darle crédito ni saber si permite tu uso. Pon atención a la biblioteca del editor. En CapCut, algunos materiales, como plantillas, stickers, efectos o música, son solo para uso personal y no comercial; los que permiten un uso comercial limitado llevan una marca visible del tipo «commercial use», y usarlos exige una cuenta registrada. En Canva, como viste en el tema 2, el contenido de la biblioteca solo se licencia.
+Si un recurso no tiene licencia clara, no lo uses, y si no sabes de dónde salió una imagen, tampoco: no podrías darle crédito ni saber si permite tu uso. Pon atención a la biblioteca del editor. En CapCut, algunos materiales, como plantillas, stickers, efectos o música, son solo para uso personal y no comercial; los que permiten un uso comercial limitado llevan una marca visible del tipo «commercial use», y usarlos exige una cuenta registrada [@F-H-84]. En Canva, como viste en el tema 2, el contenido de la biblioteca solo se licencia.
 
 :::comprueba
 Andrés encuentra en CapCut una música perfecta, pero no tiene la marca «commercial use». Su clip es para la reunión interna. ¿Qué hace?
@@ -172,7 +172,7 @@ cubre: S3, H1
 fuentes: F-M4-20, F-H-83
 bloque: Proceso paso a paso + video demostrativo
 
-El **montaje** ordena las tomas, la voz, la música y las imágenes en una **línea de tiempo**, siguiendo el guion. Puedes hacerlo en el celular con CapCut o con Canva. CapCut es para mayores de 13 años, y los menores de 18 necesitan el consentimiento de sus padres. Sus términos dicen además que no garantiza que el contenido generado sea legal o apropiado y que la persona responde por lo que crea, así que la revisión sigue siendo tuya. Estos son los pasos para montar:
+El **montaje** ordena las tomas, la voz, la música y las imágenes en una **línea de tiempo**, siguiendo el guion [@F-M4-20]. Puedes hacerlo en el celular con CapCut o con Canva. CapCut es para mayores de 13 años, y los menores de 18 necesitan el consentimiento de sus padres. Sus términos dicen además que no garantiza que el contenido generado sea legal o apropiado y que la persona responde por lo que crea [@F-H-83], así que la revisión sigue siendo tuya. Estos son los pasos para montar:
 
 1. Crea un proyecto con el formato de tu canal: vertical (9:16) para el teléfono u horizontal (16:9) para una pantalla.
 2. Pon la locución en la línea de tiempo: es la columna vertebral del clip.
@@ -193,11 +193,11 @@ cubre: A2, S3
 fuentes: F-M4-08, F-M4-20
 bloque: Texto + ejemplo
 
-El cuidado del detalle se nota en lo que mucha gente no mira hasta que falta, y lo primero son los subtítulos. Las pautas WCAG piden subtítulos en los videos con audio grabado. Ayudan a quien no oye bien, a quien ve el clip sin sonido en el teléfono y a quien está en un lugar con ruido, como una bodega. Un error común es pensar que sobran si la voz se entiende bien: son parte del clip, no un adorno. Escríbelos en el editor o usa los subtítulos automáticos si tu editor los tiene, pero en ese caso revísalos palabra por palabra.
+El cuidado del detalle se nota en lo que mucha gente no mira hasta que falta, y lo primero son los subtítulos. Las pautas WCAG piden subtítulos en los videos con audio grabado [@F-M4-08]. Ayudan a quien no oye bien, a quien ve el clip sin sonido en el teléfono y a quien está en un lugar con ruido, como una bodega. Un error común es pensar que sobran si la voz se entiende bien: son parte del clip, no un adorno. Escríbelos en el editor o usa los subtítulos automáticos si tu editor los tiene, pero en ese caso revísalos palabra por palabra.
 
 Los textos en pantalla siguen lo que viste en el tema 2: contraste mínimo de 4,5:1, o de 3:1 en texto grande, pocos tamaños y texto breve. Como recomendación del curso, deja cada texto en pantalla el tiempo suficiente para leerlo dos veces.
 
-Al final del clip van los créditos y las referencias, como indican las guías de video: quién lo hizo, con qué herramientas, de dónde salieron la música y las imágenes, y la etiqueta de IA. Antes de seguir, comprueba que los subtítulos coincidan con la locución, que los textos se lean bien en el celular y que cada imagen y cada audio aparezcan en los créditos.
+Al final del clip van los créditos y las referencias, como indican las guías de video [@F-M4-20]: quién lo hizo, con qué herramientas, de dónde salieron la música y las imágenes, y la etiqueta de IA. Antes de seguir, comprueba que los subtítulos coincidan con la locución, que los textos se lean bien en el celular y que cada imagen y cada audio aparezcan en los créditos.
 
 :::ejemplo Los créditos de Andrés
 «Campaña Pasillo despejado. Guion y montaje: Andrés. Imágenes generadas con IA (Gemini y Google Flow). Voz: elevenlabs.io. Música: Eleven Music. Afiche compuesto en Canva».
@@ -208,7 +208,7 @@ cubre: C1, A2, S1
 fuentes: F-M4-20
 bloque: Lista de verificación (checklist) + actividad
 
-Con el montaje armado, mira el clip completo de principio a fin, sin detenerte. Luego revísalo por partes, empezando por la duración. La meta son 60 segundos. Si te pasas, acorta las pausas largas entre frases, recorta las tomas que se repiten o elimina la secuencia menos importante. Si te falta tiempo, alarga un poco las imágenes del llamado a la acción en vez de agregar ideas nuevas. Acelerar la voz para que todo quepa no es buena salida, porque cuesta entenderla.
+Con el montaje armado, mira el clip completo de principio a fin, sin detenerte. Luego revísalo por partes, empezando por la duración. La meta son 60 segundos, y las guías recomiendan ajustar la duración cronometrando la locución [@F-M4-20]. Si te pasas, acorta las pausas largas entre frases, recorta las tomas que se repiten o elimina la secuencia menos importante. Si te falta tiempo, alarga un poco las imágenes del llamado a la acción en vez de agregar ideas nuevas. Acelerar la voz para que todo quepa no es buena salida, porque cuesta entenderla.
 
 Después revisa que los cuatro elementos estén y trabajen juntos, y que no se te escape ningún detalle:
 
@@ -229,7 +229,7 @@ cubre: S3
 fuentes: F-M4-21
 bloque: Texto + tabla de configuración
 
-**Exportar** es generar el archivo final de video a partir del proyecto de montaje. Las recomendaciones de YouTube para subir videos sirven como referencia, aunque tu clip no vaya a YouTube:
+**Exportar** es generar el archivo final de video a partir del proyecto de montaje. Las recomendaciones de YouTube para subir videos sirven como referencia, aunque tu clip no vaya a YouTube [@F-M4-21]:
 
 | Ajuste | Recomendación |
 |---|---|
@@ -254,9 +254,9 @@ cubre: A1, S2, C2
 fuentes: F-M4-15, F-M4-14
 bloque: Texto + escenarios con decisión
 
-Crear con responsabilidad es etiquetar el contenido sintético realista y no suplantar a personas reales. YouTube sirve de referencia para saber cuándo declarar: lo exige cuando una persona real parece decir o hacer algo que no hizo, cuando se alteran hechos o lugares reales, cuando se crean escenas realistas que no ocurrieron y cuando la música creada con IA es el foco principal del video. No exige declarar lo que es claramente irreal, las ediciones menores ni la ayuda con guiones o subtítulos.
+Crear con responsabilidad es etiquetar el contenido sintético realista y no suplantar a personas reales. YouTube sirve de referencia para saber cuándo declarar: lo exige cuando una persona real parece decir o hacer algo que no hizo, cuando se alteran hechos o lugares reales, cuando se crean escenas realistas que no ocurrieron y cuando la música creada con IA es el foco principal del video. No exige declarar lo que es claramente irreal, las ediciones menores ni la ayuda con guiones o subtítulos [@F-M4-15].
 
-En el tema 2 viste que algunas herramientas marcan lo que generan con marcas de agua invisibles o con credenciales de contenido. Ayudan, pero no bastan. El NIST advierte que quien copia o edita un archivo puede alterar o falsear sus metadatos, que las redes sociales suelen borrarlos al compartir y que algunas marcas de agua se pueden eliminar, así que ninguna técnica sirve sola. Al montar y exportar tu clip puede pasar lo mismo.
+En el tema 2 viste que algunas herramientas marcan lo que generan con marcas de agua invisibles o con credenciales de contenido. Ayudan, pero no bastan. El NIST advierte que quien copia o edita un archivo puede alterar o falsear sus metadatos, que las redes sociales suelen borrarlos al compartir y que algunas marcas de agua se pueden eliminar, así que ninguna técnica sirve sola [@F-M4-14]. Al montar y exportar tu clip puede pasar lo mismo.
 
 Por eso, la recomendación del curso es declarar de forma visible, con una línea en los créditos o en la descripción, como «Imágenes, voz y música generadas con IA». Y no quitar las marcas de agua ni los metadatos que traen los recursos, aunque sepas que se pueden perder después.
 
@@ -273,7 +273,7 @@ cubre: H1, C2
 fuentes: F-M4-06, F-M4-03
 bloque: Plantilla descargable + ejemplo completo
 
-El clip se entrega con su ficha de uso ético, la misma que empezaste en el tema 1. Para un clip, la ficha está completa cuando tiene la etiqueta de IA, el registro de instrucciones, el aporte humano y los consentimientos, que es lo que la OMPI recomienda documentar, más los créditos de los materiales de terceros con la fórmula TASL. El curso agrega un campo: la marca de agua o credencial de cada recurso, si la tiene.
+El clip se entrega con su ficha de uso ético, la misma que empezaste en el tema 1. Para un clip, la ficha está completa cuando tiene la etiqueta de IA, el registro de instrucciones, el aporte humano y los consentimientos, que es lo que la OMPI recomienda documentar [@F-M4-06], más los créditos de los materiales de terceros con la fórmula TASL [@F-M4-03]. El curso agrega un campo: la marca de agua o credencial de cada recurso, si la tiene.
 
 Un error que se repite es anotar «ninguno» en el aporte humano porque todo se generó con IA. Generar con IA no borra lo que decidiste e hiciste: el mensaje, el guion final, la selección de tomas, el montaje, los subtítulos y la revisión son tuyos, y dejarlos fuera deja sin respaldo tu trabajo.
 
@@ -288,7 +288,7 @@ cubre: C1, C2, H1, A1, A2
 fuentes: F-M4-20, F-M4-21
 bloque: Lista de verificación (checklist) + actividad de cierre
 
-En este proyecto hiciste un video completo: planificaste con un guion por secuencias, generaste y reuniste recursos verificando sus licencias, montaste en una línea de tiempo, agregaste subtítulos y créditos, exportaste y documentaste todo en la ficha de uso ético. Antes de entregar, revisa:
+En este proyecto hiciste un video completo: planificaste con un guion por secuencias, generaste y reuniste recursos verificando sus licencias, montaste en una línea de tiempo, agregaste subtítulos y créditos [@F-M4-20], exportaste [@F-M4-21] y documentaste todo en la ficha de uso ético. Antes de entregar, revisa:
 
 - [ ] El clip dura 60 segundos.
 - [ ] Integra guion, voz, música e imagen.
@@ -313,43 +313,18 @@ Entrega el clip en MP4, el guion por secuencias con sus duraciones y la ficha de
 6. Para exportar se recomienda MP4, con video H.264 y audio AAC-LC.
 7. El contenido sintético realista se declara de forma visible, porque los metadatos se pierden; la ficha de uso ético registra herramientas, instrucciones, aporte humano, consentimientos, créditos y marcas.
 
-## Glosario
+## Referencias bibliográficas
 
-- **Clip**: video breve, de pocos segundos o minutos, con un solo mensaje.
-- **Guion (de un video)**: texto que organiza lo que se dirá y se mostrará en un video.
-- **Secuencia**: tramo del guion con un texto, una imagen, un plano, un sonido y una duración.
-- **Plano**: qué tan cerca o lejos se muestra el sujeto en una imagen o toma.
-- **Toma**: fragmento continuo de video, grabado o generado.
-- **Llamado a la acción**: parte del guion que dice qué tiene que hacer la persona después de ver la pieza.
-- **Preproducción**: etapa de planificación: tema, guion, recursos y verificación de licencias.
-- **Producción**: etapa en que se graban o generan los recursos del video.
-- **Postproducción**: etapa de edición y publicación del video.
-- **Montaje**: ordenar y unir tomas, imágenes, voz y música para formar el video.
-- **Línea de tiempo**: espacio del editor donde se ordenan los recursos según el momento en que aparecen.
-- **Video generativo**: video sintético creado por una herramienta de IA a partir de un texto o una imagen.
-- **Exportar**: generar el archivo final de video a partir del proyecto de montaje.
-- **Subtítulos**: texto en pantalla que reproduce lo que se dice en el audio.
-
-## Conexión con el proyecto
-
-Este clip es el camino del **Hito 4 del proyecto aplicado: pieza multimedia que comunica la solución**. En el hito harás una pieza visual, sonora o audiovisual que comunique la propuesta de tu proyecto a quien tiene que aprobarla o usarla en tu trabajo, y la entregarás con su ficha de uso ético. Si eliges un clip, sigue los mismos pasos de este tema con el mensaje de tu proyecto.
-
-## Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M4.md`, `investigacion/HERRAMIENTAS-1.md` y
-`investigacion/HERRAMIENTAS-2.md` (consultadas el 24-10-2026). Los planes gratuitos cambian a menudo: revisar de nuevo antes de
-publicar.
-
-- F-M4-03 · Creative Commons (2024). Recommended practices for attribution. https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution
-- F-M4-06 · OMPI (2024). IA generativa: cómo abordar la propiedad intelectual. https://www.wipo.int/edocs/pubdocs/es/wipo-pub-rn2024-8-es-generative-ai-navigating-intellectual-property.pdf
-- F-M4-08 · W3C (2024). Web Content Accessibility Guidelines (WCAG) 2.2. https://www.w3.org/TR/WCAG22/
-- F-M4-14 · NIST (2024). Reducing Risks Posed by Synthetic Content (NIST AI 100-4). https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf
-- F-M4-15 · YouTube / Google (s. f.). Divulgación de contenido alterado o sintético. https://support.google.com/youtube/answer/14328491?hl=es-419
-- F-M4-20 · Universidad Simón Bolívar, Departamento de Pedagogía (2020). Guía para la creación de videos educativos. https://unisimon.edu.co/showimagen/v/Comunicaciones/20200925103940_0.pdf
-- F-M4-21 · YouTube / Google (s. f.). Configuración de codificación recomendada para subir videos. https://support.google.com/youtube/answer/1722171?hl=es-419
-- F-H-14 · Google (s. f.). Empezar a usar la aplicación móvil Gemini. https://support.google.com/gemini/answer/14554984?hl=es
-- F-H-63 · Google (s. f.). Gestionar tus créditos de Google Flow. https://support.google.com/flow/answer/16526234?hl=es
-- F-H-64 · Google (s. f.). Modelos y funciones compatibles de Google Flow. https://support.google.com/flow/answer/16352836?hl=es
-- F-H-69 · Canva (s. f.). Canva for Android. https://www.canva.com/download/android/
-- F-H-83 · CapCut (2026). Terms of Service. https://www.capcut.com/clause/terms-of-service
-- F-H-84 · CapCut (2026). Materials License Agreement. https://www.capcut.com/clause/material-license-agreement
+- Canva. (s. f.). *Canva for Android*. https://www.canva.com/download/android/
+- CapCut. (2026a, 22 de enero). *Materials license agreement*. https://www.capcut.com/clause/material-license-agreement
+- CapCut. (2026b, 15 de abril). *Terms of service*. https://www.capcut.com/clause/terms-of-service
+- Creative Commons. (2024, 4 de diciembre). *Recommended practices for attribution*. Creative Commons Wiki. https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution
+- Google. (s. f.-a). *Configuración de codificación recomendada para subir videos*. Ayuda de YouTube. https://support.google.com/youtube/answer/1722171?hl=es-419
+- Google. (s. f.-b). *Divulgación de contenido alterado o sintético*. Ayuda de YouTube. https://support.google.com/youtube/answer/14328491?hl=es-419
+- Google. (s. f.-c). *Empezar a usar la aplicación móvil Gemini*. https://support.google.com/gemini/answer/14554984?hl=es
+- Google. (s. f.-d). *Gestionar tus créditos de Google Flow*. https://support.google.com/flow/answer/16526234?hl=es
+- Google. (s. f.-e). *Modelos y funciones compatibles de Google Flow*. https://support.google.com/flow/answer/16352836?hl=es
+- National Institute of Standards and Technology. (2024). *Reducing risks posed by synthetic content (NIST AI 100-4)*. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf
+- OMPI. (2024). *IA generativa: cómo abordar la propiedad intelectual (RN2024-8ES)*. https://doi.org/10.34667/tind.49471
+- Universidad Simón Bolívar. (s. f.). *Guía para la creación de videos educativos*. Departamento de Pedagogía. https://unisimon.edu.co/showimagen/v/Comunicaciones/20200925103940_0.pdf
+- W3C. (2024, 12 de diciembre). *Web Content Accessibility Guidelines (WCAG) 2.2*. https://www.w3.org/TR/WCAG22/

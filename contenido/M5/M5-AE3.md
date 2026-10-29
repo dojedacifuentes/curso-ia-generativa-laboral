@@ -15,7 +15,7 @@ comprobar con pruebas si tus controles sirven.
 
 Vas a trabajar con casos de oficina en que un flujo automatizado con IA trae un problema. En cada uno vas a analizar qué pasó, qué
 riesgo apareció y qué control lo habría evitado, con ideas de marcos reconocidos, como las directrices éticas de la Comisión Europea y
-el marco de gestión de riesgos de IA del NIST de Estados Unidos. Además de Camila y Andrés aparece Paula, ejecutiva de atención al
+el marco de gestión de riesgos de IA del NIST de Estados Unidos [@F-M5-12; @F-M5-13]. Además de Camila y Andrés aparece Paula, ejecutiva de atención al
 cliente en una tienda de electrodomésticos. Las tres personas y sus casos son ficticios; las situaciones reales las vas a ver en la
 actividad de análisis de casos.
 
@@ -35,8 +35,8 @@ que, desde el lunes, una compañera anota las fechas nuevas de otra forma y la I
 fecha equivocada, y los clientes ya habían organizado su recepción con esos datos.
 
 Esto es un **error en cadena**. En un flujo, los datos de un paso alimentan al siguiente, así que un dato erróneo, o un mapeo que se
-rompió, se repite en cada ejecución y llega a quien usa el resultado. A eso se suma que la IA generativa puede **confabular**, es decir,
-entregar contenido falso con tono seguro, como una fecha que la planilla no decía.
+rompió, se repite en cada ejecución y llega a quien usa el resultado [@F-M5-10]. A eso se suma que la IA generativa puede **confabular**, es decir,
+entregar contenido falso con tono seguro [@F-M5-14], como una fecha que la planilla no decía.
 
 Antes de seguir, piensa en estas preguntas:
 1. ¿En qué paso nació el error y en qué paso se hizo visible?
@@ -59,8 +59,8 @@ y una opinión sobre cada persona.
 
 Antes de opinar, Camila piensa en el riesgo. Sabe lo que trae un currículum, porque los recibe cada vez que hay una vacante: nombre,
 RUT, teléfono, dirección, experiencia y a veces datos de salud o de familia. El perfil de riesgos de IA generativa del NIST incluye la
-**privacidad**, es decir, la filtración o el uso no autorizado de datos personales. Y si el flujo usara Gemini con la actividad guardada,
-según Google, revisores humanos podrían leer esas conversaciones.
+**privacidad**, es decir, la filtración o el uso no autorizado de datos personales [@F-M5-14]. Y si el flujo usara Gemini con la actividad guardada,
+según Google, revisores humanos podrían leer esas conversaciones [@F-H-15].
 
 Camila propone otra cosa: «Automaticemos solo el registro de que llegó una postulación, con la fecha y el cargo. El análisis de cada
 currículum lo hace una persona». Su jefatura acepta probarlo así. Con esa propuesta, los datos sensibles no pasan por la IA y la
@@ -86,7 +86,7 @@ escritos con faltas de ortografía o en un tono muy informal quedan casi siempre
 refrigerador que llegó sin funcionar.
 
 El NIST describe dos riesgos que aparecen juntos en este caso. El primero es el **sesgo dañino**: la IA puede reproducir sesgos, y al
-automatizarla aumentan la velocidad y la escala con que se propagan. Un criterio injusto aplicado a mano afecta a unos pocos; dentro de
+automatizarla aumentan la velocidad y la escala con que se propagan [@F-M5-14]. Un criterio injusto aplicado a mano afecta a unos pocos; dentro de
 un flujo, afecta a todos. El segundo es el **sesgo de automatización**, que consiste en confiar de más en lo que entrega un sistema
 automático. El equipo de Paula dejó de leer los reclamos marcados como «baja» porque «el sistema ya los clasificó», y esa dependencia
 agravó el error.
@@ -107,7 +107,7 @@ fuentes: F-M5-16, F-M3-16
 bloque: Texto + comprueba
 
 Los casos de Camila y de Paula tienen algo en común: el flujo decide, o influye en, algo que afecta a una persona. En Chile, la Ley
-21.719 modifica la Ley 19.628 sobre datos personales y agrega un artículo 8° bis sobre **decisiones automatizadas**.
+21.719 modifica la Ley 19.628 sobre datos personales y agrega un artículo 8° bis sobre **decisiones automatizadas** [@F-M5-16].
 
 Según ese artículo, toda persona tiene derecho a oponerse y a no ser objeto de decisiones basadas en el tratamiento automatizado de sus
 datos, incluida la elaboración de perfiles, cuando le produzcan efectos jurídicos o le afecten significativamente. Hay excepciones, por
@@ -117,7 +117,7 @@ esos casos, quien es responsable de los datos debe asegurar que la persona recib
 
 En tu trabajo esto importa cada vez que un flujo toca a otras personas, sean clientes, proveedores, compañeros o candidatos a un puesto.
 Según su texto, estos cambios rigen desde el 1 de diciembre de 2026. Hay un proyecto de ley en trámite en el Senado que propone
-postergar esa fecha a diciembre de 2027 y que todavía no está aprobado, así que antes de aplicar esta norma revisa en qué estado está.
+postergar esa fecha a diciembre de 2027 y que todavía no está aprobado [@F-M3-16], así que antes de aplicar esta norma revisa en qué estado está.
 
 :::comprueba
 Según la Ley 21.719, ¿qué debe poder pedir una persona afectada significativamente por una decisión automatizada, en los casos en que
@@ -134,7 +134,7 @@ fuentes: F-M5-12, F-M5-13
 bloque: Tabla + ejemplo
 
 Las directrices éticas para una IA fiable de la Comisión Europea ponen como primer requisito la acción y supervisión humanas, y
-describen tres formas de supervisar. En inglés se conocen con nombres que vas a encontrar a menudo:
+describen tres formas de supervisar [@F-M5-12]. En inglés se conocen con nombres que vas a encontrar a menudo:
 
 | Forma | Qué hace la persona | En inglés | En un flujo |
 |---|---|---|---|
@@ -144,7 +144,7 @@ describen tres formas de supervisar. En inglés se conocen con nombres que vas a
 
 Las directrices agregan una regla útil: cuanto menor sea la supervisión posible, mayores deben ser las verificaciones. El marco del
 NIST, por su parte, explica que las configuraciones entre personas e IA van de totalmente autónomas a totalmente manuales, y pide
-definir y documentar los procesos de supervisión y los roles de cada persona.
+definir y documentar los procesos de supervisión y los roles de cada persona [@F-M5-13].
 
 :::ejemplo Las tres formas en la tienda de Paula
 Con participación humana, alguien confirma cada reclamo que el flujo clasifica como «baja». Con control humano, una vez por semana
@@ -163,10 +163,10 @@ donde el riesgo es mayor. Estos son los lugares típicos:
 - Antes de escribir en un registro que otros usan para decidir, como la planilla de pagos o el registro de pedidos.
 - Cuando la IA clasifica, resume o extrae datos que luego se usan sin volver al original.
 - Cuando aparecen datos personales.
-- Cuando un dato no cumple una regla; una condición puede detener el flujo o desviarlo a revisión, por ejemplo si la fecha extraída está vacía o es anterior a hoy.
+- Cuando un dato no cumple una regla; una condición puede detener el flujo o desviarlo a revisión [@F-M5-08], por ejemplo si la fecha extraída está vacía o es anterior a hoy.
 
 Algunas plataformas tienen pasos de aprobación ya hechos, pero no caben en sus planes gratuitos más básicos: Zapier gratis, por
-ejemplo, solo permite flujos de dos pasos. Por eso en este curso usamos la revisión manual, que funciona gratis. El flujo deja el
+ejemplo, solo permite flujos de dos pasos [@F-H-93]. Por eso en este curso usamos la revisión manual, que funciona gratis. El flujo deja el
 resultado en una columna «Estado» con el valor «por revisar», y nadie lo usa hasta que una persona lo cambia a «aprobado». En el camino
 del celular la lógica es la misma: Gemini te entrega la lista y nada queda registrado hasta que tú la revisas.
 
@@ -184,7 +184,7 @@ fuentes: F-M5-12, F-M5-13
 bloque: Lista de verificación (checklist) + tabla + actividad
 
 Una revisión sin criterios se vuelve un clic automático: «aprobado, aprobado, aprobado». Para que el control sirva, define qué revisa la
-persona y cuándo aprueba. El NIST pide que estos procesos de supervisión queden definidos y documentados.
+persona y cuándo aprueba. El NIST pide que estos procesos de supervisión queden definidos y documentados [@F-M5-13].
 
 Un **criterio de aprobación** es una pregunta que se responde con sí o no en pocos segundos, por ejemplo:
 - [ ] ¿Los datos coinciden con el correo o el documento original?
@@ -193,7 +193,7 @@ Un **criterio de aprobación** es una pregunta que se responde con sí o no en p
 - [ ] ¿El tono es adecuado para quien lo va a recibir?
 
 Si algo no cumple, la persona decide si lo corrige o si hace esa tarea a mano. La cantidad de revisión depende del riesgo, y para
-decidirla sirven la matriz del tema 1 y la regla de la Comisión Europea: menos supervisión pide más verificaciones. Esta tabla es una
+decidirla sirven la matriz del tema 1 y la regla de la Comisión Europea: menos supervisión pide más verificaciones [@F-M5-12]. Esta tabla es una
 propuesta del curso:
 
 | Riesgo del paso | Forma de supervisión | Cómo se revisa |
@@ -214,10 +214,10 @@ bloque: Texto + tabla de ejemplo + ejemplo
 
 Cuando algo sale mal, la primera pregunta es qué pasó, y para responderla necesitas un **registro**. Las directrices europeas piden
 documentar los datos, los procesos y las decisiones para lograr **trazabilidad**: poder reconstruir qué pasó, entender por qué hubo un
-error y prevenir otros.
+error y prevenir otros [@F-M5-12].
 
 En tu flujo hay dos registros. Uno es el historial de la plataforma; en Zapier, por ejemplo, cada ejecución queda guardada con el paso
-que falló y su mensaje de error. El otro es tu propio registro en la planilla del flujo, al que conviene agregarle columnas para la
+que falló y su mensaje de error [@F-M5-11]. El otro es tu propio registro en la planilla del flujo, al que conviene agregarle columnas para la
 supervisión, como en este ejemplo de Andrés:
 
 | Fecha | Dato original | Resultado de la IA | Estado | Revisó | Observación |
@@ -239,8 +239,8 @@ fuentes: F-M5-13, F-M5-15
 bloque: Texto + lista + comprueba
 
 Un flujo seguro es uno que se puede detener y cuyos efectos se pueden deshacer. A eso se le llama **reversibilidad**. El marco del NIST
-pide mecanismos y responsables para reemplazar, desconectar o desactivar un sistema que no funciona como se espera, y los principios de
-la OCDE piden que un sistema que arriesga causar daños pueda ser anulado, reparado o retirado de forma segura.
+pide mecanismos y responsables para reemplazar, desconectar o desactivar un sistema que no funciona como se espera [@F-M5-13], y los principios de
+la OCDE piden que un sistema que arriesga causar daños pueda ser anulado, reparado o retirado de forma segura [@F-M5-15].
 
 En un flujo simple, eso se traduce en cuatro prácticas que el curso te recomienda:
 - Saber dónde se apaga: antes de activar el flujo, ubica cómo se pausa o se desactiva en tu herramienta.
@@ -262,8 +262,8 @@ fuentes: F-M5-06, F-M5-13
 bloque: Proceso (process block) + ejemplo
 
 Un **plan de contingencia** dice qué hacer si el flujo deja de funcionar o empieza a equivocarse. La guía de la Universidad de Bath lo
-pide para todo flujo importante, y el NIST incluye la respuesta a incidentes y la recuperación en el seguimiento que se hace después de
-poner un sistema en marcha. Tu plan responde seis preguntas:
+pide para todo flujo importante [@F-M5-06], y el NIST incluye la respuesta a incidentes y la recuperación en el seguimiento que se hace después de
+poner un sistema en marcha [@F-M5-13]. Tu plan responde seis preguntas:
 
 1. ¿Cómo me doy cuenta? Por ejemplo, por un error en el historial, filas vacías o el aviso de alguien.
 2. ¿Cómo lo detengo? Dónde se pausa el flujo y quién lo hace.
@@ -287,7 +287,7 @@ cubre: C1, A2, H1
 fuentes: F-M5-13
 bloque: Proceso + tabla + actividad
 
-Poner un control no basta: hay que comprobar que sirve. El marco del NIST pide medir con pruebas y documentar los resultados, y en tu
+Poner un control no basta: hay que comprobar que sirve. El marco del NIST pide medir con pruebas y documentar los resultados [@F-M5-13], y en tu
 flujo puedes hacerlo en cuatro pasos:
 
 1. Prepara 10 casos ficticios y, en 3 de ellos, siembra un error: un correo con una fecha ambigua, uno con un dato personal que no debería pasar y uno que debería detenerse.
@@ -316,8 +316,8 @@ fuentes: F-M5-15, F-M5-13
 bloque: Texto + escenario breve + comprueba
 
 Los principios de la OCDE incluyen la **rendición de cuentas**: quienes ponen en marcha un sistema de IA responden por su
-funcionamiento, y deben registrar datos, procesos y decisiones y gestionar los riesgos de forma sistemática. El marco del NIST pide,
-además, roles claros: quién supervisa, quién puede apagar el sistema y quién atiende un incidente.
+funcionamiento, y deben registrar datos, procesos y decisiones y gestionar los riesgos de forma sistemática [@F-M5-15]. El marco del NIST pide,
+además, roles claros: quién supervisa, quién puede apagar el sistema y quién atiende un incidente [@F-M5-13].
 
 Para ti esto tiene un sentido práctico: el flujo actúa en tu nombre. Si manda un dato equivocado a un cliente o a un proveedor, para
 quien lo recibe el error es tuyo y de tu empresa, no de la herramienta. Un error común es pensar lo contrario, que si el flujo se
@@ -345,7 +345,7 @@ fuentes: F-M5-12, F-M5-13
 bloque: Texto + actividad de cierre (entrega)
 
 En este tema analizaste tres casos: un error en cadena, un flujo con datos personales y un sesgo que se multiplicaba. Viste que la
-supervisión humana puede ser participación, control o mando, y que se ajusta al riesgo. También aprendiste a dejar registro, a hacer el
+supervisión humana puede ser participación, control o mando [@F-M5-12], y que se ajusta al riesgo [@F-M5-13]. También aprendiste a dejar registro, a hacer el
 flujo reversible, a escribir un plan de contingencia y a medir si tus controles sirven.
 
 Con eso puedes completar tu prototipo. Un flujo con supervisión humana no es más lento: es uno en el que puedes confiar y del que puedes
@@ -376,57 +376,17 @@ Trabaja siempre con datos ficticios o con copias sin datos sensibles.
 6. Un plan de contingencia dice cómo detectar la falla, detener el flujo, seguir a mano, recuperar lo perdido, avisar y quién responde.
 7. Los controles se evalúan con pruebas: errores detectados, falsas alarmas y tiempo de revisión.
 
-## Glosario
+## Referencias bibliográficas
 
-- **Error en cadena**: error que nace en un paso de un flujo y se repite en los siguientes y en cada ejecución.
-- **Confabulación**: contenido falso que la IA generativa entrega con tono seguro; también se le llama alucinación.
-- **Sesgo de automatización**: tendencia a confiar de más en lo que entrega un sistema automático.
-- **Supervisión humana**: intervención de personas para revisar, corregir o detener lo que hace un sistema de IA.
-- **Participación humana (*human-in-the-loop*)**: supervisión en que una persona interviene en cada decisión del sistema.
-- **Control humano (*human-on-the-loop*)**: supervisión en que una persona diseña el sistema y sigue su funcionamiento, sin revisar
-  cada caso.
-- **Mando humano (*human-in-command*)**: supervisión global en que una persona decide cuándo y cómo usar el sistema, o no usarlo.
-- **Punto de control**: lugar de un flujo donde una persona revisa el resultado antes de que siga.
-- **Criterio de aprobación**: pregunta de sí o no que la persona revisora usa para aprobar o rechazar un resultado.
-- **Trazabilidad (de un flujo)**: posibilidad de reconstruir qué datos, pasos y decisiones llevaron a un resultado.
-- **Reversibilidad**: posibilidad de detener un flujo y deshacer o corregir sus efectos.
-- **Plan de contingencia**: acuerdo previo sobre qué hacer si un flujo falla o se equivoca.
-- **Decisión automatizada**: decisión basada en el tratamiento automatizado de datos, sin intervención de una persona.
-- **Rendición de cuentas**: obligación de responder por el funcionamiento y los resultados de un sistema que se puso en marcha.
-
-## Conexión con el proyecto
-
-Con la actividad de cierre (P14) completas el **Hito 5 del proyecto aplicado: prototipo de automatización de un paso del proceso,
-con supervisión humana**. Entregas el flujo del tema 2 con su mapa de riesgos, puntos de control, criterios de aprobación, registro,
-plan de contingencia y la evaluación de tus controles.
-
-## Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M5.md`, `investigacion/M3.md`, `investigacion/HERRAMIENTAS-1.md` y
-`investigacion/HERRAMIENTAS-2.md` (consultadas el 24-10-2026).
-
-- F-M5-06 · University of Bath (s. f.). Automation standards for Microsoft Power Automate. https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate
-- F-M5-08 · Microsoft Learn (2022). Agregar una condición a un flujo de nube en Power Automate. https://learn.microsoft.com/es-es/power-automate/add-condition
-- F-M5-10 · Zapier Help Center (2026). Send data between steps by mapping fields. https://help.zapier.com/hc/en-us/articles/8496343026701
-- F-M5-11 · Zapier Help Center (2026). How to troubleshoot errors in Zap workflows. https://help.zapier.com/hc/en-us/articles/8496037690637
-- F-M5-12 · Comisión Europea, Grupo independiente de expertos de alto nivel sobre IA (2019). Directrices éticas para una IA fiable. https://digital-strategy.ec.europa.eu/es/node/1950
-- F-M5-13 · NIST (2023). Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf
-- F-M5-14 · NIST (2024). AI RMF: Generative Artificial Intelligence Profile, NIST AI 600-1. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
-- F-M5-15 · OCDE (2019, actualizados en 2024). Principios de la OCDE sobre IA (principios 1.2, 1.4 y 1.5). https://oecd.ai/en/ai-principles
-- F-M5-16 · Congreso Nacional de Chile, BCN LeyChile (2024). Ley 21.719, regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales. https://www.bcn.cl/leychile/navegar?idLey=21719
-- F-M3-16 · Senado de Chile (2026). Tramitación del boletín 18623-07: proyecto que modifica la Ley 21.719. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=18623
-- F-H-15 · Google (s. f.). Centro de Privacidad de las Aplicaciones de Gemini. https://support.google.com/gemini/answer/13594961?hl=es
-- F-H-93 · Zapier (2026). Plans & Pricing. https://zapier.com/pricing
-
-Notas para revisar antes de publicar:
-- **Ley 21.719 (P05):** según su texto, rige desde el 01-12-2026; el boletín 18623-07, que propone postergarla al 01-12-2027, sigue
-  en trámite (F-M3-16). **Revisar antes de publicar** y ajustar la fecha si la ley se modifica.
-- **NIST AI RMF:** la ficha de NIST indica que el AI RMF 1.0 está en revisión. Revisar antes de publicar.
-- **Errores en cadena (P02):** es una explicación del curso a partir de cómo pasan los datos entre pasos (F-M5-10); ninguna fuente lo
-  dice con esas palabras.
-- **Equivalencias en inglés (P06):** la versión en español de las directrices no usa *human-in-the-loop*, *on-the-loop* ni
-  *in-command*; la equivalencia sale de comparar con los términos en inglés de la Comisión.
-- **Aprobación humana automática (P07):** el contenido solo afirma lo verificado en F-H-93 (Zapier gratis permite dos pasos). La tabla
-  de niveles de revisión (P08) y la prueba de controles (P12) son propuestas del curso.
-- **P10:** volver a ejecutar lo fallido se respalda en M5-AE2 P12 (F-M5-11). **P13:** el sesgo de automatización se respalda en P04
-  (F-M5-14); el ejemplo de la empresa que automatiza todo es ficticio y general.
+- Google. (s. f.). *Centro de privacidad de las aplicaciones de Gemini*. https://support.google.com/gemini/answer/13594961?hl=es
+- Grupo independiente de expertos de alto nivel sobre inteligencia artificial. (2019). *Directrices éticas para una IA fiable*. Comisión Europea. https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60423
+- Ley 21.719. (2024, 13 de diciembre). *Regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idLey=21719
+- Microsoft. (2022, 16 de mayo). *Agregar una condición a un flujo de nube en Power Automate*. Microsoft Learn. https://learn.microsoft.com/es-es/power-automate/add-condition
+- National Institute of Standards and Technology. (2023). *Artificial intelligence risk management framework (AI RMF 1.0) (NIST AI 100-1)*. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf
+- National Institute of Standards and Technology. (2024). *Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)*. https://doi.org/10.6028/NIST.AI.600-1
+- OCDE. (2024). *Principios de la OCDE sobre IA*. OECD.AI. https://oecd.ai/en/ai-principles
+- Senado de Chile. (2026). *Proyecto que modifica la Ley 21.719 (Boletín 18623-07)*. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=18623
+- University of Bath. (s. f.). *Automation standards for Microsoft Power Automate*. https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate
+- Zapier. (2026a, 15 de octubre). *How to troubleshoot errors in Zap workflows*. Zapier Help Center. https://help.zapier.com/hc/en-us/articles/8496037690637
+- Zapier. (2026b, 23 de octubre). *Plans & pricing*. https://zapier.com/pricing
+- Zapier. (2026c, 18 de junio). *Send data between steps by mapping fields*. Zapier Help Center. https://help.zapier.com/hc/en-us/articles/8496343026701

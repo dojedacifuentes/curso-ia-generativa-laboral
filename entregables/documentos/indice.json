@@ -70,6 +70,11 @@
     "titulo": "Criterios de corrección del 28-10-2026"
   },
   {
+    "grupo": "proceso",
+    "nombre": "15-CRITERIOS-29-10",
+    "titulo": "Criterios de corrección del 29-10-2026"
+  },
+  {
     "grupo": "investigacion",
     "nombre": "01-M1",
     "titulo": "Investigación M1 · Introducción a la IA generativa y prompt básico"

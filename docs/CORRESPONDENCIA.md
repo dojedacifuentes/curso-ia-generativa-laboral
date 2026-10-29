@@ -1,6 +1,6 @@
 # Correspondencia contenido ↔ planilla
 
-Generado con `node scripts/correspondencia.mjs` el 2026-10-28. Fuente: planilla «Estructura_inicial_contenido_IA_generativa»
+Generado con `node scripts/correspondencia.mjs` el 2026-10-29. Fuente: planilla «Estructura_inicial_contenido_IA_generativa»
 (hojas Estructura, Matriz coherencia, Recursos y Casos y proyecto) importada en `data/curso.json`.
 
 **Resultado:** todo calza · 338 pantallas (la planilla pide 338)
@@ -8,30 +8,30 @@ Generado con `node scripts/correspondencia.mjs` el 2026-10-28. Fuente: planilla 
 
 ## Resumen por AE
 
-| AE | Texto del AE igual | Pantallas | Min Rise (diseñado / planilla) | Códigos S/H/A/C cubiertos | Hito en «Conexión» y casos sin nombrar | Comprueba / error / actividad | Fuentes citadas |
+| AE | Texto del AE igual | Pantallas | Min Rise (diseñado / planilla) | Códigos S/H/A/C cubiertos | Hito con actividades y casos sin nombrar | Comprueba / error / actividad | Fuentes citadas |
 |---|---|---|---|---|---|---|---|
-| M1-AE1 | ✓ | 16/16 ✓ | 120 / 120 | 10/10 ✓ | 1 ✓ | 3 / 1 / 6 | 12 |
-| M1-AE2 | ✓ | 16/16 ✓ | 120 / 120 | 9/9 ✓ | 1 ✓, M1-C1 sin nombrar ✓ | 4 / 0 / 5 | 8 |
+| M1-AE1 | ✓ | 16/16 ✓ | 120 / 120 | 10/10 ✓ | Hito 1 con actividades ✓ | 3 / 1 / 6 | 12 |
+| M1-AE2 | ✓ | 16/16 ✓ | 120 / 120 | 9/9 ✓ | Hito 1 con actividades ✓, M1-C1 sin nombrar ✓ | 4 / 0 / 5 | 8 |
 | M1-AE3 | ✓ | 16/16 ✓ | 120 / 120 | 7/7 ✓ | M1-C1 sin nombrar ✓ | 4 / 3 / 3 | 9 |
 | M1-AE4 | ✓ | 17/17 ✓ | 127.5 / 127.5 | 8/8 ✓ | M1-C2 sin nombrar ✓ | 4 / 4 / 3 | 10 |
-| M2-AE1 | ✓ | 18/18 ✓ | 135 / 135 | 8/8 ✓ | 2 ✓, M2-C1 sin nombrar ✓ | 6 / 2 / 5 | 12 |
+| M2-AE1 | ✓ | 18/18 ✓ | 135 / 135 | 8/8 ✓ | Hito 2 con actividades ✓, M2-C1 sin nombrar ✓ | 6 / 2 / 5 | 12 |
 | M2-AE2 | ✓ | 18/18 ✓ | 135 / 135 | 6/6 ✓ | M2-C1 sin nombrar ✓ | 3 / 1 / 8 | 8 |
-| M2-AE3 | ✓ | 17/17 ✓ | 127.5 / 127.5 | 8/8 ✓ | 2 ✓, M2-C2 sin nombrar ✓ | 3 / 1 / 6 | 9 |
+| M2-AE3 | ✓ | 17/17 ✓ | 127.5 / 127.5 | 8/8 ✓ | Hito 2 con actividades ✓, M2-C2 sin nombrar ✓ | 3 / 1 / 6 | 9 |
 | M2-AE4 | ✓ | 18/18 ✓ | 135 / 135 | 8/8 ✓ | M2-C2 sin nombrar ✓ | 5 / 2 / 7 | 12 |
-| M3-AE1 | ✓ | 18/18 ✓ | 135 / 135 | 7/7 ✓ | 3 ✓ | 4 / 0 / 5 | 14 |
+| M3-AE1 | ✓ | 18/18 ✓ | 135 / 135 | 7/7 ✓ | Hito 3 con actividades ✓ | 4 / 0 / 5 | 14 |
 | M3-AE2 | ✓ | 18/18 ✓ | 135 / 135 | 8/8 ✓ | M3-C1 sin nombrar ✓ | 5 / 2 / 4 | 12 |
-| M3-AE3 | ✓ | 17/17 ✓ | 127.5 / 127.5 | 7/7 ✓ | 3 ✓ | 4 / 3 / 4 | 8 |
+| M3-AE3 | ✓ | 17/17 ✓ | 127.5 / 127.5 | 7/7 ✓ | Hito 3 con actividades ✓ | 4 / 3 / 4 | 8 |
 | M3-AE4 | ✓ | 18/18 ✓ | 135 / 135 | 9/9 ✓ | M3-C1 sin nombrar ✓, M3-C2 sin nombrar ✓ | 4 / 3 / 2 | 12 |
 | M4-AE1 | ✓ | 15/15 ✓ | 112.5 / 112.5 | 9/9 ✓ | M4-C3 sin nombrar ✓ | 4 / 3 / 4 | 16 |
-| M4-AE2 | ✓ | 15/15 ✓ | 112.5 / 112.5 | 8/8 ✓ | 4 ✓, M4-C1 sin nombrar ✓ | 4 / 2 / 4 | 15 |
+| M4-AE2 | ✓ | 15/15 ✓ | 112.5 / 112.5 | 8/8 ✓ | Hito 4 con actividades ✓, M4-C1 sin nombrar ✓ | 4 / 2 / 4 | 15 |
 | M4-AE3 | ✓ | 14/14 ✓ | 105 / 105 | 7/7 ✓ | M4-C2 sin nombrar ✓ | 3 / 2 / 4 | 17 |
-| M4-AE4 | ✓ | 15/15 ✓ | 112.5 / 112.5 | 8/8 ✓ | 4 ✓, M4-C1 sin nombrar ✓ | 5 / 1 / 4 | 13 |
+| M4-AE4 | ✓ | 15/15 ✓ | 112.5 / 112.5 | 8/8 ✓ | Hito 4 con actividades ✓, M4-C1 sin nombrar ✓ | 5 / 1 / 4 | 13 |
 | M5-AE1 | ✓ | 15/15 ✓ | 112.5 / 112.5 | 8/8 ✓ | M5-C1 sin nombrar ✓, M5-C2 sin nombrar ✓ | 2 / 3 / 4 | 8 |
-| M5-AE2 | ✓ | 14/14 ✓ | 105 / 105 | 9/9 ✓ | 5 ✓ | 3 / 3 / 4 | 11 |
-| M5-AE3 | ✓ | 14/14 ✓ | 105 / 105 | 8/8 ✓ | 5 ✓, M5-C1 sin nombrar ✓, M5-C2 sin nombrar ✓ | 4 / 2 / 3 | 12 |
-| M6-AE1 | ✓ | 10/10 ✓ | 75 / 75 | 8/8 ✓ | 6a ✓ | 3 / 0 / 4 | 7 |
-| M6-AE2 | ✓ | 10/10 ✓ | 75 / 75 | 9/9 ✓ | 6b ✓ | 3 / 0 / 5 | 12 |
-| M6-AE3 | ✓ | 9/9 ✓ | 67.5 / 67.5 | 8/8 ✓ | 6c ✓, 6d ✓ | 2 / 0 / 4 | 11 |
+| M5-AE2 | ✓ | 14/14 ✓ | 105 / 105 | 9/9 ✓ | Hito 5 con actividades ✓ | 3 / 3 / 4 | 11 |
+| M5-AE3 | ✓ | 14/14 ✓ | 105 / 105 | 8/8 ✓ | Hito 5 con actividades ✓, M5-C1 sin nombrar ✓, M5-C2 sin nombrar ✓ | 4 / 2 / 3 | 12 |
+| M6-AE1 | ✓ | 10/10 ✓ | 75 / 75 | 8/8 ✓ | Hito 6a con actividades ✓ | 3 / 0 / 4 | 7 |
+| M6-AE2 | ✓ | 10/10 ✓ | 75 / 75 | 9/9 ✓ | Hito 6b con actividades ✓ | 3 / 0 / 5 | 12 |
+| M6-AE3 | ✓ | 9/9 ✓ | 67.5 / 67.5 | 8/8 ✓ | Hito 6c con actividades ✓, Hito 6d con actividades ✓ | 2 / 0 / 4 | 11 |
 
 ## Detalle: qué pantallas trabajan cada contenido y criterio
 

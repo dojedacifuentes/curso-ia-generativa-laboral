@@ -42,8 +42,8 @@ Vas a redactar **un** archivo `contenido/M<n>/M<n>-AE<k>.md` del curso «IA gene
   Los errores frecuentes pueden ir en el texto («Un error común es…»).
 - **Cierre:** termina con:
   - «Ideas clave» (5–7);
-  - «Glosario» (8–14 términos; no repitas los de AE anteriores del módulo salvo que el AE los redefina);
-  - «Conexión con el proyecto» (el hito del módulo que trabaja tu AE, según curso.json; sin nombrar casos);
+  - (29-10) el glosario del AE va en `glosario/M<n>.md` (8–14 términos) y no hay «Conexión con el proyecto»;
+  - las citas van con marcas `[@F-…]` y la lista «Referencias bibliográficas» la escribe `referencias-apa.mjs --escribir`;
   - «Fuentes».
 
 ## Al terminar

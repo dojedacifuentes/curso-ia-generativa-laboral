@@ -14,7 +14,7 @@ alucinaciones, errores y sesgos. Al terminar deberías poder identificar errores
 importante con al menos dos fuentes confiables y corregir o descartar lo que no puedas verificar.
 
 El tema se apoya en casos. Los errores que vas a ver son de tipos que documentan organismos y proveedores, como el NIST de Estados
-Unidos y OpenAI. Los ejemplos con Camila, Andrés, Rosa y otras personas son ficticios, pero muestran cómo aparecen esos errores en
+Unidos y OpenAI [@F-M1-01; @F-M1-09]. Los ejemplos con Camila, Andrés, Rosa y otras personas son ficticios, pero muestran cómo aparecen esos errores en
 tareas de oficina. En la actividad de análisis de casos vas a ver además situaciones reales en que alguien usó una respuesta sin
 verificarla.
 
@@ -27,10 +27,10 @@ bloque: Texto + recuadro destacado
 
 Un modelo de lenguaje no consulta una base de datos de verdades: produce texto plausible a partir de patrones. El NIST explica que
 inventar contenido es un resultado natural de ese diseño, porque el modelo predice el texto según los patrones estadísticos de sus
-datos, no según lo que es cierto. Y lo inventado sale con la misma seguridad que lo correcto.
+datos, no según lo que es cierto [@F-M1-01]. Y lo inventado sale con la misma seguridad que lo correcto.
 
 La ayuda de ChatGPT lo dice de forma directa: el asistente puede dar respuestas incorrectas o engañosas con aparente seguridad, y esa
-seguridad no garantiza que sea fiable. Por eso recomienda usarlo como primer borrador y no como fuente final. Un error común es pensar
+seguridad no garantiza que sea fiable [@F-M1-09]. Por eso recomienda usarlo como primer borrador y no como fuente final. Un error común es pensar
 que una respuesta detallada debe ser cierta. El detalle es parte del estilo del modelo: una cifra con decimales o una cita con número
 de artículo también pueden ser inventadas.
 
@@ -50,13 +50,13 @@ cubre: S1, C1
 fuentes: F-M1-01, F-M1-09
 bloque: Texto + knowledge check
 
-La **alucinación**, que el NIST llama confabulación, es contenido falso o erróneo presentado con seguridad. Puede tomar la forma de
+La **alucinación**, que el NIST llama confabulación, es contenido falso o erróneo presentado con seguridad [@F-M1-01]. Puede tomar la forma de
 datos inventados, como cifras, fechas o nombres de personas y empresas que no existen o no corresponden. Puede aparecer como citas y
 fuentes inventadas: títulos de estudios, artículos de una ley o enlaces que no llevan a ninguna parte o que dicen otra cosa, algo que
-la propia ayuda de ChatGPT advierte. Y puede venir envuelta en un razonamiento que justifica algo falso, porque el modelo es capaz de
+la propia ayuda de ChatGPT advierte [@F-M1-09]. Y puede venir envuelta en un razonamiento que justifica algo falso, porque el modelo es capaz de
 entregar pasos «lógicos» que hacen parecer correcta una respuesta equivocada.
 
-Es más probable cuando pides citas o estudios, en respuestas largas a preguntas abiertas y en temas que exigen conocimiento experto. Un
+Es más probable cuando pides citas o estudios, en respuestas largas a preguntas abiertas y en temas que exigen conocimiento experto [@F-M1-01]. Un
 error común es dar por real un estudio porque trae nombre y año. Esos detalles dan apariencia de rigor, pero el modelo también los
 puede inventar, así que toda cita se busca en su origen.
 
@@ -82,8 +82,8 @@ El **sesgo** aparece cuando la respuesta repite estereotipos o presenta una sola
 que una cifra inventada, porque el texto puede ser correcto en los datos y aun así ser parcial.
 
 Hay formas documentadas. Un estudio de la UNESCO encontró que, al pedir historias, los modelos asignaban a los hombres trabajos más
-variados y de más prestigio, y a las mujeres roles domésticos o desvalorizados. El NIST describe modelos de imagen que, al pedir un
-gerente, un médico o un juez, dejan fuera a mujeres, a minorías y a personas con discapacidad. Y llama «homogeneización» a las salidas
+variados y de más prestigio, y a las mujeres roles domésticos o desvalorizados [@F-M1-11]. El NIST describe modelos de imagen que, al pedir un
+gerente, un médico o un juez, dejan fuera a mujeres, a minorías y a personas con discapacidad [@F-M1-01]. Y llama «homogeneización» a las salidas
 que se parecen demasiado entre sí, como si hubiera una sola manera de decir las cosas.
 
 Para detectarlo sirven dos preguntas: ¿a quién deja fuera esta respuesta?, ¿qué supone sin que yo se lo haya dicho? Si la respuesta
@@ -101,14 +101,14 @@ fuentes: F-M1-09, F-H-16
 bloque: Texto + línea de tiempo
 
 La **desactualización** ocurre cuando la respuesta da como vigente algo que ya cambió. Se debe a la fecha de corte: el modelo no conoce
-lo que pasó después de su entrenamiento, salvo que use herramientas como la búsqueda web. Es más probable con:
+lo que pasó después de su entrenamiento, salvo que use herramientas como la búsqueda web [@F-M1-09]. Es más probable con:
 
 - valores que cambian cada año, como montos, porcentajes o tarifas;
 - normas, trámites y requisitos que se modifican;
 - horarios, direcciones y contactos de servicios;
 - nombres de cargos y autoridades.
 
-Gemini a veces muestra un botón «Fuentes» con los enlaces que usó, y ChatGPT con la búsqueda activada puede citar fuentes recientes.
+Gemini a veces muestra un botón «Fuentes» con los enlaces que usó, y ChatGPT con la búsqueda activada puede citar fuentes recientes [@F-H-16; @F-M1-09].
 Eso ayuda, pero no resuelve todo: la página que encontró puede ser antigua o poco confiable, y el resumen puede tener errores. Camila
 lo comprobó cuando preguntó el horario de atención de una oficina pública donde debía hacer un trámite para la constructora. El
 asistente le dio un horario con total seguridad; en el sitio del servicio vio que había cambiado hace unos meses.
@@ -123,7 +123,7 @@ cubre: S1, C1
 fuentes: F-M1-01
 bloque: Texto + knowledge check
 
-Además de los tres errores principales, el NIST documenta salidas que no siguen el texto entregado o que se contradicen. Son
+Además de los tres errores principales, el NIST documenta salidas que no siguen el texto entregado o que se contradicen [@F-M1-01]. Son
 frecuentes cuando le pides resumir o transformar un documento, y aparecen de cuatro maneras:
 
 - agrega algo que el texto no dice, como la firma del gerente general en el resumen del instructivo de Camila;
@@ -159,7 +159,7 @@ entrenar el ojo.
 > además inscribirte en un curso de contabilidad avanzada.»
 
 Algunas partes sirven y otras no. La lista de datos que se anotan de cada factura responde bien a lo pedido; el resto merece una
-segunda mirada antes de que Camila use algo de esta respuesta.
+segunda mirada antes de que Camila use algo de esta respuesta [@F-M1-01; @F-M1-11].
 
 :::actividad Marca los errores
 Identifica en la respuesta:
@@ -177,7 +177,7 @@ fuentes: F-M1-19, F-M1-20
 bloque: Texto + tabla
 
 Para contrastar necesitas **fuentes confiables**. ¿Cómo sabes si una lo es? El investigador Mike Caulfield propone preguntarse quién
-está detrás, con qué experiencia y con qué intereses. A partir de eso, puedes usar estos criterios:
+está detrás, con qué experiencia y con qué intereses [@F-M1-19]. A partir de eso, puedes usar estos criterios:
 
 | Criterio | Pregunta | Señal de confianza |
 |---|---|---|
@@ -189,7 +189,7 @@ está detrás, con qué experiencia y con qué intereses. A partir de eso, puede
 | Independencia | ¿Lo confirman otras? | Otras fuentes sin relación entre sí dicen lo mismo |
 
 Un estudio de la Universidad de Stanford encontró que incluso personas expertas en otros temas se dejaban engañar por logos y dominios
-de apariencia seria. El aspecto de un sitio no prueba que sea confiable.
+de apariencia seria [@F-M1-20]. El aspecto de un sitio no prueba que sea confiable.
 
 :::error «Si el sitio se ve profesional, es confiable»
 Un buen diseño, un logo o un dominio que parece institucional se pueden imitar. Lo que importa es quién está detrás, y eso se averigua
@@ -204,12 +204,12 @@ bloque: Texto + proceso en 3 pasos
 Los investigadores Sam Wineburg y Sarah McGrew compararon cómo evalúan un sitio web historiadores, estudiantes y verificadores
 profesionales de información. Historiadores y estudiantes leyeron el sitio de arriba abajo, sin salir de él, y a eso le llamaron
 **lectura vertical**. Los verificadores, en cambio, tras un vistazo rápido salieron del sitio y abrieron otras pestañas para ver qué
-decían otras fuentes de él. A eso le llamaron **lectura lateral**, y con ella llegaron a mejores conclusiones en menos tiempo.
+decían otras fuentes de él. A eso le llamaron **lectura lateral**, y con ella llegaron a mejores conclusiones en menos tiempo [@F-M1-20].
 
 Desde el celular se hace en tres pasos:
 
 1. No te quedes leyendo la página que te dio el asistente.
-2. Abre una pestaña nueva y busca el nombre de la fuente: quién es y qué dicen otros de ella.
+2. Abre una pestaña nueva y busca el nombre de la fuente: quién es y qué dicen otros de ella [@F-M1-19].
 3. Vuelve solo si lo que encontraste te da confianza.
 
 Andrés lo probó con un enlace que le dio el asistente: un sitio con recomendaciones de seguridad para bodegas que se veía serio. En
@@ -230,7 +230,7 @@ cubre: S2, S3
 fuentes: F-M1-19
 bloque: Proceso (process block) en 4 pasos o flashcards
 
-Mike Caulfield resumió la evaluación de información en cuatro movimientos, conocidos por su sigla en inglés: **SIFT**.
+Mike Caulfield resumió la evaluación de información en cuatro movimientos, conocidos por su sigla en inglés: **SIFT** [@F-M1-19].
 
 1. Detente (Stop). Antes de usar o compartir, pregúntate si conoces esta fuente y si sabes que es confiable.
 2. Investiga la fuente (Investigate the source). Averigua quién está detrás, qué experiencia tiene y qué intereses; aquí usas la lectura lateral.
@@ -252,8 +252,8 @@ fuentes: F-H-16, F-M1-09
 bloque: Texto + imagen de una respuesta con fuentes
 
 Varios asistentes muestran de dónde sacaron la información. A veces Gemini muestra un botón «Fuentes» con enlaces a sitios web o a
-archivos que subiste, y ChatGPT, con la búsqueda activada, puede citar fuentes recientes. Es una gran ayuda, pero una fuente citada no
-es una fuente verificada. La propia ayuda de ChatGPT recomienda revisar las citas y abrir los enlaces.
+archivos que subiste, y ChatGPT, con la búsqueda activada, puede citar fuentes recientes [@F-H-16; @F-M1-09]. Es una gran ayuda, pero una fuente citada no
+es una fuente verificada. La propia ayuda de ChatGPT recomienda revisar las citas y abrir los enlaces [@F-M1-09].
 
 Al abrirlos, comprueba tres cosas:
 
@@ -285,7 +285,7 @@ Ahora juntas todo en un **checklist de validación**: una lista de pasos que apl
 7. [ ] Reviso sesgo y vigencia: ¿a quién deja fuera?, ¿el dato sigue vigente?
 8. [ ] Decido: mantengo, corrijo o descarto cada afirmación.
 
-Los pasos 1, 4, 5 y 6 vienen de SIFT y de las recomendaciones de los proveedores. El mínimo de dos fuentes es un criterio de este
+Los pasos 1, 4, 5 y 6 vienen de SIFT y de las recomendaciones de los proveedores [@F-M1-19; @F-M1-09]. El mínimo de dos fuentes es un criterio de este
 curso, no de una fuente externa: te asegura que no dependes de una sola página.
 
 :::clave
@@ -307,7 +307,7 @@ Después de contrastar, cada afirmación cae en una de estas situaciones:
 | Las fuentes no coinciden entre sí | Buscas la fuente original o lo dejas fuera hasta aclararlo |
 | No encuentras ninguna fuente | Lo descartas, o lo marcas como «no verificado» si es indispensable mencionarlo |
 
-Fíjate en la última fila. Lo que no puedes verificar no se usa como si fuera cierto, y **descartar** no es perder trabajo: es evitar
+Fíjate en la última fila. Lo que no puedes verificar no se usa como si fuera cierto [@F-M1-09; @F-M1-19], y **descartar** no es perder trabajo: es evitar
 que un error salga con tu nombre. Andrés tenía tres datos en un borrador de procedimiento. El primero lo confirmó en dos fuentes y lo
 mantuvo. El segundo estaba desactualizado y lo corrigió con la norma vigente. El tercero, un porcentaje sin origen, no apareció en
 ninguna parte, así que lo borró.
@@ -325,8 +325,8 @@ bloque: Texto + comparación antes/después
 
 Validar es la defensa principal, pero también puedes bajar el riesgo de error desde el prompt. Los proveedores documentan dos medidas.
 La primera es entregar el texto y pedir que use solo ese contexto: la guía de Google propone limitar al modelo a la información que le
-das, para que trabaje sobre tu documento y no rellene con datos de otra parte. La segunda es permitirle decir «no lo sé». OpenAI
-explica que un modelo puede abstenerse en vez de inventar, y si se lo pides de forma explícita le das una salida honesta.
+das, para que trabaje sobre tu documento y no rellene con datos de otra parte [@F-M1-15]. La segunda es permitirle decir «no lo sé». OpenAI
+explica que un modelo puede abstenerse en vez de inventar [@F-M1-10], y si se lo pides de forma explícita le das una salida honesta.
 
 Camila lo aplicó a una consulta frecuente de su equipo. Antes preguntaba: «¿Qué documentos hay que adjuntar a una rendición de
 gastos?», y el asistente respondía con una lista general que mezclaba prácticas de otras empresas. Ahora escribe:
@@ -351,8 +351,8 @@ Ahora aplicas el checklist a una respuesta real, sobre un tema de tu trabajo.
 1. Abre Gemini o el asistente que uses.
 2. Pide información verificable sobre un tema de tu cargo, sin datos personales ni de tu empresa. Por ejemplo: «¿Qué elementos de protección personal se usan en una bodega?» o «¿Qué debe tener una boleta electrónica?».
 3. Marca tres afirmaciones verificables de la respuesta.
-4. Revisa si muestra un botón o una lista de fuentes, y ábrelas.
-5. Busca dos fuentes confiables por cada afirmación, con lectura lateral.
+4. Revisa si muestra un botón o una lista de fuentes, y ábrelas [@F-H-16].
+5. Busca dos fuentes confiables por cada afirmación, con lectura lateral [@F-M1-19].
 6. Decide qué haces con cada una.
 
 Si una afirmación no se puede verificar en dos fuentes confiables, no la uses en tu versión final y anota por qué la descartaste.
@@ -374,8 +374,8 @@ bloque: Texto + escenario
 
 Cuando firmas un informe, envías un correo o publicas un aviso, quien responde eres tú, no la herramienta. La guía de Google para
 Gemini lo dice con todas sus letras: hay que revisar todo resultado antes de usarlo, porque la persona es responsable del resultado
-final. El NIST agrega un riesgo que conviene conocer, el **sesgo de automatización**: la tendencia a confiar de más en lo que entrega
-una máquina. Mientras más cómodo y rápido es el asistente, más fácil es dejar de revisar.
+final [@F-M1-12]. El NIST agrega un riesgo que conviene conocer, el **sesgo de automatización**: la tendencia a confiar de más en lo que entrega
+una máquina [@F-M1-01]. Mientras más cómodo y rápido es el asistente, más fácil es dejar de revisar.
 
 En la práctica, la **responsabilidad profesional** significa revisar con más cuidado mientras más grave sería el error, no firmar ni
 enviar lo que no entiendes o no revisaste, avisar cuando no pudiste verificar algo en vez de presentarlo como seguro, y corregir rápido
@@ -403,10 +403,10 @@ fuentes: F-M1-02, F-M1-09
 bloque: Texto + actividad de cierre
 
 La **honestidad intelectual** es no presentar como propio, ni como seguro, algo que no lo es. Con la IA generativa significa no hacer
-pasar como tuyo un texto generado cuando eso importa, porque la UNESCO lo describe como una forma nueva de plagio, y decir que usaste
+pasar como tuyo un texto generado cuando eso importa, porque la UNESCO lo describe como una forma nueva de plagio [@F-M1-02], y decir que usaste
 IA cuando a quien lo recibe le importa saberlo. Significa también separar lo verificado de lo que no: si algo no lo pudiste confirmar,
 lo dices. Y significa no confiar en los «detectores» de texto hecho con IA; la ayuda de ChatGPT advierte que no puede determinar si un
-texto fue escrito por una IA.
+texto fue escrito por una IA [@F-M1-09].
 
 En este tema viste los tipos de error que conviene buscar (alucinación, sesgo, desactualización y salidas que no siguen el texto), los
 criterios para saber si una fuente es confiable, la lectura lateral, el método SIFT y tu checklist de validación. También practicaste
@@ -430,45 +430,15 @@ Escribe en tu bitácora:
 6. Un buen prompt reduce el error, pero no lo elimina: la validación sigue siendo necesaria.
 7. Quien firma o comparte responde por el contenido, y la honestidad intelectual exige decir qué se verificó y cuándo se usó IA.
 
-## Glosario
+## Referencias bibliográficas
 
-- **Validación**: revisión de una respuesta generada, contrastándola con el texto original y con fuentes confiables, antes de usarla.
-- **Confabulación**: nombre que usa el NIST para la alucinación: contenido falso o erróneo presentado con seguridad.
-- **Desactualización**: error de una respuesta que da como vigente un dato que ya cambió.
-- **Afirmación verificable**: dato, cifra, fecha, nombre, cita o referencia que se puede comprobar en una fuente.
-- **Fuente confiable**: fuente con autoría identificable, experiencia en el tema, intereses claros y fecha vigente.
-- **Fuente original**: documento, norma o sitio del que sale un dato, a diferencia de un comentario o resumen sobre él.
-- **Lectura vertical**: evaluar un sitio leyéndolo de arriba abajo, sin salir de él.
-- **Lectura lateral**: evaluar un sitio saliendo de él para ver qué dicen otras fuentes sobre quién está detrás.
-- **SIFT**: método de cuatro pasos para evaluar información: detenerse, investigar la fuente, buscar mejor cobertura y rastrear hasta
-  el original.
-- **Checklist de validación**: lista de pasos que se aplica a una respuesta generada antes de usarla o compartirla.
-- **Sesgo de automatización**: tendencia a confiar de más en lo que entrega una máquina y dejar de revisarlo.
-- **Honestidad intelectual**: actitud de no presentar como propio ni como seguro lo que no lo es.
-
-## Conexión con el proyecto
-
-Tu checklist (P12) y tu tabla de validación (P15) los vas a aplicar a las respuestas que obtienes con tu **biblioteca de prompts** del
-**Hito 1 del proyecto aplicado: problema u oportunidad real + biblioteca de prompts v1**, antes de dar por buena una plantilla. Los
-seguirás usando en los módulos siguientes, cada vez que una respuesta de IA vaya a salir con tu nombre.
-
-## Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M1.md` e `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
-
-- F-M1-01 · NIST (2024). Generative Artificial Intelligence Profile (NIST AI 600-1). https://doi.org/10.6028/NIST.AI.600-1
-- F-M1-02 · UNESCO; Miao y Holmes (2024). Guía para el uso de IA generativa en educación e investigación. https://unesdoc.unesco.org/ark:/48223/pf0000389227_spa
-- F-M1-09 · OpenAI Help Center (2026). ¿Dice ChatGPT la verdad? https://help.openai.com/es-es/articles/8313428-does-chatgpt-tell-the-truth
-- F-M1-10 · OpenAI; Kalai y otros (2025). Por qué alucinan los modelos de lenguaje. https://openai.com/es-419/index/why-language-models-hallucinate/
-- F-M1-11 · Noticias ONU (2024). La inteligencia artificial ya reproduce estereotipos de género. https://news.un.org/es/story/2024/03/1528182
-- F-M1-12 · Google Workspace (2026). Cómo escribir instrucciones eficaces. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
-- F-M1-15 · Google AI for Developers (2026). Estrategias de diseño de instrucciones. https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419
-- F-M1-19 · Caulfield, M. (2019). SIFT (The Four Moves). https://hapgood.us/2019/06/19/sift-the-four-moves/
-- F-M1-20 · Wineburg, S. y McGrew, S. (2018). Lateral Reading and the Nature of Expertise (manuscrito, Stanford Digital Repository). https://purl.stanford.edu/yk133ht8603
-- F-H-16 · Google (s. f.). Ver fuentes relacionadas de las aplicaciones de Gemini. https://support.google.com/gemini/answer/14143489?hl=es
-
-Recomendaciones del curso, sin fuente: el mínimo de **dos fuentes** confiables para contrastar (C2; SIFT y la lectura lateral piden
-contrastar, pero no fijan un número), la tabla de criterios de confiabilidad de P08 como síntesis didáctica, el orden del checklist de
-P12, la tabla de decisión de P13 y el error «pedirle al mismo asistente que confirme» (P13), que se apoya en la recomendación de usar
-la IA como borrador y no como fuente final [F-M1-09]. Todos los ejemplos son ficticios, incluidas las historias de Marcela (P02) y de
-la tienda de electrodomésticos (P16), y los datos de la respuesta de P07 son inventados a propósito.
+- Caulfield, M. (2019, 19 de junio). *SIFT (The four moves)*. Hapgood. https://hapgood.us/2019/06/19/sift-the-four-moves/
+- Google. (s. f.-a). *Cómo escribir instrucciones eficaces*. Google Workspace. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
+- Google. (s. f.-b). *Ver fuentes relacionadas de las aplicaciones de Gemini*. https://support.google.com/gemini/answer/14143489?hl=es
+- Google. (2026, 13 de octubre). *Estrategias de diseño de instrucciones*. Google AI for Developers. https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419
+- Miao, F. y Holmes, W. (2024). *Guía para el uso de IA generativa en educación e investigación*. UNESCO. https://unesdoc.unesco.org/ark:/48223/pf0000389227_spa
+- National Institute of Standards and Technology. (2024). *Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)*. https://doi.org/10.6028/NIST.AI.600-1
+- Noticias ONU. (2024, 7 de marzo). *La inteligencia artificial ya reproduce estereotipos de género*. https://news.un.org/es/story/2024/03/1528182
+- OpenAI. (2025, 5 de septiembre). *Por qué alucinan los modelos de lenguaje*. https://openai.com/es-419/index/why-language-models-hallucinate/
+- OpenAI. (2026). *¿Dice ChatGPT la verdad?* OpenAI Help Center. https://help.openai.com/es-es/articles/8313428-does-chatgpt-tell-the-truth
+- Wineburg, S. y McGrew, S. (2018). *Lateral reading and the nature of expertise: Reading less and learning more when evaluating digital information*. Stanford Digital Repository. https://purl.stanford.edu/yk133ht8603

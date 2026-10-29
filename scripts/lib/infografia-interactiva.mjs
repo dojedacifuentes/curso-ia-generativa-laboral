@@ -4,7 +4,7 @@
 // anatomia arma el prompt, pasos llena la línea, matriz enfoca un cuadrante, mapa enciende el semáforo y ciclo hace girar la rueda.
 // Respeta «reducir movimiento». Sin JavaScript se ve todo abierto.
 
-export function htmlInteractivo(j, m, { curso, ac, semaforo, icono, esc, negrita, fuentes }) {
+export function htmlInteractivo(j, m, { curso, ac, semaforo, icono, esc, negrita, fuentes, logo, arcos, C, firma }) {
   const temas = Object.fromEntries(m.aes.map(a => [a.id, a.tema]));
   // «M1-AE2 P03», «M1-AE2 P10» → «Prompts efectivos»: pantallas 3 y 10
   const dondeVer = refs => {
@@ -21,7 +21,7 @@ export function htmlInteractivo(j, m, { curso, ac, semaforo, icono, esc, negrita
 
   const tarjeta = (x, extra = '') => `<article class="tarjeta" data-i="${x.i}" style="--d:${x.i}" ${extra}>
   <button class="cab" type="button" aria-expanded="false" aria-controls="det${x.i}" id="cab${x.i}">
-    ${x.icono ? `<span class="ico" aria-hidden="true">${icono(x.icono, 26)}</span>` : ''}
+    ${x.icono ? `<span class="ico" aria-hidden="true">${icono(x.icono, 24, '#fff')}</span>` : ''}
     <span class="tit">${numerado ? `<span class="num">${x.i + 1}</span>` : ''}${esc(x.titulo)}</span>
     <span class="estado" aria-hidden="true"><span class="mas">+</span><span class="ok">✓</span></span>
   </button>
@@ -63,13 +63,14 @@ ${items.map(x => { const a = (x.i / n) * 2 * Math.PI - Math.PI / 2; return `<but
   return `<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Infografía M${m.n} · ${esc(j.titulo)}</title><style>${fuentes}
 :root{--ac:${ac};--ac-s:color-mix(in srgb,${ac} 12%,#fff);--ac-m:color-mix(in srgb,${ac} 30%,#fff);--tx:#0F172A;--tx2:#475569;--bd:#E2E8F0;--bg:#F8FAFC}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--tx);font:400 17px/1.5 "Plex",system-ui,Arial,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--tx);font:400 16.5px/1.55 Montserrat,system-ui,Arial,sans-serif}
 button{font:inherit;color:inherit;cursor:pointer}:focus-visible{outline:3px solid var(--ac);outline-offset:3px;border-radius:12px}
-.hero{background:var(--ac);color:#fff;padding:40px 20px 34px;position:relative;overflow:hidden}
+.hero{background:${C.noche};color:#fff;padding:34px 20px 34px;position:relative;overflow:hidden}
+.hero .logo{height:34px;display:block;margin-bottom:22px}.hero .arcos{position:absolute;right:-70px;bottom:-20px;width:360px;height:180px;opacity:.9}.hero .in{position:relative}
 .hero .in,.barra .in,main,.clave,footer{max-width:960px;margin:0 auto}
-.hero .mod{font:600 13px/1 "Plex";letter-spacing:.12em;text-transform:uppercase;opacity:.9}
-.hero h1{font:700 clamp(30px,5vw,46px)/1.1 "Plex";margin:12px 0 10px;max-width:760px}.hero p{margin:0;max-width:720px;font-size:18px;opacity:.95}
-.burbuja{position:absolute;border-radius:50%;background:rgba(255,255,255,.09);animation:flota 9s ease-in-out infinite alternate}
+.hero .mod{font:400 14px/1.3 "Varela Round";color:${C.celeste}}
+.hero h1{font:400 clamp(30px,5vw,46px)/1.1 "Varela Round";margin:12px 0 10px;max-width:760px}.hero p{margin:0;max-width:720px;font-size:18px;opacity:.95}
+.burbuja{position:absolute;border-radius:50%;background:rgba(237,21,102,.10);animation:flota 9s ease-in-out infinite alternate}
 .b1{width:320px;height:320px;right:-90px;top:-120px}.b2{width:140px;height:140px;right:180px;bottom:-70px;animation-delay:-3s}.b3{width:60px;height:60px;right:90px;top:120px;animation-delay:-6s}
 @keyframes flota{to{transform:translate(-18px,14px) scale(1.06)}}
 .barra{position:sticky;top:0;z-index:5;background:rgba(248,250,252,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--bd)}
@@ -86,10 +87,10 @@ main{padding:26px 20px 10px}
 .tarjeta:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(15,23,42,.08)}
 .tarjeta.abierta{border-color:var(--ac-m)}.tarjeta.vista .cab .tit{color:var(--tx)}
 .cab{width:100%;display:flex;align-items:center;gap:14px;background:none;border:0;padding:16px 18px;text-align:left}
-.ico{flex:none;width:46px;height:46px;border-radius:14px;background:var(--ac-s);color:var(--ac);display:grid;place-items:center;transition:transform .3s}
+.ico{flex:none;width:46px;height:46px;border-radius:50%;background:${C.grafito};color:#fff;display:grid;place-items:center;transition:transform .3s}
 .tarjeta:hover .ico{transform:rotate(-6deg) scale(1.06)}
-.tit{flex:1;font:700 19px/1.25 "Plex";display:flex;align-items:center;gap:10px}
-.num{flex:none;width:30px;height:30px;border-radius:50%;background:var(--ac);color:#fff;display:inline-grid;place-items:center;font:700 15px/1 "Plex"}
+.tit{flex:1;font:400 19px/1.25 "Varela Round";display:flex;align-items:center;gap:10px}
+.num{flex:none;width:30px;height:30px;border-radius:50%;background:var(--ac);color:#fff;display:inline-grid;place-items:center;font:400 15px/1 "Varela Round"}
 .estado{flex:none;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--bg);font-weight:700;position:relative}
 .estado>span{grid-area:1/1;transition:transform .3s,opacity .3s}.estado .mas{color:var(--ac);font-size:20px}.estado .ok{opacity:0;transform:scale(.3);color:#fff}
 .abierta .estado .mas{transform:rotate(45deg)}
@@ -107,9 +108,9 @@ main{padding:26px 20px 10px}
 body.guiando .tarjeta:not(.foco),body.guiando .panel:not(.foco){opacity:.45}
 /* anatomía */
 .prompt{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;border:3px dashed var(--ac-m);border-radius:20px;padding:18px;background:#fff;margin-bottom:14px}
-.pieza{border:0;border-radius:12px;padding:10px 16px;font:700 18px/1 "Plex";color:#fff;background:color-mix(in srgb,var(--ac) calc(100% - var(--k)*12%),#0F172A);transition:transform .2s;animation:cae .5s backwards calc(var(--k)*120ms + .2s)}
+.pieza{border:0;border-radius:12px;padding:10px 16px;font:400 18px/1 "Varela Round";color:#fff;background:color-mix(in srgb,var(--ac) calc(100% - var(--k)*12%),#0F172A);transition:transform .2s;animation:cae .5s backwards calc(var(--k)*120ms + .2s)}
 .pieza:hover{transform:translateY(-3px) rotate(-2deg)}.pieza.on{outline:3px solid var(--ac-m)}
-.mas-p{font:700 22px/1 "Plex";color:#94A3B8}@keyframes cae{from{opacity:0;transform:translateY(-24px) scale(.8)}}
+.mas-p{font:400 22px/1 "Varela Round";color:#94A3B8}@keyframes cae{from{opacity:0;transform:translateY(-24px) scale(.8)}}
 .armar{text-align:center;margin-bottom:22px}.armado{margin:12px auto 0;max-width:820px;text-align:left;background:#0F172A;color:#E2E8F0;border-radius:16px;padding:0 18px;font-size:16px;min-height:0;transition:padding .3s}
 .armado:not(:empty){padding:16px 18px}.armado .p{border-radius:6px;padding:1px 4px}.cursor{display:inline-block;width:8px;height:1.1em;background:var(--ac-m);vertical-align:text-bottom;animation:parpadea 1s steps(1) infinite}
 @keyframes parpadea{50%{opacity:0}}
@@ -121,7 +122,7 @@ body.guiando .tarjeta:not(.foco),body.guiando .panel:not(.foco){opacity:.45}
 .linea .tarjeta.vista:before{border-color:var(--ac);background:var(--ac)}
 /* matriz */
 .matriz{display:grid;grid-template-columns:34px 1fr;grid-template-rows:1fr 34px;gap:10px}
-.eje{display:flex;align-items:center;justify-content:center;font:700 14px/1 "Plex";color:var(--tx2);letter-spacing:.06em;text-transform:uppercase;position:relative}
+.eje{display:flex;align-items:center;justify-content:center;font:400 14px/1 "Varela Round";color:var(--tx2);letter-spacing:.06em;text-transform:uppercase;position:relative}
 .eje.y{writing-mode:vertical-rl;transform:rotate(180deg)}.eje.x{grid-column:2}
 .eje.y:after,.eje.x:after{content:"";position:absolute;background:var(--ac-m);border-radius:3px}
 .eje.y:after{width:4px;top:0;bottom:0;right:4px;transform-origin:bottom;animation:crecey 1s .3s backwards}
@@ -132,7 +133,7 @@ body.guiando .tarjeta:not(.foco),body.guiando .panel:not(.foco){opacity:.45}
 .cuad .tarjeta[data-q="3"]{background:var(--ac-s)}.cuad.enfoque .tarjeta:not(.abierta){opacity:.5;transform:scale(.97)}
 .leyenda{font-size:14px;color:var(--tx2);text-align:center;margin:12px 0 0}
 /* mapa */
-.sub{font:700 24px/1.2 "Plex";margin:30px 0 14px}
+.sub{font:400 24px/1.2 "Varela Round";margin:30px 0 14px}
 .semaforo{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:start}
 .poste{background:#1E293B;border-radius:28px;padding:14px;display:flex;flex-direction:column;gap:12px;box-shadow:inset 0 -4px 0 #0F172A}
 .luz{width:58px;height:58px;border-radius:50%;border:0;background:color-mix(in srgb,var(--c) 30%,#334155);transition:background .3s,box-shadow .3s,transform .15s}
@@ -140,26 +141,26 @@ body.guiando .tarjeta:not(.foco),body.guiando .panel:not(.foco){opacity:.45}
 .paneles{display:flex;flex-direction:column;gap:12px}
 .panel{background:#fff;border:2px solid var(--bd);border-left:8px solid var(--c);border-radius:16px;padding:14px 18px;display:none}
 .panel.on{display:block;animation:desliza .4s cubic-bezier(.2,.8,.2,1)}.no-js .panel{display:block}
-.panel h3{margin:0 0 6px;font:700 18px/1.25 "Plex"}.panel p{margin:0}
+.panel h3{margin:0 0 6px;font:400 18px/1.25 "Varela Round"}.panel p{margin:0}
 .pista-luz{color:var(--tx2);font-size:15px;margin:0}@keyframes desliza{from{opacity:0;transform:translateX(-12px)}}
 /* ciclo */
 .rueda{position:relative;width:min(100%,520px);aspect-ratio:1;margin:0 auto}
 .aro{position:absolute;inset:0;width:100%;height:100%}.aro circle{fill:none;stroke:var(--ac-m);stroke-width:1.2;stroke-dasharray:3 3}
 .aro .orbita{fill:var(--ac);stroke:none;transform-origin:50px 50px;animation:gira 8s linear infinite}
 @keyframes gira{to{transform:rotate(360deg)}}
-.centro{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:44%;text-align:center;font:700 clamp(15px,2.6vw,21px)/1.25 "Plex";color:var(--ac);background:#fff;border:3px solid var(--ac-m);border-radius:50%;aspect-ratio:1;display:grid;place-items:center;padding:12px}
+.centro{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:44%;text-align:center;font:400 clamp(15px,2.6vw,21px)/1.25 "Varela Round";color:var(--ac);background:#fff;border:3px solid var(--ac-m);border-radius:50%;aspect-ratio:1;display:grid;place-items:center;padding:12px}
 .nodo{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:6px;background:none;border:0;width:min(34%,170px);animation:aparece .5s backwards calc(var(--k)*150ms + .2s)}
 .nodo .num{width:46px;height:46px;font-size:20px;box-shadow:0 0 0 6px var(--bg);transition:transform .2s}
 .nodo:hover .num{transform:scale(1.12)}.nodo.on .num{box-shadow:0 0 0 6px var(--ac-m)}
-.nodo .nt{font:700 14px/1.2 "Plex";background:#fff;border:1px solid var(--bd);border-radius:10px;padding:4px 8px;text-align:center}
+.nodo .nt{font:400 14px/1.2 "Varela Round";background:#fff;border:1px solid var(--bd);border-radius:10px;padding:4px 8px;text-align:center}
 .nodo.vista .num{background:#0F172A}@keyframes aparece{from{opacity:0;transform:translate(-50%,-50%) scale(.5)}}
-.vuelta{text-align:center;font:700 17px/1.3 "Plex";color:var(--ac);margin:8px 0 18px}
+.vuelta{text-align:center;font:400 17px/1.3 "Varela Round";color:var(--ac);margin:8px 0 18px}
 .lista{display:flex;flex-direction:column;gap:12px}.js .lista .tarjeta:not(.abierta){display:none}
 .js .lista:not(:has(.abierta)):before{content:"Toca una etapa de la rueda para ver qué se hace en ella.";text-align:center;color:var(--tx2);font-size:15px;padding:14px;border:2px dashed var(--bd);border-radius:16px}
 /* idea clave */
 .clave{margin:26px auto 0;padding:0 20px}
-.caja{position:relative;background:#0F172A;color:#fff;border-radius:20px;padding:24px 26px;font:600 20px/1.4 "Plex";overflow:hidden}
-.caja b{color:color-mix(in srgb,var(--ac) 45%,#fff)}
+.caja{position:relative;background:${C.noche};border-left:8px solid ${C.fucsia};color:#fff;border-radius:20px;padding:24px 26px;font:400 20px/1.4 "Varela Round";overflow:hidden}
+.caja b{color:${C.celeste}}
 .js .clave.cerrada .texto{filter:blur(7px);opacity:.35;user-select:none}
 .velo{display:none}.js .clave.cerrada .velo{display:flex;position:absolute;inset:0;align-items:center;justify-content:center;flex-direction:column;gap:10px;text-align:center;font-size:16px;padding:16px}
 .js .clave.abierta .texto{animation:revela .8s cubic-bezier(.2,.8,.2,1)}@keyframes revela{from{filter:blur(7px);opacity:.3;transform:scale(.98)}}
@@ -175,7 +176,7 @@ footer{padding:22px 20px 90px;font-size:13px;color:#64748B}
 </style></head>
 <body class="no-js t-${j.tipo}">
 <header class="hero"><span class="burbuja b1"></span><span class="burbuja b2"></span><span class="burbuja b3"></span>
-<div class="in"><div class="mod">Módulo ${m.n} · ${esc(m.nombre)}</div><h1>${esc(j.titulo)}</h1><p>${negrita(j.bajada)}</p></div></header>
+<div class="in"><img class="logo" src="${logo}" alt="e-tech"></div>${arcos(360, 180)}<div class="in"><div class="mod">Módulo ${m.n} · ${esc(m.nombre)}</div><h1>${esc(j.titulo)}</h1><p>${negrita(j.bajada)}</p></div></header>
 <nav class="barra" aria-label="Controles de la infografía"><div class="in">
 <div class="progreso"><svg class="anillo" viewBox="0 0 40 40" aria-hidden="true"><circle class="f" cx="20" cy="20" r="15.9"/><circle class="v" cx="20" cy="20" r="15.9" pathLength="100"/></svg>
 <span id="txtProg" aria-live="polite">Exploraste 0 de ${total}</span></div>
@@ -185,7 +186,7 @@ footer{padding:22px 20px 90px;font-size:13px;color:#64748B}
 <section class="clave cerrada" id="clave" aria-label="Idea clave"><div class="caja"><div class="texto">${negrita(j.clave)}</div>
 <div class="velo"><span>🔒 Explora todas las partes para descubrir la idea clave</span><button class="btn sec" type="button" id="btnClave">Verla ahora</button></div></div></section>
 <div class="guia" id="guia" hidden role="group" aria-label="Recorrido guiado"><button class="btn sec" type="button" id="gAnt">‹ Anterior</button><span class="cuenta" id="gCuenta"></span><button class="btn" type="button" id="gSig">Siguiente ›</button><button class="salir" type="button" id="gSalir">Salir</button></div>
-<footer>${esc(curso.titulo)} · Infografía interactiva del módulo ${m.n}${j.pie ? ` · ${esc(j.pie)}` : ''}</footer>
+<footer>${esc(firma)} · ${esc(curso.titulo)} · Infografía interactiva del módulo ${m.n}${j.pie ? ` · ${esc(j.pie)}` : ''}</footer>
 <script>
 (() => {
 const TOTAL = ${total}, TIPO = ${JSON.stringify(j.tipo)}, PARTES = ${JSON.stringify(items.map(x => ({ t: x.titulo, e: (x.ejemplo || '').replace(/^«|»\.?$/g, '') })))};

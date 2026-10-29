@@ -25,6 +25,7 @@ const AES = MODULOS.flatMap(m => m.aes.map(a => ({ ...a, modulo: m.n })));
 const AE = Object.fromEntries(AES.map(a => [a.id, a]));
 const RECURSOS = MODULOS.flatMap(m => m.recursos.map(r => ({ ...r, modulo: m.n })));
 const CASOS = MODULOS.flatMap(m => m.casos.filter(c => c.tipo === 'Caso de aplicación').map(c => ({ ...c, modulo: m.n })));
+const APA = existe('investigacion', 'referencias-apa.json') ? JSON.parse(leer('investigacion', 'referencias-apa.json')) : {};
 // Empresas de los casos reales, tomadas de los títulos de la hoja «Casos y proyecto»
 const EMPRESAS = ['Morgan Stanley', 'Avianca', 'Air Canada', 'Octopus Energy', 'Vodafone', 'Deloitte', 'Samsung', 'Coca-Cola', 'Johansson',
   'Getty', 'Stability AI', 'Klarna', 'Duolingo'];
@@ -257,19 +258,20 @@ for (const a of AES) {
     });
     const sin = cods.filter(x => !porCodigo[x.codigo]);
     sin.length ? sin.forEach(x => r.error(`sin cubrir ${x.codigo}: «${x.texto}»`)) : r.ev(`${cods.length}/${cods.length} códigos cubiertos`);
-    for (const s of ['Ideas clave', 'Glosario', 'Conexión con el proyecto', 'Fuentes']) if (!c.seccion(s)) r.error(`falta la sección «${s}»`);
-    const glos = (c.seccion('Glosario') || '').match(/^- \*\*/gm)?.length || 0;
-    glos >= 5 ? r.ev(`${glos} términos de glosario`) : r.aviso(`glosario con ${glos} términos`);
-    const secF = c.seccion('Fuentes') || '';
-    for (const f of new Set(c.pantallas.flatMap(p => p.fuentes))) if (!secF.includes(f)) r.error(`${f} se cita pero no está en la sección «Fuentes»`);
-    // Los hitos de la planilla que trabajan este AE se nombran en «Conexión con el proyecto»; los casos no (criterios 28-10)
-    const con = c.seccion('Conexión con el proyecto') || '';
-    for (const x of MODULOS.flatMap(m => m.casos).filter(x => x.tipo === 'Hito proyecto' && x.aes.split(/;\s*/).includes(a.id))) {
-      const clave = `Hito ${/Hito (\d+[a-d]?)/.exec(x.titulo)?.[1]}`;
-      con.includes(clave) ? r.ev(`«Conexión» nombra ${clave}`) : r.aviso(`«Conexión con el proyecto» no nombra ${clave} (${x.tipo})`);
+    // Criterios 29-10: cierre con «Ideas clave» y «Referencias bibliográficas»; sin «Glosario» (va en glosario/) ni «Conexión»
+    for (const s of ['Ideas clave', 'Referencias bibliográficas']) if (!c.seccion(s)) r.error(`falta la sección «${s}»`);
+    for (const s of ['Glosario', 'Conexión con el proyecto', 'Fuentes']) if (c.seccion(s)) r.error(`tiene la sección «${s}», que se quitó el 29-10`);
+    const gl = existe('glosario', `M${a.modulo}.md`) ? leer('glosario', `M${a.modulo}.md`) : '';
+    const glos = (gl.split(/^## /m).find(b => b.startsWith(a.id + ' ')) || '').match(/^- \*\*/gm)?.length || 0;
+    glos >= 5 ? r.ev(`${glos} términos en glosario/M${a.modulo}.md`) : r.aviso(`glosario/M${a.modulo}.md: ${glos} términos para ${a.id}`);
+    // APA 7: cada fuente citada tiene referencia revisada y está en «Referencias bibliográficas»
+    const secR = c.seccion('Referencias bibliográficas') || '';
+    for (const f of new Set(c.pantallas.flatMap(p => p.fuentes))) {
+      if (!APA[f]?.revisada) r.error(`${f} sin referencia APA revisada en investigacion/referencias-apa.json`);
+      else if (!secR.includes(APA[f].url)) r.error(`${f} se cita pero no está en «Referencias bibliográficas» (referencias-apa.mjs --escribir)`);
     }
     // Criterios 28-10: los casos con empresas reales van solo en casos/; el contenido base no los nombra
-    const cuerpo = c.md.split(/^## Fuentes/m)[0];
+    const cuerpo = c.md.split(/^## Referencias bibliográficas/m)[0];
     if (/^:::ejemplo Caso real\b/m.test(cuerpo)) r.error('tiene un recuadro «Caso real» (los casos van solo en su recurso)');
     for (const e of EMPRESAS) if (new RegExp(`\\b${e}\\b`, 'i').test(cuerpo)) r.error(`nombra «${e}», empresa de un caso (los casos van solo en su recurso)`);
     if (/\bM\d-C\d\b/.test(cuerpo)) r.error('nombra el id de un caso');
@@ -282,6 +284,22 @@ for (const a of AES) {
 
 
 // =====================================================================================================
+// Criterios 29-10: dos actividades de aplicación práctica por AE y un glosario aparte por módulo
+for (const a of AES) chequeo(`act.${a.id}`, `Actividades ${a.id}`, 'Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.', r => {
+  if (!existe('actividades', `${a.id}.md`)) { r.error(`falta actividades/${a.id}.md`); return; }
+  const md = leer('actividades', `${a.id}.md`);
+  const acts = md.split(/^## Actividad \d/m).slice(1);
+  acts.length === 2 ? r.ev('2 actividades') : r.error(`${acts.length} actividades (deben ser 2)`);
+  const cubre = new Set(acts.flatMap(x => (/^cubre:\s*(.+)$/m.exec(x)?.[1] || '').split(/,\s*/)));
+  const deben = [...a.saber_hacer, ...a.criterios].map(x => x.codigo).filter(x => !cubre.has(x));
+  deben.length ? r.aviso(`no cubren ${deben.join(', ')}`) : r.ev('cubren todos los H y C del AE');
+  for (const f of new Set([...md.matchAll(/^fuentes:\s*(F-.+)$/gm)].flatMap(m => m[1].split(/,\s*/)))) if (!APA[f]?.revisada) r.error(`${f} sin referencia APA revisada`);
+});
+chequeo('glosario', 'Glosario del curso', 'glosario/M<n>.md por módulo; se compila en un solo documento «Glosario» y en XML de Moodle.', r => {
+  for (const m of MODULOS) existe('glosario', `M${m.n}.md`) ? r.ev(`glosario/M${m.n}.md: ${(leer('glosario', `M${m.n}.md`).match(/^- \*\*/gm) || []).length} términos`) : r.error(`falta glosario/M${m.n}.md`);
+  for (const f of ['Glosario.html', 'Glosario-docs.html', 'Glosario-Moodle.xml']) if (!existe('entregables', 'glosario', f)) r.error(`falta entregables/glosario/${f}`);
+});
+
 nuevaCapa('C3', 'Quiz formativo juego SCORM (22)',
   'quiz/M<n>-AE<k>.md tiene las 8 preguntas de cada AE; scripts/quiz-juego.mjs genera el juego HTML, el paquete SCORM 1.2 y el GIFT '
   + '(entregables/quiz/<AE>/). Formato en docs/FORMATO-QUIZ.md. Cada pregunta remite a una pantalla del contenido base: es la '
@@ -373,7 +391,7 @@ for (const k of CASOS) {
     for (const s of ['Hechos verificados', 'Lo que NO se puede afirmar']) if (!c.ficha.includes(`## ${s}`)) r.error(`la ficha no tiene «${s}»`);
     if (c.estado === 'Descartado') { r.aviso('caso descartado: hay que reemplazarlo en la planilla'); return; }
     if (!c.caso) { r.error(`falta casos/${k.id}.md`); return; }
-    for (const s of ['1. Contexto', '2. Qué pasó', '3. Análisis guiado', '4. Aplicación a tu proyecto', '5. Autocorrección', '6. Para el foro', 'Fuentes'])
+    for (const s of ['1. Contexto', '2. Qué pasó', '3. Análisis guiado', '4. Aplicación a tu proyecto', '5. Autocorrección', '6. Para el foro', 'Referencias bibliográficas'])
       if (!new RegExp(`^## ${s.replace('.', '\\.')}`, 'm').test(c.caso)) r.error(`falta la sección «${s}»`);
     for (const f of new Set([...c.caso.matchAll(/F-[A-Z0-9]+-\d+/g)].map(m => m[0]))) if (!c.fuentes.includes(f)) r.error(`cita ${f}, que no está en su ficha`);
     for (const ae of k.aes.split(/;\s*/)) if (!c.caso.includes(ae)) r.aviso(`no nombra ${ae}`);
@@ -542,10 +560,10 @@ const AVANCE = RECURSOS.map(x => {
       break;
     }
     case 'Resumen y glosario':
-      if (MODULOS.find(z => z.n === m).aes.every(a => CONT[a.id]?.seccion('Ideas clave') && CONT[a.id]?.seccion('Glosario'))) { estado = 'Insumo listo'; nota = 'Ideas clave y glosario en el contenido base; falta la página de Moodle'; }
+      if (MODULOS.find(z => z.n === m).aes.every(a => CONT[a.id]?.seccion('Ideas clave')) && existe('glosario', `M${m}.md`)) { estado = 'Insumo listo'; nota = 'Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle'; }
       break;
     case 'Hito proyecto':
-      if (aes.every(a => CONT[a]?.seccion('Conexión con el proyecto'))) { estado = 'Insumo listo'; nota = '«Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito'; }
+      if (aes.every(a => existe('actividades', `${a}.md`))) { estado = 'Insumo listo'; nota = 'Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito'; }
       break;
     case 'Video': {
       // carpeta de la skill curso-video-modulo; el .srt se exporta al final, así que marca el video terminado

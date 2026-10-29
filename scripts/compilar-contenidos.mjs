@@ -1,16 +1,28 @@
-// Junta los 22 contenidos base en un solo documento: entregables/Contenidos-completos.md y .html
-// Uso: node scripts/compilar-contenidos.mjs
+// Compila con la marca Empoderatech (scripts/lib/marca.mjs) lo que lee el estudiante y el equipo:
+//   - contenidos base (22 AE) → entregables/por-ae (HTML para PDF), entregables/docs (HTML para Google Docs), entregables/pdf
+//   - casos (11) → entregables/casos/{html,docs,pdf}
+//   - actividades de aplicación práctica (2 por AE) → entregables/actividades/{html,docs,pdf}
+//   - glosario (un documento para el curso) → entregables/glosario/{Glosario.html, Glosario-docs.html, Glosario.pdf, Glosario-Moodle.xml}
+//   - documentos de proceso, investigación y LEEME → entregables/documentos/
+//   - todo junto → entregables/Contenidos-completos.{md,html,pdf}
+// Las marcas de cita [@F-…] se resuelven en APA 7 (scripts/referencias-apa.mjs) y cada documento cierra con «Referencias bibliográficas».
+// Uso: node scripts/compilar-contenidos.mjs [--sin-pdf | --solo-casos | --solo-documentos]
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { C, CSS_DOCUMENTO, FIRMA, LOGO_DOCS, logoDataURI, arcos, bordeRasgado, CHEVRON } from './lib/marca.mjs';
+import { cargar as cargarAPA, resolverCitas } from './referencias-apa.mjs';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const curso = JSON.parse(fs.readFileSync(path.join(RAIZ, 'data', 'curso.json'), 'utf8'));
 const SALIDA = path.join(RAIZ, 'entregables');
+const APA = cargarAPA();
 fs.mkdirSync(SALIDA, { recursive: true });
 
-const leer = id => fs.readFileSync(path.join(RAIZ, 'contenido', id.split('-')[0], `${id}.md`), 'utf8').replace(/\r\n/g, '\n');
+const leerMd = rel => fs.readFileSync(path.join(RAIZ, rel), 'utf8').replace(/\r\n/g, '\n');
+const leer = id => leerMd(path.join('contenido', id.split('-')[0], `${id}.md`));
 const hoy = new Date().toISOString().slice(0, 10);
+const faltanAPA = new Set();
 
 // ---------- Markdown completo ----------
 let md = `# ${curso.titulo} · Contenidos base\n\nGenerado el ${hoy} desde \`contenido/\`. ${curso.modulos.length} módulos · `
@@ -21,8 +33,10 @@ for (const m of curso.modulos) {
 }
 fs.writeFileSync(path.join(SALIDA, 'Contenidos-completos.md'), md);
 
-// ---------- HTML ----------
+// ---------- Texto en línea ----------
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+let DOCS = false;
+const enlace = (url, texto = url) => `<a href="${url}"${DOCS ? ` style="color:${C.enlace}"` : ''}>${texto}</a>`;
 const enLinea = s => esc(s)
   .replace(/`([^`]+)`/g, '<code>$1</code>')
   .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
@@ -31,15 +45,25 @@ const enLinea = s => esc(s)
     // Cierra en un «)» solo si no tiene su «(» en la URL (las de LibreTexts llevan «(Lumen)»)
     let fin = '';
     while (/[.,;:)]$/.test(url) && !(url.endsWith(')') && (url.match(/\(/g) || []).length >= (url.match(/\)/g) || []).length)) { fin = url.slice(-1) + fin; url = url.slice(0, -1); }
-    return `<a href="${url}">${url}</a>${fin}`;
+    return enlace(url) + fin;
   });
 
+// ---------- Bloques ----------
 const ETIQUETAS = { ejemplo: 'Ejemplo', error: 'Error frecuente', clave: 'Clave', actividad: 'Actividad', comprueba: 'Comprueba' };
-
-// Colores de los recuadros en modo Docs (Google Docs no respeta clases: todo va en línea)
-const COLOR_DOCS = { ejemplo: ['#E6F4F7', '#0E7490'], error: ['#FDECEC', '#B91C1C'], clave: ['#FEF3E2', '#B45309'], actividad: ['#E7F6EF', '#047857'], comprueba: ['#F0EBFB', '#6D28D9'] };
-let DOCS = false;
-const META = /^(cubre:\s*([SHAC]\d|M\d-AE\d)|fuentes:\s*F-|bloque:)/;
+// Recuadros en modo Docs (Google Docs no respeta clases: todo va en línea): [fondo, borde, color de la etiqueta, color del texto]
+const CAJA_DOCS = {
+  ejemplo: [C.frambuesaSuave, C.frambuesa, C.frambuesa, C.noche], error: [C.grafitoSuave, C.grafito, C.grafito, C.noche],
+  clave: [C.noche, C.fucsia, C.celeste, C.blanco], actividad: [C.blanco, C.frambuesa, C.frambuesa, C.noche],
+  comprueba: [C.celesteSuave, C.enlace, C.enlace, C.noche],
+};
+const D = {
+  h2: `font-family:'Varela Round';color:${C.frambuesa};font-weight:normal;font-size:16pt`,
+  h3: `font-family:'Varela Round';color:${C.noche};font-weight:normal;font-size:13pt`,
+  etq: c => `font-family:'Varela Round';color:${c};font-size:10pt`,
+  th: `border:1px solid ${C.grisClaro};padding:4px 8px;background:${C.noche};color:${C.blanco};font-family:'Varela Round';font-weight:normal`,
+  td: `border:1px solid ${C.grisClaro};padding:4px 8px`,
+};
+const META = /^(cubre:\s*([SHAC]\d|M\d-AE\d)|fuentes:\s*\(|bloque:)/;
 
 function bloques(texto) {
   const lineas = texto.split('\n');
@@ -58,7 +82,7 @@ function bloques(texto) {
       cerrarParrafo();
       const cita = [];
       for (; i < lineas.length && /^>\s?/.test(lineas[i]); i++) cita.push(lineas[i].replace(/^>\s?/, ''));
-      html += DOCS ? `<table style="border-collapse:collapse;width:100%"><tr><td style="background:#F1F5F9;border-left:4px solid #64748B;padding:8px 12px">${bloques(cita.join('\n'))}</td></tr></table>\n`
+      html += DOCS ? `<table style="border-collapse:collapse;width:100%"><tr><td style="background:${C.grafitoSuave};border-left:4px solid ${C.grisMedio};padding:8px 12px">${bloques(cita.join('\n'))}</td></tr></table>\n`
         : `<blockquote class="aviso">${bloques(cita.join('\n'))}</blockquote>\n`;
       continue;
     }
@@ -75,9 +99,9 @@ function bloques(texto) {
       for (i++; i < lineas.length && lineas[i].trim() !== ':::'; i++) dentro.push(lineas[i]);
       const etq = `${ETIQUETAS[tipo] || tipo}${titulo ? ' · ' + enLinea(titulo) : ''}`;
       if (DOCS) {
-        const [fondo, borde] = COLOR_DOCS[tipo] || ['#F1F5F9', '#334155'];
-        html += `<table style="border-collapse:collapse;width:100%"><tr><td style="background:${fondo};border:1px solid ${borde};padding:8px 12px">`
-          + `<p style="color:${borde};font-weight:bold">${etq}</p>${bloques(dentro.join('\n'))}</td></tr></table>\n`;
+        const [fondo, borde, cEtq, cTx] = CAJA_DOCS[tipo] || CAJA_DOCS.ejemplo;
+        html += `<table style="border-collapse:collapse;width:100%"><tr><td style="background:${fondo};border-left:6px solid ${borde};padding:10px 14px;color:${cTx}">`
+          + `<p style="${D.etq(cEtq)}">${etq}</p>${bloques(dentro.join('\n'))}</td></tr></table>\n`;
       } else html += `<aside class="caja ${tipo}"><div class="etq">${etq}</div>${bloques(dentro.join('\n'))}</aside>\n`;
       i++; continue;
     }
@@ -87,9 +111,8 @@ function bloques(texto) {
       for (; i < lineas.length && /^\|/.test(lineas[i]); i++) filas.push(lineas[i]);
       const celdas = f => f.replace(/^\||\|$/g, '').split('|').map(c => c.trim());
       const cuerpo = filas.filter((_, k) => k !== 1 || !/^\|[\s:|-]+\|$/.test(filas[1]));
-      const td = DOCS ? ' style="border:1px solid #94A3B8;padding:4px 8px"' : '';
-      const th = DOCS ? ' style="border:1px solid #94A3B8;padding:4px 8px;background:#E2E8F0"' : '';
-      html += `<div class="tabla"><table${DOCS ? ' style="border-collapse:collapse"' : ''}><thead><tr>` + celdas(cuerpo[0]).map(c => `<th${th}>${enLinea(c)}</th>`).join('') + '</tr></thead><tbody>'
+      const td = DOCS ? ` style="${D.td}"` : '', th = DOCS ? ` style="${D.th}"` : '';
+      html += `<div class="tabla"><table${DOCS ? ' style="border-collapse:collapse;width:100%"' : ''}><thead><tr>` + celdas(cuerpo[0]).map(c => `<th${th}>${enLinea(c)}</th>`).join('') + '</tr></thead><tbody>'
         + cuerpo.slice(1).map(f => '<tr>' + celdas(f).map(c => `<td${td}>${enLinea(c)}</td>`).join('') + '</tr>').join('') + '</tbody></table></div>\n';
       continue;
     }
@@ -111,23 +134,25 @@ function bloques(texto) {
       }).join('') + `</${tag}>\n`;
       continue;
     }
-    // Metadatos de pantalla: solo con su forma exacta («fuentes: F-…»), para no confundir prosa que empieza con «fuentes:»
+    // Metadatos de pantalla para quien arma el Rise: qué cubre, qué cita y qué bloque usar
     if (META.test(l)) {
       cerrarParrafo();
       const meta = [];
       for (; i < lineas.length && META.test(lineas[i]); i++) {
         const [, k, v] = /^(\w+):\s*(.*)$/.exec(lineas[i]);
-        meta.push(`<span><b>${k === 'bloque' ? 'Bloque Rise' : k === 'cubre' ? 'Cubre' : 'Fuentes'}:</b> ${esc(v)}</span>`);
+        meta.push(`<span><b>${k === 'bloque' ? 'Bloque Rise' : k === 'cubre' ? 'Cubre' : 'Cita'}:</b> ${esc(v)}</span>`);
       }
-      html += DOCS ? `<p style="color:#64748B;font-size:9pt">${meta.join(' · ')}</p>\n` : `<div class="meta">${meta.join('')}</div>\n`;
+      html += DOCS ? `<p style="color:${C.grisMedio};font-size:8pt">${meta.join(' · ')}</p>\n` : `<div class="meta">${meta.join('')}</div>\n`;
       continue;
     }
     if (/^#{1,4} /.test(l)) {
       cerrarParrafo();
       const n = /^(#+)/.exec(l)[1].length;
-      const t = l.replace(/^#+\s*/, '');
-      const id = /^P\d\d/.test(t) ? '' : '';
-      html += `<h${n + 1}${id}>${enLinea(t)}</h${n + 1}>\n`; i++; continue;
+      const t = enLinea(l.replace(/^#+\s*/, ''));
+      if (DOCS && n === 2) html += `<h2 style="${D.h2}"><span style="color:${C.frambuesa}">${CHEVRON}</span> ${t}</h2>\n`;
+      else if (DOCS && n >= 3) html += `<h${n} style="${D.h3}">${t}</h${n}>\n`;
+      else html += `<h${n}>${t}</h${n}>\n`;
+      i++; continue;
     }
     if (!l.trim()) { cerrarParrafo(); i++; continue; }
     parrafo.push(l.trim()); i++;
@@ -136,137 +161,172 @@ function bloques(texto) {
   return html;
 }
 
-let indice = '', cuerpo = '';
-for (const m of curso.modulos) {
-  indice += `<li><a href="#m${m.n}">Módulo ${m.n} · ${esc(m.nombre)}</a><ul>`;
-  cuerpo += `<section class="modulo" id="m${m.n}"><h1>Módulo ${m.n} · ${esc(m.nombre)}</h1><p class="comp"><b>Competencia:</b> ${esc(m.competencia)}</p>`;
-  for (const ae of m.aes) {
-    const texto = leer(ae.id).replace(/^# .*\n/, '');
-    indice += `<li><a href="#${ae.id}">${ae.id} · ${esc(ae.tema)}</a></li>`;
-    cuerpo += `<article id="${ae.id}"><h2 class="ae">${ae.id} · ${esc(ae.tema)}</h2><p class="aetxt">${esc(ae.texto)}</p>${bloques(texto)}</article>`;
-  }
-  indice += '</ul></li>';
-  cuerpo += '</section>';
+// ---------- Citas APA y referencias ----------
+// «fuentes: F-a, F-b» pasa a «fuentes: [@F-a; @F-b]» para que la línea de metadatos muestre la cita APA del documento
+const conCitas = texto => {
+  const sinRefs = texto.replace(/^## (Referencias bibliográficas|Fuentes)\b[\s\S]*?(?=^## |(?![\s\S]))/m, '');
+  const marcado = sinRefs.replace(/^fuentes:[ \t]*(F-.+)$/gm, (_, ids) => `fuentes: [${ids.split(/,\s*/).map(x => '@' + x.trim()).join('; ')}]`);
+  const r = resolverCitas(marcado, APA);
+  r.falta.forEach(f => faltanAPA.add(f));
+  return r;
+};
+const refHTML = refs => refs.length ? (DOCS
+  ? `<h2 style="${D.h2}"><span style="color:${C.frambuesa}">${CHEVRON}</span> Referencias bibliográficas</h2>`
+    + refs.map(r => `<p style="margin-left:24pt">${refTexto(r)}</p>`).join('\n')
+  : `<h2>Referencias bibliográficas</h2><div class="refs">${refs.map(r => `<p>${refTexto(r)}</p>`).join('\n')}</div>`) : '';
+const refTexto = r => {
+  const sinUrl = r.texto.replace(r.url, '').trim();
+  return `${enLinea(sinUrl)} ${enlace(r.url)}`;
+};
+
+// ---------- Plantillas con la marca ----------
+const LOGO_OSCURO = logoDataURI('logo-sobre-oscuro'), ISOTIPO = logoDataURI('isotipo');
+const documentoPDF = ({ titulo, etiqueta, subtitulo = '', cuerpo }) => `<!doctype html><html lang="es"><head><meta charset="utf-8">
+<title>${esc(titulo)}</title><style>${CSS_DOCUMENTO}</style></head><body>
+<header class="portada"><img class="logo" src="${LOGO_OSCURO}" alt="e-tech">${arcos(440, 220)}
+<p class="mod"><span class="punto"></span>${esc(etiqueta)}</p><h1>${esc(titulo)}</h1>${subtitulo}</header>
+<main>${cuerpo}</main>
+<section class="cierre">${bordeRasgado()}<div class="banda"><img src="${LOGO_OSCURO}" alt="e-tech"><span>empoderatech.com · ${esc(curso.titulo)}</span></div></section>
+<footer class="pie"><span><img class="iso" src="${ISOTIPO}" alt="">${FIRMA}</span><span>${esc(curso.titulo)}</span></footer>
+</body></html>`;
+const documentoDocs = ({ titulo, etiqueta, subtitulo = '', cuerpo }) => `<html><head><meta charset="utf-8"></head><body style="font-family:Arial;color:${C.noche}">`
+  + `<table style="border-collapse:collapse;width:100%"><tr><td style="background:${C.noche};padding:18px 22px">`
+  + `<img src="${LOGO_DOCS.oscuro}" width="160" height="44" alt="e-tech">`
+  + `<p style="font-family:'Varela Round';color:${C.celeste};font-size:10pt">${esc(etiqueta)}</p>`
+  + `<p style="font-family:'Varela Round';color:${C.blanco};font-size:22pt">${esc(titulo)}</p>${subtitulo}</td></tr></table>`
+  + `${cuerpo}<p style="color:${C.grisMedio};font-size:8pt;margin-top:24pt">${FIRMA} · empoderatech.com · ${esc(curso.titulo)}</p></body></html>`;
+const textoAE = (ae, docs) => docs
+  ? `<p style="color:${C.grisClaro};font-size:10pt"><b style="color:${C.blanco}">Aprendizaje esperado:</b> ${esc(ae.texto)}</p>`
+  : `<p class="ae"><b>Aprendizaje esperado:</b> ${esc(ae.texto)}</p>`;
+
+// Escribe la versión PDF (HTML imprimible) y la versión Docs de un documento con citas
+function escribir(dirHtml, dirDocs, nombre, { titulo, etiqueta, subtitulo, subtituloDocs, texto }) {
+  const { texto: t, refs } = conCitas(texto);
+  DOCS = false;
+  fs.writeFileSync(path.join(dirHtml, `${nombre}.html`), documentoPDF({ titulo, etiqueta, subtitulo, cuerpo: bloques(t) + refHTML(refs) }));
+  DOCS = true;
+  fs.writeFileSync(path.join(dirDocs, `${nombre}.html`), documentoDocs({ titulo, etiqueta, subtitulo: subtituloDocs, cuerpo: bloques(t) + refHTML(refs) }));
+  DOCS = false;
 }
+const carpetas = (...p) => { const ds = ['html', 'docs', 'pdf'].map(x => path.join(SALIDA, ...p, x)); ds.forEach(d => fs.mkdirSync(d, { recursive: true })); return ds; };
 
-const html = `<!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contenidos base · IA generativa laboral</title>
-<style>
-:root{--tx:#1f2937;--mu:#64748b;--bg:#f8fafc;--pa:#fff;--li:#e2e8f0;--az:#0f3d5e;--tq:#0e7490;--am:#b45309;--ro:#b91c1c;--ve:#047857;--vi:#6d28d9}
-@media (prefers-color-scheme:dark){:root{--tx:#e5e7eb;--mu:#94a3b8;--bg:#0b1220;--pa:#111a2b;--li:#23324a;--az:#7cc4f0;--tq:#5fd0e0;--am:#f5b056;--ro:#f08a8a;--ve:#5fd3a5;--vi:#b9a2f5}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 "Segoe UI",Roboto,Arial,sans-serif}
-.wrap{display:grid;grid-template-columns:300px 1fr;max-width:1300px;margin:0 auto}
-nav{position:sticky;top:0;height:100vh;overflow:auto;padding:24px 16px;border-right:1px solid var(--li);font-size:14px}
-nav ul{list-style:none;padding-left:12px;margin:4px 0}nav>ul{padding:0}nav a{color:var(--tx);text-decoration:none}nav a:hover{color:var(--tq)}
-main{padding:24px 40px;min-width:0}h1{color:var(--az);border-bottom:3px solid var(--tq);padding-bottom:6px;margin-top:48px}
-h2.ae{color:var(--az);margin-top:40px;font-size:1.5em}.aetxt{background:var(--pa);border-left:4px solid var(--tq);padding:10px 14px;font-weight:600}
-h3{margin-top:32px;color:var(--tq)}h4{margin:18px 0 6px}
-.meta{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--mu);background:var(--pa);border:1px solid var(--li);border-radius:6px;padding:6px 10px;margin:4px 0 12px}
-.caja{background:var(--pa);border:1px solid var(--li);border-left:5px solid var(--tq);border-radius:8px;padding:10px 14px;margin:14px 0}
-.caja .etq{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--tq);margin-bottom:4px}
-.caja.error{border-left-color:var(--ro)}.caja.error .etq{color:var(--ro)}.caja.clave{border-left-color:var(--am)}.caja.clave .etq{color:var(--am)}
-.caja.actividad{border-left-color:var(--ve)}.caja.actividad .etq{color:var(--ve)}.caja.comprueba{border-left-color:var(--vi)}.caja.comprueba .etq{color:var(--vi)}
-.caja p:last-child{margin-bottom:0}.tabla{overflow-x:auto}table{border-collapse:collapse;margin:10px 0;font-size:14.5px}
-th,td{border:1px solid var(--li);padding:6px 10px;text-align:left;vertical-align:top}th{background:var(--pa)}
-code{background:var(--pa);border:1px solid var(--li);border-radius:4px;padding:0 4px;font-size:.92em}pre{background:var(--pa);border:1px solid var(--li);padding:10px;overflow:auto;white-space:pre-wrap}
-pre code{border:0;padding:0}blockquote.aviso{background:var(--pa);border-left:4px solid var(--mu);margin:14px 0;padding:8px 14px}blockquote.aviso p:last-child{margin-bottom:0}li.chk{list-style:none;margin-left:-18px}a{color:var(--tq);word-break:break-all}.comp{color:var(--mu)}
-header.top{padding:8px 0 0}header.top p{color:var(--mu)}
-@media (max-width:900px){.wrap{display:block}nav{position:static;height:auto;border-right:0;border-bottom:1px solid var(--li)}main{padding:16px}}
-@media print{nav{display:none}.wrap{display:block}article{break-before:page}}
-</style></head><body><div class="wrap">
-<nav><b>${esc(curso.titulo)}</b><ul>${indice}</ul></nav>
-<main><header class="top"><h1 style="margin-top:0">${esc(curso.titulo)} · Contenidos base</h1>
-<p>Generado el ${hoy} desde <code>contenido/</code>. Cada pantalla indica qué contenido de la planilla cubre, las fuentes que la respaldan
-(detalle en <code>investigacion/</code>) y el bloque de Rise sugerido.</p></header>
-${cuerpo}</main></div></body></html>`;
-fs.writeFileSync(path.join(SALIDA, 'Contenidos-completos.html'), html);
-console.log('entregables/Contenidos-completos.md y .html');
-
-// ---------- Un archivo por AE: HTML para PDF y HTML para Google Docs ----------
-const CSS = html.match(/<style>[\s\S]*?<\/style>/)[0].replace(/@media \(prefers-color-scheme:dark\)\{.*?\}\}/, '');
+// ---------- Contenidos base: un archivo por AE ----------
 const DIR_AE = path.join(SALIDA, 'por-ae'), DIR_DOCS = path.join(SALIDA, 'docs'), DIR_PDF = path.join(SALIDA, 'pdf');
 for (const d of [DIR_AE, DIR_DOCS, DIR_PDF]) fs.mkdirSync(d, { recursive: true });
 const archivos = [];
-for (const m of curso.modulos) for (const ae of m.aes) {
-  const texto = leer(ae.id).replace(/^# .*\n/, '');
-  const titulo = `${ae.id} · ${ae.tema}`;
-  const cabecera = `<p class="comp">Módulo ${m.n} · ${esc(m.nombre)}</p><h1 style="margin-top:0">${esc(titulo)}</h1>`
-    + `<p class="aetxt"><b>Aprendizaje esperado:</b> ${esc(ae.texto)}</p>`;
-  DOCS = false;
-  fs.writeFileSync(path.join(DIR_AE, `${ae.id}.html`), `<!doctype html><html lang="es"><head><meta charset="utf-8"><title>${esc(titulo)}</title>${CSS}`
-    + `<style>@page{size:A4;margin:16mm 15mm}main{padding:0;max-width:none}h3{break-after:avoid}.caja,table{break-inside:avoid}</style></head>`
-    + `<body><main>${cabecera}${bloques(texto)}</main></body></html>`);
-  DOCS = true;
-  fs.writeFileSync(path.join(DIR_DOCS, `${ae.id}.html`), `<html><head><meta charset="utf-8"></head><body style="font-family:Arial">`
-    + `<p style="color:#64748B">Módulo ${m.n} · ${esc(m.nombre)}</p><h1>${esc(titulo)}</h1>`
-    + `<p style="background:#E6F4F7"><b>Aprendizaje esperado:</b> ${esc(ae.texto)}</p>${bloques(texto)}</body></html>`);
-  DOCS = false;
-  archivos.push(ae.id);
+let cuerpoCompleto = '', indice = '';
+for (const m of curso.modulos) {
+  indice += `<li><a href="#m${m.n}">Módulo ${m.n} · ${esc(m.nombre)}</a><ul>`;
+  cuerpoCompleto += `<section id="m${m.n}"><h1 class="modulo">Módulo ${m.n} · ${esc(m.nombre)}</h1><p class="comp"><b>Competencia:</b> ${esc(m.competencia)}</p>`;
+  for (const ae of m.aes) {
+    const texto = leer(ae.id).replace(/^# .*\n/, '');
+    const datos = { titulo: `${ae.id} · ${ae.tema}`, etiqueta: `Módulo ${m.n} · ${m.nombre}`, subtitulo: textoAE(ae, false), subtituloDocs: textoAE(ae, true), texto };
+    escribir(DIR_AE, DIR_DOCS, ae.id, datos);
+    const { texto: t, refs } = conCitas(texto);
+    indice += `<li><a href="#${ae.id}">${ae.id} · ${esc(ae.tema)}</a></li>`;
+    cuerpoCompleto += `<article id="${ae.id}"><h1 class="ae">${ae.id} · ${esc(ae.tema)}</h1><p class="aetxt"><b>Aprendizaje esperado:</b> ${esc(ae.texto)}</p>${bloques(t)}${refHTML(refs)}</article>`;
+    archivos.push(ae.id);
+  }
+  indice += '</ul></li>';
+  cuerpoCompleto += '</section>';
 }
-console.log(`${archivos.length} AE en entregables/por-ae y entregables/docs`);
+fs.writeFileSync(path.join(SALIDA, 'Contenidos-completos.html'), `<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contenidos base · ${esc(curso.titulo)}</title><style>${CSS_DOCUMENTO}
+body{max-width:none;box-shadow:none}.wrap{display:grid;grid-template-columns:280px 1fr;max-width:1240px;margin:0 auto}
+nav{position:sticky;top:0;height:100vh;overflow:auto;padding:20px 14px;border-right:1px solid #E6E7E8;font-size:13px;background:${C.noche}}
+nav a{color:${C.grisClaro}}nav a:hover{color:${C.celeste}}nav ul{list-style:none;padding-left:12px}nav>ul{padding:0}nav img{height:34px;margin-bottom:14px}
+h1.modulo{font:400 24pt/1.2 "Varela Round",Arial;color:${C.noche};border-bottom:1mm solid ${C.frambuesa};padding-bottom:2mm;margin-top:14mm}
+h1.ae{font:400 19pt/1.2 "Varela Round",Arial;color:${C.frambuesa};margin-top:12mm}.aetxt{background:${C.frambuesaSuave};border-left:1.6mm solid ${C.frambuesa};padding:3mm 4mm}
+.comp{color:${C.grafito}}@media (max-width:900px){.wrap{display:block}nav{position:static;height:auto}}@media print{nav{display:none}.wrap{display:block}article{break-before:page}}
+</style></head><body><div class="wrap"><nav><img src="${LOGO_OSCURO}" alt="e-tech"><ul>${indice}</ul></nav>
+<main><header class="portada" style="margin:0 -18mm"><img class="logo" src="${LOGO_OSCURO}" alt="e-tech">${arcos(440, 220)}<p class="mod"><span class="punto"></span>Contenidos base</p><h1>${esc(curso.titulo)}</h1>
+<p class="ae">${curso.modulos.length} módulos · ${archivos.length} aprendizajes esperados. Generado el ${hoy}.</p></header>${cuerpoCompleto}</main></div>
+<footer class="pie"><span><img class="iso" src="${ISOTIPO}" alt="">${FIRMA}</span><span>${esc(curso.titulo)}</span></footer></body></html>`);
+console.log(`entregables/Contenidos-completos.md y .html · ${archivos.length} AE en entregables/por-ae y entregables/docs`);
 
-// ---------- Casos de aplicación (casos/<id>.md), si existen ----------
-const DIR_CASOS = path.join(RAIZ, 'casos');
-const casos = fs.existsSync(DIR_CASOS) ? fs.readdirSync(DIR_CASOS).filter(f => /^M\d-C\d\.md$/.test(f)).map(f => f.slice(0, -3)).sort() : [];
-const DIR_CASOS_HTML = path.join(SALIDA, 'casos', 'html'), DIR_CASOS_DOCS = path.join(SALIDA, 'casos', 'docs'), DIR_CASOS_PDF = path.join(SALIDA, 'casos', 'pdf');
-if (casos.length) for (const d of [DIR_CASOS_HTML, DIR_CASOS_DOCS, DIR_CASOS_PDF]) fs.mkdirSync(d, { recursive: true });
+// ---------- Casos de aplicación ----------
+const casos = fs.existsSync(path.join(RAIZ, 'casos')) ? fs.readdirSync(path.join(RAIZ, 'casos')).filter(f => /^M\d-C\d\.md$/.test(f)).map(f => f.slice(0, -3)).sort() : [];
+const [DIR_CASOS_HTML, DIR_CASOS_DOCS, DIR_CASOS_PDF] = carpetas('casos');
 for (const id of casos) {
-  const md = fs.readFileSync(path.join(DIR_CASOS, `${id}.md`), 'utf8').replace(/\r\n/g, '\n');
-  const titulo = (/^# (.+)$/m.exec(md)?.[1] || id).trim();
-  const texto = md.replace(/^# .*\n/, '');
+  const mdc = leerMd(path.join('casos', `${id}.md`));
   const m = curso.modulos.find(x => x.n === Number(id[1]));
-  DOCS = false;
-  fs.writeFileSync(path.join(DIR_CASOS_HTML, `${id}.html`), `<!doctype html><html lang="es"><head><meta charset="utf-8"><title>${esc(titulo)}</title>${CSS}`
-    + `<style>@page{size:A4;margin:16mm 15mm}main{padding:0;max-width:none}h3{break-after:avoid}.caja,table{break-inside:avoid}</style></head>`
-    + `<body><main><p class="comp">Módulo ${m.n} · ${esc(m.nombre)} · Caso de aplicación</p><h1 style="margin-top:0">${esc(titulo)}</h1>${bloques(texto)}</main></body></html>`);
-  DOCS = true;
-  fs.writeFileSync(path.join(DIR_CASOS_DOCS, `${id}.html`), `<html><head><meta charset="utf-8"></head><body style="font-family:Arial">`
-    + `<p style="color:#64748B">Módulo ${m.n} · ${esc(m.nombre)} · Caso de aplicación</p><h1>${esc(titulo)}</h1>${bloques(texto)}</body></html>`);
-  DOCS = false;
+  escribir(DIR_CASOS_HTML, DIR_CASOS_DOCS, id, { titulo: (/^# (.+)$/m.exec(mdc)?.[1] || id).trim(), etiqueta: `Módulo ${m.n} · ${m.nombre} · Caso de aplicación`, texto: mdc.replace(/^# .*\n/, '') });
 }
 if (casos.length) console.log(`${casos.length} casos en entregables/casos`);
+
+// ---------- Actividades de aplicación práctica (2 por AE) ----------
+const actividades = fs.existsSync(path.join(RAIZ, 'actividades')) ? fs.readdirSync(path.join(RAIZ, 'actividades')).filter(f => /^M\d-AE\d\.md$/.test(f)).map(f => f.slice(0, -3)).sort() : [];
+const [DIR_ACT_HTML, DIR_ACT_DOCS, DIR_ACT_PDF] = carpetas('actividades');
+for (const id of actividades) {
+  const mda = leerMd(path.join('actividades', `${id}.md`));
+  const m = curso.modulos.find(x => x.n === Number(id[1])), ae = m.aes.find(a => a.id === id);
+  escribir(DIR_ACT_HTML, DIR_ACT_DOCS, id, { titulo: `${id} · ${ae.tema}`, etiqueta: `Módulo ${m.n} · Actividades de aplicación práctica`, subtitulo: textoAE(ae, false), subtituloDocs: textoAE(ae, true), texto: mda.replace(/^# .*\n/, '') });
+}
+if (actividades.length) console.log(`${actividades.length} documentos de actividades en entregables/actividades`);
+
+// ---------- Glosario (un documento para todo el curso) ----------
+const DIR_GLO = path.join(SALIDA, 'glosario');
+fs.mkdirSync(DIR_GLO, { recursive: true });
+const glosario = curso.modulos.filter(m => fs.existsSync(path.join(RAIZ, 'glosario', `M${m.n}.md`))).map(m => {
+  const g = leerMd(path.join('glosario', `M${m.n}.md`));
+  const aes = g.split(/^## /m).slice(1).map(b => ({ titulo: b.split('\n')[0].trim(), terminos: [...b.matchAll(/^- \*\*(.+?)\*\*:\s*([\s\S]*?)(?=^- \*\*|(?![\s\S]))/gm)].map(x => ({ t: x[1], d: x[2].replace(/\s+/g, ' ').trim() })) }));
+  return { m, aes };
+});
+if (glosario.length) {
+  const total = glosario.reduce((s, g) => s + g.aes.reduce((a, b) => a + b.terminos.length, 0), 0);
+  const cuerpoGlo = docs => glosario.map(({ m, aes }) => (docs ? `<h2 style="${D.h2}"><span style="color:${C.frambuesa}">${CHEVRON}</span> Módulo ${m.n} · ${esc(m.nombre)}</h2>` : `<h2>Módulo ${m.n} · ${esc(m.nombre)}</h2>`)
+    + aes.map(a => (docs ? `<h3 style="${D.h3}">${esc(a.titulo)}</h3>` : `<h3>${esc(a.titulo)}</h3>`)
+      + (docs ? a.terminos.map(x => `<p><b style="font-family:'Varela Round';font-weight:normal;color:${C.frambuesa}">${enLinea(x.t)}</b>: ${enLinea(x.d)}</p>`).join('')
+        : `<dl class="glosario">${a.terminos.map(x => `<dt>${enLinea(x.t)}</dt><dd>${enLinea(x.d)}</dd>`).join('')}</dl>`)).join('')).join('');
+  const sub = docs => docs ? `<p style="color:${C.grisClaro};font-size:10pt">${total} términos del curso, ordenados por módulo y tema.</p>` : `<p class="ae">${total} términos del curso, ordenados por módulo y tema.</p>`;
+  DOCS = false;
+  fs.writeFileSync(path.join(DIR_GLO, 'Glosario.html'), documentoPDF({ titulo: 'Glosario', etiqueta: curso.titulo, subtitulo: sub(false), cuerpo: cuerpoGlo(false) }));
+  DOCS = true;
+  fs.writeFileSync(path.join(DIR_GLO, 'Glosario-docs.html'), documentoDocs({ titulo: 'Glosario', etiqueta: curso.titulo, subtitulo: sub(true), cuerpo: cuerpoGlo(true) }));
+  DOCS = false;
+  // XML de glosario de Moodle (Glosario → Importar entradas)
+  const x = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const entradas = glosario.flatMap(({ m, aes }) => aes.flatMap(a => a.terminos.map(t => `    <ENTRY><CONCEPT>${x(t.t)}</CONCEPT><DEFINITION>${x(`<p>${t.d.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')}</p>`)}</DEFINITION><FORMAT>1</FORMAT><USEDYNALINK>0</USEDYNALINK><CASESENSITIVE>0</CASESENSITIVE><FULLMATCH>0</FULLMATCH><TEACHERENTRY>1</TEACHERENTRY><CATEGORIES><CATEGORY><NAME>Módulo ${m.n}</NAME><USEDYNALINK>0</USEDYNALINK></CATEGORY></CATEGORIES></ENTRY>`)));
+  fs.writeFileSync(path.join(DIR_GLO, 'Glosario-Moodle.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<GLOSSARY>\n  <INFO>\n    <NAME>Glosario · ${x(curso.titulo)}</NAME>\n    <INTRO></INTRO>\n    <INTROFORMAT>1</INTROFORMAT>\n    <ENTRIES>\n${entradas.join('\n')}\n    </ENTRIES>\n  </INFO>\n</GLOSSARY>\n`);
+  console.log(`Glosario: ${total} términos en entregables/glosario (HTML, Docs, XML de Moodle)`);
+}
 
 // ---------- Documentos de proceso, investigación y LEEME de Drive (entregables/documentos/) ----------
 // Prefijo numérico para que Drive los ordene; el título del Doc sale del «# » de cada archivo.
 const DOCUMENTOS = {
   proceso: ['docs/PROCESO.md', 'PLAYBOOK-PRODUCCION.md', 'WORKFLOW.md', 'FORMATO-CONTENIDO-BASE.md', 'docs/FORMATO-QUIZ.md',
     'docs/FORMATO-INFOGRAFIA.md', 'docs/FORMATO-CASO.md', 'docs/BRIEF-REDACCION.md', 'docs/PERSONAJES.md', 'docs/CORRESPONDENCIA.md',
-    'docs/CORRESPONDENCIA-FONDO.md', 'docs/AUDITORIA.md', 'docs/PENDIENTES-VERIFICACION.md', 'docs/CRITERIOS-28-10.md'],
+    'docs/CORRESPONDENCIA-FONDO.md', 'docs/AUDITORIA.md', 'docs/PENDIENTES-VERIFICACION.md', 'docs/CRITERIOS-28-10.md', 'docs/CRITERIOS-29-10.md'],
   investigacion: ['investigacion/M1.md', 'investigacion/M2.md', 'investigacion/M3.md', 'investigacion/M4.md', 'investigacion/M5.md',
     'investigacion/M6.md', 'investigacion/HERRAMIENTAS-1.md', 'investigacion/HERRAMIENTAS-2.md'],
   'fichas-casos': casos.map(id => `investigacion/casos/${id}.md`).filter(f => fs.existsSync(path.join(RAIZ, f))),
 };
 const documentos = [];
 for (const [grupo, lista] of Object.entries(DOCUMENTOS)) lista.forEach((rel, k) => {
-  const md = fs.readFileSync(path.join(RAIZ, rel), 'utf8').replace(/\r\n/g, '\n');
-  const titulo = (/^# (.+)$/m.exec(md)?.[1] || path.basename(rel, '.md')).trim();
+  const mdd = leerMd(rel);
+  const titulo = (/^# (.+)$/m.exec(mdd)?.[1] || path.basename(rel, '.md')).trim();
   const nombre = grupo === 'fichas-casos' ? `Ficha-${path.basename(rel, '.md')}` : `${String(k + 1).padStart(2, '0')}-${path.basename(rel, '.md')}`;
-  const texto = md.replace(/^# .*\n/, '');
-  const dirHtml = path.join(SALIDA, 'documentos', grupo, 'html'), dirDocs = path.join(SALIDA, 'documentos', grupo, 'docs');
-  for (const d of [dirHtml, dirDocs, path.join(SALIDA, 'documentos', grupo, 'pdf')]) fs.mkdirSync(d, { recursive: true });
+  const [dirHtml, dirDocs] = carpetas('documentos', grupo);
+  // Los documentos internos no resuelven citas: muestran el registro tal cual
   DOCS = false;
-  fs.writeFileSync(path.join(dirHtml, `${nombre}.html`), `<!doctype html><html lang="es"><head><meta charset="utf-8"><title>${esc(titulo)}</title>${CSS}`
-    + `<style>@page{size:A4;margin:16mm 15mm}main{padding:0;max-width:none}h3{break-after:avoid}.caja,table{break-inside:avoid}pre{font-size:11px}</style></head>`
-    + `<body><main><p class="comp">${esc(curso.titulo)} · <code>${esc(rel)}</code></p><h1 style="margin-top:0">${esc(titulo)}</h1>${bloques(texto)}</main></body></html>`);
+  fs.writeFileSync(path.join(dirHtml, `${nombre}.html`), documentoPDF({ titulo, etiqueta: `${curso.titulo} · ${rel}`, cuerpo: bloques(mdd.replace(/^# .*\n/, '')) }));
   DOCS = true;
-  fs.writeFileSync(path.join(dirDocs, `${nombre}.html`), `<html><head><meta charset="utf-8"></head><body style="font-family:Arial">`
-    + `<p style="color:#64748B">${esc(curso.titulo)} · ${esc(rel)}</p><h1>${esc(titulo)}</h1>${bloques(texto)}</body></html>`);
+  fs.writeFileSync(path.join(dirDocs, `${nombre}.html`), documentoDocs({ titulo, etiqueta: `${curso.titulo} · ${rel}`, cuerpo: bloques(mdd.replace(/^# .*\n/, '')) }));
   DOCS = false;
   documentos.push({ grupo, nombre, titulo });
 });
 {
-  const md = fs.readFileSync(path.join(RAIZ, 'docs', 'LEEME-DRIVE.md'), 'utf8').replace(/\r\n/g, '\n');
+  const mdl = leerMd('docs/LEEME-DRIVE.md');
   DOCS = true;
   fs.mkdirSync(path.join(SALIDA, 'documentos', 'leeme'), { recursive: true });
-  fs.writeFileSync(path.join(SALIDA, 'documentos', 'leeme', 'LEEME.html'), `<html><head><meta charset="utf-8"></head><body style="font-family:Arial">`
-    + `<h1>${esc(/^# (.+)$/m.exec(md)[1])}</h1>${bloques(md.replace(/^# .*\n/, ''))}</body></html>`);
+  fs.writeFileSync(path.join(SALIDA, 'documentos', 'leeme', 'LEEME.html'), documentoDocs({ titulo: /^# (.+)$/m.exec(mdl)[1], etiqueta: curso.titulo, cuerpo: bloques(mdl.replace(/^# .*\n/, '')) }));
   DOCS = false;
 }
 fs.writeFileSync(path.join(SALIDA, 'documentos', 'indice.json'), JSON.stringify(documentos, null, 2));
 console.log(`${documentos.length} documentos en entregables/documentos`);
+if (faltanAPA.size) console.log(`⚠ ${faltanAPA.size} fuentes citadas sin entrada en investigacion/referencias-apa.json: ${[...faltanAPA].join(', ')} (correr: node scripts/referencias-apa.mjs --borrador)`);
 
-// ---------- PDF con Edge o Chrome headless ----------
+// ---------- PDF con Chrome headless ----------
 if (!process.argv.includes('--sin-pdf')) {
   const { execFileSync } = await import('node:child_process');
   const { pathToFileURL } = await import('node:url');
@@ -276,7 +336,7 @@ if (!process.argv.includes('--sin-pdf')) {
   if (!nav) throw new Error('No encontré Edge ni Chrome para imprimir PDF');
   const imprimir = (html, pdf) => {
     if (fs.existsSync(pdf)) fs.unlinkSync(pdf);
-    execFileSync(nav, ['--headless=new', '--disable-gpu', '--no-pdf-header-footer', '--generate-pdf-document-outline',
+    execFileSync(nav, ['--headless=new', '--disable-gpu', '--no-pdf-header-footer', '--generate-pdf-document-outline', '--virtual-time-budget=2000',
       `--print-to-pdf=${pdf}`, pathToFileURL(html).href], { stdio: 'ignore', timeout: 180000 });
     if (!fs.existsSync(pdf)) throw new Error(`No se generó ${pdf}`);
   };
@@ -284,7 +344,9 @@ if (!process.argv.includes('--sin-pdf')) {
   if (!solo) {
     for (const id of archivos) imprimir(path.join(DIR_AE, `${id}.html`), path.join(DIR_PDF, `${id}.pdf`));
     imprimir(path.join(SALIDA, 'Contenidos-completos.html'), path.join(DIR_PDF, 'Contenidos-completos.pdf'));
-    console.log(`${archivos.length + 1} PDF en entregables/pdf`);
+    for (const id of actividades) imprimir(path.join(DIR_ACT_HTML, `${id}.html`), path.join(DIR_ACT_PDF, `${id}.pdf`));
+    if (glosario.length) imprimir(path.join(DIR_GLO, 'Glosario.html'), path.join(DIR_GLO, 'Glosario.pdf'));
+    console.log(`${archivos.length + 1} PDF de contenidos, ${actividades.length} de actividades${glosario.length ? ' y el glosario' : ''}`);
   }
   if (solo !== '--solo-documentos') for (const id of casos) imprimir(path.join(DIR_CASOS_HTML, `${id}.html`), path.join(DIR_CASOS_PDF, `${id}.pdf`));
   if (solo !== '--solo-casos') {

@@ -77,6 +77,30 @@ for (const d of listar(path.join(RAIZ, 'videos'), '')) {
   const id = path.basename(d);
   if (fs.existsSync(g) && pasa(id)) out.push([`guion ${id}`, revisarTexto(id, leer(g))]);
 }
+// Actividades de aplicación práctica (criterios 29-10): audiencia, sin casos, 2 por AE, marcas = «fuentes:»
+const marcas = t => [...t.matchAll(/\[n?@([^\]]+)\]/g)].flatMap(m => m[1].split(/;\s*@?/).map(x => x.replace(/^@/, '').trim()));
+for (const f of listar(path.join(RAIZ, 'actividades'), '.md')) {
+  const id = path.basename(f, '.md');
+  if (!pasa(id)) continue;
+  const md = leer(f);
+  const res = revisarTexto(id, md.split(/^## Referencias bibliográficas/m)[0]);
+  const acts = md.split(/^## Actividad \d/m).slice(1);
+  if (acts.length !== 2) res.push(['error', `${acts.length} actividades (deben ser 2)`]);
+  acts.forEach((a, k) => {
+    const fu = /^fuentes:[ \t]*(.+)$/m.exec(a);
+    const enLinea = new Set(fu ? fu[1].split(/,\s*/).filter(Boolean) : []), enTexto = new Set(marcas(a));
+    for (const x of enLinea) if (!enTexto.has(x)) res.push(['error', `actividad ${k + 1}: ${x} sin marca en el texto`]);
+    for (const x of enTexto) if (!enLinea.has(x)) res.push(['error', `actividad ${k + 1}: la marca [@${x}] no está en «fuentes:»`]);
+    if (!/^cubre:\s*\S/m.test(a)) res.push(['error', `actividad ${k + 1}: falta «cubre:»`]);
+    for (const s of ['Situación', 'Lo que vas a hacer', 'Lo que entregas', 'Cómo se revisa']) if (!new RegExp(`^### ${s}`, 'm').test(a)) res.push(['aviso', `actividad ${k + 1}: falta «### ${s}»`]);
+  });
+  out.push([`actividades ${id}`, res]);
+}
+// Glosario: sin audiencia vieja ni casos
+for (const f of listar(path.join(RAIZ, 'glosario'), '.md')) {
+  const id = path.basename(f, '.md');
+  if (pasa(id)) out.push([`glosario ${id}`, revisarTexto(id, leer(f))]);
+}
 // Casos: pueden nombrar su empresa, pero no suponer que quien estudia no trabaja
 for (const f of listar(path.join(RAIZ, 'casos'), '.md')) {
   const id = path.basename(f, '.md');

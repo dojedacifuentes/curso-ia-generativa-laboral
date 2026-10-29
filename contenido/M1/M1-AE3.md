@@ -5,7 +5,7 @@ cubre: C1, C2
 fuentes: F-M1-03, F-M1-13
 bloque: Texto + imagen de portada
 
-En el primer tema viste que el modelo genera su respuesta fragmento a fragmento y que esa elección tiene algo de azar. En el segundo
+En el primer tema viste que el modelo genera su respuesta fragmento a fragmento y que esa elección tiene algo de azar [@F-M1-03]. En el segundo
 aprendiste a escribir prompts con rol, contexto, tarea y formato. Ahora vas a ver qué más influye en la respuesta, además de tus
 palabras, y cómo manejarlo según lo que necesita cada tarea.
 
@@ -17,7 +17,7 @@ Vas a trabajar con tres ideas. La temperatura, que regula cuánta variación hay
 escribe el modelo, y la iteración, que es pedir otra respuesta y compararla con la anterior.
 
 Para entender por qué importan, mira lo que le pasó a Camila. Le pidió dos veces a Gemini «tres asuntos para un correo de seguimiento
-de pago» y recibió dos listas distintas. No es un error: es parte de cómo funcionan estos modelos. En este tema vas a experimentar, y
+de pago» y recibió dos listas distintas. No es un error: es parte de cómo funcionan estos modelos [@F-M1-13]. En este tema vas a experimentar, y
 lo importante no será memorizar números, sino comparar con método: cambiar una cosa, mirar qué pasa y anotarlo.
 
 ## P02 · Qué es un parámetro de generación
@@ -27,7 +27,7 @@ bloque: Texto + tabla
 
 Un **parámetro de generación** es un ajuste que cambia cómo el modelo produce la respuesta, sin tocar tu prompt. Se parece a los
 controles de una cámara: la escena es la misma, pero la foto cambia según cómo la configures. Las documentaciones de Google y de OpenAI
-describen varios, y los más comunes son estos tres:
+describen varios, y los más comunes son estos tres [@F-M1-15; @F-M1-16]:
 
 | Parámetro | Qué controla | Efecto |
 |---|---|---|
@@ -51,9 +51,9 @@ Recuerda cómo genera texto el modelo: en cada paso estima qué continuaciones s
 en la opción más probable, porque tiene algo de azar. La **temperatura** regula cuánto azar hay.
 
 Con temperatura baja, el modelo se inclina por las opciones más probables y las respuestas salen más enfocadas y parecidas entre sí;
-según la guía de Google, con temperatura 0 elige siempre la opción más probable. Con temperatura alta, da más espacio a opciones menos
+según la guía de Google, con temperatura 0 elige siempre la opción más probable [@F-M1-15]. Con temperatura alta, da más espacio a opciones menos
 probables y las respuestas salen más diversas y, a veces, más originales. OpenAI, cuya API acepta valores de 0 a 2, lo ilustra así:
-0,8 da salidas más aleatorias y 0,2 más enfocadas.
+0,8 da salidas más aleatorias y 0,2 más enfocadas [@F-M1-16].
 
 Más alto no es «mejor». Más azar también trae más opciones que no te sirven, y te toca elegir. Y hay algo que la temperatura no hace:
 no cambia lo que el modelo sabe. Cambia cuánto se arriesga al elegir las palabras.
@@ -72,11 +72,11 @@ bloque: Texto + knowledge check
 El **top-p** es otro parámetro relacionado con el azar. En vez de regular cuánto se arriesga el modelo, limita entre qué opciones
 elige: solo considera las más probables hasta sumar cierta probabilidad. Con un top-p bajo, la elección se reduce a pocas opciones.
 OpenAI recomienda ajustar la temperatura o el top-p, pero no los dos a la vez, porque ambos influyen en la variación y después es
-difícil saber cuál causó el cambio. También advierte que no todos sus modelos admiten estos ajustes, sobre todo los que razonan antes
+difícil saber cuál causó el cambio [@F-M1-16]. También advierte que no todos sus modelos admiten estos ajustes, sobre todo los que razonan antes
 de responder.
 
 ¿Dónde se ajustan? En entornos para desarrolladores, como la API de cada proveedor o Google AI Studio, que tiene un panel llamado
-«Configuración de ejecución» para cambiar los parámetros del modelo. En las aplicaciones de chat gratuitas, como Gemini o ChatGPT en el
+«Configuración de ejecución» para cambiar los parámetros del modelo [@F-H-37]. En las aplicaciones de chat gratuitas, como Gemini o ChatGPT en el
 celular, no vas a encontrar un control de temperatura ni de top-p. Ahí la variación la manejas de otras formas, que verás en las
 próximas pantallas.
 
@@ -94,9 +94,9 @@ fuentes: F-M1-15, F-M1-18
 bloque: Texto + recuadro destacado
 
 En 2026 hay algo que conviene saber: los proveedores están dejando de permitir que cambies la temperatura y el top-p en sus modelos más
-recientes. Google indica que los modelos Gemini 4 y Gemini 3.6 en adelante ignoran los valores de temperatura y top-p que les envíes.
+recientes. Google indica que los modelos Gemini 4 y Gemini 3.6 en adelante ignoran los valores de temperatura y top-p que les envíes [@F-M1-15].
 Anthropic fue más lejos: sus modelos Claude desde la versión 4.7 solo aceptan los valores predeterminados, y desde la versión de su API
-del 21 de octubre de 2026 una solicitud que trae temperatura o top-p da error.
+del 21 de octubre de 2026 una solicitud que trae temperatura o top-p da error [@F-M1-18].
 
 Para ti, eso significa que en los modelos nuevos la temperatura sigue existiendo, pero la fija el proveedor. El concepto te sirve
 igual, porque explica por qué el mismo pedido da respuestas distintas y por qué a veces conviene pedir otra versión. Que un control
@@ -114,11 +114,11 @@ fuentes: F-M1-15, F-M1-13
 bloque: Texto + comparación de dos respuestas
 
 La **longitud** se puede manejar de dos maneras. La primera es el parámetro de tokens máximos de salida, que existe en la API y en AI
-Studio: fijas cuántos tokens puede escribir el modelo como máximo. Es un tope, así que el modelo no escribe más allá de ese número y
+Studio: fijas cuántos tokens puede escribir el modelo como máximo [@F-M1-15]. Es un tope, así que el modelo no escribe más allá de ese número y
 puede terminar antes; si el tope es muy bajo, la respuesta queda cortada, a veces a mitad de una frase.
 
 La segunda es pedirla en el prompt, y funciona en cualquier app de chat: «en 50 palabras», «en tres viñetas», «en un párrafo». La guía
-de Microsoft recomienda justamente dar expectativas de extensión y restricciones concretas, como un límite de palabras. Las dos formas
+de Microsoft recomienda justamente dar expectativas de extensión y restricciones concretas, como un límite de palabras [@F-M1-13]. Las dos formas
 son distintas: el tope corta y la instrucción orienta. Cuando pides «en 50 palabras», el asistente intenta ajustarse, pero puede
 pasarse o quedarse corto, así que conviene revisar.
 
@@ -143,9 +143,9 @@ La **iteración** es el tercer recurso del tema. En el tema anterior la usaste p
 forma de obtener varias salidas y compararlas. Hay dos maneras de hacerlo.
 
 La primera es regenerar con el mismo prompt. Como la generación tiene azar, el mismo pedido puede dar una respuesta distinta en cada
-intento, como advierte Microsoft. Si tu app tiene una opción para volver a generar la respuesta, úsala; si no, pega el mismo prompt en
+intento, como advierte Microsoft [@F-M1-13]. Si tu app tiene una opción para volver a generar la respuesta, úsala; si no, pega el mismo prompt en
 una conversación nueva. Así obtienes varias versiones sin cambiar nada y eliges la mejor. La segunda es iterar con un ajuste: cambias
-una parte del prompt, como el largo, el tono o una restricción, y vuelves a pedir. Es lo que practicaste con los ejemplos de antes y
+una parte del prompt, como el largo, el tono o una restricción, y vuelves a pedir [@F-M1-12]. Es lo que practicaste con los ejemplos de antes y
 después.
 
 | | Qué cambias | Para qué sirve |
@@ -172,7 +172,7 @@ bloque: Texto + tabla o escala de dos extremos
 Entre creatividad y precisión hay una relación que conviene tener clara. Mientras más variación permites, más ideas distintas
 aparecen, pero también más riesgo de que algo se salga del pedido. Mientras menos variación, más consistentes son las respuestas, pero
 también más parecidas entre sí. Las guías de Google y de OpenAI lo resumen así: valores bajos de temperatura para tareas con una
-respuesta acotada y valores altos para resultados diversos o creativos.
+respuesta acotada y valores altos para resultados diversos o creativos [@F-M1-15; @F-M1-16].
 
 | Tarea | Qué necesitas | Hacia dónde ajustar |
 |---|---|---|
@@ -197,7 +197,7 @@ fuentes: F-M1-15, F-M1-13
 bloque: Comparación en dos columnas
 
 Si tu app no tiene control de temperatura, igual puedes orientar la respuesta hacia la precisión o hacia la creatividad con la
-instrucción. A esto le llamamos **instrucciones contrastadas**: la misma consigna, con dos indicaciones opuestas. Para ir hacia la
+instrucción [@F-M1-13]. A esto le llamamos **instrucciones contrastadas**: la misma consigna, con dos indicaciones opuestas. Para ir hacia la
 precisión, Camila escribe:
 
 > «Responde solo con la información del texto que te pego. Si algo no aparece, escribe "no indica". Usa frases cortas y no agregues
@@ -209,7 +209,7 @@ Y para ir hacia la creatividad:
 > sorprendente.»
 
 La guía de Google sugiere limitar al modelo al contexto que le entregas para que no agregue información de otra parte, y eso es lo que
-hace la primera instrucción. Ojo con la diferencia: la instrucción no cambia la temperatura, cambia lo que le pides. El efecto se
+hace la primera instrucción [@F-M1-15]. Ojo con la diferencia: la instrucción no cambia la temperatura, cambia lo que le pides. El efecto se
 parece, y por eso te sirve en el celular, pero no es el mismo ajuste.
 
 :::comprueba
@@ -227,7 +227,7 @@ fuentes: F-M1-15, F-M1-16
 bloque: Escenario con decisiones (scenario block)
 
 Configurar según la tarea es decidir, antes de pedir, qué necesita tu objetivo: precisión o variedad, un texto corto o largo, una
-respuesta o varias para elegir. Google recomienda experimentar con los ajustes hasta encontrar los adecuados para cada tarea, y para
+respuesta o varias para elegir. Google recomienda experimentar con los ajustes hasta encontrar los adecuados para cada tarea [@F-M1-15; @F-M1-16], y para
 no hacerlo a ciegas sirven tres preguntas.
 
 La primera es si hay una respuesta correcta. Si la hay, como en datos, categorías o fechas, buscas precisión: poca variación y la
@@ -254,7 +254,7 @@ bloque: Texto + lista de verificación (checklist)
 Comparar salidas no es elegir la que «suena mejor» a primera vista. El **rigor** está en comparar con método, para que tu elección se
 pueda explicar y otra persona, con tu registro, pueda llegar a algo parecido.
 
-Una buena comparación usa exactamente la misma consigna en todas las versiones, salvo lo que quieres probar. Cambia una cosa a la vez,
+Una buena comparación usa exactamente la misma consigna en todas las versiones, salvo lo que quieres probar [@F-M1-13; @F-M1-15]. Cambia una cosa a la vez,
 porque si cambias el largo y el tono juntos no sabrás cuál de los dos produjo la diferencia. Junta al menos tres salidas, ya que con
 dos cuesta ver qué varía y qué se mantiene. Y define los criterios antes de leer, para no dejarte llevar por la primera impresión. En
 tareas de oficina sirven estos cinco:
@@ -277,8 +277,8 @@ bloque: Proceso paso a paso (process block)
 Esta práctica es opcional. Es para personas mayores de 18 años, con computador o navegador web, que quieran ver con sus ojos el efecto
 de la temperatura. Si no es tu caso, pasa directo a la práctica B: con ella cumples lo que pide el tema.
 
-**Google AI Studio** es un entorno de Google para probar modelos e instrucciones, y se puede usar sin pagar. Sus términos exigen tener
-18 años o más. Como viste en la pantalla 5, los modelos más nuevos de Gemini ignoran la temperatura, así que para esta práctica
+**Google AI Studio** es un entorno de Google para probar modelos e instrucciones, y se puede usar sin pagar [@F-H-37]. Sus términos exigen tener
+18 años o más [@F-H-40]. Como viste en la pantalla 5, los modelos más nuevos de Gemini ignoran la temperatura, así que para esta práctica
 necesitas un modelo anterior a Gemini 3.6, si la lista te lo ofrece.
 
 1. Entra a AI Studio con tu cuenta de Google.
@@ -299,14 +299,14 @@ cubre: H1, C1, C2, A1
 fuentes: F-M1-13, F-H-14
 bloque: Proceso paso a paso + actividad
 
-Esta práctica la puede hacer cualquier persona con la app de Gemini, que está para Android y para iPhone, o con el asistente que uses.
+Esta práctica la puede hacer cualquier persona con la app de Gemini, que está para Android y para iPhone, o con el asistente que uses [@F-H-14].
 Vas a trabajar los tres recursos del tema con una misma tarea de tu trabajo, por ejemplo redactar un aviso, resumir un procedimiento o
 responder a un cliente. Usa una copia sin datos sensibles o datos de prueba.
 
 Son tres experimentos. En el primero pruebas la longitud: envías tu prompt pidiendo «máximo 40 palabras» y, en una conversación
 nueva, el mismo prompt con «máximo 120 palabras»; luego miras qué se perdió en la versión corta y qué sobra en la larga. En el segundo
 pruebas la iteración: envías el mismo prompt tres veces, regenerando o en tres conversaciones nuevas, y comparas qué cambia y qué se
-mantiene. En el tercero comparas precisión y creatividad: envías la misma consigna con la instrucción de precisión y luego con la de
+mantiene [@F-M1-13]. En el tercero comparas precisión y creatividad: envías la misma consigna con la instrucción de precisión y luego con la de
 creatividad de la pantalla 9, y decides cuál sirve mejor para tu objetivo.
 
 Cada vez que cambies algo, abre una conversación nueva. Así la respuesta anterior no influye en la siguiente. Al final, elige la mejor
@@ -323,7 +323,7 @@ fuentes: F-M1-15
 bloque: Tabla descargable (plantilla de registro)
 
 El **registro** es lo que convierte una prueba en un experimento. La guía de Google recomienda experimentar con los ajustes según la
-tarea, y anotar lo que pruebas te permite aprender de cada intento. Puedes usar esta tabla en un documento, una planilla o las notas
+tarea [@F-M1-15], y anotar lo que pruebas te permite aprender de cada intento. Puedes usar esta tabla en un documento, una planilla o las notas
 del celular, y anotar también la fecha de la prueba:
 
 | N.º | Herramienta y modelo | Prompt (igual en todas) | Qué cambié | Salida (resumen) | Exactitud | Formato y largo | Tono | Utilidad | Elegida |
@@ -347,7 +347,7 @@ fuentes: F-M1-15, F-M1-13
 bloque: Escenario + knowledge check
 
 Elegir con fundamento es decir qué versión elegiste, con qué criterio y por qué las otras no. Camila pidió tres veces, con el mismo
-prompt y los mismos datos, la respuesta a un proveedor que preguntaba por el pago de su factura:
+prompt y los mismos datos, la respuesta a un proveedor que preguntaba por el pago de su factura [@F-M1-13]:
 
 - A: «Junto con saludar, le informamos que su consulta fue recibida y será respondida a la brevedad.»
 - B: «Su factura de octubre está aprobada y se pagará el día 15 por transferencia. Cualquier duda, quedo atenta.»
@@ -357,7 +357,7 @@ Camila elige la B y lo justifica: «Responde lo que el proveedor preguntó, con 
 pero no responde nada. La C exagera y promete algo que no puedo asegurar».
 
 Un error común es quedarse con la respuesta más larga o la que trae más detalles. Más texto no significa más útil: la mejor salida es
-la que cumple el objetivo, con los datos correctos y el largo que el lector necesita.
+la que cumple el objetivo, con los datos correctos y el largo que el lector necesita [@F-M1-15].
 
 :::comprueba
 Andrés compara tres resúmenes del reporte semanal. Uno es el más largo y detallado, pero cambia una cifra de stock. ¿Cuál conviene
@@ -374,7 +374,7 @@ fuentes: F-M1-15, F-M1-13
 bloque: Texto + actividad de cierre (respuesta abierta)
 
 En este tema viste que la temperatura regula cuánto azar hay en la respuesta, que la longitud se maneja con un tope o con la
-instrucción y que la iteración te da varias salidas para comparar. También viste que en los modelos más nuevos la temperatura la fija
+instrucción y que la iteración te da varias salidas para comparar [@F-M1-15; @F-M1-13]. También viste que en los modelos más nuevos la temperatura la fija
 el proveedor: lo que siempre controlas es tu prompt, el largo que pides y cuántas versiones generas.
 
 La regla práctica cabe en una línea: **primero defines el objetivo, después eliges el ajuste**. Precisión para datos y categorías,
@@ -401,44 +401,14 @@ Mira tus tres experimentos y escribe:
 6. Para datos y categorías conviene precisión; para ideas, variedad; y la elección se justifica con criterios definidos.
 7. Comparar con rigor es usar la misma consigna, cambiar una cosa a la vez y registrar todas las salidas.
 
-## Glosario
+## Referencias bibliográficas
 
-- **Parámetro de generación**: ajuste que cambia cómo el modelo produce la respuesta sin modificar el prompt.
-- **Temperatura**: parámetro que regula cuánto azar hay al elegir cada fragmento de la respuesta.
-- **Top-p**: parámetro que limita la elección a las opciones más probables hasta sumar cierta probabilidad.
-- **Tokens máximos de salida**: tope de tokens que el modelo puede escribir en una respuesta.
-- **Valor predeterminado**: valor que el proveedor asigna a un parámetro cuando la persona no lo cambia o no puede cambiarlo.
-- **Regenerar**: pedir una nueva respuesta al mismo prompt, sin cambiarlo.
-- **Instrucción contrastada**: la misma consigna con dos indicaciones opuestas, una hacia la precisión y otra hacia la creatividad.
-- **Precisión**: cualidad de una respuesta que se ajusta a los datos y al pedido, sin agregar ni cambiar información.
-- **Google AI Studio**: entorno de Google para probar modelos e instrucciones y ajustar sus parámetros; exige 18 años o más.
-- **Registro de resultados**: tabla donde se anotan el prompt, el ajuste, cada salida y su evaluación.
-
-## Conexión con el proyecto
-
-Tu regla de configuración (P16) queda como nota en una de las plantillas de tu **biblioteca de prompts**, la del **Hito 1 del proyecto
-aplicado: problema u oportunidad real + biblioteca de prompts v1**. Así, cuando vuelvas a usar esa plantilla en tu trabajo, sabrás qué
-ajuste te dio el mejor resultado y por qué.
-
-## Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M1.md` e `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
-
-- F-M1-03 · Google for Developers (2026). Introducción a los modelos de lenguaje grandes. https://developers.google.com/machine-learning/crash-course/llm?hl=es-419
-- F-M1-12 · Google Workspace (2026). Cómo escribir instrucciones eficaces. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
-- F-M1-13 · Microsoft Support (2026). Introducción a la escritura de indicaciones en Copilot. https://support.microsoft.com/es-es/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot
-- F-M1-15 · Google AI for Developers (2026). Estrategias de diseño de instrucciones. https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419
-- F-M1-16 · OpenAI (2026). API Reference: Create chat completion. https://developers.openai.com/api/reference/resources/chat/subresources/completions/methods/create
-- F-M1-18 · Anthropic (2026). Migrating to API version 2026-10-21. https://platform.claude.com/docs/en/api/migration-2026-10-21
-- F-H-14 · Google (s. f.). Empezar a usar la aplicación móvil Gemini. https://support.google.com/gemini/answer/14554984?hl=es
-- F-H-37 · Google (2026). Guía de inicio rápido de Google AI Studio. https://ai.google.dev/gemini-api/docs/ai-studio-quickstart?hl=es-419
-- F-H-40 · Google (2026). Gemini API Additional Terms of Service. https://ai.google.dev/gemini-api/terms?hl=en
-
-Recomendaciones del curso, sin fuente: las tres preguntas para configurar según la tarea (P10), las reglas y criterios de comparación
-(P11), la tabla de registro con escala bien/regular/mal (P14) y los textos de las instrucciones contrastadas (P09). Que las apps de
-chat gratuitas no muestran control de temperatura se deduce de las páginas de planes y funciones; ningún proveedor lo dice de forma
-expresa (ver Alertas de HERRAMIENTAS-1).
-
-Antes de publicar: pilotear la práctica A en Google AI Studio (P12). No se pudo revisar por dentro: falta confirmar qué modelos
-anteriores a Gemini 3.6 aparecen en la lista y si respetan la temperatura, qué controles muestra «Configuración de ejecución» para cada
-modelo y si funciona en el navegador del celular. Los valores 0,2 y 1,5 son de ejemplo y hay que comprobar que el panel los admita.
+- Anthropic. (2026). *Migrating to API version 2026-10-21*. Claude Docs. https://platform.claude.com/docs/en/api/migration-2026-10-21
+- Google. (s. f.-a). *Cómo escribir instrucciones eficaces*. Google Workspace. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
+- Google. (s. f.-b). *Empezar a usar la aplicación móvil Gemini*. https://support.google.com/gemini/answer/14554984?hl=es
+- Google. (2026a, 13 de octubre). *Estrategias de diseño de instrucciones*. Google AI for Developers. https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419
+- Google. (2026b, 28 de abril). *Gemini API additional terms of service*. Google AI for Developers. https://ai.google.dev/gemini-api/terms?hl=en
+- Google. (2026c, 30 de julio). *Guía de inicio rápido de Google AI Studio*. Google AI for Developers. https://ai.google.dev/gemini-api/docs/ai-studio-quickstart?hl=es-419
+- Google. (2026d). *Introducción a los modelos de lenguaje grandes (Curso intensivo de aprendizaje automático)*. Google for Developers. https://developers.google.com/machine-learning/crash-course/llm?hl=es-419
+- Microsoft. (2026). *Introducción a la escritura de indicaciones en Microsoft Copilot*. Microsoft Support. https://support.microsoft.com/es-es/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot
+- OpenAI. (s. f.). *API reference: Create chat completion*. OpenAI API Docs. https://developers.openai.com/api/reference/resources/chat/subresources/completions/methods/create

@@ -1,9 +1,9 @@
 {
   "resumen": {
-    "generado": "2026-10-28T16:11:22.688Z",
-    "chequeos": 84,
-    "ok": 78,
-    "aviso": 4,
+    "generado": "2026-10-29T20:06:27.600Z",
+    "chequeos": 107,
+    "ok": 96,
+    "aviso": 9,
     "error": 0,
     "pendiente": 2
   },
@@ -140,11 +140,11 @@
           "estado": "aviso",
           "errores": [],
           "avisos": [
-            "56 sin citar: F-H-01, F-H-03, F-H-04, F-H-05, F-H-06, F-H-08, F-H-09, F-H-10, F-H-11, F-H-13, F-H-17, F-H-18, F-H-19, F-H-21, F-H-22, F-H-23, F-H-24, F-H-25, F-H-26, F-H-27, F-H-28, F-H-31, F-H-32, F-H-34, F-H-35, F-H-36, F-H-38, F-H-39, F-H-41, F-H-42, F-H-43, F-H-48, F-H-51, F-H-58, F-H-59, F-H-62, F-H-66, F-H-70, F-H-71, F-H-72, F-H-73, F-H-74, F-H-80, F-H-81, F-H-87, F-H-88, F-H-89, F-H-90, F-H-91, F-H-92, F-H-96, F-H-97, F-H-98, F-M1-17, F-M4-13, F-M4-18"
+            "60 sin citar: F-H-01, F-H-03, F-H-04, F-H-05, F-H-06, F-H-08, F-H-09, F-H-10, F-H-11, F-H-13, F-H-17, F-H-18, F-H-19, F-H-21, F-H-22, F-H-23, F-H-24, F-H-25, F-H-26, F-H-27, F-H-28, F-H-31, F-H-32, F-H-34, F-H-35, F-H-36, F-H-38, F-H-39, F-H-41, F-H-42, F-H-43, F-H-48, F-H-51, F-H-54, F-H-58, F-H-59, F-H-60, F-H-62, F-H-66, F-H-70, F-H-71, F-H-72, F-H-73, F-H-74, F-H-80, F-H-81, F-H-87, F-H-88, F-H-89, F-H-90, F-H-91, F-H-92, F-H-95, F-H-96, F-H-97, F-H-98, F-H-99, F-M1-17, F-M4-13, F-M4-18"
           ],
           "pendientes": [],
           "evidencia": [
-            "156 de 212 fuentes se citan en el contenido base"
+            "152 de 212 fuentes se citan en el contenido base"
           ]
         }
       ]
@@ -165,8 +165,7 @@
           "evidencia": [
             "16 pantallas, como pide la planilla",
             "10/10 códigos cubiertos",
-            "12 términos de glosario",
-            "«Conexión» nombra Hito 1"
+            "12 términos en glosario/M1.md"
           ]
         },
         {
@@ -180,8 +179,7 @@
           "evidencia": [
             "16 pantallas, como pide la planilla",
             "9/9 códigos cubiertos",
-            "10 términos de glosario",
-            "«Conexión» nombra Hito 1"
+            "10 términos en glosario/M1.md"
           ]
         },
         {
@@ -195,7 +193,7 @@
           "evidencia": [
             "16 pantallas, como pide la planilla",
             "7/7 códigos cubiertos",
-            "10 términos de glosario"
+            "10 términos en glosario/M1.md"
           ]
         },
         {
@@ -209,7 +207,7 @@
           "evidencia": [
             "17 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
-            "12 términos de glosario"
+            "12 términos en glosario/M1.md"
           ]
         },
         {
@@ -223,8 +221,7 @@
           "evidencia": [
             "18 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
-            "13 términos de glosario",
-            "«Conexión» nombra Hito 2"
+            "13 términos en glosario/M2.md"
           ]
         },
         {
@@ -238,7 +235,7 @@
           "evidencia": [
             "18 pantallas, como pide la planilla",
             "6/6 códigos cubiertos",
-            "13 términos de glosario"
+            "13 términos en glosario/M2.md"
           ]
         },
         {
@@ -252,8 +249,7 @@
           "evidencia": [
             "17 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
-            "12 términos de glosario",
-            "«Conexión» nombra Hito 2"
+            "12 términos en glosario/M2.md"
           ]
         },
         {
@@ -267,7 +263,7 @@
           "evidencia": [
             "18 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
-            "14 términos de glosario"
+            "14 términos en glosario/M2.md"
           ]
         },
         {
@@ -281,8 +277,7 @@
           "evidencia": [
             "18 pantallas, como pide la planilla",
             "7/7 códigos cubiertos",
-            "12 términos de glosario",
-            "«Conexión» nombra Hito 3"
+            "12 términos en glosario/M3.md"
           ]
         },
         {
@@ -296,7 +291,7 @@
           "evidencia": [
             "18 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
-            "14 términos de glosario"
+            "14 términos en glosario/M3.md"
           ]
         },
         {
@@ -310,8 +305,7 @@
           "evidencia": [
             "17 pantallas, como pide la planilla",
             "7/7 códigos cubiertos",
-            "13 términos de glosario",
-            "«Conexión» nombra Hito 3"
+            "13 términos en glosario/M3.md"
           ]
         },
         {
@@ -325,7 +319,7 @@
           "evidencia": [
             "18 pantallas, como pide la planilla",
             "9/9 códigos cubiertos",
-            "13 términos de glosario"
+            "13 términos en glosario/M3.md"
           ]
         },
         {
@@ -341,7 +335,7 @@
           "evidencia": [
             "15 pantallas, como pide la planilla",
             "9/9 códigos cubiertos",
-            "12 términos de glosario"
+            "12 términos en glosario/M4.md"
           ]
         },
         {
@@ -357,8 +351,7 @@
           "evidencia": [
             "15 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
-            "13 términos de glosario",
-            "«Conexión» nombra Hito 4"
+            "13 términos en glosario/M4.md"
           ]
         },
         {
@@ -372,7 +365,7 @@
           "evidencia": [
             "14 pantallas, como pide la planilla",
             "7/7 códigos cubiertos",
-            "12 términos de glosario"
+            "12 términos en glosario/M4.md"
           ]
         },
         {
@@ -386,8 +379,7 @@
           "evidencia": [
             "15 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
-            "14 términos de glosario",
-            "«Conexión» nombra Hito 4"
+            "14 términos en glosario/M4.md"
           ]
         },
         {
@@ -401,7 +393,7 @@
           "evidencia": [
             "15 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
-            "11 términos de glosario"
+            "11 términos en glosario/M5.md"
           ]
         },
         {
@@ -415,8 +407,7 @@
           "evidencia": [
             "14 pantallas, como pide la planilla",
             "9/9 códigos cubiertos",
-            "14 términos de glosario",
-            "«Conexión» nombra Hito 5"
+            "14 términos en glosario/M5.md"
           ]
         },
         {
@@ -430,8 +421,7 @@
           "evidencia": [
             "14 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
-            "14 términos de glosario",
-            "«Conexión» nombra Hito 5"
+            "14 términos en glosario/M5.md"
           ]
         },
         {
@@ -445,8 +435,7 @@
           "evidencia": [
             "10 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
-            "13 términos de glosario",
-            "«Conexión» nombra Hito 6a"
+            "13 términos en glosario/M6.md"
           ]
         },
         {
@@ -460,8 +449,7 @@
           "evidencia": [
             "10 pantallas, como pide la planilla",
             "9/9 códigos cubiertos",
-            "14 términos de glosario",
-            "«Conexión» nombra Hito 6b"
+            "14 términos en glosario/M6.md"
           ]
         },
         {
@@ -475,9 +463,310 @@
           "evidencia": [
             "9 pantallas, como pide la planilla",
             "8/8 códigos cubiertos",
-            "14 términos de glosario",
-            "«Conexión» nombra Hito 6c",
-            "«Conexión» nombra Hito 6d"
+            "14 términos en glosario/M6.md"
+          ]
+        },
+        {
+          "id": "C2.act.M1-AE1",
+          "titulo": "Actividades M1-AE1",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M1-AE2",
+          "titulo": "Actividades M1-AE2",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M1-AE3",
+          "titulo": "Actividades M1-AE3",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M1-AE4",
+          "titulo": "Actividades M1-AE4",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M2-AE1",
+          "titulo": "Actividades M2-AE1",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M2-AE2",
+          "titulo": "Actividades M2-AE2",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M2-AE3",
+          "titulo": "Actividades M2-AE3",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M2-AE4",
+          "titulo": "Actividades M2-AE4",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M3-AE1",
+          "titulo": "Actividades M3-AE1",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M3-AE2",
+          "titulo": "Actividades M3-AE2",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M3-AE3",
+          "titulo": "Actividades M3-AE3",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M3-AE4",
+          "titulo": "Actividades M3-AE4",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M4-AE1",
+          "titulo": "Actividades M4-AE1",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M4-AE2",
+          "titulo": "Actividades M4-AE2",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M4-AE3",
+          "titulo": "Actividades M4-AE3",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M4-AE4",
+          "titulo": "Actividades M4-AE4",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M5-AE1",
+          "titulo": "Actividades M5-AE1",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M5-AE2",
+          "titulo": "Actividades M5-AE2",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M5-AE3",
+          "titulo": "Actividades M5-AE3",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M6-AE1",
+          "titulo": "Actividades M6-AE1",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M6-AE2",
+          "titulo": "Actividades M6-AE2",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.act.M6-AE3",
+          "titulo": "Actividades M6-AE3",
+          "porque": "Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "2 actividades",
+            "cubren todos los H y C del AE"
+          ]
+        },
+        {
+          "id": "C2.glosario",
+          "titulo": "Glosario del curso",
+          "porque": "glosario/M<n>.md por módulo; se compila en un solo documento «Glosario» y en XML de Moodle.",
+          "estado": "ok",
+          "errores": [],
+          "avisos": [],
+          "pendientes": [],
+          "evidencia": [
+            "glosario/M1.md: 44 términos",
+            "glosario/M2.md: 52 términos",
+            "glosario/M3.md: 52 términos",
+            "glosario/M4.md: 51 términos",
+            "glosario/M5.md: 39 términos",
+            "glosario/M6.md: 41 términos"
           ]
         }
       ]
@@ -926,7 +1215,7 @@
           "evidencia": [
             "estado: Verificado con ajustes",
             "4 fuentes, 4 primarias",
-            "1365 palabras"
+            "1419 palabras"
           ]
         },
         {
@@ -940,7 +1229,7 @@
           "evidencia": [
             "estado: Verificado con ajustes",
             "3 fuentes, 3 primarias",
-            "1506 palabras"
+            "1578 palabras"
           ]
         },
         {
@@ -954,7 +1243,7 @@
           "evidencia": [
             "estado: Verificado con ajustes",
             "5 fuentes, 4 primarias",
-            "1432 palabras"
+            "1481 palabras"
           ]
         },
         {
@@ -968,7 +1257,7 @@
           "evidencia": [
             "estado: Verificado con ajustes",
             "7 fuentes, 7 primarias",
-            "1313 palabras"
+            "1375 palabras"
           ]
         },
         {
@@ -982,7 +1271,7 @@
           "evidencia": [
             "estado: Verificado con ajustes",
             "6 fuentes, 5 primarias",
-            "1487 palabras"
+            "1547 palabras"
           ]
         },
         {
@@ -1011,7 +1300,7 @@
           "evidencia": [
             "estado: Verificado con ajustes",
             "9 fuentes, 4 primarias",
-            "1477 palabras"
+            "1541 palabras"
           ]
         },
         {
@@ -1025,7 +1314,7 @@
           "evidencia": [
             "estado: Verificado",
             "3 fuentes, 1 primarias",
-            "1499 palabras"
+            "1547 palabras"
           ]
         },
         {
@@ -1039,7 +1328,7 @@
           "evidencia": [
             "estado: Verificado con ajustes",
             "10 fuentes, 9 primarias",
-            "1424 palabras"
+            "1494 palabras"
           ]
         },
         {
@@ -1053,7 +1342,7 @@
           "evidencia": [
             "estado: Verificado con ajustes",
             "7 fuentes, 6 primarias",
-            "1437 palabras"
+            "1482 palabras"
           ]
         },
         {
@@ -1067,7 +1356,7 @@
           "evidencia": [
             "estado: Verificado con ajustes",
             "10 fuentes, 7 primarias",
-            "1392 palabras"
+            "1450 palabras"
           ]
         }
       ]
@@ -1196,9 +1485,32 @@
           "id": "C8.Docs-del-contenido-base",
           "titulo": "Docs del contenido base en Drive",
           "porque": "Uno por AE, sin duplicados y subido después del último cambio de su fuente (contenido o quiz).",
-          "estado": "ok",
+          "estado": "aviso",
           "errores": [],
-          "avisos": [],
+          "avisos": [
+            "M1-AE1: lo de Drive (28-10-26, 11:43 a. m.) es anterior al último cambio de su fuente (29-10-26, 5:01 p. m.)",
+            "M1-AE2: lo de Drive (28-10-26, 11:45 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M1-AE3: lo de Drive (28-10-26, 11:44 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M1-AE4: lo de Drive (28-10-26, 11:45 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M2-AE1: lo de Drive (28-10-26, 11:44 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M2-AE2: lo de Drive (28-10-26, 11:44 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M2-AE3: lo de Drive (28-10-26, 11:46 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M2-AE4: lo de Drive (28-10-26, 12:07 p. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M3-AE1: lo de Drive (28-10-26, 11:44 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M3-AE2: lo de Drive (28-10-26, 11:44 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M3-AE3: lo de Drive (28-10-26, 11:46 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M3-AE4: lo de Drive (28-10-26, 11:44 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE1: lo de Drive (28-10-26, 11:45 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE2: lo de Drive (28-10-26, 11:46 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE3: lo de Drive (28-10-26, 11:46 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE4: lo de Drive (28-10-26, 11:46 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M5-AE1: lo de Drive (28-10-26, 11:44 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M5-AE2: lo de Drive (28-10-26, 11:46 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M5-AE3: lo de Drive (28-10-26, 11:45 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M6-AE1: lo de Drive (28-10-26, 11:46 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M6-AE2: lo de Drive (28-10-26, 11:44 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M6-AE3: lo de Drive (28-10-26, 11:45 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)"
+          ],
           "pendientes": [],
           "evidencia": [
             "22 archivos en la carpeta"
@@ -1208,9 +1520,32 @@
           "id": "C8.PDF-del-contenido-base",
           "titulo": "PDF del contenido base en Drive",
           "porque": "Uno por AE, sin duplicados y subido después del último cambio de su fuente (contenido o quiz).",
-          "estado": "ok",
+          "estado": "aviso",
           "errores": [],
-          "avisos": [],
+          "avisos": [
+            "M1-AE1: lo de Drive (28-10-26, 11:55 a. m.) es anterior al último cambio de su fuente (29-10-26, 5:01 p. m.)",
+            "M1-AE2: lo de Drive (28-10-26, 11:55 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M1-AE3: lo de Drive (28-10-26, 11:55 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M1-AE4: lo de Drive (28-10-26, 11:55 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M2-AE1: lo de Drive (28-10-26, 11:55 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M2-AE2: lo de Drive (28-10-26, 11:55 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M2-AE3: lo de Drive (28-10-26, 11:55 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M2-AE4: lo de Drive (28-10-26, 11:55 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M3-AE1: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M3-AE2: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M3-AE3: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M3-AE4: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE1: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE2: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE3: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE4: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M5-AE1: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M5-AE2: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M5-AE3: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M6-AE1: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M6-AE2: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M6-AE3: lo de Drive (28-10-26, 11:56 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)"
+          ],
           "pendientes": [],
           "evidencia": [
             "22 archivos en la carpeta"
@@ -1220,9 +1555,32 @@
           "id": "C8.Quiz-SCORM",
           "titulo": "Quiz SCORM en Drive",
           "porque": "Uno por AE, sin duplicados y subido después del último cambio de su fuente (contenido o quiz).",
-          "estado": "ok",
+          "estado": "aviso",
           "errores": [],
-          "avisos": [],
+          "avisos": [
+            "M1-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 5:01 p. m.)",
+            "M1-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M1-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M1-AE4: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M2-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M2-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M2-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M2-AE4: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M3-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M3-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M3-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M3-AE4: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE4: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M5-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M5-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M5-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M6-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M6-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M6-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)"
+          ],
           "pendientes": [],
           "evidencia": [
             "22 archivos en la carpeta"
@@ -1232,9 +1590,32 @@
           "id": "C8.Quiz-HTML",
           "titulo": "Quiz HTML en Drive",
           "porque": "Uno por AE, sin duplicados y subido después del último cambio de su fuente (contenido o quiz).",
-          "estado": "ok",
+          "estado": "aviso",
           "errores": [],
-          "avisos": [],
+          "avisos": [
+            "M1-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 5:01 p. m.)",
+            "M1-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M1-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M1-AE4: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M2-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M2-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M2-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M2-AE4: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M3-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M3-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M3-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M3-AE4: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE4: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M5-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M5-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M5-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M6-AE1: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M6-AE2: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M6-AE3: lo de Drive (28-10-26, 11:54 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)"
+          ],
           "pendientes": [],
           "evidencia": [
             "22 archivos en la carpeta"
@@ -1244,9 +1625,32 @@
           "id": "C8.Quiz-GIFT",
           "titulo": "Quiz GIFT en Drive",
           "porque": "Uno por AE, sin duplicados y subido después del último cambio de su fuente (contenido o quiz).",
-          "estado": "ok",
+          "estado": "aviso",
           "errores": [],
-          "avisos": [],
+          "avisos": [
+            "M1-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 5:01 p. m.)",
+            "M1-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M1-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M1-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M2-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M2-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M2-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M2-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M3-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M3-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M3-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M3-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)",
+            "M4-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M5-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M5-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M5-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M6-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M6-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)",
+            "M6-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)"
+          ],
           "pendientes": [],
           "evidencia": [
             "22 archivos en la carpeta"
@@ -1436,7 +1840,7 @@
       "aes": "M1-AE1; M1-AE2",
       "minutos": 90,
       "estado": "Insumo listo",
-      "nota": "«Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito"
+      "nota": "Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito"
     },
     {
       "id": "R012",
@@ -1486,7 +1890,7 @@
       "aes": "—",
       "minutos": 1.5,
       "estado": "Insumo listo",
-      "nota": "Ideas clave y glosario en el contenido base; falta la página de Moodle"
+      "nota": "Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle"
     },
     {
       "id": "R017",
@@ -1606,7 +2010,7 @@
       "aes": "M2-AE1; M2-AE3",
       "minutos": 90,
       "estado": "Insumo listo",
-      "nota": "«Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito"
+      "nota": "Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito"
     },
     {
       "id": "R029",
@@ -1656,7 +2060,7 @@
       "aes": "—",
       "minutos": 1.5,
       "estado": "Insumo listo",
-      "nota": "Ideas clave y glosario en el contenido base; falta la página de Moodle"
+      "nota": "Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle"
     },
     {
       "id": "R034",
@@ -1776,7 +2180,7 @@
       "aes": "M3-AE1; M3-AE3",
       "minutos": 90,
       "estado": "Insumo listo",
-      "nota": "«Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito"
+      "nota": "Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito"
     },
     {
       "id": "R046",
@@ -1826,7 +2230,7 @@
       "aes": "—",
       "minutos": 1.5,
       "estado": "Insumo listo",
-      "nota": "Ideas clave y glosario en el contenido base; falta la página de Moodle"
+      "nota": "Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle"
     },
     {
       "id": "R051",
@@ -1946,7 +2350,7 @@
       "aes": "M4-AE2; M4-AE4",
       "minutos": 90,
       "estado": "Insumo listo",
-      "nota": "«Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito"
+      "nota": "Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito"
     },
     {
       "id": "R063",
@@ -2006,7 +2410,7 @@
       "aes": "—",
       "minutos": 1.5,
       "estado": "Insumo listo",
-      "nota": "Ideas clave y glosario en el contenido base; falta la página de Moodle"
+      "nota": "Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle"
     },
     {
       "id": "R069",
@@ -2106,7 +2510,7 @@
       "aes": "M5-AE2; M5-AE3",
       "minutos": 90,
       "estado": "Insumo listo",
-      "nota": "«Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito"
+      "nota": "Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito"
     },
     {
       "id": "R079",
@@ -2156,7 +2560,7 @@
       "aes": "—",
       "minutos": 1.5,
       "estado": "Insumo listo",
-      "nota": "Ideas clave y glosario en el contenido base; falta la página de Moodle"
+      "nota": "Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle"
     },
     {
       "id": "R084",
@@ -2256,7 +2660,7 @@
       "aes": "M6-AE1",
       "minutos": 90,
       "estado": "Insumo listo",
-      "nota": "«Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito"
+      "nota": "Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito"
     },
     {
       "id": "R094",
@@ -2266,7 +2670,7 @@
       "aes": "M6-AE2",
       "minutos": 90,
       "estado": "Insumo listo",
-      "nota": "«Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito"
+      "nota": "Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito"
     },
     {
       "id": "R095",
@@ -2276,7 +2680,7 @@
       "aes": "M6-AE3",
       "minutos": 90,
       "estado": "Insumo listo",
-      "nota": "«Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito"
+      "nota": "Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito"
     },
     {
       "id": "R096",
@@ -2286,7 +2690,7 @@
       "aes": "M6-AE3",
       "minutos": 90,
       "estado": "Insumo listo",
-      "nota": "«Conexión con el proyecto» en el contenido; faltan enunciado y rúbrica del hito"
+      "nota": "Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito"
     },
     {
       "id": "R097",
@@ -2316,7 +2720,7 @@
       "aes": "—",
       "minutos": 1.5,
       "estado": "Insumo listo",
-      "nota": "Ideas clave y glosario en el contenido base; falta la página de Moodle"
+      "nota": "Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle"
     },
     {
       "id": "R100",

@@ -6,7 +6,7 @@ fuentes: F-M1-02
 bloque: Texto + imagen de portada
 
 En este tema vas a conocer la herramienta con la que trabajarás todo el curso. Antes de pedirle algo a una inteligencia artificial
-conviene saber qué es, cómo produce sus respuestas, qué tipos existen y dónde se equivoca. Con eso vas a poder decidir cuándo te
+conviene saber qué es, cómo produce sus respuestas, qué tipos existen y dónde se equivoca [@F-M1-02]. Con eso vas a poder decidir cuándo te
 ahorra tiempo en tu trabajo y cuándo no.
 
 El aprendizaje esperado es este: Explicar el funcionamiento general, los tipos y los límites de la IA generativa, ejemplificando sus
@@ -24,7 +24,7 @@ fuentes: F-M1-02, F-M1-01
 bloque: Texto + tabla comparativa
 
 La **inteligencia artificial generativa** es un tipo de IA que produce contenido nuevo: textos, imágenes, audio, y también código o
-video. No te entrega algo que estaba guardado en alguna parte, como hace un buscador cuando te muestra una página que ya existe. Crea
+video [@F-M1-02; @F-M1-01]. No te entrega algo que estaba guardado en alguna parte, como hace un buscador cuando te muestra una página que ya existe. Crea
 un resultado a partir de lo que le pides.
 
 La diferencia se ve mejor al lado de herramientas que ya usas en la oficina:
@@ -50,7 +50,7 @@ fuentes: F-M1-02, F-M1-09
 bloque: Proceso (process block) en 3 pasos
 
 Un modelo generativo de texto aprendió a partir de enormes cantidades de ejemplos escritos. De ese entrenamiento sacó sobre todo
-patrones: qué palabras suelen ir con otras, cómo se ordena un correo, cómo se responde una pregunta. Cuando le escribes, no busca una
+patrones: qué palabras suelen ir con otras, cómo se ordena un correo, cómo se responde una pregunta [@F-M1-02]. Cuando le escribes, no busca una
 respuesta guardada. Arma una nueva, pieza por pieza, y lo hace tan rápido que parece que escribiera frente a ti.
 
 El proceso se repite muchas veces en cada respuesta:
@@ -61,7 +61,7 @@ El proceso se repite muchas veces en cada respuesta:
 
 Esa elección tiene algo de azar, y por eso el mismo pedido puede darte respuestas distintas. También explica algo más importante: el
 modelo no «sabe» ni «entiende» como una persona, sino que predice texto plausible. Casi siempre eso coincide con algo correcto y útil,
-pero no siempre, y de esa diferencia nacen los límites que verás más adelante en este tema.
+pero no siempre, y de esa diferencia nacen los límites que verás más adelante en este tema [@F-M1-09].
 
 :::error «Si lo dice con seguridad, es verdad»
 El tono seguro es parte del estilo que aprendió el modelo, no una prueba de que el contenido sea correcto. Una respuesta puede sonar
@@ -73,10 +73,10 @@ cubre: S2, C1, C2
 fuentes: F-M1-02, F-M1-12
 bloque: Texto + knowledge check
 
-Los **modelos de lenguaje** generan texto. Son la base de los asistentes conversacionales más conocidos, a los que les escribes como si
+Los **modelos de lenguaje** generan texto [@F-M1-02]. Son la base de los asistentes conversacionales más conocidos, a los que les escribes como si
 fuera un chat. En una oficina sirven para redactar borradores de correos, avisos y minutas; para resumir un documento largo o un
 reglamento interno; para pasar un texto informal a uno formal, o acortarlo; para ordenar notas sueltas en una lista o una tabla, y
-para que te expliquen un término técnico con un ejemplo simple.
+para que te expliquen un término técnico con un ejemplo simple [@F-M1-12].
 
 Camila los usa casi a diario. Un proveedor le escribió para reclamar por un pago y ella tomó apuntes sueltos de lo que averiguó con
 contabilidad. Le pide a un asistente que ordene esos apuntes en un correo de respuesta de diez líneas y recibe un borrador en segundos.
@@ -98,7 +98,7 @@ cubre: S2, C1, C2
 fuentes: F-M1-02, F-M1-05
 bloque: Texto + galería o imagen con descripción
 
-Los **modelos de imagen** generan imágenes a partir de una descripción escrita. También pueden modificar una imagen que ya tienes:
+Los **modelos de imagen** generan imágenes a partir de una descripción escrita [@F-M1-02]. También pueden modificar una imagen que ya tienes:
 cambiar el fondo, quitar un objeto o crear variaciones. En el trabajo sirven para ilustrar una presentación o un afiche, para mostrar
 una idea en un boceto antes de encargar un diseño, o para probar varias versiones y ver cuál comunica mejor.
 
@@ -106,7 +106,7 @@ Para pedir una imagen se describe lo que se quiere ver: el objeto, el estilo, lo
 simple de una bodega ordenada, estilo plano, colores azul y gris, sin texto».
 
 Un error común es usar la imagen generada sin mirarla con calma. A estos modelos todavía les cuesta escribir texto nítido dentro de la
-imagen y ubicar cada elemento justo donde se pidió, así que una imagen puede traer letras ilegibles o piezas fuera de lugar. Se revisa
+imagen y ubicar cada elemento justo donde se pidió, así que una imagen puede traer letras ilegibles o piezas fuera de lugar [@F-M1-05]. Se revisa
 siempre antes de imprimirla o publicarla. Las licencias y los derechos de uso los verás en detalle en el módulo 4.
 
 :::ejemplo Andrés y el afiche de seguridad
@@ -120,8 +120,8 @@ cubre: S2, C1, C2
 fuentes: F-M1-02, F-M1-04
 bloque: Texto + audio de ejemplo (opcional)
 
-Los **modelos de audio** generan sonido: voz sintética a partir de un texto, música o efectos. Algunas herramientas además hacen lo
-contrario y convierten una grabación en texto, algo útil para tomar notas de una reunión. En el trabajo se usan para locutar un video
+Los **modelos de audio** generan sonido: voz sintética a partir de un texto, música o efectos [@F-M1-02]. Algunas herramientas además hacen lo
+contrario y convierten una grabación en texto, algo útil para tomar notas de una reunión [@F-M1-04]. En el trabajo se usan para locutar un video
 de capacitación o un mensaje informativo, para escuchar en voz alta un texto mientras lo revisas, o para crear una pista musical de
 fondo para un video breve.
 
@@ -139,7 +139,7 @@ cubre: S2, C1
 fuentes: F-M1-04
 bloque: Ordenar o clasificar (sorting activity)
 
-Muchas herramientas actuales son **multimodales**: reciben o entregan más de un tipo de contenido. Puedes, por ejemplo, sacarle una
+Muchas herramientas actuales son **multimodales**: reciben o entregan más de un tipo de contenido [@F-M1-04]. Puedes, por ejemplo, sacarle una
 foto a una factura en papel y pedir que te pase sus datos a una tabla. Entra una imagen y sale texto.
 
 Aun así, cada tarea tiene un tipo de salida, y esa salida te dice qué buscar. Si necesitas un correo, un resumen o una lista, trabajas
@@ -163,8 +163,8 @@ bloque: Texto + imagen de un texto dividido en fragmentos
 
 Los modelos no leen palabras completas como tú: dividen el texto en fragmentos llamados **tokens**. Un token puede ser una palabra
 corta, parte de una palabra larga, un carácter o un signo de puntuación, y los espacios y las mayúsculas también cambian la forma en
-que se divide. Una palabra como «inventario» puede quedar partida en más de un token, y la cantidad de tokens de un mismo texto cambia
-según el idioma y el modelo.
+que se divide [@F-M1-06]. Una palabra como «inventario» puede quedar partida en más de un token, y la cantidad de tokens de un mismo texto cambia
+según el idioma y el modelo [@F-M1-03].
 
 Te importa porque los tokens son la unidad con que el modelo mide su trabajo. Lo que puede leer de una vez tiene un máximo, contado en
 tokens, y la respuesta tiene su propio tope. Un error común es suponer que el asistente siempre lee completo el documento que pegaste:
@@ -182,14 +182,14 @@ fuentes: F-M1-07, F-M1-08
 bloque: Texto + escenario o conversación de ejemplo
 
 El **contexto** es todo lo que el modelo tiene a la vista para responder: tus instrucciones, los mensajes anteriores de la
-conversación y los archivos o textos que le entregaste. A su capacidad máxima se le llama **ventana de contexto**, y también se mide en
+conversación y los archivos o textos que le entregaste [@F-M1-07]. A su capacidad máxima se le llama **ventana de contexto**, y también se mide en
 tokens.
 
 De ahí salen tres consecuencias prácticas. Lo que no está en el contexto, el modelo no lo conoce: no sabe en qué empresa trabajas, qué
 acordaste con un proveedor ni cómo se llama tu jefatura, salvo que se lo digas. En una conversación muy larga, lo que escribiste al
-inicio puede perder peso o quedar fuera de la ventana, así que al cambiar de tarea a veces conviene empezar una conversación nueva. Y
+inicio puede perder peso o quedar fuera de la ventana, así que al cambiar de tarea a veces conviene empezar una conversación nueva [@F-M1-07]. Y
 una conversación nueva parte, en general, sin lo anterior. Algunas herramientas tienen funciones de memoria, pero no guardan todos los
-detalles; revisa cómo funciona la tuya antes de suponer que «se acuerda».
+detalles [@F-M1-08]; revisa cómo funciona la tuya antes de suponer que «se acuerda».
 
 Camila lo comprobó con un correo. Primero preguntó: «¿Mi respuesta está bien?», y el asistente le contestó con generalidades. Después
 pegó el correo del proveedor y su borrador, y preguntó: «¿Mi respuesta contesta todas las preguntas de este proveedor?». Esta vez
@@ -209,14 +209,14 @@ fuentes: F-M1-01, F-M1-10
 bloque: Texto + recuadro destacado
 
 Como el modelo predice texto plausible, a veces produce información falsa que suena verdadera: datos, fechas, nombres, citas o
-referencias que no existen. A esto se le llama **alucinación**, aunque algunos organismos prefieren decir «confabulación».
+referencias que no existen. A esto se le llama **alucinación**, aunque algunos organismos prefieren decir «confabulación» [@F-M1-01].
 
 No pasa al azar. Es más probable cuando le pides hechos muy puntuales y poco frecuentes, como una fecha o un nombre que casi nadie ha
 escrito; cuando le pides fuentes o citas, porque puede inventar títulos de documentos o enlaces; y cuando haces una pregunta abierta
-que pide una respuesta larga sobre un tema que exige conocimiento experto.
+que pide una respuesta larga sobre un tema que exige conocimiento experto [@F-M1-10; @F-M1-01].
 
 Una alucinación no avisa: llega con el mismo tono que una respuesta correcta. La defensa principal es verificar lo importante en una
-fuente confiable. También ayuda pedirle que diga «no lo sé» cuando no tenga la información, en vez de rellenar. Cómo verificar con
+fuente confiable. También ayuda pedirle que diga «no lo sé» cuando no tenga la información, en vez de rellenar [@F-M1-10]. Cómo verificar con
 método lo vas a trabajar en el tema 4 de este módulo.
 
 :::ejemplo La firma que nadie pidió
@@ -234,9 +234,9 @@ Los modelos aprenden de lo que la gente ha escrito y publicado. Si en esos datos
 repetirlos. A esto se le llama **sesgo**.
 
 Se ha documentado de varias formas. Al pedir imágenes de una persona gerente, de un médico o de un juez, los modelos de imagen tienden
-a mostrar el mismo tipo de persona y dejan fuera a mujeres y a otros grupos. En un estudio de la UNESCO, al pedir historias sobre
+a mostrar el mismo tipo de persona y dejan fuera a mujeres y a otros grupos [@F-M1-01]. En un estudio de la UNESCO, al pedir historias sobre
 distintas personas, los modelos de lenguaje asignaron a los hombres trabajos más variados y de más prestigio, y a las mujeres roles
-domésticos o desvalorizados. Además, un modelo puede responder mejor en unos idiomas o formas de hablar que en otros.
+domésticos o desvalorizados [@F-M1-11]. Además, un modelo puede responder mejor en unos idiomas o formas de hablar que en otros [@F-M1-01].
 
 Por eso un error común es usar la IA para decidir sobre personas. Pedirle a un asistente que elija a quién contratar o ascender, o que
 califique a un trabajador, traslada sus sesgos a una decisión que afecta a alguien. Las decisiones sobre personas las toman personas,
@@ -252,7 +252,7 @@ cubre: S4, C1, C2
 fuentes: F-M1-09
 bloque: Texto + línea de tiempo
 
-Un modelo se entrena con información reunida hasta cierta fecha, su **fecha de corte**. Lo que pasó después no está en su
+Un modelo se entrena con información reunida hasta cierta fecha, su **fecha de corte** [@F-M1-09]. Lo que pasó después no está en su
 entrenamiento, y por eso puede dar como vigentes un valor, una norma o un precio que ya cambiaron.
 
 A Andrés le pasó con un valor que se actualiza cada año, fijado por una norma. El asistente le dio una cifra de hace dos años, con
@@ -261,7 +261,7 @@ valor vigente.
 
 Algunos asistentes pueden buscar en internet antes de responder y mostrar las fuentes que usaron. Eso ayuda con lo reciente, pero no
 elimina el problema: la búsqueda puede traer páginas poco confiables, el asistente puede no tener acceso a ciertos sitios o resumir mal
-lo que leyó. Por eso las citas se revisan y los enlaces se abren.
+lo que leyó [@F-M1-09]. Por eso las citas se revisan y los enlaces se abren.
 
 :::comprueba
 Verdadero o falso: «Si el asistente puede buscar en internet, ya no es necesario revisar sus respuestas».
@@ -276,7 +276,7 @@ cubre: H1, C2
 fuentes: F-M1-01, F-M1-09
 bloque: Escenario o clasificación por semáforo
 
-Saber cómo funciona la IA generativa y dónde se equivoca te permite decidir qué tareas de tu cargo conviene delegarle. Un criterio
+Saber cómo funciona la IA generativa y dónde se equivoca te permite decidir qué tareas de tu cargo conviene delegarle [@F-M1-09]. Un criterio
 práctico es pensarlo como un semáforo:
 
 | | Tipo de tarea | Ejemplos |
@@ -287,7 +287,7 @@ práctico es pensarlo como un semáforo:
 
 La pregunta que ordena todo es esta: **si la respuesta está mal, ¿quién se da cuenta y cuánto cuesta el error?** Si el error es fácil
 de ver y barato, delega. Si es difícil de detectar o grave, revisa a fondo o no delegues. Ese cuidado importa más mientras más cómodo
-se vuelve el asistente, porque es fácil confiar de más en lo que entrega una máquina.
+se vuelve el asistente, porque es fácil confiar de más en lo que entrega una máquina [@F-M1-01].
 
 :::actividad Semáforo de tareas
 Clasifica cada tarea en verde, amarillo o rojo:
@@ -306,8 +306,8 @@ bloque: Proceso paso a paso + actividad
 
 Ahora te toca probar. Vas a usar un asistente de IA generativa con una tarea simple de tu trabajo y a mirar qué hace bien y qué no.
 
-Como trabajas con información real, practica con una copia sin datos sensibles. Elige un documento corto que uses en tu cargo, por
-ejemplo un instructivo, un procedimiento o un correo interno. Si tiene nombres, RUT, teléfonos o montos de clientes, haz una copia y
+Como trabajas con información real, practica con una copia sin datos sensibles [@F-M1-02]. Elige un documento corto que uses en tu cargo, por
+ejemplo un instructivo, un procedimiento o un correo interno [@F-M1-12]. Si tiene nombres, RUT, teléfonos o montos de clientes, haz una copia y
 bórralos o cámbialos por datos de prueba. Respeta también lo que diga tu empresa sobre el uso de estas herramientas.
 
 :::actividad Tu primera prueba
@@ -330,7 +330,7 @@ tiempo, preguntarse por qué el resultado salió así. Quien la practica no desc
 prueba otra forma de pedir, compara y saca conclusiones.
 
 La **apertura a un uso responsable** es estar dispuesto a usar la tecnología haciéndose cargo de lo que produce. Usar un asistente casi
-siempre implica compartir datos con el proveedor, y quien entrega el resultado final responde por él. En la práctica, eso se traduce
+siempre implica compartir datos con el proveedor, y quien entrega el resultado final responde por él [@F-M1-02; @F-M1-12]. En la práctica, eso se traduce
 en cuatro hábitos:
 
 - [ ] Reviso lo que el asistente me entrega antes de usarlo o compartirlo.
@@ -348,8 +348,8 @@ fuentes: F-M1-02, F-M1-09
 bloque: Texto + actividad de cierre (respuesta abierta)
 
 En este tema viste que la IA generativa produce contenido nuevo a partir de patrones aprendidos, que arma sus respuestas fragmento a
-fragmento y que trabaja solo con lo que tiene en su contexto. Conociste los modelos de lenguaje, de imagen y de audio, y tres límites
-que conviene tener siempre presentes: la alucinación, el sesgo y la fecha de corte.
+fragmento y que trabaja solo con lo que tiene en su contexto [@F-M1-02]. Conociste los modelos de lenguaje, de imagen y de audio, y tres límites
+que conviene tener siempre presentes: la alucinación, el sesgo y la fecha de corte [@F-M1-09].
 
 Con eso ya puedes mirar tu propio trabajo con otros ojos. Hay tareas en que un asistente te sirve como primer borrador y otras en que
 la respuesta necesita una revisión a fondo antes de salir con tu nombre. Antes de seguir, ponlo por escrito.
@@ -372,47 +372,17 @@ Guarda tu respuesta. En el próximo tema aprenderás a escribir prompts efectivo
 5. Tres límites para tener siempre presentes: alucinación, sesgo y fecha de corte.
 6. Conviene delegar lo que es fácil de revisar y barato si falla; lo grave o difícil de detectar se revisa a fondo o no se delega.
 
-## Glosario
+## Referencias bibliográficas
 
-- **IA generativa**: tipo de inteligencia artificial que produce contenido nuevo, como texto, imágenes o audio, a partir de una
-  instrucción.
-- **Prompt**: instrucción, pregunta o texto que se le entrega a un modelo de IA generativa para obtener una respuesta.
-- **Modelo de lenguaje**: modelo de IA generativa que produce y transforma texto.
-- **Modelo de imagen**: modelo que genera o modifica imágenes a partir de una descripción.
-- **Modelo de audio**: modelo que genera voz, música o efectos de sonido.
-- **Multimodal**: herramienta o modelo que recibe o entrega más de un tipo de contenido, por ejemplo imagen y texto.
-- **Token**: fragmento de texto (palabra, parte de palabra o signo) con el que el modelo lee y escribe.
-- **Contexto**: información que el modelo tiene a la vista para responder: instrucciones, conversación y archivos entregados.
-- **Ventana de contexto**: cantidad máxima de tokens que el modelo puede considerar de una vez.
-- **Alucinación**: información falsa o inventada que el modelo presenta como si fuera verdadera.
-- **Sesgo**: tendencia a repetir estereotipos o miradas parciales presentes en los datos de entrenamiento.
-- **Fecha de corte**: fecha hasta la cual llega la información con que se entrenó un modelo.
-
-## Conexión con el proyecto
-
-La copia del documento de tu trabajo que usaste en la práctica guiada (P14) y tus tres usos y dos límites (P16) son el punto de
-partida del **Hito 1 del proyecto aplicado: problema u oportunidad real + biblioteca de prompts v1**. Allí elegirás una tarea de tu
-cargo como tu desafío laboral real.
-
-## Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M1.md` (consultadas el 24-10-2026).
-
-- F-M1-01 · NIST (2024). Generative Artificial Intelligence Profile (NIST AI 600-1). https://doi.org/10.6028/NIST.AI.600-1
-- F-M1-02 · UNESCO; Miao y Holmes (2024). Guía para el uso de IA generativa en educación e investigación. https://unesdoc.unesco.org/ark:/48223/pf0000389227_spa
-- F-M1-03 · Google for Developers (2026). Introducción a los modelos de lenguaje grandes. https://developers.google.com/machine-learning/crash-course/llm?hl=es-419
-- F-M1-04 · Google Cloud (s. f.). ¿Qué es la IA multimodal? https://cloud.google.com/use-cases/multimodal-ai?hl=es
-- F-M1-05 · OpenAI (2026). Image generation: limitations. https://developers.openai.com/api/docs/guides/image-generation
-- F-M1-06 · OpenAI Help Center (2026). Entender y contar tokens. https://help.openai.com/es-es/articles/4936856-understanding-and-counting-tokens
-- F-M1-07 · Anthropic (2026). Context windows. https://platform.claude.com/docs/en/build-with-claude/context-windows
-- F-M1-08 · OpenAI Help Center (2026). Memoria en ChatGPT. https://help.openai.com/es-es/articles/8590148-memory-in-chatgpt
-- F-M1-09 · OpenAI Help Center (2026). ¿Dice ChatGPT la verdad? https://help.openai.com/es-es/articles/8313428-does-chatgpt-tell-the-truth
-- F-M1-10 · OpenAI; Kalai y otros (2025). Por qué alucinan los modelos de lenguaje. https://openai.com/es-419/index/why-language-models-hallucinate/
-- F-M1-11 · Noticias ONU (2024). La inteligencia artificial ya reproduce estereotipos de género. https://news.un.org/es/story/2024/03/1528182
-- F-M1-12 · Google Workspace (2026). Cómo escribir instrucciones eficaces. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
-
-Recomendaciones del curso, sin fuente: la pregunta del semáforo de P13 («¿quién se da cuenta y cuánto cuesta el error?») y el consejo
-de escuchar siglas, nombres y números en una locución (P06).
-
-Pendiente de probar a mano: el tokenizador de OpenAI (https://platform.openai.com/tokenizer) para la actividad de P08 (si pide cuenta y
-si funciona en el celular).
+- Anthropic. (s. f.). *Context windows*. Claude Docs. https://platform.claude.com/docs/en/build-with-claude/context-windows
+- Google. (s. f.-a). *¿Qué es la IA multimodal?* Google Cloud. https://cloud.google.com/use-cases/multimodal-ai?hl=es
+- Google. (s. f.-b). *Cómo escribir instrucciones eficaces*. Google Workspace. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
+- Google. (2026). *Introducción a los modelos de lenguaje grandes (Curso intensivo de aprendizaje automático)*. Google for Developers. https://developers.google.com/machine-learning/crash-course/llm?hl=es-419
+- Miao, F. y Holmes, W. (2024). *Guía para el uso de IA generativa en educación e investigación*. UNESCO. https://unesdoc.unesco.org/ark:/48223/pf0000389227_spa
+- National Institute of Standards and Technology. (2024). *Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)*. https://doi.org/10.6028/NIST.AI.600-1
+- Noticias ONU. (2024, 7 de marzo). *La inteligencia artificial ya reproduce estereotipos de género*. https://news.un.org/es/story/2024/03/1528182
+- OpenAI. (s. f.). *Image generation*. OpenAI API Docs. https://developers.openai.com/api/docs/guides/image-generation
+- OpenAI. (2025, 5 de septiembre). *Por qué alucinan los modelos de lenguaje*. https://openai.com/es-419/index/why-language-models-hallucinate/
+- OpenAI. (2026a). *¿Dice ChatGPT la verdad?* OpenAI Help Center. https://help.openai.com/es-es/articles/8313428-does-chatgpt-tell-the-truth
+- OpenAI. (2026b). *Entender y contar tokens*. OpenAI Help Center. https://help.openai.com/es-es/articles/4936856-understanding-and-counting-tokens
+- OpenAI. (2026c). *Memoria en ChatGPT*. OpenAI Help Center. https://help.openai.com/es-es/articles/8590148-memory-in-chatgpt

@@ -9,7 +9,7 @@ Una voz clara y una música bien elegida hacen que un mensaje se escuche y se re
 
 El aprendizaje esperado es este: Generar audio, voz y música con IA para una pieza de comunicación, cuidando derechos de voz y atribución. Al final deberías poder generar una locución y una pista musical adecuadas al uso, y verificar los derechos y el consentimiento que exige tu pieza.
 
-Es un laboratorio guiado en el que producirás dos audios con herramientas gratuitas. La locución la harás con ElevenLabs, que tiene app para iOS y Android con texto a voz, biblioteca de voces y diseño de voz. La pista musical, con el generador de música de Canva, que entra en los 20 usos de IA al mes de su plan gratuito, o con Eleven Music, que está en la versión web de ElevenLabs.
+Es un laboratorio guiado en el que producirás dos audios con herramientas gratuitas. La locución la harás con ElevenLabs, que tiene app para iOS y Android con texto a voz, biblioteca de voces y diseño de voz [@F-H-78]. La pista musical, con el generador de música de Canva, que entra en los 20 usos de IA al mes de su plan gratuito [@F-H-68], o con Eleven Music, que está en la versión web de ElevenLabs [@F-H-78].
 
 Andrés sigue con su campaña de pasillos despejados: después del afiche, su jefatura le pidió un clip de un minuto para la reunión de inicio de turno, y en este tema preparará la voz y la música. Camila hará lo mismo para la campaña de reciclaje de su oficina, y tú, para tu propia campaña interna. Lo que verás sobre leyes es orientación general para trabajar con cuidado, no asesoría legal: si una pieza usa la voz o la imagen de otra persona y tienes dudas, consulta en tu organización o con una persona especialista.
 
@@ -28,9 +28,9 @@ En el módulo 1 conociste los modelos de audio, que generan voz, música o efect
 | Cambiador de voz | Transforma una grabación con otra voz |
 | Aislador de voz | Separa la voz del ruido de fondo |
 
-La música generada a partir de una descripción, que en esa herramienta se llama Eleven Music, está solo en la web, no en la app.
+La música generada a partir de una descripción, que en esa herramienta se llama Eleven Music, está solo en la web, no en la app [@F-H-78].
 
-Hay otra función que merece cuidado especial: la **clonación de voz**, que crea una copia de la voz de una persona a partir de grabaciones suyas. Cuando un audio, una imagen o un video imita de forma realista la voz o la apariencia de una persona, se habla de una **réplica digital**. La oficina de derecho de autor de Estados Unidos da como ejemplos las actuaciones musicales generadas con IA y las llamadas automáticas que suplantan a alguien, y aclara que puede haber réplica con o sin autorización de la persona imitada.
+Hay otra función que merece cuidado especial: la **clonación de voz**, que crea una copia de la voz de una persona a partir de grabaciones suyas. Cuando un audio, una imagen o un video imita de forma realista la voz o la apariencia de una persona, se habla de una **réplica digital**. La oficina de derecho de autor de Estados Unidos da como ejemplos las actuaciones musicales generadas con IA y las llamadas automáticas que suplantan a alguien, y aclara que puede haber réplica con o sin autorización de la persona imitada [@F-M4-19].
 
 :::ejemplo Diseñar una voz o clonarla
 Andrés necesita una voz adulta y tranquila. Puede elegir una de la biblioteca o diseñar una nueva con esas características. No necesita clonar la voz de nadie.
@@ -49,7 +49,7 @@ La voz y la música se eligen pensando en quién escucha, dónde y para qué. Es
 | Un mensaje telefónico con horarios | Neutra y muy clara | Sin música, o muy baja |
 | Un clip motivacional para una reunión | Cálida y con energía | Con ritmo, que acompañe sin distraer |
 
-Además, mira las reglas del canal donde se publicará la pieza. En YouTube, por ejemplo, la música creada con IA debe declararse cuando es el foco principal del video, mientras que clonar tu propia voz para narrar no requiere declararse. Y si usas el plan gratuito de ElevenLabs y publicas lo que generaste, tienes que poner «elevenlabs.io» o «11.ai» en el título, o «Eleven Music» si es música.
+Además, mira las reglas del canal donde se publicará la pieza. En YouTube, por ejemplo, la música creada con IA debe declararse cuando es el foco principal del video, mientras que clonar tu propia voz para narrar no requiere declararse [@F-M4-15]. Y si usas el plan gratuito de ElevenLabs y publicas lo que generaste, tienes que poner «elevenlabs.io» o «11.ai» en el título, o «Eleven Music» si es música [@F-H-76].
 
 Para Andrés, el clip es para una reunión interna del turno, así que elige una voz clara y cercana y una pista suave de fondo, que no compita con lo que dice la locución.
 
@@ -75,7 +75,7 @@ La locución empieza por un buen guion: el texto que la voz va a leer. Se escrib
 
 Puedes pedirle a Gemini un primer borrador, por ejemplo: «Escribe una locución de 30 segundos para un clip interno sobre mantener despejados los pasillos de una bodega. Frases cortas, tono cercano, termina con un llamado a la acción». Después la ajustas tú. Así cambió una frase del borrador de Andrés: «Recuerde: el 100 % de los pasillos (incl. zona B) debe estar libre según proc. interno» pasó a ser «Todos los pasillos, también los de la zona B, tienen que estar despejados. Es nuestra regla».
 
-Luego cronometra la locución, como recomiendan las guías de producción de video, para ajustarla a la duración que necesitas. Léela en voz alta con un cronómetro o deja que el celular la lea: en Android, la función de accesibilidad Enunciar selección lee en voz alta lo que seleccionas en pantalla, y se activa en Ajustes > Accesibilidad.
+Luego cronometra la locución, como recomiendan las guías de producción de video, para ajustarla a la duración que necesitas [@F-M4-20]. Léela en voz alta con un cronómetro o deja que el celular la lea: en Android, la función de accesibilidad Enunciar selección lee en voz alta lo que seleccionas en pantalla, y se activa en Ajustes > Accesibilidad [@F-H-86].
 
 :::actividad Tu guion de locución
 Escribe el guion de una locución de 20 a 40 segundos para tu campaña. Cronométralo y ajústalo hasta que entre en el tiempo.
@@ -95,7 +95,7 @@ Ahora genera la voz en la app de ElevenLabs, siguiendo estos pasos:
 5. Descarga el audio y guárdalo con un nombre claro, por ejemplo «locucion-campaña-v1».
 6. Anota en tu bitácora la voz elegida, la fecha y el plan.
 
-El plan gratuito entrega 10.000 créditos al mes, compartidos entre texto a voz, efectos de sonido, diseño de voz y música. No incluye **licencia comercial**, que empieza en el plan Starter, de pago. Si publicas lo que hiciste con el plan gratuito, tienes que poner «elevenlabs.io» o «11.ai» en el título, o «Eleven Music» si es música, y lo hecho con funciones beta no se puede usar comercialmente.
+El plan gratuito entrega 10.000 créditos al mes, compartidos entre texto a voz, efectos de sonido, diseño de voz y música. No incluye **licencia comercial**, que empieza en el plan Starter, de pago [@F-H-75]. Si publicas lo que hiciste con el plan gratuito, tienes que poner «elevenlabs.io» o «11.ai» en el título, o «Eleven Music» si es música, y lo hecho con funciones beta no se puede usar comercialmente [@F-H-76].
 
 Para las prácticas del curso y una campaña interna que no se vende, la recomendación del curso es que el plan gratuito con atribución basta. Si la pieza será para clientes o para vender, necesitas una herramienta o un plan con licencia comercial, como viste en el análisis de las piezas de Rosa en el tema 1.
 
@@ -118,7 +118,7 @@ Escucha tu locución con audífonos, de principio a fin, y revísala con estas p
 
 Si algo falla, casi siempre se arregla en el texto. Escribe los números con letras, separa una frase larga en dos o cambia una sigla o una abreviatura por las palabras completas, y vuelve a generar solo el fragmento con problemas. Si lo que no calza es el tono, prueba otra voz.
 
-Si ElevenLabs no te funciona, tienes dos alternativas gratuitas. La Voz con IA de Canva entra en los 20 usos de IA al mes de su plan gratuito. Y CapCut ofrece un texto a voz que, según su página, es gratis, tiene más de 200 voces, incluye español y sirve para usos comerciales si se siguen sus términos; eso sí, los pasos que describe son para computador y web.
+Si ElevenLabs no te funciona, tienes dos alternativas gratuitas. La Voz con IA de Canva entra en los 20 usos de IA al mes de su plan gratuito [@F-H-68]. Y CapCut ofrece un texto a voz que, según su página, es gratis, tiene más de 200 voces, incluye español y sirve para usos comerciales si se siguen sus términos; eso sí, los pasos que describe son para computador y web [@F-H-85].
 
 :::ejemplo La sigla de Andrés
 En la primera versión, la voz leyó «EPP» como una palabra. Andrés cambió el texto por «elementos de protección personal» y la segunda versión salió clara.
@@ -133,8 +133,8 @@ Para la pista musical hay varias herramientas, pero no todas sirven gratis para 
 
 | Herramienta | Plan gratuito | ¿Sirve para tu clip? |
 |---|---|---|
-| Suno | 50 créditos al día, sin derechos comerciales y sin descargas de canciones | No: sirve para escuchar, no para montar |
-| Udio | Desactivó las descargas de audio, video y pistas separadas tras su acuerdo con Universal Music Group, en octubre de 2025 | No |
+| Suno | 50 créditos al día, sin derechos comerciales y sin descargas de canciones [@F-H-79] | No: sirve para escuchar, no para montar |
+| Udio | Desactivó las descargas de audio, video y pistas separadas tras su acuerdo con Universal Music Group, en octubre de 2025 [@F-H-82] | No |
 | Generador de música de Canva | Dentro de los 20 usos de IA al mes (P01 y P06) | Sí, si tu cuenta gratuita lo muestra |
 | Eleven Music | Usa los créditos del plan gratuito de ElevenLabs, con la atribución que viste en P05 | Sí, para uso no comercial y con atribución |
 
@@ -151,7 +151,7 @@ bloque: Proceso paso a paso + actividad
 
 Ahora genera la música. Para describir una pista, la recomendación del curso es pensar en cuatro cosas: el ánimo (tranquilo, alegre, con energía), los instrumentos (piano, guitarra, percusión suave), el ritmo (lento, medio o rápido) y el uso, por ejemplo «música de fondo, sin voz, para acompañar una locución». Un pedido completo sería: «Pista instrumental alegre y tranquila, guitarra y percusión suave, ritmo medio, sin voz, para fondo de una locución».
 
-No nombres artistas ni canciones. La OMPI recomienda no usar obras de terceros en las instrucciones, así que en vez de pedir algo «al estilo de» una banda conocida, describe el ánimo, los instrumentos y el ritmo. Después sigue estos pasos:
+No nombres artistas ni canciones. La OMPI recomienda no usar obras de terceros en las instrucciones [@F-M4-06], así que en vez de pedir algo «al estilo de» una banda conocida, describe el ánimo, los instrumentos y el ritmo. Después sigue estos pasos:
 
 1. Abre el generador de música de Canva o Eleven Music, en el navegador.
 2. Escribe tu descripción y genera.
@@ -159,7 +159,7 @@ No nombres artistas ni canciones. La OMPI recomienda no usar obras de terceros e
 4. Descarga la pista y guárdala con un nombre claro.
 5. Anota la herramienta, el plan, la descripción y la fecha.
 
-En Canva gastarás uno de tus 20 usos de IA del mes; en Eleven Music, créditos del plan gratuito, con la atribución que viste en P05.
+En Canva gastarás uno de tus 20 usos de IA del mes [@F-H-68]; en Eleven Music, créditos del plan gratuito, con la atribución que viste en P05.
 
 :::actividad Tu pista y tu mezcla
 Genera dos pistas con descripciones distintas. Escucha cada una con tu locución y elige la que acompaña mejor sin distraer. Anota por qué la elegiste.
@@ -172,9 +172,9 @@ bloque: Texto + recuadro destacado
 
 Cuando una pieza usa la voz o la imagen de una persona real, entran en juego derechos distintos del derecho de autor, y conviene no confundirlos.
 
-En Chile, el artículo 19 n.º 4 de la Constitución asegura a todas las personas el respeto y la protección de su vida privada y de su honra, y de las de su familia, y la protección de sus datos personales. No menciona de forma expresa la propia imagen ni la voz, pero ambas tienen que ver con la vida privada y con los datos personales de cada quien. En la próxima pantalla verás que una ley reciente lo dice de forma directa para la voz y los rasgos faciales.
+En Chile, el artículo 19 n.º 4 de la Constitución asegura a todas las personas el respeto y la protección de su vida privada y de su honra, y de las de su familia, y la protección de sus datos personales [@F-M4-17]. No menciona de forma expresa la propia imagen ni la voz, pero ambas tienen que ver con la vida privada y con los datos personales de cada quien. En la próxima pantalla verás que una ley reciente lo dice de forma directa para la voz y los rasgos faciales.
 
-El derecho de autor, en cambio, no protege la identidad. La oficina de derecho de autor de Estados Unidos lo explica así: copiar solo la voz o la imagen de alguien no infringe el derecho de autor, aunque puede afectar otros derechos. Que algo no sea plagio no significa que esté permitido. Recuerda también lo que viste en el tema 1: la licencia de una foto o de una grabación no reemplaza el permiso de la persona que aparece en ella.
+El derecho de autor, en cambio, no protege la identidad. La oficina de derecho de autor de Estados Unidos lo explica así: copiar solo la voz o la imagen de alguien no infringe el derecho de autor, aunque puede afectar otros derechos [@F-M4-19]. Que algo no sea plagio no significa que esté permitido. Recuerda también lo que viste en el tema 1: la licencia de una foto o de una grabación no reemplaza el permiso de la persona que aparece en ella.
 
 :::clave
 La voz y la imagen se protegen por la vida privada, la honra y los datos personales, no por el derecho de autor. Por eso, ante una voz o una cara real, la pregunta no es «¿es plagio?», sino «¿tengo su permiso?».
@@ -185,9 +185,9 @@ cubre: S2, S3
 fuentes: F-M4-16, F-M3-16
 bloque: Texto + línea de tiempo
 
-En 2024 se publicó la Ley 21.719, que modifica la ley de protección de datos personales (Ley 19.628) y crea la Agencia de Protección de Datos Personales. Para la voz y la imagen trae cambios importantes. Llama **datos biométricos** a los que permiten identificar a una persona, y pone como ejemplos los rasgos faciales y la voz. Esos datos pasan a ser datos personales sensibles, y los datos sensibles solo se pueden tratar con consentimiento expreso de la persona, salvo excepciones. Además, quien trate datos biométricos tiene que informar qué sistema usa, para qué, por cuánto tiempo y cómo se ejercen los derechos.
+En 2024 se publicó la Ley 21.719, que modifica la ley de protección de datos personales (Ley 19.628) y crea la Agencia de Protección de Datos Personales. Para la voz y la imagen trae cambios importantes. Llama **datos biométricos** a los que permiten identificar a una persona, y pone como ejemplos los rasgos faciales y la voz. Esos datos pasan a ser datos personales sensibles, y los datos sensibles solo se pueden tratar con consentimiento expreso de la persona, salvo excepciones [@F-M4-16]. Además, quien trate datos biométricos tiene que informar qué sistema usa, para qué, por cuánto tiempo y cómo se ejercen los derechos.
 
-Según su texto, estas modificaciones rigen desde el 1 de diciembre de 2026. Hay, además, un proyecto de ley del Ejecutivo que propone postergar esa fecha (boletín 18623-07), y al 21 de octubre de 2026 seguía en su primer trámite en el Senado. Antes de aplicar la ley, revisa en la Biblioteca del Congreso Nacional (BCN) si la fecha cambió.
+Según su texto, estas modificaciones rigen desde el 1 de diciembre de 2026 [@F-M4-16]. Hay, además, un proyecto de ley del Ejecutivo que propone postergar esa fecha (boletín 18623-07), y al 21 de octubre de 2026 seguía en su primer trámite en el Senado [@F-M3-16]. Antes de aplicar la ley, revisa en la Biblioteca del Congreso Nacional (BCN) si la fecha cambió.
 
 Para tu pieza, la recomendación del curso es actuar desde ya como pide la ley: trata la voz y la cara de otra persona como un dato sensible y pide su consentimiento expreso antes de grabarla, clonarla o editarla con IA. En una oficina esto alcanza también a situaciones cotidianas, como querer usar en un clip el audio de una reunión grabada.
 
@@ -204,9 +204,9 @@ cubre: S3, A1, C2
 fuentes: F-M4-16, F-H-77
 bloque: Ordenar o clasificar (sorting activity)
 
-El **consentimiento**, según la Ley 21.719, es una manifestación de voluntad libre, específica, inequívoca e informada. Para los datos sensibles, como la voz, además debe ser expreso: por escrito, de palabra o por un medio tecnológico equivalente.
+El **consentimiento**, según la Ley 21.719, es una manifestación de voluntad libre, específica, inequívoca e informada [@F-M4-16]. Para los datos sensibles, como la voz, además debe ser expreso: por escrito, de palabra o por un medio tecnológico equivalente.
 
-Las herramientas también lo exigen. La política de uso de ElevenLabs prohíbe clonar o imitar la voz o la imagen de una persona viva sin su consentimiento explícito e informado, y no permite usar grabaciones de menores de 18 años para crear voces.
+Las herramientas también lo exigen. La política de uso de ElevenLabs prohíbe clonar o imitar la voz o la imagen de una persona viva sin su consentimiento explícito e informado, y no permite usar grabaciones de menores de 18 años para crear voces [@F-H-77].
 
 En la práctica, el consentimiento sirve cuando la persona sabe qué vas a hacer con su voz, en qué pieza, dónde se va a escuchar y por cuánto tiempo, y te lo dice con claridad. Un «ya, dale» en el pasillo, sin saber para qué es, no cumple esas condiciones aunque sea un sí. La recomendación del curso es dejarlo por escrito, aunque sea en un correo o un mensaje, para tener constancia.
 
@@ -225,9 +225,9 @@ cubre: A1, S2
 fuentes: F-M4-15, F-M4-19
 bloque: Texto + escenario
 
-Respetar la identidad es no hacer que una persona real parezca decir o hacer algo que no dijo ni hizo. La voz de alguien es reconocible: si la imitas, quien escucha cree que esa persona habló. Por eso las réplicas digitales pueden dañar a las personas, y la oficina de derecho de autor de Estados Unidos da el ejemplo de las llamadas automáticas que suplantan a alguien.
+Respetar la identidad es no hacer que una persona real parezca decir o hacer algo que no dijo ni hizo. La voz de alguien es reconocible: si la imitas, quien escucha cree que esa persona habló. Por eso las réplicas digitales pueden dañar a las personas, y la oficina de derecho de autor de Estados Unidos da el ejemplo de las llamadas automáticas que suplantan a alguien [@F-M4-19].
 
-Las plataformas también lo piden. YouTube exige declarar el contenido realista hecho o alterado con IA, por ejemplo cuando una persona real parece decir o hacer algo que no hizo, y la declaración agrega una etiqueta visible en el video o en su descripción. Un error común es creer que una sátira o una broma no necesita permiso ni aviso: aunque sea en broma, imitar a una persona real sin permiso afecta su identidad, y si alguna vez una pieza lo hace con permiso, hay que declararlo.
+Las plataformas también lo piden. YouTube exige declarar el contenido realista hecho o alterado con IA, por ejemplo cuando una persona real parece decir o hacer algo que no hizo, y la declaración agrega una etiqueta visible en el video o en su descripción [@F-M4-15]. Un error común es creer que una sátira o una broma no necesita permiso ni aviso: aunque sea en broma, imitar a una persona real sin permiso afecta su identidad, y si alguna vez una pieza lo hace con permiso, hay que declararlo.
 
 Piensa también en el origen de las voces que usa tu organización. Supón que un proveedor le ofrece al centro médico de Rosa una voz sintética para el mensaje telefónico que suena muy parecida a la de una animadora de televisión conocida. Aunque el proveedor asegure que es otra persona, si la animadora reclama, el centro médico tendrá que mostrar de dónde salió esa voz y que quien la prestó dio su consentimiento. Sin ese registro, todo queda en la palabra de cada parte.
 
@@ -248,7 +248,7 @@ Antes de usar tu locución y tu pista, verifica sus condiciones. Revisa cada aud
 - [ ] ¿Exige atribución? Cómo y dónde va.
 - [ ] ¿Hay una voz real? Si la hay, ¿tienes el consentimiento expreso de esa persona?
 
-Para los audios de terceros, da crédito con la fórmula TASL (título, autor, fuente y licencia) e indica si los modificaste. Para lo generado con IA, sigue la forma de crédito que pide la herramienta. En el plan gratuito de ElevenLabs, por ejemplo, al publicar va «elevenlabs.io» o «11.ai» en el título, o «Eleven Music» si es música, y lo hecho con funciones beta no se puede usar comercialmente. Anota todo en tu ficha de uso ético: así cualquier persona puede saber de dónde salió cada sonido.
+Para los audios de terceros, da crédito con la fórmula TASL (título, autor, fuente y licencia) e indica si los modificaste [@F-M4-03]. Para lo generado con IA, sigue la forma de crédito que pide la herramienta. En el plan gratuito de ElevenLabs, por ejemplo, al publicar va «elevenlabs.io» o «11.ai» en el título, o «Eleven Music» si es música, y lo hecho con funciones beta no se puede usar comercialmente [@F-H-76]. Anota todo en tu ficha de uso ético: así cualquier persona puede saber de dónde salió cada sonido.
 
 :::comprueba
 Andrés publicará el clip en el canal interno de la empresa. Hizo la música con Eleven Music, plan gratuito. ¿Qué tiene que hacer?
@@ -263,7 +263,7 @@ cubre: C1, C2, H1
 fuentes: F-M4-16, F-M4-03
 bloque: Texto + actividad de cierre
 
-En este laboratorio generaste una locución y una pista con IA, y viste que la voz y la imagen de una persona se protegen por su vida privada, su honra y sus datos personales. La Ley 21.719 trata la voz y los rasgos faciales como datos biométricos sensibles, y el consentimiento tiene que ser libre, específico, inequívoco, informado y expreso. Para la atribución, cada herramienta pide su propia forma de crédito, que se suma a la fórmula TASL para los materiales de terceros.
+En este laboratorio generaste una locución y una pista con IA, y viste que la voz y la imagen de una persona se protegen por su vida privada, su honra y sus datos personales. La Ley 21.719 trata la voz y los rasgos faciales como datos biométricos sensibles, y el consentimiento tiene que ser libre, específico, inequívoco, informado y expreso [@F-M4-16]. Para la atribución, cada herramienta pide su propia forma de crédito, que se suma a la fórmula TASL para los materiales de terceros [@F-M4-03].
 
 :::actividad Entrega tus audios
 Entrega lo siguiente:
@@ -285,45 +285,22 @@ Guarda los archivos: los usarás en el clip de 60 segundos del próximo tema.
 6. La Ley 21.719 define la voz y los rasgos faciales como datos biométricos sensibles, que solo se tratan con consentimiento expreso; según su texto, rige desde el 1 de diciembre de 2026.
 7. Respetar la identidad es no hacer que una persona real parezca decir algo que no dijo, y poder mostrar de dónde sale cada voz que se usa.
 
-## Glosario
+## Referencias bibliográficas
 
-- **Locución**: texto leído en voz alta que acompaña una pieza de audio o video.
-- **Texto a voz**: función que convierte un texto escrito en voz sintética.
-- **Voz sintética**: voz generada por una herramienta, no grabada por una persona.
-- **Diseño de voz**: creación de una voz sintética nueva, que no copia la de una persona real.
-- **Clonación de voz**: copia de la voz de una persona real a partir de grabaciones suyas.
-- **Réplica digital**: audio, imagen o video que imita de forma realista la voz o la apariencia de una persona.
-- **Música generativa**: música creada por una herramienta de IA a partir de una descripción.
-- **Pista**: archivo de música o sonido que se usa en una pieza.
-- **Derecho a la propia imagen**: derecho de una persona a decidir sobre el uso de su imagen.
-- **Dato biométrico**: dato que permite identificar a una persona, como sus rasgos faciales o su voz.
-- **Dato personal sensible**: dato que la ley protege de forma especial y que solo se trata con consentimiento expreso, salvo excepciones.
-- **Consentimiento expreso**: permiso libre, específico, inequívoco e informado que la persona da de forma clara, por escrito, de palabra o por un medio tecnológico equivalente.
-
-## Conexión con el proyecto
-
-Tu locución y tu pista (P14) son recursos para el **Hito 4 del proyecto aplicado: pieza multimedia que comunica la solución**: puedes entregar una pieza sonora o, como verás en el tema 4, integrarlas en un clip. La ficha de uso ético que completaste aquí es parte de la entrega, y la lista de P13 te sirve para revisar cada audio antes de entregarlo.
-
-## Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M4.md`, `investigacion/M3.md` y `investigacion/HERRAMIENTAS-2.md` (consultadas el 24-10-2026).
-Los planes gratuitos cambian a menudo: revisar de nuevo antes de publicar.
-
-- F-M4-03 · Creative Commons (2024). Recommended practices for attribution. https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution
-- F-M4-06 · OMPI (2024). IA generativa: cómo abordar la propiedad intelectual. https://www.wipo.int/edocs/pubdocs/es/wipo-pub-rn2024-8-es-generative-ai-navigating-intellectual-property.pdf
-- F-M4-15 · YouTube / Google (s. f.). Divulgación de contenido alterado o sintético. https://support.google.com/youtube/answer/14328491?hl=es-419
-- F-M4-16 · Congreso Nacional de Chile / BCN (2024). Ley 21.719, que regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales. https://www.bcn.cl/leychile/navegar?idNorma=1209272
-  - Revisar antes de publicar: fecha de entrada en vigencia (01-12-2026 según su texto) y el proyecto de ley que busca postergarla (boletín 18623-07), en trámite según la ficha del Senado (F-M3-16).
-- F-M3-16 · Senado de Chile (2026). Tramitación del boletín 18623-07: proyecto que modifica la Ley 21.719. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=18623
-- F-M4-17 · Chile / BCN (texto vigente, 2026). Constitución Política de la República, art. 19 n.º 4. https://www.bcn.cl/leychile/navegar?idNorma=242302
-- F-M4-19 · U.S. Copyright Office (2024). Copyright and Artificial Intelligence, Part 1: Digital Replicas. https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-1-Digital-Replicas-Report.pdf
-- F-M4-20 · Universidad Simón Bolívar, Departamento de Pedagogía (2020). Guía para la creación de videos educativos. https://unisimon.edu.co/showimagen/v/Comunicaciones/20200925103940_0.pdf
-- F-H-68 · Canva (s. f.). Comprender el uso de la IA. https://www.canva.com/es_es/help/ai-access/
-- F-H-75 · ElevenLabs (s. f.). Pricing. https://elevenlabs.io/pricing
-- F-H-76 · ElevenLabs (s. f.). Can I publish the content I generate on the platform? https://elevenlabs.io/docs/help-center/legal/can-i-publish-the-content-i-generate-on-the-platform
-- F-H-77 · ElevenLabs (2026). Prohibited Use Policy. https://elevenlabs.io/use-policy
-- F-H-78 · ElevenLabs (s. f.). What features are available in the ElevenLabs mobile app? https://elevenlabs.io/docs/help-center/product/mobile-apps/eleven-labs-for-ios-and-android/what-features-are-available-in-the-eleven-labs-mobile-app
-- F-H-79 · Suno (s. f.). Pricing. https://suno.com/pricing
-- F-H-82 · Udio (2026). Changes associated with the Universal Music Group partnership. https://help.udio.com/en/articles/12683565-changes-associated-with-the-universal-music-group-umg-partnership
-- F-H-85 · CapCut (s. f.). Text to Speech. https://www.capcut.com/tools/text-to-speech
-- F-H-86 · Google (s. f.). Enunciar selección (Android). https://support.google.com/accessibility/android/answer/7349565?hl=es
+- Canva. (s. f.). *Comprender el uso de la IA*. https://www.canva.com/es_es/help/ai-access/
+- CapCut. (s. f.). *Text to speech*. https://www.capcut.com/tools/text-to-speech
+- Constitución Política de la República de Chile. (1980). *Texto refundido (art. 19 n.º 4)*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idNorma=242302
+- Creative Commons. (2024, 4 de diciembre). *Recommended practices for attribution*. Creative Commons Wiki. https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution
+- ElevenLabs. (s. f.-a). *Can I publish the content I generate on the platform?* https://elevenlabs.io/docs/help-center/legal/can-i-publish-the-content-i-generate-on-the-platform
+- ElevenLabs. (s. f.-b). *Pricing*. https://elevenlabs.io/pricing
+- ElevenLabs. (s. f.-c). *What features are available in the ElevenLabs mobile app?* https://elevenlabs.io/docs/help-center/product/mobile-apps/eleven-labs-for-ios-and-android/what-features-are-available-in-the-eleven-labs-mobile-app
+- ElevenLabs. (2026, 9 de octubre). *Prohibited use policy*. https://elevenlabs.io/use-policy
+- Google. (s. f.-a). *Divulgación de contenido alterado o sintético*. Ayuda de YouTube. https://support.google.com/youtube/answer/14328491?hl=es-419
+- Google. (s. f.-b). *Enunciar selección*. https://support.google.com/accessibility/android/answer/7349565?hl=es
+- Ley 21.719. (2024, 13 de diciembre). *Regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idNorma=1209272
+- OMPI. (2024). *IA generativa: cómo abordar la propiedad intelectual (RN2024-8ES)*. https://doi.org/10.34667/tind.49471
+- Senado de Chile. (2026). *Proyecto que modifica la Ley 21.719 (Boletín 18623-07)*. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=18623
+- Suno. (s. f.). *Pricing*. https://suno.com/pricing
+- U.S. Copyright Office. (2024). *Copyright and artificial intelligence, part 1: Digital replicas*. https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-1-Digital-Replicas-Report.pdf
+- Udio. (2026, 17 de febrero). *Changes associated with the Universal Music Group partnership*. https://help.udio.com/en/articles/12683565-changes-associated-with-the-universal-music-group-umg-partnership
+- Universidad Simón Bolívar. (s. f.). *Guía para la creación de videos educativos*. Departamento de Pedagogía. https://unisimon.edu.co/showimagen/v/Comunicaciones/20200925103940_0.pdf

@@ -1,11 +1,11 @@
-<html><head><meta charset="utf-8"></head><body style="font-family:Arial"><p style="color:#64748B">IA generativa para entornos laborales · docs/FORMATO-CASO.md</p><h1>Formato de los casos de aplicación (empresas reales)</h1><p>La planilla (hoja «Casos y proyecto») trae 11 casos con empresas reales: M1-C1, M1-C2, M2-C1, M2-C2, M3-C1, M3-C2, M4-C1, M4-C2, M4-C3, M5-C1 y M5-C2. Cada uno se entrega como «Actividad de análisis del caso: preguntas guiadas + aplicación al proyecto (1,5 h)», con autocorrección y foro. Están todos marcados «Por verificar», con esta regla: <strong>no se inventan empresas, citas ni resultados</strong>.</p>
+<html><head><meta charset="utf-8"></head><body style="font-family:Arial;color:#00060F"><table style="border-collapse:collapse;width:100%"><tr><td style="background:#00060F;padding:18px 22px"><img src="https://raw.githubusercontent.com/dojedacifuentes/curso-ia-generativa-laboral/main/scripts/lib/marca/etech-logo-sobre-oscuro-600.png" width="160" height="44" alt="e-tech"><p style="font-family:'Varela Round';color:#3D9BE9;font-size:10pt">IA generativa para entornos laborales · docs/FORMATO-CASO.md</p><p style="font-family:'Varela Round';color:#FFFFFF;font-size:22pt">Formato de los casos de aplicación (empresas reales)</p></td></tr></table><p>La planilla (hoja «Casos y proyecto») trae 11 casos con empresas reales: M1-C1, M1-C2, M2-C1, M2-C2, M3-C1, M3-C2, M4-C1, M4-C2, M4-C3, M5-C1 y M5-C2. Cada uno se entrega como «Actividad de análisis del caso: preguntas guiadas + aplicación al proyecto (1,5 h)», con autocorrección y foro. Están todos marcados «Por verificar», con esta regla: <strong>no se inventan empresas, citas ni resultados</strong>.</p>
 <p>Cada caso tiene dos archivos:</p>
-<h3>1. Ficha de verificación · <code>investigacion/casos/&lt;id&gt;.md</code></h3>
+<h2 style="font-family:'Varela Round';color:#BE3455;font-weight:normal;font-size:16pt"><span style="color:#BE3455">›</span> 1. Ficha de verificación · <code>investigacion/casos/&lt;id&gt;.md</code></h2>
 <pre><code># Verificación &lt;id&gt; · &lt;título de la planilla&gt;
 Consultado: 2026-10-24
 Estado: Verificado | Verificado con ajustes | Descartado
 
-## Fuentes
+## Referencias bibliográficas
 ### F-M1C1-01 · &lt;Organismo o empresa&gt; (&lt;fecha exacta&gt;) — &lt;Título&gt;
 - URL: …
 - Tipo: primaria (sentencia, resolución, comunicado o documento de la empresa, registro oficial) | secundaria (prensa de calidad)
@@ -21,7 +21,7 @@ Estado: Verificado | Verificado con ajustes | Descartado
 - &lt;si el título o el enfoque de la planilla no calzan con lo verificado, qué cambia&gt;</code></pre>
 <p>Reglas de la ficha:</p>
 <ul><li><strong>Fuentes primarias primero.</strong> Para hechos centrales, cifras y citas: la sentencia o resolución, el comunicado de la empresa o el documento oficial. La prensa de calidad sirve solo para complementar, con fecha.</li><li><strong>Cada fuente se abre y se lee.</strong> Si no se puede abrir, no es fuente: va a «Lo que NO se puede afirmar».</li><li><strong>Cifras:</strong> cada una lleva su fecha y dice quién la informa («según la empresa…»). Una cifra que solo publicó la empresa se presenta como cifra informada por la empresa, no como hecho independiente.</li><li><strong>Casos en evolución</strong> (litigios, cambios de estrategia): se informa el estado a la fecha de consulta y se dice que puede cambiar.</li><li><strong>Descarte:</strong> si el caso no se puede respaldar en una fuente primaria, el estado es «Descartado» y se propone un reemplazo verificable que trabaje los mismos AE (también con ficha).</li></ul>
-<h3>2. Caso para el estudiante · <code>casos/&lt;id&gt;.md</code></h3>
+<h2 style="font-family:'Varela Round';color:#BE3455;font-weight:normal;font-size:16pt"><span style="color:#BE3455">›</span> 2. Caso para el estudiante · <code>casos/&lt;id&gt;.md</code></h2>
 <pre><code># &lt;id&gt; · &lt;título&gt;
 **Aprendizajes esperados que trabaja:** M1-AE2, M1-AE3
 **Hito del proyecto con el que conecta:** Hito 1 …
@@ -47,9 +47,9 @@ cubre: S2, H1, C1 (códigos de los AE que trabaja, en formato AE:código, p. ej.
 ## 6. Para el foro
 &lt;una pregunta de discusión abierta y respetuosa&gt;
 
-## Fuentes
+## Referencias bibliográficas
 - F-M1C1-01 · Organismo (fecha). Título. URL</code></pre>
 <p>Reglas del caso:</p>
 <ul><li><strong>Hechos:</strong> solo los de «Hechos verificados» de la ficha, citando <code>fuentes:</code>. Las opiniones o interpretaciones se presentan como preguntas para la persona, no como hechos.</li><li><strong>Personas reales:</strong> de las personas naturales involucradas (abogados, empleados), se habla por su rol, no por su nombre. Las figuras públicas o las empresas pueden nombrarse cuando son parte central del caso, sin calificarlas.</li><li><strong>Tono:</strong> sin sensacionalismo ni burla, en español de Chile, tuteo y frases cortas.</li><li><strong>Audiencia (28-10):</strong> solo personas que están trabajando; la aplicación se hace sobre una tarea de su cargo actual (el desafío laboral del proyecto). Ver <code>docs/CRITERIOS-28-10.md</code>.</li><li><strong>Conexión:</strong> los AE y el hito según <code>data/curso.json</code>; el análisis remite a pantallas del contenido base de esos AE.</li></ul>
 <p>Control: <code>node scripts/validar-casos.mjs</code>.</p>
-</body></html>
+<p style="color:#808387;font-size:8pt;margin-top:24pt">e-tech | empoderatech · empoderatech.com · IA generativa para entornos laborales</p></body></html>

@@ -13,7 +13,7 @@ Cada caso tiene dos archivos:
 Consultado: 2026-10-24
 Estado: Verificado | Verificado con ajustes | Descartado
 
-## Fuentes
+## Referencias bibliográficas
 ### F-M1C1-01 · <Organismo o empresa> (<fecha exacta>) — <Título>
 - URL: …
 - Tipo: primaria (sentencia, resolución, comunicado o documento de la empresa, registro oficial) | secundaria (prensa de calidad)
@@ -67,7 +67,7 @@ cubre: S2, H1, C1 (códigos de los AE que trabaja, en formato AE:código, p. ej.
 ## 6. Para el foro
 <una pregunta de discusión abierta y respetuosa>
 
-## Fuentes
+## Referencias bibliográficas
 - F-M1C1-01 · Organismo (fecha). Título. URL
 ```
 

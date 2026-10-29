@@ -13,7 +13,7 @@ tareas laborales simples. Al terminar deberías poder escribir un prompt con eso
 menos una vez, hasta que de verdad te sirva en tu trabajo.
 
 En este curso vas a usar **Gemini** como asistente principal. Tiene aplicación para Android y para iPhone, y funciona con una cuenta de
-Google personal. Si prefieres otro, ChatGPT también tiene un plan gratuito que funciona en el navegador y en el celular. Y si en tu
+Google personal [@F-H-14]. Si prefieres otro, ChatGPT también tiene un plan gratuito que funciona en el navegador y en el celular [@F-H-02]. Y si en tu
 empresa ya usan un asistente, como Copilot, puedes practicar con ese, respetando lo que tu empresa permita.
 
 Vuelven Camila y Andrés. Camila responde todos los días correos de proveedores y clientes, y quiere dejar de escribirlos desde cero.
@@ -26,7 +26,7 @@ cubre: S1, C1
 fuentes: F-M1-12, F-M1-13
 bloque: Texto + tabla o imagen con etiquetas (labeled graphic)
 
-Las guías de Google y de Microsoft proponen estructuras parecidas para escribir prompts. Con distintos nombres, las dos hablan de lo
+Las guías de Google y de Microsoft proponen estructuras parecidas para escribir prompts [@F-M1-12; @F-M1-13]. Con distintos nombres, las dos hablan de lo
 mismo: quién responde, qué necesita saber, qué tiene que hacer y cómo entregarlo. En este curso usamos cinco componentes, con un
 ejemplo de Camila en cada uno.
 
@@ -38,7 +38,7 @@ ejemplo de Camila en cada uno.
 | Formato | ¿Cómo lo entrega? | «Un correo de no más de 80 palabras, tono cordial» |
 | Restricciones | ¿Qué límites debe respetar? | «Usa solo los datos que te doy; no prometas nada que no esté aquí» |
 
-No es obligatorio usar los cinco en cada prompt. Un pedido muy simple puede funcionar solo con tarea y formato. Pero mientras más
+No es obligatorio usar los cinco en cada prompt [@F-M1-12]. Un pedido muy simple puede funcionar solo con tarea y formato. Pero mientras más
 depende la respuesta de tu situación, más componentes conviene incluir, y en este tema la meta mínima es que tus prompts tengan
 **rol, contexto, tarea y formato**.
 
@@ -54,7 +54,7 @@ fuentes: F-M1-14, F-M1-12
 bloque: Texto + pestañas (tabs): rol / contexto
 
 La guía de Anthropic propone una prueba sencilla: imagina que el asistente es una persona nueva en tu trabajo, inteligente pero sin
-ningún antecedente. Si un colega recién llegado no entendería tu pedido, el modelo tampoco. Un error común es pensar que el asistente
+ningún antecedente. Si un colega recién llegado no entendería tu pedido, el modelo tampoco [@F-M1-14]. Un error común es pensar que el asistente
 ya sabe a qué te refieres; como viste en el tema anterior, solo trabaja con lo que está en su contexto y no conoce tu empresa, tu
 cargo ni tu jefatura si no se lo dices.
 
@@ -62,8 +62,8 @@ El **rol** le indica desde qué perspectiva responder. No le da conocimientos qu
 que considera importante. En una oficina sirven roles como «encargado de bodega que escribe a su jefatura», «asistente de recursos
 humanos que redacta un aviso interno» o «ejecutiva de atención al cliente».
 
-El **contexto** explica la situación: para quién es el texto, para qué se usará y qué antecedentes importan. Ayuda mucho explicar
-también el motivo de una instrucción. «Escríbelo corto porque se leerá en el celular» funciona mejor que solo «escríbelo corto»,
+El **contexto** explica la situación: para quién es el texto, para qué se usará y qué antecedentes importan [@F-M1-12]. Ayuda mucho explicar
+también el motivo de una instrucción [@F-M1-14]. «Escríbelo corto porque se leerá en el celular» funciona mejor que solo «escríbelo corto»,
 porque el asistente entiende qué busca y puede decidir mejor.
 
 :::ejemplo Andrés pone al día al asistente
@@ -78,15 +78,15 @@ fuentes: F-M1-13, F-M1-14
 bloque: Texto + knowledge check
 
 La tarea es lo que quieres que haga. Conviene empezar con un verbo claro: resume, reescribe, clasifica, redacta, ordena, compara. Si
-la tarea tiene varios pasos y el orden importa, numéralos.
+la tarea tiene varios pasos y el orden importa, numéralos [@F-M1-14].
 
 El formato es cómo quieres recibir el resultado, y las guías recomiendan ser específico en tres cosas: la forma (viñetas, tabla,
-párrafo o correo con asunto), la extensión («en tres viñetas», «máximo 100 palabras») y el tono (formal, cordial, directo). Si no lo
+párrafo o correo con asunto), la extensión («en tres viñetas», «máximo 100 palabras») y el tono (formal, cordial, directo) [@F-M1-13; @F-M1-14]. Si no lo
 dices, el asistente decide por ti.
 
 Las **restricciones** son los límites que la respuesta debe respetar: qué incluir, qué dejar fuera y de qué información sacar la
 respuesta. Por ejemplo, «usa solo el texto que te pego» o «no agregues datos que no estén en el reporte». La guía de Anthropic suma un
-consejo útil: di qué hacer en vez de decir solo lo que no quieres. «Escribe en frases cortas y simples» orienta mejor que «no uses
+consejo útil: di qué hacer en vez de decir solo lo que no quieres [@F-M1-14]. «Escribe en frases cortas y simples» orienta mejor que «no uses
 palabras difíciles».
 
 :::comprueba
@@ -105,11 +105,11 @@ fuentes: F-M1-14, F-M1-15
 bloque: Texto + ejemplo destacado
 
 A veces la manera más rápida de explicar lo que quieres es mostrar un ejemplo. Si le das un modelo del formato o del tono que buscas,
-el asistente tiende a seguirlo. Las guías de Anthropic y de Google recomiendan incluir ejemplos cuando ayudan, con dos cuidados.
+el asistente tiende a seguirlo. Las guías de Anthropic y de Google recomiendan incluir ejemplos cuando ayudan, con dos cuidados [@F-M1-14; @F-M1-15].
 El primero es que sean pocos: la guía de Google advierte que demasiados ejemplos pueden hacer que el modelo los copie de más y pierda
-flexibilidad. El segundo es que se parezcan a lo que quieres, porque si tu ejemplo es largo, la respuesta también lo será.
+flexibilidad [@F-M1-15]. El segundo es que se parezcan a lo que quieres, porque si tu ejemplo es largo, la respuesta también lo será.
 
-Otra práctica útil es separar las instrucciones de los datos. Cuando pegas un texto para trabajar, como unas notas, un correo o el
+Otra práctica útil es separar las instrucciones de los datos [@F-M1-14]. Cuando pegas un texto para trabajar, como unas notas, un correo o el
 detalle de unas facturas, deja claro dónde empieza y dónde termina. Escribe primero la instrucción y luego «Texto:», o pon el texto
 entre comillas. Así el asistente no confunde tus indicaciones con el contenido.
 
@@ -126,7 +126,7 @@ cubre: S2
 fuentes: F-M1-14, F-M1-15
 bloque: Pestañas o acordeón (un error por pestaña)
 
-Las guías de los proveedores coinciden en varios errores que hacen que la respuesta no sirva. Casi todos nacen de lo mismo: escribir
+Las guías de los proveedores coinciden en varios errores que hacen que la respuesta no sirva [@F-M1-14; @F-M1-15]. Casi todos nacen de lo mismo: escribir
 como si el asistente supiera lo que tú sabes.
 
 1. Pedido vago o ambiguo: «hazme algo para el cliente» admite mil interpretaciones.
@@ -138,7 +138,7 @@ como si el asistente supiera lo que tú sabes.
 
 El cuarto merece una explicación, porque es tentador. Escribir «resume el acta, redacta el correo para el gerente y arma la lista de
 pendientes» parece más rápido, pero suele dar un resultado a medias en las tres cosas. La guía de Google recomienda dividir las tareas
-complejas en varios prompts: pides una cosa a la vez y usas cada respuesta como base para la siguiente.
+complejas en varios prompts: pides una cosa a la vez y usas cada respuesta como base para la siguiente [@F-M1-15].
 
 :::comprueba
 Andrés escribe: «Revisa esto y mejóralo». ¿Cuál es el error principal?
@@ -153,9 +153,9 @@ cubre: H1, C1
 fuentes: F-M1-12, F-M1-13
 bloque: Comparación antes/después (dos columnas o flashcards)
 
-Resumir es una de las tareas de oficina que mejor delega un asistente, siempre que tú le entregues el texto. Andrés lo ve con la minuta
+Resumir es una de las tareas de oficina que mejor delega un asistente, siempre que tú le entregues el texto [@F-M1-12]. Andrés lo ve con la minuta
 de la reunión semanal con ventas. Cuando escribía solo «Resume esta minuta», recibía un párrafo largo que mezclaba temas y no
-destacaba lo que él necesitaba: los compromisos. Ahora agrega los componentes que faltaban:
+destacaba lo que él necesitaba: los compromisos. Ahora agrega los componentes que faltaban [@F-M1-13]:
 
 > «Actúa como encargado de bodega [rol]. Esta es la minuta de la reunión semanal con ventas; la leerá mi equipo de tres personas, que
 > no estuvo en la reunión [contexto]. Resume los acuerdos y los compromisos con su responsable y su fecha [tarea]. Entrégalo en una
@@ -181,7 +181,7 @@ proveedor que no ha confirmado la entrega de un pedido, y le salió demasiado in
 los sacos de cemento y nadie nos dice nada, ¿llegan o no?».
 
 Primero pidió solo «Mejora este mensaje». El asistente lo dejó más formal, pero le agregó frases que Camila nunca diría y lo alargó al
-triple. Entonces escribió un prompt completo:
+triple. Entonces escribió un prompt completo [@F-M1-12; @F-M1-13]:
 
 > «Actúa como asistente administrativa de una constructora [rol]. Hace dos semanas hicimos un pedido de cemento a este proveedor y no
 > ha confirmado la fecha de entrega; necesito saberla sin sonar molesta [contexto]. Reescribe mi mensaje en tono cordial y profesional
@@ -205,7 +205,7 @@ cubre: H1, C1, S1
 fuentes: F-M1-12, F-M1-15
 bloque: Comparación antes/después + tabla
 
-Clasificar es ordenar información en categorías: correos por tema, solicitudes por urgencia, gastos por tipo. Aquí aparece Rosa,
+Clasificar es ordenar información en categorías: correos por tema, solicitudes por urgencia, gastos por tipo [@F-M1-12]. Aquí aparece Rosa,
 recepcionista en un centro médico, que cada mañana revisa los mensajes que dejan los pacientes. Cuando pedía «Ordena estos mensajes»,
 el asistente los ordenaba por largo o los resumía uno por uno, y eso no le servía. Ahora escribe:
 
@@ -214,7 +214,7 @@ el asistente los ordenaba por largo o los resumía uno por uno, y eso no le serv
 > Otro [tarea]. Entrega una tabla con las columnas "N.º", "Resumen en cinco palabras" y "Categoría" [formato]. Usa solo esas cuatro
 > categorías; si un mensaje no calza, ponlo en Otro [restricción]. Mensajes: 1. "…" 2. "…"»
 
-Con las categorías definidas de antemano, la clasificación sale pareja y Rosa la revisa rápido. Al clasificar, **tú defines las
+Con las categorías definidas de antemano, la clasificación sale pareja y Rosa la revisa rápido [@F-M1-15]. Al clasificar, **tú defines las
 categorías**: si dejas que el asistente las invente, cada vez puede usar otras distintas. Y para practicar no pegues nombres, RUT ni
 datos de salud reales; usa mensajes de prueba. Qué datos no compartir lo vas a ver a fondo en el módulo 3.
 
@@ -229,7 +229,7 @@ fuentes: F-M1-12, F-M1-15
 bloque: Proceso (process block) en 4 pasos
 
 Casi nunca la primera respuesta es la definitiva. Las guías de los proveedores proponen tratar el trabajo con el asistente como una
-conversación, y a ese ciclo de pedir, mirar y corregir se le llama **iteración**:
+conversación, y a ese ciclo de pedir, mirar y corregir se le llama **iteración** [@F-M1-12]:
 
 1. Pides con tu mejor prompt.
 2. Revisas la respuesta: ¿sirve para lo que necesitas?
@@ -238,8 +238,8 @@ conversación, y a ese ciclo de pedir, mirar y corregir se le llama **iteración
 
 Hay varias formas de ajustar. Puedes agregar el contexto que faltaba («es para un cliente molesto»), precisar el formato («más corto,
 en tres viñetas») o reformular la tarea con otras palabras. También puedes dividirla en pasos, primero el resumen y después el correo,
-o cambiar el orden del prompt y poner el texto antes de la instrucción. Y la guía de Google sugiere un recurso más: pedirle al propio
-asistente que mejore tu prompt. Puedes iterar dentro de la misma conversación («ahora hazlo más formal») o editar tu prompt y volver a
+o cambiar el orden del prompt y poner el texto antes de la instrucción [@F-M1-15]. Y la guía de Google sugiere un recurso más: pedirle al propio
+asistente que mejore tu prompt [@F-M1-12]. Puedes iterar dentro de la misma conversación («ahora hazlo más formal») o editar tu prompt y volver a
 enviarlo.
 
 :::ejemplo Andrés itera una vez
@@ -253,7 +253,7 @@ fuentes: F-M1-12, F-M1-13
 bloque: Tabla + escenario
 
 Iterar no es probar al azar. Lo que falla en la respuesta te dice qué faltó en el prompt, así que conviene mirarla primero y ajustar
-el componente que corresponde.
+el componente que corresponde [@F-M1-12; @F-M1-13].
 
 | Si la respuesta… | Probablemente faltó… | Ajuste posible |
 |---|---|---|
@@ -282,14 +282,14 @@ fuentes: F-M1-13, F-H-12
 bloque: Texto + recuadro destacado
 
 La **perseverancia** es no rendirse con la primera respuesta, y tampoco quedarse dando vueltas sin rumbo. La guía de Microsoft advierte
-que llegar al resultado suele requerir un ida y vuelta. Es normal, no es señal de que lo hiciste mal. Un error común es concluir que la
+que llegar al resultado suele requerir un ida y vuelta [@F-M1-13]. Es normal, no es señal de que lo hiciste mal. Un error común es concluir que la
 herramienta no sirve porque la primera respuesta salió mala, cuando muchas veces basta una iteración con más contexto o un formato más
 preciso.
 
 Ayuda mirar cada respuesta como información: lo que salió mal te dice qué faltaba. Ayuda también cambiar una cosa a la vez, porque si
 cambias todo de golpe no sabrás qué funcionó. A veces conviene empezar de nuevo: si la conversación se llenó de intentos o cambiaste de
 tema, abre una nueva y pega tu mejor versión del prompt. La ayuda de Gemini lo recomienda al cambiar de tema, para aprovechar mejor el
-uso disponible.
+uso disponible [@F-H-12].
 
 Perseverar también es saber cuándo parar. Si después de varios intentos la tarea no sale, quizás no conviene delegarla; recuerda el
 semáforo del tema anterior.
@@ -305,11 +305,11 @@ fuentes: F-H-14, F-H-15
 bloque: Proceso paso a paso + actividad
 
 Ahora te toca. Vas a escribir, probar e iterar un prompt para una tarea real de tu cargo. Antes de empezar, una advertencia sobre los
-datos: con el ajuste de actividad encendido, Gemini guarda tus conversaciones y revisores humanos pueden leer algunas. Por eso aquí se
+datos: con el ajuste de actividad encendido, Gemini guarda tus conversaciones y revisores humanos pueden leer algunas [@F-H-15]. Por eso aquí se
 trabaja con copias sin datos sensibles o con datos de prueba, y se respeta lo que diga tu empresa. Cómo configurar la privacidad lo
 verás en el módulo 3.
 
-1. Abre Gemini en la app del celular o en el navegador, o el asistente que uses.
+1. Abre Gemini en la app del celular o en el navegador, o el asistente que uses [@F-H-14].
 2. Elige una tarea de tu trabajo que sea de resumir, reescribir o clasificar: un procedimiento, una respuesta a un cliente, solicitudes que llegan a tu correo.
 3. Prepara los datos con una copia sin nombres, RUT ni montos reales, o con datos de prueba.
 4. Escribe la versión 1 con rol, contexto, tarea y formato; si puedes, agrega una restricción.
@@ -328,7 +328,7 @@ bloque: Texto + ejemplo con resaltado de las partes variables
 
 Si un prompt te funcionó, no lo pierdas. Conviértelo en una **plantilla**: un prompt reutilizable donde las partes que cambian cada vez
 quedan entre [corchetes]. La guía de Google para Gemini ofrece una biblioteca de prompts de ejemplo por cargo, con corchetes para
-personalizar, y entre ellos hay ejemplos para asistencia administrativa y para bodega.
+personalizar, y entre ellos hay ejemplos para asistencia administrativa y para bodega [@F-M1-12].
 
 Armarla es simple. Tomas tu mejor versión, la que obtuviste después de iterar, y marcas lo que cambiará la próxima vez: nombres,
 fechas, textos pegados, destinatarios. Luego reemplazas cada una de esas partes por un corchete que diga qué va ahí.
@@ -350,7 +350,7 @@ fuentes: F-M1-12
 bloque: Texto + tabla descargable (plantilla de la biblioteca)
 
 Una **biblioteca personal de prompts** es tu colección ordenada de plantillas que funcionan, agrupadas por tarea. Sigue la misma lógica
-de las bibliotecas que publican los proveedores, pero hecha para tu cargo y con lo que tú aprendiste. Puedes llevarla en un documento,
+de las bibliotecas que publican los proveedores, pero hecha para tu cargo y con lo que tú aprendiste [@F-M1-12]. Puedes llevarla en un documento,
 en una planilla o en las notas del celular, con este formato:
 
 | Campo | Qué anotar |
@@ -377,7 +377,7 @@ cubre: C1, C2, H2, A2
 fuentes: F-M1-12, F-M1-13
 bloque: Texto + lista de verificación (checklist) + actividad de cierre
 
-En este tema viste que un prompt efectivo tiene rol, contexto, tarea y formato y, cuando hace falta, restricciones. Conociste los
+En este tema viste que un prompt efectivo tiene rol, contexto, tarea y formato y, cuando hace falta, restricciones [@F-M1-12; @F-M1-13]. Conociste los
 errores más comunes, practicaste resumir, reescribir y clasificar con ejemplos de antes y después, y aprendiste a iterar mirando qué
 falló en la respuesta. Antes de guardar una plantilla en tu biblioteca, revísala con esta lista:
 
@@ -407,37 +407,13 @@ menos una vez y guárdala en tu biblioteca con sus notas. Esa será tu **bibliot
 5. Iterar es normal: revisa la respuesta, identifica qué componente falló y ajústalo, una cosa a la vez.
 6. Un prompt que funciona se convierte en plantilla con [corchetes] y se guarda, con sus notas, en tu biblioteca personal.
 
-## Glosario
+## Referencias bibliográficas
 
-- **Rol**: perspectiva desde la que se le pide al asistente que responda, por ejemplo «encargado de bodega».
-- **Contexto (en un prompt)**: parte del prompt que explica la situación, para quién es la respuesta y para qué se usará.
-- **Tarea**: lo que se le pide hacer al asistente, expresado con un verbo claro, como resumir o clasificar.
-- **Formato**: forma, extensión y tono en que se pide la respuesta.
-- **Restricción**: límite que la respuesta debe respetar, como qué información usar o qué no agregar.
-- **Ejemplo en el prompt**: muestra del resultado esperado que se incluye para orientar el formato o el tono.
-- **Iteración**: ciclo de pedir, revisar, ajustar y volver a pedir hasta obtener una respuesta útil.
-- **Pregunta de seguimiento**: mensaje que se envía en la misma conversación para corregir o precisar la respuesta anterior.
-- **Plantilla de prompt**: prompt reutilizable con las partes variables entre [corchetes].
-- **Biblioteca de prompts**: colección ordenada de plantillas probadas, con notas sobre cuándo y cómo usarlas.
-
-## Conexión con el proyecto
-
-Tus tres plantillas de la actividad de cierre (P16), con sus notas de iteración, forman la **biblioteca de prompts v1** del **Hito 1
-del proyecto aplicado: problema u oportunidad real + biblioteca de prompts v1**. La armas para resolver tareas de tu propio cargo, y
-en el hito eliges entre ellas el desafío laboral en que vas a trabajar durante el curso.
-
-## Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M1.md` e `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
-
-- F-M1-12 · Google Workspace (2026). Cómo escribir instrucciones eficaces. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
-- F-M1-13 · Microsoft Support (2026). Introducción a la escritura de indicaciones en Copilot. https://support.microsoft.com/es-es/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot
-- F-M1-14 · Anthropic (2026). Mejores prácticas de prompting. https://platform.claude.com/docs/es/build-with-claude/prompt-engineering/claude-prompting-best-practices
-- F-M1-15 · Google AI for Developers (2026). Estrategias de diseño de instrucciones. https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419
-- F-H-02 · OpenAI (s. f.). Planes y precios de ChatGPT. https://chatgpt.com/es-419/pricing/
-- F-H-12 · Google (s. f.). Límites de las aplicaciones de Gemini y cambios a planes superiores. https://support.google.com/gemini/answer/16275805?hl=es
-- F-H-14 · Google (s. f.). Empezar a usar la aplicación móvil Gemini. https://support.google.com/gemini/answer/14554984?hl=es
-- F-H-15 · Google (s. f.). Centro de Privacidad de las Aplicaciones de Gemini. https://support.google.com/gemini/answer/13594961?hl=es
-
-Recomendaciones del curso, sin fuente: el formato de seis campos de la biblioteca (P15), la tabla de diagnóstico de P11 como
-organización didáctica y la lista de verificación de P16.
+- Anthropic. (s. f.). *Mejores prácticas de prompting*. Claude Docs. https://platform.claude.com/docs/es/build-with-claude/prompt-engineering/claude-prompting-best-practices
+- Google. (s. f.-a). *Centro de privacidad de las aplicaciones de Gemini*. https://support.google.com/gemini/answer/13594961?hl=es
+- Google. (s. f.-b). *Cómo escribir instrucciones eficaces*. Google Workspace. https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/
+- Google. (s. f.-c). *Empezar a usar la aplicación móvil Gemini*. https://support.google.com/gemini/answer/14554984?hl=es
+- Google. (s. f.-d). *Límites de las aplicaciones de Gemini y cambios a planes superiores*. https://support.google.com/gemini/answer/16275805?hl=es
+- Google. (2026, 13 de octubre). *Estrategias de diseño de instrucciones*. Google AI for Developers. https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419
+- Microsoft. (2026). *Introducción a la escritura de indicaciones en Microsoft Copilot*. Microsoft Support. https://support.microsoft.com/es-es/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot
+- OpenAI. (s. f.). *Planes y precios*. ChatGPT. https://chatgpt.com/es-419/pricing/

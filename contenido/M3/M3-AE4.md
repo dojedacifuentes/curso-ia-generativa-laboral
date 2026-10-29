@@ -15,7 +15,7 @@ proponiendo prácticas de uso seguro. Al final deberías poder clasificar la inf
 fundamento qué puede ingresar a una herramienta de IA y proponer una práctica segura para lo que no puede.
 
 Los riesgos que vas a ver no son supuestos: están descritos por organismos como el NIST, el instituto de normas y tecnología de Estados
-Unidos, y por la ley chilena de protección de datos. Los ejemplos con Camila, Andrés y Rosa son ficticios, pero muestran cómo aparecen
+Unidos, y por la ley chilena de protección de datos [@F-M3-13; @F-M3-14]. Los ejemplos con Camila, Andrés y Rosa son ficticios, pero muestran cómo aparecen
 esos riesgos en tareas de oficina comunes. En la actividad de análisis de casos vas a ver situaciones reales.
 
 Como trabajas con información real todos los días, este tema tiene una consecuencia práctica: cuando quieras probar una herramienta
@@ -40,8 +40,8 @@ preguntas, en este orden:
 3. ¿Qué límites tiene? ¿Qué no puede hacer bien esta herramienta, aunque lo intente?
 
 NIST describe estos tres frentes entre los riesgos de la IA generativa: el sesgo dañino, la confabulación (lo que solemos llamar
-alucinación) y los problemas de integridad de la información. Las herramientas de este módulo ayudan con la trazabilidad, porque un
-buscador con citas enlaza cada afirmación a su fuente, pero no resuelven los otros dos frentes.
+alucinación) y los problemas de integridad de la información [@F-M3-13]. Las herramientas de este módulo ayudan con la trazabilidad, porque un
+buscador con citas enlaza cada afirmación a su fuente [@F-M3-01]. Los otros dos frentes, en cambio, no los resuelven.
 
 Camila aplicó las tres preguntas al borrador de su informe del Hito 3 antes de entregarlo a la gerenta de administración. Descubrió
 que casi todas las fuentes sobre archivo de documentos digitales eran de otros países y que un párrafo no tenía ninguna cita. Ajustó
@@ -62,7 +62,7 @@ fuentes: F-M3-13
 bloque: Texto + escenario
 
 NIST explica que la IA generativa puede amplificar sesgos históricos y sociales y rendir distinto según el grupo o el idioma, en parte
-porque sus datos de entrenamiento no son representativos. También describe la **homogeneización**: respuestas demasiado parecidas
+porque sus datos de entrenamiento no son representativos [@F-M3-13]. También describe la **homogeneización**: respuestas demasiado parecidas
 entre sí, que repiten una sola mirada.
 
 En una investigación de trabajo esto se nota de formas concretas. Si hay más información en inglés o sobre otros países, la respuesta
@@ -92,11 +92,11 @@ las respuestas de IA la tienen en el mismo nivel.
 | Situación | Trazabilidad | Qué hacer |
 |---|---|---|
 | Respuesta de un asistente sin fuentes | Baja: no sabes de dónde salió | Úsala solo como pista y busca la fuente |
-| Respuesta de un buscador con citas | Media: cada afirmación enlaza a una página | Abre cada cita y revisa que diga eso |
+| Respuesta de un buscador con citas | Media: cada afirmación enlaza a una página [@F-M3-01] | Abre cada cita y revisa que diga eso |
 | Respuesta de un asistente sobre tus fuentes | Alta: cita la parte exacta de tus documentos, como viste en el tema 1 | Toca las citas y compara con el texto |
 
 Hay un límite que ninguna herramienta resuelve hoy. NIST señala que la mayoría de los desarrolladores no informa con qué datos entrenó
-sus modelos. Cuando un asistente responde «de memoria», no hay forma de saber de qué textos aprendió eso.
+sus modelos [@F-M3-13]. Cuando un asistente responde «de memoria», no hay forma de saber de qué textos aprendió eso.
 
 Por eso, en este curso, la regla es simple: lo que no puedes rastrear no lo presentas como hecho. Si necesitas mencionarlo, dices que
 no está verificado.
@@ -116,8 +116,8 @@ bloque: Texto + escenario
 
 Aun con buenas herramientas, hay límites que siguen ahí. NIST explica que la IA puede producir contenido falso con total seguridad,
 incluso razonamientos o **citas inventadas** para justificar la respuesta, y que puede presentar una opinión como si fuera un hecho sin
-reconocer cuándo no está segura. Trabajar sobre tus propios documentos tampoco lo elimina: la ayuda de Gemini Notebook advierte que
-sus respuestas pueden tener errores, y recomienda consultar a un profesional en temas médicos, legales o financieros.
+reconocer cuándo no está segura [@F-M3-13]. Trabajar sobre tus propios documentos tampoco lo elimina: la ayuda de Gemini Notebook advierte que
+sus respuestas pueden tener errores, y recomienda consultar a un profesional en temas médicos, legales o financieros [@F-M3-02].
 
 Este último punto importa mucho en el trabajo. Una herramienta puede ayudarte a entender una norma o a ordenar información, pero no
 reemplaza a quien tiene la responsabilidad y la formación para decidir. Andrés, por ejemplo, le preguntó a un asistente si su bodega
@@ -144,10 +144,10 @@ sale de tu control y queda en los sistemas de un proveedor.
 
 El Centro de Privacidad de Gemini lo explica con claridad. Con el ajuste de actividad encendido, Google usa tu actividad para mejorar
 sus servicios, incluido el entrenamiento de IA generativa, y revisores humanos leen una parte de las conversaciones, desvinculadas de
-tu cuenta. El mismo centro recomienda expresamente no ingresar datos confidenciales ni nada que no quieras que vea un revisor.
+tu cuenta. El mismo centro recomienda expresamente no ingresar datos confidenciales ni nada que no quieras que vea un revisor [@F-M3-20].
 
 NIST agrega otro riesgo: los modelos pueden filtrar, generar o inferir datos sensibles de personas, incluso combinando información que
-estaba dispersa. Un dato suelto puede parecer inofensivo, pero junto con otros puede identificar a alguien.
+estaba dispersa [@F-M3-13]. Un dato suelto puede parecer inofensivo, pero junto con otros puede identificar a alguien.
 
 Por eso, antes de escribir o subir algo, la pregunta no es solo si te va a servir la respuesta, sino también si puedes entregar esa
 información. Una vez que pegas algo en una herramienta ya no lo puedes «des-pegar», así que la decisión se toma antes.
@@ -165,10 +165,10 @@ fuentes: F-M3-14, F-M3-15
 bloque: Texto + tarjetas (flashcards)
 
 Para decidir qué puedes entregar, primero tienes que reconocer un **dato personal**. En Chile lo define la ley. La Ley 19.628, vigente,
-dice que es cualquier información sobre personas naturales identificadas o identificables. La Ley 21.719, que según su texto rige
+dice que es cualquier información sobre personas naturales identificadas o identificables [@F-M3-14]. La Ley 21.719, que según su texto rige
 desde el 1 de diciembre de 2026, lo amplía: es cualquier información vinculada a una persona natural identificada o identificable,
 directa o indirectamente, y da como ejemplos el nombre, el RUN y elementos de su identidad física, genética, psíquica, económica,
-cultural o social.
+cultural o social [@F-M3-15].
 
 Fíjate en la palabra identificable. No hace falta el nombre para que un dato sea personal: basta con que, juntando datos, se pueda
 saber de quién se habla. Por ejemplo, «el paciente de las 10:30 del martes con el doctor de traumatología», «la única supervisora del
@@ -197,7 +197,7 @@ más fuerza. Las dos leyes los describen así.
 
 | Ley 19.628 (vigente) | Ley 21.719 (según su texto, desde el 1 de diciembre de 2026) |
 |---|---|
-| Datos que se refieren a características físicas o morales de las personas, o a su vida privada o intimidad. Por ejemplo: hábitos personales, origen racial, ideologías y opiniones políticas, creencias religiosas, salud física o psíquica, vida sexual | Datos que revelan, entre otros: origen étnico o racial; afiliación política, sindical o gremial; situación socioeconómica; convicciones ideológicas o filosóficas; creencias religiosas; salud; perfil biológico; datos biométricos; vida sexual; orientación sexual e identidad de género |
+| Datos que se refieren a características físicas o morales de las personas, o a su vida privada o intimidad. Por ejemplo: hábitos personales, origen racial, ideologías y opiniones políticas, creencias religiosas, salud física o psíquica, vida sexual [@F-M3-14] | Datos que revelan, entre otros: origen étnico o racial; afiliación política, sindical o gremial; situación socioeconómica; convicciones ideológicas o filosóficas; creencias religiosas; salud; perfil biológico; datos biométricos; vida sexual; orientación sexual e identidad de género [@F-M3-15] |
 
 Las dos leyes coinciden en lo central: salud, creencias, origen, opiniones políticas y vida sexual son datos sensibles. La Ley 21.719
 nombra de forma expresa otros que aparecen a menudo en el trabajo, como la afiliación sindical, la situación socioeconómica y los datos
@@ -218,7 +218,7 @@ bloque: Texto + tabla de tres niveles
 
 No todo lo que hay que proteger son datos de personas. Una empresa también tiene **información confidencial**: precios negociados,
 listas de clientes, ventas, remuneraciones, contratos o planes que aún no se anuncian. El Instituto Nacional de Ciberseguridad de
-España (INCIBE) propone clasificar la información de una empresa según quién puede acceder a ella, en tres niveles.
+España (INCIBE) propone clasificar la información de una empresa según quién puede acceder a ella, en tres niveles [@F-M3-19].
 
 | Nivel | Quién accede | Ejemplos |
 |---|---|---|
@@ -229,7 +229,7 @@ España (INCIBE) propone clasificar la información de una empresa según quién
 INCIBE propone además pensar en el daño que causaría que esa información se pierda o se filtre: daño a la imagen, consecuencias
 legales o económicas, o que el trabajo se detenga. Por ejemplo, solo quienes procesan las remuneraciones deberían acceder a esos
 datos. En Chile, los lineamientos del Estado para el uso de IA, que verás en P12, también piden cuidar la información confidencial de
-las personas jurídicas y no solo la de las personas.
+las personas jurídicas y no solo la de las personas [@F-M3-17].
 
 :::ejemplo Andrés clasifica
 Andrés revisa los documentos que maneja. El catálogo de productos es público. El reporte semanal de stock es interno. La lista de
@@ -245,7 +245,7 @@ La Ley 19.628, sobre protección de la vida privada, se publicó en 1999 y es la
 directamente con el uso de IA en el trabajo.
 
 La primera es que para tratar datos personales se necesita una base. El artículo 4 dice que el tratamiento de datos personales requiere
-que una ley lo autorice o que la persona dueña de los datos, el **titular**, dé su consentimiento expreso, informado y por escrito.
+que una ley lo autorice o que la persona dueña de los datos, el **titular**, dé su consentimiento expreso, informado y por escrito [@F-M3-14].
 Piénsalo en tu trabajo: pegar la lista de clientes en una herramienta de IA para que la ordene ya es hacer algo con datos personales
 de otras personas, y antes de hacerlo tienes que preguntarte si tienes una base para ello.
 
@@ -273,10 +273,10 @@ bloque: Texto + línea de tiempo
 
 La Ley 21.719 moderniza la Ley 19.628: regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de
 Datos Personales. Se publicó el 13 de diciembre de 2024. Su texto dice que sus cambios rigen desde el primer día del mes 24 posterior a
-la publicación, y el sitio LeyChile de la Biblioteca del Congreso Nacional registra esa fecha como el 1 de diciembre de 2026.
+la publicación, y el sitio LeyChile de la Biblioteca del Congreso Nacional registra esa fecha como el 1 de diciembre de 2026 [@F-M3-15].
 
 Esa fecha podría cambiar. Hay un proyecto de ley del Ejecutivo, el boletín 18623-07, que propone postergar la entrada en vigencia al 1
-de diciembre de 2027. Al 24 de octubre de 2026, según la ficha de tramitación del Senado, está en primer trámite y no ha sido aprobado.
+de diciembre de 2027. Al 24 de octubre de 2026, según la ficha de tramitación del Senado, está en primer trámite y no ha sido aprobado [@F-M3-16].
 Mientras no se apruebe y publique, la fecha que fija la ley es el 1 de diciembre de 2026.
 
 | Fecha | Hecho |
@@ -300,11 +300,11 @@ fuentes: F-M3-17, F-M3-18
 bloque: Texto + lista con viñetas
 
 Chile todavía no tiene una ley general de inteligencia artificial: el proyecto que regula los sistemas de IA, el boletín 16821-19, está
-en segundo trámite en el Senado. Por eso, en el día a día, lo que más pesa son las **políticas internas**, que son las reglas propias de
+en segundo trámite en el Senado [@F-M3-18]. Por eso, en el día a día, lo que más pesa son las **políticas internas**, que son las reglas propias de
 cada organización sobre qué herramientas se pueden usar y qué información puede salir.
 
 Un ejemplo chileno es el Oficio Circular N.° 711, de 2023, disponible en el sitio del Ministerio de Ciencia, con lineamientos para el
-uso de IA en el sector público. Son recomendaciones para los órganos del Estado, no obligaciones para las empresas privadas, pero
+uso de IA en el sector público [@F-M3-17]. Son recomendaciones para los órganos del Estado, no obligaciones para las empresas privadas, pero
 sirven como referencia de lo que hace una organización cuidadosa. Recomiendan:
 
 - tratar los datos personales, en especial los sensibles, de acuerdo con la Ley 19.628 y solo para fines autorizados;
@@ -326,8 +326,8 @@ fuentes: F-M3-19, F-M3-15
 bloque: Diagrama de decisión + tabla
 
 Ahora juntas todo en un método para decidir qué puede ingresar a una herramienta de IA. Se basa en dos preguntas. La primera es quién
-puede acceder a esa información, y la respondes con la clasificación de INCIBE: pública, interna o confidencial. La segunda es si tiene
-datos personales y si son sensibles, y la respondes con las definiciones de la ley. Con las dos respuestas, decides.
+puede acceder a esa información, y la respondes con la clasificación de INCIBE: pública, interna o confidencial [@F-M3-19]. La segunda es si
+tiene datos personales y si son sensibles, y la respondes con las definiciones de la ley [@F-M3-15]. Con las dos respuestas, decides.
 
 | | Sin datos personales | Con datos personales | Con datos sensibles |
 |---|---|---|---|
@@ -356,11 +356,11 @@ cálculo en tu propia planilla. Una decisión con fundamento dice qué informaci
 
 :::actividad Decide y fundamenta
 1. Andrés quiere que Gemini redacte un aviso con el horario de atención de la bodega, que está publicado en la puerta. → Pública, sin datos personales. Puede ingresar.
-2. Rosa quiere ordenar la lista de pacientes del día con su especialidad. → Confidencial, con datos sensibles (salud). No ingresa. Regla: dato sensible según la ley (P08).
+2. Rosa quiere ordenar la lista de pacientes del día con su especialidad. → Confidencial, con datos sensibles (salud). No ingresa. Regla: dato sensible según la ley (P08) [@F-M3-15].
 3. Camila quiere que Gemini ordene la ficha de un proveedor que trabaja por su cuenta, con su nombre, RUT, dirección y cuenta bancaria. → Interna, con datos personales. No ingresa así: quita el RUT, la dirección y la cuenta, y pide solo el formato de la ficha con datos inventados.
 4. Andrés quiere resumir el reporte de stock de la semana, sin nombres de clientes. → Interna, sin datos personales. Solo sin detalles que identifiquen a la empresa, o en una herramienta autorizada.
 5. Rosa quiere redactar un correo a una compañera sobre su licencia médica. → Dato sensible de otra persona. No ingresa. Escribe ella el correo, o pide una plantilla general.
-6. Andrés quiere comparar los sueldos del equipo para proponer un bono. → Confidencial, con datos personales. No ingresa. Regla: las remuneraciones son confidenciales (INCIBE); el asistente puede darle la fórmula sin ver los datos.
+6. Andrés quiere comparar los sueldos del equipo para proponer un bono. → Confidencial, con datos personales. No ingresa. Regla: las remuneraciones son confidenciales [@F-M3-19]; el asistente puede darle la fórmula sin ver los datos.
 :::
 
 ## P15 · Anonimizar y no pegar datos de terceros
@@ -382,9 +382,9 @@ datos sensibles de una paciente. «Redacta un correo cordial para un paciente qu
 fecha» consigue lo mismo sin entregar nada. Rosa hace eso con sus recordatorios: pide una plantilla con espacios en blanco y la
 completa ella en el sistema del centro.
 
-Cuidado con la reidentificación. NIST advierte que un modelo puede inferir datos de una persona combinando información dispersa. Si
+Cuidado con la reidentificación. NIST advierte que un modelo puede inferir datos de una persona combinando información dispersa [@F-M3-13]. Si
 quitas el nombre pero dejas el cargo, el turno y la sucursal, alguien puede saber de quién hablas. Por eso la Ley 21.719 habla de
-personas identificables directa o indirectamente.
+personas identificables directa o indirectamente [@F-M3-15].
 
 :::error «Si son datos de otra persona pero no los publico, no hay problema»
 Pegar datos de un tercero en una herramienta ya es entregarlos a otra organización. La regla práctica es no pegar datos de terceros, y
@@ -402,11 +402,11 @@ los nombres de los ajustes pueden cambiar con cada versión de la aplicación.
 
 En Gemini, cuando el ajuste de actividad está encendido (aparece como «Guardar actividad» o «Conservar la actividad», según la
 traducción), revisores humanos pueden leer conversaciones para mejorar los servicios de Google. Para evitarlo hay que apagar ese ajuste
-o usar conversaciones temporales. Aun así, Google guarda las conversaciones por un tiempo corto para responder y por seguridad.
+o usar conversaciones temporales. Aun así, Google guarda las conversaciones por un tiempo corto para responder y por seguridad [@F-H-15].
 
 En Perplexity, el plan gratuito trae activado el ajuste «AI data retention», lo que significa que tus datos se usan para entrenar. Se
 apaga en la configuración de la cuenta, en la sección Preferences, y la exclusión rige solo desde ese momento: lo que ya se usó antes
-no se retira.
+no se retira [@F-H-30].
 
 Gemini Notebook, como viste en el tema 1, no entrena con tus datos si usas una cuenta personal, salvo que envíes comentarios. Si en tu
 trabajo usas otra herramienta, busca en su configuración un ajuste parecido antes de empezar.
@@ -425,7 +425,7 @@ Proteger la información no es solo cumplir una regla. Es una forma de **respons
 organización: clientes, pacientes, proveedores y compañeros.
 
 Actuar con responsabilidad y ética significa usar los datos de otras personas solo para los fines que ellas o la ley autorizaron, como
-recomiendan los lineamientos del Estado de acuerdo con la Ley 19.628. Usar la planilla de clientes para «probar» una herramienta es un
+recomiendan los lineamientos del Estado de acuerdo con la Ley 19.628 [@F-M3-17; @F-M3-14]. Usar la planilla de clientes para «probar» una herramienta es un
 fin distinto del que tuvo esa información, aunque la intención sea buena.
 
 La **confidencialidad** es guardar reserva sobre lo que conoces por tu trabajo, y no es solo una buena costumbre: la Ley 19.628 obliga
@@ -448,7 +448,7 @@ bloque: Texto + actividad de cierre (respuesta abierta)
 
 En este tema evaluaste los resultados de la IA con tres preguntas, sobre sus sesgos, su trazabilidad y sus límites. Luego miraste lo
 que tú entregas: aprendiste a reconocer datos personales, datos sensibles e información confidencial, conociste lo que piden la Ley
-19.628 y la Ley 21.719 y el ejemplo de política interna del Estado, y armaste un método para clasificar y decidir. También practicaste
+19.628 y la Ley 21.719 y el ejemplo de política interna del Estado, y armaste un método para clasificar y decidir [@F-M3-17; @F-M3-19]. También practicaste
 anonimizar y configurar la privacidad.
 
 Ahora lo conviertes en un protocolo para tu propio cargo. Una decisión con fundamento tiene tres partes: qué información es, qué regla
@@ -473,54 +473,17 @@ Escribe en tu bitácora:
 6. Para decidir qué ingresa a una herramienta de IA: clasifica por acceso (pública, interna, confidencial) y por tipo de dato (personal, sensible); lo confidencial y lo sensible no ingresan a una herramienta no autorizada.
 7. Las prácticas seguras son anonimizar, no pegar datos de terceros, apagar el uso de los chats para entrenar, probar con copias sin datos sensibles y seguir la política de tu empresa.
 
-## Glosario
+## Referencias bibliográficas
 
-- **Evaluación crítica**: revisión de un resultado de IA que considera sus sesgos, su trazabilidad y sus límites.
-- **Trazabilidad**: posibilidad de seguir una afirmación hasta la fuente de donde salió.
-- **Dato personal**: información que identifica o permite identificar, directa o indirectamente, a una persona natural.
-- **Dato sensible**: dato personal sobre aspectos como la salud, el origen étnico, las creencias, la afiliación sindical o la vida sexual, que la ley protege con más fuerza.
-- **Persona natural**: ser humano, a diferencia de una persona jurídica como una empresa.
-- **Titular de datos**: persona a quien se refieren los datos personales.
-- **Consentimiento**: autorización expresa e informada que da el titular para que se usen sus datos.
-- **Deber de secreto**: obligación de guardar reserva sobre los datos personales que se conocen por el trabajo, incluso después de dejar esa función.
-- **Información confidencial**: información a la que solo pueden acceder personas concretas, como remuneraciones o contratos.
-- **Información interna**: información a la que solo accede el personal de una organización.
-- **Política interna**: reglas propias de una organización sobre qué herramientas se usan y qué información puede salir.
-- **Anonimizar**: quitar o cambiar los datos de modo que ya no se pueda saber a quién se refieren.
-- **Reidentificación**: volver a saber a quién se refiere un dato anonimizado, combinándolo con otra información.
-
-## Conexión con el proyecto
-
-Tu protocolo de uso seguro (P18) se aplica primero a tu propio **Hito 3 del proyecto aplicado: investigación validada con fuentes
-(informe breve)**. Antes de entregarlo, revisa que el informe no incluya datos personales ni información confidencial de tu empresa, y
-que cada afirmación que vino de la IA se pueda rastrear hasta su fuente. El método para clasificar y decidir (P13) te va a servir
-también en los módulos siguientes, cada vez que quieras probar una herramienta con información de tu trabajo.
-
-## Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M3.md` e `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
-
-- F-M3-01 · Perplexity (s. f.). How does Perplexity work? https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work
-- F-M3-02 · Google (s. f.). Más información sobre Gemini Notebook (Ayuda de NotebookLM). https://support.google.com/notebooklm/answer/16164461?hl=es-419
-- F-M3-13 · NIST (2024). Generative Artificial Intelligence Profile (NIST AI 600-1). https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
-- F-M3-14 · Chile, Ministerio Secretaría General de la Presidencia (1999). Ley 19.628, sobre Protección de la Vida Privada. https://www.bcn.cl/leychile/navegar?idNorma=141599
-- F-M3-15 · Chile, Ministerio Secretaría General de la Presidencia (2024). Ley 21.719, que regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales. https://www.bcn.cl/leychile/navegar?idNorma=1209272
-- F-M3-16 · Senado de Chile (2026). Tramitación del boletín 18623-07: proyecto que modifica la Ley 21.719. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=18623
-- F-M3-17 · Chile, Ministerio de Ciencia, Tecnología, Conocimiento e Innovación y Ministerio Secretaría General de la Presidencia (2023). Oficio Circular N.° 711: lineamientos para el uso de herramientas de inteligencia artificial en el sector público. https://minciencia.gob.cl/uploads/filer_public/ae/9a/ae9a7ce7-807b-4781-9ac3-9b253bfbe735/of_n711_2023_dis_lin_ia_minciencia.pdf
-- F-M3-18 · Senado de Chile (2026). Tramitación del boletín 16821-19: regula los sistemas de inteligencia artificial. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=16821
-- F-M3-19 · INCIBE (2018). Para proteger la información de tu empresa, primero clasifícala. https://www.incibe.es/empresas/blog/proteger-informacion-tu-empresa-primero-clasificala
-- F-M3-20 · Google (2026). Centro de privacidad de Apps con Gemini. https://support.google.com/gemini/answer/13594961?hl=es-419
-- F-H-15 · Google (s. f.). Centro de Privacidad de las Aplicaciones de Gemini. https://support.google.com/gemini/answer/13594961?hl=es
-- F-H-30 · Perplexity (s. f.). Data Collection at Perplexity. https://www.perplexity.ai/help-center/en/articles/11564572-data-collection-at-perplexity
-
-**Revisar el estado del boletín 18623-07 antes de publicar.** P07, P08, P11 y las Ideas clave describen la vigencia de la Ley 21.719 al
-24-10-2026. Si el proyecto se aprueba y publica, hay que cambiar la fecha de vigencia en esas pantallas.
-
-Recomendaciones del curso, sin fuente: las tres preguntas de evaluación crítica (P02), que ordenan riesgos de NIST; la tabla de niveles
-de trazabilidad (P04) y la regla «lo que no puedes rastrear no se presenta como hecho»; la tabla de decisión de P13, que cruza la
-clasificación de INCIBE con las definiciones de la ley y la recomendación del Oficio 711; elegir la casilla más estricta en caso de
-duda; las técnicas de anonimización de P15; las respuestas del ejercicio de P14; probar con copias sin datos sensibles (P01), y el
-consejo de preguntar por la política de la empresa y dejar por escrito qué herramienta se usa (P12). Los ejemplos de datos
-identificables de P07 y los escenarios de Camila, Andrés, Rosa y sus compañeros (P05, P06) son ficticios. Los nombres de los ajustes de
-P16 cambian con la versión de cada aplicación: comprobarlos en el celular antes de publicar. Este contenido es orientación general, no
-asesoría legal.
+- Google. (s. f.-a). *Centro de privacidad de las aplicaciones de Gemini*. https://support.google.com/gemini/answer/13594961?hl=es
+- Google. (s. f.-b). *Más información sobre Gemini Notebook*. Ayuda de NotebookLM. https://support.google.com/notebooklm/answer/16164461?hl=es-419
+- Google. (2026, 23 de octubre). *Centro de privacidad de Apps con Gemini*. https://support.google.com/gemini/answer/13594961?hl=es-419
+- Instituto Nacional de Ciberseguridad. (2018, 7 de diciembre). *Para proteger la información de tu empresa, primero clasifícala*. INCIBE. https://www.incibe.es/empresas/blog/proteger-informacion-tu-empresa-primero-clasificala
+- Ley 19.628. (1999, 28 de agosto). *Sobre protección de la vida privada*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idNorma=141599
+- Ley 21.719. (2024, 13 de diciembre). *Regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales*. Biblioteca del Congreso Nacional de Chile. https://www.bcn.cl/leychile/navegar?idNorma=1209272
+- National Institute of Standards and Technology. (2024). *Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)*. https://doi.org/10.6028/NIST.AI.600-1
+- Oficio Circular 711. (2023). *Lineamientos para el uso de herramientas de inteligencia artificial en el sector público*. Ministerio de Ciencia, Tecnología, Conocimiento e Innovación. https://minciencia.gob.cl/uploads/filer_public/ae/9a/ae9a7ce7-807b-4781-9ac3-9b253bfbe735/of_n711_2023_dis_lin_ia_minciencia.pdf
+- Perplexity. (s. f.-a). *Data collection at Perplexity*. https://www.perplexity.ai/help-center/en/articles/11564572-data-collection-at-perplexity
+- Perplexity. (s. f.-b). *How does Perplexity work?* https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work
+- Senado de Chile. (2026a). *Proyecto que modifica la Ley 21.719 (Boletín 18623-07)*. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=18623
+- Senado de Chile. (2026b). *Proyecto que regula los sistemas de inteligencia artificial (Boletín 16821-19)*. https://tramitacion.senado.cl/wspublico/tramitacion.php?boletin=16821

@@ -72,7 +72,7 @@ Lleva la lista de tareas con estos pasos.
 ### 1. Leer el módulo (local)
 Todo está en el proyecto; Drive no hace falta:
 - `data/curso.json`: título del módulo, AE con su aprendizaje esperado, recursos y hito.
-- `contenido/M<n>/M<n>-AE1…AE4.md`: conceptos clave, «Ideas clave», «Conexión con el proyecto».
+- `contenido/M<n>/M<n>-AE1…AE4.md`: conceptos clave e «Ideas clave»; el proyecto, en `actividades/M<n>-AE*.md` (29-10: ya no hay «Conexión con el proyecto»). Marca Empoderatech: `scripts/lib/marca.mjs`.
 - `infografias/M<n>.json`, `docs/PERSONAJES.md`.
 
 Extraer: título del módulo, título y aprendizaje de cada AE, conceptos clave, personajes, herramienta principal y una idea

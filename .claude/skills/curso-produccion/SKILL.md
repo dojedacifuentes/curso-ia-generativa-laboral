@@ -34,6 +34,10 @@ Si algo está mal en un derivado (quiz, Doc, PDF, infografía), **se corrige en 
   no se pudo verificar, va a «Alertas» o a «Lo que NO se puede afirmar», nunca al contenido.
 - **Casos reales solo con fuente primaria** (sentencia, resolución, documento de la empresa, registro oficial). Si un caso no la
   tiene, se descarta y se reemplaza por otro que trabaje el mismo AE.
+- **Criterios 29-10 (`docs/CRITERIOS-29-10.md`):** marca **Empoderatech** en todo (`scripts/lib/marca.mjs`: paleta noche/frambuesa,
+  Varela Round + Montserrat, logo e-tech, chevrón, arcos, borde rasgado); citas APA 7 con marcas `[@F-…]` y «Referencias
+  bibliográficas» con enlace (`scripts/referencias-apa.mjs`, `scripts/revisar-enlaces.mjs`); glosario aparte (`glosario/`, documento
+  «Glosario» + XML de Moodle); 2 actividades de aplicación práctica por AE (`actividades/`); sin «Conexión con el proyecto».
 - **Audiencia (28-10):** solo personas que están trabajando, en tareas administrativas y de productividad. Herramientas gratuitas,
   que funcionen en el celular. Criterios en `docs/CRITERIOS-28-10.md` (casos aparte, máx. 2 fuentes por pantalla, prosa).
 - **Tono:** español de Chile, tuteo y frases cortas. Personajes ficticios: Camila, Andrés, Rosa y Paula (`docs/PERSONAJES.md`).

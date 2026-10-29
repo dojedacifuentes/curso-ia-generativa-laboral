@@ -15,8 +15,8 @@ y levantar información sobre un problema de su sector. Al final deberías poder
 investigación específicas, usar al menos dos herramientas distintas y anotar cada fuente con su cita.
 
 Vas a trabajar con dos tipos de herramienta. El **buscador con citas** consulta internet y enlaza cada dato a la página de donde
-salió. El **asistente sobre fuentes propias** responde solo a partir de los documentos que tú le entregas. Las dos tienen plan
-gratuito y se pueden usar desde el celular.
+salió [@F-M3-01]. El **asistente sobre fuentes propias** responde solo a partir de los documentos que tú le entregas [@F-M3-02]. Las
+dos tienen plan gratuito y se pueden usar desde el celular.
 
 Siguen contigo las mismas personas de los módulos anteriores. Camila, asistente administrativa en una constructora, quiere saber
 cómo registran y archivan sus documentos digitales otras oficinas. Andrés, encargado de bodega en una distribuidora, quiere evitar
@@ -34,8 +34,8 @@ muestren. Las puedes agrupar en tres tipos.
 
 | Tipo | Qué hace | Ejemplo gratuito |
 |---|---|---|
-| Buscador con citas | Busca en internet en el momento, resume lo que encuentra y pone citas numeradas que enlazan a cada página | Perplexity |
-| Asistente sobre fuentes propias | Responde a partir de los documentos que tú subes y cita la parte de donde sacó cada idea | Gemini Notebook |
+| Buscador con citas | Busca en internet en el momento, resume lo que encuentra y pone citas numeradas que enlazan a cada página [@F-M3-01] | Perplexity |
+| Asistente sobre fuentes propias | Responde a partir de los documentos que tú subes y cita la parte de donde sacó cada idea [@F-M3-02] | Gemini Notebook |
 | Asistente general con búsqueda | Conversa como siempre, pero a veces busca en la web y muestra las fuentes que usó | Gemini (lo verás en P09) |
 
 Lo que decide cuál usar es en qué punto de la investigación estás. Andrés, por ejemplo, quiere saber cómo evitan otras bodegas
@@ -58,7 +58,7 @@ fuentes: F-M3-03
 bloque: Proceso (process block) en 4 pasos
 
 Una pregunta vaga da resultados vagos, aunque la herramienta sea muy buena. Las bibliotecas de Duoc UC proponen un camino de cuatro
-pasos para pasar de un tema amplio a una búsqueda precisa. Míralo con el tema de Rosa:
+pasos para pasar de un tema amplio a una búsqueda precisa [@F-M3-03]. Míralo con el tema de Rosa:
 
 1. Identifica el tema general: «inasistencia de pacientes».
 2. Acótalo con criterios como el lugar, el período, el tipo de organización o el uso que te interesa: «inasistencia a horas médicas agendadas en centros médicos pequeños de Chile, en los últimos años».
@@ -81,7 +81,7 @@ cubre: C1, H1
 fuentes: F-M3-03
 bloque: Texto + comparación antes/después
 
-Una **pregunta específica** nombra el tema acotado y sus conceptos clave. La reconoces porque, al leerla, sabes qué tipo de respuesta
+Una **pregunta específica** nombra el tema acotado y sus conceptos clave [@F-M3-03]. La reconoces porque, al leerla, sabes qué tipo de respuesta
 esperas y dónde podrías buscarla. Compara estas versiones de las preguntas de Andrés, Camila y Rosa.
 
 | Antes (tema general) | Después (pregunta específica) |
@@ -110,7 +110,7 @@ bloque: Texto + escenario
 Quien busca con autonomía no abre la herramienta y pregunta lo primero que se le ocurre. Antes decide qué necesita. La guía de Duoc
 UC sugiere definir seis cosas: cuánta información te hace falta (un dato, unas pocas fuentes o un panorama completo), en qué idioma
 la quieres, qué tipo de fuente te sirve (normas, guías de organismos, estudios, noticias), de qué período, cuánto tiempo tienes para
-buscar y qué profundidad necesitas.
+buscar y qué profundidad necesitas [@F-M3-03].
 
 Estas decisiones te sirven también para escribir el prompt, porque las puedes agregar al final de tu pregunta: «Busca fuentes en
 español, de organismos públicos o instituciones educativas, publicadas desde 2023». Además te dicen cuándo detenerte. Si decidiste
@@ -133,8 +133,8 @@ bloque: Texto + imagen de una respuesta con citas numeradas
 
 Un buscador con citas combina un buscador con un asistente de IA. Según el centro de ayuda de Perplexity, la herramienta busca en
 internet en tiempo real a partir de tu pregunta, resume lo que encontró en una respuesta breve y pone **citas numeradas** que enlazan
-a las páginas de origen, para que verifiques o profundices. También acepta preguntas de seguimiento que conservan el contexto: puedes
-escribir «¿y en oficinas pequeñas?» sin repetir todo.
+a las páginas de origen, para que verifiques o profundices [@F-M3-01]. También acepta preguntas de seguimiento que conservan el
+contexto: puedes escribir «¿y en oficinas pequeñas?» sin repetir todo.
 
 La diferencia con un buscador común es que no te entrega una lista de páginas para leer, sino una respuesta ya redactada con los
 números de las fuentes al lado de cada afirmación. Eso ahorra tiempo, pero cambia tu trabajo: ahora tienes que comprobar que cada
@@ -142,7 +142,7 @@ número lleve a una página que de verdad diga eso.
 
 Un error común es creer que si la respuesta trae citas, está correcta. NIST, el instituto de normas y tecnología de Estados Unidos,
 advierte que la IA generativa puede producir contenido falso con total seguridad, e incluso citas inventadas que parecen respaldar la
-respuesta. Una cita es una pista para ir a la fuente. La verificación la haces tú, al abrirla.
+respuesta [@F-M3-13]. Una cita es una pista para ir a la fuente. La verificación la haces tú, al abrirla.
 
 :::comprueba
 ¿Qué hace un buscador con citas que no hace un asistente sin búsqueda?
@@ -160,10 +160,10 @@ bloque: Texto + imagen de la aplicación
 
 En este curso vas a usar Perplexity como buscador con citas. Su plan gratuito se llama Standard e incluye búsquedas básicas
 prácticamente ilimitadas, muy pocas búsquedas avanzadas (que el proveedor llama «Pro Search»), una subida de archivos limitada y el
-historial de tus búsquedas. No trae los modelos avanzados ni la creación de imágenes, que están en el plan Pro, de pago. Para este
+historial de tus búsquedas. No trae los modelos avanzados ni la creación de imágenes, que están en el plan Pro, de pago [@F-H-29]. Para este
 tema la búsqueda básica alcanza: no necesitas pagar ni gastar las búsquedas avanzadas.
 
-Además de la versión web, Perplexity tiene aplicación para Android y para iPhone, así que puedes hacer tus búsquedas desde el
+Además de la versión web, Perplexity tiene aplicación para Android y para iPhone [@F-H-33], así que puedes hacer tus búsquedas desde el
 teléfono, por ejemplo en un rato libre de la jornada, y revisar después las fuentes con calma en el computador.
 
 Hay una precaución que vale desde la primera búsqueda. Lo que escribes en una herramienta gratuita queda en los sistemas del
@@ -188,11 +188,11 @@ Ahora te toca levantar información sobre tu propio tema. Sigue estos pasos en e
 3. Lee la respuesta y fíjate en los números de las citas.
 4. Abre cada cita, revisa que el enlace funcione y que la página diga lo que la respuesta afirma.
 5. Haz una pregunta de seguimiento para profundizar, por ejemplo «¿Qué fuentes de Chile tratan este tema?».
-6. Si los resultados no sirven, repite la búsqueda con los sinónimos que preparaste.
+6. Si los resultados no sirven, repite la búsqueda con los sinónimos que preparaste [@F-M3-03].
 7. Anota cada fuente útil en tu registro de fuentes (lo armarás en P16): título, quién la publica, fecha y enlace.
 
 Un error frecuente en este paso es copiar la respuesta del buscador como si fuera la fuente. La respuesta redactada es un resumen
-hecho por la IA; la fuente es la página a la que lleva la cita. Lo que anotas y citas es esa página de origen, no el resumen.
+hecho por la IA; la fuente es la página a la que lleva la cita [@F-M3-01]. Lo que anotas y citas es esa página de origen, no el resumen.
 
 :::actividad Tus primeras fuentes
 Al terminar deberías tener al menos tres fuentes que abriste y leíste. Para cada una, escribe en tu bitácora una línea con lo que
@@ -209,9 +209,9 @@ Los asistentes generales que ya conoces también pueden buscar en la web. La dif
 hacen: a veces responden solo con lo que aprendieron. Por eso conviene mirar si la respuesta trae fuentes antes de usarla.
 
 Gemini a veces muestra un botón «Fuentes» con enlaces a sitios web, a archivos que subiste o a documentos vinculados, y eso funciona
-en el computador, en Android y en iPhone. En ChatGPT la búsqueda web está en el plan gratuito, incluso sin iniciar sesión, tanto en
-la web como en las aplicaciones. Sus respuestas pueden traer citas que abren la fuente y un panel con las fuentes usadas, aunque cada
-búsqueda descuenta del límite del plan.
+en el computador, en Android y en iPhone [@F-H-16]. En ChatGPT la búsqueda web está en el plan gratuito, incluso sin iniciar sesión,
+tanto en la web como en las aplicaciones. Sus respuestas pueden traer citas que abren la fuente y un panel con las fuentes usadas,
+aunque cada búsqueda descuenta del límite del plan [@F-H-07].
 
 Si la respuesta de un asistente general llega sin fuentes, pídele que busque en la web y que indique las páginas que usó. Una
 respuesta sin fuentes te puede dar ideas, pero no te sirve para investigar, porque no tienes cómo comprobarla. Hacer la misma
@@ -233,13 +233,13 @@ El segundo tipo de herramienta trabaja con fuentes que tú eliges. En este curso
 que antes se llamaba NotebookLM; si no la encuentras con el nombre nuevo, búscala con el anterior. Funciona con **cuadernos**: en cada
 uno subes tus fuentes y luego conversas con ellas.
 
-Según la ayuda de Google, acepta PDF, sitios web, videos de YouTube, audio y documentos de Google. Responde a partir de esas fuentes y
-no de su conocimiento general, muestra citas en línea que llevan a la parte exacta de la fuente y, si tus fuentes no tienen la
-respuesta, puede no responder.
+Según la ayuda de Google, acepta PDF, sitios web, videos de YouTube, audio y documentos de Google [@F-H-45]. Responde a partir de esas
+fuentes y no de su conocimiento general, muestra citas en línea que llevan a la parte exacta de la fuente y, si tus fuentes no tienen
+la respuesta, puede no responder [@F-M3-02].
 
 Esto cambia bastante el riesgo. Un asistente general puede rellenar con datos de cualquier parte; uno sobre fuentes propias se
 limita a lo que le entregaste y te muestra dónde lo leyó. Aun así, Google advierte que sus respuestas pueden tener errores y que en
-temas médicos, legales o financieros conviene consultar a un profesional.
+temas médicos, legales o financieros conviene consultar a un profesional [@F-M3-02].
 
 Por eso un error común es pensar que, si trabaja sobre tus documentos, no se equivoca. Limitarlo a tus fuentes reduce el riesgo, pero
 no lo elimina: puede resumir mal o mezclar ideas de dos documentos. Toca las citas y compara con el texto.
@@ -257,14 +257,14 @@ bloque: Texto + imagen de la aplicación
 Gemini Notebook tiene un plan gratuito, llamado Standard, que se usa con una cuenta de Google personal. Te permite tener hasta 100
 cuadernos, con un máximo de 50 fuentes cada uno, y hacer 50 conversaciones al día. Incluye además algunos productos que se generan a
 partir de tus fuentes: hasta 10 informes al día, tres resúmenes de audio y tres de video al día, y la investigación a fondo (Deep
-Research) 10 veces al mes. Google aclara que estos límites pueden cambiar.
+Research) 10 veces al mes. Google aclara que estos límites pueden cambiar [@F-H-44].
 
 Para tu proyecto no vas a acercarte a esos topes. Un cuaderno con cinco a diez fuentes es más que suficiente, y lo que importa es que
 cada una sea buena, no que sean muchas.
 
 En el celular hay aplicación para Android 10 o superior y para iPhone y iPad. Desde ella puedes preguntar a tus fuentes, escuchar los
 resúmenes de audio sin conexión y compartir hacia la aplicación un sitio, un PDF o un video que encontraste navegando. El lanzamiento
-de la aplicación es gradual, aunque Chile está en la lista de países. Si todavía no te aparece en la tienda, usa la versión web en el
+de la aplicación es gradual, aunque Chile está en la lista de países [@F-H-46]. Si todavía no te aparece en la tienda, usa la versión web en el
 navegador del teléfono: funciona igual para lo que harás en este tema.
 
 Una forma práctica de usarla es ir guardando en el cuaderno, desde el teléfono, cada fuente buena que encuentres en el buscador. Así,
@@ -284,7 +284,7 @@ las planillas de clientes, remuneraciones o ventas de la empresa, ni los documen
 compartir. Si necesitas trabajar con un documento real, usa una copia sin datos sensibles o con datos de prueba.
 
 Sobre privacidad, Google indica que, con una cuenta personal, tus datos de Gemini Notebook no se usan para entrenar sus modelos,
-salvo que envíes comentarios, porque en ese caso la interacción puede ser revisada. Es una buena política, pero no cambia la regla:
+salvo que envíes comentarios, porque en ese caso la interacción puede ser revisada [@F-M3-02]. Es una buena política, pero no cambia la regla:
 lo confidencial no se sube a una herramienta que tu empresa no autorizó. Lo verás a fondo en el tema 4.
 
 :::actividad ¿Lo subo o no?
@@ -303,11 +303,11 @@ bloque: Proceso paso a paso + actividad
 
 Ahora usas la segunda herramienta con las fuentes que encontraste en la práctica 1:
 
-1. Abre Gemini Notebook, en la web o en la aplicación, con tu cuenta de Google.
+1. Abre Gemini Notebook, en la web o en la aplicación, con tu cuenta de Google [@F-H-46].
 2. Crea un cuaderno con el nombre de tu proyecto.
 3. Agrega de tres a cinco fuentes públicas (los enlaces que abriste en Perplexity, un PDF o un video) y revisa que ninguna tenga datos personales.
 4. Hazle al cuaderno tu segunda pregunta de investigación.
-5. Toca cada cita de la respuesta y lee el párrafo de origen para ver si dice lo mismo.
+5. Toca cada cita de la respuesta y lee el párrafo de origen para ver si dice lo mismo [@F-M3-02].
 6. Pregunta qué falta: «¿Qué parte de mi pregunta no responden estas fuentes?».
 7. Anota en tu registro cada dato útil con la fuente y la parte donde aparece.
 
@@ -331,7 +331,7 @@ bloque: Texto + escenario
 
 Algunas herramientas ofrecen un modo de **investigación a fondo**: en vez de una respuesta breve, revisan muchas páginas y entregan un
 informe largo con fuentes. En Gemini se llama Deep Research y está disponible sin plan pagado, aunque gasta más cuota que una
-conversación normal. En Gemini Notebook, el plan gratuito permite usarla 10 veces al mes.
+conversación normal [@F-H-12]. En Gemini Notebook, el plan gratuito permite usarla 10 veces al mes [@F-H-44].
 
 Conviene cuando necesitas un panorama amplio de un tema que no conoces, al comienzo de la investigación. No conviene para responder
 una pregunta puntual, porque una búsqueda con citas es más rápida y gasta menos.
@@ -355,8 +355,8 @@ Ya conoces las herramientas. La pregunta práctica es cuál usar en cada momento
 
 | Si necesitas… | Usa… |
 |---|---|
-| Saber qué se ha publicado sobre un tema y tener enlaces | Un buscador con citas, como Perplexity, o la búsqueda de un asistente general |
-| Preguntar sobre documentos que ya reuniste | Un asistente sobre fuentes propias, como Gemini Notebook |
+| Saber qué se ha publicado sobre un tema y tener enlaces | Un buscador con citas, como Perplexity, o la búsqueda de un asistente general [@F-M3-01] |
+| Preguntar sobre documentos que ya reuniste | Un asistente sobre fuentes propias, como Gemini Notebook [@F-M3-02] |
 | Un panorama amplio de un tema que no conoces | La investigación a fondo, una vez, como mapa |
 | Redactar, ordenar o resumir lo que ya verificaste | El asistente general, sin búsqueda |
 
@@ -380,7 +380,7 @@ bloque: Texto + tabla descargable
 
 Investigar sin registrar es perder trabajo: dentro de una semana no vas a saber de dónde salió cada dato. Por eso llevas un **registro
 de fuentes** desde el primer día. Lo central es guardar el enlace a la fuente original que te entrega la herramienta, no solo el
-nombre de la herramienta.
+nombre de la herramienta [@F-M3-01].
 
 | Pregunta | Herramienta | Fecha de búsqueda | Fuente (título y quién la publica) | Fecha de la fuente | Enlace | Qué aporta |
 |---|---|---|---|---|---|---|
@@ -390,7 +390,7 @@ nombre de la herramienta.
 El error más frecuente es anotar «Fuente: Perplexity». Perplexity, Gemini o ChatGPT no son la fuente de un dato: son la herramienta
 con que lo encontraste. La fuente es la página o el documento al que lleva la cita.
 
-Si además vas a usar un texto generado por la IA, por ejemplo un resumen que te sirvió de base, Bibliotecas UC recomienda anotar la
+Si además vas a usar un texto generado por la IA, por ejemplo un resumen que te sirvió de base, [n@F-M3-12] recomienda anotar la
 herramienta, su versión, la fecha de la consulta y el prompt, y guardar la respuesta. En el tema 3 aprenderás a citarlo.
 
 :::comprueba
@@ -408,10 +408,10 @@ bloque: Texto + escenario
 
 La herramienta hace la búsqueda, pero el rumbo lo pones tú. La autonomía se nota en decisiones pequeñas: defines antes qué necesitas
 (P05) y sabes cuándo tienes suficiente; cuando un resultado no sirve, reformulas con sinónimos en vez de rendirte; haces preguntas de
-seguimiento para ir más allá de la primera respuesta, y usas más de una herramienta para comparar.
+seguimiento para ir más allá de la primera respuesta, y usas más de una herramienta para comparar [@F-M3-03].
 
 La curiosidad se nota en preguntarte qué no sabes todavía. El método SIFT, que viste en el módulo 1, empieza con un paso que sirve
-aquí: detenerte antes de aceptar una fuente y preguntarte qué sabes de ella. En el próximo tema vas a hacer ese análisis a fondo.
+aquí: detenerte antes de aceptar una fuente y preguntarte qué sabes de ella [@F-M3-04]. En el próximo tema vas a hacer ese análisis a fondo.
 
 Ninguna de estas actitudes depende de la herramienta que uses. Son las mismas que te sirven cuando tu jefatura te pide averiguar algo
 que nadie en la oficina sabe: buscar con un rumbo, no conformarte con lo primero y saber decir qué quedó sin respuesta.
@@ -428,7 +428,7 @@ fuentes: F-M3-01, F-M3-02
 bloque: Texto + actividad de cierre (entrega)
 
 En este tema conociste tres tipos de herramientas para investigar: el buscador con citas, el asistente sobre fuentes propias y el
-asistente general con búsqueda, que en algunos casos trae un modo de investigación a fondo. Aprendiste a pasar de un tema general a
+asistente general con búsqueda, que en algunos casos trae un modo de investigación a fondo [@F-M3-01; @F-M3-02]. Aprendiste a pasar de un tema general a
 una pregunta específica, a definir tu necesidad antes de buscar y a registrar cada fuente con su enlace original.
 
 Ahora reúnes todo en un levantamiento de información. No se trata de juntar muchas fuentes, sino de responder tu pregunta con fuentes
@@ -453,52 +453,19 @@ Este levantamiento es la materia prima del próximo tema, donde vas a evaluar y 
 5. Un asistente sobre fuentes propias, como Gemini Notebook, responde solo con tus documentos y cita dónde lo leyó; si no responde, te muestra un vacío. A esa herramienta no se suben documentos de la empresa con datos personales o confidenciales.
 6. Se usan al menos dos herramientas distintas, y cada fuente se registra con su enlace original, no con el nombre de la herramienta.
 
-## Glosario
+## Referencias bibliográficas
 
-- **Pregunta de investigación**: pregunta específica sobre un tema acotado que se puede responder buscando información.
-- **Tema acotado**: tema general al que se le agregaron criterios, como lugar, período o tipo de organización.
-- **Concepto clave**: palabra o expresión central de una pregunta, que se usa para buscar.
-- **Necesidad de información**: lo que una persona define antes de buscar: cuánta información, de qué tipo, de qué período y con qué profundidad.
-- **Buscador con citas**: herramienta que busca en internet al momento, resume lo encontrado y enlaza cada afirmación a su página de origen.
-- **Cita (en una respuesta de IA)**: número o enlace que indica de qué fuente salió una afirmación.
-- **Pregunta de seguimiento**: pregunta que continúa una búsqueda anterior y conserva su contexto.
-- **Asistente sobre fuentes propias**: herramienta que responde a partir de los documentos que la persona le entrega.
-- **Cuaderno**: espacio de Gemini Notebook donde se reúnen las fuentes de un tema para hacerles preguntas.
-- **Investigación a fondo**: modo de algunos asistentes que revisa muchas páginas y entrega un informe largo con fuentes.
-- **Registro de fuentes**: tabla donde se anota cada fuente con título, autor, fecha, enlace y lo que aporta.
-- **Fuente de un dato**: página o documento de donde sale una información, distinto de la herramienta con que se encontró.
-
-## Conexión con el proyecto
-
-Tus preguntas de investigación (P04) y tu levantamiento de información con dos herramientas (P18) son el primer paso del **Hito 3 del
-proyecto aplicado: investigación validada con fuentes (informe breve)**. En el Hito 3 investigas el problema que elegiste en el Hito 1
-con fuentes contrastadas y citadas. En los temas 2 y 3 de este módulo vas a contrastar estas fuentes y a presentarlas en un informe
-breve.
-
-## Fuentes
-
-Detalle de cada fuente y de lo que respalda: `investigacion/M3.md` e `investigacion/HERRAMIENTAS-1.md` (consultadas el 24-10-2026).
-
-- F-M3-01 · Perplexity (s. f.). How does Perplexity work? https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work
-- F-M3-02 · Google (s. f.). Más información sobre Gemini Notebook (Ayuda de NotebookLM). https://support.google.com/notebooklm/answer/16164461?hl=es-419
-- F-M3-03 · Bibliotecas Duoc UC (2023). ¿Cómo formular una necesidad de información? https://bibliotecas.duoc.cl/busqueda-de-informacion/formular-necesidad-de-informacion
-- F-M3-04 · Caulfield, M. (2019). SIFT (The Four Moves). https://hapgood.us/2019/06/19/sift-the-four-moves/
-- F-M3-12 · Bibliotecas UC (2026). IA: Citar y referenciar. https://guiastematicas.bibliotecas.uc.cl/ia/citar
-- F-M3-13 · NIST (2024). Generative Artificial Intelligence Profile (NIST AI 600-1). https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
-- F-H-07 · OpenAI (2026). Searching the web with ChatGPT. https://help.openai.com/en/articles/9237897-chatgpt-search
-- F-H-12 · Google (s. f.). Límites de las aplicaciones de Gemini y cambios a planes superiores. https://support.google.com/gemini/answer/16275805?hl=es
-- F-H-16 · Google (s. f.). Ver fuentes relacionadas de las aplicaciones de Gemini. https://support.google.com/gemini/answer/14143489?hl=es
-- F-H-29 · Perplexity (s. f.). Which Perplexity Subscription Plan is right for you? https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you
-- F-H-33 · Perplexity (s. f.). Mobile Apps. https://www.perplexity.ai/help-center/en/collections/18799299-mobile-apps
-- F-H-44 · Google (s. f.). Cambiar a un plan superior de Gemini Notebook. https://support.google.com/notebooklm/answer/16213268?hl=es
-- F-H-45 · Google (s. f.). Información sobre Gemini Notebook. https://support.google.com/gemininotebook/answer/16164461?hl=es
-- F-H-46 · Google (s. f.). Empezar a usar la aplicación móvil Gemini Notebook. https://support.google.com/gemininotebook/answer/16296687?hl=es
-
-Recomendaciones del curso, sin fuente: el mínimo de dos herramientas (C2) y de cinco fuentes en el levantamiento (P18); el consejo de
-pedir al asistente general que busque y muestre sus páginas cuando no trae fuentes (P09); no escribir datos personales ni información
-interna en el buscador (P07), que adelanta el tema 4; el cuadro de P15 para elegir herramienta; la tabla de registro de P16; usar la
-investigación a fondo como «mapa» y una sola vez (P14), y la lista de documentos que conviene o no subir (P12). Camila, Andrés y Rosa
-y sus búsquedas son ficticios.
-
-Pendiente de probar a mano: si Perplexity se puede usar sin cuenta en Chile; si la aplicación Gemini Notebook ya aparece en las
-tiendas chilenas con ese nombre.
+- Bibliotecas Duoc UC. (2023, 21 de julio). *¿Cómo formular una necesidad de información?* https://bibliotecas.duoc.cl/busqueda-de-informacion/formular-necesidad-de-informacion
+- Bibliotecas UC. (2026, 13 de agosto). *IA: citar y referenciar*. Pontificia Universidad Católica de Chile. https://guiastematicas.bibliotecas.uc.cl/ia/citar
+- Caulfield, M. (2019, 19 de junio). *SIFT (The four moves)*. Hapgood. https://hapgood.us/2019/06/19/sift-the-four-moves/
+- Google. (s. f.-a). *Cambiar a un plan superior de Gemini Notebook*. https://support.google.com/notebooklm/answer/16213268?hl=es
+- Google. (s. f.-b). *Empezar a usar la aplicación móvil Gemini Notebook*. https://support.google.com/gemininotebook/answer/16296687?hl=es
+- Google. (s. f.-c). *Información sobre Gemini Notebook*. https://support.google.com/gemininotebook/answer/16164461?hl=es
+- Google. (s. f.-d). *Límites de las aplicaciones de Gemini y cambios a planes superiores*. https://support.google.com/gemini/answer/16275805?hl=es
+- Google. (s. f.-e). *Más información sobre Gemini Notebook*. Ayuda de NotebookLM. https://support.google.com/notebooklm/answer/16164461?hl=es-419
+- Google. (s. f.-f). *Ver fuentes relacionadas de las aplicaciones de Gemini*. https://support.google.com/gemini/answer/14143489?hl=es
+- National Institute of Standards and Technology. (2024). *Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)*. https://doi.org/10.6028/NIST.AI.600-1
+- OpenAI. (2026). *Searching the web with ChatGPT*. OpenAI Help Center. https://help.openai.com/en/articles/9237897-chatgpt-search
+- Perplexity. (s. f.-a). *How does Perplexity work?* https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work
+- Perplexity. (s. f.-b). *Mobile apps*. https://www.perplexity.ai/help-center/en/collections/18799299-mobile-apps
+- Perplexity. (s. f.-c). *Which Perplexity subscription plan is right for you?* https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you

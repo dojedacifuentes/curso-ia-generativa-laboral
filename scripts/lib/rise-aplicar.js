@@ -18,6 +18,15 @@ window.riseAplicar = async function (courseId, d, { probar = false } = {}) {
   const log = [], cambiados = new Map();
   const marcar = (l, b) => cambiados.set(b.id, { lessonId: l.id, block: b });
 
+  // 0. Párrafo repetido (el texto del bloque con título se copió al inicio del bloque siguiente)
+  for (const l of lessons) (l.items || []).forEach((b, i) => {
+    const sig = l.items[i + 1];
+    if (b.variant !== 'heading paragraph' || !sig || sig.variant !== 'paragraph') return;
+    const plano = h => (h || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+    const p1 = plano(b.items[0].paragraph), m = /^<p>[\s\S]*?<\/p>/.exec(sig.items[0].paragraph);
+    if (m && p1 && plano(m[0]) === p1) { sig.items[0].paragraph = sig.items[0].paragraph.slice(m[0].length); marcar(l, sig); log.push(`repetido quitado en «${l.title}»`); }
+  });
+
   // 1. Citas APA: cada ancla se busca en orden de lectura, desde donde quedó la anterior; entre letras puede haber etiquetas HTML
   const campos = [];
   for (const l of lessons) for (const b of l.items || []) {
@@ -52,15 +61,6 @@ window.riseAplicar = async function (courseId, d, { probar = false } = {}) {
       .replace(/<p>\s*<\/p>/g, '');
     marcar(primero.l, primero.b); log.push('competencia y AE: ok');
   } else log.push('competencia y AE: NO (revisar a mano)');
-
-  // 3. Párrafo repetido (el texto del bloque con título se copió al inicio del bloque siguiente)
-  for (const l of lessons) (l.items || []).forEach((b, i) => {
-    const sig = l.items[i + 1];
-    if (b.variant !== 'heading paragraph' || !sig || sig.variant !== 'paragraph') return;
-    const plano = h => (h || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
-    const p1 = plano(b.items[0].paragraph), m = /^<p>[\s\S]*?<\/p>/.exec(sig.items[0].paragraph);
-    if (m && p1 && plano(m[0]) === p1) { sig.items[0].paragraph = sig.items[0].paragraph.slice(m[0].length); marcar(l, sig); log.push(`repetido quitado en «${l.title}»`); }
-  });
 
   // 4. Glosario: va en un documento aparte; en su lugar, un enlace
   const borrar = [];

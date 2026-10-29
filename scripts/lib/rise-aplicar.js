@@ -12,7 +12,9 @@ window.riseAplicar = async function (courseId, d, { probar = false } = {}) {
     return r.json();
   };
   const uuid = () => crypto.randomUUID();
-  const { lessons } = (await api('courses/GET_COURSE', { courseId })).payload;
+  // payload.lessons no viene en orden: el orden es el de course.lessons
+  const { lessons: crudas, course } = (await api('courses/GET_COURSE', { courseId })).payload;
+  const lessons = course.lessons.map(id => crudas.find(l => l.id === id)).filter(Boolean);
   const log = [], cambiados = new Map();
   const marcar = (l, b) => cambiados.set(b.id, { lessonId: l.id, block: b });
 

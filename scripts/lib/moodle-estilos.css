@@ -33,6 +33,33 @@ body.course-2 .activity-completion .btn-outline-secondary {
 body.course-2 [data-region="activity-information"] .btn-success,
 body.course-2 .activity-completion .btn-success { border-radius: 999px; }
 
+/* «Pendiente de hacer» se leía como si al aula le faltara algo: el botón dice «Tu avance» (el de «Hecho» no cambia) */
+body.course-2 .completion-dropdown .btn-subtle-body.dropdown-toggle,
+body.course-2 [data-region="activity-information"] .btn-outline-secondary.dropdown-toggle { font-size: 0 !important; border: 1px solid rgba(190, 52, 85, .45); color: #BE3455; border-radius: 999px; }
+body.course-2 .completion-dropdown .btn-subtle-body.dropdown-toggle::before,
+body.course-2 [data-region="activity-information"] .btn-outline-secondary.dropdown-toggle::before {
+  content: "\25CB\00A0\00A0Tu avance"; font-size: 13px; font-weight: 600;
+}
+body.course-2 .completion-dropdown .btn-subtle-body.dropdown-toggle::after,
+body.course-2 [data-region="activity-information"] .btn-outline-secondary.dropdown-toggle::after { font-size: 13px; margin-left: 6px; }
+body.course-2 .completion-dropdown .btn-subtle-body .icon { font-size: 12px !important; margin-left: 6px; }
+
+/* Índice del curso: un botón claro para abrirlo y otro para cerrarlo */
+body.course-2 .drawer-toggles .drawer-left-toggle .btn {
+  width: auto !important; height: auto !important; display: inline-flex !important; align-items: center; gap: 8px;
+  background: #00060F !important; color: #fff !important; border-radius: 999px !important; padding: 8px 16px 8px 12px !important;
+  box-shadow: 0 6px 18px rgba(0, 6, 15, .25);
+}
+body.course-2 .drawer-toggles .drawer-left-toggle .btn::after { content: "\00CDndice del curso"; font-size: 14px; font-weight: 700; }
+body.course-2 .drawer-toggles .drawer-left-toggle .btn:hover { background: #BE3455 !important; }
+body.course-2 #theme_boost-drawers-courseindex .drawerheader { display: flex; justify-content: flex-end; align-items: center; margin-top: 38px; padding-right: 12px; }
+body.course-2 #theme_boost-drawers-courseindex .drawerheader .drawertoggle,
+body.course-2 #theme_boost-drawers-courseindex .drawerheader .drawertoggle.hidden {
+  display: inline-flex !important; align-items: center; gap: 6px; width: auto !important; height: auto !important;
+  background: #BE3455 !important; color: #fff !important; border-radius: 999px !important; padding: 6px 14px !important;
+}
+body.course-2 #theme_boost-drawers-courseindex .drawerheader .drawertoggle::after { content: "Cerrar"; font-size: 13px; font-weight: 700; }
+
 /* Encabezados de sección con más presencia */
 body.course-2 .course-section-header .sectionname,
 body.course-2 .course-section .sectionname { font-weight: 700; color: #00060F; }

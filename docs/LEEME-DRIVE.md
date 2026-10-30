@@ -19,7 +19,7 @@ La original es de Natalia y sigue siendo la que manda: si cambia, se vuelve a im
 ## 1 Contenidos base · Google Docs
 
 Un Doc por aprendizaje esperado (22). Cada pantalla indica qué contenido de la planilla cubre (S/H/A/C), las fuentes que la
-respaldan (detalle en la carpeta 6) y el bloque de Rise sugerido. Es la base para que Natalia arme los Rise. Desde el 28-10 el
+respaldan (detalle en la carpeta 6) y el bloque de Rise sugerido. Es la base de los Rise, que ya están armados y exportados para Moodle en la carpeta 12. Desde el 28-10 el
 curso es solo para personas que trabajan y los contenidos no nombran los casos (van solo en la carpeta 5); criterios en el documento
 «14 · Criterios de corrección del 28-10» de la carpeta 7. En M2-AE4 las fórmulas de Excel llevan el signo ＄ (ancho completo)
 porque Google Docs convierte en ecuación el texto que queda entre dos signos de peso; el PDF trae el signo normal. Las versiones reemplazadas están en
@@ -52,8 +52,7 @@ Una por módulo (R017, R034, R051, R069, R084 y R100 de la planilla), en PNG de 
 (`M<n>-Infografia-interactiva.html`): animada, con tarjetas que se abren, recorrido guiado paso a paso e idea clave que se
 desbloquea al explorarla. Es un solo archivo que funciona sin internet y en el celular. También va como paquete **SCORM 1.2**
 (`M<n>-Infografia-SCORM.zip`), que se sube a Moodle en Agregar actividad → Paquete SCORM: queda «completado» cuando la persona
-explora todas las partes, el puntaje es el porcentaje explorado y al volver encuentra marcado lo que ya vio. Falta probarlo en el LMS. Usan una paleta neutra:
-la marca del cliente se aplica después.
+explora todas las partes, el puntaje es el porcentaje explorado y al volver encuentra marcado lo que ya vio. Falta probarlo en el LMS.
 
 ## 5 Casos de aplicación
 
@@ -83,7 +82,7 @@ En Docs y PDF:
 - **Formatos:** contenido base, quiz, infografía y caso.
 - **Brief de redacción** y **Personajes**.
 - **Correspondencia con la planilla:** estructural y de fondo.
-- **Auditoría:** 10 capas y 83 chequeos.
+- **Auditoría:** 10 capas y 107 chequeos.
 - **Pendientes de verificación.**
 
 La correspondencia estructural y la auditoría son reportes que genera un script: van solo en PDF, y la auditoría también en versión

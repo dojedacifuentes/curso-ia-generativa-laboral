@@ -69,3 +69,14 @@ remisiones «pantalla 14» o «P09» pasan al nombre de la sección. Al final, l
 
 Los zips `M1-AE1/M1-AE1-Quiz-Rise.zip` y `M1-AE1/M1-Infografia-Rise.zip` (index.html en la raíz) sirven si algún día se quiere
 un bloque Código › Upload project, pero por ahora el quiz y la infografía van fuera del Rise.
+
+## SCORM para Moodle (29-10)
+
+Los 22 se exportaron desde Rise (Publish › LMS) con la misma configuración: **SCORM 1.2**, **paquete estándar** (el zip trae todo
+el curso y no depende de la cuenta de Articulate), seguimiento por **finalización del curso al 100 %**, informe
+**Completo/Incompleto**, sin enlace de salida, con portada y **sin recolección de datos de uso**. La configuración quedó guardada en
+cada curso (`exportSettings`), así que una nueva exportación sale igual.
+
+Zips en Drive: carpeta «12 Rise · SCORM 1.2 para Moodle» (`1i4yhVYsRz4Yk6YJUGM-H8fFfWgKZIW43`), con el nombre
+«M1-AE1 Fundamentos de IA generativa (Rise SCORM 1.2).zip». Copia local en `entregables/rise/scorm/` (fuera de git por tamaño).
+Cada zip tiene `imsmanifest.xml` SCORM 1.2 con el título del tema. En Moodle se suben como actividad «Paquete SCORM».

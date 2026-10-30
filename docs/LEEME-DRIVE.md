@@ -110,6 +110,14 @@ conversión en datos (`data/planilla/` y `data/curso.json`). Sirve para regenera
 curso. El mismo proyecto está en GitHub (github.com/dojedacifuentes/curso-ia-generativa-laboral) y su panel, con la metodología y la
 trazabilidad, en curso-ia-generativa-laboral.vercel.app.
 
+## 12 Rise · SCORM 1.2 para Moodle
+
+Los 22 cursos Rise del contenido, uno por aprendizaje esperado, como paquete SCORM 1.2 listo para subir en Moodle (Agregar una
+actividad → Paquete SCORM). Cada uno lleva solo el contenido del tema, con la competencia del módulo y el aprendizaje esperado
+textuales, las citas APA y sus referencias bibliográficas; el quiz, las actividades, la infografía y el glosario van aparte, en sus
+carpetas. Se marca completo cuando la persona recorre el 100 % del curso. El paquete trae todo el curso, sin depender de la cuenta
+de Articulate.
+
 ## Antes de publicar
 
 - Revisión humana de los textos.

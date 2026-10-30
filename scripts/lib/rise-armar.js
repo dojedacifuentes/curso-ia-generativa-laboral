@@ -51,3 +51,27 @@ window.riseArmar = async function (courseId, d, { probar = false } = {}) {
   const fin = await leer();
   return `${plan} → listo: ${fin.lessons.length} lecciones, ${fin.lessons.reduce((s, l) => s + (l.items || []).length, 0)} bloques`;
 };
+
+// Duplica la plantilla desde la biblioteca (rise.eu.articulate.com/manage/all-content) y devuelve el id del curso nuevo.
+// Rise no tiene una llamada conocida para duplicar: se usa el menú ⋯ › Duplicate de la fila de la plantilla.
+window.riseDuplicar = async function (plantillaId, nombre) {
+  const espera = ms => new Promise(r => setTimeout(r, ms));
+  const hasta = async (f, ms = 15000) => { for (let t = 0; t < ms; t += 300) { const x = f(); if (x) return x; await espera(300); } return null; };
+  window.open = () => null; // que no se abra una pestaña con el curso nuevo
+  const ids = () => new Set([...document.querySelectorAll('a[href*="/authoring/"]')].map(a => a.getAttribute('href').split('/').pop()));
+  const antes = ids();
+  const enlace = await hasta(() => document.querySelector(`a[href*="${plantillaId}"]`));
+  if (!enlace) throw new Error('No veo la plantilla en la biblioteca');
+  let fila = enlace; while (fila && !fila.querySelector('button[aria-label*="Content menu" i]')) fila = fila.parentElement;
+  fila.querySelector('button[aria-label*="Content menu" i]').click();
+  const item = await hasta(() => [...document.querySelectorAll('[role=menuitem], button, li')].find(x => x.textContent.trim() === 'Duplicate'));
+  item.click();
+  const input = await hasta(() => [...document.querySelectorAll('input')].find(i => /^Copy of /.test(i.value)));
+  Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set.call(input, nombre);
+  input.dispatchEvent(new Event('input', { bubbles: true }));
+  await espera(300);
+  [...document.querySelectorAll('button')].find(b => b.textContent.trim() === 'Duplicate').click();
+  const nuevo = await hasta(() => [...ids()].find(i => !antes.has(i)), 30000);
+  if (!nuevo) throw new Error(`No apareció el duplicado «${nombre}»`);
+  return nuevo;
+};

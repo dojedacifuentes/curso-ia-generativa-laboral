@@ -63,8 +63,7 @@ entrega: tarea
 
 ### Instrucción general
 
-Vas a mapear las tareas de tu propio cargo y priorizar con la matriz de impacto y riesgo las que conviene automatizar. Esta matriz es
-la base del flujo que construirás en el tema siguiente. Súbela como tarea en el aula, en un documento o una planilla; solo la ven tú
+Vas a mapear las tareas de tu propio cargo y priorizar con la matriz de impacto y riesgo las que conviene automatizar. Esta matriz es la base del flujo que construirás en el tema siguiente; si la tarea de tu proyecto del curso queda entre las candidatas, empieza por ella. Súbela como tarea en el aula, en un documento o una planilla; solo la ven tú
 y el facilitador, porque trabaja con tu cargo real. El facilitador la revisa con la rúbrica de abajo y te deja su retroalimentación
 en un plazo de hasta 72 horas.
 

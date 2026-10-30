@@ -1,0 +1,12 @@
+{
+ "_nota": "Opción 1 del usuario (30-10): los hitos del proyecto aplicado de la planilla (hoja «Casos y proyecto») son la actividad 2 de estos AE. La persona elige una tarea de su cargo en el Hito 1 y la sigue mejorando hasta medirla en el módulo 6.",
+ "M1-P1": { "hito": "Hito 1", "ae": "M1-AE2" },
+ "M2-P2": { "hito": "Hito 2", "ae": "M2-AE3" },
+ "M3-P3": { "hito": "Hito 3", "ae": "M3-AE3" },
+ "M4-P4": { "hito": "Hito 4", "ae": "M4-AE4" },
+ "M5-P5": { "hito": "Hito 5", "ae": "M5-AE3" },
+ "M6-P6a": { "hito": "Hito 6a", "ae": "M6-AE1" },
+ "M6-P6b": { "hito": "Hito 6b", "ae": "M6-AE2" },
+ "M6-P6c": { "hito": "Hitos 6c y 6d", "ae": "M6-AE3" },
+ "M6-P6d": { "hito": "Hitos 6c y 6d", "ae": "M6-AE3" }
+}

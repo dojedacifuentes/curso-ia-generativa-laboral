@@ -547,6 +547,7 @@ nuevaCapa('C9', 'Avance frente a los 101 recursos de la planilla',
 
 const estadoDe = id => CAPAS.flatMap(c => c.chequeos).find(c => c.id === id)?.estado;
 const RISE = existe('entregables', 'rise', 'ids.json') ? JSON.parse(leer('entregables', 'rise', 'ids.json')) : {};
+const HITOS = existe('data', 'hitos.json') ? Object.fromEntries(Object.entries(JSON.parse(leer('data', 'hitos.json'))).filter(([k]) => !k.startsWith('_'))) : {};
 const AVANCE = RECURSOS.map(x => {
   const aes = String(x.aes).split(/;\s*/).filter(a => AE[a]);
   const m = x.modulo;
@@ -577,9 +578,14 @@ const AVANCE = RECURSOS.map(x => {
     case 'Resumen y glosario':
       if (MODULOS.find(z => z.n === m).aes.every(a => CONT[a.id]?.seccion('Ideas clave')) && existe('glosario', `M${m}.md`)) { estado = 'Insumo listo'; nota = 'Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle'; }
       break;
-    case 'Hito proyecto':
-      if (aes.every(a => existe('actividades', `${a}.md`))) { estado = 'Insumo listo'; nota = 'Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito'; }
+    case 'Hito proyecto': {
+      // Opción 1 (30-10): cada hito es la actividad 2 de un AE (data/hitos.json), con su enunciado y su rúbrica
+      const num = /Hito (\d[a-d]?)/.exec(x.titulo)?.[1];
+      const h = Object.entries(HITOS).find(([k]) => k.replace(/^M\d-P/, '') === num)?.[1];
+      if (h && existe('actividades', `${h.ae}.md`) && new RegExp(`[Hh]itos? (${num}|[\\d]+[a-d]? y ${num})\\b`).test(leer('actividades', `${h.ae}.md`).split(/^## Actividad 2/m)[1] || '')) { estado = 'Hecho'; nota = `${h.hito}: actividad 2 de ${h.ae}, con enunciado y rúbrica`; }
+      else if (aes.every(a => existe('actividades', `${a}.md`))) { estado = 'Insumo listo'; nota = 'Actividades de aplicación práctica de sus AE (actividades/); falta asignar el hito a una actividad'; }
       break;
+    }
     case 'Video': {
       // carpeta de la skill curso-video-modulo; el .srt se exporta al final, así que marca el video terminado
       const dir = `videos/M${m}-${/resumen/i.test(x.titulo) ? 'resumen' : 'bienvenida'}`;

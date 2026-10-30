@@ -36,7 +36,7 @@ evaluación del módulo y contacto entre facilitador y estudiantes. Los recursos
   - Contenido: Rise «Prompts efectivos» (SCORM).
   - Quiz formativo «Prompts efectivos» (SCORM).
   - Actividad 1 · Tres pedidos de la bandeja de Camila (foro de la actividad, con rúbrica).
-  - Actividad 2 · Una plantilla para la tarea que más repites (tarea con rúbrica).
+  - Actividad 2 · Una plantilla para la tarea que más repites (tarea con rúbrica; Hito 1 del proyecto del curso).
 - **Parámetros de generación.** Aprendizaje esperado: Ajustar parámetros de generación (temperatura, longitud, iteración) para adecuar las respuestas a distintos objetivos de una tarea.
   - Contenido: Rise «Parámetros de generación» (SCORM).
   - Quiz formativo «Parámetros de generación» (SCORM).
@@ -72,7 +72,7 @@ evaluación del módulo y contacto entre facilitador y estudiantes. Los recursos
   - Contenido: Rise «Presentaciones con IA» (SCORM).
   - Quiz formativo «Presentaciones con IA» (SCORM).
   - Actividad 1 · Seis láminas para pedir facturas con guía de despacho (foro de la actividad, con rúbrica).
-  - Actividad 2 · Depura una presentación de tu trabajo (tarea con rúbrica).
+  - Actividad 2 · Depura una presentación de tu trabajo (tarea con rúbrica; Hito 2 del proyecto del curso).
 - **Planillas de cálculo con IA.** Aprendizaje esperado: Resolver análisis en planillas de cálculo con fórmulas generadas por IA, verificando su exactitud.
   - Contenido: Rise «Planillas de cálculo con IA» (SCORM).
   - Quiz formativo «Planillas de cálculo con IA» (SCORM).
@@ -103,7 +103,7 @@ evaluación del módulo y contacto entre facilitador y estudiantes. Los recursos
   - Contenido: Rise «Organizar y presentar información» (SCORM).
   - Quiz formativo «Organizar y presentar información» (SCORM).
   - Actividad 1 · El informe de Andrés sobre los despachos atrasados (foro de la actividad, con rúbrica).
-  - Actividad 2 · Un informe breve para tu jefatura (tarea con rúbrica).
+  - Actividad 2 · Un informe breve para tu jefatura (tarea con rúbrica; Hito 3 del proyecto del curso).
 - **Análisis crítico y privacidad.** Aprendizaje esperado: Evaluar críticamente los resultados de la IA y los riesgos de privacidad al usar información laboral, proponiendo prácticas de uso seguro.
   - Contenido: Rise «Análisis crítico y privacidad» (SCORM).
   - Quiz formativo «Análisis crítico y privacidad» (SCORM).
@@ -139,7 +139,7 @@ evaluación del módulo y contacto entre facilitador y estudiantes. Los recursos
   - Contenido: Rise «Clips y video breve» (SCORM).
   - Quiz formativo «Clips y video breve» (SCORM).
   - Actividad 1 · Corrige y monta el clip de reciclaje de Camila (foro de la actividad, con rúbrica).
-  - Actividad 2 · Un clip de 60 segundos para tu equipo (tarea con rúbrica).
+  - Actividad 2 · Un clip de 60 segundos para tu equipo (tarea con rúbrica; Hito 4 del proyecto del curso).
 - Caso de aplicación: Campañas de marca hechas con IA generativa (Coca-Cola, 2023 y 2024).
 - Caso de aplicación: Voz sintética y consentimiento (disputa Scarlett Johansson – OpenAI, 2024).
 - Caso de aplicación: Licencias y datos de entrenamiento (Getty Images v. Stability AI).
@@ -166,7 +166,7 @@ evaluación del módulo y contacto entre facilitador y estudiantes. Los recursos
   - Contenido: Rise «Supervisión humana y riesgos» (SCORM).
   - Quiz formativo «Supervisión humana y riesgos» (SCORM).
   - Actividad 1 · Controles para el flujo de reclamos de Paula (foro de la actividad, con rúbrica).
-  - Actividad 2 · Supervisión y contingencia para tu flujo (tarea con rúbrica).
+  - Actividad 2 · Supervisión y contingencia para tu flujo (tarea con rúbrica; Hito 5 del proyecto del curso).
 - Caso de aplicación: Automatización de la atención al cliente con IA (Klarna).
 - Caso de aplicación: Estrategia «AI-first» y sus efectos sobre el trabajo (Duolingo, 2025).
 - Foro del módulo 5: qué, por qué y para qué.
@@ -182,17 +182,17 @@ evaluación del módulo y contacto entre facilitador y estudiantes. Los recursos
   - Contenido: Rise «Oportunidad de mejora con IA» (SCORM).
   - Quiz formativo «Oportunidad de mejora con IA» (SCORM).
   - Actividad 1 · El plan de medición de Camila (foro de la actividad, con rúbrica).
-  - Actividad 2 · El diagnóstico y la meta de tu proyecto (tarea con rúbrica).
+  - Actividad 2 · El diagnóstico y la meta de tu proyecto (tarea con rúbrica; Hito 6a del proyecto del curso).
 - **Implementar el flujo.** Aprendizaje esperado: Implementar un flujo de trabajo con IA para la oportunidad priorizada, con supervisión humana y registro de decisiones.
   - Contenido: Rise «Implementar el flujo» (SCORM).
   - Quiz formativo «Implementar el flujo» (SCORM).
   - Actividad 1 · Un ciclo de prueba con documentos inventados (foro de la actividad, con rúbrica).
-  - Actividad 2 · Implementa y documenta tu propio flujo (tarea con rúbrica).
+  - Actividad 2 · Implementa y documenta tu propio flujo (tarea con rúbrica; Hito 6b del proyecto del curso).
 - **Resultados y aprendizajes.** Aprendizaje esperado: Evaluar los resultados del proyecto y comunicarlos mediante un pitch y un portafolio, proponiendo mejoras.
   - Contenido: Rise «Resultados y aprendizajes» (SCORM).
   - Quiz formativo «Resultados y aprendizajes» (SCORM).
   - Actividad 1 · Los resultados de Camila, sin adornos (foro de la actividad, con rúbrica).
-  - Actividad 2 · El cierre de tu proyecto: resultados, pitch y portafolio (tarea con rúbrica).
+  - Actividad 2 · El cierre de tu proyecto: resultados, pitch y portafolio (tarea con rúbrica; Hitos 6c y 6d del proyecto del curso).
 - Foro del módulo 6: qué, por qué y para qué.
 - Resumen del módulo: infografía animada (SCORM) y video de resumen *(pendiente)*.
 - Evaluación del módulo *(pendiente)*.

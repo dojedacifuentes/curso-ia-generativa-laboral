@@ -11,6 +11,8 @@ const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const rel = (...p) => path.join(RAIZ, ...p);
 const leer = (...p) => fs.readFileSync(rel(...p), 'utf8').replace(/\r\n/g, '\n');
 const curso = JSON.parse(leer('data', 'curso.json'));
+// Hitos del proyecto del curso: la actividad 2 de estos AE (data/hitos.json, opción 1 del 30-10)
+const HITO = Object.fromEntries(Object.entries(JSON.parse(leer('data', 'hitos.json'))).filter(([k]) => !k.startsWith('_')).map(([, v]) => [v.ae, v.hito]));
 
 // ---------- marca (manual e-tech; scripts/lib/marca.mjs) ----------
 const C = { noche: '#00060F', fr: '#BE3455', gr: '#40444B', fu: '#ED1566', ce: '#3D9BE9', frs: '#FBEFF2', ces: '#EEF5FD', grs: '#F2F3F4', linea: '#E6E7E8' };
@@ -70,7 +72,8 @@ const comoAvanzar = () => `<div style="background:${C.grs};border-radius:18px;pa
 ${pasos(false)}
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:12px;font-size:14px;color:${C.noche};line-height:1.5;">
 <div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Conversa.</b> Cada módulo tiene un foro para contar qué aprendiste, por qué importa y para qué lo vas a usar. El facilitador responde en menos de 24 horas hábiles.</div>
-<div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Repasa.</b> Al final de cada módulo están los casos de aplicación con empresas reales y la infografía animada con las ideas clave.</div></div></div>`;
+<div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Repasa.</b> Al final de cada módulo están los casos de aplicación con empresas reales y la infografía animada con las ideas clave.</div>
+<div style="flex:1 1 100%;background:${C.noche};color:#fff;border-radius:12px;padding:12px 16px;"><b style="color:${C.fu};">Tu proyecto del curso.</b> En el módulo 1 eliges una tarea de tu cargo y en cada módulo la mejoras con IA: la presentas, la investigas, comunicas tu propuesta, automatizas un paso con supervisión y, al final, mides sus resultados y los cuentas en un pitch. Cada paso es un hito: lo reconoces en las actividades 2 marcadas con su número.</div></div></div>`;
 
 const heroModulo = (m) => heroBox(`${pill(`Módulo ${m.n} de ${curso.modulos.length}`, true)}
 <div style="font-size:26px;font-weight:700;line-height:1.2;margin:12px 0 10px;max-width:680px;">${esc(m.nombre)}</div>
@@ -80,7 +83,7 @@ const heroModulo = (m) => heroBox(`${pill(`Módulo ${m.n} de ${curso.modulos.len
 const bandaTema = (m, a, i) => `<div style="background:#fff;border:1px solid ${C.linea};border-left:6px solid ${C.fr};border-radius:18px;padding:18px 22px;margin-top:18px;">
 <div style="display:flex;gap:14px;align-items:center;">${num(i + 1, 44)}<div><div style="font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:${C.fr};">Tema ${i + 1} de ${m.aes.length}</div><div style="font-size:21px;font-weight:700;color:${C.noche};line-height:1.25;">${esc(a.tema)}</div></div></div>
 <div style="font-size:15px;line-height:1.6;color:${C.noche};margin-top:12px;"><b>Aprendizaje esperado:</b> ${esc(a.texto)}</div>
-${pasos(true)}</div>`;
+${pasos(true)}${HITO[a.id] ? `<div style="margin-top:12px;display:inline-flex;gap:8px;align-items:center;background:${C.noche};color:#fff;border-radius:999px;padding:6px 16px 6px 8px;font-size:13.5px;">${num('★', 22, C.fu)}<span>La actividad 2 de este tema es el <b>${HITO[a.id]}</b> de tu proyecto del curso</span></div>` : ''}</div>`;
 
 const subtitulo = (t, d) => `<div style="margin-top:22px;"><div style="display:flex;align-items:center;gap:10px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${C.fr};"></span><span style="font-size:14px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:${C.noche};">${esc(t)}</span></div>${d ? `<div style="font-size:14.5px;color:${C.gr};margin:4px 0 0 20px;line-height:1.5;">${esc(d)}</div>` : ''}</div>`;
 
@@ -101,7 +104,7 @@ const modulos = curso.modulos.map((m) => {
     if (acts.length !== 2 || mds.length !== 2) throw new Error(`${a.id}: se esperaban 2 actividades`);
     const act = (k) => {
       const titulo = acts[k].titulo.replace(/^Actividad \d · /, '');
-      return { titulo, name: `Actividad ${k + 1}: ${titulo}`, intro: estilar(conRefs(acts[k].cuerpo, refs)), rubrica: rubrica(mds[k], `Rúbrica · Actividad ${k + 1}: ${titulo}`) };
+      return { titulo, name: `Actividad ${k + 1}: ${titulo}${k === 1 && HITO[a.id] ? ` · ${HITO[a.id]} del proyecto` : ''}`, intro: estilar(conRefs(acts[k].cuerpo, refs)), rubrica: rubrica(mds[k], `Rúbrica · Actividad ${k + 1}: ${titulo}`) };
     };
     const id = a.id;
     return {

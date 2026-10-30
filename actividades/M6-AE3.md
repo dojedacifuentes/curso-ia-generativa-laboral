@@ -63,15 +63,14 @@ entrega: tarea
 ### Instrucción general
 
 Vas a comparar los resultados de tu proyecto con la línea base, contarlos en un pitch de 3 minutos y elegir las piezas de tu
-portafolio. Esta actividad reúne los borradores de tus hitos 6c y 6d. Súbela como tarea en el aula: un documento, la grabación del
+portafolio. Esta actividad reúne los hitos 6c y 6d, el cierre de tu proyecto del curso. Súbela como tarea en el aula: un documento, la grabación del
 pitch como archivo o enlace, y el portafolio; solo lo ven tú y el facilitador. El facilitador la revisa con la rúbrica de abajo y te
 deja su retroalimentación en un plazo de hasta 72 horas.
 
 ### Situación
 
 Tu flujo lleva semanas en uso y ya juntaste los datos del periodo de medición. Ahora te toca responder si el cambio fue una mejora y
-contarlo a la persona que tiene que decidir algo sobre tu proyecto, que en la mayoría de los casos es tu jefatura. Esta actividad
-reúne los borradores de tus hitos 6c y 6d. Todo lo que muestres tiene que estar libre de datos personales y de información
+contarlo a la persona que tiene que decidir algo sobre tu proyecto, que en la mayoría de los casos es tu jefatura. Esta actividad reúne tus hitos 6c y 6d. Todo lo que muestres tiene que estar libre de datos personales y de información
 confidencial de tu empresa.
 
 ### Lo que vas a hacer

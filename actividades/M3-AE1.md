@@ -50,7 +50,7 @@ Ahora investigas una pregunta real de tu cargo con fuentes públicas y dejas un 
 
 ### Situación
 
-Piensa en algo que en tu trabajo nadie sabe responder bien y que te convendría averiguar: cómo ordenan otras oficinas un tipo de documento, qué recomiendan las guías para atender un tipo de consulta frecuente, cómo se organiza una tarea que hoy te toma más de lo que debería. Puede ser el problema de tu proyecto o una pregunta nueva que te haya hecho tu jefatura.
+Piensa en algo que en tu trabajo nadie sabe responder bien y que te convendría averiguar: cómo ordenan otras oficinas un tipo de documento, qué recomiendan las guías para atender un tipo de consulta frecuente, cómo se organiza una tarea que hoy te toma más de lo que debería. Conviene que sea una pregunta sobre la tarea de tu proyecto del curso, porque con ella vas a escribir el informe del Hito 3; si tu jefatura te pidió averiguar algo más urgente, también sirve.
 
 Vas a investigar con fuentes públicas. Gemini Notebook responde a partir de los documentos que le entregas y, si sus fuentes no tienen la respuesta, puede no responder [@F-M3-02]. Eso lo hace útil, pero no cambia una regla básica: a esa herramienta no se suben planillas ni documentos de tu empresa con datos de personas o información interna. Si quieres comparar con algo de tu trabajo, usa una copia sin datos sensibles o tus propias notas, sin nombres. Si en algún momento usas un texto generado por la IA como base, anota la herramienta, su versión, la fecha de la consulta y el prompt, y guarda la respuesta [@F-M3-12].
 

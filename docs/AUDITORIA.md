@@ -1,6 +1,6 @@
 # Auditoría del curso «IA generativa para entornos laborales»
 
-Generado con `node scripts/auditar.mjs` el 30-10-26, 3:09 a. m.. Solo lee: no corrige nada.
+Generado con `node scripts/auditar.mjs` el 30-10-26, 3:13 a. m.. Solo lee: no corrige nada.
 Fuente de verdad: planilla «Estructura_inicial_contenido_IA_generativa» (Drive 1v_NCRQGZnajDLesIw8haIMrw4551q6C8Om6AOM8RoHM).
 
 **Resultado:** 108 chequeos · ✓ 102 sin observaciones · ! 4 con avisos · ✗ 0 con errores · … 2 pendientes.
@@ -45,8 +45,8 @@ investigacion/M<n>.md, HERRAMIENTAS-*.md  (fuentes F-…, abiertas y leídas)   
 | Estado | Recursos | Horas |
 |---|---|---|
 | Pendiente | 11 | 6.7 |
-| Hecho | 70 | 67.4 |
-| Insumo listo | 20 | 13.9 |
+| Hecho | 79 | 80.9 |
+| Insumo listo | 11 | 0.4 |
 
 | Tipo | Hecho | Insumo listo | En curso | Pendiente |
 |---|---|---|---|---|
@@ -54,7 +54,7 @@ investigacion/M<n>.md, HERRAMIENTAS-*.md  (fuentes F-…, abiertas y leídas)   
 | Video | 3 | 5 |  | 4 |
 | Rise | 22 |  |  |  |
 | Quiz formativo | 22 |  |  |  |
-| Hito proyecto |  | 9 |  |  |
+| Hito proyecto | 9 |  |  |  |
 | Caso de aplicación | 11 |  |  |  |
 | Foro | 6 |  |  |  |
 | Resumen y glosario |  | 6 |  |  |
@@ -292,7 +292,7 @@ Cruza cada fila de la hoja «Recursos» con lo producido. «Hecho» = el entrega
 | R008 | M1 | Quiz formativo | Quiz formativo M1-AE3 · Parámetros de generación | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
 | R009 | M1 | Rise | Rise M1-T4 · Validación de resultados | 127.5 | Hecho | Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12) |
 | R010 | M1 | Quiz formativo | Quiz formativo M1-AE4 · Validación de resultados | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
-| R011 | M1 | Hito proyecto | Proyecto aplicado · Hito 1: problema u oportunidad real + biblioteca de prompts v1 | 90 | Insumo listo | Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito |
+| R011 | M1 | Hito proyecto | Proyecto aplicado · Hito 1: problema u oportunidad real + biblioteca de prompts v1 | 90 | Hecho | Hito 1: actividad 2 de M1-AE2, con enunciado y rúbrica |
 | R012 | M1 | Caso de aplicación | Caso M1-C1 · Asistente de IA para asesores financieros (Morgan Stanley) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R013 | M1 | Caso de aplicación | Caso M1-C2 · Cuando la IA inventa: abogados y jurisprudencia inexistente (Mata v. Avianca, 2023) y chatbot de Air Canada (2024) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R014 | M1 | Foro | Foro M1: discusión guiada del módulo (tutor responde en <24 h hábiles) | 30 | Hecho | Consigna «qué, por qué y para qué» con rúbrica (foros/M1.md) |
@@ -309,7 +309,7 @@ Cruza cada fila de la hoja «Recursos» con lo producido. «Hecho» = el entrega
 | R025 | M2 | Quiz formativo | Quiz formativo M2-AE3 · Presentaciones con IA | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
 | R026 | M2 | Rise | Rise M2-T4 · Planillas de cálculo con IA | 135 | Hecho | Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12) |
 | R027 | M2 | Quiz formativo | Quiz formativo M2-AE4 · Planillas de cálculo con IA | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
-| R028 | M2 | Hito proyecto | Proyecto aplicado · Hito 2: brief del proyecto + presentación de 6 láminas | 90 | Insumo listo | Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito |
+| R028 | M2 | Hito proyecto | Proyecto aplicado · Hito 2: brief del proyecto + presentación de 6 láminas | 90 | Hecho | Hito 2: actividad 2 de M2-AE3, con enunciado y rúbrica |
 | R029 | M2 | Caso de aplicación | Caso M2-C1 · Comunicación con clientes redactada con apoyo de IA (Octopus Energy) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R030 | M2 | Caso de aplicación | Caso M2-C2 · Asistente de IA en herramientas de oficina para equipos (Vodafone y Microsoft 365 Copilot) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R031 | M2 | Foro | Foro M2: discusión guiada del módulo (tutor responde en <24 h hábiles) | 30 | Hecho | Consigna «qué, por qué y para qué» con rúbrica (foros/M2.md) |
@@ -326,7 +326,7 @@ Cruza cada fila de la hoja «Recursos» con lo producido. «Hecho» = el entrega
 | R042 | M3 | Quiz formativo | Quiz formativo M3-AE3 · Organizar y presentar información | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
 | R043 | M3 | Rise | Rise M3-T4 · Análisis crítico y privacidad | 135 | Hecho | Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12) |
 | R044 | M3 | Quiz formativo | Quiz formativo M3-AE4 · Análisis crítico y privacidad | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
-| R045 | M3 | Hito proyecto | Proyecto aplicado · Hito 3: investigación validada con fuentes (informe breve) | 90 | Insumo listo | Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito |
+| R045 | M3 | Hito proyecto | Proyecto aplicado · Hito 3: investigación validada con fuentes (informe breve) | 90 | Hecho | Hito 3: actividad 2 de M3-AE3, con enunciado y rúbrica |
 | R046 | M3 | Caso de aplicación | Caso M3-C1 · Informe con referencias inexistentes generadas por IA (Deloitte Australia, 2025) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R047 | M3 | Caso de aplicación | Caso M3-C2 · Información confidencial ingresada a una herramienta de IA (Samsung, 2023) | 90 | Hecho | Caso verificado (Descartado) |
 | R048 | M3 | Foro | Foro M3: discusión guiada del módulo (tutor responde en <24 h hábiles) | 30 | Hecho | Consigna «qué, por qué y para qué» con rúbrica (foros/M3.md) |
@@ -343,7 +343,7 @@ Cruza cada fila de la hoja «Recursos» con lo producido. «Hecho» = el entrega
 | R059 | M4 | Quiz formativo | Quiz formativo M4-AE3 · Audio y música | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
 | R060 | M4 | Rise | Rise M4-T4 · Clips y video breve | 112.5 | Hecho | Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12) |
 | R061 | M4 | Quiz formativo | Quiz formativo M4-AE4 · Clips y video breve | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
-| R062 | M4 | Hito proyecto | Proyecto aplicado · Hito 4: pieza multimedia que comunica la solución | 90 | Insumo listo | Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito |
+| R062 | M4 | Hito proyecto | Proyecto aplicado · Hito 4: pieza multimedia que comunica la solución | 90 | Hecho | Hito 4: actividad 2 de M4-AE4, con enunciado y rúbrica |
 | R063 | M4 | Caso de aplicación | Caso M4-C1 · Campañas de marca hechas con IA generativa (Coca-Cola, 2023 y 2024) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R064 | M4 | Caso de aplicación | Caso M4-C2 · Voz sintética y consentimiento (disputa Scarlett Johansson – OpenAI, 2024) | 90 | Hecho | Caso verificado (Verificado) |
 | R065 | M4 | Caso de aplicación | Caso M4-C3 · Licencias y datos de entrenamiento (Getty Images v. Stability AI) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
@@ -359,7 +359,7 @@ Cruza cada fila de la hoja «Recursos» con lo producido. «Hecho» = el entrega
 | R075 | M5 | Quiz formativo | Quiz formativo M5-AE2 · Flujos simples con IA | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
 | R076 | M5 | Rise | Rise M5-T3 · Supervisión humana y riesgos | 105 | Hecho | Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12) |
 | R077 | M5 | Quiz formativo | Quiz formativo M5-AE3 · Supervisión humana y riesgos | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
-| R078 | M5 | Hito proyecto | Proyecto aplicado · Hito 5: prototipo de automatización de un paso del proceso, con supervisión humana | 90 | Insumo listo | Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito |
+| R078 | M5 | Hito proyecto | Proyecto aplicado · Hito 5: prototipo de automatización de un paso del proceso, con supervisión humana | 90 | Hecho | Hito 5: actividad 2 de M5-AE3, con enunciado y rúbrica |
 | R079 | M5 | Caso de aplicación | Caso M5-C1 · Automatización de la atención al cliente con IA (Klarna) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R080 | M5 | Caso de aplicación | Caso M5-C2 · Estrategia «AI-first» y sus efectos sobre el trabajo (Duolingo, 2025) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R081 | M5 | Foro | Foro M5: discusión guiada del módulo (tutor responde en <24 h hábiles) | 30 | Hecho | Consigna «qué, por qué y para qué» con rúbrica (foros/M5.md) |
@@ -374,10 +374,10 @@ Cruza cada fila de la hoja «Recursos» con lo producido. «Hecho» = el entrega
 | R090 | M6 | Quiz formativo | Quiz formativo M6-AE2 · Implementar el flujo | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
 | R091 | M6 | Rise | Rise M6-T3 · Resultados y aprendizajes | 67.5 | Hecho | Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12) |
 | R092 | M6 | Quiz formativo | Quiz formativo M6-AE3 · Resultados y aprendizajes | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
-| R093 | M6 | Hito proyecto | Proyecto aplicado · Hito 6a: diagnóstico, meta y plan de medición | 90 | Insumo listo | Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito |
-| R094 | M6 | Hito proyecto | Proyecto aplicado · Hito 6b: implementación del flujo | 90 | Insumo listo | Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito |
-| R095 | M6 | Hito proyecto | Proyecto aplicado · Hito 6c: medición de resultados y ajustes | 90 | Insumo listo | Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito |
-| R096 | M6 | Hito proyecto | Proyecto aplicado · Hito 6d: pitch y portafolio final (insumo del Demo Day) | 90 | Insumo listo | Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito |
+| R093 | M6 | Hito proyecto | Proyecto aplicado · Hito 6a: diagnóstico, meta y plan de medición | 90 | Hecho | Hito 6a: actividad 2 de M6-AE1, con enunciado y rúbrica |
+| R094 | M6 | Hito proyecto | Proyecto aplicado · Hito 6b: implementación del flujo | 90 | Hecho | Hito 6b: actividad 2 de M6-AE2, con enunciado y rúbrica |
+| R095 | M6 | Hito proyecto | Proyecto aplicado · Hito 6c: medición de resultados y ajustes | 90 | Hecho | Hitos 6c y 6d: actividad 2 de M6-AE3, con enunciado y rúbrica |
+| R096 | M6 | Hito proyecto | Proyecto aplicado · Hito 6d: pitch y portafolio final (insumo del Demo Day) | 90 | Hecho | Hitos 6c y 6d: actividad 2 de M6-AE3, con enunciado y rúbrica |
 | R097 | M6 | Foro | Foro M6: discusión guiada del módulo (tutor responde en <24 h hábiles) | 30 | Hecho | Consigna «qué, por qué y para qué» con rúbrica (foros/M6.md) |
 | R098 | M6 | Video | Video de resumen M6 (3 min): ideas clave y conexión con el siguiente módulo | 3 | Insumo listo | Ideas clave disponibles; falta el guion y el video |
 | R099 | M6 | Resumen y glosario | Resumen y glosario del módulo M6 (página; lectura 1,5 min) | 1.5 | Insumo listo | Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle |

@@ -1,6 +1,6 @@
 {
   "resumen": {
-    "generado": "2026-10-30T06:09:29.316Z",
+    "generado": "2026-10-30T06:13:02.831Z",
     "chequeos": 108,
     "ok": 102,
     "aviso": 4,
@@ -1705,8 +1705,8 @@
           ],
           "evidencia": [
             "Pendiente: 11 recursos · 6.7 h",
-            "Hecho: 70 recursos · 67.4 h",
-            "Insumo listo: 20 recursos · 13.9 h"
+            "Hecho: 79 recursos · 80.9 h",
+            "Insumo listo: 11 recursos · 0.4 h"
           ]
         }
       ]
@@ -1820,8 +1820,8 @@
       "titulo": "Proyecto aplicado · Hito 1: problema u oportunidad real + biblioteca de prompts v1",
       "aes": "M1-AE1; M1-AE2",
       "minutos": 90,
-      "estado": "Insumo listo",
-      "nota": "Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito"
+      "estado": "Hecho",
+      "nota": "Hito 1: actividad 2 de M1-AE2, con enunciado y rúbrica"
     },
     {
       "id": "R012",
@@ -1990,8 +1990,8 @@
       "titulo": "Proyecto aplicado · Hito 2: brief del proyecto + presentación de 6 láminas",
       "aes": "M2-AE1; M2-AE3",
       "minutos": 90,
-      "estado": "Insumo listo",
-      "nota": "Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito"
+      "estado": "Hecho",
+      "nota": "Hito 2: actividad 2 de M2-AE3, con enunciado y rúbrica"
     },
     {
       "id": "R029",
@@ -2160,8 +2160,8 @@
       "titulo": "Proyecto aplicado · Hito 3: investigación validada con fuentes (informe breve)",
       "aes": "M3-AE1; M3-AE3",
       "minutos": 90,
-      "estado": "Insumo listo",
-      "nota": "Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito"
+      "estado": "Hecho",
+      "nota": "Hito 3: actividad 2 de M3-AE3, con enunciado y rúbrica"
     },
     {
       "id": "R046",
@@ -2330,8 +2330,8 @@
       "titulo": "Proyecto aplicado · Hito 4: pieza multimedia que comunica la solución",
       "aes": "M4-AE2; M4-AE4",
       "minutos": 90,
-      "estado": "Insumo listo",
-      "nota": "Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito"
+      "estado": "Hecho",
+      "nota": "Hito 4: actividad 2 de M4-AE4, con enunciado y rúbrica"
     },
     {
       "id": "R063",
@@ -2490,8 +2490,8 @@
       "titulo": "Proyecto aplicado · Hito 5: prototipo de automatización de un paso del proceso, con supervisión humana",
       "aes": "M5-AE2; M5-AE3",
       "minutos": 90,
-      "estado": "Insumo listo",
-      "nota": "Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito"
+      "estado": "Hecho",
+      "nota": "Hito 5: actividad 2 de M5-AE3, con enunciado y rúbrica"
     },
     {
       "id": "R079",
@@ -2640,8 +2640,8 @@
       "titulo": "Proyecto aplicado · Hito 6a: diagnóstico, meta y plan de medición",
       "aes": "M6-AE1",
       "minutos": 90,
-      "estado": "Insumo listo",
-      "nota": "Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito"
+      "estado": "Hecho",
+      "nota": "Hito 6a: actividad 2 de M6-AE1, con enunciado y rúbrica"
     },
     {
       "id": "R094",
@@ -2650,8 +2650,8 @@
       "titulo": "Proyecto aplicado · Hito 6b: implementación del flujo",
       "aes": "M6-AE2",
       "minutos": 90,
-      "estado": "Insumo listo",
-      "nota": "Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito"
+      "estado": "Hecho",
+      "nota": "Hito 6b: actividad 2 de M6-AE2, con enunciado y rúbrica"
     },
     {
       "id": "R095",
@@ -2660,8 +2660,8 @@
       "titulo": "Proyecto aplicado · Hito 6c: medición de resultados y ajustes",
       "aes": "M6-AE3",
       "minutos": 90,
-      "estado": "Insumo listo",
-      "nota": "Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito"
+      "estado": "Hecho",
+      "nota": "Hitos 6c y 6d: actividad 2 de M6-AE3, con enunciado y rúbrica"
     },
     {
       "id": "R096",
@@ -2670,8 +2670,8 @@
       "titulo": "Proyecto aplicado · Hito 6d: pitch y portafolio final (insumo del Demo Day)",
       "aes": "M6-AE3",
       "minutos": 90,
-      "estado": "Insumo listo",
-      "nota": "Actividades de aplicación práctica de sus AE (actividades/); faltan enunciado y rúbrica del hito"
+      "estado": "Hecho",
+      "nota": "Hitos 6c y 6d: actividad 2 de M6-AE3, con enunciado y rúbrica"
     },
     {
       "id": "R097",

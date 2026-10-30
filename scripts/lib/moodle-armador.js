@@ -206,6 +206,26 @@
     log('FIN casos');
   };
 
+  // Vuelve a escribir nombre y enunciado de las tareas (actividad 2), las etiquetas de cada tema y «Cómo avanzas» (p. ej. al marcar
+  // los hitos del proyecto). La tarea se busca por el título de la actividad, así que sirve aunque cambie el sufijo del nombre.
+  window.actualizarTextos = async (cid, aula) => {
+    const st = await estado(cid);
+    const editarCm = async (cm, campos) => {
+      const { f, fd } = await formulario(`/course/modedit.php?update=${cm.id}&return=0`);
+      for (const [k, v] of Object.entries(campos)) fd.set(k, v);
+      await enviar(f, fd, `editar ${cm.id}`);
+    };
+    for (const m of aula.modulos) for (const [i, a] of m.aes.entries()) {
+      const t = st.cm.find((x) => x.module === 'assign' && x.name.startsWith(`Actividad 2: ${a.act2.titulo}`));
+      if (t) { await editarCm(t, { name: a.act2.name, 'introeditor[text]': a.act2.intro, 'introeditor[format]': '1' }); log(`~ ${a.act2.name}`); } else log(`no está la tarea de ${a.id}`);
+      const e = st.cm.find((x) => x.module === 'label' && x.name === `Tema ${i + 1}: ${a.tema}`);
+      if (e) await editarCm(e, { 'introeditor[text]': a.banda, 'introeditor[format]': '1' });
+    }
+    const c = st.cm.find((x) => x.module === 'label' && x.name === 'Cómo avanzas');
+    if (c) { await editarCm(c, { 'introeditor[text]': aula.inicio.comoAvanzar, 'introeditor[format]': '1' }); log('~ Cómo avanzas'); }
+    log('FIN textos');
+  };
+
   // Carga de archivos: un input propio; cada file_upload suma sus archivos a window.__archivos
   window.prepararCarga = () => {
     let i = document.getElementById('cc-archivos');

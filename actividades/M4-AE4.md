@@ -48,11 +48,11 @@ entrega: tarea
 
 ### Instrucción general
 
-Ahora produces un clip de 60 segundos para tu propio trabajo y completas su ficha de uso ético. Súbelo como tarea en el aula, con el MP4 adjunto o un enlace que se pueda abrir, y el guion, la lista de recursos y la ficha en un documento. Solo lo ven tú y el facilitador, porque trabajas con un mensaje real de tu equipo. El facilitador lo revisa con la rúbrica que está al final y te deja su retroalimentación en un plazo de hasta 72 horas.
+Esta actividad es el Hito 4 de tu proyecto del curso: produces un clip de 60 segundos que comunica tu propuesta y completas su ficha de uso ético. Súbelo como tarea en el aula, con el MP4 adjunto o un enlace que se pueda abrir, y el guion, la lista de recursos y la ficha en un documento. Solo lo ven tú y el facilitador, porque trabajas con un mensaje real de tu equipo. El facilitador lo revisa con la rúbrica que está al final y te deja su retroalimentación en un plazo de hasta 72 horas.
 
 ### Situación
 
-Ahora vas a hacer un clip para tu propio trabajo: el cierre de la campaña interna que ya empezaste, un recordatorio de un procedimiento para tu equipo o un mensaje para abrir una reunión. Puedes reutilizar la pieza gráfica, la locución y la pista que ya produjiste.
+Ahora vas a hacer un clip para tu propio trabajo que presente la mejora de tu proyecto del curso: qué cambia en la tarea que elegiste en el Hito 1, para quién y qué tiene que hacer tu equipo. Puedes reutilizar la pieza gráfica, la locución y la pista que ya produjiste.
 
 Si quieres tomas con movimiento, Google Flow entrega 50 créditos diarios gratis que no se acumulan, y cada clip con Veo 3.1 Lite gasta 10 [@F-H-63]. Por eso conviene combinar dos a cuatro tomas generadas con imágenes fijas. Si montas en CapCut, revisa su biblioteca: algunos materiales, como stickers, efectos o música, son solo para uso personal y no comercial, y los que permiten un uso comercial limitado llevan una marca del tipo «commercial use» [@F-H-84]. Trabaja con copias sin datos sensibles: el clip no debe mostrar nombres de clientes, cifras internas, documentos reales ni la cara o la voz de colegas sin su consentimiento escrito.
 

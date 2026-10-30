@@ -62,7 +62,7 @@ entrega: tarea
 ### Instrucción general
 
 Vas a agregar a tu flujo los controles humanos y el plan de contingencia que necesita antes de pensar en usarlo con datos reales, y
-vas a medir si esos controles detectan errores. Con esto completas tu prototipo. Súbelo como tarea en el aula, en un documento con
+vas a medir si esos controles detectan errores. Con esto completas tu prototipo, que es el Hito 5 de tu proyecto del curso. Súbelo como tarea en el aula, en un documento con
 capturas; solo lo ven tú y el facilitador. El facilitador lo revisa con la rúbrica de abajo y te deja su retroalimentación en un
 plazo de hasta 72 horas.
 

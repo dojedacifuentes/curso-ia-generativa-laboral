@@ -68,7 +68,7 @@ entrega: tarea
 ### Instrucción general
 
 Vas a medir cómo haces hoy la tarea de tu proyecto y a escribir su diagnóstico, su meta y su plan de medición, con la justificación
-de por qué es viable usar IA. Es el borrador de tu Hito 6a y la referencia contra la que medirás tus resultados. Súbelo como tarea en
+de por qué es viable usar IA. Es el Hito 6a de tu proyecto del curso y la referencia contra la que medirás tus resultados. Súbelo como tarea en
 el aula, con tu registro y un documento de una o dos páginas; solo lo ven tú y el facilitador. El facilitador lo revisa con la
 rúbrica de abajo y te deja su retroalimentación en un plazo de hasta 72 horas.
 
@@ -76,7 +76,7 @@ rúbrica de abajo y te deja su retroalimentación en un plazo de hasta 72 horas.
 
 Tu proyecto aplicado parte de una tarea de tu propio cargo: la que elegiste en el Hito 1 y fuiste afinando hasta el prototipo del
 Hito 5. Antes de cambiar nada necesitas saber cómo se hace hoy y cuánto cuesta, porque esa foto del «antes» es la referencia para
-saber, al final, si tus esfuerzos dieron resultado [@F-M6-01]. Esta actividad es el borrador de tu Hito 6a.
+saber, al final, si tus esfuerzos dieron resultado [@F-M6-01]. Esta actividad es tu Hito 6a.
 
 Como trabajas con información real, registra solo lo necesario para medir. Usa copias sin datos sensibles o códigos en vez de nombres
 de clientes, proveedores o compañeros, y respeta lo que permite tu empresa.

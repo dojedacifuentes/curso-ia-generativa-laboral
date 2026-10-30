@@ -70,15 +70,14 @@ entrega: tarea
 ### Instrucción general
 
 Vas a llevar tu prototipo a un flujo completo que funcione en tu trabajo, con supervisión humana, pruebas y registro de cada
-decisión. Es el borrador de tu Hito 6b. Súbelo como tarea en el aula, en un documento o con el enlace a tu carpeta compartida; solo
+decisión. Es el Hito 6b de tu proyecto del curso. Súbelo como tarea en el aula, en un documento o con el enlace a tu carpeta compartida; solo
 lo ven tú y el facilitador. El facilitador lo revisa con la rúbrica de abajo y te deja su retroalimentación en un plazo de hasta 72
 horas.
 
 ### Situación
 
 Ya tienes el diagnóstico, la meta y el plan de medición de tu Hito 6a, y en el Hito 5 automatizaste un paso de tu tarea. Ahora toca
-llevar ese prototipo a un flujo completo que funcione en tu trabajo, con supervisión humana y con registro de cada decisión. Esta
-actividad es el borrador de tu Hito 6b. Mientras pruebas, usa copias sin datos sensibles, una cuenta de práctica si tu herramienta lo
+llevar ese prototipo a un flujo completo que funcione en tu trabajo, con supervisión humana y con registro de cada decisión. Esta actividad es tu Hito 6b. Mientras pruebas, usa copias sin datos sensibles, una cuenta de práctica si tu herramienta lo
 necesita y solo lo que tu empresa permite.
 
 ### Lo que vas a hacer

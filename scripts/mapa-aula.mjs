@@ -11,6 +11,8 @@ const titulo = md => (/^# (.+)$/m.exec(md)?.[1] || '').trim().replace(/^M\d-C\d 
 const actividades = id => [...leer(`actividades/${id}.md`).matchAll(/^## Actividad (\d) · (.+)$/gm)].map(m => m[2].trim());
 const casos = n => fs.readdirSync(path.join(RAIZ, 'casos')).filter(f => new RegExp(`^M${n}-C\\d\\.md$`).test(f)).sort().map(f => titulo(leer(`casos/${f}`)));
 const PEND = ' *(pendiente)*';
+// Hitos del proyecto del curso: la actividad 2 de estos AE (data/hitos.json, opción 1 del 30-10)
+const HITO = Object.fromEntries(Object.entries(JSON.parse(leer('data/hitos.json'))).filter(([k]) => !k.startsWith('_')).map(([, v]) => [v.ae, v.hito]));
 
 let md = `# Mapa del aula Moodle
 
@@ -43,7 +45,7 @@ for (const m of curso.modulos) {
     const [a1, a2] = actividades(a.id);
     md += `- **${a.tema}.** Aprendizaje esperado: ${a.texto}\n  - Contenido: Rise «${a.tema}» (SCORM).\n  - Quiz formativo «${a.tema}» (SCORM).\n`
       + (a1 ? `  - Actividad 1 · ${a1} (foro de la actividad, con rúbrica).\n` : '')
-      + (a2 ? `  - Actividad 2 · ${a2} (tarea con rúbrica).\n` : '');
+      + (a2 ? `  - Actividad 2 · ${a2} (tarea con rúbrica${HITO[a.id] ? `; ${HITO[a.id]} del proyecto del curso` : ''}).\n` : '');
   }
   const cs = casos(m.n);
   if (cs.length) md += cs.map(c => `- Caso de aplicación: ${c}.\n`).join('');

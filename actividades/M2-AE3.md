@@ -47,11 +47,11 @@ entrega: tarea
 
 ### Instrucción general
 
-En esta actividad vas a preparar una presentación de seis láminas sobre un tema real de tu cargo y a depurar lo que genera la IA hasta dejarla lista. Lo subes como tarea en el aula, con la versión inicial y la final en PDF o con sus enlaces, más el párrafo que explica tus cambios. Solo lo ven tú y el facilitador, porque trabajas con información de tu trabajo. El facilitador lo revisa con la rúbrica de abajo y te deja su retroalimentación en un plazo de hasta 72 horas.
+Esta actividad es el Hito 2 de tu proyecto del curso. Vas a preparar una presentación de seis láminas que propone a tu jefatura cómo mejorar con IA la tarea de tu proyecto y a depurar lo que genera la IA hasta dejarla lista. Lo subes como tarea en el aula, con la versión inicial y la final en PDF o con sus enlaces, más el párrafo que explica tus cambios. Solo lo ven tú y el facilitador, porque trabajas con información de tu trabajo. El facilitador lo revisa con la rúbrica de abajo y te deja su retroalimentación en un plazo de hasta 72 horas.
 
 ### Situación
 
-En tu trabajo seguro hay algo que tendrías que presentar: una propuesta para tu jefatura, el avance de un trabajo a tu equipo o un cambio de procedimiento. Elige un tema real de tu cargo y prepara la presentación de seis láminas. Si los datos son internos, trabaja con una copia en la que cambies los nombres, los montos y cualquier dato sensible antes de pegarla en un asistente, y respeta lo que diga tu empresa sobre subir información a herramientas externas.
+En tu trabajo seguro hay algo que tendrías que presentar: una propuesta para tu jefatura, el avance de un trabajo a tu equipo o un cambio de procedimiento. Esta vez el tema es tu proyecto del curso: la mejora que propones para la tarea de tu cargo que elegiste en el Hito 1, presentada a quien tiene que aprobarla. Si los datos son internos, trabaja con una copia en la que cambies los nombres, los montos y cualquier dato sensible antes de pegarla en un asistente, y respeta lo que diga tu empresa sobre subir información a herramientas externas.
 
 ### Lo que vas a hacer
 
@@ -65,7 +65,7 @@ Esta vez el foco está en la depuración. Una lámina está sobrecargada cuando 
 
 ### Lo que entregas
 
-Subes como tarea en el aula la versión inicial que generó la IA y tu versión final, lado a lado o una después de la otra. Agrega un párrafo que nombre tres cosas que eliminaste, una que corregiste y una que agregaste tú, y explica por qué en cada caso.
+Subes como tarea en el aula tu brief, la versión inicial que generó la IA y tu versión final, lado a lado o una después de la otra. Agrega un párrafo que nombre tres cosas que eliminaste, una que corregiste y una que agregaste tú, y explica por qué en cada caso.
 
 ### Rúbrica
 

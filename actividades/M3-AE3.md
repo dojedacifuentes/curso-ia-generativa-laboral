@@ -49,7 +49,7 @@ entrega: tarea
 
 ### Instrucción general
 
-Ahora escribes un informe breve con la síntesis de tu propia pregunta, pensado para quien tiene que decidir en tu trabajo. Súbelo como tarea en el aula, en un documento de una a dos páginas. Solo lo ven tú y el facilitador, porque trabajas con un tema real de tu cargo. El facilitador lo revisa con la rúbrica que está al final y te deja su retroalimentación en un plazo de hasta 72 horas.
+Esta actividad es el Hito 3 de tu proyecto del curso. Escribes un informe breve con la síntesis de tu propia pregunta, pensado para quien tiene que decidir en tu trabajo. Súbelo como tarea en el aula, en un documento de una a dos páginas. Solo lo ven tú y el facilitador, porque trabajas con un tema real de tu cargo. El facilitador lo revisa con la rúbrica que está al final y te deja su retroalimentación en un plazo de hasta 72 horas.
 
 ### Situación
 

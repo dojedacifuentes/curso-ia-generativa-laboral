@@ -56,12 +56,12 @@ entrega: tarea
 
 ### Instrucción general
 
-En esta actividad vas a convertir un prompt que funciona en una plantilla que puedas reutilizar en una tarea que repites en tu cargo. Lo subes como tarea en el aula, en un documento de texto o en PDF con las versiones, las respuestas y la ficha de tu biblioteca. Solo lo ven tú y el facilitador, porque trabajas con casos reales de tu trabajo. El facilitador lo revisa con la rúbrica de abajo y te deja su retroalimentación en un plazo de hasta 72 horas.
+Esta actividad es el Hito 1 de tu proyecto del curso: la tarea de tu cargo que elijas aquí es la que vas a seguir mejorando con IA en los módulos siguientes, hasta medir sus resultados en el módulo 6. En ella vas a convertir un prompt que funciona en una plantilla que puedas reutilizar en una tarea que repites en tu cargo. Lo subes como tarea en el aula, en un documento de texto o en PDF con las versiones, las respuestas y la ficha de tu biblioteca. Solo lo ven tú y el facilitador, porque trabajas con casos reales de tu trabajo. El facilitador lo revisa con la rúbrica de abajo y te deja su retroalimentación en un plazo de hasta 72 horas.
 
 ### Situación
 
 En tu cargo hay alguna tarea de resumir, reescribir o clasificar que se repite cada semana: responder un tipo de consulta, resumir
-actas, ordenar solicitudes o pasar unas notas a un correo formal. Esa es la candidata para tu biblioteca personal de prompts. La guía
+actas, ordenar solicitudes o pasar unas notas a un correo formal. Esa es la candidata para tu biblioteca personal de prompts y para tu proyecto del curso, así que elige una que de verdad quieras mejorar. La guía
 de Google publica prompts de ejemplo por cargo, con las partes que cambian entre corchetes para personalizarlos [@F-M1-12]. La de
 Microsoft advierte que llegar al resultado suele requerir un ida y vuelta, y que el mismo prompt puede dar resultados distintos
 [@F-M1-13]. Por eso tu plantilla se prueba con dos casos antes de guardarla.

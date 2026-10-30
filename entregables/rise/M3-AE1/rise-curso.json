@@ -1,0 +1,1280 @@
+{
+ "ae": "M3-AE1",
+ "titulo": "Herramientas de IA para investigar",
+ "descripcion": "<p><strong>Competencia del módulo:</strong> Acelerar la investigación y el análisis de información con herramientas de IA, validando fuentes y resguardando la privacidad, para apoyar decisiones laborales.</p><p><strong>Aprendizaje esperado:</strong> Utilizar herramientas de IA para investigar (buscadores con citas, asistentes sobre fuentes propias) y levantar información sobre un problema de su sector.</p><p>En los módulos anteriores usaste la IA para redactar, resumir y presentar. En este módulo la vas a usar para investigar: reunir información sobre un problema real de tu trabajo, contrastarla, ordenarla y presentarla sin poner en riesgo datos de nadie. Este primer tema trata del comienzo de ese camino, que es hacer buenas preguntas y levantar información con herramientas que muestran de dónde la sacan.</p>",
+ "lecciones": [
+  {
+   "titulo": "Tres tipos de herramientas para investigar",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Qué vas a lograr en este tema",
+       "paragraph": "<p>En los módulos anteriores usaste la IA para redactar, resumir y presentar. En este módulo la vas a usar para investigar: reunir información sobre un problema real de tu trabajo, contrastarla, ordenarla y presentarla sin poner en riesgo datos de nadie. Este primer tema trata del comienzo de ese camino, que es hacer buenas preguntas y levantar información con herramientas que muestran de dónde la sacan.</p><p><strong>Competencia del módulo:</strong> Acelerar la investigación y el análisis de información con herramientas de IA, validando fuentes y resguardando la privacidad, para apoyar decisiones laborales.</p><p><strong>Aprendizaje esperado:</strong> Utilizar herramientas de IA para investigar (buscadores con citas, asistentes sobre fuentes propias) y levantar información sobre un problema de su sector.</p><p>Al final deberías poder convertir un tema general en preguntas de investigación específicas, usar al menos dos herramientas distintas y anotar cada fuente con su cita.</p><p>Vas a trabajar con dos tipos de herramienta. El <strong>buscador con citas</strong> consulta internet y enlaza cada dato a la página de donde salió (Perplexity, s. f.-a). El <strong>asistente sobre fuentes propias</strong> responde solo a partir de los documentos que tú le entregas (Google, s. f.-e). Las dos tienen plan gratuito y se pueden usar desde el celular.</p><p>Siguen contigo las mismas personas de los módulos anteriores. Camila, asistente administrativa en una constructora, quiere saber cómo registran y archivan sus documentos digitales otras oficinas. Andrés, encargado de bodega en una distribuidora, quiere evitar quedarse sin cajas de embalaje. Rosa, recepcionista de un centro médico, busca cómo bajar la inasistencia de pacientes. Cada uno investiga un problema de su trabajo, igual que harás tú con el problema que elegiste en el Hito 1.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Tres tipos de herramientas para investigar",
+       "paragraph": "<p>Cuando le preguntas algo a un asistente sin más, muchas veces responde con lo que aprendió en su entrenamiento. Ese conocimiento tiene fecha de corte y no te dice de dónde viene. Para investigar conviene usar herramientas que busquen o lean fuentes y te las muestren. Las puedes agrupar en tres tipos.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Tipo</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué hace</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Ejemplo gratuito</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Buscador con citas</p></td><td colspan=\"1\" rowspan=\"1\"><p>Busca en internet en el momento, resume lo que encuentra y pone citas numeradas que enlazan a cada página (Perplexity, s. f.-a)</p></td><td colspan=\"1\" rowspan=\"1\"><p>Perplexity</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Asistente sobre fuentes propias</p></td><td colspan=\"1\" rowspan=\"1\"><p>Responde a partir de los documentos que tú subes y cita la parte de donde sacó cada idea (Google, s. f.-e)</p></td><td colspan=\"1\" rowspan=\"1\"><p>Gemini Notebook</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Asistente general con búsqueda</p></td><td colspan=\"1\" rowspan=\"1\"><p>Conversa como siempre, pero a veces busca en la web y muestra las fuentes que usó</p></td><td colspan=\"1\" rowspan=\"1\"><p>Gemini (lo verás en la sección «Búsqueda con fuentes en Gemini y ChatGPT»)</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Lo que decide cuál usar es en qué punto de la investigación estás. Andrés, por ejemplo, quiere saber cómo evitan otras bodegas quedarse sin cajas. Como todavía no tiene ningún documento, parte con el buscador con citas para ver qué se ha escrito sobre el tema. Cuando reúna algunas guías que le sirvan, las subirá a un asistente sobre fuentes propias para hacerles preguntas.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Rosa tiene el reglamento interno del centro médico en PDF y quiere preguntarle qué dice sobre la confirmación de horas. ¿Qué tipo de herramienta le sirve más?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Un buscador con citas",
+         "correct": false,
+         "feedback": "<p>El reglamento es un documento que ella ya tiene. Un asistente sobre fuentes propias responde a partir de ese archivo y cita la parte donde lo encontró.</p>"
+        },
+        {
+         "title": "Un asistente sobre fuentes propias",
+         "correct": true,
+         "feedback": "<p>El reglamento es un documento que ella ya tiene. Un asistente sobre fuentes propias responde a partir de ese archivo y cita la parte donde lo encontró.</p>"
+        },
+        {
+         "title": "Un generador de imágenes",
+         "correct": false,
+         "feedback": "<p>El reglamento es un documento que ella ya tiene. Un asistente sobre fuentes propias responde a partir de ese archivo y cita la parte donde lo encontró.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Del tema general a la pregunta de investigación",
+       "paragraph": "<p>Una pregunta vaga da resultados vagos, aunque la herramienta sea muy buena. Las bibliotecas de Duoc UC proponen un camino de cuatro pasos para pasar de un tema amplio a una búsqueda precisa (Bibliotecas Duoc UC, 2023). Míralo con el tema de Rosa:</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Del tema general a la pregunta de investigación",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Del tema general a la pregunta de investigación",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Identifica el tema general: «inasistencia de pacientes».",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Acótalo con criterios como el lugar, el período, el tipo de organización o el uso que te interesa: «inasistencia a horas médicas agendadas en centros médicos pequeños de Chile, en los últimos años».",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Reconoce los conceptos clave. Aquí son tres",
+       "description": "<p>inasistencia, horas médicas agendadas y centros médicos pequeños.</p>"
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Prepara sinónimos para repetir la búsqueda si no resulta",
+       "description": "<p>«ausentismo», «pacientes que no se presentan», «citas perdidas».</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Con eso ya puedes escribir una <strong>pregunta de investigación</strong>, que es una pregunta que se puede responder buscando información. En este caso: «¿Qué medidas usan los centros médicos pequeños para reducir las horas agendadas a las que el paciente no se presenta?».</p><p>Un error común es pensar que mientras más amplia sea la pregunta, más información útil vas a encontrar. Una pregunta amplia trae más resultados, pero menos útiles. Acotar no es perder información: es quedarte con la que sirve para tu problema.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · La pregunta de Rosa</strong></p><p>Rosa partió preguntando «¿por qué faltan los pacientes?» y recibió una lista larga y general. Al acotar el tema y usar los conceptos clave, su pregunta quedó centrada en lo que ella puede cambiar desde la recepción: los recordatorios y la confirmación de horas.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Preguntas específicas: antes y después",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Preguntas específicas: antes y después",
+       "paragraph": "<p>Una <strong>pregunta específica</strong> nombra el tema acotado y sus conceptos clave (Bibliotecas Duoc UC, 2023). La reconoces porque, al leerla, sabes qué tipo de respuesta esperas y dónde podrías buscarla. Compara estas versiones de las preguntas de Andrés, Camila y Rosa.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Antes (tema general)</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Después (pregunta específica)</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>¿Cómo mejorar una bodega?</p></td><td colspan=\"1\" rowspan=\"1\"><p>¿Qué prácticas usan las bodegas pequeñas para evitar quedarse sin insumos de embalaje?</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>¿Cómo ordenar los documentos?</p></td><td colspan=\"1\" rowspan=\"1\"><p>¿Qué recomiendan las guías de archivo para nombrar y guardar facturas y contratos digitales en una oficina pequeña?</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>¿Qué hacer con los pacientes que faltan?</p></td><td colspan=\"1\" rowspan=\"1\"><p>¿Qué formas de recordatorio usan los centros médicos pequeños para que los pacientes confirmen su hora?</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>En la segunda columna aparece quién (bodegas pequeñas, una oficina pequeña, centros médicos), qué (insumos de embalaje, facturas y contratos, recordatorios) y, cuando importa, dónde y cuándo. Por lo general un buen tema da para dos o tres preguntas. Andrés agrega una segunda, «¿Cómo se calcula cuántas cajas tener en reserva?», y va a buscar cada pregunta por separado.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Acota tu tema</strong></p><p>Escribe en una línea el tema general de tu proyecto y luego:</p><ol><li><p>Agrega al menos dos criterios para acotarlo (lugar, período, tipo de organización, uso).</p></li><li><p>Subraya los conceptos clave.</p></li><li><p>Anota un sinónimo para cada concepto.</p></li><li><p>Escribe dos preguntas de investigación específicas.</p></li></ol>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Antes de buscar: define tu necesidad de información",
+       "paragraph": "<p>Quien busca con autonomía no abre la herramienta y pregunta lo primero que se le ocurre. Antes decide qué necesita. La guía de Duoc UC sugiere definir seis cosas: cuánta información te hace falta (un dato, unas pocas fuentes o un panorama completo), en qué idioma la quieres, qué tipo de fuente te sirve (normas, guías de organismos, estudios, noticias), de qué período, cuánto tiempo tienes para buscar y qué profundidad necesitas (Bibliotecas Duoc UC, 2023).</p><p>Estas decisiones te sirven también para escribir el prompt, porque las puedes agregar al final de tu pregunta: «Busca fuentes en español, de organismos públicos o instituciones educativas, publicadas desde 2023». Además te dicen cuándo detenerte. Si decidiste que te basta un panorama con cinco fuentes, no necesitas abrir veinte enlaces.</p><p>Definir la necesidad parece un paso menor, pero es lo que evita perder una tarde entera saltando de página en página. También te ayuda a explicarle a tu jefatura qué buscaste y por qué te detuviste ahí.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Camila define su necesidad</strong></p><p>Camila registra facturas, órdenes de compra y contratos en una planilla, y quiere investigar buenas prácticas para registrar y archivar documentos digitales en una oficina. Decide que le basta un panorama con cinco o seis fuentes, en español, de los últimos tres años, de preferencia guías de organismos públicos o de instituciones educativas, y que tiene una hora para buscar. Con eso sabe cuándo detenerse y no se pierde abriendo enlaces sin fin.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Cómo funciona un buscador con citas",
+       "paragraph": "<p>Un buscador con citas combina un buscador con un asistente de IA. Según el centro de ayuda de Perplexity, la herramienta busca en internet en tiempo real a partir de tu pregunta, resume lo que encontró en una respuesta breve y pone <strong>citas numeradas</strong> que enlazan a las páginas de origen, para que verifiques o profundices (Perplexity, s. f.-a). También acepta preguntas de seguimiento que conservan el contexto: puedes escribir «¿y en oficinas pequeñas?» sin repetir todo.</p><p>La diferencia con un buscador común es que no te entrega una lista de páginas para leer, sino una respuesta ya redactada con los números de las fuentes al lado de cada afirmación. Eso ahorra tiempo, pero cambia tu trabajo: ahora tienes que comprobar que cada número lleve a una página que de verdad diga eso.</p><p>Un error común es creer que si la respuesta trae citas, está correcta. NIST, el instituto de normas y tecnología de Estados Unidos, advierte que la IA generativa puede producir contenido falso con total seguridad, e incluso citas inventadas que parecen respaldar la respuesta (National Institute of Standards and Technology, 2024). Una cita es una pista para ir a la fuente. La verificación la haces tú, al abrirla.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "¿Qué hace un buscador con citas que no hace un asistente sin búsqueda?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Responde siempre sin errores",
+         "correct": false,
+         "feedback": "<p>El buscador con citas consulta la web en el momento y muestra de dónde sacó cada dato. Eso permite verificar, pero no garantiza que la respuesta sea correcta.</p>"
+        },
+        {
+         "title": "Busca en internet al momento y enlaza cada afirmación a su página de origen",
+         "correct": true,
+         "feedback": "<p>El buscador con citas consulta la web en el momento y muestra de dónde sacó cada dato. Eso permite verificar, pero no garantiza que la respuesta sea correcta.</p>"
+        },
+        {
+         "title": "Lee los documentos guardados en tu celular",
+         "correct": false,
+         "feedback": "<p>El buscador con citas consulta la web en el momento y muestra de dónde sacó cada dato. Eso permite verificar, pero no garantiza que la respuesta sea correcta.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Perplexity: plan gratuito y uso en el celular",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Perplexity: plan gratuito y uso en el celular",
+       "paragraph": "<p>En este curso vas a usar Perplexity como buscador con citas. Su plan gratuito se llama Standard e incluye búsquedas básicas prácticamente ilimitadas, muy pocas búsquedas avanzadas (que el proveedor llama «Pro Search»), una subida de archivos limitada y el historial de tus búsquedas. No trae los modelos avanzados ni la creación de imágenes, que están en el plan Pro, de pago (Perplexity, s. f.-c). Para este tema la búsqueda básica alcanza: no necesitas pagar ni gastar las búsquedas avanzadas.</p><p>Además de la versión web, Perplexity tiene aplicación para Android y para iPhone (Perplexity, s. f.-b), así que puedes hacer tus búsquedas desde el teléfono, por ejemplo en un rato libre de la jornada, y revisar después las fuentes con calma en el computador.</p><p>Hay una precaución que vale desde la primera búsqueda. Lo que escribes en una herramienta gratuita queda en los sistemas del proveedor, y en el tema 4 de este módulo verás qué hace cada uno con esos datos y cómo ajustarlo. Mientras tanto, escribe preguntas generales sobre tu tema y deja fuera nombres de personas, de clientes y cualquier información interna de tu empresa.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Andrés en el celular</strong></p><p>Andrés instala la aplicación en su teléfono y, en la hora de colación, escribe su pregunta sobre insumos de embalaje. No menciona el nombre de la distribuidora ni el de sus clientes: pregunta por «bodegas pequeñas» en general. La respuesta trae cinco citas, que deja marcadas para abrirlas en la tarde.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Práctica guiada 1: tu pregunta en el buscador con citas",
+       "paragraph": "<p>Ahora te toca levantar información sobre tu propio tema. Sigue estos pasos en el celular o en el computador:</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Práctica guiada 1: tu pregunta en el buscador con citas",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Práctica guiada 1: tu pregunta en el buscador con citas",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Abre Perplexity.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Escribe tu primera pregunta de investigación (sección «Preguntas específicas: antes y después») y agrega lo que definiste en la sección «Antes de buscar: define tu necesidad de información»: idioma, tipo de fuente y período.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Lee la respuesta y fíjate en los números de las citas.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Abre cada cita, revisa que el enlace funcione y que la página diga lo que la respuesta afirma.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Haz una pregunta de seguimiento para profundizar, por ejemplo «¿Qué fuentes de Chile tratan este tema?».",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Si los resultados no sirven, repite la búsqueda con los sinónimos que preparaste (Bibliotecas Duoc UC, 2023).",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Anota cada fuente útil en tu registro de fuentes (lo armarás en la sección «Registrar las fuentes con su cita»): título, quién la publica, fecha y enlace.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Un error frecuente en este paso es copiar la respuesta del buscador como si fuera la fuente. La respuesta redactada es un resumen hecho por la IA; la fuente es la página a la que lleva la cita (Perplexity, s. f.-a). Lo que anotas y citas es esa página de origen, no el resumen.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tus primeras fuentes</strong></p><p>Al terminar deberías tener al menos tres fuentes que abriste y leíste. Para cada una, escribe en tu bitácora una línea con lo que aporta a tu pregunta. Si una cita no abría o no decía lo que la respuesta afirmaba, anótalo también: es información valiosa sobre la herramienta.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Búsqueda con fuentes en Gemini y ChatGPT",
+       "paragraph": "<p>Los asistentes generales que ya conoces también pueden buscar en la web. La diferencia con un buscador con citas es que no siempre lo hacen: a veces responden solo con lo que aprendieron. Por eso conviene mirar si la respuesta trae fuentes antes de usarla.</p><p>Gemini a veces muestra un botón «Fuentes» con enlaces a sitios web, a archivos que subiste o a documentos vinculados, y eso funciona en el computador, en Android y en iPhone (Google, s. f.-f). En ChatGPT la búsqueda web está en el plan gratuito, incluso sin iniciar sesión, tanto en la web como en las aplicaciones. Sus respuestas pueden traer citas que abren la fuente y un panel con las fuentes usadas, aunque cada búsqueda descuenta del límite del plan (OpenAI, 2026).</p><p>Si la respuesta de un asistente general llega sin fuentes, pídele que busque en la web y que indique las páginas que usó. Una respuesta sin fuentes te puede dar ideas, pero no te sirve para investigar, porque no tienes cómo comprobarla. Hacer la misma pregunta en dos herramientas distintas tiene otra ventaja: te muestra en qué coinciden y qué agrega cada una, y lo que solo aparece en una pide más revisión.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · La misma pregunta en dos herramientas</strong></p><p>Camila hace su pregunta sobre cómo registrar y archivar documentos digitales en Perplexity y en Gemini. Las dos respuestas coinciden en dos prácticas: nombrar los archivos con la fecha y el tipo de documento, y guardar una copia de respaldo. Gemini nombra una tercera. Camila la busca en las fuentes que le mostró y, como no aparece en ninguna, no la anota.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Trabajar sobre tus documentos: Gemini Notebook",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Trabajar sobre tus documentos: Gemini Notebook",
+       "paragraph": "<p>El segundo tipo de herramienta trabaja con fuentes que tú eliges. En este curso vas a usar Gemini Notebook, la herramienta de Google que antes se llamaba NotebookLM; si no la encuentras con el nombre nuevo, búscala con el anterior. Funciona con <strong>cuadernos</strong>: en cada uno subes tus fuentes y luego conversas con ellas.</p><p>Según la ayuda de Google, acepta PDF, sitios web, videos de YouTube, audio y documentos de Google (Google, s. f.-c). Responde a partir de esas fuentes y no de su conocimiento general, muestra citas en línea que llevan a la parte exacta de la fuente y, si tus fuentes no tienen la respuesta, puede no responder (Google, s. f.-e).</p><p>Esto cambia bastante el riesgo. Un asistente general puede rellenar con datos de cualquier parte; uno sobre fuentes propias se limita a lo que le entregaste y te muestra dónde lo leyó. Aun así, Google advierte que sus respuestas pueden tener errores y que en temas médicos, legales o financieros conviene consultar a un profesional (Google, s. f.-e).</p><p>Por eso un error común es pensar que, si trabaja sobre tus documentos, no se equivoca. Limitarlo a tus fuentes reduce el riesgo, pero no lo elimina: puede resumir mal o mezclar ideas de dos documentos. Toca las citas y compara con el texto.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Rosa pregunta a sus documentos</strong></p><p>Rosa sube a un cuaderno dos guías públicas sobre atención de pacientes que encontró con el buscador. Pregunta: «¿Qué recomiendan estas guías para confirmar horas?». La respuesta trae tres citas, y al tocarlas ve el párrafo de cada guía de donde salió la idea.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Gemini Notebook: plan gratuito, aplicación y límites",
+       "paragraph": "<p>Gemini Notebook tiene un plan gratuito, llamado Standard, que se usa con una cuenta de Google personal. Te permite tener hasta 100 cuadernos, con un máximo de 50 fuentes cada uno, y hacer 50 conversaciones al día. Incluye además algunos productos que se generan a partir de tus fuentes: hasta 10 informes al día, tres resúmenes de audio y tres de video al día, y la investigación a fondo (Deep Research) 10 veces al mes. Google aclara que estos límites pueden cambiar (Google, s. f.-a).</p><p>Para tu proyecto no vas a acercarte a esos topes. Un cuaderno con cinco a diez fuentes es más que suficiente, y lo que importa es que cada una sea buena, no que sean muchas.</p><p>En el celular hay aplicación para Android 10 o superior y para iPhone y iPad. Desde ella puedes preguntar a tus fuentes, escuchar los resúmenes de audio sin conexión y compartir hacia la aplicación un sitio, un PDF o un video que encontraste navegando. El lanzamiento de la aplicación es gradual, aunque Chile está en la lista de países (Google, s. f.-b). Si todavía no te aparece en la tienda, usa la versión web en el navegador del teléfono: funciona igual para lo que harás en este tema.</p><p>Una forma práctica de usarla es ir guardando en el cuaderno, desde el teléfono, cada fuente buena que encuentres en el buscador. Así, cuando te sientes a revisar, ya tienes todo reunido en un solo lugar.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Qué documentos subir y cuáles no",
+       "paragraph": "<p>Que una herramienta trabaje con tus documentos no significa que cualquier documento deba ir ahí. Antes de subir algo, pregúntate de dónde viene y qué contiene. Las páginas de organismos públicos y de instituciones educativas, las guías, normas e informes publicados y tus propias notas, sin datos de otras personas, son buenas fuentes para tu cuaderno.</p><p>Otra cosa son los documentos de tu trabajo. Una planilla con nombres, RUT, teléfonos o datos de salud de personas no se sube. Tampoco las planillas de clientes, remuneraciones o ventas de la empresa, ni los documentos internos que tu jefatura no ha autorizado compartir. Si necesitas trabajar con un documento real, usa una copia sin datos sensibles o con datos de prueba.</p><p>Sobre privacidad, Google indica que, con una cuenta personal, tus datos de Gemini Notebook no se usan para entrenar sus modelos, salvo que envíes comentarios, porque en ese caso la interacción puede ser revisada (Google, s. f.-e). Es una buena política, pero no cambia la regla: lo confidencial no se sube a una herramienta que tu empresa no autorizó. Lo verás a fondo en el tema 4.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · ¿Lo subo o no?</strong></p><p>Clasifica cada documento:</p><ol><li><p>Un PDF público de un organismo sobre seguridad en bodegas. → Lo subo.</p></li><li><p>La planilla de pacientes del día con sus teléfonos. → No lo subo.</p></li><li><p>Una guía pública sobre cómo archivar documentos digitales. → Lo subo.</p></li><li><p>El informe de ventas mensual de la distribuidora. → No lo subo.</p></li><li><p>Tus notas de lectura, sin datos de nadie. → Lo subo.</p></li></ol>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Práctica guiada 2: arma tu cuaderno",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Práctica guiada 2: arma tu cuaderno",
+       "paragraph": "<p>Ahora usas la segunda herramienta con las fuentes que encontraste en la práctica 1:</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Práctica guiada 2: arma tu cuaderno",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Práctica guiada 2: arma tu cuaderno",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Abre Gemini Notebook, en la web o en la aplicación, con tu cuenta de Google (Google, s. f.-b).",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Crea un cuaderno con el nombre de tu proyecto.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Agrega de tres a cinco fuentes públicas (los enlaces que abriste en Perplexity, un PDF o un video) y revisa que ninguna tenga datos personales.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Hazle al cuaderno tu segunda pregunta de investigación.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Toca cada cita de la respuesta y lee el párrafo de origen para ver si dice lo mismo (Google, s. f.-e).",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Pregunta qué falta: «¿Qué parte de mi pregunta no responden estas fuentes?».",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Anota en tu registro cada dato útil con la fuente y la parte donde aparece.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>El paso 6 es el que más se olvida y el que más enseña. Andrés le preguntó a su cuaderno cómo calcular la reserva de cajas. La respuesta explicó la idea general con citas, pero aclaró que sus fuentes no traían un ejemplo de cálculo. Con eso supo qué le faltaba y volvió al buscador con una pregunta nueva: «ejemplo de cálculo de stock de seguridad para una bodega pequeña».</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "El cuaderno responde: «Las fuentes no incluyen información sobre este punto». ¿Qué conviene hacer?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Pedirle a un asistente general que lo invente",
+         "correct": false,
+         "feedback": "<p>Que el cuaderno no responda es una ventaja: te muestra un vacío. Lo llenas con una fuente nueva, no con una respuesta sin respaldo.</p>"
+        },
+        {
+         "title": "Buscar una fuente nueva sobre ese punto y agregarla al cuaderno",
+         "correct": true,
+         "feedback": "<p>Que el cuaderno no responda es una ventaja: te muestra un vacío. Lo llenas con una fuente nueva, no con una respuesta sin respaldo.</p>"
+        },
+        {
+         "title": "Dar por cerrada la investigación",
+         "correct": false,
+         "feedback": "<p>Que el cuaderno no responda es una ventaja: te muestra un vacío. Lo llenas con una fuente nueva, no con una respuesta sin respaldo.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Investigación a fondo: cuándo vale la pena",
+       "paragraph": "<p>Algunas herramientas ofrecen un modo de <strong>investigación a fondo</strong>: en vez de una respuesta breve, revisan muchas páginas y entregan un informe largo con fuentes. En Gemini se llama Deep Research y está disponible sin plan pagado, aunque gasta más cuota que una conversación normal (Google, s. f.-d). En Gemini Notebook, el plan gratuito permite usarla 10 veces al mes (Google, s. f.-a).</p><p>Conviene cuando necesitas un panorama amplio de un tema que no conoces, al comienzo de la investigación. No conviene para responder una pregunta puntual, porque una búsqueda con citas es más rápida y gasta menos.</p><p>Un informe largo tiene más afirmaciones y más fuentes, y por eso más trabajo de revisión. No lo pegues en tu proyecto: úsalo como mapa para saber qué fuentes abrir y qué preguntas hacer después. Un error común es creer que el informe ya viene verificado porque revisó muchas páginas. Revisar muchas páginas no significa haberlas leído bien, así que cada dato del informe se trata igual que el de cualquier otra respuesta: se abre la fuente y se comprueba.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Camila usa Deep Research una vez</strong></p><p>Camila no sabe por dónde partir con el tema del archivo de documentos digitales. Usa Deep Research de Gemini una sola vez para tener un panorama. Del informe se queda con cuatro fuentes, que después abre y revisa una por una antes de anotarlas en su registro.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Elegir la herramienta según la necesidad",
+       "paragraph": "<p>Ya conoces las herramientas. La pregunta práctica es cuál usar en cada momento, y el criterio cabe en un cuadro.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Si necesitas…</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Usa…</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Saber qué se ha publicado sobre un tema y tener enlaces</p></td><td colspan=\"1\" rowspan=\"1\"><p>Un buscador con citas, como Perplexity, o la búsqueda de un asistente general (Perplexity, s. f.-a)</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Preguntar sobre documentos que ya reuniste</p></td><td colspan=\"1\" rowspan=\"1\"><p>Un asistente sobre fuentes propias, como Gemini Notebook (Google, s. f.-e)</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Un panorama amplio de un tema que no conoces</p></td><td colspan=\"1\" rowspan=\"1\"><p>La investigación a fondo, una vez, como mapa</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Redactar, ordenar o resumir lo que ya verificaste</p></td><td colspan=\"1\" rowspan=\"1\"><p>El asistente general, sin búsqueda</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>En este tema el criterio es usar al menos dos herramientas distintas. Así no dependes de una sola forma de buscar y puedes comparar lo que entrega cada una: el buscador te abre el tema y el cuaderno te deja profundizar en las fuentes que elegiste. Elegir mal también tiene costo. Si usas el asistente general sin búsqueda para saber qué se ha publicado, vas a recibir un texto bien escrito y sin ninguna fuente que revisar.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · ¿Qué herramienta usarías?</strong></p><p>Elige la herramienta para cada situación:</p><ol><li><p>Rosa quiere saber qué guías públicas existen sobre recordatorios de horas. → Buscador con citas.</p></li><li><p>Andrés tiene tres manuales en PDF y quiere saber qué dicen sobre el embalaje. → Gemini Notebook.</p></li><li><p>Camila no conoce el tema del archivo digital y quiere un primer mapa. → Investigación a fondo.</p></li><li><p>Rosa quiere ordenar en una tabla los datos que ya verificó. → Asistente general.</p></li></ol>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Registrar las fuentes con su cita",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Registrar las fuentes con su cita",
+       "paragraph": "<p>Investigar sin registrar es perder trabajo: dentro de una semana no vas a saber de dónde salió cada dato. Por eso llevas un <strong>registro de fuentes</strong> desde el primer día. Lo central es guardar el enlace a la fuente original que te entrega la herramienta, no solo el nombre de la herramienta (Perplexity, s. f.-a).</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Pregunta</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Herramienta</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Fecha de búsqueda</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Fuente (título y quién la publica)</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Fecha de la fuente</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Enlace</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué aporta</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>1.</p></td><td colspan=\"1\" rowspan=\"1\"><p>Perplexity</p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>2.</p></td><td colspan=\"1\" rowspan=\"1\"><p>Gemini Notebook</p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>El error más frecuente es anotar «Fuente: Perplexity». Perplexity, Gemini o ChatGPT no son la fuente de un dato: son la herramienta con que lo encontraste. La fuente es la página o el documento al que lleva la cita.</p><p>Si además vas a usar un texto generado por la IA, por ejemplo un resumen que te sirvió de base, Bibliotecas UC (2026) recomienda anotar la herramienta, su versión, la fecha de la consulta y el prompt, y guardar la respuesta. En el tema 3 aprenderás a citarlo.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "¿Cuál es el registro más completo de una fuente?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "«Lo dijo Gemini»",
+         "correct": false,
+         "feedback": "<p>Un buen registro permite que tú, o cualquier persona, vuelva a la fuente original y compruebe el dato.</p>"
+        },
+        {
+         "title": "«Un sitio sobre bodegas»",
+         "correct": false,
+         "feedback": "<p>Un buen registro permite que tú, o cualquier persona, vuelva a la fuente original y compruebe el dato.</p>"
+        },
+        {
+         "title": "Título de la página, organismo que la publica, fecha, enlace y lo que aporta",
+         "correct": true,
+         "feedback": "<p>Un buen registro permite que tú, o cualquier persona, vuelva a la fuente original y compruebe el dato.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Curiosidad y autonomía en la búsqueda",
+       "paragraph": "<p>La herramienta hace la búsqueda, pero el rumbo lo pones tú. La autonomía se nota en decisiones pequeñas: defines antes qué necesitas (sección «Antes de buscar: define tu necesidad de información») y sabes cuándo tienes suficiente; cuando un resultado no sirve, reformulas con sinónimos en vez de rendirte; haces preguntas de seguimiento para ir más allá de la primera respuesta, y usas más de una herramienta para comparar (Bibliotecas Duoc UC, 2023).</p><p>La curiosidad se nota en preguntarte qué no sabes todavía. El método SIFT, que viste en el módulo 1, empieza con un paso que sirve aquí: detenerte antes de aceptar una fuente y preguntarte qué sabes de ella (Caulfield, 2019). En el próximo tema vas a hacer ese análisis a fondo.</p><p>Ninguna de estas actitudes depende de la herramienta que uses. Son las mismas que te sirven cuando tu jefatura te pide averiguar algo que nadie en la oficina sabe: buscar con un rumbo, no conformarte con lo primero y saber decir qué quedó sin respuesta.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Andrés no se queda con la primera respuesta</strong></p><p>La primera respuesta que recibió Andrés hablaba de grandes centros de distribución. En vez de descartarla o aceptarla tal cual, preguntó: «¿Qué cambia en una bodega pequeña?». Luego buscó con otro término, «insumos de empaque», y encontró una guía más cercana a su realidad.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Cierre: tu levantamiento de información",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Cierre: tu levantamiento de información",
+       "paragraph": "<p>En este tema conociste tres tipos de herramientas para investigar: el buscador con citas, el asistente sobre fuentes propias y el asistente general con búsqueda, que en algunos casos trae un modo de investigación a fondo (Perplexity, s. f.-a; Google, s. f.-e). Aprendiste a pasar de un tema general a una pregunta específica, a definir tu necesidad antes de buscar y a registrar cada fuente con su enlace original.</p><p>Ahora reúnes todo en un levantamiento de información. No se trata de juntar muchas fuentes, sino de responder tu pregunta con fuentes que puedes revisar. Guarda bien este registro: lo vas a usar en los cuatro temas de este módulo y en el Hito 3 del proyecto.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tu levantamiento de información</strong></p><p>Reúne en tu bitácora:</p><ol><li><p>Dos preguntas de investigación específicas sobre el problema de tu proyecto.</p></li><li><p>Las dos herramientas que usaste, por ejemplo Perplexity y Gemini Notebook.</p></li><li><p>Tu registro de fuentes con al menos cinco fuentes que abriste y leíste, cada una con título, quién la publica, fecha, enlace y lo que aporta.</p></li><li><p>Una línea sobre lo que todavía no pudiste responder.</p></li></ol><p>Este levantamiento es la materia prima del próximo tema, donde vas a evaluar y contrastar estas fuentes.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Ideas clave"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<ol><li><p>Para investigar con IA conviene usar herramientas que muestran sus fuentes: buscadores con citas, asistentes sobre fuentes propias y asistentes generales con búsqueda.</p></li><li><p>Una buena investigación parte de una pregunta específica: un tema acotado con criterios, conceptos clave y sinónimos para repetir la búsqueda.</p></li><li><p>Antes de buscar, define cuánta información necesitas, de qué tipo, de qué período y con qué profundidad.</p></li><li><p>Un buscador con citas consulta la web en el momento y enlaza cada afirmación, pero una cita no es una prueba: hay que abrirla.</p></li><li><p>Un asistente sobre fuentes propias, como Gemini Notebook, responde solo con tus documentos y cita dónde lo leyó; si no responde, te muestra un vacío. A esa herramienta no se suben documentos de la empresa con datos personales o confidenciales.</p></li><li><p>Se usan al menos dos herramientas distintas, y cada fuente se registra con su enlace original, no con el nombre de la herramienta.</p></li></ol>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Referencias bibliográficas",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Estas son las fuentes citadas en este tema, en formato APA 7. Los enlaces se abren en una pestaña nueva.</p><p>Bibliotecas Duoc UC. (2023, 21 de julio). <em>¿Cómo formular una necesidad de información?</em> <a href=\"https://bibliotecas.duoc.cl/busqueda-de-informacion/formular-necesidad-de-informacion\" target=\"_blank\" rel=\"noopener\">https://bibliotecas.duoc.cl/busqueda-de-informacion/formular-necesidad-de-informacion</a></p><p>Bibliotecas UC. (2026, 13 de agosto). <em>IA: citar y referenciar</em>. Pontificia Universidad Católica de Chile. <a href=\"https://guiastematicas.bibliotecas.uc.cl/ia/citar\" target=\"_blank\" rel=\"noopener\">https://guiastematicas.bibliotecas.uc.cl/ia/citar</a></p><p>Caulfield, M. (2019, 19 de junio). <em>SIFT (The four moves)</em>. Hapgood. <a href=\"https://hapgood.us/2019/06/19/sift-the-four-moves/\" target=\"_blank\" rel=\"noopener\">https://hapgood.us/2019/06/19/sift-the-four-moves/</a></p><p>Google. (s. f.-a). <em>Cambiar a un plan superior de Gemini Notebook</em>. <a href=\"https://support.google.com/notebooklm/answer/16213268?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/notebooklm/answer/16213268?hl=es</a></p><p>Google. (s. f.-b). <em>Empezar a usar la aplicación móvil Gemini Notebook</em>. <a href=\"https://support.google.com/gemininotebook/answer/16296687?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemininotebook/answer/16296687?hl=es</a></p><p>Google. (s. f.-c). <em>Información sobre Gemini Notebook</em>. <a href=\"https://support.google.com/gemininotebook/answer/16164461?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemininotebook/answer/16164461?hl=es</a></p><p>Google. (s. f.-d). <em>Límites de las aplicaciones de Gemini y cambios a planes superiores</em>. <a href=\"https://support.google.com/gemini/answer/16275805?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/16275805?hl=es</a></p><p>Google. (s. f.-e). <em>Más información sobre Gemini Notebook</em>. Ayuda de NotebookLM. <a href=\"https://support.google.com/notebooklm/answer/16164461?hl=es-419\" target=\"_blank\" rel=\"noopener\">https://support.google.com/notebooklm/answer/16164461?hl=es-419</a></p><p>Google. (s. f.-f). <em>Ver fuentes relacionadas de las aplicaciones de Gemini</em>. <a href=\"https://support.google.com/gemini/answer/14143489?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/14143489?hl=es</a></p><p>National Institute of Standards and Technology. (2024). <em>Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)</em>. <a href=\"https://doi.org/10.6028/NIST.AI.600-1\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.6028/NIST.AI.600-1</a></p><p>OpenAI. (2026). <em>Searching the web with ChatGPT</em>. OpenAI Help Center. <a href=\"https://help.openai.com/en/articles/9237897-chatgpt-search\" target=\"_blank\" rel=\"noopener\">https://help.openai.com/en/articles/9237897-chatgpt-search</a></p><p>Perplexity. (s. f.-a). <em>How does Perplexity work?</em> <a href=\"https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work\" target=\"_blank\" rel=\"noopener\">https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work</a></p><p>Perplexity. (s. f.-b). <em>Mobile apps</em>. <a href=\"https://www.perplexity.ai/help-center/en/collections/18799299-mobile-apps\" target=\"_blank\" rel=\"noopener\">https://www.perplexity.ai/help-center/en/collections/18799299-mobile-apps</a></p><p>Perplexity. (s. f.-c). <em>Which Perplexity subscription plan is right for you?</em> <a href=\"https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you\" target=\"_blank\" rel=\"noopener\">https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you</a></p>"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

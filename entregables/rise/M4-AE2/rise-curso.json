@@ -1,0 +1,1069 @@
+{
+ "ae": "M4-AE2",
+ "titulo": "Imágenes y gráficos",
+ "descripcion": "<p><strong>Competencia del módulo:</strong> Producir contenido visual, sonoro y audiovisual con IA generativa, respetando licencias, atribución y criterios éticos, para piezas de comunicación laboral.</p><p><strong>Aprendizaje esperado:</strong> Producir imágenes y gráficos con IA para una campaña interna, aplicando criterios de diseño y uso ético.</p><p>En el tema anterior aprendiste a elegir herramientas según su licencia y sus riesgos. Ahora las vas a usar: crearás una pieza gráfica para una <strong>campaña interna</strong>, es decir, una comunicación dirigida a las personas de tu organización, como un afiche para el diario mural o una imagen para el grupo de mensajería del equipo.</p>",
+ "lecciones": [
+  {
+   "titulo": "Antes de generar: el mensaje de la campaña",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Qué vas a lograr en este tema",
+       "paragraph": "<p>En el tema anterior aprendiste a elegir herramientas según su licencia y sus riesgos. Ahora las vas a usar: crearás una pieza gráfica para una <strong>campaña interna</strong>, es decir, una comunicación dirigida a las personas de tu organización, como un afiche para el diario mural o una imagen para el grupo de mensajería del equipo.</p><p><strong>Competencia del módulo:</strong> Producir contenido visual, sonoro y audiovisual con IA generativa, respetando licencias, atribución y criterios éticos, para piezas de comunicación laboral.</p><p><strong>Aprendizaje esperado:</strong> Producir imágenes y gráficos con IA para una campaña interna, aplicando criterios de diseño y uso ético.</p><p>Al final deberías poder producir piezas coherentes con el mensaje de la campaña e identificar y corregir sesgos o defectos visuales antes de publicarlas.</p><p>Este tema es un laboratorio creativo y termina con un producto. Generarás la imagen con Gemini, que te pide iniciar sesión con tu cuenta de Google (Google, s. f.-a), y compondrás la pieza en Canva, que tiene app para Android y para iOS (Canva, s. f.-a). Te acompaña Andrés, el encargado de bodega: su jefatura le pidió una campaña para que los pasillos estén siempre despejados, porque cajas y pallets mal ubicados han provocado tropiezos. Hará un afiche para el diario mural y una versión para el teléfono. Camila, la asistente administrativa de la constructora, también tiene un encargo: la gerenta de administración le pidió una campaña para que en la oficina se recicle el papel, y algunos ejemplos serán suyos.</p><p>Tú harás la tuya con una campaña interna real de tu lugar de trabajo, sobre algo que tu equipo necesite recordar o cambiar. Si no se te ocurre cuál, pregúntale a tu jefatura qué le serviría. Ten presente desde el comienzo que la IA genera la imagen, pero la pieza la diseñas tú: el mensaje, el texto, el orden y la revisión final son tu trabajo.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Antes de generar: el mensaje de la campaña",
+       "paragraph": "<p>Una imagen bonita no basta: tiene que decir algo. Antes de abrir una herramienta, define cuatro cosas: el mensaje, el público, el canal con su formato y el tono. Es el mismo brief que trabajaste en el módulo 2, adaptado a una pieza visual. Así quedó el de Andrés:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Pregunta</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Andrés</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Mensaje: ¿qué tiene que entender la persona en tres segundos?</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Pasillo despejado, bodega segura»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Público: ¿quién la verá?</p></td><td colspan=\"1\" rowspan=\"1\"><p>El equipo de bodega y despacho, mujeres y hombres de distintas edades</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Canal y formato: ¿dónde se verá?</p></td><td colspan=\"1\" rowspan=\"1\"><p>Diario mural (vertical, 3:4) y teléfono (vertical, 9:16)</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Tono: ¿cómo tiene que sentirse?</p></td><td colspan=\"1\" rowspan=\"1\"><p>Claro y positivo, sin dramatismo</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>El formato se define con la <strong>relación de aspecto</strong>, que es la proporción entre el ancho y el alto. Las guías de generación de imágenes trabajan con algunas comunes: 1:1 (cuadrada), 4:3 y 3:4, 16:9 (horizontal, como una pantalla) y 9:16 (vertical, como un teléfono) (Google, 2026).</p><p>Con el mensaje claro sabrás qué tiene que mostrar la imagen y qué no, y podrás ordenar la pieza para que el mensaje sea lo primero que se vea (Gordon, 2021), como verás en la sección «Diseño básico: jerarquía visual». Un error común es generar imágenes primero y ver después qué decir: sin mensaje, las imágenes salen al azar y se gastan los usos del día.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tu brief visual</strong></p><p>Escribe el mensaje, el público, el canal con su formato y el tono de tu campaña interna. El mensaje debe caber en una frase de no más de seis palabras: la usarás como título de la pieza.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Anatomía de un prompt visual",
+       "paragraph": "<p>Un <strong>prompt visual</strong> describe la imagen que quieres. Las guías de Google proponen armarlo con tres partes (Google, 2026). La primera es el sujeto: qué o quién aparece, por ejemplo «una trabajadora de bodega empujando un carro». La segunda es el contexto y fondo: dónde está y qué la rodea, como «en un pasillo amplio y despejado, con estantes ordenados a los lados». La tercera es el estilo, que dice cómo se ve; puede ser general, como «ilustración» o «fotografía», o más específico, como «ilustración plana con colores sólidos».</p><p>La misma guía recomienda partir de una idea central y agregar detalles en cada intento, en vez de escribir todo de una vez (Google, 2026). Compara estos dos pedidos:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Antes</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Después</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>«Una bodega»</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Ilustración plana de una trabajadora de bodega empujando un carro por un pasillo amplio y despejado, con estantes ordenados a los lados, colores azul y amarillo»</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>El primero deja todo al azar: puede salir una bodega vacía, desordenada o de otra época. El segundo dice qué se ve, dónde y cómo. No es más largo por capricho, sino porque cada parte que agregas le quita a la herramienta una decisión que querías tomar tú.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "En el prompt «fotografía de un mesón de recepción ordenado, con una planta y luz natural», ¿cuál es el estilo?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Mesón de recepción",
+         "correct": false,
+         "feedback": "<p>El sujeto es el mesón de recepción; la planta y la luz son parte del contexto y la iluminación. «Fotografía» es el estilo.</p>"
+        },
+        {
+         "title": "Fotografía",
+         "correct": true,
+         "feedback": "<p>El sujeto es el mesón de recepción; la planta y la luz son parte del contexto y la iluminación. «Fotografía» es el estilo.</p>"
+        },
+        {
+         "title": "Una planta y luz natural",
+         "correct": false,
+         "feedback": "<p>El sujeto es el mesón de recepción; la planta y la luz son parte del contexto y la iluminación. «Fotografía» es el estilo.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Composición, luz y formato",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Composición, luz y formato",
+       "paragraph": "<p>Con sujeto, contexto y estilo ya tienes una imagen. Para acercarla a lo que buscas, agrega <strong>modificadores</strong>: palabras que controlan la composición, la luz y el formato (Google, 2026).</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Modificador</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué controla</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Ejemplos para tu prompt</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Cercanía y encuadre</p></td><td colspan=\"1\" rowspan=\"1\"><p>Qué tan cerca está el sujeto</p></td><td colspan=\"1\" rowspan=\"1\"><p>«primer plano», «plano general»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Posición de la cámara</p></td><td colspan=\"1\" rowspan=\"1\"><p>Desde dónde se mira</p></td><td colspan=\"1\" rowspan=\"1\"><p>«vista desde arriba», «a la altura de los ojos»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Iluminación</p></td><td colspan=\"1\" rowspan=\"1\"><p>El ambiente</p></td><td colspan=\"1\" rowspan=\"1\"><p>«luz natural», «luz cálida», «luz fría», «luz dramática»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Lente</p></td><td colspan=\"1\" rowspan=\"1\"><p>El efecto de la toma, en fotografía</p></td><td colspan=\"1\" rowspan=\"1\"><p>«gran angular», «fondo desenfocado»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Relación de aspecto</p></td><td colspan=\"1\" rowspan=\"1\"><p>El formato</p></td><td colspan=\"1\" rowspan=\"1\"><p>«vertical 3:4», «horizontal 16:9»</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Cada decisión cambia el mensaje. Un plano general muestra el pasillo completo y deja ver que está despejado; un primer plano de un pie tropezando con una caja pone el foco en el peligro. Una luz cálida da un tono amable, y una luz dramática, uno de alerta. Para una campaña que quiere ser positiva, como la de Andrés, el plano general y la luz natural calzan mejor.</p><p>La sensibilidad estética también se entrena. Prueba a mover una sola palabra del prompt y fíjate en qué cambia: así aprendes qué efecto tiene cada modificador, y la próxima vez lo eliges a propósito.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · El prompt completo de Andrés</strong></p><p>«Ilustración plana de una trabajadora de bodega empujando un carro por un pasillo amplio y despejado, estantes ordenados a los lados, plano general, vista a la altura de los ojos, luz natural, colores azul y amarillo, formato vertical 3:4, sin texto».</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Laboratorio 1: genera tu imagen",
+       "paragraph": "<p>Ahora te toca generar. Usa Gemini, el asistente del curso, en la app o en la web, y sigue estos pasos:</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Laboratorio 1: genera tu imagen",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Laboratorio 1: genera tu imagen",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Inicia sesión con tu cuenta de Google. Para generar imágenes hay que tener 13 años o más, y para editarlas, 18 o más.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Escribe tu prompt con sujeto, contexto, estilo y modificadores, y termínalo con «sin texto»: el título lo pondrás después.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Mira el resultado y descárgalo. Sin un plan pagado, Gemini descarga en resolución 1K.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Anota en tu bitácora el prompt tal como lo escribiste.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Gemini genera con un modelo llamado Nano Banana 2 y tiene un límite diario de imágenes que Google no publica en cifras (Google, s. f.-a). Por eso conviene pensar el prompt antes de escribirlo, en vez de probar al azar hasta que se acabe el día.</p><p>Si prefieres otra herramienta, ChatGPT también crea y edita imágenes en su plan gratuito, en la web y en la app. Desde el celular deja seleccionar una zona de la imagen para editarla y cambiar la proporción, algo que te servirá cuando tengas que corregir defectos. Como en Gemini, su página de ayuda no dice cuántas imágenes puedes crear (OpenAI, 2026a).</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · «Pido el afiche completo, con título y todo, en un solo prompt»</strong></p><p>Los generadores todavía fallan con el texto dentro de la imagen. Pide la imagen sin texto y agrega el título en Canva. Lo verás en las secciones «Defectos típicos y cómo corregirlos» y «Laboratorio 2: compón la pieza en Canva».</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Iterar y seleccionar",
+       "paragraph": "<p>Rara vez la primera imagen es la final. <strong>Iterar</strong> es partir de una idea central y agregar o cambiar un detalle en cada versión, hasta acercarte a lo que buscas (Google, 2026). Así lo hizo Andrés:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Versión</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Cambio en el prompt</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Resultado</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>v1</p></td><td colspan=\"1\" rowspan=\"1\"><p>Prompt completo de la sección «Composición, luz y formato»</p></td><td colspan=\"1\" rowspan=\"1\"><p>Buena composición, pero el pasillo se ve angosto</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>v2</p></td><td colspan=\"1\" rowspan=\"1\"><p>«pasillo muy amplio, con líneas amarillas de demarcación en el piso»</p></td><td colspan=\"1\" rowspan=\"1\"><p>Se entiende mejor el mensaje</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>v3</p></td><td colspan=\"1\" rowspan=\"1\"><p>«agrega a un compañero ordenando cajas en un estante»</p></td><td colspan=\"1\" rowspan=\"1\"><p>Muestra la acción que la campaña pide</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>La recomendación del curso es cambiar una cosa a la vez, porque así sabes qué produjo la mejora. Si cambias el estilo, la luz y los personajes al mismo tiempo, pierdes lo que ya funcionaba y no sabes qué causó el cambio. Repetir el mismo prompt esperando que el azar lo arregle tampoco sirve: no aprendes nada y gastas tus usos.</p><p>Cuando tengas dos o tres buenas opciones, elige con criterios y no solo por gusto. Pregúntate si se entiende el mensaje sin leer el título, si queda espacio libre para el título y el texto, si sirve en el formato de tu canal y si tiene algún defecto o sesgo, que verás en las secciones «Defectos típicos y cómo corregirlos» y «Sesgos visuales». La OMPI recomienda llevar registro de las instrucciones y documentar el aporte humano (OMPI, 2024), y elegir entre versiones y decidir qué cambiar es parte de ese aporte.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tres versiones</strong></p><p>Genera tres versiones de tu imagen cambiando un solo detalle en cada una. Anota en tu bitácora cada prompt, qué cambiaste y cuál elegiste, con una razón basada en los criterios de esta pantalla.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Defectos típicos y cómo corregirlos",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Defectos típicos y cómo corregirlos",
+       "paragraph": "<p>Antes de usar una imagen, búscale los defectos. El más frecuente es el texto: dentro de una imagen generada suele salir mal escrito o mal ubicado. La guía de Google aconseja que sea breve, de 25 caracteres o menos, y advierte que su ubicación y su tipografía solo se controlan de forma aproximada (Google, 2026). OpenAI reconoce límites parecidos en sus modelos de imagen: les cuesta ubicar el texto con precisión, controlar la composición en diseños estructurados y mantener igual a un personaje o una marca de una imagen a otra (OpenAI, s. f.). Si haces dos versiones de tu pieza, el personaje puede cambiar.</p><p>Hay otros defectos que solo detectas mirando con calma y con zoom, como una etiqueta de seguridad con letras inventadas o una caja flotando sobre un estante. Parecen detalles, pero restan seriedad a una campaña. Cuando encuentres uno, corrige en este orden:</p><ol><li><p>Quita el texto de la imagen y agrégalo después en Canva, donde controlas la letra y la ubicación.</p></li><li><p>Edita solo la zona con el problema, con la función de edición de Gemini o de ChatGPT que viste en la sección «Laboratorio 1: genera tu imagen».</p></li><li><p>Vuelve a generar con un prompt más preciso, si el defecto está en toda la imagen.</p></li><li><p>Descarta la imagen si el defecto no se puede corregir.</p></li></ol>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "La imagen de Andrés está muy bien, pero el letrero del fondo dice «SALDIA DE EMERGECNIA». ¿Qué conviene hacer?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Dejarlo: casi nadie lo va a notar",
+         "correct": false,
+         "feedback": "<p>El texto generado suele salir con errores. Un letrero mal escrito resta seriedad a una campaña de seguridad.</p>"
+        },
+        {
+         "title": "Editar esa zona o quitar el letrero, y poner los textos en Canva",
+         "correct": true,
+         "feedback": "<p>El texto generado suele salir con errores. Un letrero mal escrito resta seriedad a una campaña de seguridad.</p>"
+        },
+        {
+         "title": "Pedirle a la IA que escriba un párrafo más largo en el letrero",
+         "correct": false,
+         "feedback": "<p>El texto generado suele salir con errores. Un letrero mal escrito resta seriedad a una campaña de seguridad.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Diseño básico: jerarquía visual",
+       "paragraph": "<p>La <strong>jerarquía visual</strong> es el orden en que la vista recorre los elementos de una pieza, según la importancia que les quieres dar (Gordon, 2021). En un afiche de campaña, lo primero que se ve tiene que ser el mensaje principal. Se construye con tres recursos que puedes aplicar sin haber estudiado diseño.</p><p>El primero es el contraste: lo que se diferencia de su entorno llama la atención. Funciona mejor la diferencia de valor, entre claro y oscuro, y la de saturación, entre intenso y apagado, que la diferencia de tono, y no conviene depender solo del color. El segundo es la escala: lo más grande se ve primero. Usa pocos tamaños distintos, un título grande, un texto mediano y, si hace falta, un dato pequeño, porque si todo es grande, nada destaca. El tercero es la agrupación: lo que va junto se entiende como una unidad. Se agrupa por cercanía, con bordes o con un fondo común, y se separa con espacio entre grupos (Gordon, 2021).</p><p>Antes de pasar a Canva, mira tu imagen elegida y decide dónde irá el título, qué irá en segundo lugar y qué espacio quedará libre. Basta un boceto rápido en papel o en una nota del celular.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · El afiche de Andrés, antes y después</strong></p><p>En la primera versión, la imagen ocupaba todo, el título iba en letra mediana y había cuatro textos del mismo tamaño repartidos por la pieza: nadie sabía dónde mirar. En la segunda, el título «Pasillo despejado, bodega segura» va arriba, grande y en negrita; la imagen, al centro; y abajo, juntas, dos líneas con lo que se pide: «Deja las cajas en su ubicación» y «Avisa si ves un pasillo bloqueado».</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Legibilidad: contraste y texto alternativo",
+       "paragraph": "<p>Una pieza que no se lee no comunica. Las Pautas de Accesibilidad para el Contenido Web (WCAG) del W3C son un estándar internacional que da criterios concretos para evitarlo. Piden que el texto tenga un <strong>contraste mínimo</strong> de 4,5:1 con su fondo, y de 3:1 si es texto grande, que es el de 18 puntos o más, o de 14 puntos o más en negrita (W3C, 2024). Los íconos o flechas necesarios para entender la pieza también requieren 3:1.</p><p>Las mismas pautas dicen que el color no puede ser el único medio para transmitir información: si marcas en rojo una zona prohibida, agrega un ícono o una palabra. Y si la pieza se publica en digital, la imagen necesita un texto alternativo, una descripción en texto que cumpla la misma función para quien no puede verla (W3C, 2024).</p><p>Un error común es pensar que, si se ve bien en tu pantalla, se lee bien en todas. Tu pantalla puede tener más brillo o tamaño que la de tus colegas, y el contraste mínimo asegura que se lea en distintas condiciones. Como recomendación del curso, usa letra oscura sobre fondo claro, o clara sobre fondo oscuro, evita poner texto sobre zonas de la imagen con muchos detalles y haz una prueba: mira la pieza en el celular con el brillo bajo y a un brazo de distancia. Si te cuesta leer el título, sube el contraste o el tamaño.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Texto alternativo de Andrés</strong></p><p>Para el grupo del equipo, Andrés escribe: «Afiche de campaña. Una trabajadora empuja un carro por un pasillo despejado. Título: Pasillo despejado, bodega segura».</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Laboratorio 2: compón la pieza en Canva",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Laboratorio 2: compón la pieza en Canva",
+       "paragraph": "<p>Con tu imagen elegida, arma la pieza en Canva, en la app o en la web:</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Laboratorio 2: compón la pieza en Canva",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Laboratorio 2: compón la pieza en Canva",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Crea un diseño con el formato de tu canal",
+       "description": "<p>vertical para el diario mural o para el teléfono.</p>"
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Sube tu imagen y ubícala dejando espacio para el título.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Escribe el título con tu mensaje, grande y en negrita, con buen contraste.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Agrega una o dos líneas con lo que le pides al equipo, agrupadas.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Revisa la jerarquía: pocos tamaños, espacio entre grupos, nada amontonado.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Descarga la pieza y, si tu campaña lo necesita, haz una segunda versión en el otro formato.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Canva también genera imágenes con IA. En el plan gratuito tienes hasta 20 usos de IA al mes, compartidos entre todas sus herramientas de IA, y la cuota se renueva el día 1 de cada mes (Canva, s. f.-b). Si ya generaste tu imagen en Gemini, guarda esos usos para la voz o la música del tema 3.</p><p>Según los términos de Canva, eres dueña o dueño de lo que generas con su IA, salvo que incluyas contenido de su biblioteca: las fotos, íconos o ilustraciones de Canva solo se licencian. Canva también prohíbe quitar los metadatos de procedencia y hacer pasar por humano lo generado con IA (Canva, 2026).</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · «Todo lo que está en Canva es mío porque lo usé en mi diseño»</strong></p><p>Los elementos de la biblioteca de Canva solo se licencian: no pasan a ser tuyos. Anótalos en tu ficha de uso ético.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Sesgos visuales",
+       "paragraph": "<p>Los generadores de imágenes aprenden de imágenes que ya existen, y con ellas aprenden también sus estereotipos. A esto se le llama <strong>sesgo visual</strong>, y no es una sospecha. Un estudio de 2023 pidió a tres generadores de imágenes retratos de distintas profesiones: las imágenes reflejaban en parte la composición de cada oficio en Estados Unidos y, de forma sistemática, subrepresentaban a las identidades marginadas, en distinto grado según el sistema (Luccioni et al., 2023). Por eso el sesgo puede aparecer aunque tu prompt no diga nada sobre género ni edad.</p><p>El problema no es solo de la IA. La comunicación institucional también puede reforzar estereotipos sin proponérselo. La guía del Gobierno de Chile <em>Comunicación sin estereotipos de género</em> muestra campañas visuales en su versión «antes» y «después», por ejemplo cuando los roles de cuidado se asignan solo a mujeres (Gobierno de Chile, 2024). Si la herramienta te entrega un estereotipo y tú lo publicas, el mensaje pasa a ser de tu organización.</p><p>Cuidar cómo representas a las personas es parte de comunicar bien. Quien no se ve en la campaña siente que no le habla, y una campaña interna que deja fuera a parte del equipo pierde justo a quienes tenía que convencer.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Lo que salió sin pedirlo</strong></p><p>Andrés pide «trabajadores de bodega ordenando cajas» y las cuatro imágenes muestran hombres jóvenes, aunque en su bodega trabajan mujeres y hombres de distintas edades. Rosa pide «personal de un centro médico atendiendo» y todas las imágenes ponen a un hombre como médico y a mujeres como asistentes.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Detecta y corrige sesgos y defectos",
+       "paragraph": "<p>Antes de publicar, revisa tus imágenes con preguntas. La guía de Gobierno sugiere, entre otras, preguntarte si hay diversidad étnica, de género y de roles, y si la imagen refleja equidad sin perpetuar estereotipos (Gobierno de Chile, 2024). El curso agrega dos más: si aparecen distintas edades y cuerpos, como en un equipo real, y quién hace la acción y quién mira, para notar si el rol importante lo tiene siempre el mismo perfil. Para los defectos, repasa lo de la sección «Defectos típicos y cómo corregirlos»: si el texto está bien escrito o lo quitaste, y si hay elementos mal ubicados o sin sentido.</p><p>Si encuentras un sesgo, que en estos generadores es sistemático (Luccioni et al., 2023), tienes dos caminos. Puedes cambiar el prompt y describir la diversidad que quieres, por ejemplo «un equipo de bodega con mujeres y hombres de distintas edades». O puedes cambiar la selección: si de cuatro variantes solo una muestra un equipo diverso, elige esa. En los dos casos vuelve a revisar, porque a veces corregir un sesgo trae otro, como dejar a todas las mujeres en segundo plano.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Revisa cuatro variantes</strong></p><p>Andrés generó cuatro versiones. Decide cuál usaría y qué corregiría en las otras, y después compara con estas respuestas:</p><ol><li><p>Tres hombres jóvenes cargando cajas. → Sesgo de género y edad: cambiar el prompt.</p></li><li><p>Una mujer y un hombre mayor ordenando un estante; letrero con letras inventadas. → Buena representación: quitar el letrero.</p></li><li><p>Un hombre trabaja y una mujer lo mira con una libreta. → Sesgo de roles: cambiar la acción.</p></li><li><p>Un equipo diverso, pasillo despejado, sin texto. → Lista para usar.</p></li></ol>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Personas reales y marcas",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Personas reales y marcas",
+       "paragraph": "<p>Las imágenes generadas pueden parecerse a una persona real o usar una marca ajena, y en una campaña interna eso también importa. La OMPI recomienda no sintetizar la apariencia de una persona real sin su consentimiento y sin las licencias necesarias (OMPI, 2024). Si quieres poner a alguien de tu equipo en la pieza, pídele permiso antes de usar su foto, y más aún si la vas a editar con IA. En el tema 3 verás además que la Ley 21.719 pone los rasgos faciales como ejemplo de datos biométricos, que pasan a ser datos personales sensibles (Ley 21.719, 2024).</p><p>Un error común es pensar que, por ser una campaña interna, se puede usar la cara de un colega o de la gerencia sin preguntar. Que la pieza no salga de la empresa no elimina el derecho de cada persona sobre su imagen: sin consentimiento, no se usa su cara ni se genera una parecida, y nombrarla en los créditos no reemplaza su permiso.</p><p>Con las marcas y las obras ajenas pasa algo parecido. La OMPI también recomienda no usar en las instrucciones nombres comerciales, marcas ni obras de terceros (OMPI, 2024), así que no pidas una imagen «al estilo de» un personaje conocido ni con el logo de una marca. Si vas a usar el logo de tu propia organización, la recomendación del curso es hacerlo solo si te autorizaron. Y no inventes hechos: una imagen realista de un accidente que no ocurrió, presentada como real, es un ultrafalso aunque la intención sea buena, y la OMPI recomienda no usar herramientas para producirlos.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Andrés quiere una imagen «al estilo de una película animada famosa». ¿Qué le recomiendas?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Está bien si es para uso interno",
+         "correct": false,
+         "feedback": "<p>La OMPI recomienda no usar obras ni marcas de terceros en las instrucciones. Un estilo se puede describir con palabras propias.</p>"
+        },
+        {
+         "title": "Describir un estilo propio, como «ilustración plana con colores sólidos», sin nombrar obras de terceros",
+         "correct": true,
+         "feedback": "<p>La OMPI recomienda no usar obras ni marcas de terceros en las instrucciones. Un estilo se puede describir con palabras propias.</p>"
+        },
+        {
+         "title": "Usarlo y dar crédito al estudio de la película",
+         "correct": false,
+         "feedback": "<p>La OMPI recomienda no usar obras ni marcas de terceros en las instrucciones. Un estilo se puede describir con palabras propias.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Credenciales de contenido y transparencia",
+       "paragraph": "<p>Algunas herramientas marcan sus imágenes para que se sepa que se hicieron con IA. Google inserta <strong>SynthID</strong>, una marca de agua invisible, en el contenido que crean sus modelos, y en la app Gemini puedes subir un archivo para revisar si se hizo con IA de Google, aunque solo detecta herramientas de Google (Google, s. f.-b). OpenAI, por su parte, pone en las imágenes de ChatGPT una marca SynthID y además <strong>credenciales de contenido</strong> C2PA, un registro del origen y las ediciones del archivo que viaja en sus metadatos (OpenAI, 2026b).</p><p>El problema es que los metadatos se pierden con facilidad. OpenAI indica que las credenciales C2PA se pierden con una captura de pantalla o al convertir el archivo, mientras que la marca de agua resiste cambios leves (OpenAI, 2026b). Si compartes tu afiche con una captura, la constancia de que se hizo con IA puede desaparecer sin que lo notes.</p><p>La conclusión práctica es no confiar en que el archivo lo dirá por ti. Si la imagen es realista, agrega una etiqueta visible, como «Imagen generada con IA», y regístralo en tu ficha de uso ético. Tampoco quites las marcas que trae: ya viste en la sección «Laboratorio 2: compón la pieza en Canva» que Canva prohíbe quitar los metadatos de procedencia.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Andrés comparte su afiche en el grupo del equipo con una captura de pantalla. ¿Qué pasa con las credenciales C2PA?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Se mantienen siempre",
+         "correct": false,
+         "feedback": "<p>Una captura de pantalla o una conversión de archivo borra esos metadatos. La transparencia no puede depender solo de ellos.</p>"
+        },
+        {
+         "title": "Se pueden perder: por eso conviene una etiqueta visible y la ficha",
+         "correct": true,
+         "feedback": "<p>Una captura de pantalla o una conversión de archivo borra esos metadatos. La transparencia no puede depender solo de ellos.</p>"
+        },
+        {
+         "title": "Se convierten en una marca visible",
+         "correct": false,
+         "feedback": "<p>Una captura de pantalla o una conversión de archivo borra esos metadatos. La transparencia no puede depender solo de ellos.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Cierre: entrega tu pieza",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Cierre: entrega tu pieza",
+       "paragraph": "<p>En este laboratorio pasaste del mensaje a la pieza. Escribiste un brief visual, armaste un prompt con sujeto, contexto, estilo y modificadores, iteraste y elegiste con criterios, corregiste defectos y sesgos, y compusiste la pieza con jerarquía y contraste (Gordon, 2021; W3C, 2024). Antes de darla por terminada, revísala completa:</p><ul><li><p>☐ El mensaje principal es lo primero que se ve.</p></li><li><p>☐ Hay pocos tamaños de letra y espacio entre los grupos.</p></li><li><p>☐ El texto tiene buen contraste y no depende solo del color.</p></li><li><p>☐ No hay texto mal escrito ni elementos sin sentido.</p></li><li><p>☐ Las personas están representadas con diversidad y sin estereotipos.</p></li><li><p>☐ No aparecen personas reales sin permiso, ni marcas u obras de terceros.</p></li><li><p>☐ Si es realista, lleva una etiqueta visible de IA.</p></li><li><p>☐ Si es digital, tiene texto alternativo.</p></li></ul>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tu pieza y su ficha</strong></p><p>Entrega tu pieza final de la campaña interna en el formato de tu canal. Luego completa la ficha de uso ético que empezaste en el tema 1 con las herramientas y su plan, qué se generó con IA, tus prompts principales, tu aporte humano (qué elegiste y qué corregiste), los permisos y los créditos de los elementos de Canva que usaste. Termina con dos líneas sobre un sesgo o un defecto que encontraste y cómo lo corregiste.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Ideas clave"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<ol><li><p>Una pieza de campaña parte del mensaje, el público, el canal y el formato; la imagen viene después.</p></li><li><p>Un prompt visual tiene sujeto, contexto y fondo, y estilo; los modificadores controlan encuadre, cámara, luz, lente y relación de aspecto.</p></li><li><p>Se itera cambiando un detalle a la vez y se selecciona con criterios, registrando prompts y aporte humano.</p></li><li><p>El texto dentro de la imagen generada suele salir con errores: conviene agregarlo en el editor.</p></li><li><p>La jerarquía visual se construye con contraste, escala y agrupación; el texto necesita un contraste mínimo de 4,5:1 (3:1 si es grande).</p></li><li><p>Los generadores reproducen sesgos: hay que revisar diversidad y roles, y corregir el prompt o la selección.</p></li><li><p>Las marcas SynthID y C2PA ayudan, pero los metadatos se pierden al compartir: si la imagen es realista, se etiqueta de forma visible.</p></li></ol>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Referencias bibliográficas",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Estas son las fuentes citadas en este tema, en formato APA 7. Los enlaces se abren en una pestaña nueva.</p><p>Canva. (s. f.-a). <em>Canva for Android</em>. <a href=\"https://www.canva.com/download/android/\" target=\"_blank\" rel=\"noopener\">https://www.canva.com/download/android/</a></p><p>Canva. (s. f.-b). <em>Comprender el uso de la IA</em>. <a href=\"https://www.canva.com/es_es/help/ai-access/\" target=\"_blank\" rel=\"noopener\">https://www.canva.com/es_es/help/ai-access/</a></p><p>Canva. (2026, 26 de junio). <em>AI product terms</em>. <a href=\"https://www.canva.com/policies/ai-product-terms/\" target=\"_blank\" rel=\"noopener\">https://www.canva.com/policies/ai-product-terms/</a></p><p>Gobierno de Chile. (2024). <em>Guía ilustrada: comunicación sin estereotipos de género</em>. Kit Digital. <a href=\"https://kitdigital.gob.cl/archivos/insumos/2025/Nueva%20Guia%20Ilustrada%20Comunicacion%202024.pdf\" target=\"_blank\" rel=\"noopener\">https://kitdigital.gob.cl/archivos/insumos/2025/Nueva%20Guia%20Ilustrada%20Comunicacion%202024.pdf</a></p><p>Google. (s. f.-a). <em>Generar imágenes con las aplicaciones de Gemini</em>. <a href=\"https://support.google.com/gemini/answer/14286560?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/14286560?hl=es</a></p><p>Google. (s. f.-b). <em>Verificar imágenes, vídeos y audio generados por IA</em>. <a href=\"https://support.google.com/gemini/answer/16722517?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/16722517?hl=es</a></p><p>Google. (2026, 23 de octubre). <em>Guía de atributos de imágenes y mensajes (Vertex AI)</em>. Google Cloud. <a href=\"https://docs.cloud.google.com/vertex-ai/generative-ai/docs/image/img-gen-prompt-guide?hl=es-419\" target=\"_blank\" rel=\"noopener\">https://docs.cloud.google.com/vertex-ai/generative-ai/docs/image/img-gen-prompt-guide?hl=es-419</a></p><p>Gordon, K. (2021, 17 de enero). <em>Visual hierarchy in UX: Definition</em>. Nielsen Norman Group. <a href=\"https://www.nngroup.com/articles/visual-hierarchy-ux-definition/\" target=\"_blank\" rel=\"noopener\">https://www.nngroup.com/articles/visual-hierarchy-ux-definition/</a></p><p>Ley 21.719. (2024, 13 de diciembre). <em>Regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales</em>. Biblioteca del Congreso Nacional de Chile. <a href=\"https://www.bcn.cl/leychile/navegar?idNorma=1209272\" target=\"_blank\" rel=\"noopener\">https://www.bcn.cl/leychile/navegar?idNorma=1209272</a></p><p>Luccioni, A. S., Akiki, C., Mitchell, M. y Jernite, Y. (2023). <em>Stable bias: Analyzing societal representations in diffusion models</em>. arXiv. <a href=\"https://arxiv.org/abs/2303.11408\" target=\"_blank\" rel=\"noopener\">https://arxiv.org/abs/2303.11408</a></p><p>OMPI. (2024). <em>IA generativa: cómo abordar la propiedad intelectual (RN2024-8ES)</em>. <a href=\"https://doi.org/10.34667/tind.49471\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.34667/tind.49471</a></p><p>OpenAI. (s. f.). <em>Image generation</em>. OpenAI API Docs. <a href=\"https://developers.openai.com/api/docs/guides/image-generation\" target=\"_blank\" rel=\"noopener\">https://developers.openai.com/api/docs/guides/image-generation</a></p><p>OpenAI. (2026a, 24 de octubre). <em>Images in ChatGPT</em>. OpenAI Help Center. <a href=\"https://help.openai.com/en/articles/11084440-images-in-chatgpt\" target=\"_blank\" rel=\"noopener\">https://help.openai.com/en/articles/11084440-images-in-chatgpt</a></p><p>OpenAI. (2026b, 24 de octubre). <em>Provenance signals in OpenAI-generated content</em>. OpenAI Help Center. <a href=\"https://help.openai.com/en/articles/8912793-provenance-signals-in-openai-generated-content\" target=\"_blank\" rel=\"noopener\">https://help.openai.com/en/articles/8912793-provenance-signals-in-openai-generated-content</a></p><p>W3C. (2024, 12 de diciembre). <em>Web Content Accessibility Guidelines (WCAG) 2.2</em>. <a href=\"https://www.w3.org/TR/WCAG22/\" target=\"_blank\" rel=\"noopener\">https://www.w3.org/TR/WCAG22/</a></p>"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

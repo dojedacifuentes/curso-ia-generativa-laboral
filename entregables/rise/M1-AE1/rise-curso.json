@@ -1,0 +1,937 @@
+{
+ "ae": "M1-AE1",
+ "titulo": "Fundamentos de IA generativa",
+ "descripcion": "<p><strong>Competencia del módulo:</strong> Interactuar con modelos de IA generativa mediante prompts efectivos y validación de resultados, para apoyar tareas de oficina de forma verificada.</p><p><strong>Aprendizaje esperado:</strong> Explicar el funcionamiento general, los tipos y los límites de la IA generativa, ejemplificando sus usos en tareas laborales cotidianas.</p><p>En este tema vas a conocer la herramienta con la que trabajarás todo el curso. Antes de pedirle algo a una inteligencia artificial conviene saber qué es, cómo produce sus respuestas, qué tipos existen y dónde se equivoca. Con eso vas a poder decidir cuándo te ahorra tiempo en tu trabajo y cuándo no.</p>",
+ "lecciones": [
+  {
+   "titulo": "Qué es la IA generativa",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Qué vas a lograr en este tema",
+       "paragraph": "<p>En este tema vas a conocer la herramienta con la que trabajarás todo el curso. Antes de pedirle algo a una inteligencia artificial conviene saber qué es, cómo produce sus respuestas, qué tipos existen y dónde se equivoca (Miao y Holmes, 2024). Con eso vas a poder decidir cuándo te ahorra tiempo en tu trabajo y cuándo no.</p><p><strong>Competencia del módulo:</strong> Interactuar con modelos de IA generativa mediante prompts efectivos y validación de resultados, para apoyar tareas de oficina de forma verificada.</p><p><strong>Aprendizaje esperado:</strong> Explicar el funcionamiento general, los tipos y los límites de la IA generativa, ejemplificando sus usos en tareas laborales cotidianas.</p><p>Al final deberías poder explicarlo con tus palabras y dar al menos tres usos y dos límites pensando en las tareas de tu propio cargo.</p><p>En los ejemplos te van a acompañar dos personas. Camila es asistente administrativa en una constructora: responde correos de proveedores, lleva la agenda de su jefatura y registra facturas y contratos. Andrés es encargado de bodega en una distribuidora y cada semana entrega un reporte de stock. Son ficticias, pero sus tareas se parecen a las de cualquier oficina. No necesitas saber programar ni pagar una licencia: todo lo que veas se puede probar con asistentes gratuitos, también desde el celular.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Qué es la IA generativa",
+       "paragraph": "<p>La <strong>inteligencia artificial generativa</strong> es un tipo de IA que produce contenido nuevo: textos, imágenes, audio, y también código o video (Miao y Holmes, 2024; National Institute of Standards and Technology, 2024). No te entrega algo que estaba guardado en alguna parte, como hace un buscador cuando te muestra una página que ya existe. Crea un resultado a partir de lo que le pides.</p><p>La diferencia se ve mejor al lado de herramientas que ya usas en la oficina:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Herramienta</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué hace</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Ejemplo</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Buscador</p></td><td colspan=\"1\" rowspan=\"1\"><p>Encuentra páginas que ya existen</p></td><td colspan=\"1\" rowspan=\"1\"><p>Buscar la dirección de una oficina pública</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Programa con reglas</p></td><td colspan=\"1\" rowspan=\"1\"><p>Aplica condiciones que escribió una persona</p></td><td colspan=\"1\" rowspan=\"1\"><p>Una planilla que marca en rojo las facturas vencidas</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>IA generativa</p></td><td colspan=\"1\" rowspan=\"1\"><p>Produce un contenido nuevo según tu instrucción</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Escribe un correo breve para pedirle una reunión a mi jefatura»</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>A la instrucción que le das se le llama <strong>prompt</strong>. Puede ser una pregunta, una orden o un texto con indicaciones. Lo vas a trabajar a fondo en el tema siguiente; por ahora basta con saber que la calidad de lo que recibes depende mucho de cómo lo pides.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · El mismo pedido, tres herramientas</strong></p><p>Andrés necesita avisar a su equipo que el inventario se hará el viernes. Un buscador le muestra avisos que escribieron otras personas. Una planilla con reglas no le sirve para eso. Un asistente de IA generativa le escribe un aviso nuevo, con la fecha y el tono que él indique, en segundos.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Cómo produce sus respuestas",
+       "paragraph": "<p>Un modelo generativo de texto aprendió a partir de enormes cantidades de ejemplos escritos. De ese entrenamiento sacó sobre todo patrones: qué palabras suelen ir con otras, cómo se ordena un correo, cómo se responde una pregunta (Miao y Holmes, 2024). Cuando le escribes, no busca una respuesta guardada. Arma una nueva, pieza por pieza, y lo hace tan rápido que parece que escribiera frente a ti.</p><p>El proceso se repite muchas veces en cada respuesta:</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Cómo produce sus respuestas",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Cómo produce sus respuestas",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Lee tu mensaje y lo que va de la conversación.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Estima qué continuaciones son probables, elige una y la agrega.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Vuelve a calcular con el texto ya agregado, hasta terminar.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Esa elección tiene algo de azar, y por eso el mismo pedido puede darte respuestas distintas. También explica algo más importante: el modelo no «sabe» ni «entiende» como una persona, sino que predice texto plausible. Casi siempre eso coincide con algo correcto y útil, pero no siempre, y de esa diferencia nacen los límites que verás más adelante en este tema (OpenAI, 2026a).</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · «Si lo dice con seguridad, es verdad»</strong></p><p>El tono seguro es parte del estilo que aprendió el modelo, no una prueba de que el contenido sea correcto. Una respuesta puede sonar impecable y estar equivocada.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Modelos de lenguaje",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Modelos de lenguaje",
+       "paragraph": "<p>Los <strong>modelos de lenguaje</strong> generan texto (Miao y Holmes, 2024). Son la base de los asistentes conversacionales más conocidos, a los que les escribes como si fuera un chat. En una oficina sirven para redactar borradores de correos, avisos y minutas; para resumir un documento largo o un reglamento interno; para pasar un texto informal a uno formal, o acortarlo; para ordenar notas sueltas en una lista o una tabla, y para que te expliquen un término técnico con un ejemplo simple (Google, s. f.-b).</p><p>Camila los usa casi a diario. Un proveedor le escribió para reclamar por un pago y ella tomó apuntes sueltos de lo que averiguó con contabilidad. Le pide a un asistente que ordene esos apuntes en un correo de respuesta de diez líneas y recibe un borrador en segundos. No lo envía tal cual: lo revisa, corrige una fecha que el asistente escribió mal y cambia una frase que no suena a ella.</p><p>Ese último paso es parte del trabajo. El asistente le ahorra el tiempo de partir de una hoja en blanco, pero el correo sale con su nombre y la fecha de pago tiene que ser la que acordó contabilidad.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "¿Cuál de estas tareas es propia de un modelo de lenguaje?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Crear una fotografía de un producto",
+         "correct": false,
+         "feedback": "<p>Los modelos de lenguaje trabajan con texto. La fotografía y la voz las generan modelos de imagen y de audio.</p>"
+        },
+        {
+         "title": "Resumir un reglamento interno en cinco puntos",
+         "correct": true,
+         "feedback": "<p>Los modelos de lenguaje trabajan con texto. La fotografía y la voz las generan modelos de imagen y de audio.</p>"
+        },
+        {
+         "title": "Generar la voz para un video",
+         "correct": false,
+         "feedback": "<p>Los modelos de lenguaje trabajan con texto. La fotografía y la voz las generan modelos de imagen y de audio.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Modelos de imagen",
+       "paragraph": "<p>Los <strong>modelos de imagen</strong> generan imágenes a partir de una descripción escrita (Miao y Holmes, 2024). También pueden modificar una imagen que ya tienes: cambiar el fondo, quitar un objeto o crear variaciones. En el trabajo sirven para ilustrar una presentación o un afiche, para mostrar una idea en un boceto antes de encargar un diseño, o para probar varias versiones y ver cuál comunica mejor.</p><p>Para pedir una imagen se describe lo que se quiere ver: el objeto, el estilo, los colores y el encuadre. Por ejemplo: «Ilustración simple de una bodega ordenada, estilo plano, colores azul y gris, sin texto».</p><p>Un error común es usar la imagen generada sin mirarla con calma. A estos modelos todavía les cuesta escribir texto nítido dentro de la imagen y ubicar cada elemento justo donde se pidió, así que una imagen puede traer letras ilegibles o piezas fuera de lugar (OpenAI, s. f.). Se revisa siempre antes de imprimirla o publicarla. Las licencias y los derechos de uso los verás en detalle en el módulo 4.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Andrés y el afiche de seguridad</strong></p><p>Andrés quiere un afiche que recuerde usar calzado de seguridad en la bodega. Pide una ilustración simple con una persona que lleva zapatos de seguridad. Antes de imprimirla revisa los detalles y nota que el cartel que aparece en la pared tiene letras sin sentido. Pide una versión sin texto y agrega el mensaje después, con su propio programa.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Modelos de audio",
+       "paragraph": "<p>Los <strong>modelos de audio</strong> generan sonido: voz sintética a partir de un texto, música o efectos (Miao y Holmes, 2024). Algunas herramientas además hacen lo contrario y convierten una grabación en texto, algo útil para tomar notas de una reunión (Google, s. f.-a). En el trabajo se usan para locutar un video de capacitación o un mensaje informativo, para escuchar en voz alta un texto mientras lo revisas, o para crear una pista musical de fondo para un video breve.</p><p>Imitar la voz de una persona real sin su permiso es otra cosa: es un problema ético y legal. El consentimiento y los derechos de voz los vas a trabajar en el módulo 4.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Un mensaje para la central telefónica</strong></p><p>Una tienda necesita un mensaje grabado con su horario de atención. En vez de grabarlo, alguien escribe el texto y un modelo de audio lo convierte en una voz clara. Antes de usarlo conviene escucharlo completo y fijarse en cómo suenan las siglas, los nombres y los números, porque son las partes que más cuesta corregir después de publicadas.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Qué tipo de modelo usar para cada tarea",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Qué tipo de modelo usar para cada tarea",
+       "paragraph": "<p>Muchas herramientas actuales son <strong>multimodales</strong>: reciben o entregan más de un tipo de contenido (Google, s. f.-a). Puedes, por ejemplo, sacarle una foto a una factura en papel y pedir que te pase sus datos a una tabla. Entra una imagen y sale texto.</p><p>Aun así, cada tarea tiene un tipo de salida, y esa salida te dice qué buscar. Si necesitas un correo, un resumen o una lista, trabajas con un modelo de lenguaje. Si necesitas una ilustración o un afiche, con uno de imagen. Si lo que quieres es una locución o una pista musical, con uno de audio. Y cuando la tarea consiste en leer una imagen y convertirla en texto, necesitas una herramienta multimodal.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Clasifica estas tareas</strong></p><p>Arrastra cada tarea al tipo de modelo que corresponde:</p><ol><li><p>Redactar la respuesta a un reclamo de un cliente. → Lenguaje</p></li><li><p>Crear la imagen para un aviso interno sobre la semana de la seguridad. → Imagen</p></li><li><p>Generar la voz de un video de bienvenida. → Audio</p></li><li><p>Convertir la foto de una guía de despacho en una tabla. → Multimodal</p></li><li><p>Resumir el acta de una reunión. → Lenguaje</p></li><li><p>Producir música de fondo para un video corto. → Audio</p></li></ol>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Tokens: cómo «lee» el modelo",
+       "paragraph": "<p>Los modelos no leen palabras completas como tú: dividen el texto en fragmentos llamados <strong>tokens</strong>. Un token puede ser una palabra corta, parte de una palabra larga, un carácter o un signo de puntuación, y los espacios y las mayúsculas también cambian la forma en que se divide (OpenAI, 2026b). Una palabra como «inventario» puede quedar partida en más de un token, y la cantidad de tokens de un mismo texto cambia según el idioma y el modelo (Google, 2026).</p><p>Te importa porque los tokens son la unidad con que el modelo mide su trabajo. Lo que puede leer de una vez tiene un máximo, contado en tokens, y la respuesta tiene su propio tope. Un error común es suponer que el asistente siempre lee completo el documento que pegaste: si el texto supera ese máximo, una parte puede quedar fuera sin que te avise con claridad. Con documentos largos conviene trabajar por partes, acortar lo repetido o preguntarle qué secciones consideró.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Mira los tokens</strong></p><p>Algunas herramientas muestran cómo se divide un texto en tokens. Si tienes acceso a una, pega una frase de un correo de tu trabajo, sin nombres ni datos de clientes, y observa cuántos fragmentos aparecen. Fíjate en qué pasa con las palabras largas y con los signos.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Contexto: lo que el modelo tiene a la vista",
+       "paragraph": "<p>El <strong>contexto</strong> es todo lo que el modelo tiene a la vista para responder: tus instrucciones, los mensajes anteriores de la conversación y los archivos o textos que le entregaste (Anthropic, s. f.). A su capacidad máxima se le llama <strong>ventana de contexto</strong>, y también se mide en tokens.</p><p>De ahí salen tres consecuencias prácticas. Lo que no está en el contexto, el modelo no lo conoce: no sabe en qué empresa trabajas, qué acordaste con un proveedor ni cómo se llama tu jefatura, salvo que se lo digas. En una conversación muy larga, lo que escribiste al inicio puede perder peso o quedar fuera de la ventana, así que al cambiar de tarea a veces conviene empezar una conversación nueva (Anthropic, s. f.). Y una conversación nueva parte, en general, sin lo anterior. Algunas herramientas tienen funciones de memoria, pero no guardan todos los detalles (OpenAI, 2026c); revisa cómo funciona la tuya antes de suponer que «se acuerda».</p><p>Camila lo comprobó con un correo. Primero preguntó: «¿Mi respuesta está bien?», y el asistente le contestó con generalidades. Después pegó el correo del proveedor y su borrador, y preguntó: «¿Mi respuesta contesta todas las preguntas de este proveedor?». Esta vez recibió observaciones concretas, porque el modelo tenía a la vista lo que necesitaba.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Andrés pide «resume el reporte de esta semana», pero no pega el reporte. ¿Qué es lo más probable?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "El asistente busca el reporte en los archivos de la empresa",
+         "correct": false,
+         "feedback": "<p>El modelo solo trabaja con lo que está en su contexto. Si falta el reporte, puede pedirlo o, peor, inventar uno.</p>"
+        },
+        {
+         "title": "El asistente pide el texto o inventa un resumen genérico",
+         "correct": true,
+         "feedback": "<p>El modelo solo trabaja con lo que está en su contexto. Si falta el reporte, puede pedirlo o, peor, inventar uno.</p>"
+        },
+        {
+         "title": "El asistente recuerda el reporte de la semana pasada",
+         "correct": false,
+         "feedback": "<p>El modelo solo trabaja con lo que está en su contexto. Si falta el reporte, puede pedirlo o, peor, inventar uno.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Primer límite: la alucinación",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Primer límite: la alucinación",
+       "paragraph": "<p>Como el modelo predice texto plausible, a veces produce información falsa que suena verdadera: datos, fechas, nombres, citas o referencias que no existen. A esto se le llama <strong>alucinación</strong>, aunque algunos organismos prefieren decir «confabulación» (National Institute of Standards and Technology, 2024).</p><p>No pasa al azar. Es más probable cuando le pides hechos muy puntuales y poco frecuentes, como una fecha o un nombre que casi nadie ha escrito; cuando le pides fuentes o citas, porque puede inventar títulos de documentos o enlaces; y cuando haces una pregunta abierta que pide una respuesta larga sobre un tema que exige conocimiento experto (OpenAI, 2025; National Institute of Standards and Technology, 2024).</p><p>Una alucinación no avisa: llega con el mismo tono que una respuesta correcta. La defensa principal es verificar lo importante en una fuente confiable. También ayuda pedirle que diga «no lo sé» cuando no tenga la información, en vez de rellenar (OpenAI, 2025). Cómo verificar con método lo vas a trabajar en el tema 4 de este módulo.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · La firma que nadie pidió</strong></p><p>Camila pide un resumen del instructivo de rendición de gastos de la constructora. El asistente agrega que cada rendición necesita la firma del gerente general, algo que el instructivo no dice. Si Camila no compara el resumen con el documento, podría pedir una firma que nadie exige y atrasar las rendiciones de todo el equipo.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Segundo límite: el sesgo",
+       "paragraph": "<p>Los modelos aprenden de lo que la gente ha escrito y publicado. Si en esos datos hay estereotipos o miradas parciales, el modelo puede repetirlos. A esto se le llama <strong>sesgo</strong>.</p><p>Se ha documentado de varias formas. Al pedir imágenes de una persona gerente, de un médico o de un juez, los modelos de imagen tienden a mostrar el mismo tipo de persona y dejan fuera a mujeres y a otros grupos (National Institute of Standards and Technology, 2024). En un estudio de la UNESCO, al pedir historias sobre distintas personas, los modelos de lenguaje asignaron a los hombres trabajos más variados y de más prestigio, y a las mujeres roles domésticos o desvalorizados (Noticias ONU, 2024). Además, un modelo puede responder mejor en unos idiomas o formas de hablar que en otros (National Institute of Standards and Technology, 2024).</p><p>Por eso un error común es usar la IA para decidir sobre personas. Pedirle a un asistente que elija a quién contratar o ascender, o que califique a un trabajador, traslada sus sesgos a una decisión que afecta a alguien. Las decisiones sobre personas las toman personas, con criterios explícitos.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Detecta el sesgo</strong></p><p>Pide a un asistente «tres ejemplos de personas que trabajan en una bodega» y luego «tres ejemplos de personas que trabajan en recepción». Compara las respuestas: ¿qué supuestos aparecen sobre quién hace cada trabajo?</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Tercer límite: la fecha de corte",
+       "paragraph": "<p>Un modelo se entrena con información reunida hasta cierta fecha, su <strong>fecha de corte</strong> (OpenAI, 2026a). Lo que pasó después no está en su entrenamiento, y por eso puede dar como vigentes un valor, una norma o un precio que ya cambiaron.</p><p>A Andrés le pasó con un valor que se actualiza cada año, fijado por una norma. El asistente le dio una cifra de hace dos años, con total seguridad. Como iba a usarla en un documento para su jefatura, la buscó en la página del organismo que la publica y encontró el valor vigente.</p><p>Algunos asistentes pueden buscar en internet antes de responder y mostrar las fuentes que usaron. Eso ayuda con lo reciente, pero no elimina el problema: la búsqueda puede traer páginas poco confiables, el asistente puede no tener acceso a ciertos sitios o resumir mal lo que leyó (OpenAI, 2026a). Por eso las citas se revisan y los enlaces se abren.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Verdadero o falso: «Si el asistente puede buscar en internet, ya no es necesario revisar sus respuestas».",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Verdadero",
+         "correct": false,
+         "feedback": "<p>Buscar en internet ayuda con lo reciente, pero las fuentes pueden ser poco confiables y el resumen puede tener errores. Lo importante se verifica igual.</p>"
+        },
+        {
+         "title": "Falso",
+         "correct": true,
+         "feedback": "<p>Buscar en internet ayuda con lo reciente, pero las fuentes pueden ser poco confiables y el resumen puede tener errores. Lo importante se verifica igual.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "¿Delegar o no delegar?",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "¿Delegar o no delegar?",
+       "paragraph": "<p>Saber cómo funciona la IA generativa y dónde se equivoca te permite decidir qué tareas de tu cargo conviene delegarle (OpenAI, 2026a). Un criterio práctico es pensarlo como un semáforo:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p></p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Tipo de tarea</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Ejemplos</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Verde: conviene</p></td><td colspan=\"1\" rowspan=\"1\"><p>Borradores, ideas, reformular, resumir textos que tú entregas</p></td><td colspan=\"1\" rowspan=\"1\"><p>Primer borrador de un correo; ordenar notas; resumir un instructivo</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Amarillo: con revisión</p></td><td colspan=\"1\" rowspan=\"1\"><p>Datos, cálculos, hechos, información reciente</p></td><td colspan=\"1\" rowspan=\"1\"><p>Explicar una fórmula; dar una fecha; listar requisitos legales</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Rojo: no conviene</p></td><td colspan=\"1\" rowspan=\"1\"><p>Decisiones sobre personas, datos personales o confidenciales, lo que firmarías sin leer</p></td><td colspan=\"1\" rowspan=\"1\"><p>Elegir a quién ascender; pegar el RUT y la dirección de un cliente</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>La pregunta que ordena todo es esta: <strong>si la respuesta está mal, ¿quién se da cuenta y cuánto cuesta el error?</strong> Si el error es fácil de ver y barato, delega. Si es difícil de detectar o grave, revisa a fondo o no delegues. Ese cuidado importa más mientras más cómodo se vuelve el asistente, porque es fácil confiar de más en lo que entrega una máquina (National Institute of Standards and Technology, 2024).</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Semáforo de tareas</strong></p><p>Clasifica cada tarea en verde, amarillo o rojo:</p><ol><li><p>Redactar un borrador de aviso para el diario mural. → Verde</p></li><li><p>Calcular las horas extra de un trabajador para su liquidación. → Amarillo</p></li><li><p>Decidir qué trabajador recibe una amonestación. → Rojo</p></li><li><p>Resumir un manual de procedimientos que tú pegas. → Verde</p></li><li><p>Confirmar el horario vigente de atención de un servicio público. → Amarillo</p></li><li><p>Pegar la base de datos de clientes con sus teléfonos para que la ordene. → Rojo</p></li></ol>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Práctica guiada: prueba un asistente",
+       "paragraph": "<p>Ahora te toca probar. Vas a usar un asistente de IA generativa con una tarea simple de tu trabajo y a mirar qué hace bien y qué no.</p><p>Como trabajas con información real, practica con una copia sin datos sensibles (Miao y Holmes, 2024). Elige un documento corto que uses en tu cargo, por ejemplo un instructivo, un procedimiento o un correo interno (Google, s. f.-b). Si tiene nombres, RUT, teléfonos o montos de clientes, haz una copia y bórralos o cámbialos por datos de prueba. Respeta también lo que diga tu empresa sobre el uso de estas herramientas.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tu primera prueba</strong></p><ol><li><p>Abre un asistente con plan gratuito, en el computador o en la aplicación del celular. Usa el que tengas a mano.</p></li><li><p>Escribe este pedido y luego pega tu copia: «Resume este documento en tres viñetas: qué hay que hacer, en qué plazo y quién lo revisa. No agregues nada que no esté en el texto».</p></li><li><p>Compara el resumen con el original, línea por línea.</p></li><li><p>Anota en tu bitácora qué resumió bien, si omitió algo importante y si agregó algo que no estaba.</p></li></ol>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Guarda esa copia del documento. La vas a usar en el Hito 1 del proyecto, cuando definas el desafío laboral en que trabajarás durante el curso.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Curiosidad crítica y uso responsable",
+       "paragraph": "<p>Para aprovechar la IA generativa sirven dos actitudes que se complementan. La <strong>curiosidad crítica</strong> es probar sin miedo y, al mismo tiempo, preguntarse por qué el resultado salió así. Quien la practica no descarta la herramienta al primer error ni le cree a ciegas: prueba otra forma de pedir, compara y saca conclusiones.</p><p>La <strong>apertura a un uso responsable</strong> es estar dispuesto a usar la tecnología haciéndose cargo de lo que produce. Usar un asistente casi siempre implica compartir datos con el proveedor, y quien entrega el resultado final responde por él (Miao y Holmes, 2024; Google, s. f.-b). En la práctica, eso se traduce en cuatro hábitos:</p><ul><li><p>☐ Reviso lo que el asistente me entrega antes de usarlo o compartirlo.</p></li><li><p>☐ No ingreso datos personales ni información confidencial de otras personas o de mi empresa.</p></li><li><p>☐ Cuando un texto o una imagen fue hecho con IA y eso le importa a quien lo recibe, lo digo.</p></li><li><p>☐ La decisión final y la firma son mías, no de la herramienta.</p></li></ul><p>Andrés los aplica sin pensarlo mucho. Usa un asistente para ordenar sus notas en el reporte semanal y, antes de enviarlo, comprueba que las cifras sean las de su planilla y quita el nombre de un proveedor que no correspondía incluir. El asistente le ahorró tiempo; la responsabilidad del reporte sigue siendo suya.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Cierre: tres usos y dos límites",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Cierre: tres usos y dos límites",
+       "paragraph": "<p>En este tema viste que la IA generativa produce contenido nuevo a partir de patrones aprendidos, que arma sus respuestas fragmento a fragmento y que trabaja solo con lo que tiene en su contexto (Miao y Holmes, 2024). Conociste los modelos de lenguaje, de imagen y de audio, y tres límites que conviene tener siempre presentes: la alucinación, el sesgo y la fecha de corte (OpenAI, 2026a).</p><p>Con eso ya puedes mirar tu propio trabajo con otros ojos. Hay tareas en que un asistente te sirve como primer borrador y otras en que la respuesta necesita una revisión a fondo antes de salir con tu nombre. Antes de seguir, ponlo por escrito.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tus usos y tus límites</strong></p><p>Piensa en tu cargo y en el documento que guardaste en la práctica guiada, y escribe:</p><ol><li><p>Tres usos de la IA generativa que te servirían en tu trabajo. Por ejemplo: «redactar respuestas a correos de proveedores».</p></li><li><p>Dos límites que tendrías que cuidar, y cómo. Por ejemplo: «puede inventar una fecha de pago: la confirmo con contabilidad».</p></li></ol><p>Guarda tu respuesta. En el próximo tema aprenderás a escribir prompts efectivos para esos mismos usos.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Ideas clave"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<ol><li><p>La IA generativa produce contenido nuevo (texto, imagen, audio) a partir de patrones aprendidos de grandes cantidades de datos.</p></li><li><p>Genera sus respuestas fragmento a fragmento, eligiendo entre continuaciones probables: no «sabe», predice texto plausible, y por eso el mismo pedido puede dar respuestas distintas.</p></li><li><p>Hay modelos de lenguaje, de imagen y de audio, y herramientas multimodales que combinan tipos; la tarea define cuál usar.</p></li><li><p>Los modelos leen en tokens y responden solo con lo que tienen en su contexto: lo que no le das, no lo conoce.</p></li><li><p>Tres límites para tener siempre presentes: alucinación, sesgo y fecha de corte.</p></li><li><p>Conviene delegar lo que es fácil de revisar y barato si falla; lo grave o difícil de detectar se revisa a fondo o no se delega.</p></li></ol>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Referencias bibliográficas",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Estas son las fuentes citadas en este tema, en formato APA 7. Los enlaces se abren en una pestaña nueva.</p><p>Anthropic. (s. f.). <em>Context windows</em>. Claude Docs. <a href=\"https://platform.claude.com/docs/en/build-with-claude/context-windows\" target=\"_blank\" rel=\"noopener\">https://platform.claude.com/docs/en/build-with-claude/context-windows</a></p><p>Google. (s. f.-a). <em>¿Qué es la IA multimodal?</em> Google Cloud. <a href=\"https://cloud.google.com/use-cases/multimodal-ai?hl=es\" target=\"_blank\" rel=\"noopener\">https://cloud.google.com/use-cases/multimodal-ai?hl=es</a></p><p>Google. (s. f.-b). <em>Cómo escribir instrucciones eficaces</em>. Google Workspace. <a href=\"https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/\" target=\"_blank\" rel=\"noopener\">https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/</a></p><p>Google. (2026). <em>Introducción a los modelos de lenguaje grandes (Curso intensivo de aprendizaje automático)</em>. Google for Developers. <a href=\"https://developers.google.com/machine-learning/crash-course/llm?hl=es-419\" target=\"_blank\" rel=\"noopener\">https://developers.google.com/machine-learning/crash-course/llm?hl=es-419</a></p><p>Miao, F. y Holmes, W. (2024). <em>Guía para el uso de IA generativa en educación e investigación</em>. UNESCO. <a href=\"https://unesdoc.unesco.org/ark:/48223/pf0000389227_spa\" target=\"_blank\" rel=\"noopener\">https://unesdoc.unesco.org/ark:/48223/pf0000389227_spa</a></p><p>National Institute of Standards and Technology. (2024). <em>Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)</em>. <a href=\"https://doi.org/10.6028/NIST.AI.600-1\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.6028/NIST.AI.600-1</a></p><p>Noticias ONU. (2024, 7 de marzo). <em>La inteligencia artificial ya reproduce estereotipos de género</em>. <a href=\"https://news.un.org/es/story/2024/03/1528182\" target=\"_blank\" rel=\"noopener\">https://news.un.org/es/story/2024/03/1528182</a></p><p>OpenAI. (s. f.). <em>Image generation</em>. OpenAI API Docs. <a href=\"https://developers.openai.com/api/docs/guides/image-generation\" target=\"_blank\" rel=\"noopener\">https://developers.openai.com/api/docs/guides/image-generation</a></p><p>OpenAI. (2025, 5 de septiembre). <em>Por qué alucinan los modelos de lenguaje</em>. <a href=\"https://openai.com/es-419/index/why-language-models-hallucinate/\" target=\"_blank\" rel=\"noopener\">https://openai.com/es-419/index/why-language-models-hallucinate/</a></p><p>OpenAI. (2026a). <em>¿Dice ChatGPT la verdad?</em> OpenAI Help Center. <a href=\"https://help.openai.com/es-es/articles/8313428-does-chatgpt-tell-the-truth\" target=\"_blank\" rel=\"noopener\">https://help.openai.com/es-es/articles/8313428-does-chatgpt-tell-the-truth</a></p><p>OpenAI. (2026b). <em>Entender y contar tokens</em>. OpenAI Help Center. <a href=\"https://help.openai.com/es-es/articles/4936856-understanding-and-counting-tokens\" target=\"_blank\" rel=\"noopener\">https://help.openai.com/es-es/articles/4936856-understanding-and-counting-tokens</a></p><p>OpenAI. (2026c). <em>Memoria en ChatGPT</em>. OpenAI Help Center. <a href=\"https://help.openai.com/es-es/articles/8590148-memory-in-chatgpt\" target=\"_blank\" rel=\"noopener\">https://help.openai.com/es-es/articles/8590148-memory-in-chatgpt</a></p>"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

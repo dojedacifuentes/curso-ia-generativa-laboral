@@ -1,0 +1,1413 @@
+{
+ "ae": "M2-AE1",
+ "titulo": "Redacción y comunicación con IA",
+ "descripcion": "<p><strong>Competencia del módulo:</strong> Optimizar la elaboración de documentos, presentaciones y planillas de cálculo con IA generativa, cuidando tono, audiencia y exactitud, en contextos laborales.</p><p><strong>Aprendizaje esperado:</strong> Redactar correos, minutas e informes con apoyo de IA, ajustando tono, registro y audiencia.</p><p>En el módulo 1 aprendiste a escribir prompts con rol, contexto, tarea y formato, y a revisar lo que entrega la IA. Ahora vas a aplicar eso a lo que más se escribe en cualquier oficina: correos, minutas e informes. Son textos cortos, pero de ellos depende que un proveedor responda, que un acuerdo se cumpla o que tu jefatura tome una decisión a tiempo.</p>",
+ "lecciones": [
+  {
+   "titulo": "Tres géneros de la comunicación laboral",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Qué vas a lograr en este tema",
+       "paragraph": "<p>En el módulo 1 aprendiste a escribir prompts con rol, contexto, tarea y formato, y a revisar lo que entrega la IA. Ahora vas a aplicar eso a lo que más se escribe en cualquier oficina: correos, minutas e informes. Son textos cortos, pero de ellos depende que un proveedor responda, que un acuerdo se cumpla o que tu jefatura tome una decisión a tiempo.</p><p><strong>Competencia del módulo:</strong> Optimizar la elaboración de documentos, presentaciones y planillas de cálculo con IA generativa, cuidando tono, audiencia y exactitud, en contextos laborales.</p><p><strong>Aprendizaje esperado:</strong> Redactar correos, minutas e informes con apoyo de IA, ajustando tono, registro y audiencia.</p><p>Al final del tema deberías poder ajustar el tono y el registro de un texto a la audiencia que se te indica, y entregar un texto claro y sin errores relevantes, porque lo revisaste tú antes de enviarlo.</p><p>Vas a trabajar con Gemini, el asistente principal del curso. Tiene app para Android y para iOS y se usa con una cuenta personal de Google; como viste en el módulo 1, también funciona en el navegador (Google, s. f.-b). Si en tu trabajo usan otro asistente, los pasos son los mismos. Como cualquier asistente, sus respuestas pueden traer errores, así que todo lo que redacte será un borrador que tú corriges (Microsoft, 2026a).</p><p>Te siguen acompañando Camila y Andrés. Camila es asistente administrativa en una constructora: responde correos de proveedores y clientes, lleva la agenda de la gerenta de administración y prepara las minutas de sus reuniones. Andrés es encargado de bodega en una distribuidora y escribe avisos a su equipo, minutas de reuniones y un informe semanal para su jefatura.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tu punto de partida</strong></p><p>Piensa en el último texto de trabajo que escribiste: un correo, un aviso, un resumen para tu jefatura. Anota para quién era y qué querías lograr con él. Lo vas a usar en la práctica de cierre.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Tres géneros de la comunicación laboral",
+       "paragraph": "<p>Un <strong>género</strong> es un tipo de texto con un propósito y unas partes que quien lo lee espera encontrar. En el trabajo administrativo se repiten tres. El correo sirve para pedir, informar o responder algo puntual. La minuta, que en muchas oficinas se llama acta, deja registro de una reunión: qué se trató, qué se acordó y quién se comprometió a qué, con fecha (Secretaría de Cultura, Recreación y Deporte, 2018). El informe ejecutivo le entrega a quien decide lo que necesita para decidir, por lo general en una página (Carnegie Mellon University, s. f.).</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Género</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Pregunta que responde</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Lo que no puede faltar</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Correo</p></td><td colspan=\"1\" rowspan=\"1\"><p>¿Qué necesito de ti o qué te aviso?</p></td><td colspan=\"1\" rowspan=\"1\"><p>Un asunto que diga de qué se trata y un pedido claro</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Minuta</p></td><td colspan=\"1\" rowspan=\"1\"><p>¿Qué quedó acordado y quién hace qué?</p></td><td colspan=\"1\" rowspan=\"1\"><p>Acuerdos y compromisos con responsable y fecha</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Informe ejecutivo</p></td><td colspan=\"1\" rowspan=\"1\"><p>¿Qué debo saber, por qué me importa y qué debo hacer?</p></td><td colspan=\"1\" rowspan=\"1\"><p>El resultado y la recomendación al principio</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Un mismo tema puede pedir los tres. El lunes, el equipo de Andrés se reunió por unos despachos atrasados. Ese día él escribe un correo al proveedor para pedir una nueva fecha de entrega y la minuta de la reunión con los compromisos de cada persona. El viernes le entrega a su jefatura un informe de una página con el resultado de la semana y una recomendación.</p><p>Saber qué género necesitas es el primer dato que le das a la IA. No es lo mismo pedir «escribe algo sobre la reunión» que pedir «redacta la minuta de la reunión, con los acuerdos y una tabla de compromisos». En las próximas pantallas vas a ver cada género por separado y lo vas a practicar con Gemini.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Andrés necesita dejar registro de quién se comprometió a revisar el stock y para cuándo. ¿Qué género le sirve?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Un correo al proveedor",
+         "correct": false,
+         "feedback": "<p>La minuta registra los acuerdos y los compromisos con responsable y fecha. El informe ejecutivo resume para quien decide, y el correo resuelve algo puntual.</p>"
+        },
+        {
+         "title": "Una minuta de la reunión",
+         "correct": true,
+         "feedback": "<p>La minuta registra los acuerdos y los compromisos con responsable y fecha. El informe ejecutivo resume para quien decide, y el correo resuelve algo puntual.</p>"
+        },
+        {
+         "title": "Un informe ejecutivo",
+         "correct": false,
+         "feedback": "<p>La minuta registra los acuerdos y los compromisos con responsable y fecha. El informe ejecutivo resume para quien decide, y el correo resuelve algo puntual.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Tono, registro y audiencia",
+       "paragraph": "<p>Tres decisiones cambian cómo suena un texto, aunque diga lo mismo. La primera es la audiencia: la persona o el grupo que lo va a leer. En un mismo día puedes escribirle a tu jefatura, a una colega, a un proveedor y a un cliente, y para cada uno conviene adaptar el tono, el formato y el nivel de detalle (Purdue University, s. f.). Tampoco es lo mismo escribirle a una sola persona que a todo un equipo.</p><p>La segunda es el <strong>registro</strong>, que es el grado de formalidad. El registro formal es el del intercambio profesional, y el informal, el de la familia y las amistades. En el trabajo se prefiere tratar de usted, salvo que haya una relación cercana, como la que quizá tienes con tu equipo de todos los días (Rodríguez-Rodríguez y García-Sánchez, s. f.).</p><p>La tercera es el <strong>tono</strong>: la actitud que transmite el texto. Puede ser cordial, firme, neutro, agradecido o de disculpa. Un correo formal puede sonar cordial o puede sonar seco; el registro es el mismo y lo que cambia es el tono. Por eso un reclamo a un proveedor puede ser firme sin dejar de ser respetuoso.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Audiencia</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Registro</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Tono posible</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Jefatura</p></td><td colspan=\"1\" rowspan=\"1\"><p>Formal</p></td><td colspan=\"1\" rowspan=\"1\"><p>Directo y respetuoso</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Colegas del equipo</p></td><td colspan=\"1\" rowspan=\"1\"><p>Formal o semiformal</p></td><td colspan=\"1\" rowspan=\"1\"><p>Cercano y claro</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Cliente con un reclamo</p></td><td colspan=\"1\" rowspan=\"1\"><p>Formal</p></td><td colspan=\"1\" rowspan=\"1\"><p>Cordial y de disculpa</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Proveedor que se atrasó</p></td><td colspan=\"1\" rowspan=\"1\"><p>Formal</p></td><td colspan=\"1\" rowspan=\"1\"><p>Firme y cordial</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Cuando le pidas un texto a la IA, estas tres decisiones van en el prompt. Si no las dices, el asistente elige por ti y el resultado suele quedar genérico, con un tono que después hay que corregir.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Antes de escribir: piensa en quien lee",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Antes de escribir: piensa en quien lee",
+       "paragraph": "<p>Las guías de redacción coinciden en que antes de escribir hay que tener claro para qué es el texto y quién lo va a leer (Senado de Chile, 2025; Purdue University, s. f.). Con eso eliges mejor las palabras, no das por sabido algo que la otra persona no maneja y entregas solo la información que necesita. Conocer a la audiencia también te dice qué género usar y qué dato poner primero. Antes de abrir el asistente, responde cuatro preguntas:</p><ul><li><p>¿Para qué escribo: pedir, informar, acordar o recomendar?</p></li><li><p>¿Quién lo lee, qué relación tiene conmigo y cuánto sabe del tema?</p></li><li><p>¿Qué necesita saber para entender y actuar, y qué puedo dejar fuera?</p></li><li><p>¿Qué quiero que haga después de leerlo: responder, aprobar, asistir o revisar?</p></li></ul><p>Tus respuestas son el contexto que le das a la IA. Si tú no las tienes claras, el asistente tampoco, y escribirá un texto genérico que habrá que rehacer.</p><p>Camila lo hizo con un correo de su semana. Un proveedor de materiales entregó un pedido hace diez días, pero la factura no ha llegado y ella la necesita para registrarla en su planilla. Escribe para pedir la factura. La lee una ejecutiva del proveedor que no la conoce, y que necesita el número de la orden de compra, la fecha de entrega y el correo al que debe enviar el documento; no necesita saber cómo funciona la planilla de la constructora. Camila quiere que le respondan con la factura adjunta. Con esas cuatro respuestas ya sabe qué pedirle a Gemini.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Andrés escribe un aviso para todo su equipo sobre el inventario del viernes. ¿Qué información sobra?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "La fecha y la hora del inventario",
+         "correct": false,
+         "feedback": "<p>El equipo necesita saber cuándo es y qué le toca hacer. El detalle del cálculo no le sirve para actuar: pensar en quien lee también es saber qué dejar fuera.</p>"
+        },
+        {
+         "title": "Qué debe hacer cada persona ese día",
+         "correct": false,
+         "feedback": "<p>El equipo necesita saber cuándo es y qué le toca hacer. El detalle del cálculo no le sirve para actuar: pensar en quien lee también es saber qué dejar fuera.</p>"
+        },
+        {
+         "title": "La explicación detallada de cómo calcula él las diferencias de stock",
+         "correct": true,
+         "feedback": "<p>El equipo necesita saber cuándo es y qué le toca hacer. El detalle del cálculo no le sirve para actuar: pensar en quien lee también es saber qué dejar fuera.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "La IA como borrador",
+       "paragraph": "<p>En este tema la IA cumple un papel preciso: produce el borrador. Tú pones el propósito, los datos y la revisión final. Hay tres razones para no pedirle más que eso.</p><p>La primera es que puede inventar. Un modelo de lenguaje puede producir contenido falso presentado con seguridad, lo que se llama <strong>confabulación</strong> o, de forma más coloquial, alucinación (National Institute of Standards and Technology, 2024). En un correo, eso puede ser una fecha, un monto o un compromiso que nadie hizo, y el riesgo está en el tono seguro, que lleva a creer y a difundir esa información. La segunda es que varía: la misma indicación puede dar respuestas distintas, así que no basta con que una vez haya salido bien (Microsoft, 2026a). La tercera es que no conoce tu situación. Solo sabe lo que le escribes; no sabe qué le prometió tu jefatura a un cliente ni qué facturas están pendientes de pago.</p><p>Los propios proveedores lo advierten: las respuestas de sus asistentes pueden contener errores y hay que revisarlas antes de usarlas (Microsoft, 2026a).</p><p>Dentro de ese límite, la IA ayuda mucho. Ordena ideas sueltas en un texto con estructura, propone versiones con tonos distintos, acorta un texto largo o lo vuelve más formal, y sugiere un asunto o una despedida. Piensa en ella como una persona que te ayuda a escribir pero que no estuvo en la reunión: redacta rápido, y tú sabes lo que pasó.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · «El texto de la IA está listo para enviar»</strong></p><p>Un borrador bien escrito no es un texto revisado. Puede sonar impecable y tener un dato equivocado, un nombre mal escrito o un tono que no corresponde a la relación con quien lo lee.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Cómo pedirle un texto a la IA",
+       "paragraph": "<p>Para pedir un texto de trabajo sirven las partes de un prompt que conociste en el módulo 1. La guía de Microsoft para su asistente las ordena así: el objetivo, que es lo único imprescindible; el contexto, es decir, por qué lo necesitas y quiénes participan; la fuente, que son los datos que debe usar; y las expectativas de formato y extensión (Microsoft, 2026a). A eso puedes sumarle un rol.</p><p>En un texto laboral, el objetivo incluye el género, y el contexto incluye las tres decisiones de la sección «Tono, registro y audiencia»: audiencia, registro y tono. No tienes que usar todas las partes siempre, pero mientras más incluyas, menos tendrás que corregir.</p><p>Después del primer borrador, sigue conversando. Pide «hazlo más breve», «quita la segunda oración» o «más cordial», de a un cambio. La documentación de otro proveedor describe un ciclo que sirve para cualquier texto: borrador, revisión contra lo que necesitas y versión mejorada (Anthropic, s. f.).</p><p>Así quedó el prompt de Camila para confirmar una reunión con un proveedor. Fíjate en que cada parte se reconoce, y en la última frase, que le cierra la puerta a los datos inventados.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · El prompt de Camila</strong></p><p>«Actúa como asistente administrativa de una constructora. Redacta un correo para confirmar la reunión con el proveedor de áridos. Lo lee el ejecutivo de ventas, a quien no conozco en persona. Registro formal, de usted, tono cordial. Datos: reunión el martes 12 a las 10:00 en nuestra oficina, para revisar los plazos de entrega del próximo mes; asistirá la gerenta de administración. Máximo 80 palabras, con asunto. No agregues datos que no te di.»</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "El correo: partes y cortesía",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "El correo: partes y cortesía",
+       "paragraph": "<p>Un correo profesional tiene cuatro partes. Las recomendaciones que siguen vienen de una guía universitaria sobre correo electrónico en español, que aclara que son sugerencias y no normas obligatorias (Rodríguez-Rodríguez y García-Sánchez, s. f.):</p><ol><li><p>El asunto, siempre presente y breve, dice de qué se trata antes de abrirlo: «Confirmación de reunión, martes 12».</p></li><li><p>El saludo va seguido de dos puntos: «Estimada Sra. Pérez:».</p></li><li><p>El cuerpo es conciso, con lo importante primero y una idea por párrafo.</p></li><li><p>La despedida, como «Saludos cordiales,» o «Atentamente,», va seguida de tu nombre.</p></li></ol><p>Un error común está en el saludo. Muchos asistentes escriben «Estimada Sra. Pérez,» con coma, porque aprendieron de textos en inglés. En español se recomienda cerrar el saludo con dos puntos, así que revísalo siempre en el borrador.</p><p>La cortesía se nota en detalles concretos. Se trata de usted, salvo que haya cercanía. No se escribe en mayúsculas sostenidas, que se leen como un grito, ni se usan emojis o signos duplicados como «¡¡urgente!!». Se agradece cuando corresponde y se pide con claridad. Puedes ahorrarte buena parte de estas correcciones si las pones en el prompt desde el principio: «saludo con dos puntos, sin emojis, con asunto».</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "¿Cuál de estos asuntos es más adecuado para el correo de Camila al proveedor que no ha enviado una factura?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "«Hola!!»",
+         "correct": false,
+         "feedback": "<p>El asunto debe ser breve y decir de qué trata el correo. Los signos duplicados y las mayúsculas sostenidas se leen como descortesía.</p>"
+        },
+        {
+         "title": "«Factura pendiente, orden de compra 2045»",
+         "correct": true,
+         "feedback": "<p>El asunto debe ser breve y decir de qué trata el correo. Los signos duplicados y las mayúsculas sostenidas se leen como descortesía.</p>"
+        },
+        {
+         "title": "«URGENTE: RESPUESTA»",
+         "correct": false,
+         "feedback": "<p>El asunto debe ser breve y decir de qué trata el correo. Los signos duplicados y las mayúsculas sostenidas se leen como descortesía.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Práctica guiada 1: un correo con IA",
+       "paragraph": "<p>Ahora vas a producir y ajustar un correo con Gemini. El caso es de Camila, pero puedes cambiarlo por uno de tu trabajo.</p><p>Hace dos semanas, un proveedor de ferretería entregó en la obra un pedido de la constructora. La factura no ha llegado y Camila la necesita para registrarla y pasarla a pago. Ya la pidió una vez por teléfono, así que quiere un correo claro que no suene insistente. Para practicar, usa nombres y números inventados: no hace falta pegar en el chat datos reales del proveedor ni de tu empresa.</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Práctica guiada 1: un correo con IA",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Práctica guiada 1: un correo con IA",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Abre Gemini en la app o en el navegador.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Escribe el prompt con sus partes",
+       "description": "<p>«Actúa como asistente administrativa de una constructora. Redacta un correo para pedir la factura de la orden de compra 2045, entregada el 3 de octubre. Lo lee la ejecutiva de ventas del proveedor, a quien no conozco. Registro formal, de usted, tono cordial y firme, sin sonar insistente. Máximo 90 palabras. Incluye asunto. Saludo con dos puntos. No inventes datos».</p>"
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Lee el borrador y revisa si tiene asunto, si el saludo termina en dos puntos y si agregó algo que no dijiste (Rodríguez-Rodríguez y García-Sánchez, s. f.).",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Ajusta conversando, de a un cambio",
+       "description": "<p>«hazlo más breve» o «cambia la última oración por un agradecimiento» (Microsoft, 2026a).</p>"
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Edita tú el texto final, para que suene a ti y los datos sean los correctos.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Pedir un cambio a la vez tiene una ventaja: ves qué produjo cada mejora. Si pides cinco cambios juntos, cuesta saber cuál funcionó.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Antes y después</strong></p><p>Copia en tu bitácora el primer borrador y tu versión final. Anota tres cambios que hiciste y por qué: uno de tono, uno de registro y uno de contenido.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "El mismo mensaje, tres audiencias",
+       "paragraph": "<p>Adaptar un texto a distintas audiencias es una de las tareas en que más ayuda la IA. Tú defines el mensaje y a quién va dirigido; el asistente propone versiones; tú eliges y corriges.</p><p>Andrés tiene que comunicar un hecho: el despacho de un cliente se atrasará dos días porque el proveedor no entregó a tiempo. A su jefatura le importan la causa y lo que él propone hacer. Al equipo de bodega le importa qué cambia en su trabajo. Al cliente le importa cuándo recibe su pedido. Es el mismo hecho con tres focos, y cada foco pide su registro y su tono (Purdue University, s. f.; Rodríguez-Rodríguez y García-Sánchez, s. f.).</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Audiencia</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué cambia</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Cómo empieza</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Jefatura</p></td><td colspan=\"1\" rowspan=\"1\"><p>Formal y directo, con la causa y la solución propuesta</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Le informo que el despacho del pedido 418 se atrasará dos días…»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Equipo de bodega</p></td><td colspan=\"1\" rowspan=\"1\"><p>Cercano, centrado en qué hacer</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Equipo: el pedido 418 sale el jueves y no el martes. Les pido…»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Cliente</p></td><td colspan=\"1\" rowspan=\"1\"><p>Formal y cordial, con disculpa y nueva fecha</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Estimada Sra. Rojas: lamentamos informarle que su pedido…»</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Puedes pedir las tres versiones de una vez: «Con estos datos, escribe tres versiones del aviso: una para mi jefatura, otra para mi equipo y otra para el cliente. Ajusta registro, tono y nivel de detalle a cada una. Máximo 70 palabras cada una». Después revisa cada versión por separado, porque un dato que sirve para la jefatura, como el nombre del proveedor que falló, puede sobrar en la del cliente.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "¿Cuál de estas frases corresponde a la versión para el cliente?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "«Equipo, ojo con el 418, sale el jueves»",
+         "correct": false,
+         "feedback": "<p>Al cliente le importan la disculpa y la nueva fecha, en registro formal. El detalle interno del proveedor es para la jefatura, y el tono cercano es para el equipo.</p>"
+        },
+        {
+         "title": "«Lamentamos el inconveniente. Su pedido llegará el jueves 14»",
+         "correct": true,
+         "feedback": "<p>Al cliente le importan la disculpa y la nueva fecha, en registro formal. El detalle interno del proveedor es para la jefatura, y el tono cercano es para el equipo.</p>"
+        },
+        {
+         "title": "«El atraso se debe a un incumplimiento del proveedor que ya escalé»",
+         "correct": false,
+         "feedback": "<p>Al cliente le importan la disculpa y la nueva fecha, en registro formal. El detalle interno del proveedor es para la jefatura, y el tono cercano es para el equipo.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "La minuta: lo que se acordó",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "La minuta: lo que se acordó",
+       "paragraph": "<p>La <strong>minuta</strong>, que también se llama acta de reunión, deja registro de una reunión. Su valor no está en contar todo lo que se dijo, sino en dejar claro qué se acordó y quién hace qué.</p><p>Un instructivo de reuniones de una institución pública lo describe así: en cada reunión se designa a una persona que registra los temas tratados y los compromisos; los acuerdos y compromisos se establecen con fechas y responsables; y después el acta se comparte, se revisa, se reciben aportes y se hace seguimiento a lo comprometido (Secretaría de Cultura, Recreación y Deporte, 2018). Camila, que prepara las minutas de las reuniones de su jefatura, cumple justamente ese papel.</p><p>Una minuta breve parte con los datos de la reunión (fecha, participantes y tema), sigue con una línea por cada tema tratado y con los acuerdos, y termina con los compromisos y la fecha de la próxima revisión. Los compromisos se leen mejor en una tabla:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Compromiso</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Responsable</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Fecha</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Revisar el stock de cajas medianas</p></td><td colspan=\"1\" rowspan=\"1\"><p>Andrés</p></td><td colspan=\"1\" rowspan=\"1\"><p>Miércoles 13</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Pedir nueva fecha de entrega al proveedor</p></td><td colspan=\"1\" rowspan=\"1\"><p>Jefatura de compras</p></td><td colspan=\"1\" rowspan=\"1\"><p>Martes 12</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Un compromiso sin responsable o sin fecha no es un compromiso: es una buena intención. La minuta existe para que nadie tenga que acordarse de memoria.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · La minuta que nadie leyó</strong></p><p>Andrés recibió una vez una minuta de dos páginas que contaba la reunión de principio a fin. Los compromisos estaban perdidos en el tercer párrafo y nadie los cumplió. Desde entonces, él pone la tabla de compromisos al principio.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Práctica guiada 2: de notas sueltas a minuta",
+       "paragraph": "<p>Las notas de una reunión suelen quedar desordenadas. La IA ayuda a convertirlas en minuta, siempre que no la dejes inventar. Estas son las notas de Andrés, con datos ficticios: «reunión lunes 11 despachos. estaban: Andrés, Marta (ventas), Jorge (bodega). 3 pedidos atrasados por proveedor de cajas. Marta avisa a clientes hoy. Jorge revisa stock cajas. Ver de nuevo el viernes. compras tiene que pedir otra fecha al proveedor».</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Práctica guiada 2: de notas sueltas a minuta",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Práctica guiada 2: de notas sueltas a minuta",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Pega las notas en Gemini con este prompt",
+       "description": "<p>«Convierte estas notas en una minuta con los datos de la reunión, los temas, los acuerdos y una tabla de compromisos con responsable y fecha. Usa solo la información de las notas. Si falta un responsable o una fecha, escribe [FALTA] en vez de completarlo».</p>"
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Revisa la tabla de compromisos, porque cada uno necesita responsable y fecha (Secretaría de Cultura, Recreación y Deporte, 2018). En las notas, la tarea de Jorge no tiene fecha y «compras» no tiene una persona a cargo.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Completa tú lo que falta, preguntando a quien corresponda.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Compara la minuta con las notas y busca si la IA agregó algún acuerdo.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>La regla de [FALTA] tiene una razón. Si no se lo prohíbes, el asistente puede poner una fecha «razonable» o asignar un responsable que nadie nombró, y en una minuta eso crea un compromiso falso. Darle al modelo una salida distinta de inventar, como marcar lo que no encuentra, es una recomendación de la documentación de los proveedores (Microsoft, 2026b). Aun así, la revisión sigue siendo tuya.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tu minuta</strong></p><p>Escribe en cinco líneas las notas de una reunión reciente de tu área, con los nombres cambiados si son datos internos. Pídele a Gemini la minuta con la regla de [FALTA] y revisa cuántos vacíos detectó.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "El informe ejecutivo: lo esencial para decidir",
+       "paragraph": "<p>El <strong>informe ejecutivo</strong>, también llamado resumen ejecutivo, condensa la información para la persona que decide. Suele ocupar una página y responde tres preguntas de quien lo lee: qué debo saber, por qué me importa y qué debo hacer (Carnegie Mellon University, s. f.). La primera se responde con el resultado o el hallazgo principal; la segunda, con la consecuencia para el área o la empresa; la tercera, con la recomendación o la decisión que se pide.</p><p>Una guía universitaria sobre este género aconseja empezar por los resultados y la recomendación, no por la historia de cómo se hizo el trabajo. También pide reducir al mínimo la descripción de los métodos, usar viñetas y párrafos cortos y, cuando se recomienda algo, compararlo con las alternativas (Carnegie Mellon University, s. f.).</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Así no</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Así sí</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>«Esta semana revisamos los registros de despacho, conversamos con el equipo y analizamos…»</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Esta semana se atrasaron 3 de 40 despachos, todos por falta de cajas. Recomiendo pedir cajas a un segundo proveedor.»</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>La jefatura de Andrés lee muchos informes a la semana, y si el resultado está en el cuarto párrafo, quizás no llegue a leerlo. Lo mismo vale para Camila cuando le resume a la gerenta de administración cuántas facturas del mes quedaron sin registrar: primero el número y lo que propone, después el detalle.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "¿Con qué conviene empezar un informe ejecutivo?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Con la descripción de cómo se recopiló la información",
+         "correct": false,
+         "feedback": "<p>Quien decide necesita primero saber qué pasó y qué se recomienda. Los métodos y los antecedentes van después, y de forma breve.</p>"
+        },
+        {
+         "title": "Con el resultado principal y la recomendación",
+         "correct": true,
+         "feedback": "<p>Quien decide necesita primero saber qué pasó y qué se recomienda. Los métodos y los antecedentes van después, y de forma breve.</p>"
+        },
+        {
+         "title": "Con los antecedentes históricos del área",
+         "correct": false,
+         "feedback": "<p>Quien decide necesita primero saber qué pasó y qué se recomienda. Los métodos y los antecedentes van después, y de forma breve.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Práctica guiada 3: un informe ejecutivo con IA",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Práctica guiada 3: un informe ejecutivo con IA",
+       "paragraph": "<p>Andrés debe entregar el viernes un informe ejecutivo a su jefatura. Tiene los datos de la semana, ficticios, en una lista: «40 despachos; 37 a tiempo; 3 atrasados, los 3 por falta de cajas del proveedor; el stock de cajas medianas quedó en 20; un segundo proveedor ofrece entrega en 48 horas».</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Práctica guiada 3: un informe ejecutivo con IA",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Práctica guiada 3: un informe ejecutivo con IA",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Pide el borrador",
+       "description": "<p>«Actúa como encargado de bodega. Redacta un informe ejecutivo de máximo una página para mi jefatura. Usa solo estos datos. Estructura: resultado de la semana, por qué importa y recomendación. Viñetas cortas. Registro formal».</p>"
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Revisa el orden",
+       "description": "<p>el resultado tiene que estar al principio y la recomendación tiene que entenderse (Carnegie Mellon University, s. f.).</p>"
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Revisa los datos, cifra por cifra, contra la lista. Si aparece un porcentaje, calcúlalo tú.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Pide una revisión contra criterios",
+       "description": "<p>«Revisa tu informe: ¿responde qué debo saber, por qué me importa y qué debo hacer? Señala qué falta y entrega una versión mejorada».</p>"
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Decide tú la versión final.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>El paso 4 aplica el ciclo de borrador, revisión y mejora que viste en la sección «Cómo pedirle un texto a la IA»: le pides al asistente que se revise contra criterios claros (Anthropic, s. f.). Igual compruebas tú el resultado, porque esa autorrevisión también puede fallar.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tu informe de una página</strong></p><p>Con datos inventados parecidos a los de tu cargo, como facturas registradas en el mes, consultas atendidas o pedidos despachados, pide un informe ejecutivo que responda las tres preguntas. Anota qué tuviste que corregir.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Lenguaje claro: escribir para que te entiendan",
+       "paragraph": "<p>En Chile, varios organismos públicos forman la Red de Lenguaje Claro. La Red describe el <strong>lenguaje claro</strong> como un estilo de redacción simple y eficiente, que facilita que las personas entiendan lo que se escribe (Red de Lenguaje Claro Chile, s. f.). No se queda en las palabras: abarca también la estructura, la edición y el diseño del texto.</p><p>Una guía de lenguaje claro del Senado de Chile trae recomendaciones que sirven para cualquier texto de oficina. Pide oraciones breves, con una idea cada una, en el orden sujeto, verbo y complementos. Prefiere la voz activa («Jorge revisará el stock») a la pasiva («El stock será revisado por Jorge») y el estilo afirmativo («Llegue a las 9:00») al negativo («No llegue después de las 9:00»). Cuando el texto es largo, sugiere títulos y viñetas; las siglas y los tecnicismos se definen la primera vez que aparecen, y al final se revisa con una lista de verificación (Senado de Chile, 2025).</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Antes</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Después</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>«Se informa que, en atención a dificultades de abastecimiento, la entrega no podrá ser efectuada en la fecha originalmente comprometida.»</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Su pedido no llegará el martes. Llegará el jueves, porque el proveedor se atrasó.»</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Puedes pedirle a la IA que aplique estas reglas: «Reescribe este texto en lenguaje claro, con oraciones breves, voz activa y sin tecnicismos». Después lee el resultado y verifica que no se haya perdido información.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · «Formal es lo mismo que difícil»</strong></p><p>Un texto formal no necesita palabras rebuscadas ni frases largas. La misma guía describe el lenguaje claro como sencillo y directo, sin renunciar a la precisión (Senado de Chile, 2025). Un texto puede ser formal, cordial y fácil de entender a la vez.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "El ajuste fino: cortesía y claridad",
+       "paragraph": "<p>Casi nunca el primer borrador tiene el tono justo. A veces sale demasiado ceremonioso; otras, demasiado seco. El ajuste se hace conversando con el asistente, con una instrucción a la vez (Microsoft, 2026a). Estas son algunas que funcionan bien:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Si el borrador…</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Pídele…</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Suena frío o cortante</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Hazlo más cordial, sin alargarlo»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Da muchas vueltas</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Ve al punto: lo importante en la primera oración»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Es demasiado formal para tu equipo</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Mantén el respeto, pero con un tono más cercano»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Suena a reclamo</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Cambia el tono a uno neutro: describe el problema y pide una solución»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>No suena a ti</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Usa frases simples, como las que yo escribiría»</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>La cortesía profesional no es adornar: es saludar, agradecer, pedir con claridad y no culpar (Rodríguez-Rodríguez y García-Sánchez, s. f.). Mucha gente cree que más formal es más largo, y no es así. Fórmulas como «tengo el agrado de dirigirme a usted con el propósito de» no hacen más cortés un correo; solo lo alargan y lo hacen más difícil de leer. La claridad, por su parte, es que quien lee entienda a la primera qué pasa y qué tiene que hacer.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Andrés y el reclamo al proveedor</strong></p><p>El primer borrador de Andrés decía: «Es inaceptable que nuevamente no cumplan con los plazos». Le pidió a Gemini un tono neutro y recibió: «Le escribo porque el pedido del 7 de octubre no llegó en la fecha acordada. ¿Nos puede confirmar una nueva fecha de entrega?». Dice lo mismo, con más posibilidades de una respuesta rápida.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Revisión humana: tu lista de verificación",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Revisión humana: tu lista de verificación",
+       "paragraph": "<p>Un texto claro y sin errores relevantes no sale solo: sale de una revisión. La guía de lenguaje claro del Senado recomienda cerrar siempre con una lista de verificación (Senado de Chile, 2025). Esta reúne lo que viste en el tema. Úsala antes de enviar cualquier texto hecho con IA.</p><ul><li><p>☐ El objetivo se entiende en las primeras líneas.</p></li><li><p>☐ Nombres, fechas, montos y números de pedido o de factura coinciden con el original.</p></li><li><p>☐ No hay nada que la IA haya agregado sin que yo lo dijera.</p></li><li><p>☐ El registro corresponde a la relación con quien lee, de usted o de tú.</p></li><li><p>☐ El tono es el que necesito y el nivel de detalle es el que esa persona necesita.</p></li><li><p>☐ Las oraciones son breves, en voz activa, y las siglas están explicadas.</p></li><li><p>☐ Tiene asunto, el saludo termina en dos puntos y la despedida es adecuada.</p></li><li><p>☐ La ortografía y la puntuación están revisadas.</p></li></ul><p>Los errores de hecho son los más graves, porque la IA puede introducirlos con total seguridad (National Institute of Standards and Technology, 2024). Una coma mal puesta se perdona; una fecha de entrega o un monto equivocado generan un problema con un cliente o con un proveedor.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "El borrador de un correo de Andrés está bien escrito, pero dice «pedido 481» y el pedido real es el 418. ¿Qué tipo de error es?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Un error de tono",
+         "correct": false,
+         "feedback": "<p>Es un dato equivocado. Puede generar confusión o un despacho mal hecho. Por eso los datos se comparan siempre con el original.</p>"
+        },
+        {
+         "title": "Un error de hecho, el más relevante",
+         "correct": true,
+         "feedback": "<p>Es un dato equivocado. Puede generar confusión o un despacho mal hecho. Por eso los datos se comparan siempre con el original.</p>"
+        },
+        {
+         "title": "Un error de registro",
+         "correct": false,
+         "feedback": "<p>Es un dato equivocado. Puede generar confusión o un despacho mal hecho. Por eso los datos se comparan siempre con el original.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Tu firma, tu responsabilidad",
+       "paragraph": "<p>Cuando envías un texto, respondes por él. Da lo mismo si lo escribiste tú, si te ayudó una colega o si lo redactó un asistente: quien firma se hace cargo del mensaje. Es tentador pensar que, si lo escribió la IA, el error es de la IA. Para quien recibe el correo, el mensaje es tuyo; si promete una fecha que no se puede cumplir o trata mal a un cliente, la consecuencia es para ti y para tu equipo, no para la herramienta.</p><p>Esa responsabilidad se nota en tres hábitos. El primero es revisar todo antes de enviar y verificar los datos, porque un modelo puede inventar datos e incluso justificaciones que suenan convincentes (National Institute of Standards and Technology, 2024). El segundo es cuidar la información. En tu trabajo manejas datos reales de clientes, proveedores y colegas: no los pegues en un asistente si tu empresa no lo permite, y para practicar usa copias sin datos sensibles o datos inventados. El tercero es configurar tu asistente. En Gemini, si el ajuste de actividad está encendido, personas que revisan pueden leer conversaciones para mejorar el servicio; para evitarlo se apaga ese ajuste o se usan chats temporales (Google, s. f.-a). Lo vas a ver en detalle en el módulo 3.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Camila revisa antes de enviar</strong></p><p>Un proveedor preguntó cuándo se le pagaría una factura. Gemini redactó una respuesta impecable que terminaba con «el pago se realizará este viernes». Nadie se había comprometido a esa fecha. Camila borró la frase, escribió que confirmaría la fecha con la gerenta de administración y recién entonces envió el correo.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Cierre: tres textos para tu cargo",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Cierre: tres textos para tu cargo",
+       "paragraph": "<p>En este tema viste que en el trabajo se escriben géneros distintos. El correo resuelve algo puntual, la minuta registra acuerdos y compromisos, y el informe ejecutivo le da a quien decide lo esencial. Aprendiste a decidir audiencia, registro y tono antes de escribir, a usar la IA para el borrador y ajustarlo conversando, y a revisar el resultado con una lista de verificación antes de firmarlo (Microsoft, 2026a; Senado de Chile, 2025).</p><p>La práctica de cierre junta todo eso con textos de tu propio cargo. Retoma el texto que anotaste en la primera pantalla y súmale los otros dos géneros. Si los datos son internos, cambia nombres y montos: lo que importa aquí es cómo ajustas el texto, no la información de tu empresa.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tres textos, tres audiencias</strong></p><p>Produce con Gemini estos tres textos:</p><ol><li><p>Un correo para alguien externo, como un cliente o un proveedor.</p></li><li><p>Una minuta breve de una reunión de tu área, con al menos dos compromisos.</p></li><li><p>Un informe ejecutivo de media página para tu jefatura, con datos inventados o cambiados.</p></li></ol><p>Para cada uno, anota la audiencia, el registro y el tono que elegiste; guarda el primer borrador y tu versión final, y revísalo con la lista de la sección «Revisión humana: tu lista de verificación» marcando qué corregiste. El informe ejecutivo te va a servir de base para el brief del Hito 2.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Ideas clave"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<ol><li><p>En el trabajo se repiten tres géneros: el correo resuelve algo puntual, la minuta registra acuerdos y compromisos con responsable y fecha, y el informe ejecutivo le entrega a quien decide qué saber, por qué importa y qué hacer.</p></li><li><p>Audiencia, registro y tono son tres decisiones distintas: quién lee, cuánta formalidad y qué actitud transmite el texto.</p></li><li><p>Antes de escribir hay que saber para qué y para quién: esas respuestas son el contexto que se le da a la IA.</p></li><li><p>La IA produce borradores: puede inventar datos con seguridad y varía entre respuestas, por eso todo se revisa antes de enviar.</p></li><li><p>Un buen pedido de texto incluye objetivo y género, audiencia, registro y tono, datos y expectativas de largo y formato; luego se ajusta conversando, un cambio a la vez.</p></li><li><p>El lenguaje claro usa oraciones breves, voz activa, estilo afirmativo y siglas explicadas. Formal no significa complicado.</p></li><li><p>Quien firma responde por el mensaje: verifica los datos y, para practicar, usa copias sin datos sensibles y respeta lo que diga su empresa.</p></li></ol>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Referencias bibliográficas",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Estas son las fuentes citadas en este tema, en formato APA 7. Los enlaces se abren en una pestaña nueva.</p><p>Anthropic. (s. f.). <em>Prompting best practices</em>. Claude Docs. <a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices\" target=\"_blank\" rel=\"noopener\">https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices</a></p><p>Carnegie Mellon University. (s. f.). <em>Executive summaries</em>. Student Academic Success Center. <a href=\"https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/executive-summaries.pdf\" target=\"_blank\" rel=\"noopener\">https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/executive-summaries.pdf</a></p><p>Google. (s. f.-a). <em>Centro de privacidad de las aplicaciones de Gemini</em>. <a href=\"https://support.google.com/gemini/answer/13594961?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/13594961?hl=es</a></p><p>Google. (s. f.-b). <em>Empezar a usar la aplicación móvil Gemini</em>. <a href=\"https://support.google.com/gemini/answer/14554984?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/14554984?hl=es</a></p><p>Microsoft. (2026a). <em>Introducción a la escritura de indicaciones en Microsoft Copilot</em>. Microsoft Support. <a href=\"https://support.microsoft.com/es-es/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5\" target=\"_blank\" rel=\"noopener\">https://support.microsoft.com/es-es/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5</a></p><p>Microsoft. (2026b, 13 de mayo). <em>Técnicas de ingeniería de indicaciones</em>. Microsoft Learn. <a href=\"https://learn.microsoft.com/es-es/azure/ai-foundry/openai/concepts/prompt-engineering\" target=\"_blank\" rel=\"noopener\">https://learn.microsoft.com/es-es/azure/ai-foundry/openai/concepts/prompt-engineering</a></p><p>National Institute of Standards and Technology. (2024). <em>Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)</em>. <a href=\"https://doi.org/10.6028/NIST.AI.600-1\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.6028/NIST.AI.600-1</a></p><p>Purdue University. (s. f.). <em>Audience (Business writing for administrative and clerical staff)</em>. Purdue OWL. <a href=\"https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/business_writing_for_administrative_and_clerical_staff/audience.html\" target=\"_blank\" rel=\"noopener\">https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/business_writing_for_administrative_and_clerical_staff/audience.html</a></p><p>Red de Lenguaje Claro Chile. (s. f.). <em>Sitio institucional de la Red de Lenguaje Claro Chile</em>. <a href=\"https://www.lenguajeclarochile.cl/\" target=\"_blank\" rel=\"noopener\">https://www.lenguajeclarochile.cl/</a></p><p>Rodríguez-Rodríguez, M. N. y García-Sánchez, S. (s. f.). <em>Redacción del correo electrónico en español e inglés: breves recomendaciones</em>. Universidad de Las Palmas de Gran Canaria. <a href=\"https://iatext.ulpgc.es/sites/default/files/recomendaciones_correo_electronico_0.pdf\" target=\"_blank\" rel=\"noopener\">https://iatext.ulpgc.es/sites/default/files/recomendaciones_correo_electronico_0.pdf</a></p><p>Secretaría de Cultura, Recreación y Deporte. (2018). <em>Instructivo para el manejo de reuniones efectivas (IT-02-CP-EST-COM, versión 02)</em>. <a href=\"https://mail.culturarecreacionydeporte.gov.co/sites/default/files/2023-04/instructivo_para_el_manejo_de_la_reuniones_efectivas_v2.pdf\" target=\"_blank\" rel=\"noopener\">https://mail.culturarecreacionydeporte.gov.co/sites/default/files/2023-04/instructivo_para_el_manejo_de_la_reuniones_efectivas_v2.pdf</a></p><p>Senado de Chile. (2025). <em>Guía de lenguaje claro para el ámbito legislativo</em>. <a href=\"https://cdn.senado.cl/portal-senado-produccion/s3fs-public/2025-09/guia-de-lenguaje-claro-para-el-ambito-legislativo.pdf\" target=\"_blank\" rel=\"noopener\">https://cdn.senado.cl/portal-senado-produccion/s3fs-public/2025-09/guia-de-lenguaje-claro-para-el-ambito-legislativo.pdf</a></p>"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

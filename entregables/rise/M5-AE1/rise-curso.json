@@ -1,0 +1,1042 @@
+{
+ "ae": "M5-AE1",
+ "titulo": "Potencial de automatización",
+ "descripcion": "<p><strong>Competencia del módulo:</strong> Automatizar tareas rutinarias mediante flujos simples con IA, incorporando supervisión humana y control de riesgos, en el trabajo cotidiano.</p><p><strong>Aprendizaje esperado:</strong> Identificar tareas repetitivas con potencial de automatización, priorizándolas según impacto y riesgo.</p><p>En los módulos anteriores usaste la IA generativa para redactar, investigar y crear piezas. En este módulo das un paso más: hacer que algunas tareas se hagan solas, con un flujo que las repite cada vez que hace falta. Pero antes de automatizar hay que elegir bien qué automatizar, y de eso se trata este tema.</p>",
+ "lecciones": [
+  {
+   "titulo": "Un cargo es un conjunto de tareas",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Qué vas a lograr en este tema",
+       "paragraph": "<p>En los módulos anteriores usaste la IA generativa para redactar, investigar y crear piezas. En este módulo das un paso más: hacer que algunas tareas se hagan solas, con un flujo que las repite cada vez que hace falta. Pero antes de automatizar hay que elegir bien qué automatizar, y de eso se trata este tema.</p><p><strong>Competencia del módulo:</strong> Automatizar tareas rutinarias mediante flujos simples con IA, incorporando supervisión humana y control de riesgos, en el trabajo cotidiano.</p><p><strong>Aprendizaje esperado:</strong> Identificar tareas repetitivas con potencial de automatización, priorizándolas según impacto y riesgo.</p><p>Al final deberías poder nombrar al menos tres tareas automatizables de tu cargo, ordenarlas en una matriz de impacto y riesgo y explicar por qué cada una quedó donde quedó.</p><p>Vas a mirar el trabajo como lo miran los estudios de la Organización Internacional del Trabajo (OIT): tarea por tarea, no cargo por cargo (Gmyrek et al., 2023). Y vas a usar una herramienta simple, la <strong>matriz de priorización</strong>, que ayuda a decidir qué conviene probar primero (NHS Lothian, s. f.). Automatizar no es un fin en sí mismo. Lo que buscas es ganar tiempo y calidad en lo que importa sin crear riesgos nuevos, y a veces la mejor decisión es dejar una tarea como está.</p><p>Te acompañan otra vez Camila, asistente administrativa en la oficina de una constructora, que responde correos de proveedores y registra facturas, órdenes de compra y contratos, y Andrés, encargado de bodega en una distribuidora. Sus tareas te van a servir de modelo para analizar las tuyas.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Un cargo es un conjunto de tareas",
+       "paragraph": "<p>Cuando se habla de IA y trabajo, la primera pregunta que aparece es si tu trabajo va a desaparecer. Los estudios serios no parten de ahí. La OIT mide la exposición a la IA generativa tarea por tarea, porque dentro de un mismo cargo hay tareas muy expuestas y otras que siguen necesitando a una persona (Gmyrek et al., 2023).</p><p>La <strong>exposición</strong> no es lo mismo que el reemplazo. Que una tarea esté expuesta significa que la IA generativa podría hacer una parte o ayudar a hacerla. El estudio de la OIT de 2023 concluye que el efecto principal será aumentar el trabajo, es decir, automatizar algunas tareas y dejar tiempo para otras, más que eliminar ocupaciones completas (Gmyrek et al., 2023). La actualización de 2025 confirma que las ocupaciones administrativas siguen siendo las más expuestas y llega a una conclusión parecida: como la mayoría de las ocupaciones tiene tareas que requieren intervención humana, lo más probable es que los empleos se transformen (OIT y NASK, 2025).</p><p>Mirar tu cargo así tiene una ventaja práctica. En vez de una pregunta que angustia, tienes una lista que puedes analizar: qué tareas haces en una semana, cuáles se repiten igual cada vez y cuáles necesitan tu criterio, tu trato con las personas o tus manos.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · El cargo de Andrés, por partes</strong></p><p>Andrés no se pregunta si la IA puede «ser encargado de bodega». Se pregunta si puede ayudarle con tareas concretas: escribir el reporte semanal de stock, registrar la mercadería que llega, avisar cuando un producto baja del mínimo. Revisar una caja dañada o resolver un problema con un transportista sigue siendo tarea suya.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Qué dicen los estudios sobre la exposición",
+       "paragraph": "<p>Dos estudios ayudan a entender dónde está el potencial de automatización. Cada uno usa su propio método, así que sus cifras no se comparan entre sí.</p><p>El primero es el de la OIT de 2023. Según ese estudio, el trabajo administrativo es el único grupo de ocupaciones muy expuesto: el 24 % de sus tareas tiene exposición alta y el 58 %, exposición media (Gmyrek et al., 2023). En los demás grupos, las tareas muy expuestas van del 1 % al 4 %. La exposición es más del doble en las mujeres. El mismo estudio advierte que la calidad del empleo, como la intensidad del trabajo y la autonomía, puede importar más que las cifras.</p><p>El segundo es un documento de la OCDE de 2024. Explica que la IA avanzó sobre todo en tareas cognitivas no rutinarias, como redactar o resumir, y que por eso los cargos más expuestos son de oficina (Lane, 2024). Los que dependen de destrezas manuales y de fuerza, como el aseo o ayudar en una cocina, tienen baja exposición.</p><p>Si trabajas en una oficina, estas cifras hablan de ti. Lo que muestran no es que tu cargo vaya a desaparecer, sino que buena parte de lo que haces con correos, planillas y documentos puede cambiar de forma, y que conviene que participes en decidir cómo.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · «Si mi cargo está expuesto, lo voy a perder»</strong></p><p>Exposición no es pérdida del empleo. Significa que algunas tareas pueden hacerse con IA. Según la OIT, lo más probable es que el trabajo cambie: menos tiempo en lo repetitivo y más en lo que necesita a una persona.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Anatomía de una tarea automatizable",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Anatomía de una tarea automatizable",
+       "paragraph": "<p>Desde hace décadas se sabe que los computadores funcionan bien con reglas. Un estudio clásico de Autor, Levy y Murnane mostró que la tecnología sustituye sobre todo las <strong>tareas rutinarias</strong>, las que se repiten y siguen pasos claros, y que en cambio complementa las tareas de resolver problemas y tratar con personas (Autor et al., 2001). La IA generativa, como viste en el módulo 1, agrega algo a esa historia: también trabaja con texto, así que puede resumir un correo o clasificar una consulta.</p><p>Para saber si una tarea es candidata, conviene descomponerla en cinco partes. Esta lista es del curso y se inspira en lo que la guía de automatización de la Universidad de Bath pide documentar de cada flujo: su propósito, sus entradas, sus salidas y sus dependencias (University of Bath, s. f.).</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Anatomía de una tarea automatizable",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Anatomía de una tarea automatizable",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Qué la inicia: llega un correo, es lunes, alguien completa un formulario.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Con qué datos trabaja: un correo, una fila de planilla, una fecha.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Qué pasos sigue, y si son siempre los mismos o se pueden escribir como reglas.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Qué entrega: un registro, un aviso, un resumen, un evento en el calendario.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Cada cuánto se repite: varias veces al día, cada semana, una vez al año.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Una tarea de Camila, descompuesta</strong></p><p>Una de las tareas de Camila es registrar las facturas que llegan a la constructora. Se inicia cuando entra una factura por correo (1); trabaja con el número, el proveedor, la fecha y el monto (2); los pasos son siempre los mismos (3); entrega una fila en la planilla (4); y se repite varias veces por semana (5). Es una buena candidata.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Señales de una buena candidata",
+       "paragraph": "<p>Con la anatomía de la pantalla anterior puedes reconocer señales rápidas. Una buena candidata se hace igual muchas veces, sus pasos se pueden escribir y trabaja con información, como correos, planillas o fechas. Una mala candidata cambia en cada caso, depende del criterio del momento, trabaja con objetos o con el cuerpo, o decide algo importante sobre una persona.</p><p>Las tareas de manejo de información son justamente las típicas del trabajo administrativo, y por eso ese grupo aparece como el más expuesto en el estudio de la OIT (Gmyrek et al., 2023). En cambio, como explica la OCDE, las tareas que dependen de las manos y de la fuerza tienen baja exposición (Lane, 2024). Si tu trabajo combina las dos cosas, como el de Andrés, que pasa parte del día en la planilla y parte entre las cajas, lo más probable es que tus candidatas estén en la primera mitad.</p><p>La última señal merece una pausa. Una tarea puede repetirse y seguir reglas, y aun así ser mala candidata si decide algo sobre alguien, como a quién se le renueva un contrato o a quién se le asigna un turno. Ahí el problema no es técnico, y lo vas a ver con más detalle al hablar de riesgo y en el tema 3.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · ¿Candidata o no?</strong></p><p>Arrastra cada tarea a «Buena candidata» o «Mala candidata»:</p><ol><li><p>Copiar en una planilla los datos de cada pedido que llega por correo. → Buena candidata</p></li><li><p>Calmar a un cliente molesto en el mesón. → Mala candidata</p></li><li><p>Enviar cada viernes el mismo recordatorio de entrega de reportes. → Buena candidata</p></li><li><p>Revisar si una caja llegó dañada. → Mala candidata</p></li><li><p>Resumir los correos de proveedores del día. → Buena candidata</p></li><li><p>Decidir a qué trabajador se le renueva el contrato. → Mala candidata</p></li></ol>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Mapea las tareas de tu cargo",
+       "paragraph": "<p>Ahora vas a hacer tu propio <strong>mapa de tareas</strong>: la lista de lo que haces en tu cargo actual, escrita tarea por tarea. Para armarlo no necesitas ningún documento de la empresa. Te basta tu descripción de cargo, si la tienes, o tus propias notas de lo que haces en una semana normal.</p><p>Gemini puede acelerar la primera versión. La app es gratuita y funciona en el celular, en Android y en iPhone (Google, s. f.). Estos son los pasos:</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Mapea las tareas de tu cargo",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Mapea las tareas de tu cargo",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Escribe en una nota lo que haces en una semana, con tus palabras, sin nombres de clientes ni datos de la empresa.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Pega esa nota en Gemini y escribe",
+       "description": "<p>«Lista las tareas concretas de esta persona. Escribe cada una con un verbo y un objeto, por ejemplo \"registrar facturas\". No agregues tareas que mis notas no permitan suponer».</p>"
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Revisa la lista",
+       "description": "<p>quita lo que no corresponde y agrega lo que falta, porque conoces tu trabajo mejor que la herramienta.</p>"
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Deja entre 8 y 12 tareas, una por línea.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Marca cada una con la anatomía de la sección «Anatomía de una tarea automatizable»: qué la inicia, qué datos usa, si sigue reglas, qué entrega y cada cuánto se repite.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>El mapa es tuyo. Gemini acelera la primera lista, pero quien decide qué tareas existen y cómo se hacen es la persona que hace el trabajo. Si en tu empresa ya usan otro asistente, puedes hacer lo mismo con él, siempre que respetes lo que diga tu empresa sobre su uso.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · Pegar documentos internos con datos de personas</strong></p><p>Para mapear tareas bastan tus propias notas. No pegues planillas con nombres, RUT o teléfonos de clientes, proveedores o compañeros, ni documentos internos de la empresa. Qué datos no compartir lo viste en el módulo 3.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Ejemplo guiado: el mapa de Camila",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Ejemplo guiado: el mapa de Camila",
+       "paragraph": "<p>Camila armó su mapa a partir de sus notas de una semana en la oficina de la constructora. Con ayuda de Gemini y su propia revisión, le quedó así:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Tarea</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>¿Se repite?</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>¿Sigue reglas?</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>¿Información o personas?</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>¿Candidata?</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Registrar facturas, órdenes de compra y contratos en la planilla</p></td><td colspan=\"1\" rowspan=\"1\"><p>Sí, varias por semana</p></td><td colspan=\"1\" rowspan=\"1\"><p>Sí</p></td><td colspan=\"1\" rowspan=\"1\"><p>Información</p></td><td colspan=\"1\" rowspan=\"1\"><p>Sí</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Agendar las reuniones de su jefatura</p></td><td colspan=\"1\" rowspan=\"1\"><p>Sí, a diario</p></td><td colspan=\"1\" rowspan=\"1\"><p>En parte</p></td><td colspan=\"1\" rowspan=\"1\"><p>Información</p></td><td colspan=\"1\" rowspan=\"1\"><p>Sí</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Responder consultas frecuentes de proveedores por correo</p></td><td colspan=\"1\" rowspan=\"1\"><p>Sí, a diario</p></td><td colspan=\"1\" rowspan=\"1\"><p>En parte</p></td><td colspan=\"1\" rowspan=\"1\"><p>Información y personas</p></td><td colspan=\"1\" rowspan=\"1\"><p>Sí, con revisión</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Preparar la minuta de cada reunión</p></td><td colspan=\"1\" rowspan=\"1\"><p>Sí, cada semana</p></td><td colspan=\"1\" rowspan=\"1\"><p>En parte</p></td><td colspan=\"1\" rowspan=\"1\"><p>Información</p></td><td colspan=\"1\" rowspan=\"1\"><p>Sí, con revisión</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Atender a proveedores que llegan a la oficina</p></td><td colspan=\"1\" rowspan=\"1\"><p>Sí</p></td><td colspan=\"1\" rowspan=\"1\"><p>No</p></td><td colspan=\"1\" rowspan=\"1\"><p>Personas</p></td><td colspan=\"1\" rowspan=\"1\"><p>No</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Ordenar el archivo físico</p></td><td colspan=\"1\" rowspan=\"1\"><p>Sí, cada mes</p></td><td colspan=\"1\" rowspan=\"1\"><p>Sí</p></td><td colspan=\"1\" rowspan=\"1\"><p>Objetos</p></td><td colspan=\"1\" rowspan=\"1\"><p>No</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Preseleccionar currículums cuando hay una vacante</p></td><td colspan=\"1\" rowspan=\"1\"><p>A veces</p></td><td colspan=\"1\" rowspan=\"1\"><p>No</p></td><td colspan=\"1\" rowspan=\"1\"><p>Decide sobre personas</p></td><td colspan=\"1\" rowspan=\"1\"><p>No</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Camila encontró cuatro tareas candidatas, más que las tres que pide el tema. En su mapa hay dos cosas que vale la pena mirar. La primera es que «sigue reglas» no siempre es sí o no. Las consultas de proveedores tienen una parte fija, porque las preguntas se repiten, y otra que exige criterio, porque cada caso es distinto (Autor et al., 2001). Esas tareas se pueden automatizar en parte, con revisión.</p><p>La segunda es que Camila descartó preseleccionar currículums, aunque se lo piden cada vez que la constructora abre una vacante. Es una tarea que decide algo importante sobre otras personas, y eso pesa más que la repetición.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Revisa tu mapa</strong></p><p>Compara tu mapa con el de Camila. ¿Tienes al menos tres tareas candidatas? Si no, busca las que trabajan con correo, planillas o agenda, que suelen ser las más repetitivas (Gmyrek et al., 2023).</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Antes de automatizar: eliminar y simplificar",
+       "paragraph": "<p>La guía de automatización de la Universidad de Bath da un consejo que ahorra mucho trabajo: partir de la necesidad y no automatizar algo solo porque se puede (University of Bath, s. f.). Para eso propone una secuencia en tres pasos.</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Antes de automatizar: eliminar y simplificar",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Antes de automatizar: eliminar y simplificar",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Eliminar",
+       "description": "<p>preguntarse si la tarea es necesaria, porque a veces se hace por costumbre y nadie usa el resultado.</p>"
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Simplificar",
+       "description": "<p>ver si se puede hacer con menos pasos; un formulario bien hecho puede ahorrar tres correos de ida y vuelta.</p>"
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Automatizar: solo lo que queda, ya simplificado, pasa a un flujo.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>El orden importa. Si automatizas una tarea mal diseñada, obtienes una tarea mal diseñada que se repite sola, más rápido y más veces. Un error común es pensar que hay que automatizar todo lo que se pueda. Que una tarea se pueda automatizar no significa que convenga: primero hay que saber si es necesaria y si se puede simplificar, y después decidir con criterios si vale la pena.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · El reporte que nadie leía</strong></p><p>Andrés pensaba automatizar el reporte diario de movimientos de bodega. Antes le preguntó a su jefatura qué parte usaba, y la respuesta fue que solo el resumen del viernes. Eliminó el reporte diario y simplificó el semanal a cinco datos. Recién ahí tuvo sentido pensar en automatizarlo.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Primer criterio: el impacto",
+       "paragraph": "<p>Para elegir qué automatizar, la guía de Bath recomienda mirar la frecuencia de la tarea, su complejidad, el ahorro de tiempo y costo, y el efecto en la experiencia de las personas (University of Bath, s. f.). En este curso los juntamos en un solo criterio, el <strong>impacto</strong>: cuánto mejora el trabajo si la tarea se automatiza.</p><p>Para estimarlo, responde tres preguntas con sí o no:</p><ul><li><p>☐ ¿Se repite seguido, cada día o cada semana?</p></li><li><p>☐ ¿Me quita tiempo que podría usar en algo más valioso?</p></li><li><p>☐ ¿Mejora algo para otras personas, como clientes, proveedores, equipo o jefatura, si se hace más rápido o sin errores?</p></li></ul><p>Si respondes sí a dos o tres, el impacto es alto; si respondes sí a una o a ninguna, es bajo. Esta regla de conteo es una propuesta del curso para decidir rápido. Lo que importa es que puedas explicar tu respuesta.</p><p>La tercera pregunta es la que más se olvida. Una tarea puede ahorrarte poco tiempo a ti y hacer una gran diferencia para otra persona: un cliente que recibe en el momento la confirmación de su pedido, o un compañero que ya no tiene que esperar tu planilla para avanzar.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · El impacto de una tarea de Andrés</strong></p><p>«Avisar a los vendedores cuando un producto baja del mínimo» se repite a diario (sí), le quita tiempo revisando la planilla (sí) y evita que un vendedor ofrezca algo que no hay (sí). Impacto alto.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Segundo criterio: el riesgo",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Segundo criterio: el riesgo",
+       "paragraph": "<p>El <strong>riesgo</strong> es lo que puede salir mal si la tarea se hace sola. Una tarea automatizada no se cansa, pero tampoco duda: si el flujo tiene un error, lo repite cada vez. Por eso conviene pensar el riesgo antes de construir nada.</p><p>Hay dos factores que lo suben mucho. Uno son los datos personales, cuya protección la guía de Bath pide cuidar en cada flujo (University of Bath, s. f.); en tu trabajo eso incluye los datos de clientes, proveedores y compañeros. El otro son las decisiones que afectan a personas. La Ley 21.719, que según su texto rige en Chile desde el 1 de diciembre de 2026, reconoce el derecho a no ser objeto de decisiones basadas en el tratamiento automatizado de los datos que afecten significativamente a una persona (Ley 21.719, 2024). Lo vas a ver en el tema 3.</p><p>Para estimar el riesgo, responde otras tres preguntas con sí o no:</p><ul><li><p>☐ ¿La tarea usa datos personales o información confidencial?</p></li><li><p>☐ Si sale mal, ¿afecta a una persona, a dinero o a un plazo importante?</p></li><li><p>☐ ¿Sería difícil darse cuenta del error a tiempo?</p></li></ul><p>Igual que con el impacto, dos o tres sí indican riesgo alto. La tercera pregunta conecta con lo que viste en el módulo 1: si la respuesta está mal, quién se da cuenta y cuánto cuesta el error.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · «Una tarea pequeña no tiene riesgo»</strong></p><p>Mandar un recordatorio parece inofensivo. Pero si el flujo toma la fecha equivocada y lo envía a cuarenta clientes, el error se multiplica. El riesgo no depende del tamaño de la tarea, sino de lo que pasa si falla.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "La matriz de priorización",
+       "paragraph": "<p>Una <strong>matriz de priorización</strong> es una cuadrícula de 2 × 2 que cruza dos criterios para ver qué conviene hacer primero. En su versión más conocida, la que usa por ejemplo el equipo de mejora continua del sistema de salud de Lothian, en Escocia, cruza impacto y esfuerzo, y busca las «victorias rápidas»: mucho impacto con poco esfuerzo (NHS Lothian, s. f.).</p><p>En este curso la adaptamos. Cambiamos el esfuerzo por el riesgo, porque al automatizar lo que más importa es qué pasa si algo falla. Así queda:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p></p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Riesgo bajo</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Riesgo alto</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Impacto alto</p></td><td colspan=\"1\" rowspan=\"1\"><p>Empieza aquí: automatiza primero.</p></td><td colspan=\"1\" rowspan=\"1\"><p>Con supervisión: automatiza solo una parte y pon un control humano.</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Impacto bajo</p></td><td colspan=\"1\" rowspan=\"1\"><p>Si sobra tiempo: puede esperar.</p></td><td colspan=\"1\" rowspan=\"1\"><p>No automatices: no vale la pena el riesgo.</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>El cuadrante «Con supervisión» no es un no. Es una tarea valiosa que exige cuidado: puedes automatizar la parte de menor riesgo y dejar la decisión a una persona, y en el tema 3 vas a ver cómo hacerlo. El esfuerzo tampoco desaparece. Si dos tareas quedan en el mismo cuadrante, elige la que te cueste menos poner en marcha.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Una tarea tiene impacto alto y riesgo alto. ¿Qué indica la matriz del curso?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Automatizarla completa, porque vale la pena",
+         "correct": false,
+         "feedback": "<p>Impacto alto con riesgo alto queda en «Con supervisión». Se aprovecha el valor, pero una persona revisa lo delicado.</p>"
+        },
+        {
+         "title": "Automatizar solo una parte y poner un control humano",
+         "correct": true,
+         "feedback": "<p>Impacto alto con riesgo alto queda en «Con supervisión». Se aprovecha el valor, pero una persona revisa lo delicado.</p>"
+        },
+        {
+         "title": "Descartarla siempre",
+         "correct": false,
+         "feedback": "<p>Impacto alto con riesgo alto queda en «Con supervisión». Se aprovecha el valor, pero una persona revisa lo delicado.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Ejemplo guiado: Andrés ubica sus tareas",
+       "paragraph": "<p>Andrés eligió cinco tareas candidatas de su mapa y respondió las preguntas de impacto y riesgo. Así le quedaron:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Tarea</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Impacto</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Riesgo</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Cuadrante</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Registrar en la planilla la mercadería recibida</p></td><td colspan=\"1\" rowspan=\"1\"><p>Alto (3 sí)</p></td><td colspan=\"1\" rowspan=\"1\"><p>Bajo (1 sí: un error descuadra el stock)</p></td><td colspan=\"1\" rowspan=\"1\"><p>Empieza aquí</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Avisar a vendedores cuando un producto baja del mínimo</p></td><td colspan=\"1\" rowspan=\"1\"><p>Alto (3 sí)</p></td><td colspan=\"1\" rowspan=\"1\"><p>Bajo (0 sí)</p></td><td colspan=\"1\" rowspan=\"1\"><p>Empieza aquí</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Avisar a clientes cuando un despacho se atrasa</p></td><td colspan=\"1\" rowspan=\"1\"><p>Alto (3 sí)</p></td><td colspan=\"1\" rowspan=\"1\"><p>Alto (2 sí: plazos, error difícil de ver)</p></td><td colspan=\"1\" rowspan=\"1\"><p>Con supervisión</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Enviar el reporte semanal a la jefatura</p></td><td colspan=\"1\" rowspan=\"1\"><p>Bajo (1 sí)</p></td><td colspan=\"1\" rowspan=\"1\"><p>Bajo (0 sí)</p></td><td colspan=\"1\" rowspan=\"1\"><p>Si sobra tiempo</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Armar los turnos del equipo</p></td><td colspan=\"1\" rowspan=\"1\"><p>Bajo (1 sí)</p></td><td colspan=\"1\" rowspan=\"1\"><p>Alto (3 sí: datos y efecto en personas)</p></td><td colspan=\"1\" rowspan=\"1\"><p>No automatices</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>El reporte semanal quedó con impacto bajo porque, después de simplificarlo (sección «Antes de automatizar: eliminar y simplificar»), ya le toma poco tiempo (University of Bath, s. f.). Los turnos quedaron fuera: tocan la vida de sus compañeros, usan datos personales y un error se nota tarde.</p><p>Andrés tiene dos tareas en «Empieza aquí». La guía de Lothian sugiere que, si hay muchas opciones en el cuadrante prioritario, se elija entre ellas en conjunto, por ejemplo votando (NHS Lothian, s. f.). Andrés lo conversó con su jefatura y, para su proyecto, eligió otra: el aviso de atraso a clientes, que es la parte de su problema, los despachos atrasados, que más reclamos trae. Como quedó en «Con supervisión», le pondrá un control humano en el tema 3.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Clasifica según impacto y riesgo</strong></p><p>Ubica cada tarea en un cuadrante:</p><ol><li><p>Copiar a la planilla los pedidos que llegan por formulario (diario, sin datos sensibles). → Empieza aquí</p></li><li><p>Enviar cada semana a clientes el cobro de sus facturas vencidas, con montos y datos de contacto. → Con supervisión</p></li><li><p>Cambiar el color de las pestañas de una planilla cada mes. → Si sobra tiempo</p></li><li><p>Decidir solo con un puntaje a quién se le aprueba un anticipo de sueldo. → No automatices</p></li></ol>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Fundamenta tu priorización",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Fundamenta tu priorización",
+       "paragraph": "<p>Ubicar una tarea en la matriz no basta: tienes que poder explicar por qué quedó ahí. Un <strong>fundamento</strong> sirve para que otra persona, como tu jefatura o tu equipo, entienda tu decisión y la pueda discutir.</p><p>Un buen fundamento nombra el cuadrante y da una razón para cada criterio (NHS Lothian, s. f.; University of Bath, s. f.). Andrés, por ejemplo, escribió: «Ubico esta tarea en Empieza aquí porque se repite a diario y evita que los vendedores ofrezcan productos sin stock, y su riesgo es bajo porque no usa datos personales y, si falla, el error se nota el mismo día». El impacto y el riesgo llevan cada uno su razón. Los fundamentos vagos, como «porque es importante» o «porque es fácil», no sirven, porque no dicen en qué criterio te basas ni qué dato lo respalda.</p><p>Antes de mostrar tu matriz a alguien, puedes ponerla a prueba con Gemini. Pégale la matriz con tus fundamentos y escribe: «Actúa como una jefatura exigente. Para cada tarea, hazme una pregunta que ponga a prueba si el impacto y el riesgo que asigné son correctos. No cambies mi clasificación: solo pregunta». Responde las preguntas y ajusta lo que haga falta. La decisión final sigue siendo tuya.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "¿Cuál es el mejor fundamento para ubicar una tarea en «No automatices»?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "«Porque es complicada»",
+         "correct": false,
+         "feedback": "<p>El fundamento nombra los dos criterios con datos: impacto bajo (una vez al mes) y riesgo alto (afecta a una persona y a dinero).</p>"
+        },
+        {
+         "title": "«Porque no me gusta hacerla»",
+         "correct": false,
+         "feedback": "<p>El fundamento nombra los dos criterios con datos: impacto bajo (una vez al mes) y riesgo alto (afecta a una persona y a dinero).</p>"
+        },
+        {
+         "title": "«Porque se hace una vez al mes y, si falla, afecta el sueldo de una persona»",
+         "correct": true,
+         "feedback": "<p>El fundamento nombra los dos criterios con datos: impacto bajo (una vez al mes) y riesgo alto (afecta a una persona y a dinero).</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "El valor para las personas",
+       "paragraph": "<p>Si la respuesta a para qué automatizar es solo «para hacer más en menos tiempo», falta algo. La OIT advierte que el efecto de la IA sobre la calidad del trabajo, como la intensidad y la autonomía, puede importar más que las cifras de empleo (Gmyrek et al., 2023). Automatizar mal puede hacer que el trabajo sea más acelerado y no mejor.</p><p>Por eso la pregunta de impacto incluye a otras personas. Una buena automatización libera tiempo para lo que necesita a alguien: atender mejor a un cliente, resolver un problema con un proveedor, enseñarle algo a un compañero. Vale la pena hacerse siempre la misma pregunta: si esta tarea se automatiza, quién gana y qué hago yo con el tiempo que queda.</p><p>Hay otra razón para aprender esto en tu trabajo. Un documento de la OCDE señala que el principal riesgo para las personas sin estudios superiores, las mujeres y las personas mayores es quedar atrás por tener menos acceso a herramientas de IA que aumentan la productividad (Lane, 2024). Saber identificar qué automatizar, y hacerlo con cuidado, es una forma de no quedarse atrás.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Lo que hace Camila con el tiempo ganado</strong></p><p>Camila calcula que, si el registro de facturas se hiciera solo, recuperaría un buen rato cada semana. Lo usaría para responder con calma a los proveedores que preguntan por el estado de sus pagos, antes de que la consulta se convierta en reclamo. El tiempo ganado se notaría en el trato con las personas.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Cierre: tu matriz de impacto y riesgo",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Cierre: tu matriz de impacto y riesgo",
+       "paragraph": "<p>En este tema miraste el trabajo tarea por tarea. Aprendiste a reconocer una tarea automatizable por su anatomía: se repite, sigue reglas y trabaja con información. Viste que antes de automatizar conviene eliminar y simplificar (University of Bath, s. f.), y que la decisión se toma con dos criterios, impacto y riesgo, ordenados en una matriz (NHS Lothian, s. f.).</p><p>Ahora te toca armar la tuya con las tareas de tu cargo. Si la tarea que más te interesa quedó en «Con supervisión», no la descartes: en el tema 3 vas a aprender a ponerle puntos de control humano. Y si ninguna tarea te convence, vuelve a tu mapa y busca las que trabajan con correo, planillas o agenda.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tu matriz</strong></p><p>Usa el mapa de tareas que armaste en la sección «Mapea las tareas de tu cargo»:</p><ol><li><p>Elige al menos tres tareas candidatas, y si puedes, cinco.</p></li><li><p>Para cada una, responde las tres preguntas de impacto (sección «Primer criterio: el impacto») y las tres de riesgo (sección «Segundo criterio: el riesgo»).</p></li><li><p>Ubícalas en la matriz (sección «La matriz de priorización»). Puedes dibujarla en una hoja o en una planilla.</p></li><li><p>Escribe un fundamento de una o dos líneas por tarea, como en la sección «Fundamenta tu priorización».</p></li><li><p>Marca la tarea que elegirías para automatizar primero y explica por qué.</p></li></ol><p>Guarda tu matriz. En el próximo tema vas a construir un flujo simple para la tarea que marcaste.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Ideas clave"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<ol><li><p>La exposición a la IA generativa se analiza tarea por tarea: dentro de un mismo cargo hay tareas expuestas y otras que siguen necesitando a una persona.</p></li><li><p>Exposición no es reemplazo: según la OIT, lo más probable es que los empleos se transformen, y el trabajo administrativo es el más expuesto.</p></li><li><p>Una tarea es buena candidata cuando se repite, sigue reglas claras y trabaja con información, como correos, planillas o agenda.</p></li><li><p>Antes de automatizar, elimina lo innecesario y simplifica lo que queda.</p></li><li><p>El impacto mira la frecuencia, el tiempo ganado y la mejora para las personas; el riesgo mira los datos personales, el efecto de un error y qué tan fácil es detectarlo.</p></li><li><p>La matriz de impacto y riesgo ordena las tareas en cuatro cuadrantes: empieza aquí, con supervisión, si sobra tiempo y no automatices.</p></li><li><p>Una priorización se fundamenta nombrando cada criterio y el dato que lo respalda.</p></li></ol>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Referencias bibliográficas",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Estas son las fuentes citadas en este tema, en formato APA 7. Los enlaces se abren en una pestaña nueva.</p><p>Autor, D. H., Levy, F. y Murnane, R. J. (2001). <em>The skill content of recent technological change: An empirical exploration (NBER Working Paper 8337)</em>. NBER. <a href=\"https://www.nber.org/papers/w8337\" target=\"_blank\" rel=\"noopener\">https://www.nber.org/papers/w8337</a></p><p>Gmyrek, P., Berg, J. y Bescond, D. (2023). <em>Generative AI and jobs: A global analysis of potential effects on job quantity and quality (ILO Working Paper 96)</em>. OIT. <a href=\"https://doi.org/10.54394/FHEM8239\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.54394/FHEM8239</a></p><p>Google. (s. f.). <em>Empezar a usar la aplicación móvil Gemini</em>. <a href=\"https://support.google.com/gemini/answer/14554984?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/14554984?hl=es</a></p><p>Lane, M. (2024). <em>Who will be the workers most affected by AI? A closer look at the impact of AI on women, low-skilled workers and other groups (OECD Artificial Intelligence Papers n.º 26)</em>. OCDE. <a href=\"https://doi.org/10.1787/14dc6f89-en\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.1787/14dc6f89-en</a></p><p>Ley 21.719. (2024, 13 de diciembre). <em>Regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales</em>. Biblioteca del Congreso Nacional de Chile. <a href=\"https://www.bcn.cl/leychile/navegar?idLey=21719\" target=\"_blank\" rel=\"noopener\">https://www.bcn.cl/leychile/navegar?idLey=21719</a></p><p>NHS Lothian. (s. f.). <em>Prioritisation matrix</em>. Lothian Quality. <a href=\"https://qilothian.scot.nhs.uk/pc-resources-prioritisation-matrix\" target=\"_blank\" rel=\"noopener\">https://qilothian.scot.nhs.uk/pc-resources-prioritisation-matrix</a></p><p>OIT y NASK. (2025). <em>Generative AI and jobs: A refined global index of occupational exposure (ILO Working Paper 140)</em>. <a href=\"https://doi.org/10.54394/HETP0387\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.54394/HETP0387</a></p><p>University of Bath. (s. f.). <em>Automation standards for Microsoft Power Automate</em>. <a href=\"https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate\" target=\"_blank\" rel=\"noopener\">https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate</a></p>"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

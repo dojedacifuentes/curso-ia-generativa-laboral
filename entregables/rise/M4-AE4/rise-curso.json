@@ -1,0 +1,1136 @@
+{
+ "ae": "M4-AE4",
+ "titulo": "Clips y video breve",
+ "descripcion": "<p><strong>Competencia del módulo:</strong> Producir contenido visual, sonoro y audiovisual con IA generativa, respetando licencias, atribución y criterios éticos, para piezas de comunicación laboral.</p><p><strong>Aprendizaje esperado:</strong> Elaborar un clip de 60 segundos que integre guion, voz, música e imagen generados con IA.</p><p>En los temas anteriores produjiste una imagen, una locución y una pista musical. Ahora vas a unirlas en un <strong>clip de 60 segundos</strong>: un video breve que se puede mostrar en una reunión, en una pantalla de la oficina o en el teléfono de tu equipo.</p>",
+ "lecciones": [
+  {
+   "titulo": "Las tres etapas de la producción",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Qué vas a lograr en este tema",
+       "paragraph": "<p>En los temas anteriores produjiste una imagen, una locución y una pista musical. Ahora vas a unirlas en un <strong>clip de 60 segundos</strong>: un video breve que se puede mostrar en una reunión, en una pantalla de la oficina o en el teléfono de tu equipo.</p><p><strong>Competencia del módulo:</strong> Producir contenido visual, sonoro y audiovisual con IA generativa, respetando licencias, atribución y criterios éticos, para piezas de comunicación laboral.</p><p><strong>Aprendizaje esperado:</strong> Elaborar un clip de 60 segundos que integre guion, voz, música e imagen generados con IA.</p><p>Al final deberías poder entregar ese clip y completar su ficha de uso ético.</p><p>Es un proyecto breve guiado y termina con un producto. Lo harás en el orden en que se produce cualquier video: primero planificas y escribes el guion, después reúnes y generas los recursos, y al final montas, revisas y exportas (Universidad Simón Bolívar, s. f.). Para el guion usarás Gemini; para algunas tomas de video, Google Flow, si te funciona; y para montar, CapCut o Canva, que tiene app para Android y para iOS (Canva, s. f.).</p><p>Andrés termina aquí su campaña de pasillos despejados: hará el clip para la reunión de inicio de turno con el afiche, la locución y la pista que ya tiene. Camila hará el de la campaña de reciclaje de su oficina, y tú, el de tu campaña interna. Un minuto parece poco, pero obliga a decidir qué es lo esencial, y esa decisión es tuya, no de la herramienta.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Las tres etapas de la producción",
+       "paragraph": "<p>Las guías de producción de video ordenan el trabajo en tres etapas (Universidad Simón Bolívar, s. f.). Te sirven para no saltarte pasos y para no tener que rehacer todo al final.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Etapa</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué se hace</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>En tu clip</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Preproducción</p></td><td colspan=\"1\" rowspan=\"1\"><p>Tema, guion, material visual, verificación de derechos de autor o licencias, y escenario</p></td><td colspan=\"1\" rowspan=\"1\"><p>Guion por secuencias y lista de recursos con su licencia</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Producción</p></td><td colspan=\"1\" rowspan=\"1\"><p>Grabación: luz, cámara y audio</p></td><td colspan=\"1\" rowspan=\"1\"><p>Generar tomas, imágenes, locución y música con IA</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Postproducción</p></td><td colspan=\"1\" rowspan=\"1\"><p>Edición y publicación</p></td><td colspan=\"1\" rowspan=\"1\"><p>Montaje, subtítulos, créditos y exportación</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Fíjate en que la verificación de licencias está en la <strong>preproducción</strong>, no al final. Si descubres después de montar que una pista no se puede usar, tendrás que rehacer el clip. Con el guion pasa lo mismo: un error común es empezar a montar e ir armando el guion sobre la marcha. Sin guion, el clip se alarga, los recursos no calzan y gastas créditos generando tomas que después no usas.</p><p>En un video hecho con IA la producción cambia, porque en vez de grabar con una cámara, generas. Pero la lógica es la misma: primero se planifica, después se produce y al final se edita.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · El plan de Andrés</strong></p><p>Andrés anota en su bitácora: lunes, guion; martes, tomas en Flow y revisión de recursos; miércoles, montaje y exportación; jueves, revisión con su jefatura. Así no se le junta todo el último día.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "La estructura de un guion breve",
+       "paragraph": "<p>Un guion breve tiene una estructura simple, que las guías de video describen en cuatro movimientos. Abre con el propósito, es decir, de qué trata y por qué importa. Desarrolla pocos puntos clave, uno por momento. Pone un <strong>llamado a la acción</strong>, que dice qué tiene que hacer la persona después de verlo. Y cierra (Universidad Simón Bolívar, s. f.).</p><p>En 60 segundos no caben muchas ideas. Esta es una distribución posible, como recomendación del curso:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Momento</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Tiempo aproximado</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué pasa</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Apertura</p></td><td colspan=\"1\" rowspan=\"1\"><p>0 a 8 s</p></td><td colspan=\"1\" rowspan=\"1\"><p>Una imagen o una pregunta que capte la atención y diga el propósito</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Puntos clave</p></td><td colspan=\"1\" rowspan=\"1\"><p>8 a 45 s</p></td><td colspan=\"1\" rowspan=\"1\"><p>Dos o tres ideas, una por secuencia</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Llamado a la acción</p></td><td colspan=\"1\" rowspan=\"1\"><p>45 a 55 s</p></td><td colspan=\"1\" rowspan=\"1\"><p>Qué hacer, dicho y escrito en pantalla</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Cierre y créditos</p></td><td colspan=\"1\" rowspan=\"1\"><p>55 a 60 s</p></td><td colspan=\"1\" rowspan=\"1\"><p>Mensaje final y créditos</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>La apertura merece atención especial. Si los primeros segundos no dicen de qué trata el clip, la atención se pierde, sobre todo en una reunión donde la gente recién se está acomodando o en un teléfono, donde basta un gesto para pasar a otra cosa.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "¿Qué parte del guion responde «¿qué tiene que hacer la persona después de ver el clip?»?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "La apertura",
+         "correct": false,
+         "feedback": "<p>El llamado a la acción dice qué se espera de quien mira. Va después de los puntos clave y antes del cierre.</p>"
+        },
+        {
+         "title": "Los puntos clave",
+         "correct": false,
+         "feedback": "<p>El llamado a la acción dice qué se espera de quien mira. Va después de los puntos clave y antes del cierre.</p>"
+        },
+        {
+         "title": "El llamado a la acción",
+         "correct": true,
+         "feedback": "<p>El llamado a la acción dice qué se espera de quien mira. Va después de los puntos clave y antes del cierre.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "El guion por secuencias",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "El guion por secuencias",
+       "paragraph": "<p>Para producir, el guion se arma por <strong>secuencias</strong>. Cada secuencia lleva su texto, que es lo que dice la voz; su imagen; su plano, que indica qué tan cerca se ve; su sonido, y su duración (Universidad Simón Bolívar, s. f.). Así sabes qué recurso necesitas para cada momento. Este es el guion de Andrés:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>N.º</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Texto de la locución</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Imagen y plano</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Sonido</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Duración</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>1</p></td><td colspan=\"1\" rowspan=\"1\"><p>«¿Cuántas veces esquivaste una caja esta semana?»</p></td><td colspan=\"1\" rowspan=\"1\"><p>Toma generada: pasillo con cajas, plano general</p></td><td colspan=\"1\" rowspan=\"1\"><p>Música entra</p></td><td colspan=\"1\" rowspan=\"1\"><p>6 s</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>2</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Un pasillo bloqueado es un tropiezo esperando pasar.»</p></td><td colspan=\"1\" rowspan=\"1\"><p>Imagen fija: caja en el suelo, primer plano</p></td><td colspan=\"1\" rowspan=\"1\"><p>Voz y música baja</p></td><td colspan=\"1\" rowspan=\"1\"><p>10 s</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>3</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Deja cada caja en su ubicación.»</p></td><td colspan=\"1\" rowspan=\"1\"><p>Imagen fija: trabajadora ordenando un estante</p></td><td colspan=\"1\" rowspan=\"1\"><p>Voz y música</p></td><td colspan=\"1\" rowspan=\"1\"><p>12 s</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>4</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Si ves un pasillo bloqueado, avisa.»</p></td><td colspan=\"1\" rowspan=\"1\"><p>Imagen fija: compañero avisando por radio</p></td><td colspan=\"1\" rowspan=\"1\"><p>Voz y música</p></td><td colspan=\"1\" rowspan=\"1\"><p>12 s</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>5</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Pasillo despejado, bodega segura.»</p></td><td colspan=\"1\" rowspan=\"1\"><p>Toma generada: carro por pasillo despejado, plano general</p></td><td colspan=\"1\" rowspan=\"1\"><p>Voz y música sube</p></td><td colspan=\"1\" rowspan=\"1\"><p>8 s</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>6</p></td><td colspan=\"1\" rowspan=\"1\"><p>(sin voz)</p></td><td colspan=\"1\" rowspan=\"1\"><p>Afiche de la campaña y créditos</p></td><td colspan=\"1\" rowspan=\"1\"><p>Música termina</p></td><td colspan=\"1\" rowspan=\"1\"><p>12 s</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>El total da 60 segundos, pero las duraciones son provisorias: se ajustan al cronometrar la locución, como recomiendan las guías (Universidad Simón Bolívar, s. f.). Fíjate también en que solo dos secuencias usan video generado. El resto son imágenes fijas que Andrés ya tiene o que puede generar con Gemini, lo que le ahorra créditos y tiempo.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tu guion por secuencias</strong></p><p>Arma la tabla de tu clip con cinco a siete secuencias. Completa las cinco columnas y suma las duraciones: tienen que dar 60 segundos.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Escribe y ajusta el guion con Gemini",
+       "paragraph": "<p>Gemini te puede ayudar a pasar de una idea a un guion por secuencias, en la app del celular o en la web (Google, s. f.-c). Dale el mensaje, la estructura y el formato de la tabla, y ponle un límite a la locución: como recomendación del curso, 100 palabras como máximo, para que quepa con calma en un minuto.</p><p>Lo que entregue es un borrador. Revísalo tú con estas preguntas:</p><ul><li><p>¿Las duraciones suman 60 segundos?</p></li><li><p>¿Cada secuencia tiene una sola idea?</p></li><li><p>¿El texto suena natural en voz alta?</p></li><li><p>¿Las imágenes pedidas se pueden generar sin personas reales ni marcas?</p></li></ul><p>El primer borrador de Andrés traía frases como «En nuestra empresa, la seguridad es un valor fundamental que todos debemos compartir día a día en cada una de nuestras labores». Él la cambió por «Un pasillo bloqueado es un tropiezo esperando pasar», que es breve, concreta y se entiende al escucharla una vez. Un error común es copiar el guion tal como lo entrega la IA: las duraciones, el tono y lo que se puede mostrar los decides tú. Después cronometra: lee la locución en voz alta con el cronómetro del celular y ajusta las duraciones de la tabla (Universidad Simón Bolívar, s. f.).</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · El prompt de Andrés</strong></p><p>«Escribe el guion de un clip interno de 60 segundos para una bodega. Mensaje: \"Pasillo despejado, bodega segura\". Estructura: apertura con una pregunta, dos puntos clave, llamado a la acción y cierre. Entrégalo en una tabla con número de secuencia, texto de la locución, imagen y plano, sonido y duración en segundos. La locución no debe pasar de 100 palabras».</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Video generativo: qué hay gratis hoy",
+       "paragraph": "<p>El <strong>video generativo</strong> produce escenas sintéticas a partir de un texto o de una imagen. Es la parte del panorama que más rápido cambia, como viste con el retiro de Sora en el tema 1. Antes de elegir una herramienta, revisa en su página si el plan gratuito permite generar video, cuántos clips y si agrega marca de agua.</p><p>Cuando se preparó este curso, la opción gratuita más útil era Google Flow. Entrega 50 créditos diarios gratis, con o sin suscripción, y no se acumulan de un día para otro (Google, s. f.-d). Con los modelos Veo 3.1 genera clips de 4, 6 u 8 segundos a partir de un texto o de una imagen (Google, s. f.-e), y el costo depende del modelo: un clip con Veo 3.1 Lite gasta 10 créditos; con Veo 3.1 Fast, 20, y con Veo 3.1 Quality, 100 (Google, s. f.-d). También ofrece Gemini Omni Flash, con clips de hasta 10 segundos en 720p o 360p, que gasta entre 4 y 15 créditos según la resolución y la duración (Google, s. f.-e; Google, s. f.-d). Su modelo de imagen por defecto, Nano Banana 2 Lite, no tiene costo (Google, s. f.-e).</p><p>Haz la cuenta: con 50 créditos al día alcanzas para unos cinco clips de 8 segundos con Veo 3.1 Lite, es decir, unos 40 segundos. No alcanza para un minuto completo de video generado, y tampoco hace falta, porque un buen clip combina pocas tomas generadas con imágenes fijas.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Andrés quiere que todo su clip de 60 segundos sea video generado con Veo 3.1 Lite, en un solo día y gratis. ¿Le alcanza?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Sí, con 50 créditos genera más de un minuto",
+         "correct": false,
+         "feedback": "<p>Cada clip con Veo 3.1 Lite gasta 10 créditos y dura hasta 8 segundos. Por eso conviene combinar pocas tomas generadas con imágenes fijas.</p>"
+        },
+        {
+         "title": "No: 50 créditos dan para unos cinco clips de 8 segundos, unos 40 segundos",
+         "correct": true,
+         "feedback": "<p>Cada clip con Veo 3.1 Lite gasta 10 créditos y dura hasta 8 segundos. Por eso conviene combinar pocas tomas generadas con imágenes fijas.</p>"
+        },
+        {
+         "title": "Sí, porque Flow no cobra los clips cortos",
+         "correct": false,
+         "feedback": "<p>Cada clip con Veo 3.1 Lite gasta 10 créditos y dura hasta 8 segundos. Por eso conviene combinar pocas tomas generadas con imágenes fijas.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Generar tomas con Google Flow",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Generar tomas con Google Flow",
+       "paragraph": "<p>La recomendación del curso es que tu clip combine dos a cuatro tomas generadas con imágenes fijas que muestras con un movimiento suave en el editor. Así cuidas tus créditos y tu tiempo.</p><p>Para pedir una toma, usa lo que aprendiste del prompt visual en el tema 2 y agrega qué se mueve. Un buen pedido dice el sujeto y su acción, como «una trabajadora empuja un carro»; el contexto, «por un pasillo de bodega despejado, con estantes ordenados»; la cámara y el plano, «plano general, la cámara la sigue de lado»; y el estilo y la luz, «ilustración animada, luz natural». Luego sigue estos pasos:</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Generar tomas con Google Flow",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Generar tomas con Google Flow",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Elige en tu guion las secuencias que de verdad necesitan movimiento.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Escribe un prompt por toma y elige su duración.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Genera con Veo 3.1 Lite, que gasta 10 créditos por clip, menos que los otros modelos Veo (Google, s. f.-d).",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Revisa la toma completa",
+       "description": "<p>movimientos raros, objetos que aparecen o desaparecen, texto deforme.</p>"
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Descárgala y anota el prompt, el modelo y los créditos usados.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Si no puedes usar Flow o se te acabaron los créditos del día, arma el clip solo con imágenes fijas: cumple igual con lo que pide el tema. Y crea con responsabilidad: no generes escenas realistas de personas reales ni de hechos que no ocurrieron para presentarlas como reales. La OMPI recomienda no usar herramientas para producir ultrafalsos (OMPI, 2024).</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tus tomas</strong></p><p>Genera dos tomas para las secuencias de tu guion que más necesitan movimiento. Anota en tu bitácora el prompt de cada una y cuántos créditos te quedaron.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Reunir los recursos y verificar sus licencias",
+       "paragraph": "<p>Antes de montar, junta todos los recursos en una carpeta del celular y revisa de dónde viene cada uno. Las guías de video piden verificar los derechos de autor o las licencias Creative Commons en la preproducción y referenciar toda imagen que uses (Universidad Simón Bolívar, s. f.). La lista de recursos de Andrés quedó así:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Recurso</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Origen</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Licencia o condición</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Crédito</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Locución</p></td><td colspan=\"1\" rowspan=\"1\"><p>ElevenLabs, plan gratuito (tema 3)</p></td><td colspan=\"1\" rowspan=\"1\"><p>No comercial</p></td><td colspan=\"1\" rowspan=\"1\"><p>«elevenlabs.io» en el título si se publica</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Pista</p></td><td colspan=\"1\" rowspan=\"1\"><p>Eleven Music, plan gratuito (tema 3)</p></td><td colspan=\"1\" rowspan=\"1\"><p>No comercial</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Eleven Music» en el título si se publica</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Imagen del afiche</p></td><td colspan=\"1\" rowspan=\"1\"><p>Gemini y Canva (tema 2)</p></td><td colspan=\"1\" rowspan=\"1\"><p>Google no reclama la propiedad; en Canva, propia salvo elementos de la biblioteca</p></td><td colspan=\"1\" rowspan=\"1\"><p>Etiqueta de IA</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Toma 1 y toma 5</p></td><td colspan=\"1\" rowspan=\"1\"><p>Google Flow, Veo 3.1 Lite</p></td><td colspan=\"1\" rowspan=\"1\"><p>Google no reclama la propiedad (tema 1)</p></td><td colspan=\"1\" rowspan=\"1\"><p>Etiqueta de IA</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Sticker de advertencia</p></td><td colspan=\"1\" rowspan=\"1\"><p>Biblioteca de CapCut</p></td><td colspan=\"1\" rowspan=\"1\"><p>Solo personal y no comercial, salvo marca «commercial use»</p></td><td colspan=\"1\" rowspan=\"1\"><p>Revisar antes de usar</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Si un recurso no tiene licencia clara, no lo uses, y si no sabes de dónde salió una imagen, tampoco: no podrías darle crédito ni saber si permite tu uso. Pon atención a la biblioteca del editor. En CapCut, algunos materiales, como plantillas, stickers, efectos o música, son solo para uso personal y no comercial; los que permiten un uso comercial limitado llevan una marca visible del tipo «commercial use», y usarlos exige una cuenta registrada (CapCut, 2026a). En Canva, como viste en el tema 2, el contenido de la biblioteca solo se licencia.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Andrés encuentra en CapCut una música perfecta, pero no tiene la marca «commercial use». Su clip es para la reunión interna. ¿Qué hace?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "La usa, porque está dentro de la app",
+         "correct": false,
+         "feedback": "<p>Estar en la app no significa que sirva para cualquier uso. Las condiciones de cada material mandan.</p>"
+        },
+        {
+         "title": "La anota como material solo para uso personal y no comercial, y decide con esa condición o elige otra con la marca",
+         "correct": true,
+         "feedback": "<p>Estar en la app no significa que sirva para cualquier uso. Las condiciones de cada material mandan.</p>"
+        },
+        {
+         "title": "La usa y da crédito a CapCut",
+         "correct": false,
+         "feedback": "<p>Estar en la app no significa que sirva para cualquier uso. Las condiciones de cada material mandan.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Montaje en el celular: CapCut o Canva",
+       "paragraph": "<p>El <strong>montaje</strong> ordena las tomas, la voz, la música y las imágenes en una <strong>línea de tiempo</strong>, siguiendo el guion (Universidad Simón Bolívar, s. f.). Puedes hacerlo en el celular con CapCut o con Canva. CapCut es para mayores de 13 años, y los menores de 18 necesitan el consentimiento de sus padres. Sus términos dicen además que no garantiza que el contenido generado sea legal o apropiado y que la persona responde por lo que crea (CapCut, 2026b), así que la revisión sigue siendo tuya. Estos son los pasos para montar:</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Montaje en el celular: CapCut o Canva",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Montaje en el celular: CapCut o Canva",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Crea un proyecto con el formato de tu canal",
+       "description": "<p>vertical (9:16) para el teléfono u horizontal (16:9) para una pantalla.</p>"
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Pon la locución en la línea de tiempo: es la columna vertebral del clip.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Ubica las imágenes y las tomas en el orden del guion, ajustando cada una a su duración.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Agrega la música debajo de la voz y baja su volumen donde habla la locución.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Suma los textos en pantalla: el llamado a la acción y el título de la campaña.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Agrega transiciones simples solo donde ayuden a entender el cambio de secuencia.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Termina con los créditos.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Tener el guion al lado mientras montas te ahorra vueltas, porque cada fila de la tabla es un tramo de la línea de tiempo.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · «Más transiciones y efectos hacen que se vea más profesional»</strong></p><p>Los efectos distraen del mensaje y alargan el clip. En un minuto, lo que más cuenta es que se entienda.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Subtítulos, textos en pantalla y créditos",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Subtítulos, textos en pantalla y créditos",
+       "paragraph": "<p>El cuidado del detalle se nota en lo que mucha gente no mira hasta que falta, y lo primero son los subtítulos. Las pautas WCAG piden subtítulos en los videos con audio grabado (W3C, 2024). Ayudan a quien no oye bien, a quien ve el clip sin sonido en el teléfono y a quien está en un lugar con ruido, como una bodega. Un error común es pensar que sobran si la voz se entiende bien: son parte del clip, no un adorno. Escríbelos en el editor o usa los subtítulos automáticos si tu editor los tiene, pero en ese caso revísalos palabra por palabra.</p><p>Los textos en pantalla siguen lo que viste en el tema 2: contraste mínimo de 4,5:1, o de 3:1 en texto grande, pocos tamaños y texto breve. Como recomendación del curso, deja cada texto en pantalla el tiempo suficiente para leerlo dos veces.</p><p>Al final del clip van los créditos y las referencias, como indican las guías de video (Universidad Simón Bolívar, s. f.): quién lo hizo, con qué herramientas, de dónde salieron la música y las imágenes, y la etiqueta de IA. Antes de seguir, comprueba que los subtítulos coincidan con la locución, que los textos se lean bien en el celular y que cada imagen y cada audio aparezcan en los créditos.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Los créditos de Andrés</strong></p><p>«Campaña Pasillo despejado. Guion y montaje: Andrés. Imágenes generadas con IA (Gemini y Google Flow). Voz: elevenlabs.io. Música: Eleven Music. Afiche compuesto en Canva».</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Ajustar a 60 segundos y revisar",
+       "paragraph": "<p>Con el montaje armado, mira el clip completo de principio a fin, sin detenerte. Luego revísalo por partes, empezando por la duración. La meta son 60 segundos, y las guías recomiendan ajustar la duración cronometrando la locución (Universidad Simón Bolívar, s. f.). Si te pasas, acorta las pausas largas entre frases, recorta las tomas que se repiten o elimina la secuencia menos importante. Si te falta tiempo, alarga un poco las imágenes del llamado a la acción en vez de agregar ideas nuevas. Acelerar la voz para que todo quepa no es buena salida, porque cuesta entenderla.</p><p>Después revisa que los cuatro elementos estén y trabajen juntos, y que no se te escape ningún detalle:</p><ul><li><p>☐ Guion: se entienden el propósito, los puntos clave y el llamado a la acción.</p></li><li><p>☐ Voz: clara, sin errores de lectura y coincide con lo que se ve.</p></li><li><p>☐ Música: acompaña sin tapar la voz y termina con el clip, sin cortarse de golpe.</p></li><li><p>☐ Imagen: cada secuencia muestra lo que dice la voz, sin defectos ni sesgos.</p></li><li><p>☐ No hay un cuadro negro ni un salto al inicio o al final.</p></li><li><p>☐ El volumen es parejo de principio a fin.</p></li><li><p>☐ Las tomas generadas no tienen objetos que aparecen o desaparecen.</p></li></ul>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Revisión cruzada</strong></p><p>Muestra tu clip a otra persona sin explicarle nada. Pregúntale qué entendió y qué tiene que hacer después de verlo. Si su respuesta no coincide con tu mensaje, ajusta el guion o el montaje.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Exportar el clip",
+       "paragraph": "<p><strong>Exportar</strong> es generar el archivo final de video a partir del proyecto de montaje. Las recomendaciones de YouTube para subir videos sirven como referencia, aunque tu clip no vaya a YouTube (Google, s. f.-a):</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Ajuste</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Recomendación</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Formato del archivo</p></td><td colspan=\"1\" rowspan=\"1\"><p>MP4</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Video</p></td><td colspan=\"1\" rowspan=\"1\"><p>H.264</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Audio</p></td><td colspan=\"1\" rowspan=\"1\"><p>AAC-LC (u Opus), a 48 kHz</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Velocidad de fotogramas</p></td><td colspan=\"1\" rowspan=\"1\"><p>La misma de la grabación; 24, 25, 30 o 60 fps son comunes</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Relación de aspecto</p></td><td colspan=\"1\" rowspan=\"1\"><p>16:9 es la estándar; el reproductor adapta los videos verticales o cuadrados</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>En el celular, los editores suelen ofrecer pocas opciones de exportación. Como recomendación del curso, si te deja elegir, usa MP4 y mantén la velocidad de fotogramas que trae el proyecto. Después abre el archivo exportado y míralo completo, porque a veces el audio se desfasa o un texto queda cortado. Guarda el archivo con un nombre claro, como «clip-pasillo-despejado-v1.mp4», y conserva el proyecto de montaje por si hay que corregir algo.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Andrés exportó su clip. ¿Qué configuración coincide con las recomendaciones?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Archivo de imagen, audio a 8 kHz",
+         "correct": false,
+         "feedback": "<p>MP4 con H.264 y AAC-LC es la combinación recomendada, manteniendo la velocidad de fotogramas de la grabación.</p>"
+        },
+        {
+         "title": "MP4, video H.264 y audio AAC-LC a 48 kHz",
+         "correct": true,
+         "feedback": "<p>MP4 con H.264 y AAC-LC es la combinación recomendada, manteniendo la velocidad de fotogramas de la grabación.</p>"
+        },
+        {
+         "title": "Cualquier formato, cambiando la velocidad de fotogramas a 10 fps",
+         "correct": false,
+         "feedback": "<p>MP4 con H.264 y AAC-LC es la combinación recomendada, manteniendo la velocidad de fotogramas de la grabación.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Creatividad responsable: declarar lo sintético",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Creatividad responsable: declarar lo sintético",
+       "paragraph": "<p>Crear con responsabilidad es etiquetar el contenido sintético realista y no suplantar a personas reales. YouTube sirve de referencia para saber cuándo declarar: lo exige cuando una persona real parece decir o hacer algo que no hizo, cuando se alteran hechos o lugares reales, cuando se crean escenas realistas que no ocurrieron y cuando la música creada con IA es el foco principal del video. No exige declarar lo que es claramente irreal, las ediciones menores ni la ayuda con guiones o subtítulos (Google, s. f.-b).</p><p>En el tema 2 viste que algunas herramientas marcan lo que generan con marcas de agua invisibles o con credenciales de contenido. Ayudan, pero no bastan. El NIST advierte que quien copia o edita un archivo puede alterar o falsear sus metadatos, que las redes sociales suelen borrarlos al compartir y que algunas marcas de agua se pueden eliminar, así que ninguna técnica sirve sola (National Institute of Standards and Technology, 2024). Al montar y exportar tu clip puede pasar lo mismo.</p><p>Por eso, la recomendación del curso es declarar de forma visible, con una línea en los créditos o en la descripción, como «Imágenes, voz y música generadas con IA». Y no quitar las marcas de agua ni los metadatos que traen los recursos, aunque sepas que se pueden perder después.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "¿Cuál de estos clips debe declararse en YouTube como contenido alterado o sintético?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Un clip con una ilustración animada claramente irreal",
+         "correct": false,
+         "feedback": "<p>Las escenas realistas que no ocurrieron deben declararse. Lo claramente irreal y la ayuda con el guion, no.</p>"
+        },
+        {
+         "title": "Un clip con una escena realista, generada con IA, de un accidente que no ocurrió",
+         "correct": true,
+         "feedback": "<p>Las escenas realistas que no ocurrieron deben declararse. Lo claramente irreal y la ayuda con el guion, no.</p>"
+        },
+        {
+         "title": "Un clip cuyo guion se escribió con ayuda de un asistente",
+         "correct": false,
+         "feedback": "<p>Las escenas realistas que no ocurrieron deben declararse. Lo claramente irreal y la ayuda con el guion, no.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "La ficha de uso ético del clip",
+       "paragraph": "<p>El clip se entrega con su ficha de uso ético, la misma que empezaste en el tema 1. Para un clip, la ficha está completa cuando tiene la etiqueta de IA, el registro de instrucciones, el aporte humano y los consentimientos, que es lo que la OMPI recomienda documentar (OMPI, 2024), más los créditos de los materiales de terceros con la fórmula TASL (Creative Commons, 2024). El curso agrega un campo: la marca de agua o credencial de cada recurso, si la tiene.</p><p>Un error que se repite es anotar «ninguno» en el aporte humano porque todo se generó con IA. Generar con IA no borra lo que decidiste e hiciste: el mensaje, el guion final, la selección de tomas, el montaje, los subtítulos y la revisión son tuyos, y dejarlos fuera deja sin respaldo tu trabajo.</p><p>Completa ahora la ficha de tu clip con todos los campos, y revisa que cada recurso de tu lista de la sección «Reunir los recursos y verificar sus licencias» aparezca en ella con su licencia y su crédito.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · La ficha del clip de Andrés</strong></p><p>Andrés anotó que la pieza es un clip de 60 segundos para la reunión de inicio de turno de la bodega, de uso interno y sin venta. Usó Gemini para el guion y las imágenes, Google Flow con Veo 3.1 Lite para dos tomas (20 créditos), ElevenLabs gratis para la voz, Eleven Music gratis para la música y CapCut para montar, y revisó las condiciones el día del montaje. Con IA se generaron dos tomas, tres imágenes, la voz y la música, y anexó los prompts de cada una. Su aporte fue el mensaje, el guion final, la selección de tomas, el montaje, los subtítulos y la revisión. No aparecen personas ni voces reales, así que no hubo consentimientos que pedir. En los créditos van «elevenlabs.io» y «Eleven Music», no comerciales, y no usó material de la biblioteca de CapCut. Las imágenes y tomas hechas con Google llevan SynthID, y la etiqueta visible está en los créditos.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Cierre: entrega tu clip",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Cierre: entrega tu clip",
+       "paragraph": "<p>En este proyecto hiciste un video completo: planificaste con un guion por secuencias, generaste y reuniste recursos verificando sus licencias, montaste en una línea de tiempo, agregaste subtítulos y créditos (Universidad Simón Bolívar, s. f.), exportaste (Google, s. f.-a) y documentaste todo en la ficha de uso ético. Antes de entregar, revisa:</p><ul><li><p>☐ El clip dura 60 segundos.</p></li><li><p>☐ Integra guion, voz, música e imagen.</p></li><li><p>☐ Tiene apertura, puntos clave, llamado a la acción y cierre.</p></li><li><p>☐ Lleva subtítulos revisados y textos legibles.</p></li><li><p>☐ Los créditos incluyen cada recurso y la etiqueta de IA.</p></li><li><p>☐ No suplanta a personas reales ni muestra como real algo que no ocurrió.</p></li><li><p>☐ Está exportado en MP4 y lo viste completo después de exportar.</p></li><li><p>☐ La ficha de uso ético está completa.</p></li></ul>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Entrega</strong></p><p>Entrega el clip en MP4, el guion por secuencias con sus duraciones y la ficha de uso ético completa. Agrega dos líneas sobre una decisión de creatividad responsable que tomaste, por ejemplo qué escena no generaste y por qué.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Ideas clave"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<ol><li><p>Un video se produce en tres etapas: preproducción (guion y licencias), producción (generar los recursos) y postproducción (montar y exportar).</p></li><li><p>Un guion breve abre con el propósito, desarrolla pocos puntos clave, pone un llamado a la acción y cierra.</p></li><li><p>El guion se arma por secuencias, cada una con texto, imagen, plano, sonido y duración, y se ajusta al cronometrar la locución.</p></li><li><p>El video generativo gratuito es escaso: conviene combinar pocas tomas generadas con imágenes fijas y revisar los créditos del día.</p></li><li><p>El montaje ordena voz, música, imágenes y tomas en una línea de tiempo; se agregan subtítulos y, al final, créditos.</p></li><li><p>Para exportar se recomienda MP4, con video H.264 y audio AAC-LC.</p></li><li><p>El contenido sintético realista se declara de forma visible, porque los metadatos se pierden; la ficha de uso ético registra herramientas, instrucciones, aporte humano, consentimientos, créditos y marcas.</p></li></ol>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Referencias bibliográficas",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Estas son las fuentes citadas en este tema, en formato APA 7. Los enlaces se abren en una pestaña nueva.</p><p>Canva. (s. f.). <em>Canva for Android</em>. <a href=\"https://www.canva.com/download/android/\" target=\"_blank\" rel=\"noopener\">https://www.canva.com/download/android/</a></p><p>CapCut. (2026a, 22 de enero). <em>Materials license agreement</em>. <a href=\"https://www.capcut.com/clause/material-license-agreement\" target=\"_blank\" rel=\"noopener\">https://www.capcut.com/clause/material-license-agreement</a></p><p>CapCut. (2026b, 15 de abril). <em>Terms of service</em>. <a href=\"https://www.capcut.com/clause/terms-of-service\" target=\"_blank\" rel=\"noopener\">https://www.capcut.com/clause/terms-of-service</a></p><p>Creative Commons. (2024, 4 de diciembre). <em>Recommended practices for attribution</em>. Creative Commons Wiki. <a href=\"https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution\" target=\"_blank\" rel=\"noopener\">https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution</a></p><p>Google. (s. f.-a). <em>Configuración de codificación recomendada para subir videos</em>. Ayuda de YouTube. <a href=\"https://support.google.com/youtube/answer/1722171?hl=es-419\" target=\"_blank\" rel=\"noopener\">https://support.google.com/youtube/answer/1722171?hl=es-419</a></p><p>Google. (s. f.-b). <em>Divulgación de contenido alterado o sintético</em>. Ayuda de YouTube. <a href=\"https://support.google.com/youtube/answer/14328491?hl=es-419\" target=\"_blank\" rel=\"noopener\">https://support.google.com/youtube/answer/14328491?hl=es-419</a></p><p>Google. (s. f.-c). <em>Empezar a usar la aplicación móvil Gemini</em>. <a href=\"https://support.google.com/gemini/answer/14554984?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/14554984?hl=es</a></p><p>Google. (s. f.-d). <em>Gestionar tus créditos de Google Flow</em>. <a href=\"https://support.google.com/flow/answer/16526234?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/flow/answer/16526234?hl=es</a></p><p>Google. (s. f.-e). <em>Modelos y funciones compatibles de Google Flow</em>. <a href=\"https://support.google.com/flow/answer/16352836?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/flow/answer/16352836?hl=es</a></p><p>National Institute of Standards and Technology. (2024). <em>Reducing risks posed by synthetic content (NIST AI 100-4)</em>. <a href=\"https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf\" target=\"_blank\" rel=\"noopener\">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf</a></p><p>OMPI. (2024). <em>IA generativa: cómo abordar la propiedad intelectual (RN2024-8ES)</em>. <a href=\"https://doi.org/10.34667/tind.49471\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.34667/tind.49471</a></p><p>Universidad Simón Bolívar. (s. f.). <em>Guía para la creación de videos educativos</em>. Departamento de Pedagogía. <a href=\"https://unisimon.edu.co/showimagen/v/Comunicaciones/20200925103940_0.pdf\" target=\"_blank\" rel=\"noopener\">https://unisimon.edu.co/showimagen/v/Comunicaciones/20200925103940_0.pdf</a></p><p>W3C. (2024, 12 de diciembre). <em>Web Content Accessibility Guidelines (WCAG) 2.2</em>. <a href=\"https://www.w3.org/TR/WCAG22/\" target=\"_blank\" rel=\"noopener\">https://www.w3.org/TR/WCAG22/</a></p>"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

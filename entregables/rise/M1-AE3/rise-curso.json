@@ -1,0 +1,1097 @@
+{
+ "ae": "M1-AE3",
+ "titulo": "Parámetros de generación",
+ "descripcion": "<p><strong>Competencia del módulo:</strong> Interactuar con modelos de IA generativa mediante prompts efectivos y validación de resultados, para apoyar tareas de oficina de forma verificada.</p><p><strong>Aprendizaje esperado:</strong> Ajustar parámetros de generación (temperatura, longitud, iteración) para adecuar las respuestas a distintos objetivos de una tarea.</p><p>En el primer tema viste que el modelo genera su respuesta fragmento a fragmento y que esa elección tiene algo de azar. En el segundo aprendiste a escribir prompts con rol, contexto, tarea y formato. Ahora vas a ver qué más influye en la respuesta, además de tus palabras, y cómo manejarlo según lo que necesita cada tarea.</p>",
+ "lecciones": [
+  {
+   "titulo": "Qué es un parámetro de generación",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Qué vas a lograr en este tema",
+       "paragraph": "<p>En el primer tema viste que el modelo genera su respuesta fragmento a fragmento y que esa elección tiene algo de azar (Google, 2026d). En el segundo aprendiste a escribir prompts con rol, contexto, tarea y formato. Ahora vas a ver qué más influye en la respuesta, además de tus palabras, y cómo manejarlo según lo que necesita cada tarea.</p><p><strong>Competencia del módulo:</strong> Interactuar con modelos de IA generativa mediante prompts efectivos y validación de resultados, para apoyar tareas de oficina de forma verificada.</p><p><strong>Aprendizaje esperado:</strong> Ajustar parámetros de generación (temperatura, longitud, iteración) para adecuar las respuestas a distintos objetivos de una tarea.</p><p>Al final deberías poder elegir un ajuste adecuado al objetivo y explicar por qué, y comparar varias respuestas a una misma consigna para quedarte con la mejor con un fundamento claro.</p><p>Vas a trabajar con tres ideas. La temperatura, que regula cuánta variación hay en la forma de responder; la longitud, que es cuánto escribe el modelo, y la iteración, que es pedir otra respuesta y compararla con la anterior.</p><p>Para entender por qué importan, mira lo que le pasó a Camila. Le pidió dos veces a Gemini «tres asuntos para un correo de seguimiento de pago» y recibió dos listas distintas. No es un error: es parte de cómo funcionan estos modelos (Microsoft, 2026). En este tema vas a experimentar, y lo importante no será memorizar números, sino comparar con método: cambiar una cosa, mirar qué pasa y anotarlo.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Qué es un parámetro de generación",
+       "paragraph": "<p>Un <strong>parámetro de generación</strong> es un ajuste que cambia cómo el modelo produce la respuesta, sin tocar tu prompt. Se parece a los controles de una cámara: la escena es la misma, pero la foto cambia según cómo la configures. Las documentaciones de Google y de OpenAI describen varios, y los más comunes son estos tres (Google, 2026a; OpenAI, s. f.):</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Parámetro</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué controla</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Efecto</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Temperatura</p></td><td colspan=\"1\" rowspan=\"1\"><p>Cuánto azar hay al elegir cada fragmento</p></td><td colspan=\"1\" rowspan=\"1\"><p>Baja: respuestas más predecibles. Alta: más variadas</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Top-p</p></td><td colspan=\"1\" rowspan=\"1\"><p>Entre cuántas opciones probables elige</p></td><td colspan=\"1\" rowspan=\"1\"><p>Valores bajos limitan la elección a las opciones más probables</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Máximo de tokens de salida</p></td><td colspan=\"1\" rowspan=\"1\"><p>Hasta cuánto puede escribir</p></td><td colspan=\"1\" rowspan=\"1\"><p>Pone un tope al largo de la respuesta</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>En este tema vas a trabajar sobre todo con la temperatura y la longitud, y con un tercer recurso que siempre tienes a mano: la iteración, es decir, pedir otra respuesta o ajustar el pedido.</p><p>Un error común es creer que el prompt es lo único que decide el resultado. Es lo principal y lo que más controlas, pero con el mismo prompt la configuración del modelo y el azar también cambian lo que recibes. Por eso dos personas que escriben el mismo pedido pueden obtener respuestas distintas.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Temperatura: por qué varían las respuestas",
+       "paragraph": "<p>Recuerda cómo genera texto el modelo: en cada paso estima qué continuaciones son probables y elige una. Esa elección no siempre recae en la opción más probable, porque tiene algo de azar. La <strong>temperatura</strong> regula cuánto azar hay.</p><p>Con temperatura baja, el modelo se inclina por las opciones más probables y las respuestas salen más enfocadas y parecidas entre sí; según la guía de Google, con temperatura 0 elige siempre la opción más probable (Google, 2026a). Con temperatura alta, da más espacio a opciones menos probables y las respuestas salen más diversas y, a veces, más originales. OpenAI, cuya API acepta valores de 0 a 2, lo ilustra así: 0,8 da salidas más aleatorias y 0,2 más enfocadas (OpenAI, s. f.).</p><p>Más alto no es «mejor». Más azar también trae más opciones que no te sirven, y te toca elegir. Y hay algo que la temperatura no hace: no cambia lo que el modelo sabe. Cambia cuánto se arriesga al elegir las palabras.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Andrés y el nombre de la campaña</strong></p><p>Andrés necesita un nombre para la campaña de orden en la bodega. Con temperatura baja, el modelo propone nombres seguros y parecidos: «Bodega ordenada», «Orden en bodega». Con temperatura alta aparecen ideas más variadas, algunas buenas y otras que no calzan con la campaña. Para una lluvia de ideas, esa variedad le sirve. Para el reporte de stock, no.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Top-p y dónde están estos controles",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Top-p y dónde están estos controles",
+       "paragraph": "<p>El <strong>top-p</strong> es otro parámetro relacionado con el azar. En vez de regular cuánto se arriesga el modelo, limita entre qué opciones elige: solo considera las más probables hasta sumar cierta probabilidad. Con un top-p bajo, la elección se reduce a pocas opciones. OpenAI recomienda ajustar la temperatura o el top-p, pero no los dos a la vez, porque ambos influyen en la variación y después es difícil saber cuál causó el cambio (OpenAI, s. f.). También advierte que no todos sus modelos admiten estos ajustes, sobre todo los que razonan antes de responder.</p><p>¿Dónde se ajustan? En entornos para desarrolladores, como la API de cada proveedor o Google AI Studio, que tiene un panel llamado «Configuración de ejecución» para cambiar los parámetros del modelo (Google, 2026c). En las aplicaciones de chat gratuitas, como Gemini o ChatGPT en el celular, no vas a encontrar un control de temperatura ni de top-p. Ahí la variación la manejas de otras formas, que verás en las próximas pantallas.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Quieres que el modelo varíe menos sus respuestas. Según OpenAI, ¿qué conviene?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Subir la temperatura y bajar el top-p al mismo tiempo",
+         "correct": false,
+         "feedback": "<p>Los dos parámetros afectan la variación. Se recomienda mover solo uno para saber qué produjo el cambio.</p>"
+        },
+        {
+         "title": "Ajustar uno de los dos, por ejemplo bajar la temperatura",
+         "correct": true,
+         "feedback": "<p>Los dos parámetros afectan la variación. Se recomienda mover solo uno para saber qué produjo el cambio.</p>"
+        },
+        {
+         "title": "Subir el top-p a su máximo",
+         "correct": false,
+         "feedback": "<p>Los dos parámetros afectan la variación. Se recomienda mover solo uno para saber qué produjo el cambio.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "En los modelos más nuevos, la temperatura la fija el proveedor",
+       "paragraph": "<p>En 2026 hay algo que conviene saber: los proveedores están dejando de permitir que cambies la temperatura y el top-p en sus modelos más recientes. Google indica que los modelos Gemini 4 y Gemini 3.6 en adelante ignoran los valores de temperatura y top-p que les envíes (Google, 2026a). Anthropic fue más lejos: sus modelos Claude desde la versión 4.7 solo aceptan los valores predeterminados, y desde la versión de su API del 21 de octubre de 2026 una solicitud que trae temperatura o top-p da error (Anthropic, 2026).</p><p>Para ti, eso significa que en los modelos nuevos la temperatura sigue existiendo, pero la fija el proveedor. El concepto te sirve igual, porque explica por qué el mismo pedido da respuestas distintas y por qué a veces conviene pedir otra versión. Que un control desaparezca no lo vuelve inútil: saber que hay azar en la generación te ayuda a no confiar en una sola respuesta y a comparar antes de elegir. Lo que sí controlas siempre es tu prompt, la longitud que pides y cuántas veces iteras.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · «Subiendo la temperatura en cualquier herramienta cambia la respuesta»</strong></p><p>En muchos modelos recientes el valor que pongas se ignora o da error. Antes de comparar, revisa si el modelo que usas respeta ese ajuste.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Longitud: cuánto escribe el modelo",
+       "paragraph": "<p>La <strong>longitud</strong> se puede manejar de dos maneras. La primera es el parámetro de tokens máximos de salida, que existe en la API y en AI Studio: fijas cuántos tokens puede escribir el modelo como máximo (Google, 2026a). Es un tope, así que el modelo no escribe más allá de ese número y puede terminar antes; si el tope es muy bajo, la respuesta queda cortada, a veces a mitad de una frase.</p><p>La segunda es pedirla en el prompt, y funciona en cualquier app de chat: «en 50 palabras», «en tres viñetas», «en un párrafo». La guía de Microsoft recomienda justamente dar expectativas de extensión y restricciones concretas, como un límite de palabras (Microsoft, 2026). Las dos formas son distintas: el tope corta y la instrucción orienta. Cuando pides «en 50 palabras», el asistente intenta ajustarse, pero puede pasarse o quedarse corto, así que conviene revisar.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Objetivo</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Longitud que conviene</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Aviso para un grupo de WhatsApp</p></td><td colspan=\"1\" rowspan=\"1\"><p>Muy breve: 2 o 3 líneas</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Resumen de un reglamento para el equipo</p></td><td colspan=\"1\" rowspan=\"1\"><p>Media: 5 a 8 viñetas</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Borrador de un procedimiento</p></td><td colspan=\"1\" rowspan=\"1\"><p>Más larga, por secciones</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Camila ajusta el largo</strong></p><p>Camila necesita un resumen de un contrato para la columna «Observaciones» de su planilla de registro, donde caben unas dos líneas. Primero pide «un resumen» y recibe tres párrafos. Luego pide «un resumen de máximo 30 palabras, en una sola frase». Cuenta, ajusta una palabra y lo pega.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Iteración: pedir otra versión",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Iteración: pedir otra versión",
+       "paragraph": "<p>La <strong>iteración</strong> es el tercer recurso del tema. En el tema anterior la usaste para mejorar un prompt; aquí la vas a mirar como una forma de obtener varias salidas y compararlas. Hay dos maneras de hacerlo.</p><p>La primera es regenerar con el mismo prompt. Como la generación tiene azar, el mismo pedido puede dar una respuesta distinta en cada intento, como advierte Microsoft (Microsoft, 2026). Si tu app tiene una opción para volver a generar la respuesta, úsala; si no, pega el mismo prompt en una conversación nueva. Así obtienes varias versiones sin cambiar nada y eliges la mejor. La segunda es iterar con un ajuste: cambias una parte del prompt, como el largo, el tono o una restricción, y vuelves a pedir (Google, s. f.-a). Es lo que practicaste con los ejemplos de antes y después.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p></p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué cambias</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Para qué sirve</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Regenerar</p></td><td colspan=\"1\" rowspan=\"1\"><p>Nada</p></td><td colspan=\"1\" rowspan=\"1\"><p>Ver la variación natural y elegir entre opciones</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Iterar con ajuste</p></td><td colspan=\"1\" rowspan=\"1\"><p>Una parte del prompt</p></td><td colspan=\"1\" rowspan=\"1\"><p>Corregir algo que no te sirvió</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Andrés tiene un buen prompt para el aviso de inventario. Regenera dos veces y obtiene tres versiones parecidas, con distinto orden. Se queda con la que pone la hora en la primera línea, porque su equipo lee el grupo en el celular.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "¿Qué diferencia hay entre regenerar e iterar con un ajuste?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "No hay diferencia: las dos cambian el prompt",
+         "correct": false,
+         "feedback": "<p>Al regenerar no cambias nada y aprovechas la variación del modelo. Al iterar con ajuste corriges el pedido.</p>"
+        },
+        {
+         "title": "Regenerar repite el mismo prompt; iterar con ajuste cambia una parte del prompt",
+         "correct": true,
+         "feedback": "<p>Al regenerar no cambias nada y aprovechas la variación del modelo. Al iterar con ajuste corriges el pedido.</p>"
+        },
+        {
+         "title": "Regenerar siempre da la misma respuesta",
+         "correct": false,
+         "feedback": "<p>Al regenerar no cambias nada y aprovechas la variación del modelo. Al iterar con ajuste corriges el pedido.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Creatividad y precisión",
+       "paragraph": "<p>Entre creatividad y precisión hay una relación que conviene tener clara. Mientras más variación permites, más ideas distintas aparecen, pero también más riesgo de que algo se salga del pedido. Mientras menos variación, más consistentes son las respuestas, pero también más parecidas entre sí. Las guías de Google y de OpenAI lo resumen así: valores bajos de temperatura para tareas con una respuesta acotada y valores altos para resultados diversos o creativos (Google, 2026a; OpenAI, s. f.).</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Tarea</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué necesitas</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Hacia dónde ajustar</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Extraer las fechas de una minuta</p></td><td colspan=\"1\" rowspan=\"1\"><p>Precisión</p></td><td colspan=\"1\" rowspan=\"1\"><p>Baja variación</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Clasificar solicitudes en categorías fijas</p></td><td colspan=\"1\" rowspan=\"1\"><p>Precisión</p></td><td colspan=\"1\" rowspan=\"1\"><p>Baja variación</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Resumir un reglamento que pegaste</p></td><td colspan=\"1\" rowspan=\"1\"><p>Precisión</p></td><td colspan=\"1\" rowspan=\"1\"><p>Baja variación</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Ideas para el nombre de una campaña interna</p></td><td colspan=\"1\" rowspan=\"1\"><p>Creatividad</p></td><td colspan=\"1\" rowspan=\"1\"><p>Más variación</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Asuntos distintos para un correo a todo el equipo</p></td><td colspan=\"1\" rowspan=\"1\"><p>Creatividad</p></td><td colspan=\"1\" rowspan=\"1\"><p>Más variación</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Temas posibles para la reunión mensual del área</p></td><td colspan=\"1\" rowspan=\"1\"><p>Variedad</p></td><td colspan=\"1\" rowspan=\"1\"><p>Más variación, y luego eliges</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Ninguna tarea de oficina necesita «máxima creatividad» en los datos. Si la respuesta incluye cifras, fechas o nombres, el objetivo en esa parte es la precisión, aunque el resto del texto pueda ser más libre.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · «Para que sea creativo, basta con subir la temperatura»</strong></p><p>Más variación no garantiza buenas ideas: también trae opciones que no sirven. La creatividad útil sale de un buen prompt, varias salidas y tu criterio para elegir.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "En el celular: instrucciones contrastadas",
+       "paragraph": "<p>Si tu app no tiene control de temperatura, igual puedes orientar la respuesta hacia la precisión o hacia la creatividad con la instrucción (Microsoft, 2026). A esto le llamamos <strong>instrucciones contrastadas</strong>: la misma consigna, con dos indicaciones opuestas. Para ir hacia la precisión, Camila escribe:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p>«Responde solo con la información del texto que te pego. Si algo no aparece, escribe \"no indica\". Usa frases cortas y no agregues ejemplos.»</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Y para ir hacia la creatividad:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p>«Propón cinco opciones muy distintas entre sí. Usa enfoques diferentes: una formal, una cercana, una con humor, una muy breve y una sorprendente.»</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>La guía de Google sugiere limitar al modelo al contexto que le entregas para que no agregue información de otra parte, y eso es lo que hace la primera instrucción (Google, 2026a). Ojo con la diferencia: la instrucción no cambia la temperatura, cambia lo que le pides. El efecto se parece, y por eso te sirve en el celular, pero no es el mismo ajuste.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Rosa, la recepcionista del centro médico, necesita clasificar mensajes en cuatro categorías fijas. ¿Qué instrucción conviene?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "«Sé creativa e inventa las categorías que te parezcan»",
+         "correct": false,
+         "feedback": "<p>Clasificar en categorías fijas es una tarea de precisión. La instrucción b limita las opciones y hace la clasificación consistente.</p>"
+        },
+        {
+         "title": "«Usa solo estas cuatro categorías; si un mensaje no calza, ponlo en Otro»",
+         "correct": true,
+         "feedback": "<p>Clasificar en categorías fijas es una tarea de precisión. La instrucción b limita las opciones y hace la clasificación consistente.</p>"
+        },
+        {
+         "title": "«Propón cinco formas distintas de clasificar»",
+         "correct": false,
+         "feedback": "<p>Clasificar en categorías fijas es una tarea de precisión. La instrucción b limita las opciones y hace la clasificación consistente.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Configuración según la tarea",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Configuración según la tarea",
+       "paragraph": "<p>Configurar según la tarea es decidir, antes de pedir, qué necesita tu objetivo: precisión o variedad, un texto corto o largo, una respuesta o varias para elegir. Google recomienda experimentar con los ajustes hasta encontrar los adecuados para cada tarea (Google, 2026a; OpenAI, s. f.), y para no hacerlo a ciegas sirven tres preguntas.</p><p>La primera es si hay una respuesta correcta. Si la hay, como en datos, categorías o fechas, buscas precisión: poca variación y la instrucción de usar solo el texto entregado. La segunda es cuánto espacio tienes, porque la longitud depende de dónde se va a leer: un mensaje, un correo o un documento. La tercera es si te sirve elegir entre opciones; si es así, regeneras o pides varias versiones.</p><p>Después <strong>justificas</strong> tu elección en una frase: qué ajuste elegiste y por qué calza con el objetivo. Andrés lo hizo así con su reporte: «Para resumir el reporte de stock usé una instrucción de precisión (\"solo con los datos de la planilla\") y un máximo de seis viñetas, porque las cifras tienen que ser exactas y mi jefatura lo lee en el celular. No regeneré: necesito una sola versión correcta».</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Elige y justifica</strong></p><p>Para cada tarea, indica si necesitas precisión o creatividad, qué longitud pedirías y si regenerarías. Justifica en una frase.</p><ol><li><p>Redactar la respuesta a un reclamo de un cliente.</p></li><li><p>Proponer ideas para una publicación de la empresa en redes sociales.</p></li><li><p>Pasar a una tabla los datos de cinco guías de despacho.</p></li></ol>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Comparar salidas con rigor",
+       "paragraph": "<p>Comparar salidas no es elegir la que «suena mejor» a primera vista. El <strong>rigor</strong> está en comparar con método, para que tu elección se pueda explicar y otra persona, con tu registro, pueda llegar a algo parecido.</p><p>Una buena comparación usa exactamente la misma consigna en todas las versiones, salvo lo que quieres probar (Microsoft, 2026; Google, 2026a). Cambia una cosa a la vez, porque si cambias el largo y el tono juntos no sabrás cuál de los dos produjo la diferencia. Junta al menos tres salidas, ya que con dos cuesta ver qué varía y qué se mantiene. Y define los criterios antes de leer, para no dejarte llevar por la primera impresión. En tareas de oficina sirven estos cinco:</p><ul><li><p>☐ Exactitud: ¿los datos coinciden con el texto o la planilla de origen?</p></li><li><p>☐ Cumplimiento de la tarea: ¿hace lo que se pidió, sin agregar cosas?</p></li><li><p>☐ Formato y longitud: ¿respeta el largo y la forma pedidos?</p></li><li><p>☐ Tono: ¿es adecuado para quien lo va a leer?</p></li><li><p>☐ Utilidad: ¿lo podrías usar con pocos cambios?</p></li></ul>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · Comparar sin anotar</strong></p><p>Si no registras qué prompt y qué ajuste usaste, después no podrás repetir el resultado que te gustó ni explicar por qué lo elegiste.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Práctica A (opcional): temperatura en Google AI Studio",
+       "paragraph": "<p>Esta práctica es opcional. Es para personas mayores de 18 años, con computador o navegador web, que quieran ver con sus ojos el efecto de la temperatura. Si no es tu caso, pasa directo a la práctica B: con ella cumples lo que pide el tema.</p><p><strong>Google AI Studio</strong> es un entorno de Google para probar modelos e instrucciones, y se puede usar sin pagar (Google, 2026c). Sus términos exigen tener 18 años o más (Google, 2026b). Como viste en la sección «En los modelos más nuevos, la temperatura la fija el proveedor», los modelos más nuevos de Gemini ignoran la temperatura, así que para esta práctica necesitas un modelo anterior a Gemini 3.6, si la lista te lo ofrece.</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Práctica A (opcional): temperatura en Google AI Studio",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Práctica A (opcional): temperatura en Google AI Studio",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Entra a AI Studio con tu cuenta de Google.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Elige en la lista un modelo anterior a Gemini 3.6.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Abre el panel «Configuración de ejecución» y ubica la temperatura y la cantidad máxima de tokens de salida.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Escribe un prompt creativo, por ejemplo",
+       "description": "<p>«Propón tres nombres para una campaña de orden en una bodega».</p>"
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Prueba tres veces con temperatura baja (por ejemplo, 0,2) y tres veces con temperatura alta (por ejemplo, 1,5).",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Baja la cantidad máxima de tokens de salida y mira qué pasa con la respuesta.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Registra todo en la tabla de la sección «Tu tabla de registro».",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Idea clave</strong></p><p>Cuando usas AI Studio sin pagar, Google usa lo que envías y lo que genera el modelo para mejorar sus productos. Usa solo datos de prueba, como los de los ejemplos de Camila y Andrés, nunca información de tu empresa.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Práctica B: comparar salidas en el celular",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Práctica B: comparar salidas en el celular",
+       "paragraph": "<p>Esta práctica la puede hacer cualquier persona con la app de Gemini, que está para Android y para iPhone, o con el asistente que uses (Google, s. f.-b). Vas a trabajar los tres recursos del tema con una misma tarea de tu trabajo, por ejemplo redactar un aviso, resumir un procedimiento o responder a un cliente. Usa una copia sin datos sensibles o datos de prueba.</p><p>Son tres experimentos. En el primero pruebas la longitud: envías tu prompt pidiendo «máximo 40 palabras» y, en una conversación nueva, el mismo prompt con «máximo 120 palabras»; luego miras qué se perdió en la versión corta y qué sobra en la larga. En el segundo pruebas la iteración: envías el mismo prompt tres veces, regenerando o en tres conversaciones nuevas, y comparas qué cambia y qué se mantiene (Microsoft, 2026). En el tercero comparas precisión y creatividad: envías la misma consigna con la instrucción de precisión y luego con la de creatividad de la sección «En el celular: instrucciones contrastadas», y decides cuál sirve mejor para tu objetivo.</p><p>Cada vez que cambies algo, abre una conversación nueva. Así la respuesta anterior no influye en la siguiente. Al final, elige la mejor salida de cada experimento con los criterios de la sección «Comparar salidas con rigor».</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tus tres experimentos</strong></p><p>Haz los tres experimentos y anota cada salida en tu tabla de registro (sección «Tu tabla de registro»). Para cada uno, escribe una frase: «Elijo la versión __ porque __».</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Tu tabla de registro",
+       "paragraph": "<p>El <strong>registro</strong> es lo que convierte una prueba en un experimento. La guía de Google recomienda experimentar con los ajustes según la tarea (Google, 2026a), y anotar lo que pruebas te permite aprender de cada intento. Puedes usar esta tabla en un documento, una planilla o las notas del celular, y anotar también la fecha de la prueba:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>N.º</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Herramienta y modelo</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Prompt (igual en todas)</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué cambié</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Salida (resumen)</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Exactitud</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Formato y largo</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Tono</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Utilidad</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Elegida</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>1</p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>2</p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>3</p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td><td colspan=\"1\" rowspan=\"1\"><p></p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Evalúa cada criterio con una escala simple: bien, regular o mal. Un error común es anotar solo la versión ganadora. Las salidas descartadas también enseñan, porque te muestran qué ajuste no sirvió para esa tarea, así que regístralas todas.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · El registro de Andrés</strong></p><p>Andrés prueba el aviso de inventario con tres largos. La versión de 40 palabras queda «mal» en utilidad: le faltó la hora de cierre. La de 120 queda «regular» en formato: es muy larga para el grupo. La de 60 sale «bien» en todo. Anota: «Elegida la de 60 palabras: tiene fecha, hora y motivo, y se lee en el celular sin bajar».</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Elegir la mejor salida con fundamento",
+       "paragraph": "<p>Elegir con fundamento es decir qué versión elegiste, con qué criterio y por qué las otras no. Camila pidió tres veces, con el mismo prompt y los mismos datos, la respuesta a un proveedor que preguntaba por el pago de su factura (Microsoft, 2026):</p><ul><li><p>A: «Junto con saludar, le informamos que su consulta fue recibida y será respondida a la brevedad.»</p></li><li><p>B: «Su factura de octubre está aprobada y se pagará el día 15 por transferencia. Cualquier duda, quedo atenta.»</p></li><li><p>C: «¡No se preocupe! Somos la empresa más puntual de la región y le pagaremos lo antes posible.»</p></li></ul><p>Camila elige la B y lo justifica: «Responde lo que el proveedor preguntó, con los datos que le di y en tono cordial. La A es correcta, pero no responde nada. La C exagera y promete algo que no puedo asegurar».</p><p>Un error común es quedarse con la respuesta más larga o la que trae más detalles. Más texto no significa más útil: la mejor salida es la que cumple el objetivo, con los datos correctos y el largo que el lector necesita (Google, 2026a).</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Andrés compara tres resúmenes del reporte semanal. Uno es el más largo y detallado, pero cambia una cifra de stock. ¿Cuál conviene elegir?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "El más largo, porque tiene más información",
+         "correct": false,
+         "feedback": "<p>En un reporte, la exactitud manda. Una versión con una cifra errada no sirve, aunque esté mejor escrita.</p>"
+        },
+        {
+         "title": "Uno que tenga las cifras correctas, aunque sea más breve",
+         "correct": true,
+         "feedback": "<p>En un reporte, la exactitud manda. Una versión con una cifra errada no sirve, aunque esté mejor escrita.</p>"
+        },
+        {
+         "title": "Cualquiera, porque los tres vienen del mismo prompt",
+         "correct": false,
+         "feedback": "<p>En un reporte, la exactitud manda. Una versión con una cifra errada no sirve, aunque esté mejor escrita.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Cierre: ajustar según el objetivo",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Cierre: ajustar según el objetivo",
+       "paragraph": "<p>En este tema viste que la temperatura regula cuánto azar hay en la respuesta, que la longitud se maneja con un tope o con la instrucción y que la iteración te da varias salidas para comparar (Google, 2026a; Microsoft, 2026). También viste que en los modelos más nuevos la temperatura la fija el proveedor: lo que siempre controlas es tu prompt, el largo que pides y cuántas versiones generas.</p><p>La regla práctica cabe en una línea: <strong>primero defines el objetivo, después eliges el ajuste</strong>. Precisión para datos y categorías, variedad para ideas, longitud según dónde se leerá y varias salidas cuando te sirve elegir.</p><p>Que el mismo pedido dé respuestas distintas tiene otra consecuencia: no puedes dar por buena una respuesta solo porque se ve bien. En el próximo tema vas a aprender a validar lo que genera la IA, contrastándolo con fuentes confiables.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tu regla de configuración</strong></p><p>Mira tus tres experimentos y escribe:</p><ol><li><p>Para la tarea que elegiste, qué configuración funcionó mejor: instrucción de precisión o de creatividad, largo y cuántas versiones.</p></li><li><p>Por qué, justificándolo con lo que viste en tu tabla de registro.</p></li><li><p>Esa regla, como nota en la plantilla correspondiente de tu biblioteca de prompts.</p></li></ol>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Ideas clave"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<ol><li><p>Un parámetro de generación cambia cómo el modelo produce la respuesta sin cambiar el prompt.</p></li><li><p>La temperatura regula cuánto azar hay al elegir cada fragmento: baja da respuestas más predecibles y alta, más variadas.</p></li><li><p>En los modelos más recientes, como los últimos de Google y Anthropic, la temperatura la fija el proveedor; el concepto sigue explicando por qué varían las respuestas.</p></li><li><p>La longitud se maneja con un tope de tokens de salida o pidiéndola en el prompt; el tope corta y la instrucción orienta.</p></li><li><p>Iterar es regenerar con el mismo prompt o ajustar una parte de él; las dos formas te dan salidas para comparar.</p></li><li><p>Para datos y categorías conviene precisión; para ideas, variedad; y la elección se justifica con criterios definidos.</p></li><li><p>Comparar con rigor es usar la misma consigna, cambiar una cosa a la vez y registrar todas las salidas.</p></li></ol>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Referencias bibliográficas",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Estas son las fuentes citadas en este tema, en formato APA 7. Los enlaces se abren en una pestaña nueva.</p><p>Anthropic. (2026). <em>Migrating to API version 2026-10-21</em>. Claude Docs. <a href=\"https://platform.claude.com/docs/en/api/migration-2026-10-21\" target=\"_blank\" rel=\"noopener\">https://platform.claude.com/docs/en/api/migration-2026-10-21</a></p><p>Google. (s. f.-a). <em>Cómo escribir instrucciones eficaces</em>. Google Workspace. <a href=\"https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/\" target=\"_blank\" rel=\"noopener\">https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/</a></p><p>Google. (s. f.-b). <em>Empezar a usar la aplicación móvil Gemini</em>. <a href=\"https://support.google.com/gemini/answer/14554984?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/14554984?hl=es</a></p><p>Google. (2026a, 13 de octubre). <em>Estrategias de diseño de instrucciones</em>. Google AI for Developers. <a href=\"https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419\" target=\"_blank\" rel=\"noopener\">https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419</a></p><p>Google. (2026b, 28 de abril). <em>Gemini API additional terms of service</em>. Google AI for Developers. <a href=\"https://ai.google.dev/gemini-api/terms?hl=en\" target=\"_blank\" rel=\"noopener\">https://ai.google.dev/gemini-api/terms?hl=en</a></p><p>Google. (2026c, 30 de julio). <em>Guía de inicio rápido de Google AI Studio</em>. Google AI for Developers. <a href=\"https://ai.google.dev/gemini-api/docs/ai-studio-quickstart?hl=es-419\" target=\"_blank\" rel=\"noopener\">https://ai.google.dev/gemini-api/docs/ai-studio-quickstart?hl=es-419</a></p><p>Google. (2026d). <em>Introducción a los modelos de lenguaje grandes (Curso intensivo de aprendizaje automático)</em>. Google for Developers. <a href=\"https://developers.google.com/machine-learning/crash-course/llm?hl=es-419\" target=\"_blank\" rel=\"noopener\">https://developers.google.com/machine-learning/crash-course/llm?hl=es-419</a></p><p>Microsoft. (2026). <em>Introducción a la escritura de indicaciones en Microsoft Copilot</em>. Microsoft Support. <a href=\"https://support.microsoft.com/es-es/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot\" target=\"_blank\" rel=\"noopener\">https://support.microsoft.com/es-es/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot</a></p><p>OpenAI. (s. f.). <em>API reference: Create chat completion</em>. OpenAI API Docs. <a href=\"https://developers.openai.com/api/reference/resources/chat/subresources/completions/methods/create\" target=\"_blank\" rel=\"noopener\">https://developers.openai.com/api/reference/resources/chat/subresources/completions/methods/create</a></p>"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

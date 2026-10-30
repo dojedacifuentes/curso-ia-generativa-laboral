@@ -1,0 +1,1148 @@
+{
+ "ae": "M1-AE2",
+ "titulo": "Prompts efectivos",
+ "descripcion": "<p><strong>Competencia del módulo:</strong> Interactuar con modelos de IA generativa mediante prompts efectivos y validación de resultados, para apoyar tareas de oficina de forma verificada.</p><p><strong>Aprendizaje esperado:</strong> Formular prompts efectivos con rol, contexto, tarea y formato para obtener respuestas útiles en tareas laborales simples.</p><p>En el tema anterior viste que la calidad de lo que recibes depende mucho de lo que pides. Ahora vas a aprender a pedir bien: a escribir instrucciones claras, revisar la respuesta y ajustar el pedido hasta que te sirva.</p>",
+ "lecciones": [
+  {
+   "titulo": "Anatomía de un prompt",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Qué vas a lograr en este tema",
+       "paragraph": "<p>En el tema anterior viste que la calidad de lo que recibes depende mucho de lo que pides. Ahora vas a aprender a pedir bien: a escribir instrucciones claras, revisar la respuesta y ajustar el pedido hasta que te sirva.</p><p><strong>Competencia del módulo:</strong> Interactuar con modelos de IA generativa mediante prompts efectivos y validación de resultados, para apoyar tareas de oficina de forma verificada.</p><p><strong>Aprendizaje esperado:</strong> Formular prompts efectivos con rol, contexto, tarea y formato para obtener respuestas útiles en tareas laborales simples.</p><p>Al terminar deberías poder escribir un prompt con esos cuatro componentes y mejorar una respuesta iterando al menos una vez, hasta que de verdad te sirva en tu trabajo.</p><p>En este curso vas a usar <strong>Gemini</strong> como asistente principal. Tiene aplicación para Android y para iPhone, y funciona con una cuenta de Google personal (Google, s. f.-c). Si prefieres otro, ChatGPT también tiene un plan gratuito que funciona en el navegador y en el celular (OpenAI, s. f.). Y si en tu empresa ya usan un asistente, como Copilot, puedes practicar con ese, respetando lo que tu empresa permita.</p><p>Vuelven Camila y Andrés. Camila responde todos los días correos de proveedores y clientes, y quiere dejar de escribirlos desde cero. Andrés quiere que sus reportes y avisos de bodega le tomen menos tiempo. Los dos van a pasar de pedidos vagos a prompts que funcionan, y vas a ver que un buen prompt no tiene nada de fórmula mágica: es una instrucción clara, como la que le darías a alguien que recién llega a tu equipo.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Anatomía de un prompt",
+       "paragraph": "<p>Las guías de Google y de Microsoft proponen estructuras parecidas para escribir prompts (Google, s. f.-b; Microsoft, 2026). Con distintos nombres, las dos hablan de lo mismo: quién responde, qué necesita saber, qué tiene que hacer y cómo entregarlo. En este curso usamos cinco componentes, con un ejemplo de Camila en cada uno.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Componente</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Pregunta que responde</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Ejemplo</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Rol</p></td><td colspan=\"1\" rowspan=\"1\"><p>¿Desde qué perspectiva responde?</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Actúa como asistente administrativa de una constructora»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Contexto</p></td><td colspan=\"1\" rowspan=\"1\"><p>¿Cuál es la situación, para quién y por qué?</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Un proveedor pregunta por el pago de su factura de octubre; el pago está programado para el día 15»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Tarea</p></td><td colspan=\"1\" rowspan=\"1\"><p>¿Qué tiene que hacer?</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Redacta la respuesta a su correo»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Formato</p></td><td colspan=\"1\" rowspan=\"1\"><p>¿Cómo lo entrega?</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Un correo de no más de 80 palabras, tono cordial»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Restricciones</p></td><td colspan=\"1\" rowspan=\"1\"><p>¿Qué límites debe respetar?</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Usa solo los datos que te doy; no prometas nada que no esté aquí»</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>No es obligatorio usar los cinco en cada prompt (Google, s. f.-b). Un pedido muy simple puede funcionar solo con tarea y formato. Pero mientras más depende la respuesta de tu situación, más componentes conviene incluir, y en este tema la meta mínima es que tus prompts tengan <strong>rol, contexto, tarea y formato</strong>.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · El prompt completo de Camila</strong></p><p>«Actúa como asistente administrativa de una constructora. Un proveedor pregunta por el pago de su factura de octubre; el pago está programado para el día 15 y el correo lo leerá su encargada de cobranza. Redacta la respuesta a su correo. Entrégala como un correo de no más de 80 palabras, con tono cordial. Usa solo los datos que te doy y no prometas nada que no esté aquí.»</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Rol y contexto: ponerlo al día",
+       "paragraph": "<p>La guía de Anthropic propone una prueba sencilla: imagina que el asistente es una persona nueva en tu trabajo, inteligente pero sin ningún antecedente. Si un colega recién llegado no entendería tu pedido, el modelo tampoco (Anthropic, s. f.). Un error común es pensar que el asistente ya sabe a qué te refieres; como viste en el tema anterior, solo trabaja con lo que está en su contexto y no conoce tu empresa, tu cargo ni tu jefatura si no se lo dices.</p><p>El <strong>rol</strong> le indica desde qué perspectiva responder. No le da conocimientos que no tiene, pero orienta el vocabulario, el tono y lo que considera importante. En una oficina sirven roles como «encargado de bodega que escribe a su jefatura», «asistente de recursos humanos que redacta un aviso interno» o «ejecutiva de atención al cliente».</p><p>El <strong>contexto</strong> explica la situación: para quién es el texto, para qué se usará y qué antecedentes importan (Google, s. f.-b). Ayuda mucho explicar también el motivo de una instrucción (Anthropic, s. f.). «Escríbelo corto porque se leerá en el celular» funciona mejor que solo «escríbelo corto», porque el asistente entiende qué busca y puede decidir mejor.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Andrés pone al día al asistente</strong></p><p>Sin contexto, Andrés escribía: «Escribe un aviso sobre el inventario». Ahora escribe: «Actúa como encargado de bodega. El viernes cerramos a las 15:00 para hacer inventario y el equipo de ventas no podrá retirar productos esa tarde. El aviso lo leerán vendedores que suelen pasar a buscar mercadería». Con la segunda versión, el asistente sabe a quién le habla y qué es lo importante.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Tarea, formato y restricciones",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Tarea, formato y restricciones",
+       "paragraph": "<p>La tarea es lo que quieres que haga. Conviene empezar con un verbo claro: resume, reescribe, clasifica, redacta, ordena, compara. Si la tarea tiene varios pasos y el orden importa, numéralos (Anthropic, s. f.).</p><p>El formato es cómo quieres recibir el resultado, y las guías recomiendan ser específico en tres cosas: la forma (viñetas, tabla, párrafo o correo con asunto), la extensión («en tres viñetas», «máximo 100 palabras») y el tono (formal, cordial, directo) (Microsoft, 2026; Anthropic, s. f.). Si no lo dices, el asistente decide por ti.</p><p>Las <strong>restricciones</strong> son los límites que la respuesta debe respetar: qué incluir, qué dejar fuera y de qué información sacar la respuesta. Por ejemplo, «usa solo el texto que te pego» o «no agregues datos que no estén en el reporte». La guía de Anthropic suma un consejo útil: di qué hacer en vez de decir solo lo que no quieres (Anthropic, s. f.). «Escribe en frases cortas y simples» orienta mejor que «no uses palabras difíciles».</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "En el prompt «Resume este reglamento en cinco viñetas para trabajadores nuevos, sin agregar información externa», ¿qué parte es una restricción?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "«Resume este reglamento»",
+         "correct": false,
+         "feedback": "<p>«Resume» es la tarea y «en cinco viñetas» es el formato. «Sin agregar información externa» limita de dónde puede sacar la respuesta: es una restricción.</p>"
+        },
+        {
+         "title": "«en cinco viñetas»",
+         "correct": false,
+         "feedback": "<p>«Resume» es la tarea y «en cinco viñetas» es el formato. «Sin agregar información externa» limita de dónde puede sacar la respuesta: es una restricción.</p>"
+        },
+        {
+         "title": "«sin agregar información externa»",
+         "correct": true,
+         "feedback": "<p>«Resume» es la tarea y «en cinco viñetas» es el formato. «Sin agregar información externa» limita de dónde puede sacar la respuesta: es una restricción.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Ejemplos y datos dentro del prompt",
+       "paragraph": "<p>A veces la manera más rápida de explicar lo que quieres es mostrar un ejemplo. Si le das un modelo del formato o del tono que buscas, el asistente tiende a seguirlo. Las guías de Anthropic y de Google recomiendan incluir ejemplos cuando ayudan, con dos cuidados (Anthropic, s. f.; Google, 2026). El primero es que sean pocos: la guía de Google advierte que demasiados ejemplos pueden hacer que el modelo los copie de más y pierda flexibilidad (Google, 2026). El segundo es que se parezcan a lo que quieres, porque si tu ejemplo es largo, la respuesta también lo será.</p><p>Otra práctica útil es separar las instrucciones de los datos (Anthropic, s. f.). Cuando pegas un texto para trabajar, como unas notas, un correo o el detalle de unas facturas, deja claro dónde empieza y dónde termina. Escribe primero la instrucción y luego «Texto:», o pon el texto entre comillas. Así el asistente no confunde tus indicaciones con el contenido.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Camila muestra el formato</strong></p><p>«Ordena estas facturas en una tabla con estas columnas, como en el ejemplo: N.º | Proveedor | Fecha | Monto total 1520 | Áridos del Sur | 03-10-2026 | $1.250.000 Facturas: \"…\"» Con una sola fila de ejemplo, inventada, el asistente entiende qué va en cada columna.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Errores frecuentes al escribir prompts",
+       "paragraph": "<p>Las guías de los proveedores coinciden en varios errores que hacen que la respuesta no sirva (Anthropic, s. f.; Google, 2026). Casi todos nacen de lo mismo: escribir como si el asistente supiera lo que tú sabes.</p><ol><li><p>Pedido vago o ambiguo: «hazme algo para el cliente» admite mil interpretaciones.</p></li><li><p>Falta de contexto: sin saber para quién ni para qué, el asistente entrega algo genérico.</p></li><li><p>Jerga o siglas internas que un colega nuevo no entendería, y el modelo tampoco.</p></li><li><p>Varias tareas mezcladas en un solo mensaje.</p></li><li><p>No indicar formato ni restricciones, de modo que el asistente decide el largo y la forma.</p></li><li><p>Decir solo lo que no quieres: «no lo hagas largo ni formal» deja abierto qué sí quieres.</p></li></ol><p>El cuarto merece una explicación, porque es tentador. Escribir «resume el acta, redacta el correo para el gerente y arma la lista de pendientes» parece más rápido, pero suele dar un resultado a medias en las tres cosas. La guía de Google recomienda dividir las tareas complejas en varios prompts: pides una cosa a la vez y usas cada respuesta como base para la siguiente (Google, 2026).</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Andrés escribe: «Revisa esto y mejóralo». ¿Cuál es el error principal?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Tiene demasiadas restricciones",
+         "correct": false,
+         "feedback": "<p>El pedido no tiene contexto, tarea precisa ni formato. El asistente tendrá que adivinar.</p>"
+        },
+        {
+         "title": "Es vago: no dice qué es «esto», para quién es ni qué significa «mejorar»",
+         "correct": true,
+         "feedback": "<p>El pedido no tiene contexto, tarea precisa ni formato. El asistente tendrá que adivinar.</p>"
+        },
+        {
+         "title": "Le falta un ejemplo",
+         "correct": false,
+         "feedback": "<p>El pedido no tiene contexto, tarea precisa ni formato. El asistente tendrá que adivinar.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Antes y después: resumir",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Antes y después: resumir",
+       "paragraph": "<p>Resumir es una de las tareas de oficina que mejor delega un asistente, siempre que tú le entregues el texto (Google, s. f.-b). Andrés lo ve con la minuta de la reunión semanal con ventas. Cuando escribía solo «Resume esta minuta», recibía un párrafo largo que mezclaba temas y no destacaba lo que él necesitaba: los compromisos. Ahora agrega los componentes que faltaban (Microsoft, 2026):</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p>«Actúa como encargado de bodega [rol]. Esta es la minuta de la reunión semanal con ventas; la leerá mi equipo de tres personas, que no estuvo en la reunión [contexto]. Resume los acuerdos y los compromisos con su responsable y su fecha [tarea]. Entrégalo en una lista de máximo seis viñetas, con el formato \"Compromiso – Responsable – Fecha\" [formato]. Usa solo la información de la minuta; si falta un responsable o una fecha, escribe \"sin definir\" [restricción]. Minuta: \"…\"»</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>El resultado es una lista corta que el equipo puede leer en el celular. Además, los vacíos quedan a la vista en vez de rellenarse con datos inventados. Esa última restricción, «si falta, escribe \"sin definir\"», sirve en muchos prompts: le da al asistente una salida honesta cuando no tiene el dato.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Mejora tú el prompt</strong></p><p>Toma este pedido: «Resume el reglamento interno». Reescríbelo agregando rol, contexto, tarea, formato y una restricción. Piensa en un lector concreto, por ejemplo una persona que entra a trabajar el lunes a tu área.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Antes y después: reescribir",
+       "paragraph": "<p>Reescribir es cambiar el tono, el largo o el destinatario de un texto que ya tienes. Camila escribió rápido un mensaje para un proveedor que no ha confirmado la entrega de un pedido, y le salió demasiado informal: «Hola! Les escribimos hace como dos semanas por los sacos de cemento y nadie nos dice nada, ¿llegan o no?».</p><p>Primero pidió solo «Mejora este mensaje». El asistente lo dejó más formal, pero le agregó frases que Camila nunca diría y lo alargó al triple. Entonces escribió un prompt completo (Google, s. f.-b; Microsoft, 2026):</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p>«Actúa como asistente administrativa de una constructora [rol]. Hace dos semanas hicimos un pedido de cemento a este proveedor y no ha confirmado la fecha de entrega; necesito saberla sin sonar molesta [contexto]. Reescribe mi mensaje en tono cordial y profesional [tarea]. Entrégalo como correo, con asunto y un máximo de 70 palabras [formato]. Mantén la información que doy y no agregues datos nuevos [restricción]. Mensaje: \"…\"»</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Ahora el correo es breve, firme y sigue sonando a ella. Si quisiera mandar la misma consulta por WhatsApp, le bastaría con cambiar el formato: «Entrégalo como mensaje de dos líneas». El resto del prompt sirve igual, y esa es la idea que usarás más adelante para armar plantillas.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Camila quiere que el texto conserve su información y no sume nada. ¿Qué parte del prompt la protege mejor?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "El rol",
+         "correct": false,
+         "feedback": "<p>La restricción le pone límites al asistente para que no cambie el contenido ni invente.</p>"
+        },
+        {
+         "title": "La restricción «mantén la información que doy y no agregues datos nuevos»",
+         "correct": true,
+         "feedback": "<p>La restricción le pone límites al asistente para que no cambie el contenido ni invente.</p>"
+        },
+        {
+         "title": "El asunto del correo",
+         "correct": false,
+         "feedback": "<p>La restricción le pone límites al asistente para que no cambie el contenido ni invente.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Antes y después: clasificar",
+       "paragraph": "<p>Clasificar es ordenar información en categorías: correos por tema, solicitudes por urgencia, gastos por tipo (Google, s. f.-b). Aquí aparece Rosa, recepcionista en un centro médico, que cada mañana revisa los mensajes que dejan los pacientes. Cuando pedía «Ordena estos mensajes», el asistente los ordenaba por largo o los resumía uno por uno, y eso no le servía. Ahora escribe:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p>«Actúa como recepcionista de un centro médico [rol]. Estos son mensajes de pacientes que debo derivar a distintas áreas antes de las 9:00 [contexto]. Clasifica cada mensaje en una de estas categorías: Agendar hora, Cambiar o anular hora, Resultados de exámenes, Otro [tarea]. Entrega una tabla con las columnas \"N.º\", \"Resumen en cinco palabras\" y \"Categoría\" [formato]. Usa solo esas cuatro categorías; si un mensaje no calza, ponlo en Otro [restricción]. Mensajes: 1. \"…\" 2. \"…\"»</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Con las categorías definidas de antemano, la clasificación sale pareja y Rosa la revisa rápido (Google, 2026). Al clasificar, <strong>tú defines las categorías</strong>: si dejas que el asistente las invente, cada vez puede usar otras distintas. Y para practicar no pegues nombres, RUT ni datos de salud reales; usa mensajes de prueba. Qué datos no compartir lo vas a ver a fondo en el módulo 3.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Arma tu clasificación</strong></p><p>Escribe cinco solicitudes de prueba parecidas a las que llegan en tu trabajo. Define tres o cuatro categorías y escribe un prompt con rol, contexto, tarea, formato y restricción para clasificarlas.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Iterar: la segunda vuelta",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Iterar: la segunda vuelta",
+       "paragraph": "<p>Casi nunca la primera respuesta es la definitiva. Las guías de los proveedores proponen tratar el trabajo con el asistente como una conversación, y a ese ciclo de pedir, mirar y corregir se le llama <strong>iteración</strong> (Google, s. f.-b):</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Iterar: la segunda vuelta",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Iterar: la segunda vuelta",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Pides con tu mejor prompt.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Revisas la respuesta: ¿sirve para lo que necesitas?",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Ajustas: corriges el prompt o haces una pregunta de seguimiento.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Repites hasta que la respuesta sea útil.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Hay varias formas de ajustar. Puedes agregar el contexto que faltaba («es para un cliente molesto»), precisar el formato («más corto, en tres viñetas») o reformular la tarea con otras palabras. También puedes dividirla en pasos, primero el resumen y después el correo, o cambiar el orden del prompt y poner el texto antes de la instrucción (Google, 2026). Y la guía de Google sugiere un recurso más: pedirle al propio asistente que mejore tu prompt (Google, s. f.-b). Puedes iterar dentro de la misma conversación («ahora hazlo más formal») o editar tu prompt y volver a enviarlo.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Andrés itera una vez</strong></p><p>La primera respuesta de Andrés fue un aviso correcto, pero largo. Escribió: «Acórtalo a tres líneas y pon la hora de cierre al principio». La segunda versión ya la pudo pegar en el grupo del equipo.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Leer la respuesta para saber qué ajustar",
+       "paragraph": "<p>Iterar no es probar al azar. Lo que falla en la respuesta te dice qué faltó en el prompt, así que conviene mirarla primero y ajustar el componente que corresponde (Google, s. f.-b; Microsoft, 2026).</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Si la respuesta…</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Probablemente faltó…</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Ajuste posible</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Es genérica, podría servirle a cualquiera</p></td><td colspan=\"1\" rowspan=\"1\"><p>Contexto</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Es para un cliente que reclama por un despacho atrasado»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Tiene un tono que no corresponde</p></td><td colspan=\"1\" rowspan=\"1\"><p>Rol o formato (tono)</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Escríbelo como encargado que habla con su jefatura, tono formal»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Es demasiado larga o desordenada</p></td><td colspan=\"1\" rowspan=\"1\"><p>Formato</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Máximo cinco viñetas»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Agrega datos que no diste</p></td><td colspan=\"1\" rowspan=\"1\"><p>Restricción</p></td><td colspan=\"1\" rowspan=\"1\"><p>«Usa solo el texto que te pegué»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Hace otra cosa de lo que pediste</p></td><td colspan=\"1\" rowspan=\"1\"><p>Tarea</p></td><td colspan=\"1\" rowspan=\"1\"><p>Reformula con un verbo claro: «clasifica», no «revisa»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Mezcla varios temas</p></td><td colspan=\"1\" rowspan=\"1\"><p>División en pasos</p></td><td colspan=\"1\" rowspan=\"1\"><p>Pide una tarea a la vez</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Camila usó esta lógica con el instructivo de rendición de gastos. Su resumen venía bien escrito, pero traía la firma del gerente general, que el instructivo no pide. No reescribió todo: agregó una restricción («usa solo la información del instructivo y marca con \"no indica\" lo que falte») y volvió a pedir.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "La respuesta del asistente está bien escrita, pero es tan general que serviría para cualquier empresa. ¿Qué conviene agregar?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Un límite de palabras",
+         "correct": false,
+         "feedback": "<p>Una respuesta genérica suele indicar falta de contexto. El límite de palabras cambia el largo, no lo específico.</p>"
+        },
+        {
+         "title": "Contexto sobre la situación, el destinatario y el propósito",
+         "correct": true,
+         "feedback": "<p>Una respuesta genérica suele indicar falta de contexto. El límite de palabras cambia el largo, no lo específico.</p>"
+        },
+        {
+         "title": "Otra tarea en el mismo mensaje",
+         "correct": false,
+         "feedback": "<p>Una respuesta genérica suele indicar falta de contexto. El límite de palabras cambia el largo, no lo específico.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Perseverancia en la iteración",
+       "paragraph": "<p>La <strong>perseverancia</strong> es no rendirse con la primera respuesta, y tampoco quedarse dando vueltas sin rumbo. La guía de Microsoft advierte que llegar al resultado suele requerir un ida y vuelta (Microsoft, 2026). Es normal, no es señal de que lo hiciste mal. Un error común es concluir que la herramienta no sirve porque la primera respuesta salió mala, cuando muchas veces basta una iteración con más contexto o un formato más preciso.</p><p>Ayuda mirar cada respuesta como información: lo que salió mal te dice qué faltaba. Ayuda también cambiar una cosa a la vez, porque si cambias todo de golpe no sabrás qué funcionó. A veces conviene empezar de nuevo: si la conversación se llenó de intentos o cambiaste de tema, abre una nueva y pega tu mejor versión del prompt. La ayuda de Gemini lo recomienda al cambiar de tema, para aprovechar mejor el uso disponible (Google, s. f.-d).</p><p>Perseverar también es saber cuándo parar. Si después de varios intentos la tarea no sale, quizás no conviene delegarla; recuerda el semáforo del tema anterior.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Rosa no se rinde</strong></p><p>La primera clasificación de Rosa mezcló «Cambiar o anular hora» con «Agendar hora». En vez de dejarlo, agregó un ejemplo de cada categoría. En la segunda vuelta la tabla salió bien, y Rosa guardó ese prompt mejorado para el día siguiente.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Laboratorio de prompts",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Laboratorio de prompts",
+       "paragraph": "<p>Ahora te toca. Vas a escribir, probar e iterar un prompt para una tarea real de tu cargo. Antes de empezar, una advertencia sobre los datos: con el ajuste de actividad encendido, Gemini guarda tus conversaciones y revisores humanos pueden leer algunas (Google, s. f.-a). Por eso aquí se trabaja con copias sin datos sensibles o con datos de prueba, y se respeta lo que diga tu empresa. Cómo configurar la privacidad lo verás en el módulo 3.</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Laboratorio de prompts",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Laboratorio de prompts",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Abre Gemini en la app del celular o en el navegador, o el asistente que uses (Google, s. f.-c).",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Elige una tarea de tu trabajo que sea de resumir, reescribir o clasificar: un procedimiento, una respuesta a un cliente, solicitudes que llegan a tu correo.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Prepara los datos con una copia sin nombres, RUT ni montos reales, o con datos de prueba.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Escribe la versión 1 con rol, contexto, tarea y formato; si puedes, agrega una restricción.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Envíala y revisa la respuesta con la tabla de la pantalla anterior.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Itera al menos una vez: ajusta el componente que falló y vuelve a enviar.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tu laboratorio</strong></p><p>Anota en tu bitácora la tarea que elegiste, las dos versiones del prompt, qué falló en la primera respuesta, qué cambiaste en la segunda versión y por qué la segunda respuesta te sirve más.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "De prompt a plantilla",
+       "paragraph": "<p>Si un prompt te funcionó, no lo pierdas. Conviértelo en una <strong>plantilla</strong>: un prompt reutilizable donde las partes que cambian cada vez quedan entre [corchetes]. La guía de Google para Gemini ofrece una biblioteca de prompts de ejemplo por cargo, con corchetes para personalizar, y entre ellos hay ejemplos para asistencia administrativa y para bodega (Google, s. f.-b).</p><p>Armarla es simple. Tomas tu mejor versión, la que obtuviste después de iterar, y marcas lo que cambiará la próxima vez: nombres, fechas, textos pegados, destinatarios. Luego reemplazas cada una de esas partes por un corchete que diga qué va ahí.</p><p>Un error común es dejar datos reales dentro de la plantilla. Si quedó con el nombre de un cliente, un local o un número de teléfono, cámbialo por un corchete como [cliente] o [teléfono]. Una plantilla se reutiliza y se comparte con el equipo, así que tiene que quedar limpia de datos personales.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · La plantilla de Andrés</strong></p><p>«Actúa como encargado de bodega. El [día] cerramos a las [hora] por [motivo] y [quién se ve afectado] no podrá [qué no podrá hacer]. Redacta un aviso para [destinatarios]. Entrégalo en un máximo de [número] líneas, con la fecha y la hora al principio y tono [tono]. No agregues información que no esté en este mensaje.» La próxima vez, Andrés solo llena los corchetes y envía.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Tu biblioteca personal de prompts",
+       "paragraph": "<p>Una <strong>biblioteca personal de prompts</strong> es tu colección ordenada de plantillas que funcionan, agrupadas por tarea. Sigue la misma lógica de las bibliotecas que publican los proveedores, pero hecha para tu cargo y con lo que tú aprendiste (Google, s. f.-b). Puedes llevarla en un documento, en una planilla o en las notas del celular, con este formato:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Campo</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué anotar</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Nombre</p></td><td colspan=\"1\" rowspan=\"1\"><p>Un título corto: «Aviso de cierre de bodega»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Tarea</p></td><td colspan=\"1\" rowspan=\"1\"><p>Resumir, reescribir, clasificar u otra</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Plantilla</p></td><td colspan=\"1\" rowspan=\"1\"><p>El prompt con sus [corchetes]</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Cuándo usarla</p></td><td colspan=\"1\" rowspan=\"1\"><p>La situación en que sirve</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Notas de iteración</p></td><td colspan=\"1\" rowspan=\"1\"><p>Qué ajuste la hizo funcionar: «agregar el destinatario mejoró el tono»</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Herramienta y fecha</p></td><td colspan=\"1\" rowspan=\"1\"><p>En qué asistente la probaste y cuándo</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Ordenar y documentar tu propio trabajo no es burocracia. Te ahorra rehacer lo que ya resolviste, te permite mostrarle a tu jefatura cómo trabajas y facilita compartir una plantilla con tu equipo. La biblioteca de Camila, por ejemplo, tiene cuatro plantillas: «Resumir instructivo», «Responder a proveedor», «Correo de seguimiento de pago» y «Ordenar facturas en tabla». En cada una anotó qué ajuste la hizo funcionar, y cuando llega un correo parecido parte de la plantilla en vez de escribir desde cero. Para su proyecto eligió una tarea que le toma tiempo todas las semanas: registrar y clasificar los documentos que llegan a la oficina.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Empieza tu biblioteca</strong></p><p>Abre un documento o una nota y crea la tabla con los seis campos. Agrega la plantilla de tu laboratorio como primera entrada.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Cierre: tu primera biblioteca",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Cierre: tu primera biblioteca",
+       "paragraph": "<p>En este tema viste que un prompt efectivo tiene rol, contexto, tarea y formato y, cuando hace falta, restricciones (Google, s. f.-b; Microsoft, 2026). Conociste los errores más comunes, practicaste resumir, reescribir y clasificar con ejemplos de antes y después, y aprendiste a iterar mirando qué falló en la respuesta. Antes de guardar una plantilla en tu biblioteca, revísala con esta lista:</p><ul><li><p>☐ Tiene rol, contexto, tarea y formato.</p></li><li><p>☐ Incluye al menos una restricción cuando hay riesgo de que invente o se alargue.</p></li><li><p>☐ La probé y la mejoré al menos una vez.</p></li><li><p>☐ Las partes variables están entre [corchetes].</p></li><li><p>☐ No tiene datos personales ni confidenciales.</p></li><li><p>☐ Anoté qué ajuste la hizo funcionar.</p></li></ul><p>En el próximo tema verás por qué el mismo prompt puede dar respuestas distintas y cómo ajustar la longitud y la variación según lo que necesitas.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tres plantillas para tu cargo</strong></p><p>Vuelve a los tres usos que escribiste al cierre del tema anterior. Para cada uno, escribe una plantilla, pruébala en Gemini, itera al menos una vez y guárdala en tu biblioteca con sus notas. Esa será tu <strong>biblioteca de prompts v1</strong>.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Ideas clave"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<ol><li><p>Un prompt efectivo tiene rol, contexto, tarea y formato; las restricciones agregan límites cuando hay riesgo de que invente o se alargue.</p></li><li><p>Escribe como si le hablaras a una persona nueva en tu equipo: si un colega no entendería el pedido, el asistente tampoco.</p></li><li><p>Los errores más frecuentes son pedidos vagos, falta de contexto, varias tareas mezcladas, no indicar formato y decir solo lo que no quieres.</p></li><li><p>Uno o dos ejemplos orientan el formato; separa siempre las instrucciones de los datos que pegas.</p></li><li><p>Iterar es normal: revisa la respuesta, identifica qué componente falló y ajústalo, una cosa a la vez.</p></li><li><p>Un prompt que funciona se convierte en plantilla con [corchetes] y se guarda, con sus notas, en tu biblioteca personal.</p></li></ol>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Referencias bibliográficas",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Estas son las fuentes citadas en este tema, en formato APA 7. Los enlaces se abren en una pestaña nueva.</p><p>Anthropic. (s. f.). <em>Mejores prácticas de prompting</em>. Claude Docs. <a href=\"https://platform.claude.com/docs/es/build-with-claude/prompt-engineering/claude-prompting-best-practices\" target=\"_blank\" rel=\"noopener\">https://platform.claude.com/docs/es/build-with-claude/prompt-engineering/claude-prompting-best-practices</a></p><p>Google. (s. f.-a). <em>Centro de privacidad de las aplicaciones de Gemini</em>. <a href=\"https://support.google.com/gemini/answer/13594961?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/13594961?hl=es</a></p><p>Google. (s. f.-b). <em>Cómo escribir instrucciones eficaces</em>. Google Workspace. <a href=\"https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/\" target=\"_blank\" rel=\"noopener\">https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/</a></p><p>Google. (s. f.-c). <em>Empezar a usar la aplicación móvil Gemini</em>. <a href=\"https://support.google.com/gemini/answer/14554984?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/14554984?hl=es</a></p><p>Google. (s. f.-d). <em>Límites de las aplicaciones de Gemini y cambios a planes superiores</em>. <a href=\"https://support.google.com/gemini/answer/16275805?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/16275805?hl=es</a></p><p>Google. (2026, 13 de octubre). <em>Estrategias de diseño de instrucciones</em>. Google AI for Developers. <a href=\"https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419\" target=\"_blank\" rel=\"noopener\">https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419</a></p><p>Microsoft. (2026). <em>Introducción a la escritura de indicaciones en Microsoft Copilot</em>. Microsoft Support. <a href=\"https://support.microsoft.com/es-es/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot\" target=\"_blank\" rel=\"noopener\">https://support.microsoft.com/es-es/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot</a></p><p>OpenAI. (s. f.). <em>Planes y precios</em>. ChatGPT. <a href=\"https://chatgpt.com/es-419/pricing/\" target=\"_blank\" rel=\"noopener\">https://chatgpt.com/es-419/pricing/</a></p>"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

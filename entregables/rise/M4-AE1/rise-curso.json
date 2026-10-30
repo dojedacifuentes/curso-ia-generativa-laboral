@@ -1,0 +1,976 @@
+{
+ "ae": "M4-AE1",
+ "titulo": "Ecosistema multimedia con IA",
+ "descripcion": "<p><strong>Competencia del módulo:</strong> Producir contenido visual, sonoro y audiovisual con IA generativa, respetando licencias, atribución y criterios éticos, para piezas de comunicación laboral.</p><p><strong>Aprendizaje esperado:</strong> Seleccionar herramientas de IA para contenido multimedia según el tipo de pieza, sus licencias y sus riesgos de uso.</p><p>En este módulo pasas del texto a las imágenes, el audio y el video. Hay muchas herramientas de IA que producen piezas visuales y sonoras, y cada una pone sus propias reglas sobre lo que generas: si lo puedes usar en tu trabajo, si lo puedes publicar y qué tienes que declarar. La Organización Mundial de la Propiedad Intelectual (OMPI) recomienda revisar los términos de cada herramienta para saber de quién es lo que se genera. Por eso, antes de crear, conviene saber elegir.</p>",
+ "lecciones": [
+  {
+   "titulo": "Un mismo método para imagen, audio y video",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Qué vas a lograr en este tema",
+       "paragraph": "<p>En este módulo pasas del texto a las imágenes, el audio y el video. Hay muchas herramientas de IA que producen piezas visuales y sonoras, y cada una pone sus propias reglas sobre lo que generas: si lo puedes usar en tu trabajo, si lo puedes publicar y qué tienes que declarar. La Organización Mundial de la Propiedad Intelectual (OMPI) recomienda revisar los términos de cada herramienta para saber de quién es lo que se genera (OMPI, 2024). Por eso, antes de crear, conviene saber elegir.</p><p><strong>Competencia del módulo:</strong> Producir contenido visual, sonoro y audiovisual con IA generativa, respetando licencias, atribución y criterios éticos, para piezas de comunicación laboral.</p><p><strong>Aprendizaje esperado:</strong> Seleccionar herramientas de IA para contenido multimedia según el tipo de pieza, sus licencias y sus riesgos de uso.</p><p>Al final deberías poder comparar herramientas según la pieza que necesitas e interpretar las licencias y condiciones de uso de la que elijas.</p><p>Lo vas a trabajar con un análisis comparativo. Te acompaña Rosa, la recepcionista del centro médico que conociste en el módulo 1. Su coordinadora le pidió tres piezas: un afiche para la sala de espera que recuerde llegar diez minutos antes de la hora, un mensaje grabado con el horario de atención para la línea telefónica y un video corto para la pantalla de la sala. Rosa no sabe por dónde empezar, y en estas pantallas vas a comparar con ella herramientas y condiciones de uso tal como estaban cuando se preparó el curso. Los planes gratuitos cambian a menudo, así que la última palabra la tiene la página de cada herramienta el día que la uses.</p><p>Lo que verás sobre leyes y licencias es orientación general para trabajar con cuidado en tu cargo, no asesoría legal. Si una pieza tendrá un uso comercial importante o tienes dudas sobre derechos, consulta con quien corresponda en tu organización o con una persona especialista.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Un mismo método para imagen, audio y video",
+       "paragraph": "<p>La OMPI describe la IA generativa como la que crea texto, código, imágenes, audio, sonido y video a partir de una instrucción (OMPI, 2024). Por eso el método que aprendiste en el módulo 1 te sirve también aquí: describes bien lo que quieres, revisas el resultado y vuelves a pedir con más detalle. Lo que cambia de una pieza a otra es el <strong>tipo de pieza</strong>, y eso importa por dos razones.</p><p>La primera es práctica: el tipo de pieza define qué herramienta necesitas, porque no se hace con la misma aplicación una ilustración, una locución y un clip. La segunda es legal: define con qué obras protegidas te relacionas. La Ley 17.336 de Propiedad Intelectual protege por separado, entre otras, las fotografías, las ilustraciones, las composiciones musicales, los guiones, las obras cinematográficas y los videogramas (Ley 17.336, 1970).</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Tipo de pieza</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Ejemplo en una oficina</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Obras protegidas con que se relaciona</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Imagen</p></td><td colspan=\"1\" rowspan=\"1\"><p>Afiche para el diario mural, ilustración para una presentación</p></td><td colspan=\"1\" rowspan=\"1\"><p>Fotografías, ilustraciones</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Audio</p></td><td colspan=\"1\" rowspan=\"1\"><p>Locución, mensaje telefónico, pista de fondo</p></td><td colspan=\"1\" rowspan=\"1\"><p>Composiciones musicales</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Video</p></td><td colspan=\"1\" rowspan=\"1\"><p>Clip para una reunión o para una pantalla</p></td><td colspan=\"1\" rowspan=\"1\"><p>Guiones, obras cinematográficas, videogramas</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Si en tu pieza usas una foto, una canción o un video de otra persona, entras en el terreno de esas obras, y lo mismo pasa si le pides a una herramienta que imite una obra conocida. Rosa lo anota así: su afiche es una imagen, el mensaje telefónico es audio y el video de la sala de espera combina imagen, voz y música. Ya sabe que no le bastará una sola herramienta y que cada pieza tendrá sus propias reglas.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Panorama: herramientas de imagen",
+       "paragraph": "<p>Para crear imágenes con IA hay muchas opciones con plan gratuito, y la lista cambia casi cada mes. Más que memorizar nombres, conviene reconocer tres familias. Están los asistentes generales, que conversan contigo y además generan y editan imágenes; las aplicaciones de diseño, que generan la imagen y también te dejan componer la pieza con su texto; y los generadores dedicados solo a imágenes. En este módulo usarás una herramienta de cada una de las dos primeras familias.</p><p>Gemini, el asistente que ya conoces, genera y edita imágenes con un modelo llamado Nano Banana 2. Para hacerlo tienes que iniciar sesión con tu cuenta de Google, y Google pide 13 años o más para generar y 18 o más para editar. Tiene un límite diario que su página de ayuda no expresa en cifras, y sin un plan pagado las imágenes se descargan en resolución 1K (Google, s. f.).</p><p>Canva sirve para generar una imagen y, en el mismo lugar, armar el afiche con su título y sus textos. En el plan gratuito tienes hasta 20 usos de IA al mes, compartidos entre todas sus funciones de IA, como crear imágenes, la voz o el generador de música (Canva, s. f.), así que conviene gastarlos con cuidado.</p><p>Fíjate en que esta comparación todavía no dice cuál es mejor. Para elegir faltan dos datos que verás en las próximas pantallas: qué licencia te dan sobre lo que generas y qué riesgos trae cada una.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · «Elijo la que hace las imágenes más bonitas»</strong></p><p>La calidad visual es solo un criterio. Una herramienta puede dar imágenes muy buenas y, al mismo tiempo, no permitir usarlas en una pieza de trabajo o publicarlas.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Panorama: herramientas de audio y video",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Panorama: herramientas de audio y video",
+       "paragraph": "<p>En audio hay herramientas que convierten un texto en voz, otras que diseñan voces nuevas y otras que generan música a partir de una descripción. ElevenLabs, que usarás en el tema 3, reúne varias de esas funciones: su plan gratuito entrega 10.000 créditos al mes para texto a voz, efectos de sonido, diseño de voz y música. Eso sí, la licencia comercial empieza recién en su plan Starter, que es de pago (ElevenLabs, s. f.).</p><p>Suno, un generador de canciones, muestra una lección importante. Su plan gratuito da 50 créditos al día, pero no incluye derechos comerciales ni descargas de canciones (Suno, s. f.). Puedes escuchar lo que creas, pero no llevar la pista a tu editor de video. <strong>Gratis no siempre significa utilizable</strong>: antes de entusiasmarte con una herramienta, revisa si te deja descargar lo que generas y para qué usos.</p><p>Las herramientas de video las revisarás en el tema 4, cuando armes tu clip. Lo que sí puedes anticipar es que un clip casi nunca sale de una sola herramienta: lo normal es usar una para la voz, otra para la música, otra para las imágenes y una más para montar, cada una con sus propias reglas. Por eso la comparación que harás en este tema se repite pieza por pieza.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Rosa quiere una pista musical para su video y la va a montar en un editor. ¿Qué herramienta le sirve menos con su plan gratuito?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "ElevenLabs, cuyos créditos gratuitos también sirven para música",
+         "correct": false,
+         "feedback": "<p>Sin descarga, Rosa no puede llevar la pista al editor. Suno gratis sirve para escuchar, no para montar un video.</p>"
+        },
+        {
+         "title": "Suno, porque el plan gratuito no permite descargar las canciones",
+         "correct": true,
+         "feedback": "<p>Sin descarga, Rosa no puede llevar la pista al editor. Suno gratis sirve para escuchar, no para montar un video.</p>"
+        },
+        {
+         "title": "Cualquiera da lo mismo, porque todas las gratuitas permiten descargar",
+         "correct": false,
+         "feedback": "<p>Sin descarga, Rosa no puede llevar la pista al editor. Suno gratis sirve para escuchar, no para montar un video.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Licencias Creative Commons",
+       "paragraph": "<p>Muchas fotos, ilustraciones y pistas que encuentras en internet se comparten con una licencia <strong>Creative Commons</strong> (CC). Es una forma estándar de decir «puedes usar mi obra, con estas condiciones». Las condiciones se arman combinando cuatro elementos, y cada uno tiene una sigla:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Sigla</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Elemento</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué te pide</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>BY</p></td><td colspan=\"1\" rowspan=\"1\"><p>Atribución</p></td><td colspan=\"1\" rowspan=\"1\"><p>Dar crédito a quien creó la obra</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>SA</p></td><td colspan=\"1\" rowspan=\"1\"><p>Compartir igual</p></td><td colspan=\"1\" rowspan=\"1\"><p>Si la adaptas, compartir tu versión con la misma licencia</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>NC</p></td><td colspan=\"1\" rowspan=\"1\"><p>No comercial</p></td><td colspan=\"1\" rowspan=\"1\"><p>Usarla solo con fines no comerciales</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>ND</p></td><td colspan=\"1\" rowspan=\"1\"><p>Sin derivadas</p></td><td colspan=\"1\" rowspan=\"1\"><p>No modificarla ni crear obras a partir de ella</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Con esos elementos se forman seis licencias. Ordenadas de la más a la menos permisiva, son CC BY, CC BY-SA, CC BY-ND, CC BY-NC, CC BY-NC-SA y CC BY-NC-ND (Creative Commons, s. f.-a). Todas incluyen BY, así que en cualquiera de ellas hay que dar crédito. Aparte está CC0, que no es una de esas seis licencias: es una herramienta para que quien creó una obra la dedique al dominio público.</p><p>Leerlas se aprende rápido, porque cada sigla es una condición. Además, las licencias están traducidas a más de 45 idiomas, también al español, así que puedes revisar sus condiciones sin depender de otro idioma.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Una pista musical tiene licencia CC BY-NC. ¿Puedes usarla en un video para vender los productos de una tienda?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Sí, siempre que des crédito",
+         "correct": false,
+         "feedback": "<p>BY pide dar crédito, pero NC limita el uso a fines no comerciales. Un video para vender es un uso comercial.</p>"
+        },
+        {
+         "title": "No, porque NC permite solo usos no comerciales",
+         "correct": true,
+         "feedback": "<p>BY pide dar crédito, pero NC limita el uso a fines no comerciales. Un video para vender es un uso comercial.</p>"
+        },
+        {
+         "title": "Sí, siempre que no la modifiques",
+         "correct": false,
+         "feedback": "<p>BY pide dar crédito, pero NC limita el uso a fines no comerciales. Un video para vender es un uso comercial.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Leer el resumen de una licencia",
+       "paragraph": "<p>Cada licencia CC tiene un resumen en español que dice qué permite y con qué condiciones (Creative Commons, s. f.-a). Toma como ejemplo la licencia Atribución-NoComercial-CompartirIgual 4.0, que se abrevia CC BY-NC-SA 4.0. Su resumen dice que puedes compartir la obra, es decir, copiarla y redistribuirla, y adaptarla, es decir, modificarla y crear a partir de ella (Creative Commons, s. f.-b).</p><p>Esos permisos vienen con condiciones. Tienes que dar crédito, enlazar la licencia e indicar si hiciste cambios, sin sugerir que quien creó la obra respalda tu uso. No puedes usarla con fines comerciales. Si la adaptas, tu versión va con la misma licencia. Y no puedes agregar condiciones que impidan a otras personas hacer lo que la licencia permite.</p><p>Al final, el resumen trae avisos que se pasan por alto con facilidad. La licencia no da garantías. Los derechos de imagen, de privacidad o morales pueden requerir permisos aparte: si en la foto aparece una persona, la licencia de la foto no reemplaza el permiso de esa persona. Y el resumen no reemplaza el texto legal de la licencia, que es el que manda (Creative Commons, s. f.-b).</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Interpreta la licencia</strong></p><p>Rosa encuentra una ilustración de una sala de espera con licencia CC BY-NC-SA 4.0. Responde cada pregunta y después compara con la respuesta:</p><ol><li><p>¿Puede recortarla y agregarle un texto? → Sí: la licencia permite adaptar.</p></li><li><p>¿Qué debe incluir el crédito? → Autoría, enlace a la obra, enlace a la licencia y aviso de que la modificó.</p></li><li><p>¿Con qué licencia queda su afiche? → La misma: CC BY-NC-SA 4.0.</p></li><li><p>¿Qué la haría dudar? → La condición NC, porque el afiche lo pondrá el centro médico. Lo verás en el análisis de la sección «Análisis comparativo: las piezas de Rosa».</p></li></ol>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Términos de uso: las reglas de lo que generas",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Términos de uso: las reglas de lo que generas",
+       "paragraph": "<p>Las licencias CC sirven para las obras que otras personas comparten. Para lo que genera una herramienta de IA, los permisos están en otro lugar: sus <strong>términos de uso</strong>. La OMPI recomienda revisarlos para saber de quién es lo que se genera (OMPI, 2024), y no es un trámite menor, porque cada empresa los redacta a su manera.</p><p>Cuando los leas, busca respuesta a cuatro preguntas: quién es dueño del resultado, qué usos permite, qué prohíbe y qué garantías da. No esperes encontrarlas juntas ni con esas palabras. Si los términos no responden alguna, anótala como una duda: eso también es información para decidir.</p><p>Mira cómo se responden en las Condiciones del Servicio de Google, que rigen servicios como Gemini. En la sección «Su contenido», Google declara que no reclamará la propiedad del contenido original que generan sus servicios (Google, 2026). Los mismos términos prohíben engañar a otras personas para que crean que un contenido hecho con IA generativa lo creó una persona, y piden no confiar en sus servicios como asesoría profesional (Google, 2026). Ahí tienes tres respuestas: quién es dueño, una prohibición y un límite a lo que puedes esperar del servicio.</p><p>Ser dueña o dueño del resultado no es lo único que importa. Lee con la misma atención qué puede hacer la herramienta con lo que creas y quién responde si hay un problema, porque eso cambia lo que puedes hacer con una pieza de trabajo.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · «Si la herramienta es gratis, puedo hacer lo que quiera con lo que genera»</strong></p><p>Que no cobre no significa que no ponga condiciones. Cada herramienta fija en sus términos qué usos permite y cuáles prohíbe, y ese texto manda, no la publicidad de su página.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "El semáforo: qué te deja hacer el plan gratuito",
+       "paragraph": "<p>Con las cuatro preguntas respondidas, puedes clasificar una herramienta con un semáforo. No es una norma legal: es un criterio del curso para decidir si sirve para una pieza de trabajo.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Color</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué significa</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Ejemplo</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Verde</p></td><td colspan=\"1\" rowspan=\"1\"><p>Los términos te dejan usar lo que generas; se usa con revisión normal</p></td><td colspan=\"1\" rowspan=\"1\"><p>Canva: eres dueña o dueño de lo que generas con su IA, salvo el contenido de su biblioteca, que solo se licencia (Canva, 2026)</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Amarillo</p></td><td colspan=\"1\" rowspan=\"1\"><p>Se puede usar si cumples condiciones, como dar crédito, no usarlo con fines comerciales, aceptar que tus creaciones queden públicas o llevar marca de agua</p></td><td colspan=\"1\" rowspan=\"1\"><p>Lo verás con la voz y la música del tema 3</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Rojo</p></td><td colspan=\"1\" rowspan=\"1\"><p>La licencia no alcanza para una pieza de trabajo</p></td><td colspan=\"1\" rowspan=\"1\"><p>Microsoft Designer: es gratis, pero su licencia es personal y no comercial (Microsoft, s. f.)</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>El semáforo depende del uso que le darás a la pieza. Designer sirve para practicar por tu cuenta; para un afiche que pondrá tu empresa, no. Y una herramienta en verde no te libera de revisar: Canva permite usar lo generado para cualquier fin lícito, pero bajo tu propio riesgo, y prohíbe hacer pasar por humano lo que generó la IA (Canva, 2026).</p><p>Cuando clasifiques una herramienta, anota la fecha en que leíste sus condiciones. Las herramientas cambian sus planes y sus términos, y lo que hoy está en verde puede pasar a amarillo. Por eso, en la ficha de uso ético que verás en la sección «La ficha de uso ético», cada herramienta va con su plan y con esa fecha.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Rosa quiere crear el afiche del centro médico con Microsoft Designer gratis. ¿Qué le dices?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Puede usarlo, porque Designer es gratis",
+         "correct": false,
+         "feedback": "<p>Que la herramienta sea gratuita no cambia su licencia. Designer da una licencia personal y no comercial, que no alcanza para una pieza del centro médico.</p>"
+        },
+        {
+         "title": "Mejor otra herramienta: la licencia de Designer es solo para uso personal y no comercial",
+         "correct": true,
+         "feedback": "<p>Que la herramienta sea gratuita no cambia su licencia. Designer da una licencia personal y no comercial, que no alcanza para una pieza del centro médico.</p>"
+        },
+        {
+         "title": "Puede usarlo si no le agrega texto",
+         "correct": false,
+         "feedback": "<p>Que la herramienta sea gratuita no cambia su licencia. Designer da una licencia personal y no comercial, que no alcanza para una pieza del centro médico.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "¿De quién es lo que genera la IA?",
+       "paragraph": "<p>Que los términos de una herramienta digan que eres dueña o dueño del resultado no responde otra pregunta, más de fondo: lo que generó la IA, ¿es una obra protegida por el derecho de autor? Esa pregunta todavía está abierta y conviene tratarla con cautela.</p><p>En Chile, la Ley 17.336 dice que quien crea una obra adquiere sus derechos por el solo hecho de crearla. Esos derechos son patrimoniales, como usarla y explotarla, y morales, como que se reconozca su autoría. La protección dura toda la vida del autor y 70 años más (Ley 17.336, 1970). La misma ley define la obra individual como la producida por una «persona natural», y como es de 1970, no dice nada sobre lo que genera una IA.</p><p>En Estados Unidos, la oficina de derecho de autor concluyó en 2025 que sus reglas actuales bastan para decidir caso a caso. Lo generado puede protegerse, en todo o en parte, cuando una persona usa la IA como herramienta y decide los elementos expresivos. En cambio, un prompt por sí solo, hoy, difícilmente basta para que haya autoría (U.S. Copyright Office, 2025). Esa conclusión rige solo en ese país: sirve para entender el debate, no como regla en Chile.</p><p>Para tu trabajo, la consecuencia es concreta: tu <strong>aporte humano</strong> importa. Elegir entre versiones, corregir, componer la pieza y escribir el texto es lo que más pesa, y por eso conviene dejarlo registrado en la ficha de uso ético de la sección «La ficha de uso ético».</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · «Escribí el prompt, así que la imagen es obra mía»</strong></p><p>Con el estado actual del debate, un prompt solo difícilmente basta para que haya autoría. Lo que más cuenta es lo que tú decides y modificas en la pieza.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Atribución: dar crédito bien",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Atribución: dar crédito bien",
+       "paragraph": "<p><strong>Atribuir</strong> es reconocer quién creó lo que usas. Creative Commons propone recordar cuatro datos con la sigla TASL: el título de la obra, su autor o autora, la fuente, que en inglés se dice <em>source</em> y es el enlace a la obra original, y la licencia, también con su enlace (Creative Commons, 2024). Si modificaste la obra, agregas qué cambiaste.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Crédito</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>¿Sirve?</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>«Imagen de internet»</p></td><td colspan=\"1\" rowspan=\"1\"><p>No: no dice nada</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>«Foto: Creative Commons»</p></td><td colspan=\"1\" rowspan=\"1\"><p>No: Creative Commons no es la autora, y faltan la fuente y la licencia</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>«\"Sala de espera\", de Daniela Soto (enlace), CC BY-NC-SA 4.0 (enlace). Recortada y con texto agregado.»</p></td><td colspan=\"1\" rowspan=\"1\"><p>Sí: tiene los cuatro datos y los cambios</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Daniela Soto es un nombre inventado para el ejemplo. Fíjate en que el segundo crédito parece correcto porque nombra una licencia, pero confunde a quien propone la licencia con quien creó la obra.</p><p>Dar crédito no es solo cortesía. En Chile, el derecho moral del autor incluye que se reconozca la paternidad de su obra y oponerse a modificaciones que no autorizó. La ley también permite citar fragmentos breves para criticar, enseñar o investigar, siempre que se mencionen la fuente, el título y el autor (Ley 17.336, 1970). Algunas herramientas de IA, además, piden su propia forma de crédito para lo que generas con su plan gratuito; lo verás en el tema 3 con la voz y la música.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Corrige el crédito</strong></p><p>Andrés puso en un afiche de la bodega: «Ícono: Creative Commons». Reescríbelo con la fórmula TASL. Usa datos inventados si no tienes los reales y marca qué dato le faltaba.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Riesgos legales",
+       "paragraph": "<p>Usar IA para crear piezas trae riesgos legales que conviene reconocer antes de publicar. La OMPI menciona varios. Uno es infringir derechos de autor o marcas, por ejemplo al pedir una imagen que copie un personaje o un logo conocido. Otro es revelar datos personales o información confidencial, ya sea en las instrucciones que escribes o en la pieza final. Un tercero es producir <strong>ultrafalsos</strong>: imágenes, audios o videos que hacen pasar por real algo que no ocurrió.</p><p>La OMPI agrega un punto que pocas personas esperan: en muchos países se puede infringir el derecho de autor aunque no haya intención (OMPI, 2024). Un error común es pensar «si no lo hice a propósito, no hay problema». El riesgo no recae solo en la empresa que desarrolla la herramienta, sino también en quien la usa y publica la pieza.</p><p>Las mismas herramientas lo dejan claro en sus términos. CapCut, por ejemplo, dice que no garantiza que el contenido generado sea legal o apropiado y que la persona responde por lo que crea (CapCut, 2026). Leído desde tu puesto de trabajo, el mensaje es simple: la revisión antes de publicar es tuya, y no se puede delegar en la herramienta.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · El personaje famoso</strong></p><p>Andrés quiere un afiche simpático para la bodega y pide «un personaje igual al de una película animada famosa, con el logo de una marca de zapatillas». Es justo lo que hay que evitar, porque usa obras y marcas de terceros. Cambia el pedido por «un personaje original, estilo ilustración plana, con zapatos de seguridad sin marca».</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Riesgos reputacionales y herramientas que cambian",
+       "paragraph": "<p>Además del riesgo legal está el <strong>riesgo reputacional</strong>: lo que le pasa a tu imagen o a la de tu organización si una pieza sale mal. Una imagen con estereotipos daña la confianza aunque nadie lo haya buscado, y lo verás en detalle en el tema 2. Otro riesgo es ocultar que usaste IA: ya viste en las secciones «Términos de uso: las reglas de lo que generas» y «El semáforo: qué te deja hacer el plan gratuito» que hay términos de uso que prohíben hacer pasar por humano lo que generó una herramienta.</p><p>Tampoco conviene confiar en que el archivo «ya dice» que es sintético. Algunas herramientas agregan marcas de procedencia a lo que generan, pero el NIST, el instituto de normas técnicas de Estados Unidos, advierte que quien copia o edita un archivo puede alterar esos metadatos y que las redes sociales suelen borrarlos al compartir (National Institute of Standards and Technology, 2024). Si la pieza tiene que decir que se hizo con IA, dilo tú, de forma visible.</p><p>Hay un riesgo más, menos visible: la herramienta puede cambiar o desaparecer. Sora, el generador de video de OpenAI, retiró su web y su app el 26 de abril de 2026, y su API el 24 de septiembre del mismo año (OpenAI, 2026). Quien tenía un trabajo armado solo sobre esa herramienta tuvo que buscar otra y rehacerlo. La recomendación del curso es guardar tus archivos y tus registros, y volver a revisar los términos antes de cada proyecto.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "¿Qué lección deja el retiro de Sora en 2026?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Que el video generado con IA ya no existe",
+         "correct": false,
+         "feedback": "<p>Hay otras herramientas de video, pero cualquiera puede cambiar sus planes o cerrar. Por eso se guardan los archivos y los registros.</p>"
+        },
+        {
+         "title": "Que una herramienta puede cambiar o desaparecer, y conviene guardar los archivos y tener alternativas",
+         "correct": true,
+         "feedback": "<p>Hay otras herramientas de video, pero cualquiera puede cambiar sus planes o cerrar. Por eso se guardan los archivos y los registros.</p>"
+        },
+        {
+         "title": "Que las herramientas gratuitas son siempre más estables",
+         "correct": false,
+         "feedback": "<p>Hay otras herramientas de video, pero cualquiera puede cambiar sus planes o cerrar. Por eso se guardan los archivos y los registros.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Análisis comparativo: las piezas de Rosa",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Análisis comparativo: las piezas de Rosa",
+       "paragraph": "<p>Ya tienes los elementos para el análisis. La OMPI sugiere que, para comparar herramientas, no basta con ver qué producen: hay que revisar en sus términos quién es dueño de lo generado, si guarda las instrucciones, con qué datos se entrenó y si ofrece garantías o indemnizaciones. También propone clasificarlas por nivel de riesgo en permitidas, restringidas y prohibidas, y aconseja usar IA cuando la titularidad no sea crítica, por ejemplo en usos internos o para generar ideas (OMPI, 2024).</p><p>Rosa lo aplica a sus piezas. Para el afiche piensa en Gemini para la imagen y Canva para el texto; para el mensaje telefónico duda entre la voz con IA de Canva y el plan gratuito de ElevenLabs.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Pieza</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Herramienta</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué revisó</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Clasificación</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Afiche</p></td><td colspan=\"1\" rowspan=\"1\"><p>Gemini y Canva</p></td><td colspan=\"1\" rowspan=\"1\"><p>Google no reclama la propiedad; en Canva, la biblioteca solo se licencia (secciones «Términos de uso: las reglas de lo que generas» y «El semáforo: qué te deja hacer el plan gratuito»)</p></td><td colspan=\"1\" rowspan=\"1\"><p>Permitida</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Mensaje telefónico</p></td><td colspan=\"1\" rowspan=\"1\"><p>Voz con IA de Canva</p></td><td colspan=\"1\" rowspan=\"1\"><p>Lo generado es suyo; gasta usos de IA del mes (secciones «Panorama: herramientas de imagen» y «El semáforo: qué te deja hacer el plan gratuito»)</p></td><td colspan=\"1\" rowspan=\"1\"><p>Permitida</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Mensaje telefónico</p></td><td colspan=\"1\" rowspan=\"1\"><p>ElevenLabs gratis</p></td><td colspan=\"1\" rowspan=\"1\"><p>El plan gratuito no tiene licencia comercial (ElevenLabs, s. f.)</p></td><td colspan=\"1\" rowspan=\"1\"><p>Restringida</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>El video lo dejará para el tema 4, cuando conozca las herramientas de video. Para elegir la voz, Rosa usa un criterio del curso: las piezas que una organización usa con sus clientes o pacientes, aunque no se vendan, pueden considerarse uso comercial. El mensaje lo escucharán pacientes, así que prefiere la herramienta que permite ese uso. Ante la duda, elige una herramienta que lo permita o pregunta a quien corresponda en tu organización.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tu análisis</strong></p><p>Elige una de las piezas de Rosa y compara dos herramientas con estos criterios: qué produce, plan gratuito, si funciona en el celular, licencia de lo generado y un riesgo. Clasifica cada herramienta como permitida, restringida o prohibida, y justifica con una condición de uso que hayas leído en sus términos.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "La ficha de uso ético",
+       "paragraph": "<p>Una <strong>ficha de uso ético</strong> es un registro breve que acompaña a una pieza. Reúne lo que la OMPI recomienda documentar cuando se usa IA, como qué se generó, con qué instrucciones y cuál fue el aporte humano (OMPI, 2024), y suma los créditos de lo que no es tuyo con la fórmula TASL (Creative Commons, 2024). La vas a usar en todo el módulo y la entregarás junto con tu pieza del Hito 4.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Campo</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué escribes</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Pieza y uso</p></td><td colspan=\"1\" rowspan=\"1\"><p>Qué es, para quién y dónde se verá</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Herramientas y plan</p></td><td colspan=\"1\" rowspan=\"1\"><p>Nombre, plan (gratuito o pagado) y fecha en que revisaste sus condiciones</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Qué se generó con IA</p></td><td colspan=\"1\" rowspan=\"1\"><p>Qué partes son sintéticas</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Instrucciones</p></td><td colspan=\"1\" rowspan=\"1\"><p>Los prompts principales que usaste</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Aporte humano</p></td><td colspan=\"1\" rowspan=\"1\"><p>Qué elegiste, corregiste o hiciste tú</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Consentimientos y licencias</p></td><td colspan=\"1\" rowspan=\"1\"><p>Permisos de las personas que aparecen o cuya voz se usa, y licencias de los materiales</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Créditos</p></td><td colspan=\"1\" rowspan=\"1\"><p>Materiales de terceros con la fórmula TASL</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>La ficha no es burocracia: es tu respaldo. Si tu jefatura o alguien del equipo pregunta cómo se hizo la pieza, la respuesta ya está escrita, con fecha y con nombre.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · La ficha del afiche de Rosa</strong></p><p>Rosa anotó que la pieza es un afiche para la sala de espera del centro médico, hecho con Gemini para la imagen y Canva Gratis para el texto, con las condiciones revisadas el mismo día. Lo generado con IA es solo la ilustración de fondo, a partir del prompt «Ilustración plana de una sala de espera luminosa, con personas de distintas edades, colores verde y blanco, sin texto». Su aporte fue elegir una de cuatro variantes, recortar la imagen y escribir el mensaje. No aparecen personas reales ni hay material de terceros, así que no necesitó consentimientos ni créditos.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Cierre: elige y justifica",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Cierre: elige y justifica",
+       "paragraph": "<p>En este tema viste que una herramienta multimedia se elige por tres cosas: el tipo de pieza, la licencia de lo que genera y sus riesgos. Repasaste las licencias Creative Commons y sus cuatro elementos, aprendiste a buscar en los términos de uso quién es dueño, qué se permite, qué se prohíbe y qué garantías hay (OMPI, 2024), y a dar crédito con la fórmula TASL (Creative Commons, 2024). También viste que la autoría de lo generado con IA es un tema abierto, y que por eso conviene dejar tu aporte humano por escrito.</p><p>Un error común es dejar la licencia para el final, cuando la pieza ya está lista. Si recién entonces descubres que la herramienta no permite tu uso, tienes que rehacer todo. Las condiciones se revisan antes de elegir.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tu pieza del Hito 4</strong></p><p>En el Hito 4 harás una pieza visual, sonora o audiovisual que comunique la propuesta de tu proyecto. Prepárala así:</p><ol><li><p>Define el tipo de pieza (imagen, audio o video), para quién es y dónde se verá en tu trabajo.</p></li><li><p>Compara dos herramientas con los criterios de la sección «Análisis comparativo: las piezas de Rosa» y elige una.</p></li><li><p>Escribe en dos líneas qué te permite y qué te prohíbe la herramienta elegida en su plan gratuito.</p></li><li><p>Nombra un riesgo legal o reputacional y cómo lo vas a evitar.</p></li><li><p>Abre tu ficha de uso ético y llena los campos que ya puedes: pieza y uso, herramientas y plan con la fecha de revisión, y las licencias y créditos TASL de los materiales de terceros que piensas usar.</p></li></ol><p>Guarda tu respuesta. En los próximos temas producirás imágenes, audio y un clip, y completarás la ficha.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Ideas clave"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<ol><li><p>La herramienta se elige según el tipo de pieza (imagen, audio o video), la licencia de lo que genera y sus riesgos de uso.</p></li><li><p>«Gratis» no siempre significa «utilizable»: hay planes gratuitos que no permiten descargar lo generado ni usarlo en una pieza de trabajo.</p></li><li><p>Las licencias Creative Commons combinan cuatro elementos (BY, SA, NC, ND) en seis licencias; CC0 dedica una obra al dominio público.</p></li><li><p>Para lo que genera la IA, los permisos están en los términos de uso de cada herramienta: quién es dueño, qué usos permite, qué prohíbe y qué garantías da.</p></li><li><p>La autoría de lo generado con IA es un tema abierto: un prompt solo difícilmente basta, y el aporte humano conviene registrarlo.</p></li><li><p>Se da crédito con la fórmula TASL (título, autor, fuente y licencia) e indicando los cambios.</p></li><li><p>Los riesgos son legales (derechos de autor, marcas, datos, ultrafalsos) y reputacionales (estereotipos, ocultar el uso de IA), y las herramientas pueden cambiar o desaparecer.</p></li></ol>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Referencias bibliográficas",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Estas son las fuentes citadas en este tema, en formato APA 7. Los enlaces se abren en una pestaña nueva.</p><p>Canva. (s. f.). <em>Comprender el uso de la IA</em>. <a href=\"https://www.canva.com/es_es/help/ai-access/\" target=\"_blank\" rel=\"noopener\">https://www.canva.com/es_es/help/ai-access/</a></p><p>Canva. (2026, 26 de junio). <em>AI product terms</em>. <a href=\"https://www.canva.com/policies/ai-product-terms/\" target=\"_blank\" rel=\"noopener\">https://www.canva.com/policies/ai-product-terms/</a></p><p>CapCut. (2026, 15 de abril). <em>Terms of service</em>. <a href=\"https://www.capcut.com/clause/terms-of-service\" target=\"_blank\" rel=\"noopener\">https://www.capcut.com/clause/terms-of-service</a></p><p>Creative Commons. (s. f.-a). <em>About CC licenses</em>. <a href=\"https://creativecommons.org/share-your-work/cclicenses/\" target=\"_blank\" rel=\"noopener\">https://creativecommons.org/share-your-work/cclicenses/</a></p><p>Creative Commons. (s. f.-b). <em>Atribución-NoComercial-CompartirIgual 4.0 Internacional</em>. <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es\" target=\"_blank\" rel=\"noopener\">https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es</a></p><p>Creative Commons. (2024, 4 de diciembre). <em>Recommended practices for attribution</em>. Creative Commons Wiki. <a href=\"https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution\" target=\"_blank\" rel=\"noopener\">https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution</a></p><p>ElevenLabs. (s. f.). <em>Pricing</em>. <a href=\"https://elevenlabs.io/pricing\" target=\"_blank\" rel=\"noopener\">https://elevenlabs.io/pricing</a></p><p>Google. (s. f.). <em>Generar imágenes con las aplicaciones de Gemini</em>. <a href=\"https://support.google.com/gemini/answer/14286560?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/14286560?hl=es</a></p><p>Google. (2026, 30 de julio). <em>Condiciones del servicio de Google</em>. <a href=\"https://policies.google.com/terms?hl=es-419\" target=\"_blank\" rel=\"noopener\">https://policies.google.com/terms?hl=es-419</a></p><p>Ley 17.336. (1970, 2 de octubre). <em>Sobre propiedad intelectual</em>. Biblioteca del Congreso Nacional de Chile. <a href=\"https://www.bcn.cl/leychile/navegar?idNorma=28933\" target=\"_blank\" rel=\"noopener\">https://www.bcn.cl/leychile/navegar?idNorma=28933</a></p><p>Microsoft. (s. f.). <em>Preguntas frecuentes sobre Microsoft Designer</em>. Microsoft Support. <a href=\"https://support.microsoft.com/en-us/designer/frequently-asked-questions-about-microsoft-designer\" target=\"_blank\" rel=\"noopener\">https://support.microsoft.com/en-us/designer/frequently-asked-questions-about-microsoft-designer</a></p><p>National Institute of Standards and Technology. (2024). <em>Reducing risks posed by synthetic content (NIST AI 100-4)</em>. <a href=\"https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf\" target=\"_blank\" rel=\"noopener\">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf</a></p><p>OMPI. (2024). <em>IA generativa: cómo abordar la propiedad intelectual (RN2024-8ES)</em>. <a href=\"https://doi.org/10.34667/tind.49471\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.34667/tind.49471</a></p><p>OpenAI. (2026). <em>Qué debes saber sobre la interrupción de Sora</em>. OpenAI Help Center. <a href=\"https://help.openai.com/es-es/articles/20001152-what-to-know-about-the-sora-discontinuation\" target=\"_blank\" rel=\"noopener\">https://help.openai.com/es-es/articles/20001152-what-to-know-about-the-sora-discontinuation</a></p><p>Suno. (s. f.). <em>Pricing</em>. <a href=\"https://suno.com/pricing\" target=\"_blank\" rel=\"noopener\">https://suno.com/pricing</a></p><p>U.S. Copyright Office. (2025). <em>Copyright and artificial intelligence, part 2: Copyrightability</em>. <a href=\"https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf\" target=\"_blank\" rel=\"noopener\">https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf</a></p>"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

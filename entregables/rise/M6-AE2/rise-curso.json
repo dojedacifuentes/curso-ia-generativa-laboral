@@ -1,0 +1,859 @@
+{
+ "ae": "M6-AE2",
+ "titulo": "Implementar el flujo",
+ "descripcion": "<p><strong>Competencia del módulo:</strong> Aplicar la IA generativa en un proyecto basado en un desafío laboral real, midiendo resultados y comunicándolos, integrando lo aprendido en los módulos anteriores.</p><p><strong>Aprendizaje esperado:</strong> Implementar un flujo de trabajo con IA para la oportunidad priorizada, con supervisión humana y registro de decisiones.</p><p>En el tema anterior fijaste tu punto de partida, tu meta y cómo vas a medir. Ahora toca hacer el cambio: poner en marcha el flujo con IA en tu tarea, probarlo, corregirlo y dejar registro de lo que decides en el camino.</p>",
+ "lecciones": [
+  {
+   "titulo": "Del prototipo al flujo completo",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Qué vas a lograr en este tema",
+       "paragraph": "<p>En el tema anterior fijaste tu punto de partida, tu meta y cómo vas a medir. Ahora toca hacer el cambio: poner en marcha el flujo con IA en tu tarea, probarlo, corregirlo y dejar registro de lo que decides en el camino.</p><p><strong>Competencia del módulo:</strong> Aplicar la IA generativa en un proyecto basado en un desafío laboral real, midiendo resultados y comunicándolos, integrando lo aprendido en los módulos anteriores.</p><p><strong>Aprendizaje esperado:</strong> Implementar un flujo de trabajo con IA para la oportunidad priorizada, con supervisión humana y registro de decisiones.</p><p>Al final del tema deberías tener tu flujo funcionando, con al menos un punto de supervisión humana definido por escrito, y un registro con la fecha y el motivo de cada decisión y cada ajuste que hiciste.</p><p>Implementar no es «encender» la IA y esperar. Es un ciclo: pruebas a pequeña escala, miras qué pasó, ajustas y vuelves a probar (Institute for Healthcare Improvement, s. f.). Cada vuelta deja un aprendizaje, y ese aprendizaje se anota (National Institute of Standards and Technology, 2023). Tampoco hace falta un flujo grande. Uno de tres a cinco pasos, que funcione y esté bien documentado, vale más que uno largo que nadie puede revisar.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Dónde están Camila y Andrés</strong></p><p>Camila ya tiene su meta: registrar cada documento en 2 minutos, sin errores en el registro final. En el módulo 5 automatizó un paso: cada mañana, una acción programada de Gemini le lista los correos con documentos nuevos de su cuenta de práctica, donde solo llegan copias sin datos sensibles. Andrés quiere enviar el mismo día el 90 % de los avisos de atraso. Su prototipo del módulo 5 arma el borrador del aviso cuando marca un despacho como atrasado en la planilla.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Del prototipo al flujo completo",
+       "paragraph": "<p>En el módulo 5 automatizaste un paso. Ahora dibujas el flujo completo de tu tarea, de la entrada a la salida, y marcas en cada paso quién lo hace: la IA, la herramienta o tú. Así se ve el flujo de Andrés, que usa Make en el computador de la bodega:</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Del prototipo al flujo completo",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Del prototipo al flujo completo",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Andrés marca un despacho como «atrasado» en la planilla (disparador).",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Make lee la fila: número de pedido, empresa cliente y nueva fecha (herramienta).",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Un módulo de IA redacta el aviso con la plantilla de su biblioteca y lo deja en la columna «Borrador» (IA).",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Andrés compara pedido y fecha con la planilla, corrige y envía el correo (revisión humana).",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Anota la hora de envío, que alimenta su indicador (registro).",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>El de Camila es más corto y lo hace desde el celular, con Gemini. La acción programada le lista cada mañana los correos con documentos. Ella sube cada documento a un chat con su plantilla «Registrar documento», compara con el documento cada campo que propone el asistente y, al final, pega la fila en su planilla y nombra el archivo. Son cuatro pasos, y uno de ellos es su revisión.</p><p>Antes de armar el tuyo, revisa los límites de tu herramienta. En Make, cada acción gasta créditos del plan gratuito, las funciones de IA pueden gastar más y, si los créditos se acaban, el escenario se detiene (Make, s. f.). En Gemini, las acciones programadas piden una cuenta personal, la actividad guardada y la aplicación conectada, y se están habilitando de a poco, así que puede que todavía no aparezcan en tu cuenta (Google, s. f.-a).</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Dibuja tu flujo</strong></p><p>Escribe tu flujo en tres a cinco pasos numerados y marca cada uno como disparador, herramienta, IA, revisión humana o registro.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Planifica en ciclos pequeños",
+       "paragraph": "<p>Los cambios se prueban primero a pequeña escala, se ajustan con ciclos repetidos y se prueban en condiciones distintas; solo después se adoptan (Institute for Healthcare Improvement, s. f.). Un ciclo muy usado tiene cuatro momentos y se conoce como <strong>PDSA</strong>, por sus iniciales en inglés. Planificas qué vas a probar, con cuántos casos y qué esperas que pase. Haces la prueba y anotas lo que ocurre. Estudias la diferencia entre lo que pasó y lo que esperabas. Y actúas: adoptas, ajustas o descartas el cambio, y planificas el ciclo siguiente.</p><p>Con ese ciclo, tu implementación sigue seis etapas, en este orden:</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Planifica en ciclos pequeños",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Planifica en ciclos pequeños",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Mapear el flujo completo (sección «Del prototipo al flujo completo»).",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Definir los controles",
+       "description": "<p>quién revisa, cuándo y qué riesgos cuidar (secciones «Supervisión humana: quién revisa, cuándo y con qué» y «Riesgos y cambios: qué puede salir mal»).</p>"
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Documentar el flujo en su ficha (sección «Documenta el flujo»).",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Probar en pequeño, con pocos casos y algunos difíciles.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Estudiar y ajustar, registrando cada decisión (secciones de «Tu bitácora de decisiones» a «Prueba, ajusta y vuelve a probar»).",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Usar el flujo en la tarea real durante el periodo de medición.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Reserva tiempo para las pruebas (University of Bath, s. f.), porque es la parte que más se subestima. Andrés planificó su primer ciclo con cinco despachos atrasados de la semana pasada, ya resueltos, y esperaba que los cinco borradores tuvieran pedido y fecha correctos. Dos salieron con la fecha en formato inglés. Ajustó la plantilla y repitió con otros cinco. Decidir tú qué probar y cuándo ajustar, sin esperar que todo salga perfecto a la primera, es autonomía. Repetir el ciclo las veces que haga falta es constancia.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Andrés quiere usar su flujo esta semana con todos los atrasos reales. ¿Qué etapa le falta si todavía no lo ha corrido con casos ya resueltos?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Mapear el flujo",
+         "correct": false,
+         "feedback": "<p>Antes de usarlo con clientes, el flujo se prueba con pocos casos, incluidos casos difíciles. Saltarse esa etapa lleva los errores directo a la tarea real.</p>"
+        },
+        {
+         "title": "Probar en pequeño",
+         "correct": true,
+         "feedback": "<p>Antes de usarlo con clientes, el flujo se prueba con pocos casos, incluidos casos difíciles. Saltarse esa etapa lleva los errores directo a la tarea real.</p>"
+        },
+        {
+         "title": "Usar en la tarea real",
+         "correct": false,
+         "feedback": "<p>Antes de usarlo con clientes, el flujo se prueba con pocos casos, incluidos casos difíciles. Saltarse esa etapa lleva los errores directo a la tarea real.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Supervisión humana: quién revisa, cuándo y con qué",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Supervisión humana: quién revisa, cuándo y con qué",
+       "paragraph": "<p>La supervisión humana no se improvisa: se define y se documenta como parte del flujo. Para cada punto de control respondes cinco preguntas, que en el flujo de Andrés quedan así:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Pregunta</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Ejemplo de Andrés</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>¿Quién revisa?</p></td><td colspan=\"1\" rowspan=\"1\"><p>Andrés</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>¿Cuándo?</p></td><td colspan=\"1\" rowspan=\"1\"><p>Antes de enviar cada aviso</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>¿Qué revisa?</p></td><td colspan=\"1\" rowspan=\"1\"><p>Pedido, empresa, fecha nueva y tono</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>¿Con qué criterio?</p></td><td colspan=\"1\" rowspan=\"1\"><p>Coincide con la planilla; no promete nada que no esté confirmado</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>¿Qué hace si falla?</p></td><td colspan=\"1\" rowspan=\"1\"><p>Corrige a mano y anota el error en la bitácora</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>En el módulo 5 viste tres niveles de supervisión. Con participación humana, una persona interviene en cada decisión del flujo, como Andrés con cada aviso. Con control humano, la persona interviene en el diseño y sigue el funcionamiento. Con mando humano, decide si usar el sistema, cuándo y cómo (Grupo independiente de expertos de alto nivel sobre inteligencia artificial, 2019). Tu proyecto debe dejar claro qué nivel aplicas en cada paso y por qué. Dejarlo por escrito, además, te ayuda a encontrar después por qué hubo un error y a prevenir el siguiente (Grupo independiente de expertos de alto nivel sobre inteligencia artificial, 2019).</p><p>Un error frecuente es pensar «ya funcionó en el módulo 5, no necesito revisar». Confiar de más en lo automatizado tiene nombre: <strong>sesgo de automatización</strong> (National Institute of Standards and Technology, 2024). Mientras más veces funciona un flujo, más fácil es dejar de mirarlo, y justo ahí se cuela el error. Por eso, mientras dure el proyecto, la revisión se mantiene en cada caso.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "¿Cuál de estos puntos de control está bien definido?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "«Reviso los avisos cuando tenga tiempo»",
+         "correct": false,
+         "feedback": "<p>La b dice cuándo, qué y con qué criterio se revisa, y qué hacer si falla. La a no fija momento, y en la c no hay supervisión humana.</p>"
+        },
+        {
+         "title": "«Antes de enviar, comparo pedido y fecha con la planilla; si no coinciden, corrijo y lo anoto»",
+         "correct": true,
+         "feedback": "<p>La b dice cuándo, qué y con qué criterio se revisa, y qué hacer si falla. La a no fija momento, y en la c no hay supervisión humana.</p>"
+        },
+        {
+         "title": "«La IA revisa sus propios borradores»",
+         "correct": false,
+         "feedback": "<p>La b dice cuándo, qué y con qué criterio se revisa, y qué hacer si falla. La a no fija momento, y en la c no hay supervisión humana.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Riesgos y cambios: qué puede salir mal",
+       "paragraph": "<p>Gestionar riesgos es anticipar qué puede fallar y cómo lo vas a controlar. Y no termina al implementar: después hay que seguir mirando, poder anular una decisión, responder si algo sale mal y recuperarse (National Institute of Standards and Technology, 2023). Estos son los riesgos más comunes en un flujo como los del curso:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Riesgo</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Control</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>La IA inventa un dato (fecha, monto)</p></td><td colspan=\"1\" rowspan=\"1\"><p>Punto de control que compara con la fuente</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Entran datos personales o información confidencial de la empresa</p></td><td colspan=\"1\" rowspan=\"1\"><p>Copias sin datos sensibles, códigos en vez de nombres y lo que permita tu empresa</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Se agota el límite del plan gratuito o la herramienta falla</p></td><td colspan=\"1\" rowspan=\"1\"><p>Plan de contingencia: la plantilla manual de tu biblioteca</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Cambias la plantilla y algo deja de funcionar</p></td><td colspan=\"1\" rowspan=\"1\"><p>Probar de nuevo con los mismos casos antes de usarla</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Dejas de revisar porque «siempre sale bien»</p></td><td colspan=\"1\" rowspan=\"1\"><p>Revisión fija en cada caso y registro de errores</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>La cuarta fila es la <strong>gestión de cambios</strong>: cada modificación al flujo o al prompt se vuelve a probar antes de usarla. La tercera es el <strong>plan de contingencia</strong>, que dice con qué reemplazas el flujo si deja de funcionar y cómo te vas a enterar (University of Bath, s. f.). Como ese plan tiene que servir justo cuando la herramienta falla, no puede depender de la misma herramienta.</p><p>Arma tu propia tabla con al menos cuatro riesgos de tu flujo y su control. Si uno queda sin control, decide si lo aceptas, lo reduces o cambias el paso, y anota la decisión. Revisar cada fila con calma es parte del trabajo prolijo que pide este tema.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "En el flujo de Camila, ¿qué riesgo queda sin control?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Que la IA lea mal una fecha: Camila revisa cada campo",
+         "correct": false,
+         "feedback": "<p>La a y la c tienen un control definido. Para la b, Camila necesita un plan de contingencia, como registrar a mano en su planilla.</p>"
+        },
+        {
+         "title": "Que se acabe el límite de uso gratuito de Gemini y no pueda registrar ese día",
+         "correct": true,
+         "feedback": "<p>La a y la c tienen un control definido. Para la b, Camila necesita un plan de contingencia, como registrar a mano en su planilla.</p>"
+        },
+        {
+         "title": "Que un documento traiga datos sensibles: solo usa copias que ya revisó",
+         "correct": false,
+         "feedback": "<p>La a y la c tienen un control definido. Para la b, Camila necesita un plan de contingencia, como registrar a mano en su planilla.</p>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Documenta el flujo",
+       "paragraph": "<p>Un flujo que solo entiendes tú se pierde el día que no estás o que lo olvidas. Documentarlo es escribir una <strong>ficha</strong> que otra persona pueda leer para entender qué hace, qué necesita y qué produce (University of Bath, s. f.). La ficha tiene ocho campos:</p><ul><li><p>Nombre, con una convención clara, como «Avisos atraso · Bodega · v2».</p></li><li><p>Propósito: para qué existe, en una línea.</p></li><li><p>Entradas: qué datos recibe y de dónde.</p></li><li><p>Salidas: qué entrega y dónde queda.</p></li><li><p>Dependencias: herramientas, cuentas, planillas y plantillas sin las cuales no funciona.</p></li><li><p>Supervisión: quién revisa, cuándo y con qué criterio (sección «Supervisión humana: quién revisa, cuándo y con qué»).</p></li><li><p>Contingencia: qué hacer si falla (sección «Riesgos y cambios: qué puede salir mal»).</p></li><li><p>Responsable y fecha: quién lo mantiene y cuándo se actualizó.</p></li></ul><p>Usa una <strong>convención de nombres</strong> y respétala en todo: el flujo, las plantillas, las planillas y los archivos (University of Bath, s. f.). Así cualquiera sabe qué versión está mirando. Comparte la ficha con quien corresponda, por ejemplo tu jefatura o tu tutor. Un error común es dejarla para el final y escribirla de memoria: se olvidan dependencias y ajustes. Escríbela antes de la primera prueba y actualízala con cada cambio. Ese trabajo prolijo es lo que permite que tu flujo se revise, se mejore o lo use otra persona de tu equipo.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · La ficha de Camila</strong></p><p>Camila llamó a su flujo «Registro documentos · Práctica · v3». Su propósito es registrar los documentos de la oficina en una planilla para encontrarlos rápido. Entran copias sin datos sensibles de facturas, órdenes de compra y contratos, en PDF o foto, y sale una fila por documento en la planilla «Registro 2026», con el archivo nombrado «AAAA-MM-DD_tipo_emisor». Depende de Gemini, de su cuenta de práctica, de esa planilla y de su plantilla «Registrar documento». Ella revisa cada campo antes de guardar y, si el flujo falla, registra a mano en la misma planilla.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Tu bitácora de decisiones",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Tu bitácora de decisiones",
+       "paragraph": "<p>Los proyectos cambian, y el motivo de cada decisión se olvida rápido. En equipos de tecnología se usan registros de decisiones para guardar ese razonamiento y poder juzgar después si una decisión se puede cambiar (Government Digital Service, 2026). En este curso adaptamos esa idea a una <strong>bitácora de decisiones</strong>, que se suma a la bitácora que ya llevas.</p><p>Cada entrada lleva una fecha y un título, por ejemplo «12-11 · Dónde registrar los documentos». Después viene el contexto, que son los hechos que te obligaron a decidir; la decisión, que es lo que elegiste; las consecuencias, lo bueno y lo malo que trae, y el estado, vigente o reemplazada. Hay una regla que importa más que las otras: una decisión que ya aplicaste no se borra ni se reescribe (Government Digital Service, 2026). Si cambias de idea, agregas una entrada nueva y marcas la anterior como reemplazada. Así queda la historia completa, y puedes responder la pregunta que te hará tu tutor o tu jefatura: «¿por qué lo hiciste así?».</p><p>Una entrada de Camila muestra cómo se ve. El 12-11 anotó «Dónde uso las aplicaciones conectadas». El contexto: la acción programada le pide dejar encendida la actividad guardada, y con ella encendida, revisores humanos pueden leer las conversaciones (Google, s. f.-b). La decisión: usar la acción programada solo en su cuenta de práctica, con copias sin datos sensibles. Las consecuencias: puede automatizar la lista diaria sin exponer datos de la constructora, pero para trabajar con los documentos reales tendrá que cambiar el flujo y acordarlo con su jefatura. Estado: vigente.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tus primeras entradas</strong></p><p>Escribe en tu bitácora tres decisiones que ya tomaste: la herramienta que elegiste, el punto de supervisión y un riesgo que decidiste controlar. Usa los cinco campos en cada una.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Versiones de tus prompts",
+       "paragraph": "<p>Tus plantillas también cambian durante la implementación. Una práctica recomendada para quienes construyen con modelos de lenguaje es <strong>versionar los prompts</strong>: guardar cada versión para poder revisar sus cambios, anotar el modelo o la herramienta con que se probó y probar cada versión con los mismos casos (OpenAI, s. f.). Así quedó la tabla de versiones de la plantilla «Registrar documento» de Camila:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Versión</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Fecha</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Herramienta</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué cambió</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Resultado con los 10 casos de prueba</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>v1</p></td><td colspan=\"1\" rowspan=\"1\"><p>05-11</p></td><td colspan=\"1\" rowspan=\"1\"><p>Gemini</p></td><td colspan=\"1\" rowspan=\"1\"><p>Plantilla del módulo 5</p></td><td colspan=\"1\" rowspan=\"1\"><p>7 de 10 sin errores</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>v2</p></td><td colspan=\"1\" rowspan=\"1\"><p>08-11</p></td><td colspan=\"1\" rowspan=\"1\"><p>Gemini</p></td><td colspan=\"1\" rowspan=\"1\"><p>Pide la fecha en formato DD-MM-AAAA</p></td><td colspan=\"1\" rowspan=\"1\"><p>9 de 10</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>v3</p></td><td colspan=\"1\" rowspan=\"1\"><p>12-11</p></td><td colspan=\"1\" rowspan=\"1\"><p>Gemini</p></td><td colspan=\"1\" rowspan=\"1\"><p>Agrega «si un campo no aparece, escribe NO APARECE»</p></td><td colspan=\"1\" rowspan=\"1\"><p>10 de 10</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Si llevas tus plantillas en Documentos o en Hojas de cálculo de Google, el <strong>historial de versiones</strong> te ayuda. Muestra quién cambió qué, permite ponerle nombre a una versión, como «Plantilla v2 · 08-11», y volver a una anterior (Google, s. f.-c). Hay un máximo de versiones con nombre: 40 en un documento y 15 en una hoja de cálculo. En Hojas de cálculo, restaurar una versión borra el historial de cambios de cada celda, así que conviene hacer una copia antes (Google, s. f.-c).</p><p>Un error común es cambiar la plantilla sobre la marcha, sin guardar la que funcionaba. Si la nueva sale peor, no puedes volver atrás ni explicar qué cambió.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Versiona tu plantilla principal</strong></p><p>Copia tu plantilla actual como v1 en una tabla de versiones. Cada vez que la cambies, guarda la anterior, agrega una fila y prueba la versión nueva con los mismos casos.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Prueba, ajusta y vuelve a probar",
+       "paragraph": "<p>Ahora corres tu flujo con casos de prueba. Antes de usarlo en serio, prueba la mayor cantidad de escenarios posibles: casos normales, casos con datos incompletos y casos raros (University of Bath, s. f.). Para Camila, eso significa probar una factura clara, una foto borrosa, un contrato sin fecha y un documento que no es de ningún tipo conocido. Para Andrés, un atraso de un día, uno sin fecha nueva confirmada y uno de un cliente nuevo.</p><p>Cuando algo falla, sigue siempre el mismo camino:</p><ol><li><p>Ubica el paso que falló. Si tu herramienta guarda un historial de ejecuciones, úsalo: en Zapier, por ejemplo, muestra qué paso falló y por qué, y permite volver a ejecutarlo una vez corregido (Zapier, 2026).</p></li><li><p>Corrige la causa, no solo el resultado: la plantilla, el dato de entrada o el punto de control.</p></li><li><p>Registra el ajuste en la bitácora y, si cambió la plantilla, crea una versión nueva.</p></li><li><p>Vuelve a probar con los mismos casos.</p></li></ol><p>Así lo hizo Andrés. En una prueba, el despacho no tenía fecha nueva confirmada y el borrador inventó «llegará el lunes». Lo detectó en su revisión, ajustó la plantilla con la instrucción «si no hay fecha nueva, escribe que avisarás apenas esté confirmada», lo anotó en la bitácora, creó la v3 y repitió los diez casos. Que algo falle en la prueba es buena noticia, porque falló antes de llegar a un cliente. Elegir tú los casos difíciles y decidir cuándo un ajuste basta es autonomía; volver a probar después de cada ajuste es constancia.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tu ronda de pruebas</strong></p><p>Arma diez casos de prueba sin datos personales, al menos tres difíciles. Córrelos, anota los resultados y haz al menos un ajuste documentado en tu bitácora.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Tu Hito 6b y cómo se evalúa",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Tu Hito 6b y cómo se evalúa",
+       "paragraph": "<p>El Hito 6b, implementación del flujo, muestra que tu flujo funciona, que tiene supervisión humana y que quedó documentado. Lo entregas en un documento o una carpeta compartida con seis piezas: el flujo en pasos numerados, con lo que hace la IA y lo que haces tú (sección «Del prototipo al flujo completo»); la ficha, con supervisión y contingencia (University of Bath, s. f.) (secciones de «Supervisión humana: quién revisa, cuándo y con qué» a «Documenta el flujo»); la tabla de riesgos con sus controles (sección «Riesgos y cambios: qué puede salir mal»); la bitácora de decisiones con al menos tres entradas (Government Digital Service, 2026) (sección «Tu bitácora de decisiones»); la tabla de versiones de tu plantilla principal (sección «Versiones de tus prompts»), y la evidencia de las pruebas, con resultados y capturas sin datos personales ni información de tu empresa (sección «Prueba, ajusta y vuelve a probar»).</p><p>Tu tutor lo revisa con la rúbrica general de hitos y te responde en un plazo de 72 horas como máximo:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Criterio</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Peso</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué mira en el Hito 6b</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Pertinencia al problema real</p></td><td colspan=\"1\" rowspan=\"1\"><p>25 %</p></td><td colspan=\"1\" rowspan=\"1\"><p>El flujo ataca el desafío y la meta del Hito 6a</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Uso verificado de IA</p></td><td colspan=\"1\" rowspan=\"1\"><p>25 %</p></td><td colspan=\"1\" rowspan=\"1\"><p>Prompts documentados por versión y resultados revisados en cada prueba</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Calidad del entregable</p></td><td colspan=\"1\" rowspan=\"1\"><p>20 %</p></td><td colspan=\"1\" rowspan=\"1\"><p>Flujo, ficha y bitácora completos y coherentes entre sí</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Ética, privacidad y licencias</p></td><td colspan=\"1\" rowspan=\"1\"><p>15 %</p></td><td colspan=\"1\" rowspan=\"1\"><p>Sin datos personales expuestos; supervisión humana clara</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Comunicación</p></td><td colspan=\"1\" rowspan=\"1\"><p>15 %</p></td><td colspan=\"1\" rowspan=\"1\"><p>Otra persona entiende el flujo leyendo la ficha</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Este hito es formativo: no pondera en la nota, pero lo que tu tutor te comente aquí mejora tu entrega final. Con el flujo ya en uso, empiezas a juntar los datos que vas a comparar con tu línea base en el tema siguiente.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Revisa antes de entregar</strong></p><ul><li><p>[ ] Cada punto de supervisión dice quién, cuándo, qué y con qué criterio.</p></li><li><p>[ ] Cada riesgo tiene un control o una decisión registrada.</p></li><li><p>[ ] La bitácora tiene fecha, contexto, decisión y consecuencias en cada entrada.</p></li><li><p>[ ] Probé cada versión con los mismos casos.</p></li></ul>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Ideas clave"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<ol><li><p>Implementar es un ciclo: probar a pequeña escala, estudiar lo que pasó, ajustar y volver a probar (PDSA).</p></li><li><p>Las etapas van en orden: mapear, definir controles, documentar, probar en pequeño, ajustar y recién después usar en la tarea real.</p></li><li><p>La supervisión humana se define por escrito: quién revisa, cuándo, qué, con qué criterio y qué hacer si falla.</p></li><li><p>Cada riesgo necesita un control; cada cambio al flujo o al prompt se vuelve a probar, y el plan de contingencia no depende de la misma herramienta.</p></li><li><p>La ficha del flujo registra propósito, entradas, salidas, dependencias, supervisión y contingencia, con una convención de nombres.</p></li><li><p>La bitácora de decisiones guarda contexto, decisión y consecuencias; una decisión aplicada no se reescribe, se reemplaza con otra entrada.</p></li><li><p>Cada versión de un prompt se guarda, se fecha y se prueba con los mismos casos.</p></li></ol>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Referencias bibliográficas",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Estas son las fuentes citadas en este tema, en formato APA 7. Los enlaces se abren en una pestaña nueva.</p><p>Google. (s. f.-a). <em>Acciones programadas en las aplicaciones de Gemini</em>. <a href=\"https://support.google.com/gemini/answer/16316416?hl=es&amp;co=GENIE.Platform%3DAndroid\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/16316416?hl=es&amp;co=GENIE.Platform%3DAndroid</a></p><p>Google. (s. f.-b). <em>Centro de privacidad de las aplicaciones de Gemini</em>. <a href=\"https://support.google.com/gemini/answer/13594961?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/13594961?hl=es</a></p><p>Google. (s. f.-c). <em>Cómo ver los cambios de un archivo</em>. Ayuda de Editores de Documentos. <a href=\"https://support.google.com/docs/answer/190843?hl=es-419\" target=\"_blank\" rel=\"noopener\">https://support.google.com/docs/answer/190843?hl=es-419</a></p><p>Government Digital Service. (2026, 5 de marzo). <em>The GDS Way: Architecture decisions</em>. <a href=\"https://gds-way.digital.cabinet-office.gov.uk/standards/architecture-decisions.html\" target=\"_blank\" rel=\"noopener\">https://gds-way.digital.cabinet-office.gov.uk/standards/architecture-decisions.html</a></p><p>Grupo independiente de expertos de alto nivel sobre inteligencia artificial. (2019). <em>Directrices éticas para una IA fiable</em>. Comisión Europea. <a href=\"https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60423\" target=\"_blank\" rel=\"noopener\">https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60423</a></p><p>Institute for Healthcare Improvement. (s. f.). <em>Model for improvement</em>. <a href=\"https://www.ihi.org/library/model-for-improvement\" target=\"_blank\" rel=\"noopener\">https://www.ihi.org/library/model-for-improvement</a></p><p>Make. (s. f.). <em>Pricing</em>. <a href=\"https://www.make.com/pricing\" target=\"_blank\" rel=\"noopener\">https://www.make.com/pricing</a></p><p>National Institute of Standards and Technology. (2023). <em>Artificial intelligence risk management framework (AI RMF 1.0) (NIST AI 100-1)</em>. <a href=\"https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf\" target=\"_blank\" rel=\"noopener\">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf</a></p><p>National Institute of Standards and Technology. (2024). <em>Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)</em>. <a href=\"https://doi.org/10.6028/NIST.AI.600-1\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.6028/NIST.AI.600-1</a></p><p>OpenAI. (s. f.). <em>Prompt engineering</em>. OpenAI API Docs. <a href=\"https://developers.openai.com/api/docs/guides/prompt-engineering\" target=\"_blank\" rel=\"noopener\">https://developers.openai.com/api/docs/guides/prompt-engineering</a></p><p>University of Bath. (s. f.). <em>Automation standards for Microsoft Power Automate</em>. <a href=\"https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate\" target=\"_blank\" rel=\"noopener\">https://bath.ac.uk/guides/automation-standards-for-microsoft-power-automate</a></p><p>Zapier. (2026, 15 de octubre). <em>How to troubleshoot errors in Zap workflows</em>. Zapier Help Center. <a href=\"https://help.zapier.com/hc/en-us/articles/8496037690637\" target=\"_blank\" rel=\"noopener\">https://help.zapier.com/hc/en-us/articles/8496037690637</a></p>"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

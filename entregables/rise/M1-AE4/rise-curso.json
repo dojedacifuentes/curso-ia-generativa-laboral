@@ -1,0 +1,1212 @@
+{
+ "ae": "M1-AE4",
+ "titulo": "Validación de resultados",
+ "descripcion": "<p><strong>Competencia del módulo:</strong> Interactuar con modelos de IA generativa mediante prompts efectivos y validación de resultados, para apoyar tareas de oficina de forma verificada.</p><p><strong>Aprendizaje esperado:</strong> Validar resultados generados por IA, contrastándolos con fuentes confiables, para detectar alucinaciones, errores y sesgos.</p><p>En el primer tema conociste tres límites de la IA generativa: la alucinación, el sesgo y la fecha de corte. En el tema anterior viste que el mismo pedido puede dar respuestas distintas. Las dos cosas llevan a la misma conclusión: que una respuesta esté bien escrita no quiere decir que esté verificada. Ahora vas a aprender a <strong>validar</strong> con método antes de usar o compartir lo que genera la IA.</p>",
+ "lecciones": [
+  {
+   "titulo": "Por qué hay que validar",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Qué vas a lograr en este tema",
+       "paragraph": "<p>En el primer tema conociste tres límites de la IA generativa: la alucinación, el sesgo y la fecha de corte. En el tema anterior viste que el mismo pedido puede dar respuestas distintas. Las dos cosas llevan a la misma conclusión: que una respuesta esté bien escrita no quiere decir que esté verificada. Ahora vas a aprender a <strong>validar</strong> con método antes de usar o compartir lo que genera la IA.</p><p><strong>Competencia del módulo:</strong> Interactuar con modelos de IA generativa mediante prompts efectivos y validación de resultados, para apoyar tareas de oficina de forma verificada.</p><p><strong>Aprendizaje esperado:</strong> Validar resultados generados por IA, contrastándolos con fuentes confiables, para detectar alucinaciones, errores y sesgos.</p><p>Al terminar deberías poder identificar errores o sesgos en una respuesta generada, contrastar lo importante con al menos dos fuentes confiables y corregir o descartar lo que no puedas verificar.</p><p>El tema se apoya en casos. Los errores que vas a ver son de tipos que documentan organismos y proveedores, como el NIST de Estados Unidos y OpenAI (National Institute of Standards and Technology, 2024; OpenAI, 2026). Los ejemplos con Camila, Andrés, Rosa y otras personas son ficticios, pero muestran cómo aparecen esos errores en tareas de oficina. En la actividad de análisis de casos vas a ver además situaciones reales en que alguien usó una respuesta sin verificarla.</p><p>Validar no es desconfiar de todo. Es saber qué revisar, dónde hacerlo y cuándo una respuesta está lista para salir con tu nombre.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Por qué hay que validar",
+       "paragraph": "<p>Un modelo de lenguaje no consulta una base de datos de verdades: produce texto plausible a partir de patrones. El NIST explica que inventar contenido es un resultado natural de ese diseño, porque el modelo predice el texto según los patrones estadísticos de sus datos, no según lo que es cierto (National Institute of Standards and Technology, 2024). Y lo inventado sale con la misma seguridad que lo correcto.</p><p>La ayuda de ChatGPT lo dice de forma directa: el asistente puede dar respuestas incorrectas o engañosas con aparente seguridad, y esa seguridad no garantiza que sea fiable (OpenAI, 2026). Por eso recomienda usarlo como primer borrador y no como fuente final. Un error común es pensar que una respuesta detallada debe ser cierta. El detalle es parte del estilo del modelo: una cifra con decimales o una cita con número de artículo también pueden ser inventadas.</p><p>A Andrés le pasó cuando preguntó por el peso máximo que una persona puede levantar sola en una bodega. El asistente respondió con una cifra exacta, con decimales y en tono seguro. Como no sabía de dónde salía, antes de ponerla en el diario mural decidió buscarla en la norma y en el organismo que corresponde.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · Las referencias que nadie abrió</strong></p><p>Marcela, un personaje ficticio, trabaja en el área legal de una empresa de transportes. Para responder el reclamo de un cliente le pidió a un asistente fallos de tribunales que apoyaran a la empresa y recibió cuatro, con número, fecha y resumen. Le preguntó si eran reales y el asistente dijo que sí. No abrió ninguno, y su gerente firmó el informe sin leerlos. El abogado del cliente no encontró dos de esos fallos porque no existían, y la empresa tuvo que retirar el informe y dar explicaciones.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Error 1: alucinación",
+       "paragraph": "<p>La <strong>alucinación</strong>, que el NIST llama confabulación, es contenido falso o erróneo presentado con seguridad (National Institute of Standards and Technology, 2024). Puede tomar la forma de datos inventados, como cifras, fechas o nombres de personas y empresas que no existen o no corresponden. Puede aparecer como citas y fuentes inventadas: títulos de estudios, artículos de una ley o enlaces que no llevan a ninguna parte o que dicen otra cosa, algo que la propia ayuda de ChatGPT advierte (OpenAI, 2026). Y puede venir envuelta en un razonamiento que justifica algo falso, porque el modelo es capaz de entregar pasos «lógicos» que hacen parecer correcta una respuesta equivocada.</p><p>Es más probable cuando pides citas o estudios, en respuestas largas a preguntas abiertas y en temas que exigen conocimiento experto (National Institute of Standards and Technology, 2024). Un error común es dar por real un estudio porque trae nombre y año. Esos detalles dan apariencia de rigor, pero el modelo también los puede inventar, así que toda cita se busca en su origen.</p><p>Camila lo vivió preparando una minuta para su jefatura. Le pidió al asistente «un dato con fuente sobre cuánto se atrasan los pagos a proveedores en las constructoras» y recibió un porcentaje atribuido a un estudio con nombre y año. Al buscarlo, no encontró ese estudio en ninguna parte. El dato no podía ir en la minuta.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "¿Cuál de estas respuestas tiene más riesgo de alucinación?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Un resumen de un texto que tú pegaste",
+         "correct": false,
+         "feedback": "<p>Pedir fuentes, citas y datos específicos de un tema poco conocido es la situación en que más inventa. Trabajar sobre tu propio texto reduce el riesgo.</p>"
+        },
+        {
+         "title": "Una lista de cinco estudios con autor, año y título sobre un tema poco conocido",
+         "correct": true,
+         "feedback": "<p>Pedir fuentes, citas y datos específicos de un tema poco conocido es la situación en que más inventa. Trabajar sobre tu propio texto reduce el riesgo.</p>"
+        },
+        {
+         "title": "Un correo reescrito en tono formal",
+         "correct": false,
+         "feedback": "<p>Pedir fuentes, citas y datos específicos de un tema poco conocido es la situación en que más inventa. Trabajar sobre tu propio texto reduce el riesgo.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Error 2: sesgo",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Error 2: sesgo",
+       "paragraph": "<p>El <strong>sesgo</strong> aparece cuando la respuesta repite estereotipos o presenta una sola mirada como si fuera la única. Es más difícil de ver que una cifra inventada, porque el texto puede ser correcto en los datos y aun así ser parcial.</p><p>Hay formas documentadas. Un estudio de la UNESCO encontró que, al pedir historias, los modelos asignaban a los hombres trabajos más variados y de más prestigio, y a las mujeres roles domésticos o desvalorizados (Noticias ONU, 2024). El NIST describe modelos de imagen que, al pedir un gerente, un médico o un juez, dejan fuera a mujeres, a minorías y a personas con discapacidad (National Institute of Standards and Technology, 2024). Y llama «homogeneización» a las salidas que se parecen demasiado entre sí, como si hubiera una sola manera de decir las cosas.</p><p>Para detectarlo sirven dos preguntas: ¿a quién deja fuera esta respuesta?, ¿qué supone sin que yo se lo haya dicho? Si la respuesta asume el género, la edad o el origen de alguien sin que lo pidieras, ahí hay un sesgo que corregir antes de usar el texto.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · El perfil que nadie pidió</strong></p><p>Rosa ayuda a redactar la publicación de una vacante de técnico en mantención para el centro médico. El borrador del asistente dice «buscamos un hombre con experiencia». Rosa no pidió eso. Corrige el texto para que hable del cargo y de los requisitos, no del género de la persona que lo va a ocupar.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Error 3: desactualización",
+       "paragraph": "<p>La <strong>desactualización</strong> ocurre cuando la respuesta da como vigente algo que ya cambió. Se debe a la fecha de corte: el modelo no conoce lo que pasó después de su entrenamiento, salvo que use herramientas como la búsqueda web (OpenAI, 2026). Es más probable con:</p><ul><li><p>valores que cambian cada año, como montos, porcentajes o tarifas;</p></li><li><p>normas, trámites y requisitos que se modifican;</p></li><li><p>horarios, direcciones y contactos de servicios;</p></li><li><p>nombres de cargos y autoridades.</p></li></ul><p>Gemini a veces muestra un botón «Fuentes» con los enlaces que usó, y ChatGPT con la búsqueda activada puede citar fuentes recientes (Google, s. f.-b; OpenAI, 2026). Eso ayuda, pero no resuelve todo: la página que encontró puede ser antigua o poco confiable, y el resumen puede tener errores. Camila lo comprobó cuando preguntó el horario de atención de una oficina pública donde debía hacer un trámite para la constructora. El asistente le dio un horario con total seguridad; en el sitio del servicio vio que había cambiado hace unos meses.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · «Si la respuesta trae fecha reciente, está al día»</strong></p><p>Una respuesta puede mencionar el año actual y aun así usar un dato antiguo. Lo que importa es la fecha de la fuente, no la del texto generado.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Otros errores: no seguir el texto y contradecirse",
+       "paragraph": "<p>Además de los tres errores principales, el NIST documenta salidas que no siguen el texto entregado o que se contradicen (National Institute of Standards and Technology, 2024). Son frecuentes cuando le pides resumir o transformar un documento, y aparecen de cuatro maneras:</p><ul><li><p>agrega algo que el texto no dice, como la firma del gerente general en el resumen del instructivo de Camila;</p></li><li><p>omite algo importante, como una fecha límite o una excepción;</p></li><li><p>cambia un dato al copiarlo: un número, un nombre, una cantidad;</p></li><li><p>se contradice, y en un párrafo dice una cosa y en otro lo contrario.</p></li></ul><p>Estos errores se detectan comparando con el original, línea por línea. No necesitas otra fuente: el texto que entregaste es tu referencia. Cuando hay una contradicción, en cambio, al menos una de las dos afirmaciones es falsa, y eso se resuelve con la fuente, no con el modelo. A Rosa le llegó un borrador que en el primer párrafo decía «atendemos de lunes a viernes» y en el último «también los sábados»; lo marcó como contradicción y confirmó el horario con la información del centro.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Andrés pide resumir el reporte de stock. El reporte dice 120 cajas de guantes y el resumen dice 210. ¿Qué tipo de error es?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Sesgo",
+         "correct": false,
+         "feedback": "<p>El dato correcto estaba en el reporte. El resumen lo cambió al transformarlo. Se detecta comparando con el original.</p>"
+        },
+        {
+         "title": "Desactualización",
+         "correct": false,
+         "feedback": "<p>El dato correcto estaba en el reporte. El resumen lo cambió al transformarlo. Se detecta comparando con el original.</p>"
+        },
+        {
+         "title": "Salida que no sigue el texto entregado: cambió un dato",
+         "correct": true,
+         "feedback": "<p>El dato correcto estaba en el reporte. El resumen lo cambió al transformarlo. Se detecta comparando con el original.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Caso de práctica: encuentra los errores",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Caso de práctica: encuentra los errores",
+       "paragraph": "<p>Camila le pidió a un asistente: «Explícame cómo se organiza el registro de facturas en una oficina y qué datos hay que anotar de cada una». Lee la respuesta que recibió. Los datos son ficticios a propósito, así que no los uses como información real: el objetivo es entrenar el ojo.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p>«El registro de facturas lo lleva la secretaria del gerente. De cada factura se anotan el número, la fecha, el proveedor y el monto. Según el estudio \"Oficinas Ordenadas 2019\", el 87 % de las empresas pierde al menos una factura al año. Para pasar a pesos los montos en UF, considera que la UF vale $28.000. Las mujeres suelen destacar en este trabajo por su paciencia y orden. Te recomiendo además inscribirte en un curso de contabilidad avanzada.»</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Algunas partes sirven y otras no. La lista de datos que se anotan de cada factura responde bien a lo pedido; el resto merece una segunda mirada antes de que Camila use algo de esta respuesta (National Institute of Standards and Technology, 2024; Noticias ONU, 2024).</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Marca los errores</strong></p><p>Identifica en la respuesta:</p><ol><li><p>Un posible dato inventado, con una fuente difícil de comprobar. → El estudio con nombre, año y porcentaje.</p></li><li><p>Un dato que puede estar desactualizado. → El valor de la UF, que cambia todos los días.</p></li><li><p>Un sesgo. → Suponer que el registro lo lleva «la secretaria del gerente» y que las mujeres destacan «por su paciencia».</p></li><li><p>Algo que no responde a lo pedido. → La recomendación de un curso de contabilidad, que Camila no preguntó.</p></li></ol><p>Para cada uno, escribe qué harías: verificar, corregir o descartar.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Criterios de confiabilidad de una fuente",
+       "paragraph": "<p>Para contrastar necesitas <strong>fuentes confiables</strong>. ¿Cómo sabes si una lo es? El investigador Mike Caulfield propone preguntarse quién está detrás, con qué experiencia y con qué intereses (Caulfield, 2019). A partir de eso, puedes usar estos criterios:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Criterio</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Pregunta</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Señal de confianza</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Autoría</p></td><td colspan=\"1\" rowspan=\"1\"><p>¿Quién publica?</p></td><td colspan=\"1\" rowspan=\"1\"><p>Un organismo, una institución o una persona identificable con experiencia en el tema</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Experiencia</p></td><td colspan=\"1\" rowspan=\"1\"><p>¿Sabe de esto?</p></td><td colspan=\"1\" rowspan=\"1\"><p>Es su área de trabajo o de estudio</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Interés</p></td><td colspan=\"1\" rowspan=\"1\"><p>¿Gana algo con que le creas?</p></td><td colspan=\"1\" rowspan=\"1\"><p>No vende el producto del que habla, o lo dice con claridad</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Origen</p></td><td colspan=\"1\" rowspan=\"1\"><p>¿Es la fuente original?</p></td><td colspan=\"1\" rowspan=\"1\"><p>Es el documento, la norma o el sitio del organismo, no un comentario sobre él</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Fecha</p></td><td colspan=\"1\" rowspan=\"1\"><p>¿Está vigente?</p></td><td colspan=\"1\" rowspan=\"1\"><p>Tiene fecha y es reciente para un dato que cambia</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Independencia</p></td><td colspan=\"1\" rowspan=\"1\"><p>¿Lo confirman otras?</p></td><td colspan=\"1\" rowspan=\"1\"><p>Otras fuentes sin relación entre sí dicen lo mismo</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Un estudio de la Universidad de Stanford encontró que incluso personas expertas en otros temas se dejaban engañar por logos y dominios de apariencia seria (Wineburg y McGrew, 2018). El aspecto de un sitio no prueba que sea confiable.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · «Si el sitio se ve profesional, es confiable»</strong></p><p>Un buen diseño, un logo o un dominio que parece institucional se pueden imitar. Lo que importa es quién está detrás, y eso se averigua fuera del sitio.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Lectura lateral: salir del sitio para evaluarlo",
+       "paragraph": "<p>Los investigadores Sam Wineburg y Sarah McGrew compararon cómo evalúan un sitio web historiadores, estudiantes y verificadores profesionales de información. Historiadores y estudiantes leyeron el sitio de arriba abajo, sin salir de él, y a eso le llamaron <strong>lectura vertical</strong>. Los verificadores, en cambio, tras un vistazo rápido salieron del sitio y abrieron otras pestañas para ver qué decían otras fuentes de él. A eso le llamaron <strong>lectura lateral</strong>, y con ella llegaron a mejores conclusiones en menos tiempo (Wineburg y McGrew, 2018).</p><p>Desde el celular se hace en tres pasos:</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Lectura lateral: salir del sitio para evaluarlo",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Lectura lateral: salir del sitio para evaluarlo",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "No te quedes leyendo la página que te dio el asistente.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Abre una pestaña nueva y busca el nombre de la fuente",
+       "description": "<p>quién es y qué dicen otros de ella (Caulfield, 2019).</p>"
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Vuelve solo si lo que encontraste te da confianza.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Andrés lo probó con un enlace que le dio el asistente: un sitio con recomendaciones de seguridad para bodegas que se veía serio. En otra pestaña descubrió que era de una empresa que vende fajas lumbares. No lo descartó del todo, pero buscó la información en el organismo público que corresponde.</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "¿Qué es la lectura lateral?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Leer con cuidado toda la página antes de opinar",
+         "correct": false,
+         "feedback": "<p>Los verificadores profesionales salen del sitio y averiguan quién está detrás. Leer más a fondo la misma página no les dice si es confiable.</p>"
+        },
+        {
+         "title": "Salir del sitio y buscar qué dicen otras fuentes sobre él",
+         "correct": true,
+         "feedback": "<p>Los verificadores profesionales salen del sitio y averiguan quién está detrás. Leer más a fondo la misma página no les dice si es confiable.</p>"
+        },
+        {
+         "title": "Leer solo los títulos y las conclusiones",
+         "correct": false,
+         "feedback": "<p>Los verificadores profesionales salen del sitio y averiguan quién está detrás. Leer más a fondo la misma página no les dice si es confiable.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "El método SIFT",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "El método SIFT",
+       "paragraph": "<p>Mike Caulfield resumió la evaluación de información en cuatro movimientos, conocidos por su sigla en inglés: <strong>SIFT</strong> (Caulfield, 2019).</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "El método SIFT",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "El método SIFT",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Detente (Stop). Antes de usar o compartir, pregúntate si conoces esta fuente y si sabes que es confiable.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Investiga la fuente (Investigate the source). Averigua quién está detrás, qué experiencia tiene y qué intereses; aquí usas la lectura lateral.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Busca una cobertura mejor (Find better coverage). Cuando importa más la afirmación que la página, busca otras fuentes confiables que hablen de lo mismo y mira si coinciden.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Rastrea hasta el original (Trace claims to the original context). Sigue la cita, el dato o la imagen hasta su origen, para ver si fue recortado o sacado de contexto.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>SIFT se pensó para evaluar lo que circula en internet, pero sirve igual para una respuesta de IA. Cada dato que el asistente te da es una afirmación que puedes detener, investigar, contrastar y rastrear.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Ejemplo · SIFT con una respuesta de IA</strong></p><p>Rosa recibe del asistente un requisito para un examen médico. Se detiene, porque no sabe de dónde salió. Investiga y ve que el asistente citó un blog sin autor. Busca una cobertura mejor y encuentra la indicación en el sitio del laboratorio y en el del centro donde trabaja. Al rastrear, descubre que la indicación del blog estaba recortada y omitía una excepción.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Las fuentes que muestra el asistente",
+       "paragraph": "<p>Varios asistentes muestran de dónde sacaron la información. A veces Gemini muestra un botón «Fuentes» con enlaces a sitios web o a archivos que subiste, y ChatGPT, con la búsqueda activada, puede citar fuentes recientes (Google, s. f.-b; OpenAI, 2026). Es una gran ayuda, pero una fuente citada no es una fuente verificada. La propia ayuda de ChatGPT recomienda revisar las citas y abrir los enlaces (OpenAI, 2026).</p><p>Al abrirlos, comprueba tres cosas:</p><ol><li><p>Que el enlace exista y abra.</p></li><li><p>Que diga lo que el asistente afirma, porque a veces la página habla del tema pero no trae ese dato.</p></li><li><p>Que sea confiable, aplicando los criterios y la lectura lateral.</p></li></ol><p>Camila hizo justo eso cuando Gemini le dio tres requisitos para inscribir a su equipo en un curso de capacitación, con dos fuentes. La primera era el sitio del organismo y decía lo mismo. La segunda era un foro de hace cuatro años. Se quedó con la primera y buscó otra fuente confiable para completar.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · «Si trae enlace, ya está verificado»</strong></p><p>El enlace puede no abrir, llevar a una página que no dice eso o ser poco confiable. Hasta que lo abres y lo lees, es solo una pista.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Tu checklist de validación",
+       "paragraph": "<p>Ahora juntas todo en un <strong>checklist de validación</strong>: una lista de pasos que aplicas a una respuesta antes de usarla.</p><ol><li><p>[ ] Me detengo: no copio ni envío todavía.</p></li><li><p>[ ] Marco las afirmaciones verificables: datos, cifras, fechas, nombres, citas, referencias y enlaces.</p></li><li><p>[ ] Comparo con mi texto original, si le entregué uno: ¿agregó, omitió o cambió algo?</p></li><li><p>[ ] Abro las fuentes que citó y reviso que existan y digan eso.</p></li><li><p>[ ] Contrasto lo importante con al menos dos fuentes confiables, independientes entre sí.</p></li><li><p>[ ] Rastreo hasta el original: la norma, el documento o el sitio del organismo.</p></li><li><p>[ ] Reviso sesgo y vigencia: ¿a quién deja fuera?, ¿el dato sigue vigente?</p></li><li><p>[ ] Decido: mantengo, corrijo o descarto cada afirmación.</p></li></ol><p>Los pasos 1, 4, 5 y 6 vienen de SIFT y de las recomendaciones de los proveedores (Caulfield, 2019; OpenAI, 2026). El mínimo de dos fuentes es un criterio de este curso, no de una fuente externa: te asegura que no dependes de una sola página.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Idea clave</strong></p><p>No todo exige el checklist completo. Un correo de saludo no lo necesita. Una cifra que irá en un informe, un requisito legal o un dato que afecta a otra persona, sí.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Corregir o descartar lo que no se puede verificar",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Corregir o descartar lo que no se puede verificar",
+       "paragraph": "<p>Después de contrastar, cada afirmación cae en una de estas situaciones:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "table",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Lo que encontraste</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué haces</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Dos fuentes confiables confirman el dato</p></td><td colspan=\"1\" rowspan=\"1\"><p>Lo mantienes y, si corresponde, citas la fuente</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Las fuentes dicen otra cosa</p></td><td colspan=\"1\" rowspan=\"1\"><p>Lo corriges con el dato de la fuente original</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Las fuentes no coinciden entre sí</p></td><td colspan=\"1\" rowspan=\"1\"><p>Buscas la fuente original o lo dejas fuera hasta aclararlo</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>No encuentras ninguna fuente</p></td><td colspan=\"1\" rowspan=\"1\"><p>Lo descartas, o lo marcas como «no verificado» si es indispensable mencionarlo</p></td></tr></tbody></table></div>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Fíjate en la última fila. Lo que no puedes verificar no se usa como si fuera cierto (OpenAI, 2026; Caulfield, 2019), y <strong>descartar</strong> no es perder trabajo: es evitar que un error salga con tu nombre. Andrés tenía tres datos en un borrador de procedimiento. El primero lo confirmó en dos fuentes y lo mantuvo. El segundo estaba desactualizado y lo corrigió con la norma vigente. El tercero, un porcentaje sin origen, no apareció en ninguna parte, así que lo borró.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Error frecuente · Pedirle al mismo asistente que confirme su respuesta</strong></p><p>Preguntar «¿estás seguro?» no es verificar. El asistente puede repetir el error o cambiarlo por otro con la misma seguridad. Es lo que le pasó a Marcela en la sección «Por qué hay que validar»: preguntó si los fallos eran reales y el asistente dijo que sí. La verificación se hace con fuentes externas.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Prevenir desde el prompt",
+       "paragraph": "<p>Validar es la defensa principal, pero también puedes bajar el riesgo de error desde el prompt. Los proveedores documentan dos medidas. La primera es entregar el texto y pedir que use solo ese contexto: la guía de Google propone limitar al modelo a la información que le das, para que trabaje sobre tu documento y no rellene con datos de otra parte (Google, 2026). La segunda es permitirle decir «no lo sé». OpenAI explica que un modelo puede abstenerse en vez de inventar (OpenAI, 2025), y si se lo pides de forma explícita le das una salida honesta.</p><p>Camila lo aplicó a una consulta frecuente de su equipo. Antes preguntaba: «¿Qué documentos hay que adjuntar a una rendición de gastos?», y el asistente respondía con una lista general que mezclaba prácticas de otras empresas. Ahora escribe:</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p>«Usa solo el instructivo que te pego. Lista los documentos que hay que adjuntar a una rendición. Si algo no aparece en el instructivo, no lo agregues y escribe \"el instructivo no lo indica\". Instructivo: \"…\"»</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Estas medidas se conectan con lo que viste en el tema 2, porque son restricciones, y con el tema 3, porque una instrucción de precisión deja menos espacio para la variación.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Idea clave</strong></p><p>Un buen prompt reduce los errores, pero no los elimina. La respuesta igual se revisa con el checklist.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Práctica guiada: valida una respuesta",
+       "paragraph": "<p>Ahora aplicas el checklist a una respuesta real, sobre un tema de tu trabajo.</p>"
+      }
+     ]
+    },
+    {
+     "type": "interactive",
+     "family": "interactive-fullscreen",
+     "variant": "process",
+     "settings": {
+      "v": 2,
+      "paddingTop": 0,
+      "zoomOnClick": true,
+      "audioPosition": "bottom",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "markerColorContrast": "AUTO",
+      "snippetColorContrast": "AUTO"
+     },
+     "items": [
+      {
+       "type": "intro",
+       "title": "Práctica guiada: valida una respuesta",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "summary",
+       "title": "Práctica guiada: valida una respuesta",
+       "isHidden": true,
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Abre Gemini o el asistente que uses.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Pide información verificable sobre un tema de tu cargo, sin datos personales ni de tu empresa. Por ejemplo: «¿Qué elementos de protección personal se usan en una bodega?» o «¿Qué debe tener una boleta electrónica?».",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Marca tres afirmaciones verificables de la respuesta.",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Revisa si muestra un botón o una lista de fuentes, y ábrelas (Google, s. f.-b).",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Busca dos fuentes confiables por cada afirmación, con lectura lateral (Caulfield, 2019).",
+       "description": ""
+      },
+      {
+       "type": "step",
+       "isHidden": false,
+       "title": "Decide qué haces con cada una.",
+       "description": ""
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Si una afirmación no se puede verificar en dos fuentes confiables, no la uses en tu versión final y anota por qué la descartaste.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tu tabla de validación</strong></p><p>| Afirmación | Fuente 1 | Fuente 2 | ¿Coinciden? | Decisión (mantener, corregir, descartar) | |---|---|---|---|---| | 1. | | | | | | 2. | | | | | | 3. | | | | |</p><p>Al final, escribe la versión corregida de la respuesta, solo con lo que pudiste verificar.</p>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Responsabilidad profesional",
+       "paragraph": "<p>Cuando firmas un informe, envías un correo o publicas un aviso, quien responde eres tú, no la herramienta. La guía de Google para Gemini lo dice con todas sus letras: hay que revisar todo resultado antes de usarlo, porque la persona es responsable del resultado final (Google, s. f.-a). El NIST agrega un riesgo que conviene conocer, el <strong>sesgo de automatización</strong>: la tendencia a confiar de más en lo que entrega una máquina (National Institute of Standards and Technology, 2024). Mientras más cómodo y rápido es el asistente, más fácil es dejar de revisar.</p><p>En la práctica, la <strong>responsabilidad profesional</strong> significa revisar con más cuidado mientras más grave sería el error, no firmar ni enviar lo que no entiendes o no revisaste, avisar cuando no pudiste verificar algo en vez de presentarlo como seguro, y corregir rápido si descubres un error después de compartirlo.</p><p>Vale también para las empresas. Imagina una tienda de electrodomésticos que pone un asistente de IA en su sitio web. Un cliente pregunta si puede devolver un producto después de 60 días y el asistente le dice que sí, aunque la política publicada en el mismo sitio dice 30. Cuando el cliente reclama, decir «se equivocó el asistente» no sirve de excusa: la información del sitio es responsabilidad de la tienda, la haya escrito una persona o una máquina.</p><p>Andrés lo tiene claro. Antes de firmar el reporte mensual de stock que ordenó con un asistente, compara cada cifra con su planilla, corrige una diferencia y anota al final: «Cifras revisadas contra el sistema de inventario».</p>"
+      }
+     ]
+    },
+    {
+     "type": "knowledgeCheck",
+     "family": "knowledgeCheck",
+     "variant": "multiple choice",
+     "settings": {},
+     "items": [
+      {
+       "type": "MULTIPLE_CHOICE",
+       "title": "Un compañero dice: «Si el informe tiene un error, es culpa de la IA». ¿Qué responderías?",
+       "feedbackType": "CHOICE",
+       "answers": [
+        {
+         "title": "Tiene razón: la herramienta generó el texto",
+         "correct": false,
+         "feedback": "<p>La herramienta ayuda a producir el texto, pero la responsabilidad sobre lo que se firma o comparte es de la persona.</p>"
+        },
+        {
+         "title": "No: quien firma o comparte el informe responde por su contenido",
+         "correct": true,
+         "feedback": "<p>La herramienta ayuda a producir el texto, pero la responsabilidad sobre lo que se firma o comparte es de la persona.</p>"
+        },
+        {
+         "title": "Depende de qué asistente haya usado",
+         "correct": false,
+         "feedback": "<p>La herramienta ayuda a producir el texto, pero la responsabilidad sobre lo que se firma o comparte es de la persona.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Honestidad intelectual y cierre",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Honestidad intelectual y cierre",
+       "paragraph": "<p>La <strong>honestidad intelectual</strong> es no presentar como propio, ni como seguro, algo que no lo es. Con la IA generativa significa no hacer pasar como tuyo un texto generado cuando eso importa, porque la UNESCO lo describe como una forma nueva de plagio (Miao y Holmes, 2024), y decir que usaste IA cuando a quien lo recibe le importa saberlo. Significa también separar lo verificado de lo que no: si algo no lo pudiste confirmar, lo dices. Y significa no confiar en los «detectores» de texto hecho con IA; la ayuda de ChatGPT advierte que no puede determinar si un texto fue escrito por una IA (OpenAI, 2026).</p><p>En este tema viste los tipos de error que conviene buscar (alucinación, sesgo, desactualización y salidas que no siguen el texto), los criterios para saber si una fuente es confiable, la lectura lateral, el método SIFT y tu checklist de validación. También practicaste contrastar con al menos dos fuentes y decidir qué mantener, qué corregir y qué descartar.</p>"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "impact",
+     "variant": "note",
+     "settings": {},
+     "items": [
+      {
+       "paragraph": "<p><strong>Actividad · Tu compromiso de validación</strong></p><p>Escribe en tu bitácora:</p><ol><li><p>Las tres situaciones de tu cargo en que siempre aplicarás el checklist completo.</p></li><li><p>Qué harás cuando no puedas verificar un dato que te piden.</p></li><li><p>Cómo dirás que usaste IA, si corresponde.</p></li></ol>"
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "family": "continue",
+     "variant": "continue",
+     "settings": {
+      "v": 2
+     },
+     "items": [
+      {
+       "type": "",
+       "title": "Continuar",
+       "buttonColor": "brand",
+       "completeHint": "Completa el contenido anterior para seguir."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "heading",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "heading": "Ideas clave"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<ol><li><p>Una respuesta segura y detallada no es una respuesta verificada: el modelo puede inventar con el mismo tono con que acierta.</p></li><li><p>Los errores que buscas son alucinación (datos, citas y fuentes inventadas), sesgo, desactualización y salidas que no siguen el texto o se contradicen.</p></li><li><p>Una fuente es confiable por quién está detrás, su experiencia, sus intereses, si es original y si está vigente, no por su aspecto.</p></li><li><p>La lectura lateral y SIFT te enseñan a salir de la página, investigar la fuente, buscar mejor cobertura y rastrear hasta el original.</p></li><li><p>En este curso, lo importante se contrasta con al menos dos fuentes confiables; lo que no se puede verificar se corrige o se descarta.</p></li><li><p>Un buen prompt reduce el error, pero no lo elimina: la validación sigue siendo necesaria.</p></li><li><p>Quien firma o comparte responde por el contenido, y la honestidad intelectual exige decir qué se verificó y cuándo se usó IA.</p></li></ol>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Referencias bibliográficas",
+   "bloques": [
+    {
+     "type": "text",
+     "family": "text",
+     "variant": "paragraph",
+     "settings": {
+      "markerColorContrast": "AUTO",
+      "paddingBottom": 3,
+      "paddingLinked": true,
+      "paddingTop": 3,
+      "snippetColorContrast": "AUTO",
+      "audioPosition": "bottom"
+     },
+     "items": [
+      {
+       "paragraph": "<p>Estas son las fuentes citadas en este tema, en formato APA 7. Los enlaces se abren en una pestaña nueva.</p><p>Caulfield, M. (2019, 19 de junio). <em>SIFT (The four moves)</em>. Hapgood. <a href=\"https://hapgood.us/2019/06/19/sift-the-four-moves/\" target=\"_blank\" rel=\"noopener\">https://hapgood.us/2019/06/19/sift-the-four-moves/</a></p><p>Google. (s. f.-a). <em>Cómo escribir instrucciones eficaces</em>. Google Workspace. <a href=\"https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/\" target=\"_blank\" rel=\"noopener\">https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/</a></p><p>Google. (s. f.-b). <em>Ver fuentes relacionadas de las aplicaciones de Gemini</em>. <a href=\"https://support.google.com/gemini/answer/14143489?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/14143489?hl=es</a></p><p>Google. (2026, 13 de octubre). <em>Estrategias de diseño de instrucciones</em>. Google AI for Developers. <a href=\"https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419\" target=\"_blank\" rel=\"noopener\">https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419</a></p><p>Miao, F. y Holmes, W. (2024). <em>Guía para el uso de IA generativa en educación e investigación</em>. UNESCO. <a href=\"https://unesdoc.unesco.org/ark:/48223/pf0000389227_spa\" target=\"_blank\" rel=\"noopener\">https://unesdoc.unesco.org/ark:/48223/pf0000389227_spa</a></p><p>National Institute of Standards and Technology. (2024). <em>Artificial intelligence risk management framework: Generative artificial intelligence profile (NIST AI 600-1)</em>. <a href=\"https://doi.org/10.6028/NIST.AI.600-1\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.6028/NIST.AI.600-1</a></p><p>Noticias ONU. (2024, 7 de marzo). <em>La inteligencia artificial ya reproduce estereotipos de género</em>. <a href=\"https://news.un.org/es/story/2024/03/1528182\" target=\"_blank\" rel=\"noopener\">https://news.un.org/es/story/2024/03/1528182</a></p><p>OpenAI. (2025, 5 de septiembre). <em>Por qué alucinan los modelos de lenguaje</em>. <a href=\"https://openai.com/es-419/index/why-language-models-hallucinate/\" target=\"_blank\" rel=\"noopener\">https://openai.com/es-419/index/why-language-models-hallucinate/</a></p><p>OpenAI. (2026). <em>¿Dice ChatGPT la verdad?</em> OpenAI Help Center. <a href=\"https://help.openai.com/es-es/articles/8313428-does-chatgpt-tell-the-truth\" target=\"_blank\" rel=\"noopener\">https://help.openai.com/es-es/articles/8313428-does-chatgpt-tell-the-truth</a></p><p>Wineburg, S. y McGrew, S. (2018). <em>Lateral reading and the nature of expertise: Reading less and learning more when evaluating digital information</em>. Stanford Digital Repository. <a href=\"https://purl.stanford.edu/yk133ht8603\" target=\"_blank\" rel=\"noopener\">https://purl.stanford.edu/yk133ht8603</a></p>"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -5,8 +5,12 @@ import sys, subprocess, numpy as np
 from PIL import Image
 W, H = 1080, 1350
 yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
-# fondo: degradado suave del curso (wash teal arriba a la izquierda -> casi blanco)
-c1, c2 = np.array([214, 233, 238], np.float32), np.array([246, 249, 250], np.float32)
+# fondo: degradado suave del curso (wash teal arriba a la izquierda -> casi blanco), o con --marca el grafito de
+# Empoderatech (#40444B -> casi noche), para los videos con la marca
+if '--marca' in sys.argv:
+    c1, c2 = np.array([72, 76, 84], np.float32), np.array([22, 26, 33], np.float32)
+else:
+    c1, c2 = np.array([214, 233, 238], np.float32), np.array([246, 249, 250], np.float32)
 g = np.clip((xx / W * 0.45 + yy / H * 0.55), 0, 1)[..., None]
 FONDO = c1 * (1 - g) + c2 * g
 # zona protegida: la cara (los ojos de EVA son azules)

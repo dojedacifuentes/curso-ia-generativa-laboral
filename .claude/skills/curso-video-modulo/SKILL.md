@@ -31,8 +31,10 @@ scripts/exportar_srt_y_slides.py  .srt para el LMS y PDF de slides
 scripts/alinear_palabras.py   tiempos de cada palabra (faster-whisper) + aviso de pronunciación dudosa
 scripts/insertar_palabras.py  copia esos tiempos a video.html (subtítulos karaoke)
 scripts/audio_fondo.py        música de fondo y efectos generados por código, sincronizados con el HTML
-scripts/fondo_eva.py          cambia el fondo azul de EVA por el claro del curso
+scripts/fondo_eva.py          cambia el fondo azul de EVA por el claro del curso (o el grafito de la marca con --marca)
 scripts/screencast.py         clip 16:9 desde capturas reales (Gemini escribiendo y respondiendo)
+scripts/armar_html.py         arma video.html con la marca: estilos + cuerpo.html + motor + palabras.json
+plantilla/marca/              estilos.css y motor.js de los videos con la marca Empoderatech (desde el 30-10)
 ejemplo_M1/                   primera versión del M1 (voz Catalina); la vigente está en videos/M1-bienvenida/
 ```
 
@@ -59,6 +61,11 @@ ejemplo_M1/                   primera versión del M1 (voz Catalina); la vigente
 - **Audiencia: solo personas que trabajan** (28-10, `docs/CRITERIOS-28-10.md`). Nada de «si buscas trabajo», «el trabajo al
   que aspiras» ni Camila buscando empleo: Camila es asistente administrativa en una constructora. El proyecto es sobre una tarea
   de su trabajo actual. **Máximo 2 fuentes por guion.** Antes de enviar: `node scripts/revisar-criterios.mjs M<n>-` sin errores.
+- **Marca Empoderatech (30-10, pedido del usuario):** los videos llevan la marca como el resto del curso
+  (`docs/CRITERIOS-29-10.md` §5, `scripts/lib/marca.mjs`): colores noche, frambuesa, grafito, celeste y fucsia; Varela Round en
+  titulares y cifras, Montserrat en el texto (IBM Plex Mono sigue solo para prompts); logo e-tech en intro y cierre; chevrón «›»,
+  discos y arcos. Reemplaza la paleta teal y Schibsted Grotesk de la plantilla. El M1 de bienvenida se retoca con la marca.
+- **Sin códigos ni remisiones** en voz, slides y subtítulos (30-10): nada de «M1-AE2», «tema 3», «como viste en…».
 - El resto: clips de Flow, diagramas, tarjetas de texto e imágenes, **cada cuadro con propósito y sincronizado con la voz**.
 - **Totalmente subtitulado**: subtítulos incrustados + archivo .srt.
 - EVA aquí es la presentadora del curso: el guion sigue el tono del curso (`curso-produccion`), no el de sus redes. Estos videos
@@ -103,7 +110,13 @@ fuerza para el cierre (de los AE). De `casos/`, `quiz/` y el hito basta saber qu
     «de 0 a 100»). Ortografía real de los nombres, aunque a la voz se le haya escrito distinto.
 
 ### 5. Slides (plantilla HTML)
-- Copiar `<skill>/plantilla/` a la carpeta de trabajo y editar `video.html`. Cada escena es un
+- **Con la marca (desde el 30-10, referencia `videos/M1-resumen/` y `videos/M2-bienvenida/`):** se escribe solo
+  `cuerpo.html` (título, encabezado, escenas y `const SUBS = [...]`) y se arma con
+  `python <skill>/scripts/armar_html.py videos/M<n>-<tipo>`, que le suma `plantilla/marca/estilos.css`,
+  `plantilla/marca/motor.js` y los tiempos de `palabras.json` (karaoke). Copiar antes a `fonts/` las de `scripts/fuentes`
+  (Varela Round, Montserrat, IBM Plex Mono). El logo se toma de `../../scripts/lib/marca/etech-logo-sobre-oscuro.svg`.
+  El motor suma `data-hl` (subrayado), `data-sel` (marca que aparece) y `data-keys="t:pos,…"` (perilla) a los atributos de siempre.
+- Plantilla anterior (M1 de bienvenida, sin marca): copiar `<skill>/plantilla/` a la carpeta de trabajo y editar `video.html`. Cada escena es un
   `<section class="scene" data-span="entra,sale">`. Los paneles internos usan `data-span` del mismo modo.
 - Animación de entrada: clase `a` con `data-in="segundos"`. Efectos con `data-fx`: `rise` (por defecto), `fade`, `pop`, `grow`,
   `draw` y `lin` (recuadros de video).
@@ -124,9 +137,8 @@ fuerza para el cierre (de los AE). De `casos/`, `quiz/` y el hito basta saber qu
   - Escena estática = escena por mejorar: cada frase debe cambiar algo en pantalla (un paso que entra, un dato que se
     marca, un diagrama que avanza). Ej.: el ciclo de iteración del prompt avanza paso a paso con la voz.
 - Reglas de diseño:
-  - Paleta del curso: tinta #0F172A, teal #0E7490, fondo #F8FAFC, ámbar para límites y errores. (La marca del cliente se
-    aplica después.)
-  - Tipografía Schibsted Grotesk (familia `Sans`, elegida el 25-10 por verse menos «plantilla de IA»); IBM Plex Mono solo para prompts y tokens. Las infografías siguen en IBM Plex.
+  - Marca Empoderatech (ver Decisiones fijas). Hasta el M1 v5 se usó tinta #0F172A, teal #0E7490 y Schibsted Grotesk:
+    ya no rige.
   - Ningún contenido bajo y = 900: esa franja es de los subtítulos.
   - Los textos de las slides salen del contenido del módulo.
 - Revisar con `python <skill>/scripts/preview.py videos/…/video.html 16.5 38.8 …` y mirar los PNG con Read antes de
@@ -180,7 +192,11 @@ fuerza para el cierre (de los AE). De `casos/`, `quiz/` y el hito basta saber qu
    sincronizar. Clips nuevos en 1080p si la herramienta lo permite (los de Flow vienen en 720p y se ven bien hasta
    ~820 px de ancho).
 
-### 7. EVA a cámara (un solo render para intro y cierre)
+### 7. EVA a cámara (un solo render para intro, momento clave y cierre)
+- **Desde el 30-10:** un solo audio con intro + 1 s + momento clave + 1 s + cierre (ffmpeg `atrim` + `concat`, ver
+  `heygen/eva.mp3` de `videos/M1-resumen/`), un solo render y `fondo_eva.py … --marca` (fondo grafito de Empoderatech).
+  El momento clave va en `config.json` como un clip más del mismo video: `src_start` = posición del momento en el clip
+  − (inicio del momento en la voz − `visible_desde`) + desfase. Costo: 39 créditos por los dos videos (74 s de EVA).
 - `python <skill>/scripts/cortar_audio_avatar.py audio/voz.mp3 FIN_INTRO INICIO_CIERRE audio/eva_intro_cierre.mp3`
   (en el M1: 18.67 y 143.6).
 - Si el usuario no pidió todavía el video completo, **confirmar antes** de gastar créditos de HeyGen.
@@ -236,7 +252,7 @@ Si los primeros bloques no cambian, se conserva su voz y su avatar y solo se reh
 
 ## Qué va al repo
 
-`guion.md`, `video.html`, `config.json`, `slots.json` y `subtitulos.srt` de cada carpeta de `videos/`. El audio, los clips,
+`guion.md`, `cuerpo.html` (videos con la marca), `video.html`, `config.json`, `slots.json`, `palabras.json`, `voz.txt` y `subtitulos.srt` de cada carpeta de `videos/` (no los `.log`). El audio, los clips,
 el avatar, `graphics.mp4`, el video final, el PDF y las capturas **no** (están en `.gitignore`): el repo es público y pesan.
 
 ## Costos de referencia (M1 con la voz de EVA, 25-10, 2:37)

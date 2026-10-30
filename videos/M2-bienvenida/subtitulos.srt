@@ -1,0 +1,158 @@
+1
+00:00:00,000 --> 00:00:02,700
+¡Hola! Te doy la bienvenida al Módulo 2
+
+2
+00:00:02,720 --> 00:00:06,000
+del curso IA generativa para entornos laborales:
+
+3
+00:00:06,200 --> 00:00:08,500
+Comunicación y redacción profesional.
+
+4
+00:00:08,850 --> 00:00:12,350
+Aquí vas a usar la IA
+en lo que más se hace en una oficina:
+
+5
+00:00:12,550 --> 00:00:15,200
+escribir, presentar y calcular.
+
+6
+00:00:16,200 --> 00:00:18,900
+En este módulo vas a recorrer cuatro temas.
+
+7
+00:00:19,700 --> 00:00:25,050
+Primero, la redacción con IA:
+correos, minutas e informes ejecutivos.
+
+8
+00:00:25,300 --> 00:00:30,500
+Vas a separar tres decisiones distintas,
+la audiencia, el registro y el tono,
+
+9
+00:00:30,700 --> 00:00:35,850
+y a tratar todo lo que redacte la IA
+como un borrador que tú revisas antes de enviar.
+
+10
+00:00:36,800 --> 00:00:39,700
+Segundo, el prompting avanzado para textos:
+
+11
+00:00:39,950 --> 00:00:43,850
+ejemplos que orientan el formato,
+restricciones que se pueden comprobar
+
+12
+00:00:43,950 --> 00:00:48,350
+y tareas divididas en pasos,
+extraer, redactar y revisar.
+
+13
+00:00:48,600 --> 00:00:54,300
+Con eso vas a armar plantillas reutilizables
+que den resultados parecidos cada vez que las uses.
+
+14
+00:00:55,250 --> 00:01:00,100
+Tercero, las presentaciones:
+partir de un mensaje clave y una audiencia,
+
+15
+00:01:00,400 --> 00:01:03,600
+ordenar seis láminas con una sola idea cada una
+
+16
+00:01:03,700 --> 00:01:08,900
+y depurar lo que propone la IA, quitando lo que sobra
+y corrigiendo los datos sin respaldo.
+
+17
+00:01:09,700 --> 00:01:12,000
+Y cuarto, las planillas de cálculo:
+
+18
+00:01:12,350 --> 00:01:17,700
+pedirle fórmulas a la IA, aplicarlas
+y comprobar cada resultado con datos de prueba,
+
+19
+00:01:17,950 --> 00:01:22,800
+porque una fórmula equivocada no avisa:
+entrega un número que parece correcto.
+
+20
+00:01:23,700 --> 00:01:28,000
+Te siguen acompañando Camila,
+asistente administrativa en una constructora,
+
+21
+00:01:28,250 --> 00:01:31,450
+y Andrés, encargado de bodega en una distribuidora.
+
+22
+00:01:31,700 --> 00:01:36,300
+Vas a trabajar con Gemini
+y con Hojas de cálculo de Google, sin pagar nada;
+
+23
+00:01:36,550 --> 00:01:39,500
+si usas Excel, los pasos son casi los mismos.
+
+24
+00:01:40,350 --> 00:01:42,400
+¿Y cómo vas a saber si vas aprendiendo?
+
+25
+00:01:42,700 --> 00:01:45,750
+Al cerrar cada tema
+pondrás a prueba lo que aprendiste,
+
+26
+00:01:45,900 --> 00:01:48,900
+y si algo no quedó claro, sabrás qué repasar.
+
+27
+00:01:49,150 --> 00:01:53,900
+Además, vas a analizar casos reales
+del uso de la IA generativa en el trabajo.
+
+28
+00:01:54,650 --> 00:01:57,450
+Y todo esto lo vas a llevar
+a tu proyecto aplicado:
+
+29
+00:01:57,750 --> 00:02:01,650
+la tarea real de tu trabajo
+que vas mejorando módulo a módulo.
+
+30
+00:02:02,650 --> 00:02:05,750
+Para empezar, ten a mano
+un texto reciente de tu trabajo,
+
+31
+00:02:05,950 --> 00:02:09,500
+como un correo, un aviso
+o un resumen para tu jefatura,
+
+32
+00:02:09,750 --> 00:02:12,250
+y usa una copia sin datos sensibles.
+
+33
+00:02:12,450 --> 00:02:13,900
+Y quédate con esta idea:
+
+34
+00:02:14,300 --> 00:02:16,560
+formal no significa complicado.
+
+35
+00:02:16,560 --> 00:02:18,450
+¡Nos vemos en el primer tema!

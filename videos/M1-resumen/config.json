@@ -1,0 +1,27 @@
+{
+  "_nota": "Resumen M1 (30-10), marca Empoderatech. Voz de EVA 2:20 (una toma). EVA: un render de 32,9 s con intro + momento clave + cierre (fondo grafito con fondo_eva.py --marca). Clip de Camila ajustando y revisando (Flow, reutilizado del M1).",
+  "duracion": 140.28,
+  "voz": "audio/voz.mp3",
+  "salida": "M1_resumen.mp4",
+  "avatar": {
+    "video": "heygen/avatar_marca.mp4",
+    "clip_dur": 32.92,
+    "offset": 0.023,
+    "crop": "auto",
+    "intro_out": 14.51,
+    "cierre_in": 127.39,
+    "cierre_master_t": 127.75,
+    "cierre_clip_t": 20.40
+  },
+  "clips": [
+    {"slot": "plantillas", "video": "media/plantillas.mp4", "src_start": 0.0, "src_dur": 7.8, "estirar": false,
+     "visible_desde": 100.8, "visible_hasta": 108.6, "fade_out": 108.2},
+    {"slot": "eva_momento", "video": "heygen/avatar_marca.mp4", "src_start": 15.023, "src_dur": 4.2, "estirar": false, "zoom": 1.0,
+     "visible_desde": 108.9, "visible_hasta": 113.1, "fade_out": 112.75}
+  ],
+  "zoom_clips": 1.08,
+  "musica": "audio/musica.wav",
+  "sfx": "audio/sfx.wav",
+  "vol_musica": 1.0,
+  "vol_sfx": 1.0
+}

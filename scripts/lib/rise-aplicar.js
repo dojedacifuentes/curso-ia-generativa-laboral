@@ -30,22 +30,25 @@ window.riseAplicar = async function (courseId, d, { probar = false } = {}) {
 
   // 1. Citas APA: cada ancla se busca en orden de lectura, desde donde quedó la anterior; entre letras puede haber etiquetas HTML
   const campos = [];
+  // Texto de los bloques y, en los interactivos (pestañas, proceso, acordeón), la descripción de cada parte visible
   for (const l of lessons) for (const b of l.items || []) {
-    if (!['text', 'impact'].includes(b.type) && b.family !== 'text') continue;
-    for (const it of b.items || []) if (typeof it.paragraph === 'string') campos.push({ l, b, it });
+    for (const it of b.items || []) {
+      if (['text', 'impact'].includes(b.type) && typeof it.paragraph === 'string') campos.push({ l, b, it, k: 'paragraph' });
+      else if (b.type === 'interactive' && !it.isHidden && typeof it.description === 'string') campos.push({ l, b, it, k: 'description' });
+    }
   }
   const patron = a => new RegExp([...a].map(c => (c === ' ' ? '(?:\\s|&nbsp;|<[^>]+>)+' : c.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))).join('(?:<[^>]+>)*'));
   let desde = 0, faltan = [];
   for (const { ancla, cita } of d.anclas) {
     let ok = false;
     for (let i = desde; i < campos.length && !ok; i++) {
-      const c = campos[i], m = patron(ancla).exec(c.it.paragraph);
+      const c = campos[i], m = patron(ancla).exec(c.it[c.k]);
       if (!m) continue;
       const fin = m.index + m[0].length;
       // Cierra las etiquetas que terminan justo en el ancla (p. ej. </strong>) antes de poner la cita
-      const cola = /^(?:<\/[^>]+>)*/.exec(c.it.paragraph.slice(fin))[0];
-      if (c.it.paragraph.slice(fin + cola.length).startsWith(' (')) { ok = true; desde = i; break; }
-      c.it.paragraph = c.it.paragraph.slice(0, fin + cola.length) + ' ' + cita + c.it.paragraph.slice(fin + cola.length);
+      const cola = /^(?:<\/[^>]+>)*/.exec(c.it[c.k].slice(fin))[0];
+      if (c.it[c.k].slice(fin + cola.length).startsWith(' (')) { ok = true; desde = i; break; }
+      c.it[c.k] = c.it[c.k].slice(0, fin + cola.length) + ' ' + cita + c.it[c.k].slice(fin + cola.length);
       marcar(c.l, c.b); ok = true; desde = i;
     }
     if (!ok) faltan.push(ancla);
@@ -65,11 +68,13 @@ window.riseAplicar = async function (courseId, d, { probar = false } = {}) {
 
   // 3. Fuera del Rise (criterios 29-10): «Conexión con el proyecto», el glosario (documento aparte) y nada de quiz, actividades
   // ni infografía, que son recursos distintos
-  const plano = h => (h || '').replace(/<[^>]+>/g, '').replace(/s+/g, ' ').trim();
+  // La «Conexión» a veces va sin título visible: se reconoce por «proyecto aplicado», que el contenido base no usa
+  const plano = h => (h || '').replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
   const borrar = [];
   for (const l of lessons) (l.items || []).forEach((b, i) => {
     const t = plano(b.items?.[0]?.heading);
-    if (/^Conexión con el proyecto/i.test(t)) borrar.push({ l, ids: [b.id], que: 'Conexión' });
+    if (/^Conexión con el proyecto/i.test(t) || (b.type === 'text' && /proyecto aplicado/i.test(plano(b.items?.[0]?.paragraph))))
+      borrar.push({ l, ids: [b.id], que: 'Conexión' });
     if (/^Glosario$/i.test(t)) borrar.push({ l, ids: [b.id, ...(l.items[i + 1]?.variant === 'accordion' ? [l.items[i + 1].id] : [])], que: 'Glosario' });
   });
   log.push(`a quitar: ${borrar.map(x => x.que + ' en «' + x.l.title + '»').join(', ') || 'nada'}`);
@@ -82,7 +87,7 @@ window.riseAplicar = async function (courseId, d, { probar = false } = {}) {
     + (d.intro ? `<p>${d.intro}</p>` : '');
 
   // 5. Códigos que no debe ver el estudiante: M1-AE1, M1-T2, M1-C1, P01…
-  const codigos = l => [...new Set((JSON.stringify(l.items) + l.title).match(/Md-(?:AE|T|C)d|Pdd/g) || [])];
+  const codigos = l => [...new Set((JSON.stringify(l.items) + l.title).match(/\bM\d-(?:AE|T|C)\d\b|\bP\d\d\b/g) || [])];
   const conCodigos = lessons.map(l => [l.title, codigos(l)]).filter(x => x[1].length);
   if (conCodigos.length) log.push(`códigos a revisar: ${conCodigos.map(x => x[0] + ': ' + x[1].join(' ')).join(' · ')}`);
 

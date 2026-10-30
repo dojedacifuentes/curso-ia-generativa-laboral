@@ -1,0 +1,134 @@
+{
+ "ae": "M1-AE2",
+ "tema": "Prompts efectivos",
+ "competencia": "Interactuar con modelos de IA generativa mediante prompts efectivos y validación de resultados, para apoyar tareas de oficina de forma verificada.",
+ "aprendizaje": "Formular prompts efectivos con rol, contexto, tarea y formato para obtener respuestas útiles en tareas laborales simples.",
+ "intro": "En el tema anterior viste que la calidad de lo que recibes depende mucho de lo que pides. Ahora vas a aprender a pedir bien: a escribir instrucciones claras, revisar la respuesta y ajustar el pedido hasta que te sirva.",
+ "anclas": [
+  {
+   "ancla": "con una cuenta de Google personal",
+   "cita": "(Google, s. f.-c)"
+  },
+  {
+   "ancla": "el navegador y en el celular",
+   "cita": "(OpenAI, s. f.)"
+  },
+  {
+   "ancla": "proponen estructuras parecidas para escribir prompts",
+   "cita": "(Google, s. f.-b; Microsoft, 2026)"
+  },
+  {
+   "ancla": "usar los cinco en cada prompt",
+   "cita": "(Google, s. f.-b)"
+  },
+  {
+   "ancla": "entendería tu pedido, el modelo tampoco",
+   "cita": "(Anthropic, s. f.)"
+  },
+  {
+   "ancla": "se usará y qué antecedentes importan",
+   "cita": "(Google, s. f.-b)"
+  },
+  {
+   "ancla": "también el motivo de una instrucción",
+   "cita": "(Anthropic, s. f.)"
+  },
+  {
+   "ancla": "pasos y el orden importa, numéralos",
+   "cita": "(Anthropic, s. f.)"
+  },
+  {
+   "ancla": "y el tono (formal, cordial, directo)",
+   "cita": "(Microsoft, 2026; Anthropic, s. f.)"
+  },
+  {
+   "ancla": "decir solo lo que no quieres",
+   "cita": "(Anthropic, s. f.)"
+  },
+  {
+   "ancla": "ejemplos cuando ayudan, con dos cuidados",
+   "cita": "(Anthropic, s. f.; Google, 2026)"
+  },
+  {
+   "ancla": "copie de más y pierda flexibilidad",
+   "cita": "(Google, 2026)"
+  },
+  {
+   "ancla": "separar las instrucciones de los datos",
+   "cita": "(Anthropic, s. f.)"
+  },
+  {
+   "ancla": "hacen que la respuesta no sirva",
+   "cita": "(Anthropic, s. f.; Google, 2026)"
+  },
+  {
+   "ancla": "respuesta como base para la siguiente",
+   "cita": "(Google, 2026)"
+  },
+  {
+   "ancla": "que tú le entregues el texto",
+   "cita": "(Google, s. f.-b)"
+  },
+  {
+   "ancla": "Ahora agrega los componentes que faltaban",
+   "cita": "(Microsoft, 2026)"
+  },
+  {
+   "ancla": "Entonces escribió un prompt completo",
+   "cita": "(Google, s. f.-b; Microsoft, 2026)"
+  },
+  {
+   "ancla": "solicitudes por urgencia, gastos por tipo",
+   "cita": "(Google, s. f.-b)"
+  },
+  {
+   "ancla": "pareja y Rosa la revisa rápido",
+   "cita": "(Google, 2026)"
+  },
+  {
+   "ancla": "y corregir se le llama iteración",
+   "cita": "(Google, s. f.-b)"
+  },
+  {
+   "ancla": "el texto antes de la instrucción",
+   "cita": "(Google, 2026)"
+  },
+  {
+   "ancla": "propio asistente que mejore tu prompt",
+   "cita": "(Google, s. f.-b)"
+  },
+  {
+   "ancla": "y ajustar el componente que corresponde",
+   "cita": "(Google, s. f.-b; Microsoft, 2026)"
+  },
+  {
+   "ancla": "suele requerir un ida y vuelta",
+   "cita": "(Microsoft, 2026)"
+  },
+  {
+   "ancla": "para aprovechar mejor el uso disponible",
+   "cita": "(Google, s. f.-d)"
+  },
+  {
+   "ancla": "y revisores humanos pueden leer algunas",
+   "cita": "(Google, s. f.-a)"
+  },
+  {
+   "ancla": "navegador, o el asistente que uses",
+   "cita": "(Google, s. f.-c)"
+  },
+  {
+   "ancla": "para asistencia administrativa y para bodega",
+   "cita": "(Google, s. f.-b)"
+  },
+  {
+   "ancla": "y con lo que tú aprendiste",
+   "cita": "(Google, s. f.-b)"
+  },
+  {
+   "ancla": "formato y, cuando hace falta, restricciones",
+   "cita": "(Google, s. f.-b; Microsoft, 2026)"
+  }
+ ],
+ "referencias": "<p>Anthropic. (s. f.). <em>Mejores prácticas de prompting</em>. Claude Docs. <a href=\"https://platform.claude.com/docs/es/build-with-claude/prompt-engineering/claude-prompting-best-practices\" target=\"_blank\" rel=\"noopener\">https://platform.claude.com/docs/es/build-with-claude/prompt-engineering/claude-prompting-best-practices</a></p><p>Google. (s. f.-a). <em>Centro de privacidad de las aplicaciones de Gemini</em>. <a href=\"https://support.google.com/gemini/answer/13594961?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/13594961?hl=es</a></p><p>Google. (s. f.-b). <em>Cómo escribir instrucciones eficaces</em>. Google Workspace. <a href=\"https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/\" target=\"_blank\" rel=\"noopener\">https://workspace.google.com/intl/es-419/resources/ai/writing-effective-prompts/</a></p><p>Google. (s. f.-c). <em>Empezar a usar la aplicación móvil Gemini</em>. <a href=\"https://support.google.com/gemini/answer/14554984?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/14554984?hl=es</a></p><p>Google. (s. f.-d). <em>Límites de las aplicaciones de Gemini y cambios a planes superiores</em>. <a href=\"https://support.google.com/gemini/answer/16275805?hl=es\" target=\"_blank\" rel=\"noopener\">https://support.google.com/gemini/answer/16275805?hl=es</a></p><p>Google. (2026, 13 de octubre). <em>Estrategias de diseño de instrucciones</em>. Google AI for Developers. <a href=\"https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419\" target=\"_blank\" rel=\"noopener\">https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=es-419</a></p><p>Microsoft. (2026). <em>Introducción a la escritura de indicaciones en Microsoft Copilot</em>. Microsoft Support. <a href=\"https://support.microsoft.com/es-es/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot\" target=\"_blank\" rel=\"noopener\">https://support.microsoft.com/es-es/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot</a></p><p>OpenAI. (s. f.). <em>Planes y precios</em>. ChatGPT. <a href=\"https://chatgpt.com/es-419/pricing/\" target=\"_blank\" rel=\"noopener\">https://chatgpt.com/es-419/pricing/</a></p>"
+}

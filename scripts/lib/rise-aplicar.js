@@ -1,7 +1,8 @@
 // Corre en el editor de Rise 360 (rise.eu.articulate.com/authoring/<curso>) con la sesión iniciada, usando la API interna del editor
-// («ducks»: GET_COURSE, UPDATE_BLOCK_DEBOUNCE, CREATE_BLOCKS, DELETE_BLOCKS). Datos: entregables/rise/<AE>/rise-datos.json
-// (scripts/rise-preparar.mjs). Uso en la consola: await riseAplicar(courseId, datos, { probar: true }) y luego sin «probar».
-// Después de aplicar, recargar la página: el editor no ve los cambios hechos por la API hasta recargar.
+// («ducks»: GET_COURSE, UPDATE_BLOCK_DEBOUNCE, DELETE_BLOCKS, CREATE_LESSON, CREATE_BLOCKS, UPDATE_COURSE_FIELD_THROTTLE).
+// Datos: entregables/rise/<AE>/rise-datos.json (scripts/rise-preparar.mjs). El Rise lleva SOLO el contenido: el quiz, las
+// actividades, la infografía y el glosario son recursos aparte. Títulos sin códigos (M1-AE1, P01…).
+// Uso: await riseAplicar(courseId, datos, { probar: true }) y luego sin «probar». Después, recargar la página del editor.
 window.riseAplicar = async function (courseId, d, { probar = false } = {}) {
   const api = async (tipo, payload) => {
     const r = await fetch(`/api/rise-runtime/ducks/rise/${tipo}`, {
@@ -62,70 +63,46 @@ window.riseAplicar = async function (courseId, d, { probar = false } = {}) {
     marcar(primero.l, primero.b); log.push('competencia y AE: ok');
   } else log.push('competencia y AE: NO (revisar a mano)');
 
-  // 4. Glosario: va en un documento aparte; en su lugar, un enlace
+  // 3. Fuera del Rise (criterios 29-10): «Conexión con el proyecto», el glosario (documento aparte) y nada de quiz, actividades
+  // ni infografía, que son recursos distintos
+  const plano = h => (h || '').replace(/<[^>]+>/g, '').replace(/s+/g, ' ').trim();
   const borrar = [];
   for (const l of lessons) (l.items || []).forEach((b, i) => {
-    if (b.variant === 'heading' && /^Glosario$/.test((b.items[0].heading || '').replace(/<[^>]+>/g, '').trim())) {
-      borrar.push({ l, ids: [b.id, ...(l.items[i + 1]?.variant === 'accordion' ? [l.items[i + 1].id] : [])], prev: l.items[i - 1]?.id });
-    }
+    const t = plano(b.items?.[0]?.heading);
+    if (/^Conexión con el proyecto/i.test(t)) borrar.push({ l, ids: [b.id], que: 'Conexión' });
+    if (/^Glosario$/i.test(t)) borrar.push({ l, ids: [b.id, ...(l.items[i + 1]?.variant === 'accordion' ? [l.items[i + 1].id] : [])], que: 'Glosario' });
   });
+  log.push(`a quitar: ${borrar.map(x => x.que + ' en «' + x.l.title + '»').join(', ') || 'nada'}`);
+  const ajenas = lessons.filter(l => /actividad|quiz|ponte a prueba|pon a prueba|infograf/i.test(l.title));
+  if (ajenas.length) log.push(`OJO, lecciones que parecen recursos aparte: ${ajenas.map(l => l.title).join(', ')}`);
+
+  // 4. Título del curso sin código (la franquicia es comercial) y portada con competencia y AE textuales
+  const titulo = d.tema;
+  const descripcion = `<p><strong>Competencia del módulo:</strong> ${d.competencia}</p><p><strong>Aprendizaje esperado:</strong> ${d.aprendizaje}</p>`
+    + (d.intro ? `<p>${d.intro}</p>` : '');
+
+  // 5. Códigos que no debe ver el estudiante: M1-AE1, M1-T2, M1-C1, P01…
+  const codigos = l => [...new Set((JSON.stringify(l.items) + l.title).match(/Md-(?:AE|T|C)d|Pdd/g) || [])];
+  const conCodigos = lessons.map(l => [l.title, codigos(l)]).filter(x => x[1].length);
+  if (conCodigos.length) log.push(`códigos a revisar: ${conCodigos.map(x => x[0] + ': ' + x[1].join(' ')).join(' · ')}`);
 
   if (probar) return { log, cambiados: [...cambiados.values()].map(x => x.block.id), borrar: borrar.map(x => x.ids) };
 
   for (const { lessonId, block } of cambiados.values()) await api('lessons/UPDATE_BLOCK_DEBOUNCE', { id: block.id, courseId, lessonId, item: block });
-  for (const { l, ids, prev } of borrar) {
-    await api('lessons/DELETE_BLOCKS', { blockIds: ids, courseId, lessonId: l.id });
-    await api('lessons/CREATE_BLOCKS', { courseId, lessonId: l.id, previousBlockId: prev, blocks: [bloqueTexto('Glosario',
-      `<p>Los términos de este tema están reunidos, con los de todo el curso, en el documento <a href="${d.glosario}" target="_blank" rel="noopener">Glosario</a>.</p>`)] });
+  for (const { l, ids } of borrar) await api('lessons/DELETE_BLOCKS', { blockIds: ids, courseId, lessonId: l.id });
+  await api('courses/UPDATE_COURSE_FIELD_THROTTLE', { course: { id: courseId, title: titulo, description: descripcion } });
+
+  // 6. Lección final «Referencias bibliográficas» (se crea si no está)
+  let ref = lessons.find(l => /^Referencias bibliográficas$/i.test(l.title));
+  const htmlRef = `<p>Estas son las fuentes citadas en este tema, en formato APA 7. Los enlaces se abren en una pestaña nueva.</p>${d.referencias}`;
+  if (!ref) {
+    const r = await api('lessons/CREATE_LESSON', { author: course.author, courseId, position: lessons.length, selectedAuthorId: 'none', title: 'Referencias bibliográficas' });
+    const id = r.payload.id;
+    await api('lessons/UPDATE_LESSON', { icon: 'Article', id, type: 'blocks', updatedAt: new Date().toISOString(), courseId, bulkUpdateBlocks: { deletes: [], creates: [], updates: [], moves: [] } });
+    await api('lessons/CREATE_BLOCKS', { courseId, lessonId: id, previousBlockId: null, blocks: [{ family: 'text', id: uuid(), type: 'text', variant: 'paragraph',
+      items: [{ id: uuid(), paragraph: htmlRef }], settings: { markerColorContrast: 'AUTO', paddingBottom: 3, paddingLinked: true, paddingTop: 3, snippetColorContrast: 'AUTO', audioPosition: 'bottom' } }] });
+    log.push('lección Referencias bibliográficas creada');
   }
-  log.push(`bloques actualizados: ${cambiados.size} · glosario reemplazado: ${borrar.length}`);
+  log.push(`bloques actualizados: ${cambiados.size} · bloques quitados: ${borrar.length} · título: «${titulo}»`);
   return log;
-
-  function bloqueTexto(titulo, html) {
-    return { family: 'text', id: uuid(), type: 'text', variant: 'heading paragraph',
-      items: [{ id: uuid(), heading: titulo, paragraph: html }],
-      settings: { markerColorContrast: 'AUTO', paddingBottom: 3, paddingLinked: true, paddingTop: 3, snippetColorContrast: 'AUTO', audioPosition: 'bottom' } };
-  }
-};
-
-// Agrega bloques al final de una lección (vacía o no): actividades o referencias
-window.riseAgregar = async function (courseId, lessonId, bloques) {
-  const api = async (tipo, payload) => {
-    const r = await fetch(`/api/rise-runtime/ducks/rise/${tipo}`, { method: 'POST', headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ type: `rise/${tipo}`, payload, meta: { colorIntents: [] } }) });
-    if (!r.ok) throw new Error(`${tipo} ${r.status} ${(await r.text()).slice(0, 300)}`);
-    return r.json();
-  };
-  const { lessons } = (await api('courses/GET_COURSE', { courseId })).payload;
-  const l = lessons.find(x => x.id === lessonId);
-  const prev = l.items?.length ? l.items[l.items.length - 1].id : null;
-  return api('lessons/CREATE_BLOCKS', { courseId, lessonId, previousBlockId: prev, blocks: bloques });
-};
-
-// Bloques de Rise a partir de rise-datos.json
-window.riseBloques = {
-  ajustes: { markerColorContrast: 'AUTO', paddingBottom: 3, paddingLinked: true, paddingTop: 3, snippetColorContrast: 'AUTO', audioPosition: 'bottom' },
-  texto(titulo, html) {
-    return { family: 'text', id: crypto.randomUUID(), type: 'text', variant: titulo ? 'heading paragraph' : 'paragraph',
-      items: [{ id: crypto.randomUUID(), ...(titulo ? { heading: titulo } : {}), paragraph: html }], settings: { ...this.ajustes } };
-  },
-  titulo(t) {
-    return { family: 'text', id: crypto.randomUUID(), type: 'text', variant: 'heading', items: [{ id: crypto.randomUUID(), heading: t }], settings: { ...this.ajustes } };
-  },
-  nota(html) {
-    return { family: 'impact', id: crypto.randomUUID(), type: 'text', variant: 'note', items: [{ id: crypto.randomUUID(), paragraph: html }], settings: {} };
-  },
-  continuar() {
-    return { family: 'continue', id: crypto.randomUUID(), type: 'divider', variant: 'continue', settings: { v: 2 },
-      items: [{ id: crypto.randomUUID(), type: '', title: 'Continuar', buttonColor: 'brand', completeHint: 'Completa el contenido anterior para seguir.' }] };
-  },
-  actividades(d) {
-    const out = [this.texto('', '<p>Estas dos actividades te ayudan a aplicar lo que viste en el tema. La primera es una práctica guiada en una oficina de ejemplo; la segunda la haces con una tarea real de tu propio cargo, siempre con copias sin datos sensibles.</p>')];
-    d.actividades.forEach((a, i) => {
-      if (i) out.push(this.continuar());
-      out.push(this.titulo(a.titulo));
-      for (const s of a.secciones) out.push(s.titulo === 'Cómo se revisa' ? this.nota(`<p><strong>Cómo se revisa</strong></p>${s.html}`) : this.texto(s.titulo, s.html));
-    });
-    return out;
-  },
 };

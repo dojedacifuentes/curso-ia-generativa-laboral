@@ -64,7 +64,7 @@ window.riseAplicar = async function (courseId, d, { probar = false } = {}) {
       `</p><p><strong>Competencia del módulo:</strong> ${d.competencia}</p><p><strong>Aprendizaje esperado:</strong> ${d.aprendizaje}</p><p>`)
       .replace(/<p>\s*<\/p>/g, '');
     marcar(primero.l, primero.b); log.push('competencia y AE: ok');
-  } else log.push('competencia y AE: NO (revisar a mano)');
+  } else log.push(primero?.it.paragraph.includes('Competencia del módulo') ? 'competencia y AE: ya estaban' : 'competencia y AE: NO (revisar a mano)');
 
   // 3. Fuera del Rise (criterios 29-10): «Conexión con el proyecto», el glosario (documento aparte) y nada de quiz, actividades
   // ni infografía, que son recursos distintos
@@ -102,7 +102,9 @@ window.riseAplicar = async function (courseId, d, { probar = false } = {}) {
   const htmlRef = `<p>Estas son las fuentes citadas en este tema, en formato APA 7. Los enlaces se abren en una pestaña nueva.</p>${d.referencias}`;
   if (!ref) {
     const r = await api('lessons/CREATE_LESSON', { author: course.author, courseId, position: lessons.length, selectedAuthorId: 'none', title: 'Referencias bibliográficas' });
-    const id = r.payload.id;
+    // La respuesta no siempre trae el id: si falta, se busca la lección recién creada
+    const id = r.payload?.id || r.payload?.lesson?.id
+      || (await api('courses/GET_COURSE', { courseId })).payload.lessons.find(l => l.title === 'Referencias bibliográficas' && !l.type)?.id;
     await api('lessons/UPDATE_LESSON', { icon: 'Article', id, type: 'blocks', updatedAt: new Date().toISOString(), courseId, bulkUpdateBlocks: { deletes: [], creates: [], updates: [], moves: [] } });
     await api('lessons/CREATE_BLOCKS', { courseId, lessonId: id, previousBlockId: null, blocks: [{ family: 'text', id: uuid(), type: 'text', variant: 'paragraph',
       items: [{ id: uuid(), paragraph: htmlRef }], settings: { markerColorContrast: 'AUTO', paddingBottom: 3, paddingLinked: true, paddingTop: 3, snippetColorContrast: 'AUTO', audioPosition: 'bottom' } }] });

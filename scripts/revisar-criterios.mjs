@@ -16,6 +16,7 @@ const AUDIENCIA = /cesant|desemplead|búsqueda de (trabajo|empleo)|\bbusca(s|ndo
 const AUDIENCIA_REVISAR = /postula|currículum|curriculum|\bCV\b|entrevista|empleador/i;
 // Casos de empresas reales: solo en casos/
 const CASOS = /Morgan Stanley|Avianca|Air Canada|Octopus|Vodafone|Deloitte|Eindhoven|Coca-Cola|Johansson|Getty|Stability AI|Klarna|Duolingo|Samsung|\bM\d-C\d\b|F-M\dC\d-\d+|caso real|casos? del módulo|casos? de aplicación|siguiente parada:[^\n]*caso/i;
+const NOMBRES_CASOS = /Morgan Stanley|Avianca|Air Canada|Octopus|Vodafone|Deloitte|Eindhoven|Coca-Cola|Johansson|Getty|Stability AI|Klarna|Duolingo|Samsung|Md-Cd/i;
 
 const filtro = process.argv.slice(2);
 const pasa = id => !filtro.length || filtro.some(f => id.startsWith(f));
@@ -30,7 +31,9 @@ function revisarTexto(id, texto, { casos = true, audiencia = true } = {}) {
   sinPlanilla(texto).split('\n').forEach((linea, k) => {
     if (audiencia && AUDIENCIA.test(linea)) res.push(['error', `línea ${k + 1}: audiencia («${linea.match(AUDIENCIA)[0]}»)`]);
     else if (audiencia && AUDIENCIA_REVISAR.test(linea)) res.push(['aviso', `línea ${k + 1}: revisar audiencia («${linea.match(AUDIENCIA_REVISAR)[0]}»)`]);
-    if (casos && CASOS.test(linea)) res.push(['error', `línea ${k + 1}: menciona un caso («${linea.match(CASOS)[0]}»)`]);
+    // Los foros pueden decir que ahí se responde la pregunta de los casos, pero sin nombrarlos (casos: 'nombres')
+    const re = casos === 'nombres' ? NOMBRES_CASOS : CASOS;
+    if (casos && re.test(linea)) res.push(['error', `línea ${k + 1}: menciona un caso («${linea.match(re)[0]}»)`]);
   });
   return res;
 }
@@ -77,6 +80,15 @@ for (const d of listar(path.join(RAIZ, 'videos'), '')) {
   const id = path.basename(d);
   if (fs.existsSync(g) && pasa(id)) out.push([`guion ${id}`, revisarTexto(id, leer(g))]);
 }
+// Vista del estudiante (criterios 30-10): ni códigos internos ni remisiones a pantallas o secciones
+function vistaEstudiante(t, donde) {
+  const r = [];
+  const cod = t.match(/\bM\d-(?:AE|T|C)\d\b|\bP[01]\d\b(?! (?:tiene|da|de|en K))|\bpantallas? \d+|\bF-[A-Z0-9]+-\d+\b(?!\])/g);
+  if (cod) r.push(['error', `${donde}: códigos a la vista: ${[...new Set(cod)].join(' ')}`]);
+  const rem = t.match(/la sección «|en la pantalla|como viste en (?:el|la) (?:tema|módulo|sección)/gi);
+  if (rem) r.push(['error', `${donde}: remisión: ${[...new Set(rem)].join(' · ')}`]);
+  return r;
+}
 // Actividades de aplicación práctica (criterios 29-10): audiencia, sin casos, 2 por AE, marcas = «fuentes:»
 const marcas = t => [...t.matchAll(/\[n?@([^\]]+)\]/g)].flatMap(m => m[1].split(/;\s*@?/).map(x => x.replace(/^@/, '').trim()));
 for (const f of listar(path.join(RAIZ, 'actividades'), '.md')) {
@@ -92,9 +104,22 @@ for (const f of listar(path.join(RAIZ, 'actividades'), '.md')) {
     for (const x of enLinea) if (!enTexto.has(x)) res.push(['error', `actividad ${k + 1}: ${x} sin marca en el texto`]);
     for (const x of enTexto) if (!enLinea.has(x)) res.push(['error', `actividad ${k + 1}: la marca [@${x}] no está en «fuentes:»`]);
     if (!/^cubre:\s*\S/m.test(a)) res.push(['error', `actividad ${k + 1}: falta «cubre:»`]);
-    for (const s of ['Situación', 'Lo que vas a hacer', 'Lo que entregas', 'Cómo se revisa']) if (!new RegExp(`^### ${s}`, 'm').test(a)) res.push(['aviso', `actividad ${k + 1}: falta «### ${s}»`]);
+    // Criterios 30-10: instrucción general, rúbrica visible (pesos 100 %) y entrega en foro (act. 1) o tarea (act. 2)
+    for (const s of ['Instrucción general', 'Situación', 'Lo que vas a hacer', 'Lo que entregas', 'Rúbrica']) if (!new RegExp(`^### ${s}`, 'm').test(a)) res.push(['error', `actividad ${k + 1}: falta «### ${s}»`]);
+    if (/^### Cómo se revisa/m.test(a)) res.push(['error', `actividad ${k + 1}: «Cómo se revisa» va en la guía del facilitador`]);
+    const ent = (/^entrega:\s*(\w+)/m.exec(a) || [])[1];
+    if (ent !== (k === 0 ? 'foro' : 'tarea')) res.push(['error', `actividad ${k + 1}: «entrega:» debe ser ${k === 0 ? 'foro' : 'tarea'}`]);
+    const rub = (a.split(/^### Rúbrica/m)[1] || '').split(/^### /m)[0];
+    const pesos = [...rub.matchAll(/^\|[^|]+\|\s*(\d+)\s*%\s*\|/gm)].reduce((t, m) => t + Number(m[1]), 0);
+    if (pesos !== 100) res.push(['error', `actividad ${k + 1}: los pesos de la rúbrica suman ${pesos} %`]);
+    res.push(...vistaEstudiante(a.replace(/^(cubre|fuentes|entrega):.*$/gm, ''), `actividad ${k + 1}`));
   });
   out.push([`actividades ${id}`, res]);
+}
+// Guía del facilitador y foros (criterios 30-10): sin códigos ni remisiones
+for (const dir of ['guia-facilitador', 'foros']) for (const f of listar(path.join(RAIZ, dir), '.md')) {
+  const id = path.basename(f, '.md');
+  if (pasa(id)) out.push([`${dir} ${id}`, [...revisarTexto(id, leer(f), { casos: 'nombres' }), ...vistaEstudiante(leer(f), id)]]);
 }
 // Glosario: sin audiencia vieja ni casos
 for (const f of listar(path.join(RAIZ, 'glosario'), '.md')) {

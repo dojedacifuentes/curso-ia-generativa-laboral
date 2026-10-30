@@ -1,8 +1,8 @@
 # Quiz M4-AE1 · Ecosistema multimedia con IA
 
 **Misión:** elegir la herramienta correcta para cada pieza y leer sus reglas antes de crear
-**Cuándo:** al terminar el Rise M4-T1 · Ecosistema multimedia con IA, antes de pasar a imágenes y gráficos.
-**Insignia:** Licencias al día · **Siguiente parada:** Rise M4-T2, imágenes y gráficos
+**Cuándo:** al terminar el tema «Ecosistema multimedia con IA», antes de pasar a imágenes y gráficos.
+**Insignia:** Licencias al día · **Siguiente parada:** tema «Imágenes y gráficos»
 **Estilo:** acento #22d3ee · acento2 #ff7a59 · fondo circuito · lema Qué pieza, qué herramienta y con qué reglas
 **Ilustración:** flujo | Tu pieza (paquete) · Las reglas (doc) · Tu elección (diana)
 

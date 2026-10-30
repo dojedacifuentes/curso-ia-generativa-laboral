@@ -1,8 +1,8 @@
 # Quiz M5-AE2 · Flujos simples con IA
 
 **Misión:** armar, probar y corregir un flujo que conecte la IA con correo, planillas o calendario
-**Cuándo:** al terminar el Rise M5-T2 · Flujos simples con IA, antes de pasar a supervisión humana y riesgos.
-**Insignia:** Flujo armado · **Siguiente parada:** Rise M5-T3, supervisión humana y riesgos
+**Cuándo:** al terminar el tema «Flujos simples con IA», antes de pasar a supervisión humana y riesgos.
+**Insignia:** Flujo armado · **Siguiente parada:** tema «Supervisión humana y riesgos»
 **Estilo:** acento #34d399 · acento2 #22d3ee · fondo circuito · lema Disparador, pasos, datos y pruebas
 **Ilustración:** flujo | Tu tarea (doc) · Tu flujo (engranaje) · Tus pruebas (bicho)
 

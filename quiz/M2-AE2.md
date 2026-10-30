@@ -1,8 +1,8 @@
 # Quiz M2-AE2 · Prompting avanzado para textos
 
 **Misión:** elegir la técnica que ataca lo que falla y convertir tus prompts en plantillas probadas
-**Cuándo:** al terminar el Rise M2-T2 · Prompting avanzado para textos, antes de pasar a presentaciones con IA.
-**Insignia:** Laboratorio de prompts · **Siguiente parada:** Rise M2-T3, presentaciones con IA
+**Cuándo:** al terminar el tema «Prompting avanzado para textos», antes de pasar a presentaciones con IA.
+**Insignia:** Laboratorio de prompts · **Siguiente parada:** tema «Presentaciones con IA»
 **Estilo:** acento #a78bfa · acento2 #34d399 · fondo circuito · lema Probar, comparar y guardar lo que funciona
 **Ilustración:** flujo | Tu prompt (chat) · El laboratorio (engranaje) · Tu plantilla (doc)
 

@@ -6,7 +6,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M4-AE4
 =2 → 3 → 1
 ~2 → 1 → 3
 ~3 → 1 → 2
-####Primero va la preproducción (guion y licencias), después la producción (generar) y al final la postproducción (montaje y exportación). Revisar las licencias al final obliga a rehacer el clip si un recurso no se puede usar. Pantalla P02 del Rise M4-T4\: «Las tres etapas de la producción».
+####Primero va la preproducción (guion y licencias), después la producción (generar) y al final la postproducción (montaje y exportación). Revisar las licencias al final obliga a rehacer el clip si un recurso no se puede usar.
 }
 
 ::M4-AE4-P2 (S1 C1)::Camila ordena las partes del guion de su clip de reciclaje\: 1) llamado a la acción; 2) apertura con el propósito; 3) cierre; 4) puntos clave. ¿Cuál es el orden correcto? {
@@ -14,7 +14,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M4-AE4
 ~2 → 1 → 4 → 3
 =2 → 4 → 1 → 3
 ~1 → 2 → 4 → 3
-####Un guion breve abre con el propósito, desarrolla pocos puntos clave, pide la acción y cierra. Si la apertura no dice de qué trata, la atención se pierde en los primeros segundos. Pantalla P03 del Rise M4-T4\: «La estructura de un guion breve».
+####Un guion breve abre con el propósito, desarrolla pocos puntos clave, pide la acción y cierra. Si la apertura no dice de qué trata, la atención se pierde en los primeros segundos.
 }
 
 ::M4-AE4-P3 (S1 H1 A2)::El borrador de Gemini para el clip de Camila dice\: «Es de suma importancia que todos y cada uno de los integrantes de esta organización tomen conciencia de la relevancia del reciclaje». ¿Cuál es la mejor corrección? {
@@ -22,7 +22,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M4-AE4
 =«Cada hoja en su caja de reciclaje\: así reciclamos todos.»
 ~«Es de suma importancia que todos tomen conciencia del reciclaje, según la política interna vigente.»
 ~Agregarle cifras de reciclaje del país para darle más peso
-####Una frase para un clip breve dice una sola idea concreta y se entiende al escucharla una vez. El borrador de la IA es un punto de partida\: el tono y la claridad los decides tú. Pantalla P05 del Rise M4-T4\: «Escribe y ajusta el guion con Gemini».
+####Una frase para un clip breve dice una sola idea concreta y se entiende al escucharla una vez. El borrador de la IA es un punto de partida\: el tono y la claridad los decides tú.
 }
 
 ::M4-AE4-P4 (C1 A2)::Camila monta su clip y dura 74 segundos. ¿Qué le conviene hacer para llegar a 60? {
@@ -30,7 +30,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M4-AE4
 =Acortar las pausas largas, recortar tomas repetidas o eliminar la secuencia menos importante
 ~Agregar más transiciones para que los cambios sean más rápidos
 ~Dejarlo así, porque 60 segundos es solo una referencia
-####Para ajustar la duración se quitan pausas, tomas que se repiten o la secuencia menos importante. Acelerar la voz la vuelve difícil de entender, y más efectos distraen del mensaje. Pantalla P11 del Rise M4-T4\: «Ajustar a 60 segundos y revisar».
+####Para ajustar la duración se quitan pausas, tomas que se repiten o la secuencia menos importante. Acelerar la voz la vuelve difícil de entender, y más efectos distraen del mensaje.
 }
 
 ::M4-AE4-P5 (S2 A1)::Andrés necesita una toma generada para la secuencia final de su clip. ¿Qué prompt es mejor? {
@@ -38,7 +38,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M4-AE4
 =«Una trabajadora empuja un carro por un pasillo despejado; plano general, la cámara la sigue de lado; ilustración animada, luz natural»
 ~«Video realista del gerente de la empresa tropezando con una caja en la bodega»
 ~«Un pasillo de bodega al estilo de una película animada famosa»
-####Una buena toma dice el sujeto y su acción, el contexto, la cámara y el plano, y el estilo y la luz. Una escena realista de una persona real en algo que no ocurrió, o el estilo de una obra ajena, no es creatividad responsable. Pantalla P07 del Rise M4-T4\: «Generar tomas con Google Flow».
+####Una buena toma dice el sujeto y su acción, el contexto, la cámara y el plano, y el estilo y la luz. Una escena realista de una persona real en algo que no ocurrió, o el estilo de una obra ajena, no es creatividad responsable.
 }
 
 ::M4-AE4-P6 (S3 C2)::Mientras reúne recursos, Camila encuentra en internet una imagen perfecta para su clip, pero no sabe quién la hizo ni qué licencia tiene. ¿Qué hace? {
@@ -46,7 +46,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M4-AE4
 ~La usa, porque el clip es solo para una reunión interna
 =No la usa\: un recurso sin licencia clara o de origen desconocido queda fuera
 ~La usa, siempre que la recorte para que no se reconozca
-####Cada recurso se verifica antes de montar, y toda imagen debe poder referenciarse. Si no sabes de dónde salió ni qué licencia tiene, no puedes darle crédito ni saber si permite tu uso. Pantalla P08 del Rise M4-T4\: «Reunir los recursos y verificar sus licencias».
+####Cada recurso se verifica antes de montar, y toda imagen debe poder referenciarse. Si no sabes de dónde salió ni qué licencia tiene, no puedes darle crédito ni saber si permite tu uso.
 }
 
 ::M4-AE4-P7 (A2 S3)::Andrés dice\: «Los subtítulos sobran, porque la locución se entiende bien». ¿Qué evaluación es correcta? {
@@ -54,7 +54,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M4-AE4
 ~Verdadero, porque un clip de 60 segundos es demasiado corto para subtitular
 =Falso\: muchas personas ven el clip sin sonido, no oyen bien o están en un lugar con ruido
 ~Falso, pero bastan los subtítulos automáticos sin revisarlos
-####Las pautas WCAG piden subtítulos en los videos con audio grabado\: son parte del clip, no un adorno. Si son automáticos, se revisan palabra por palabra. Pantalla P10 del Rise M4-T4\: «Subtítulos, textos en pantalla y créditos».
+####Las pautas WCAG piden subtítulos en los videos con audio grabado\: son parte del clip, no un adorno. Si son automáticos, se revisan palabra por palabra.
 }
 
 ::M4-AE4-P8 (H1 C2)::La ficha del clip de Andrés dice\: «Qué se generó con IA\: dos tomas, tres imágenes, la voz y la música. Aporte humano\: ninguno, todo lo hizo la IA». ¿Qué hay que corregir? {
@@ -62,5 +62,5 @@ $CATEGORY: IA-generativa-laboral/Formativos/M4-AE4
 ~Lo generado con IA\: la voz y la música no se declaran
 ~Nada\: si todo se generó con IA, no hay aporte humano
 ~Las instrucciones\: los prompts no se anotan en la ficha
-####Generar con IA no borra lo que decidiste e hiciste\: mensaje, guion, selección, montaje y revisión son aporte humano y van en la ficha. Pensar que la IA lo hizo todo deja sin respaldo tu trabajo. Pantalla P14 del Rise M4-T4\: «La ficha de uso ético del clip».
+####Generar con IA no borra lo que decidiste e hiciste\: mensaje, guion, selección, montaje y revisión son aporte humano y van en la ficha. Pensar que la IA lo hizo todo deja sin respaldo tu trabajo.
 }

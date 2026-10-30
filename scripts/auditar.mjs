@@ -294,6 +294,15 @@ for (const a of AES) chequeo(`act.${a.id}`, `Actividades ${a.id}`, 'Dos activida
   const deben = [...a.saber_hacer, ...a.criterios].map(x => x.codigo).filter(x => !cubre.has(x));
   deben.length ? r.aviso(`no cubren ${deben.join(', ')}`) : r.ev('cubren todos los H y C del AE');
   for (const f of new Set([...md.matchAll(/^fuentes:\s*(F-.+)$/gm)].flatMap(m => m[1].split(/,\s*/)))) if (!APA[f]?.revisada) r.error(`${f} sin referencia APA revisada`);
+  // Criterios 30-10: rúbrica visible, instrucción general, entrega en foro o tarea y pauta en la guía del facilitador
+  acts.every(x => /^### Rúbrica/m.test(x) && /^### Instrucción general/m.test(x)) ? r.ev('instrucción general y rúbrica en las 2') : r.error('falta instrucción general o rúbrica');
+  acts.some(x => /^### Cómo se revisa/m.test(x)) && r.error('«Cómo se revisa» debe ir en la guía del facilitador');
+  existe('guia-facilitador', `${a.id}.md`) ? r.ev('pauta de corrección en guia-facilitador/') : r.error(`falta guia-facilitador/${a.id}.md`);
+});
+chequeo('foros', 'Foros del curso', 'Un foro por módulo (qué, por qué y para qué) y un foro general de interacción (criterios 30-10).', r => {
+  for (const m of MODULOS) existe('foros', `M${m.n}.md`) ? r.ev(`foros/M${m.n}.md`) : r.error(`falta foros/M${m.n}.md`);
+  existe('foros', 'General.md') ? r.ev('foros/General.md') : r.error('falta foros/General.md');
+  existe('guia-facilitador', 'Foros.md') ? r.ev('moderación en guia-facilitador/Foros.md') : r.error('falta guia-facilitador/Foros.md');
 });
 chequeo('glosario', 'Glosario del curso', 'glosario/M<n>.md por módulo; se compila en un solo documento «Glosario» y en XML de Moodle.', r => {
   for (const m of MODULOS) existe('glosario', `M${m.n}.md`) ? r.ev(`glosario/M${m.n}.md: ${(leer('glosario', `M${m.n}.md`).match(/^- \*\*/gm) || []).length} términos`) : r.error(`falta glosario/M${m.n}.md`);

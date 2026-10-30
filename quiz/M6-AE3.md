@@ -1,7 +1,7 @@
 # Quiz M6-AE3 · Resultados y aprendizajes
 
 **Misión:** leer tus resultados con honestidad y contarlos bien en 3 minutos
-**Cuándo:** al terminar el Rise M6-T3 · Resultados y aprendizajes, antes de entregar los hitos 6c y 6d.
+**Cuándo:** al terminar el tema «Resultados y aprendizajes», antes de entregar los hitos 6c y 6d.
 **Insignia:** Voz de resultados · **Siguiente parada:** Demo Day, la presentación de cierre del curso
 **Estilo:** acento #ff7a59 · acento2 #fbbf24 · fondo neuronas · lema Qué cambió, cómo lo sabes y qué aprendiste
 **Ilustración:** flujo | Tus números (barras) · Tu historia (chat) · Tu audiencia (bandera)

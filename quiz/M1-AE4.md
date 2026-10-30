@@ -1,7 +1,7 @@
 # Quiz M1-AE4 · Validación de resultados
 
 **Misión:** revisar con método lo que genera la IA antes de usarlo o compartirlo
-**Cuándo:** al terminar el Rise M1-T4 · Validación de resultados, antes de entregar el Hito 1 del proyecto.
+**Cuándo:** al terminar el tema «Validación de resultados», antes de entregar el Hito 1 del proyecto.
 **Insignia:** Datos verificados · **Siguiente parada:** Hito 1 del proyecto, biblioteca de prompts v1
 **Estilo:** acento #34d399 · acento2 #ff7a59 · fondo circuito · lema Qué revisar, dónde y cuándo
 **Ilustración:** flujo | La respuesta (chat) · Las fuentes (bd) · Tu decisión (bandera)

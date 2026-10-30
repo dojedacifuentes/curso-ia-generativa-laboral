@@ -3,6 +3,11 @@
 ## Actividad 1 · El resumen del instructivo, con lupa
 cubre: H1, C1
 fuentes: F-M1-09, F-M1-01
+entrega: foro
+
+### Instrucción general
+
+En esta actividad vas a revisar paso a paso el resumen que recibió Camila y a dejarlo listo para usar. Sirve para entrenar el ojo antes de reenviar cualquier texto generado por IA. Publicas tu trabajo en el foro del módulo, con la tabla y el resumen corregido en el mensaje o en un documento adjunto; como son datos de prueba, lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -18,7 +23,7 @@ puede entregar una salida que no sigue el texto que le diste [@F-M1-01]. Antes d
 
 ### Lo que vas a hacer
 
-Vas a aplicar el checklist de validación a este resumen y a dejarlo listo para usar.
+Vas a validar este resumen paso a paso y a dejarlo listo para usar.
 
 1. Detente antes de usar el resumen y marca en él cada afirmación verificable: plazos, documentos, firmas, cifras, estudios y personas.
 2. Compara cada afirmación con el instructivo, línea por línea, y anota si el resumen agregó, omitió o cambió algo.
@@ -28,20 +33,28 @@ Vas a aplicar el checklist de validación a este resumen y a dejarlo listo para 
 
 ### Lo que entregas
 
-Entregas una tabla con cada afirmación del resumen, el tipo de problema, lo que dice el instructivo y tu decisión, y el resumen
+Publicas en el foro del módulo una tabla con cada afirmación del resumen, el tipo de problema, lo que dice el instructivo y tu decisión, y el resumen
 corregido.
 
-### Cómo se revisa
+### Rúbrica
 
-Esta actividad se revisa con el criterio «Identifica errores o sesgos en una respuesta generada.». Se da por logrado si encuentras los
-cinco problemas: el plazo cambiado de cinco a diez días hábiles; la firma del gerente general en lugar de la jefatura directa; la
-cotización previa para gastos sobre $50.000, que el resumen omite; el estudio con nombre, año y porcentaje, que el instructivo no trae
-y no se puede rastrear, y el sesgo de suponer que quien reúne las boletas es «la secretaria». También se mira la decisión: los datos
-cambiados se corrigen con el instructivo, el estudio se descarta y el resumen final no agrega nada que el instructivo no diga.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Identifica errores o sesgos en una respuesta generada | 40 % | La tabla recoge todos los problemas del resumen (datos cambiados, omitidos, agregados y sesgos), cada uno comparado con el instructivo. | La tabla recoge la mayoría de los problemas, pero se le escapa alguno. | Detecta pocos problemas o no compara el resumen con el instructivo. |
+| Clasificación por tipo | 20 % | Cada problema tiene un tipo que corresponde a lo que pasó en el resumen. | Algún problema tiene un tipo que no corresponde. | Los problemas no están clasificados. |
+| Decisión sobre cada afirmación | 20 % | Cada afirmación tiene una decisión (mantener, corregir o descartar) coherente con lo que dice el instructivo. | Alguna decisión no es coherente con el instructivo. | No hay decisiones. |
+| Resumen corregido | 20 % | El resumen final solo trae lo que se puede comprobar en el instructivo y no omite nada importante. | El resumen final corrige la mayoría, pero deja un dato errado, omitido o agregado. | No hay resumen corregido o repite los errores. |
+
+La actividad se aprueba con 60 % o más.
 
 ## Actividad 2 · Valida antes de usarlo en tu trabajo
 cubre: H1, C1, C2
 fuentes: F-H-16, F-M1-19
+entrega: tarea
+
+### Instrucción general
+
+En esta actividad vas a validar con fuentes una respuesta que de verdad usarías en tu trabajo, antes de usarla. Lo subes como tarea en el aula, en un documento de texto o en PDF con la tabla de validación y la versión final. Solo lo ven tú y el facilitador, porque parte de una consulta real de tu cargo. El facilitador lo revisa con la rúbrica de abajo y te deja su retroalimentación en un plazo de hasta 72 horas.
 
 ### Situación
 
@@ -66,17 +79,19 @@ Vas a validar una respuesta real antes de usarla, con al menos dos fuentes por c
 
 ### Lo que entregas
 
-Entregas la consulta y la respuesta del asistente; la tabla de validación con las tres afirmaciones, sus dos fuentes con enlace y
+Subes como tarea en el aula la consulta y la respuesta del asistente; la tabla de validación con las tres afirmaciones, sus dos fuentes con enlace y
 fecha de consulta, si coinciden y tu decisión, y la versión final. Si descartaste algo, explica en una línea por qué.
 
-### Cómo se revisa
+### Rúbrica
 
-Esta actividad se revisa con dos criterios. El primero es «Identifica errores o sesgos en una respuesta generada.»: se da por logrado
-si señalas qué afirmaciones resultaron erradas, desactualizadas, sin respaldo o sesgadas, o si muestras con las fuentes que en esos
-puntos la respuesta era correcta. El segundo es «Contrasta con al menos 2 fuentes confiables y corrige o descarta lo no verificable.»:
-se da por logrado si cada afirmación tiene dos fuentes confiables e independientes entre sí, si la confiabilidad se justifica por
-quién está detrás y no por el aspecto del sitio, y si lo que no pudiste confirmar quedó corregido, descartado o marcado como «no
-verificado» en la versión final.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Identifica errores o sesgos en una respuesta generada | 30 % | Señala qué afirmaciones resultaron erradas, desactualizadas, sin respaldo o sesgadas, o muestra con las fuentes que en esos puntos la respuesta era correcta; revisa también omisiones, supuestos y vigencia. | Revisa las afirmaciones, pero no dice con claridad cuáles estaban bien y cuáles no, o no revisa omisiones ni vigencia. | No revisa las afirmaciones de la respuesta. |
+| Contrasta con al menos 2 fuentes confiables | 30 % | Cada una de las tres afirmaciones tiene dos fuentes confiables e independientes entre sí, con enlace y fecha de consulta. | Alguna afirmación tiene una sola fuente, las fuentes no son independientes o falta el enlace o la fecha. | La mayoría de las afirmaciones no tiene fuentes o las fuentes no son confiables. |
+| Confiabilidad justificada | 15 % | La confiabilidad de cada fuente se justifica por quién está detrás, revisado con lectura lateral. | La justificación es general o se apoya en el aspecto del sitio. | No justifica la confiabilidad. |
+| Corrige o descarta lo no verificable | 25 % | La versión final solo trae lo verificado, y lo que no pudiste confirmar quedó corregido, descartado o marcado «no verificado», con una línea que explica por qué. | La versión final mantiene algún dato sin confirmar o no explica un descarte. | No hay versión final o repite la respuesta sin cambios pese a los problemas encontrados. |
+
+La actividad se aprueba con 60 % o más.
 
 ## Referencias bibliográficas
 

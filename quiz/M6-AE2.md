@@ -1,8 +1,8 @@
 # Quiz M6-AE2 · Implementar el flujo
 
 **Misión:** poner en marcha tu flujo con supervisión humana y dejar registro de cada decisión
-**Cuándo:** al terminar el Rise M6-T2 · Implementar el flujo, antes de entregar el Hito 6b.
-**Insignia:** Flujo bajo control · **Siguiente parada:** Rise M6-T3, resultados y aprendizajes
+**Cuándo:** al terminar el tema «Implementar el flujo», antes de entregar el Hito 6b.
+**Insignia:** Flujo bajo control · **Siguiente parada:** tema «Resultados y aprendizajes»
 **Estilo:** acento #a78bfa · acento2 #22d3ee · fondo circuito · lema Probar, ajustar y dejarlo por escrito
 **Ilustración:** flujo | Tu flujo (engranaje) · Tus pruebas (repetir) · Tus notas (doc)
 

@@ -1,9 +1,9 @@
 # Auditoría del curso «IA generativa para entornos laborales»
 
-Generado con `node scripts/auditar.mjs` el 29-10-26, 5:50 p. m.. Solo lee: no corrige nada.
+Generado con `node scripts/auditar.mjs` el 30-10-26, 12:36 a. m.. Solo lee: no corrige nada.
 Fuente de verdad: planilla «Estructura_inicial_contenido_IA_generativa» (Drive 1v_NCRQGZnajDLesIw8haIMrw4551q6C8Om6AOM8RoHM).
 
-**Resultado:** 107 chequeos · ✓ 100 sin observaciones · ! 5 con avisos · ✗ 0 con errores · … 2 pendientes.
+**Resultado:** 108 chequeos · ✓ 99 sin observaciones · ! 7 con avisos · ✗ 0 con errores · … 2 pendientes.
 
 - **✗ error:** algo no calza con la planilla o con el formato, o falta un archivo que debería existir.
 - **! aviso:** funciona, pero conviene mirarlo (un derivado desactualizado, una pantalla corta, un «Parcial» de fondo).
@@ -140,6 +140,7 @@ contenido/M<n>/M<n>-AE<k>.md es la fuente única de cada AE: de ahí salen el Ri
 | ✓ | C2.act.M6-AE1 Actividades M6-AE1 | 2 actividades · cubren todos los H y C del AE |
 | ✓ | C2.act.M6-AE2 Actividades M6-AE2 | 2 actividades · cubren todos los H y C del AE |
 | ✓ | C2.act.M6-AE3 Actividades M6-AE3 | 2 actividades · cubren todos los H y C del AE |
+| ✓ | C2.foros Foros del curso | foros/M1.md · foros/M2.md |
 | ✓ | C2.glosario Glosario del curso | glosario/M1.md: 44 términos · glosario/M2.md: 52 términos |
 
 <details><summary>Detalle</summary>
@@ -254,8 +255,8 @@ Los entregables se subieron a la carpeta «Curso IA generativa para entornos lab
 | ✓ | C8.0 Foto de Drive | tomada el 29-10-26, 5:49 p. m. · 51 carpetas · Curso IA generativa para entornos laborales · Recursos: 15 elementos |
 | ✓ | C8.Docs-del-contenido-base Docs del contenido base en Drive | 22 archivos en la carpeta |
 | ✓ | C8.PDF-del-contenido-base PDF del contenido base en Drive | 23 archivos en la carpeta |
-| ✓ | C8.Quiz-SCORM Quiz SCORM en Drive | 22 archivos en la carpeta |
-| ✓ | C8.Quiz-HTML Quiz HTML en Drive | 22 archivos en la carpeta |
+| ! | C8.Quiz-SCORM Quiz SCORM en Drive |  22 avisos |
+| ! | C8.Quiz-HTML Quiz HTML en Drive |  22 avisos |
 | ! | C8.Quiz-GIFT Quiz GIFT en Drive |  22 avisos |
 | ✓ | C8.planilla La planilla de origen está en Drive | copia en Google Sheets · copia .xlsx |
 | ✓ | C8.ids Los ids de data/drive.json existen en Drive | 22 Docs registrados |
@@ -264,29 +265,75 @@ Los entregables se subieron a la carpeta «Curso IA generativa para entornos lab
 
 <details><summary>Detalle</summary>
 
+- **C8.Quiz-SCORM Quiz SCORM en Drive**
+  - ! M1-AE1: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M1-AE2: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M1-AE3: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M1-AE4: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M2-AE1: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M2-AE2: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M2-AE3: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M2-AE4: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M3-AE1: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M3-AE2: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M3-AE3: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M3-AE4: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M4-AE1: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M4-AE2: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M4-AE3: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M4-AE4: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M5-AE1: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M5-AE2: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M5-AE3: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M6-AE1: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M6-AE2: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M6-AE3: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+- **C8.Quiz-HTML Quiz HTML en Drive**
+  - ! M1-AE1: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M1-AE2: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M1-AE3: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M1-AE4: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M2-AE1: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M2-AE2: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M2-AE3: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M2-AE4: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M3-AE1: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M3-AE2: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M3-AE3: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M3-AE4: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M4-AE1: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M4-AE2: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M4-AE3: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M4-AE4: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M5-AE1: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M5-AE2: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M5-AE3: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M6-AE1: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M6-AE2: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M6-AE3: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
 - **C8.Quiz-GIFT Quiz GIFT en Drive**
-  - ! M1-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 5:01 p. m.)
-  - ! M1-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
-  - ! M1-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
-  - ! M1-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
-  - ! M2-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
-  - ! M2-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
-  - ! M2-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
-  - ! M2-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
-  - ! M3-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
-  - ! M3-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
-  - ! M3-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
-  - ! M3-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
-  - ! M4-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
-  - ! M4-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
-  - ! M4-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
-  - ! M4-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
-  - ! M5-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
-  - ! M5-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
-  - ! M5-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
-  - ! M6-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
-  - ! M6-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:56 p. m.)
-  - ! M6-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (29-10-26, 4:57 p. m.)
+  - ! M1-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M1-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M1-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M1-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M2-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M2-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M2-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M2-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M3-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M3-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M3-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M3-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M4-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M4-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M4-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M4-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M5-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M5-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M5-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M6-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M6-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
+  - ! M6-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)
 
 </details>
 

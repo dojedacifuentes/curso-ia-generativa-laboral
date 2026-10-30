@@ -1,8 +1,8 @@
 # Quiz M2-AE1 · Redacción y comunicación con IA
 
 **Misión:** ajustar cada texto de trabajo a quien lo lee y revisarlo antes de enviarlo
-**Cuándo:** al terminar el Rise M2-T1 · Redacción y comunicación con IA, antes de pasar a prompting avanzado para textos.
-**Insignia:** Pluma clara · **Siguiente parada:** Rise M2-T2, prompting avanzado para textos
+**Cuándo:** al terminar el tema «Redacción y comunicación con IA», antes de pasar a prompting avanzado para textos.
+**Insignia:** Pluma clara · **Siguiente parada:** tema «Prompting avanzado para textos»
 **Estilo:** acento #22d3ee · acento2 #ff7a59 · fondo neuronas · lema Para quién, cómo suena y qué revisas
 **Ilustración:** flujo | Quien escribe (chat) · El asistente (chip) · Quien lee (diana)
 

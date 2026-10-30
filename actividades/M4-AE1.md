@@ -3,6 +3,11 @@
 ## Actividad 1 · Las herramientas para la campaña de Camila
 cubre: H1, C1, C2
 fuentes: F-H-65, F-M4-01
+entrega: foro
+
+### Instrucción general
+
+En esta actividad ayudas a Camila a elegir las herramientas para las dos piezas de su campaña y revisas qué le permiten sus licencias y condiciones de uso. Es una práctica con un caso ficticio antes de elegir para una pieza de tu propio cargo. Publica tu trabajo en el foro del módulo, escrito en el mensaje o como archivo adjunto. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -12,26 +17,38 @@ Una compañera le recomienda hacer el afiche en Microsoft Designer, porque es gr
 
 ### Lo que vas a hacer
 
-Vas a ayudar a Camila a elegir con el método del tema: primero el tipo de pieza, después las condiciones de uso y al final los riesgos. Trabaja desde el celular, con la página de cada herramienta abierta en el navegador, y anota la fecha en que leíste sus condiciones, porque los planes gratuitos cambian.
+Vas a ayudar a Camila a elegir en tres pasos: primero el tipo de pieza, después las condiciones de uso y al final los riesgos. Trabaja desde el celular, con la página de cada herramienta abierta en el navegador, y anota la fecha en que leíste sus condiciones, porque los planes gratuitos cambian.
 
 1. Para cada pieza, escribe qué tipo es (imagen o audio), para quién es y dónde se verá o se escuchará.
 2. Elige dos herramientas para el afiche y dos para el audio. Puedes usar las que nombra la situación u otras gratuitas que conozcas.
-3. Compara cada par con los criterios de P13: qué produce, plan gratuito, si funciona en el celular, licencia de lo generado y un riesgo. Para la licencia, busca en los términos de cada herramienta quién es dueño del resultado, qué usos permite, qué prohíbe y qué garantías da.
+3. Compara cada par con estos criterios: qué produce, plan gratuito, si funciona en el celular, licencia de lo generado y un riesgo. Para la licencia, busca en los términos de cada herramienta quién es dueño del resultado, qué usos permite, qué prohíbe y qué garantías da.
 4. Clasifica cada herramienta como permitida, restringida o prohibida para el uso que le dará Camila, y justifica con una condición que hayas leído.
 5. Responde si Camila puede cambiarle el color al ícono CC BY-ND 4.0 y qué alternativa tiene.
 6. Escribe la recomendación final a Camila en tres o cuatro líneas: qué herramienta usa para cada pieza y qué tiene que cumplir.
 
 ### Lo que entregas
 
-Entregas una tabla con las cuatro herramientas comparadas y su clasificación, la respuesta sobre el ícono y la recomendación final para Camila. La tabla puede estar en una nota del celular, en un documento o en una foto de una hoja escrita a mano, siempre que se lea bien.
+Publica en el foro del módulo la tabla con las cuatro herramientas comparadas y su clasificación, la respuesta sobre el ícono y la recomendación final para Camila. La tabla puede ir en el mensaje o como archivo adjunto: una nota del celular, un documento o una foto de una hoja escrita a mano, siempre que se lea bien.
 
-### Cómo se revisa
+### Rúbrica
 
-Se revisa con dos criterios. El primero es «Compara herramientas según el tipo de pieza.»: se da por logrado si la comparación separa el afiche del audio, si cada herramienta sirve de verdad para el tipo de pieza en que la pusiste y si usaste los mismos criterios para las dos de cada par. El segundo es «Interpreta licencias y condiciones de uso de la herramienta elegida.»: se da por logrado si la clasificación de cada herramienta se apoya en una condición concreta de sus términos, con la fecha en que la leíste, si explicas por qué una licencia personal y no comercial no alcanza para una pieza que pondrá la empresa, y si respondes bien lo del ícono: con ND no se le puede cambiar el color, así que Camila tiene que usarlo tal cual, buscar otro con una licencia que permita adaptarlo o crear uno propio.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Compara herramientas según el tipo de pieza | 30 % | Separa el afiche del audio, cada herramienta produce el tipo de pieza en que la puso y las dos de cada par se comparan con los mismos criterios. | Separa las piezas, pero una herramienta no sirve para su tipo de pieza o los criterios cambian dentro de un par. | No separa las piezas o no compara con criterios. |
+| Interpreta licencias y condiciones de uso de la herramienta elegida | 35 % | Cada clasificación se apoya en una condición concreta de los términos, con la fecha en que la leyó, y explica qué implica una licencia personal y no comercial para una pieza de la empresa. | Clasifica con condiciones de los términos, pero falta la fecha o la explicación sobre la licencia personal y no comercial. | Clasifica sin citar condiciones o solo por la calidad de lo que genera. |
+| Resuelve el uso del ícono | 15 % | Responde según lo que permite la licencia del ícono y propone una alternativa que la respeta. | Responde según la licencia, pero sin alternativa, o la alternativa no la respeta. | Responde sin considerar la licencia. |
+| Recomienda con fundamento | 20 % | La recomendación nombra la herramienta de cada pieza y lo que Camila tiene que cumplir, en coherencia con la tabla. | Nombra las herramientas, pero no dice qué cumplir o contradice la tabla. | No hay recomendación. |
+
+La actividad se aprueba con 60 % o más.
 
 ## Actividad 2 · La ficha de una pieza de tu cargo
 cubre: H1, H2, C1, C2
 fuentes: F-M4-06, F-M4-03
+entrega: tarea
+
+### Instrucción general
+
+Ahora eliges las herramientas para una pieza visual o sonora de tu trabajo y empiezas su ficha de uso ético, que vas a completar cuando produzcas la pieza. Súbelo como tarea en el aula, en un documento o una planilla. Solo lo ven tú y el facilitador, porque trabajas con una pieza real de tu cargo. El facilitador lo revisa con la rúbrica que está al final y te deja su retroalimentación en un plazo de hasta 72 horas.
 
 ### Situación
 
@@ -42,19 +59,26 @@ Trabaja con copias sin datos sensibles. Si la pieza menciona clientes, proveedor
 ### Lo que vas a hacer
 
 1. Describe la pieza en dos líneas: qué tipo es, para quién y dónde se verá o se escuchará.
-2. Elige dos herramientas gratuitas que sirvan para ese tipo de pieza y compáralas con los criterios de P13.
+2. Elige dos herramientas gratuitas que sirvan para ese tipo de pieza y compáralas con los mismos criterios: qué produce, plan gratuito, si funciona en el celular, licencia de lo generado y un riesgo.
 3. Lee los términos de la que elegiste y anota qué te permite y qué te prohíbe su plan gratuito, con la fecha de lectura.
-4. Clasifícala con el semáforo del curso según el uso que le darás y nombra un riesgo legal o reputacional, con lo que harás para evitarlo.
+4. Clasifícala como permitida, restringida o prohibida según el uso que le darás y nombra un riesgo legal o reputacional, con lo que harás para evitarlo.
 5. Si piensas usar un material de terceros, como un ícono, una foto o una pista, busca su licencia y escribe el crédito con la fórmula TASL. Si no tiene licencia clara, descártalo.
 6. Llena la ficha de uso ético con los campos que ya puedes completar: pieza y uso, herramientas y plan con la fecha de revisión, consentimientos y licencias, y créditos. Deja anotados los campos que completarás cuando produzcas la pieza.
 
 ### Lo que entregas
 
-Entregas la comparación de las dos herramientas, las dos líneas con lo que permite y prohíbe la que elegiste, el riesgo con su forma de evitarlo y la ficha de uso ético con los campos iniciales completos. Guarda la ficha: la vas a seguir llenando en los próximos temas.
+Sube como tarea en el aula la comparación de las dos herramientas, las dos líneas con lo que permite y prohíbe la que elegiste, el riesgo con su forma de evitarlo y la ficha de uso ético con los campos iniciales completos. Guarda la ficha: la vas a seguir llenando cuando produzcas tus piezas.
 
-### Cómo se revisa
+### Rúbrica
 
-Se revisa con los dos criterios del tema. Para «Compara herramientas según el tipo de pieza.», se mira que las dos herramientas produzcan el tipo de pieza que necesitas y que la elección se explique por el uso en tu trabajo, no solo por la calidad de lo que generan. Para «Interpreta licencias y condiciones de uso de la herramienta elegida.», se mira que lo que escribiste sobre permisos y prohibiciones salga de los términos de la herramienta, con su fecha, que la clasificación calce con el uso que le darás y que los créditos de terceros tengan los cuatro datos de TASL. La ficha se da por bien iniciada si sus campos son concretos, nombra el plan de cada herramienta y no incluye datos sensibles.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Compara herramientas según el tipo de pieza | 25 % | Las dos herramientas producen el tipo de pieza que necesita y la elección se explica por el uso en su trabajo. | Las herramientas sirven, pero la elección se explica solo por la calidad de lo que generan. | Una herramienta no produce ese tipo de pieza o no hay comparación. |
+| Interpreta licencias y condiciones de uso de la herramienta elegida | 30 % | Lo que permite y prohíbe sale de los términos, con su fecha; la clasificación calza con el uso, y nombra un riesgo con la forma de evitarlo. | Falta la fecha, la clasificación no calza del todo con el uso o el riesgo no trae cómo evitarlo. | Los permisos y prohibiciones no salen de los términos o no hay clasificación. |
+| Da crédito a los materiales de terceros | 15 % | Cada material de terceros tiene título, autor, fuente y licencia, o declara que no usará materiales de terceros. | Al crédito le falta uno de los cuatro datos. | Usa materiales de terceros sin crédito o sin licencia clara. |
+| Inicia la ficha de uso ético | 30 % | Los campos iniciales son concretos, nombran el plan de cada herramienta con su fecha y no hay datos sensibles. | La ficha tiene campos vagos o falta el plan de alguna herramienta. | No hay ficha o incluye datos sensibles. |
+
+La actividad se aprueba con 60 % o más.
 
 ## Referencias bibliográficas
 

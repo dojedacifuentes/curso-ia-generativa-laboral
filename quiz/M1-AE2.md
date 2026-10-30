@@ -1,8 +1,8 @@
 # Quiz M1-AE2 · Prompts efectivos
 
 **Misión:** pasar de pedidos vagos a prompts que funcionan en tu trabajo
-**Cuándo:** al terminar el Rise M1-T2 · Prompts efectivos, antes de pasar a parámetros de generación.
-**Insignia:** Arquitectura de prompts · **Siguiente parada:** Rise M1-T3, parámetros de generación
+**Cuándo:** al terminar el tema «Prompts efectivos», antes de pasar a parámetros de generación.
+**Insignia:** Arquitectura de prompts · **Siguiente parada:** tema «Parámetros de generación»
 **Estilo:** acento #fbbf24 · acento2 #a78bfa · fondo circuito · lema De un pedido vago a un prompt que funciona
 **Ilustración:** flujo | Tu idea (chispa) · Tu prompt (doc) · La respuesta (chat)
 

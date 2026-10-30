@@ -3,6 +3,14 @@
 ## Actividad 1 · Controles para el flujo de reclamos de Paula
 cubre: H1, C1, C2
 fuentes: F-M5-14, F-M5-12
+entrega: foro
+
+### Instrucción general
+
+Vas a ayudar a Paula a decidir dónde revisa una persona en su flujo de reclamos y qué hacer si algo falla. Con un caso ficticio
+practicas el mapa de riesgos, los puntos de control y el plan de contingencia que después aplicarás a tu flujo. Publica tu tabla, tus
+criterios, las columnas y el plan en el foro del módulo, en el mensaje o en un documento adjunto. Se evalúa con la rúbrica de abajo,
+y el facilitador te responde en el foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -31,23 +39,32 @@ revertir, porque un correo enviado no se puede recoger.
 
 ### Lo que entregas
 
-Una tabla con los cinco pasos, su riesgo, si lleva punto de control, la forma de supervisión y la razón. Debajo, los criterios de
-aprobación del punto principal, las columnas nuevas de la planilla y el plan de contingencia con las seis respuestas, con un
-responsable con nombre y un reemplazo para cuando esa persona no esté.
+Publica en el foro del módulo una tabla con los cinco pasos, su riesgo, si lleva punto de control, la forma de supervisión y la
+razón. Debajo, los criterios de aprobación del punto principal, las columnas nuevas de la planilla y el plan de contingencia con las
+seis respuestas, con un responsable con nombre y un reemplazo para cuando esa persona no esté.
 
-### Cómo se revisa
+### Rúbrica
 
-El criterio «Define puntos de control humano según el riesgo.» se da por logrado si cada punto de control está en un paso de riesgo
-alto, si hay uno antes del correo al cliente y si la forma de supervisión de cada punto calza con su riesgo. Se mira también que los
-criterios de aprobación se puedan responder con sí o no y que alguno revise los reclamos que quedan en «baja».
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Mapea y clasifica los riesgos | 25 % | Los cinco pasos tienen qué podría salir mal, el tipo de riesgo, qué pasaría si nadie lo nota y su nivel. | Están los cinco pasos, pero a alguno le falta el tipo de riesgo, la consecuencia o el nivel. | Faltan pasos, o los riesgos no se relacionan con el flujo de Paula. |
+| Define puntos de control según el riesgo | 30 % | Cada punto de control está en un paso de riesgo alto, hay uno antes de que algo salga hacia el cliente y la forma de supervisión de cada uno calza con su riesgo y tiene su razón. | Los puntos están en pasos de riesgo alto, pero falta el control antes de lo que sale al cliente o una forma de supervisión no calza con su riesgo. | No hay puntos de control, o están en pasos de riesgo bajo sin razón. |
+| Fija criterios de aprobación y registro | 15 % | Hay tres o cuatro criterios que se responden con sí o no, alguno apunta al error que el flujo ya tuvo, y las columnas incluyen «Dato original», «Estado» y «Revisó». | Los criterios están, pero alguno no se responde con sí o no, o faltan columnas. | No hay criterios de aprobación ni columnas de supervisión. |
+| Elabora el plan de contingencia | 30 % | El plan responde las seis preguntas con acciones concretas: dónde se pausa el flujo, cómo se sigue a mano, cómo se corrige lo que ya salió y quién responde, con nombre y reemplazo. | Responde las seis preguntas, pero alguna con una acción vaga o sin responsable con nombre o reemplazo. | Faltan varias respuestas, o el responsable es «el sistema». |
 
-El criterio «Elabora un plan de contingencia para el flujo.» se da por logrado si el plan responde las seis preguntas con acciones
-concretas: dónde se pausa el flujo, cuál es la forma manual de seguir atendiendo, cómo se corrigen los correos que ya salieron y quién
-responde, con nombre. Una respuesta como «el sistema avisa» no cuenta como responsable.
+La actividad se aprueba con 60 % o más.
 
 ## Actividad 2 · Supervisión y contingencia para tu flujo
 cubre: H1, C1, C2
 fuentes: F-M5-13, F-M5-06
+entrega: tarea
+
+### Instrucción general
+
+Vas a agregar a tu flujo los controles humanos y el plan de contingencia que necesita antes de pensar en usarlo con datos reales, y
+vas a medir si esos controles detectan errores. Con esto completas tu prototipo. Súbelo como tarea en el aula, en un documento con
+capturas; solo lo ven tú y el facilitador. El facilitador lo revisa con la rúbrica de abajo y te deja su retroalimentación en un
+plazo de hasta 72 horas.
 
 ### Situación
 
@@ -73,19 +90,20 @@ Si alguna respuesta del plan es «no sé», ese es el punto débil que tienes qu
 
 ### Lo que entregas
 
-Tu mapa de riesgos con los puntos de control, los criterios de aprobación, una captura de la planilla con las columnas de supervisión y
-datos de prueba, el plan de contingencia y la tabla con y sin control con tu conclusión. Con esto completas tu prototipo.
+Sube como tarea en el aula tu mapa de riesgos con los puntos de control, los criterios de aprobación, una captura de la planilla con
+las columnas de supervisión y datos de prueba, el plan de contingencia y la tabla con y sin control con tu conclusión. Con esto
+completas tu prototipo.
 
-### Cómo se revisa
+### Rúbrica
 
-El criterio «Define puntos de control humano según el riesgo.» se da por logrado si cada punto de control está justificado por el
-riesgo de su paso, si los pasos que salen hacia otras personas tienen revisión antes y si los criterios de aprobación son preguntas de
-sí o no. Se mira además que la prueba con y sin control muestre si el control detecta los errores sembrados y que la conclusión diga si
-vale lo que cuesta.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Define puntos de control según el riesgo | 30 % | El mapa cubre cada paso, cada punto de control se justifica por el riesgo de su paso, lo que sale hacia otras personas se revisa antes y toda decisión importante sobre una persona la toma una persona. | El mapa está, pero algún punto de control no se justifica o un paso que sale hacia otras personas queda sin revisión. | No hay mapa de riesgos ni puntos de control. |
+| Fija criterios de aprobación y registro | 15 % | Los criterios son preguntas de sí o no y la captura muestra la planilla con las columnas de supervisión y el valor «por revisar». | Los criterios están, pero alguno no es de sí o no, o la planilla no muestra las columnas de supervisión. | No hay criterios ni columnas de supervisión. |
+| Evalúa el efecto del control | 25 % | Hay diez casos con tres errores sembrados, la tabla compara con y sin control en errores que llegaron, falsas alarmas y tiempo, y la conclusión dice si el control vale lo que cuesta. | La prueba está, pero falta una de las tres medidas o la conclusión no dice si el control vale lo que cuesta. | No hay prueba con y sin control. |
+| Elabora el plan de contingencia | 30 % | Las seis respuestas son concretas para tu flujo, con la forma manual de seguir y un responsable con nombre y reemplazo. | Están las seis respuestas, pero alguna es vaga o falta el reemplazo. | Faltan varias respuestas, o hay respuestas «no sé» sin resolver. |
 
-El criterio «Elabora un plan de contingencia para el flujo.» se da por logrado si las seis respuestas son concretas para tu flujo: cómo
-te das cuenta de la falla, dónde lo detienes, cómo sigue el trabajo a mano, cómo recuperas lo que falló, a quién avisas y quién
-responde, con nombre y con un reemplazo.
+La actividad se aprueba con 60 % o más.
 
 ## Referencias bibliográficas
 

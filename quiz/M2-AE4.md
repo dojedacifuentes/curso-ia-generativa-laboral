@@ -1,7 +1,7 @@
 # Quiz M2-AE4 · Planillas de cálculo con IA
 
 **Misión:** leer cada fórmula que propone la IA y comprobarla antes de confiar en su número
-**Cuándo:** al terminar el Rise M2-T4 · Planillas de cálculo con IA, antes del Hito 2 del proyecto aplicado.
+**Cuándo:** al terminar el tema «Planillas de cálculo con IA», antes del Hito 2 del proyecto aplicado.
 **Insignia:** Fórmula comprobada · **Siguiente parada:** Hito 2 del proyecto, brief y presentación de 6 láminas
 **Estilo:** acento #34d399 · acento2 #ff7a59 · fondo circuito · lema La IA propone, tú compruebas
 **Ilustración:** flujo | Tus datos (bd) · La fórmula (numeral) · El resultado (barras)

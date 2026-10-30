@@ -152,7 +152,7 @@ for (const id of ids) {
     fs.writeFileSync(salida, html(j, m));
     const interactiva = htmlInteractivo(j, m, { curso, ac: ACENTO[m.n], semaforo: SEMAFORO, icono, esc, negrita, fuentes: FUENTES, logo: LOGO_OSCURO, arcos, C, firma: FIRMA });
     fs.writeFileSync(path.join(SALIDA, `${id}-Infografia-interactiva.html`), interactiva);
-    const titulo = `Infografía M${m.n} · ${j.titulo}`;
+    const titulo = `Infografía del módulo ${m.n} · ${j.titulo}`;
     fs.writeFileSync(path.join(SALIDA, `${id}-Infografia-SCORM.zip`), crearZip([
       { nombre: 'imsmanifest.xml', contenido: manifiesto(`${id}-INFOGRAFIA`, titulo) }, { nombre: 'index.html', contenido: interactiva }], { fecha: FECHA_ZIP }));
     let info = ' · interactiva · SCORM';

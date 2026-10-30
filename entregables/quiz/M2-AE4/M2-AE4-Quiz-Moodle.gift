@@ -6,7 +6,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M2-AE4
 =80
 ~Embalaje
 ~Caja mediana
-####El índice 4 trae la cuarta columna del intervalo A2\:E7, que es Unidades. El precio, 800, está en la columna 5; el índice se cuenta desde la primera columna del intervalo. Pantalla P06 del Rise M2-T4\: «BUSCARV\: traer un dato de otra columna».
+####El índice 4 trae la cuarta columna del intervalo A2\:E7, que es Unidades. El precio, 800, está en la columna 5; el índice se cuenta desde la primera columna del intervalo.
 }
 
 ::M2-AE4-P2 (S1 C1)::Con la tabla de práctica (Embalaje\: cinta 150, caja 80 y film 25 unidades), ¿qué resultado da \=SUMAR.SI(C2\:C7;"Embalaje";D2\:D7)? {
@@ -14,14 +14,14 @@ $CATEGORY: IA-generativa-laboral/Formativos/M2-AE4
 ~406500, el valor total del stock de Embalaje
 ~60, la suma de las unidades de EPP
 =255, la suma de las unidades de Embalaje
-####SUMAR.SI revisa la condición en C2\:C7 y suma lo que está en D2\:D7, las unidades\: 150 + 80 + 25 \= 255. Para el valor total, el intervalo de suma tendría que ser la columna F. Pantalla P05 del Rise M2-T4\: «SUMAR.SI\: sumar con una condición».
+####SUMAR.SI revisa la condición en C2\:C7 y suma lo que está en D2\:D7, las unidades\: 150 + 80 + 25 \= 255. Para el valor total, el intervalo de suma tendría que ser la columna F.
 }
 
 ::M2-AE4-P3 (C1 S1)::En I2 va la suma del valor total de la categoría escrita en H2, y Andrés copiará la fórmula a I3 para la otra categoría. ¿Cuál debe escribir en I2? {
 ~\=SUMAR.SI(C2\:C7;H2;F2\:F7)
 =\=SUMAR.SI($C$2\:$C$7;H2;$F$2\:$F$7)
 ~\=SUMAR.SI($C$2\:$C$7;$H$2;$F$2\:$F$7)
-####Los rangos de datos no deben moverse al copiar, así que llevan $; la categoría sí debe pasar de H2 a H3. Sin $ en los rangos, I3 mira C3\:C8 y deja fuera la fila 2; con $H$2, I3 repite la misma categoría. Pantalla P04 del Rise M2-T4\: «Referencias relativas, absolutas y mixtas».
+####Los rangos de datos no deben moverse al copiar, así que llevan $; la categoría sí debe pasar de H2 a H3. Sin $ en los rangos, I3 mira C3\:C8 y deja fuera la fila 2; con $H$2, I3 repite la misma categoría.
 }
 
 ::M2-AE4-P4 (C2 A1)::Andrés copió su fórmula de I2 a I3. I2 coincide con su cálculo a mano y no aparece ningún mensaje de error. «Ya puede dar por buena la tabla resumen.» ¿Es verdadero o falso? {
@@ -29,7 +29,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M2-AE4
 ~Verdadero, porque I3 tiene la misma fórmula que I2
 =Falso, porque debe revisar también I3\: el rango pudo moverse al copiar
 ~Falso, porque SUMAR.SI no sirve para sumar por categoría
-####Los errores de referencia aparecen al copiar, y la primera fila puede estar bien. Los errores más peligrosos no muestran aviso\: se compara I3 con el cálculo a mano y se lee su fórmula en la barra. Pantalla P11 del Rise M2-T4\: «Error de referencia\: el rango que se mueve».
+####Los errores de referencia aparecen al copiar, y la primera fila puede estar bien. Los errores más peligrosos no muestran aviso\: se compara I3 con el cálculo a mano y se lee su fórmula en la barra.
 }
 
 ::M2-AE4-P5 (C2 S1)::Gemini propone \=BUSCARV(K2;$A$2\:$E$7;5) para traer el precio. Con los datos de práctica, el resultado sale correcto. ¿Qué riesgo tiene la fórmula? {
@@ -37,21 +37,21 @@ $CATEGORY: IA-generativa-laboral/Formativos/M2-AE4
 ~Mostrará \#REF!, porque le falta un argumento obligatorio
 =Sin FALSO busca una coincidencia aproximada\: con códigos desordenados puede traer el precio de otro producto
 ~El índice 5 está fuera del intervalo A2\:E7
-####Si se omite el último argumento, BUSCARV supone VERDADERO y busca una coincidencia aproximada. Funciona si la primera columna está ordenada, como en la práctica, pero puede fallar sin avisar con otros datos. Pantalla P13 del Rise M2-T4\: «Errores de lógica en BUSCARV».
+####Si se omite el último argumento, BUSCARV supone VERDADERO y busca una coincidencia aproximada. Funciona si la primera columna está ordenada, como en la práctica, pero puede fallar sin avisar con otros datos.
 }
 
 ::M2-AE4-P6 (S2 H1)::Andrés necesita sumar el valor total de los EPP. ¿Cuál pedido a Gemini tiene más probabilidades de dar una fórmula que funcione a la primera? {
 =«Uso Google Sheets en español, con punto y coma. C\: categoría; F\: valor total; filas 2 a 7. Suma el valor de EPP»
 ~«Dame una fórmula para sumar los EPP, que sea la correcta»
 ~«Eres experto en planillas. Dame la mejor fórmula para sumar los EPP»
-####La IA no ve tu planilla\: necesita el programa, el separador, qué hay en cada columna y desde qué fila. Pedir «la correcta» o sumar un rol no le dice dónde están los datos. Pantalla P07 del Rise M2-T4\: «Cómo pedirle una fórmula a la IA».
+####La IA no ve tu planilla\: necesita el programa, el separador, qué hay en cada columna y desde qué fila. Pedir «la correcta» o sumar un rol no le dice dónde están los datos.
 }
 
 ::M2-AE4-P7 (S3 A2 C2)::Andrés pidió el valor total de los EPP. Gemini le dio \=SUMAR.SI(C2\:C7;"EPP";D2\:D7) y explicó, muy seguro, que «suma el valor total de los EPP». ¿Qué conviene hacer? {
 ~Usarla, porque la explicación es clara y ordenada
 ~Pedirle a Gemini que confirme la fórmula y usarla si dice que sí
 =Filtrar EPP y sumar a mano los valores totales\: deben dar 458720, y la fórmula da 60
-####Una explicación ordenada no prueba que la fórmula sea correcta\: esta suma la columna D, las unidades. Lo que la prueba es que el resultado coincida con un camino distinto que hiciste tú. Pantalla P16 del Rise M2-T4\: «Pide la explicación, pero no la creas a ciegas».
+####Una explicación ordenada no prueba que la fórmula sea correcta\: esta suma la columna D, las unidades. Lo que la prueba es que el resultado coincida con un camino distinto que hiciste tú.
 }
 
 ::M2-AE4-P8 (S3 A1)::Para comprobar que F2 (\=D2*E2) mira las celdas correctas, Andrés cambia por un momento las unidades de D2 de 40 a 41. ¿Qué debería pasar si la fórmula está bien? {
@@ -59,5 +59,5 @@ $CATEGORY: IA-generativa-laboral/Formativos/M2-AE4
 ~F2 no cambia, porque la fórmula ya estaba calculada
 ~F2 sube 1, lo mismo que subieron las unidades
 ~Aparece un mensaje de error hasta que se copie de nuevo la fórmula
-####Si la fórmula multiplica unidades por precio, una unidad más suma exactamente un precio unitario\: 3500. Si F2 no cambia, la fórmula no está mirando esa celda; después se devuelve D2 a 40. Pantalla P09 del Rise M2-T4\: «Verificar con datos de prueba».
+####Si la fórmula multiplica unidades por precio, una unidad más suma exactamente un precio unitario\: 3500. Si F2 no cambia, la fórmula no está mirando esa celda; después se devuelve D2 a 40.
 }

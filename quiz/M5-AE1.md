@@ -1,8 +1,8 @@
 # Quiz M5-AE1 · Potencial de automatización
 
 **Misión:** elegir qué tareas de tu cargo conviene automatizar primero y fundamentar por qué
-**Cuándo:** al terminar el Rise M5-T1 · Potencial de automatización, antes de pasar a flujos simples con IA.
-**Insignia:** Analista de tareas · **Siguiente parada:** Rise M5-T2, flujos simples con IA
+**Cuándo:** al terminar el tema «Potencial de automatización», antes de pasar a flujos simples con IA.
+**Insignia:** Analista de tareas · **Siguiente parada:** tema «Flujos simples con IA»
 **Estilo:** acento #fbbf24 · acento2 #a78bfa · fondo neuronas · lema Tarea por tarea, con impacto y riesgo
 **Ilustración:** flujo | Tu cargo (doc) · Cada tarea (numeral) · Tu matriz (barras)
 

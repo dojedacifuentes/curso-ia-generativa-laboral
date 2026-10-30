@@ -3,6 +3,14 @@
 ## Actividad 1 · Los pedidos de ventas a la bodega
 cubre: H1, C1, C2
 fuentes: F-H-94, F-M5-10
+entrega: foro
+
+### Instrucción general
+
+Vas a construir con datos de prueba un flujo que lee correos de pedidos, saca con IA el producto y la cantidad y deja una fila en una
+planilla, y lo vas a someter a un plan de pruebas. Así aprendes a armar un flujo y a encontrar sus fallas antes de usarlo en serio.
+Publica tus capturas, tu plan de pruebas y tus correcciones en el foro del módulo; como todo es inventado, el curso puede verlo. Se
+evalúa con la rúbrica de abajo, y el facilitador te responde en el foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -19,7 +27,7 @@ cantidad, y anota tú las filas después de revisarlas.
 
 1. En tu cuenta de práctica, crea la planilla «Pedidos de ventas (prueba)» con las columnas Fecha, Remitente, Asunto y Análisis de la IA, y envíate cuatro correos inventados con asunto «[PRUEBA] Pedido»: uno con un producto y una cantidad claros, uno con dos productos, uno sin cantidad y uno sin «[PRUEBA]» en el asunto.
 2. Dibuja el flujo en una tabla de cuatro pasos, con lo que recibe y entrega cada uno: disparador de Gmail, condición «el asunto contiene [PRUEBA]», acción con IA y fila nueva en la planilla.
-3. Constrúyelo con un nombre claro, como «M5 · Pedidos de ventas · v1». En la instrucción para la IA pide «Producto: … · Cantidad: …» y que escriba «sin dato» si el correo no lo trae.
+3. Constrúyelo con un nombre claro, como «Pedidos de ventas · v1». En la instrucción para la IA pide «Producto: … · Cantidad: …» y que escriba «sin dato» si el correo no lo trae.
 4. Antes de mapear, escribe a mano tu propio correo de práctica en el campo Remitente y corre el flujo con dos correos de prueba. Mira qué pasa en la planilla.
 5. Corrige ese campo mapeándolo desde el paso de Gmail y vuelve a correr la prueba.
 6. Arma un plan de pruebas con los cuatro correos, con el resultado esperado de cada uno, córrelo y marca con una X lo que no coincida.
@@ -31,23 +39,32 @@ celular, el error equivalente es pedirle a Gemini un remitente fijo en el texto 
 
 ### Lo que entregas
 
-Una captura de la tabla del flujo, una captura del flujo armado y una de la planilla antes y después de corregir el remitente, todas
-con datos de prueba. Suma tu plan de pruebas completo, con la columna de lo obtenido y las X, y dos o tres líneas por cada falla con
-lo que cambiaste.
+Publica en el foro del módulo una captura de la tabla del flujo, una captura del flujo armado y una de la planilla antes y después de
+corregir el remitente, todas con datos de prueba. Suma tu plan de pruebas completo, con la columna de lo obtenido y las X, y dos o
+tres líneas por cada falla con lo que cambiaste.
 
-### Cómo se revisa
+### Rúbrica
 
-El criterio «Construye un flujo funcional de 3 a 5 pasos.» se da por logrado si el flujo tiene entre tres y cinco pasos, el
-disparador se activa con los correos de prueba y cada paso recibe los datos correctos del anterior: cada fila trae el remitente, el
-asunto y el análisis de su propio correo.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Diseña el flujo | 20 % | La tabla tiene los cuatro pasos, con lo que recibe y lo que entrega cada uno. | Están los cuatro pasos, pero a alguno le falta lo que recibe o lo que entrega. | No hay tabla del flujo, o no se distinguen sus pasos. |
+| Construye un flujo funcional | 30 % | Las capturas muestran un flujo de tres a cinco pasos que se activa con los correos de prueba, y cada fila trae el remitente, el asunto y el análisis de su propio correo, con el antes y el después del remitente. | El flujo se activa, pero alguna fila trae datos que no son de su correo o falta la captura del antes o del después. | Las capturas no muestran que el flujo se active, o el flujo no tiene entre tres y cinco pasos. |
+| Prueba el flujo | 30 % | El plan incluye los cuatro correos, con el resultado esperado y el obtenido de cada uno, y marca con X lo que no coincide. | El plan está, pero falta un correo, falta lo esperado o lo obtenido, o alguna diferencia no está marcada. | No hay plan de pruebas, o solo prueba los correos que salen bien. |
+| Corrige las fallas | 20 % | Cada falla marcada tiene lo que se cambió, en qué versión y una nueva prueba que muestra que se resolvió. | Las fallas tienen su corrección, pero alguna no tiene versión o no se volvió a probar. | Las fallas quedan sin corrección. |
 
-El criterio «Prueba el flujo y corrige fallas.» se da por logrado si el plan de pruebas incluye el correo sin «[PRUEBA]», que debe
-quedar fuera, y el correo sin cantidad, en el que la IA no debe inventar un número. Se mira además que cada falla marcada tenga su
-corrección y una nueva prueba que muestre que se resolvió.
+La actividad se aprueba con 60 % o más.
 
 ## Actividad 2 · Un flujo para una tarea de tu cargo
 cubre: H1, C1, C2
 fuentes: F-M5-06, F-M5-11
+entrega: tarea
+
+### Instrucción general
+
+Vas a convertir en un flujo de prueba la tarea que elegiste en tu matriz del tema anterior, y a buscar a propósito los casos en que
+falla. Es el prototipo que después vas a supervisar y llevar a tu proyecto final. Súbelo como tarea en el aula, en un documento con
+la tabla, las capturas, el plan de pruebas y la ficha; solo lo ven tú y el facilitador. El facilitador lo revisa con la rúbrica de
+abajo y te deja su retroalimentación en un plazo de hasta 72 horas.
 
 ### Situación
 
@@ -74,18 +91,19 @@ ejecutar lo que falló para no perder datos [@F-M5-11]. Busca la opción equival
 
 ### Lo que entregas
 
-La tabla del flujo, capturas del flujo armado y de un resultado correcto, tu plan de pruebas con lo esperado y lo obtenido, y la ficha
-del flujo. Ninguna captura debe mostrar datos reales de la empresa ni de personas.
+Sube como tarea en el aula la tabla del flujo, capturas del flujo armado y de un resultado correcto, tu plan de pruebas con lo
+esperado y lo obtenido, y la ficha del flujo. Ninguna captura debe mostrar datos reales de la empresa ni de personas.
 
-### Cómo se revisa
+### Rúbrica
 
-El criterio «Construye un flujo funcional de 3 a 5 pasos.» se da por logrado si el flujo tiene entre tres y cinco pasos, uno con IA y
-otro con correo, planilla o calendario, y si las capturas muestran que el disparador se activa y que cada paso recibe los datos
-correctos del anterior.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Diseña el flujo | 25 % | La tabla tiene de tres a cinco pasos con lo que recibe y entrega cada uno; uno usa IA, otro usa correo, planilla o calendario, y cada paso usa solo datos de los anteriores. | La tabla está, pero a algún paso le falta lo que recibe o entrega, o un paso usa datos que no vienen de los anteriores. | No hay diseño, o el flujo no tiene un paso con IA y otro con correo, planilla o calendario. |
+| Construye un flujo funcional | 25 % | Las capturas muestran que el disparador se activa y que cada paso recibe los datos correctos del anterior, sin datos reales de la empresa ni de personas. | El flujo corre, pero las capturas no muestran todos los pasos o algún dato llega mal al paso siguiente. | Las capturas no muestran el flujo funcionando, o muestran datos reales de la empresa o de personas. |
+| Prueba y corrige fallas | 30 % | Hay al menos cinco casos con lo esperado y lo obtenido, incluido uno que debe detenerse y uno casi vacío, y cada falla tiene su causa, lo que se cambió y la prueba repetida. | Hay cinco casos, pero falta el que debe detenerse o el casi vacío, o alguna falla no tiene causa o prueba repetida. | Hay menos de cinco casos, o las fallas no se corrigen. |
+| Documenta el flujo | 20 % | La ficha tiene nombre, propósito, disparador, pasos, datos, dependencias y pruebas, y registra la cuenta conectada y el límite del plan gratuito. | La ficha está, pero le faltan uno o dos campos, o no registra las dependencias. | No hay ficha. |
 
-El criterio «Prueba el flujo y corrige fallas.» se da por logrado si hay al menos cinco casos con resultado esperado y obtenido,
-incluido uno que debe detenerse y uno casi vacío, y si cada falla tiene anotada su causa, lo que se cambió y la prueba repetida. Se
-mira también que la ficha registre las dependencias, como la cuenta conectada y el límite del plan gratuito.
+La actividad se aprueba con 60 % o más.
 
 ## Referencias bibliográficas
 

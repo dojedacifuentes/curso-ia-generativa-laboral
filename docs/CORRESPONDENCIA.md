@@ -1,6 +1,6 @@
 # Correspondencia contenido ↔ planilla
 
-Generado con `node scripts/correspondencia.mjs` el 2026-10-29. Fuente: planilla «Estructura_inicial_contenido_IA_generativa»
+Generado con `node scripts/correspondencia.mjs` el 2026-10-30. Fuente: planilla «Estructura_inicial_contenido_IA_generativa»
 (hojas Estructura, Matriz coherencia, Recursos y Casos y proyecto) importada en `data/curso.json`.
 
 **Resultado:** todo calza · 338 pantallas (la planilla pide 338)

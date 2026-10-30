@@ -6,7 +6,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M1-AE2
 =«Un paciente reclama porque le cambiaron la hora sin aviso»
 ~«Redacta una respuesta»
 ~«Entrégala en cuatro líneas, con tono cordial»
-####El contexto explica la situación\: qué pasó y con quién. «Actúa como…» es el rol, «Redacta» es la tarea y «cuatro líneas, tono cordial» es el formato. Pantalla P02 del Rise M1-T2\: «Anatomía de un prompt».
+####El contexto explica la situación\: qué pasó y con quién. «Actúa como…» es el rol, «Redacta» es la tarea y «cuatro líneas, tono cordial» es el formato.
 }
 
 ::M1-AE2-P2 (S1 C1)::Andrés escribe\: «Actúa como encargado de bodega. Redacta un aviso en tres líneas, con tono directo». Para cumplir la meta mínima de este tema, ¿qué componente le falta? {
@@ -14,7 +14,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M1-AE2
 ~El formato\: la forma, el largo y el tono
 =El contexto\: qué pasó, quién leerá el aviso y para qué
 ~La tarea\: qué tiene que hacer el asistente
-####El prompt tiene rol, tarea y formato, pero no dice la situación ni a quién va dirigido. Sin contexto, el asistente no sabe qué es lo importante y entrega algo genérico. Pantalla P03 del Rise M1-T2\: «Rol y contexto\: ponerlo al día».
+####El prompt tiene rol, tarea y formato, pero no dice la situación ni a quién va dirigido. Sin contexto, el asistente no sabe qué es lo importante y entrega algo genérico.
 }
 
 ::M1-AE2-P3 (S1 H1 C1)::Camila debe resumir el acta de una reunión para dos compañeras que no asistieron. ¿Cuál de estos prompts es el mejor? {
@@ -22,7 +22,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M1-AE2
 ~«Resume esta acta para mis compañeras, pero que no quede largo ni muy formal»
 ~«Actúa como asistente administrativa y resume el acta de la reunión de hoy»
 =«Actúa como asistente administrativa. Resume los acuerdos para dos compañeras que no asistieron, en cinco viñetas. Usa solo el acta»
-####La opción d tiene rol, contexto, tarea, formato y una restricción. La a mezcla tres tareas, la b dice solo lo que no quiere y la c no da contexto ni formato. Pantalla P07 del Rise M1-T2\: «Antes y después\: resumir».
+####La opción d tiene rol, contexto, tarea, formato y una restricción. La a mezcla tres tareas, la b dice solo lo que no quiere y la c no da contexto ni formato.
 }
 
 ::M1-AE2-P4 (S2)::Camila envía un solo mensaje\: «Resume este instructivo, responde el correo del proveedor y escribe un recordatorio para mi jefatura». Recibe las tres cosas a medias. ¿Qué error cometió? {
@@ -30,14 +30,14 @@ $CATEGORY: IA-generativa-laboral/Formativos/M1-AE2
 ~Le faltó un ejemplo de cómo quería cada una de las tres respuestas
 ~Dio demasiado contexto sobre el instructivo y el asistente se confundió
 ~No indicó un rol, que es el componente que más cambia la respuesta
-####Juntar varias tareas en un prompt parece más rápido, pero suele dar un resultado a medias. Lo recomendado es dividir\: primero el resumen, después el correo, después el recordatorio. Pantalla P06 del Rise M1-T2\: «Errores frecuentes al escribir prompts».
+####Juntar varias tareas en un prompt parece más rápido, pero suele dar un resultado a medias. Lo recomendado es dividir\: primero el resumen, después el correo, después el recordatorio.
 }
 
 ::M1-AE2-P5 (S1 H1)::Para que el asistente ordene facturas en una tabla, Camila pega antes doce filas de ejemplo ya llenas con otras facturas. ¿Qué riesgo corre? {
 ~Ninguno\: mientras más ejemplos le da, mejor sigue el formato
 =Que el asistente copie de más esos ejemplos en vez de trabajar con sus datos
 ~Que el asistente no acepte tablas dentro de un prompt
-####Uno o dos ejemplos bien elegidos orientan el formato. Muchos ejemplos parecidos pueden hacer que el asistente copie su contenido y pierda flexibilidad. Pantalla P05 del Rise M1-T2\: «Ejemplos y datos dentro del prompt».
+####Uno o dos ejemplos bien elegidos orientan el formato. Muchos ejemplos parecidos pueden hacer que el asistente copie su contenido y pierda flexibilidad.
 }
 
 ::M1-AE2-P6 (S3 C2)::Ordena el ciclo de iteración. 1\: Ajustas el prompt o haces una pregunta de seguimiento. 2\: Pides con tu mejor prompt. 3\: Repites hasta que la respuesta sea útil. 4\: Revisas si la respuesta sirve. {
@@ -45,7 +45,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M1-AE2
 ~4 → 2 → 1 → 3
 =2 → 4 → 1 → 3
 ~2 → 4 → 3 → 1
-####Primero pides, luego revisas, después ajustas y repites hasta que sirva. Ajustar antes de revisar es cambiar el prompt sin saber qué falló. Pantalla P10 del Rise M1-T2\: «Iterar\: la segunda vuelta».
+####Primero pides, luego revisas, después ajustas y repites hasta que sirva. Ajustar antes de revisar es cambiar el prompt sin saber qué falló.
 }
 
 ::M1-AE2-P7 (S3 H1 C2)::Andrés pide un resumen del reporte semanal y la respuesta agrega un proveedor que el reporte no menciona. ¿Qué ajuste corresponde en la segunda vuelta? {
@@ -53,12 +53,12 @@ $CATEGORY: IA-generativa-laboral/Formativos/M1-AE2
 ~Cambiar el rol por el de jefe de bodega, para que responda con más autoridad
 ~Pedir una respuesta más larga, para que incluya más detalles del reporte
 =Agregar una restricción\: «usa solo el texto del reporte que te pegué»
-####Si la respuesta agrega datos que no diste, faltó una restricción sobre qué información usar. La primera respuesta es un punto de partida\: una iteración bien dirigida suele bastar. Pantalla P11 del Rise M1-T2\: «Leer la respuesta para saber qué ajustar».
+####Si la respuesta agrega datos que no diste, faltó una restricción sobre qué información usar. La primera respuesta es un punto de partida\: una iteración bien dirigida suele bastar.
 }
 
 ::M1-AE2-P8 (H2 A2)::Andrés va a guardar en su biblioteca el prompt que le funcionó. La versión final dice «avisa a Pedro Soto, del local de Maipú, al 9 8765 4321, que…». ¿Qué hace antes de guardarla? {
 ~La guarda tal cual, para no perder la versión exacta que funcionó
 =Reemplaza el nombre, el local y el teléfono por corchetes, como [cliente] y [teléfono]
 ~Le quita el rol y el formato, para que sirva en más situaciones
-####Una plantilla se reutiliza y se comparte, así que las partes variables van entre corchetes y no debe tener datos personales. Quitarle componentes la hace menos útil, no más general. Pantalla P14 del Rise M1-T2\: «De prompt a plantilla».
+####Una plantilla se reutiliza y se comparte, así que las partes variables van entre corchetes y no debe tener datos personales. Quitarle componentes la hace menos útil, no más general.
 }

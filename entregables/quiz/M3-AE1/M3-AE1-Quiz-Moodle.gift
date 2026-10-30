@@ -5,7 +5,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M3-AE1
 =Un buscador con citas, como Perplexity
 ~Un asistente sobre fuentes propias, como Gemini Notebook
 ~Un asistente general sin búsqueda, para que redacte el panorama
-####Para saber qué se ha publicado y tener enlaces se usa un buscador con citas. Un asistente sobre fuentes propias solo responde con documentos que ya reuniste, y Andrés aún no tiene ninguno. Pantalla P15 del Rise M3-T1\: «Elegir la herramienta según la necesidad».
+####Para saber qué se ha publicado y tener enlaces se usa un buscador con citas. Un asistente sobre fuentes propias solo responde con documentos que ya reuniste, y Andrés aún no tiene ninguno.
 }
 
 ::M3-AE1-P2 (S3 H1)::Camila ya guardó en PDF cinco guías públicas sobre cómo archivar documentos digitales. Quiere preguntarles qué prácticas se repiten y que cada respuesta indique de qué guía sale. ¿Qué tipo de herramienta le sirve más? {
@@ -13,7 +13,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M3-AE1
 =Un asistente sobre fuentes propias, que responde a partir de los documentos que ella sube
 ~La investigación a fondo, porque revisa muchas páginas a la vez
 ~Un asistente general sin búsqueda, porque ya conoce las prácticas típicas
-####Cuando ya tienes los documentos, el asistente sobre fuentes propias responde con ellos y cita la parte de cada uno. El buscador con citas consulta internet, no los PDF que Camila reunió. Pantalla P10 del Rise M3-T1\: «Trabajar sobre tus documentos\: Gemini Notebook».
+####Cuando ya tienes los documentos, el asistente sobre fuentes propias responde con ellos y cita la parte de cada uno. El buscador con citas consulta internet, no los PDF que Camila reunió.
 }
 
 ::M3-AE1-P3 (C1 H1)::Andrés tiene el tema «falta de cajas en la bodega». ¿Cuál es la pregunta de investigación más específica? {
@@ -21,7 +21,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M3-AE1
 ~¿Qué se ha escrito en el mundo sobre logística en todo tipo de empresas?
 =¿Qué recomiendan las guías de organismos públicos de Chile para que las bodegas pequeñas no se queden sin cajas de embalaje?
 ~¿Es grave quedarse sin cajas en una bodega?
-####La opción c dice quién (bodegas pequeñas), qué (cajas de embalaje) y dónde (Chile), así que se sabe qué respuesta esperar. La opción b trae más resultados, pero menos útiles\: más amplia no es mejor. Pantalla P04 del Rise M3-T1\: «Preguntas específicas\: antes y después».
+####La opción c dice quién (bodegas pequeñas), qué (cajas de embalaje) y dónde (Chile), así que se sabe qué respuesta esperar. La opción b trae más resultados, pero menos útiles\: más amplia no es mejor.
 }
 
 ::M3-AE1-P4 (C1 H1)::Rosa quiere pasar de un tema amplio a una búsqueda precisa. Ordena los pasos\: (1) preparar sinónimos; (2) identificar el tema general; (3) reconocer los conceptos clave; (4) acotar con criterios como lugar o período. {
@@ -29,7 +29,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M3-AE1
 ~2 → 3 → 4 → 1
 ~1 → 2 → 4 → 3
 ~2 → 4 → 1 → 3
-####Primero se identifica el tema, luego se acota, después se reconocen sus conceptos clave y al final se preparan sinónimos para repetir la búsqueda. Los conceptos clave salen del tema ya acotado, por eso no van antes de acotar. Pantalla P03 del Rise M3-T1\: «Del tema general a la pregunta de investigación».
+####Primero se identifica el tema, luego se acota, después se reconocen sus conceptos clave y al final se preparan sinónimos para repetir la búsqueda. Los conceptos clave salen del tema ya acotado, por eso no van antes de acotar.
 }
 
 ::M3-AE1-P5 (S2)::«Si la respuesta de un buscador con citas trae un número junto a cada afirmación, ya está verificada.» ¿Es verdadero o falso? {
@@ -37,7 +37,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M3-AE1
 ~Verdadero, porque el buscador consulta internet en tiempo real y resume lo que encuentra
 =Falso, porque una cita puede ser inventada o no decir eso\: hay que abrirla
 ~Falso, porque los buscadores con citas no muestran de dónde sacan los datos
-####Una cita es una pista para ir a la fuente\: NIST advierte que la IA puede producir contenido falso e incluso citas inventadas. Buscar en el momento no garantiza que lo resumido sea correcto; la verificación la haces tú al abrir cada cita. Pantalla P06 del Rise M3-T1\: «Cómo funciona un buscador con citas».
+####Una cita es una pista para ir a la fuente\: NIST advierte que la IA puede producir contenido falso e incluso citas inventadas. Buscar en el momento no garantiza que lo resumido sea correcto; la verificación la haces tú al abrir cada cita.
 }
 
 ::M3-AE1-P6 (C2 S2)::En su registro de fuentes, Andrés anotó un dato con «Fuente\: Perplexity». ¿Cómo corrige mejor ese registro? {
@@ -45,7 +45,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M3-AE1
 =Anota la página a la que lleva la cita\: título, quién la publica, fecha y enlace
 ~Copia el resumen que redactó Perplexity, porque ahí está el dato con su número de cita
 ~Agrega «y Gemini», para registrar dos herramientas
-####Perplexity es la herramienta con que encontró el dato; la fuente es la página a la que lleva la cita. El resumen redactado tampoco es la fuente\: lo que se registra es la página de origen. Pantalla P16 del Rise M3-T1\: «Registrar las fuentes con su cita».
+####Perplexity es la herramienta con que encontró el dato; la fuente es la página a la que lleva la cita. El resumen redactado tampoco es la fuente\: lo que se registra es la página de origen.
 }
 
 ::M3-AE1-P7 (C2 S3)::Rosa pregunta a su cuaderno de Gemini Notebook qué recomiendan sus guías sobre confirmar horas. La respuesta trae tres citas. ¿Qué debe hacer antes de anotarla en su registro? {
@@ -53,7 +53,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M3-AE1
 =Tocar cada cita y comparar con el párrafo de origen
 ~Pedir a un asistente general que confirme si la respuesta es correcta
 ~Anotar «Fuente\: Gemini Notebook» para no perder la respuesta
-####Trabajar sobre tus documentos reduce el riesgo, pero no lo elimina\: puede resumir mal o mezclar ideas de dos guías. Por eso se toca cada cita y se compara con el texto antes de registrar la fuente. Pantalla P10 del Rise M3-T1\: «Trabajar sobre tus documentos\: Gemini Notebook».
+####Trabajar sobre tus documentos reduce el riesgo, pero no lo elimina\: puede resumir mal o mezclar ideas de dos guías. Por eso se toca cada cita y se compara con el texto antes de registrar la fuente.
 }
 
 ::M3-AE1-P8 (S1)::Camila usó Deep Research y recibió un informe largo con veinte fuentes sobre su tema. ¿Cuál es el mejor uso de ese informe? {
@@ -61,5 +61,5 @@ $CATEGORY: IA-generativa-laboral/Formativos/M3-AE1
 =Usarlo como mapa\: elegir qué fuentes abrir y comprobar cada dato
 ~Repetir Deep Research para cada pregunta puntual que le surja
 ~Descartarlo, porque un informe largo nunca sirve para investigar
-####La investigación a fondo da un panorama inicial, pero cada dato se comprueba abriendo su fuente, como en cualquier respuesta. Para preguntas puntuales conviene la búsqueda con citas, que es más rápida y gasta menos. Pantalla P14 del Rise M3-T1\: «Investigación a fondo\: cuándo vale la pena».
+####La investigación a fondo da un panorama inicial, pero cada dato se comprueba abriendo su fuente, como en cualquier respuesta. Para preguntas puntuales conviene la búsqueda con citas, que es más rápida y gasta menos.
 }

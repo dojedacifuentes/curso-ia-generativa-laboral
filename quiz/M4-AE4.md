@@ -1,7 +1,7 @@
 # Quiz M4-AE4 · Clips y video breve
 
 **Misión:** ordenar la producción, afinar el guion y dejar la ficha del clip en regla
-**Cuándo:** al terminar el Rise M4-T4 · Clips y video breve, antes de entregar el Hito 4 del proyecto.
+**Cuándo:** al terminar el tema «Clips y video breve», antes de entregar el Hito 4 del proyecto.
 **Insignia:** Clip en 60 segundos · **Siguiente parada:** Proyecto aplicado, Hito 4: pieza multimedia que comunica la solución
 **Estilo:** acento #a78bfa · acento2 #5eead4 · fondo neuronas · lema Un minuto que se entiende, se escucha y se puede respaldar
 **Ilustración:** flujo | Imagen (chispa) · Voz y música (sonido) · Tu clip (play)

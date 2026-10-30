@@ -3,6 +3,14 @@
 ## Actividad 1 · Los resultados de Camila, sin adornos
 cubre: H1, C1, C2
 fuentes: F-M6-11, F-M6-12
+entrega: foro
+
+### Instrucción general
+
+Vas a ayudar a Camila a dejar sus resultados en algo que pueda defender: una tabla honesta, una interpretación con sus límites, una
+mejora y un guion de pitch de 3 minutos. Es la práctica del cierre que harás con tu propio proyecto. Publica todo en el foro del
+módulo, en el mensaje o en un documento adjunto. Se evalúa con la rúbrica de abajo, y el facilitador te responde en el foro dentro de
+24 horas hábiles.
 
 ### Situación
 
@@ -26,32 +34,39 @@ errores». Antes de presentarlo, te pide que la ayudes a dejarlo en algo que pue
 3. Reescribe el borrador de Camila diciendo la dirección y el tamaño del cambio, el periodo y qué se puede concluir y qué no, con los
    límites a la vista y no al final [@F-M6-12].
 4. Propón una mejora concreta para las fotos borrosas, con qué cambiaría, por qué y cómo la mediría en el próximo ciclo.
-5. Escribe el guion de un pitch de 3 minutos para la gerenta con las seis partes del tema: apertura, problema, solución, evidencia,
+5. Escribe el guion de un pitch de 3 minutos para la gerenta con estas seis partes: apertura, problema, solución, evidencia,
    límites y mejoras, y llamado a la acción.
 6. Si le pides a Gemini que acorte el guion, indícale que no cambie ni agregue cifras. Después compara cada número del guion con tu
    tabla.
-7. Lee el guion en voz alta con el cronómetro del celular, corta si te pasas y haz la prueba de las dos frases con alguien de
-   confianza.
+7. Lee el guion en voz alta con el cronómetro del celular, corta si te pasas y haz la prueba de las dos frases: resume tu pitch en dos frases, mándaselo a alguien de confianza y pídele que te lo explique de vuelta.
 
 ### Lo que entregas
 
-La tabla de resultados, el borrador reescrito, la propuesta de mejora y el guion del pitch, con una línea al final que diga cuánto
-duró al leerlo en voz alta y qué cambiaste después de la prueba de las dos frases.
+Publica en el foro del módulo la tabla de resultados, el borrador reescrito, la propuesta de mejora y el guion del pitch, con una
+línea al final que diga cuánto duró al leerlo en voz alta y qué cambiaste después de la prueba de las dos frases.
 
-### Cómo se revisa
+### Rúbrica
 
-Se revisa con dos criterios de la planilla, y cada uno queda logrado, parcial o no logrado. Para «Compara los resultados con la línea
-base.» se mira que la diferencia con la línea base esté bien calculada, con número y unidad, que la tabla diga con claridad que la
-meta no se alcanzó, que el dato de errores quede como faltante y que la interpretación separe lo que pudo aportar la práctica de lo
-que aportó el flujo.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Compara con la línea base | 25 % | La tabla tiene línea base, meta, resultado y diferencia con número y unidad, dice con claridad si se cumplió la meta y deja como faltante el dato que no está. | La tabla está, pero la diferencia tiene un error o no tiene unidad, o el cumplimiento de la meta queda ambiguo. | No hay tabla, o completa el dato que falta. |
+| Interpreta el resultado | 25 % | Usa los casos sin IA para separar lo que pudo aportar la práctica de lo que aportó el flujo, y el borrador reescrito dice dirección, tamaño, periodo y límites. | La interpretación o el borrador están, pero no separan la práctica del flujo o dejan los límites al final. | Atribuye toda la mejora al flujo, o mantiene afirmaciones sin respaldo. |
+| Propone una mejora | 15 % | La mejora dice qué cambia, por qué y cómo se medirá en el próximo ciclo. | La mejora está, pero le falta el porqué o cómo medirla. | No hay propuesta, o es general y no se relaciona con los casos difíciles. |
+| Comunica en un pitch de 3 minutos | 35 % | El guion tiene las seis partes, cabe en 3 minutos leído en voz alta, pone los límites antes del llamado a la acción, cada cifra coincide con la tabla, y la línea final dice la duración y el cambio tras la prueba de las dos frases. | El guion tiene las seis partes, pero se pasa de 3 minutos, una cifra no coincide o falta la línea final. | Faltan varias partes, o el guion repite frases sin un dato que las respalde. |
 
-Para «Comunica resultados y límites con claridad en un pitch de 3 minutos.» se mira que el guion quepa en 3 minutos leído en voz
-alta, que tenga las seis partes, que los límites aparezcan antes del llamado a la acción, que cada cifra coincida con la tabla y que
-no queden frases como «es un éxito» o «ya no tengo errores» sin un dato que las respalde.
+La actividad se aprueba con 60 % o más.
 
 ## Actividad 2 · El cierre de tu proyecto: resultados, pitch y portafolio
 cubre: H1, C1, C2
 fuentes: F-M6-15, F-M6-16
+entrega: tarea
+
+### Instrucción general
+
+Vas a comparar los resultados de tu proyecto con la línea base, contarlos en un pitch de 3 minutos y elegir las piezas de tu
+portafolio. Esta actividad reúne los borradores de tus hitos 6c y 6d. Súbela como tarea en el aula: un documento, la grabación del
+pitch como archivo o enlace, y el portafolio; solo lo ven tú y el facilitador. El facilitador la revisa con la rúbrica de abajo y te
+deja su retroalimentación en un plazo de hasta 72 horas.
 
 ### Situación
 
@@ -78,18 +93,19 @@ confidencial de tu empresa.
 
 ### Lo que entregas
 
-Un documento con la tabla de resultados, las observaciones, los factores externos, las propuestas de mejora y tu autocrítica; el
-guion y la grabación del pitch, y el portafolio con sus notas de reflexión.
+Sube como tarea en el aula un documento con la tabla de resultados, las observaciones, los factores externos, las propuestas de
+mejora y tu autocrítica; el guion y la grabación del pitch, y el portafolio con sus notas de reflexión.
 
-### Cómo se revisa
+### Rúbrica
 
-Tu tutor usa dos criterios de la planilla, y cada uno queda logrado, parcial o no logrado. Para «Compara los resultados con la línea
-base.» mira que cada indicador tenga su valor final junto a la línea base y la meta, con número, unidad y periodo, que la medición use
-la misma fórmula y fuente del plan, y que menciones al menos un factor externo que pudo influir.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Compara con la línea base | 30 % | Cada indicador tiene su valor final junto a la línea base y la meta, con número, unidad y periodo, medido con la misma fórmula y fuente del plan o con el cambio declarado. | La tabla está, pero a un indicador le falta la unidad o el periodo, o cambió la forma de medir sin decirlo. | No hay tabla de resultados, o no se compara con la línea base. |
+| Analiza y propone mejoras | 20 % | Hay tres observaciones de la bitácora, al menos un factor externo, una decisión por cada parte del flujo, dos o tres mejoras con qué, por qué y cómo medirlas, y la autocrítica. | Están casi todos los elementos, pero falta el factor externo o las mejoras no dicen cómo se medirán. | No hay análisis ni propuestas de mejora. |
+| Comunica en un pitch de 3 minutos | 30 % | La grabación dura 3 minutos o menos, dice cuánto cambió cada indicador frente a la línea base, nombra al menos un límite, usa lenguaje simple y cierra con un llamado a la acción. | La grabación está, pero se pasa de 3 minutos, omite un indicador o no nombra un límite. | No hay grabación, o no da resultados frente a la línea base. |
+| Arma el portafolio | 20 % | El portafolio tiene de tres a cinco piezas, cada una con su nota de reflexión, indica dónde usaste IA y qué revisaste, respeta licencias y no trae datos personales. | El portafolio está, pero alguna pieza no tiene nota o no indica dónde se usó IA. | No hay portafolio, o trae datos personales o información confidencial. |
 
-Para «Comunica resultados y límites con claridad en un pitch de 3 minutos.» mira que la grabación dure 3 minutos o menos, que diga
-cuánto cambió cada indicador frente a la línea base, que nombre al menos un límite de lo que puedes concluir y que use lenguaje simple,
-sin siglas ni jerga, para que tu audiencia entienda la decisión que le pides.
+La actividad se aprueba con 60 % o más.
 
 ## Referencias bibliográficas
 

@@ -1,7 +1,7 @@
 # Quiz M3-AE4 · Análisis crítico y privacidad
 
 **Misión:** decidir qué información puede entrar a una herramienta de IA y cómo cuidarla
-**Cuándo:** al terminar el Rise M3-T4 · Análisis crítico y privacidad, antes de entregar el Hito 3 del proyecto.
+**Cuándo:** al terminar el tema «Análisis crítico y privacidad», antes de entregar el Hito 3 del proyecto.
 **Insignia:** Escudo de datos · **Siguiente parada:** Proyecto aplicado, Hito 3: investigación validada con fuentes
 **Estilo:** acento #a78bfa · acento2 #5eead4 · fondo neuronas · lema Antes de pegar, piensa qué entregas
 **Ilustración:** flujo | Tu información (bd) · Tu decisión (rombo) · La herramienta (chip)

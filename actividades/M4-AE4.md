@@ -3,6 +3,11 @@
 ## Actividad 1 · Corrige y monta el clip de reciclaje de Camila
 cubre: H1, C1, C2
 fuentes: F-M4-20, F-M4-06
+entrega: foro
+
+### Instrucción general
+
+En esta actividad corriges el guion y la ficha de uso ético del clip de Camila, y montas una versión de 60 segundos con imágenes fijas. Es una práctica con un caso ficticio antes de hacer un clip para tu equipo. Publica en el foro del módulo el clip como archivo adjunto o con un enlace que se pueda abrir, junto con el guion y la ficha. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -12,30 +17,42 @@ Su ficha de uso ético tampoco está lista: en el aporte humano dice «ninguno, 
 
 ### Lo que vas a hacer
 
-Vas a corregir el guion y la ficha, y a montar una versión del clip con imágenes fijas. Si hiciste las actividades 1 de los temas 2 y 3, usa el afiche y los audios de Camila que produjiste; si no, genera dos o tres imágenes con Gemini y una locución breve con datos de prueba.
+Vas a corregir el guion y la ficha, y a montar una versión del clip con imágenes fijas. Si ya produjiste el afiche y los audios de la campaña de Camila, úsalos; si no, genera dos o tres imágenes con Gemini y una locución breve con datos de prueba.
 
 1. Rehaz el guion por secuencias: de cinco a siete secuencias con una sola idea cada una, apertura, puntos clave, llamado a la acción y cierre, y duraciones que sumen 60 segundos.
 2. Reescribe la frase de apertura para que suene natural en voz alta y se entienda al escucharla una vez.
 3. Reemplaza la imagen de la gerenta por una escena sin personas reales y explica por qué la cambiaste.
 4. Monta el clip en CapCut o en Canva, en el celular, con la locución como base de la línea de tiempo, las imágenes en el orden del guion, la música baja donde habla la voz, subtítulos revisados y créditos al final.
-5. Exporta en MP4 con la configuración que viste en P12 y mira el archivo completo antes de darlo por terminado.
+5. Exporta en MP4 y, si el editor te deja elegir, usa video H.264, audio AAC a 48 kHz y la misma velocidad de fotogramas del proyecto. Mira el archivo completo antes de darlo por terminado.
 6. Corrige la ficha de uso ético: completa el aporte humano, agrega la pista con su atribución, anota la fecha de revisión de cada herramienta y la etiqueta de IA.
 
 ### Lo que entregas
 
-Entregas el guion corregido en su tabla de secuencias, el clip exportado en MP4 y la ficha de uso ético corregida. Agrega dos líneas sobre el cambio que más mejoró el guion de Camila.
+Publica en el foro del módulo el guion corregido en su tabla de secuencias, el clip exportado en MP4 y la ficha de uso ético corregida. Si el archivo pesa demasiado para el foro, comparte un enlace que se pueda abrir. Agrega dos líneas sobre el cambio que más mejoró el guion de Camila.
 
-### Cómo se revisa
+### Rúbrica
 
-Se revisa con dos criterios. El primero es «Entrega un clip de 60 s que integra guion, voz, música e imagen.»: se da por logrado si el clip dura 60 segundos, si cada secuencia tiene una sola idea, si hay un llamado a la acción dicho y escrito en pantalla, si la música no tapa la voz, si los subtítulos coinciden con la locución y si el archivo MP4 se ve completo, sin cortes ni desfases. El segundo es «Completa la ficha de uso ético.»: se da por logrado si la ficha nombra cada herramienta con su plan y su fecha, registra los prompts principales, describe un aporte humano concreto (el mensaje, el guion final, la selección, el montaje, los subtítulos y la revisión), incluye la atribución de la pista y explica que se sacó la imagen de la gerenta porque no había consentimiento.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Corrige el guion por secuencias | 25 % | Tiene de cinco a siete secuencias con una idea cada una, apertura, puntos clave, llamado a la acción y cierre, duraciones que suman 60 segundos y una apertura que se entiende al escucharla una vez. | La estructura está, pero una secuencia junta dos ideas, las duraciones no suman 60 segundos o la apertura sigue difícil de decir. | El guion mantiene los problemas del original. |
+| Entrega un clip de 60 s que integra guion, voz, música e imagen | 35 % | El clip dura 60 segundos, tiene un llamado a la acción dicho y escrito en pantalla, la música no tapa la voz, los subtítulos coinciden con la locución y el MP4 se ve completo, sin cortes ni desfases. | El clip se ve completo, pero tiene un desfase, la música compite con la voz o el llamado a la acción solo se dice o solo se escribe. | El clip no se puede ver completo, le falta la voz o la imagen, o se aleja mucho de 60 segundos. |
+| Completa la ficha de uso ético | 30 % | La ficha nombra cada herramienta con su plan y su fecha, registra los prompts principales, describe un aporte humano concreto, incluye la atribución de la pista y explica el cambio de la imagen de la gerenta. | La ficha está corregida, pero falta uno de esos elementos. | La ficha sigue sin aporte humano, sin atribución o sin fechas. |
+| Explica la mejora del guion | 10 % | Las dos líneas nombran un cambio concreto y por qué mejora el guion. | Nombra un cambio sin explicar por qué mejora. | No incluye las dos líneas. |
+
+La actividad se aprueba con 60 % o más.
 
 ## Actividad 2 · Un clip de 60 segundos para tu equipo
 cubre: H1, C1, C2
 fuentes: F-H-63, F-H-84
+entrega: tarea
+
+### Instrucción general
+
+Ahora produces un clip de 60 segundos para tu propio trabajo y completas su ficha de uso ético. Súbelo como tarea en el aula, con el MP4 adjunto o un enlace que se pueda abrir, y el guion, la lista de recursos y la ficha en un documento. Solo lo ven tú y el facilitador, porque trabajas con un mensaje real de tu equipo. El facilitador lo revisa con la rúbrica que está al final y te deja su retroalimentación en un plazo de hasta 72 horas.
 
 ### Situación
 
-Ahora vas a hacer un clip para tu propio trabajo: el cierre de la campaña interna que empezaste en los temas anteriores, un recordatorio de un procedimiento para tu equipo o un mensaje para abrir una reunión. Puedes reutilizar la pieza gráfica, la locución y la pista que ya produjiste.
+Ahora vas a hacer un clip para tu propio trabajo: el cierre de la campaña interna que ya empezaste, un recordatorio de un procedimiento para tu equipo o un mensaje para abrir una reunión. Puedes reutilizar la pieza gráfica, la locución y la pista que ya produjiste.
 
 Si quieres tomas con movimiento, Google Flow entrega 50 créditos diarios gratis que no se acumulan, y cada clip con Veo 3.1 Lite gasta 10 [@F-H-63]. Por eso conviene combinar dos a cuatro tomas generadas con imágenes fijas. Si montas en CapCut, revisa su biblioteca: algunos materiales, como stickers, efectos o música, son solo para uso personal y no comercial, y los que permiten un uso comercial limitado llevan una marca del tipo «commercial use» [@F-H-84]. Trabaja con copias sin datos sensibles: el clip no debe mostrar nombres de clientes, cifras internas, documentos reales ni la cara o la voz de colegas sin su consentimiento escrito.
 
@@ -51,11 +68,18 @@ Si quieres tomas con movimiento, Google Flow entrega 50 créditos diarios gratis
 
 ### Lo que entregas
 
-Entregas el clip en MP4, el guion por secuencias con sus duraciones, la lista de recursos y la ficha de uso ético completa. Termina con dos líneas sobre una decisión de creatividad responsable que tomaste, por ejemplo una escena que no generaste o un material que descartaste.
+Sube como tarea en el aula el clip en MP4, el guion por secuencias con sus duraciones, la lista de recursos y la ficha de uso ético completa. Termina con dos líneas sobre una decisión de creatividad responsable que tomaste, por ejemplo una escena que no generaste o un material que descartaste, y con lo que entendió la persona de tu equipo que vio el clip.
 
-### Cómo se revisa
+### Rúbrica
 
-Para «Entrega un clip de 60 s que integra guion, voz, música e imagen.», se mira que el clip dure 60 segundos y tenga apertura, puntos clave, llamado a la acción y cierre; que la voz se entienda, la música acompañe sin taparla y cada imagen muestre lo que dice la voz; que lleve subtítulos y créditos; y que la persona de tu equipo haya entendido el mensaje. Para «Completa la ficha de uso ético.», se mira que estén todos los campos (pieza y uso, herramientas y plan con fecha, qué se generó, instrucciones, aporte humano, consentimientos y licencias, créditos y marcas de agua o credenciales), que cada recurso de tu lista tenga su licencia y su crédito, y que no haya datos sensibles en el clip ni en la ficha.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Entrega un clip de 60 s que integra guion, voz, música e imagen | 40 % | El clip dura 60 segundos y tiene apertura, puntos clave, llamado a la acción y cierre; la voz se entiende, la música acompaña sin taparla, cada imagen muestra lo que dice la voz y lleva subtítulos y créditos. | Le falta un elemento de la estructura, los subtítulos o los créditos, o la música compite con la voz. | El clip se aleja mucho de 60 segundos, no se puede ver completo o le falta la voz o la imagen. |
+| Prueba el clip con una persona del equipo | 15 % | Informa qué entendió la persona y el ajuste que hizo si no coincidía con su mensaje. | Informa la prueba, pero no dice si ajustó el clip. | No hizo la prueba. |
+| Completa la ficha de uso ético | 30 % | Están todos los campos de la ficha, cada recurso de la lista tiene su licencia y su crédito, y no hay datos sensibles en el clip ni en la ficha. | Falta un campo o un recurso no tiene licencia o crédito. | Faltan varios campos o hay datos sensibles en el clip o en la ficha. |
+| Toma decisiones de creatividad responsable | 15 % | Las dos líneas describen una decisión concreta y por qué la tomó. | Describe la decisión sin explicar por qué. | No incluye la reflexión. |
+
+La actividad se aprueba con 60 % o más.
 
 ## Referencias bibliográficas
 

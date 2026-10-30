@@ -1,8 +1,8 @@
 # Quiz M6-AE1 · Oportunidad de mejora con IA
 
 **Misión:** fijar el punto de partida de tu proyecto y una meta que se pueda medir
-**Cuándo:** al terminar el Rise M6-T1 · Oportunidad de mejora con IA, antes de entregar el Hito 6a.
-**Insignia:** Brújula de mejora · **Siguiente parada:** Rise M6-T2, implementar el flujo
+**Cuándo:** al terminar el tema «Oportunidad de mejora con IA», antes de entregar el Hito 6a.
+**Insignia:** Brújula de mejora · **Siguiente parada:** tema «Implementar el flujo»
 **Estilo:** acento #2dd4bf · acento2 #fbbf24 · fondo neuronas · lema Dónde estás, adónde vas y cómo lo sabrás
 **Ilustración:** flujo | Tu desafío (bandera) · Tu tarea hoy (doc) · Tu proyecto (diana)
 

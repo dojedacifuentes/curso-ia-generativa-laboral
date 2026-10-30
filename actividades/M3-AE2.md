@@ -3,6 +3,11 @@
 ## Actividad 1 · Las cinco fuentes de Rosa
 cubre: H1, C1, C2
 fuentes: F-M3-06, F-M3-07
+entrega: foro
+
+### Instrucción general
+
+En esta actividad evalúas las cinco fuentes que reunió Rosa, las contrastas y escribes una síntesis corta para la coordinadora. Practicas con un caso ficticio lo que después vas a hacer con las fuentes de tu propio cargo. Publica tu trabajo en el foro del módulo, escrito en el mensaje o como archivo adjunto. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -24,19 +29,31 @@ Para evaluarlas vas a usar tres de los criterios del test CRAAP: la autoría, la
 
 ### Lo que entregas
 
-Entregas la tabla de evaluación, la matriz de contraste con la decisión de cada fila y la síntesis para la coordinadora. Puedes hacerlo en una planilla, un documento o una foto de una hoja escrita a mano, siempre que se lea bien.
+Publica en el foro del módulo la tabla de evaluación, la matriz de contraste con la decisión de cada fila y la síntesis para la coordinadora. Puedes escribirlo en el mensaje o adjuntar una planilla, un documento o una foto de una hoja escrita a mano, siempre que se lea bien.
 
-### Cómo se revisa
+### Rúbrica
 
-Se revisa con los dos criterios del tema. El primero es «Aplica criterios de confiabilidad (autoría, fecha, respaldo).»: se da por logrado si cada fuente tiene revisadas las tres cosas, si la B y la D quedan con confiabilidad baja por falta de autoría y de respaldo, y si notaste que la C no es independiente porque repite a la A. El segundo es «Sintetiza hallazgos contrastados sin afirmaciones sin respaldo.»: se da por logrado si la síntesis se organiza por ideas y no fuente por fuente, si no incluye la promesa del blog ni el 70 % del asistente, y si menciona con honestidad el efecto pequeño que encontró el estudio E en lugar de omitirlo.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Aplica criterios de confiabilidad (autoría, fecha, respaldo) | 30 % | Revisa la autoría, la fecha y el respaldo de las cinco fuentes, y la confiabilidad que asigna calza con esas tres cosas. | Revisa las cinco fuentes, pero omite uno de los tres aspectos en alguna o la confiabilidad no calza con lo que anotó. | Evalúa menos de cinco fuentes o asigna la confiabilidad sin revisar autoría, fecha ni respaldo. |
+| Reconoce las fuentes independientes | 15 % | Indica qué fuente depende de otra y cuántas fuentes independientes tiene en realidad. | Revisa la dependencia, pero no identifica bien cuál fuente depende de otra o no saca la cuenta. | No revisa si alguna fuente depende de otra. |
+| Contrasta las afirmaciones | 25 % | La matriz marca en cada casilla si la fuente confirma, contradice o no dice nada, decide qué entra y qué se descarta con su motivo, y explica la diferencia entre la guía y el estudio. | La matriz está completa, pero falta el motivo de alguna decisión o no explica la diferencia entre la guía y el estudio. | La matriz está incompleta o no tiene decisiones. |
+| Sintetiza hallazgos contrastados sin afirmaciones sin respaldo | 30 % | La síntesis tiene de 100 a 150 palabras, se organiza por ideas, pone la fuente de cada afirmación, incluye solo lo respaldado, considera también los resultados que matizan y cierra con lo que quedó sin respaldo. | Se organiza por ideas, pero una afirmación no trae su fuente, omite un resultado que matiza o falta la línea de lo que quedó sin respaldo. | Resume fuente por fuente o incluye afirmaciones sin respaldo. |
+
+La actividad se aprueba con 60 % o más.
 
 ## Actividad 2 · Contrasta lo que levantaste en tu trabajo
 cubre: H1, C1, C2
 fuentes: F-M3-08, F-M3-12
+entrega: tarea
+
+### Instrucción general
+
+Ahora aplicas los mismos criterios a las fuentes que reuniste sobre una pregunta de tu cargo y escribes una síntesis con lo que puedes afirmar con respaldo. Súbela como tarea en el aula, en un documento o una planilla. Solo la ven tú y el facilitador, porque trabajas con un tema de tu trabajo. El facilitador la revisa con la rúbrica que está al final y te deja su retroalimentación en un plazo de hasta 72 horas.
 
 ### Situación
 
-Toma el registro de fuentes que armaste sobre una pregunta de tu cargo en la actividad 2 del tema anterior. Si no la hiciste, reúne ahora cinco fuentes públicas sobre una pregunta real de tu trabajo. Ya tienes fuentes que no siempre dicen lo mismo, y ahora te toca decidir cuánto confiar en cada una y qué puedes afirmar con respaldo.
+Toma el registro de fuentes que armaste sobre una pregunta de tu cargo. Si no lo tienes, reúne ahora cinco fuentes públicas sobre una pregunta real de tu trabajo. Ya tienes fuentes que no siempre dicen lo mismo, y ahora te toca decidir cuánto confiar en cada una y qué puedes afirmar con respaldo.
 
 Sintetizar no es resumir fuente por fuente: es unir las ideas después de analizarlas, buscar en qué coinciden y qué patrones aparecen, y, cuando no coinciden, decidir a cuál dar más crédito y explicar por qué [@F-M3-08]. Si quieres sumar una mirada distinta, como revisar tus propios registros del trabajo, usa solo totales o una copia sin nombres ni datos de clientes. Y si usas un asistente para ordenar la síntesis, declara la herramienta, su versión y la fecha de la consulta [@F-M3-12].
 
@@ -52,11 +69,18 @@ Sintetizar no es resumir fuente por fuente: es unir las ideas después de analiz
 
 ### Lo que entregas
 
-Entregas tu registro con la evaluación de cada fuente, la matriz de contraste con sus decisiones y la síntesis final, con una línea sobre lo que quedó sin responder y, si usaste IA, cuál usaste, su versión y cuándo.
+Sube como tarea en el aula tu registro con la evaluación de cada fuente, la matriz de contraste con sus decisiones y la síntesis final, con una línea sobre lo que quedó sin responder y, si usaste IA, cuál usaste, su versión y cuándo.
 
-### Cómo se revisa
+### Rúbrica
 
-Para «Aplica criterios de confiabilidad (autoría, fecha, respaldo).», se mira que cada fuente tenga anotadas su autoría, su fecha y su respaldo, que la confiabilidad que le diste calce con esas tres cosas y que al menos una afirmación esté rastreada hasta su origen. Para «Sintetiza hallazgos contrastados sin afirmaciones sin respaldo.», se mira que cada afirmación de la síntesis aparezca como incluida en tu matriz, que las contradicciones se expliquen en lugar de esconderse, que no haya datos que salieron solo de un asistente y que, si usaste IA, lo declares.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Aplica criterios de confiabilidad (autoría, fecha, respaldo) | 30 % | Cada fuente tiene anotadas su autoría, su fecha y su respaldo, la confiabilidad calza con eso y al menos una afirmación está rastreada hasta su fuente primaria. | Evalúa todas las fuentes, pero a alguna le falta un aspecto o no rastrea ninguna afirmación hasta su origen. | Asigna la confiabilidad sin anotar autoría, fecha ni respaldo, o no evalúa las fuentes. |
+| Contrasta las afirmaciones | 25 % | La matriz tiene de cinco a ocho afirmaciones, marca las contradicciones con el motivo por el que difieren y anota por qué se descarta lo que no tiene respaldo. | La matriz tiene menos de cinco afirmaciones o las contradicciones y descartes no traen motivo. | No hay matriz o no tiene decisiones. |
+| Sintetiza hallazgos contrastados sin afirmaciones sin respaldo | 35 % | La síntesis tiene de 150 a 200 palabras, se organiza por ideas, cada afirmación figura como incluida en la matriz y trae su fuente, y las contradicciones se explican. | Se organiza por ideas, pero una afirmación no está en la matriz o no trae fuente, o una contradicción queda sin explicar. | Resume fuente por fuente, incluye datos que salieron solo de un asistente o no hay síntesis. |
+| Declara el uso de IA y cuida los datos | 10 % | Si usó IA, declara herramienta, versión y fecha, y no hay datos personales ni de clientes. | Declara la IA sin versión o sin fecha. | Usó IA sin declararlo o incluye datos personales o de clientes. |
+
+La actividad se aprueba con 60 % o más.
 
 ## Referencias bibliográficas
 

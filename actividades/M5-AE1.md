@@ -3,6 +3,14 @@
 ## Actividad 1 · Las tareas de Rosa en la recepción
 cubre: H1, C1, C2
 fuentes: F-H-14, F-M5-06
+entrega: foro
+
+### Instrucción general
+
+Vas a revisar las tareas de Rosa para decidir cuáles conviene automatizar primero y cuáles no, con la matriz de impacto y riesgo. Así
+practicas con un caso ficticio el análisis que después harás con tu propio cargo. Publica tu tabla y tu reflexión en el foro del
+módulo, escritas en el mensaje o en un documento adjunto. Se evalúa con la rúbrica de abajo, y el facilitador te responde en el foro
+dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -24,7 +32,7 @@ gratuita para Android y para iPhone [@F-H-14].
 3. Para cada tarea, anota qué la inicia, con qué datos trabaja, si sus pasos siguen reglas, qué entrega y cada cuánto se repite.
 4. Marca como candidatas al menos tres tareas que se repiten, siguen reglas y trabajan con información, y descarta las que dependen del trato en persona o deciden algo sobre alguien.
 5. Antes de priorizar, pregúntate si alguna candidata se puede eliminar o simplificar.
-6. Responde para cada candidata las tres preguntas de impacto y las tres de riesgo, y ubícala en la matriz con sus cuatro cuadrantes. Puedes armarla como una tabla en Google Sheets desde el celular.
+6. Responde para cada candidata, con sí o no, las tres preguntas de impacto (¿se repite seguido, cada día o cada semana?, ¿me quita tiempo que podría usar en algo más valioso?, ¿mejora algo para otras personas si se hace más rápido o sin errores?) y las tres de riesgo (¿usa datos personales o información confidencial?, si sale mal, ¿afecta a una persona, a dinero o a un plazo importante?, ¿sería difícil darse cuenta del error a tiempo?). Dos o tres sí indican impacto o riesgo alto. Ubica cada candidata en la matriz con sus cuatro cuadrantes: «Empieza aquí» (impacto alto y riesgo bajo), «Con supervisión» (impacto alto y riesgo alto), «Si sobra tiempo» (impacto bajo y riesgo bajo) y «No automatices» (impacto bajo y riesgo alto). Puedes armarla como una tabla en Google Sheets desde el celular.
 7. Escribe un fundamento de una o dos líneas por tarea y pídele a Gemini que actúe como una jefatura exigente y te haga una pregunta por tarea, sin cambiar tu clasificación.
 
 El paso 5 no es un trámite. La secuencia que propone la guía de automatización de la Universidad de Bath es eliminar, simplificar y
@@ -34,23 +42,32 @@ atención, así que el riesgo pesa tanto como el impacto.
 
 ### Lo que entregas
 
-Una tabla con las tareas de Rosa, las tres o más candidatas marcadas, la respuesta de sí o no a cada pregunta de impacto y de riesgo,
-el cuadrante de cada una y su fundamento. Agrega al final dos o tres líneas sobre qué pregunta de Gemini te hizo cambiar algo y por
-qué, o por qué decidiste mantener tu clasificación.
+Publica en el foro del módulo una tabla con las tareas de Rosa, las tres o más candidatas marcadas, la respuesta de sí o no a cada
+pregunta de impacto y de riesgo, el cuadrante de cada una y su fundamento. Agrega al final dos o tres líneas sobre qué pregunta de
+Gemini te hizo cambiar algo y por qué, o por qué decidiste mantener tu clasificación.
 
-### Cómo se revisa
+### Rúbrica
 
-El criterio «Identifica al menos 3 tareas automatizables de un cargo.» se da por logrado si hay al menos tres candidatas y cada una
-cumple la anatomía de una tarea automatizable: se repite, sus pasos se pueden escribir y trabaja con información. No cuentan como
-candidatas calmar a un paciente ni recibirlo en el mesón.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Identifica tareas automatizables | 30 % | La lista tiene entre 8 y 12 tareas con verbo y objeto, todas sostenidas por las notas, y al menos tres candidatas que se repiten, siguen reglas y trabajan con información. | Hay tres candidatas, pero alguna no cumple una de las tres condiciones, o la lista trae tareas que las notas no permiten suponer. | Hay menos de tres candidatas, o las candidatas dependen del trato en persona. |
+| Ubica las candidatas en la matriz | 30 % | Cada candidata tiene sus seis respuestas de sí o no y su cuadrante calza con ellas. | Falta alguna respuesta o el cuadrante de una candidata no calza con sus respuestas. | No hay matriz, o los cuadrantes no se apoyan en las respuestas. |
+| Fundamenta la priorización | 25 % | Cada fundamento nombra el cuadrante y da una razón de impacto y otra de riesgo, con un dato de las notas. | Los fundamentos nombran el cuadrante, pero alguno no da razón para uno de los criterios o no usa un dato de las notas. | No hay fundamentos o son genéricos, como «porque es importante». |
+| Revisa antes de automatizar | 15 % | Muestra que preguntó si alguna candidata se podía eliminar o simplificar, y explica en dos o tres líneas qué cambió o por qué mantuvo su clasificación tras la pregunta de Gemini. | Hace solo una de las dos cosas, o la explicación no da una razón. | No aparece la revisión de eliminar o simplificar ni la reflexión sobre Gemini. |
 
-El criterio «Las prioriza con una matriz impacto–riesgo y fundamenta.» se da por logrado si cada candidata está en un cuadrante que
-calza con sus respuestas de impacto y de riesgo, y si su fundamento nombra el cuadrante y da una razón para cada criterio, con un dato
-de las notas. Un fundamento como «porque es importante» no basta.
+La actividad se aprueba con 60 % o más.
 
 ## Actividad 2 · La matriz de tu propio cargo
 cubre: H1, C1, C2
 fuentes: F-M5-01, F-M5-16
+entrega: tarea
+
+### Instrucción general
+
+Vas a mapear las tareas de tu propio cargo y priorizar con la matriz de impacto y riesgo las que conviene automatizar. Esta matriz es
+la base del flujo que construirás en el tema siguiente. Súbela como tarea en el aula, en un documento o una planilla; solo la ven tú
+y el facilitador, porque trabaja con tu cargo real. El facilitador la revisa con la rúbrica de abajo y te deja su retroalimentación
+en un plazo de hasta 72 horas.
 
 ### Situación
 
@@ -78,19 +95,20 @@ persona.
 
 ### Lo que entregas
 
-Tu mapa de tareas, tu matriz con al menos tres candidatas y sus fundamentos, y un párrafo sobre la tarea que elegiste para empezar: en
-qué cuadrante quedó, quién gana si se automatiza y qué harías con el tiempo que quede. Esta matriz es la base del flujo que vas a
-construir en el tema siguiente.
+Sube como tarea en el aula tu mapa de tareas, tu matriz con al menos tres candidatas y sus fundamentos, y un párrafo sobre la tarea
+que elegiste para empezar: en qué cuadrante quedó, quién gana si se automatiza y qué harías con el tiempo que quede. Esta matriz es
+la base del flujo que vas a construir en el tema siguiente.
 
-### Cómo se revisa
+### Rúbrica
 
-El criterio «Identifica al menos 3 tareas automatizables de un cargo.» se da por logrado si el mapa corresponde a tareas reales de tu
-cargo, escritas con verbo y objeto, y si al menos tres candidatas se repiten, siguen reglas y trabajan con información. El mapa no
-debe traer datos de clientes, proveedores ni compañeros.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Mapea las tareas del cargo | 25 % | El mapa tiene entre 8 y 12 tareas reales del cargo, con verbo y objeto y su anatomía completa, sin datos de clientes, proveedores ni compañeros. | El mapa corresponde al cargo, pero hay tareas vagas, sin verbo y objeto, o a varias les falta parte de la anatomía. | El mapa no describe tareas del cargo, o trae datos de clientes, proveedores o compañeros. |
+| Identifica tareas automatizables | 20 % | Al menos tres candidatas se repiten, siguen reglas y trabajan con información, y se revisó si alguna se podía eliminar o simplificar. | Hay tres candidatas, pero alguna no cumple una de las tres condiciones, o falta la revisión de eliminar o simplificar. | Hay menos de tres candidatas. |
+| Prioriza con la matriz y fundamenta | 35 % | Cada candidata tiene sus seis respuestas, su cuadrante calza con ellas y su fundamento da una razón de impacto y otra de riesgo. | Todas las candidatas están en la matriz, pero falta alguna respuesta, un cuadrante no calza o un fundamento no da las dos razones. | No hay matriz, o los cuadrantes no tienen respuestas ni fundamento. |
+| Elige por dónde empezar | 20 % | El párrafo dice el cuadrante, quién gana y qué haría con el tiempo; la tarea está en «Empieza aquí» o, si está en «Con supervisión», explica qué parte queda en manos de una persona. | El párrafo elige una tarea, pero omite uno de sus elementos, o la tarea está en «Con supervisión» sin decir qué parte decide una persona. | No elige una tarea, o elige una de «No automatices» sin justificarlo. |
 
-El criterio «Las prioriza con una matriz impacto–riesgo y fundamenta.» se da por logrado si cada candidata tiene sus seis respuestas,
-su cuadrante calza con ellas y su fundamento da una razón de impacto y otra de riesgo. También se mira que la tarea elegida para
-empezar esté en «Empieza aquí» o, si está en «Con supervisión», que el párrafo explique qué parte quedará en manos de una persona.
+La actividad se aprueba con 60 % o más.
 
 ## Referencias bibliográficas
 

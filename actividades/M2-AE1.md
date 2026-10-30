@@ -3,6 +3,11 @@
 ## Actividad 1 · Una reunión, tres textos
 cubre: H1, C1
 fuentes: F-M2-06, F-M2-05
+entrega: foro
+
+### Instrucción general
+
+En esta actividad vas a convertir las notas de una reunión en tres textos con Gemini, una minuta, un correo y un informe ejecutivo, y a ajustar cada uno a quien lo va a leer. Publicas tu trabajo en el foro del módulo, en un documento adjunto o pegado en el mensaje. Como los datos son ficticios, tu aporte lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -22,15 +27,27 @@ Vas a producir los tres textos con Gemini, en la app o en el navegador, y a ajus
 
 ### Lo que entregas
 
-Entregas un documento con los tres textos finales. Antes de cada uno escribe en una línea la audiencia, el registro y el tono que elegiste. Agrega también el primer borrador del correo y una frase que explique qué cambiaste para adaptarlo al Sr. Vera.
+Publicas en el foro del módulo un documento con los tres textos finales. Antes de cada uno escribe en una línea la audiencia, el registro y el tono que elegiste. Agrega también el primer borrador del correo y una frase que explique qué cambiaste para adaptarlo al Sr. Vera.
 
-### Cómo se revisa
+### Rúbrica
 
-Esta actividad se revisa con el criterio «Ajusta tono y registro a la audiencia indicada». Se da por logrado cuando cada texto tiene el registro y el tono que corresponden a quien lo lee: el correo trata de usted al Sr. Vera y suena cordial, la minuta va directo a los acuerdos y compromisos, y el informe le entrega a la gerenta el resultado y la recomendación al principio. También se mira que el nivel de detalle cambie de un texto a otro; por ejemplo, que el correo al proveedor no traiga el detalle interno de la planilla de pedidos.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Ajusta tono y registro a la audiencia indicada | 40 % | Cada uno de los tres textos tiene el registro y el tono que corresponden a su audiencia, y la línea previa los declara. | Dos de los tres textos calzan con su audiencia, o la línea previa no coincide con lo que se lee en el texto. | Los textos suenan igual entre sí o no corresponden a sus audiencias. |
+| Detalle y estructura según el género | 25 % | Cada texto trae las partes de su género y el nivel de detalle cambia según quien lo lee. | A algún texto le falta una parte de su género o trae detalle que no le sirve a su audiencia. | Los textos no tienen la estructura de su género. |
+| Fidelidad a las notas | 15 % | Los datos coinciden con las notas y los vacíos quedan marcados, sin completar nada que no estaba. | Algún dato fue agregado o cambiado, o un vacío se completó sin respaldo. | Varios datos no coinciden con las notas. |
+| Adaptación del correo | 20 % | Incluye el primer borrador del correo y una frase que explica qué cambiaste; la versión final respeta el largo, el asunto y el saludo pedidos. | Incluye el borrador, pero falta la explicación o el cambio no se ve en la versión final. | Falta el primer borrador del correo. |
+
+La actividad se aprueba con 60 % o más.
 
 ## Actividad 2 · Un texto de tu semana, revisado antes de enviarlo
 cubre: H1, C2
 fuentes: F-M2-07, F-M2-02
+entrega: tarea
+
+### Instrucción general
+
+En esta actividad vas a escribir con Gemini un texto que de verdad tengas que enviar esta semana, adaptarlo a dos audiencias y revisarlo antes de enviarlo. Lo subes como tarea en el aula, en un documento de texto o en PDF con los borradores, las versiones finales y tu registro de correcciones. Solo lo ven tú y el facilitador, porque trabajas con un texto real de tu cargo. El facilitador lo revisa con la rúbrica de abajo y te deja su retroalimentación en un plazo de hasta 72 horas.
 
 ### Situación
 
@@ -38,21 +55,28 @@ En tu trabajo escribes textos todas las semanas: un correo a un cliente, el avis
 
 ### Lo que vas a hacer
 
-Vas a producir el texto con Gemini, ajustarlo a su audiencia y revisarlo con la lista de verificación del tema. La revisión es la parte central, porque un asistente puede introducir un dato falso con total seguridad [@F-M2-07], y la guía de lenguaje claro del Senado recomienda cerrar siempre con una lista de verificación [@F-M2-02].
+Vas a producir el texto con Gemini, ajustarlo a su audiencia y revisarlo con una lista de verificación. La revisión es la parte central, porque un asistente puede introducir un dato falso con total seguridad [@F-M2-07], y la guía de lenguaje claro del Senado recomienda cerrar siempre con una lista de verificación [@F-M2-02].
 
-1. Elige el texto y responde las cuatro preguntas de la pantalla 4: para qué escribes, quién lo lee, qué necesita saber y qué quieres que haga después.
+1. Elige el texto y responde cuatro preguntas: para qué escribes, quién lo lee, qué necesita saber y qué quieres que haga después.
 2. Escribe el prompt con el objetivo y el género, la audiencia, el registro y el tono, los datos y el largo máximo, y cierra con «No agregues datos que no te di».
 3. Pide una segunda versión del mismo texto para otra audiencia, por ejemplo tu jefatura si la primera era para un proveedor.
-4. Revisa las dos versiones con la lista de la pantalla 16, punto por punto, y corrige lo que no cumpla.
+4. Revisa las dos versiones punto por punto con esta lista y corrige lo que no cumpla: el objetivo se entiende en las primeras líneas; nombres, fechas, montos y números coinciden con el original; no hay nada que la IA haya agregado; el registro, el tono y el nivel de detalle corresponden a quien lee; las oraciones son breves y las siglas están explicadas; si es un correo, tiene asunto, saludo con dos puntos y una despedida adecuada, y la ortografía y la puntuación están revisadas.
 5. Compara cada nombre, fecha, monto y número con tus apuntes, y anota cualquier dato que el asistente haya agregado o cambiado.
 
 ### Lo que entregas
 
-Entregas el primer borrador y la versión final de los dos textos, con los datos ya cambiados, y una tabla breve o un párrafo con lo que corregiste en cada uno. Indica qué errores eran de hecho, cuáles de tono o registro y cuáles de redacción.
+Subes como tarea en el aula el primer borrador y la versión final de los dos textos, con los datos ya cambiados, y una tabla breve o un párrafo con lo que corregiste en cada uno. Indica qué errores eran de hecho, cuáles de tono o registro y cuáles de redacción.
 
-### Cómo se revisa
+### Rúbrica
 
-Esta actividad se revisa con el criterio «Entrega un texto claro y sin errores relevantes». Se da por logrado cuando las versiones finales se entienden a la primera, con el objetivo en las primeras líneas y oraciones breves, y cuando no quedan errores de hecho: los datos coinciden con los apuntes y no hay nada que la IA haya agregado sin respaldo. Se mira también que el registro de corrección muestre que revisaste el texto con la lista y no solo lo leíste por encima, y que el correo tenga asunto, saludo con dos puntos y una despedida adecuada.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Entrega un texto claro y sin errores relevantes: claridad | 30 % | Las versiones finales se entienden a la primera, con el objetivo en las primeras líneas y oraciones breves. | Las versiones finales se entienden, pero el objetivo aparece tarde o hay oraciones largas que cuesta seguir. | Las versiones finales cuesta entenderlas o no se sabe qué piden. |
+| Entrega un texto claro y sin errores relevantes: exactitud | 30 % | Los nombres, fechas, montos y números coinciden con tus apuntes y no queda nada agregado por la IA sin respaldo. | Queda un dato que no coincide con los apuntes o un agregado menor sin respaldo. | Quedan varios errores de hecho en las versiones finales. |
+| Revisión con la lista y registro de correcciones | 25 % | El registro muestra una revisión punto por punto con la lista y distingue errores de hecho, de tono o registro y de redacción. | Hay registro, pero es general o no distingue los tipos de error. | No hay registro de correcciones. |
+| Audiencias, forma y cuidado de los datos | 15 % | Las dos versiones están escritas para audiencias distintas; si es correo, trae asunto, saludo con dos puntos y despedida; los datos sensibles están cambiados. | Las dos versiones se parecen demasiado o falta una parte de la forma del correo. | Hay una sola versión o el texto conserva datos sensibles. |
+
+La actividad se aprueba con 60 % o más.
 
 ## Referencias bibliográficas
 

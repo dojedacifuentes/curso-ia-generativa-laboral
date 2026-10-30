@@ -1,8 +1,8 @@
 # Quiz M3-AE3 · Organizar y presentar información
 
 **Misión:** ordenar tu informe breve y dejar cada cita completa
-**Cuándo:** al terminar el Rise M3-T3 · Organizar y presentar información, antes de pasar a análisis crítico y privacidad.
-**Insignia:** Informe a prueba de lectura · **Siguiente parada:** Rise M3-T4, análisis crítico y privacidad
+**Cuándo:** al terminar el tema «Organizar y presentar información», antes de pasar a análisis crítico y privacidad.
+**Insignia:** Informe a prueba de lectura · **Siguiente parada:** tema «Análisis crítico y privacidad»
 **Estilo:** acento #fbbf24 · acento2 #a78bfa · fondo circuito · lema Claro, ordenado y verificable
 **Ilustración:** flujo | Tus hallazgos (barras) · El informe (doc) · Quien decide (diana)
 

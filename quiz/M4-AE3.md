@@ -1,8 +1,8 @@
 # Quiz M4-AE3 · Audio y música
 
 **Misión:** elegir la voz y la pista que pide cada uso, y saber cuándo hace falta un permiso
-**Cuándo:** al terminar el Rise M4-T3 · Audio y música, antes de pasar a clips y video breve.
-**Insignia:** Voz con permiso · **Siguiente parada:** Rise M4-T4, clips y video breve
+**Cuándo:** al terminar el tema «Audio y música», antes de pasar a clips y video breve.
+**Insignia:** Voz con permiso · **Siguiente parada:** tema «Clips y video breve»
 **Estilo:** acento #fbbf24 · acento2 #22d3ee · fondo circuito · lema Una voz clara, una pista que acompaña y cada derecho en su lugar
 **Ilustración:** flujo | Tu guion (doc) · Una voz (sonido) · Una pista (barras)
 

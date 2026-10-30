@@ -6,7 +6,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M5-AE3
 ~Una falla de la herramienta\: si el flujo pasó las pruebas, el diseño no tiene nada que ver
 ~Sesgo de automatización\: la IA trató peor al proveedor nuevo
 ~Nada grave\: si pasó las pruebas, seguirá funcionando bien
-####Las pruebas revisan los casos que imaginaste; en la vida real aparecen otros, como un formato distinto. Un dato mal leído se repite en cada ejecución, por eso el flujo necesita supervisión también después de ponerlo en marcha. Pantalla P02 del Rise M5-T3\: «Caso 1\: el error que se repite solo».
+####Las pruebas revisan los casos que imaginaste; en la vida real aparecen otros, como un formato distinto. Un dato mal leído se repite en cada ejecución, por eso el flujo necesita supervisión también después de ponerlo en marcha.
 }
 
 ::M5-AE3-P2 (S1 A2)::En el equipo de Paula ya nadie abre los reclamos que el flujo marca como «baja», porque «el sistema ya los clasificó». ¿Qué riesgo describe esa conducta? {
@@ -14,7 +14,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M5-AE3
 ~Confabulación\: la IA inventa reclamos que no existen
 =Sesgo de automatización\: confiar de más en lo que entrega el sistema
 ~Error en cadena\: un mapeo roto se repite en cada fila
-####El sesgo de automatización está en las personas\: dejan de revisar porque lo hizo un sistema. El sesgo dañino es el criterio injusto de la IA; aquí la conducta del equipo es la que agrava el error. Pantalla P04 del Rise M5-T3\: «Caso 3\: el sesgo que se multiplica».
+####El sesgo de automatización está en las personas\: dejan de revisar porque lo hizo un sistema. El sesgo dañino es el criterio injusto de la IA; aquí la conducta del equipo es la que agrava el error.
 }
 
 ::M5-AE3-P3 (H1 C1)::Flujo de Camila\: (1) llega una factura por correo; (2) la IA extrae proveedor, monto y fecha; (3) se agrega una fila a la planilla de pagos que usa la constructora. ¿Dónde conviene más un punto de control humano? {
@@ -22,7 +22,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M5-AE3
 =Entre los pasos 2 y 3, antes de que los datos lleguen a la planilla de pagos
 ~Después del pago, revisando el estado de cuenta a fin de mes
 ~En ningún paso\: la extracción de la IA ya fue probada
-####El riesgo está en datos que la IA extrae y que otros usan para decidir un pago sin volver al original. Revisar después del pago llega tarde, cuando el error ya costó dinero. Pantalla P07 del Rise M5-T3\: «Dónde poner un punto de control».
+####El riesgo está en datos que la IA extrae y que otros usan para decidir un pago sin volver al original. Revisar después del pago llega tarde, cuando el error ya costó dinero.
 }
 
 ::M5-AE3-P4 (H1 C1)::Andrés define criterios de aprobación para revisar cada borrador de aviso de atraso antes de enviarlo. ¿Cuál es el mejor criterio? {
@@ -30,7 +30,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M5-AE3
 ~«Revisar los borradores cuando haya tiempo»
 ~«Si el flujo no marcó error, aprobar»
 =«¿La fecha del aviso coincide con la de la planilla?»
-####Un criterio de aprobación es una pregunta de sí o no que se responde en segundos comparando con el dato original. Sin criterios, la revisión se vuelve un clic automático\: «aprobado, aprobado, aprobado». Pantalla P08 del Rise M5-T3\: «Criterios de aprobación humana».
+####Un criterio de aprobación es una pregunta de sí o no que se responde en segundos comparando con el dato original. Sin criterios, la revisión se vuelve un clic automático\: «aprobado, aprobado, aprobado».
 }
 
 ::M5-AE3-P5 (S2 C1)::A la jefatura de Camila le gustaría que un flujo ponga puntaje a cada currículum de una vacante y descarte solo a los de puntaje bajo. Según la tabla de supervisión del curso, ¿qué corresponde? {
@@ -38,7 +38,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M5-AE3
 ~Control humano\: revisar cada semana una muestra de los descartados
 ~Dejar que el flujo descarte y avisar por correo a cada persona descartada
 ~Revisar solo los casos en que alguien reclame
-####Descartar a alguien en una selección decide algo importante sobre una persona\: esa decisión no se automatiza. Revisar una muestra sirve para pasos de riesgo bajo, no para decisiones así. Pantalla P08 del Rise M5-T3\: «Criterios de aprobación humana».
+####Descartar a alguien en una selección decide algo importante sobre una persona\: esa decisión no se automatiza. Revisar una muestra sirve para pasos de riesgo bajo, no para decisiones así.
 }
 
 ::M5-AE3-P6 (S3 C2)::Andrés quiere que la IA corrija los nombres de clientes mal escritos en su planilla de despachos. ¿Qué diseño hace el flujo más reversible? {
@@ -46,7 +46,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M5-AE3
 ~Enviar la corrección directo a cada cliente, para que la confirme
 =Escribir el nombre corregido en una columna nueva y conservar el original
 ~Borrar el historial de ejecuciones, para dejar la planilla ordenada
-####Un flujo reversible no sobrescribe el original\: así puedes comparar y deshacer si la IA se equivoca. Un correo enviado no se puede recoger, y sin historial se pierde la huella. Pantalla P10 del Rise M5-T3\: «Reversibilidad\: poder detener y deshacer».
+####Un flujo reversible no sobrescribe el original\: así puedes comparar y deshacer si la IA se equivoca. Un correo enviado no se puede recoger, y sin historial se pierde la huella.
 }
 
 ::M5-AE3-P7 (C2 H1 A1)::«Mi plan de contingencia está completo\: dice dónde se pausa el flujo», afirma Andrés. ¿Es así? {
@@ -54,7 +54,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M5-AE3
 ~Verdadero, porque detener el flujo es lo único urgente cuando falla
 ~Falso, porque le falta solo una cosa\: a quién avisar cuando el flujo falle
 =Falso, porque también debe decir cómo detectar la falla, seguir a mano, recuperar, avisar y quién responde
-####Un plan de contingencia responde seis preguntas, y detener el flujo es solo una. Además, quien lo pone en marcha responde por sus resultados\: la respuesta no puede ser «el sistema». Pantalla P11 del Rise M5-T3\: «Plan de contingencia».
+####Un plan de contingencia responde seis preguntas, y detener el flujo es solo una. Además, quien lo pone en marcha responde por sus resultados\: la respuesta no puede ser «el sistema».
 }
 
 ::M5-AE3-P8 (C1 A2)::Paula sembró 3 errores en 10 reclamos ficticios. Sin su control llegaron 3 de 3 errores al resultado; con su control, todavía llegaron 2 de 3. ¿Qué decisión corresponde? {
@@ -62,5 +62,5 @@ $CATEGORY: IA-generativa-laboral/Formativos/M5-AE3
 =Subir la supervisión, porque todavía pasan errores importantes
 ~Quitar el control, porque no detecta todos los errores
 ~Ajustarlo a una muestra pequeña, para revisar menos
-####Si con el control siguen pasando errores, hay que subir la supervisión. Revisar solo una muestra conviene cuando el control casi nunca encuentra errores, no cuando se le escapan. Pantalla P12 del Rise M5-T3\: «Evalúa el efecto de tus controles».
+####Si con el control siguen pasando errores, hay que subir la supervisión. Revisar solo una muestra conviene cuando el control casi nunca encuentra errores, no cuando se le escapan.
 }

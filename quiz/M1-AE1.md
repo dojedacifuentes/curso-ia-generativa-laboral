@@ -1,8 +1,8 @@
 # Quiz M1-AE1 · Fundamentos de IA generativa
 
 **Misión:** entender con qué herramienta vas a trabajar todo el curso
-**Cuándo:** al terminar el Rise M1-T1 · Fundamentos de IA generativa, antes de pasar a prompts efectivos.
-**Insignia:** Exploración de IA · **Siguiente parada:** Rise M1-T2, prompts efectivos
+**Cuándo:** al terminar el tema «Fundamentos de IA generativa», antes de pasar a prompts efectivos.
+**Insignia:** Exploración de IA · **Siguiente parada:** tema «Prompts efectivos»
 **Estilo:** acento #22d3ee · acento2 #ff7a59 · fondo neuronas · lema Qué es, cómo responde y dónde falla
 **Ilustración:** flujo | Tu pedido (chat) · El modelo (chip) · El resultado (salida)
 

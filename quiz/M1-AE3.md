@@ -1,8 +1,8 @@
 # Quiz M1-AE3 · Parámetros de generación
 
 **Misión:** ajustar cómo responde el modelo según lo que necesita tu tarea
-**Cuándo:** al terminar el Rise M1-T3 · Parámetros de generación, antes de pasar a validación de resultados.
-**Insignia:** Respuestas afinadas · **Siguiente parada:** Rise M1-T4, validación de resultados
+**Cuándo:** al terminar el tema «Parámetros de generación», antes de pasar a validación de resultados.
+**Insignia:** Respuestas afinadas · **Siguiente parada:** tema «Validación de resultados»
 **Estilo:** acento #a78bfa · acento2 #34d399 · fondo neuronas · lema El mismo pedido, distintas respuestas
 **Ilustración:** flujo | Una consigna (doc) · Los ajustes (engranaje) · Las salidas (barras)
 

@@ -1,8 +1,8 @@
 # Quiz M3-AE1 · Herramientas de IA para investigar
 
 **Misión:** elegir la herramienta que calza con lo que necesitas y hacer preguntas que se puedan investigar
-**Cuándo:** al terminar el Rise M3-T1 · Herramientas de IA para investigar, antes de pasar a recopilar, validar y sintetizar.
-**Insignia:** Brújula de investigación · **Siguiente parada:** Rise M3-T2, recopilar, validar y sintetizar
+**Cuándo:** al terminar el tema «Herramientas de IA para investigar», antes de pasar a recopilar, validar y sintetizar.
+**Insignia:** Brújula de investigación · **Siguiente parada:** tema «Recopilar, validar y sintetizar»
 **Estilo:** acento #22d3ee · acento2 #ff7a59 · fondo circuito · lema Buena pregunta, herramienta con fuentes y registro al día
 **Ilustración:** flujo | Tu pregunta (chat) · La búsqueda (ruta) · Tus fuentes (doc)
 

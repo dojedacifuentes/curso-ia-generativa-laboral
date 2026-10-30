@@ -84,7 +84,7 @@ function leerQuiz(id) {
       enunciado: plano(cab[2].replace(/\s+/g, ' ')),
       opciones: opciones.map(o => o.texto), correcta: opciones.findIndex(o => o.ok),
       retro: plano(retro[1].replace(/\s+/g, ' ')),
-      remite: `Pantalla ${p} del ${ae.rise.replace(/ · .*/, '')}: «${pant[p]}».`,
+      // Criterios 30-10: sin códigos ni remisiones a la vista; la pantalla queda solo como dato interno (validación)
     };
   });
   for (const c of ae.criterios) if (!usados.has(c.codigo)) err(`ninguna pregunta evalúa el criterio ${c.codigo}`);
@@ -118,7 +118,7 @@ const manifiesto = (id, titulo) => `<?xml version="1.0" encoding="UTF-8"?>
 const gesc = t => t.replace(/\\/g, '\\\\').replace(/([~=#{}:])/g, '\\$1').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const gift = q => `// ${q.id} · ${q.ae.tema} · quiz formativo (generado por scripts/quiz-juego.mjs)\n$CATEGORY: IA-generativa-laboral/Formativos/${q.id}\n\n`
   + q.preguntas.map((p, k) => `::${q.id}-P${k + 1} (${p.codigos.join(' ')})::${gesc(p.enunciado)} {\n`
-    + p.opciones.map((o, i) => `${i === p.correcta ? '=' : '~'}${gesc(o)}`).join('\n') + `\n####${gesc(p.retro + ' ' + p.remite)}\n}\n`).join('\n');
+    + p.opciones.map((o, i) => `${i === p.correcta ? '=' : '~'}${gesc(o)}`).join('\n') + `\n####${gesc(p.retro)}\n}\n`).join('\n');
 
 const args = process.argv.slice(2);
 const soloValidar = args.includes('--solo-validar');
@@ -133,7 +133,7 @@ for (const id of ids) {
   const datos = { curso: id, cursoNombre: curso.titulo, modulo: q.ae.modulo.n, quiz: q.ae.id, tema: q.ae.tema, aes: q.ae.id, mision: q.mision,
     cuando: q.cuando, insignia: q.insignia, siguiente: q.siguiente, estilo: { ...q.estilo, acento: C.celeste, acento2: C.fucsia },
     preguntas: q.preguntas, logo: LOGO, firma: FIRMA };
-  const titulo = `${id} · ${q.ae.tema} · Quiz formativo`;
+  const titulo = `${q.ae.tema} · Quiz formativo`;
   const pagina = plantilla.replace('__TITULO__', () => xml(titulo)).replace('/*FUENTES*/', () => fuentesCss).replace('</style>', () => MARCA_CSS + '</style>')
     .replace('/*DATA*/', () => JSON.stringify(datos).replace(/</g, '\\u003c'));
   const dir = path.join(RAIZ, 'entregables', 'quiz', id);

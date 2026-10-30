@@ -3,6 +3,11 @@
 ## Actividad 1 · La agenda compartida de la gerenta
 cubre: H1, C1, C2
 fuentes: F-M3-03, F-M3-01
+entrega: foro
+
+### Instrucción general
+
+En esta actividad haces la búsqueda que la gerenta le encargó a Camila: acotas un tema general, lo conviertes en preguntas de investigación y lo buscas con dos herramientas que muestran sus fuentes. Es una práctica con un caso ficticio, para que después investigues una pregunta de tu propio cargo. Publica tu trabajo en el foro del módulo, escrito en el mensaje o como archivo adjunto, con enlaces que se puedan abrir. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -22,21 +27,32 @@ Camila parte de un tema general, «organizar la agenda». Para convertirlo en un
 
 ### Lo que entregas
 
-Entregas las dos preguntas de investigación con el tema acotado del que salieron, el registro con al menos tres fuentes que abriste y leíste, y una línea con lo que el cuaderno dijo que sus fuentes no responden. Puede ser una nota del celular, un documento o una planilla, siempre que cada enlace se pueda abrir.
+Publica en el foro del módulo las dos preguntas de investigación con el tema acotado del que salieron, el registro con al menos tres fuentes que abriste y leíste, y una línea con lo que el cuaderno dijo que sus fuentes no responden. Puedes escribirlo en el mensaje o adjuntar una nota del celular, un documento o una planilla, siempre que cada enlace se pueda abrir.
 
-### Cómo se revisa
+### Rúbrica
 
-Se revisa con los dos criterios del tema. El primero es «Formula preguntas de investigación específicas.»: se da por logrado si cada pregunta nombra el tema acotado y sus conceptos clave, si al leerla se sabe qué tipo de respuesta se espera y si se puede responder buscando información, no con una opinión. El segundo es «Usa al menos 2 herramientas y registra las fuentes con su cita.»: se da por logrado si usaste el buscador con citas y el cuaderno, si en la columna de la fuente aparece la página o el documento de origen y no el nombre de la herramienta, y si cada fuente tiene título, quién la publica, fecha y enlace que funciona.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Formula preguntas de investigación específicas | 40 % | Las dos preguntas nombran el tema acotado con al menos dos criterios y sus conceptos clave, dejan claro qué tipo de respuesta se espera y se responden buscando información. | Las preguntas salen del tema, pero una es amplia, omite los criterios o se responde con una opinión. | Las preguntas son generales o de opinión, no salen del tema acotado o falta una. |
+| Usa al menos 2 herramientas | 25 % | Usa el buscador con citas y el cuaderno, y entrega lo que el cuaderno dijo que sus fuentes no responden. | Usa las dos herramientas, pero falta la línea sobre lo que el cuaderno no responde. | Usa una sola herramienta o una que no muestra sus fuentes. |
+| Registra las fuentes con su cita | 35 % | El registro tiene al menos tres fuentes de origen, cada una con título, quién la publica, fecha, enlace que abre y lo que aporta. | Hay tres fuentes, pero a alguna le falta un dato o un enlace no abre. | Hay menos de tres fuentes o en lugar de la fuente aparece el nombre de la herramienta. |
+
+La actividad se aprueba con 60 % o más.
 
 ## Actividad 2 · Una pregunta real de tu cargo
 cubre: H1, C1, C2
 fuentes: F-M3-02, F-M3-12
+entrega: tarea
+
+### Instrucción general
+
+Ahora investigas una pregunta real de tu cargo con fuentes públicas y dejas un registro que vas a seguir usando en las próximas actividades. Súbelo como tarea en el aula, en un documento o una planilla con enlaces que se puedan abrir. Solo lo ven tú y el facilitador, porque trabajas con un tema de tu trabajo. El facilitador lo revisa con la rúbrica que está al final y te deja su retroalimentación en un plazo de hasta 72 horas.
 
 ### Situación
 
 Piensa en algo que en tu trabajo nadie sabe responder bien y que te convendría averiguar: cómo ordenan otras oficinas un tipo de documento, qué recomiendan las guías para atender un tipo de consulta frecuente, cómo se organiza una tarea que hoy te toma más de lo que debería. Puede ser el problema de tu proyecto o una pregunta nueva que te haya hecho tu jefatura.
 
-Vas a investigar con fuentes públicas. Gemini Notebook responde a partir de los documentos que le entregas y, si sus fuentes no tienen la respuesta, puede no responder [@F-M3-02]. Eso lo hace útil, pero no cambia la regla del tema: a esa herramienta no se suben planillas ni documentos de tu empresa con datos de personas o información interna. Si quieres comparar con algo de tu trabajo, usa una copia sin datos sensibles o tus propias notas, sin nombres. Si en algún momento usas un texto generado por la IA como base, anota la herramienta, su versión, la fecha de la consulta y el prompt, y guarda la respuesta [@F-M3-12].
+Vas a investigar con fuentes públicas. Gemini Notebook responde a partir de los documentos que le entregas y, si sus fuentes no tienen la respuesta, puede no responder [@F-M3-02]. Eso lo hace útil, pero no cambia una regla básica: a esa herramienta no se suben planillas ni documentos de tu empresa con datos de personas o información interna. Si quieres comparar con algo de tu trabajo, usa una copia sin datos sensibles o tus propias notas, sin nombres. Si en algún momento usas un texto generado por la IA como base, anota la herramienta, su versión, la fecha de la consulta y el prompt, y guarda la respuesta [@F-M3-12].
 
 ### Lo que vas a hacer
 
@@ -50,11 +66,18 @@ Vas a investigar con fuentes públicas. Gemini Notebook responde a partir de los
 
 ### Lo que entregas
 
-Entregas tus dos preguntas, el registro con al menos cinco fuentes que abriste y leíste, una línea sobre lo que quedó sin responder y, si usaste un texto generado por la IA, la nota con herramienta, versión, fecha y prompt. Guarda este registro: es la base de las actividades de los próximos temas.
+Sube como tarea en el aula tus dos preguntas, el registro con al menos cinco fuentes que abriste y leíste, una línea sobre lo que quedó sin responder y, si usaste un texto generado por la IA, la nota con herramienta, versión, fecha y prompt. Guarda este registro: lo vas a seguir usando en las próximas actividades.
 
-### Cómo se revisa
+### Rúbrica
 
-Para «Formula preguntas de investigación específicas.», se mira que las dos preguntas salgan de un problema real de tu cargo, que nombren el tema acotado con sus criterios y que no sean tan amplias que cualquier resultado sirva. Para «Usa al menos 2 herramientas y registra las fuentes con su cita.», se mira que hayas usado dos herramientas distintas, que cada fuente del registro sea la página o el documento de origen con título, quién la publica, fecha y enlace, y que el registro no incluya datos personales ni información interna de tu empresa.
+| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
+|---|---|---|---|---|
+| Formula preguntas de investigación específicas | 30 % | Las dos preguntas salen de un problema real del cargo, nombran el tema acotado con sus criterios y delimitan qué información sirve. | Las preguntas salen del cargo, pero una es tan amplia que casi cualquier resultado sirve o no nombra los criterios. | Las preguntas no salen del cargo, son de opinión o falta una. |
+| Usa al menos 2 herramientas | 20 % | Usa dos herramientas distintas, busca una fuente nueva para lo que quedó sin responder y, si usó un texto generado por la IA, lo declara con herramienta, versión, fecha y prompt. | Usa dos herramientas, pero no busca una fuente para el vacío o la nota sobre la IA está incompleta. | Usa una sola herramienta. |
+| Registra las fuentes con su cita | 30 % | El registro tiene al menos cinco fuentes de origen, cada una con título, quién la publica, fecha y enlace que abre. | Hay cinco fuentes, pero a algunas les falta un dato o un enlace no abre. | Hay menos de cinco fuentes o las fuentes son nombres de herramientas. |
+| Cuida los datos de la empresa | 20 % | El registro y las notas no tienen nombres de personas, clientes ni información interna de la empresa. | Aparece un detalle que podría identificar a alguien o a la empresa, sin datos sensibles. | Incluye datos personales o información interna de la empresa. |
+
+La actividad se aprueba con 60 % o más.
 
 ## Referencias bibliográficas
 

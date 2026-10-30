@@ -1,8 +1,8 @@
 # Quiz M2-AE3 · Presentaciones con IA
 
 **Misión:** contar una historia en seis láminas y depurar lo que la IA agrega de más
-**Cuándo:** al terminar el Rise M2-T3 · Presentaciones con IA, antes de pasar a planillas de cálculo con IA.
-**Insignia:** Seis láminas, un mensaje · **Siguiente parada:** Rise M2-T4, planillas de cálculo con IA
+**Cuándo:** al terminar el tema «Presentaciones con IA», antes de pasar a planillas de cálculo con IA.
+**Insignia:** Seis láminas, un mensaje · **Siguiente parada:** tema «Planillas de cálculo con IA»
 **Estilo:** acento #fbbf24 · acento2 #a78bfa · fondo neuronas · lema Mensaje, historia y depuración
 **Ilustración:** flujo | Tu brief (doc) · El esquema (niveles) · Tu presentación (play)
 

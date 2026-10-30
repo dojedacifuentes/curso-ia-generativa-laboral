@@ -513,7 +513,7 @@ const DATOS = /*DATA*/;
     const celdas = Array.from({ length: ENERGIA }, (_, k) => `<span class="celda ${k < est.energia ? 'on' : ''}"></span>`).join('');
     const hechos = est.resultados.filter(Boolean).length;
     return `<header class="hud" id="hud">
-      <div class="hud-id"><span class="led"></span><span>${esc(D.curso)}</span><b class="hud-tema"> · ${esc(D.tema)}</b></div>
+      <div class="hud-id"><span class="led"></span><span>Módulo ${D.modulo}</span><b class="hud-tema"> · ${esc(D.tema)}</b></div>
       <div class="ruta" role="progressbar" aria-label="Niveles completados" aria-valuemin="0" aria-valuemax="${N}" aria-valuenow="${hechos}">${rutaHtml(est.nivel)}</div>
       <div class="stats">
         <span class="xp"><span id="xp" data-valor="${est.xp}">${xpMostrar}</span><small>XP</small></span>
@@ -627,7 +627,7 @@ const DATOS = /*DATA*/;
     app.innerHTML = `<section class="panel portada">
       <div>
         ${D.logo ? `<img class="logo-marca" src="${D.logo}" alt="e-tech">` : ''}
-        <p class="kicker">Misión · Módulo ${D.modulo} · ${esc(D.curso)}</p>
+        <p class="kicker">Misión · Módulo ${D.modulo}</p>
         <h1 class="titulo" id="foco" tabindex="-1">${esc(D.tema)}</h1>
         <p class="mision">Tu misión: <b>${esc(D.mision)}</b>.</p>
         <div class="acciones arriba">
@@ -635,7 +635,7 @@ const DATOS = /*DATA*/;
           ${botonSonido()}
         </div>
         <div class="reglas">
-          ${regla('niveles', `${N} niveles`, `Uno por pregunta (${esc(D.aes)}). El último es el nivel final.`)}
+          ${regla('niveles', `${N} niveles`, `Uno por pregunta. El último es el nivel final.`)}
           ${regla('estrella', '+100 XP y estrella', 'Si aciertas al primer intento. Al segundo intento, +50 XP.')}
           ${regla('combo', 'Combos', `Aciertos seguidos al primer intento suman +${COMBO}, +${COMBO * 2}, +${COMBO * 3}…`)}
           ${regla('bateria', `${ENERGIA} de energía`, `Cada error gasta una. Las que guardes valen +${POR_ENERGIA} XP al final.`)}
@@ -671,7 +671,7 @@ const DATOS = /*DATA*/;
     <section class="panel nivel ${ultimo ? 'jefe' : ''}">
       ${ultimo ? '<div class="alerta" aria-hidden="true"></div>' : ''}
       <div class="nivel-cab">
-        <div class="nivel-id"><span class="kicker">${ultimo ? 'Nivel final' : `Nivel ${i + 1} de ${N}`}</span><span class="chip">${esc(p.ae)}</span>${est.combo ? `<span class="combo">${ico('combo')} Racha ${est.combo}</span>` : ''}</div>
+        <div class="nivel-id"><span class="kicker">${ultimo ? 'Nivel final' : `Nivel ${i + 1} de ${N}`}</span>${est.combo ? `<span class="combo">${ico('combo')} Racha ${est.combo}</span>` : ''}</div>
         <button class="comodin" id="comodin" ${puedeComodin ? '' : 'disabled'} title="Comodín 50:50: quita alternativas incorrectas">${ico('comodin')} 50:50<span class="sr"> Comodín: quita alternativas incorrectas</span></button>
       </div>
       <h2 class="enunciado" id="foco" tabindex="-1">${esc(p.enunciado)}</h2>
@@ -683,7 +683,7 @@ const DATOS = /*DATA*/;
     </section>`;
     app.querySelectorAll('.opcion').forEach((b) => b.addEventListener('click', () => responder(Number(b.dataset.k), b)));
     document.getElementById('comodin').addEventListener('click', usarComodin);
-    destello(ultimo ? 'Nivel final' : `Nivel ${i + 1}`, `${p.ae} · ${intentosDe(p) > 1 ? '2 intentos' : '1 intento'}`);
+    destello(ultimo ? 'Nivel final' : `Nivel ${i + 1}`, `${intentosDe(p) > 1 ? '2 intentos' : '1 intento'}`);
     sonido.nivel();
     enfocar();
   }
@@ -780,7 +780,6 @@ const DATOS = /*DATA*/;
       <p class="retro-titulo" id="retro-titulo" tabindex="-1">${esc(titulo)}</p>
       <p class="retro-lbl">// Por qué</p>
       <p class="retro-texto">${esc(p.retro)}</p>
-      ${p.remite ? `<p class="retro-lbl">// ${acierto ? 'Para profundizar' : 'Repasa'}</p><p class="retro-texto">${esc(p.remite)}</p>` : ''}
       <div class="acciones"><button class="btn principal" id="seguir">${ultimo ? 'Ver mi insignia' : 'Siguiente nivel'} ${ico('play')}</button></div>`;
     retro.hidden = false;
     refrescarHud(xpAntes);
@@ -826,7 +825,7 @@ const DATOS = /*DATA*/;
     document.getElementById('flash').classList.remove('ver');
     app.innerHTML = `<section class="panel final" style="--m-rgb:${mrgb}">
       <div class="final-a">
-      <p class="kicker">Módulo ${D.modulo} · ${esc(D.curso)} · ${esc(D.tema)}</p>
+      <p class="kicker">Módulo ${D.modulo} · ${esc(D.tema)}</p>
       <h2 class="titulo-final" id="foco" tabindex="-1">Misión cumplida</h2>
       <div class="medalla-caja"><div class="rayos"></div>${medallaSvg(medalla)}</div>
       <p class="insignia">Insignia <b>«${esc(D.insignia)}»</b></p>
@@ -847,7 +846,7 @@ const DATOS = /*DATA*/;
       </div>
       </div>
       <div class="revision" id="revision" hidden>${D.preguntas.map((p, k) => `<article>
-        <h3>Nivel ${k + 1} · ${esc(p.ae)} · ${esc(p.enunciado)}</h3>
+        <h3>Nivel ${k + 1} · ${esc(p.enunciado)}</h3>
         <p class="r-ok">Respuesta correcta: ${LETRAS[p.correcta]}) ${esc(p.opciones[p.correcta])}</p>
         <p>${esc(p.retro)}</p></article>`).join('')}</div>
     </section>`;
@@ -994,7 +993,7 @@ const DATOS = /*DATA*/;
   });
   window.addEventListener('pagehide', () => scorm.cerrar());
   window.addEventListener('beforeunload', () => scorm.cerrar());
-  document.getElementById('pie').textContent = `${D.firma ? D.firma + ' · ' : ''}${D.cursoNombre} · Módulo ${D.modulo} · ${D.curso} · Quiz formativo, sin nota`;
+  document.getElementById('pie').textContent = `${D.firma ? D.firma + ' · ' : ''}${D.cursoNombre} · Módulo ${D.modulo} · Quiz formativo, sin nota`;
   reiniciar();
   scorm.iniciar();
   fondo();

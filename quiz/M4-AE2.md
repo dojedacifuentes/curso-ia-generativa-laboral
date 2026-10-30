@@ -1,8 +1,8 @@
 # Quiz M4-AE2 · Imágenes y gráficos
 
 **Misión:** leer prompts visuales y revisar una pieza como lo haría una directora de arte
-**Cuándo:** al terminar el Rise M4-T2 · Imágenes y gráficos, antes de pasar a audio y música.
-**Insignia:** Dirección de arte · **Siguiente parada:** Rise M4-T3, audio y música
+**Cuándo:** al terminar el tema «Imágenes y gráficos», antes de pasar a audio y música.
+**Insignia:** Dirección de arte · **Siguiente parada:** tema «Audio y música»
 **Estilo:** acento #ff7a59 · acento2 #a78bfa · fondo neuronas · lema Del mensaje a la pieza, mirando cada detalle
 **Ilustración:** flujo | Tu mensaje (chat) · La imagen (chispa) · Tu mirada (escudo)
 

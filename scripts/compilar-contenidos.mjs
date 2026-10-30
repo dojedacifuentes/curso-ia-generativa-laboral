@@ -63,7 +63,9 @@ const D = {
   th: `border:1px solid ${C.grisClaro};padding:4px 8px;background:${C.noche};color:${C.blanco};font-family:'Varela Round';font-weight:normal`,
   td: `border:1px solid ${C.grisClaro};padding:4px 8px`,
 };
-const META = /^(cubre:\s*([SHAC]\d|M\d-AE\d)|fuentes:\s*\(|bloque:)/;
+const META = /^(cubre:\s*([SHAC]\d|M\d-AE\d)|fuentes:\s*\(|bloque:|entrega:)/;
+// Vista del estudiante (criterios 30-10): actividades, casos, glosario, foros y guía no muestran códigos ni metadatos internos
+let VISTA = 'interna';
 
 function bloques(texto) {
   const lineas = texto.split('\n');
@@ -137,6 +139,7 @@ function bloques(texto) {
     // Metadatos de pantalla para quien arma el Rise: qué cubre, qué cita y qué bloque usar
     if (META.test(l)) {
       cerrarParrafo();
+      if (VISTA === 'estudiante') { while (i < lineas.length && META.test(lineas[i])) i++; continue; }
       const meta = [];
       for (; i < lineas.length && META.test(lineas[i]); i++) {
         const [, k, v] = /^(\w+):\s*(.*)$/.exec(lineas[i]);
@@ -200,14 +203,20 @@ const textoAE = (ae, docs) => docs
   : `<p class="ae"><b>Aprendizaje esperado:</b> ${esc(ae.texto)}</p>`;
 
 // Escribe la versión PDF (HTML imprimible) y la versión Docs de un documento con citas
-function escribir(dirHtml, dirDocs, nombre, { titulo, etiqueta, subtitulo, subtituloDocs, texto }) {
+function escribir(dirHtml, dirDocs, nombre, { titulo, etiqueta, subtitulo, subtituloDocs, texto, vista = 'interna' }) {
+  VISTA = vista;
   const { texto: t, refs } = conCitas(texto);
   DOCS = false;
   fs.writeFileSync(path.join(dirHtml, `${nombre}.html`), documentoPDF({ titulo, etiqueta, subtitulo, cuerpo: bloques(t) + refHTML(refs) }));
   DOCS = true;
   fs.writeFileSync(path.join(dirDocs, `${nombre}.html`), documentoDocs({ titulo, etiqueta, subtitulo: subtituloDocs, cuerpo: bloques(t) + refHTML(refs) }));
   DOCS = false;
+  VISTA = 'interna';
 }
+// «M5-AE1 (Potencial de automatización)» → «Potencial de automatización»; sin código de caso ni de AE en los títulos
+const sinCodigos = t => t.replace(/\*\*Aprendizajes esperados que trabaja:\*\*/g, '**Temas que trabaja:**')
+  .replace(/\bM\d-AE\d \(([^)]+)\)/g, '$1').replace(/^(#+ )M\d-(?:C|AE)\d · /gm, '$1')
+  .replace(/(\d) %/g, '$1 %'); // «30 %» no se corta en dos renglones (columna «Peso» de las rúbricas)
 const carpetas = (...p) => { const ds = ['html', 'docs', 'pdf'].map(x => path.join(SALIDA, ...p, x)); ds.forEach(d => fs.mkdirSync(d, { recursive: true })); return ds; };
 
 // ---------- Contenidos base: un archivo por AE ----------
@@ -250,7 +259,7 @@ const [DIR_CASOS_HTML, DIR_CASOS_DOCS, DIR_CASOS_PDF] = carpetas('casos');
 for (const id of casos) {
   const mdc = leerMd(path.join('casos', `${id}.md`));
   const m = curso.modulos.find(x => x.n === Number(id[1]));
-  escribir(DIR_CASOS_HTML, DIR_CASOS_DOCS, id, { titulo: (/^# (.+)$/m.exec(mdc)?.[1] || id).trim(), etiqueta: `Módulo ${m.n} · ${m.nombre} · Caso de aplicación`, texto: mdc.replace(/^# .*\n/, '') });
+  escribir(DIR_CASOS_HTML, DIR_CASOS_DOCS, id, { titulo: (/^# (.+)$/m.exec(mdc)?.[1] || id).trim().replace(/^M\d-C\d · /, ''), etiqueta: `Módulo ${m.n} · ${m.nombre} · Caso de aplicación`, texto: sinCodigos(mdc.replace(/^# .*\n/, '')), vista: 'estudiante' });
 }
 if (casos.length) console.log(`${casos.length} casos en entregables/casos`);
 
@@ -260,7 +269,7 @@ const [DIR_ACT_HTML, DIR_ACT_DOCS, DIR_ACT_PDF] = carpetas('actividades');
 for (const id of actividades) {
   const mda = leerMd(path.join('actividades', `${id}.md`));
   const m = curso.modulos.find(x => x.n === Number(id[1])), ae = m.aes.find(a => a.id === id);
-  escribir(DIR_ACT_HTML, DIR_ACT_DOCS, id, { titulo: `${id} · ${ae.tema}`, etiqueta: `Módulo ${m.n} · Actividades de aplicación práctica`, subtitulo: textoAE(ae, false), subtituloDocs: textoAE(ae, true), texto: mda.replace(/^# .*\n/, '') });
+  escribir(DIR_ACT_HTML, DIR_ACT_DOCS, id, { titulo: ae.tema, etiqueta: `Módulo ${m.n} · Actividades de aplicación práctica`, subtitulo: textoAE(ae, false), subtituloDocs: textoAE(ae, true), texto: sinCodigos(mda.replace(/^# .*\n/, '')), vista: 'estudiante' });
 }
 if (actividades.length) console.log(`${actividades.length} documentos de actividades en entregables/actividades`);
 
@@ -269,7 +278,7 @@ const DIR_GLO = path.join(SALIDA, 'glosario');
 fs.mkdirSync(DIR_GLO, { recursive: true });
 const glosario = curso.modulos.filter(m => fs.existsSync(path.join(RAIZ, 'glosario', `M${m.n}.md`))).map(m => {
   const g = leerMd(path.join('glosario', `M${m.n}.md`));
-  const aes = g.split(/^## /m).slice(1).map(b => ({ titulo: b.split('\n')[0].trim(), terminos: [...b.matchAll(/^- \*\*(.+?)\*\*:\s*([\s\S]*?)(?=^- \*\*|(?![\s\S]))/gm)].map(x => ({ t: x[1], d: x[2].replace(/\s+/g, ' ').trim() })) }));
+  const aes = g.split(/^## /m).slice(1).map(b => ({ titulo: b.split('\n')[0].trim().replace(/^M\d-AE\d · /, ''), terminos: [...b.matchAll(/^- \*\*(.+?)\*\*:\s*([\s\S]*?)(?=^- \*\*|(?![\s\S]))/gm)].map(x => ({ t: x[1], d: x[2].replace(/\s+/g, ' ').trim() })) }));
   return { m, aes };
 });
 if (glosario.length) {
@@ -289,6 +298,39 @@ if (glosario.length) {
   const entradas = glosario.flatMap(({ m, aes }) => aes.flatMap(a => a.terminos.map(t => `    <ENTRY><CONCEPT>${x(t.t)}</CONCEPT><DEFINITION>${x(`<p>${t.d.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')}</p>`)}</DEFINITION><FORMAT>1</FORMAT><USEDYNALINK>0</USEDYNALINK><CASESENSITIVE>0</CASESENSITIVE><FULLMATCH>0</FULLMATCH><TEACHERENTRY>1</TEACHERENTRY><CATEGORIES><CATEGORY><NAME>Módulo ${m.n}</NAME><USEDYNALINK>0</USEDYNALINK></CATEGORY></CATEGORIES></ENTRY>`)));
   fs.writeFileSync(path.join(DIR_GLO, 'Glosario-Moodle.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<GLOSSARY>\n  <INFO>\n    <NAME>Glosario · ${x(curso.titulo)}</NAME>\n    <INTRO></INTRO>\n    <INTROFORMAT>1</INTROFORMAT>\n    <ENTRIES>\n${entradas.join('\n')}\n    </ENTRIES>\n  </INFO>\n</GLOSSARY>\n`);
   console.log(`Glosario: ${total} términos en entregables/glosario (HTML, Docs, XML de Moodle)`);
+}
+
+// ---------- Guía del facilitador y foros (criterios 30-10): un documento cada uno, con la marca ----------
+const combinados = [];
+{
+  const leerSi = rel => (fs.existsSync(path.join(RAIZ, rel)) ? leerMd(rel) : '');
+  const bajar = md => md.replace(/^# .*\n/, '').replace(/^(#{2,3}) /gm, '#$1 ');
+  // Guía: introducción, foros y luego cada tema, en orden de módulo
+  let guia = '';
+  const gForos = leerSi('guia-facilitador/Foros.md');
+  if (gForos) guia += '## Foros\n\n' + bajar(gForos) + '\n';
+  for (const m of curso.modulos) {
+    const partes = m.aes.map(a => leerSi(`guia-facilitador/${a.id}.md`)).filter(Boolean);
+    if (!partes.length) continue;
+    guia += `## Módulo ${m.n} · ${m.nombre}\n\n` + partes.map(p => '### ' + /^# (?:Guía del facilitador · )?(.+)$/m.exec(p)[1] + '\n\n' + bajar(bajar(p))).join('\n') + '\n';
+  }
+  let foros = '';
+  const fGen = leerSi('foros/General.md');
+  if (fGen) foros += '## ' + /^# (.+)$/m.exec(fGen)[1] + '\n\n' + bajar(fGen) + '\n';
+  for (const m of curso.modulos) { const fm = leerSi(`foros/M${m.n}.md`); if (fm) foros += '## ' + /^# (.+)$/m.exec(fm)[1] + '\n\n' + bajar(fm) + '\n'; }
+  const intro = leerSi('guia-facilitador/LEEME.md');
+  const docsComb = [
+    ['guia-facilitador', 'Guia-del-facilitador', 'Guía del facilitador', 'Uso docente, no visible para estudiantes', (intro ? bajar(intro) + '\n' : '') + guia],
+    ['foros', 'Foros-del-curso', 'Foros del curso', 'Foro general y foros de cada módulo', foros],
+    ['guia-facilitador', 'Mapa-del-aula-Moodle', 'Mapa del aula Moodle', 'Estructura del curso en el aula', bajar(leerSi('docs/MAPA-AULA-MOODLE.md')).replace(/^### /gm, '## ').replace(/^#### /gm, '### ')],
+  ];
+  for (const [dir, nombre, titulo, etiqueta, texto] of docsComb) {
+    if (!texto.trim()) continue;
+    const [dh, dd] = carpetas(dir);
+    escribir(dh, dd, nombre, { titulo, etiqueta: `${etiqueta} · ${curso.titulo}`, texto: sinCodigos(texto), vista: 'estudiante' });
+    combinados.push({ dir, nombre });
+  }
+  if (combinados.length) console.log(`${combinados.map(c => c.nombre).join(' y ')} en entregables/`);
 }
 
 // ---------- Documentos de proceso, investigación y LEEME de Drive (entregables/documentos/) ----------
@@ -346,6 +388,7 @@ if (!process.argv.includes('--sin-pdf')) {
     imprimir(path.join(SALIDA, 'Contenidos-completos.html'), path.join(DIR_PDF, 'Contenidos-completos.pdf'));
     for (const id of actividades) imprimir(path.join(DIR_ACT_HTML, `${id}.html`), path.join(DIR_ACT_PDF, `${id}.pdf`));
     if (glosario.length) imprimir(path.join(DIR_GLO, 'Glosario.html'), path.join(DIR_GLO, 'Glosario.pdf'));
+    for (const c of combinados) imprimir(path.join(SALIDA, c.dir, 'html', `${c.nombre}.html`), path.join(SALIDA, c.dir, 'pdf', `${c.nombre}.pdf`));
     console.log(`${archivos.length + 1} PDF de contenidos, ${actividades.length} de actividades${glosario.length ? ' y el glosario' : ''}`);
   }
   if (solo !== '--solo-documentos') for (const id of casos) imprimir(path.join(DIR_CASOS_HTML, `${id}.html`), path.join(DIR_CASOS_PDF, `${id}.pdf`));

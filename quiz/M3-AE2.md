@@ -1,8 +1,8 @@
 # Quiz M3-AE2 · Recopilar, validar y sintetizar
 
 **Misión:** decidir cuánto confiar en cada fuente y qué hacer cuando no coinciden
-**Cuándo:** al terminar el Rise M3-T2 · Recopilar, validar y sintetizar, antes de pasar a organizar y presentar información.
-**Insignia:** Lupa de fuentes · **Siguiente parada:** Rise M3-T3, organizar y presentar información
+**Cuándo:** al terminar el tema «Recopilar, validar y sintetizar», validar y sintetizar, antes de pasar a organizar y presentar información.
+**Insignia:** Lupa de fuentes · **Siguiente parada:** tema «Organizar y presentar información»
 **Estilo:** acento #ff7a59 · acento2 #fbbf24 · fondo neuronas · lema Cuánto pesa cada fuente y qué queda en pie
 **Ilustración:** flujo | Varias fuentes (doc) · El contraste (rombo) · Tu síntesis (transformar)
 

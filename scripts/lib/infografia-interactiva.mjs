@@ -5,14 +5,6 @@
 // Respeta «reducir movimiento». Sin JavaScript se ve todo abierto.
 
 export function htmlInteractivo(j, m, { curso, ac, semaforo, icono, esc, negrita, fuentes, logo, arcos, C, firma }) {
-  const temas = Object.fromEntries(m.aes.map(a => [a.id, a.tema]));
-  // «M1-AE2 P03», «M1-AE2 P10» → «Prompts efectivos»: pantallas 3 y 10
-  const dondeVer = refs => {
-    const porAE = new Map();
-    for (const r of refs || []) { const [ae, p] = r.split(' '); porAE.set(ae, [...(porAE.get(ae) || []), Number(p.slice(1))]); }
-    const y = l => l.length > 1 ? `${l.slice(0, -1).join(', ')} y ${l.at(-1)}` : `${l[0]}`;
-    return [...porAE].map(([ae, ps]) => `<span class="chip">«${esc(temas[ae])}» · ${ps.length > 1 ? 'pantallas' : 'pantalla'} ${y(ps)}</span>`).join(' ');
-  };
 
   const items = j.bloques.map((x, i) => ({ ...x, i }));
   const luces = j.tipo === 'mapa' ? j.semaforo.map((s, k) => ({ ...s, i: items.length + k })) : [];
@@ -28,7 +20,6 @@ export function htmlInteractivo(j, m, { curso, ac, semaforo, icono, esc, negrita
   <div class="det" id="det${x.i}" role="region" aria-labelledby="cab${x.i}"><div class="det-in">
     <p>${negrita(x.texto)}</p>
     ${x.ejemplo ? `<p class="ej"><b>Ejemplo:</b> ${negrita(x.ejemplo)}</p>` : ''}
-    ${x.ver?.length ? `<p class="ver"><span>Lo ves en</span> ${dondeVer(x.ver)}</p>` : ''}
   </div></div>
 </article>`;
 
@@ -61,7 +52,7 @@ ${items.map(x => { const a = (x.i / n) * 2 * Math.PI - Math.PI / 2; return `<but
   }
 
   return `<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Infografía M${m.n} · ${esc(j.titulo)}</title><style>${fuentes}
+<title>Infografía del módulo ${m.n} · ${esc(j.titulo)}</title><style>${fuentes}
 :root{--ac:${ac};--ac-s:color-mix(in srgb,${ac} 12%,#fff);--ac-m:color-mix(in srgb,${ac} 30%,#fff);--tx:#0F172A;--tx2:#475569;--bd:#E2E8F0;--bg:#F8FAFC}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--tx);font:400 16.5px/1.55 Montserrat,system-ui,Arial,sans-serif}
 button{font:inherit;color:inherit;cursor:pointer}:focus-visible{outline:3px solid var(--ac);outline-offset:3px;border-radius:12px}
@@ -186,7 +177,7 @@ footer{padding:22px 20px 90px;font-size:13px;color:#64748B}
 <section class="clave cerrada" id="clave" aria-label="Idea clave"><div class="caja"><div class="texto">${negrita(j.clave)}</div>
 <div class="velo"><span>🔒 Explora todas las partes para descubrir la idea clave</span><button class="btn sec" type="button" id="btnClave">Verla ahora</button></div></div></section>
 <div class="guia" id="guia" hidden role="group" aria-label="Recorrido guiado"><button class="btn sec" type="button" id="gAnt">‹ Anterior</button><span class="cuenta" id="gCuenta"></span><button class="btn" type="button" id="gSig">Siguiente ›</button><button class="salir" type="button" id="gSalir">Salir</button></div>
-<footer>${esc(firma)} · ${esc(curso.titulo)} · Infografía interactiva del módulo ${m.n}${j.pie ? ` · ${esc(j.pie)}` : ''}</footer>
+<footer>${esc(firma)} · ${esc(curso.titulo)} · Infografía interactiva del módulo ${m.n}</footer>
 <script>
 (() => {
 const TOTAL = ${total}, TIPO = ${JSON.stringify(j.tipo)}, PARTES = ${JSON.stringify(items.map(x => ({ t: x.titulo, e: (x.ejemplo || '').replace(/^«|»\.?$/g, '') })))};

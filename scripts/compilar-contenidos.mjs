@@ -330,6 +330,17 @@ const combinados = [];
     escribir(dh, dd, nombre, { titulo, etiqueta: `${etiqueta} · ${curso.titulo}`, texto: sinCodigos(texto), vista: 'estudiante' });
     combinados.push({ dir, nombre });
   }
+  // La guía completa pesa demasiado para un solo Google Doc: en Drive va también partida (introducción y foros + un Doc por módulo)
+  {
+    const [dh, dd] = carpetas('guia-facilitador', 'partes');
+    escribir(dh, dd, 'Guia-0-introduccion-y-foros', { titulo: 'Guía del facilitador · Introducción y foros', etiqueta: `Uso docente, no visible para estudiantes · ${curso.titulo}`, texto: sinCodigos((intro ? bajar(intro) + '\n' : '') + (gForos ? '## Foros\n\n' + bajar(gForos) : '')), vista: 'estudiante' });
+    for (const m of curso.modulos) {
+      const partes = m.aes.map(a => leerSi(`guia-facilitador/${a.id}.md`)).filter(Boolean);
+      if (!partes.length) continue;
+      const tx = partes.map(p => '## ' + /^# (?:Guía del facilitador · )?(.+)$/m.exec(p)[1] + '\n\n' + bajar(p)).join('\n');
+      escribir(dh, dd, `Guia-M${m.n}`, { titulo: `Guía del facilitador · Módulo ${m.n}`, etiqueta: `${m.nombre} · uso docente`, texto: sinCodigos(tx), vista: 'estudiante' });
+    }
+  }
   if (combinados.length) console.log(`${combinados.map(c => c.nombre).join(' y ')} en entregables/`);
 }
 

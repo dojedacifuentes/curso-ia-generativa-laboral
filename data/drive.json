@@ -9,10 +9,10 @@
   "pdf": "1fSmrxG-EEGjNMPwO5rWYmQRHehdRziiC",
   "pdf_versiones_anteriores": "15TRpiSSdUQuAeOO_xDBlz2dobUF-c2jF",
   "quiz": "13E1wdKMlZkwxkU9Z5DN2ZlleNrBhjRLX",
-  "quiz_scorm": "1MT77POjJk3MxbLwQTAhbk97hk4Aw54yz",
-  "quiz_html": "1AmRJlnQeW3WOiskQg645bfj2yPz07J5D",
-  "quiz_gift": "1s1J1q1biKSNS0bR_QMd3P7Cj-GQOcDAu",
-  "infografias": "1hjalqn0LaO4lfzvq3x2pRz3OFi3K38xS",
+  "quiz_scorm": "1K_t6fUz0eH-CZkv7fLho15MCmfcQiBov",
+  "quiz_html": "1axsiwme2tfCcJh_vLRsG5ebGRo8nWuh8",
+  "quiz_gift": "155xnUyVjHUPvitSyAjmMAsrUz3araGB9",
+  "infografias": "1KeKc47LTCzAUytfoIXrWTAtbREOiONC7",
   "docs_por_ae": {
     "M1-AE1": "1fPn2ipoPR5OgTXOKtPGOqw4iqcH6HD3QAx8Hx7e7jzk",
     "M1-AE2": "19nNDNdnJ8YXf2Y3ntDDzfN9mZOghjUd6SPdv2FF-JOQ",
@@ -38,8 +38,8 @@
     "M6-AE3": "1zRDp4XCBFGRlgj6Vo4iufqA4uohnFRek-1JwQ8E0_4Y"
   },
   "casos": "19lgkpBRwVu2GfxtyL3QrA80lioiGKMbD",
-  "casos_docs": "1R81sGNnaYB-kNluo0UJ1nakmKn4cQBSY",
-  "casos_pdf": "1BXxrs7tCfhlqDzPzO3gLpxnKM5CxiveQ",
+  "casos_docs": "1jJUF3iUmKYYMH0Xs8tpBwfXLSKnXp3rU",
+  "casos_pdf": "1OVrlP8iOs_x9JPdZnOL4s0mofMFXlnSS",
   "docs_por_caso": {
     "00-Resumen": "1OrimTYgF1jGVo5tF7vrnfiagZLq_mRa1Ow7OqFA9z3g",
     "M1-C1": "1jYkjYnntr_qCk_XO9DimPWQrEF_t3CJW82NJcyBvha4",
@@ -114,12 +114,15 @@
     "M6-AE3": "1fm7YjIp5QHl_dVhwGSMxUe5uQ3Sa3bApj_kriihvxEY"
   },
   "actividades": "1KFpz7Hj-EiKy40s8deBn49Fbdi7DfEGW",
-  "actividades_docs": "1Y1dAuGoNm1kDsOgWAbyuvLzdZ4_Um49q",
-  "actividades_pdf": "15nZKdhP6XEtFExZc82idaBGuuj-bq6eE",
+  "actividades_docs": "1k1PWQl2tNxgmbSkzOtcuX50vR001zwq8",
+  "actividades_pdf": "1IXKwp810noOY0lUeVxxZUCfgaefBl9U0",
   "glosario": "1_aboGu1eM3fYjYFztapKNcmPDfFj7syV",
   "glosario_doc": "1F5Gw44BWnBgswFx1KowRAEHnVs8PNYCmDZ3IfSFlFZM",
   "glosario_pdf": "1_qWNV0HKfG6TmzMWS4ULgAxOYp9k4KXW",
   "glosario_xml": "1zl5dWuqtHo4LP308UdiEbBvDsqM3IxZE",
   "versiones_anteriores_29_10": "1tVa_5SL6kS3CmcrKN43aIcgtdwJvL2iw",
-  "rise_scorm": "1i4yhVYsRz4Yk6YJUGM-H8fFfWgKZIW43"
+  "rise_scorm": "1i4yhVYsRz4Yk6YJUGM-H8fFfWgKZIW43",
+  "foros": "1gau7qoh0EglMuCtkEx1mfHkiP8jXOqvJ",
+  "guia_facilitador": "1t3ZVouUED3NUZL9CanapBJ42rhyHTPcs",
+  "versiones_anteriores_30_10": "1R6P3-PXmUgjfioeo2Gi5OHzrbkg2sVGI"
 }

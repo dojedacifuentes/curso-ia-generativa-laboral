@@ -1,14 +1,35 @@
 # Rise del curso (29-10)
 
-M1-AE1 y M1-AE2 son duplicados corregidos de los Rise de Natalia; desde M1-AE3 se generan desde el contenido base.
+M1-AE1 y M1-AE2 son duplicados corregidos de los Rise de Natalia; los otros 20 se generaron desde el contenido base (29-10). Todos en borrador, sin publicar ni compartir.
 En Rise 360 (cuenta de Natalia, equipo Universidad Carlos Tercero). Son duplicados de los Rise que armó Natalia, que quedan
 intactos. Están como borrador, sin publicar ni compartir.
 
 | AE | Curso (título que ve el estudiante) | Editor |
 |---|---|---|
-| M1-AE1 | Fundamentos de IA generativa | https://rise.eu.articulate.com/authoring/P9GpNxk2sfvKnwyJIZ4QlejNK_Bbitvq |
-| M1-AE2 | Prompts efectivos | https://rise.eu.articulate.com/authoring/OMzllulso49uQ8q6ARWMjTTv_rJty8xz |
-| M1-AE3 | Parámetros de generación (generado) | https://rise.eu.articulate.com/authoring/bKbPkTP7XqxlNM4J0tuG5Xhu2rwruSzf |
+| M1-AE1 | Fundamentos de IA generativa (corregido) | https://rise.eu.articulate.com/authoring/P9GpNxk2sfvKnwyJIZ4QlejNK_Bbitvq |
+| M1-AE2 | Prompts efectivos (corregido) | https://rise.eu.articulate.com/authoring/OMzllulso49uQ8q6ARWMjTTv_rJty8xz |
+| M1-AE3 | Parámetros de generación | https://rise.eu.articulate.com/authoring/bKbPkTP7XqxlNM4J0tuG5Xhu2rwruSzf |
+| M1-AE4 | Validación de resultados | https://rise.eu.articulate.com/authoring/PPmtFP9ufBQ0_UPcbmXZV1yE8_EN_MvB |
+| M2-AE1 | Redacción y comunicación con IA | https://rise.eu.articulate.com/authoring/uChTWiOxSXBkNzgYosqU2g_j7V7snZ0X |
+| M2-AE2 | Prompting avanzado para textos | https://rise.eu.articulate.com/authoring/K1RsxsDgEOGMtRsXQIOWamaS7H8L21X9 |
+| M2-AE3 | Presentaciones con IA | https://rise.eu.articulate.com/authoring/8IAODi1juVjbg38rp9qWjujvnkopmNtt |
+| M2-AE4 | Planillas de cálculo con IA | https://rise.eu.articulate.com/authoring/P3OHQcMVesodpW1-pL1UwCtQQ74FAq0X |
+| M3-AE1 | Herramientas de IA para investigar | https://rise.eu.articulate.com/authoring/qXYy-dcXCbm6QoCMqMmigkBtXneW6Faw |
+| M3-AE2 | Recopilar, validar y sintetizar | https://rise.eu.articulate.com/authoring/2bClHADS2Sdz6DXtEzjCDLRN09SYJY4D |
+| M3-AE3 | Organizar y presentar información | https://rise.eu.articulate.com/authoring/8ilZ2wrvXZhMJ6b6yfflylgj6ezwD7pm |
+| M3-AE4 | Análisis crítico y privacidad | https://rise.eu.articulate.com/authoring/Gx9_kKeVqKAi3oOe3pYCQTN8iQTxaR-O |
+| M4-AE1 | Ecosistema multimedia con IA | https://rise.eu.articulate.com/authoring/m4X-ho9ZnnjXE95wT_GXa2JOTvCrm0u2 |
+| M4-AE2 | Imágenes y gráficos | https://rise.eu.articulate.com/authoring/UPZ2dltcAP2p-IkrhJAUS43ZJsPoZpJ3 |
+| M4-AE3 | Audio y música | https://rise.eu.articulate.com/authoring/c-q1wrQPBqNJDjwk_uYdNNcksbQj8eMj |
+| M4-AE4 | Clips y video breve | https://rise.eu.articulate.com/authoring/eJ5JEvEmEViXbjqAq685kpbq1cQxQNAo |
+| M5-AE1 | Potencial de automatización | https://rise.eu.articulate.com/authoring/D-NMWP6s8RmIeeKGbUy36QfR8ZuSrfqe |
+| M5-AE2 | Flujos simples con IA | https://rise.eu.articulate.com/authoring/8qpp2ZjrQAprHda25YjUQ0CS92NrUJoQ |
+| M5-AE3 | Supervisión humana y riesgos | https://rise.eu.articulate.com/authoring/top75KiobR3ThppOPocIg9AA30ypV0nZ |
+| M6-AE1 | Oportunidad de mejora con IA | https://rise.eu.articulate.com/authoring/NuSFxQn8LQrl_zhaty6KsOXTlPZBvbJE |
+| M6-AE2 | Implementar el flujo | https://rise.eu.articulate.com/authoring/nUm-eIaU7djyewMCtuszP0kBIeLNTanA |
+| M6-AE3 | Resultados y aprendizajes | https://rise.eu.articulate.com/authoring/Svt__y_DhwaUay1WZ-IcRfXE-iDtP2O8 |
+
+Los 22 se verificaron el 29-10 (título, lecciones, competencia y AE, referencias, sin lecciones vacías ni códigos). Ids también en `ids.json`.
 
 ## Reglas (pedidos del usuario del 29-10)
 
@@ -25,8 +46,9 @@ intactos. Están como borrador, sin publicar ni compartir.
 
 1. `node scripts/rise-generar.mjs M1-AE4 M2-AE1 …` → `entregables/rise/<AE>/rise-curso.json` (avisa si queda algún código
    a la vista). Commit y push.
-2. En la biblioteca de Rise, duplicar la plantilla «Fundamentos de IA generativa» (P9GpNxk2…, la corregida, con la marca)
-   y ponerle el nombre del tema.
+2. En la biblioteca de Rise, duplicar un Rise ya armado (cualquiera sirve de plantilla: trae la marca, el tema y las fotos) y
+   ponerle el nombre del tema. Con el script: abrir el menú ⋯ con un clic real, ubicar «Duplicate» con find y hacer clic por
+   referencia (el clic por coordenadas a veces cae en otra fila); verificar que se abrió «Duplicate Course» antes de escribir.
 3. En el editor del duplicado, cargar `scripts/lib/rise-armar.js` desde raw.githubusercontent y correr
    `riseArmar(courseId, datos)`: borra las lecciones de la plantilla y crea las del AE (unos segundos).
 4. Revisar en la vista previa.

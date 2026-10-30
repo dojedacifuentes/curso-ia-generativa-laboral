@@ -4,12 +4,13 @@
 // 3. Busca el input con find «cc-cmp comparar» y pásale con file_upload el HTML local (entregables/.../docs/<id>.html).
 // 4. Ejecuta: await ccComparar('<id del Doc>')  →  { N, M, D, ops }. D = 0 quiere decir idénticos.
 //    Si D > 0, «ops» trae cada palabra sobrante (-) o faltante (+) con su contexto.
-// Se puede reutilizar la misma pestaña para varios Docs: subir el HTML siguiente y llamar de nuevo con otro id.
+// Se puede reutilizar la misma pestaña para varios Docs: subir el HTML siguiente y llamar de nuevo con otro id, o subir
+// varios HTML juntos y llamar a ccComparar('<id>', '<nombre del archivo>') para cada uno.
 (() => {
   let inp = document.getElementById('cc-cmp');
   if (!inp) {
     inp = document.createElement('input');
-    inp.type = 'file'; inp.id = 'cc-cmp';
+    inp.type = 'file'; inp.id = 'cc-cmp'; inp.multiple = true;
     inp.setAttribute('aria-label', 'cc-cmp comparar');
     inp.style.cssText = 'position:fixed;top:0;left:0;z-index:99999';
     document.body.appendChild(inp);
@@ -20,8 +21,13 @@
     .replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&#(\d+);/g, (m, n) => String.fromCodePoint(+n))
     .replace(/&#x([0-9a-f]+);/gi, (m, n) => String.fromCodePoint(parseInt(n, 16)));
   const palabras = t => t.toLowerCase().match(/[\p{L}\p{N}]+/gu) || [];
-  window.ccComparar = async docId => {
-    const a = palabras(texto(await inp.files[0].text()));
+  // Los HTML subidos se acumulan por nombre: se pueden subir varios de una vez y comparar con ccComparar(id, 'nombre.html')
+  window.ccArchivos = window.ccArchivos || {};
+  inp.onchange = () => { for (const f of inp.files) window.ccArchivos[f.name] = f; };
+  window.ccComparar = async (docId, nombre) => {
+    const f = nombre ? window.ccArchivos[nombre] : inp.files[0];
+    if (!f) throw new Error(`sin HTML cargado: ${nombre}`);
+    const a = palabras(texto(await f.text()));
     const b = palabras(texto(await (await fetch(`/document/d/${docId}/mobilebasic`, { credentials: 'include' })).text()));
     // Diferencia mínima (Myers), con tope de 400 cambios
     const N = a.length, M = b.length, max = N + M, v = new Int32Array(2 * max + 2), traza = [];

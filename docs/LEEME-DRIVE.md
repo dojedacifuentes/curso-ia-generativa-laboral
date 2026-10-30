@@ -70,8 +70,10 @@ resoluciones, documentos de la empresa y registros oficiales. Cada caso es una a
 - qué pasó;
 - análisis guiado: 6 preguntas que se apoyan en los temas del módulo;
 - aplicación al proyecto;
-- autocorrección;
 - pregunta para el foro.
+
+Desde el 30-10 los casos no traen autocorrección: la persona responde en el foro y el facilitador la retroalimenta. Las respuestas
+esperadas están en la guía del facilitador (carpeta 14).
 
 «00 · Resumen de verificación» muestra el estado de cada caso. El caso Samsung (M3-C2) se descartó porque no tenía fuente primaria y
 se reemplazó por el de la Municipalidad de Eindhoven (2025), que trabaja el mismo AE.
@@ -129,15 +131,22 @@ de Articulate.
 
 «Foros del curso», en Doc y PDF: el foro de interacción del curso (presentación y consultas) y un foro por módulo con la consigna
 **qué, por qué y para qué**. Cada foro trae instrucción general, cómo participar y rúbrica de participación. En el foro de cada módulo
-se publica además la actividad 1 de cada tema y se responde la pregunta de los casos. El facilitador responde en menos de 24 horas
+se responde además la pregunta de los casos. La actividad 1 de cada tema tiene su propio foro en el aula, calificado con su rúbrica. El facilitador responde en menos de 24 horas
 hábiles. El texto de cada foro se copia en la descripción del foro de Moodle.
 
 ## 14 Guía del facilitador y mapa del aula
 
 - **Guía del facilitador:** la versión completa en PDF y, en Docs, una introducción con la moderación de los foros y un Doc por
   módulo con la pauta de corrección de cada actividad (respuesta esperada por criterio de la rúbrica, errores frecuentes y
-  retroalimentación sugerida). En el aula va en una sección visible solo para el rol docente.
+  retroalimentación sugerida) y las respuestas esperadas de los casos. En el aula va en una sección visible solo para el rol docente.
 - **Mapa del aula Moodle:** qué recurso va en cada sección del aula y con qué tipo de actividad de Moodle.
+
+## Aula Moodle
+
+El curso ya está armado en el aula de Empoderatech (formacion.empoderatech.com) con estos mismos recursos: los Rise y los quiz
+como paquetes SCORM, la actividad 1 de cada tema en su propio foro y la actividad 2 como tarea, las dos con su rúbrica de Moodle,
+los casos como páginas, el foro de cada módulo, la infografía animada y el glosario. Los videos, las evaluaciones diagnósticas y
+las evaluaciones de módulo tienen un espacio reservado, oculto para los estudiantes, hasta que estén listos.
 
 ## Antes de publicar
 

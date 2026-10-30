@@ -1,6 +1,6 @@
 {
   "resumen": {
-    "generado": "2026-10-30T05:35:43.499Z",
+    "generado": "2026-10-30T06:09:29.316Z",
     "chequeos": 108,
     "ok": 102,
     "aviso": 4,
@@ -1505,9 +1505,9 @@
           "avisos": [],
           "pendientes": [],
           "evidencia": [
-            "tomada el 30-10-26, 1:27 a. m. · 63 carpetas",
-            "Curso IA generativa para entornos laborales · Recursos: 19 elementos",
-            "14 Guía del facilitador y mapa del aula: 10 elementos",
+            "tomada el 30-10-26, 3:09 a. m. · 69 carpetas",
+            "Curso IA generativa para entornos laborales · Recursos: 20 elementos",
+            "14 Guía del facilitador y mapa del aula: 11 elementos",
             "4 Infografías: 12 elementos",
             "11 Glosario: 3 elementos",
             "12 Rise · SCORM 1.2 para Moodle: 22 elementos",
@@ -1521,13 +1521,14 @@
             "8 Skills de Claude: 11 elementos",
             "7 Proceso y control de calidad: 4 elementos",
             "6 Investigación y fuentes: 9 elementos",
+            "Versiones anteriores (30-10) · antes del aula Moodle: 5 elementos",
             "Versiones anteriores (30-10) · antes de la estructura SENCE: 19 elementos",
             "Versiones anteriores (29-10) · antes de la marca Empoderatech: 11 elementos",
             "10 Actividades de aplicación práctica: 2 elementos",
             "Versiones anteriores (28-10) · antes del cambio de audiencia: 10 elementos",
             "Versiones anteriores (24-10): 24 elementos",
             "PDF: 11 elementos",
-            "Docs: 12 elementos",
+            "Docs: 13 elementos",
             "GIFT (banco de preguntas Moodle): 22 elementos",
             "HTML (juego sin LMS): 22 elementos",
             "SCORM 1.2 (subir al LMS): 22 elementos",
@@ -1539,6 +1540,11 @@
             "Versiones anteriores (25-10): 1 elementos",
             "Docs: 14 elementos",
             "Fichas de verificación de casos: 11 elementos",
+            "5 Casos · Docs: 11 elementos",
+            "13 Foros · 14 Guía y mapa · LEEME: 13 elementos",
+            "10 Actividades · PDF: 22 elementos",
+            "5 Casos · PDF: 11 elementos",
+            "10 Actividades · Docs: 22 elementos",
             "3 Quiz · HTML (juego sin LMS): 22 elementos",
             "3 Quiz · SCORM 1.2 (subir al LMS): 22 elementos",
             "3 Quiz · GIFT (banco de preguntas Moodle): 22 elementos",
@@ -1550,15 +1556,15 @@
             "0 Planilla: 1 elementos",
             "8 Skills: 4 elementos",
             "7 Proceso: 19 elementos",
+            "1 Docs: 22 elementos",
             "Raíz: 1 elementos",
             "9 Proyecto: 1 elementos",
             "5 Casos: 23 elementos",
             "4 Infografías: 24 elementos",
             "3 Quiz: 44 elementos",
             "2 PDF: 23 elementos",
-            "1 Docs: 22 elementos",
             "PDF: 22 elementos",
-            "Docs: 22 elementos",
+            "Docs: 24 elementos",
             "4 Infografías: 18 elementos",
             "3 Quiz: 66 elementos",
             "0 Planilla: 3 elementos",
@@ -1677,7 +1683,7 @@
           "avisos": [],
           "pendientes": [],
           "evidencia": [
-            "25 elementos en «5 Casos de aplicación»"
+            "26 elementos en «5 Casos de aplicación»"
           ]
         }
       ]

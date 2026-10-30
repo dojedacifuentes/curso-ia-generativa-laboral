@@ -1,6 +1,6 @@
 # Auditoría del curso «IA generativa para entornos laborales»
 
-Generado con `node scripts/auditar.mjs` el 30-10-26, 2:35 a. m.. Solo lee: no corrige nada.
+Generado con `node scripts/auditar.mjs` el 30-10-26, 3:09 a. m.. Solo lee: no corrige nada.
 Fuente de verdad: planilla «Estructura_inicial_contenido_IA_generativa» (Drive 1v_NCRQGZnajDLesIw8haIMrw4551q6C8Om6AOM8RoHM).
 
 **Resultado:** 108 chequeos · ✓ 102 sin observaciones · ! 4 con avisos · ✗ 0 con errores · … 2 pendientes.
@@ -252,7 +252,7 @@ Los entregables se subieron a la carpeta «Curso IA generativa para entornos lab
 
 | | Chequeo | Resultado |
 |---|---|---|
-| ✓ | C8.0 Foto de Drive | tomada el 30-10-26, 1:27 a. m. · 63 carpetas · Curso IA generativa para entornos laborales · Recursos: 19 elementos |
+| ✓ | C8.0 Foto de Drive | tomada el 30-10-26, 3:09 a. m. · 69 carpetas · Curso IA generativa para entornos laborales · Recursos: 20 elementos |
 | ✓ | C8.Docs-del-contenido-base Docs del contenido base en Drive | 22 archivos en la carpeta |
 | ✓ | C8.PDF-del-contenido-base PDF del contenido base en Drive | 23 archivos en la carpeta |
 | ✓ | C8.Quiz-SCORM Quiz SCORM en Drive | 22 archivos en la carpeta |
@@ -261,7 +261,7 @@ Los entregables se subieron a la carpeta «Curso IA generativa para entornos lab
 | ✓ | C8.planilla La planilla de origen está en Drive | copia en Google Sheets · copia .xlsx |
 | ✓ | C8.ids Los ids de data/drive.json existen en Drive | 22 Docs registrados |
 | ✓ | C8.info Infografías en Drive | 12 archivos |
-| ✓ | C8.casos Casos de aplicación en Drive | 25 elementos en «5 Casos de aplicación» |
+| ✓ | C8.casos Casos de aplicación en Drive | 26 elementos en «5 Casos de aplicación» |
 
 ## C9 · Avance frente a los 101 recursos de la planilla
 

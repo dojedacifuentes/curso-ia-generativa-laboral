@@ -67,7 +67,7 @@ window.riseDuplicar = async function (plantillaId, nombre) {
   const item = await hasta(() => [...document.querySelectorAll('[role=menuitem], button, li')].find(x => x.textContent.trim() === 'Duplicate'));
   item.click();
   const input = await hasta(() => [...document.querySelectorAll('input')].find(i => /^Copy of /.test(i.value)));
-  Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set.call(input, nombre);
+  Object.getOwnPropertyDescriptor(Object.getPrototypeOf(input), 'value').set.call(input, nombre);
   input.dispatchEvent(new Event('input', { bubbles: true }));
   await espera(300);
   [...document.querySelectorAll('button')].find(b => b.textContent.trim() === 'Duplicate').click();

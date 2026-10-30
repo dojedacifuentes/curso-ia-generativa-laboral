@@ -1,0 +1,74 @@
+{
+  "_nota": "Resumen M3 (30-10), marca Empoderatech. Voz de EVA 2:27. EVA: un render de 33 s con intro + momento clave + cierre. Clips de Flow del Plan visual: clip1 Andrés revisa sus fuentes (idea 1), clip2 Camila entrega su informe (idea 3), clip3 Rosa guarda la lista de pacientes (aplícalo), clip4 pieza con audio (lo que viene). Imagen fija media/img1.png en la idea 2 (opcional).",
+  "duracion": 147.41,
+  "voz": "audio/voz.mp3",
+  "salida": "M3_resumen.mp4",
+  "avatar": {
+    "video": "heygen/avatar_marca.mp4",
+    "clip_dur": 33.049,
+    "offset": 0.023,
+    "crop": "auto",
+    "intro_out": 13.22,
+    "cierre_in": 134.72,
+    "cierre_master_t": 135.167,
+    "cierre_clip_t": 20.807
+  },
+  "clips": [
+    {
+      "slot": "clip1",
+      "video": "media/clip1.mp4",
+      "src_start": 0.0,
+      "src_dur": 4.4,
+      "estirar": false,
+      "visible_desde": 29.0,
+      "visible_hasta": 33.4,
+      "fade_out": 33.0
+    },
+    {
+      "slot": "clip2",
+      "video": "media/clip2.mp4",
+      "src_start": 0.0,
+      "src_dur": 4.8,
+      "estirar": false,
+      "visible_desde": 66.8,
+      "visible_hasta": 71.6,
+      "fade_out": 71.2
+    },
+    {
+      "slot": "clip3",
+      "video": "media/clip3.mp4",
+      "src_start": 0.0,
+      "src_dur": 4.1,
+      "estirar": false,
+      "visible_desde": 98.6,
+      "visible_hasta": 102.7,
+      "fade_out": 102.3
+    },
+    {
+      "slot": "clip4",
+      "video": "media/clip4.mp4",
+      "src_start": 0.0,
+      "src_dur": 5.0,
+      "estirar": false,
+      "visible_desde": 127.5,
+      "visible_hasta": 132.5,
+      "fade_out": 132.1
+    },
+    {
+      "slot": "eva_momento",
+      "video": "heygen/avatar_marca.mp4",
+      "src_start": 13.495,
+      "src_dur": 6.4,
+      "estirar": false,
+      "zoom": 1.0,
+      "visible_desde": 112.15,
+      "visible_hasta": 118.55,
+      "fade_out": 118.15
+    }
+  ],
+  "zoom_clips": 1.08,
+  "musica": "audio/musica.wav",
+  "sfx": "audio/sfx.wav",
+  "vol_musica": 1.0,
+  "vol_sfx": 1.0
+}

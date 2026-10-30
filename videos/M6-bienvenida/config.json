@@ -1,0 +1,74 @@
+{
+  "_nota": "Bienvenida M6 (30-10), marca Empoderatech. Voz de EVA 2:21 (una toma). EVA: un render con intro + momento clave (proyecto) + cierre (fondo grafito con fondo_eva.py --marca). Clips de Flow del Plan visual: clip1 carpeta del proyecto, clip2 ciclo de prueba, clip3 contar el resultado, clip4 practicar.",
+  "duracion": 141.48,
+  "voz": "audio/voz.mp3",
+  "salida": "M6_bienvenida.mp4",
+  "avatar": {
+    "video": "heygen/avatar_marca.mp4",
+    "clip_dur": 39.938,
+    "offset": 0.023,
+    "crop": "auto",
+    "intro_out": 15.97,
+    "cierre_in": 125.73,
+    "cierre_master_t": 126.181,
+    "cierre_clip_t": 24.64
+  },
+  "clips": [
+    {
+      "slot": "clip1",
+      "video": "media/clip1.mp4",
+      "src_start": 0.0,
+      "src_dur": 4.1,
+      "estirar": false,
+      "visible_desde": 11.5,
+      "visible_hasta": 15.6,
+      "fade_out": 15.2
+    },
+    {
+      "slot": "clip2",
+      "video": "media/clip2.mp4",
+      "src_start": 0.0,
+      "src_dur": 4.2,
+      "estirar": false,
+      "visible_desde": 53.75,
+      "visible_hasta": 57.95,
+      "fade_out": 57.55
+    },
+    {
+      "slot": "clip3",
+      "video": "media/clip3.mp4",
+      "src_start": 0.0,
+      "src_dur": 5.3,
+      "estirar": false,
+      "visible_desde": 80.3,
+      "visible_hasta": 85.6,
+      "fade_out": 85.2
+    },
+    {
+      "slot": "clip4",
+      "video": "media/clip4.mp4",
+      "src_start": 0.0,
+      "src_dur": 4.45,
+      "estirar": false,
+      "visible_desde": 113.0,
+      "visible_hasta": 117.45,
+      "fade_out": 117.05
+    },
+    {
+      "slot": "eva_momento",
+      "video": "heygen/avatar_marca.mp4",
+      "src_start": 16.385,
+      "src_dur": 7.58,
+      "estirar": false,
+      "zoom": 1.0,
+      "visible_desde": 118.1,
+      "visible_hasta": 125.68,
+      "fade_out": 125.28
+    }
+  ],
+  "zoom_clips": 1.08,
+  "musica": "audio/musica.wav",
+  "sfx": "audio/sfx.wav",
+  "vol_musica": 1.0,
+  "vol_sfx": 1.0
+}

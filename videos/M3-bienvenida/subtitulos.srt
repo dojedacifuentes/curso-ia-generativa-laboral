@@ -1,0 +1,166 @@
+1
+00:00:00,000 --> 00:00:06,050
+¡Hola! Te doy la bienvenida al Módulo 3
+del curso IA generativa para entornos laborales:
+
+2
+00:00:06,300 --> 00:00:08,530
+Investigación y análisis de información.
+
+3
+00:00:09,140 --> 00:00:13,210
+Aquí vas a usar la IA para investigar
+un problema real de tu trabajo,
+
+4
+00:00:13,380 --> 00:00:15,230
+con fuentes que puedes revisar.
+
+5
+00:00:15,860 --> 00:00:17,850
+La competencia de este módulo es:
+
+6
+00:00:17,880 --> 00:00:22,850
+acelerar la investigación y el análisis
+de información con herramientas de IA,
+
+7
+00:00:22,980 --> 00:00:27,970
+validando fuentes y resguardando la privacidad,
+para apoyar decisiones laborales.
+
+8
+00:00:28,580 --> 00:00:31,730
+En este módulo vas a recorrer cuatro temas.
+
+9
+00:00:32,320 --> 00:00:34,870
+Primero, las herramientas para investigar.
+
+10
+00:00:35,180 --> 00:00:40,170
+Vas a convertir un tema general en una pregunta
+específica y a usar herramientas que muestran
+
+11
+00:00:40,200 --> 00:00:43,590
+sus fuentes: un buscador con citas, como Perplexity,
+
+12
+00:00:43,720 --> 00:00:48,210
+y un asistente que responde solo con tus
+documentos, como Gemini Notebook.
+
+13
+00:00:48,520 --> 00:00:51,170
+Eso sí, una cita no es una prueba:
+
+14
+00:00:51,480 --> 00:00:52,410
+hay que abrirla.
+
+15
+00:00:53,060 --> 00:00:56,330
+Segundo, recopilar, validar y sintetizar.
+
+16
+00:00:56,360 --> 00:01:01,450
+Vas a revisar cada fuente según
+su autoría, su fecha y su respaldo,
+
+17
+00:01:01,560 --> 00:01:03,950
+y a dejar fuera lo que no tiene respaldo.
+
+18
+00:01:04,300 --> 00:01:09,450
+Sintetizar es organizar por ideas y concluir,
+no resumir fuente por fuente.
+
+19
+00:01:10,240 --> 00:01:12,770
+Tercero, organizar y presentar.
+
+20
+00:01:13,000 --> 00:01:17,430
+Vas a convertir tu síntesis en un informe
+breve para alguien que debe decidir,
+
+21
+00:01:17,520 --> 00:01:21,990
+con mensajes clave, hallazgos,
+recomendaciones y fuentes citadas.
+
+22
+00:01:22,580 --> 00:01:25,930
+Y cuarto, el análisis crítico y la privacidad.
+
+23
+00:01:26,180 --> 00:01:29,950
+Vas a revisar los sesgos
+y los límites de lo que entrega la IA,
+
+24
+00:01:30,120 --> 00:01:34,770
+y a decidir qué información de tu trabajo
+puede ingresar a una herramienta y cuál no.
+
+25
+00:01:35,460 --> 00:01:40,110
+Te siguen acompañando Camila,
+asistente administrativa en una constructora,
+
+26
+00:01:40,260 --> 00:01:46,070
+Andrés, encargado de bodega en una distribuidora,
+y Rosa, recepcionista de un centro médico.
+
+27
+00:01:46,500 --> 00:01:49,130
+Cada uno investiga un problema de su trabajo.
+
+28
+00:01:49,560 --> 00:01:51,990
+¿Y cómo vas a saber si vas aprendiendo?
+
+29
+00:01:52,280 --> 00:01:56,970
+Al cerrar cada tema pondrás a prueba
+lo que aprendiste, y si algo no quedó claro,
+
+30
+00:01:57,080 --> 00:01:58,530
+sabrás qué repasar.
+
+31
+00:01:58,800 --> 00:02:03,750
+Además, vas a analizar casos reales
+del uso de la IA generativa en el trabajo.
+
+32
+00:02:04,400 --> 00:02:07,330
+Y todo esto lo vas a llevar a tu proyecto aplicado:
+
+33
+00:02:07,560 --> 00:02:10,110
+investigar un problema real de tu trabajo.
+
+34
+00:02:10,800 --> 00:02:14,790
+Para empezar, ten a mano el problema
+de tu trabajo que quieres investigar,
+
+35
+00:02:14,820 --> 00:02:18,930
+y si pruebas con un documento,
+usa una copia sin datos sensibles.
+
+36
+00:02:19,240 --> 00:02:25,010
+Y quédate con esta idea: lo que no puedes rastrear
+hasta su origen no se presenta como hecho.
+
+37
+00:02:25,360 --> 00:02:26,770
+¡Nos vemos en el primer tema!

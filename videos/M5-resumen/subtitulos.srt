@@ -1,0 +1,166 @@
+1
+00:00:00,000 --> 00:00:00,770
+¡Hola de nuevo!
+
+2
+00:00:01,160 --> 00:00:03,290
+Llegaste al cierre del Módulo 5:
+
+3
+00:00:03,580 --> 00:00:05,850
+Automatización de tareas repetitivas.
+
+4
+00:00:06,240 --> 00:00:11,510
+Vamos a repasar las ideas que más te van a servir
+para automatizar con criterio en tu trabajo.
+
+5
+00:00:12,440 --> 00:00:14,570
+La competencia de este módulo es:
+
+6
+00:00:14,940 --> 00:00:19,070
+automatizar tareas rutinarias
+mediante flujos simples con IA,
+
+7
+00:00:19,260 --> 00:00:23,410
+incorporando supervisión humana y control
+de riesgos, en el trabajo cotidiano.
+
+8
+00:00:23,440 --> 00:00:27,510
+Lo primero: elige bien qué automatizar.
+
+9
+00:00:27,820 --> 00:00:32,470
+Una buena candidata se repite,
+sigue reglas claras y trabaja con información.
+
+10
+00:00:33,020 --> 00:00:37,350
+Antes de automatizar, elimina
+lo innecesario y simplifica lo que queda.
+
+11
+00:00:37,600 --> 00:00:41,730
+Y la matriz de impacto y riesgo ordena
+tus tareas en cuatro cuadrantes:
+
+12
+00:00:41,920 --> 00:00:46,510
+empieza aquí, con supervisión,
+si sobra tiempo y no automatices.
+
+13
+00:00:47,280 --> 00:00:50,810
+Segundo: todo flujo tiene un disparador que lo inicia,
+
+14
+00:00:50,840 --> 00:00:55,050
+una o más acciones y datos
+que pasan de un paso al siguiente.
+
+15
+00:00:55,500 --> 00:01:00,890
+Los datos se toman de pasos anteriores, porque
+un texto escrito a mano se repite igual siempre.
+
+16
+00:01:01,200 --> 00:01:04,630
+Y probar es buscar los casos
+en que el flujo podría fallar:
+
+17
+00:01:04,800 --> 00:01:08,670
+revisas el historial,
+corriges la causa y vuelves a probar.
+
+18
+00:01:10,020 --> 00:01:12,770
+Tercero: automatizar trae riesgos propios.
+
+19
+00:01:12,980 --> 00:01:17,730
+Un error se repite en cada ejecución,
+y es fácil confiar de más en lo automático.
+
+20
+00:01:18,000 --> 00:01:23,570
+Por eso los puntos de control van donde el riesgo
+es mayor, con criterios de aprobación claros.
+
+21
+00:01:23,760 --> 00:01:25,030
+Guarda el dato original,
+
+22
+00:01:25,380 --> 00:01:29,670
+prefiere acciones que se puedan deshacer
+y ten un plan para detectar la falla,
+
+23
+00:01:29,740 --> 00:01:31,790
+detener el flujo y seguir a mano.
+
+24
+00:01:32,660 --> 00:01:34,910
+¿Qué puedes hacer desde mañana en tu trabajo?
+
+25
+00:01:35,240 --> 00:01:40,410
+Elige una tarea que se repita y pruébala primero
+con una cuenta de práctica y datos ficticios.
+
+26
+00:01:40,880 --> 00:01:46,590
+Deja cada resultado como «por revisar»,
+y que nadie lo use hasta que una persona lo apruebe.
+
+27
+00:01:47,380 --> 00:01:51,770
+Porque automatizar una tarea no te quita
+la responsabilidad por su resultado.
+
+28
+00:01:52,700 --> 00:01:57,010
+En el Módulo 6, Taller de IA
+generativa para entornos laborales,
+
+29
+00:01:57,120 --> 00:02:01,830
+no hay temas nuevos: vas a juntar
+lo que construiste en un proyecto terminado.
+
+30
+00:02:02,080 --> 00:02:06,430
+Vas a diagnosticar una oportunidad de mejora
+en tu trabajo, con una meta medible;
+
+31
+00:02:06,720 --> 00:02:10,930
+a poner en marcha tu flujo con supervisión
+humana y registro de decisiones,
+
+32
+00:02:10,960 --> 00:02:15,230
+y a medir los resultados para comunicarlos,
+incluidos sus límites.
+
+33
+00:02:16,200 --> 00:02:19,170
+Antes de seguir, deja documentado tu flujo:
+
+34
+00:02:19,380 --> 00:02:23,010
+su nombre, su propósito, sus pasos y sus pruebas.
+
+35
+00:02:23,260 --> 00:02:29,070
+Y quédate con esta idea: cuanto menor es
+la supervisión, mayores deben ser las verificaciones.
+
+36
+00:02:29,420 --> 00:02:30,870
+¡Nos vemos en el Módulo 6!

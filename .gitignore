@@ -21,3 +21,9 @@ videos/**/v4/
 entregables/subir-*/
 entregables/rise/scorm/
 entregables/subir-30-10/
+
+# logs y versiones viejas de los videos de módulo
+videos/**/*.log
+videos/**/v1/
+videos/**/rev/
+videos/**/dudosos*/

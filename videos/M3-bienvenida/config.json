@@ -1,0 +1,74 @@
+{
+  "_nota": "Bienvenida M3 (30-10), marca Empoderatech. Voz de EVA 2:27. EVA: un render de 39 s con intro + momento clave (proyecto) + cierre. Clips de Flow del Plan visual: clip1 Camila con sus documentos (intro), clip2 Andrés en el celular (tema 1), clip3 Camila ordena hallazgos (tema 3), clip4 colegas analizan un caso (cómo avanzas). Imagen fija media/img1.png en el tema 4 (opcional).",
+  "duracion": 146.91,
+  "voz": "audio/voz.mp3",
+  "salida": "M3_bienvenida.mp4",
+  "avatar": {
+    "video": "heygen/avatar_marca.mp4",
+    "clip_dur": 38.966,
+    "offset": 0.023,
+    "crop": "auto",
+    "intro_out": 15.52,
+    "cierre_in": 130.48,
+    "cierre_master_t": 130.929,
+    "cierre_clip_t": 22.983
+  },
+  "clips": [
+    {
+      "slot": "clip1",
+      "video": "media/clip1.mp4",
+      "src_start": 0.0,
+      "src_dur": 4.2,
+      "estirar": false,
+      "visible_desde": 11.1,
+      "visible_hasta": 15.3,
+      "fade_out": 14.9
+    },
+    {
+      "slot": "clip2",
+      "video": "media/clip2.mp4",
+      "src_start": 0.0,
+      "src_dur": 4.7,
+      "estirar": false,
+      "visible_desde": 38.6,
+      "visible_hasta": 43.3,
+      "fade_out": 42.9
+    },
+    {
+      "slot": "clip3",
+      "video": "media/clip3.mp4",
+      "src_start": 0.0,
+      "src_dur": 4.3,
+      "estirar": false,
+      "visible_desde": 73.1,
+      "visible_hasta": 77.4,
+      "fade_out": 77.0
+    },
+    {
+      "slot": "clip4",
+      "video": "media/clip4.mp4",
+      "src_start": 0.0,
+      "src_dur": 4.3,
+      "estirar": false,
+      "visible_desde": 119.4,
+      "visible_hasta": 123.7,
+      "fade_out": 123.3
+    },
+    {
+      "slot": "eva_momento",
+      "video": "heygen/avatar_marca.mp4",
+      "src_start": 15.96,
+      "src_dur": 6.15,
+      "estirar": false,
+      "zoom": 1.0,
+      "visible_desde": 124.15,
+      "visible_hasta": 130.3,
+      "fade_out": 129.9
+    }
+  ],
+  "zoom_clips": 1.08,
+  "musica": "audio/musica.wav",
+  "sfx": "audio/sfx.wav",
+  "vol_musica": 1.0,
+  "vol_sfx": 1.0
+}

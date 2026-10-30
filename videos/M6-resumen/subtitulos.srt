@@ -1,0 +1,191 @@
+1
+00:00:00,000 --> 00:00:00,790
+¡Hola de nuevo!
+
+2
+00:00:01,160 --> 00:00:06,770
+Llegaste al cierre del Módulo 6, el Taller
+de IA generativa para entornos laborales,
+
+3
+00:00:06,880 --> 00:00:08,970
+y también al cierre del curso.
+
+4
+00:00:09,480 --> 00:00:13,270
+Vamos a repasar las ideas del taller
+y lo que te llevas para tu trabajo.
+
+5
+00:00:14,220 --> 00:00:16,410
+La competencia de este módulo es:
+
+6
+00:00:16,440 --> 00:00:21,810
+aplicar la IA generativa en un proyecto
+basado en un desafío laboral real,
+
+7
+00:00:22,140 --> 00:00:27,370
+midiendo resultados y comunicándolos,
+integrando lo aprendido en los módulos anteriores.
+
+8
+00:00:28,450 --> 00:00:35,110
+Lo primero: un diagnóstico describe cómo se hace
+la tarea hoy, con datos y no con impresiones.
+
+9
+00:00:35,620 --> 00:00:38,710
+La línea base es el valor de partida de un indicador,
+
+10
+00:00:38,840 --> 00:00:41,910
+y la meta dice cuánto cambia y en qué plazo:
+
+11
+00:00:42,240 --> 00:00:44,330
+realista y retadora a la vez.
+
+12
+00:00:45,080 --> 00:00:47,930
+Segundo: implementar es un ciclo.
+
+13
+00:00:48,240 --> 00:00:49,150
+Pruebas en pequeño,
+
+14
+00:00:49,580 --> 00:00:50,710
+estudias lo que pasó,
+
+15
+00:00:51,160 --> 00:00:53,110
+ajustas y vuelves a probar.
+
+16
+00:00:53,440 --> 00:00:55,810
+La supervisión humana se define por escrito:
+
+17
+00:00:56,180 --> 00:00:59,290
+quién revisa, cuándo y con qué criterio.
+
+18
+00:01:00,420 --> 00:01:06,150
+Tercero: medir es comparar el valor final
+de cada indicador con su línea base y su meta,
+
+19
+00:01:06,360 --> 00:01:08,370
+con la misma fórmula y fuente.
+
+20
+00:01:08,720 --> 00:01:11,150
+Si algo más cambió, hay que nombrarlo.
+
+21
+00:01:11,300 --> 00:01:15,130
+Y al contar tus resultados,
+los límites van en un lugar visible.
+
+22
+00:01:15,940 --> 00:01:17,550
+¿Qué puedes hacer desde mañana?
+
+23
+00:01:18,120 --> 00:01:19,770
+Elige una tarea de tu cargo,
+
+24
+00:01:20,120 --> 00:01:25,730
+describe con datos cómo la haces hoy y decide
+cómo vas a medir antes de cambiar nada.
+
+25
+00:01:26,140 --> 00:01:29,410
+Prueba en pequeño, revisa y anota lo que decides.
+
+26
+00:01:30,180 --> 00:01:34,190
+Porque lo que no se puede presentar
+es un resultado que no mediste.
+
+27
+00:01:34,980 --> 00:01:36,750
+Y este fue tu recorrido.
+
+28
+00:01:37,100 --> 00:01:41,430
+En el Módulo 1, Introducción
+a la IA generativa y prompt básico,
+
+29
+00:01:41,680 --> 00:01:44,850
+aprendiste a usar prompts
+efectivos y a validar resultados.
+
+30
+00:01:45,660 --> 00:01:51,030
+En el Módulo 2, Comunicación y redacción
+profesional, a elaborar documentos,
+
+31
+00:01:51,060 --> 00:01:55,490
+presentaciones y planillas cuidando tono,
+audiencia y exactitud.
+
+32
+00:01:56,180 --> 00:01:59,630
+En el Módulo 3, Investigación
+y análisis de información,
+
+33
+00:02:00,060 --> 00:02:03,570
+a investigar validando fuentes
+y resguardando la privacidad.
+
+34
+00:02:04,120 --> 00:02:10,950
+En el Módulo 4, Contenido visual, sonoro
+y audiovisual, a producir piezas respetando licencias,
+
+35
+00:02:11,140 --> 00:02:13,130
+atribución y criterios éticos.
+
+36
+00:02:13,540 --> 00:02:17,410
+En el Módulo 5, Automatización de tareas repetitivas,
+
+37
+00:02:17,680 --> 00:02:21,650
+a armar flujos simples con supervisión
+humana y control de riesgos.
+
+38
+00:02:22,280 --> 00:02:27,810
+Y en este taller, a integrarlo todo
+en un proyecto real, medido y comunicado.
+
+39
+00:02:28,320 --> 00:02:32,250
+Ten a mano tus resultados para contarlos
+a quien tiene que saberlo.
+
+40
+00:02:32,320 --> 00:02:37,750
+Y quédate con esta idea: proponer
+mejoras es cerrar el ciclo, adoptar,
+
+41
+00:02:37,940 --> 00:02:39,790
+ajustar o descartar.
+
+42
+00:02:40,060 --> 00:02:41,630
+Gracias por llegar hasta aquí.
+
+43
+00:02:41,880 --> 00:02:42,490
+¡Hasta pronto!

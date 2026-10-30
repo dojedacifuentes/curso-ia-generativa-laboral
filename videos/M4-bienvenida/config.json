@@ -1,0 +1,74 @@
+{
+  "_nota": "Bienvenida M4 (30-10), marca Empoderatech. Voz de EVA 2:40 (una toma). EVA: un render de 44,1 s con intro + momento clave (proyecto) + cierre. Clips de Flow del Plan visual: clip1 Rosa (ecosistema), clip2 Andrés (imágenes), clip3 Camila (audio), clip4 montaje (video breve); media/img1.png opcional (riel).",
+  "duracion": 160.21,
+  "voz": "audio/voz.mp3",
+  "salida": "M4_bienvenida.mp4",
+  "avatar": {
+    "video": "heygen/avatar_marca.mp4",
+    "clip_dur": 44.082,
+    "offset": 0.023,
+    "crop": "auto",
+    "intro_out": 16.93,
+    "cierre_in": 141.68,
+    "cierre_master_t": 142.128,
+    "cierre_clip_t": 26.001
+  },
+  "clips": [
+    {
+      "slot": "clip1",
+      "video": "media/clip1.mp4",
+      "src_start": 0.0,
+      "src_dur": 4.1,
+      "estirar": false,
+      "visible_desde": 34.4,
+      "visible_hasta": 38.5,
+      "fade_out": 38.1
+    },
+    {
+      "slot": "clip2",
+      "video": "media/clip2.mp4",
+      "src_start": 0.0,
+      "src_dur": 4.9,
+      "estirar": false,
+      "visible_desde": 53.4,
+      "visible_hasta": 58.3,
+      "fade_out": 57.9
+    },
+    {
+      "slot": "clip3",
+      "video": "media/clip3.mp4",
+      "src_start": 0.0,
+      "src_dur": 5.9,
+      "estirar": false,
+      "visible_desde": 73.6,
+      "visible_hasta": 79.5,
+      "fade_out": 79.1
+    },
+    {
+      "slot": "clip4",
+      "video": "media/clip4.mp4",
+      "src_start": 0.0,
+      "src_dur": 4.1,
+      "estirar": false,
+      "visible_desde": 87.6,
+      "visible_hasta": 91.7,
+      "fade_out": 91.3
+    },
+    {
+      "slot": "eva_momento",
+      "video": "heygen/avatar_marca.mp4",
+      "src_start": 17.454,
+      "src_dur": 7.83,
+      "estirar": false,
+      "zoom": 1.0,
+      "visible_desde": 133.8,
+      "visible_hasta": 141.63,
+      "fade_out": 141.23
+    }
+  ],
+  "zoom_clips": 1.08,
+  "musica": "audio/musica.wav",
+  "sfx": "audio/sfx.wav",
+  "vol_musica": 1.0,
+  "vol_sfx": 1.0
+}

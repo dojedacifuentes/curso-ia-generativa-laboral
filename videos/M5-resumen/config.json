@@ -1,0 +1,64 @@
+{
+  "_nota": "Resumen M5 (30-10), marca Empoderatech. Voz de EVA 2:31 (una toma). EVA: un render de 32,9 s con intro + momento clave (responsabilidad) + cierre (avatar_marca.mp4). Clips de Flow del Plan visual: clip1 andres-revisa, clip2 camila-prueba, clip3 taller-jefatura. Imagen fija opcional: media/img1.png (momento clave).",
+  "duracion": 151.17,
+  "voz": "audio/voz.mp3",
+  "salida": "M5_resumen.mp4",
+  "avatar": {
+    "video": "heygen/avatar_marca.mp4",
+    "clip_dur": 32.901,
+    "offset": 0.023,
+    "crop": "auto",
+    "intro_out": 12.01,
+    "cierre_in": 135.84,
+    "cierre_master_t": 136.285,
+    "cierre_clip_t": 18.015
+  },
+  "clips": [
+    {
+      "slot": "clip1",
+      "video": "media/clip1.mp4",
+      "src_start": 0,
+      "src_dur": 4.05,
+      "estirar": false,
+      "visible_desde": 72.85,
+      "visible_hasta": 76.9,
+      "fade_out": 76.5
+    },
+    {
+      "slot": "clip2",
+      "video": "media/clip2.mp4",
+      "src_start": 0,
+      "src_dur": 4.1,
+      "estirar": false,
+      "visible_desde": 96.8,
+      "visible_hasta": 100.9,
+      "fade_out": 100.5
+    },
+    {
+      "slot": "clip3",
+      "video": "media/clip3.mp4",
+      "src_start": 0,
+      "src_dur": 5.4,
+      "estirar": false,
+      "visible_desde": 112.55,
+      "visible_hasta": 117.95,
+      "fade_out": 117.55
+    },
+    {
+      "slot": "eva_momento",
+      "video": "heygen/avatar_marca.mp4",
+      "src_start": 12.237,
+      "src_dur": 4.9,
+      "estirar": false,
+      "zoom": 1.0,
+      "visible_desde": 107.1,
+      "visible_hasta": 112.0,
+      "fade_out": 111.6
+    }
+  ],
+  "zoom_clips": 1.08,
+  "musica": "audio/musica.wav",
+  "sfx": "audio/sfx.wav",
+  "vol_musica": 1.0,
+  "vol_sfx": 1.0
+}

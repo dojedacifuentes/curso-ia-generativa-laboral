@@ -1,0 +1,707 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Bienvenida Módulo 5</title>
+<style>
+/* Videos de módulo con la marca Empoderatech (docs/CRITERIOS-29-10.md §5): fondo noche, frambuesa principal,
+   celeste y fucsia como acentos sobre noche, Varela Round en titulares y cifras, Montserrat en el texto. */
+@font-face{font-family:Varela;font-weight:400;src:url(fonts/varela-round-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:Mont;font-weight:400;src:url(fonts/montserrat-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:Mont;font-weight:500;src:url(fonts/montserrat-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:Mont;font-weight:600;src:url(fonts/montserrat-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:Mont;font-weight:700;src:url(fonts/montserrat-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:PlexMono;font-weight:400;src:url(fonts/ibm-plex-mono-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:PlexMono;font-weight:600;src:url(fonts/ibm-plex-mono-latin-600-normal.woff2) format("woff2")}
+
+:root{
+  --noche:#00060F; --fr:#BE3455; --fu:#ED1566; --ce:#3D9BE9; --gr:#40444B; --gc:#BFC1C3; --gm:#808387;
+  --card:#0A111C; --card2:#111A27; --line:rgba(255,255,255,.12); --line2:rgba(255,255,255,.22);
+  --txt:#FFFFFF; --soft:#BFC1C3; --dim:#808387;
+  --frw:rgba(190,52,85,.16); --cew:rgba(61,155,233,.14); --fuw:rgba(237,21,102,.14);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1920px;height:1080px;overflow:hidden;background:var(--noche)}
+body{font-family:Mont,Arial,sans-serif;color:var(--txt);-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
+#stage{position:relative;width:1920px;height:1080px;overflow:hidden;background-color:var(--noche);
+  background-image:radial-gradient(rgba(255,255,255,.07) 1.3px,transparent 1.6px);background-size:36px 36px;background-position:18px 18px}
+.abs{position:absolute}
+.camwrap{position:absolute;inset:0;will-change:transform,filter}
+#glow{position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(820px 560px at var(--gx,30%) var(--gy,30%),rgba(190,52,85,.20),transparent 70%),
+             radial-gradient(680px 500px at var(--hx,75%) var(--hy,70%),rgba(61,155,233,.13),transparent 70%)}
+#progress{position:absolute;left:0;top:0;height:5px;width:100%;transform-origin:left;transform:scaleX(0);
+  background:linear-gradient(90deg,var(--fr),var(--fu));box-shadow:0 0 14px rgba(237,21,102,.55)}
+.arcos{position:absolute;pointer-events:none}
+.scene,.panel{position:absolute;inset:0;visibility:hidden}
+.panel{inset:auto;left:760px;top:150px;width:1040px;height:740px}
+svg{display:block}
+.ic{width:36px;height:36px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+/* encabezado */
+#hdr{position:absolute;left:120px;right:120px;top:50px;height:56px;display:flex;align-items:center;justify-content:space-between}
+.mark{display:flex;align-items:center;gap:20px;font:500 23px/1 Mont;color:var(--soft)}
+.mark img{height:40px}
+.mark .sep{width:2px;height:26px;background:var(--line2)}
+.mark .mod{font:400 24px/1 Varela;color:var(--fr)}
+#rail{display:flex;gap:8px}
+.seg{position:relative;padding:12px 22px;border-radius:999px;font:400 21px/1 Varela;color:var(--dim);border:2px solid var(--line);background:var(--card);overflow:hidden}
+.seg .on{position:absolute;inset:0;background:var(--fr);opacity:0}
+.seg span{position:relative}
+
+/* tipografía */
+h1{font:400 84px/1.06 Varela;letter-spacing:-.01em}
+h2{font:400 54px/1.12 Varela}
+h3{font:400 31px/1.2 Varela;color:var(--soft)}
+h3:before{content:"› ";color:var(--fr)}
+.tag{display:inline-block;padding:10px 18px;border-radius:999px;background:var(--frw);color:#F4A9BB;border:2px solid rgba(190,52,85,.45);font:400 24px/1 Varela}
+.card{background:var(--card);border:2px solid var(--line);border-radius:22px}
+.logo-big{height:56px}
+
+/* intro y cierre */
+.left-col{position:absolute;left:120px;top:150px;width:920px}
+.sub1{font:500 31px/1.35 Mont;color:var(--soft);margin-top:24px}
+.facts{list-style:none;margin-top:54px;display:flex;flex-direction:column;gap:20px}
+.facts li{display:flex;align-items:center;gap:22px;font:600 33px/1.2 Mont}
+.ib{flex:none;width:68px;height:68px;border-radius:50%;background:var(--gr);display:grid;place-items:center;color:#fff}
+.avatar-frame{left:1196px;top:136px;width:604px;height:764px;border-radius:32px;background:var(--gr);
+  box-shadow:0 30px 70px -20px rgba(0,0,0,.7),0 0 0 2px rgba(190,52,85,.55)}
+.slot-label{position:absolute;inset:0;display:grid;place-items:center;font:600 28px/1.3 Mont;color:var(--ce);text-align:center;opacity:0}
+body.preview .slot-label{opacity:.9}
+.mapa{display:flex;align-items:center;gap:16px}
+.mapa .segs{display:flex;gap:8px}
+.mapa .segs i{display:block;width:46px;height:10px;border-radius:6px;background:rgba(255,255,255,.14)}
+.mapa .segs i.hecho{background:var(--gm)}
+.mapa .segs i.on{background:linear-gradient(90deg,var(--fr),var(--fu));box-shadow:0 0 12px rgba(237,21,102,.6)}
+
+/* riel de temas */
+.rail-list{position:absolute;left:120px;top:150px;width:580px}
+.topics{list-style:none;margin-top:26px;display:flex;flex-direction:column;gap:8px}
+.topic{position:relative;display:flex;gap:22px;align-items:flex-start;padding:17px 22px;border-radius:22px}
+.topic .bgc{position:absolute;inset:0;border-radius:22px;background:var(--card2);border:2px solid var(--fr);box-shadow:0 18px 40px -22px rgba(190,52,85,.8);opacity:0}
+.topic .n{position:relative;flex:none;width:54px;height:54px;border-radius:50%;border:2.5px solid var(--gm);display:grid;place-items:center;font:400 26px/1 Varela;color:var(--soft)}
+.topic .nf{position:absolute;inset:-2.5px;border-radius:50%;background:var(--fr);color:#fff;display:grid;place-items:center;opacity:0}
+.topic .tx{position:relative}
+.topic strong{display:block;font:400 30px/1.15 Varela}
+.topic span.d{display:block;margin-top:7px;font:500 23px/1.3 Mont;color:var(--soft)}
+
+/* bloques de panel */
+.blk{position:absolute;left:0;width:1040px}
+.blk h3{margin-bottom:16px}
+.prompt{display:flex;gap:16px;align-items:baseline;padding:16px 22px;border-radius:16px;background:#fff;color:var(--noche);font:400 24px/1.4 PlexMono}
+.who{flex:none;font:600 19px/1 Mont;padding:7px 12px;border-radius:8px;background:var(--noche);color:#fff}
+.reply{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px 6px;align-items:center;padding:16px 18px;border-radius:16px;background:var(--card);border:2px solid var(--line);min-height:84px;align-content:flex-start}
+.reply .who{background:var(--frw);color:#F4A9BB;margin-right:8px}
+.tok{--hot:0;font:400 25px/1 PlexMono;padding:9px 9px;border-radius:8px;
+  background:color-mix(in srgb,var(--fr) calc(var(--hot)*100%),rgba(255,255,255,.08));color:#fff}
+.row3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.row2{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.box3{padding:20px 22px;min-height:150px}
+.box3 .ib{width:56px;height:56px;margin-bottom:14px}
+.box3 .ib .ic{width:30px;height:30px}
+.box3 strong{display:block;font:400 30px/1.15 Varela}
+.box3 span{display:block;margin-top:8px;font:500 22px/1.3 Mont;color:var(--soft)}
+.box3.on{border-color:var(--ce)}
+.box3.warn{border-color:rgba(237,21,102,.6);background:linear-gradient(var(--fuw),var(--fuw)),var(--card)}
+.out{position:relative;display:flex;align-items:center;gap:18px;padding:14px 18px;border-radius:14px;background:var(--card);border:2px solid var(--line)}
+.out .L{flex:none;width:46px;height:46px;border-radius:50%;background:var(--gr);display:grid;place-items:center;font:400 22px/1 Varela;color:#fff}
+.out q{flex:1;font:400 22px/1.35 PlexMono;color:#E6E7E8;quotes:"«" "»"}
+.out .v{flex:none;width:280px;font:500 21px/1.25 Mont;color:var(--soft)}
+.cmp{display:flex;flex-direction:column;gap:12px}
+.pieces{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.piece .chip{display:inline-block;padding:13px 20px;border-radius:999px;background:var(--fr);color:#fff;font:400 27px/1 Varela}
+.piece .ex{margin-top:12px;padding:16px 18px;border-radius:16px;background:var(--card);border:2px solid var(--line);font:400 21px/1.42 PlexMono;color:#E6E7E8;min-height:128px}
+.tpl{padding:18px 22px;border-radius:16px;background:var(--card);border:2px dashed var(--fr);font:400 24px/1.5 PlexMono;color:#E6E7E8}
+.br{color:#fff;background:var(--fr);border-radius:6px;padding:0 6px}
+.chain{display:flex;align-items:center;gap:0}
+.step{padding:16px 24px;border-radius:999px;background:var(--card);border:2px solid var(--line2);font:600 26px/1 Mont}
+.step.hi{border-color:var(--ce);color:#fff;background:var(--cew)}
+.arrow{width:62px;height:24px;color:var(--gm)}
+.pill{display:inline-flex;align-items:center;gap:12px;padding:14px 22px;border-radius:999px;font:600 25px/1 Mont}
+.pill.main{background:var(--fr);color:#fff}
+.pill.alt{background:var(--card);border:2px solid var(--line2);color:var(--soft)}
+.pill.ce{background:var(--cew);border:2px solid rgba(61,155,233,.6);color:#fff}
+
+/* control de temperatura */
+.ctrl{padding:24px 28px}
+.ctrl strong{display:block;font:400 30px/1.1 Varela}
+.slider{position:relative;height:16px;border-radius:99px;background:linear-gradient(90deg,var(--ce),var(--fr) 60%,var(--fu));margin:44px 8px 0}
+.knob{position:absolute;top:50%;width:40px;height:40px;margin:-20px 0 0 -20px;border-radius:50%;background:#fff;box-shadow:0 0 0 6px rgba(255,255,255,.18),0 6px 14px rgba(0,0,0,.5)}
+.sl-lab{display:flex;justify-content:space-between;margin-top:22px;font:600 22px/1 Mont;color:var(--soft)}
+
+/* validación */
+.resp{padding:22px 26px}
+.resp .lab{font:500 19px/1 Mont;color:var(--dim);margin-bottom:14px}
+.resp p{font:500 27px/1.55 Mont;color:#E6E7E8}
+.hl{--p:0;background:linear-gradient(rgba(237,21,102,.55),rgba(237,21,102,.55)) no-repeat 0 92%/calc(var(--p)*100%) 40%;border-radius:2px}
+.mk{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--fu);color:#fff;font:400 17px/1 Varela;vertical-align:4px;margin-left:4px}
+.legend{display:flex;gap:14px;margin-top:16px}
+.legend div{display:flex;align-items:center;gap:10px;padding:10px 16px;border-radius:999px;background:var(--fuw);border:2px solid rgba(237,21,102,.4);font:600 21px/1.2 Mont;color:#fff}
+.legend .mk{vertical-align:0;margin:0}
+.flow{position:relative;height:230px}
+.node{position:absolute;padding:16px 20px;border-radius:18px;background:var(--card);border:2px solid var(--line);font:600 25px/1.25 Mont}
+.node small{display:block;font:500 19px/1.3 Mont;color:var(--soft);margin-top:4px}
+.node.ok{border-color:rgba(61,155,233,.7)}
+.node .chk{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--ce);vertical-align:-6px;margin-right:8px}
+.node.dec{background:var(--fr);border-color:var(--fr)}
+.node.dec small{color:#FAD3DC}
+svg.wires{position:absolute;inset:0;overflow:visible}
+svg.wires path{fill:none;stroke:var(--gm);stroke-width:3;stroke-linecap:round}
+
+/* recuadros de video */
+.slot{position:absolute;border-radius:24px;background:var(--card2);box-shadow:0 26px 60px -24px rgba(0,0,0,.8),0 0 0 2px rgba(255,255,255,.08)}
+.cap strong{display:block;font:400 36px/1.1 Varela}
+.cap span{display:block;margin-top:8px;font:500 25px/1.3 Mont;color:var(--soft)}
+
+/* listas numeradas y checks */
+.hsteps{display:flex;flex-direction:column;gap:22px;margin-top:44px}
+.hs{display:flex;gap:20px;align-items:flex-start}
+.hs .n{flex:none;width:54px;height:54px;border-radius:50%;background:var(--fr);color:#fff;display:grid;place-items:center;font:400 25px/1 Varela}
+.hs strong{display:block;font:600 32px/1.18 Mont}
+.hs span{display:block;margin-top:6px;font:500 24px/1.3 Mont;color:var(--soft)}
+.checks{display:flex;flex-direction:column;gap:20px;margin-top:40px}
+.ck{display:flex;align-items:center;gap:22px;font:600 33px/1.2 Mont}
+.box{position:relative;flex:none;width:54px;height:54px;border-radius:50%;border:3px solid var(--gm);background:var(--card)}
+.box .f{position:absolute;inset:-3px;border-radius:50%;background:var(--fr);opacity:0;display:grid;place-items:center}
+.box .f svg{width:30px;height:30px;stroke:#fff;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.note{display:inline-block;margin-left:76px;padding:9px 16px;border-radius:999px;background:var(--cew);border:2px solid rgba(61,155,233,.5);color:#fff;font:600 22px/1 Mont}
+.quote{margin-top:40px;padding:32px 38px;border-radius:26px;background:var(--fr);color:#fff;font:400 42px/1.24 Varela}
+.quote small{display:block;font:600 21px/1 Mont;color:#FAD3DC;margin-bottom:16px;letter-spacing:.02em}
+.bye{margin-top:26px;font:400 28px/1.2 Varela;color:var(--ce)}
+.kw{display:flex;align-items:baseline;gap:22px}
+.kw b{font:400 128px/1 Varela;background:linear-gradient(90deg,var(--fr),var(--fu));-webkit-background-clip:text;background-clip:text;color:transparent}
+.kw span{font:600 32px/1.2 Mont;color:var(--soft)}
+.ev{display:flex;flex-direction:column;gap:40px;margin-top:64px}
+.ev .it{display:flex;gap:22px;align-items:flex-start}
+.ev strong{display:block;font:600 33px/1.15 Mont}
+.ev span{display:block;margin-top:6px;font:500 25px/1.3 Mont;color:var(--soft)}
+.loop{padding:44px 54px;display:flex;flex-direction:column;justify-content:center;gap:22px}
+.loop .ln{display:flex;gap:20px;align-items:center;font:400 36px/1.1 Varela;padding:14px 18px;border-radius:999px;background:var(--card2);width:560px}
+.loop .ln .n{flex:none;width:52px;height:52px;border-radius:50%;background:var(--fr);color:#fff;display:grid;place-items:center;font:400 24px/1 Varela}
+.loop .ln.warn{background:var(--fuw)}.loop .ln.warn .n{background:var(--fu)}
+.loop .back{position:absolute;right:70px;top:75px;width:110px;height:300px;fill:none;stroke:var(--ce);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+.mods{padding:38px 44px}
+.mods .tt{font:400 33px/1.2 Varela}
+.mrow{display:flex;justify-content:space-between;margin-top:36px}
+.mrow .m{display:flex;flex-direction:column;align-items:center;gap:12px}
+.mrow .m i{display:grid;place-items:center;width:64px;height:64px;border-radius:50%;background:var(--card2);border:3px solid var(--gm)}
+.mrow .m.hecho i{background:var(--gr);border-color:var(--gr)}
+.mrow .m.hecho i svg{width:30px;height:30px;stroke:#fff;stroke-width:3.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.mrow .m.on i{background:linear-gradient(135deg,var(--fr),var(--fu));border-color:transparent;box-shadow:0 0 18px rgba(237,21,102,.6)}
+.mrow .m span{font:400 24px/1 Varela;color:var(--soft)}
+.mbar{height:12px;border-radius:7px;background:rgba(255,255,255,.1);margin-top:32px;overflow:hidden}
+.mbar b{display:block;height:100%;background:linear-gradient(90deg,var(--fr),var(--fu))}
+.mcap{margin-top:24px;font:500 26px/1.35 Mont;color:var(--soft)}
+.lam{height:150px;padding:16px 18px;position:relative;overflow:hidden}
+.lam .no{font:400 20px/1 Varela;color:var(--dim)}
+.lam .t{margin-top:12px;font:600 21px/1.25 Mont}
+.lam em{display:block;height:8px;border-radius:5px;background:rgba(255,255,255,.14);margin-top:10px;font-style:normal}
+.lam em+em{width:70%}
+.lam .x{position:absolute;inset:0;border-radius:20px;border:3px solid var(--fu);background:rgba(62,8,28,.95);display:grid;place-items:center;font:600 22px/1 Mont;color:#fff;opacity:0}
+.grid3x2{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.tabla{border-collapse:separate;border-spacing:0;font:500 22px/1 Mont;width:100%}
+.tabla td,.tabla th{padding:12px 16px;border-bottom:2px solid var(--line);text-align:left}
+.tabla th{font:600 18px/1 Mont;color:var(--dim);letter-spacing:.03em}
+.tabla td.num{font:400 23px/1 PlexMono;text-align:right}
+.tabla tr.tot td{border-bottom:none;font-weight:700}
+
+/* subtítulos */
+#subs{position:absolute;left:0;right:0;bottom:36px;display:flex;justify-content:center;pointer-events:none}
+#subs div{max-width:1560px;padding:12px 26px 14px;border-radius:14px;background:rgba(64,68,75,.94);color:#fff;font:600 37px/1.32 Mont;text-align:center}
+#subs div:empty{display:none}
+#subs span.pen{color:rgba(255,255,255,.5)} #subs span.dic{color:#fff} #subs span.cur{color:#8CC8F7}
+
+/* competencia del módulo y aprendizajes esperados textuales (30-10, pedido del usuario) */
+.comp{margin-top:34px;max-width:1560px;font:400 58px/1.3 Varela;color:#fff}
+.comp .hl{background-size:calc(var(--p)*100%) 30%}
+.aecard{position:absolute;left:120px;top:772px;width:580px;padding:12px 18px 14px;border-radius:16px;background:var(--card2);border:2px solid var(--line);border-left:6px solid var(--fr)}
+.aecard small{display:block;font:400 17px/1 Varela;color:#F4A9BB;margin-bottom:7px}
+.aecard p{font:500 18.5px/1.32 Mont;color:#fff}
+.logros{padding:30px 36px}
+.logros .tt{font:400 32px/1.2 Varela}
+.logros .lab{font:600 18px/1 Mont;color:var(--dim);letter-spacing:.03em;margin-top:8px}
+.logros .lg{display:flex;gap:16px;align-items:flex-start;margin-top:18px}
+.logros .lg .box{width:40px;height:40px;margin-top:2px}
+.logros .lg .box .f svg{width:24px;height:24px}
+.logros .lg p{font:500 20px/1.35 Mont;color:#E6E7E8}
+
+/* compatibilidad con escenas de la plantilla anterior (bienvenida M1) */
+:root{--teal:#3D9BE9;--teal-deep:#8CC8F7;--slate:#BFC1C3;--wash:#111A27;--ink:#FFFFFF;--muted:#808387;--faint:#808387;--paper:#00060F;--amber:#ED1566;--green:#3D9BE9}
+.rows{display:flex;flex-direction:column;gap:10px}
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:36px}
+.trow{display:flex;gap:18px;align-items:center;padding:10px 12px;border-radius:16px;background:var(--card);border:2px solid var(--line);min-height:92px}
+.trow .vis{flex:none;width:128px;height:70px;border-radius:10px;background:var(--card2);display:grid;place-items:center;color:var(--ce);overflow:hidden;position:relative}
+.trow .vis img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.trow strong,.lrow strong{display:block;font:400 27px/1.1 Varela}
+.trow span,.lrow span{display:block;margin-top:5px;font:500 21px/1.25 Mont;color:var(--soft)}
+.lrow{display:flex;gap:16px;align-items:center;padding:12px 18px;border-radius:16px;background:linear-gradient(var(--fuw),var(--fuw)),var(--card);border:2px solid rgba(237,21,102,.45);min-height:92px}
+.lrow .ib{width:52px;height:52px;background:var(--fu)}
+.lrow .ib .ic{width:28px;height:28px}
+.ctrl{min-height:240px}
+.ctrl strong{margin-bottom:6px}
+.goal{margin-top:16px;font:600 22px/1.2 Mont;color:var(--ce)}
+.bar{height:28px;border-radius:8px;background:rgba(255,255,255,.08);margin-top:16px;position:relative}
+.bar i{position:absolute;left:0;top:0;bottom:0;border-radius:8px;background:linear-gradient(90deg,var(--fr),var(--fu));transform-origin:left}
+.bar-lab{display:flex;justify-content:space-between;margin-top:6px;font:500 19px/1 Mont;color:var(--soft)}
+.stack{position:relative;height:150px;margin-top:12px}
+.stack .sc{position:absolute;width:200px;height:110px;border-radius:12px;background:var(--card2);border:2px solid var(--line2);padding:14px 16px;font:400 26px/1 Varela;color:#fff;box-shadow:0 10px 20px -14px rgba(0,0,0,.6)}
+.stack .sc em{display:block;margin-top:14px;height:9px;border-radius:5px;background:rgba(255,255,255,.14);font-style:normal}
+.stack .sc em+em{width:70%;margin-top:9px}
+.out .sel{position:absolute;inset:-2px;border-radius:14px;border:3px solid var(--ce);background:rgba(61,155,233,.12);opacity:0}
+.out .v b{color:var(--ce)}
+.q4{display:grid;grid-template-columns:repeat(4,1fr);gap:26px}
+.qc{height:380px;padding:36px 30px;display:flex;flex-direction:column;justify-content:space-between}
+.qc .ib{width:84px;height:84px}
+.qc .ib .ic{width:44px;height:44px}
+.qc strong{font:400 38px/1.15 Varela}
+.qc.ok .ib{background:var(--ce)}
+.qc.warn .ib{background:var(--fu)}
+.qc.go{border-color:var(--fr)}
+.hito-h{font:400 96px/1 Varela;margin-top:18px}
+</style>
+</head>
+<body>
+<div id="stage">
+<div id="glow"></div>
+<div id="progress"></div>
+<!-- Bienvenida del Módulo 5 (30-10). Voz de EVA 2:29. Se arma con armar_html.py (marca Empoderatech). -->
+<style>
+.chips{display:flex;gap:12px}
+.chips .pill{font-size:22px;padding:11px 18px}
+.chips .pill .ic{width:24px;height:24px}
+.tasks{display:flex;flex-direction:column;gap:10px}
+.task{position:relative;display:flex;align-items:center;gap:14px;padding:10px 16px;border-radius:14px;background:var(--card);border:2px solid var(--line);font:600 22px/1.25 Mont;min-height:74px}
+.task .t{flex:1}
+.task .box{width:40px;height:40px}
+.task .box .f svg{width:24px;height:24px}
+.task .off{position:absolute;inset:-2px;border-radius:14px;opacity:0}
+.task .off i{position:absolute;inset:0;border-radius:14px;background:var(--noche);opacity:.7}
+.task .off b{position:absolute;right:14px;top:50%;margin-top:-16px;padding:8px 12px;border-radius:999px;background:var(--gr);font:600 16px/1 Mont;color:var(--txt)}
+.mx{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.qd{position:relative;height:190px;padding:14px 16px;border-radius:18px;background:var(--card);border:2px solid var(--line)}
+.qd small{display:block;font:500 17px/1.2 Mont;color:var(--dim)}
+.qd strong{display:block;margin-top:8px;font:400 27px/1.1 Varela}
+.qd .lit{position:absolute;inset:-2px;border-radius:18px;border:3px solid var(--ce);background:var(--cew);opacity:0}
+.qd .tk{position:absolute;left:16px;bottom:14px;padding:7px 12px;border-radius:999px;background:var(--fr);font:600 17px/1 Mont;color:var(--txt)}
+.qd.warn strong{color:var(--soft)}
+.axis{position:absolute;font:600 18px/1 Mont;color:var(--soft);letter-spacing:.02em}
+.node .k{display:block;margin:0 0 6px;font:600 17px/1 Mont;color:var(--ce);letter-spacing:.04em;text-transform:uppercase}
+.node.dec .k{color:var(--txt)}
+.dato{position:absolute;padding:8px 16px;border-radius:999px;background:var(--fuw);border:2px solid var(--fu);font:600 20px/1 Mont;color:var(--txt);white-space:nowrap}
+.pz{width:220px;padding:16px 12px;border-radius:16px;background:var(--card2);border:2px solid var(--ce);font:600 23px/1 Mont;text-align:center}
+.pz+.pz{margin-top:8px}
+.trow2{display:flex;align-items:center;gap:0}
+.trow2 .lb{width:160px;font:400 26px/1 Varela;color:var(--soft)}
+.step .bad{position:absolute;inset:-2px;border-radius:999px;background:var(--fu);display:flex;align-items:center;justify-content:center;gap:8px;opacity:0}
+.step .bad svg{width:22px;height:22px;stroke:var(--txt);stroke-width:3.5;fill:none;stroke-linecap:round}
+.run{position:absolute;left:0;display:flex;align-items:center;gap:16px;height:56px}
+.run .lb{width:160px;font:500 22px/1 Mont;color:var(--soft)}
+.run .dt{position:relative;width:42px;height:42px;border-radius:50%;background:var(--gr);border:2px solid var(--gm)}
+.run .wl{width:120px;height:3px;background:var(--gm)}
+.run .er{position:absolute;inset:-5px;border-radius:50%;background:var(--fu);opacity:0;display:grid;place-items:center}
+.run .er svg{width:22px;height:22px;stroke:var(--txt);stroke-width:3.5;fill:none;stroke-linecap:round}
+.cnt{position:absolute;left:0;top:0;font:400 128px/1 Varela;color:var(--fu)}
+.doc{position:absolute;left:60px;top:56px;width:400px;height:330px;padding:30px 32px;border-radius:18px;background:var(--card2);border:2px solid var(--line2)}
+.doc em{position:relative;display:block;height:12px;border-radius:6px;background:var(--line2);margin-top:22px;font-style:normal}
+.doc em.s{width:62%}
+.doc em .m{position:absolute;inset:-6px -8px;border-radius:8px;background:var(--fuw);border:2px solid var(--fu);opacity:0}
+.doc .tt{height:20px;width:55%;border-radius:8px;background:var(--gm)}
+.lupa{position:absolute;top:130px;width:150px;height:150px;margin-left:-75px;color:var(--ce)}
+.lupa svg{width:150px;height:150px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round}
+</style>
+
+<!-- ===== encabezado (desde 18,1 s) ===== -->
+<div id="hdr" class="a" data-in="18.10" data-out="133.35" data-fx="fade">
+  <div class="mark"><img src="../../scripts/lib/marca/etech-logo-sobre-oscuro.svg" alt=""><span class="sep"></span><span>IA generativa para entornos laborales</span><span class="sep"></span><span class="mod">Módulo 5</span></div>
+  <div id="rail" class="a" data-in="18.10" data-fx="fade">
+    <div class="seg" data-on="18.25,110.60"><div class="on"></div><span>Qué aprenderás</span></div>
+    <div class="seg" data-on="110.60,125.32"><div class="on"></div><span>Cómo avanzas</span></div>
+    <div class="seg" data-on="125.32,1013.19"><div class="on"></div><span>Tu proyecto</span></div>
+  </div>
+</div>
+
+<!-- ===== S1 · intro con EVA (0–18,25) ===== -->
+<section class="scene" data-span="0.00,18.25">
+  <img class="abs a" data-in="0.05" data-fx="fade" src="../../scripts/lib/marca/etech-logo-sobre-oscuro.svg" alt="" style="left:120px;top:52px;height:48px">
+  <svg class="arcos" viewBox="0 0 560 280" style="right:-40px;bottom:-30px;width:560px;height:280px;opacity:.55"><circle cx="560" cy="280" r="154" fill="none" stroke="#BE3455" stroke-width="3"/><circle cx="560" cy="280" r="244" fill="none" stroke="#BE3455" stroke-width="2.5" opacity=".8"/><circle cx="560" cy="280" r="333" fill="none" stroke="#BE3455" stroke-width="2" opacity=".6"/><circle cx="560" cy="280" r="423" fill="none" stroke="#BE3455" stroke-width="1.5" opacity=".4"/></svg>
+  <div class="left-col">
+    <div class="mapa"><div class="tag a" data-in="0.15">Módulo 5 de 6</div><div class="segs"><i class="hecho a" data-in="1.70" data-fx="grow"></i><i class="hecho a" data-in="1.80" data-fx="grow"></i><i class="hecho a" data-in="1.90" data-fx="grow"></i><i class="hecho a" data-in="2.00" data-fx="grow"></i><i class="on a" data-in="2.10" data-fx="grow"></i><i class="a" data-in="2.20" data-fx="grow"></i></div></div>
+    <h1 class="a" data-in="0.35" style="margin-top:30px">Automatización de<br>tareas repetitivas</h1>
+    <p class="sub1 a" data-in="2.80">Curso IA generativa para entornos laborales</p>
+    <ul class="facts">
+      <li class="a" data-in="11.00"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16z"/><line x1="13.5" y1="6.5" x2="17.5" y2="10.5"/></svg></div><span>Redactar</span><div class="box" style="width:40px;height:40px"><div class="f" data-check="11.50"><svg viewBox="0 0 24 24" style="width:24px;height:24px"><polyline points="5 12.5 10 17 19 7"/></svg></div></div></li>
+      <li class="a" data-in="12.05"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><line x1="15.5" y1="15.5" x2="20" y2="20"/></svg></div><span>Investigar</span><div class="box" style="width:40px;height:40px"><div class="f" data-check="12.55"><svg viewBox="0 0 24 24" style="width:24px;height:24px"><polyline points="5 12.5 10 17 19 7"/></svg></div></div></li>
+      <li class="a" data-in="12.95"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><path d="M18 3l3 3-9 9-3-3z"/><path d="M9 12c-3 0-5 2-5 5v3h3c3 0 5-2 5-5"/></svg></div><span>Crear piezas</span><div class="box" style="width:40px;height:40px"><div class="f" data-check="13.45"><svg viewBox="0 0 24 24" style="width:24px;height:24px"><polyline points="5 12.5 10 17 19 7"/></svg></div></div></li>
+      <li class="a" data-in="15.55" data-fx="pop" style="color:var(--ce)"><div class="ib" style="background:var(--fr)"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="7"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg></div><span>Tareas que se hacen solas</span></li>
+    </ul>
+  </div>
+  <div class="abs avatar-frame a" data-in="0.00" data-fx="lin" data-slot="avatar_intro"><div class="slot-label">EVA (intro)</div></div>
+</section>
+
+
+<!-- ===== competencia del módulo, textual (18,25–30,01) ===== -->
+<section class="scene" data-span="18.25,30.01">
+  <svg class="arcos" viewBox="0 0 560 280" style="right:-40px;bottom:-30px;width:560px;height:280px;opacity:.55"><circle cx="560" cy="280" r="154" fill="none" stroke="#BE3455" stroke-width="3"/><circle cx="560" cy="280" r="244" fill="none" stroke="#BE3455" stroke-width="2.5" opacity=".8"/><circle cx="560" cy="280" r="333" fill="none" stroke="#BE3455" stroke-width="2" opacity=".6"/><circle cx="560" cy="280" r="423" fill="none" stroke="#BE3455" stroke-width="1.5" opacity=".4"/></svg>
+  <div class="left-col" style="top:250px;width:1680px">
+    <span class="tag a" data-in="18.40">Competencia del módulo</span>
+    <p class="sub1 a" data-in="18.70" style="margin-top:22px">Módulo 5 · Automatización de tareas repetitivas</p>
+    <p class="comp a" data-in="20.45">Automatizar <span class="hl" data-hl="21.70">tareas rutinarias</span> mediante <span class="hl" data-hl="23.25">flujos simples con IA</span>, incorporando <span class="hl" data-hl="25.70">supervisión humana</span> y <span class="hl" data-hl="27.00">control de riesgos</span>, en el trabajo cotidiano.</p>
+  </div>
+</section>
+
+<!-- ===== S2 · tres temas (30,01–88,77) ===== -->
+<section class="scene" data-span="30.01,88.77">
+  <div class="rail-list">
+    <h2 class="a" data-in="30.50">Tres temas</h2>
+    <ol class="topics">
+      <li class="topic a" data-in="31.20" data-on="33.41,55.03"><div class="bgc"></div><div class="n">1<div class="nf">1</div></div><div class="tx"><strong>Potencial de automatización</strong><span class="d">Qué conviene probar primero</span></div></li>
+      <li class="topic a" data-in="31.50" data-on="55.03,73.03"><div class="bgc"></div><div class="n">2<div class="nf">2</div></div><div class="tx"><strong>Flujos simples con IA</strong><span class="d">Disparador, acciones y datos</span></div></li>
+      <li class="topic a" data-in="31.80" data-on="73.03,88.77"><div class="bgc"></div><div class="n">3<div class="nf">3</div></div><div class="tx"><strong>Supervisión humana y riesgos</strong><span class="d">Dónde mira una persona</span></div></li>
+    </ol>
+  </div>
+  <div class="aecard a" data-in="33.81" data-out="54.88" data-fx="fade"><small>Aprendizaje esperado</small><p>Identificar tareas repetitivas con potencial de automatización, priorizándolas según impacto y riesgo.</p></div>
+  <div class="aecard a" data-in="55.43" data-out="72.88" data-fx="fade"><small>Aprendizaje esperado</small><p>Construir un flujo simple con una herramienta no-code que conecte IA con correo, planillas o calendario.</p></div>
+  <div class="aecard a" data-in="73.43" data-out="88.62" data-fx="fade"><small>Aprendizaje esperado</small><p>Incorporar puntos de supervisión humana y controles de riesgo en un flujo automatizado, evaluando su efecto.</p></div>
+
+  <!-- Tema 1 -->
+  <div class="panel" data-span="33.41,55.03">
+    <h3 class="abs a" data-in="36.80" style="left:0;top:0">Tu trabajo, tarea por tarea</h3>
+    <div class="blk chips" style="top:62px">
+      <span class="pill ce a" data-in="42.75" data-fx="pop"><svg class="ic" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"/><polyline points="3 4 3 9 8 9"/></svg>Se repite</span>
+      <span class="pill ce a" data-in="43.10" data-fx="pop"><svg class="ic" viewBox="0 0 24 24"><line x1="5" y1="7" x2="19" y2="7"/><line x1="5" y1="12" x2="19" y2="12"/><line x1="5" y1="17" x2="14" y2="17"/></svg>Sigue reglas claras</span>
+      <span class="pill ce a" data-in="44.50" data-fx="pop"><svg class="ic" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><polyline points="3 7 12 13 21 7"/></svg>Trabaja con información</span>
+    </div>
+    <div class="blk tasks" style="top:140px;width:480px">
+      <div class="task a" data-in="42.85"><span class="t">Responder consultas de proveedores</span><div class="box"><div class="f" data-check="46.24"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div></div>
+      <div class="task a" data-in="43.15"><span class="t">Registrar facturas en la planilla</span><div class="box"><div class="f" data-check="47.10"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div></div>
+      <div class="task a" data-in="43.45"><span class="t">Agendar reuniones de la jefatura</span><div class="box"><div class="f" data-check="47.90"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div></div>
+      <div class="task a" data-in="43.75"><span class="t" style="padding-right:150px">Atender a proveedores en la oficina</span><div class="off" data-sel="45.10"><i></i><b>Con personas</b></div></div>
+    </div>
+    <div class="blk a" data-in="50.40" data-fx="fade" style="top:140px;left:540px;width:500px">
+      <div class="axis a" data-in="51.10" data-fx="fade" style="left:-36px;top:0;height:390px;writing-mode:vertical-rl;transform:rotate(180deg);text-align:center">IMPACTO ›</div>
+      <div class="mx">
+        <div class="qd a" data-in="50.70" data-focus="53.00,55.00,1.05"><small>Impacto alto · riesgo bajo</small><strong>Empieza aquí</strong><span class="tk a" data-in="52.25" data-fx="pop">Facturas</span><div class="lit" data-sel="53.00"></div></div>
+        <div class="qd a" data-in="51.00"><small>Impacto alto · riesgo alto</small><strong>Con supervisión</strong><span class="tk a" data-in="52.55" data-fx="pop">Consultas</span></div>
+        <div class="qd a" data-in="51.30"><small>Impacto bajo · riesgo bajo</small><strong>Si sobra tiempo</strong></div>
+        <div class="qd warn a" data-in="51.60"><small>Impacto bajo · riesgo alto</small><strong>No automatices</strong></div>
+      </div>
+      <div class="axis a" data-in="51.72" data-fx="fade" style="left:0;top:404px;width:500px;text-align:center">RIESGO ›</div>
+    </div>
+  </div>
+  <div class="slot a" data-in="36.95" data-out="42.55" data-fx="lin" data-slot="clip1" style="left:760px;top:215px;width:1040px;height:585px"><div class="slot-label">Clip 1: Camila revisa sus tareas</div></div>
+
+  <!-- Tema 2 -->
+  <div class="panel" data-span="55.03,73.03">
+    <h3 class="abs a" data-in="55.50" style="left:0;top:0">Un flujo, paso a paso</h3>
+    <div class="abs a" data-in="55.70" data-out="58.60" data-fx="fade" style="left:160px;top:70px"><img src="media/img1.png" alt="" onerror="this.remove()" style="display:block;width:720px;height:405px;object-fit:cover;border-radius:22px;border:2px solid var(--line)"></div>
+    <div class="blk a" data-in="58.70" data-d="0.2" data-out="65.45" data-fx="fade" style="top:70px;height:330px">
+      <div class="flow" style="height:330px">
+        <svg class="wires" viewBox="0 0 1040 330">
+          <path class="a" data-in="60.85" data-fx="draw" data-len="80" stroke-dasharray="80" d="M300 62 L370 62"/>
+          <path class="a" data-in="61.65" data-fx="draw" data-len="80" stroke-dasharray="80" d="M670 62 L740 62"/>
+        </svg>
+        <div class="node a" data-in="59.40" style="left:0;top:0;width:300px"><span class="k">Disparador</span>Una fila se marca «atrasado»</div>
+        <div class="node a" data-in="61.05" style="left:370px;top:0;width:300px"><span class="k">Acción · IA</span>Redacta el aviso al cliente</div>
+        <div class="node dec a" data-in="61.85" style="left:740px;top:0;width:300px"><span class="k">Acción</span>Lo deja en «Borrador»</div>
+        <span class="dato a" data-in="63.00" data-fx="pop" data-keys="63.20:0,65.00:66" style="top:170px;left:0%">N.º de pedido</span>
+        <span class="dato a" data-in="63.35" data-fx="pop" data-keys="63.55:0,65.20:70" style="top:224px;left:0%">Cliente</span>
+        <span class="dato a" data-in="63.70" data-fx="pop" data-keys="63.90:0,65.40:68" style="top:278px;left:0%">Nueva fecha</span>
+      </div>
+    </div>
+    <div class="abs a" data-in="65.95" data-out="69.75" data-fx="pop" style="left:820px;top:65px">
+      <div class="pz a" data-in="65.95" data-fx="pop">Disparador</div>
+      <div class="pz a" data-in="66.35" data-fx="pop">IA</div>
+      <div class="pz a" data-in="66.75" data-fx="pop">Planilla</div>
+      <span class="pill main a" data-in="67.05" data-fx="pop" style="margin-top:26px;font-size:22px">Sin programar</span><br>
+      <span class="pill ce a" data-in="68.45" data-fx="pop" style="margin-top:12px;font-size:22px">No-code</span>
+    </div>
+    <div class="blk a" data-in="69.95" data-d="0.2" data-fx="fade" style="top:80px">
+      <div class="trow2 a" data-in="69.95">
+        <span class="lb">Prueba 1</span>
+        <div class="step">Disparador</div>
+        <svg class="arrow" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="step" style="position:relative;min-width:150px;text-align:center">IA<div class="bad" data-sel="71.20"><svg viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>Falla</div></div>
+        <svg class="arrow" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="step">Borrador</div>
+      </div>
+      <span class="pill ce a" data-in="71.85" data-fx="pop" style="position:absolute;left:160px;top:100px"><svg class="ic" style="width:26px;height:26px" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"/><polyline points="3 4 3 9 8 9"/></svg>Corriges la falla</span>
+      <div class="trow2 a" data-in="72.15" style="position:absolute;top:190px">
+        <span class="lb">Prueba 2</span>
+        <div class="step hi">Disparador</div>
+        <svg class="arrow" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="step hi" style="min-width:150px;text-align:center">IA</div>
+        <svg class="arrow" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="step hi">Borrador</div>
+        <div class="box" style="margin-left:20px"><div class="f" data-check="72.45"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="slot a" data-in="65.70" data-out="69.85" data-fx="lin" data-slot="clip2" style="left:760px;top:215px;width:800px;height:450px"><div class="slot-label">Clip 2: Andrés arma el flujo</div></div>
+
+  <!-- Tema 3 -->
+  <div class="panel" data-span="73.03,88.77">
+    <h3 class="abs a" data-in="76.90" data-out="83.10" style="left:0;top:0">No se cansa, pero tampoco duda</h3>
+    <h3 class="abs a" data-in="83.30" style="left:0;top:0">Dónde mira una persona</h3>
+    <div class="blk a" data-in="77.45" data-d="0.2" data-out="83.10" data-fx="fade" style="top:70px;height:360px">
+      <div class="run a" data-in="77.60" style="top:0"><span class="lb">Ejecución 1</span><span class="dt"></span><span class="wl"></span><span class="dt"><span class="er" data-sel="80.65"><svg viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg></span></span><span class="wl"></span><span class="dt"></span></div>
+      <div class="run a" data-in="77.85" style="top:72px"><span class="lb">Ejecución 2</span><span class="dt"></span><span class="wl"></span><span class="dt"><span class="er" data-sel="81.40"><svg viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg></span></span><span class="wl"></span><span class="dt"></span></div>
+      <div class="run a" data-in="78.10" style="top:144px"><span class="lb">Ejecución 3</span><span class="dt"></span><span class="wl"></span><span class="dt"><span class="er" data-sel="81.75"><svg viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg></span></span><span class="wl"></span><span class="dt"></span></div>
+      <div class="run a" data-in="78.35" style="top:216px"><span class="lb">Ejecución 4</span><span class="dt"></span><span class="wl"></span><span class="dt"><span class="er" data-sel="82.10"><svg viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg></span></span><span class="wl"></span><span class="dt"></span></div>
+      <div class="run a" data-in="78.60" style="top:288px"><span class="lb">Ejecución 5</span><span class="dt"></span><span class="wl"></span><span class="dt"><span class="er" data-sel="82.45"><svg viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg></span></span><span class="wl"></span><span class="dt"></span></div>
+      <span class="pill alt a" data-in="79.10" data-fx="pop" style="position:absolute;left:690px;top:0;font-size:22px">Lo hace igual cada vez</span>
+      <div class="abs" style="left:700px;top:84px;width:340px;height:130px">
+        <span class="cnt a" data-in="80.65" data-d="0.2" data-out="81.40" data-fx="fade">1</span>
+        <span class="cnt a" data-in="81.40" data-d="0.2" data-out="81.75" data-fx="fade">2</span>
+        <span class="cnt a" data-in="81.75" data-d="0.2" data-out="82.10" data-fx="fade">3</span>
+        <span class="cnt a" data-in="82.10" data-d="0.2" data-out="82.45" data-fx="fade">4</span>
+        <span class="cnt a" data-in="82.45" data-d="0.2" data-fx="fade">5</span>
+        <span class="a" data-in="81.40" data-fx="fade" style="position:absolute;left:100px;top:30px;width:240px;font:600 26px/1.25 Mont;color:var(--soft)">veces el mismo error</span>
+      </div>
+    </div>
+    <div class="abs card box3 a" data-in="85.25" style="left:820px;top:65px;width:220px">
+      <div class="ib" style="background:var(--ce)"><svg class="ic" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></div>
+      <strong>Punto de control</strong><span class="a" data-in="85.75" data-fx="fade">Una persona revisa antes del envío</span>
+    </div>
+    <div class="blk" style="top:540px;display:flex;align-items:center;gap:22px">
+      <h3 class="a" data-in="86.55" style="margin:0">Si falla</h3>
+      <div class="chain">
+        <div class="step a" data-in="86.85">Detectar</div>
+        <svg class="arrow a" data-in="87.10" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="step a" data-in="87.25">Detener</div>
+        <svg class="arrow a" data-in="87.50" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="step hi a" data-in="87.65">Seguir a mano</div>
+      </div>
+    </div>
+  </div>
+  <div class="slot a" data-in="83.30" data-out="88.20" data-fx="lin" data-slot="clip3" style="left:760px;top:215px;width:800px;height:450px"><div class="slot-label">Clip 3: Paula revisa</div></div>
+</section>
+
+<!-- ===== S3 · personajes y herramientas (88,77–110,60) ===== -->
+<section class="scene" data-span="88.77,110.60">
+  <h2 class="abs a" data-in="89.05" data-out="100.45" style="left:120px;top:140px">Te acompañan</h2>
+  <h2 class="abs a" data-in="100.75" style="left:120px;top:140px">Tus herramientas</h2>
+  <div class="abs row3 a" data-in="89.80" data-d="0.2" data-out="100.45" data-fx="fade" style="left:120px;top:260px;width:1680px">
+    <div class="card box3 a" data-in="89.90" style="padding:34px 32px;min-height:300px"><div class="ib" style="width:96px;height:96px;margin-bottom:22px;font:400 44px/1 Varela;background:var(--fr)">C</div><strong style="font-size:40px">Camila</strong><span style="font-size:25px">Asistente administrativa en una constructora</span></div>
+    <div class="card box3 a" data-in="93.55" style="padding:34px 32px;min-height:300px"><div class="ib" style="width:96px;height:96px;margin-bottom:22px;font:400 44px/1 Varela;background:var(--ce)">A</div><strong style="font-size:40px">Andrés</strong><span style="font-size:25px">Encargado de bodega en una distribuidora</span></div>
+    <div class="card box3 a" data-in="97.80" style="padding:34px 32px;min-height:300px"><div class="ib" style="width:96px;height:96px;margin-bottom:22px;font:400 44px/1 Varela;background:var(--fu)">P</div><strong style="font-size:40px">Paula</strong><span style="font-size:25px">Ejecutiva de atención al cliente</span></div>
+  </div>
+  <div class="abs a" data-in="100.80" data-d="0.2" data-fx="fade" style="left:120px;top:262px;width:800px;height:300px">
+    <div class="flow" style="height:300px">
+      <svg class="wires" viewBox="0 0 800 300">
+        <path class="a" data-in="102.20" data-fx="draw" data-len="100" stroke-dasharray="100" d="M340 40 L430 40"/>
+        <path class="a" data-in="104.80" data-fx="draw" data-len="100" stroke-dasharray="100" d="M340 218 L430 218"/>
+      </svg>
+      <div class="node a" data-in="101.10" style="left:0;top:0;width:340px;display:flex;align-items:center;gap:14px"><svg class="ic" viewBox="0 0 24 24" style="flex:none;color:var(--ce)"><rect x="3" y="4" width="18" height="12" rx="2"/><line x1="12" y1="16" x2="12" y2="20"/><line x1="8" y1="20" x2="16" y2="20"/></svg>Si tienes computador</div>
+      <div class="node dec a" data-in="102.50" style="left:430px;top:0;width:370px">Make</div>
+      <div class="node a" data-in="103.35" style="left:0;top:170px;width:340px;display:flex;align-items:center;gap:14px"><svg class="ic" viewBox="0 0 24 24" style="flex:none;color:var(--ce)"><rect x="7" y="2" width="10" height="20" rx="2"/><line x1="11" y1="18" x2="13" y2="18"/></svg>Si solo tienes el celular</div>
+      <div class="node dec a" data-in="105.40" style="left:430px;top:170px;width:370px">Acciones programadas de Gemini</div>
+    </div>
+  </div>
+  <div class="abs a" data-in="107.20" data-fx="fade" style="left:92px;top:232px;width:856px;height:350px;border:3px dashed var(--ce);border-radius:28px"></div>
+  <span class="abs pill ce a" data-in="108.10" data-fx="pop" style="left:120px;top:604px"><svg class="ic" style="width:28px;height:28px" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Cuenta de prueba · datos ficticios</span>
+  <div class="slot a" data-in="104.05" data-out="109.65" data-fx="lin" data-slot="clip4" style="left:1000px;top:232px;width:800px;height:450px"><div class="slot-label">Clip 4: Camila con el celular</div></div>
+</section>
+
+<!-- ===== S4 · cómo vas a avanzar (110,60–125,32) ===== -->
+<section class="scene" data-span="110.60,125.32">
+  <div class="left-col" style="width:820px">
+    <h2 class="a" data-in="111.05" style="font-size:58px">¿Cómo vas a saber si vas aprendiendo?</h2>
+    <div class="ev">
+      <div class="it a" data-in="113.45"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><polyline points="7.5 12.5 10.5 15.5 16.5 9"/></svg></div><div><strong>Al cerrar cada tema</strong><span class="a" data-in="115.35" data-fx="fade">Pones a prueba lo que aprendiste</span></div></div>
+      <div class="it a" data-in="116.90"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"/><polyline points="3 4 3 9 8 9"/></svg></div><div><strong>Si algo no quedó claro</strong><span class="a" data-in="118.85" data-fx="fade">Sabrás qué repasar</span></div></div>
+      <div class="it a" data-in="120.85"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><line x1="15.5" y1="15.5" x2="20" y2="20"/></svg></div><div><strong>Casos reales</strong><span class="a" data-in="122.45" data-fx="fade">Del uso de la IA generativa en el trabajo</span></div></div>
+    </div>
+  </div>
+  <div class="abs card loop a" data-in="113.55" data-out="120.55" style="left:1000px;top:200px;width:800px;height:450px">
+    <div class="ln a" data-in="113.70"><span class="n">1</span>Aprendes</div>
+    <div class="ln a" data-in="115.35"><span class="n">2</span>Pones a prueba</div>
+    <div class="ln warn a" data-in="118.85"><span class="n">3</span>Repasas lo que faltó</div>
+    <svg class="back a" data-in="119.15" data-fx="fade" viewBox="0 0 120 300"><path d="M20 260 C 100 260, 100 40, 20 40"/><polyline points="34 28 20 40 34 52"/></svg>
+  </div>
+  <div class="abs card a" data-in="120.75" style="left:1000px;top:200px;width:800px;height:450px;overflow:hidden">
+    <div class="doc"><div class="tt"></div><em></em><em class="s"><i class="m" data-sel="122.00"></i></em><em></em><em></em><em class="s"><i class="m" data-sel="123.40"></i></em><em></em></div>
+    <div class="lupa" data-keys="120.75:22,122.00:30,123.40:40,124.80:28" style="left:22%"><svg viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.5"/><line x1="14.8" y1="14.8" x2="21" y2="21" stroke-width="2.6"/></svg></div>
+    <div class="abs" style="left:520px;top:110px;width:240px">
+      <span class="pill ce a" data-in="121.55" data-fx="pop" style="font-size:22px">Casos reales</span>
+      <p class="a" data-in="123.10" data-fx="fade" style="margin-top:16px;font:500 22px/1.35 Mont;color:var(--soft)">La IA generativa en el trabajo</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== S5 · tu proyecto, con EVA (125,32–133,35) ===== -->
+<section class="scene" data-span="125.32,133.35">
+  <div class="left-col" style="width:900px">
+    <span class="tag a" data-in="125.60">Proyecto aplicado</span>
+    <h1 class="a" data-in="126.20" style="margin-top:24px;font-size:96px">Tu proyecto</h1>
+    <div class="chain" style="margin-top:50px">
+      <div class="step a" data-in="129.05" style="font-size:23px;padding:14px 20px">Tarea real</div>
+      <svg class="arrow a" data-in="129.40" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="step a" data-in="129.60" style="font-size:23px;padding:14px 20px">Flujo</div>
+      <svg class="arrow a" data-in="129.95" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="step a" data-in="130.15" style="font-size:23px;padding:14px 20px">Persona que revisa</div>
+      <svg class="arrow a" data-in="130.85" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="step hi a" data-in="131.15" style="font-size:23px;padding:14px 20px">Mejora</div>
+    </div>
+    <div class="mrow" style="justify-content:flex-start;gap:26px;margin-top:44px">
+      <div class="m hecho a" data-in="131.75" data-fx="pop"><i><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></i><span>M1</span></div>
+      <div class="m hecho a" data-in="131.90" data-fx="pop"><i><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></i><span>M2</span></div>
+      <div class="m hecho a" data-in="132.05" data-fx="pop"><i><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></i><span>M3</span></div>
+      <div class="m hecho a" data-in="132.20" data-fx="pop"><i><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></i><span>M4</span></div>
+      <div class="m on a" data-in="132.40" data-fx="pop"><i></i><span>M5</span></div>
+      <div class="m a" data-in="132.55" data-fx="pop"><i></i><span>M6</span></div>
+    </div>
+  </div>
+  <div class="abs avatar-frame a" data-in="125.55" data-d="0.3" data-fx="lin" data-slot="eva_momento" style="left:1240px;top:150px;width:480px;height:600px"><div class="slot-label">EVA (momento clave)</div></div>
+</section>
+
+<!-- ===== S6 · cierre con EVA (133,35–fin) ===== -->
+<section class="scene" data-span="133.35,1013.19">
+  <img class="abs a" data-in="133.50" data-fx="fade" src="../../scripts/lib/marca/etech-logo-sobre-oscuro.svg" alt="" style="left:120px;top:52px;height:48px">
+  <svg class="arcos" viewBox="0 0 560 280" style="right:-40px;bottom:-30px;width:560px;height:280px;opacity:.55"><circle cx="560" cy="280" r="154" fill="none" stroke="#BE3455" stroke-width="3"/><circle cx="560" cy="280" r="244" fill="none" stroke="#BE3455" stroke-width="2.5" opacity=".8"/><circle cx="560" cy="280" r="333" fill="none" stroke="#BE3455" stroke-width="2" opacity=".6"/><circle cx="560" cy="280" r="423" fill="none" stroke="#BE3455" stroke-width="1.5" opacity=".4"/></svg>
+  <div class="left-col" style="width:900px">
+    <h2 class="a" data-in="133.90" style="font-size:62px">Para empezar</h2>
+    <div class="checks">
+      <div class="ck a" data-in="134.75"><div class="box"><div class="f" data-check="137.00"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Notas de una semana normal</div>
+      <div class="ck a" data-in="137.50" style="font-size:29px"><div class="box"><div class="f" data-check="139.95"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Sin nombres de clientes ni datos de la empresa</div>
+    </div>
+    <div class="quote a" data-in="140.85"><small>QUÉDATE CON ESTA IDEA</small>Antes de automatizar, elimina lo innecesario y simplifica lo que queda.</div>
+    <div class="chain" style="margin-top:26px">
+      <div class="step a" data-in="144.05">Eliminar</div>
+      <svg class="arrow a" data-in="145.30" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="step a" data-in="145.60">Simplificar</div>
+      <svg class="arrow a" data-in="146.10" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="step hi a" data-in="146.40">Automatizar</div>
+    </div>
+    <div class="bye a" data-in="147.40">› Nos vemos en el primer tema</div>
+  </div>
+  <div class="abs avatar-frame a" data-in="133.37" data-d="0.3" data-fx="lin" data-slot="avatar_cierre"><div class="slot-label">EVA (cierre)</div></div>
+</section>
+
+<script>
+
+</script>
+<div id="subs"><div></div></div>
+</div>
+<script>
+const SUBS = [[0.00,6.23,"¡Hola! Te doy la bienvenida al Módulo 5<br>del curso IA generativa para entornos laborales:"],[6.54,8.83,"Automatización de tareas repetitivas."],[9.32,13.95,"Hasta ahora usaste la IA para redactar,<br>investigar y crear piezas."],[14.34,17.83,"Ahora vas a lograr que algunas tareas se hagan solas."],[18.56,20.57,"La competencia de este módulo es:"],[20.60,24.85,"automatizar tareas rutinarias<br>mediante flujos simples con IA,"],[24.88,29.57,"incorporando supervisión humana y control<br>de riesgos, en el trabajo cotidiano."],[30.20,33.33,"En este módulo vas a recorrer tres temas."],[33.86,36.39,"Primero, el potencial de automatización."],[36.86,41.39,"Vas a mirar tu trabajo tarea por tarea<br>y a reconocer las buenas candidatas:"],[41.74,45.75,"las que se repiten, siguen reglas<br>claras y trabajan con información,"],[46.02,48.41,"como correos, planillas o agenda."],[48.84,52.19,"Después las vas a ordenar<br>en una matriz de impacto y riesgo,"],[52.22,54.59,"para decidir qué conviene probar primero."],[55.34,58.19,"Segundo, los flujos simples con IA."],[58.46,60.87,"Un flujo tiene un disparador que lo inicia,"],[61.14,65.31,"acciones que se hacen solas y datos<br>que pasan de un paso al siguiente."],[65.78,69.21,"Lo vas a armar sin programar,<br>con herramientas no-code,"],[69.40,72.79,"y lo vas a probar hasta encontrar<br>sus fallas y corregirlas."],[73.56,76.57,"Tercero, la supervisión humana y los riesgos."],[76.96,79.91,"Un flujo no se cansa, pero tampoco duda:"],[80.24,82.75,"si algo sale mal, lo repite cada vez."],[82.78,88.45,"Por eso vas a decidir dónde tiene que mirar<br>una persona y qué hacer si el flujo falla."],[88.90,93.29,"Te acompañan Camila, asistente<br>administrativa en una constructora,"],[93.32,98.31,"y Andrés, encargado de bodega en una distribuidora,<br>y vas a conocer a Paula,"],[98.62,100.51,"ejecutiva de atención al cliente."],[100.72,104.77,"Si tienes computador, vas a usar Make;<br>si solo tienes el celular,"],[105.00,106.97,"las acciones programadas de Gemini."],[107.18,110.21,"Siempre con una cuenta de prueba y datos ficticios."],[110.68,113.15,"¿Y cómo vas a saber si vas aprendiendo?"],[113.46,118.29,"Al cerrar cada tema pondrás a prueba<br>lo que aprendiste, y si algo no quedó claro,"],[118.48,119.93,"sabrás qué repasar."],[120.14,125.07,"Además, vas a analizar casos reales<br>del uso de la IA generativa en el trabajo."],[125.76,128.73,"Y todo esto lo vas a llevar a tu proyecto aplicado:"],[129.00,132.99,"la tarea real de tu trabajo<br>que vienes mejorando módulo a módulo."],[133.68,137.51,"Para empezar, ten a mano tus notas<br>de lo que haces en una semana normal,"],[137.54,140.47,"sin nombres de clientes ni datos de la empresa."],[140.70,147.07,"Y quédate con esta idea: antes de automatizar,<br>elimina lo innecesario y simplifica lo que queda."],[147.36,148.85,"¡Nos vemos en el primer tema!"]];
+const WORDS = [[0.0,0.3],[0.78,0.92],[0.92,1.12],[1.12,1.22],[1.22,1.76],[1.76,2.04],[2.04,2.36],[2.36,2.84],[2.84,3.16],[3.16,3.4],[3.4,4.06],[4.06,4.74],[4.74,5.02],[5.02,5.54],[5.54,6.08],[6.54,7.32],[7.32,7.6],[7.6,7.96],[7.96,8.68],[9.32,9.6],[9.6,9.92],[9.92,10.44],[10.44,10.62],[10.62,10.9],[10.9,11.14],[11.14,11.86],[12.18,12.82],[12.82,13.04],[13.04,13.32],[13.32,13.8],[14.34,14.72],[14.72,15.12],[15.12,15.26],[15.26,15.56],[15.56,15.72],[15.72,16.06],[16.06,16.64],[16.64,16.84],[16.84,17.14],[17.14,17.68],[18.56,18.86],[18.86,19.44],[19.44,19.62],[19.62,19.84],[19.84,20.22],[20.22,20.6],[20.6,21.76],[21.76,22.2],[22.2,22.8],[22.8,23.28],[23.28,23.76],[23.76,24.12],[24.12,24.4],[24.4,24.88],[24.88,25.76],[25.76,26.4],[26.4,26.92],[26.92,27.04],[27.04,27.36],[27.36,27.54],[27.54,27.96],[27.96,28.26],[28.26,28.38],[28.38,28.74],[28.74,29.42],[30.2,30.62],[30.62,30.84],[30.84,31.24],[31.24,31.56],[31.56,31.72],[31.72,32.18],[32.18,32.62],[32.62,33.18],[33.86,34.3],[34.66,34.74],[34.74,35.26],[35.26,35.48],[35.48,36.24],[36.86,36.96],[36.96,37.12],[37.12,37.36],[37.36,37.48],[37.48,37.94],[37.94,38.4],[38.4,38.7],[38.7,39.1],[39.1,39.42],[39.42,39.5],[39.5,40.02],[40.02,40.2],[40.2,40.52],[40.52,41.24],[41.74,41.86],[41.86,42.0],[42.0,42.12],[42.12,42.68],[43.08,43.34],[43.34,43.64],[43.64,44.26],[44.26,44.48],[44.48,44.92],[44.92,45.06],[45.06,45.6],[46.02,46.24],[46.24,46.84],[47.1,47.54],[47.54,47.9],[47.9,48.26],[48.84,49.16],[49.16,49.62],[49.62,49.8],[49.8,49.94],[49.94,50.32],[50.32,50.44],[50.44,50.58],[50.58,50.96],[50.96,51.12],[51.12,51.48],[51.48,51.72],[51.72,52.16],[52.22,52.44],[52.44,52.94],[52.94,53.22],[53.22,53.66],[53.66,54.08],[54.08,54.44],[55.34,55.94],[56.3,56.5],[56.5,56.94],[56.94,57.28],[57.28,57.58],[57.58,58.04],[58.46,58.66],[58.66,59.14],[59.14,59.36],[59.36,59.5],[59.5,60.02],[60.02,60.18],[60.18,60.3],[60.3,60.72],[61.14,61.54],[61.54,61.78],[61.78,61.92],[61.92,62.16],[62.16,62.76],[62.76,63.04],[63.04,63.28],[63.28,63.52],[63.52,63.92],[63.92,64.04],[64.04,64.22],[64.22,64.56],[64.56,64.84],[64.84,65.16],[65.78,65.96],[65.96,66.16],[66.16,66.26],[66.26,66.6],[66.6,66.9],[66.9,67.56],[67.76,67.9],[67.9,68.44],[68.44,69.06],[69.4,69.52],[69.52,69.62],[69.62,69.78],[69.78,69.9],[69.9,70.3],[70.3,70.56],[70.56,70.94],[70.94,71.2],[71.2,71.66],[71.66,71.9],[71.9,72.64],[73.56,74.16],[74.48,74.5],[74.5,75.12],[75.12,75.7],[75.7,75.8],[75.8,75.98],[75.98,76.42],[76.96,77.14],[77.14,77.62],[77.62,77.9],[77.9,78.08],[78.08,78.52],[78.76,78.96],[78.96,79.3],[79.3,79.76],[80.24,80.4],[80.4,80.64],[80.64,80.9],[80.9,81.18],[81.46,81.56],[81.56,82.0],[82.0,82.4],[82.4,82.78],[82.78,83.36],[83.36,83.62],[83.62,83.86],[83.86,83.98],[83.98,84.44],[84.44,84.74],[84.74,85.14],[85.14,85.28],[85.28,85.58],[85.58,85.72],[85.72,86.24],[86.24,86.58],[86.58,86.82],[86.82,87.24],[87.24,87.42],[87.42,87.54],[87.54,87.9],[87.9,88.3],[88.9,89.34],[89.34,89.96],[89.96,90.52],[90.98,91.36],[91.36,92.18],[92.18,92.32],[92.32,92.46],[92.46,93.32],[93.32,93.6],[93.6,93.94],[94.4,94.84],[94.84,95.02],[95.02,95.42],[95.42,95.68],[95.68,95.84],[95.84,96.62],[96.9,97.06],[97.06,97.2],[97.2,97.34],[97.34,97.7],[97.7,97.84],[97.84,98.16],[98.62,99.12],[99.12,99.26],[99.26,99.58],[99.58,99.84],[99.84,100.36],[100.72,100.9],[100.9,101.14],[101.14,101.84],[102.08,102.2],[102.2,102.34],[102.34,102.58],[102.58,102.9],[103.3,103.46],[103.46,103.72],[103.72,104.04],[104.04,104.22],[104.22,104.62],[105.0,105.12],[105.12,105.48],[105.48,106.16],[106.16,106.38],[106.38,106.82],[107.18,107.76],[107.76,107.96],[107.96,108.14],[108.14,108.42],[108.42,108.6],[108.6,108.86],[108.86,109.24],[109.24,109.46],[109.46,110.06],[110.68,111.2],[111.2,111.46],[111.46,111.68],[111.68,111.78],[111.78,112.08],[112.08,112.24],[112.24,112.4],[112.4,113.0],[113.46,113.66],[113.66,113.98],[113.98,114.34],[114.34,114.76],[114.9,115.2],[115.2,115.38],[115.38,115.58],[115.58,115.8],[115.8,115.9],[115.9,116.5],[116.76,116.94],[116.94,117.06],[117.06,117.3],[117.3,117.56],[117.56,117.84],[117.84,118.14],[118.48,118.9],[118.9,119.14],[119.14,119.78],[120.14,120.48],[120.94,121.02],[121.02,121.18],[121.18,121.56],[121.56,121.94],[121.94,122.54],[122.54,122.7],[122.7,122.92],[122.92,123.08],[123.08,123.2],[123.2,123.6],[123.6,124.24],[124.24,124.4],[124.4,124.5],[124.5,124.92],[125.76,125.92],[125.92,126.22],[126.22,126.64],[126.64,126.84],[126.84,127.02],[127.02,127.12],[127.12,127.32],[127.32,127.46],[127.46,127.6],[127.6,127.98],[127.98,128.58],[129.0,129.1],[129.1,129.34],[129.34,129.88],[129.88,130.02],[130.02,130.14],[130.14,130.58],[130.58,130.86],[130.86,131.18],[131.18,131.72],[131.72,132.3],[132.3,132.46],[132.46,132.84],[133.68,133.96],[133.96,134.3],[134.78,134.86],[134.86,134.98],[134.98,135.16],[135.16,135.36],[135.36,135.74],[135.74,135.88],[135.88,136.0],[136.0,136.12],[136.12,136.42],[136.42,136.6],[136.6,136.76],[136.76,137.06],[137.06,137.54],[137.54,138.14],[138.14,138.48],[138.48,138.64],[138.64,139.26],[139.26,139.42],[139.42,139.7],[139.7,139.88],[139.88,139.96],[139.96,140.32],[140.7,140.9],[140.9,141.3],[141.3,141.56],[141.56,141.76],[141.76,142.1],[142.56,142.86],[142.86,143.02],[143.02,143.78],[144.08,144.56],[144.56,144.66],[144.66,145.44],[145.44,145.66],[145.66,146.34],[146.34,146.48],[146.48,146.62],[146.62,146.92],[147.36,147.6],[147.6,147.8],[147.8,148.04],[148.04,148.14],[148.14,148.36],[148.36,148.7]];
+// Motor de animación de los videos de módulo (versión con la marca Empoderatech).
+// Lo usa armar_html.py: el cuerpo de cada video define SUBS (y WORDS sale de palabras.json).
+// Atributos: data-span="entra,sale" (escenas y paneles), clase .a + data-in/data-out/data-d/data-fx
+// (rise, fade, pop, grow, draw, lin), data-on (segmentos del encabezado y temas del riel), data-focus="t0,t1,zoom",
+// data-check="t", data-hl="t" (subrayado), data-sel="t" (marca de elegido), data-keys="t:pos,t:pos" (perilla, % de left),
+// data-slot="nombre" (recuadro de video que llena compose.py).
+window.SUBS = SUBS;
+const CUEW = SUBS.map(c=>WORDS.filter(w=>w[0]>=c[0]-0.05 && w[0]<c[1]));
+
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const ease=p=>1-Math.pow(1-p,3);
+const prog=(t,s,d)=>clamp((t-s)/d);
+const FADE=0.4;
+const r3=x=>Math.round(x*1000)/1000;
+const pares=s=>s.split(',').map(Number);
+
+const spans=[...document.querySelectorAll('[data-span]')].map(el=>{const [a,b]=pares(el.dataset.span);return {el,a,b};});
+const anims=[...document.querySelectorAll('.a')].map(el=>({el,s:+el.dataset.in,d:+(el.dataset.d||0.5),fx:el.dataset.fx||'rise',o:el.dataset.out?+el.dataset.out:null,len:+(el.dataset.len||400)}));
+const segs=[...document.querySelectorAll('.seg')].map(el=>{const [a,b]=pares(el.dataset.on);return {el,a,b,on:el.querySelector('.on'),tx:el.querySelector('span')};});
+const topics=[...document.querySelectorAll('.topic')].map(el=>{const [a,b]=pares(el.dataset.on);return {el,a,b,bg:el.querySelector('.bgc'),nf:el.querySelector('.nf'),tx:el.querySelector('.tx')};});
+const T0=topics.length?Math.min(...topics.map(k=>k.a)):0, T1=topics.length?Math.max(...topics.map(k=>k.b)):0;
+const toks=[...document.querySelectorAll('.tok')].map(el=>({el,s:+el.dataset.in}));
+const checks=[...document.querySelectorAll('[data-check]')].map(el=>({el,s:+el.dataset.check}));
+const hls=[...document.querySelectorAll('[data-hl]')].map(el=>({el,s:+el.dataset.hl}));
+const sels=[...document.querySelectorAll('[data-sel]')].map(el=>({el,s:+el.dataset.sel}));
+const knobs=[...document.querySelectorAll('[data-keys]')].map(el=>({el,k:el.dataset.keys.split(',').map(p=>p.split(':').map(Number))}));
+const subEl=document.querySelector('#subs div');
+const DUR=SUBS[SUBS.length-1][1];
+const stage=document.getElementById('stage'), glow=document.getElementById('glow'), bar=document.getElementById('progress');
+// cámara: todo lo que no es recuadro de video va en una capa que se acerca, entra con zoom y se enfoca en lo que se nombra
+const cams=[...document.querySelectorAll('section.scene')].map(sc=>{
+  const w=document.createElement('div'); w.className='camwrap';
+  [...sc.children].filter(c=>!c.matches('[data-slot]')).forEach(c=>w.appendChild(c));
+  sc.insertBefore(w,sc.firstChild);
+  const [a,b]=pares(sc.dataset.span);
+  const focus=[...w.querySelectorAll('[data-focus]')].map(el=>{const [f0,f1,z]=pares(el.dataset.focus);
+    const r=el.getBoundingClientRect(); return {f0,f1,z,cx:r.left+r.width/2,cy:r.top+r.height/2};});
+  return {w,a,b:Math.min(b,DUR),focus};
+});
+
+function renderAt(t){
+  const sig=[];
+  stage.style.backgroundPosition=`${(18+t*6).toFixed(1)}px ${(18+t*3).toFixed(1)}px`;
+  glow.style.setProperty('--gx',(30+12*Math.sin(t/9)).toFixed(2)+'%'); glow.style.setProperty('--gy',(32+10*Math.cos(t/11)).toFixed(2)+'%');
+  glow.style.setProperty('--hx',(72+10*Math.cos(t/8)).toFixed(2)+'%'); glow.style.setProperty('--hy',(68+12*Math.sin(t/10)).toFixed(2)+'%');
+  bar.style.transform=`scaleX(${clamp(t/DUR).toFixed(4)})`;
+  sig.push(t.toFixed(3));
+  for(const c of cams){
+    if(t<c.a-0.05||t>c.b+0.6){ continue; }
+    const pin=c.a<=0.001?1:ease(prog(t,c.a,0.7)), pout=ease(prog(t,c.b,0.4));
+    let S=(1+0.03*clamp((t-c.a)/Math.max(1,c.b-c.a)))*(1+0.06*(1-pin))*(1-0.02*pout);
+    let blur=(1-pin)*9+pout*6, ox=960, oy=540;
+    for(const f of c.focus){
+      const k=ease(prog(t,f.f0,0.8))*(1-ease(prog(t,f.f1,0.8)));
+      if(k>0){ S*=1+(f.z-1)*k; ox=960+(f.cx-960)*0.5; oy=540+(f.cy-540)*0.5; }
+    }
+    c.w.style.transformOrigin=`${ox.toFixed(1)}px ${oy.toFixed(1)}px`;
+    c.w.style.transform=`scale(${S.toFixed(4)})`;
+    c.w.style.filter=blur>0.05?`blur(${blur.toFixed(2)}px)`:'none';
+  }
+  for(const s of spans){
+    const pin = s.a<=0.001 ? 1 : prog(t,s.a+0.2,0.3);
+    const pout = prog(t,s.b,0.25);
+    const o = r3(pin*(1-pout));
+    s.el.style.opacity=o; s.el.style.visibility=o<=0?'hidden':'visible'; sig.push(o);
+  }
+  for(const a of anims){
+    let p;
+    if(a.fx==='lin'){ const dl=+(a.el.dataset.d||FADE); p = a.s<=0.001?1:prog(t,a.s,dl); if(a.o!==null) p*=1-prog(t,a.o,FADE); }
+    else { p=ease(prog(t,a.s,a.d)); if(a.o!==null) p*=1-ease(prog(t,a.o,0.35)); }
+    p=r3(p); sig.push(p);
+    const st=a.el.style;
+    switch(a.fx){
+      case 'rise': st.opacity=p; st.transform=p>=1?'none':`translateY(${((1-p)*22).toFixed(2)}px)`; st.filter=p>=1?'none':`blur(${((1-p)*6).toFixed(2)}px)`; break;
+      case 'fade': case 'lin': st.opacity=p; break;
+      case 'pop': st.opacity=p; st.transform=p>=1?'none':`scale(${(0.82+0.18*p).toFixed(3)})`; st.filter=p>=1?'none':`blur(${((1-p)*4).toFixed(2)}px)`; break;
+      case 'grow': st.transform=`scaleX(${p})`; st.transformOrigin='left'; break;
+      case 'draw': st.strokeDashoffset=((1-p)*a.len).toFixed(1); st.opacity=p>0?1:0; break;
+    }
+  }
+  for(const g of segs){
+    const on = r3(prog(t,g.a,0.3)*(1-prog(t,g.b,0.3)));
+    g.on.style.opacity=on; g.tx.style.color = on>0.5?'#fff':''; sig.push(on);
+  }
+  const anyActive = t>=T0 && t<T1;
+  for(const k of topics){
+    const act=r3(prog(t,k.a,0.35)*(1-prog(t,k.b,0.35)));
+    k.bg.style.opacity=act; k.nf.style.opacity=act;
+    k.tx.style.opacity = r3(1-0.55*(anyActive ? 1-act : 0));
+    sig.push(act);
+  }
+  for(const k of toks){ const hot = t<k.s ? 0 : r3(1-prog(t,k.s+0.12,0.45)); k.el.style.setProperty('--hot',hot); sig.push(hot); }
+  for(const h of hls){ const p=r3(ease(prog(t,h.s,0.45))); h.el.style.setProperty('--p',p); sig.push(p); }
+  for(const s of sels){ const p=r3(ease(prog(t,s.s,0.4))); s.el.style.opacity=p; sig.push(p); }
+  for(const n of knobs){
+    let v=n.k[0][1];
+    for(let i=1;i<n.k.length;i++){ const [ta,va]=n.k[i-1], [tb,vb]=n.k[i]; if(t>=ta) v=va+(vb-va)*ease(prog(t,ta,Math.max(0.01,tb-ta))); }
+    n.el.style.left=v.toFixed(2)+'%'; sig.push(v.toFixed(2));
+  }
+  for(const c of checks){ const p=r3(ease(prog(t,c.s,0.3))); c.el.style.opacity=p; c.el.style.transform=p>=1?'none':`scale(${(0.6+0.4*p).toFixed(3)})`; sig.push(p); }
+  let cue='';
+  for(let q=0;q<SUBS.length;q++){ const [a,b,txt]=SUBS[q]; if(t>=a && t<b){
+    const ws=CUEW[q], k=ws.filter(w=>w[0]<=t).length, vivo=k>0 && t<ws[k-1][1]+0.1; let i=0;
+    cue=txt.split('<br>').map(l=>l.split(' ').map(p=>{const c=i<k?((i===k-1&&vivo)?'cur':'dic'):'pen'; i++; return `<span class="${c}">${p}</span>`;}).join(' ')).join('<br>');
+    break; } }
+  if(subEl.innerHTML!==cue) subEl.innerHTML=cue; sig.push(cue);
+  return sig.join('|');
+}
+window.renderAt=renderAt;
+window.slotInfo=()=>[...document.querySelectorAll('[data-slot]')].map(el=>{
+  const r=el.getBoundingClientRect(); const sc=el.closest('[data-span]');
+  const [sa,sb]=pares(sc.dataset.span);
+  return {name:el.dataset.slot,x:Math.round(r.left),y:Math.round(r.top),w:Math.round(r.width),h:Math.round(r.height),
+    radius:parseFloat(getComputedStyle(el).borderRadius),in:+el.dataset.in,out:el.dataset.out?+el.dataset.out:null,sceneIn:sa,sceneOut:sb};
+});
+if(location.search.includes('preview')) document.body.classList.add('preview');
+const m=location.search.match(/t=([\d.]+)/); renderAt(m?+m[1]:0);
+</script>
+</body>
+</html>

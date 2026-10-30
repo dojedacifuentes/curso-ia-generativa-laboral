@@ -1,0 +1,174 @@
+1
+00:00:00,000 --> 00:00:06,230
+¡Hola! Te doy la bienvenida al Módulo 5
+del curso IA generativa para entornos laborales:
+
+2
+00:00:06,540 --> 00:00:08,830
+Automatización de tareas repetitivas.
+
+3
+00:00:09,320 --> 00:00:13,950
+Hasta ahora usaste la IA para redactar,
+investigar y crear piezas.
+
+4
+00:00:14,340 --> 00:00:17,830
+Ahora vas a lograr que algunas tareas se hagan solas.
+
+5
+00:00:18,560 --> 00:00:20,570
+La competencia de este módulo es:
+
+6
+00:00:20,600 --> 00:00:24,850
+automatizar tareas rutinarias
+mediante flujos simples con IA,
+
+7
+00:00:24,880 --> 00:00:29,570
+incorporando supervisión humana y control
+de riesgos, en el trabajo cotidiano.
+
+8
+00:00:30,200 --> 00:00:33,330
+En este módulo vas a recorrer tres temas.
+
+9
+00:00:33,860 --> 00:00:36,390
+Primero, el potencial de automatización.
+
+10
+00:00:36,860 --> 00:00:41,390
+Vas a mirar tu trabajo tarea por tarea
+y a reconocer las buenas candidatas:
+
+11
+00:00:41,740 --> 00:00:45,750
+las que se repiten, siguen reglas
+claras y trabajan con información,
+
+12
+00:00:46,020 --> 00:00:48,410
+como correos, planillas o agenda.
+
+13
+00:00:48,840 --> 00:00:52,190
+Después las vas a ordenar
+en una matriz de impacto y riesgo,
+
+14
+00:00:52,220 --> 00:00:54,590
+para decidir qué conviene probar primero.
+
+15
+00:00:55,340 --> 00:00:58,190
+Segundo, los flujos simples con IA.
+
+16
+00:00:58,460 --> 00:01:00,870
+Un flujo tiene un disparador que lo inicia,
+
+17
+00:01:01,140 --> 00:01:05,310
+acciones que se hacen solas y datos
+que pasan de un paso al siguiente.
+
+18
+00:01:05,780 --> 00:01:09,210
+Lo vas a armar sin programar,
+con herramientas no-code,
+
+19
+00:01:09,400 --> 00:01:12,790
+y lo vas a probar hasta encontrar
+sus fallas y corregirlas.
+
+20
+00:01:13,560 --> 00:01:16,570
+Tercero, la supervisión humana y los riesgos.
+
+21
+00:01:16,960 --> 00:01:19,910
+Un flujo no se cansa, pero tampoco duda:
+
+22
+00:01:20,240 --> 00:01:22,750
+si algo sale mal, lo repite cada vez.
+
+23
+00:01:22,780 --> 00:01:28,450
+Por eso vas a decidir dónde tiene que mirar
+una persona y qué hacer si el flujo falla.
+
+24
+00:01:28,900 --> 00:01:33,290
+Te acompañan Camila, asistente
+administrativa en una constructora,
+
+25
+00:01:33,320 --> 00:01:38,310
+y Andrés, encargado de bodega en una distribuidora,
+y vas a conocer a Paula,
+
+26
+00:01:38,620 --> 00:01:40,510
+ejecutiva de atención al cliente.
+
+27
+00:01:40,720 --> 00:01:44,770
+Si tienes computador, vas a usar Make;
+si solo tienes el celular,
+
+28
+00:01:45,000 --> 00:01:46,970
+las acciones programadas de Gemini.
+
+29
+00:01:47,180 --> 00:01:50,210
+Siempre con una cuenta de prueba y datos ficticios.
+
+30
+00:01:50,680 --> 00:01:53,150
+¿Y cómo vas a saber si vas aprendiendo?
+
+31
+00:01:53,460 --> 00:01:58,290
+Al cerrar cada tema pondrás a prueba
+lo que aprendiste, y si algo no quedó claro,
+
+32
+00:01:58,480 --> 00:01:59,930
+sabrás qué repasar.
+
+33
+00:02:00,140 --> 00:02:05,070
+Además, vas a analizar casos reales
+del uso de la IA generativa en el trabajo.
+
+34
+00:02:05,760 --> 00:02:08,730
+Y todo esto lo vas a llevar a tu proyecto aplicado:
+
+35
+00:02:09,000 --> 00:02:12,990
+la tarea real de tu trabajo
+que vienes mejorando módulo a módulo.
+
+36
+00:02:13,680 --> 00:02:17,510
+Para empezar, ten a mano tus notas
+de lo que haces en una semana normal,
+
+37
+00:02:17,540 --> 00:02:20,470
+sin nombres de clientes ni datos de la empresa.
+
+38
+00:02:20,700 --> 00:02:27,070
+Y quédate con esta idea: antes de automatizar,
+elimina lo innecesario y simplifica lo que queda.
+
+39
+00:02:27,360 --> 00:02:28,850
+¡Nos vemos en el primer tema!

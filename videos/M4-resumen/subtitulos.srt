@@ -1,0 +1,184 @@
+1
+00:00:00,000 --> 00:00:00,830
+¡Hola de nuevo!
+
+2
+00:00:01,180 --> 00:00:03,270
+Llegaste al cierre del Módulo 4:
+
+3
+00:00:03,660 --> 00:00:06,490
+Contenido visual, sonoro y audiovisual.
+
+4
+00:00:06,780 --> 00:00:11,810
+En pocos minutos vamos a repasar las ideas
+que más te van a servir para crear imágenes,
+
+5
+00:00:12,040 --> 00:00:13,930
+audio y video en tu trabajo.
+
+6
+00:00:14,660 --> 00:00:16,750
+La competencia de este módulo es:
+
+7
+00:00:16,780 --> 00:00:21,930
+producir contenido visual,
+sonoro y audiovisual con IA generativa,
+
+8
+00:00:22,140 --> 00:00:27,870
+respetando licencias, atribución y criterios
+éticos, para piezas de comunicación laboral.
+
+9
+00:00:28,420 --> 00:00:32,450
+Lo primero: la herramienta
+se elige según el tipo de pieza,
+
+10
+00:00:32,620 --> 00:00:35,550
+la licencia de lo que genera y sus riesgos de uso.
+
+11
+00:00:36,100 --> 00:00:39,270
+«Gratis» no siempre significa «utilizable»:
+
+12
+00:00:39,300 --> 00:00:43,290
+hay planes que no dejan descargar
+lo generado ni usarlo en el trabajo.
+
+13
+00:00:43,580 --> 00:00:48,070
+Y cuando uses material de otra persona,
+da crédito con título, autor,
+
+14
+00:00:48,380 --> 00:00:49,750
+fuente y licencia.
+
+15
+00:00:50,500 --> 00:00:55,830
+Segundo: un prompt visual tiene sujeto,
+contexto y fondo, y estilo.
+
+16
+00:00:55,860 --> 00:00:58,790
+Se itera cambiando un detalle a la vez.
+
+17
+00:00:59,040 --> 00:01:01,250
+El texto conviene agregarlo en el editor,
+
+18
+00:01:01,420 --> 00:01:04,810
+porque dentro de la imagen
+generada suele salir con errores.
+
+19
+00:01:05,040 --> 00:01:09,710
+Y revisa la diversidad y los roles,
+porque los generadores reproducen sesgos.
+
+20
+00:01:10,780 --> 00:01:16,310
+Tercero: la voz y la pista se eligen
+según quién escucha, dónde y para qué.
+
+21
+00:01:16,600 --> 00:01:18,730
+La voz es parte de la identidad:
+
+22
+00:01:19,000 --> 00:01:22,430
+trata la voz y la cara de otra
+persona como un dato sensible,
+
+23
+00:01:22,460 --> 00:01:28,110
+y pide su consentimiento expreso antes
+de grabarla, clonarla o editarla con IA.
+
+24
+00:01:28,800 --> 00:01:32,250
+Cuarto: un video se produce en tres etapas:
+
+25
+00:01:32,420 --> 00:01:35,470
+preproducción, producción y postproducción.
+
+26
+00:01:35,840 --> 00:01:40,130
+Un guion breve abre con el propósito,
+desarrolla pocos puntos clave,
+
+27
+00:01:40,340 --> 00:01:42,530
+pone un llamado a la acción y cierra.
+
+28
+00:01:42,840 --> 00:01:48,730
+Como el video generativo gratuito es escaso,
+combina pocas tomas generadas con imágenes fijas.
+
+29
+00:01:49,380 --> 00:01:51,870
+¿Qué puedes hacer desde mañana en tu trabajo?
+
+30
+00:01:52,160 --> 00:01:56,490
+Antes de crear una pieza,
+revisa las condiciones de uso de la herramienta.
+
+31
+00:01:56,700 --> 00:01:59,530
+Registra las instrucciones que usaste y tu aporte:
+
+32
+00:01:59,860 --> 00:02:04,490
+el mensaje, la selección,
+el montaje y la revisión son tuyos.
+
+33
+00:02:04,940 --> 00:02:09,050
+Y nunca hagas que una persona real
+parezca decir algo que no dijo.
+
+34
+00:02:09,860 --> 00:02:13,530
+En el Módulo 5, Automatización de tareas repetitivas,
+
+35
+00:02:13,720 --> 00:02:18,550
+vas a priorizar las tareas que se repiten
+en tu trabajo según su impacto y su riesgo,
+
+36
+00:02:18,580 --> 00:02:22,970
+a construir un flujo simple con IA
+y a sumarle supervisión humana.
+
+37
+00:02:23,440 --> 00:02:28,430
+Antes de seguir, guarda tu imagen,
+tu locución, tu pista y tu clip,
+
+38
+00:02:28,460 --> 00:02:30,290
+con las instrucciones que usaste.
+
+39
+00:02:30,620 --> 00:02:35,030
+Y quédate con esta idea:
+una pieza parte del mensaje, el público,
+
+40
+00:02:35,280 --> 00:02:38,690
+el canal y el formato; la imagen viene después.
+
+41
+00:02:39,200 --> 00:02:40,710
+¡Nos vemos en el Módulo 5!

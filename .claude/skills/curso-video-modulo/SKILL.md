@@ -64,6 +64,9 @@ ejemplo_M1/                   primera versión del M1 (voz Catalina); la vigente
 - **Audiencia: solo personas que trabajan** (28-10, `docs/CRITERIOS-28-10.md`). Nada de «si buscas trabajo», «el trabajo al
   que aspiras» ni Camila buscando empleo: Camila es asistente administrativa en una constructora. El proyecto es sobre una tarea
   de su trabajo actual. **Máximo 2 fuentes por guion.** Antes de enviar: `node scripts/revisar-criterios.mjs M<n>-` sin errores.
+- **La presentadora no es EVA (30-10, pedido del usuario):** se usan la voz y el avatar de EVA (skill eva-voz-y-avatar),
+  pero en el curso la presentadora no se llama EVA, no se presenta como EVA y no usa el kit de marca de EVA: todo va con
+  la marca Empoderatech. Ni la voz, ni las slides, ni los subtítulos, ni los textos del aula dicen «EVA».
 - **Marca Empoderatech (30-10, pedido del usuario):** los videos llevan la marca como el resto del curso
   (`docs/CRITERIOS-29-10.md` §5, `scripts/lib/marca.mjs`): colores noche, frambuesa, grafito, celeste y fucsia; Varela Round en
   titulares y cifras, Montserrat en el texto (IBM Plex Mono sigue solo para prompts); logo e-tech en intro y cierre; chevrón «›»,

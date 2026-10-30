@@ -1,0 +1,74 @@
+{
+  "_nota": "Resumen M6 y cierre del curso (30-10), marca Empoderatech. Voz de EVA 2:43 (una toma). EVA: un render con intro + momento clave + cierre (fondo grafito con fondo_eva.py --marca). Clips de Flow del Plan visual: clip1 medir cómo se hace hoy, clip2 revisar antes de enviar, clip3 presentar a la jefatura, clip4 desde mañana.",
+  "duracion": 162.8,
+  "voz": "audio/voz.mp3",
+  "salida": "M6_resumen.mp4",
+  "avatar": {
+    "video": "heygen/avatar_marca.mp4",
+    "clip_dur": 33.843,
+    "offset": 0.023,
+    "crop": "auto",
+    "intro_out": 13.82,
+    "cierre_in": 147.93,
+    "cierre_master_t": 148.378,
+    "cierre_clip_t": 19.426
+  },
+  "clips": [
+    {
+      "slot": "clip1",
+      "video": "media/clip1.mp4",
+      "src_start": 0.0,
+      "src_dur": 4.4,
+      "estirar": false,
+      "visible_desde": 30.4,
+      "visible_hasta": 34.8,
+      "fade_out": 34.4
+    },
+    {
+      "slot": "clip2",
+      "video": "media/clip2.mp4",
+      "src_start": 0.0,
+      "src_dur": 7.6,
+      "estirar": false,
+      "visible_desde": 45.3,
+      "visible_hasta": 52.9,
+      "fade_out": 52.5
+    },
+    {
+      "slot": "clip3",
+      "video": "media/clip3.mp4",
+      "src_start": 0.0,
+      "src_dur": 4.15,
+      "estirar": false,
+      "visible_desde": 143.4,
+      "visible_hasta": 147.55,
+      "fade_out": 147.15
+    },
+    {
+      "slot": "clip4",
+      "video": "media/clip4.mp4",
+      "src_start": 0.0,
+      "src_dur": 7.9,
+      "estirar": false,
+      "visible_desde": 76.0,
+      "visible_hasta": 83.9,
+      "fade_out": 83.5
+    },
+    {
+      "slot": "eva_momento",
+      "video": "heygen/avatar_marca.mp4",
+      "src_start": 14.128,
+      "src_dur": 4.61,
+      "estirar": false,
+      "zoom": 1.0,
+      "visible_desde": 89.95,
+      "visible_hasta": 94.56,
+      "fade_out": 94.16
+    }
+  ],
+  "zoom_clips": 1.08,
+  "musica": "audio/musica.wav",
+  "sfx": "audio/sfx.wav",
+  "vol_musica": 1.0,
+  "vol_sfx": 1.0
+}

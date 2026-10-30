@@ -1,0 +1,299 @@
+<title>Resumen Módulo 5</title>
+<!-- Resumen del Módulo 5 (30-10). Voz de EVA 2:31. Se arma con armar_html.py (marca Empoderatech). -->
+<style>
+.chips{display:flex;gap:12px;align-items:center}
+.chips .pill{font-size:22px;padding:11px 18px}
+.chips .pill .ic{width:24px;height:24px}
+.doc5{position:relative;width:54px;height:66px;border-radius:10px;background:var(--card2);border:2px solid var(--line2);padding:12px 9px}
+.doc5 em{display:block;height:6px;border-radius:3px;background:var(--line2);margin-top:7px;font-style:normal}
+.doc5 em:first-child{margin-top:0}
+.doc5 .x{position:absolute;inset:-2px;border-radius:10px;background:var(--fu);display:grid;place-items:center;opacity:0}
+.doc5 .x svg{width:26px;height:26px;stroke:var(--txt);stroke-width:3.5;fill:none;stroke-linecap:round}
+.mx{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.qd{position:relative;height:170px;padding:14px 18px;border-radius:18px;background:var(--card);border:2px solid var(--line)}
+.qd small{display:block;font:500 18px/1.2 Mont;color:var(--dim)}
+.qd strong{position:relative;display:inline-block;margin-top:10px;font:400 34px/1.1 Varela;color:var(--soft)}
+.qd .lit{position:absolute;inset:-2px;border-radius:18px;opacity:0}
+.qd .lit.ce{border:3px solid var(--ce);background:var(--cew)}
+.qd .lit.fr{border:3px solid var(--fr);background:var(--frw)}
+.qd .lit.gm{border:3px solid var(--gm)}
+.qd .strike{position:absolute;left:-6px;right:-6px;top:52%;height:5px;border-radius:3px;background:var(--fr);opacity:0}
+.qd .ojo{position:absolute;right:18px;top:16px;width:52px;height:52px;border-radius:50%;background:var(--ce);display:grid;place-items:center;color:var(--txt)}
+.axis{position:absolute;font:600 18px/1 Mont;color:var(--soft);letter-spacing:.02em}
+.node .k{display:block;margin:0 0 6px;font:600 17px/1 Mont;color:var(--ce);letter-spacing:.04em;text-transform:uppercase}
+.node.dec .k{color:var(--txt)}
+.dato{position:absolute;padding:8px 16px;border-radius:999px;background:var(--fuw);border:2px solid var(--fu);font:600 20px/1 Mont;color:var(--txt);white-space:nowrap}
+.dato.ce{background:var(--cew);border-color:var(--ce)}
+.lane{position:absolute;left:0;display:flex;align-items:center;gap:14px}
+.lane .lb{width:300px;font:600 22px/1.2 Mont;color:var(--soft)}
+.lane .dato{position:static}
+.sdot{position:relative;flex:none;width:44px;height:44px;border-radius:50%;background:var(--fu);display:grid;place-items:center;margin-right:16px}
+.sdot svg{width:24px;height:24px;stroke:var(--txt);stroke-width:3.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.sdot .ok{position:absolute;inset:0;border-radius:50%;background:var(--ce);display:grid;place-items:center;opacity:0}
+.mini{display:flex;flex-direction:column;gap:14px}
+.mrun{display:flex;align-items:center;gap:8px}
+.mrun b{width:30px;font:400 20px/1 Varela;color:var(--dim)}
+.mrun i{position:relative;width:24px;height:24px;border-radius:50%;background:var(--gr);border:2px solid var(--gm)}
+.mrun u{width:36px;height:3px;background:var(--gm)}
+.mrun .er{position:absolute;inset:-4px;border-radius:50%;background:var(--fu);opacity:0}
+.edot{position:absolute;width:30px;height:30px;margin-left:-15px;border-radius:50%;background:var(--fu);border:3px solid var(--txt)}
+.bars .row{display:flex;align-items:center;gap:18px;margin-top:14px}
+.bars .lb{width:230px;font:600 24px/1 Mont;color:var(--soft)}
+.track{position:relative;flex:1;height:18px;border-radius:9px;overflow:hidden;background:var(--gr)}
+.track .fill{position:absolute;inset:0;background:linear-gradient(90deg,var(--fr),var(--fu))}
+.track .fill.ce{background:var(--ce)}
+.track .cov{position:absolute;top:0;bottom:0;right:0;background:var(--gr)}
+.ficha{padding:20px 26px}
+.ficha .tt{font:400 26px/1 Varela;color:var(--soft)}
+.ficha .g{display:grid;grid-template-columns:1fr 1fr;gap:12px 24px;margin-top:16px}
+.ficha .fl{display:flex;align-items:center;gap:14px;font:600 26px/1 Mont}
+.ficha .box{width:40px;height:40px}
+.ficha .box .f svg{width:24px;height:24px}
+.estado{position:relative;display:inline-block;padding:9px 16px;border-radius:999px;background:var(--fuw);border:2px solid var(--fu);font:600 21px/1 Mont}
+.estado .ap{position:absolute;inset:-2px;border-radius:999px;background:var(--ce);display:grid;place-items:center;opacity:0}
+</style>
+
+<!-- ===== encabezado (desde 11,9 s) ===== -->
+<div id="hdr" class="a" data-in="11.90" data-out="135.84" data-fx="fade">
+  <div class="mark"><img src="../../scripts/lib/marca/etech-logo-sobre-oscuro.svg" alt=""><span class="sep"></span><span>IA generativa para entornos laborales</span><span class="sep"></span><span class="mod">Módulo 5 · Resumen</span></div>
+  <div id="rail" class="a" data-in="11.90" data-out="135.84" data-fx="fade">
+    <div class="seg" data-on="12.01,92.20"><div class="on"></div><span>Ideas clave</span></div>
+    <div class="seg" data-on="92.20,112.30"><div class="on"></div><span>Aplícalo</span></div>
+    <div class="seg" data-on="112.30,1011.60"><div class="on"></div><span>Lo que viene</span></div>
+  </div>
+</div>
+
+<!-- ===== S1 · intro con EVA (0–12,01) ===== -->
+<section class="scene" data-span="0.00,12.01">
+  <img class="abs a" data-in="0.05" data-fx="fade" src="../../scripts/lib/marca/etech-logo-sobre-oscuro.svg" alt="" style="left:120px;top:52px;height:48px">
+  <svg class="arcos" viewBox="0 0 560 280" style="right:-40px;bottom:-30px;width:560px;height:280px;opacity:.55"><circle cx="560" cy="280" r="154" fill="none" stroke="#BE3455" stroke-width="3"/><circle cx="560" cy="280" r="244" fill="none" stroke="#BE3455" stroke-width="2.5" opacity=".8"/><circle cx="560" cy="280" r="333" fill="none" stroke="#BE3455" stroke-width="2" opacity=".6"/><circle cx="560" cy="280" r="423" fill="none" stroke="#BE3455" stroke-width="1.5" opacity=".4"/></svg>
+  <div class="left-col">
+    <div class="mapa"><div class="tag a" data-in="0.15">Módulo 5 de 6 · Resumen</div><div class="segs"><i class="hecho a" data-in="1.60" data-fx="grow"></i><i class="hecho a" data-in="1.70" data-fx="grow"></i><i class="hecho a" data-in="1.80" data-fx="grow"></i><i class="hecho a" data-in="1.90" data-fx="grow"></i><i class="on a" data-in="2.20" data-fx="grow" data-d="0.9"></i><i class="a" data-in="2.30" data-fx="grow"></i></div></div>
+    <h1 class="a" data-in="3.45" style="margin-top:30px">Automatización de<br>tareas repetitivas</h1>
+    <p class="sub1 a" data-in="3.75">Curso IA generativa para entornos laborales</p>
+    <ul class="facts">
+      <li class="a" data-in="6.70"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><path d="M9 18h6"/><path d="M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.8.6 1.1 1.3 1.1 2.2h5c0-.9.3-1.6 1.1-2.2A6 6 0 0 0 12 3z"/></svg></div><span>Las ideas clave del módulo</span></li>
+      <li class="a" data-in="9.20"><div class="ib" style="background:var(--fr)"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="7"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg></div><div class="ib a" data-in="9.95" data-fx="pop" style="background:var(--ce);margin-left:-8px"><svg class="ic" viewBox="0 0 24 24"><line x1="12" y1="3" x2="12" y2="21"/><line x1="7" y1="21" x2="17" y2="21"/><line x1="4" y1="7" x2="20" y2="7"/><path d="M4 7l-3 7h6zM20 7l-3 7h6z"/></svg></div><span>Automatizar con criterio</span></li>
+      <li class="a" data-in="10.75"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><span>En tu trabajo</span></li>
+    </ul>
+  </div>
+  <div class="abs avatar-frame a" data-in="0.00" data-fx="lin" data-slot="avatar_intro"><div class="slot-label">EVA (intro)</div></div>
+</section>
+
+
+<!-- ===== competencia del módulo, textual (12,01–23,99) ===== -->
+<section class="scene" data-span="12.01,23.99">
+  <svg class="arcos" viewBox="0 0 560 280" style="right:-40px;bottom:-30px;width:560px;height:280px;opacity:.55"><circle cx="560" cy="280" r="154" fill="none" stroke="#BE3455" stroke-width="3"/><circle cx="560" cy="280" r="244" fill="none" stroke="#BE3455" stroke-width="2.5" opacity=".8"/><circle cx="560" cy="280" r="333" fill="none" stroke="#BE3455" stroke-width="2" opacity=".6"/><circle cx="560" cy="280" r="423" fill="none" stroke="#BE3455" stroke-width="1.5" opacity=".4"/></svg>
+  <div class="left-col" style="top:250px;width:1680px">
+    <span class="tag a" data-in="12.15">Competencia del módulo</span>
+    <p class="sub1 a" data-in="12.45" style="margin-top:22px">Módulo 5 · Automatización de tareas repetitivas</p>
+    <p class="comp a" data-in="14.80">Automatizar <span class="hl" data-hl="15.60">tareas rutinarias</span> mediante <span class="hl" data-hl="17.15">flujos simples con IA</span>, incorporando <span class="hl" data-hl="19.75">supervisión humana</span> y <span class="hl" data-hl="21.00">control de riesgos</span>, en el trabajo cotidiano.</p>
+  </div>
+</section>
+
+<!-- ===== S2 · tres ideas clave (23,99–92,20) ===== -->
+<section class="scene" data-span="23.99,92.20">
+  <div class="rail-list">
+    <h2 class="a" data-in="24.20">Tres ideas clave</h2>
+    <ol class="topics">
+      <li class="topic a" data-in="24.40" data-on="24.20,47.17"><div class="bgc"></div><div class="n">1<div class="nf">1</div></div><div class="tx"><strong>Potencial de automatización</strong><span class="d">Elige bien qué automatizar</span></div></li>
+      <li class="topic a" data-in="24.60" data-on="47.17,69.03"><div class="bgc"></div><div class="n">2<div class="nf">2</div></div><div class="tx"><strong>Flujos simples con IA</strong><span class="d">Disparador, acciones y datos</span></div></li>
+      <li class="topic a" data-in="24.80" data-on="69.03,92.20"><div class="bgc"></div><div class="n">3<div class="nf">3</div></div><div class="tx"><strong>Supervisión humana y riesgos</strong><span class="d">Control donde el riesgo es mayor</span></div></li>
+    </ol>
+  </div>
+
+  <!-- Idea 1 -->
+  <div class="panel" data-span="24.20,47.17">
+    <h3 class="abs a" data-in="25.40" style="left:0;top:0">Elige bien qué automatizar</h3>
+    <div class="blk chips" style="top:56px">
+      <span class="a" data-in="27.80" data-fx="fade" style="font:600 22px/1 Mont;color:var(--soft);margin-right:6px">Una buena candidata</span>
+      <span class="pill ce a" data-in="28.95" data-fx="pop"><svg class="ic" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"/><polyline points="3 4 3 9 8 9"/></svg>Se repite</span>
+      <span class="pill ce a" data-in="29.80" data-fx="pop"><svg class="ic" viewBox="0 0 24 24"><line x1="5" y1="7" x2="19" y2="7"/><line x1="5" y1="12" x2="19" y2="12"/><line x1="5" y1="17" x2="14" y2="17"/></svg>Reglas claras</span>
+      <span class="pill ce a" data-in="31.20" data-fx="pop"><svg class="ic" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><polyline points="3 7 12 13 21 7"/></svg>Información</span>
+    </div>
+    <h3 class="abs a" data-in="33.00" style="left:0;top:136px">Antes de automatizar</h3>
+    <div class="blk" style="top:192px;display:flex;align-items:center;gap:12px">
+      <div class="doc5 a" data-in="33.20" data-fx="pop"><em></em><em></em><em></em><div class="x" data-sel="34.55"><svg viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg></div></div>
+      <div class="doc5 a" data-in="33.35" data-fx="pop"><em></em><em></em><em></em></div>
+      <div class="doc5 a" data-in="33.50" data-fx="pop"><em></em><em></em><em></em><div class="x" data-sel="34.90"><svg viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg></div></div>
+      <div class="doc5 a" data-in="33.65" data-fx="pop"><em></em><em></em><em></em></div>
+      <svg class="arrow a" data-in="34.30" data-fx="fade" viewBox="0 0 62 24" style="margin-left:6px"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="step a" data-in="34.50" style="font-size:23px;padding:14px 20px">Eliminar</div>
+      <svg class="arrow a" data-in="35.70" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="step a" data-in="35.95" style="font-size:23px;padding:14px 20px">Simplificar</div>
+      <svg class="arrow a" data-in="36.50" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="step hi a" data-in="36.80" style="font-size:23px;padding:14px 20px">Automatizar</div>
+    </div>
+    <div class="blk a" data-in="37.75" data-fx="fade" style="top:300px;left:40px;width:1000px">
+      <div class="axis a" data-in="38.20" data-fx="fade" style="left:-36px;top:0;height:350px;writing-mode:vertical-rl;transform:rotate(180deg);text-align:center">IMPACTO ›</div>
+      <div class="mx">
+        <div class="qd a" data-in="40.40" data-focus="41.90,43.00,1.04"><small>Impacto alto · riesgo bajo</small><strong>Empieza aquí</strong><div class="lit ce" data-sel="41.90"></div></div>
+        <div class="qd a" data-in="40.55"><small>Impacto alto · riesgo alto</small><strong>Con supervisión</strong><div class="lit fr" data-sel="43.10"></div><div class="ojo a" data-in="43.20" data-fx="pop"><svg class="ic" style="width:28px;height:28px" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></div></div>
+        <div class="qd a" data-in="40.70"><small>Impacto bajo · riesgo bajo</small><strong>Si sobra tiempo</strong><div class="lit gm" data-sel="44.20"></div></div>
+        <div class="qd a" data-in="40.85"><small>Impacto bajo · riesgo alto</small><strong>No automatices<span class="strike" data-sel="45.50"></span></strong><div class="lit fr" data-sel="45.40"></div></div>
+      </div>
+      <div class="axis a" data-in="38.70" data-fx="fade" style="left:0;top:362px;width:1000px;text-align:center">RIESGO ›</div>
+    </div>
+  </div>
+
+  <!-- Idea 2 -->
+  <div class="panel" data-span="47.17,69.03">
+    <h3 class="abs a" data-in="47.60" style="left:0;top:0">Todo flujo tiene tres partes</h3>
+    <div class="blk" style="top:56px;height:220px">
+      <div class="flow" style="height:220px">
+        <svg class="wires" viewBox="0 0 1040 220">
+          <path class="a" data-in="50.60" data-fx="draw" data-len="80" stroke-dasharray="80" d="M300 54 L370 54"/>
+          <path class="a" data-in="52.10" data-fx="draw" data-len="80" stroke-dasharray="80" d="M670 54 L740 54"/>
+        </svg>
+        <div class="node a" data-in="49.55" style="left:0;top:0;width:300px"><span class="k">Disparador</span>Una fila marcada</div>
+        <div class="node a" data-in="51.85" style="left:370px;top:0;width:300px"><span class="k">Acción · IA</span>Escribe el borrador</div>
+        <div class="node dec a" data-in="52.25" style="left:740px;top:0;width:300px"><span class="k">Acción</span>Columna «Borrador»</div>
+        <span class="dato a" data-in="52.65" data-fx="pop" data-keys="52.85:0,54.60:66" style="top:140px;left:0%">N.º de pedido</span>
+        <span class="dato a" data-in="53.00" data-fx="pop" data-keys="53.20:0,54.90:72" style="top:188px;left:0%">Nueva fecha</span>
+      </div>
+    </div>
+    <div class="blk" style="top:306px;height:140px">
+      <div class="lane a" data-in="55.55" style="top:0"><span class="lb">Tomado del paso anterior</span><span class="dato ce a" data-in="56.30" data-fx="pop">Pedido 1</span><span class="dato ce a" data-in="56.55" data-fx="pop">Pedido 2</span><span class="dato ce a" data-in="56.80" data-fx="pop">Pedido 3</span></div>
+      <div class="lane a" data-in="58.10" style="top:70px"><span class="lb">Escrito a mano</span><span class="dato a" data-in="59.40" data-fx="pop">Pedido 1</span><span class="dato a" data-in="59.65" data-fx="pop">Pedido 1</span><span class="dato a" data-in="59.90" data-fx="pop">Pedido 1</span><span class="a" data-in="60.10" data-fx="fade" style="font:600 21px/1.2 Mont;color:var(--fu)">Siempre igual</span></div>
+    </div>
+    <h3 class="abs a" data-in="61.25" style="left:0;top:470px">Probar es buscar dónde podría fallar</h3>
+    <div class="blk" style="top:530px;display:flex;align-items:center">
+      <div class="sdot a" data-in="63.90" data-fx="pop"><svg viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg><div class="ok" data-sel="68.15"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>
+      <div class="step a" data-in="64.75">Revisas el historial</div>
+      <svg class="arrow a" data-in="65.90" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="step a" data-in="66.15">Corriges la causa</div>
+      <svg class="arrow a" data-in="67.20" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="step hi a" data-in="67.45">Vuelves a probar</div>
+    </div>
+    <svg class="abs" viewBox="0 0 1040 80" style="left:0;top:596px;width:1040px;height:80px;overflow:visible"><path class="a" data-in="67.95" data-fx="draw" data-len="900" stroke-dasharray="900" d="M900 4 C 900 60, 880 64, 820 64 L 120 64 C 70 64, 60 50, 60 18" style="fill:none;stroke:var(--ce);stroke-width:4;stroke-linecap:round"/><polyline class="a" data-in="68.35" data-fx="fade" points="48 30 60 14 72 30" style="fill:none;stroke:var(--ce);stroke-width:4;stroke-linecap:round;stroke-linejoin:round"/></svg>
+  </div>
+
+  <!-- Idea 3 -->
+  <div class="panel" data-span="69.03,92.20">
+    <h3 class="abs a" data-in="70.40" data-out="77.75" style="left:0;top:0">Automatizar trae riesgos propios</h3>
+    <div class="abs a" data-in="73.00" data-d="0.2" data-out="77.75" data-fx="fade" style="left:830px;top:72px;width:210px">
+      <div style="font:600 19px/1.2 Mont;color:var(--soft);margin-bottom:16px">Cada ejecución</div>
+      <div class="mini">
+        <div class="mrun a" data-in="73.10"><b>1</b><i><span class="er" data-sel="73.40"></span></i><u></u><i></i><u></u><i></i></div>
+        <div class="mrun a" data-in="73.30"><b>2</b><i><span class="er" data-sel="73.75"></span></i><u></u><i></i><u></u><i></i></div>
+        <div class="mrun a" data-in="73.50"><b>3</b><i><span class="er" data-sel="74.05"></span></i><u></u><i></i><u></u><i></i></div>
+        <div class="mrun a" data-in="73.70"><b>4</b><i><span class="er" data-sel="74.35"></span></i><u></u><i></i><u></u><i></i></div>
+        <div class="mrun a" data-in="73.90"><b>5</b><i><span class="er" data-sel="74.65"></span></i><u></u><i></i><u></u><i></i></div>
+      </div>
+      <div class="a" data-in="74.70" data-fx="fade" style="margin-top:18px;font:600 21px/1.25 Mont;color:var(--fu)">El mismo error, cada vez</div>
+    </div>
+    <div class="blk a" data-in="75.70" data-d="0.3" data-out="77.75" data-fx="fade" style="top:540px;display:flex;align-items:center;gap:22px">
+      <div class="ib" style="flex:none;background:var(--fu)"><svg class="ic" viewBox="0 0 24 24"><path d="M12 3 2.5 20h19z"/><line x1="12" y1="10" x2="12" y2="14"/><circle cx="12" cy="17" r=".6"/></svg></div>
+      <div style="width:500px"><div style="font:600 24px/1 Mont">Confianza en lo automático</div><div class="slider" style="margin:22px 8px 0"><div class="knob" data-keys="75.90:35,77.30:96" style="left:35%"></div></div></div>
+      <span class="pill a" data-in="76.90" data-fx="pop" style="background:var(--fu);color:var(--txt);font-size:22px">De más</span>
+    </div>
+    <h3 class="abs a" data-in="77.95" style="left:0;top:0">Control donde el riesgo es mayor</h3>
+    <div class="blk" style="top:56px;height:200px">
+      <div class="flow" style="height:200px">
+        <svg class="wires" viewBox="0 0 1040 200">
+          <path class="a" data-in="78.30" data-fx="draw" data-len="60" stroke-dasharray="60" d="M200 31 L250 31"/>
+          <path class="a" data-in="78.40" data-fx="draw" data-len="60" stroke-dasharray="60" d="M450 31 L500 31"/>
+          <path class="a" data-in="78.70" data-fx="draw" data-len="60" stroke-dasharray="60" d="M780 31 L830 31"/>
+        </svg>
+        <div class="node a" data-in="78.15" style="left:0;top:0;width:200px">Disparador</div>
+        <div class="node a" data-in="78.25" style="left:250px;top:0;width:200px">IA redacta</div>
+        <div class="node ok a" data-in="78.55" data-fx="pop" style="left:500px;top:0;width:280px;white-space:nowrap;background:var(--cew)"><svg class="ic" viewBox="0 0 24 24" style="width:26px;height:26px;color:var(--ce);vertical-align:-5px;margin-right:6px"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>Persona revisa</div>
+        <div class="node a" data-in="78.35" style="left:830px;top:0;width:210px">Envío</div>
+        <span class="edot a" data-in="79.70" data-fx="pop" data-keys="79.80:3,80.70:46" style="top:84px;left:3%"></span>
+        <span class="pill ce a" data-in="81.45" data-fx="pop" style="position:absolute;left:470px;top:130px;font-size:21px;padding:10px 18px">Criterios de aprobación claros</span>
+      </div>
+    </div>
+    <div class="blk row3" style="top:290px">
+      <div class="card box3 a" data-in="84.10" style="min-height:0;display:flex;align-items:center;gap:16px;padding:18px 20px"><div class="ib" style="flex:none;margin:0;background:var(--ce)"><svg class="ic" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></div><strong style="font-size:27px">Dato original guardado</strong></div>
+      <div class="card box3 a" data-in="85.60" style="min-height:0;display:flex;align-items:center;gap:16px;padding:18px 20px;position:relative"><div class="ib" style="flex:none;margin:0"><svg class="ic" viewBox="0 0 24 24"><path d="M9 14 4 9l5-5"/><path d="M4 9h11a5 5 0 0 1 0 10h-3"/></svg></div><strong style="font-size:27px">Acciones que se deshacen</strong><div class="abs" data-sel="86.70" style="inset:-2px;border-radius:22px;border:3px solid var(--ce);opacity:0"></div></div>
+      <div class="card box3 a" data-in="87.60" style="min-height:0;display:flex;align-items:center;gap:16px;padding:18px 20px"><div class="ib" style="flex:none;margin:0;background:var(--fr)"><svg class="ic" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><line x1="9" y1="9" x2="15" y2="9"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="12" y2="17"/></svg></div><strong style="font-size:27px">Un plan si falla</strong></div>
+    </div>
+    <div class="blk chain" style="top:470px">
+      <div class="step a" data-in="88.35">Detectar la falla</div>
+      <svg class="arrow a" data-in="89.40" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="step a" data-in="89.65">Detener el flujo</div>
+      <svg class="arrow a" data-in="90.60" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="step hi a" data-in="90.85">Seguir a mano</div>
+    </div>
+  </div>
+  <div class="slot a" data-in="72.85" data-out="76.90" data-fx="lin" data-slot="clip1" style="left:760px;top:215px;width:800px;height:450px"><div class="slot-label">Clip 1: Andrés revisa un aviso</div></div>
+</section>
+
+<!-- ===== S3 · lo que puedes aplicar ya (92,20–112,30) ===== -->
+<section class="scene" data-span="92.20,112.30">
+  <div class="left-col" style="width:840px">
+    <h2 class="a" data-in="92.70">¿Qué puedes hacer desde mañana?</h2>
+    <div class="checks a" data-in="95.15" data-d="0.2" data-out="106.80" data-fx="fade">
+      <div class="ck a" data-in="95.30"><div class="box"><div class="f" data-check="96.30"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Una tarea que se repite</div>
+      <div class="ck a" data-in="97.95"><div class="box"><div class="f" data-check="98.70"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Cuenta de práctica</div>
+      <div class="ck a" data-in="99.30"><div class="box"><div class="f" data-check="99.75"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Datos ficticios</div>
+    </div>
+  </div>
+  <div class="abs a" data-in="107.20" data-fx="fade" style="left:120px;top:300px"><img src="media/img1.png" alt="" onerror="this.remove()" style="display:block;width:640px;height:360px;object-fit:cover;border-radius:22px;border:2px solid var(--line)"></div>
+  <div class="abs quote a" data-in="108.60" style="left:120px;top:690px;width:840px;margin:0;font-size:34px;padding:24px 30px">Automatizar una tarea no te quita la responsabilidad por su resultado.</div>
+  <!-- derecha, fase 1: probar con cuenta de práctica -->
+  <div class="slot a" data-in="96.80" data-out="100.90" data-fx="lin" data-slot="clip2" style="left:1000px;top:200px;width:800px;height:450px"><div class="slot-label">Clip 2: Camila prueba</div></div>
+  <!-- derecha, fase 2: resultado por revisar -->
+  <div class="abs card a" data-in="101.00" data-out="106.70" style="left:1000px;top:200px;width:800px;height:450px;padding:40px 44px">
+    <div style="font:400 34px/1.2 Varela">Cada resultado, por revisar</div>
+    <table class="tabla a" data-in="101.40" style="margin-top:30px">
+      <tr><th>RESULTADO DEL FLUJO</th><th>ESTADO</th></tr>
+      <tr><td>Borrador 1</td><td><span class="estado a" data-in="102.35" data-fx="pop">Por revisar<span class="ap" data-sel="105.95">Aprobado</span></span></td></tr>
+    </table>
+    <div class="abs" data-keys="105.00:96,105.70:70" style="left:96%;top:236px;color:var(--ce)"><svg class="ic" viewBox="0 0 24 24" style="width:46px;height:46px"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg></div>
+    <span class="pill alt a" data-in="103.75" data-fx="pop" style="position:absolute;left:44px;bottom:40px;font-size:22px">Nadie lo usa hasta que una persona lo apruebe</span>
+  </div>
+  <!-- derecha, fase 3: EVA en el momento clave -->
+  <div class="abs avatar-frame a" data-in="107.10" data-out="112.00" data-d="0.3" data-fx="lin" data-slot="eva_momento" style="left:1240px;top:150px;width:480px;height:600px"><div class="slot-label">EVA (momento clave)</div></div>
+</section>
+
+<!-- ===== S4 · lo que viene (112,30–135,84) ===== -->
+<section class="scene" data-span="112.30,135.84">
+  <div class="left-col" style="width:820px">
+    <div class="mapa"><span class="tag a" data-in="112.55">Lo que viene</span><div class="segs"><i class="hecho a" data-in="112.70" data-fx="grow"></i><i class="hecho a" data-in="112.78" data-fx="grow"></i><i class="hecho a" data-in="112.86" data-fx="grow"></i><i class="hecho a" data-in="112.94" data-fx="grow"></i><i class="hecho a" data-in="113.02" data-fx="grow"></i><i class="on a" data-in="113.30" data-fx="grow"></i></div></div>
+    <h1 class="a" data-in="113.00" style="margin-top:24px;font-size:96px">Módulo 6</h1>
+    <h2 class="a" data-in="114.10" style="margin-top:14px;color:var(--soft)">Taller de IA generativa para entornos laborales</h2>
+    <div style="display:flex;flex-direction:column;align-items:flex-start;gap:14px;margin-top:40px">
+      <span class="pill alt a" data-in="122.30"><svg class="ic" style="width:28px;height:28px;color:var(--ce)" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><line x1="15.5" y1="15.5" x2="20" y2="20"/></svg>Diagnosticar · Oportunidad de mejora con IA</span>
+      <span class="pill alt a" data-in="126.75"><svg class="ic" style="width:28px;height:28px;color:var(--ce)" viewBox="0 0 24 24"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/><line x1="7" y1="12" x2="10" y2="12"/><line x1="14" y1="12" x2="17" y2="12"/></svg>Poner en marcha · Implementar el flujo</span>
+      <span class="pill alt a" data-in="131.35"><svg class="ic" style="width:28px;height:28px;color:var(--ce)" viewBox="0 0 24 24"><line x1="5" y1="20" x2="5" y2="12"/><line x1="12" y1="20" x2="12" y2="6"/><line x1="19" y1="20" x2="19" y2="9"/></svg>Medir · Resultados y aprendizajes</span>
+    </div>
+  </div>
+  <div class="slot a" data-in="112.55" data-out="117.95" data-fx="lin" data-slot="clip3" style="left:1000px;top:200px;width:800px;height:450px"><div class="slot-label">Clip 3: Andrés muestra resultados</div></div>
+  <div class="abs card logros a" data-in="118.30" style="left:1000px;top:160px;width:800px">
+    <div class="tt">Lo que lograste en este módulo</div>
+    <div class="lab">APRENDIZAJES ESPERADOS</div>
+    <div class="lg a" data-in="118.70"><div class="box"><div class="f" data-check="119.00"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div><p>Identificar tareas repetitivas con potencial de automatización, priorizándolas según impacto y riesgo.</p></div>
+    <div class="lg a" data-in="119.40"><div class="box"><div class="f" data-check="119.70"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div><p>Construir un flujo simple con una herramienta no-code que conecte IA con correo, planillas o calendario.</p></div>
+    <div class="lg a" data-in="120.10"><div class="box"><div class="f" data-check="120.40"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div><p>Incorporar puntos de supervisión humana y controles de riesgo en un flujo automatizado, evaluando su efecto.</p></div>
+  </div>
+</section>
+
+<!-- ===== S5 · cierre con EVA (135,84–fin) ===== -->
+<section class="scene" data-span="135.84,1011.60">
+  <img class="abs a" data-in="135.95" data-fx="fade" src="../../scripts/lib/marca/etech-logo-sobre-oscuro.svg" alt="" style="left:120px;top:52px;height:48px">
+  <svg class="arcos" viewBox="0 0 560 280" style="right:-40px;bottom:-30px;width:560px;height:280px;opacity:.55"><circle cx="560" cy="280" r="154" fill="none" stroke="#BE3455" stroke-width="3"/><circle cx="560" cy="280" r="244" fill="none" stroke="#BE3455" stroke-width="2.5" opacity=".8"/><circle cx="560" cy="280" r="333" fill="none" stroke="#BE3455" stroke-width="2" opacity=".6"/><circle cx="560" cy="280" r="423" fill="none" stroke="#BE3455" stroke-width="1.5" opacity=".4"/></svg>
+  <div class="left-col" style="width:900px">
+    <h2 class="a" data-in="136.30" style="font-size:62px">Antes de seguir</h2>
+    <div class="card ficha a" data-in="137.55" style="margin-top:28px">
+      <div class="tt">Deja documentado tu flujo</div>
+      <div class="g">
+        <div class="fl a" data-in="139.35"><div class="box"><div class="f" data-check="139.65"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Nombre</div>
+        <div class="fl a" data-in="140.20"><div class="box"><div class="f" data-check="140.50"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Propósito</div>
+        <div class="fl a" data-in="141.25"><div class="box"><div class="f" data-check="141.55"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Pasos</div>
+        <div class="fl a" data-in="142.15"><div class="box"><div class="f" data-check="142.45"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Pruebas</div>
+      </div>
+    </div>
+    <div class="quote a" data-in="143.30" style="margin-top:26px"><small>QUÉDATE CON ESTA IDEA</small>Cuanto menor es la supervisión, mayores deben ser las verificaciones.</div>
+    <div class="bars a" data-in="144.80" data-fx="fade" style="margin-top:20px">
+      <div class="row"><span class="lb">Supervisión</span><div class="track"><div class="fill"></div><div class="cov" data-keys="144.90:80,146.40:22" style="left:80%"></div></div></div>
+      <div class="row"><span class="lb">Verificaciones</span><div class="track"><div class="fill ce"></div><div class="cov" data-keys="146.90:22,148.40:92" style="left:22%"></div></div></div>
+    </div>
+    <div class="bye a" data-in="149.40" style="margin-top:20px">› Nos vemos en el Módulo 6</div>
+  </div>
+  <div class="abs avatar-frame a" data-in="135.86" data-d="0.3" data-fx="lin" data-slot="avatar_cierre"><div class="slot-label">EVA (cierre)</div></div>
+</section>
+
+<script>
+const SUBS = [[0.00,0.77,"¡Hola de nuevo!"],[1.16,3.29,"Llegaste al cierre del Módulo 5:"],[3.58,5.85,"Automatización de tareas repetitivas."],[6.24,11.51,"Vamos a repasar las ideas que más te van a servir<br>para automatizar con criterio en tu trabajo."],[12.44,14.57,"La competencia de este módulo es:"],[14.94,19.07,"automatizar tareas rutinarias<br>mediante flujos simples con IA,"],[19.26,23.41,"incorporando supervisión humana y control<br>de riesgos, en el trabajo cotidiano."],[23.44,27.51,"Lo primero: elige bien qué automatizar."],[27.82,32.47,"Una buena candidata se repite,<br>sigue reglas claras y trabaja con información."],[33.02,37.35,"Antes de automatizar, elimina<br>lo innecesario y simplifica lo que queda."],[37.60,41.73,"Y la matriz de impacto y riesgo ordena<br>tus tareas en cuatro cuadrantes:"],[41.92,46.51,"empieza aquí, con supervisión,<br>si sobra tiempo y no automatices."],[47.28,50.81,"Segundo: todo flujo tiene un disparador que lo inicia,"],[50.84,55.05,"una o más acciones y datos<br>que pasan de un paso al siguiente."],[55.50,60.89,"Los datos se toman de pasos anteriores, porque<br>un texto escrito a mano se repite igual siempre."],[61.20,64.63,"Y probar es buscar los casos<br>en que el flujo podría fallar:"],[64.80,68.67,"revisas el historial,<br>corriges la causa y vuelves a probar."],[70.02,72.77,"Tercero: automatizar trae riesgos propios."],[72.98,77.73,"Un error se repite en cada ejecución,<br>y es fácil confiar de más en lo automático."],[78.00,83.57,"Por eso los puntos de control van donde el riesgo<br>es mayor, con criterios de aprobación claros."],[83.76,85.03,"Guarda el dato original,"],[85.38,89.67,"prefiere acciones que se puedan deshacer<br>y ten un plan para detectar la falla,"],[89.74,91.79,"detener el flujo y seguir a mano."],[92.66,94.91,"¿Qué puedes hacer desde mañana en tu trabajo?"],[95.24,100.41,"Elige una tarea que se repita y pruébala primero<br>con una cuenta de práctica y datos ficticios."],[100.88,106.59,"Deja cada resultado como «por revisar»,<br>y que nadie lo use hasta que una persona lo apruebe."],[107.38,111.77,"Porque automatizar una tarea no te quita<br>la responsabilidad por su resultado."],[112.70,117.01,"En el Módulo 6, Taller de IA<br>generativa para entornos laborales,"],[117.12,121.83,"no hay temas nuevos: vas a juntar<br>lo que construiste en un proyecto terminado."],[122.08,126.43,"Vas a diagnosticar una oportunidad de mejora<br>en tu trabajo, con una meta medible;"],[126.72,130.93,"a poner en marcha tu flujo con supervisión<br>humana y registro de decisiones,"],[130.96,135.23,"y a medir los resultados para comunicarlos,<br>incluidos sus límites."],[136.20,139.17,"Antes de seguir, deja documentado tu flujo:"],[139.38,143.01,"su nombre, su propósito, sus pasos y sus pruebas."],[143.26,149.07,"Y quédate con esta idea: cuanto menor es<br>la supervisión, mayores deben ser las verificaciones."],[149.42,150.87,"¡Nos vemos en el Módulo 6!"]];
+</script>

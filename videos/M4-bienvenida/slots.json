@@ -1,0 +1,86 @@
+[
+ {
+  "name": "avatar_intro",
+  "x": 1196,
+  "y": 136,
+  "w": 604,
+  "h": 764,
+  "radius": 32,
+  "in": 0,
+  "out": null,
+  "sceneIn": 0,
+  "sceneOut": 16.93
+ },
+ {
+  "name": "clip1",
+  "x": 760,
+  "y": 160,
+  "w": 1040,
+  "h": 585,
+  "radius": 24,
+  "in": 34.4,
+  "out": 38.5,
+  "sceneIn": 30.8,
+  "sceneOut": 101.5
+ },
+ {
+  "name": "clip2",
+  "x": 760,
+  "y": 160,
+  "w": 1040,
+  "h": 585,
+  "radius": 24,
+  "in": 53.4,
+  "out": 58.3,
+  "sceneIn": 30.8,
+  "sceneOut": 101.5
+ },
+ {
+  "name": "clip3",
+  "x": 1000,
+  "y": 160,
+  "w": 800,
+  "h": 450,
+  "radius": 24,
+  "in": 73.6,
+  "out": 79.5,
+  "sceneIn": 30.8,
+  "sceneOut": 101.5
+ },
+ {
+  "name": "clip4",
+  "x": 760,
+  "y": 160,
+  "w": 1040,
+  "h": 585,
+  "radius": 24,
+  "in": 87.6,
+  "out": 91.7,
+  "sceneIn": 30.8,
+  "sceneOut": 101.5
+ },
+ {
+  "name": "eva_momento",
+  "x": 1240,
+  "y": 150,
+  "w": 480,
+  "h": 600,
+  "radius": 32,
+  "in": 133.8,
+  "out": null,
+  "sceneIn": 133.56,
+  "sceneOut": 141.68
+ },
+ {
+  "name": "avatar_cierre",
+  "x": 1196,
+  "y": 136,
+  "w": 604,
+  "h": 764,
+  "radius": 32,
+  "in": 141.7,
+  "out": null,
+  "sceneIn": 141.68,
+  "sceneOut": 1013.19
+ }
+]

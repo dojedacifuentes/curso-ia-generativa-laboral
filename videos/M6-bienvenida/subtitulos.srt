@@ -1,0 +1,162 @@
+1
+00:00:00,000 --> 00:00:04,650
+¡Hola! Te doy la bienvenida
+al Módulo 6, el último del curso:
+
+2
+00:00:05,020 --> 00:00:08,270
+el Taller de IA generativa para entornos laborales.
+
+3
+00:00:08,700 --> 00:00:10,930
+Aquí no hay temas nuevos que estudiar.
+
+4
+00:00:11,240 --> 00:00:15,550
+Vas a juntar lo que construiste
+y convertirlo en un proyecto terminado.
+
+5
+00:00:16,380 --> 00:00:18,430
+La competencia de este módulo es:
+
+6
+00:00:18,460 --> 00:00:23,750
+aplicar la IA generativa en un proyecto
+basado en un desafío laboral real,
+
+7
+00:00:23,780 --> 00:00:29,590
+midiendo resultados y comunicándolos,
+integrando lo aprendido en los módulos anteriores.
+
+8
+00:00:30,360 --> 00:00:33,130
+En este taller vas a recorrer tres temas.
+
+9
+00:00:33,840 --> 00:00:36,370
+Primero, la oportunidad de mejora.
+
+10
+00:00:36,720 --> 00:00:42,190
+Vas a describir cómo se hace hoy una tarea
+de tu cargo, con datos y no con impresiones.
+
+11
+00:00:42,600 --> 00:00:45,630
+Fijarás una línea base, que es tu punto de partida,
+
+12
+00:00:45,820 --> 00:00:49,110
+y una meta que diga cuánto cambia y en qué plazo.
+
+13
+00:00:49,420 --> 00:00:52,730
+Y decidirás si usar IA en esa tarea es viable.
+
+14
+00:00:53,680 --> 00:00:56,310
+Segundo, implementar el flujo.
+
+15
+00:00:56,640 --> 00:01:00,990
+Implementar es un ciclo: pruebas
+en pequeño, estudias lo que pasó,
+
+16
+00:01:01,420 --> 00:01:03,430
+ajustas y vuelves a probar.
+
+17
+00:01:03,740 --> 00:01:07,970
+Vas a dejar por escrito quién revisa,
+cuándo y con qué criterio,
+
+18
+00:01:08,140 --> 00:01:10,970
+y vas a anotar cada decisión en una bitácora.
+
+19
+00:01:11,600 --> 00:01:14,790
+Y tercero, los resultados y aprendizajes.
+
+20
+00:01:15,240 --> 00:01:18,790
+Vas a comparar cada indicador
+con tu línea base y tu meta,
+
+21
+00:01:19,000 --> 00:01:23,790
+a proponer mejoras y a contar lo que lograste
+en un pitch, una presentación breve,
+
+22
+00:01:23,820 --> 00:01:25,550
+con los límites a la vista.
+
+23
+00:01:26,340 --> 00:01:30,970
+Te siguen acompañando Camila,
+asistente administrativa en una constructora,
+
+24
+00:01:31,000 --> 00:01:36,970
+que trabaja desde el celular con Gemini, y Andrés,
+encargado de bodega en una distribuidora,
+
+25
+00:01:37,000 --> 00:01:39,710
+que usa Make en el computador de la bodega.
+
+26
+00:01:40,040 --> 00:01:42,710
+Los dos llevan su proyecto hasta el final.
+
+27
+00:01:43,280 --> 00:01:45,770
+¿Y cómo vas a saber si vas aprendiendo?
+
+28
+00:01:46,100 --> 00:01:51,030
+Al cerrar cada tema pondrás a prueba
+lo que aprendiste, y si algo no quedó claro,
+
+29
+00:01:51,180 --> 00:01:52,650
+sabrás qué repasar.
+
+30
+00:01:52,900 --> 00:01:57,470
+Además, antes de hacerlo con tu tarea,
+vas a practicar con los ejemplos del curso.
+
+31
+00:01:58,300 --> 00:02:00,890
+Y aquí tu proyecto aplicado se completa:
+
+32
+00:02:02,200 --> 00:02:05,350
+diagnosticado, implementado, medido y presentado.
+
+33
+00:02:06,080 --> 00:02:06,830
+Para empezar,
+
+34
+00:02:07,280 --> 00:02:11,510
+junta en una sola carpeta lo que hiciste
+para tu proyecto en cada módulo,
+
+35
+00:02:11,680 --> 00:02:14,050
+solo en versiones sin datos sensibles.
+
+36
+00:02:14,500 --> 00:02:19,630
+Y quédate con esta idea: el plan
+de medición se decide antes de implementar.
+
+37
+00:02:19,920 --> 00:02:21,290
+¡Nos vemos en el primer tema!

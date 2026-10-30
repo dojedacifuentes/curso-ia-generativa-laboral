@@ -1,0 +1,175 @@
+1
+00:00:00,000 --> 00:00:00,810
+¡Hola de nuevo!
+
+2
+00:00:01,160 --> 00:00:03,370
+Llegaste al cierre del Módulo 2:
+
+3
+00:00:03,680 --> 00:00:05,830
+Comunicación y redacción profesional.
+
+4
+00:00:06,300 --> 00:00:10,530
+En pocos minutos vamos a repasar
+lo que más te va a servir para escribir,
+
+5
+00:00:10,700 --> 00:00:12,930
+presentar y calcular en tu trabajo.
+
+6
+00:00:13,700 --> 00:00:15,650
+La competencia de este módulo es:
+
+7
+00:00:15,680 --> 00:00:22,150
+optimizar la elaboración de documentos, presentaciones
+y planillas de cálculo con IA generativa,
+
+8
+00:00:22,380 --> 00:00:26,750
+cuidando tono, audiencia y exactitud,
+en contextos laborales.
+
+9
+00:00:27,560 --> 00:00:31,910
+Lo primero: antes de escribir,
+define para qué y para quién.
+
+10
+00:00:32,360 --> 00:00:37,910
+El correo resuelve algo puntual, la minuta
+registra acuerdos con responsable y fecha,
+
+11
+00:00:38,060 --> 00:00:43,430
+y el informe ejecutivo le dice a quien decide
+qué saber, por qué importa y qué hacer.
+
+12
+00:00:43,820 --> 00:00:47,850
+Audiencia, registro y tono
+son tres decisiones distintas,
+
+13
+00:00:47,880 --> 00:00:50,830
+y lo que redacta la IA es siempre un borrador.
+
+14
+00:00:51,520 --> 00:00:56,350
+Segundo: un prompt es confiable solo
+cuando lo probaste varias veces.
+
+15
+00:00:56,820 --> 00:01:02,050
+Los ejemplos orientan el formato, las restricciones
+que se pueden comprobar marcan los límites,
+
+16
+00:01:02,220 --> 00:01:08,330
+y dividir la tarea en pasos, extraer,
+redactar y revisar, te deja ver dónde está el error.
+
+17
+00:01:08,620 --> 00:01:12,970
+Lo que funciona se guarda como plantilla,
+con partes fijas y campos variables.
+
+18
+00:01:14,020 --> 00:01:19,850
+Tercero: una presentación parte del mensaje clave,
+una oración completa que afirma algo.
+
+19
+00:01:20,160 --> 00:01:24,190
+Cada lámina tiene una sola idea
+y su título dice la conclusión:
+
+20
+00:01:24,600 --> 00:01:27,470
+leídos en orden, los títulos cuentan la historia.
+
+21
+00:01:27,940 --> 00:01:31,830
+Depurar es quitar lo que sobra
+y corregir los datos sin respaldo.
+
+22
+00:01:32,540 --> 00:01:36,810
+Cuarto: en las planillas,
+la IA propone y tú compruebas.
+
+23
+00:01:37,120 --> 00:01:41,970
+Pide la fórmula diciendo el programa,
+qué hay en cada columna y dónde va el resultado,
+
+24
+00:01:42,280 --> 00:01:44,070
+y verifícala con datos de prueba:
+
+25
+00:01:44,320 --> 00:01:47,770
+un cálculo a mano, un caso extremo,
+un dato que cambias.
+
+26
+00:01:48,060 --> 00:01:51,050
+Los errores más peligrosos no muestran aviso.
+
+27
+00:01:51,840 --> 00:01:53,190
+¿Qué puedes hacer desde mañana?
+
+28
+00:01:53,700 --> 00:01:56,430
+Toma un correo o una minuta que escribas seguido,
+
+29
+00:01:56,600 --> 00:02:01,270
+conviértelo en una plantilla y pruébala
+con dos o tres casos antes de usarla.
+
+30
+00:02:01,360 --> 00:02:05,870
+Y revisa siempre los datos,
+las fechas y los nombres antes de enviar.
+
+31
+00:02:06,180 --> 00:02:09,010
+Porque quien firma responde por el mensaje.
+
+32
+00:02:09,680 --> 00:02:13,070
+En el Módulo 3, Investigación
+y análisis de información,
+
+33
+00:02:13,480 --> 00:02:18,350
+vas a usar la IA para investigar con fuentes,
+contrastar y sintetizar información,
+
+34
+00:02:18,660 --> 00:02:20,900
+presentar tus hallazgos con fuentes citadas
+
+35
+00:02:20,900 --> 00:02:23,930
+y cuidar la privacidad
+de la información de tu trabajo.
+
+36
+00:02:24,580 --> 00:02:29,590
+Antes de seguir, guarda tus mejores plantillas
+y anota qué funcionó en cada una.
+
+37
+00:02:29,840 --> 00:02:33,950
+Y quédate con esta idea:
+la IA propone y tú compruebas.
+
+38
+00:02:34,240 --> 00:02:35,590
+¡Nos vemos en el Módulo 3!

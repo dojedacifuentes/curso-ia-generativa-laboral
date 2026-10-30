@@ -1,0 +1,170 @@
+1
+00:00:00,000 --> 00:00:00,830
+¡Hola de nuevo!
+
+2
+00:00:01,380 --> 00:00:03,330
+Llegaste al cierre del Módulo 3:
+
+3
+00:00:03,580 --> 00:00:05,770
+Investigación y análisis de información.
+
+4
+00:00:06,320 --> 00:00:11,090
+En pocos minutos vamos a repasar las ideas
+que más te van a servir para investigar en tu
+
+5
+00:00:11,120 --> 00:00:12,730
+trabajo, antes de seguir.
+
+6
+00:00:13,700 --> 00:00:15,610
+La competencia de este módulo es:
+
+7
+00:00:15,640 --> 00:00:20,770
+acelerar la investigación y el análisis
+de información con herramientas de IA,
+
+8
+00:00:21,000 --> 00:00:26,110
+validando fuentes y resguardando la privacidad,
+para apoyar decisiones laborales.
+
+9
+00:00:26,880 --> 00:00:31,090
+Lo primero: para investigar,
+usa herramientas que muestran sus fuentes,
+
+10
+00:00:31,120 --> 00:00:33,650
+y parte de una pregunta específica.
+
+11
+00:00:33,840 --> 00:00:39,070
+Un buscador con citas enlaza cada afirmación,
+pero una cita no es una prueba:
+
+12
+00:00:39,300 --> 00:00:40,390
+hay que abrirla.
+
+13
+00:00:40,560 --> 00:00:45,550
+Y registra cada fuente con su enlace original,
+no con el nombre de la herramienta.
+
+14
+00:00:46,180 --> 00:00:51,090
+Segundo: revisa cada fuente
+en autoría, fecha y respaldo.
+
+15
+00:00:51,480 --> 00:00:55,010
+Dos fuentes que coinciden solo
+corroboran si son independientes.
+
+16
+00:00:55,360 --> 00:00:57,770
+Una contradicción no es un fracaso:
+
+17
+00:00:57,960 --> 00:01:01,890
+analiza por qué difieren
+y decide a cuál dar más crédito.
+
+18
+00:01:02,140 --> 00:01:05,230
+Y sintetiza por ideas, no fuente por fuente.
+
+19
+00:01:06,220 --> 00:01:11,910
+Tercero: un informe breve presenta hallazgos
+y recomendaciones a alguien que debe decidir.
+
+20
+00:01:12,080 --> 00:01:15,610
+Los mensajes clave van al inicio,
+pero se escriben al final.
+
+21
+00:01:15,980 --> 00:01:21,470
+Cada hallazgo dice quién lo respalda,
+y cada recomendación se desprende de un hallazgo.
+
+22
+00:01:22,140 --> 00:01:27,110
+Cuarto: lo que no puedes rastrear hasta
+su origen no se presenta como hecho.
+
+23
+00:01:27,340 --> 00:01:30,650
+Clasifica la información
+por acceso y por tipo de dato:
+
+24
+00:01:30,920 --> 00:01:35,490
+lo confidencial y lo sensible no
+ingresan a una herramienta no autorizada.
+
+25
+00:01:36,320 --> 00:01:38,650
+¿Qué puedes hacer desde mañana en tu trabajo?
+
+26
+00:01:39,040 --> 00:01:44,170
+Antes de pegar un documento en una herramienta
+de IA, fíjate en qué datos trae.
+
+27
+00:01:44,440 --> 00:01:49,810
+Anonimiza, no pegues datos de terceros
+y prueba con copias sin datos sensibles,
+
+28
+00:01:49,940 --> 00:01:51,810
+siguiendo la política de tu empresa.
+
+29
+00:01:52,380 --> 00:01:58,390
+Porque la IA puede hacer el borrador,
+pero los datos y las citas los revisa una persona.
+
+30
+00:01:59,260 --> 00:02:03,370
+En el Módulo 4, Contenido visual,
+sonoro y audiovisual,
+
+31
+00:02:03,540 --> 00:02:07,470
+vas a elegir herramientas según
+la pieza que necesitas y sus licencias,
+
+32
+00:02:07,700 --> 00:02:12,710
+y a producir imágenes, gráficos,
+audio, música y clips de video breves,
+
+33
+00:02:12,740 --> 00:02:14,270
+cuidando la atribución.
+
+34
+00:02:15,020 --> 00:02:16,110
+Antes de seguir,
+
+35
+00:02:16,440 --> 00:02:21,010
+revisa tu registro de fuentes y comprueba
+que cada una tenga su enlace original.
+
+36
+00:02:21,340 --> 00:02:25,510
+Y quédate con esta idea:
+una contradicción no es un fracaso.
+
+37
+00:02:25,720 --> 00:02:27,170
+¡Nos vemos en el Módulo 4!

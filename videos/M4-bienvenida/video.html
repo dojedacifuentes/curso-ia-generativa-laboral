@@ -1,0 +1,712 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Bienvenida Módulo 4</title>
+<style>
+/* Videos de módulo con la marca Empoderatech (docs/CRITERIOS-29-10.md §5): fondo noche, frambuesa principal,
+   celeste y fucsia como acentos sobre noche, Varela Round en titulares y cifras, Montserrat en el texto. */
+@font-face{font-family:Varela;font-weight:400;src:url(fonts/varela-round-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:Mont;font-weight:400;src:url(fonts/montserrat-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:Mont;font-weight:500;src:url(fonts/montserrat-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:Mont;font-weight:600;src:url(fonts/montserrat-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:Mont;font-weight:700;src:url(fonts/montserrat-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:PlexMono;font-weight:400;src:url(fonts/ibm-plex-mono-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:PlexMono;font-weight:600;src:url(fonts/ibm-plex-mono-latin-600-normal.woff2) format("woff2")}
+
+:root{
+  --noche:#00060F; --fr:#BE3455; --fu:#ED1566; --ce:#3D9BE9; --gr:#40444B; --gc:#BFC1C3; --gm:#808387;
+  --card:#0A111C; --card2:#111A27; --line:rgba(255,255,255,.12); --line2:rgba(255,255,255,.22);
+  --txt:#FFFFFF; --soft:#BFC1C3; --dim:#808387;
+  --frw:rgba(190,52,85,.16); --cew:rgba(61,155,233,.14); --fuw:rgba(237,21,102,.14);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1920px;height:1080px;overflow:hidden;background:var(--noche)}
+body{font-family:Mont,Arial,sans-serif;color:var(--txt);-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
+#stage{position:relative;width:1920px;height:1080px;overflow:hidden;background-color:var(--noche);
+  background-image:radial-gradient(rgba(255,255,255,.07) 1.3px,transparent 1.6px);background-size:36px 36px;background-position:18px 18px}
+.abs{position:absolute}
+.camwrap{position:absolute;inset:0;will-change:transform,filter}
+#glow{position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(820px 560px at var(--gx,30%) var(--gy,30%),rgba(190,52,85,.20),transparent 70%),
+             radial-gradient(680px 500px at var(--hx,75%) var(--hy,70%),rgba(61,155,233,.13),transparent 70%)}
+#progress{position:absolute;left:0;top:0;height:5px;width:100%;transform-origin:left;transform:scaleX(0);
+  background:linear-gradient(90deg,var(--fr),var(--fu));box-shadow:0 0 14px rgba(237,21,102,.55)}
+.arcos{position:absolute;pointer-events:none}
+.scene,.panel{position:absolute;inset:0;visibility:hidden}
+.panel{inset:auto;left:760px;top:150px;width:1040px;height:740px}
+svg{display:block}
+.ic{width:36px;height:36px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+/* encabezado */
+#hdr{position:absolute;left:120px;right:120px;top:50px;height:56px;display:flex;align-items:center;justify-content:space-between}
+.mark{display:flex;align-items:center;gap:20px;font:500 23px/1 Mont;color:var(--soft)}
+.mark img{height:40px}
+.mark .sep{width:2px;height:26px;background:var(--line2)}
+.mark .mod{font:400 24px/1 Varela;color:var(--fr)}
+#rail{display:flex;gap:8px}
+.seg{position:relative;padding:12px 22px;border-radius:999px;font:400 21px/1 Varela;color:var(--dim);border:2px solid var(--line);background:var(--card);overflow:hidden}
+.seg .on{position:absolute;inset:0;background:var(--fr);opacity:0}
+.seg span{position:relative}
+
+/* tipografía */
+h1{font:400 84px/1.06 Varela;letter-spacing:-.01em}
+h2{font:400 54px/1.12 Varela}
+h3{font:400 31px/1.2 Varela;color:var(--soft)}
+h3:before{content:"› ";color:var(--fr)}
+.tag{display:inline-block;padding:10px 18px;border-radius:999px;background:var(--frw);color:#F4A9BB;border:2px solid rgba(190,52,85,.45);font:400 24px/1 Varela}
+.card{background:var(--card);border:2px solid var(--line);border-radius:22px}
+.logo-big{height:56px}
+
+/* intro y cierre */
+.left-col{position:absolute;left:120px;top:150px;width:920px}
+.sub1{font:500 31px/1.35 Mont;color:var(--soft);margin-top:24px}
+.facts{list-style:none;margin-top:54px;display:flex;flex-direction:column;gap:20px}
+.facts li{display:flex;align-items:center;gap:22px;font:600 33px/1.2 Mont}
+.ib{flex:none;width:68px;height:68px;border-radius:50%;background:var(--gr);display:grid;place-items:center;color:#fff}
+.avatar-frame{left:1196px;top:136px;width:604px;height:764px;border-radius:32px;background:var(--gr);
+  box-shadow:0 30px 70px -20px rgba(0,0,0,.7),0 0 0 2px rgba(190,52,85,.55)}
+.slot-label{position:absolute;inset:0;display:grid;place-items:center;font:600 28px/1.3 Mont;color:var(--ce);text-align:center;opacity:0}
+body.preview .slot-label{opacity:.9}
+.mapa{display:flex;align-items:center;gap:16px}
+.mapa .segs{display:flex;gap:8px}
+.mapa .segs i{display:block;width:46px;height:10px;border-radius:6px;background:rgba(255,255,255,.14)}
+.mapa .segs i.hecho{background:var(--gm)}
+.mapa .segs i.on{background:linear-gradient(90deg,var(--fr),var(--fu));box-shadow:0 0 12px rgba(237,21,102,.6)}
+
+/* riel de temas */
+.rail-list{position:absolute;left:120px;top:150px;width:580px}
+.topics{list-style:none;margin-top:26px;display:flex;flex-direction:column;gap:8px}
+.topic{position:relative;display:flex;gap:22px;align-items:flex-start;padding:17px 22px;border-radius:22px}
+.topic .bgc{position:absolute;inset:0;border-radius:22px;background:var(--card2);border:2px solid var(--fr);box-shadow:0 18px 40px -22px rgba(190,52,85,.8);opacity:0}
+.topic .n{position:relative;flex:none;width:54px;height:54px;border-radius:50%;border:2.5px solid var(--gm);display:grid;place-items:center;font:400 26px/1 Varela;color:var(--soft)}
+.topic .nf{position:absolute;inset:-2.5px;border-radius:50%;background:var(--fr);color:#fff;display:grid;place-items:center;opacity:0}
+.topic .tx{position:relative}
+.topic strong{display:block;font:400 30px/1.15 Varela}
+.topic span.d{display:block;margin-top:7px;font:500 23px/1.3 Mont;color:var(--soft)}
+
+/* bloques de panel */
+.blk{position:absolute;left:0;width:1040px}
+.blk h3{margin-bottom:16px}
+.prompt{display:flex;gap:16px;align-items:baseline;padding:16px 22px;border-radius:16px;background:#fff;color:var(--noche);font:400 24px/1.4 PlexMono}
+.who{flex:none;font:600 19px/1 Mont;padding:7px 12px;border-radius:8px;background:var(--noche);color:#fff}
+.reply{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px 6px;align-items:center;padding:16px 18px;border-radius:16px;background:var(--card);border:2px solid var(--line);min-height:84px;align-content:flex-start}
+.reply .who{background:var(--frw);color:#F4A9BB;margin-right:8px}
+.tok{--hot:0;font:400 25px/1 PlexMono;padding:9px 9px;border-radius:8px;
+  background:color-mix(in srgb,var(--fr) calc(var(--hot)*100%),rgba(255,255,255,.08));color:#fff}
+.row3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.row2{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.box3{padding:20px 22px;min-height:150px}
+.box3 .ib{width:56px;height:56px;margin-bottom:14px}
+.box3 .ib .ic{width:30px;height:30px}
+.box3 strong{display:block;font:400 30px/1.15 Varela}
+.box3 span{display:block;margin-top:8px;font:500 22px/1.3 Mont;color:var(--soft)}
+.box3.on{border-color:var(--ce)}
+.box3.warn{border-color:rgba(237,21,102,.6);background:linear-gradient(var(--fuw),var(--fuw)),var(--card)}
+.out{position:relative;display:flex;align-items:center;gap:18px;padding:14px 18px;border-radius:14px;background:var(--card);border:2px solid var(--line)}
+.out .L{flex:none;width:46px;height:46px;border-radius:50%;background:var(--gr);display:grid;place-items:center;font:400 22px/1 Varela;color:#fff}
+.out q{flex:1;font:400 22px/1.35 PlexMono;color:#E6E7E8;quotes:"«" "»"}
+.out .v{flex:none;width:280px;font:500 21px/1.25 Mont;color:var(--soft)}
+.cmp{display:flex;flex-direction:column;gap:12px}
+.pieces{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.piece .chip{display:inline-block;padding:13px 20px;border-radius:999px;background:var(--fr);color:#fff;font:400 27px/1 Varela}
+.piece .ex{margin-top:12px;padding:16px 18px;border-radius:16px;background:var(--card);border:2px solid var(--line);font:400 21px/1.42 PlexMono;color:#E6E7E8;min-height:128px}
+.tpl{padding:18px 22px;border-radius:16px;background:var(--card);border:2px dashed var(--fr);font:400 24px/1.5 PlexMono;color:#E6E7E8}
+.br{color:#fff;background:var(--fr);border-radius:6px;padding:0 6px}
+.chain{display:flex;align-items:center;gap:0}
+.step{padding:16px 24px;border-radius:999px;background:var(--card);border:2px solid var(--line2);font:600 26px/1 Mont}
+.step.hi{border-color:var(--ce);color:#fff;background:var(--cew)}
+.arrow{width:62px;height:24px;color:var(--gm)}
+.pill{display:inline-flex;align-items:center;gap:12px;padding:14px 22px;border-radius:999px;font:600 25px/1 Mont}
+.pill.main{background:var(--fr);color:#fff}
+.pill.alt{background:var(--card);border:2px solid var(--line2);color:var(--soft)}
+.pill.ce{background:var(--cew);border:2px solid rgba(61,155,233,.6);color:#fff}
+
+/* control de temperatura */
+.ctrl{padding:24px 28px}
+.ctrl strong{display:block;font:400 30px/1.1 Varela}
+.slider{position:relative;height:16px;border-radius:99px;background:linear-gradient(90deg,var(--ce),var(--fr) 60%,var(--fu));margin:44px 8px 0}
+.knob{position:absolute;top:50%;width:40px;height:40px;margin:-20px 0 0 -20px;border-radius:50%;background:#fff;box-shadow:0 0 0 6px rgba(255,255,255,.18),0 6px 14px rgba(0,0,0,.5)}
+.sl-lab{display:flex;justify-content:space-between;margin-top:22px;font:600 22px/1 Mont;color:var(--soft)}
+
+/* validación */
+.resp{padding:22px 26px}
+.resp .lab{font:500 19px/1 Mont;color:var(--dim);margin-bottom:14px}
+.resp p{font:500 27px/1.55 Mont;color:#E6E7E8}
+.hl{--p:0;background:linear-gradient(rgba(237,21,102,.55),rgba(237,21,102,.55)) no-repeat 0 92%/calc(var(--p)*100%) 40%;border-radius:2px}
+.mk{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--fu);color:#fff;font:400 17px/1 Varela;vertical-align:4px;margin-left:4px}
+.legend{display:flex;gap:14px;margin-top:16px}
+.legend div{display:flex;align-items:center;gap:10px;padding:10px 16px;border-radius:999px;background:var(--fuw);border:2px solid rgba(237,21,102,.4);font:600 21px/1.2 Mont;color:#fff}
+.legend .mk{vertical-align:0;margin:0}
+.flow{position:relative;height:230px}
+.node{position:absolute;padding:16px 20px;border-radius:18px;background:var(--card);border:2px solid var(--line);font:600 25px/1.25 Mont}
+.node small{display:block;font:500 19px/1.3 Mont;color:var(--soft);margin-top:4px}
+.node.ok{border-color:rgba(61,155,233,.7)}
+.node .chk{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--ce);vertical-align:-6px;margin-right:8px}
+.node.dec{background:var(--fr);border-color:var(--fr)}
+.node.dec small{color:#FAD3DC}
+svg.wires{position:absolute;inset:0;overflow:visible}
+svg.wires path{fill:none;stroke:var(--gm);stroke-width:3;stroke-linecap:round}
+
+/* recuadros de video */
+.slot{position:absolute;border-radius:24px;background:var(--card2);box-shadow:0 26px 60px -24px rgba(0,0,0,.8),0 0 0 2px rgba(255,255,255,.08)}
+.cap strong{display:block;font:400 36px/1.1 Varela}
+.cap span{display:block;margin-top:8px;font:500 25px/1.3 Mont;color:var(--soft)}
+
+/* listas numeradas y checks */
+.hsteps{display:flex;flex-direction:column;gap:22px;margin-top:44px}
+.hs{display:flex;gap:20px;align-items:flex-start}
+.hs .n{flex:none;width:54px;height:54px;border-radius:50%;background:var(--fr);color:#fff;display:grid;place-items:center;font:400 25px/1 Varela}
+.hs strong{display:block;font:600 32px/1.18 Mont}
+.hs span{display:block;margin-top:6px;font:500 24px/1.3 Mont;color:var(--soft)}
+.checks{display:flex;flex-direction:column;gap:20px;margin-top:40px}
+.ck{display:flex;align-items:center;gap:22px;font:600 33px/1.2 Mont}
+.box{position:relative;flex:none;width:54px;height:54px;border-radius:50%;border:3px solid var(--gm);background:var(--card)}
+.box .f{position:absolute;inset:-3px;border-radius:50%;background:var(--fr);opacity:0;display:grid;place-items:center}
+.box .f svg{width:30px;height:30px;stroke:#fff;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.note{display:inline-block;margin-left:76px;padding:9px 16px;border-radius:999px;background:var(--cew);border:2px solid rgba(61,155,233,.5);color:#fff;font:600 22px/1 Mont}
+.quote{margin-top:40px;padding:32px 38px;border-radius:26px;background:var(--fr);color:#fff;font:400 42px/1.24 Varela}
+.quote small{display:block;font:600 21px/1 Mont;color:#FAD3DC;margin-bottom:16px;letter-spacing:.02em}
+.bye{margin-top:26px;font:400 28px/1.2 Varela;color:var(--ce)}
+.kw{display:flex;align-items:baseline;gap:22px}
+.kw b{font:400 128px/1 Varela;background:linear-gradient(90deg,var(--fr),var(--fu));-webkit-background-clip:text;background-clip:text;color:transparent}
+.kw span{font:600 32px/1.2 Mont;color:var(--soft)}
+.ev{display:flex;flex-direction:column;gap:40px;margin-top:64px}
+.ev .it{display:flex;gap:22px;align-items:flex-start}
+.ev strong{display:block;font:600 33px/1.15 Mont}
+.ev span{display:block;margin-top:6px;font:500 25px/1.3 Mont;color:var(--soft)}
+.loop{padding:44px 54px;display:flex;flex-direction:column;justify-content:center;gap:22px}
+.loop .ln{display:flex;gap:20px;align-items:center;font:400 36px/1.1 Varela;padding:14px 18px;border-radius:999px;background:var(--card2);width:560px}
+.loop .ln .n{flex:none;width:52px;height:52px;border-radius:50%;background:var(--fr);color:#fff;display:grid;place-items:center;font:400 24px/1 Varela}
+.loop .ln.warn{background:var(--fuw)}.loop .ln.warn .n{background:var(--fu)}
+.loop .back{position:absolute;right:70px;top:75px;width:110px;height:300px;fill:none;stroke:var(--ce);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+.mods{padding:38px 44px}
+.mods .tt{font:400 33px/1.2 Varela}
+.mrow{display:flex;justify-content:space-between;margin-top:36px}
+.mrow .m{display:flex;flex-direction:column;align-items:center;gap:12px}
+.mrow .m i{display:grid;place-items:center;width:64px;height:64px;border-radius:50%;background:var(--card2);border:3px solid var(--gm)}
+.mrow .m.hecho i{background:var(--gr);border-color:var(--gr)}
+.mrow .m.hecho i svg{width:30px;height:30px;stroke:#fff;stroke-width:3.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.mrow .m.on i{background:linear-gradient(135deg,var(--fr),var(--fu));border-color:transparent;box-shadow:0 0 18px rgba(237,21,102,.6)}
+.mrow .m span{font:400 24px/1 Varela;color:var(--soft)}
+.mbar{height:12px;border-radius:7px;background:rgba(255,255,255,.1);margin-top:32px;overflow:hidden}
+.mbar b{display:block;height:100%;background:linear-gradient(90deg,var(--fr),var(--fu))}
+.mcap{margin-top:24px;font:500 26px/1.35 Mont;color:var(--soft)}
+.lam{height:150px;padding:16px 18px;position:relative;overflow:hidden}
+.lam .no{font:400 20px/1 Varela;color:var(--dim)}
+.lam .t{margin-top:12px;font:600 21px/1.25 Mont}
+.lam em{display:block;height:8px;border-radius:5px;background:rgba(255,255,255,.14);margin-top:10px;font-style:normal}
+.lam em+em{width:70%}
+.lam .x{position:absolute;inset:0;border-radius:20px;border:3px solid var(--fu);background:rgba(62,8,28,.95);display:grid;place-items:center;font:600 22px/1 Mont;color:#fff;opacity:0}
+.grid3x2{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.tabla{border-collapse:separate;border-spacing:0;font:500 22px/1 Mont;width:100%}
+.tabla td,.tabla th{padding:12px 16px;border-bottom:2px solid var(--line);text-align:left}
+.tabla th{font:600 18px/1 Mont;color:var(--dim);letter-spacing:.03em}
+.tabla td.num{font:400 23px/1 PlexMono;text-align:right}
+.tabla tr.tot td{border-bottom:none;font-weight:700}
+
+/* subtítulos */
+#subs{position:absolute;left:0;right:0;bottom:36px;display:flex;justify-content:center;pointer-events:none}
+#subs div{max-width:1560px;padding:12px 26px 14px;border-radius:14px;background:rgba(64,68,75,.94);color:#fff;font:600 37px/1.32 Mont;text-align:center}
+#subs div:empty{display:none}
+#subs span.pen{color:rgba(255,255,255,.5)} #subs span.dic{color:#fff} #subs span.cur{color:#8CC8F7}
+
+/* competencia del módulo y aprendizajes esperados textuales (30-10, pedido del usuario) */
+.comp{margin-top:34px;max-width:1560px;font:400 58px/1.3 Varela;color:#fff}
+.comp .hl{background-size:calc(var(--p)*100%) 30%}
+.aecard{position:absolute;left:120px;top:772px;width:580px;padding:12px 18px 14px;border-radius:16px;background:var(--card2);border:2px solid var(--line);border-left:6px solid var(--fr)}
+.aecard small{display:block;font:400 17px/1 Varela;color:#F4A9BB;margin-bottom:7px}
+.aecard p{font:500 18.5px/1.32 Mont;color:#fff}
+.logros{padding:30px 36px}
+.logros .tt{font:400 32px/1.2 Varela}
+.logros .lab{font:600 18px/1 Mont;color:var(--dim);letter-spacing:.03em;margin-top:8px}
+.logros .lg{display:flex;gap:16px;align-items:flex-start;margin-top:18px}
+.logros .lg .box{width:40px;height:40px;margin-top:2px}
+.logros .lg .box .f svg{width:24px;height:24px}
+.logros .lg p{font:500 20px/1.35 Mont;color:#E6E7E8}
+
+/* compatibilidad con escenas de la plantilla anterior (bienvenida M1) */
+:root{--teal:#3D9BE9;--teal-deep:#8CC8F7;--slate:#BFC1C3;--wash:#111A27;--ink:#FFFFFF;--muted:#808387;--faint:#808387;--paper:#00060F;--amber:#ED1566;--green:#3D9BE9}
+.rows{display:flex;flex-direction:column;gap:10px}
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:36px}
+.trow{display:flex;gap:18px;align-items:center;padding:10px 12px;border-radius:16px;background:var(--card);border:2px solid var(--line);min-height:92px}
+.trow .vis{flex:none;width:128px;height:70px;border-radius:10px;background:var(--card2);display:grid;place-items:center;color:var(--ce);overflow:hidden;position:relative}
+.trow .vis img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.trow strong,.lrow strong{display:block;font:400 27px/1.1 Varela}
+.trow span,.lrow span{display:block;margin-top:5px;font:500 21px/1.25 Mont;color:var(--soft)}
+.lrow{display:flex;gap:16px;align-items:center;padding:12px 18px;border-radius:16px;background:linear-gradient(var(--fuw),var(--fuw)),var(--card);border:2px solid rgba(237,21,102,.45);min-height:92px}
+.lrow .ib{width:52px;height:52px;background:var(--fu)}
+.lrow .ib .ic{width:28px;height:28px}
+.ctrl{min-height:240px}
+.ctrl strong{margin-bottom:6px}
+.goal{margin-top:16px;font:600 22px/1.2 Mont;color:var(--ce)}
+.bar{height:28px;border-radius:8px;background:rgba(255,255,255,.08);margin-top:16px;position:relative}
+.bar i{position:absolute;left:0;top:0;bottom:0;border-radius:8px;background:linear-gradient(90deg,var(--fr),var(--fu));transform-origin:left}
+.bar-lab{display:flex;justify-content:space-between;margin-top:6px;font:500 19px/1 Mont;color:var(--soft)}
+.stack{position:relative;height:150px;margin-top:12px}
+.stack .sc{position:absolute;width:200px;height:110px;border-radius:12px;background:var(--card2);border:2px solid var(--line2);padding:14px 16px;font:400 26px/1 Varela;color:#fff;box-shadow:0 10px 20px -14px rgba(0,0,0,.6)}
+.stack .sc em{display:block;margin-top:14px;height:9px;border-radius:5px;background:rgba(255,255,255,.14);font-style:normal}
+.stack .sc em+em{width:70%;margin-top:9px}
+.out .sel{position:absolute;inset:-2px;border-radius:14px;border:3px solid var(--ce);background:rgba(61,155,233,.12);opacity:0}
+.out .v b{color:var(--ce)}
+.q4{display:grid;grid-template-columns:repeat(4,1fr);gap:26px}
+.qc{height:380px;padding:36px 30px;display:flex;flex-direction:column;justify-content:space-between}
+.qc .ib{width:84px;height:84px}
+.qc .ib .ic{width:44px;height:44px}
+.qc strong{font:400 38px/1.15 Varela}
+.qc.ok .ib{background:var(--ce)}
+.qc.warn .ib{background:var(--fu)}
+.qc.go{border-color:var(--fr)}
+.hito-h{font:400 96px/1 Varela;margin-top:18px}
+</style>
+</head>
+<body>
+<div id="stage">
+<div id="glow"></div>
+<div id="progress"></div>
+<!-- Bienvenida del Módulo 4 (30-10). Voz de EVA 2:40. Se arma con armar_html.py (marca Empoderatech). -->
+
+<!-- ===== encabezado (desde 16,9 s) ===== -->
+<div id="hdr" class="a" data-in="16.93" data-out="141.68" data-fx="fade">
+  <div class="mark"><img src="../../scripts/lib/marca/etech-logo-sobre-oscuro.svg" alt=""><span class="sep"></span><span>IA generativa para entornos laborales</span><span class="sep"></span><span class="mod">Módulo 4</span></div>
+  <div id="rail" class="a" data-in="16.93" data-fx="fade">
+    <div class="seg" data-on="17.10,118.77"><div class="on"></div><span>Qué aprenderás</span></div>
+    <div class="seg" data-on="118.77,133.56"><div class="on"></div><span>Cómo avanzas</span></div>
+    <div class="seg" data-on="133.56,1013.19"><div class="on"></div><span>Tu proyecto</span></div>
+  </div>
+</div>
+
+<!-- ===== S1 · intro con EVA (0–16,9) ===== -->
+<section class="scene" data-span="0.00,16.93">
+  <img class="abs a" data-in="0.05" data-fx="fade" src="../../scripts/lib/marca/etech-logo-sobre-oscuro.svg" alt="" style="left:120px;top:52px;height:48px">
+  <svg class="arcos" viewBox="0 0 560 280" style="right:-40px;bottom:-30px;width:560px;height:280px;opacity:.55"><circle cx="560" cy="280" r="154" fill="none" stroke="#BE3455" stroke-width="3"/><circle cx="560" cy="280" r="244" fill="none" stroke="#BE3455" stroke-width="2.5" opacity=".8"/><circle cx="560" cy="280" r="333" fill="none" stroke="#BE3455" stroke-width="2" opacity=".6"/><circle cx="560" cy="280" r="423" fill="none" stroke="#BE3455" stroke-width="1.5" opacity=".4"/></svg>
+  <div class="left-col">
+    <div class="mapa"><div class="tag a" data-in="0.15">Módulo 4 de 6</div><div class="segs"><i class="hecho a" data-in="1.70" data-fx="grow"></i><i class="hecho a" data-in="1.80" data-fx="grow"></i><i class="hecho a" data-in="1.90" data-fx="grow"></i><i class="on a" data-in="2.00" data-fx="grow"></i><i class="a" data-in="2.10" data-fx="grow"></i><i class="a" data-in="2.20" data-fx="grow"></i></div></div>
+    <h1 class="a" data-in="0.35" style="margin-top:30px">Contenido<br>visual, sonoro<br>y audiovisual</h1>
+    <p class="sub1 a" data-in="2.80">Curso IA generativa para entornos laborales</p>
+    <div style="display:flex;align-items:flex-start;gap:18px;margin-top:46px">
+      <div class="a" data-in="10.35" style="display:flex;flex-direction:column;align-items:center;gap:12px;width:120px"><div class="ib" style="width:84px;height:84px"><svg class="ic" style="width:42px;height:42px" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="9" y1="12" x2="15" y2="12"/><line x1="9" y1="16" x2="12" y2="16"/></svg></div><span style="font:600 24px/1 Mont;color:var(--soft)">Texto</span></div>
+      <svg class="arrow a" data-in="10.95" data-fx="fade" viewBox="0 0 62 24" style="margin-top:30px"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="a" data-in="11.35" data-fx="pop" style="display:flex;flex-direction:column;align-items:center;gap:12px;width:120px"><div class="ib" style="width:84px;height:84px;background:var(--fr)"><svg class="ic" style="width:42px;height:42px" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><polyline points="21 17 15 11 5 20"/></svg></div><span style="font:600 24px/1 Mont">Imagen</span></div>
+      <div class="a" data-in="12.40" data-fx="pop" style="display:flex;flex-direction:column;align-items:center;gap:12px;width:120px"><div class="ib" style="width:84px;height:84px;background:var(--ce)"><svg class="ic" style="width:42px;height:42px" viewBox="0 0 24 24"><line x1="4" y1="10" x2="4" y2="14"/><line x1="8" y1="6" x2="8" y2="18"/><line x1="12" y1="3" x2="12" y2="21"/><line x1="16" y1="7" x2="16" y2="17"/><line x1="20" y1="10" x2="20" y2="14"/></svg></div><span style="font:600 24px/1 Mont">Audio</span></div>
+      <div class="a" data-in="13.10" data-fx="pop" style="display:flex;flex-direction:column;align-items:center;gap:12px;width:120px"><div class="ib" style="width:84px;height:84px;background:var(--fu)"><svg class="ic" style="width:42px;height:42px" viewBox="0 0 24 24"><rect x="3" y="9" width="18" height="12" rx="2"/><path d="M3 9l1.5-5 16 3-1 2"/><line x1="8.5" y1="5" x2="10" y2="9"/><line x1="13.5" y1="6" x2="15" y2="9"/></svg></div><span style="font:600 24px/1 Mont">Video</span></div>
+    </div>
+    <div style="margin-top:30px"><span class="pill ce a" data-in="13.95">Piezas de comunicación para tu trabajo</span></div>
+  </div>
+  <div class="abs avatar-frame a" data-in="0.00" data-fx="lin" data-slot="avatar_intro"><div class="slot-label">EVA (intro)</div></div>
+</section>
+
+
+<!-- ===== competencia del módulo, textual (16,9–30,8) ===== -->
+<section class="scene" data-span="16.93,30.80">
+  <svg class="arcos" viewBox="0 0 560 280" style="right:-40px;bottom:-30px;width:560px;height:280px;opacity:.55"><circle cx="560" cy="280" r="154" fill="none" stroke="#BE3455" stroke-width="3"/><circle cx="560" cy="280" r="244" fill="none" stroke="#BE3455" stroke-width="2.5" opacity=".8"/><circle cx="560" cy="280" r="333" fill="none" stroke="#BE3455" stroke-width="2" opacity=".6"/><circle cx="560" cy="280" r="423" fill="none" stroke="#BE3455" stroke-width="1.5" opacity=".4"/></svg>
+  <div class="left-col" style="top:250px;width:1680px">
+    <span class="tag a" data-in="17.05">Competencia del módulo</span>
+    <p class="sub1 a" data-in="17.35" style="margin-top:22px">Módulo 4 · Contenido visual, sonoro y audiovisual</p>
+    <p class="comp a" data-in="19.10">Producir contenido <span class="hl" data-hl="20.50">visual, sonoro y audiovisual</span> con IA generativa, respetando <span class="hl" data-hl="25.10">licencias, atribución y criterios éticos</span>, para piezas de <span class="hl" data-hl="29.00">comunicación laboral</span>.</p>
+  </div>
+</section>
+
+<!-- ===== S2 · cuatro temas (30,8–101,5) ===== -->
+<section class="scene" data-span="30.80,101.50">
+  <div class="rail-list">
+    <h2 class="a" data-in="31.00">Cuatro temas</h2>
+    <ol class="topics">
+      <li class="topic a" data-in="31.50" data-on="34.23,53.20"><div class="bgc"></div><div class="n">1<div class="nf">1</div></div><div class="tx"><strong>Ecosistema multimedia con IA</strong><span class="d">Herramientas, licencias y crédito</span></div></li>
+      <li class="topic a" data-in="31.80" data-on="53.20,73.45"><div class="bgc"></div><div class="n">2<div class="nf">2</div></div><div class="tx"><strong>Imágenes y gráficos</strong><span class="d">Para una campaña interna</span></div></li>
+      <li class="topic a" data-in="32.10" data-on="73.45,87.49"><div class="bgc"></div><div class="n">3<div class="nf">3</div></div><div class="tx"><strong>Audio y música</strong><span class="d">Una locución y una pista</span></div></li>
+      <li class="topic a" data-in="32.40" data-on="87.49,101.50"><div class="bgc"></div><div class="n">4<div class="nf">4</div></div><div class="tx"><strong>Clips y video breve</strong><span class="d">Un clip de 60 segundos</span></div></li>
+    </ol>
+  </div>
+  <div class="aecard a" data-in="34.63" data-out="53.05" data-fx="fade"><small>Aprendizaje esperado</small><p>Seleccionar herramientas de IA para contenido multimedia según el tipo de pieza, sus licencias y sus riesgos de uso.</p></div>
+  <div class="aecard a" data-in="53.60" data-out="73.30" data-fx="fade"><small>Aprendizaje esperado</small><p>Producir imágenes y gráficos con IA para una campaña interna, aplicando criterios de diseño y uso ético.</p></div>
+  <div class="aecard a" data-in="73.85" data-out="87.34" data-fx="fade"><small>Aprendizaje esperado</small><p>Generar audio, voz y música con IA para una pieza de comunicación, cuidando derechos de voz y atribución.</p></div>
+  <div class="aecard a" data-in="87.89" data-out="101.35" data-fx="fade"><small>Aprendizaje esperado</small><p>Elaborar un clip de 60 segundos que integre guion, voz, música e imagen generados con IA.</p></div>
+
+  <!-- imagen fija: imagen, audio y video conectados (media/img1.png; si no existe, queda el diagrama) -->
+  <div class="abs card a" data-in="31.20" data-out="34.00" style="left:1000px;top:200px;width:800px;height:450px;overflow:hidden">
+    <svg viewBox="0 0 800 450" style="position:absolute;inset:0;width:800px;height:450px">
+      <path class="a" data-in="31.70" data-fx="draw" data-len="300" stroke-dasharray="300" d="M262 225 C 320 150, 340 150, 400 150" style="fill:none;stroke:var(--gm);stroke-width:3"/>
+      <path class="a" data-in="32.20" data-fx="draw" data-len="300" stroke-dasharray="300" d="M400 300 C 460 300, 480 300, 538 225" style="fill:none;stroke:var(--gm);stroke-width:3"/>
+      <circle class="a" data-in="31.50" data-fx="pop" cx="190" cy="225" r="72" style="transform-box:fill-box;transform-origin:center;fill:var(--fr)"/>
+      <circle class="a" data-in="32.00" data-fx="pop" cx="400" cy="225" r="72" style="transform-box:fill-box;transform-origin:center;fill:var(--ce)"/>
+      <circle class="a" data-in="32.50" data-fx="pop" cx="610" cy="225" r="72" style="transform-box:fill-box;transform-origin:center;fill:var(--fu)"/>
+      <g style="fill:none;stroke:var(--txt);stroke-width:5;stroke-linecap:round;stroke-linejoin:round">
+        <rect x="160" y="200" width="60" height="50" rx="6"/><polyline points="160 244 182 222 220 248"/>
+        <line x1="375" y1="215" x2="375" y2="235"/><line x1="390" y1="200" x2="390" y2="250"/><line x1="405" y1="190" x2="405" y2="260"/><line x1="420" y1="205" x2="420" y2="245"/>
+        <rect x="582" y="214" width="56" height="40" rx="5"/><path d="M582 214l4-16 50 8-2 8"/>
+      </g>
+    </svg>
+    <img src="media/img1.png" alt="" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">
+  </div>
+
+  <!-- Tema 1: ecosistema multimedia -->
+  <div class="slot a" data-in="34.40" data-out="38.50" data-fx="lin" data-slot="clip1" style="left:760px;top:160px;width:1040px;height:585px"><div class="slot-label">Clip 1: Rosa compara dos afiches</div></div>
+  <div class="panel" data-span="34.23,53.20">
+    <div class="blk" style="top:0">
+      <h3 class="a" data-in="38.80">Elige la herramienta según</h3>
+      <div class="row3">
+        <div class="card ctrl a" data-in="39.60" style="min-height:0;padding:18px 22px"><strong style="font-size:26px">Tipo de pieza</strong>
+          <div class="slider" style="margin:30px 8px 0"><div class="knob" data-keys="39.60:50,40.40:6" style="left:50%"></div></div>
+          <div class="sl-lab" style="margin-top:18px;font-size:19px"><span>Imagen</span><span>Audio</span><span>Video</span></div></div>
+        <div class="card ctrl a" data-in="40.90" style="min-height:0;padding:18px 22px"><strong style="font-size:26px">Licencia</strong>
+          <div class="slider" style="margin:30px 8px 0"><div class="knob" data-keys="40.90:50,41.70:94" style="left:50%"></div></div>
+          <div class="sl-lab" style="margin-top:18px;font-size:19px"><span>Uso personal</span><span>En el trabajo</span></div></div>
+        <div class="card ctrl a" data-in="42.60" style="min-height:0;padding:18px 22px"><strong style="font-size:26px">Riesgos de uso</strong>
+          <div class="slider" style="margin:30px 8px 0"><div class="knob" data-keys="42.60:50,43.40:6" style="left:50%"></div></div>
+          <div class="sl-lab" style="margin-top:18px;font-size:19px"><span>Bajos</span><span>Altos</span></div></div>
+      </div>
+    </div>
+    <div class="blk row3" style="top:232px">
+      <div class="card lam a" data-in="39.00" style="height:100px"><div class="no">Herramienta 1</div><em></em><em></em><div class="x" data-sel="41.70" style="text-align:center">Solo uso personal</div></div>
+      <div class="card lam a" data-in="39.15" style="height:100px"><div class="no">Herramienta 2</div><em></em><em></em><div data-sel="43.60" style="position:absolute;inset:0;border-radius:20px;border:3px solid var(--ce);background:color-mix(in srgb,var(--ce) 28%,var(--card));display:grid;place-items:center;font:600 24px/1 Mont;color:var(--txt);opacity:0">La elegida</div></div>
+      <div class="card lam a" data-in="39.30" style="height:100px"><div class="no">Herramienta 3</div><em></em><em></em><div class="x" data-sel="43.20">Riesgo alto</div></div>
+    </div>
+    <div class="blk" style="top:362px">
+      <h3 class="a" data-in="44.30">Lee sus términos de uso</h3>
+      <div style="display:grid;grid-template-columns:150px 1fr 1fr;gap:20px">
+        <div class="card a" data-in="44.90" style="height:110px;display:grid;place-items:center"><svg viewBox="0 0 60 76" style="width:54px;height:70px"><rect x="3" y="3" width="54" height="70" rx="6" style="fill:var(--card2);stroke:var(--gc);stroke-width:3"/><g style="stroke:var(--gm);stroke-width:4;stroke-linecap:round"><line x1="13" y1="20" x2="47" y2="20"/><line x1="13" y1="32" x2="47" y2="32"/><line x1="13" y1="44" x2="47" y2="44"/><line x1="13" y1="56" x2="34" y2="56"/></g></svg></div>
+        <div class="card box3 on a" data-in="46.60" style="min-height:0;height:110px;display:flex;align-items:center;gap:20px"><div class="ib" style="background:var(--ce);margin:0"><svg class="ic" viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div><strong>Qué permiten</strong></div>
+        <div class="card box3 warn a" data-in="47.70" style="min-height:0;height:110px;display:flex;align-items:center;gap:20px"><div class="ib" style="background:var(--fu);margin:0"><svg class="ic" viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg></div><strong>Qué prohíben</strong></div>
+      </div>
+    </div>
+    <div class="blk" style="top:552px">
+      <h3 class="a" data-in="48.90">Da crédito</h3>
+      <div class="chain" data-focus="50.00,52.60,1.04" style="gap:12px">
+        <div class="step a" data-in="49.70" data-fx="pop">Título</div>
+        <div class="step a" data-in="50.05" data-fx="pop">Autor</div>
+        <div class="step a" data-in="51.35" data-fx="pop">Fuente</div>
+        <div class="step hi a" data-in="52.00" data-fx="pop">Licencia</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tema 2: imágenes y gráficos -->
+  <div class="slot a" data-in="53.40" data-out="58.30" data-fx="lin" data-slot="clip2" style="left:760px;top:160px;width:1040px;height:585px"><div class="slot-label">Clip 2: Andrés y el afiche en la bodega</div></div>
+  <div class="panel" data-span="53.20,73.45">
+    <div class="blk" style="top:0">
+      <h3 class="a" data-in="58.55">Un prompt visual, por partes</h3>
+      <div class="pieces">
+        <div class="piece a" data-in="59.85"><span class="chip">Sujeto</span><div class="ex">«una trabajadora de bodega empujando un carro»</div></div>
+        <div class="piece a" data-in="60.75"><span class="chip">Contexto</span><div class="ex">«en un pasillo amplio y despejado»</div></div>
+        <div class="piece a" data-in="61.55"><span class="chip">Estilo</span><div class="ex">«ilustración plana con colores sólidos»</div></div>
+        <div class="piece a" data-in="62.15" data-fx="pop"><span class="chip" style="background:var(--ce)">Imagen</span><div class="ex" style="padding:0;overflow:hidden;position:relative">
+          <svg viewBox="0 0 224 128" style="position:absolute;inset:0;width:100%;height:100%">
+            <rect width="224" height="128" style="fill:var(--card2)"/>
+            <rect x="0" y="10" width="34" height="100" style="fill:var(--gr)"/><rect x="190" y="10" width="34" height="100" style="fill:var(--gr)"/>
+            <g style="stroke:var(--gm);stroke-width:3"><line x1="0" y1="40" x2="34" y2="40"/><line x1="0" y1="72" x2="34" y2="72"/><line x1="190" y1="40" x2="224" y2="40"/><line x1="190" y1="72" x2="224" y2="72"/></g>
+            <line x1="0" y1="110" x2="224" y2="110" style="stroke:var(--gm);stroke-width:2"/>
+            <circle cx="92" cy="44" r="11" style="fill:var(--fr)"/><path d="M80 98V66a12 12 0 0 1 24 0v32z" style="fill:var(--fr)"/>
+            <rect x="112" y="72" width="46" height="28" rx="4" style="fill:var(--ce)"/><line x1="104" y1="66" x2="114" y2="76" style="stroke:var(--ce);stroke-width:4"/>
+            <circle cx="120" cy="104" r="5" style="fill:var(--gc)"/><circle cx="150" cy="104" r="5" style="fill:var(--gc)"/>
+          </svg></div></div>
+      </div>
+    </div>
+    <div class="blk" style="top:292px">
+      <h3 class="a" data-in="62.60">Ordena la pieza</h3>
+      <div class="row3">
+        <div class="card a" data-in="63.55" style="padding:14px 18px;display:flex;align-items:center;gap:18px"><svg viewBox="0 0 110 78" style="width:110px;height:78px;flex:none"><rect width="110" height="78" rx="8" style="fill:var(--gr)"/><rect x="12" y="14" width="86" height="16" rx="3" style="fill:var(--txt)"/><rect x="12" y="40" width="60" height="7" rx="3" style="fill:var(--gc)"/><rect x="12" y="54" width="48" height="7" rx="3" style="fill:var(--gc)"/></svg><strong style="font:400 28px/1.1 Varela">Contraste</strong></div>
+        <div class="card a" data-in="64.50" style="padding:14px 18px;display:flex;align-items:center;gap:18px"><svg viewBox="0 0 110 78" style="width:110px;height:78px;flex:none"><rect width="110" height="78" rx="8" style="fill:var(--card2);stroke:var(--line2);stroke-width:2"/><rect x="12" y="12" width="86" height="24" rx="3" style="fill:var(--fr)"/><rect x="12" y="46" width="54" height="6" rx="3" style="fill:var(--gc)"/><rect x="12" y="58" width="40" height="5" rx="2.5" style="fill:var(--gm)"/></svg><strong style="font:400 28px/1.1 Varela">Escala</strong></div>
+        <div class="card a" data-in="65.25" style="padding:14px 18px;display:flex;align-items:center;gap:18px"><svg viewBox="0 0 110 78" style="width:110px;height:78px;flex:none"><rect width="110" height="78" rx="8" style="fill:var(--card2);stroke:var(--line2);stroke-width:2"/><rect x="10" y="12" width="40" height="54" rx="6" style="fill:none;stroke:var(--ce);stroke-width:2.5"/><rect x="60" y="12" width="40" height="54" rx="6" style="fill:none;stroke:var(--ce);stroke-width:2.5"/><g style="fill:var(--gc)"><rect x="16" y="20" width="28" height="6" rx="3"/><rect x="16" y="32" width="22" height="6" rx="3"/><rect x="66" y="20" width="28" height="6" rx="3"/><rect x="66" y="32" width="22" height="6" rx="3"/></g></svg><strong style="font:400 28px/1.1 Varela">Agrupación</strong></div>
+      </div>
+    </div>
+    <div class="blk row2" style="top:506px">
+      <div class="card a" data-in="66.40" style="padding:16px 20px">
+        <strong style="display:block;font:400 28px/1.1 Varela">Revisa los sesgos</strong>
+        <svg viewBox="0 0 440 120" style="width:100%;height:118px;margin-top:6px">
+          <g class="a" data-in="66.55" data-out="68.25" data-fx="fade" style="fill:var(--gm)">
+            <circle cx="60" cy="30" r="16"/><path d="M36 112V82a24 24 0 0 1 48 0v30z"/>
+            <circle cx="165" cy="30" r="16"/><path d="M141 112V82a24 24 0 0 1 48 0v30z"/>
+            <circle cx="270" cy="30" r="16"/><path d="M246 112V82a24 24 0 0 1 48 0v30z"/>
+            <circle cx="375" cy="30" r="16"/><path d="M351 112V82a24 24 0 0 1 48 0v30z"/>
+          </g>
+          <g class="a" data-in="68.25" data-fx="fade">
+            <circle cx="60" cy="38" r="14" style="fill:var(--fr)"/><path d="M40 112V86a20 20 0 0 1 40 0v26z" style="fill:var(--fr)"/>
+            <circle cx="165" cy="26" r="17" style="fill:var(--ce)"/><path d="M139 112V78a26 26 0 0 1 52 0v34z" style="fill:var(--ce)"/>
+            <circle cx="270" cy="34" r="15" style="fill:var(--fu)"/><path d="M248 112V84a22 22 0 0 1 44 0v28z" style="fill:var(--fu)"/>
+            <circle cx="375" cy="30" r="16" style="fill:var(--gc)"/><path d="M351 112V82a24 24 0 0 1 48 0v30z" style="fill:var(--gc)"/>
+          </g>
+          <path class="a" data-in="67.10" data-out="68.25" data-fx="draw" data-len="400" stroke-dasharray="400" d="M215 60a48 48 0 1 0 96 0a48 48 0 1 0-96 0M297 95l34 24" style="fill:none;stroke:var(--txt);stroke-width:5;stroke-linecap:round"/>
+        </svg>
+      </div>
+      <div class="card a" data-in="69.25" style="padding:22px 24px;display:flex;flex-direction:column;justify-content:center;gap:12px">
+        <div class="step" style="align-self:flex-start">La IA genera la imagen</div>
+        <svg class="a" data-in="70.60" data-fx="fade" viewBox="0 0 24 34" style="width:24px;height:34px;margin-left:40px;color:var(--gm)"><path d="M12 3v26m-7-7 7 7 7-7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="step hi a" data-in="71.30" style="align-self:flex-start">La pieza la diseñas tú</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tema 3: audio y música -->
+  <div class="slot a" data-in="73.60" data-out="79.50" data-fx="lin" data-slot="clip3" style="left:1000px;top:160px;width:800px;height:450px"><div class="slot-label">Clip 3: Camila escucha con audífonos</div></div>
+  <div class="panel" data-span="73.45,87.49">
+    <div class="blk" style="top:0">
+      <h3 class="a" data-in="79.90">La voz es parte de la identidad</h3>
+      <div style="display:grid;grid-template-columns:300px 1fr;gap:24px">
+        <div class="card a" data-in="80.10" style="height:270px;position:relative">
+          <svg viewBox="0 0 300 260" style="position:absolute;inset:4px;width:290px;height:260px">
+            <path class="a" data-in="80.90" data-fx="draw" data-len="760" stroke-dasharray="760" d="M95 245V200C60 185 50 150 55 115C60 65 100 30 150 30C200 30 232 65 232 108C232 120 230 128 236 138L250 160C253 166 249 170 242 170H236V190C236 202 226 208 212 207L190 205V245" style="fill:none;stroke:var(--gc);stroke-width:4;stroke-linecap:round;stroke-linejoin:round"/>
+            <path class="a" data-in="81.30" data-fx="draw" data-len="240" stroke-dasharray="240" d="M258 150q8-10 0-20M270 160q14-20 0-40M282 170q20-30 0-60" style="fill:none;stroke:var(--ce);stroke-width:4;stroke-linecap:round"/>
+            <path class="a" data-in="81.90" data-fx="draw" data-len="400" stroke-dasharray="400" d="M115 118a8 8 0 0 1 8-8h54a8 8 0 0 1 8 8v40a8 8 0 0 1-8 8h-54a8 8 0 0 1-8-8zM128 110v-14a22 22 0 0 1 44 0v14" style="fill:none;stroke:var(--fu);stroke-width:5;stroke-linecap:round;stroke-linejoin:round"/>
+          </svg>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:16px;justify-content:center">
+          <div class="out a" data-in="83.80"><div class="L" style="background:var(--fr)"><svg class="ic" style="width:24px;height:24px" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><line x1="12" y1="18" x2="12" y2="21"/></svg></div><q style="font:600 26px/1.2 Mont;quotes:none">Derechos de voz</q><div class="box" style="width:44px;height:44px"><div class="f" data-check="84.30"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div></div>
+          <div class="out a" data-in="85.00"><div class="L" style="background:var(--fr)"><svg class="ic" style="width:24px;height:24px" viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16z"/></svg></div><q style="font:600 26px/1.2 Mont;quotes:none">Consentimiento</q><div class="box" style="width:44px;height:44px"><div class="f" data-check="85.60"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div></div>
+          <div class="out a" data-in="86.30"><div class="L" style="background:var(--fr)"><svg class="ic" style="width:24px;height:24px" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg></div><q style="font:600 26px/1.2 Mont;quotes:none">Atribución</q><div class="box" style="width:44px;height:44px"><div class="f" data-check="86.80"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="blk" style="top:490px;display:flex;flex-direction:column;gap:14px">
+      <div style="display:flex;align-items:center;gap:20px"><span class="pill main a" data-in="76.65" style="width:170px;justify-content:center">Locución</span>
+        <svg viewBox="0 0 700 60" style="width:700px;height:60px"><path class="a" data-in="76.80" data-fx="draw" data-len="900" stroke-dasharray="900" d="M0 30q12-24 24 0t24 0q12-8 24 0t24 0q12-28 24 0t24 0q12-16 24 0t24 0q12-26 24 0t24 0q12-10 24 0t24 0q12-22 24 0t24 0q12-14 24 0t24 0q12-27 24 0t24 0q12-8 24 0t24 0q12-20 24 0t24 0q12-12 24 0t24 0q12-24 24 0t24 0q12-6 24 0" style="fill:none;stroke:var(--fr);stroke-width:4;stroke-linecap:round"/></svg></div>
+      <div style="display:flex;align-items:center;gap:20px"><span class="pill ce a" data-in="77.65" style="width:170px;justify-content:center">Pista</span>
+        <svg viewBox="0 0 700 60" style="width:700px;height:60px"><path class="a" data-in="77.80" data-fx="draw" data-len="900" stroke-dasharray="900" d="M0 30c40-30 60-30 100 0s60 30 100 0 60-30 100 0 60 30 100 0 60-30 100 0 60 30 100 0 60-30 100 0" style="fill:none;stroke:var(--ce);stroke-width:4;stroke-linecap:round"/></svg></div>
+      <div><span class="pill alt a" data-in="78.65" data-fx="pop">Generadas con IA</span></div>
+    </div>
+  </div>
+
+  <!-- Tema 4: clips y video breve -->
+  <div class="slot a" data-in="87.60" data-out="91.70" data-fx="lin" data-slot="clip4" style="left:760px;top:160px;width:1040px;height:585px"><div class="slot-label">Clip 4: preparar un video breve</div></div>
+  <div class="panel" data-span="87.49,101.50">
+    <div class="blk" style="top:0">
+      <h3 class="a" data-in="91.95">Cuatro pistas, un solo clip</h3>
+      <div class="card a" data-in="92.05" style="padding:20px 26px;display:grid;grid-template-columns:1fr 210px;gap:24px;align-items:center">
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <div style="display:flex;align-items:center;gap:16px"><span style="width:110px;font:400 24px/1 Varela">Guion</span><div class="bar" style="flex:1;margin:0"><i class="a" data-in="92.10" data-d="0.8" data-fx="grow" style="width:100%"></i></div></div>
+          <div style="display:flex;align-items:center;gap:16px"><span style="width:110px;font:400 24px/1 Varela">Voz</span><div class="bar" style="flex:1;margin:0"><i class="a" data-in="92.30" data-d="0.8" data-fx="grow" style="width:88%;background:var(--ce)"></i></div></div>
+          <div style="display:flex;align-items:center;gap:16px"><span style="width:110px;font:400 24px/1 Varela">Música</span><div class="bar" style="flex:1;margin:0"><i class="a" data-in="92.95" data-d="0.8" data-fx="grow" style="width:100%;background:var(--gm)"></i></div></div>
+          <div style="display:flex;align-items:center;gap:16px"><span style="width:110px;font:400 24px/1 Varela">Imagen</span><div class="bar" style="flex:1;margin:0"><i class="a" data-in="93.65" data-d="0.8" data-fx="grow" style="width:94%;background:var(--fu)"></i></div></div>
+        </div>
+        <div class="kw a" data-in="94.95" data-fx="pop" style="flex-direction:column;align-items:center;gap:4px"><b style="font-size:110px">60</b><span>segundos</span></div>
+      </div>
+    </div>
+    <div class="blk" style="top:330px">
+      <h3 class="a" data-in="96.60">En tres etapas</h3>
+      <div class="chain">
+        <div class="step a" data-in="97.75">Preproducción</div>
+        <svg class="arrow a" data-in="98.30" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="step a" data-in="98.95">Producción</div>
+        <svg class="arrow a" data-in="99.40" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="step hi a" data-in="99.85">Postproducción</div>
+      </div>
+      <div class="a" data-in="97.60" data-fx="fade" style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px;width:900px">
+        <div class="bar" style="margin:0;height:14px"><i class="a" data-in="97.75" data-d="0.9" data-fx="grow" style="width:100%"></i></div>
+        <div class="bar" style="margin:0;height:14px"><i class="a" data-in="98.95" data-d="0.9" data-fx="grow" style="width:100%"></i></div>
+        <div class="bar" style="margin:0;height:14px"><i class="a" data-in="99.85" data-d="0.9" data-fx="grow" style="width:100%"></i></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== S3 · Rosa, Andrés, Camila y las herramientas (101,5–118,8) ===== -->
+<section class="scene" data-span="101.50,118.77">
+  <h2 class="abs a" data-in="101.75" style="left:120px;top:140px">Te acompañan</h2>
+  <div class="abs row3" style="left:120px;top:236px;width:1680px">
+    <div class="card box3 a" data-in="102.65"><div class="ib" style="background:var(--fr)"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg></div><strong>Rosa</strong><span class="a" data-in="103.55" data-fx="fade">Recepcionista de un centro médico</span></div>
+    <div class="card box3 a" data-in="105.70"><div class="ib" style="background:var(--fr)"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg></div><strong>Andrés</strong><span class="a" data-in="106.60" data-fx="fade">Encargado de bodega en una distribuidora</span></div>
+    <div class="card box3 a" data-in="109.45"><div class="ib" style="background:var(--fr)"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg></div><strong>Camila</strong><span class="a" data-in="110.35" data-fx="fade">Asistente administrativa en una constructora</span></div>
+  </div>
+  <h3 class="abs a" data-in="113.15" style="left:120px;top:500px">Herramientas gratuitas</h3>
+  <span class="abs pill main a" data-in="114.60" data-fx="pop" style="left:520px;top:490px">Gratis</span>
+  <div class="abs row3" style="left:120px;top:566px;width:1680px">
+    <div class="card box3 a" data-in="115.70" style="display:flex;align-items:center;gap:20px;min-height:0"><div class="ib" style="margin:0"><svg class="ic" viewBox="0 0 24 24"><path d="M12 3c.6 4.6 3.4 7.4 9 9-5.6 1.6-8.4 4.4-9 9-.6-4.6-3.4-7.4-9-9 5.6-1.6 8.4-4.4 9-9z"/></svg></div><div><strong>Gemini</strong><span>Imágenes y textos</span></div></div>
+    <div class="card box3 a" data-in="116.60" style="display:flex;align-items:center;gap:20px;min-height:0"><div class="ib" style="margin:0"><svg class="ic" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><polyline points="21 17 15 11 5 20"/></svg></div><div><strong>Canva</strong><span>Diseño y montaje</span></div></div>
+    <div class="card box3 a" data-in="117.30" style="display:flex;align-items:center;gap:20px;min-height:0"><div class="ib" style="margin:0"><svg class="ic" viewBox="0 0 24 24"><line x1="4" y1="10" x2="4" y2="14"/><line x1="8" y1="6" x2="8" y2="18"/><line x1="12" y1="3" x2="12" y2="21"/><line x1="16" y1="7" x2="16" y2="17"/><line x1="20" y1="10" x2="20" y2="14"/></svg></div><div><strong>ElevenLabs</strong><span>Voz y música</span></div></div>
+  </div>
+</section>
+
+<!-- ===== S4 · cómo vas a avanzar (118,8–133,6) ===== -->
+<section class="scene" data-span="118.77,133.56">
+  <div class="left-col" style="width:820px">
+    <h2 class="a" data-in="119.00" style="font-size:58px">¿Cómo vas a saber si vas aprendiendo?</h2>
+    <div class="ev">
+      <div class="it a" data-in="121.55"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><polyline points="7.5 12.5 10.5 15.5 16.5 9"/></svg></div><div><strong>Al cerrar cada tema</strong><span class="a" data-in="122.95" data-fx="fade">Pones a prueba lo que aprendiste</span></div></div>
+      <div class="it a" data-in="124.85"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"/><polyline points="3 4 3 9 8 9"/></svg></div><div><strong>Si algo no quedó claro</strong><span class="a" data-in="126.45" data-fx="fade">Sabrás qué repasar</span></div></div>
+      <div class="it a" data-in="128.05"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg></div><div><strong>Casos reales</strong><span class="a" data-in="129.85" data-fx="fade">Del uso de la IA generativa en el trabajo</span></div></div>
+    </div>
+  </div>
+  <div class="abs card loop a" data-in="119.60" data-out="127.80" style="left:1000px;top:200px;width:800px;height:450px">
+    <div class="ln a" data-in="119.90"><span class="n">1</span>Aprendes</div>
+    <div class="ln a" data-in="122.95"><span class="n">2</span>Pones a prueba</div>
+    <div class="ln warn a" data-in="126.45"><span class="n">3</span>Repasas lo que faltó</div>
+    <svg class="back a" data-in="126.75" data-fx="fade" viewBox="0 0 120 300"><path d="M20 260 C 100 260, 100 40, 20 40"/><polyline points="34 28 20 40 34 52"/></svg>
+  </div>
+  <div class="abs card a" data-in="128.10" style="left:1000px;top:200px;width:800px;height:450px">
+    <svg viewBox="0 0 800 450" style="position:absolute;inset:0;width:800px;height:450px">
+      <rect x="250" y="50" width="240" height="320" rx="16" style="fill:var(--card2);stroke:var(--gc);stroke-width:4"/>
+      <g style="stroke:var(--gm);stroke-width:8;stroke-linecap:round"><line x1="290" y1="110" x2="450" y2="110"/><line x1="290" y1="150" x2="450" y2="150"/><line x1="290" y1="190" x2="420" y2="190"/><line x1="290" y1="230" x2="450" y2="230"/><line x1="290" y1="270" x2="400" y2="270"/><line x1="290" y1="310" x2="440" y2="310"/></g>
+      <line class="a" data-in="130.30" data-fx="draw" data-len="160" stroke-dasharray="160" x1="290" y1="230" x2="450" y2="230" style="stroke:var(--fr);stroke-width:8;stroke-linecap:round"/>
+      <path class="a" data-in="129.50" data-fx="draw" data-len="600" stroke-dasharray="600" d="M370 230a70 70 0 1 0 140 0a70 70 0 1 0-140 0M492 282l60 60" style="fill:none;stroke:var(--ce);stroke-width:10;stroke-linecap:round"/>
+    </svg>
+  </div>
+</section>
+
+<!-- ===== S5 · tu proyecto, con EVA (133,6–141,7) ===== -->
+<section class="scene" data-span="133.56,141.68">
+  <div class="left-col" style="width:900px">
+    <span class="tag a" data-in="133.80">Proyecto aplicado</span>
+    <h1 class="a" data-in="134.20" style="margin-top:24px;font-size:96px">Tu proyecto</h1>
+    <div class="hsteps" style="margin-top:44px">
+      <div class="hs a" data-in="137.25"><span class="n">1</span><div><strong>Una tarea real de tu trabajo</strong></div></div>
+    </div>
+    <div class="chain" style="margin-top:30px">
+      <div class="step a" data-in="137.60">Tu tarea</div>
+      <svg class="arrow a" data-in="138.00" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="step a" data-in="138.35">Con IA</div>
+      <svg class="arrow a" data-in="138.75" data-fx="fade" viewBox="0 0 62 24"><path d="M8 12h44m-8-7 8 7-8 7" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="step hi a" data-in="139.15">Mejora módulo a módulo</div>
+    </div>
+    <div class="mrow" style="justify-content:flex-start;gap:26px;margin-top:40px">
+      <div class="m hecho a" data-in="139.40" data-fx="pop"><i><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></i><span>M1</span></div>
+      <div class="m hecho a" data-in="139.55" data-fx="pop"><i><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></i><span>M2</span></div>
+      <div class="m hecho a" data-in="139.70" data-fx="pop"><i><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></i><span>M3</span></div>
+      <div class="m on a" data-in="139.85" data-fx="pop"><i></i><span>M4</span></div>
+      <div class="m a" data-in="140.00" data-fx="pop"><i></i><span>M5</span></div>
+      <div class="m a" data-in="140.15" data-fx="pop"><i></i><span>M6</span></div>
+    </div>
+  </div>
+  <div class="abs avatar-frame a" data-in="133.80" data-d="0.3" data-fx="lin" data-slot="eva_momento" style="left:1240px;top:150px;width:480px;height:600px"><div class="slot-label">EVA (momento clave)</div></div>
+</section>
+
+<!-- ===== S6 · cierre con EVA (141,7–fin) ===== -->
+<section class="scene" data-span="141.68,1013.19">
+  <img class="abs a" data-in="141.80" data-fx="fade" src="../../scripts/lib/marca/etech-logo-sobre-oscuro.svg" alt="" style="left:120px;top:52px;height:48px">
+  <svg class="arcos" viewBox="0 0 560 280" style="right:-40px;bottom:-30px;width:560px;height:280px;opacity:.55"><circle cx="560" cy="280" r="154" fill="none" stroke="#BE3455" stroke-width="3"/><circle cx="560" cy="280" r="244" fill="none" stroke="#BE3455" stroke-width="2.5" opacity=".8"/><circle cx="560" cy="280" r="333" fill="none" stroke="#BE3455" stroke-width="2" opacity=".6"/><circle cx="560" cy="280" r="423" fill="none" stroke="#BE3455" stroke-width="1.5" opacity=".4"/></svg>
+  <div class="left-col" style="width:900px">
+    <h2 class="a" data-in="142.10" style="font-size:62px">Para empezar</h2>
+    <div class="checks" style="gap:18px">
+      <div class="ck a" data-in="143.50" style="font-size:30px"><div class="box"><div class="f" data-check="144.90"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Una campaña interna para tu trabajo</div>
+      <div class="ck a" data-in="146.20" style="font-size:30px"><div class="box"><div class="f" data-check="148.40"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Algo que tu equipo necesite recordar o cambiar</div>
+      <div class="ck a" data-in="149.35" style="font-size:30px"><div class="box"><div class="f" data-check="151.30"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Si no se te ocurre, pregúntale a tu jefatura</div>
+    </div>
+    <div class="quote a" data-in="152.75"><small>QUÉDATE CON ESTA IDEA</small><span class="hl" data-hl="155.00" style="background-image:linear-gradient(var(--noche),var(--noche))">«Gratis»</span> no siempre significa <span class="hl" data-hl="157.10" style="background-image:linear-gradient(var(--noche),var(--noche))">«utilizable»</span>.</div>
+    <div class="bye a" data-in="158.40">› Nos vemos en el primer tema</div>
+  </div>
+  <div class="abs avatar-frame a" data-in="141.70" data-d="0.3" data-fx="lin" data-slot="avatar_cierre"><div class="slot-label">EVA (cierre)</div></div>
+</section>
+<div id="subs"><div></div></div>
+</div>
+<script>
+const SUBS = [[0.00,6.17,"¡Hola! Te doy la bienvenida al Módulo 4<br>del curso IA generativa para entornos laborales:"],[6.44,9.39,"Contenido visual, sonoro y audiovisual."],[9.68,13.69,"Aquí pasas del texto a las imágenes,<br>el audio y el video,"],[13.96,16.57,"para crear piezas de comunicación en tu trabajo."],[17.34,19.27,"La competencia de este módulo es:"],[19.30,24.27,"producir contenido visual,<br>sonoro y audiovisual con IA generativa,"],[24.30,30.45,"respetando licencias, atribución y criterios<br>éticos, para piezas de comunicación laboral."],[31.04,34.19,"En este módulo vas a recorrer cuatro temas."],[34.64,37.73,"Primero, el ecosistema multimedia con IA."],[38.02,40.77,"Vas a elegir herramientas según el tipo de pieza,"],[40.98,43.89,"la licencia de lo que generan y sus riesgos de uso."],[44.20,48.51,"Vas a leer sus términos de uso<br>para saber qué permiten y qué prohíben,"],[48.80,50.99,"y a dar crédito con título, autor,"],[51.42,52.81,"fuente y licencia."],[53.56,57.75,"Segundo, las imágenes y los gráficos<br>para una campaña interna."],[57.94,64.61,"Vas a escribir prompts visuales con sujeto,<br>contexto y estilo, a ordenar la pieza con contraste,"],[64.64,68.95,"escala y agrupación, y a revisar<br>los sesgos antes de publicar."],[69.24,73.07,"La IA genera la imagen, pero la pieza la diseñas tú."],[73.90,79.57,"Tercero, el audio y la música:<br>una locución y una pista generadas con IA."],[79.80,84.89,"La voz es parte de la identidad de una persona,<br>así que vas a cuidar los derechos de voz,"],[85.06,87.15,"el consentimiento y la atribución."],[87.84,90.57,"Y cuarto, los clips y el video breve:"],[90.96,96.23,"vas a unir guion, voz, música e imagen<br>en un clip de sesenta segundos,"],[96.48,101.01,"en tres etapas: preproducción,<br>producción y postproducción."],[101.80,106.37,"Te acompañan Rosa, recepcionista<br>de un centro médico; Andrés,"],[106.68,110.07,"encargado de bodega en una distribuidora; y Camila,"],[110.40,112.95,"asistente administrativa en una constructora."],[113.20,118.35,"Vas a trabajar con herramientas gratuitas,<br>como Gemini, Canva y ElevenLabs."],[119.02,121.29,"¿Y cómo vas a saber si vas aprendiendo?"],[121.64,126.39,"Al cerrar cada tema pondrás a prueba<br>lo que aprendiste, y si algo no quedó claro,"],[126.54,127.89,"sabrás qué repasar."],[128.14,133.07,"Además, vas a analizar casos reales<br>del uso de la IA generativa en el trabajo."],[133.90,137.01,"Y todo esto lo vas a llevar a tu proyecto aplicado:"],[137.28,141.31,"la tarea real de tu trabajo<br>que vas mejorando módulo a módulo."],[142.02,145.91,"Para empezar, piensa en una campaña<br>interna para tu lugar de trabajo:"],[146.24,148.93,"algo que tu equipo necesite recordar o cambiar."],[149.38,152.75,"Si no se te ocurre, pregúntale<br>a tu jefatura qué le serviría."],[152.78,155.65,"Y quédate con esta idea: «gratis»"],[155.68,158.19,"no siempre significa «utilizable»."],[158.50,159.97,"¡Nos vemos en el primer tema!"]];
+const WORDS = [[0.0,0.3],[0.68,0.86],[0.86,1.04],[1.04,1.14],[1.14,1.68],[1.68,1.94],[1.94,2.28],[2.28,2.68],[2.68,3.02],[3.02,3.34],[3.34,3.98],[3.98,4.66],[4.66,4.94],[4.94,5.46],[5.46,6.02],[6.44,6.76],[6.76,7.38],[7.8,8.16],[8.16,8.48],[8.48,9.24],[9.68,9.96],[9.96,10.4],[10.4,10.56],[10.56,11.16],[11.16,11.28],[11.28,11.44],[11.44,11.9],[12.34,12.48],[12.48,12.76],[12.76,13.06],[13.06,13.18],[13.18,13.54],[13.96,14.06],[14.06,14.34],[14.34,14.76],[14.76,14.88],[14.88,15.6],[15.6,15.88],[15.88,15.98],[15.98,16.42],[17.34,17.54],[17.54,18.12],[18.12,18.3],[18.3,18.52],[18.52,18.94],[18.94,19.3],[19.3,20.18],[20.18,20.56],[20.56,21.18],[21.5,21.98],[21.98,22.2],[22.2,22.9],[22.9,23.12],[23.12,23.56],[23.56,24.3],[24.3,25.18],[25.18,25.8],[26.18,26.76],[26.76,27.08],[27.08,27.54],[27.54,28.02],[28.02,28.52],[28.52,28.94],[28.94,29.08],[29.08,29.74],[29.74,30.3],[31.04,31.42],[31.42,31.64],[31.64,32.04],[32.04,32.38],[32.38,32.52],[32.52,32.94],[32.94,33.36],[33.36,34.04],[34.64,35.16],[35.6,35.62],[35.62,36.2],[36.2,36.84],[36.84,37.16],[37.16,37.58],[38.02,38.24],[38.24,38.36],[38.36,38.7],[38.7,39.34],[39.34,39.62],[39.62,39.82],[39.82,40.08],[40.08,40.16],[40.16,40.62],[40.98,41.06],[41.06,41.52],[41.52,41.66],[41.66,41.78],[41.78,41.9],[41.9,42.46],[42.46,42.68],[42.68,42.84],[42.84,43.22],[43.22,43.44],[43.44,43.74],[44.2,44.38],[44.38,44.54],[44.54,44.7],[44.7,44.96],[44.96,45.44],[45.44,45.58],[45.58,45.84],[45.84,46.12],[46.12,46.44],[46.44,46.74],[46.74,47.42],[47.42,47.6],[47.6,47.84],[47.84,48.36],[48.8,48.92],[48.92,48.98],[48.98,49.1],[49.1,49.58],[49.58,49.78],[49.78,50.12],[50.12,50.84],[51.42,51.76],[51.76,52.08],[52.08,52.66],[53.56,54.1],[54.52,54.76],[54.76,55.2],[55.2,55.46],[55.46,55.6],[55.6,56.14],[56.14,56.36],[56.36,56.56],[56.56,57.08],[57.08,57.6],[57.94,58.2],[58.2,58.32],[58.32,58.7],[58.7,59.12],[59.12,59.82],[59.82,59.98],[59.98,60.66],[60.84,61.2],[61.2,61.68],[61.68,62.14],[62.54,62.66],[62.66,63.04],[63.04,63.16],[63.16,63.52],[63.52,63.68],[63.68,64.5],[64.64,65.14],[65.14,65.4],[65.4,65.98],[66.46,66.58],[66.58,66.66],[66.66,67.04],[67.04,67.2],[67.2,67.62],[67.62,68.08],[68.08,68.24],[68.24,68.8],[69.24,69.42],[69.42,69.72],[69.72,70.18],[70.18,70.28],[70.28,70.68],[71.0,71.2],[71.2,71.36],[71.36,71.9],[71.9,72.12],[72.12,72.58],[72.58,72.92],[73.9,74.62],[74.92,75.04],[75.04,75.32],[75.32,75.6],[75.6,75.72],[75.72,76.1],[76.6,76.78],[76.78,77.32],[77.32,77.6],[77.6,77.76],[77.76,78.12],[78.12,78.72],[78.72,79.0],[79.0,79.42],[79.8,80.06],[80.06,80.3],[80.3,80.6],[80.6,80.84],[80.84,81.06],[81.06,81.14],[81.14,81.64],[81.64,81.78],[81.78,81.94],[81.94,82.46],[82.82,83.02],[83.02,83.18],[83.18,83.32],[83.32,83.44],[83.44,83.76],[83.76,83.92],[83.92,84.22],[84.22,84.46],[84.46,84.74],[85.06,85.14],[85.14,86.02],[86.02,86.34],[86.34,86.46],[86.46,87.0],[87.84,88.1],[88.1,88.4],[88.94,89.08],[89.08,89.4],[89.4,89.7],[89.7,89.8],[89.8,90.06],[90.06,90.42],[90.96,91.1],[91.1,91.26],[91.26,91.52],[91.52,91.94],[92.26,92.62],[93.0,93.5],[93.5,93.74],[93.74,94.16],[94.16,94.48],[94.48,94.62],[94.62,94.82],[94.82,95.02],[95.02,95.42],[95.42,96.08],[96.48,96.74],[96.74,96.94],[96.94,97.54],[97.88,98.6],[99.04,99.34],[99.34,99.98],[99.98,100.86],[101.8,102.06],[102.06,102.72],[102.72,103.16],[103.66,104.32],[104.32,104.5],[104.5,104.62],[104.62,104.78],[104.78,105.32],[105.78,106.22],[106.68,107.2],[107.2,107.4],[107.4,107.8],[107.8,108.04],[108.04,108.22],[108.22,108.98],[109.4,109.52],[109.52,109.92],[110.4,110.78],[110.78,111.62],[111.62,111.86],[111.86,112.02],[112.02,112.8],[113.2,113.36],[113.36,113.5],[113.5,113.8],[113.8,114.1],[114.1,114.66],[114.66,115.4],[115.58,115.78],[115.78,116.32],[116.68,117.0],[117.0,117.36],[117.36,118.2],[119.02,119.36],[119.36,119.62],[119.62,119.82],[119.82,119.94],[119.94,120.22],[120.22,120.38],[120.38,120.54],[120.54,121.14],[121.64,121.8],[121.8,122.12],[122.12,122.44],[122.44,122.86],[123.0,123.32],[123.32,123.44],[123.44,123.68],[123.68,123.88],[123.88,123.98],[123.98,124.58],[124.92,125.1],[125.1,125.2],[125.2,125.44],[125.44,125.68],[125.68,125.96],[125.96,126.24],[126.54,126.92],[126.92,127.14],[127.14,127.74],[128.14,128.46],[128.46,129.02],[129.02,129.2],[129.2,129.58],[129.58,129.94],[129.94,130.6],[130.6,130.76],[130.76,130.98],[130.98,131.12],[131.12,131.24],[131.24,131.62],[131.62,132.26],[132.26,132.42],[132.42,132.52],[132.52,132.92],[133.9,134.16],[134.16,134.5],[134.5,134.92],[134.92,135.14],[135.14,135.3],[135.3,135.42],[135.42,135.62],[135.62,135.78],[135.78,135.9],[135.9,136.26],[136.26,136.86],[137.28,137.42],[137.42,137.66],[137.66,138.22],[138.22,138.38],[138.38,138.5],[138.5,138.92],[138.92,139.16],[139.16,139.32],[139.32,139.88],[139.88,140.48],[140.48,140.74],[140.74,141.16],[142.02,142.28],[142.28,142.64],[143.14,143.27],[143.27,143.4],[143.4,143.62],[143.62,144.1],[144.1,144.56],[144.56,144.76],[144.76,144.94],[144.94,145.16],[145.16,145.32],[145.32,145.76],[146.24,146.52],[146.52,146.66],[146.66,146.78],[146.78,147.02],[147.02,147.58],[147.58,148.3],[148.3,148.48],[148.48,148.78],[149.38,149.58],[149.58,149.72],[149.72,149.84],[149.84,149.92],[149.92,150.34],[150.66,151.06],[151.06,151.18],[151.18,151.26],[151.26,151.76],[151.76,152.08],[152.08,152.22],[152.22,152.78],[152.78,153.34],[153.34,153.74],[153.74,153.98],[153.98,154.2],[154.2,154.5],[155.04,155.68],[155.68,156.06],[156.06,156.46],[156.46,157.16],[157.16,158.04],[158.5,158.66],[158.66,158.94],[158.94,159.16],[159.16,159.26],[159.26,159.48],[159.48,159.82]];
+// Motor de animación de los videos de módulo (versión con la marca Empoderatech).
+// Lo usa armar_html.py: el cuerpo de cada video define SUBS (y WORDS sale de palabras.json).
+// Atributos: data-span="entra,sale" (escenas y paneles), clase .a + data-in/data-out/data-d/data-fx
+// (rise, fade, pop, grow, draw, lin), data-on (segmentos del encabezado y temas del riel), data-focus="t0,t1,zoom",
+// data-check="t", data-hl="t" (subrayado), data-sel="t" (marca de elegido), data-keys="t:pos,t:pos" (perilla, % de left),
+// data-slot="nombre" (recuadro de video que llena compose.py).
+window.SUBS = SUBS;
+const CUEW = SUBS.map(c=>WORDS.filter(w=>w[0]>=c[0]-0.05 && w[0]<c[1]));
+
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const ease=p=>1-Math.pow(1-p,3);
+const prog=(t,s,d)=>clamp((t-s)/d);
+const FADE=0.4;
+const r3=x=>Math.round(x*1000)/1000;
+const pares=s=>s.split(',').map(Number);
+
+const spans=[...document.querySelectorAll('[data-span]')].map(el=>{const [a,b]=pares(el.dataset.span);return {el,a,b};});
+const anims=[...document.querySelectorAll('.a')].map(el=>({el,s:+el.dataset.in,d:+(el.dataset.d||0.5),fx:el.dataset.fx||'rise',o:el.dataset.out?+el.dataset.out:null,len:+(el.dataset.len||400)}));
+const segs=[...document.querySelectorAll('.seg')].map(el=>{const [a,b]=pares(el.dataset.on);return {el,a,b,on:el.querySelector('.on'),tx:el.querySelector('span')};});
+const topics=[...document.querySelectorAll('.topic')].map(el=>{const [a,b]=pares(el.dataset.on);return {el,a,b,bg:el.querySelector('.bgc'),nf:el.querySelector('.nf'),tx:el.querySelector('.tx')};});
+const T0=topics.length?Math.min(...topics.map(k=>k.a)):0, T1=topics.length?Math.max(...topics.map(k=>k.b)):0;
+const toks=[...document.querySelectorAll('.tok')].map(el=>({el,s:+el.dataset.in}));
+const checks=[...document.querySelectorAll('[data-check]')].map(el=>({el,s:+el.dataset.check}));
+const hls=[...document.querySelectorAll('[data-hl]')].map(el=>({el,s:+el.dataset.hl}));
+const sels=[...document.querySelectorAll('[data-sel]')].map(el=>({el,s:+el.dataset.sel}));
+const knobs=[...document.querySelectorAll('[data-keys]')].map(el=>({el,k:el.dataset.keys.split(',').map(p=>p.split(':').map(Number))}));
+const subEl=document.querySelector('#subs div');
+const DUR=SUBS[SUBS.length-1][1];
+const stage=document.getElementById('stage'), glow=document.getElementById('glow'), bar=document.getElementById('progress');
+// cámara: todo lo que no es recuadro de video va en una capa que se acerca, entra con zoom y se enfoca en lo que se nombra
+const cams=[...document.querySelectorAll('section.scene')].map(sc=>{
+  const w=document.createElement('div'); w.className='camwrap';
+  [...sc.children].filter(c=>!c.matches('[data-slot]')).forEach(c=>w.appendChild(c));
+  sc.insertBefore(w,sc.firstChild);
+  const [a,b]=pares(sc.dataset.span);
+  const focus=[...w.querySelectorAll('[data-focus]')].map(el=>{const [f0,f1,z]=pares(el.dataset.focus);
+    const r=el.getBoundingClientRect(); return {f0,f1,z,cx:r.left+r.width/2,cy:r.top+r.height/2};});
+  return {w,a,b:Math.min(b,DUR),focus};
+});
+
+function renderAt(t){
+  const sig=[];
+  stage.style.backgroundPosition=`${(18+t*6).toFixed(1)}px ${(18+t*3).toFixed(1)}px`;
+  glow.style.setProperty('--gx',(30+12*Math.sin(t/9)).toFixed(2)+'%'); glow.style.setProperty('--gy',(32+10*Math.cos(t/11)).toFixed(2)+'%');
+  glow.style.setProperty('--hx',(72+10*Math.cos(t/8)).toFixed(2)+'%'); glow.style.setProperty('--hy',(68+12*Math.sin(t/10)).toFixed(2)+'%');
+  bar.style.transform=`scaleX(${clamp(t/DUR).toFixed(4)})`;
+  sig.push(t.toFixed(3));
+  for(const c of cams){
+    if(t<c.a-0.05||t>c.b+0.6){ continue; }
+    const pin=c.a<=0.001?1:ease(prog(t,c.a,0.7)), pout=ease(prog(t,c.b,0.4));
+    let S=(1+0.03*clamp((t-c.a)/Math.max(1,c.b-c.a)))*(1+0.06*(1-pin))*(1-0.02*pout);
+    let blur=(1-pin)*9+pout*6, ox=960, oy=540;
+    for(const f of c.focus){
+      const k=ease(prog(t,f.f0,0.8))*(1-ease(prog(t,f.f1,0.8)));
+      if(k>0){ S*=1+(f.z-1)*k; ox=960+(f.cx-960)*0.5; oy=540+(f.cy-540)*0.5; }
+    }
+    c.w.style.transformOrigin=`${ox.toFixed(1)}px ${oy.toFixed(1)}px`;
+    c.w.style.transform=`scale(${S.toFixed(4)})`;
+    c.w.style.filter=blur>0.05?`blur(${blur.toFixed(2)}px)`:'none';
+  }
+  for(const s of spans){
+    const pin = s.a<=0.001 ? 1 : prog(t,s.a+0.2,0.3);
+    const pout = prog(t,s.b,0.25);
+    const o = r3(pin*(1-pout));
+    s.el.style.opacity=o; s.el.style.visibility=o<=0?'hidden':'visible'; sig.push(o);
+  }
+  for(const a of anims){
+    let p;
+    if(a.fx==='lin'){ const dl=+(a.el.dataset.d||FADE); p = a.s<=0.001?1:prog(t,a.s,dl); if(a.o!==null) p*=1-prog(t,a.o,FADE); }
+    else { p=ease(prog(t,a.s,a.d)); if(a.o!==null) p*=1-ease(prog(t,a.o,0.35)); }
+    p=r3(p); sig.push(p);
+    const st=a.el.style;
+    switch(a.fx){
+      case 'rise': st.opacity=p; st.transform=p>=1?'none':`translateY(${((1-p)*22).toFixed(2)}px)`; st.filter=p>=1?'none':`blur(${((1-p)*6).toFixed(2)}px)`; break;
+      case 'fade': case 'lin': st.opacity=p; break;
+      case 'pop': st.opacity=p; st.transform=p>=1?'none':`scale(${(0.82+0.18*p).toFixed(3)})`; st.filter=p>=1?'none':`blur(${((1-p)*4).toFixed(2)}px)`; break;
+      case 'grow': st.transform=`scaleX(${p})`; st.transformOrigin='left'; break;
+      case 'draw': st.strokeDashoffset=((1-p)*a.len).toFixed(1); st.opacity=p>0?1:0; break;
+    }
+  }
+  for(const g of segs){
+    const on = r3(prog(t,g.a,0.3)*(1-prog(t,g.b,0.3)));
+    g.on.style.opacity=on; g.tx.style.color = on>0.5?'#fff':''; sig.push(on);
+  }
+  const anyActive = t>=T0 && t<T1;
+  for(const k of topics){
+    const act=r3(prog(t,k.a,0.35)*(1-prog(t,k.b,0.35)));
+    k.bg.style.opacity=act; k.nf.style.opacity=act;
+    k.tx.style.opacity = r3(1-0.55*(anyActive ? 1-act : 0));
+    sig.push(act);
+  }
+  for(const k of toks){ const hot = t<k.s ? 0 : r3(1-prog(t,k.s+0.12,0.45)); k.el.style.setProperty('--hot',hot); sig.push(hot); }
+  for(const h of hls){ const p=r3(ease(prog(t,h.s,0.45))); h.el.style.setProperty('--p',p); sig.push(p); }
+  for(const s of sels){ const p=r3(ease(prog(t,s.s,0.4))); s.el.style.opacity=p; sig.push(p); }
+  for(const n of knobs){
+    let v=n.k[0][1];
+    for(let i=1;i<n.k.length;i++){ const [ta,va]=n.k[i-1], [tb,vb]=n.k[i]; if(t>=ta) v=va+(vb-va)*ease(prog(t,ta,Math.max(0.01,tb-ta))); }
+    n.el.style.left=v.toFixed(2)+'%'; sig.push(v.toFixed(2));
+  }
+  for(const c of checks){ const p=r3(ease(prog(t,c.s,0.3))); c.el.style.opacity=p; c.el.style.transform=p>=1?'none':`scale(${(0.6+0.4*p).toFixed(3)})`; sig.push(p); }
+  let cue='';
+  for(let q=0;q<SUBS.length;q++){ const [a,b,txt]=SUBS[q]; if(t>=a && t<b){
+    const ws=CUEW[q], k=ws.filter(w=>w[0]<=t).length, vivo=k>0 && t<ws[k-1][1]+0.1; let i=0;
+    cue=txt.split('<br>').map(l=>l.split(' ').map(p=>{const c=i<k?((i===k-1&&vivo)?'cur':'dic'):'pen'; i++; return `<span class="${c}">${p}</span>`;}).join(' ')).join('<br>');
+    break; } }
+  if(subEl.innerHTML!==cue) subEl.innerHTML=cue; sig.push(cue);
+  return sig.join('|');
+}
+window.renderAt=renderAt;
+window.slotInfo=()=>[...document.querySelectorAll('[data-slot]')].map(el=>{
+  const r=el.getBoundingClientRect(); const sc=el.closest('[data-span]');
+  const [sa,sb]=pares(sc.dataset.span);
+  return {name:el.dataset.slot,x:Math.round(r.left),y:Math.round(r.top),w:Math.round(r.width),h:Math.round(r.height),
+    radius:parseFloat(getComputedStyle(el).borderRadius),in:+el.dataset.in,out:el.dataset.out?+el.dataset.out:null,sceneIn:sa,sceneOut:sb};
+});
+if(location.search.includes('preview')) document.body.classList.add('preview');
+const m=location.search.match(/t=([\d.]+)/); renderAt(m?+m[1]:0);
+</script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+1
+00:00:00,000 --> 00:00:06,170
+¡Hola! Te doy la bienvenida al Módulo 4
+del curso IA generativa para entornos laborales:
+
+2
+00:00:06,440 --> 00:00:09,390
+Contenido visual, sonoro y audiovisual.
+
+3
+00:00:09,680 --> 00:00:13,690
+Aquí pasas del texto a las imágenes,
+el audio y el video,
+
+4
+00:00:13,960 --> 00:00:16,570
+para crear piezas de comunicación en tu trabajo.
+
+5
+00:00:17,340 --> 00:00:19,270
+La competencia de este módulo es:
+
+6
+00:00:19,300 --> 00:00:24,270
+producir contenido visual,
+sonoro y audiovisual con IA generativa,
+
+7
+00:00:24,300 --> 00:00:30,450
+respetando licencias, atribución y criterios
+éticos, para piezas de comunicación laboral.
+
+8
+00:00:31,040 --> 00:00:34,190
+En este módulo vas a recorrer cuatro temas.
+
+9
+00:00:34,640 --> 00:00:37,730
+Primero, el ecosistema multimedia con IA.
+
+10
+00:00:38,020 --> 00:00:40,770
+Vas a elegir herramientas según el tipo de pieza,
+
+11
+00:00:40,980 --> 00:00:43,890
+la licencia de lo que generan y sus riesgos de uso.
+
+12
+00:00:44,200 --> 00:00:48,510
+Vas a leer sus términos de uso
+para saber qué permiten y qué prohíben,
+
+13
+00:00:48,800 --> 00:00:50,990
+y a dar crédito con título, autor,
+
+14
+00:00:51,420 --> 00:00:52,810
+fuente y licencia.
+
+15
+00:00:53,560 --> 00:00:57,750
+Segundo, las imágenes y los gráficos
+para una campaña interna.
+
+16
+00:00:57,940 --> 00:01:04,610
+Vas a escribir prompts visuales con sujeto,
+contexto y estilo, a ordenar la pieza con contraste,
+
+17
+00:01:04,640 --> 00:01:08,950
+escala y agrupación, y a revisar
+los sesgos antes de publicar.
+
+18
+00:01:09,240 --> 00:01:13,070
+La IA genera la imagen, pero la pieza la diseñas tú.
+
+19
+00:01:13,900 --> 00:01:19,570
+Tercero, el audio y la música:
+una locución y una pista generadas con IA.
+
+20
+00:01:19,800 --> 00:01:24,890
+La voz es parte de la identidad de una persona,
+así que vas a cuidar los derechos de voz,
+
+21
+00:01:25,060 --> 00:01:27,150
+el consentimiento y la atribución.
+
+22
+00:01:27,840 --> 00:01:30,570
+Y cuarto, los clips y el video breve:
+
+23
+00:01:30,960 --> 00:01:36,230
+vas a unir guion, voz, música e imagen
+en un clip de sesenta segundos,
+
+24
+00:01:36,480 --> 00:01:41,010
+en tres etapas: preproducción,
+producción y postproducción.
+
+25
+00:01:41,800 --> 00:01:46,370
+Te acompañan Rosa, recepcionista
+de un centro médico; Andrés,
+
+26
+00:01:46,680 --> 00:01:50,070
+encargado de bodega en una distribuidora; y Camila,
+
+27
+00:01:50,400 --> 00:01:52,950
+asistente administrativa en una constructora.
+
+28
+00:01:53,200 --> 00:01:58,350
+Vas a trabajar con herramientas gratuitas,
+como Gemini, Canva y ElevenLabs.
+
+29
+00:01:59,020 --> 00:02:01,290
+¿Y cómo vas a saber si vas aprendiendo?
+
+30
+00:02:01,640 --> 00:02:06,390
+Al cerrar cada tema pondrás a prueba
+lo que aprendiste, y si algo no quedó claro,
+
+31
+00:02:06,540 --> 00:02:07,890
+sabrás qué repasar.
+
+32
+00:02:08,140 --> 00:02:13,070
+Además, vas a analizar casos reales
+del uso de la IA generativa en el trabajo.
+
+33
+00:02:13,900 --> 00:02:17,010
+Y todo esto lo vas a llevar a tu proyecto aplicado:
+
+34
+00:02:17,280 --> 00:02:21,310
+la tarea real de tu trabajo
+que vas mejorando módulo a módulo.
+
+35
+00:02:22,020 --> 00:02:25,910
+Para empezar, piensa en una campaña
+interna para tu lugar de trabajo:
+
+36
+00:02:26,240 --> 00:02:28,930
+algo que tu equipo necesite recordar o cambiar.
+
+37
+00:02:29,380 --> 00:02:32,750
+Si no se te ocurre, pregúntale
+a tu jefatura qué le serviría.
+
+38
+00:02:32,780 --> 00:02:35,650
+Y quédate con esta idea: «gratis»
+
+39
+00:02:35,680 --> 00:02:38,190
+no siempre significa «utilizable».
+
+40
+00:02:38,500 --> 00:02:39,970
+¡Nos vemos en el primer tema!

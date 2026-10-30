@@ -233,7 +233,7 @@ chequeo('3', 'Fuentes registradas que nadie cita', 'No es un error, pero una fue
 
 // =====================================================================================================
 nuevaCapa('C2', 'Contenido base por AE (22)',
-  'contenido/M<n>/M<n>-AE<k>.md es la fuente única de cada AE: de ahí salen el Rise (lo arma Natalia), el quiz, la infografía, los Docs y '
+  'contenido/M<n>/M<n>-AE<k>.md es la fuente única de cada AE: de ahí salen el Rise, el quiz, la infografía, los Docs y '
   + 'los PDF. El formato está en FORMATO-CONTENIDO-BASE.md. Esta capa repite las reglas de validar-contenido.mjs y suma las reglas del '
   + 'WORKFLOW que ese validador no mira.');
 
@@ -519,9 +519,11 @@ if (!drive) {
     for (const [ae, id] of Object.entries(driveIds.docs_por_ae || {})) if (!todos.has(id)) r.error(`${ae}: el Doc ${id} no está en la foto`);
     r.ev(`${Object.keys(driveIds.docs_por_ae || {}).length} Docs registrados`);
   });
-  chequeo('info', 'Infografías en Drive', 'HTML, PNG, interactiva y SCORM de cada módulo.', r => {
+  // Criterios 30-10: en Drive va solo la infografía animada con la marca (HTML interactivo y su SCORM)
+  chequeo('info', 'Infografías en Drive', 'Infografía animada (HTML interactivo) y su SCORM de cada módulo.', r => {
     const lista = archivos(driveIds.infografias);
-    for (const m of MODULOS) for (const ext of ['.html', '.png', '-interactiva.html', '-SCORM.zip']) {
+    if (lista.some(x => /-Infografia\.(html|png)$/.test(x.titulo))) r.error('queda la infografía estática en Drive');
+    for (const m of MODULOS) for (const ext of ['-interactiva.html', '-SCORM.zip']) {
       const t = `M${m.n}-Infografia${ext}`, f = lista.filter(x => x.titulo === t);
       if (!f.length) r.error(`falta ${t}`);
       else if (Date.parse(f[0].modificado) + 60000 < mtime('infografias', `M${m.n}.json`)) r.aviso(`${t}: Drive es anterior al último cambio de infografias/M${m.n}.json`);
@@ -541,9 +543,10 @@ if (!drive) {
 nuevaCapa('C9', 'Avance frente a los 101 recursos de la planilla',
   'Cruza cada fila de la hoja «Recursos» con lo producido. «Hecho» = el entregable existe y pasa sus chequeos. «Insumo listo» = el '
   + 'contenido base trae lo que ese recurso necesita, pero el recurso en sí (Rise, página de Moodle, guion de video) aún no se arma. '
-  + '«Pendiente» = no se ha empezado. Los Rise los arma Natalia a partir del contenido base.');
+  + '«Pendiente» = no se ha empezado. Los Rise se arman desde el contenido base (entregables/rise/ids.json).');
 
 const estadoDe = id => CAPAS.flatMap(c => c.chequeos).find(c => c.id === id)?.estado;
+const RISE = existe('entregables', 'rise', 'ids.json') ? JSON.parse(leer('entregables', 'rise', 'ids.json')) : {};
 const AVANCE = RECURSOS.map(x => {
   const aes = String(x.aes).split(/;\s*/).filter(a => AE[a]);
   const m = x.modulo;
@@ -551,13 +554,16 @@ const AVANCE = RECURSOS.map(x => {
   const sano = ids => ids.every(i => ['ok', 'aviso', 'pendiente'].includes(estadoDe(i)));
   switch (x.tipo) {
     case 'Rise':
-      if (sano(aes.map(a => `C2.${a}`))) { estado = 'Insumo listo'; nota = 'Contenido base validado; el Rise lo arma Natalia'; }
+      if (sano(aes.map(a => `C2.${a}`))) {
+        if (aes.every(a => RISE[a])) { estado = 'Hecho'; nota = 'Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)'; }
+        else { estado = 'Insumo listo'; nota = 'Contenido base validado; falta armar el Rise'; }
+      }
       break;
     case 'Quiz formativo':
       if (sano(aes.map(a => `C3.${a}`))) { estado = 'Hecho'; nota = 'Juego HTML + SCORM 1.2 + GIFT'; }
       break;
     case 'Complemento':
-      if (sano([`C4.M${m}`])) { estado = 'Hecho'; nota = 'Infografía HTML + PNG'; }
+      if (sano([`C4.M${m}`])) { estado = 'Hecho'; nota = 'Infografía animada con marca (HTML + SCORM 1.2)'; }
       break;
     case 'Caso de aplicación': {
       const id = /Caso (M\d-C\d)/.exec(x.titulo)?.[1];
@@ -584,7 +590,10 @@ const AVANCE = RECURSOS.map(x => {
       break;
     }
     case 'Evaluación sumativa': nota = 'Falta el banco GIFT por criterios'; break;
-    case 'Foro': nota = 'Falta la consigna del foro (los casos traen «Para el foro»)'; break;
+    case 'Foro':
+      if (existe('foros', `M${m}.md`)) { estado = 'Hecho'; nota = `Consigna «qué, por qué y para qué» con rúbrica (foros/M${m}.md)`; }
+      else nota = 'Falta la consigna del foro';
+      break;
     case 'Inducción/Diagnóstica': nota = 'Falta video de inducción, guía del participante y diagnóstica'; break;
   }
   return { ...x, estado, nota };

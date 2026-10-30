@@ -34,6 +34,15 @@ proyecto» ni glosario: el glosario está en la carpeta **11 Glosario** y las **
 carpeta **10 Actividades de aplicación práctica**. Las versiones anteriores quedaron en «Versiones anteriores (29-10) · antes de la
 marca Empoderatech», en la raíz.
 
+## Estructura SENCE (30-10)
+
+El curso sigue la estructura de curso asincrónico que pide SENCE: contenidos, material interactivo, dos aplicativos con rúbrica,
+casos, resumen, evaluación del módulo y contacto entre facilitador y estudiantes. Lo que ve el estudiante no lleva códigos internos
+(M1-AE1, P01) ni remisiones a pantallas: los nombres de archivo en Drive sí conservan el código para ordenarlos. Las actividades
+ahora traen instrucción general y rúbrica; la pauta de corrección está en la **14 Guía del facilitador y mapa del aula**, y los
+foros en la carpeta **13 Foros**. Las versiones reemplazadas quedaron en «Versiones anteriores (30-10) · antes de la estructura
+SENCE», en la raíz.
+
 ## 2 Contenidos base · PDF
 
 Los mismos 22 contenidos en PDF, más «Contenidos-completos.pdf» con todo el curso.
@@ -41,15 +50,14 @@ Los mismos 22 contenidos en PDF, más «Contenidos-completos.pdf» con todo el c
 ## 3 Quiz juego SCORM
 
 - **SCORM 1.2 (subir al LMS):** 22 paquetes, uno por aprendizaje esperado, con 8 preguntas cada uno. En Moodle se suben en Agregar
-  actividad → Paquete SCORM. Registran el mejor puntaje (0 a 100) y la finalización. Si la persona falla, el juego le indica qué
-  pantalla del Rise repasar.
+  actividad → Paquete SCORM. Registran el mejor puntaje (0 a 100) y la finalización. Cada pregunta trae su retroalimentación.
 - **HTML (juego sin LMS):** el mismo juego en un solo archivo, que funciona sin internet. Sirve para revisarlo o probarlo.
 - **GIFT (banco de preguntas Moodle):** las mismas 176 preguntas, para importarlas al banco de preguntas (Importar → GIFT).
 
 ## 4 Infografías
 
-Una por módulo (R017, R034, R051, R069, R084 y R100 de la planilla), en PNG de 1080 px de ancho y en HTML. Desde el 28-10 cada una tiene además una versión **interactiva**
-(`M<n>-Infografia-interactiva.html`): animada, con tarjetas que se abren, recorrido guiado paso a paso e idea clave que se
+Una por módulo (R017, R034, R051, R069, R084 y R100 de la planilla). Desde el 30-10 solo se entrega la versión **animada**, con la
+marca Empoderatech (`M<n>-Infografia-interactiva.html`): animada, con tarjetas que se abren, recorrido guiado paso a paso e idea clave que se
 desbloquea al explorarla. Es un solo archivo que funciona sin internet y en el celular. También va como paquete **SCORM 1.2**
 (`M<n>-Infografia-SCORM.zip`), que se sube a Moodle en Agregar actividad → Paquete SCORM: queda «completado» cuando la persona
 explora todas las partes, el puntaje es el porcentaje explorado y al volver encuentra marcado lo que ya vio. Falta probarlo en el LMS.
@@ -116,6 +124,20 @@ actividad → Paquete SCORM). Cada uno lleva solo el contenido del tema, con la 
 textuales, las citas APA y sus referencias bibliográficas; el quiz, las actividades, la infografía y el glosario van aparte, en sus
 carpetas. Se marca completo cuando la persona recorre el 100 % del curso. El paquete trae todo el curso, sin depender de la cuenta
 de Articulate.
+
+## 13 Foros
+
+«Foros del curso», en Doc y PDF: el foro de interacción del curso (presentación y consultas) y un foro por módulo con la consigna
+**qué, por qué y para qué**. Cada foro trae instrucción general, cómo participar y rúbrica de participación. En el foro de cada módulo
+se publica además la actividad 1 de cada tema y se responde la pregunta de los casos. El facilitador responde en menos de 24 horas
+hábiles. El texto de cada foro se copia en la descripción del foro de Moodle.
+
+## 14 Guía del facilitador y mapa del aula
+
+- **Guía del facilitador:** la versión completa en PDF y, en Docs, una introducción con la moderación de los foros y un Doc por
+  módulo con la pauta de corrección de cada actividad (respuesta esperada por criterio de la rúbrica, errores frecuentes y
+  retroalimentación sugerida). En el aula va en una sección visible solo para el rol docente.
+- **Mapa del aula Moodle:** qué recurso va en cada sección del aula y con qué tipo de actividad de Moodle.
 
 ## Antes de publicar
 

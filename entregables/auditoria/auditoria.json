@@ -1,9 +1,9 @@
 {
   "resumen": {
-    "generado": "2026-10-30T03:36:21.932Z",
+    "generado": "2026-10-30T04:27:55.748Z",
     "chequeos": 108,
-    "ok": 99,
-    "aviso": 7,
+    "ok": 102,
+    "aviso": 4,
     "error": 0,
     "pendiente": 2
   },
@@ -152,7 +152,7 @@
     {
       "id": "C2",
       "titulo": "Contenido base por AE (22)",
-      "explica": "contenido/M<n>/M<n>-AE<k>.md es la fuente única de cada AE: de ahí salen el Rise (lo arma Natalia), el quiz, la infografía, los Docs y los PDF. El formato está en FORMATO-CONTENIDO-BASE.md. Esta capa repite las reglas de validar-contenido.mjs y suma las reglas del WORKFLOW que ese validador no mira.",
+      "explica": "contenido/M<n>/M<n>-AE<k>.md es la fuente única de cada AE: de ahí salen el Rise, el quiz, la infografía, los Docs y los PDF. El formato está en FORMATO-CONTENIDO-BASE.md. Esta capa repite las reglas de validar-contenido.mjs y suma las reglas del WORKFLOW que ese validador no mira.",
       "chequeos": [
         {
           "id": "C2.M1-AE1",
@@ -1505,58 +1505,70 @@
           "avisos": [],
           "pendientes": [],
           "evidencia": [
-            "tomada el 29-10-26, 5:49 p. m. · 51 carpetas",
-            "Curso IA generativa para entornos laborales · Recursos: 15 elementos",
+            "tomada el 30-10-26, 1:27 a. m. · 63 carpetas",
+            "Curso IA generativa para entornos laborales · Recursos: 19 elementos",
+            "14 Guía del facilitador y mapa del aula: 10 elementos",
+            "4 Infografías: 12 elementos",
             "11 Glosario: 3 elementos",
+            "12 Rise · SCORM 1.2 para Moodle: 22 elementos",
+            "13 Foros: 2 elementos",
             "1 Contenidos base · Google Docs: 23 elementos",
+            "5 Casos de aplicación: 2 elementos",
+            "3 Quiz juego SCORM: 4 elementos",
+            "2 Contenidos base · PDF: 24 elementos",
             "0 Planilla de origen: 2 elementos",
             "9 Proyecto fuente: 2 elementos",
-            "7 Proceso y control de calidad: 4 elementos",
             "8 Skills de Claude: 11 elementos",
-            "4 Infografías: 25 elementos",
-            "2 Contenidos base · PDF: 24 elementos",
+            "7 Proceso y control de calidad: 4 elementos",
             "6 Investigación y fuentes: 9 elementos",
-            "3 Quiz juego SCORM: 4 elementos",
-            "5 Casos de aplicación: 2 elementos",
-            "Versiones anteriores (29-10) · antes de la marca Empoderatech: 10 elementos",
+            "Versiones anteriores (30-10) · antes de la estructura SENCE: 19 elementos",
+            "Versiones anteriores (29-10) · antes de la marca Empoderatech: 11 elementos",
             "10 Actividades de aplicación práctica: 2 elementos",
             "Versiones anteriores (28-10) · antes del cambio de audiencia: 10 elementos",
-            "PDF: 22 elementos",
-            "Docs: 22 elementos",
-            "0 Planilla: 1 elementos",
-            "8 Skills: 4 elementos",
-            "7 Proceso: 19 elementos",
-            "1 Docs: 22 elementos",
-            "3 Quiz: 44 elementos",
+            "Versiones anteriores (24-10): 24 elementos",
+            "PDF: 11 elementos",
+            "Docs: 12 elementos",
+            "GIFT (banco de preguntas Moodle): 22 elementos",
+            "HTML (juego sin LMS): 22 elementos",
+            "SCORM 1.2 (subir al LMS): 22 elementos",
+            "Versiones anteriores (24-10): 6 elementos",
+            "Versiones anteriores (24-10): 23 elementos",
             "Versiones anteriores: 5 elementos",
+            "Versiones anteriores: 12 elementos",
             "PDF: 16 elementos",
             "Versiones anteriores (25-10): 1 elementos",
             "Docs: 14 elementos",
+            "Fichas de verificación de casos: 11 elementos",
+            "3 Quiz · HTML (juego sin LMS): 22 elementos",
+            "3 Quiz · SCORM 1.2 (subir al LMS): 22 elementos",
+            "3 Quiz · GIFT (banco de preguntas Moodle): 22 elementos",
+            "5 Casos · PDF: 11 elementos",
+            "10 Actividades · PDF: 22 elementos",
+            "5 Casos · Docs: 11 elementos",
+            "4 Infografías (estática e interactiva): 25 elementos",
+            "10 Actividades · Docs: 22 elementos",
+            "0 Planilla: 1 elementos",
+            "8 Skills: 4 elementos",
+            "7 Proceso: 19 elementos",
             "Raíz: 1 elementos",
             "9 Proyecto: 1 elementos",
             "5 Casos: 23 elementos",
             "4 Infografías: 24 elementos",
+            "3 Quiz: 44 elementos",
             "2 PDF: 23 elementos",
-            "Versiones anteriores: 12 elementos",
-            "Versiones anteriores (24-10): 23 elementos",
-            "Fichas de verificación de casos: 11 elementos",
-            "HTML (juego sin LMS): 22 elementos",
-            "SCORM 1.2 (subir al LMS): 22 elementos",
-            "GIFT (banco de preguntas Moodle): 22 elementos",
-            "Versiones anteriores (24-10): 6 elementos",
-            "PDF: 11 elementos",
-            "Docs: 12 elementos",
+            "1 Docs: 22 elementos",
+            "PDF: 22 elementos",
+            "Docs: 22 elementos",
             "4 Infografías: 18 elementos",
             "3 Quiz: 66 elementos",
-            "Versiones anteriores (24-10): 24 elementos",
-            "Versiones anteriores (24-10): 2 elementos",
-            "0 Planilla: 2 elementos",
+            "0 Planilla: 3 elementos",
             "7 Proceso: 25 elementos",
             "5 Casos: 23 elementos",
             "2 PDF: 23 elementos",
-            "1 Docs: 26 elementos",
+            "1 Docs: 27 elementos",
             "Versiones anteriores (25-10): 3 elementos",
-            "Versiones anteriores: 3 elementos"
+            "Versiones anteriores: 3 elementos",
+            "Versiones anteriores (24-10): 2 elementos"
           ]
         },
         {
@@ -1587,32 +1599,9 @@
           "id": "C8.Quiz-SCORM",
           "titulo": "Quiz SCORM en Drive",
           "porque": "Uno por AE, sin duplicados y subido después del último cambio de su fuente (contenido o quiz).",
-          "estado": "aviso",
+          "estado": "ok",
           "errores": [],
-          "avisos": [
-            "M1-AE1: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M1-AE2: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M1-AE3: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M1-AE4: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M2-AE1: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M2-AE2: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M2-AE3: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M2-AE4: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M3-AE1: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M3-AE2: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M3-AE3: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M3-AE4: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M4-AE1: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M4-AE2: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M4-AE3: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M4-AE4: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M5-AE1: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M5-AE2: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M5-AE3: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M6-AE1: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M6-AE2: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M6-AE3: lo de Drive (29-10-26, 5:27 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)"
-          ],
+          "avisos": [],
           "pendientes": [],
           "evidencia": [
             "22 archivos en la carpeta"
@@ -1622,32 +1611,9 @@
           "id": "C8.Quiz-HTML",
           "titulo": "Quiz HTML en Drive",
           "porque": "Uno por AE, sin duplicados y subido después del último cambio de su fuente (contenido o quiz).",
-          "estado": "aviso",
+          "estado": "ok",
           "errores": [],
-          "avisos": [
-            "M1-AE1: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M1-AE2: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M1-AE3: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M1-AE4: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M2-AE1: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M2-AE2: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M2-AE3: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M2-AE4: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M3-AE1: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M3-AE2: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M3-AE3: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M3-AE4: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M4-AE1: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M4-AE2: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M4-AE3: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M4-AE4: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M5-AE1: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M5-AE2: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M5-AE3: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M6-AE1: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M6-AE2: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M6-AE3: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)"
-          ],
+          "avisos": [],
           "pendientes": [],
           "evidencia": [
             "22 archivos en la carpeta"
@@ -1657,32 +1623,9 @@
           "id": "C8.Quiz-GIFT",
           "titulo": "Quiz GIFT en Drive",
           "porque": "Uno por AE, sin duplicados y subido después del último cambio de su fuente (contenido o quiz).",
-          "estado": "aviso",
+          "estado": "ok",
           "errores": [],
-          "avisos": [
-            "M1-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M1-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M1-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M1-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M2-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M2-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M2-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M2-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M3-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M3-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M3-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M3-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M4-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M4-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M4-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M4-AE4: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M5-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M5-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M5-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M6-AE1: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M6-AE2: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)",
-            "M6-AE3: lo de Drive (28-10-26, 11:53 a. m.) es anterior al último cambio de su fuente (30-10-26, 12:17 a. m.)"
-          ],
+          "avisos": [],
           "pendientes": [],
           "evidencia": [
             "22 archivos en la carpeta"
@@ -1716,13 +1659,13 @@
         {
           "id": "C8.info",
           "titulo": "Infografías en Drive",
-          "porque": "HTML, PNG, interactiva y SCORM de cada módulo.",
+          "porque": "Infografía animada (HTML interactivo) y su SCORM de cada módulo.",
           "estado": "ok",
           "errores": [],
           "avisos": [],
           "pendientes": [],
           "evidencia": [
-            "24 archivos"
+            "12 archivos"
           ]
         },
         {
@@ -1742,7 +1685,7 @@
     {
       "id": "C9",
       "titulo": "Avance frente a los 101 recursos de la planilla",
-      "explica": "Cruza cada fila de la hoja «Recursos» con lo producido. «Hecho» = el entregable existe y pasa sus chequeos. «Insumo listo» = el contenido base trae lo que ese recurso necesita, pero el recurso en sí (Rise, página de Moodle, guion de video) aún no se arma. «Pendiente» = no se ha empezado. Los Rise los arma Natalia a partir del contenido base.",
+      "explica": "Cruza cada fila de la hoja «Recursos» con lo producido. «Hecho» = el entregable existe y pasa sus chequeos. «Insumo listo» = el contenido base trae lo que ese recurso necesita, pero el recurso en sí (Rise, página de Moodle, guion de video) aún no se arma. «Pendiente» = no se ha empezado. Los Rise se arman desde el contenido base (entregables/rise/ids.json).",
       "chequeos": [
         {
           "id": "C9.1",
@@ -1752,12 +1695,12 @@
           "errores": [],
           "avisos": [],
           "pendientes": [
-            "18 recursos sin empezar (Inducción/Diagnóstica, Foro, Evaluación sumativa, Video)"
+            "12 recursos sin empezar (Inducción/Diagnóstica, Evaluación sumativa, Video)"
           ],
           "evidencia": [
-            "Pendiente: 18 recursos · 9.8 h",
-            "Hecho: 40 recursos · 22.1 h",
-            "Insumo listo: 43 recursos · 56.2 h"
+            "Pendiente: 12 recursos · 6.8 h",
+            "Hecho: 68 recursos · 67.3 h",
+            "Insumo listo: 21 recursos · 13.9 h"
           ]
         }
       ]
@@ -1791,8 +1734,8 @@
       "titulo": "Rise M1-T1 · Fundamentos de IA generativa",
       "aes": "M1-AE1",
       "minutos": 120,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R004",
@@ -1811,8 +1754,8 @@
       "titulo": "Rise M1-T2 · Prompts efectivos",
       "aes": "M1-AE2",
       "minutos": 120,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R006",
@@ -1831,8 +1774,8 @@
       "titulo": "Rise M1-T3 · Parámetros de generación",
       "aes": "M1-AE3",
       "minutos": 120,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R008",
@@ -1851,8 +1794,8 @@
       "titulo": "Rise M1-T4 · Validación de resultados",
       "aes": "M1-AE4",
       "minutos": 127.5,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R010",
@@ -1901,8 +1844,8 @@
       "titulo": "Foro M1: discusión guiada del módulo (tutor responde en <24 h hábiles)",
       "aes": "M1-AE1; M1-AE2; M1-AE3; M1-AE4",
       "minutos": 30,
-      "estado": "Pendiente",
-      "nota": "Falta la consigna del foro (los casos traen «Para el foro»)"
+      "estado": "Hecho",
+      "nota": "Consigna «qué, por qué y para qué» con rúbrica (foros/M1.md)"
     },
     {
       "id": "R015",
@@ -1932,7 +1875,7 @@
       "aes": "—",
       "minutos": 0,
       "estado": "Hecho",
-      "nota": "Infografía HTML + PNG"
+      "nota": "Infografía animada con marca (HTML + SCORM 1.2)"
     },
     {
       "id": "R018",
@@ -1961,8 +1904,8 @@
       "titulo": "Rise M2-T1 · Redacción y comunicación con IA",
       "aes": "M2-AE1",
       "minutos": 135,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R021",
@@ -1981,8 +1924,8 @@
       "titulo": "Rise M2-T2 · Prompting avanzado para textos",
       "aes": "M2-AE2",
       "minutos": 135,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R023",
@@ -2001,8 +1944,8 @@
       "titulo": "Rise M2-T3 · Presentaciones con IA",
       "aes": "M2-AE3",
       "minutos": 127.5,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R025",
@@ -2021,8 +1964,8 @@
       "titulo": "Rise M2-T4 · Planillas de cálculo con IA",
       "aes": "M2-AE4",
       "minutos": 135,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R027",
@@ -2071,8 +2014,8 @@
       "titulo": "Foro M2: discusión guiada del módulo (tutor responde en <24 h hábiles)",
       "aes": "M2-AE1; M2-AE2; M2-AE3; M2-AE4",
       "minutos": 30,
-      "estado": "Pendiente",
-      "nota": "Falta la consigna del foro (los casos traen «Para el foro»)"
+      "estado": "Hecho",
+      "nota": "Consigna «qué, por qué y para qué» con rúbrica (foros/M2.md)"
     },
     {
       "id": "R032",
@@ -2102,7 +2045,7 @@
       "aes": "—",
       "minutos": 0,
       "estado": "Hecho",
-      "nota": "Infografía HTML + PNG"
+      "nota": "Infografía animada con marca (HTML + SCORM 1.2)"
     },
     {
       "id": "R035",
@@ -2131,8 +2074,8 @@
       "titulo": "Rise M3-T1 · Herramientas de IA para investigar",
       "aes": "M3-AE1",
       "minutos": 135,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R038",
@@ -2151,8 +2094,8 @@
       "titulo": "Rise M3-T2 · Recopilar, validar y sintetizar",
       "aes": "M3-AE2",
       "minutos": 135,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R040",
@@ -2171,8 +2114,8 @@
       "titulo": "Rise M3-T3 · Organizar y presentar información",
       "aes": "M3-AE3",
       "minutos": 127.5,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R042",
@@ -2191,8 +2134,8 @@
       "titulo": "Rise M3-T4 · Análisis crítico y privacidad",
       "aes": "M3-AE4",
       "minutos": 135,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R044",
@@ -2241,8 +2184,8 @@
       "titulo": "Foro M3: discusión guiada del módulo (tutor responde en <24 h hábiles)",
       "aes": "M3-AE1; M3-AE2; M3-AE3; M3-AE4",
       "minutos": 30,
-      "estado": "Pendiente",
-      "nota": "Falta la consigna del foro (los casos traen «Para el foro»)"
+      "estado": "Hecho",
+      "nota": "Consigna «qué, por qué y para qué» con rúbrica (foros/M3.md)"
     },
     {
       "id": "R049",
@@ -2272,7 +2215,7 @@
       "aes": "—",
       "minutos": 0,
       "estado": "Hecho",
-      "nota": "Infografía HTML + PNG"
+      "nota": "Infografía animada con marca (HTML + SCORM 1.2)"
     },
     {
       "id": "R052",
@@ -2301,8 +2244,8 @@
       "titulo": "Rise M4-T1 · Ecosistema multimedia con IA",
       "aes": "M4-AE1",
       "minutos": 112.5,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R055",
@@ -2321,8 +2264,8 @@
       "titulo": "Rise M4-T2 · Imágenes y gráficos",
       "aes": "M4-AE2",
       "minutos": 112.5,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R057",
@@ -2341,8 +2284,8 @@
       "titulo": "Rise M4-T3 · Audio y música",
       "aes": "M4-AE3",
       "minutos": 105,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R059",
@@ -2361,8 +2304,8 @@
       "titulo": "Rise M4-T4 · Clips y video breve",
       "aes": "M4-AE4",
       "minutos": 112.5,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R061",
@@ -2421,8 +2364,8 @@
       "titulo": "Foro M4: discusión guiada del módulo (tutor responde en <24 h hábiles)",
       "aes": "M4-AE1; M4-AE2; M4-AE3; M4-AE4",
       "minutos": 30,
-      "estado": "Pendiente",
-      "nota": "Falta la consigna del foro (los casos traen «Para el foro»)"
+      "estado": "Hecho",
+      "nota": "Consigna «qué, por qué y para qué» con rúbrica (foros/M4.md)"
     },
     {
       "id": "R067",
@@ -2452,7 +2395,7 @@
       "aes": "—",
       "minutos": 0,
       "estado": "Hecho",
-      "nota": "Infografía HTML + PNG"
+      "nota": "Infografía animada con marca (HTML + SCORM 1.2)"
     },
     {
       "id": "R070",
@@ -2481,8 +2424,8 @@
       "titulo": "Rise M5-T1 · Potencial de automatización",
       "aes": "M5-AE1",
       "minutos": 112.5,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R073",
@@ -2501,8 +2444,8 @@
       "titulo": "Rise M5-T2 · Flujos simples con IA",
       "aes": "M5-AE2",
       "minutos": 105,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R075",
@@ -2521,8 +2464,8 @@
       "titulo": "Rise M5-T3 · Supervisión humana y riesgos",
       "aes": "M5-AE3",
       "minutos": 105,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R077",
@@ -2571,8 +2514,8 @@
       "titulo": "Foro M5: discusión guiada del módulo (tutor responde en <24 h hábiles)",
       "aes": "M5-AE1; M5-AE2; M5-AE3",
       "minutos": 30,
-      "estado": "Pendiente",
-      "nota": "Falta la consigna del foro (los casos traen «Para el foro»)"
+      "estado": "Hecho",
+      "nota": "Consigna «qué, por qué y para qué» con rúbrica (foros/M5.md)"
     },
     {
       "id": "R082",
@@ -2602,7 +2545,7 @@
       "aes": "—",
       "minutos": 0,
       "estado": "Hecho",
-      "nota": "Infografía HTML + PNG"
+      "nota": "Infografía animada con marca (HTML + SCORM 1.2)"
     },
     {
       "id": "R085",
@@ -2631,8 +2574,8 @@
       "titulo": "Rise M6-T1 · Oportunidad de mejora con IA",
       "aes": "M6-AE1",
       "minutos": 75,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R088",
@@ -2651,8 +2594,8 @@
       "titulo": "Rise M6-T2 · Implementar el flujo",
       "aes": "M6-AE2",
       "minutos": 75,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R090",
@@ -2671,8 +2614,8 @@
       "titulo": "Rise M6-T3 · Resultados y aprendizajes",
       "aes": "M6-AE3",
       "minutos": 67.5,
-      "estado": "Insumo listo",
-      "nota": "Contenido base validado; el Rise lo arma Natalia"
+      "estado": "Hecho",
+      "nota": "Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12)"
     },
     {
       "id": "R092",
@@ -2731,8 +2674,8 @@
       "titulo": "Foro M6: discusión guiada del módulo (tutor responde en <24 h hábiles)",
       "aes": "M6-AE1; M6-AE2; M6-AE3",
       "minutos": 30,
-      "estado": "Pendiente",
-      "nota": "Falta la consigna del foro (los casos traen «Para el foro»)"
+      "estado": "Hecho",
+      "nota": "Consigna «qué, por qué y para qué» con rúbrica (foros/M6.md)"
     },
     {
       "id": "R098",
@@ -2762,7 +2705,7 @@
       "aes": "—",
       "minutos": 0,
       "estado": "Hecho",
-      "nota": "Infografía HTML + PNG"
+      "nota": "Infografía animada con marca (HTML + SCORM 1.2)"
     },
     {
       "id": "R101",

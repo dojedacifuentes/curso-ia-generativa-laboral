@@ -18,10 +18,10 @@
   "w": 800,
   "h": 450,
   "radius": 24,
-  "in": 100.8,
-  "out": 108.6,
-  "sceneIn": 93.19,
-  "sceneOut": 113.47
+  "in": 113.4,
+  "out": 121.2,
+  "sceneIn": 105.79,
+  "sceneOut": 126.07
  },
  {
   "name": "eva_momento",
@@ -30,10 +30,10 @@
   "w": 480,
   "h": 600,
   "radius": 32,
-  "in": 108.9,
-  "out": 113.1,
-  "sceneIn": 93.19,
-  "sceneOut": 113.47
+  "in": 121.5,
+  "out": 125.7,
+  "sceneIn": 105.79,
+  "sceneOut": 126.07
  },
  {
   "name": "avatar_cierre",
@@ -42,9 +42,9 @@
   "w": 604,
   "h": 764,
   "radius": 32,
-  "in": 127.41,
+  "in": 140.01,
   "out": null,
-  "sceneIn": 127.39,
-  "sceneOut": 999
+  "sceneIn": 139.99,
+  "sceneOut": 1011.6
  }
 ]

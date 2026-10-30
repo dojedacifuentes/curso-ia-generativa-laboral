@@ -1,0 +1,4 @@
+{"fuente": "v1/voz.mp3", "salida": "audio/voz.wav",
+ "ops": [{"t0": 18.05, "t1": 18.05, "archivo": "../_voz30/m1.wav", "ini": 0.0, "fin": 12.10, "gain": -1.5, "pausa": 0.5},
+         {"t0": 72.75, "t1": 79.87, "archivo": "../_voz30/m1.wav", "ini": 13.25, "fin": 20.70, "gain": -1.5, "pausa": 0.0},
+         {"t0": 108.30, "t1": 115.67, "archivo": "../_voz30/m1.wav", "ini": 22.05, "fin": 27.95, "gain": -1.5, "pausa": 0.25}]}

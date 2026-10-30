@@ -30,10 +30,10 @@
   "w": 820,
   "h": 461,
   "radius": 24,
-  "in": 74.16,
-  "out": 79.9,
-  "sceneIn": 72.77,
-  "sceneOut": 84.78
+  "in": 86.83,
+  "out": 92.83,
+  "sceneIn": 85.37,
+  "sceneOut": 97.71
  },
  {
   "name": "andres",
@@ -42,10 +42,10 @@
   "w": 820,
   "h": 461,
   "radius": 24,
-  "in": 77.68,
-  "out": 79.9,
-  "sceneIn": 72.77,
-  "sceneOut": 84.78
+  "in": 90.51,
+  "out": 92.83,
+  "sceneIn": 85.37,
+  "sceneOut": 97.71
  },
  {
   "name": "gemini",
@@ -54,10 +54,10 @@
   "w": 1040,
   "h": 585,
   "radius": 24,
-  "in": 79.95,
+  "in": 92.88,
   "out": null,
-  "sceneIn": 72.77,
-  "sceneOut": 84.78
+  "sceneIn": 85.37,
+  "sceneOut": 97.71
  },
  {
   "name": "quiz",
@@ -66,10 +66,10 @@
   "w": 800,
   "h": 450,
   "radius": 24,
-  "in": 86.4,
-  "out": 90.6,
-  "sceneIn": 84.78,
-  "sceneOut": 93.97
+  "in": 99.33,
+  "out": 103.53,
+  "sceneIn": 97.71,
+  "sceneOut": 106.9
  },
  {
   "name": "eva_proyecto",
@@ -78,10 +78,10 @@
   "w": 480,
   "h": 600,
   "radius": 32,
-  "in": 105.17,
-  "out": 108.1,
-  "sceneIn": 104.87,
-  "sceneOut": 115.5
+  "in": 118.1,
+  "out": 121.03,
+  "sceneIn": 117.8,
+  "sceneOut": 127.24
  },
  {
   "name": "andres2",
@@ -90,10 +90,10 @@
   "w": 800,
   "h": 450,
   "radius": 24,
-  "in": 108.2,
-  "out": 110.4,
-  "sceneIn": 104.87,
-  "sceneOut": 115.5
+  "in": 121.13,
+  "out": 122.98,
+  "sceneIn": 117.8,
+  "sceneOut": 127.24
  },
  {
   "name": "camila2",
@@ -102,10 +102,10 @@
   "w": 800,
   "h": 450,
   "radius": 24,
-  "in": 110.4,
-  "out": 112.3,
-  "sceneIn": 104.87,
-  "sceneOut": 115.5
+  "in": 122.98,
+  "out": 124.57,
+  "sceneIn": 117.8,
+  "sceneOut": 127.24
  },
  {
   "name": "avatar_cierre",
@@ -114,9 +114,9 @@
   "w": 604,
   "h": 764,
   "radius": 32,
-  "in": 115.52,
+  "in": 127.25,
   "out": null,
-  "sceneIn": 115.5,
-  "sceneOut": 995.86
+  "sceneIn": 127.24,
+  "sceneOut": 1007.57
  }
 ]

@@ -1,25 +1,25 @@
 {
-  "_nota": "Bienvenida M1 v5 (25-10): bloques 3-5 en genérico (sin casos ni evaluaciones). Voz de EVA: bloques 1-2 de la v4 + bloques 3-5 nuevos, unidos en 85,17 s. Avatar: intro de la v4 + cierre nuevo (heygen/eva_v5). EVA en el momento del proyecto. 6 clips: celular, Camila, Andrés, Gemini, práctica en el celular, y Andrés/Camila otra vez en el proyecto.",
-  "duracion": 133.13,
+  "_nota": "Bienvenida M1 con la marca (30-10): competencia del módulo insertada en la voz tras la intro y dos frases corregidas por la audiencia (28-10); EVA con fondo grafito (v4 intro + v5 cierre, fondo_eva.py --marca). Clips de Flow del M1 y captura de Gemini.",
+  "duracion": 144.84,
   "voz": "audio/voz.mp3",
   "salida": "M1_bienvenida.mp4",
   "avatar": {
-    "video": "heygen/avatar_fondo_claro.mp4",
+    "video": "heygen/avatar_marca.mp4",
     "clip_dur": 36.8,
     "offset": 0.023,
     "crop": "auto",
     "intro_out": 17.99,
-    "cierre_in": 115.5,
-    "cierre_master_t": 115.5,
+    "cierre_in": 127.24,
+    "cierre_master_t": 127.24,
     "cierre_clip_t": 19.2
   },
   "clips": [
     {
       "slot": "camila",
       "video": "media/camila.mp4",
-      "visible_desde": 74.16,
-      "visible_hasta": 80.3,
-      "fade_out": 79.9
+      "visible_desde": 86.83,
+      "visible_hasta": 93.23,
+      "fade_out": 92.83
     },
     {
       "slot": "andres",
@@ -27,9 +27,9 @@
       "src_start": 0.3,
       "src_dur": 7.5,
       "estirar": false,
-      "visible_desde": 77.68,
-      "visible_hasta": 80.3,
-      "fade_out": 79.9
+      "visible_desde": 90.51,
+      "visible_hasta": 93.23,
+      "fade_out": 92.83
     },
     {
       "slot": "quiz",
@@ -37,9 +37,9 @@
       "src_start": 3.4,
       "src_dur": 4.6,
       "estirar": false,
-      "visible_desde": 86.4,
-      "visible_hasta": 91.0,
-      "fade_out": 90.6,
+      "visible_desde": 99.33,
+      "visible_hasta": 103.93,
+      "fade_out": 103.53,
       "fade_out_d": 0.4
     },
     {
@@ -59,20 +59,20 @@
       "src_dur": 5.03,
       "estirar": false,
       "zoom": 1.0,
-      "visible_desde": 79.95,
-      "visible_hasta": 85.18,
-      "fade_out": 84.78
+      "visible_desde": 92.88,
+      "visible_hasta": 98.11,
+      "fade_out": 97.71
     },
     {
       "slot": "eva_proyecto",
-      "video": "heygen/eva_proyecto_fondo_claro.mp4",
+      "video": "heygen/eva_proyecto_marca.mp4",
       "src_start": 0.023,
       "src_dur": 3.3,
       "estirar": false,
       "zoom": 1.0,
-      "visible_desde": 105.2,
-      "visible_hasta": 108.5,
-      "fade_out": 108.1
+      "visible_desde": 118.13,
+      "visible_hasta": 121.4,
+      "fade_out": 121.03
     },
     {
       "slot": "andres2",
@@ -80,9 +80,9 @@
       "src_start": 3.5,
       "src_dur": 2.65,
       "estirar": false,
-      "visible_desde": 108.2,
-      "visible_hasta": 110.8,
-      "fade_out": 110.4,
+      "visible_desde": 121.13,
+      "visible_hasta": 123.32,
+      "fade_out": 122.98,
       "fade_out_d": 0.4
     },
     {
@@ -91,9 +91,9 @@
       "src_start": 3.0,
       "src_dur": 2.35,
       "estirar": false,
-      "visible_desde": 110.4,
-      "visible_hasta": 112.7,
-      "fade_out": 112.3,
+      "visible_desde": 122.98,
+      "visible_hasta": 124.9,
+      "fade_out": 124.57,
       "fade_out_d": 0.4
     }
   ],

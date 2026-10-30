@@ -1,0 +1,2 @@
+{"fuente": "v1/voz.wav", "salida": "audio/voz.wav",
+ "ops": [{"t0": 14.55, "t1": 14.55, "archivo": "../_voz30/m1.wav", "ini": 0.0, "fin": 12.10, "gain": -1.2, "pausa": 0.5}]}

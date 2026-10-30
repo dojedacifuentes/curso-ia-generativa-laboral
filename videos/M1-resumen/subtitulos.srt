@@ -1,168 +1,172 @@
 1
-00:00:00,000 --> 00:00:03,100
-¡Hola de nuevo! Llegaste al cierre del Módulo 1:
+00:00:01,660 --> 00:00:01,960
+¡Hola de nuevo!
 
 2
-00:00:03,400 --> 00:00:06,700
-Introducción a la IA generativa y prompt básico.
+00:00:01,990 --> 00:00:03,030
+Llegaste al cierre del Módulo 1:
 
 3
-00:00:06,900 --> 00:00:11,550
+00:00:03,060 --> 00:00:06,670
+Introducción a la IA generativa y prompt básico.
+
+4
+00:00:07,560 --> 00:00:12,330
 En pocos minutos vamos a repasar las ideas
 que más te van a servir en tu trabajo,
 
-4
-00:00:11,650 --> 00:00:14,100
+5
+00:00:12,360 --> 00:00:14,520
 para que las tengas claras antes de seguir.
 
-5
-00:00:14,950 --> 00:00:18,950
+6
+00:00:14,550 --> 00:00:16,940
+La competencia de este módulo es:
+
+7
+00:00:17,270 --> 00:00:23,340
+interactuar con modelos de IA generativa mediante
+prompts efectivos y validación de resultados,
+
+8
+00:00:23,590 --> 00:00:26,540
+para apoyar tareas de oficina de forma verificada.
+
+9
+00:00:26,780 --> 00:00:31,510
 Lo primero: la IA generativa no sabe, predice.
 
-6
-00:00:19,200 --> 00:00:24,350
+10
+00:00:31,960 --> 00:00:36,890
 Arma cada respuesta fragmento a fragmento,
 eligiendo entre continuaciones probables.
 
-7
-00:00:24,550 --> 00:00:28,150
-Por eso el mismo pedido
-puede darte respuestas distintas.
+11
+00:00:37,240 --> 00:00:40,650
+Por eso el mismo pedido puede
+darte respuestas distintas.
 
-8
-00:00:28,350 --> 00:00:31,150
+12
+00:00:40,680 --> 00:00:43,510
 Y responde solo con lo que tiene en su contexto:
 
-9
-00:00:31,200 --> 00:00:33,300
+13
+00:00:43,860 --> 00:00:45,870
 lo que no le das, no lo conoce.
 
-10
-00:00:34,100 --> 00:00:39,600
-Segundo: un prompt efectivo tiene
-rol, contexto, tarea y formato.
+14
+00:00:46,680 --> 00:00:52,190
+Segundo: un prompt efectivo tiene rol,
+contexto, tarea y formato.
 
-11
-00:00:39,800 --> 00:00:42,900
+15
+00:00:52,520 --> 00:00:55,540
 Escribe como si le hablaras
 a una persona nueva en tu equipo:
 
-12
-00:00:43,200 --> 00:00:46,700
+16
+00:00:55,770 --> 00:00:59,100
 si un colega no entendería el pedido,
 el asistente tampoco.
 
-13
-00:00:46,900 --> 00:00:52,100
-Y cuando un prompt funciona, conviértelo en plantilla
-y guárdalo en tu biblioteca personal.
+17
+00:00:59,570 --> 00:01:04,620
+Y cuando un prompt funciona, conviértelo
+en plantilla y guárdalo en tu biblioteca personal.
 
-14
-00:00:52,900 --> 00:00:58,700
+18
+00:01:05,470 --> 00:01:11,260
 Tercero: los parámetros de generación cambian
 cómo responde el modelo sin cambiar el prompt.
 
-15
-00:00:58,900 --> 00:01:02,450
-Con la temperatura baja,
-las respuestas son más predecibles;
-
-16
-00:01:02,650 --> 00:01:04,550
-con la alta, más variadas.
-
-17
-00:01:04,750 --> 00:01:09,200
-Para datos y categorías conviene precisión;
-para ideas, variedad.
-
-18
-00:01:09,400 --> 00:01:14,550
-Y para comparar con rigor, usa la misma consigna
-y cambia una cosa a la vez.
-
 19
-00:01:15,400 --> 00:01:17,950
-Cuarto: valida antes de usar.
+00:01:11,570 --> 00:01:15,840
+Con la temperatura baja, las respuestas
+son más predecibles; con la alta,
 
 20
-00:01:18,200 --> 00:01:21,450
+00:01:15,870 --> 00:01:17,040
+más variadas.
+
+21
+00:01:17,430 --> 00:01:21,800
+Para datos y categorías conviene
+precisión; para ideas, variedad.
+
+22
+00:01:22,070 --> 00:01:27,120
+Y para comparar con rigor, usa la misma
+consigna y cambia una cosa a la vez.
+
+23
+00:01:27,650 --> 00:01:30,440
+Cuarto: valida antes de usar.
+
+24
+00:01:30,810 --> 00:01:34,040
 El modelo puede inventar
 con el mismo tono con que acierta.
 
-21
-00:01:21,700 --> 00:01:25,400
-Busca alucinaciones, sesgos
-y datos desactualizados,
+25
+00:01:34,430 --> 00:01:37,980
+Busca alucinaciones, sesgos y datos desactualizados,
 
-22
-00:01:25,500 --> 00:01:29,250
+26
+00:01:38,130 --> 00:01:41,700
 y contrasta lo importante
 con al menos dos fuentes confiables.
 
-23
-00:01:29,400 --> 00:01:32,700
-Lo que no puedas verificar,
-corrígelo o descártalo.
-
-24
-00:01:33,600 --> 00:01:35,800
-¿Qué puedes hacer desde mañana en tu trabajo?
-
-25
-00:01:36,100 --> 00:01:40,700
-Elige una tarea fácil de revisar
-y que no cause un problema grave si sale mal.
-
-26
-00:01:40,900 --> 00:01:44,150
-Pídela con rol, contexto, tarea y formato,
-
 27
-00:01:44,350 --> 00:01:48,550
-ajusta una cosa a la vez
-y revisa el resultado antes de usarlo.
+00:01:42,050 --> 00:01:45,280
+Lo que no puedas verificar, corrígelo o descártalo.
 
 28
-00:01:49,400 --> 00:01:53,000
-Porque quien firma o comparte un contenido
-responde por él.
+00:01:46,170 --> 00:01:48,400
+¿Qué puedes hacer desde mañana en tu trabajo?
 
 29
-00:01:53,900 --> 00:01:57,150
-En el Módulo 2, Comunicación y redacción profesional,
+00:01:48,810 --> 00:01:53,340
+Elige una tarea fácil de revisar y que no
+cause un problema grave si sale mal.
 
 30
-00:01:57,300 --> 00:02:00,700
+00:01:53,570 --> 00:01:56,780
+Pídela con rol, contexto, tarea y formato,
+
+31
+00:01:56,990 --> 00:02:01,220
+ajusta una cosa a la vez y revisa
+el resultado antes de usarlo.
+
+32
+00:02:01,870 --> 00:02:05,620
+Porque quien firma o comparte
+un contenido responde por él.
+
+33
+00:02:06,410 --> 00:02:09,720
+En el Módulo 2, Comunicación y redacción profesional,
+
+34
+00:02:09,990 --> 00:02:13,320
 vas a llevar todo esto
 a lo que más se hace en una oficina:
 
-31
-00:02:00,900 --> 00:02:03,650
-escribir correos, minutas e informes,
-
-32
-00:02:03,800 --> 00:02:07,000
-armar presentaciones
-y trabajar con planillas de cálculo.
-
-33
-00:02:07,800 --> 00:02:10,700
-Antes de seguir, revisa tu biblioteca de prompts
-
-34
-00:02:10,700 --> 00:02:13,100
-y deja lista la plantilla que más usaste.
-
 35
-00:02:13,350 --> 00:02:14,700
-Y quédate con esta idea:
+00:02:13,550 --> 00:02:19,580
+escribir correos, minutas e informes, armar
+presentaciones y trabajar con planillas de cálculo.
 
 36
-00:02:15,000 --> 00:02:18,240
-un buen prompt reduce el error,
-pero no lo elimina.
+00:02:20,110 --> 00:02:25,720
+Antes de seguir, revisa tu biblioteca de prompts
+y deja lista la plantilla que más usaste.
 
 37
-00:02:18,240 --> 00:02:20,200
+00:02:26,030 --> 00:02:31,040
+Y quédate con esta idea: un buen prompt
+reduce el error, pero no lo elimina.
+
+38
+00:02:31,310 --> 00:02:32,700
 ¡Nos vemos en el Módulo 2!

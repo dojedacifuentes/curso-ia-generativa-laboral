@@ -18,10 +18,10 @@
   "w": 820,
   "h": 461,
   "radius": 24,
-  "in": 84.9,
-  "out": 91.5,
-  "sceneIn": 83.3,
-  "sceneOut": 99.91
+  "in": 99.09,
+  "out": 105.69,
+  "sceneIn": 97.49,
+  "sceneOut": 114.1
  },
  {
   "name": "andres",
@@ -30,10 +30,10 @@
   "w": 820,
   "h": 461,
   "radius": 24,
-  "in": 88.3,
-  "out": 91.5,
-  "sceneIn": 83.3,
-  "sceneOut": 99.91
+  "in": 102.49,
+  "out": 105.69,
+  "sceneIn": 97.49,
+  "sceneOut": 114.1
  },
  {
   "name": "quiz",
@@ -42,10 +42,10 @@
   "w": 800,
   "h": 450,
   "radius": 24,
-  "in": 101,
-  "out": 105.4,
-  "sceneIn": 99.91,
-  "sceneOut": 114.26
+  "in": 115.19,
+  "out": 119.59,
+  "sceneIn": 114.1,
+  "sceneOut": 128.45
  },
  {
   "name": "andres2",
@@ -54,10 +54,10 @@
   "w": 800,
   "h": 450,
   "radius": 24,
-  "in": 109.2,
-  "out": 113.8,
-  "sceneIn": 99.91,
-  "sceneOut": 114.26
+  "in": 123.39,
+  "out": 127.99,
+  "sceneIn": 114.1,
+  "sceneOut": 128.45
  },
  {
   "name": "eva_momento",
@@ -66,10 +66,10 @@
   "w": 480,
   "h": 600,
   "radius": 32,
-  "in": 114.5,
+  "in": 128.69,
   "out": null,
-  "sceneIn": 114.26,
-  "sceneOut": 122.25
+  "sceneIn": 128.45,
+  "sceneOut": 136.44
  },
  {
   "name": "avatar_cierre",
@@ -78,9 +78,9 @@
   "w": 604,
   "h": 764,
   "radius": 32,
-  "in": 122.27,
+  "in": 136.46,
   "out": null,
-  "sceneIn": 122.25,
-  "sceneOut": 999
+  "sceneIn": 136.44,
+  "sceneOut": 1013.19
  }
 ]

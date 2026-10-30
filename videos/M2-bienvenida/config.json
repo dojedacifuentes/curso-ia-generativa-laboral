@@ -1,6 +1,6 @@
 {
   "_nota": "Bienvenida M2 (30-10), marca Empoderatech. Voz de EVA 2:19 (una toma). EVA: un render de 41,1 s con intro + momento clave (proyecto) + cierre (fondo grafito con fondo_eva.py --marca). Clips de Flow reutilizados del M1: Camila, Andrés y práctica en el celular.",
-  "duracion": 138.61,
+  "duracion": 152.8,
   "voz": "audio/voz.mp3",
   "salida": "M2_bienvenida.mp4",
   "avatar": {
@@ -9,21 +9,62 @@
     "offset": 0.023,
     "crop": "auto",
     "intro_out": 15.77,
-    "cierre_in": 122.25,
-    "cierre_master_t": 122.60,
-    "cierre_clip_t": 25.10
+    "cierre_in": 136.44,
+    "cierre_master_t": 136.79,
+    "cierre_clip_t": 25.1
   },
   "clips": [
-    {"slot": "camila", "video": "media/camila.mp4", "src_start": 0.3, "src_dur": 6.6, "estirar": false,
-     "visible_desde": 84.9, "visible_hasta": 91.5, "fade_out": 91.1},
-    {"slot": "andres", "video": "media/andres.mp4", "src_start": 0.3, "src_dur": 3.2, "estirar": false,
-     "visible_desde": 88.3, "visible_hasta": 91.5, "fade_out": 91.1},
-    {"slot": "quiz", "video": "media/quiz.mp4", "src_start": 2.0, "src_dur": 4.4, "estirar": false,
-     "visible_desde": 101.0, "visible_hasta": 105.4, "fade_out": 105.0},
-    {"slot": "andres2", "video": "media/andres.mp4", "src_start": 3.4, "src_dur": 4.5, "estirar": false,
-     "visible_desde": 109.2, "visible_hasta": 113.7, "fade_out": 113.3},
-    {"slot": "eva_momento", "video": "heygen/avatar_marca.mp4", "src_start": 16.523, "src_dur": 7.7, "estirar": false, "zoom": 1.0,
-     "visible_desde": 114.5, "visible_hasta": 122.2, "fade_out": 121.95}
+    {
+      "slot": "camila",
+      "video": "media/camila.mp4",
+      "src_start": 0.3,
+      "src_dur": 6.6,
+      "estirar": false,
+      "visible_desde": 99.09,
+      "visible_hasta": 105.69,
+      "fade_out": 105.29
+    },
+    {
+      "slot": "andres",
+      "video": "media/andres.mp4",
+      "src_start": 0.3,
+      "src_dur": 3.2,
+      "estirar": false,
+      "visible_desde": 102.49,
+      "visible_hasta": 105.69,
+      "fade_out": 105.29
+    },
+    {
+      "slot": "quiz",
+      "video": "media/quiz.mp4",
+      "src_start": 2.0,
+      "src_dur": 4.4,
+      "estirar": false,
+      "visible_desde": 115.19,
+      "visible_hasta": 119.59,
+      "fade_out": 119.19
+    },
+    {
+      "slot": "andres2",
+      "video": "media/andres.mp4",
+      "src_start": 3.4,
+      "src_dur": 4.5,
+      "estirar": false,
+      "visible_desde": 123.39,
+      "visible_hasta": 127.89,
+      "fade_out": 127.49
+    },
+    {
+      "slot": "eva_momento",
+      "video": "heygen/avatar_marca.mp4",
+      "src_start": 16.523,
+      "src_dur": 7.7,
+      "estirar": false,
+      "zoom": 1.0,
+      "visible_desde": 128.69,
+      "visible_hasta": 136.39,
+      "fade_out": 136.14
+    }
   ],
   "zoom_clips": 1.08,
   "musica": "audio/musica.wav",

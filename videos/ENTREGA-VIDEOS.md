@@ -23,3 +23,27 @@ textual y aprendizajes esperados en pantalla.
 | 5 · Automatización de tareas repetitivas | Video de resumen · Automatización de tareas repetitivas | `videos/M5-resumen/M5_resumen.mp4` | 2:31 | sí |
 | 6 · Taller de IA generativa para entornos laborales | Video de bienvenida · Taller de IA generativa para entornos laborales | `videos/M6-bienvenida/M6_bienvenida.mp4` | 2:21 | sí |
 | 6 · Taller de IA generativa para entornos laborales | Video de resumen · Taller de IA generativa para entornos laborales | `videos/M6-resumen/M6_resumen.mp4` | 2:42 | sí |
+
+## Subidos al aula (30-10)
+
+Los 12 videos están en Drive, en la carpeta «15 Videos de bienvenida y resumen» (https://drive.google.com/drive/folders/1D6eKvn9kO7PfHG50RB0rN-RwLaJfVxXq),
+copia de 1080p de ~22 MB, con acceso de lectura para cualquiera con el enlace. En el Moodle de Empoderatech (curso id 2), las 12 páginas
+«Video de bienvenida/resumen del módulo N» quedaron **visibles**, con una tarjeta de la marca y el botón «Ver el video», que abre el video
+de Drive en una pestaña nueva.
+
+| Página Moodle (cmid) | Video en Drive |
+|---|---|
+| 8 · bienvenida M1 | https://drive.google.com/file/d/1aeWIcV-8zirSFKqfE7JU17Yd7AV8BK9k/view |
+| 37 · resumen M1 | https://drive.google.com/file/d/10dmttCusZIDljJzfVouyjGgKpX_SROu7/view |
+| 39 · bienvenida M2 | https://drive.google.com/file/d/1ZBW-1mBHtqNdBtoP4rTpOEeP29lmRoeU/view |
+| 68 · resumen M2 | https://drive.google.com/file/d/1mVnsBEG98-cNgHMj4UuvytGaNvOXf78x/view |
+| 70 · bienvenida M3 | https://drive.google.com/file/d/1oIDiVyb4q6tmNCI3_NnDCaK90MWS248T/view |
+| 99 · resumen M3 | https://drive.google.com/file/d/1NIPXOGIhidq5qKqz4jzNCaY0N3_xOOQb/view |
+| 101 · bienvenida M4 | https://drive.google.com/file/d/1MRpiNbOQQVlw-ijJC8I2_5jF8ttrIPpV/view |
+| 131 · resumen M4 | https://drive.google.com/file/d/1CNgZGas-CmlS6ztNRL5yFrxH0u6K7Kt2/view |
+| 133 · bienvenida M5 | https://drive.google.com/file/d/1pcVUZifa8RiU0xQva5CEIh1hPvNUpoEF/view |
+| 157 · resumen M5 | https://drive.google.com/file/d/1-0MZxWqN55Ijz9tt0H47d5hirK5EgBV1/view |
+| 159 · bienvenida M6 | https://drive.google.com/file/d/11omLrh8CNNiLFoy3u4zoapqJZt0DufTi/view |
+| 180 · resumen M6 | https://drive.google.com/file/d/139Fs8C_QE8699BnbypRS_G6KDQ3_WQ1W/view |
+
+Para cambiar un video: subir el MP4 nuevo con «Administrar versiones» en Drive (mantiene el mismo enlace), así no hay que tocar Moodle.

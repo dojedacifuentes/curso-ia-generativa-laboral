@@ -226,6 +226,18 @@
     log('FIN textos');
   };
 
+  // Vuelve a escribir la portada de cada módulo (resumen de la sección) y agrega la tarjeta de insignias tras «Cómo avanzas»
+  window.actualizarPortadas = async (cid, aula) => {
+    for (const m of aula.modulos) { await nombreSeccion(cid, m.n, `Módulo ${m.n}: ${m.nombre}`, m.resumen); log(`~ portada módulo ${m.n}`); }
+    if (aula.inicio.insignias) {
+      await paso(cid, 0, 'Insignias del curso', () => etiqueta(cid, 0, aula.inicio.insignias, 'Insignias del curso'));
+      const st = await estado(cid); const s0 = seccion(st, 0); const cms = cmsDe(st, 0);
+      const ins = cms.find((c) => c.name === 'Insignias del curso'); const i = cms.findIndex((c) => c.name === 'Cómo avanzas');
+      if (ins && i >= 0 && cms[i + 1] && cms[i + 1].id !== ins.id) await call('core_courseformat_update_course', { action: 'cm_move', courseid: cid, ids: [String(ins.id)], targetsectionid: String(s0.id), targetcmid: String(cms[i + 1].id) });
+    }
+    log('FIN portadas');
+  };
+
   // Carga de archivos: un input propio; cada file_upload suma sus archivos a window.__archivos
   window.prepararCarga = () => {
     let i = document.getElementById('cc-archivos');

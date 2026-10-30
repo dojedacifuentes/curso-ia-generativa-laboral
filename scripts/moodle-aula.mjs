@@ -75,9 +75,17 @@ ${pasos(false)}
 <div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Repasa.</b> Al final de cada módulo están los casos de aplicación con empresas reales y la infografía animada con las ideas clave.</div>
 <div style="flex:1 1 100%;background:${C.noche};color:#fff;border-radius:12px;padding:12px 16px;"><b style="color:${C.fu};">Tu proyecto del curso.</b> En el módulo 1 eliges una tarea de tu cargo y en cada módulo la mejoras con IA: la presentas, la investigas, comunicas tu propuesta, automatizas un paso con supervisión y, al final, mides sus resultados y los cuentas en un pitch. Cada paso es un hito: lo reconoces en las actividades 2 marcadas con su número.</div></div></div>`;
 
+// Insignias del curso (creadas en Moodle el 30-10, ids 1 a 7; imágenes de scripts/moodle-insignias.mjs)
+const INSIGNIA = (id) => `https://formacion.empoderatech.com/pluginfile.php/16/badges/badgeimage/${id}/f1`;
+const insignias = () => `<div style="background:#fff;border:1px solid ${C.linea};border-radius:18px;padding:18px 20px;margin:8px 0;">
+<div style="font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:${C.fr};">Insignias que puedes ganar</div>
+<div style="font-size:15px;color:${C.noche};margin:6px 0 12px;line-height:1.5;">Al completar cada módulo ganas su insignia, y al terminar el curso con nota de aprobación, la insignia del curso. Las ves en tu perfil.</div>
+<div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;">${curso.modulos.map((m) => `<img src="${INSIGNIA(m.n)}" alt="Insignia del módulo ${m.n}" width="92" height="92" style="width:92px;height:92px;">`).join('')}<img src="${INSIGNIA(7)}" alt="Insignia de curso completado" width="116" height="116" style="width:116px;height:116px;margin-left:6px;"></div></div>`;
+
 const heroModulo = (m) => heroBox(`${pill(`Módulo ${m.n} de ${curso.modulos.length}`, true)}
 <div style="font-size:26px;font-weight:700;line-height:1.2;margin:12px 0 10px;max-width:680px;">${esc(m.nombre)}</div>
 <div style="font-size:15.5px;line-height:1.6;max-width:680px;opacity:.96;"><b style="color:#fff;">Competencia del módulo:</b> ${esc(m.competencia)}</div>
+<div style="display:flex;gap:6px;margin-top:14px;max-width:420px;" aria-label="Módulo ${m.n} de ${curso.modulos.length}">${curso.modulos.map((x) => `<span style="flex:1;height:6px;border-radius:999px;background:${x.n < m.n ? C.fr : x.n === m.n ? C.fu : 'rgba(255,255,255,.18)'};"></span>`).join('')}</div>
 <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;">${m.aes.map((a, i) => `<span style="display:inline-flex;gap:8px;align-items:center;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:5px 14px 5px 6px;font-size:13.5px;">${num(i + 1, 22)}${esc(a.tema)}</span>`).join('')}</div>`);
 
 const bandaTema = (m, a, i) => `<div style="background:#fff;border:1px solid ${C.linea};border-left:6px solid ${C.fr};border-radius:18px;padding:18px 22px;margin-top:18px;">
@@ -141,7 +149,7 @@ const aula = {
   generado: new Date().toISOString(),
   curso: { fullname: curso.titulo, shortname: 'IA-GENERATIVA-LABORAL', resumen: `<p>Curso práctico para usar la IA generativa en las tareas de tu trabajo, de forma verificada, ética y segura.</p>` },
   inicio: {
-    portada: portada(), comoAvanzar: comoAvanzar(),
+    portada: portada(), comoAvanzar: comoAvanzar(), insignias: insignias(),
     foro: { name: 'Foro de interacción del curso', intro: estilar(general.cuerpo) },
     glosario: { name: 'Glosario del curso', intro: '<p>Los términos del curso con su definición, para consultar cuando lo necesites.</p>', xml: 'entregables/glosario/Glosario-Moodle.xml' },
     reservados: { induccion: { name: 'Inducción al curso', html: reservado('Aquí van el video de inducción y la guía del participante.') }, diagnostica: { name: 'Evaluación diagnóstica del curso', html: reservado('Aquí va la evaluación diagnóstica.') } },

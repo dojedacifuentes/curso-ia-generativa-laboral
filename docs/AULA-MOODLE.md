@@ -41,6 +41,27 @@ formato por temas con todas las secciones en una página, finalización de activ
 - Cambio del 30-10: la actividad 1 de cada tema tiene **su propio foro** (un foro de Moodle da una sola nota por estudiante); el
   foro del módulo queda para la consigna y los casos. Textos de actividades, foros y guía ajustados.
 
+## Configuración del curso (30-10, segunda parte)
+
+- **Aviso de bienvenida** del equipo docente, fijado en Avisos.
+- **Glosario:** los estudiantes no pueden agregar entradas (capacidad `mod/glossary:write` prohibida para Estudiante en el glosario).
+- **Libro de calificaciones** (agregación natural, la única activa en el sitio), según la hoja «Evaluación» de la planilla:
+  Hitos del proyecto M1–M5 15 %, Pitch y portafolio (hitos 6c y 6d) 15 %, Evaluaciones de módulo 40 %, Evaluación final 30 %,
+  Actividades formativas 0 % (Rise, quiz, infografías, actividades 1, actividades 2 que no son hito, hitos 6a y 6b y foros). Las
+  categorías de evaluaciones de módulo y final están vacías hasta que se carguen.
+- **Escala 1,0 a 7,0** como letras del curso (4,0 desde 60 %; sobre 60 % se redondea a la media nota más cercana; bajo 60 %,
+  1,0 + 3·p/60 con corte en medias notas); las notas se muestran como «Letra (porcentaje)».
+- **Finalización del curso:** completar las 113 actividades visibles con finalización y nota del curso de 60 % o más. Al
+  agregar las evaluaciones, sumarlas a los criterios.
+- **Insignias** (`scripts/moodle-insignias.mjs`, imágenes en `entregables/moodle/insignias/`): una por módulo (ids 1 a 6, al
+  completar todas las actividades visibles del módulo) y una de curso completado (id 7, al finalizar el curso). Activas. Tarjeta
+  «Insignias que puedes ganar» en la bienvenida.
+- **Portada de cada módulo** con una barra de seis segmentos que marca en qué módulo está la persona.
+- **Estilos y animaciones** (`scripts/lib/moodle-estilos.css`): van al final del «SCSS sin procesar» del tema Moove, entre los
+  comentarios `cc-ia-generativa`, limitados a `body.course-2`. Tarjetas que se elevan, íconos y botones de avance con la marca,
+  fundido al bajar (animación por scroll, sin relleno final para no tapar los menús), arcos que respiran y brillo en la insignia
+  de hito. Respeta «reducir movimiento». El navegador puede mostrar el CSS anterior hasta recargar sin caché.
+
 ## Pendiente
 
 Videos (bienvenida, resumen, inducción), evaluaciones diagnósticas y del módulo, y evaluación final: hoy son espacios reservados

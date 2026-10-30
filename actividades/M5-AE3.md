@@ -9,7 +9,7 @@ entrega: foro
 
 Vas a ayudar a Paula a decidir dónde revisa una persona en su flujo de reclamos y qué hacer si algo falla. Con un caso ficticio
 practicas el mapa de riesgos, los puntos de control y el plan de contingencia que después aplicarás a tu flujo. Publica tu tabla, tus
-criterios, las columnas y el plan en el foro del módulo, en el mensaje o en un documento adjunto. Se evalúa con la rúbrica de abajo,
+criterios, las columnas y el plan en el foro de la actividad, en el mensaje o en un documento adjunto. Se evalúa con la rúbrica de abajo,
 y el facilitador te responde en el foro dentro de 24 horas hábiles.
 
 ### Situación
@@ -39,7 +39,7 @@ revertir, porque un correo enviado no se puede recoger.
 
 ### Lo que entregas
 
-Publica en el foro del módulo una tabla con los cinco pasos, su riesgo, si lleva punto de control, la forma de supervisión y la
+Publica en el foro de la actividad una tabla con los cinco pasos, su riesgo, si lleva punto de control, la forma de supervisión y la
 razón. Debajo, los criterios de aprobación del punto principal, las columnas nuevas de la planilla y el plan de contingencia con las
 seis respuestas, con un responsable con nombre y un reemplazo para cuando esa persona no esté.
 

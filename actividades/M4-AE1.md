@@ -7,7 +7,7 @@ entrega: foro
 
 ### Instrucción general
 
-En esta actividad ayudas a Camila a elegir las herramientas para las dos piezas de su campaña y revisas qué le permiten sus licencias y condiciones de uso. Es una práctica con un caso ficticio antes de elegir para una pieza de tu propio cargo. Publica tu trabajo en el foro del módulo, escrito en el mensaje o como archivo adjunto. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
+En esta actividad ayudas a Camila a elegir las herramientas para las dos piezas de su campaña y revisas qué le permiten sus licencias y condiciones de uso. Es una práctica con un caso ficticio antes de elegir para una pieza de tu propio cargo. Publica tu trabajo en el foro de la actividad, escrito en el mensaje o como archivo adjunto. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -28,7 +28,7 @@ Vas a ayudar a Camila a elegir en tres pasos: primero el tipo de pieza, después
 
 ### Lo que entregas
 
-Publica en el foro del módulo la tabla con las cuatro herramientas comparadas y su clasificación, la respuesta sobre el ícono y la recomendación final para Camila. La tabla puede ir en el mensaje o como archivo adjunto: una nota del celular, un documento o una foto de una hoja escrita a mano, siempre que se lea bien.
+Publica en el foro de la actividad la tabla con las cuatro herramientas comparadas y su clasificación, la respuesta sobre el ícono y la recomendación final para Camila. La tabla puede ir en el mensaje o como archivo adjunto: una nota del celular, un documento o una foto de una hoja escrita a mano, siempre que se lea bien.
 
 ### Rúbrica
 

@@ -7,7 +7,7 @@ entrega: foro
 
 ### Instrucción general
 
-En esta actividad evalúas las cinco fuentes que reunió Rosa, las contrastas y escribes una síntesis corta para la coordinadora. Practicas con un caso ficticio lo que después vas a hacer con las fuentes de tu propio cargo. Publica tu trabajo en el foro del módulo, escrito en el mensaje o como archivo adjunto. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
+En esta actividad evalúas las cinco fuentes que reunió Rosa, las contrastas y escribes una síntesis corta para la coordinadora. Practicas con un caso ficticio lo que después vas a hacer con las fuentes de tu propio cargo. Publica tu trabajo en el foro de la actividad, escrito en el mensaje o como archivo adjunto. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -29,7 +29,7 @@ Para evaluarlas vas a usar tres de los criterios del test CRAAP: la autoría, la
 
 ### Lo que entregas
 
-Publica en el foro del módulo la tabla de evaluación, la matriz de contraste con la decisión de cada fila y la síntesis para la coordinadora. Puedes escribirlo en el mensaje o adjuntar una planilla, un documento o una foto de una hoja escrita a mano, siempre que se lea bien.
+Publica en el foro de la actividad la tabla de evaluación, la matriz de contraste con la decisión de cada fila y la síntesis para la coordinadora. Puedes escribirlo en el mensaje o adjuntar una planilla, un documento o una foto de una hoja escrita a mano, siempre que se lea bien.
 
 ### Rúbrica
 

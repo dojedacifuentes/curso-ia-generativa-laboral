@@ -7,7 +7,7 @@ entrega: foro
 
 ### Instrucción general
 
-En esta actividad vas a armar con Gemini las seis láminas con que Camila le propone un cambio a la gerenta, cuidando que todas apoyen un mismo mensaje clave. Publicas tu trabajo en el foro del módulo, con las láminas en PDF o con el enlace de la presentación, junto al brief, el esquema y el guion. Como los datos son ficticios, tu aporte lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
+En esta actividad vas a armar con Gemini las seis láminas con que Camila le propone un cambio a la gerenta, cuidando que todas apoyen un mismo mensaje clave. Publicas tu trabajo en el foro de la actividad, con las láminas en PDF o con el enlace de la presentación, junto al brief, el esquema y el guion. Como los datos son ficticios, tu aporte lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -27,7 +27,7 @@ Vas a armar el brief, pedir el esquema a Gemini y convertirlo en seis láminas c
 
 ### Lo que entregas
 
-Publicas en el foro del módulo el brief, el esquema tal como lo entregó Gemini, las seis láminas finales y el guion. Agrega una línea con los seis títulos uno debajo del otro, para que se puedan leer de corrido.
+Publicas en el foro de la actividad el brief, el esquema tal como lo entregó Gemini, las seis láminas finales y el guion. Agrega una línea con los seis títulos uno debajo del otro, para que se puedan leer de corrido.
 
 ### Rúbrica
 

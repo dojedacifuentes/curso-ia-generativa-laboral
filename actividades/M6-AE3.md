@@ -8,8 +8,7 @@ entrega: foro
 ### Instrucción general
 
 Vas a ayudar a Camila a dejar sus resultados en algo que pueda defender: una tabla honesta, una interpretación con sus límites, una
-mejora y un guion de pitch de 3 minutos. Es la práctica del cierre que harás con tu propio proyecto. Publica todo en el foro del
-módulo, en el mensaje o en un documento adjunto. Se evalúa con la rúbrica de abajo, y el facilitador te responde en el foro dentro de
+mejora y un guion de pitch de 3 minutos. Es la práctica del cierre que harás con tu propio proyecto. Publica todo en el foro de laactividad, en el mensaje o en un documento adjunto. Se evalúa con la rúbrica de abajo, y el facilitador te responde en el foro dentro de
 24 horas hábiles.
 
 ### Situación
@@ -42,7 +41,7 @@ errores». Antes de presentarlo, te pide que la ayudes a dejarlo en algo que pue
 
 ### Lo que entregas
 
-Publica en el foro del módulo la tabla de resultados, el borrador reescrito, la propuesta de mejora y el guion del pitch, con una
+Publica en el foro de la actividad la tabla de resultados, el borrador reescrito, la propuesta de mejora y el guion del pitch, con una
 línea al final que diga cuánto duró al leerlo en voz alta y qué cambiaste después de la prueba de las dos frases.
 
 ### Rúbrica

@@ -7,7 +7,7 @@ entrega: foro
 
 ### Instrucción general
 
-En esta actividad haces la búsqueda que la gerenta le encargó a Camila: acotas un tema general, lo conviertes en preguntas de investigación y lo buscas con dos herramientas que muestran sus fuentes. Es una práctica con un caso ficticio, para que después investigues una pregunta de tu propio cargo. Publica tu trabajo en el foro del módulo, escrito en el mensaje o como archivo adjunto, con enlaces que se puedan abrir. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
+En esta actividad haces la búsqueda que la gerenta le encargó a Camila: acotas un tema general, lo conviertes en preguntas de investigación y lo buscas con dos herramientas que muestran sus fuentes. Es una práctica con un caso ficticio, para que después investigues una pregunta de tu propio cargo. Publica tu trabajo en el foro de la actividad, escrito en el mensaje o como archivo adjunto, con enlaces que se puedan abrir. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -27,7 +27,7 @@ Camila parte de un tema general, «organizar la agenda». Para convertirlo en un
 
 ### Lo que entregas
 
-Publica en el foro del módulo las dos preguntas de investigación con el tema acotado del que salieron, el registro con al menos tres fuentes que abriste y leíste, y una línea con lo que el cuaderno dijo que sus fuentes no responden. Puedes escribirlo en el mensaje o adjuntar una nota del celular, un documento o una planilla, siempre que cada enlace se pueda abrir.
+Publica en el foro de la actividad las dos preguntas de investigación con el tema acotado del que salieron, el registro con al menos tres fuentes que abriste y leíste, y una línea con lo que el cuaderno dijo que sus fuentes no responden. Puedes escribirlo en el mensaje o adjuntar una nota del celular, un documento o una planilla, siempre que cada enlace se pueda abrir.
 
 ### Rúbrica
 

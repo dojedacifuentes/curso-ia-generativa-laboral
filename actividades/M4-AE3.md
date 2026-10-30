@@ -7,7 +7,7 @@ entrega: foro
 
 ### Instrucción general
 
-En esta actividad produces la locución y la pista del audio de Camila y verificas sus condiciones de uso. Es una práctica con un caso ficticio antes de hacer la locución de un aviso de tu trabajo. Publica en el foro del módulo los audios como archivos adjuntos o con un enlace que se pueda abrir, y en el mensaje el guion y tus respuestas. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
+En esta actividad produces la locución y la pista del audio de Camila y verificas sus condiciones de uso. Es una práctica con un caso ficticio antes de hacer la locución de un aviso de tu trabajo. Publica en el foro de la actividad los audios como archivos adjuntos o con un enlace que se pueda abrir, y en el mensaje el guion y tus respuestas. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -28,7 +28,7 @@ Vas a producir la locución y la pista de Camila, y a verificar sus condiciones 
 
 ### Lo que entregas
 
-Publica en el foro del módulo el guion final, la locución y la pista descargadas con nombres claros, las cinco preguntas respondidas para cada audio, el texto de atribución que irá en el título cuando la gerenta suba el audio y tu respuesta al compañero, en tres o cuatro líneas. Adjunta los audios o comparte un enlace que se pueda abrir.
+Publica en el foro de la actividad el guion final, la locución y la pista descargadas con nombres claros, las cinco preguntas respondidas para cada audio, el texto de atribución que irá en el título cuando la gerenta suba el audio y tu respuesta al compañero, en tres o cuatro líneas. Adjunta los audios o comparte un enlace que se pueda abrir.
 
 ### Rúbrica
 

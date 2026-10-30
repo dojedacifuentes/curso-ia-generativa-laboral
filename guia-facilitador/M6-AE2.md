@@ -4,7 +4,7 @@
 
 ### Dónde se entrega y cuándo responder
 
-La persona publica su planilla, las plantillas, la tabla de versiones y la bitácora en el foro del módulo. Responde en el mismo hilo dentro de 24 horas hábiles, con el nivel de cada criterio de la rúbrica y un comentario breve. Los cinco documentos son inventados, así que el aporte puede verlo el curso.
+La persona publica su planilla, las plantillas, la tabla de versiones y la bitácora en el foro de la actividad. Responde en el mismo hilo dentro de 24 horas hábiles, con el nivel de cada criterio de la rúbrica y un comentario breve. Los cinco documentos son inventados, así que el aporte puede verlo el curso.
 
 ### Pauta de corrección
 

@@ -1,6 +1,6 @@
 # Auditoría del curso «IA generativa para entornos laborales»
 
-Generado con `node scripts/auditar.mjs` el 30-10-26, 1:27 a. m.. Solo lee: no corrige nada.
+Generado con `node scripts/auditar.mjs` el 30-10-26, 2:35 a. m.. Solo lee: no corrige nada.
 Fuente de verdad: planilla «Estructura_inicial_contenido_IA_generativa» (Drive 1v_NCRQGZnajDLesIw8haIMrw4551q6C8Om6AOM8RoHM).
 
 **Resultado:** 108 chequeos · ✓ 102 sin observaciones · ! 4 con avisos · ✗ 0 con errores · … 2 pendientes.
@@ -44,14 +44,14 @@ investigacion/M<n>.md, HERRAMIENTAS-*.md  (fuentes F-…, abiertas y leídas)   
 
 | Estado | Recursos | Horas |
 |---|---|---|
-| Pendiente | 12 | 6.8 |
-| Hecho | 68 | 67.3 |
-| Insumo listo | 21 | 13.9 |
+| Pendiente | 11 | 6.7 |
+| Hecho | 70 | 67.4 |
+| Insumo listo | 20 | 13.9 |
 
 | Tipo | Hecho | Insumo listo | En curso | Pendiente |
 |---|---|---|---|---|
 | Inducción/Diagnóstica |  |  |  | 1 |
-| Video | 1 | 6 |  | 5 |
+| Video | 3 | 5 |  | 4 |
 | Rise | 22 |  |  |  |
 | Quiz formativo | 22 |  |  |  |
 | Hito proyecto |  | 9 |  |  |
@@ -274,7 +274,7 @@ Cruza cada fila de la hoja «Recursos» con lo producido. «Hecho» = el entrega
 <details><summary>Detalle</summary>
 
 - **C9.1 Estado de cada recurso**
-  - … 12 recursos sin empezar (Inducción/Diagnóstica, Evaluación sumativa, Video)
+  - … 11 recursos sin empezar (Inducción/Diagnóstica, Evaluación sumativa, Video)
 
 </details>
 
@@ -296,11 +296,11 @@ Cruza cada fila de la hoja «Recursos» con lo producido. «Hecho» = el entrega
 | R012 | M1 | Caso de aplicación | Caso M1-C1 · Asistente de IA para asesores financieros (Morgan Stanley) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R013 | M1 | Caso de aplicación | Caso M1-C2 · Cuando la IA inventa: abogados y jurisprudencia inexistente (Mata v. Avianca, 2023) y chatbot de Air Canada (2024) | 90 | Hecho | Caso verificado (Verificado con ajustes) |
 | R014 | M1 | Foro | Foro M1: discusión guiada del módulo (tutor responde en <24 h hábiles) | 30 | Hecho | Consigna «qué, por qué y para qué» con rúbrica (foros/M1.md) |
-| R015 | M1 | Video | Video de resumen M1 (3 min): ideas clave y conexión con el siguiente módulo | 3 | Insumo listo | Ideas clave disponibles; falta el guion y el video |
+| R015 | M1 | Video | Video de resumen M1 (3 min): ideas clave y conexión con el siguiente módulo | 3 | Hecho | Video, .srt y slides (videos/M1-resumen) |
 | R016 | M1 | Resumen y glosario | Resumen y glosario del módulo M1 (página; lectura 1,5 min) | 1.5 | Insumo listo | Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle |
 | R017 | M1 | Complemento | Infografía M1: Anatomía de un prompt efectivo (rol · contexto · tarea · formato) | 0 | Hecho | Infografía animada con marca (HTML + SCORM 1.2) |
 | R018 | M1 | Evaluación sumativa | Evaluación sumativa M1 | 60 | Pendiente | Falta el banco GIFT por criterios |
-| R019 | M2 | Video | Video de bienvenida M2 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto | 3 | Pendiente | Falta el guion y el video |
+| R019 | M2 | Video | Video de bienvenida M2 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto | 3 | Hecho | Video, .srt y slides (videos/M2-bienvenida) |
 | R020 | M2 | Rise | Rise M2-T1 · Redacción y comunicación con IA | 135 | Hecho | Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12) |
 | R021 | M2 | Quiz formativo | Quiz formativo M2-AE1 · Redacción y comunicación con IA | 15 | Hecho | Juego HTML + SCORM 1.2 + GIFT |
 | R022 | M2 | Rise | Rise M2-T2 · Prompting avanzado para textos | 135 | Hecho | Rise armado y exportado en SCORM 1.2 (Drive, carpeta 12) |

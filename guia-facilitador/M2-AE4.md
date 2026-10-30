@@ -4,7 +4,7 @@
 
 ### Dónde se entrega y cuándo responder
 
-La persona publica su trabajo en el foro del módulo, con una captura o una copia de la hoja y su bitácora. Responde en el mismo hilo dentro de 24 horas hábiles. La tabla es ficticia, así que el aporte es visible para el curso. Si la captura no deja ver la fórmula, pídele una captura con la celda seleccionada y la barra de fórmulas a la vista.
+La persona publica su trabajo en el foro de la actividad, con una captura o una copia de la hoja y su bitácora. Responde en el mismo hilo dentro de 24 horas hábiles. La tabla es ficticia, así que el aporte es visible para el curso. Si la captura no deja ver la fórmula, pídele una captura con la celda seleccionada y la barra de fórmulas a la vista.
 
 ### Pauta de corrección
 

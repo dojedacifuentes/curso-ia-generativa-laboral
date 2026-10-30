@@ -7,7 +7,7 @@ entrega: foro
 
 ### Instrucción general
 
-En esta actividad vas a escribir un prompt para cada pendiente de Camila y a mejorarlo con al menos una iteración, para practicar la estructura de rol, contexto, tarea y formato. Publicas tu trabajo en el foro del módulo, en el mensaje o en un documento adjunto. Como son datos de prueba, el facilitador y el resto del curso pueden leer tus prompts y compararlos con los suyos. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
+En esta actividad vas a escribir un prompt para cada pendiente de Camila y a mejorarlo con al menos una iteración, para practicar la estructura de rol, contexto, tarea y formato. Publicas tu trabajo en el foro de la actividad, en el mensaje o en un documento adjunto. Como son datos de prueba, el facilitador y el resto del curso pueden leer tus prompts y compararlos con los suyos. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -35,7 +35,7 @@ Vas a escribir un prompt para resumir, uno para reescribir y uno para clasificar
 
 ### Lo que entregas
 
-Publicas en el foro del módulo, para cada uno de los tres pendientes, la versión 1 y la versión 2 del prompt con sus partes marcadas, las dos respuestas y
+Publicas en el foro de la actividad, para cada uno de los tres pendientes, la versión 1 y la versión 2 del prompt con sus partes marcadas, las dos respuestas y
 dos o tres líneas que expliquen qué falló en la primera, qué cambiaste y por qué la segunda le sirve más a Camila.
 
 ### Rúbrica

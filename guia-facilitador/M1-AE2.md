@@ -4,7 +4,7 @@
 
 ### Dónde se entrega y cuándo responder
 
-La persona publica su trabajo en el foro del módulo. Responde en el mismo hilo dentro de 24 horas hábiles, con el nivel de cada criterio y un comentario breve. Los datos son de prueba, así que el resto del curso puede leer y comparar los prompts; si ves dos aportes con enfoques distintos que funcionan, vale la pena mencionarlo en el foro.
+La persona publica su trabajo en el foro de la actividad. Responde en el mismo hilo dentro de 24 horas hábiles, con el nivel de cada criterio y un comentario breve. Los datos son de prueba, así que el resto del curso puede leer y comparar los prompts; si ves dos aportes con enfoques distintos que funcionan, vale la pena mencionarlo en el foro.
 
 ### Pauta de corrección
 

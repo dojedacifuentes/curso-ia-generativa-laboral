@@ -9,7 +9,7 @@ entrega: foro
 
 Vas a construir con datos de prueba un flujo que lee correos de pedidos, saca con IA el producto y la cantidad y deja una fila en una
 planilla, y lo vas a someter a un plan de pruebas. Así aprendes a armar un flujo y a encontrar sus fallas antes de usarlo en serio.
-Publica tus capturas, tu plan de pruebas y tus correcciones en el foro del módulo; como todo es inventado, el curso puede verlo. Se
+Publica tus capturas, tu plan de pruebas y tus correcciones en el foro de la actividad; como todo es inventado, el curso puede verlo. Se
 evalúa con la rúbrica de abajo, y el facilitador te responde en el foro dentro de 24 horas hábiles.
 
 ### Situación
@@ -39,7 +39,7 @@ celular, el error equivalente es pedirle a Gemini un remitente fijo en el texto 
 
 ### Lo que entregas
 
-Publica en el foro del módulo una captura de la tabla del flujo, una captura del flujo armado y una de la planilla antes y después de
+Publica en el foro de la actividad una captura de la tabla del flujo, una captura del flujo armado y una de la planilla antes y después de
 corregir el remitente, todas con datos de prueba. Suma tu plan de pruebas completo, con la columna de lo obtenido y las X, y dos o
 tres líneas por cada falla con lo que cambiaste.
 

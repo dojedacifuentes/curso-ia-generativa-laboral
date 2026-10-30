@@ -7,7 +7,7 @@ entrega: foro
 
 ### Instrucción general
 
-En esta actividad clasificas seis documentos ficticios del escritorio de Camila y decides cuáles pueden ingresar a una cuenta gratuita de IA y con qué cuidado. Te sirve para practicar antes de hacer el mapa de la información de tu propio cargo. Publica tu trabajo en el foro del módulo, escrito en el mensaje o como archivo adjunto. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
+En esta actividad clasificas seis documentos ficticios del escritorio de Camila y decides cuáles pueden ingresar a una cuenta gratuita de IA y con qué cuidado. Te sirve para practicar antes de hacer el mapa de la información de tu propio cargo. Publica tu trabajo en el foro de la actividad, escrito en el mensaje o como archivo adjunto. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -28,7 +28,7 @@ Para clasificar, usa dos preguntas. La primera es quién puede acceder a la info
 
 ### Lo que entregas
 
-Publica en el foro del módulo la tabla con la clasificación y la decisión de cada documento, los dos pedidos reescritos y la recomendación sobre el ajuste de actividad. Puedes escribirlo en el mensaje o adjuntar una nota del celular, un documento o una foto de una hoja escrita a mano.
+Publica en el foro de la actividad la tabla con la clasificación y la decisión de cada documento, los dos pedidos reescritos y la recomendación sobre el ajuste de actividad. Puedes escribirlo en el mensaje o adjuntar una nota del celular, un documento o una foto de una hoja escrita a mano.
 
 ### Rúbrica
 

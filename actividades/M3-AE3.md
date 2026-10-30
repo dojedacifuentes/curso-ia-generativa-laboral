@@ -7,7 +7,7 @@ entrega: foro
 
 ### Instrucción general
 
-En esta actividad conviertes la investigación de Andrés en un informe breve que su jefatura pueda leer en el celular, con hallazgos, recomendaciones y referencias en APA 7. Es una práctica con datos ficticios, para que después hagas el informe de tu propia pregunta. Publica el informe en el foro del módulo como archivo adjunto o con un enlace que se pueda abrir. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
+En esta actividad conviertes la investigación de Andrés en un informe breve que su jefatura pueda leer en el celular, con hallazgos, recomendaciones y referencias en APA 7. Es una práctica con datos ficticios, para que después hagas el informe de tu propia pregunta. Publica el informe en el foro de la actividad como archivo adjunto o con un enlace que se pueda abrir. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -29,7 +29,7 @@ Las fuentes que tiene que referenciar son una guía en PDF del Instituto de Log�
 
 ### Lo que entregas
 
-Publica en el foro del módulo el informe de Andrés en una o dos páginas, con títulos que informen, el gráfico o una tabla con los datos por semana y la lista de referencias. Puedes armarlo en un documento de Google o en el editor de texto del celular, y adjuntarlo o compartir el enlace.
+Publica en el foro de la actividad el informe de Andrés en una o dos páginas, con títulos que informen, el gráfico o una tabla con los datos por semana y la lista de referencias. Puedes armarlo en un documento de Google o en el editor de texto del celular, y adjuntarlo o compartir el enlace.
 
 ### Rúbrica
 

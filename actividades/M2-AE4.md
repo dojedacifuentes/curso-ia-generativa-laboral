@@ -7,7 +7,7 @@ entrega: foro
 
 ### Instrucción general
 
-En esta actividad vas a pedirle a Gemini dos fórmulas para la planilla de facturas de Camila, aplicarlas y comprobar que dan el resultado correcto. Publicas tu trabajo en el foro del módulo, con una captura o una copia de la hoja y tu bitácora en el mensaje o en un adjunto. Como la tabla es ficticia, tu aporte lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
+En esta actividad vas a pedirle a Gemini dos fórmulas para la planilla de facturas de Camila, aplicarlas y comprobar que dan el resultado correcto. Publicas tu trabajo en el foro de la actividad, con una captura o una copia de la hoja y tu bitácora en el mensaje o en un adjunto. Como la tabla es ficticia, tu aporte lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -39,7 +39,7 @@ Los resultados que debes obtener son 2830000 para Pendiente y 1009000 para Pagad
 
 ### Lo que entregas
 
-Publicas en el foro del módulo una captura o una copia de la hoja con las dos fórmulas funcionando y, en tu bitácora, la fórmula exacta que propuso Gemini para cada problema, tu cálculo a mano y el resultado de cada prueba. Si tuviste que corregir una fórmula, anota cómo era antes y cómo quedó.
+Publicas en el foro de la actividad una captura o una copia de la hoja con las dos fórmulas funcionando y, en tu bitácora, la fórmula exacta que propuso Gemini para cada problema, tu cálculo a mano y el resultado de cada prueba. Si tuviste que corregir una fórmula, anota cómo era antes y cómo quedó.
 
 ### Rúbrica
 

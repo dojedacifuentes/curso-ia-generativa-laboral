@@ -7,7 +7,7 @@ entrega: foro
 
 ### Instrucción general
 
-En esta actividad produces el afiche de reciclaje de Camila: reescribes su prompt, generas versiones, corriges sesgos y defectos y compones la pieza en Canva. Es una práctica con un caso ficticio antes de hacer una pieza para tu área. Publica el afiche en el foro del módulo como imagen adjunta, con tus prompts y tu párrafo en el mensaje. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
+En esta actividad produces el afiche de reciclaje de Camila: reescribes su prompt, generas versiones, corriges sesgos y defectos y compones la pieza en Canva. Es una práctica con un caso ficticio antes de hacer una pieza para tu área. Publica el afiche en el foro de la actividad como imagen adjunta, con tus prompts y tu párrafo en el mensaje. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -28,7 +28,7 @@ Vas a producir el afiche de Camila de principio a fin. Usa Gemini y Canva, en la
 
 ### Lo que entregas
 
-Publica en el foro del módulo el afiche final en formato vertical, como imagen adjunta, los tres prompts con lo que cambiaste en cada uno y un párrafo breve que explique qué sesgo y qué defecto encontraste en la primera imagen y cómo los corregiste.
+Publica en el foro de la actividad el afiche final en formato vertical, como imagen adjunta, los tres prompts con lo que cambiaste en cada uno y un párrafo breve que explique qué sesgo y qué defecto encontraste en la primera imagen y cómo los corregiste.
 
 ### Rúbrica
 

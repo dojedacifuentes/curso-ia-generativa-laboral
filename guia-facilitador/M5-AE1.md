@@ -4,7 +4,7 @@
 
 ### Dónde se entrega y cuándo responder
 
-La persona publica su tabla y su reflexión en el foro del módulo. Responde en el mismo hilo dentro de 24 horas hábiles, con el nivel de cada criterio de la rúbrica y un comentario breve. El caso es ficticio, así que el aporte puede verlo todo el curso. Si alguien cambia las notas por datos reales de pacientes o de su trabajo, pídele que edite el mensaje.
+La persona publica su tabla y su reflexión en el foro de la actividad. Responde en el mismo hilo dentro de 24 horas hábiles, con el nivel de cada criterio de la rúbrica y un comentario breve. El caso es ficticio, así que el aporte puede verlo todo el curso. Si alguien cambia las notas por datos reales de pacientes o de su trabajo, pídele que edite el mensaje.
 
 ### Pauta de corrección
 

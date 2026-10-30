@@ -4,7 +4,7 @@
 
 ### Dónde se entrega y cuándo responder
 
-La persona publica el afiche en el foro del módulo como imagen adjunta, con sus prompts y su párrafo en el mensaje. Responde en el mismo hilo dentro de 24 horas hábiles, con el nivel de cada criterio de la rúbrica y un comentario breve. El caso es ficticio, así que el aporte es visible para el curso. Mira el afiche en el celular antes de evaluar la legibilidad.
+La persona publica el afiche en el foro de la actividad como imagen adjunta, con sus prompts y su párrafo en el mensaje. Responde en el mismo hilo dentro de 24 horas hábiles, con el nivel de cada criterio de la rúbrica y un comentario breve. El caso es ficticio, así que el aporte es visible para el curso. Mira el afiche en el celular antes de evaluar la legibilidad.
 
 ### Pauta de corrección
 

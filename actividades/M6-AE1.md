@@ -9,7 +9,7 @@ entrega: foro
 
 Vas a convertir los apuntes de Camila en el borrador de su plan: diagnóstico, línea base, meta SMART, plan de medición y
 justificación de viabilidad. Es la práctica del mismo trabajo que harás para tu propio proyecto. Publica tu documento de una página
-en el foro del módulo, en el mensaje o como archivo adjunto. Se evalúa con la rúbrica de abajo, y el facilitador te responde en el
+en el foro de la actividad, en el mensaje o como archivo adjunto. Se evalúa con la rúbrica de abajo, y el facilitador te responde en el
 foro dentro de 24 horas hábiles.
 
 ### Situación
@@ -45,7 +45,7 @@ falta en vez de suponerlo.
 
 ### Lo que entregas
 
-Publica en el foro del módulo un documento de una página con el diagnóstico, la línea base con sus cálculos, la meta SMART, la tabla
+Publica en el foro de la actividad un documento de una página con el diagnóstico, la línea base con sus cálculos, la meta SMART, la tabla
 del plan de medición y un párrafo de viabilidad que incluya tu respuesta a la sugerencia de la compañera. Si te faltó algún dato,
 déjalo anotado donde corresponde.
 

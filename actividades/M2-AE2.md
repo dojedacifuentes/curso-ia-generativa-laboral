@@ -7,7 +7,7 @@ entrega: foro
 
 ### Instrucción general
 
-En esta actividad vas a armar la plantilla de respuestas de Rosa con al menos dos técnicas de prompting y a probarla con tres consultas, para obtener respuestas parecidas cada vez. Publicas tu trabajo en el foro del módulo, en el mensaje o en un documento adjunto. Como la información del centro y las consultas son ficticias, tu aporte lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
+En esta actividad vas a armar la plantilla de respuestas de Rosa con al menos dos técnicas de prompting y a probarla con tres consultas, para obtener respuestas parecidas cada vez. Publicas tu trabajo en el foro de la actividad, en el mensaje o en un documento adjunto. Como la información del centro y las consultas son ficticias, tu aporte lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -27,7 +27,7 @@ Vas a armar la plantilla de Rosa con al menos dos de estas técnicas, ejemplos, 
 
 ### Lo que entregas
 
-Publicas en el foro del módulo la plantilla final, las tres respuestas que obtuviste y un párrafo breve que nombre las técnicas que usaste y diga qué problema resolvió cada una en las respuestas de Rosa.
+Publicas en el foro de la actividad la plantilla final, las tres respuestas que obtuviste y un párrafo breve que nombre las técnicas que usaste y diga qué problema resolvió cada una en las respuestas de Rosa.
 
 ### Rúbrica
 

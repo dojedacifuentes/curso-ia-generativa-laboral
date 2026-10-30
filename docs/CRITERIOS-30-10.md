@@ -12,7 +12,7 @@ Se mantienen las 2 por AE (44), y las 44 se evalúan con rúbrica. Formato de ca
 ## Actividad 1 · Título
 cubre: H1, H2, C1
 fuentes: F-…, F-…
-entrega: foro                ← actividad 1 = foro del módulo; actividad 2 = tarea
+entrega: foro                ← actividad 1 = foro propio de la actividad; actividad 2 = tarea
 
 ### Instrucción general
 ### Situación
@@ -23,7 +23,7 @@ entrega: foro                ← actividad 1 = foro del módulo; actividad 2 = t
 
 - **Instrucción general** (prosa, 3 a 5 frases): qué vas a hacer y para qué; dónde se entrega; en qué formato; que se evalúa con la
   rúbrica de abajo; y cuándo responde el facilitador.
-  - Actividad 1 → se publica en el **foro del módulo** (el aporte lo ven el facilitador y el curso; como usa datos ficticios, no
+  - Actividad 1 → se publica en su **propio foro**, dentro del tema y calificado con su rúbrica (cambio del 30-10 al armar el aula: un foro de Moodle da una sola nota por estudiante). El aporte lo ven el facilitador y el curso; como usa datos ficticios, no
     hay problema de privacidad). El facilitador responde en el foro dentro de 24 horas hábiles.
   - Actividad 2 → se sube como **tarea** en el aula (solo la ven la persona y el facilitador, porque trabaja con una tarea real de
     su cargo). El facilitador la revisa con la rúbrica y deja su retroalimentación en un plazo de hasta 72 horas.
@@ -62,8 +62,8 @@ Por AE:
 ## 3. Foros (`foros/M<n>.md` y `foros/General.md`)
 
 - Un foro por módulo, con la consigna **qué, por qué y para qué** (qué aprendí o qué hice, por qué importa en mi trabajo, para qué
-  lo voy a usar), que conecta la competencia del módulo con el cargo de cada persona. Recibe además las publicaciones de la
-  actividad 1 de cada AE del módulo y la pregunta «Para el foro» de los casos del módulo.
+  lo voy a usar), que conecta la competencia del módulo con el cargo de cada persona. Recibe además
+  la pregunta «Para el foro» de los casos del módulo. La actividad 1 de cada AE tiene su propio foro.
 - Un foro general de interacción, abierto todo el curso: presentación y consultas.
 - Formato: `# Foro …`, `### Instrucción general`, `### Consigna`, `### Cómo participar`, `### Rúbrica de participación` (misma
   escala), y la moderación en `guia-facilitador/Foros.md` (respuesta del tutor en menos de 24 horas hábiles, según la planilla).

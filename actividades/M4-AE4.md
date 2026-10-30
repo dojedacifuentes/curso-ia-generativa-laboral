@@ -7,7 +7,7 @@ entrega: foro
 
 ### Instrucción general
 
-En esta actividad corriges el guion y la ficha de uso ético del clip de Camila, y montas una versión de 60 segundos con imágenes fijas. Es una práctica con un caso ficticio antes de hacer un clip para tu equipo. Publica en el foro del módulo el clip como archivo adjunto o con un enlace que se pueda abrir, junto con el guion y la ficha. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
+En esta actividad corriges el guion y la ficha de uso ético del clip de Camila, y montas una versión de 60 segundos con imágenes fijas. Es una práctica con un caso ficticio antes de hacer un clip para tu equipo. Publica en el foro de la actividad el clip como archivo adjunto o con un enlace que se pueda abrir, junto con el guion y la ficha. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -28,7 +28,7 @@ Vas a corregir el guion y la ficha, y a montar una versión del clip con imágen
 
 ### Lo que entregas
 
-Publica en el foro del módulo el guion corregido en su tabla de secuencias, el clip exportado en MP4 y la ficha de uso ético corregida. Si el archivo pesa demasiado para el foro, comparte un enlace que se pueda abrir. Agrega dos líneas sobre el cambio que más mejoró el guion de Camila.
+Publica en el foro de la actividad el guion corregido en su tabla de secuencias, el clip exportado en MP4 y la ficha de uso ético corregida. Si el archivo pesa demasiado para el foro, comparte un enlace que se pueda abrir. Agrega dos líneas sobre el cambio que más mejoró el guion de Camila.
 
 ### Rúbrica
 

@@ -9,7 +9,7 @@ entrega: foro
 
 Vas a hacer con Camila una ronda completa de prueba de su flujo de registro: definir quién revisa, probar con cinco documentos
 inventados, ajustar la plantilla y dejar registro de la decisión. Así practicas la implementación con supervisión y la documentación
-que pide tu propio flujo. Publica tu planilla, las plantillas, la tabla de versiones y la bitácora en el foro del módulo, como
+que pide tu propio flujo. Publica tu planilla, las plantillas, la tabla de versiones y la bitácora en el foro de la actividad, como
 capturas o archivos adjuntos. Se evalúa con la rúbrica de abajo, y el facilitador te responde en el foro dentro de 24 horas hábiles.
 
 ### Situación
@@ -47,7 +47,7 @@ escala, se estudia qué pasó y recién después se adoptan, así que esta ronda
 
 ### Lo que entregas
 
-Publica en el foro del módulo la planilla con los resultados de las dos rondas, el punto de supervisión por escrito, las plantillas
+Publica en el foro de la actividad la planilla con los resultados de las dos rondas, el punto de supervisión por escrito, las plantillas
 v1 y v2, la tabla de versiones y la entrada de la bitácora. Agrega un párrafo breve sobre qué error habría llegado a la planilla de
 registro si nadie hubiera revisado.
 

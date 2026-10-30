@@ -7,7 +7,7 @@ entrega: foro
 
 ### Instrucción general
 
-En esta actividad vas a revisar paso a paso el resumen que recibió Camila y a dejarlo listo para usar. Sirve para entrenar el ojo antes de reenviar cualquier texto generado por IA. Publicas tu trabajo en el foro del módulo, con la tabla y el resumen corregido en el mensaje o en un documento adjunto; como son datos de prueba, lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
+En esta actividad vas a revisar paso a paso el resumen que recibió Camila y a dejarlo listo para usar. Sirve para entrenar el ojo antes de reenviar cualquier texto generado por IA. Publicas tu trabajo en el foro de la actividad, con la tabla y el resumen corregido en el mensaje o en un documento adjunto; como son datos de prueba, lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -33,7 +33,7 @@ Vas a validar este resumen paso a paso y a dejarlo listo para usar.
 
 ### Lo que entregas
 
-Publicas en el foro del módulo una tabla con cada afirmación del resumen, el tipo de problema, lo que dice el instructivo y tu decisión, y el resumen
+Publicas en el foro de la actividad una tabla con cada afirmación del resumen, el tipo de problema, lo que dice el instructivo y tu decisión, y el resumen
 corregido.
 
 ### Rúbrica

@@ -4,7 +4,7 @@
 
 ### Dónde se entrega y cuándo responder
 
-La persona publica su trabajo en el foro del módulo. Responde en el mismo hilo dentro de 24 horas hábiles, con el nivel de cada criterio de la rúbrica y un comentario breve. El caso es ficticio y las fuentes son públicas, así que el aporte es visible para el curso. Antes de responder, abre al menos dos de los enlaces del registro.
+La persona publica su trabajo en el foro de la actividad. Responde en el mismo hilo dentro de 24 horas hábiles, con el nivel de cada criterio de la rúbrica y un comentario breve. El caso es ficticio y las fuentes son públicas, así que el aporte es visible para el curso. Antes de responder, abre al menos dos de los enlaces del registro.
 
 ### Pauta de corrección
 

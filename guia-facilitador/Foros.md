@@ -16,7 +16,7 @@ entregar), actividades publicadas y, al final, los comentarios de la discusión.
 
 ### Cómo retroalimentar la actividad 1
 
-La actividad 1 de cada tema se publica en el foro del módulo y trabaja con datos inventados, así que la retroalimentación puede ser
+La actividad 1 de cada tema se publica en su propio foro, dentro del tema, y trabaja con datos inventados, así que la retroalimentación puede ser
 pública. Evalúala con la rúbrica de esa actividad y con su pauta de corrección, que indica qué debe aparecer para «Logrado» y qué
 errores llevan a «Parcial» o «No logrado».
 

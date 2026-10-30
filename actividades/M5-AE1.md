@@ -8,8 +8,7 @@ entrega: foro
 ### Instrucción general
 
 Vas a revisar las tareas de Rosa para decidir cuáles conviene automatizar primero y cuáles no, con la matriz de impacto y riesgo. Así
-practicas con un caso ficticio el análisis que después harás con tu propio cargo. Publica tu tabla y tu reflexión en el foro del
-módulo, escritas en el mensaje o en un documento adjunto. Se evalúa con la rúbrica de abajo, y el facilitador te responde en el foro
+practicas con un caso ficticio el análisis que después harás con tu propio cargo. Publica tu tabla y tu reflexión en el foro de laactividad, escritas en el mensaje o en un documento adjunto. Se evalúa con la rúbrica de abajo, y el facilitador te responde en el foro
 dentro de 24 horas hábiles.
 
 ### Situación
@@ -42,7 +41,7 @@ atención, así que el riesgo pesa tanto como el impacto.
 
 ### Lo que entregas
 
-Publica en el foro del módulo una tabla con las tareas de Rosa, las tres o más candidatas marcadas, la respuesta de sí o no a cada
+Publica en el foro de la actividad una tabla con las tareas de Rosa, las tres o más candidatas marcadas, la respuesta de sí o no a cada
 pregunta de impacto y de riesgo, el cuadrante de cada una y su fundamento. Agrega al final dos o tres líneas sobre qué pregunta de
 Gemini te hizo cambiar algo y por qué, o por qué decidiste mantener tu clasificación.
 

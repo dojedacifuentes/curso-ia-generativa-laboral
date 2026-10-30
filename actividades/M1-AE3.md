@@ -7,7 +7,7 @@ entrega: foro
 
 ### Instrucción general
 
-En esta actividad vas a elegir un ajuste para dos encargos de Camila, comparar varias salidas de una misma consigna y quedarte con la mejor de cada encargo. Así practicas cómo orientar al asistente hacia la precisión o hacia la variedad según el objetivo. Publicas tu trabajo en el foro del módulo, en el mensaje o con tu tabla de registro adjunta; como usas datos de prueba, lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
+En esta actividad vas a elegir un ajuste para dos encargos de Camila, comparar varias salidas de una misma consigna y quedarte con la mejor de cada encargo. Así practicas cómo orientar al asistente hacia la precisión o hacia la variedad según el objetivo. Publicas tu trabajo en el foro de la actividad, en el mensaje o con tu tabla de registro adjunta; como usas datos de prueba, lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -33,7 +33,7 @@ Vas a elegir un ajuste para cada encargo, comparar salidas y quedarte con la mej
 
 ### Lo que entregas
 
-Publicas en el foro del módulo las dos frases con el ajuste que elegiste para cada encargo, la tabla de registro con las seis salidas y su evaluación, y las
+Publicas en el foro de la actividad las dos frases con el ajuste que elegiste para cada encargo, la tabla de registro con las seis salidas y su evaluación, y las
 dos elecciones justificadas.
 
 ### Rúbrica

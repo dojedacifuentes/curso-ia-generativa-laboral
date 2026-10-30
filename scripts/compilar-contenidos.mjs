@@ -256,10 +256,16 @@ console.log(`entregables/Contenidos-completos.md y .html · ${archivos.length} A
 // ---------- Casos de aplicación ----------
 const casos = fs.existsSync(path.join(RAIZ, 'casos')) ? fs.readdirSync(path.join(RAIZ, 'casos')).filter(f => /^M\d-C\d\.md$/.test(f)).map(f => f.slice(0, -3)).sort() : [];
 const [DIR_CASOS_HTML, DIR_CASOS_DOCS, DIR_CASOS_PDF] = carpetas('casos');
+// Vista del estudiante (30-10): sin autocorrección (la respuesta va en el foro y la revisa el facilitador; las respuestas esperadas
+// pasan a la guía del facilitador) y sin la línea del hito del proyecto, que es una remisión
+const AUTOCORRECCION = /^## 5\. Autocorrecci[óo]n\n([\s\S]*?)(?=^## )/m;
+const casoEstudiante = md => md.replace(/^\*\*Hito del proyecto con el que conecta:\*\*.*\n\n?/m, '').replace(AUTOCORRECCION, '').replace(/^## 6\. Para el foro/m, '## 5. Para el foro');
+const tituloCaso = md => (/^# (.+)$/m.exec(md)?.[1] || '').trim().replace(/^M\d-C\d · /, '');
+const autocorrecciones = (n, nivel) => casos.filter(id => id[1] === String(n)).map(id => { const md = leerMd(path.join('casos', `${id}.md`)); const x = AUTOCORRECCION.exec(md); return x ? `${'#'.repeat(nivel + 1)} ${tituloCaso(md)}\n\n${x[1].trim()}\n` : ''; }).filter(Boolean);
 for (const id of casos) {
   const mdc = leerMd(path.join('casos', `${id}.md`));
   const m = curso.modulos.find(x => x.n === Number(id[1]));
-  escribir(DIR_CASOS_HTML, DIR_CASOS_DOCS, id, { titulo: (/^# (.+)$/m.exec(mdc)?.[1] || id).trim().replace(/^M\d-C\d · /, ''), etiqueta: `Módulo ${m.n} · ${m.nombre} · Caso de aplicación`, texto: sinCodigos(mdc.replace(/^# .*\n/, '')), vista: 'estudiante' });
+  escribir(DIR_CASOS_HTML, DIR_CASOS_DOCS, id, { titulo: tituloCaso(mdc) || id, etiqueta: `Módulo ${m.n} · ${m.nombre} · Caso de aplicación`, texto: sinCodigos(casoEstudiante(mdc.replace(/^# .*\n/, ''))), vista: 'estudiante' });
 }
 if (casos.length) console.log(`${casos.length} casos en entregables/casos`);
 
@@ -313,6 +319,8 @@ const combinados = [];
     const partes = m.aes.map(a => leerSi(`guia-facilitador/${a.id}.md`)).filter(Boolean);
     if (!partes.length) continue;
     guia += `## Módulo ${m.n} · ${m.nombre}\n\n` + partes.map(p => '### ' + /^# (?:Guía del facilitador · )?(.+)$/m.exec(p)[1] + '\n\n' + bajar(bajar(p))).join('\n') + '\n';
+    const ac = autocorrecciones(m.n, 3);
+    if (ac.length) guia += `### Casos de aplicación · respuestas esperadas\n\n${ac.join('\n')}\n`;
   }
   let foros = '';
   const fGen = leerSi('foros/General.md');
@@ -337,7 +345,8 @@ const combinados = [];
     for (const m of curso.modulos) {
       const partes = m.aes.map(a => leerSi(`guia-facilitador/${a.id}.md`)).filter(Boolean);
       if (!partes.length) continue;
-      const tx = partes.map(p => '## ' + /^# (?:Guía del facilitador · )?(.+)$/m.exec(p)[1] + '\n\n' + bajar(p)).join('\n');
+      const ac = autocorrecciones(m.n, 2);
+      const tx = partes.map(p => '## ' + /^# (?:Guía del facilitador · )?(.+)$/m.exec(p)[1] + '\n\n' + bajar(p)).join('\n') + (ac.length ? `\n## Casos de aplicación · respuestas esperadas\n\n${ac.join('\n')}` : '');
       escribir(dh, dd, `Guia-M${m.n}`, { titulo: `Guía del facilitador · Módulo ${m.n}`, etiqueta: `${m.nombre} · uso docente`, texto: sinCodigos(tx), vista: 'estudiante' });
     }
   }

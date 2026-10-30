@@ -4,7 +4,7 @@
 
 ### Dónde se entrega y cuándo responder
 
-La persona publica su trabajo en el foro del módulo, con la tabla de registro en el mensaje o adjunta. Responde en el mismo hilo dentro de 24 horas hábiles. Los datos son de prueba, así que el aporte es visible para el curso.
+La persona publica su trabajo en el foro de la actividad, con la tabla de registro en el mensaje o adjunta. Responde en el mismo hilo dentro de 24 horas hábiles. Los datos son de prueba, así que el aporte es visible para el curso.
 
 ### Pauta de corrección
 

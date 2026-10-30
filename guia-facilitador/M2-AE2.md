@@ -4,7 +4,7 @@
 
 ### Dónde se entrega y cuándo responder
 
-La persona publica su trabajo en el foro del módulo. Responde en el mismo hilo dentro de 24 horas hábiles. La información del centro médico y las consultas son ficticias, así que el aporte es visible para el curso.
+La persona publica su trabajo en el foro de la actividad. Responde en el mismo hilo dentro de 24 horas hábiles. La información del centro médico y las consultas son ficticias, así que el aporte es visible para el curso.
 
 ### Pauta de corrección
 

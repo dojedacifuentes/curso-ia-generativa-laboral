@@ -1,6 +1,6 @@
 {
   "resumen": {
-    "generado": "2026-10-30T04:27:55.748Z",
+    "generado": "2026-10-30T05:35:43.499Z",
     "chequeos": 108,
     "ok": 102,
     "aviso": 4,
@@ -1695,12 +1695,12 @@
           "errores": [],
           "avisos": [],
           "pendientes": [
-            "12 recursos sin empezar (Inducción/Diagnóstica, Evaluación sumativa, Video)"
+            "11 recursos sin empezar (Inducción/Diagnóstica, Evaluación sumativa, Video)"
           ],
           "evidencia": [
-            "Pendiente: 12 recursos · 6.8 h",
-            "Hecho: 68 recursos · 67.3 h",
-            "Insumo listo: 21 recursos · 13.9 h"
+            "Pendiente: 11 recursos · 6.7 h",
+            "Hecho: 70 recursos · 67.4 h",
+            "Insumo listo: 20 recursos · 13.9 h"
           ]
         }
       ]
@@ -1854,8 +1854,8 @@
       "titulo": "Video de resumen M1 (3 min): ideas clave y conexión con el siguiente módulo",
       "aes": "—",
       "minutos": 3,
-      "estado": "Insumo listo",
-      "nota": "Ideas clave disponibles; falta el guion y el video"
+      "estado": "Hecho",
+      "nota": "Video, .srt y slides (videos/M1-resumen)"
     },
     {
       "id": "R016",
@@ -1894,8 +1894,8 @@
       "titulo": "Video de bienvenida M2 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto",
       "aes": "—",
       "minutos": 3,
-      "estado": "Pendiente",
-      "nota": "Falta el guion y el video"
+      "estado": "Hecho",
+      "nota": "Video, .srt y slides (videos/M2-bienvenida)"
     },
     {
       "id": "R020",

@@ -4,7 +4,7 @@
 
 ### Dónde se entrega y cuándo responder
 
-La persona publica su documento de una página en el foro del módulo. Responde en el mismo hilo dentro de 24 horas hábiles, con el nivel de cada criterio de la rúbrica y un comentario breve. Los apuntes de Camila son ficticios, así que el aporte puede verlo el curso.
+La persona publica su documento de una página en el foro de la actividad. Responde en el mismo hilo dentro de 24 horas hábiles, con el nivel de cada criterio de la rúbrica y un comentario breve. Los apuntes de Camila son ficticios, así que el aporte puede verlo el curso.
 
 ### Pauta de corrección
 

@@ -7,7 +7,7 @@ entrega: foro
 
 ### Instrucción general
 
-En esta actividad vas a convertir las notas de una reunión en tres textos con Gemini, una minuta, un correo y un informe ejecutivo, y a ajustar cada uno a quien lo va a leer. Publicas tu trabajo en el foro del módulo, en un documento adjunto o pegado en el mensaje. Como los datos son ficticios, tu aporte lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
+En esta actividad vas a convertir las notas de una reunión en tres textos con Gemini, una minuta, un correo y un informe ejecutivo, y a ajustar cada uno a quien lo va a leer. Publicas tu trabajo en el foro de la actividad, en un documento adjunto o pegado en el mensaje. Como los datos son ficticios, tu aporte lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -27,7 +27,7 @@ Vas a producir los tres textos con Gemini, en la app o en el navegador, y a ajus
 
 ### Lo que entregas
 
-Publicas en el foro del módulo un documento con los tres textos finales. Antes de cada uno escribe en una línea la audiencia, el registro y el tono que elegiste. Agrega también el primer borrador del correo y una frase que explique qué cambiaste para adaptarlo al Sr. Vera.
+Publicas en el foro de la actividad un documento con los tres textos finales. Antes de cada uno escribe en una línea la audiencia, el registro y el tono que elegiste. Agrega también el primer borrador del correo y una frase que explique qué cambiaste para adaptarlo al Sr. Vera.
 
 ### Rúbrica
 

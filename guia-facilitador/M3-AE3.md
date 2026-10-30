@@ -4,7 +4,7 @@
 
 ### Dónde se entrega y cuándo responder
 
-La persona publica el informe en el foro del módulo, como archivo adjunto o con un enlace. Responde en el mismo hilo dentro de 24 horas hábiles, con el nivel de cada criterio de la rúbrica y un comentario breve. Los datos y las fuentes son ficticios, así que el aporte es visible para el curso. Si el enlace no abre, pídele en el hilo que cambie los permisos de lectura.
+La persona publica el informe en el foro de la actividad, como archivo adjunto o con un enlace. Responde en el mismo hilo dentro de 24 horas hábiles, con el nivel de cada criterio de la rúbrica y un comentario breve. Los datos y las fuentes son ficticios, así que el aporte es visible para el curso. Si el enlace no abre, pídele en el hilo que cambie los permisos de lectura.
 
 ### Pauta de corrección
 

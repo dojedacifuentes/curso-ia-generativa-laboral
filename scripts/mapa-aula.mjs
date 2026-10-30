@@ -23,7 +23,7 @@ evaluación del módulo y contacto entre facilitador y estudiantes. Los recursos
 | Rise de cada tema | Paquete SCORM | Drive «12 Rise · SCORM 1.2 para Moodle» |
 | Quiz formativo de cada tema | Paquete SCORM | Drive «3 Quiz juego SCORM» |
 | Infografía animada del módulo | Paquete SCORM | Drive «4 Infografías» |
-| Actividad 1 de cada tema | Se publica en el foro del módulo (foro calificado con rúbrica) | Drive «10 Actividades de aplicación práctica» |
+| Actividad 1 de cada tema | Foro propio de la actividad, dentro del tema, calificado con rúbrica | Drive «10 Actividades de aplicación práctica» |
 | Actividad 2 de cada tema | Tarea con calificación avanzada por rúbrica | Drive «10 Actividades de aplicación práctica» |
 | Caso de aplicación | Página o archivo PDF; su pregunta va al foro del módulo | Drive «5 Casos de aplicación» |
 | Foros | Foro (uno por módulo y uno general) | Drive «13 Foros» |
@@ -42,7 +42,7 @@ for (const m of curso.modulos) {
   for (const a of m.aes) {
     const [a1, a2] = actividades(a.id);
     md += `- **${a.tema}.** Aprendizaje esperado: ${a.texto}\n  - Contenido: Rise «${a.tema}» (SCORM).\n  - Quiz formativo «${a.tema}» (SCORM).\n`
-      + (a1 ? `  - Actividad 1 · ${a1} (se publica en el foro del módulo, con rúbrica).\n` : '')
+      + (a1 ? `  - Actividad 1 · ${a1} (foro de la actividad, con rúbrica).\n` : '')
       + (a2 ? `  - Actividad 2 · ${a2} (tarea con rúbrica).\n` : '');
   }
   const cs = casos(m.n);

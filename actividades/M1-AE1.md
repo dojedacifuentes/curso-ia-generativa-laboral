@@ -7,7 +7,7 @@ entrega: foro
 
 ### Instrucción general
 
-En esta actividad vas a decidir qué tareas de Camila conviene apoyar con un asistente de IA generativa y a probar una de ellas, para poner en práctica lo que sabes de cómo funciona el modelo y de sus límites. Publicas tu trabajo en el foro del módulo, escrito en el mensaje o en un documento adjunto. Como trabajas con datos inventados, tu aporte lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
+En esta actividad vas a decidir qué tareas de Camila conviene apoyar con un asistente de IA generativa y a probar una de ellas, para poner en práctica lo que sabes de cómo funciona el modelo y de sus límites. Publicas tu trabajo en el foro de la actividad, escrito en el mensaje o en un documento adjunto. Como trabajas con datos inventados, tu aporte lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
 
 ### Situación
 
@@ -34,7 +34,7 @@ Vas a decidir por Camila y a probar una de las tareas con datos de prueba.
 
 ### Lo que entregas
 
-Publicas en el foro del módulo el semáforo con las seis tareas, su color, el tipo de modelo y la frase que justifica cada decisión; el pedido que usaste en
+Publicas en el foro de la actividad el semáforo con las seis tareas, su color, el tipo de modelo y la frase que justifica cada decisión; el pedido que usaste en
 la prueba, la respuesta que recibiste y tus anotaciones de la comparación, y el párrafo de explicación, de cinco a ocho líneas.
 
 ### Rúbrica

@@ -4,7 +4,7 @@
 
 ### Dónde se entrega y cuándo responder
 
-La persona publica su trabajo en el foro del módulo, con la tabla y el resumen corregido. Responde en el mismo hilo dentro de 24 horas hábiles. Los datos son de prueba, así que el aporte es visible para el curso. Como todos trabajan el mismo resumen, evita publicar la lista completa de problemas en el foro antes de que la mayoría haya entregado.
+La persona publica su trabajo en el foro de la actividad, con la tabla y el resumen corregido. Responde en el mismo hilo dentro de 24 horas hábiles. Los datos son de prueba, así que el aporte es visible para el curso. Como todos trabajan el mismo resumen, evita publicar la lista completa de problemas en el foro antes de que la mayoría haya entregado.
 
 ### Pauta de corrección
 

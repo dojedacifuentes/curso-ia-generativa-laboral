@@ -4,7 +4,7 @@
 
 ### Dónde se entrega y cuándo responder
 
-La persona publica en el foro del módulo los audios como archivos adjuntos o con un enlace, y en el mensaje el guion y sus respuestas. Responde en el mismo hilo dentro de 24 horas hábiles, con el nivel de cada criterio de la rúbrica y un comentario breve. El caso es ficticio, así que el aporte es visible para el curso. Escucha los audios completos con audífonos antes de evaluar.
+La persona publica en el foro de la actividad los audios como archivos adjuntos o con un enlace, y en el mensaje el guion y sus respuestas. Responde en el mismo hilo dentro de 24 horas hábiles, con el nivel de cada criterio de la rúbrica y un comentario breve. El caso es ficticio, así que el aporte es visible para el curso. Escucha los audios completos con audífonos antes de evaluar.
 
 ### Pauta de corrección
 

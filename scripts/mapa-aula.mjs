@@ -14,51 +14,81 @@ const PEND = ' *(pendiente)*';
 // Hitos del proyecto del curso: la actividad 2 de estos AE (data/hitos.json, opción 1 del 30-10)
 const HITO = Object.fromEntries(Object.entries(JSON.parse(leer('data/hitos.json'))).filter(([k]) => !k.startsWith('_')).map(([, v]) => [v.ae, v.hito]));
 
+// Horas por módulo (hoja «Resumen horas»)
+const HORAS = Object.fromEntries(leer('data/planilla/Resumen horas.tsv').split('\n').map(l => l.split('\t')).filter(c => /^\d(\.0)?$/.test(c[0]) && Number(c[2])).map(c => [Number(c[0]), Number(c[2])]));
+const TOTAL = Object.values(HORAS).reduce((a, b) => a + b, 0);
+const nEval = f => { const t = leer(`evaluaciones/${f}`); if (!t) return 0; const e = JSON.parse(t); return e.items ? e.items.length : e.casos.reduce((a, c) => a + c.items.length, 0); };
+
 let md = `# Mapa del aula Moodle
 
 Orden de cada sección del aula en formacion.empoderatech.com (Moodle 5.3) y tipo de actividad de Moodle de cada recurso. Sigue la
-estructura de curso asincrónico que pide SENCE: contenidos, material interactivo, aplicativos con rúbrica, casos, resumen,
-evaluación del módulo y contacto entre facilitador y estudiantes. Los recursos marcados como pendientes se agregan cuando estén.
+estructura de curso asincrónico que pide SENCE y las observaciones de la docente del 31-10: contenidos, material interactivo,
+actividades formativas con rúbrica de autoevaluación, casos de aplicación evaluados por el facilitador, resumen, glosario y
+evaluación de cada módulo, evaluación final y contacto entre facilitador y estudiantes. Curso de ${TOTAL} horas.
 
-| Recurso | Tipo en Moodle | Archivo |
+| Recurso | Tipo en Moodle | Nota |
 |---|---|---|
-| Rise de cada tema | Paquete SCORM | Drive «12 Rise · SCORM 1.2 para Moodle» |
-| Quiz formativo de cada tema | Paquete SCORM | Drive «3 Quiz juego SCORM» |
-| Infografía animada del módulo | Paquete SCORM | Drive «4 Infografías» |
-| Actividad 1 de cada tema | Foro propio de la actividad, dentro del tema, calificado con rúbrica | Drive «10 Actividades de aplicación práctica» |
-| Actividad 2 de cada tema | Tarea con calificación avanzada por rúbrica | Drive «10 Actividades de aplicación práctica» |
-| Caso de aplicación | Página o archivo PDF; su pregunta va al foro del módulo | Drive «5 Casos de aplicación» |
-| Foros | Foro (uno por módulo y uno general) | Drive «13 Foros» |
-| Glosario | Glosario, importando el XML | Drive «11 Glosario» |
-| Guía del facilitador | Archivo en una sección oculta para estudiantes | Drive «14 Guía del facilitador» |
+| Video de bienvenida y de resumen del módulo | Página con el video | No |
+| Evaluación diagnóstica del módulo | Cuestionario (espacio reservado hasta que esté) | No |
+| Contenido de cada tema (Rise) | Paquete SCORM | No |
+| Quiz juego de cada tema | Paquete SCORM, con retroalimentación por respuesta | No |
+| Actividades formativas 1 y 2 de cada tema | Tarea con entrega, sin nota, con rúbrica de autoevaluación en el enunciado | No |
+| Caso de aplicación (práctica evaluada) | Tarea con entrega, calificada por el facilitador con rúbrica | Sí (30 %) |
+| Foro de casos del módulo | Foro: resultados de los casos, preguntas para conversar y consultas | No |
+| Infografía animada del módulo | Paquete SCORM | No |
+| Glosario del módulo | Glosario con buscador | No |
+| Evaluación del módulo | Cuestionario: casos con alternativas y retroalimentación en cada una | Sí (40 %) |
+| Evaluación final del curso | Cuestionario: cuatro casos integradores | Sí (30 %) |
+| Guía del facilitador y mapa del aula | Archivos en una sección oculta para estudiantes | — |
 
-## Sección inicial · Bienvenida al curso
+## Sección inicial · Bienvenida
 
-- Video de inducción, guía del participante y evaluación diagnóstica${PEND}.
-- Foro de interacción del curso (presentación y consultas).
-- Glosario del curso.
+- Portada del curso (${TOTAL} horas, ruta de los seis módulos), «Cómo avanzas» e insignias.
+- Avisos, con la docente: Natalia Hernández · natalia@empoderatech.cl.
+- Inducción al curso${PEND}.
+- Foro de interacción del curso (presentación y consultas generales).
 
 `;
 for (const m of curso.modulos) {
-  md += `## Módulo ${m.n} · ${m.nombre}\n\n**Competencia del módulo:** ${m.competencia}\n\n- Video de bienvenida del módulo${PEND}.\n`;
+  md += `## Módulo ${m.n} · ${m.nombre} (${HORAS[m.n]} horas)
+
+**Competencia del módulo:** ${m.competencia}
+
+- Video de bienvenida del módulo.
+- Evaluación diagnóstica del módulo${PEND}.
+`;
   for (const a of m.aes) {
     const [a1, a2] = actividades(a.id);
-    md += `- **${a.tema}.** Aprendizaje esperado: ${a.texto}\n  - Contenido: Rise «${a.tema}» (SCORM).\n  - Quiz formativo «${a.tema}» (SCORM).\n`
-      + (a1 ? `  - Actividad 1 · ${a1} (foro de la actividad, con rúbrica).\n` : '')
-      + (a2 ? `  - Actividad 2 · ${a2} (tarea con rúbrica${HITO[a.id] ? `; ${HITO[a.id]} del proyecto del curso` : ''}).\n` : '');
+    md += `- **${a.tema}.** Aprendizaje esperado: ${a.texto}
+  - Aprende: Rise «${a.tema}» (SCORM).
+  - Practica: quiz juego «${a.tema}» (SCORM).
+`
+      + (a1 ? `  - Aplica en tu trabajo · actividad formativa 1: ${a1} (tarea sin nota, autoevaluación).
+` : '')
+      + (a2 ? `  - Aplica en tu trabajo · actividad formativa 2: ${a2} (tarea sin nota, autoevaluación${HITO[a.id] ? `; ${HITO[a.id]} del proyecto del curso` : ''}).
+` : '');
   }
   const cs = casos(m.n);
-  if (cs.length) md += cs.map(c => `- Caso de aplicación: ${c}.\n`).join('');
-  md += `- Foro del módulo ${m.n}: qué, por qué y para qué.\n- Resumen del módulo: infografía animada (SCORM) y video de resumen${PEND}.\n- Evaluación del módulo${PEND}.\n\n`;
+  if (cs.length) md += '- Práctica evaluada:\n' + cs.map(c => `  - Caso de aplicación: ${c} (tarea calificada con rúbrica).
+`).join('') + `- Foro de casos del módulo ${m.n}.
+`;
+  else md += `- Foro del módulo ${m.n} (avances del proyecto y consultas).
+`;
+  md += `- Resumen del módulo: infografía animada (SCORM), video de resumen y glosario del módulo.
+- Evaluación del módulo ${m.n}: ${nEval(`M${m.n}.json`)} preguntas con casos y alternativas.
+
+`;
 }
-md += `## Cierre del curso
+md += `## Evaluación final
 
-- Evaluación final aplicativa, con pauta de evaluación y pauta de corrección${PEND}.
+- Evaluación final del curso: cuatro casos integradores y ${nEval('Final.json')} preguntas, una por aprendizaje esperado, con
+  retroalimentación en cada alternativa. Pauta de corrección en la guía del facilitador.
 
-## Sección oculta para estudiantes · Facilitador
+## Sección oculta para estudiantes · Para el facilitador
 
-- Guía del facilitador (pautas de corrección de las 44 actividades y moderación de los foros). La ve el rol docente, incluido quien
-  revisa el curso para SENCE.
+- Guía del facilitador: cómo se evalúa el curso, pauta de corrección de los casos y de las evaluaciones, pauta de referencia de las
+  44 actividades formativas y moderación de los foros. La ve el rol docente, incluido quien revisa el curso para SENCE.
+- Mapa del aula.
 `;
 fs.writeFileSync(path.join(RAIZ, 'docs', 'MAPA-AULA-MOODLE.md'), md);
 const codigos = md.match(/\bM\d-(?:AE|T|C)\d\b|\bP\d\d\b/g);

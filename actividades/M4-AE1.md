@@ -3,11 +3,11 @@
 ## Actividad 1 · Las herramientas para la campaña de Camila
 cubre: H1, C1, C2
 fuentes: F-H-65, F-M4-01
-entrega: foro
+entrega: tarea
 
 ### Instrucción general
 
-En esta actividad ayudas a Camila a elegir las herramientas para las dos piezas de su campaña y revisas qué le permiten sus licencias y condiciones de uso. Es una práctica con un caso ficticio antes de elegir para una pieza de tu propio cargo. Publica tu trabajo en el foro de la actividad, escrito en el mensaje o como archivo adjunto. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
+En esta actividad ayudas a Camila a elegir las herramientas para las dos piezas de su campaña y revisas qué le permiten sus licencias y condiciones de uso. Es una práctica con un caso ficticio antes de elegir para una pieza de tu propio cargo. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, escrita en el texto de la tarea o como archivo adjunto, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final.
 
 ### Situación
 
@@ -28,18 +28,20 @@ Vas a ayudar a Camila a elegir en tres pasos: primero el tipo de pieza, después
 
 ### Lo que entregas
 
-Publica en el foro de la actividad la tabla con las cuatro herramientas comparadas y su clasificación, la respuesta sobre el ícono y la recomendación final para Camila. La tabla puede ir en el mensaje o como archivo adjunto: una nota del celular, un documento o una foto de una hoja escrita a mano, siempre que se lea bien.
+Subes en la tarea la tabla con las cuatro herramientas comparadas y su clasificación, la respuesta sobre el ícono y la recomendación final para Camila. La tabla puede ir en el texto de la tarea o como archivo adjunto: una nota del celular, un documento o una foto de una hoja escrita a mano, siempre que se lea bien. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Compara herramientas según el tipo de pieza | 30 % | Separa el afiche del audio, cada herramienta produce el tipo de pieza en que la puso y las dos de cada par se comparan con los mismos criterios. | Separa las piezas, pero una herramienta no sirve para su tipo de pieza o los criterios cambian dentro de un par. | No separa las piezas o no compara con criterios. |
-| Interpreta licencias y condiciones de uso de la herramienta elegida | 35 % | Cada clasificación se apoya en una condición concreta de los términos, con la fecha en que la leyó, y explica qué implica una licencia personal y no comercial para una pieza de la empresa. | Clasifica con condiciones de los términos, pero falta la fecha o la explicación sobre la licencia personal y no comercial. | Clasifica sin citar condiciones o solo por la calidad de lo que genera. |
-| Resuelve el uso del ícono | 15 % | Responde según lo que permite la licencia del ícono y propone una alternativa que la respeta. | Responde según la licencia, pero sin alternativa, o la alternativa no la respeta. | Responde sin considerar la licencia. |
-| Recomienda con fundamento | 20 % | La recomendación nombra la herramienta de cada pieza y lo que Camila tiene que cumplir, en coherencia con la tabla. | Nombra las herramientas, pero no dice qué cumplir o contradice la tabla. | No hay recomendación. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Compara herramientas según el tipo de pieza | Separaste el afiche del audio, cada herramienta produce el tipo de pieza en que la pusiste y comparaste las dos de cada par con los mismos criterios. | Separaste las piezas, pero una herramienta no sirve para su tipo de pieza o los criterios cambian dentro de un par. | No separaste las piezas o no comparaste con criterios. |
+| Interpreta licencias y condiciones de uso de la herramienta elegida | Cada clasificación se apoya en una condición concreta de los términos, con la fecha en que la leíste, y explicas qué implica una licencia personal y no comercial para una pieza de la empresa. | Clasificaste con condiciones de los términos, pero te falta la fecha o la explicación sobre la licencia personal y no comercial. | Clasificaste sin citar condiciones o solo por la calidad de lo que genera. |
+| Resuelve el uso del ícono | Respondes según lo que permite la licencia del ícono y propones una alternativa que la respeta. | Respondes según la licencia, pero sin alternativa, o tu alternativa no la respeta. | Respondes sin considerar la licencia. |
+| Recomienda con fundamento | Tu recomendación nombra la herramienta de cada pieza y lo que Camila tiene que cumplir, en coherencia con tu tabla. | Nombras las herramientas, pero no dices qué cumplir o contradices tu tabla. | No hay recomendación. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Actividad 2 · La ficha de una pieza de tu cargo
 cubre: H1, H2, C1, C2
@@ -48,7 +50,7 @@ entrega: tarea
 
 ### Instrucción general
 
-Ahora eliges las herramientas para una pieza visual o sonora de tu trabajo y empiezas su ficha de uso ético, que vas a completar cuando produzcas la pieza. Súbelo como tarea en el aula, en un documento o una planilla. Solo lo ven tú y el facilitador, porque trabajas con una pieza real de tu cargo. El facilitador lo revisa con la rúbrica que está al final y te deja su retroalimentación en un plazo de hasta 72 horas.
+Ahora eliges las herramientas para una pieza visual o sonora de tu trabajo y empiezas su ficha de uso ético, que vas a completar cuando produzcas la pieza. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, en un documento o una planilla, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Solo lo ven tú y el facilitador, porque trabajas con una pieza real de tu cargo.
 
 ### Situación
 
@@ -67,18 +69,20 @@ Trabaja con copias sin datos sensibles. Si la pieza menciona clientes, proveedor
 
 ### Lo que entregas
 
-Sube como tarea en el aula la comparación de las dos herramientas, las dos líneas con lo que permite y prohíbe la que elegiste, el riesgo con su forma de evitarlo y la ficha de uso ético con los campos iniciales completos. Guarda la ficha: la vas a seguir llenando cuando produzcas tus piezas.
+Subes en la tarea la comparación de las dos herramientas, las dos líneas con lo que permite y prohíbe la que elegiste, el riesgo con su forma de evitarlo y la ficha de uso ético con los campos iniciales completos. Guarda la ficha: la vas a seguir llenando cuando produzcas tus piezas. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Compara herramientas según el tipo de pieza | 25 % | Las dos herramientas producen el tipo de pieza que necesita y la elección se explica por el uso en su trabajo. | Las herramientas sirven, pero la elección se explica solo por la calidad de lo que generan. | Una herramienta no produce ese tipo de pieza o no hay comparación. |
-| Interpreta licencias y condiciones de uso de la herramienta elegida | 30 % | Lo que permite y prohíbe sale de los términos, con su fecha; la clasificación calza con el uso, y nombra un riesgo con la forma de evitarlo. | Falta la fecha, la clasificación no calza del todo con el uso o el riesgo no trae cómo evitarlo. | Los permisos y prohibiciones no salen de los términos o no hay clasificación. |
-| Da crédito a los materiales de terceros | 15 % | Cada material de terceros tiene título, autor, fuente y licencia, o declara que no usará materiales de terceros. | Al crédito le falta uno de los cuatro datos. | Usa materiales de terceros sin crédito o sin licencia clara. |
-| Inicia la ficha de uso ético | 30 % | Los campos iniciales son concretos, nombran el plan de cada herramienta con su fecha y no hay datos sensibles. | La ficha tiene campos vagos o falta el plan de alguna herramienta. | No hay ficha o incluye datos sensibles. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Compara herramientas según el tipo de pieza | Las dos herramientas producen el tipo de pieza que necesitas y explicas la elección por el uso en tu trabajo. | Las herramientas sirven, pero explicas la elección solo por la calidad de lo que generan. | Una herramienta no produce ese tipo de pieza o no hay comparación. |
+| Interpreta licencias y condiciones de uso de la herramienta elegida | Lo que permite y prohíbe sale de los términos, con su fecha; tu clasificación calza con el uso, y nombras un riesgo con la forma de evitarlo. | Te falta la fecha, tu clasificación no calza del todo con el uso o el riesgo no trae cómo evitarlo. | Los permisos y prohibiciones no salen de los términos o no hay clasificación. |
+| Da crédito a los materiales de terceros | Cada material de terceros tiene título, autor, fuente y licencia, o declaras que no usarás materiales de terceros. | A tu crédito le falta uno de los cuatro datos. | Usas materiales de terceros sin crédito o sin licencia clara. |
+| Inicia la ficha de uso ético | Los campos iniciales son concretos, nombran el plan de cada herramienta con su fecha y no hay datos sensibles. | Tu ficha tiene campos vagos o falta el plan de alguna herramienta. | No hay ficha o incluye datos sensibles. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Referencias bibliográficas
 

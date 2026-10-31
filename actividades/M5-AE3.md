@@ -3,14 +3,14 @@
 ## Actividad 1 · Controles para el flujo de reclamos de Paula
 cubre: H1, C1, C2
 fuentes: F-M5-14, F-M5-12
-entrega: foro
+entrega: tarea
 
 ### Instrucción general
 
 Vas a ayudar a Paula a decidir dónde revisa una persona en su flujo de reclamos y qué hacer si algo falla. Con un caso ficticio
-practicas el mapa de riesgos, los puntos de control y el plan de contingencia que después aplicarás a tu flujo. Publica tu tabla, tus
-criterios, las columnas y el plan en el foro de la actividad, en el mensaje o en un documento adjunto. Se evalúa con la rúbrica de abajo,
-y el facilitador te responde en el foro dentro de 24 horas hábiles.
+practicas el mapa de riesgos, los puntos de control y el plan de contingencia que después aplicarás a tu flujo. Es una actividad
+formativa: no lleva nota. La subes como tarea en el aula, con tu tabla, tus criterios, las columnas y el plan en el texto de la tarea o
+en un documento adjunto, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final.
 
 ### Situación
 
@@ -39,20 +39,23 @@ revertir, porque un correo enviado no se puede recoger.
 
 ### Lo que entregas
 
-Publica en el foro de la actividad una tabla con los cinco pasos, su riesgo, si lleva punto de control, la forma de supervisión y la
+Subes en la tarea una tabla con los cinco pasos, su riesgo, si lleva punto de control, la forma de supervisión y la
 razón. Debajo, los criterios de aprobación del punto principal, las columnas nuevas de la planilla y el plan de contingencia con las
-seis respuestas, con un responsable con nombre y un reemplazo para cuando esa persona no esté.
+seis respuestas, con un responsable con nombre y un reemplazo para cuando esa persona no esté. Suma tu autoevaluación: el nivel que
+marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Mapea y clasifica los riesgos | 25 % | Los cinco pasos tienen qué podría salir mal, el tipo de riesgo, qué pasaría si nadie lo nota y su nivel. | Están los cinco pasos, pero a alguno le falta el tipo de riesgo, la consecuencia o el nivel. | Faltan pasos, o los riesgos no se relacionan con el flujo de Paula. |
-| Define puntos de control según el riesgo | 30 % | Cada punto de control está en un paso de riesgo alto, hay uno antes de que algo salga hacia el cliente y la forma de supervisión de cada uno calza con su riesgo y tiene su razón. | Los puntos están en pasos de riesgo alto, pero falta el control antes de lo que sale al cliente o una forma de supervisión no calza con su riesgo. | No hay puntos de control, o están en pasos de riesgo bajo sin razón. |
-| Fija criterios de aprobación y registro | 15 % | Hay tres o cuatro criterios que se responden con sí o no, alguno apunta al error que el flujo ya tuvo, y las columnas incluyen «Dato original», «Estado» y «Revisó». | Los criterios están, pero alguno no se responde con sí o no, o faltan columnas. | No hay criterios de aprobación ni columnas de supervisión. |
-| Elabora el plan de contingencia | 30 % | El plan responde las seis preguntas con acciones concretas: dónde se pausa el flujo, cómo se sigue a mano, cómo se corrige lo que ya salió y quién responde, con nombre y reemplazo. | Responde las seis preguntas, pero alguna con una acción vaga o sin responsable con nombre o reemplazo. | Faltan varias respuestas, o el responsable es «el sistema». |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Mapea y clasifica los riesgos | Los cinco pasos tienen qué podría salir mal, el tipo de riesgo, qué pasaría si nadie lo nota y su nivel. | Están los cinco pasos, pero a alguno le falta el tipo de riesgo, la consecuencia o el nivel. | Te faltan pasos, o tus riesgos no se relacionan con el flujo de Paula. |
+| Define puntos de control según el riesgo | Cada punto de control está en un paso de riesgo alto, pusiste uno antes de que algo salga hacia el cliente y la forma de supervisión de cada uno calza con su riesgo y tiene su razón. | Tus puntos están en pasos de riesgo alto, pero te falta el control antes de lo que sale al cliente o una forma de supervisión no calza con su riesgo. | No hay puntos de control, o están en pasos de riesgo bajo sin razón. |
+| Fija criterios de aprobación y registro | Tienes tres o cuatro criterios que se responden con sí o no, alguno apunta al error que el flujo ya tuvo, y tus columnas incluyen «Dato original», «Estado» y «Revisó». | Los criterios están, pero alguno no se responde con sí o no, o te faltan columnas. | No hay criterios de aprobación ni columnas de supervisión. |
+| Elabora el plan de contingencia | Tu plan responde las seis preguntas con acciones concretas: dónde se pausa el flujo, cómo se sigue a mano, cómo se corrige lo que ya salió y quién responde, con nombre y reemplazo. | Respondes las seis preguntas, pero alguna con una acción vaga o sin responsable con nombre o reemplazo. | Te faltan varias respuestas, o el responsable es «el sistema». |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Actividad 2 · Supervisión y contingencia para tu flujo
 cubre: H1, C1, C2
@@ -62,9 +65,9 @@ entrega: tarea
 ### Instrucción general
 
 Vas a agregar a tu flujo los controles humanos y el plan de contingencia que necesita antes de pensar en usarlo con datos reales, y
-vas a medir si esos controles detectan errores. Con esto completas tu prototipo, que es el Hito 5 de tu proyecto del curso. Súbelo como tarea en el aula, en un documento con
-capturas; solo lo ven tú y el facilitador. El facilitador lo revisa con la rúbrica de abajo y te deja su retroalimentación en un
-plazo de hasta 72 horas.
+vas a medir si esos controles detectan errores. Con esto completas tu prototipo, que es el Hito 5 de tu proyecto del curso. Es una actividad formativa: no lleva nota. La subes como
+tarea en el aula, en un documento con capturas, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final.
+Solo lo ven tú y el facilitador, porque trabajas con tu propio flujo.
 
 ### Situación
 
@@ -90,20 +93,22 @@ Si alguna respuesta del plan es «no sé», ese es el punto débil que tienes qu
 
 ### Lo que entregas
 
-Sube como tarea en el aula tu mapa de riesgos con los puntos de control, los criterios de aprobación, una captura de la planilla con
+Subes en la tarea tu mapa de riesgos con los puntos de control, los criterios de aprobación, una captura de la planilla con
 las columnas de supervisión y datos de prueba, el plan de contingencia y la tabla con y sin control con tu conclusión. Con esto
-completas tu prototipo.
+completas tu prototipo. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Define puntos de control según el riesgo | 30 % | El mapa cubre cada paso, cada punto de control se justifica por el riesgo de su paso, lo que sale hacia otras personas se revisa antes y toda decisión importante sobre una persona la toma una persona. | El mapa está, pero algún punto de control no se justifica o un paso que sale hacia otras personas queda sin revisión. | No hay mapa de riesgos ni puntos de control. |
-| Fija criterios de aprobación y registro | 15 % | Los criterios son preguntas de sí o no y la captura muestra la planilla con las columnas de supervisión y el valor «por revisar». | Los criterios están, pero alguno no es de sí o no, o la planilla no muestra las columnas de supervisión. | No hay criterios ni columnas de supervisión. |
-| Evalúa el efecto del control | 25 % | Hay diez casos con tres errores sembrados, la tabla compara con y sin control en errores que llegaron, falsas alarmas y tiempo, y la conclusión dice si el control vale lo que cuesta. | La prueba está, pero falta una de las tres medidas o la conclusión no dice si el control vale lo que cuesta. | No hay prueba con y sin control. |
-| Elabora el plan de contingencia | 30 % | Las seis respuestas son concretas para tu flujo, con la forma manual de seguir y un responsable con nombre y reemplazo. | Están las seis respuestas, pero alguna es vaga o falta el reemplazo. | Faltan varias respuestas, o hay respuestas «no sé» sin resolver. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Define puntos de control según el riesgo | Tu mapa cubre cada paso, cada punto de control se justifica por el riesgo de su paso, lo que sale hacia otras personas se revisa antes y toda decisión importante sobre una persona la toma una persona. | Tu mapa está, pero algún punto de control no se justifica o un paso que sale hacia otras personas queda sin revisión. | No hay mapa de riesgos ni puntos de control. |
+| Fija criterios de aprobación y registro | Tus criterios son preguntas de sí o no y la captura muestra la planilla con las columnas de supervisión y el valor «por revisar». | Los criterios están, pero alguno no es de sí o no, o tu planilla no muestra las columnas de supervisión. | No hay criterios ni columnas de supervisión. |
+| Evalúa el efecto del control | Tienes diez casos con tres errores sembrados, tu tabla compara con y sin control en errores que llegaron, falsas alarmas y tiempo, y tu conclusión dice si el control vale lo que cuesta. | La prueba está, pero te falta una de las tres medidas o tu conclusión no dice si el control vale lo que cuesta. | No hay prueba con y sin control. |
+| Elabora el plan de contingencia | Las seis respuestas son concretas para tu flujo, con la forma manual de seguir y un responsable con nombre y reemplazo. | Están las seis respuestas, pero alguna es vaga o te falta el reemplazo. | Te faltan varias respuestas, o hay respuestas «no sé» sin resolver. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Referencias bibliográficas
 

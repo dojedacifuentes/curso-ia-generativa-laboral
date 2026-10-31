@@ -3,11 +3,11 @@
 ## Actividad 1 · La agenda compartida de la gerenta
 cubre: H1, C1, C2
 fuentes: F-M3-03, F-M3-01
-entrega: foro
+entrega: tarea
 
 ### Instrucción general
 
-En esta actividad haces la búsqueda que la gerenta le encargó a Camila: acotas un tema general, lo conviertes en preguntas de investigación y lo buscas con dos herramientas que muestran sus fuentes. Es una práctica con un caso ficticio, para que después investigues una pregunta de tu propio cargo. Publica tu trabajo en el foro de la actividad, escrito en el mensaje o como archivo adjunto, con enlaces que se puedan abrir. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
+En esta actividad haces la búsqueda que la gerenta le encargó a Camila: acotas un tema general, lo conviertes en preguntas de investigación y lo buscas con dos herramientas que muestran sus fuentes. Es una práctica con un caso ficticio, para que después investigues una pregunta de tu propio cargo. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, escrita en el texto de la entrega o como archivo adjunto, con enlaces que se puedan abrir, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final.
 
 ### Situación
 
@@ -27,17 +27,19 @@ Camila parte de un tema general, «organizar la agenda». Para convertirlo en un
 
 ### Lo que entregas
 
-Publica en el foro de la actividad las dos preguntas de investigación con el tema acotado del que salieron, el registro con al menos tres fuentes que abriste y leíste, y una línea con lo que el cuaderno dijo que sus fuentes no responden. Puedes escribirlo en el mensaje o adjuntar una nota del celular, un documento o una planilla, siempre que cada enlace se pueda abrir.
+Subes en la tarea las dos preguntas de investigación con el tema acotado del que salieron, el registro con al menos tres fuentes que abriste y leíste, y una línea con lo que el cuaderno dijo que sus fuentes no responden. Puedes escribirlo en el texto de la entrega o adjuntar una nota del celular, un documento o una planilla, siempre que cada enlace se pueda abrir. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Formula preguntas de investigación específicas | 40 % | Las dos preguntas nombran el tema acotado con al menos dos criterios y sus conceptos clave, dejan claro qué tipo de respuesta se espera y se responden buscando información. | Las preguntas salen del tema, pero una es amplia, omite los criterios o se responde con una opinión. | Las preguntas son generales o de opinión, no salen del tema acotado o falta una. |
-| Usa al menos 2 herramientas | 25 % | Usa el buscador con citas y el cuaderno, y entrega lo que el cuaderno dijo que sus fuentes no responden. | Usa las dos herramientas, pero falta la línea sobre lo que el cuaderno no responde. | Usa una sola herramienta o una que no muestra sus fuentes. |
-| Registra las fuentes con su cita | 35 % | El registro tiene al menos tres fuentes de origen, cada una con título, quién la publica, fecha, enlace que abre y lo que aporta. | Hay tres fuentes, pero a alguna le falta un dato o un enlace no abre. | Hay menos de tres fuentes o en lugar de la fuente aparece el nombre de la herramienta. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Formula preguntas de investigación específicas | Tus dos preguntas nombran el tema acotado con al menos dos criterios y sus conceptos clave, dejan claro qué tipo de respuesta se espera y se responden buscando información. | Tus preguntas salen del tema, pero una es amplia, omite los criterios o se responde con una opinión. | Tus preguntas son generales o de opinión, no salen del tema acotado o te falta una. |
+| Usa al menos 2 herramientas | Usas el buscador con citas y el cuaderno, y entregas lo que el cuaderno dijo que sus fuentes no responden. | Usas las dos herramientas, pero te falta la línea sobre lo que el cuaderno no responde. | Usas una sola herramienta o una que no muestra sus fuentes. |
+| Registra las fuentes con su cita | Tu registro tiene al menos tres fuentes de origen, cada una con título, quién la publica, fecha, enlace que abre y lo que aporta. | Tienes tres fuentes, pero a alguna le falta un dato o un enlace no abre. | Tienes menos de tres fuentes o en lugar de la fuente anotaste el nombre de la herramienta. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Actividad 2 · Una pregunta real de tu cargo
 cubre: H1, C1, C2
@@ -46,7 +48,7 @@ entrega: tarea
 
 ### Instrucción general
 
-Ahora investigas una pregunta real de tu cargo con fuentes públicas y dejas un registro que vas a seguir usando en las próximas actividades. Súbelo como tarea en el aula, en un documento o una planilla con enlaces que se puedan abrir. Solo lo ven tú y el facilitador, porque trabajas con un tema de tu trabajo. El facilitador lo revisa con la rúbrica que está al final y te deja su retroalimentación en un plazo de hasta 72 horas.
+Ahora investigas una pregunta real de tu cargo con fuentes públicas y dejas un registro que vas a seguir usando en las próximas actividades. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, en un documento o una planilla con enlaces que se puedan abrir, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Solo lo ven tú y el facilitador, porque trabajas con un tema de tu trabajo.
 
 ### Situación
 
@@ -66,18 +68,20 @@ Vas a investigar con fuentes públicas. Gemini Notebook responde a partir de los
 
 ### Lo que entregas
 
-Sube como tarea en el aula tus dos preguntas, el registro con al menos cinco fuentes que abriste y leíste, una línea sobre lo que quedó sin responder y, si usaste un texto generado por la IA, la nota con herramienta, versión, fecha y prompt. Guarda este registro: lo vas a seguir usando en las próximas actividades.
+Subes en la tarea tus dos preguntas, el registro con al menos cinco fuentes que abriste y leíste, una línea sobre lo que quedó sin responder y, si usaste un texto generado por la IA, la nota con herramienta, versión, fecha y prompt. Guarda este registro: lo vas a seguir usando en las próximas actividades. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Formula preguntas de investigación específicas | 30 % | Las dos preguntas salen de un problema real del cargo, nombran el tema acotado con sus criterios y delimitan qué información sirve. | Las preguntas salen del cargo, pero una es tan amplia que casi cualquier resultado sirve o no nombra los criterios. | Las preguntas no salen del cargo, son de opinión o falta una. |
-| Usa al menos 2 herramientas | 20 % | Usa dos herramientas distintas, busca una fuente nueva para lo que quedó sin responder y, si usó un texto generado por la IA, lo declara con herramienta, versión, fecha y prompt. | Usa dos herramientas, pero no busca una fuente para el vacío o la nota sobre la IA está incompleta. | Usa una sola herramienta. |
-| Registra las fuentes con su cita | 30 % | El registro tiene al menos cinco fuentes de origen, cada una con título, quién la publica, fecha y enlace que abre. | Hay cinco fuentes, pero a algunas les falta un dato o un enlace no abre. | Hay menos de cinco fuentes o las fuentes son nombres de herramientas. |
-| Cuida los datos de la empresa | 20 % | El registro y las notas no tienen nombres de personas, clientes ni información interna de la empresa. | Aparece un detalle que podría identificar a alguien o a la empresa, sin datos sensibles. | Incluye datos personales o información interna de la empresa. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Formula preguntas de investigación específicas | Tus dos preguntas salen de un problema real de tu cargo, nombran el tema acotado con sus criterios y delimitan qué información sirve. | Tus preguntas salen de tu cargo, pero una es tan amplia que casi cualquier resultado sirve o no nombra los criterios. | Tus preguntas no salen de tu cargo, son de opinión o te falta una. |
+| Usa al menos 2 herramientas | Usas dos herramientas distintas, buscas una fuente nueva para lo que quedó sin responder y, si usaste un texto generado por la IA, lo declaras con herramienta, versión, fecha y prompt. | Usas dos herramientas, pero no buscas una fuente para el vacío o tu nota sobre la IA está incompleta. | Usas una sola herramienta. |
+| Registra las fuentes con su cita | Tu registro tiene al menos cinco fuentes de origen, cada una con título, quién la publica, fecha y enlace que abre. | Tienes cinco fuentes, pero a algunas les falta un dato o un enlace no abre. | Tienes menos de cinco fuentes o anotaste nombres de herramientas como fuentes. |
+| Cuida los datos de la empresa | Tu registro y tus notas no tienen nombres de personas, clientes ni información interna de la empresa. | Aparece un detalle que podría identificar a alguien o a la empresa, sin datos sensibles. | Incluyes datos personales o información interna de la empresa. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Referencias bibliográficas
 

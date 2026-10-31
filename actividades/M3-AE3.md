@@ -3,11 +3,11 @@
 ## Actividad 1 · El informe de Andrés sobre los despachos atrasados
 cubre: H1, C1, C2
 fuentes: F-M3-09, F-M3-11
-entrega: foro
+entrega: tarea
 
 ### Instrucción general
 
-En esta actividad conviertes la investigación de Andrés en un informe breve que su jefatura pueda leer en el celular, con hallazgos, recomendaciones y referencias en APA 7. Es una práctica con datos ficticios, para que después hagas el informe de tu propia pregunta. Publica el informe en el foro de la actividad como archivo adjunto o con un enlace que se pueda abrir. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
+En esta actividad conviertes la investigación de Andrés en un informe breve que su jefatura pueda leer en el celular, con hallazgos, recomendaciones y referencias en APA 7. Es una práctica con datos ficticios, para que después hagas el informe de tu propia pregunta. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, como archivo adjunto o con un enlace que se pueda abrir, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final.
 
 ### Situación
 
@@ -29,18 +29,20 @@ Las fuentes que tiene que referenciar son una guía en PDF del Instituto de Log�
 
 ### Lo que entregas
 
-Publica en el foro de la actividad el informe de Andrés en una o dos páginas, con títulos que informen, el gráfico o una tabla con los datos por semana y la lista de referencias. Puedes armarlo en un documento de Google o en el editor de texto del celular, y adjuntarlo o compartir el enlace.
+Subes en la tarea el informe de Andrés en una o dos páginas, con títulos que informen, el gráfico o una tabla con los datos por semana y la lista de referencias. Puedes armarlo en un documento de Google o en el editor de texto del celular, y adjuntarlo o compartir el enlace. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Organiza el informe con una estructura definida | 30 % | Tiene las seis partes en orden (mensajes clave, introducción, lo que se investigó, hallazgos, recomendaciones y referencias), con mensajes clave al inicio que dicen algo concreto y títulos que informan, en no más de dos páginas. | Están las partes, pero una está fuera de orden, los mensajes clave son generales o pasa de dos páginas. | Faltan dos o más partes o el texto no tiene una estructura reconocible. |
-| Presenta hallazgos con su limitación y un gráfico adecuado | 20 % | Cada hallazgo trae su cita y su limitación, y el gráfico o la tabla muestra los atrasos por semana con un tipo de gráfico que lo explica y el eje desde 0. | Falta la limitación de un hallazgo o el gráfico tiene un problema de tipo o de escala. | Los hallazgos no traen limitaciones y no hay gráfico ni tabla. |
-| Cita todas las fuentes | 25 % | Las tres fuentes y el chat de IA aparecen citados en el texto y en las referencias con sus elementos de APA 7 completos, y cada cita del texto está en la lista y al revés. | Están todas las fuentes, pero a alguna referencia le falta un elemento o una cita no coincide con la lista. | Falta una o más fuentes, o falta la referencia del chat de IA. |
-| Formula recomendaciones | 25 % | Hay dos recomendaciones que dicen qué hacer, quién y cuándo, y cada una sale de un hallazgo respaldado por las fuentes. | Las recomendaciones salen de los hallazgos, pero una no dice quién o cuándo. | Las recomendaciones son vagas o proponen algo que las fuentes no respaldan. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Organiza el informe con una estructura definida | Tu informe tiene las seis partes en orden (mensajes clave, introducción, lo que se investigó, hallazgos, recomendaciones y referencias), con mensajes clave al inicio que dicen algo concreto y títulos que informan, en no más de dos páginas. | Están las partes, pero una está fuera de orden, tus mensajes clave son generales o pasas de dos páginas. | Te faltan dos o más partes o tu texto no tiene una estructura reconocible. |
+| Presenta hallazgos con su limitación y un gráfico adecuado | Cada hallazgo trae su cita y su limitación, y tu gráfico o tabla muestra los atrasos por semana con un tipo de gráfico que lo explica y el eje desde 0. | Te falta la limitación de un hallazgo o tu gráfico tiene un problema de tipo o de escala. | Tus hallazgos no traen limitaciones y no tienes gráfico ni tabla. |
+| Cita todas las fuentes | Las tres fuentes y el chat de IA aparecen citados en el texto y en las referencias con sus elementos de APA 7 completos, y cada cita del texto está en la lista y al revés. | Están todas las fuentes, pero a alguna referencia le falta un elemento o una cita no coincide con la lista. | Te falta una o más fuentes, o la referencia del chat de IA. |
+| Formula recomendaciones | Tienes dos recomendaciones que dicen qué hacer, quién y cuándo, y cada una sale de un hallazgo respaldado por las fuentes. | Tus recomendaciones salen de los hallazgos, pero una no dice quién o cuándo. | Tus recomendaciones son vagas o proponen algo que las fuentes no respaldan. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Actividad 2 · Un informe breve para tu jefatura
 cubre: H1, C1, C2
@@ -49,7 +51,7 @@ entrega: tarea
 
 ### Instrucción general
 
-Esta actividad es el Hito 3 de tu proyecto del curso. Escribes un informe breve con la síntesis de tu propia pregunta, pensado para quien tiene que decidir en tu trabajo. Súbelo como tarea en el aula, en un documento de una a dos páginas. Solo lo ven tú y el facilitador, porque trabajas con un tema real de tu cargo. El facilitador lo revisa con la rúbrica que está al final y te deja su retroalimentación en un plazo de hasta 72 horas.
+Esta actividad es el Hito 3 de tu proyecto del curso. Escribes un informe breve con la síntesis de tu propia pregunta, pensado para quien tiene que decidir en tu trabajo. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, en un documento de una a dos páginas, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Solo lo ven tú y el facilitador, porque trabajas con un tema real de tu cargo.
 
 ### Situación
 
@@ -69,18 +71,20 @@ Antes de enviarlo, conviene pedirle a alguien ajeno al tema que lo lea, porque q
 
 ### Lo que entregas
 
-Sube como tarea en el aula tu informe de una a dos páginas con sus referencias y una línea con lo que cambiaste después de que la otra persona lo leyó.
+Subes en la tarea tu informe de una a dos páginas con sus referencias y una línea con lo que cambiaste después de que la otra persona lo leyó. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Organiza el informe con una estructura definida | 30 % | Tiene las seis partes en orden (mensajes clave, introducción, lo que se investigó, hallazgos, recomendaciones y referencias), títulos que dicen algo y un solo tema, pensado para el lector y la decisión que nombró. | Están las partes, pero algún título es genérico, una parte está fuera de orden o se mezcla más de un tema. | Faltan dos o más partes o no se reconoce una estructura. |
-| Cita todas las fuentes | 25 % | Cada fuente usada aparece citada en el texto y en la lista con sus elementos completos y, si hubo texto generado por IA, está citado. | Están todas las fuentes, pero a alguna referencia le falta un elemento o una cita no está en la lista. | Hay fuentes sin citar o texto generado por IA sin declarar. |
-| Formula recomendaciones | 25 % | Hay al menos dos recomendaciones concretas, con qué hacer, quién y cuándo, que salen de los hallazgos. | Una recomendación es concreta y la otra es vaga o no se conecta con un hallazgo. | No hay recomendaciones o no salen de los hallazgos. |
-| Revisa con otra persona y cuida los datos | 20 % | Incluye la línea con lo que cambió después de la lectura de otra persona, y el informe no tiene datos personales ni información confidencial. | Falta la línea de la revisión o aparece un dato que habría que generalizar. | Incluye datos personales o información confidencial de la empresa. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Organiza el informe con una estructura definida | Tu informe tiene las seis partes en orden (mensajes clave, introducción, lo que se investigó, hallazgos, recomendaciones y referencias), títulos que dicen algo y un solo tema, pensado para el lector y la decisión que nombraste. | Están las partes, pero algún título es genérico, una parte está fuera de orden o mezclas más de un tema. | Te faltan dos o más partes o no se reconoce una estructura. |
+| Cita todas las fuentes | Cada fuente que usaste aparece citada en el texto y en la lista con sus elementos completos y, si hubo texto generado por IA, está citado. | Están todas las fuentes, pero a alguna referencia le falta un elemento o una cita no está en la lista. | Tienes fuentes sin citar o texto generado por IA sin declarar. |
+| Formula recomendaciones | Tienes al menos dos recomendaciones concretas, con qué hacer, quién y cuándo, que salen de los hallazgos. | Una de tus recomendaciones es concreta y la otra es vaga o no se conecta con un hallazgo. | No tienes recomendaciones o no salen de los hallazgos. |
+| Revisa con otra persona y cuida los datos | Incluyes la línea con lo que cambiaste después de la lectura de otra persona, y tu informe no tiene datos personales ni información confidencial. | Te falta la línea de la revisión o aparece un dato que habría que generalizar. | Incluyes datos personales o información confidencial de la empresa. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Referencias bibliográficas
 

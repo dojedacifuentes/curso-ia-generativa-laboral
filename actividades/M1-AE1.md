@@ -3,11 +3,11 @@
 ## Actividad 1 · El semáforo de la semana de Camila
 cubre: H1, H2, C1
 fuentes: F-M1-02, F-M1-09
-entrega: foro
+entrega: tarea
 
 ### Instrucción general
 
-En esta actividad vas a decidir qué tareas de Camila conviene apoyar con un asistente de IA generativa y a probar una de ellas, para poner en práctica lo que sabes de cómo funciona el modelo y de sus límites. Publicas tu trabajo en el foro de la actividad, escrito en el mensaje o en un documento adjunto. Como trabajas con datos inventados, tu aporte lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
+En esta actividad vas a decidir qué tareas de Camila conviene apoyar con un asistente de IA generativa y a probar una de ellas, para poner en práctica lo que sabes de cómo funciona el modelo y de sus límites. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, escrita en el texto de la entrega o en un documento adjunto, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Trabajas con datos inventados.
 
 ### Situación
 
@@ -34,19 +34,21 @@ Vas a decidir por Camila y a probar una de las tareas con datos de prueba.
 
 ### Lo que entregas
 
-Publicas en el foro de la actividad el semáforo con las seis tareas, su color, el tipo de modelo y la frase que justifica cada decisión; el pedido que usaste en
-la prueba, la respuesta que recibiste y tus anotaciones de la comparación, y el párrafo de explicación, de cinco a ocho líneas.
+Subes en la tarea el semáforo con las seis tareas, su color, el tipo de modelo y la frase que justifica cada decisión; el pedido que usaste en
+la prueba, la respuesta que recibiste y tus anotaciones de la comparación, y el párrafo de explicación, de cinco a ocho líneas. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Describe correctamente el funcionamiento y los tipos de IA generativa | 35 % | El párrafo explica con tus palabras cómo genera el asistente su respuesta y con qué información trabaja, y lo conecta con la necesidad de revisarla. | El párrafo menciona el funcionamiento del modelo, pero de forma incompleta o confusa, o no lo conecta con la revisión. | No hay párrafo o no explica cómo produce el asistente su respuesta. |
-| Semáforo justificado | 30 % | Las seis tareas tienen color y cada una trae una frase que se apoya en el funcionamiento o en los límites del modelo. | Las seis tareas tienen color, pero algunas frases no se apoyan en el funcionamiento del modelo o hay tareas sin frase. | Faltan tareas en el semáforo o los colores no están justificados. |
-| Tipo de modelo | 15 % | Cada tarea verde o amarilla tiene un tipo de modelo que corresponde a la salida que se busca. | Falta el tipo de modelo en alguna tarea o uno no corresponde a su salida. | No indica tipos de modelo o la mayoría no corresponde a la salida. |
-| Prueba con datos inventados | 20 % | La prueba usa datos inventados, incluye el pedido y la respuesta, y la comparación anota lo que hizo bien, lo que agregó y al menos una cosa que revisar. | Hay prueba, pero falta el pedido o la respuesta, o la comparación no señala nada que revisar. | No hay prueba o usa datos reales de personas. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Describe correctamente el funcionamiento y los tipos de IA generativa | Tu párrafo explica con tus palabras cómo genera el asistente su respuesta y con qué información trabaja, y lo conecta con la necesidad de revisarla. | Tu párrafo menciona el funcionamiento del modelo, pero de forma incompleta o confusa, o no lo conecta con la revisión. | No tienes párrafo o no explicas cómo produce el asistente su respuesta. |
+| Semáforo justificado | Las seis tareas tienen color y cada una trae una frase que se apoya en el funcionamiento o en los límites del modelo. | Las seis tareas tienen color, pero algunas de tus frases no se apoyan en el funcionamiento del modelo o te quedaron tareas sin frase. | Te faltan tareas en el semáforo o no justificaste los colores. |
+| Tipo de modelo | Cada tarea verde o amarilla tiene un tipo de modelo que corresponde a la salida que se busca. | Te falta el tipo de modelo en alguna tarea o uno no corresponde a su salida. | No indicaste tipos de modelo o la mayoría no corresponde a la salida. |
+| Prueba con datos inventados | Tu prueba usa datos inventados, incluye el pedido y la respuesta, y tu comparación anota lo que hizo bien, lo que agregó y al menos una cosa que revisar. | Hiciste la prueba, pero te falta el pedido o la respuesta, o tu comparación no señala nada que revisar. | No hiciste la prueba o usaste datos reales de personas. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Actividad 2 · Tres usos y dos límites en tu cargo
 cubre: H1, H2, C2
@@ -55,7 +57,7 @@ entrega: tarea
 
 ### Instrucción general
 
-En esta actividad vas a pasar por el semáforo las tareas de tu propio cargo y a probar una de ellas, para identificar usos concretos de la IA generativa y los límites que tendrías que controlar. Lo subes como tarea en el aula, en un documento de texto o en PDF. Solo lo ven tú y el facilitador, porque trabajas con tareas reales de tu trabajo. El facilitador lo revisa con la rúbrica de abajo y te deja su retroalimentación en un plazo de hasta 72 horas.
+En esta actividad vas a pasar por el semáforo las tareas de tu propio cargo y a probar una de ellas, para identificar usos concretos de la IA generativa y los límites que tendrías que controlar. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, en un documento de texto o en PDF, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Solo lo ven tú y el facilitador, porque trabajas con tareas reales de tu trabajo.
 
 ### Situación
 
@@ -79,19 +81,21 @@ Vas a revisar tus propias tareas con el semáforo y a probar una de ellas.
 
 ### Lo que entregas
 
-Subes como tarea en el aula tu lista de tareas con su color en el semáforo; los tres usos con el tipo de modelo de cada uno; la copia que usaste, ya sin
-datos sensibles, junto con el pedido, la respuesta y lo que encontraste al comparar, y los dos límites con su forma de control.
+Subes en la tarea tu lista de tareas con su color en el semáforo; los tres usos con el tipo de modelo de cada uno; la copia que usaste, ya sin
+datos sensibles, junto con el pedido, la respuesta y lo que encontraste al comparar, y los dos límites con su forma de control. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Ejemplifica al menos 3 usos en tareas laborales | 30 % | Presenta tres usos que son tareas concretas de tu cargo, cada uno con el tipo de modelo que necesita. | Presenta tres usos, pero alguno es general o no trae el tipo de modelo, o solo dos son concretos. | Presenta menos de dos usos concretos. |
-| Ejemplifica al menos 2 límites con su control | 30 % | Nombra dos límites propios de la IA generativa y cada uno trae un control que puedes hacer en tu trabajo. | Nombra dos límites, pero uno no es propio de la IA generativa o su control es vago. | Nombra un límite o ninguno, o no propone controles. |
-| Semáforo de tus tareas | 20 % | Todas las tareas de la lista tienen color y cada tarea en rojo trae un motivo claro. | Hay tareas sin color o tareas en rojo sin motivo. | No hay lista de tareas con su color. |
-| Prueba con una copia sin datos sensibles | 20 % | La copia no tiene nombres, RUT, teléfonos ni montos reales, e incluye el pedido, la respuesta y lo que encontraste al compararla con el original. | La copia está limpia, pero falta el pedido, la respuesta o la comparación. | No hay prueba o la copia conserva datos sensibles. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Ejemplifica al menos 3 usos en tareas laborales | Presentas tres usos que son tareas concretas de tu cargo, cada uno con el tipo de modelo que necesita. | Presentas tres usos, pero alguno es general o no trae el tipo de modelo, o solo dos son concretos. | Presentas menos de dos usos concretos. |
+| Ejemplifica al menos 2 límites con su control | Nombras dos límites propios de la IA generativa y cada uno trae un control que puedes hacer en tu trabajo. | Nombras dos límites, pero uno no es propio de la IA generativa o su control es vago. | Nombras un límite o ninguno, o no propones controles. |
+| Semáforo de tus tareas | Todas las tareas de tu lista tienen color y cada tarea en rojo trae un motivo claro. | Te quedaron tareas sin color o tareas en rojo sin motivo. | No tienes lista de tareas con su color. |
+| Prueba con una copia sin datos sensibles | Tu copia no tiene nombres, RUT, teléfonos ni montos reales, e incluye el pedido, la respuesta y lo que encontraste al compararla con el original. | Tu copia está limpia, pero te falta el pedido, la respuesta o la comparación. | No hiciste la prueba o tu copia conserva datos sensibles. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Referencias bibliográficas
 

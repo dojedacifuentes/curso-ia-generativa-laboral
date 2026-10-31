@@ -3,11 +3,11 @@
 ## Actividad 1 · Seis láminas para pedir facturas con guía de despacho
 cubre: H1, C1
 fuentes: F-M2-13
-entrega: foro
+entrega: tarea
 
 ### Instrucción general
 
-En esta actividad vas a armar con Gemini las seis láminas con que Camila le propone un cambio a la gerenta, cuidando que todas apoyen un mismo mensaje clave. Publicas tu trabajo en el foro de la actividad, con las láminas en PDF o con el enlace de la presentación, junto al brief, el esquema y el guion. Como los datos son ficticios, tu aporte lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
+En esta actividad vas a armar con Gemini las seis láminas con que Camila le propone un cambio a la gerenta, cuidando que todas apoyen un mismo mensaje clave. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, con las láminas en PDF o con el enlace de la presentación, junto al brief, el esquema y el guion, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Trabajas con datos ficticios.
 
 ### Situación
 
@@ -27,18 +27,20 @@ Vas a armar el brief, pedir el esquema a Gemini y convertirlo en seis láminas c
 
 ### Lo que entregas
 
-Publicas en el foro de la actividad el brief, el esquema tal como lo entregó Gemini, las seis láminas finales y el guion. Agrega una línea con los seis títulos uno debajo del otro, para que se puedan leer de corrido.
+Subes en la tarea el brief, el esquema tal como lo entregó Gemini, las seis láminas finales y el guion. Agrega una línea con los seis títulos uno debajo del otro, para que se puedan leer de corrido. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Estructura 6 láminas con un mensaje clave coherente | 40 % | La presentación tiene exactamente seis láminas, el mensaje clave aparece en la primera como una oración, cada lámina trata una sola idea que lo apoya y la última dice qué se pide. | Hay seis láminas, pero alguna mezcla ideas, no apoya el mensaje clave o la última no dice qué se pide. | No hay seis láminas o no hay un mensaje clave reconocible. |
-| Títulos que cuentan la historia | 25 % | Los títulos son oraciones completas y, leídos en orden en la línea pedida, cuentan la historia sin ver las viñetas. | Algunos títulos son temas sueltos o la secuencia tiene un salto. | Los títulos no permiten seguir la historia o falta la línea con los seis títulos. |
-| Brief y uso de los datos | 15 % | El brief trae propósito, audiencia y mensaje clave en una oración con verbo, y las láminas usan solo los datos entregados. | Falta una parte del brief o aparece algún dato que no venía en el caso. | No hay brief o las láminas traen varios datos inventados. |
-| Guion | 20 % | Cada lámina tiene un guion de dos o tres oraciones, escrito con palabras que Camila diría en la reunión. | El guion está incompleto o suena a texto copiado del asistente. | No hay guion. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Estructura 6 láminas con un mensaje clave coherente | Tu presentación tiene exactamente seis láminas, el mensaje clave aparece en la primera como una oración, cada lámina trata una sola idea que lo apoya y la última dice qué se pide. | Tienes seis láminas, pero alguna mezcla ideas, no apoya el mensaje clave o la última no dice qué se pide. | No tienes seis láminas o no hay un mensaje clave reconocible. |
+| Títulos que cuentan la historia | Tus títulos son oraciones completas y, leídos en orden en la línea pedida, cuentan la historia sin ver las viñetas. | Algunos de tus títulos son temas sueltos o la secuencia tiene un salto. | Tus títulos no permiten seguir la historia o te falta la línea con los seis títulos. |
+| Brief y uso de los datos | Tu brief trae propósito, audiencia y mensaje clave en una oración con verbo, y tus láminas usan solo los datos entregados. | Te falta una parte del brief o aparece algún dato que no venía en el caso. | No tienes brief o tus láminas traen varios datos inventados. |
+| Guion | Cada lámina tiene un guion de dos o tres oraciones, escrito con palabras que Camila diría en la reunión. | Tu guion está incompleto o suena a texto copiado del asistente. | No tienes guion. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Actividad 2 · Depura una presentación de tu trabajo
 cubre: H1, C2
@@ -47,7 +49,7 @@ entrega: tarea
 
 ### Instrucción general
 
-Esta actividad es el Hito 2 de tu proyecto del curso. Vas a preparar una presentación de seis láminas que propone a tu jefatura cómo mejorar con IA la tarea de tu proyecto y a depurar lo que genera la IA hasta dejarla lista. Lo subes como tarea en el aula, con la versión inicial y la final en PDF o con sus enlaces, más el párrafo que explica tus cambios. Solo lo ven tú y el facilitador, porque trabajas con información de tu trabajo. El facilitador lo revisa con la rúbrica de abajo y te deja su retroalimentación en un plazo de hasta 72 horas.
+Esta actividad es el Hito 2 de tu proyecto del curso. Vas a preparar una presentación de seis láminas que propone a tu jefatura cómo mejorar con IA la tarea de tu proyecto y a depurar lo que genera la IA hasta dejarla lista. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, con la versión inicial y la final en PDF o con sus enlaces, más el párrafo que explica tus cambios, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Solo lo ven tú y el facilitador, porque trabajas con información de tu trabajo.
 
 ### Situación
 
@@ -65,18 +67,20 @@ Esta vez el foco está en la depuración. Una lámina está sobrecargada cuando 
 
 ### Lo que entregas
 
-Subes como tarea en el aula tu brief, la versión inicial que generó la IA y tu versión final, lado a lado o una después de la otra. Agrega un párrafo que nombre tres cosas que eliminaste, una que corregiste y una que agregaste tú, y explica por qué en cada caso.
+Subes en la tarea tu brief, la versión inicial que generó la IA y tu versión final, lado a lado o una después de la otra. Agrega un párrafo que nombre tres cosas que eliminaste, una que corregiste y una que agregaste tú, y explica por qué en cada caso. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Depura el contenido generado: sobrecarga | 30 % | La versión final no tiene párrafos en las láminas, la letra no baja de 18 puntos, las imágenes refuerzan el mensaje y cada lámina trata una sola idea. | Queda alguna lámina con texto de más, letra chica o una imagen que no aporta. | Varias láminas siguen sobrecargadas. |
-| Depura el contenido generado: errores | 30 % | No queda ningún dato sin respaldo ni ningún [FALTA DATO] sin resolver. | Queda un dato sin respaldo o un [FALTA DATO] pendiente. | Quedan varios datos sin respaldo o vacíos sin resolver. |
-| Comparación justificada | 25 % | Muestra la versión inicial y la final, y el párrafo nombra tres cosas eliminadas, una corregida y una agregada, cada una con su porqué; los cambios son de contenido, no solo de formato. | Falta alguno de los cambios pedidos o las razones son generales. | No hay versión inicial para comparar o no hay párrafo. |
-| Seis láminas y cuidado de los datos | 15 % | Son seis láminas con un mensaje claro y los datos sensibles están cambiados. | El número de láminas no es seis o el mensaje se pierde en alguna. | La presentación conserva datos sensibles. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Depura el contenido generado: sobrecarga | Tu versión final no tiene párrafos en las láminas, la letra no baja de 18 puntos, las imágenes refuerzan el mensaje y cada lámina trata una sola idea. | Te queda alguna lámina con texto de más, letra chica o una imagen que no aporta. | Varias de tus láminas siguen sobrecargadas. |
+| Depura el contenido generado: errores | No te queda ningún dato sin respaldo ni ningún [FALTA DATO] sin resolver. | Te queda un dato sin respaldo o un [FALTA DATO] pendiente. | Te quedan varios datos sin respaldo o vacíos sin resolver. |
+| Comparación justificada | Muestras la versión inicial y la final, y tu párrafo nombra tres cosas eliminadas, una corregida y una agregada, cada una con su porqué; los cambios son de contenido, no solo de formato. | Te falta alguno de los cambios pedidos o tus razones son generales. | No tienes versión inicial para comparar o no escribiste el párrafo. |
+| Seis láminas y cuidado de los datos | Son seis láminas con un mensaje claro y cambiaste los datos sensibles. | El número de láminas no es seis o el mensaje se pierde en alguna. | Tu presentación conserva datos sensibles. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Referencias bibliográficas
 

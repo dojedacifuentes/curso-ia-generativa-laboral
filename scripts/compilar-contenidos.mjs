@@ -259,7 +259,10 @@ const [DIR_CASOS_HTML, DIR_CASOS_DOCS, DIR_CASOS_PDF] = carpetas('casos');
 // Vista del estudiante (30-10): sin autocorrección (la respuesta va en el foro y la revisa el facilitador; las respuestas esperadas
 // pasan a la guía del facilitador) y sin la línea del hito del proyecto, que es una remisión
 const AUTOCORRECCION = /^## 5\. Autocorrecci[óo]n\n([\s\S]*?)(?=^## )/m;
-const casoEstudiante = md => md.replace(/^\*\*Hito del proyecto con el que conecta:\*\*.*\n\n?/m, '').replace(AUTOCORRECCION, '').replace(/^## 6\. Para el foro/m, '## 5. Para el foro');
+// Cambio 31-10 (Natalia): el caso es la práctica evaluada del módulo; se agrega «5. Lo que entregas y cómo se evalúa» (casos/RUBRICA.md)
+// y la pregunta final va al foro de casos del módulo
+const ENTREGA_CASO = (() => { const f = path.join(RAIZ, 'casos', 'RUBRICA.md'); if (!fs.existsSync(f)) return ''; const s = fs.readFileSync(f, 'utf8').replace(/\r\n/g, '\n'); return s.slice(s.indexOf('## 5. ')).trim() + '\n\n'; })();
+const casoEstudiante = md => md.replace(/^\*\*Hito del proyecto con el que conecta:\*\*.*\n\n?/m, '').replace(AUTOCORRECCION, '').replace(/^## 6\. Para el foro\n/m, `${ENTREGA_CASO}## 6. Para el foro de casos\n`);
 const tituloCaso = md => (/^# (.+)$/m.exec(md)?.[1] || '').trim().replace(/^M\d-C\d · /, '');
 const autocorrecciones = (n, nivel) => casos.filter(id => id[1] === String(n)).map(id => { const md = leerMd(path.join('casos', `${id}.md`)); const x = AUTOCORRECCION.exec(md); return x ? `${'#'.repeat(nivel + 1)} ${tituloCaso(md)}\n\n${x[1].trim()}\n` : ''; }).filter(Boolean);
 for (const id of casos) {
@@ -302,7 +305,15 @@ if (glosario.length) {
   // XML de glosario de Moodle (Glosario → Importar entradas)
   const x = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   const entradas = glosario.flatMap(({ m, aes }) => aes.flatMap(a => a.terminos.map(t => `    <ENTRY><CONCEPT>${x(t.t)}</CONCEPT><DEFINITION>${x(`<p>${t.d.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')}</p>`)}</DEFINITION><FORMAT>1</FORMAT><USEDYNALINK>0</USEDYNALINK><CASESENSITIVE>0</CASESENSITIVE><FULLMATCH>0</FULLMATCH><TEACHERENTRY>1</TEACHERENTRY><CATEGORIES><CATEGORY><NAME>Módulo ${m.n}</NAME><USEDYNALINK>0</USEDYNALINK></CATEGORY></CATEGORIES></ENTRY>`)));
-  fs.writeFileSync(path.join(DIR_GLO, 'Glosario-Moodle.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<GLOSSARY>\n  <INFO>\n    <NAME>Glosario · ${x(curso.titulo)}</NAME>\n    <INTRO></INTRO>\n    <INTROFORMAT>1</INTROFORMAT>\n    <ENTRIES>\n${entradas.join('\n')}\n    </ENTRIES>\n  </INFO>\n</GLOSSARY>\n`);
+  const xmlGlosario = (nombre, es) => `<?xml version="1.0" encoding="UTF-8"?>\n<GLOSSARY>\n  <INFO>\n    <NAME>${x(nombre)}</NAME>\n    <INTRO></INTRO>\n    <INTROFORMAT>1</INTROFORMAT>\n    <ENTRIES>\n${es.join('\n')}\n    </ENTRIES>\n  </INFO>\n</GLOSSARY>\n`;
+  fs.writeFileSync(path.join(DIR_GLO, 'Glosario-Moodle.xml'), xmlGlosario(`Glosario · ${curso.titulo}`, entradas));
+  // Un glosario por módulo (31-10, Natalia): sin la categoría y sin repetir un término dentro del módulo
+  for (const { m, aes } of glosario) {
+    const vistos = new Set();
+    const es = aes.flatMap(a => a.terminos).filter(t => { const k = t.t.toLowerCase(); if (vistos.has(k)) return false; vistos.add(k); return true; })
+      .map(t => `    <ENTRY><CONCEPT>${x(t.t)}</CONCEPT><DEFINITION>${x(`<p>${t.d.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')}</p>`)}</DEFINITION><FORMAT>1</FORMAT><USEDYNALINK>0</USEDYNALINK><CASESENSITIVE>0</CASESENSITIVE><FULLMATCH>0</FULLMATCH><TEACHERENTRY>1</TEACHERENTRY></ENTRY>`);
+    fs.writeFileSync(path.join(DIR_GLO, `Glosario-M${m.n}-Moodle.xml`), xmlGlosario(`Glosario del módulo ${m.n}`, es));
+  }
   console.log(`Glosario: ${total} términos en entregables/glosario (HTML, Docs, XML de Moodle)`);
 }
 
@@ -311,6 +322,7 @@ const combinados = [];
 {
   const leerSi = rel => (fs.existsSync(path.join(RAIZ, rel)) ? leerMd(rel) : '');
   const bajar = md => md.replace(/^# .*\n/, '').replace(/^(#{2,3}) /gm, '#$1 ');
+  const PAUTA_CASOS = 'Cada caso es una práctica evaluada: la persona entrega como tarea sus respuestas al análisis guiado y el producto de la aplicación a su proyecto, y se califica en la tarea con la rúbrica del caso (análisis guiado 30 %, uso de lo aprendido 25 %, aplicación a su proyecto 25 %, cuidado de los datos 10 %, comunicación 10 %; se aprueba con 60 %). Estas son las respuestas esperadas del análisis guiado.';
   // Guía: introducción, foros y luego cada tema, en orden de módulo
   let guia = '';
   const gForos = leerSi('guia-facilitador/Foros.md');
@@ -320,8 +332,25 @@ const combinados = [];
     if (!partes.length) continue;
     guia += `## Módulo ${m.n} · ${m.nombre}\n\n` + partes.map(p => '### ' + /^# (?:Guía del facilitador · )?(.+)$/m.exec(p)[1] + '\n\n' + bajar(bajar(p))).join('\n') + '\n';
     const ac = autocorrecciones(m.n, 3);
-    if (ac.length) guia += `### Casos de aplicación · respuestas esperadas\n\n${ac.join('\n')}\n`;
+    if (ac.length) guia += `### Casos de aplicación · pauta de corrección\n\n${PAUTA_CASOS}\n\n${ac.join('\n')}\n`;
   }
+  // Evaluaciones de módulo y final (31-10): pauta con la respuesta correcta y la retroalimentación que ve el estudiante
+  const letra = i => 'abcd'[i];
+  const pautaItems = (items, desde) => items.map((it, k) => {
+    const c = it.opciones.findIndex(o => o.correcta);
+    return `**${desde + k}.** ${it.enunciado}\n\n${it.opciones.map((o, i) => `- ${letra(i)}) ${o.texto}${o.correcta ? ' **(correcta)**' : ''}`).join('\n')}\n\nRespuesta: **${letra(c)}**. ${it.opciones[c].retro}\n`;
+  }).join('\n');
+  let evals = '';
+  for (const m of curso.modulos) {
+    const f = path.join(RAIZ, 'evaluaciones', `M${m.n}.json`); if (!fs.existsSync(f)) continue;
+    evals += `### Evaluación del módulo ${m.n} · ${m.nombre}\n\n${pautaItems(JSON.parse(fs.readFileSync(f, 'utf8')).items, 1)}\n`;
+  }
+  {
+    const f = path.join(RAIZ, 'evaluaciones', 'Final.json');
+    if (fs.existsSync(f)) { let k = 1; evals += '### Evaluación final del curso\n\n' + JSON.parse(fs.readFileSync(f, 'utf8')).casos.map((c, i) => { const t = `#### Caso ${i + 1}: ${c.titulo}\n\n${c.texto}\n\n${pautaItems(c.items, k)}`; k += c.items.length; return t; }).join('\n') + '\n'; }
+  }
+  if (evals) evals = `## Evaluaciones · pauta de corrección\n\nCuestionarios del aula con nota; se aprueban con 60 %. Moodle muestra las alternativas en otro orden a cada persona: aquí van en el orden original, con la correcta marcada y la retroalimentación que ve el estudiante.\n\n${evals}`;
+  guia += evals;
   let foros = '';
   const fGen = leerSi('foros/General.md');
   if (fGen) foros += '## ' + /^# (.+)$/m.exec(fGen)[1] + '\n\n' + bajar(fGen) + '\n';
@@ -346,10 +375,11 @@ const combinados = [];
       const partes = m.aes.map(a => leerSi(`guia-facilitador/${a.id}.md`)).filter(Boolean);
       if (!partes.length) continue;
       const ac = autocorrecciones(m.n, 2);
-      const tx = partes.map(p => '## ' + /^# (?:Guía del facilitador · )?(.+)$/m.exec(p)[1] + '\n\n' + bajar(p)).join('\n') + (ac.length ? `\n## Casos de aplicación · respuestas esperadas\n\n${ac.join('\n')}` : '');
+      const tx = partes.map(p => '## ' + /^# (?:Guía del facilitador · )?(.+)$/m.exec(p)[1] + '\n\n' + bajar(p)).join('\n') + (ac.length ? `\n## Casos de aplicación · pauta de corrección\n\n${PAUTA_CASOS}\n\n${ac.join('\n')}` : '');
       escribir(dh, dd, `Guia-M${m.n}`, { titulo: `Guía del facilitador · Módulo ${m.n}`, etiqueta: `${m.nombre} · uso docente`, texto: sinCodigos(tx), vista: 'estudiante' });
     }
   }
+  if (evals) { const [dh, dd] = carpetas('guia-facilitador', 'partes'); escribir(dh, dd, 'Guia-E-evaluaciones', { titulo: 'Guía del facilitador · Evaluaciones', etiqueta: `Uso docente, no visible para estudiantes · ${curso.titulo}`, texto: sinCodigos(bajar('# x\n' + evals)), vista: 'estudiante' }); }
   if (combinados.length) console.log(`${combinados.map(c => c.nombre).join(' y ')} en entregables/`);
 }
 

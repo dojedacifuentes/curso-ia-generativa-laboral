@@ -3,11 +3,11 @@
 ## Actividad 1 · Las facturas pendientes de Camila
 cubre: H1, C1
 fuentes: F-M2-16, F-M2-15
-entrega: foro
+entrega: tarea
 
 ### Instrucción general
 
-En esta actividad vas a pedirle a Gemini dos fórmulas para la planilla de facturas de Camila, aplicarlas y comprobar que dan el resultado correcto. Publicas tu trabajo en el foro de la actividad, con una captura o una copia de la hoja y tu bitácora en el mensaje o en un adjunto. Como la tabla es ficticia, tu aporte lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
+En esta actividad vas a pedirle a Gemini dos fórmulas para la planilla de facturas de Camila, aplicarlas y comprobar que dan el resultado correcto. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, con una captura o una copia de la hoja y tu bitácora en el texto de la entrega o en un adjunto, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Trabajas con una tabla ficticia.
 
 ### Situación
 
@@ -39,18 +39,20 @@ Los resultados que debes obtener son 2830000 para Pendiente y 1009000 para Pagad
 
 ### Lo que entregas
 
-Publicas en el foro de la actividad una captura o una copia de la hoja con las dos fórmulas funcionando y, en tu bitácora, la fórmula exacta que propuso Gemini para cada problema, tu cálculo a mano y el resultado de cada prueba. Si tuviste que corregir una fórmula, anota cómo era antes y cómo quedó.
+Subes en la tarea una captura o una copia de la hoja con las dos fórmulas funcionando y, en tu bitácora, la fórmula exacta que propuso Gemini para cada problema, tu cálculo a mano y el resultado de cada prueba. Si tuviste que corregir una fórmula, anota cómo era antes y cómo quedó. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Genera una fórmula correcta para el problema planteado: suma por estado | 35 % | La fórmula de H2 usa SUMAR.SI, los rangos no se mueven al copiarla, la celda del estado sí cambia, y en H2 y H3 da los totales correctos. | La fórmula da el total correcto en una celda, pero falla al copiarla o hubo que escribirla a mano en cada celda. | La fórmula no da los totales correctos o no usa una función de suma con condición. |
-| Genera una fórmula correcta para el problema planteado: búsqueda | 30 % | La fórmula de K2 usa BUSCARV con la columna del monto y coincidencia exacta; devuelve el monto correcto y un error con la factura que no existe. | La fórmula devuelve montos correctos, pero con la factura que no existe muestra un monto en vez de un error. | La fórmula no devuelve los montos correctos. |
-| Comprobación en la bitácora | 25 % | La bitácora tiene el cálculo a mano hecho antes de pedir, la prueba de cada fórmula con resultados conocidos y con la factura que no existe, la revisión de los rangos en H3 y la suma con el filtro. | Falta alguna de las pruebas o el cálculo a mano. | No hay pruebas registradas. |
-| Registro de las fórmulas | 10 % | Anota la fórmula exacta que propuso Gemini para cada problema y, si corregiste alguna, cómo era antes y cómo quedó. | Falta una de las fórmulas o la corrección no muestra el antes y el después. | No registra las fórmulas. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Genera una fórmula correcta para el problema planteado: suma por estado | Tu fórmula de H2 usa SUMAR.SI, los rangos no se mueven al copiarla, la celda del estado sí cambia, y en H2 y H3 da los totales correctos. | Tu fórmula da el total correcto en una celda, pero falla al copiarla o tuviste que escribirla a mano en cada celda. | Tu fórmula no da los totales correctos o no usa una función de suma con condición. |
+| Genera una fórmula correcta para el problema planteado: búsqueda | Tu fórmula de K2 usa BUSCARV con la columna del monto y coincidencia exacta; devuelve el monto correcto y un error con la factura que no existe. | Tu fórmula devuelve montos correctos, pero con la factura que no existe muestra un monto en vez de un error. | Tu fórmula no devuelve los montos correctos. |
+| Comprobación en la bitácora | Tu bitácora tiene el cálculo a mano hecho antes de pedir, la prueba de cada fórmula con resultados conocidos y con la factura que no existe, la revisión de los rangos en H3 y la suma con el filtro. | Te falta alguna de las pruebas o el cálculo a mano. | No registraste pruebas. |
+| Registro de las fórmulas | Anotas la fórmula exacta que propuso Gemini para cada problema y, si corregiste alguna, cómo era antes y cómo quedó. | Te falta una de las fórmulas o la corrección no muestra el antes y el después. | No registraste las fórmulas. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Actividad 2 · Una fórmula para tu planilla, comprobada
 cubre: H1, C2
@@ -59,7 +61,7 @@ entrega: tarea
 
 ### Instrucción general
 
-En esta actividad vas a resolver con una fórmula generada por IA una pregunta que hoy respondes a mano en tu planilla, y a comprobarla con datos de prueba antes de confiar en ella. Lo subes como tarea en el aula, con tu tabla de prueba en una captura o una copia y tu bitácora en un documento de texto o en PDF. Solo lo ven tú y el facilitador, porque trabajas con una planilla real de tu cargo. El facilitador lo revisa con la rúbrica de abajo y te deja su retroalimentación en un plazo de hasta 72 horas.
+En esta actividad vas a resolver con una fórmula generada por IA una pregunta que hoy respondes a mano en tu planilla, y a comprobarla con datos de prueba antes de confiar en ella. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, con tu tabla de prueba en una captura o una copia y tu bitácora en un documento de texto o en PDF, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Solo lo ven tú y el facilitador, porque trabajas con una planilla real de tu cargo.
 
 ### Situación
 
@@ -79,18 +81,20 @@ Vas a armar una tabla pequeña de prueba con tus propias columnas, conseguir la 
 
 ### Lo que entregas
 
-Subes como tarea en el aula tu tabla de prueba, la pregunta, tu cálculo a mano, la fórmula que propuso Gemini y la fórmula final. En tu bitácora describe cada prueba que hiciste, con lo que esperabas y lo que obtuviste, y el error que encontraste o provocaste, cómo lo detectaste y cómo lo corregiste.
+Subes en la tarea tu tabla de prueba, la pregunta, tu cálculo a mano, la fórmula que propuso Gemini y la fórmula final. En tu bitácora describe cada prueba que hiciste, con lo que esperabas y lo que obtuviste, y el error que encontraste o provocaste, cómo lo detectaste y cómo lo corregiste. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Comprueba el resultado con datos de prueba | 30 % | El resultado de la fórmula final coincide con tu cálculo a mano, hecho antes de pedir la fórmula, y con el camino del filtro. | Coincide con uno de los dos caminos, o el cálculo a mano se hizo después. | El resultado no coincide o no se comparó. |
-| Pruebas con resultado conocido | 25 % | La bitácora muestra al menos dos pruebas distintas, cada una con lo que esperabas y lo que obtuviste. | Hay una sola prueba o no se anota lo esperado. | No hay pruebas registradas. |
-| Corrige errores | 30 % | Describe un error encontrado o provocado: qué estaba mal, en qué prueba apareció y qué cambiaste para corregirlo. | Menciona un error, pero no explica cómo lo detectaste o cómo lo corregiste. | No hay error detectado ni corrección. |
-| Tabla de prueba y cuidado de los datos | 15 % | La tabla tiene entre cinco y ocho filas con datos cambiados, la pregunta está en una línea y el pedido a Gemini no trae datos reales. | Falta la pregunta o la tabla no tiene las filas pedidas. | La tabla o el pedido conservan datos sensibles. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Comprueba el resultado con datos de prueba | El resultado de tu fórmula final coincide con tu cálculo a mano, hecho antes de pedir la fórmula, y con el camino del filtro. | Coincide con uno de los dos caminos, o hiciste el cálculo a mano después. | El resultado no coincide o no lo comparaste. |
+| Pruebas con resultado conocido | Tu bitácora muestra al menos dos pruebas distintas, cada una con lo que esperabas y lo que obtuviste. | Hiciste una sola prueba o no anotaste lo esperado. | No registraste pruebas. |
+| Corrige errores | Describes un error encontrado o provocado: qué estaba mal, en qué prueba apareció y qué cambiaste para corregirlo. | Mencionas un error, pero no explicas cómo lo detectaste o cómo lo corregiste. | No detectaste ni corregiste ningún error. |
+| Tabla de prueba y cuidado de los datos | Tu tabla tiene entre cinco y ocho filas con datos cambiados, la pregunta está en una línea y tu pedido a Gemini no trae datos reales. | Te falta la pregunta o tu tabla no tiene las filas pedidas. | Tu tabla o tu pedido conservan datos sensibles. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Referencias bibliográficas
 

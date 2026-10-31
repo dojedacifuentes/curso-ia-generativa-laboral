@@ -3,14 +3,14 @@
 ## Actividad 1 · El plan de medición de Camila
 cubre: H1, C1, C2
 fuentes: F-M6-01, F-M6-02
-entrega: foro
+entrega: tarea
 
 ### Instrucción general
 
 Vas a convertir los apuntes de Camila en el borrador de su plan: diagnóstico, línea base, meta SMART, plan de medición y
-justificación de viabilidad. Es la práctica del mismo trabajo que harás para tu propio proyecto. Publica tu documento de una página
-en el foro de la actividad, en el mensaje o como archivo adjunto. Se evalúa con la rúbrica de abajo, y el facilitador te responde en el
-foro dentro de 24 horas hábiles.
+justificación de viabilidad. Es la práctica del mismo trabajo que harás para tu propio proyecto. Es una actividad formativa: no lleva
+nota. La subes como tarea en el aula, con tu documento de una página en el texto de la tarea o como archivo adjunto, y, antes de
+enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final.
 
 ### Situación
 
@@ -45,20 +45,23 @@ falta en vez de suponerlo.
 
 ### Lo que entregas
 
-Publica en el foro de la actividad un documento de una página con el diagnóstico, la línea base con sus cálculos, la meta SMART, la tabla
+Subes en la tarea un documento de una página con el diagnóstico, la línea base con sus cálculos, la meta SMART, la tabla
 del plan de medición y un párrafo de viabilidad que incluya tu respuesta a la sugerencia de la compañera. Si te faltó algún dato,
-déjalo anotado donde corresponde.
+déjalo anotado donde corresponde. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo
+justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Calcula la línea base y diagnostica | 30 % | Los tres indicadores tienen su resultado y su cálculo escrito, sacados de los apuntes, y el diagnóstico responde las cinco preguntas y anota el dato que falta en vez de inventarlo. | Los cálculos están, pero uno tiene un error o le falta el cálculo, o el diagnóstico omite una pregunta o completa un dato que no está. | No hay línea base, o los valores no salen de los apuntes. |
-| Formula la meta | 20 % | La meta tiene número, unidad, línea base y plazo, y es posible con lo que Camila tiene sin cumplirse sola. | La meta tiene número y plazo, pero le falta la unidad o la línea base, o no es realista. | La meta sigue siendo vaga, sin número ni plazo. |
-| Arma el plan de medición | 20 % | Hay un indicador de tiempo y uno de calidad, cada uno con fórmula, fuente, frecuencia, línea base y meta. | Están los dos indicadores, pero a uno le falta fórmula, fuente o frecuencia. | No hay plan de medición, o tiene un solo indicador sin fórmula. |
-| Justifica la viabilidad | 30 % | Usa al menos tres criterios apoyados en hechos de los apuntes y responde a la compañera con una decisión que protege los datos y un alcance que controla el riesgo. | Usa criterios con hechos, pero menos de tres, o responde a la compañera sin proponer un alcance. | La justificación se apoya en expectativas, o acepta la sugerencia de la compañera. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Calcula la línea base y diagnostica | Los tres indicadores tienen su resultado y su cálculo escrito, sacados de los apuntes, y tu diagnóstico responde las cinco preguntas y anota el dato que falta en vez de inventarlo. | Los cálculos están, pero uno tiene un error o le falta el cálculo, o tu diagnóstico omite una pregunta o completa un dato que no está. | No hay línea base, o tus valores no salen de los apuntes. |
+| Formula la meta | Tu meta tiene número, unidad, línea base y plazo, y es posible con lo que Camila tiene sin cumplirse sola. | Tu meta tiene número y plazo, pero le falta la unidad o la línea base, o no es realista. | Tu meta sigue siendo vaga, sin número ni plazo. |
+| Arma el plan de medición | Tienes un indicador de tiempo y uno de calidad, cada uno con fórmula, fuente, frecuencia, línea base y meta. | Están los dos indicadores, pero a uno le falta fórmula, fuente o frecuencia. | No hay plan de medición, o tiene un solo indicador sin fórmula. |
+| Justifica la viabilidad | Usas al menos tres criterios apoyados en hechos de los apuntes y respondes a la compañera con una decisión que protege los datos y un alcance que controla el riesgo. | Usas criterios con hechos, pero menos de tres, o respondes a la compañera sin proponer un alcance. | Tu justificación se apoya en expectativas, o aceptas la sugerencia de la compañera. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Actividad 2 · El diagnóstico y la meta de tu proyecto
 cubre: H1, C1, C2
@@ -68,9 +71,10 @@ entrega: tarea
 ### Instrucción general
 
 Vas a medir cómo haces hoy la tarea de tu proyecto y a escribir su diagnóstico, su meta y su plan de medición, con la justificación
-de por qué es viable usar IA. Es el Hito 6a de tu proyecto del curso y la referencia contra la que medirás tus resultados. Súbelo como tarea en
-el aula, con tu registro y un documento de una o dos páginas; solo lo ven tú y el facilitador. El facilitador lo revisa con la
-rúbrica de abajo y te deja su retroalimentación en un plazo de hasta 72 horas.
+de por qué es viable usar IA. Es el Hito 6a de tu proyecto del curso y la referencia contra la que medirás tus resultados. Es una actividad
+formativa: no lleva nota. La subes como tarea en el aula, con tu registro y un documento de una o dos páginas, y, antes de enviarla,
+revisas tu trabajo con la rúbrica de autoevaluación del final. Solo lo ven tú y el facilitador, porque trabajas con información real
+de tu cargo.
 
 ### Situación
 
@@ -98,20 +102,23 @@ de clientes, proveedores o compañeros, y respeta lo que permite tu empresa.
 
 ### Lo que entregas
 
-Sube como tarea en el aula tu registro de línea base, sin datos personales, y un documento de una o dos páginas con el diagnóstico,
+Subes en la tarea tu registro de línea base, sin datos personales, y un documento de una o dos páginas con el diagnóstico,
 la meta SMART, la tabla del plan de medición con una columna para la meta y la justificación de viabilidad. Cierra con dos líneas
-sobre qué cambiaste después de que otra persona leyó tu meta.
+sobre qué cambiaste después de que otra persona leyó tu meta. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la
+rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Registra la situación inicial | 30 % | El registro tiene al menos diez casos con fecha, caso, minutos, errores y observación, sin datos personales, y el diagnóstico responde las cinco preguntas con datos de ese registro. | El registro tiene menos de diez casos o le faltan columnas, o el diagnóstico usa impresiones en alguna respuesta. | No hay registro, o el diagnóstico no describe una tarea real del cargo. |
-| Define indicadores y meta | 30 % | Hay dos o tres indicadores, al menos uno de tiempo y uno de calidad, con fórmula, fuente, frecuencia y línea base del registro, y la meta tiene número, unidad, línea base y plazo, sin cumplirse ya hoy. | Los indicadores y la meta están, pero a uno le falta un elemento o la meta ya se cumple hoy. | No hay indicadores medibles, o la meta no tiene número ni plazo. |
-| Justifica la viabilidad | 25 % | Usa al menos tres criterios apoyados en las pruebas del módulo 5, explica el cambio de alcance si un criterio falla y el documento no trae datos personales ni información confidencial. | Usa criterios, pero menos de tres o sin apoyo en las pruebas, o no explica qué hace con un criterio que falla. | No hay justificación, o el documento trae datos personales o información confidencial. |
-| Valida la meta con otra persona | 15 % | Las dos líneas dicen quién leyó la meta y qué cambió después. | Dice que alguien la leyó, pero no qué cambió ni por qué la dejó igual. | No aparece la revisión de otra persona. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Registra la situación inicial | Tu registro tiene al menos diez casos con fecha, caso, minutos, errores y observación, sin datos personales, y tu diagnóstico responde las cinco preguntas con datos de ese registro. | Tu registro tiene menos de diez casos o le faltan columnas, o tu diagnóstico usa impresiones en alguna respuesta. | No hay registro, o tu diagnóstico no describe una tarea real de tu cargo. |
+| Define indicadores y meta | Tienes dos o tres indicadores, al menos uno de tiempo y uno de calidad, con fórmula, fuente, frecuencia y línea base del registro, y tu meta tiene número, unidad, línea base y plazo, sin cumplirse ya hoy. | Los indicadores y la meta están, pero a uno le falta un elemento o tu meta ya se cumple hoy. | No hay indicadores medibles, o tu meta no tiene número ni plazo. |
+| Justifica la viabilidad | Usas al menos tres criterios apoyados en las pruebas del módulo 5, explicas el cambio de alcance si un criterio falla y tu documento no trae datos personales ni información confidencial. | Usas criterios, pero menos de tres o sin apoyo en las pruebas, o no explicas qué haces con un criterio que falla. | No hay justificación, o tu documento trae datos personales o información confidencial. |
+| Valida la meta con otra persona | Tus dos líneas dicen quién leyó la meta y qué cambió después. | Dices que alguien la leyó, pero no qué cambió ni por qué la dejaste igual. | No aparece la revisión de otra persona. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Referencias bibliográficas
 

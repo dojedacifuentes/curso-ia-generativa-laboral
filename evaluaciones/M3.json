@@ -1,0 +1,287 @@
+{
+  "modulo": 3,
+  "titulo": "Evaluación del módulo 3",
+  "instruccion": "Esta evaluación revisa lo que aprendiste en el módulo «Investigación y análisis de información»: formular preguntas de investigación específicas, levantar información con herramientas que muestran sus fuentes y registrarlas, evaluar y contrastar fuentes para sintetizar solo lo que tiene respaldo, organizar un informe breve con citas completas, y clasificar la información de tu trabajo para decidir qué puede ingresar a una herramienta de IA. Tiene 10 preguntas de selección múltiple. Cada una presenta una situación de trabajo breve y cuatro alternativas, de las que solo una es correcta. Todas las preguntas valen lo mismo y apruebas con 60 % de logro, es decir, con 6 respuestas correctas o más. Lee con calma cada caso antes de responder. Al terminar verás la retroalimentación de cada alternativa: por qué la correcta lo es y qué te conviene repasar si elegiste otra.",
+  "items": [
+    {
+      "id": "M3-E01",
+      "ae": "M3-AE1",
+      "criterio": "C1",
+      "enunciado": "Camila quiere investigar cómo mejorar el registro de las órdenes de compra digitales en la oficina de la constructora. Antes de abrir una herramienta, escribe varias preguntas. ¿Cuál es la pregunta de investigación más específica?",
+      "opciones": [
+        {
+          "texto": "«¿Qué se puede hacer para mejorar el orden y el funcionamiento general de una oficina?»",
+          "correcta": false,
+          "retro": "Es un tema general, no una pregunta acotada: traerá muchos resultados y pocos útiles para su problema. Acotar no es perder información, es quedarse con la que sirve. Repasa cómo pasar del tema general a la pregunta de investigación."
+        },
+        {
+          "texto": "«¿Cuál es el mejor programa de gestión documental que existe hoy en el mercado?»",
+          "correcta": false,
+          "retro": "No está acotada a su realidad (una oficina, órdenes de compra) y empuja hacia comparaciones de productos, donde abundan las fuentes con propósito comercial. Repasa qué tiene una pregunta específica: quién, qué y, cuando importa, dónde y cuándo."
+        },
+        {
+          "texto": "«¿Qué opina la gerenta de administración sobre cambiar la forma de registrar?»",
+          "correcta": false,
+          "retro": "Es una pregunta legítima, pero no se responde investigando fuentes: se le pregunta directamente a la gerenta. Una pregunta de investigación se puede responder buscando información. Repasa cómo se formula una pregunta de investigación."
+        },
+        {
+          "texto": "«¿Qué criterios recomiendan las guías de archivo para nombrar y respaldar órdenes de compra digitales en oficinas pequeñas?»",
+          "correcta": true,
+          "retro": "Correcto. Nombra el tema acotado y sus conceptos clave: qué (nombrar y respaldar órdenes de compra digitales), dónde (oficinas pequeñas) y en qué tipo de fuente buscar (guías de archivo). Al leerla, Camila sabe qué respuesta espera y dónde buscarla."
+        }
+      ]
+    },
+    {
+      "id": "M3-E02",
+      "ae": "M3-AE1",
+      "criterio": "C2",
+      "enunciado": "Rosa debe levantar información sobre recordatorios de horas para su proyecto usando al menos dos herramientas distintas. ¿Qué plan cumple ese criterio y aprovecha lo que hace cada herramienta?",
+      "opciones": [
+        {
+          "texto": "Preguntar lo mismo tres veces a Gemini, sin búsqueda, y quedarse con lo que se repite en las tres respuestas.",
+          "correcta": false,
+          "retro": "Es una sola herramienta y, sin búsqueda, responde con lo que aprendió en su entrenamiento: sin fuentes que revisar. Que algo se repita no lo vuelve verificable. Repasa los tipos de herramientas para investigar."
+        },
+        {
+          "texto": "Buscar en Perplexity, abrir las citas y subir las fuentes públicas útiles a un cuaderno de Gemini Notebook para preguntarles.",
+          "correcta": true,
+          "retro": "Correcto. El buscador con citas le abre el tema con enlaces para revisar, y el asistente sobre fuentes propias le permite profundizar en las que eligió, con citas que llevan a la parte exacta de cada documento. Son dos herramientas distintas, cada una en su momento."
+        },
+        {
+          "texto": "Usar una vez Deep Research de Gemini y pegar el informe completo en su proyecto como resultado final.",
+          "correcta": false,
+          "retro": "La investigación a fondo sirve como mapa al comienzo, no como resultado: cada dato del informe se trata como cualquier otra respuesta y se comprueba en su fuente. Además es una sola herramienta. Repasa cuándo vale la pena la investigación a fondo."
+        },
+        {
+          "texto": "Usar Perplexity y anotar en su registro «Fuente: Perplexity» junto a cada dato de la respuesta.",
+          "correcta": false,
+          "retro": "Usa una sola herramienta y registra mal: Perplexity es la herramienta con que encontró el dato, no su fuente. La fuente es la página a la que lleva la cita. Repasa cómo registrar las fuentes con su cita."
+        }
+      ]
+    },
+    {
+      "id": "M3-E03",
+      "ae": "M3-AE1",
+      "criterio": "C2",
+      "enunciado": "Andrés abre la cita [3] de una respuesta de Perplexity que afirma cuántas cajas conviene tener en reserva. La página trata sobre bodegas, pero no menciona ese dato en ninguna parte. ¿Qué anota en su registro de fuentes?",
+      "opciones": [
+        {
+          "texto": "No asocia el dato a esa página: lo marca como sin respaldo, anota que la cita no lo decía y busca otra fuente.",
+          "correcta": true,
+          "retro": "Correcto. Una cita es una pista para ir a la fuente, no una prueba. Si la página no dice lo que la respuesta afirma, el dato queda sin respaldo hasta que lo encuentre en una fuente verificable. Anotar que la cita falló también es información valiosa sobre la herramienta."
+        },
+        {
+          "texto": "Anota el dato con esa página como fuente, porque trata sobre bodegas y fue la que entregó la herramienta.",
+          "correcta": false,
+          "retro": "Que la página hable del tema no significa que respalde el dato. Si la cita no dice eso, registrarla como fuente le atribuye a la página algo que no afirma. Repasa cómo funciona un buscador con citas y qué revisar al abrir cada cita."
+        },
+        {
+          "texto": "Anota el dato con «Fuente: Perplexity», ya que fue la herramienta la que lo afirmó en su respuesta.",
+          "correcta": false,
+          "retro": "Perplexity es la herramienta, no la fuente. Un dato que solo afirma la respuesta redactada, sin una página que lo respalde, no tiene respaldo propio. Repasa cómo registrar las fuentes con su cita."
+        },
+        {
+          "texto": "Pregunta a Perplexity si el dato es correcto y, si lo confirma, lo anota con la misma página como fuente.",
+          "correcta": false,
+          "retro": "La confirmación de la misma herramienta no es una verificación: puede repetir el error con la misma seguridad. La verificación se hace al abrir la fuente y leer lo que dice. Repasa por qué una cita no es una prueba."
+        }
+      ]
+    },
+    {
+      "id": "M3-E04",
+      "ae": "M3-AE2",
+      "criterio": "C1",
+      "enunciado": "Camila quiere saber cuántos cuadernos y fuentes permite hoy el plan gratuito de Gemini Notebook, para proponérselo a la gerenta. Reunió tres fuentes y la respuesta de un asistente. ¿A cuál le da más peso y por qué?",
+      "opciones": [
+        {
+          "texto": "A un tutorial de un blog sin autor, de hace dos años, porque trae imágenes de la aplicación y más detalle.",
+          "correcta": false,
+          "retro": "Los planes de las herramientas digitales cambian a menudo, así que una fuente de hace dos años puede describir algo que ya no existe; además, sin autor no se puede evaluar quién responde por la información. Repasa los criterios de fecha y autoría."
+        },
+        {
+          "texto": "A la respuesta de un asistente sin fuentes, porque resume todo en un párrafo y es la más rápida de leer.",
+          "correcta": false,
+          "retro": "Un dato que da un asistente sin fuentes no tiene respaldo propio: no hay de dónde verificarlo. Sirve, a lo más, como pista. Repasa el criterio de respaldo."
+        },
+        {
+          "texto": "Al centro de ayuda de Google, con fecha reciente, porque responde quien ofrece el plan y ese dato cambia seguido.",
+          "correcta": true,
+          "retro": "Correcto. Para saber cómo funciona un producto, la empresa que lo ofrece es la fuente original, y en un dato que cambia la fecha reciente pesa mucho. Ojo: esa misma fuente no es neutral si lo que quieres es comparar su producto con otros."
+        },
+        {
+          "texto": "A un video con muchas visualizaciones, porque si tanta gente lo vio, la información debe estar bien.",
+          "correcta": false,
+          "retro": "La popularidad no dice quién está detrás, con qué experiencia ni de dónde sale el dato. La confiabilidad se evalúa por autoría, fecha y respaldo, no por cuánta gente vio algo. Repasa el test CRAAP."
+        }
+      ]
+    },
+    {
+      "id": "M3-E05",
+      "ae": "M3-AE2",
+      "criterio": "C2",
+      "enunciado": "Rosa contrastó sus fuentes sobre confirmar horas: una guía de 2024 y un estudio de 2023 coinciden en que confirmar con anticipación reduce la inasistencia; otra fuente muestra un efecto pequeño en un centro parecido al suyo, y el dato «el 30 % de los centros ya lo usa» venía solo del resumen de un asistente. ¿Qué síntesis corresponde?",
+      "opciones": [
+        {
+          "texto": "«Confirmar la hora reduce la inasistencia (guía, 2024; estudio, 2023), y el 30 % de los centros ya lo hace.»",
+          "correcta": false,
+          "retro": "Incluye un dato que solo venía del resumen de un asistente, sin una fuente verificable: no entra en la síntesis. Además omite el resultado que no coincide. Repasa la matriz de contraste y qué se descarta."
+        },
+        {
+          "texto": "«Las fuentes coinciden en que confirmar con anticipación reduce la inasistencia (guía, 2024; estudio, 2023), aunque en un centro parecido el efecto fue pequeño.»",
+          "correcta": true,
+          "retro": "Correcto. Une lo que dicen las fuentes, organizado por idea y con su cita, incluye el resultado que no coincide en vez de esconderlo y deja fuera el porcentaje sin respaldo. Así quien lea sabe cuánto confiar en el hallazgo."
+        },
+        {
+          "texto": "«La guía dice que hay que confirmar la hora. El estudio dice que confirmar funciona. Otra fuente habla de un centro parecido.»",
+          "correcta": false,
+          "retro": "Repite lo que dice cada fuente, una tras otra: es un resumen, no una síntesis. Falta comparar, ver en qué coinciden y concluir hasta dónde aplica el hallazgo. Repasa la diferencia entre resumir y sintetizar."
+        },
+        {
+          "texto": "«Confirmar la hora elimina la inasistencia en los centros médicos, según todas las fuentes revisadas.»",
+          "correcta": false,
+          "retro": "Cambia lo que dicen las fuentes (reducir no es eliminar) y borra el resultado incómodo. Respetar la autoría es ser fiel a la intención de cada fuente. Repasa la honestidad intelectual al analizar fuentes."
+        }
+      ]
+    },
+    {
+      "id": "M3-E06",
+      "ae": "M3-AE3",
+      "criterio": "C1",
+      "enunciado": "El borrador del informe de Andrés para su jefatura tiene cuatro páginas, trata los despachos atrasados y además un cambio de turnos, empieza contando cómo buscó en Perplexity y deja los mensajes clave para el final. ¿Qué cambio lo ordena mejor?",
+      "opciones": [
+        {
+          "texto": "Dejar un solo tema, abrir con los mensajes clave, resumir la búsqueda en un párrafo después de la introducción y no pasar de dos páginas.",
+          "correcta": true,
+          "retro": "Correcto. Un informe breve trata un solo tema (los turnos van en otro informe), parte con lo que quien decide debe saber, describe el método en pocas líneas después de la introducción y cabe en unas dos páginas. Las referencias quedan al final."
+        },
+        {
+          "texto": "Mantener los dos temas, agregar un índice al comienzo y numerar las secciones para que sea fácil recorrerlo.",
+          "correcta": false,
+          "retro": "Un índice no resuelve que trate dos temas ni que lo esencial quede al final: la jefatura igual tendría que leer todo para saber qué se concluyó. Repasa qué es un informe breve y su estructura."
+        },
+        {
+          "texto": "Mover las referencias al comienzo, para que la jefatura vea de entrada que el informe tiene buen respaldo.",
+          "correcta": false,
+          "retro": "Las referencias van al final; al inicio van los mensajes clave. Este cambio tampoco corrige que trate dos temas ni que empiece por la historia de la búsqueda. Repasa la estructura del informe breve."
+        },
+        {
+          "texto": "Pedir a Gemini que acorte cada sección a la mitad, manteniendo el orden en que Andrés la escribió.",
+          "correcta": false,
+          "retro": "Acortar no ordena: seguiría empezando por cómo buscó, con los mensajes clave al final y dos temas mezclados. Primero se define la estructura y después se ajusta el largo. Repasa la estructura del informe breve."
+        }
+      ]
+    },
+    {
+      "id": "M3-E07",
+      "ae": "M3-AE3",
+      "criterio": "C2",
+      "enunciado": "En su informe, Camila cita en el texto (Instituto de Archivo X, 2025) y (Ministerio Y, 2024), ambas fuentes ficticias. Su lista de referencias trae la guía del Instituto, una línea «Perplexity (2026).» y un blog que no citó en ninguna parte del texto. ¿Qué corrección deja sus citas completas?",
+      "opciones": [
+        {
+          "texto": "Borrar la línea de Perplexity y dejar el resto igual, porque las demás referencias ya están escritas.",
+          "correcta": false,
+          "retro": "Queda una cita en el texto, la del Ministerio Y, que no aparece en la lista, y una referencia, el blog, que nadie cita. Toda cita del texto va en las referencias, y al revés. Repasa por qué citar todas tus fuentes."
+        },
+        {
+          "texto": "Citar el blog en alguna parte del texto y mantener «Perplexity (2026).» como fuente de los datos.",
+          "correcta": false,
+          "retro": "Citar un blog solo para justificar que esté en la lista no corresponde si no usaste sus ideas, y Perplexity es la herramienta, no la fuente: se cita la página a la que llevaba la cita. Repasa cómo corregir citas incompletas."
+        },
+        {
+          "texto": "Quitar del texto la cita (Ministerio Y, 2024), para que coincida con la lista de referencias que ya armó.",
+          "correcta": false,
+          "retro": "Borrar la cita deja una idea sin su fuente, lo que va contra el respeto por la autoría y quita a quien lee la posibilidad de verificar. Lo que falta es completar la referencia. Repasa las funciones de citar."
+        },
+        {
+          "texto": "Agregar la referencia completa del Ministerio Y, cambiar Perplexity por la página original y sacar el blog que no citó.",
+          "correcta": true,
+          "retro": "Correcto. Así cada cita del texto tiene su referencia completa al final, cada referencia corresponde a una fuente citada y los datos quedan atribuidos a la página que los produjo, no a la herramienta con que se encontraron."
+        }
+      ]
+    },
+    {
+      "id": "M3-E08",
+      "ae": "M3-AE4",
+      "criterio": "C1",
+      "enunciado": "En la constructora, a Camila le llega una planilla con la lista de los trabajadores afiliados al sindicato, con sus nombres. Antes de decidir si usa una herramienta de IA con ella, la clasifica. ¿Qué clasificación es correcta?",
+      "opciones": [
+        {
+          "texto": "Interna, con datos personales que no son sensibles, porque solo la ve el personal de la empresa.",
+          "correcta": false,
+          "retro": "La lista tiene nombres de personas y revela su afiliación sindical, que la Ley 21.719 nombra de forma expresa entre los datos sensibles. Tampoco debería verla todo el personal. Repasa qué son los datos sensibles y la clasificación por acceso."
+        },
+        {
+          "texto": "Pública, porque en la obra casi todos saben quiénes pertenecen al sindicato.",
+          "correcta": false,
+          "retro": "Que algo se comente no lo vuelve público: la clasificación depende de quién debería poder acceder a la información, y esta lista no está publicada para cualquiera. Repasa la clasificación de la información de una organización."
+        },
+        {
+          "texto": "Confidencial, con datos sensibles, porque la afiliación sindical de una persona es un dato sensible.",
+          "correcta": true,
+          "retro": "Correcto. Solo personas concretas deberían acceder a esa lista, y la afiliación sindical es un dato sensible que la Ley 21.719 nombra de forma expresa. Con esa clasificación, la decisión es clara: no ingresa a una herramienta de IA."
+        },
+        {
+          "texto": "Interna, sin datos personales, porque es un documento de la empresa y no de las personas.",
+          "correcta": false,
+          "retro": "Que el documento sea de la empresa no cambia que contenga información de personas naturales identificadas por su nombre. Repasa qué es un dato personal y en qué se diferencia de un dato de la empresa."
+        }
+      ]
+    },
+    {
+      "id": "M3-E09",
+      "ae": "M3-AE4",
+      "criterio": "C2",
+      "enunciado": "Andrés quiere que Gemini, con su cuenta personal, compare la lista de precios especiales de un cliente con el catálogo, para proponer descuentos. La distribuidora no ha autorizado esa herramienta. ¿Qué decisión y qué práctica segura corresponden?",
+      "opciones": [
+        {
+          "texto": "No ingresar la lista, porque es confidencial, y pedir solo el método o la fórmula con datos inventados para aplicarlo en su planilla.",
+          "correcta": true,
+          "retro": "Correcto. Los precios negociados con un cliente son información confidencial, y lo confidencial no ingresa a una herramienta que la organización no autorizó. La IA igual puede ayudar sin ver los datos reales: le da el método y Andrés hace el cálculo en la planilla de la empresa."
+        },
+        {
+          "texto": "Ingresarla completa, porque contiene datos de una empresa y no de personas naturales.",
+          "correcta": false,
+          "retro": "Que no tenga datos personales no la vuelve pública: los precios especiales son información confidencial de la organización y también se protegen. Repasa la clasificación por acceso y la tabla para decidir qué ingresa."
+        },
+        {
+          "texto": "Ingresarla después de apagar el ajuste de actividad, porque así nadie más podrá leerla.",
+          "correcta": false,
+          "retro": "Configurar la privacidad reduce el riesgo, pero no lo elimina: Google igual guarda las conversaciones por un tiempo. La regla sigue valiendo: lo confidencial no se pega, aunque el entrenamiento esté apagado. Repasa la configuración de privacidad."
+        },
+        {
+          "texto": "Ingresarla quitando solo el nombre del cliente y dejando los productos y los precios negociados.",
+          "correcta": false,
+          "retro": "Los precios negociados siguen siendo confidenciales aunque no lleven el nombre del cliente, y con los productos alguien podría reconocerlo. Cuando dudes, elige la opción más estricta. Repasa cómo clasificar antes de ingresar."
+        }
+      ]
+    },
+    {
+      "id": "M3-E10",
+      "ae": "M3-AE4",
+      "criterio": "C1",
+      "enunciado": "Camila quiere ayuda para responder un reclamo interno. Antes de pegarlo en un asistente, borra los nombres y los RUT, pero deja «la supervisora del turno de noche de la obra de Rancagua, única mujer en ese cargo». ¿El texto quedó anonimizado?",
+      "opciones": [
+        {
+          "texto": "Sí, porque al quitar los nombres y los RUT ya no quedan datos personales en el reclamo.",
+          "correcta": false,
+          "retro": "Un dato es personal si permite identificar a alguien, directa o indirectamente; no hace falta el nombre. El cargo, el turno, la obra y ser la única mujer en ese cargo la identifican. Repasa qué es un dato personal."
+        },
+        {
+          "texto": "No, porque la descripción permite saber de quién se trata; conviene generalizar a «una persona del equipo».",
+          "correcta": true,
+          "retro": "Correcto. Juntos, el cargo, el turno, la obra y el hecho de ser la única mujer identifican a una persona concreta. Anonimizar es dejar el texto de modo que ya no se sepa a quién se refiere, por ejemplo con un rol genérico o una plantilla con espacios."
+        },
+        {
+          "texto": "Sí, siempre que lo pegue en una conversación temporal, porque así el texto no queda guardado.",
+          "correcta": false,
+          "retro": "Una conversación temporal no cambia que el texto identifique a una persona, y el proveedor igual guarda las conversaciones por un tiempo corto. Primero se anonimiza; la configuración es una capa más. Repasa cómo anonimizar."
+        },
+        {
+          "texto": "No, pero basta con cambiar «Rancagua» por «una obra» y dejar el resto de la descripción igual.",
+          "correcta": false,
+          "retro": "Aun sin la ciudad, ser la única mujer supervisora del turno de noche puede bastar para reconocerla dentro de la constructora. Ojo con la reidentificación: un dato suelto junto a otros puede identificar a alguien. Repasa cómo anonimizar."
+        }
+      ]
+    }
+  ]
+}

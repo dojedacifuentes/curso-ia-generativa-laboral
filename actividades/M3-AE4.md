@@ -3,11 +3,11 @@
 ## Actividad 1 · Lo que llega al escritorio de Camila
 cubre: H1, C1, C2
 fuentes: F-M3-19, F-M3-15
-entrega: foro
+entrega: tarea
 
 ### Instrucción general
 
-En esta actividad clasificas seis documentos ficticios del escritorio de Camila y decides cuáles pueden ingresar a una cuenta gratuita de IA y con qué cuidado. Te sirve para practicar antes de hacer el mapa de la información de tu propio cargo. Publica tu trabajo en el foro de la actividad, escrito en el mensaje o como archivo adjunto. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
+En esta actividad clasificas seis documentos ficticios del escritorio de Camila y decides cuáles pueden ingresar a una cuenta gratuita de IA y con qué cuidado. Te sirve para practicar antes de hacer el mapa de la información de tu propio cargo. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, escrita en el texto de la entrega o como archivo adjunto, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final.
 
 ### Situación
 
@@ -28,18 +28,20 @@ Para clasificar, usa dos preguntas. La primera es quién puede acceder a la info
 
 ### Lo que entregas
 
-Publica en el foro de la actividad la tabla con la clasificación y la decisión de cada documento, los dos pedidos reescritos y la recomendación sobre el ajuste de actividad. Puedes escribirlo en el mensaje o adjuntar una nota del celular, un documento o una foto de una hoja escrita a mano.
+Subes en la tarea la tabla con la clasificación y la decisión de cada documento, los dos pedidos reescritos y la recomendación sobre el ajuste de actividad. Puedes escribirlo en el texto de la entrega o adjuntar una nota del celular, un documento o una foto de una hoja escrita a mano. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Clasifica la información según su sensibilidad | 30 % | Asigna a los seis documentos un nivel coherente con quién puede acceder a ellos y reconoce los datos personales y sensibles, diciendo de quién son. | Uno o dos documentos quedan en un nivel que no calza, o no dice de quién son los datos. | Tres o más documentos quedan en un nivel que no calza, o no reconoce los datos personales ni sensibles. |
-| Decide con fundamento qué puede ingresar a una herramienta de IA | 30 % | Cada decisión nombra la regla que aplica (la clasificación, la ley o la política de la empresa) y lo confidencial y lo sensible quedan fuera. | Las decisiones son coherentes, pero alguna no nombra la regla. | Deja ingresar documentos confidenciales o con datos sensibles, o decide sin regla. |
-| Propone una práctica segura | 30 % | Los dos pedidos reescritos consiguen la ayuda sin ningún dato que permita saber de quién se habla ni los montos reales. | Los pedidos funcionan, pero uno deja un dato que permite identificar a alguien o a un proveedor. | Los pedidos mantienen datos personales o los montos reales. |
-| Recomienda un ajuste de privacidad | 10 % | Recomienda una opción concreta del ajuste de actividad de Gemini y explica para qué sirve. | Menciona el ajuste sin decir qué opción elegir. | No revisa el ajuste. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Clasifica la información según su sensibilidad | Asignas a los seis documentos un nivel coherente con quién puede acceder a ellos y reconoces los datos personales y sensibles, diciendo de quién son. | Uno o dos documentos quedan en un nivel que no calza, o no dices de quién son los datos. | Tres o más documentos quedan en un nivel que no calza, o no reconoces los datos personales ni sensibles. |
+| Decide con fundamento qué puede ingresar a una herramienta de IA | Cada decisión nombra la regla que aplicas (la clasificación, la ley o la política de la empresa) y lo confidencial y lo sensible quedan fuera. | Tus decisiones son coherentes, pero alguna no nombra la regla. | Dejas ingresar documentos confidenciales o con datos sensibles, o decides sin regla. |
+| Propone una práctica segura | Tus dos pedidos reescritos consiguen la ayuda sin ningún dato que permita saber de quién se habla ni los montos reales. | Tus pedidos funcionan, pero uno deja un dato que permite identificar a alguien o a un proveedor. | Tus pedidos mantienen datos personales o los montos reales. |
+| Recomienda un ajuste de privacidad | Recomiendas una opción concreta del ajuste de actividad de Gemini y explicas para qué sirve. | Mencionas el ajuste sin decir qué opción elegir. | No revisaste el ajuste. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Actividad 2 · El mapa de la información de tu cargo
 cubre: H1, C1, C2
@@ -48,7 +50,7 @@ entrega: tarea
 
 ### Instrucción general
 
-Ahora haces el mapa de la información que pasa por tus manos y decides qué puede ir a una herramienta de IA y con qué cuidado. Súbelo como tarea en el aula, en un documento o una planilla. Solo lo ven tú y el facilitador, porque trabajas con información de tu cargo; aun así, el antes y el después de la copia anonimizada van con datos inventados. El facilitador lo revisa con la rúbrica que está al final y te deja su retroalimentación en un plazo de hasta 72 horas.
+Ahora haces el mapa de la información que pasa por tus manos y decides qué puede ir a una herramienta de IA y con qué cuidado. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, en un documento o una planilla, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Solo lo ven tú y el facilitador, porque trabajas con información de tu cargo; aun así, el antes y el después de la copia anonimizada van con datos inventados.
 
 ### Situación
 
@@ -68,18 +70,20 @@ Como referencia, los lineamientos del Estado para el uso de IA recomiendan no in
 
 ### Lo que entregas
 
-Sube como tarea en el aula la tabla con los cinco tipos de información, su clasificación y tu decisión; el antes y el después de la copia anonimizada, escrito con datos inventados para no mostrar los reales, y dos líneas sobre la política de tu empresa y el ajuste de privacidad que revisaste.
+Subes en la tarea la tabla con los cinco tipos de información, su clasificación y tu decisión; el antes y el después de la copia anonimizada, escrito con datos inventados para no mostrar los reales, y dos líneas sobre la política de tu empresa y el ajuste de privacidad que revisaste. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Clasifica la información según su sensibilidad | 30 % | Presenta cinco tipos de información de su cargo, cada uno con su nivel, y reconoce los datos personales y sensibles, incluidos los que identifican a alguien sin decir su nombre. | Los cinco tienen nivel, pero uno no calza o no reconoce un dato que identifica de forma indirecta. | Presenta menos de cinco tipos, no son de su cargo o no marca los datos personales. |
-| Decide con fundamento qué puede ingresar a una herramienta de IA | 25 % | Cada decisión cita una regla, y lo confidencial y lo sensible no ingresan a una herramienta no autorizada. | Las decisiones son coherentes, pero alguna no cita la regla. | Deja ingresar información confidencial o sensible a una herramienta no autorizada. |
-| Anonimiza una copia | 30 % | El antes y el después muestran nombres cambiados por roles o códigos, identificadores eliminados y combinaciones generalizadas, y la copia no permite reconocer a nadie. | Quita nombres e identificadores, pero queda una combinación que permite reconocer a alguien. | La copia mantiene nombres o identificadores directos, o muestra datos reales. |
-| Propone una práctica segura | 15 % | Las dos líneas informan la política de la empresa, o que no existe, y el ajuste de privacidad que revisó, con una práctica que se puede hacer en su trabajo. | Informa la política o el ajuste, pero no ambos. | No revisa la política ni el ajuste. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Clasifica la información según su sensibilidad | Presentas cinco tipos de información de tu cargo, cada uno con su nivel, y reconoces los datos personales y sensibles, incluidos los que identifican a alguien sin decir su nombre. | Los cinco tienen nivel, pero uno no calza o no reconoces un dato que identifica de forma indirecta. | Presentas menos de cinco tipos, no son de tu cargo o no marcas los datos personales. |
+| Decide con fundamento qué puede ingresar a una herramienta de IA | Cada decisión cita una regla, y lo confidencial y lo sensible no ingresan a una herramienta no autorizada. | Tus decisiones son coherentes, pero alguna no cita la regla. | Dejas ingresar información confidencial o sensible a una herramienta no autorizada. |
+| Anonimiza una copia | Tu antes y después muestran nombres cambiados por roles o códigos, identificadores eliminados y combinaciones generalizadas, y la copia no permite reconocer a nadie. | Quitas nombres e identificadores, pero queda una combinación que permite reconocer a alguien. | Tu copia mantiene nombres o identificadores directos, o muestra datos reales. |
+| Propone una práctica segura | Tus dos líneas informan la política de la empresa, o que no existe, y el ajuste de privacidad que revisaste, con una práctica que se puede hacer en tu trabajo. | Informas la política o el ajuste, pero no ambos. | No revisaste la política ni el ajuste. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Referencias bibliográficas
 

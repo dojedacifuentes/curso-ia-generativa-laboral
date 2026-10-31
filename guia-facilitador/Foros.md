@@ -1,9 +1,10 @@
 # Guía del facilitador · Foros
 
-El curso tiene siete foros: uno de interacción, abierto todo el curso, y uno por cada uno de los seis módulos. En el foro de cada
-módulo se publican tres cosas: la respuesta a la consigna del módulo (qué aprendí, por qué importa en mi trabajo, para qué lo voy a
-usar), la actividad 1 de cada tema y las opiniones sobre las preguntas de los casos. El foro del taller final no tiene casos. Esta guía
-explica cómo moderarlos.
+El curso tiene siete foros: uno de interacción, abierto todo el curso, y uno por cada uno de los seis módulos. En los módulos 1 a 5
+es el foro de casos: ahí cada persona comparte el resultado de los casos de aplicación, responde la pregunta para conversar de cada
+caso y hace sus consultas sobre los casos y las actividades del módulo. En el módulo 6, el taller, no hay casos: el foro recibe los
+avances del proyecto de cada persona y las consultas. Los foros no llevan nota (cambio del 31-10); la nota de los casos se pone en
+la tarea de cada caso. Esta guía explica cómo moderarlos.
 
 ### Plazo de respuesta
 
@@ -14,30 +15,23 @@ di cuándo vas a completar la respuesta.
 Prioriza en este orden: mensajes con datos sensibles, consultas que bloquean a alguien (no puede abrir un recurso, no entiende qué
 entregar), actividades publicadas y, al final, los comentarios de la discusión.
 
-### Cómo retroalimentar la actividad 1
+### Cómo responder las consultas
 
-La actividad 1 de cada tema se publica en su propio foro, dentro del tema, y trabaja con datos inventados, así que la retroalimentación puede ser
-pública. Evalúala con la rúbrica de esa actividad y con su pauta de corrección, que indica qué debe aparecer para «Logrado» y qué
-errores llevan a «Parcial» o «No logrado».
+Las consultas llegan en hilos con «Consulta» en el asunto. Pueden ser sobre un caso o sobre una actividad formativa. Para responder
+las de las actividades, usa su pauta de referencia, que indica qué se espera en cada criterio de la rúbrica de autoevaluación.
 
-Responde en el mismo hilo con un comentario breve, de tres a seis líneas, en tuteo:
+1. Responde en el mismo hilo, en tres a seis líneas y en tuteo.
+2. Orienta sin entregar la respuesta tipo de un caso: el caso es una práctica evaluada y el resto del curso puede leer el foro.
+3. Si la misma duda se repite, respóndela una vez en un hilo aparte y menciónala en la síntesis del módulo.
 
-1. Parte por algo concreto que esté bien hecho. Nombra la decisión, no digas solo «buen trabajo».
-2. Señala lo que falta para el nivel siguiente de la rúbrica, con una pregunta o una sugerencia que la persona pueda aplicar.
-3. Cierra con el nivel obtenido en cada criterio, o con el resultado total si la plataforma lo registra aparte.
-
-Evita entregar la respuesta tipo completa: el resto del curso puede leerla antes de publicar la suya. Si varias personas cometen el
-mismo error, no lo corrijas igual en cada hilo; anótalo y explícalo una vez en la síntesis del módulo.
-
-Si alguien publicó una actividad incompleta, dile qué le falta y que puede editar su aporte o agregar una respuesta en el mismo hilo.
+La retroalimentación individual de cada caso no va en el foro: va en la tarea del caso, junto con la nota.
 
 ### Cómo animar la discusión
 
-La rúbrica de participación pide responder la consigna con un ejemplo del propio cargo, usar lo aprendido y comentar al menos dos
-aportes. Para que eso pase:
+La consigna pide responder la pregunta de cada caso con un ejemplo del propio cargo y comentar al menos dos aportes. Para que eso pase:
 
-- Abre el foro del módulo con un mensaje corto que recuerde la consigna y dé un ejemplo tuyo de respuesta, breve y de otro cargo, para
-  que no lo copien.
+- Abre el foro del módulo con un mensaje corto que recuerde qué se publica (resultados de los casos, preguntas para conversar y
+  consultas) y dé un ejemplo tuyo de respuesta, breve y de otro cargo, para que no lo copien.
 - Cuando un aporte se quede en lo general («me sirve para redactar»), pregunta por la tarea concreta: cuál, para quién, cada cuánto.
 - Conecta a personas con cargos o tareas parecidas: «Lo que cuentas se parece a lo que hace tu compañera en recepción; ¿cómo lo
   resolvieron?».
@@ -50,14 +44,13 @@ aportes. Para que eso pase:
 
 Al terminar el plazo del módulo, publica una síntesis en un hilo nuevo, con el asunto «Síntesis del módulo». En diez a quince líneas:
 
-1. Las dos o tres ideas que más se repitieron al responder la consigna, con ejemplos de cargos distintos y sin nombrar a nadie si el
+1. Las dos o tres ideas que más se repitieron en los resultados de los casos, con ejemplos de cargos distintos y sin nombrar a nadie si el
    ejemplo es sensible.
-2. Los errores frecuentes que viste en las actividades del foro y cómo corregirlos.
+2. Los errores frecuentes que viste al calificar los casos y en las consultas, y cómo corregirlos.
 3. Las posturas que aparecieron en las preguntas de los casos, presentadas con equilibrio.
 4. Una frase que conecte con el módulo siguiente.
 
-Luego registra la participación de cada persona con la rúbrica de participación. Se aprueba con 60 % o más. Si alguien quedó bajo ese
-nivel, escríbele por mensaje privado para decirle qué le faltó y si todavía puede completarlo.
+Si alguien no ha entregado sus casos al cierre del módulo, escríbele por mensaje privado para recordarle el plazo.
 
 ### Si alguien publica datos sensibles
 

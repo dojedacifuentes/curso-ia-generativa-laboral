@@ -1,6 +1,6 @@
 # IA generativa para entornos laborales · Contenidos base
 
-Generado el 2026-10-30 desde `contenido/`. 6 módulos · 22 aprendizajes esperados.
+Generado el 2026-10-31 desde `contenido/`. 6 módulos · 22 aprendizajes esperados.
 
 
 ---

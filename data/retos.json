@@ -1,0 +1,42 @@
+{
+ "_nota": "Diseño del aula (31-10), inspirado en el curso de referencia aprobado por SENCE: cada módulo abre con el reto de un personaje del curso (docs/PERSONAJES.md) y cierra con lo que la persona se lleva (el hito de su proyecto, hoja «Casos y proyecto»). La foto del banner sale de los clips de Flow del video de bienvenida (entregables/moodle/banners/modulo-N.jpg).",
+ "curso": { "banner": "curso.jpg" },
+ "modulos": {
+  "1": {
+   "personaje": "Camila", "icono": "sparkles", "banner": "modulo-1.jpg",
+   "reto": "Camila, asistente administrativa en una constructora, le pide a un asistente de IA que resuma el instructivo de rendición de gastos. La respuesta se ve impecable, pero trae una firma del gerente general que el documento nunca pidió.",
+   "pregunta": "¿Cómo se le pide bien a la IA y cómo se revisa lo que entrega?",
+   "llevas": "Tu biblioteca de prompts y la tarea de tu cargo que vas a mejorar durante todo el curso."
+  },
+  "2": {
+   "personaje": "Andrés", "icono": "file-text", "banner": "modulo-2.jpg",
+   "reto": "Tres despachos se atrasaron por falta de cajas y Andrés, encargado de bodega, tiene reunión el lunes. Necesita un correo al proveedor, la minuta y un informe para su jefatura, todo para hoy.",
+   "pregunta": "¿Puede la IA ayudarle a escribir mejor, y no solo más rápido?",
+   "llevas": "Un brief y una presentación de seis láminas que proponen tu mejora a tu jefatura."
+  },
+  "3": {
+   "personaje": "Rosa", "icono": "search", "banner": "modulo-3.jpg",
+   "reto": "En el centro médico donde trabaja Rosa, muchos pacientes no llegan a sus horas. Quiere proponer una solución, pero cada asistente le da una respuesta distinta y una de las guías que encuentra tiene diez años.",
+   "pregunta": "¿Cómo se investiga con IA y cómo se sabe qué fuente creerle?",
+   "llevas": "Un informe breve, con fuentes validadas, que respalda tu propuesta."
+  },
+  "4": {
+   "personaje": "Camila", "icono": "image", "banner": "modulo-4.jpg",
+   "reto": "La gerenta le pide a Camila una campaña de reciclaje de papel para la oficina: un afiche, un audio y un clip de un minuto. Con IA puede tenerlo en una tarde.",
+   "pregunta": "Pero ¿de quién son la voz, la música y las imágenes que genera, y qué puede publicar?",
+   "llevas": "Una pieza visual, sonora o audiovisual que comunica tu propuesta, con su ficha de uso ético."
+  },
+  "5": {
+   "personaje": "Andrés", "icono": "workflow", "banner": "modulo-5.jpg",
+   "reto": "Cada vez que un despacho se atrasa, Andrés avisa al cliente a mano, y muchos avisos salen al día siguiente. Podría automatizarlo, pero si la IA escribe mal una fecha, el error llega directo al cliente.",
+   "pregunta": "¿Qué conviene automatizar y en qué paso tiene que revisar una persona?",
+   "llevas": "Un prototipo que automatiza un paso de tu tarea, con supervisión humana y un plan por si algo falla."
+  },
+  "6": {
+   "personaje": "Camila", "icono": "rocket", "banner": "modulo-6.jpg",
+   "reto": "Camila ya tiene su flujo funcionando. Ahora tiene que demostrarle a la gerenta que sirve: cuánto tardaba antes, cuánto tarda ahora y qué no salió como esperaba.",
+   "pregunta": "¿Cómo se mide una mejora y cómo se cuenta en tres minutos?",
+   "llevas": "Tus resultados medidos contra la línea base, un pitch de tres minutos y tu portafolio."
+  }
+ }
+}

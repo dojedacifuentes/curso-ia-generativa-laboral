@@ -3,11 +3,11 @@
 ## Actividad 1 · El audio de reciclaje para la reunión de Camila
 cubre: H1, C1, C2
 fuentes: F-H-76, F-H-77
-entrega: foro
+entrega: tarea
 
 ### Instrucción general
 
-En esta actividad produces la locución y la pista del audio de Camila y verificas sus condiciones de uso. Es una práctica con un caso ficticio antes de hacer la locución de un aviso de tu trabajo. Publica en el foro de la actividad los audios como archivos adjuntos o con un enlace que se pueda abrir, y en el mensaje el guion y tus respuestas. Se evalúa con la rúbrica que está al final, y el facilitador te responde en el mismo foro dentro de 24 horas hábiles.
+En esta actividad produces la locución y la pista del audio de Camila y verificas sus condiciones de uso. Es una práctica con un caso ficticio antes de hacer la locución de un aviso de tu trabajo. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, con los audios como archivos adjuntos o con un enlace que se pueda abrir, y el guion y tus respuestas en el texto de la tarea, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final.
 
 ### Situación
 
@@ -28,18 +28,20 @@ Vas a producir la locución y la pista de Camila, y a verificar sus condiciones 
 
 ### Lo que entregas
 
-Publica en el foro de la actividad el guion final, la locución y la pista descargadas con nombres claros, las cinco preguntas respondidas para cada audio, el texto de atribución que irá en el título cuando la gerenta suba el audio y tu respuesta al compañero, en tres o cuatro líneas. Adjunta los audios o comparte un enlace que se pueda abrir.
+Subes en la tarea el guion final, la locución y la pista descargadas con nombres claros, las cinco preguntas respondidas para cada audio, el texto de atribución que irá en el título cuando la gerenta suba el audio y tu respuesta al compañero, en tres o cuatro líneas. Adjunta los audios o comparte un enlace que se pueda abrir. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Escribe el guion para el oído | 20 % | El guion dura de 20 a 40 segundos, usa frases cortas, escribe números y siglas como se dicen y cierra con un llamado a la acción. | Entra en el tiempo, pero deja una sigla o abreviatura escrita o no tiene llamado a la acción. | Copia el borrador con pocos cambios o no está cronometrado. |
-| Genera locución y pista adecuadas al uso | 35 % | La locución se entiende completa, la voz calza con una reunión interna y la música acompaña sin tapar la voz. | Hay una palabra mal leída, la voz no calza del todo con el uso o la música compite con la voz. | La locución no se entiende o falta uno de los dos audios. |
-| Verifica derechos y atribución | 25 % | Cada audio tiene anotados su herramienta, su plan y la fecha, y la atribución está escrita como la pide la herramienta. | Falta la fecha o el plan de un audio, o la atribución está incompleta. | No hay verificación ni atribución. |
-| Verifica el consentimiento de la voz | 20 % | La respuesta al compañero explica con fundamento por qué no se puede clonar la voz y propone una alternativa viable. | Dice que no se puede, pero sin fundamento o sin alternativa. | Acepta clonar la voz o no responde. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Escribe el guion para el oído | Tu guion dura de 20 a 40 segundos, usa frases cortas, escribe números y siglas como se dicen y cierra con un llamado a la acción. | Entra en el tiempo, pero dejaste una sigla o abreviatura escrita o no tiene llamado a la acción. | Copiaste el borrador con pocos cambios o no lo cronometraste. |
+| Genera locución y pista adecuadas al uso | Tu locución se entiende completa, la voz calza con una reunión interna y la música acompaña sin tapar la voz. | Hay una palabra mal leída, la voz no calza del todo con el uso o la música compite con la voz. | Tu locución no se entiende o te falta uno de los dos audios. |
+| Verifica derechos y atribución | Cada audio tiene anotados su herramienta, su plan y la fecha, y escribiste la atribución como la pide la herramienta. | Te falta la fecha o el plan de un audio, o la atribución está incompleta. | No hay verificación ni atribución. |
+| Verifica el consentimiento de la voz | Tu respuesta al compañero explica con fundamento por qué no se puede clonar la voz y propone una alternativa viable. | Dices que no se puede, pero sin fundamento o sin alternativa. | Aceptas clonar la voz o no respondes. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Actividad 2 · La locución de un aviso de tu trabajo
 cubre: H1, C1, C2
@@ -48,7 +50,7 @@ entrega: tarea
 
 ### Instrucción general
 
-Ahora produces la locución de un aviso real de tu trabajo y, si el uso la admite, una pista de fondo. Súbela como tarea en el aula, con los audios adjuntos y el guion y la ficha en un documento. Solo la ven tú y el facilitador, porque trabajas con un aviso de tu cargo. El facilitador la revisa con la rúbrica que está al final y te deja su retroalimentación en un plazo de hasta 72 horas.
+Ahora produces la locución de un aviso real de tu trabajo y, si el uso la admite, una pista de fondo. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, con los audios adjuntos y el guion y la ficha en un documento, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Solo la ven tú y el facilitador, porque trabajas con un aviso de tu cargo.
 
 ### Situación
 
@@ -67,18 +69,20 @@ Ten presente que la Ley 21.719 pone la voz como ejemplo de dato biométrico, que
 
 ### Lo que entregas
 
-Sube como tarea en el aula la locución, la pista si la usaste, el guion final y la ficha de uso ético actualizada. Agrega dos líneas que expliquen por qué la voz y la música calzan con el uso que definiste.
+Subes en la tarea la locución, la pista si la usaste, el guion final y la ficha de uso ético actualizada. Agrega dos líneas que expliquen por qué la voz y la música calzan con el uso que definiste. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Genera locución y pista adecuadas al uso | 35 % | La voz y la música siguen el uso definido, la locución se entiende completa y dura de 20 a 40 segundos, y la música, si la hay, no tapa la voz. | La locución se entiende, pero se sale del tiempo, la voz no calza del todo con el uso o la música compite con la voz. | La locución no se entiende o no corresponde al uso definido. |
-| Verifica derechos y consentimiento | 30 % | Cada audio tiene su verificación completa, la atribución corresponde a la herramienta y al plan, el uso cabe en la licencia y, si hay una voz real de otra persona, hay constancia escrita de su consentimiento. | La verificación está, pero falta un punto o la atribución no corresponde al plan. | Usa la voz de otra persona sin consentimiento escrito o el uso no cabe en la licencia. |
-| Actualiza la ficha de uso ético | 20 % | La ficha suma herramienta, plan, fecha, guion o descripción, aporte humano y atribución, y explica el consentimiento si hay una voz real. | Faltan uno o dos campos. | No actualiza la ficha. |
-| Cuida los datos y justifica sus decisiones | 15 % | El aviso no tiene datos sensibles ni de clientes, y las dos líneas explican por qué la voz y la música calzan con el uso. | Falta la justificación o queda un dato que habría que cambiar por uno de prueba. | El aviso incluye datos sensibles o de clientes. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Genera locución y pista adecuadas al uso | La voz y la música siguen el uso que definiste, tu locución se entiende completa y dura de 20 a 40 segundos, y la música, si la hay, no tapa la voz. | Tu locución se entiende, pero se sale del tiempo, la voz no calza del todo con el uso o la música compite con la voz. | Tu locución no se entiende o no corresponde al uso que definiste. |
+| Verifica derechos y consentimiento | Cada audio tiene su verificación completa, la atribución corresponde a la herramienta y al plan, el uso cabe en la licencia y, si hay una voz real de otra persona, tienes constancia escrita de su consentimiento. | La verificación está, pero te falta un punto o la atribución no corresponde al plan. | Usas la voz de otra persona sin consentimiento escrito o el uso no cabe en la licencia. |
+| Actualiza la ficha de uso ético | Tu ficha suma herramienta, plan, fecha, guion o descripción, aporte humano y atribución, y explica el consentimiento si hay una voz real. | Te faltan uno o dos campos. | No actualizaste la ficha. |
+| Cuida los datos y justifica sus decisiones | Tu aviso no tiene datos sensibles ni de clientes, y las dos líneas explican por qué la voz y la música calzan con el uso. | Te falta la justificación o queda un dato que habría que cambiar por uno de prueba. | Tu aviso incluye datos sensibles o de clientes. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Referencias bibliográficas
 

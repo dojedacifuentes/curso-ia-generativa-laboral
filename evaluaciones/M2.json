@@ -1,0 +1,287 @@
+{
+  "modulo": 2,
+  "titulo": "Evaluación del módulo 2",
+  "instruccion": "Esta evaluación revisa lo que aprendiste en el módulo «Comunicación y redacción profesional»: ajustar el tono, el registro y el nivel de detalle de correos, minutas e informes a quien los lee, revisar los borradores antes de enviarlos, aplicar técnicas de prompting avanzado y probar la consistencia de tus plantillas, estructurar y depurar una presentación de seis láminas, y pedir fórmulas a la IA comprobándolas con datos de prueba. Tiene 10 preguntas de selección múltiple. Cada una presenta una situación de trabajo breve y cuatro alternativas, de las que solo una es correcta. Todas las preguntas valen lo mismo y apruebas con 60 % de logro, es decir, con 6 respuestas correctas o más. Lee con calma cada caso antes de responder. Al terminar verás la retroalimentación de cada alternativa: por qué la correcta lo es y qué te conviene repasar si elegiste otra.",
+  "items": [
+    {
+      "id": "M2-E01",
+      "ae": "M2-AE1",
+      "criterio": "C1",
+      "enunciado": "Camila debe pedirle a la ejecutiva de un proveedor, a quien no conoce, que corrija una factura cuyo monto no coincide con la orden de compra. ¿Qué versión del correo ajusta mejor el tono y el registro a esa audiencia?",
+      "opciones": [
+        {
+          "texto": "«Hola! Les escribo porque la factura que nos mandaron vino mala, ¿me la pueden arreglar? Gracias!!»",
+          "correcta": false,
+          "retro": "El registro es informal para alguien externo a quien Camila no conoce, y los signos duplicados restan cortesía. Con un proveedor se escribe en registro formal, de usted. Repasa tono, registro y audiencia."
+        },
+        {
+          "texto": "«Estimada Sra. Fuentes: tengo el agrado de dirigirme a usted con el propósito de solicitarle tenga a bien revisar…»",
+          "correcta": false,
+          "retro": "El registro es formal, pero las fórmulas rebuscadas alargan el correo sin hacerlo más cortés y esconden el pedido. Formal no significa difícil. Repasa el lenguaje claro y el ajuste fino de cortesía y claridad."
+        },
+        {
+          "texto": "«Estimada Sra. Fuentes: el monto de la factura 3310 no coincide con la orden de compra 2051. ¿Podría enviarla corregida?»",
+          "correcta": true,
+          "retro": "Correcto. Es formal, de usted, con el saludo cerrado con dos puntos, y el tono es cordial y firme a la vez. Va al punto: dice qué pasa, con los números que la ejecutiva necesita, y pide algo concreto."
+        },
+        {
+          "texto": "«Sra. Fuentes: NUEVAMENTE la factura viene con errores en el monto. Necesitamos la corrección HOY.»",
+          "correcta": false,
+          "retro": "Las mayúsculas sostenidas se leen como un grito y el texto culpa en vez de pedir. Un reclamo puede ser firme sin dejar de ser respetuoso, y así tiene más posibilidades de una respuesta rápida. Repasa la cortesía profesional."
+        }
+      ]
+    },
+    {
+      "id": "M2-E02",
+      "ae": "M2-AE1",
+      "criterio": "C1",
+      "enunciado": "Andrés pide a Gemini un aviso para su equipo de bodega sobre el cambio de horario de los despachos. El borrador empieza: «Estimados colaboradores: por medio de la presente se les informa que, en atención a…». ¿Qué instrucción le conviene dar para ajustar el borrador?",
+      "opciones": [
+        {
+          "texto": "«Mantén el respeto, pero con un tono más cercano y directo: qué cambia y qué debe hacer cada uno».",
+          "correcta": true,
+          "retro": "Correcto. Con el equipo de todos los días conviene un registro formal o semiformal y un tono cercano y claro, centrado en qué hacer. La instrucción pide un solo cambio, de tono, y deja claro qué información necesita quien lee."
+        },
+        {
+          "texto": "«Hazlo más formal, de usted, con un saludo y una despedida más protocolares».",
+          "correcta": false,
+          "retro": "El borrador ya es demasiado ceremonioso para un equipo con el que Andrés trabaja a diario; hacerlo más formal lo aleja aún más de su audiencia. Repasa la tabla de audiencia, registro y tono."
+        },
+        {
+          "texto": "«Agrega emojis y signos de exclamación para que suene más cercano al equipo».",
+          "correcta": false,
+          "retro": "La cercanía no se logra con emojis ni signos duplicados, que en un texto de trabajo se leen como poco profesionales. Se logra con frases simples y directas. Repasa la cortesía profesional y el ajuste fino del tono."
+        },
+        {
+          "texto": "«Agrega más antecedentes del cambio para que el equipo entienda su importancia».",
+          "correcta": false,
+          "retro": "El problema es el tono, no la falta de información. Al equipo le importa qué cambia en su trabajo y qué le toca hacer; más antecedentes alargan el aviso. Pensar en quien lee también es saber qué dejar fuera. Repasa las preguntas antes de escribir."
+        }
+      ]
+    },
+    {
+      "id": "M2-E03",
+      "ae": "M2-AE1",
+      "criterio": "C2",
+      "enunciado": "Andrés revisa el correo que Gemini redactó para un cliente antes de enviarlo. Sus datos dicen «pedido 418, llega el jueves 14». El borrador tiene asunto, dice «su pedido 418 llegará el jueves 15», saluda con «Estimada Sra. Rojas,» con coma y cierra con «Atentamente,». ¿Qué corrección es la más importante?",
+      "opciones": [
+        {
+          "texto": "Cambiar la coma del saludo por dos puntos, como se recomienda en los correos en español.",
+          "correcta": false,
+          "retro": "Es una corrección que corresponde, pero es menor: una coma mal puesta se perdona. Hay un error que puede causar un problema real con el cliente. Repasa la lista de verificación: los errores de hecho son los más graves."
+        },
+        {
+          "texto": "Corregir la fecha al jueves 14, porque es un error de hecho que afecta directamente al cliente.",
+          "correcta": true,
+          "retro": "Correcto. Una fecha de entrega equivocada es un error de hecho: el cliente se organizará con un dato falso. Por eso nombres, fechas, montos y números de pedido se comparan siempre con el original antes de enviar. Después también corresponde corregir el saludo."
+        },
+        {
+          "texto": "Acortar el cuerpo del correo a menos de 60 palabras para que el cliente lo lea más rápido.",
+          "correcta": false,
+          "retro": "Nada indica que el correo sea largo, y acortarlo no resuelve el error más grave, que sigue en el texto. Repasa la lista de verificación antes de enviar un texto hecho con IA."
+        },
+        {
+          "texto": "Cambiar «Atentamente,» por «Saludos cordiales,» para que el cierre suene más cercano.",
+          "correcta": false,
+          "retro": "Las dos despedidas son adecuadas para un correo profesional, así que cambiarla no corrige nada relevante. Repasa qué revisar primero en un borrador: los datos que coinciden con el original."
+        }
+      ]
+    },
+    {
+      "id": "M2-E04",
+      "ae": "M2-AE2",
+      "criterio": "C1",
+      "enunciado": "Andrés arma su informe semanal con un solo prompt a partir de notas desordenadas. Tiene dos problemas: a veces una cifra sale distinta de sus notas y el texto sale demasiado largo. ¿Qué combinación de técnicas ataca los dos problemas?",
+      "opciones": [
+        {
+          "texto": "Incluir diez informes anteriores como ejemplos, para que el modelo copie su estilo y su extensión.",
+          "correcta": false,
+          "retro": "Demasiados ejemplos pueden hacer que el modelo los copie de más, e incluso que arrastre cifras de otras semanas; tampoco crean un momento para revisar los datos. Repasa cuándo fallan los ejemplos y qué técnica ataca cada problema."
+        },
+        {
+          "texto": "Pedir en el mismo prompt «que sea breve y exacto», sin cambiar nada más del pedido.",
+          "correcta": false,
+          "retro": "«Breve» no se puede comprobar y «exacto» no crea un paso para detectar el error de la cifra. Las restricciones que sirven son las que se pueden medir. Repasa las restricciones y el encadenamiento."
+        },
+        {
+          "texto": "Pedirle al final que se revise a sí mismo, sin mirar él los resultados intermedios.",
+          "correcta": false,
+          "retro": "La autocorrección ayuda, pero también puede fallar, y la ventaja de encadenar es que Andrés revise la lista de hechos antes de que el error se convierta en un párrafo convincente. Repasa el laboratorio de la cadena de tres pasos."
+        },
+        {
+          "texto": "Encadenar pasos, revisando él la lista de hechos antes de redactar, y fijar un máximo de 150 palabras.",
+          "correcta": true,
+          "retro": "Correcto. El encadenamiento separa extraer los hechos de redactar, y Andrés puede corregir la cifra en la lista antes de que llegue al informe. La restricción de largo ataca el segundo problema y se puede comprobar contando palabras."
+        }
+      ]
+    },
+    {
+      "id": "M2-E05",
+      "ae": "M2-AE2",
+      "criterio": "C1",
+      "enunciado": "La plantilla de Camila para responder a proveedores trae dos ejemplos: uno termina con «Saludos cordiales,» y el otro con «Atentamente,». Las respuestas salen a veces con una despedida y a veces con la otra. ¿Qué le conviene hacer?",
+      "opciones": [
+        {
+          "texto": "Dejar los dos ejemplos con el mismo formato, incluida la despedida, y volver a probar la plantilla.",
+          "correcta": true,
+          "retro": "Correcto. Cuando los ejemplos se contradicen, el modelo no sabe cuál seguir. Un buen conjunto de ejemplos es parejo en el formato; después de corregirlo, Camila vuelve a probar con sus casos para confirmar que el cierre ya no varía."
+        },
+        {
+          "texto": "Agregar cinco ejemplos más, con distintas despedidas, para que el modelo tenga de dónde elegir.",
+          "correcta": false,
+          "retro": "Más ejemplos con formatos distintos aumentan la contradicción en vez de resolverla, y demasiados ejemplos pueden llevar a que el modelo los copie de más. Repasa cuándo fallan los ejemplos."
+        },
+        {
+          "texto": "Quitar las etiquetas «EJEMPLO 1» y «AHORA» para que el prompt quede más corto y simple.",
+          "correcta": false,
+          "retro": "Las etiquetas son las que separan los ejemplos de los datos reales; sin ellas, el modelo puede confundirlos. Y no tienen relación con la despedida que varía. Repasa cómo se arma un buen conjunto de ejemplos."
+        },
+        {
+          "texto": "Borrar las restricciones y dejar solo los ejemplos, para que no compitan entre sí.",
+          "correcta": false,
+          "retro": "Las restricciones no causan el problema: lo causa la diferencia entre los ejemplos. Además, sin restricciones se pierde el control del largo y de los datos. Repasa qué técnica ataca cada problema."
+        }
+      ]
+    },
+    {
+      "id": "M2-E06",
+      "ae": "M2-AE2",
+      "criterio": "C2",
+      "enunciado": "Camila quiere saber si su plantilla «Correo de seguimiento de pago» es consistente antes de usarla todas las semanas. ¿Qué prueba le da una respuesta con fundamento?",
+      "opciones": [
+        {
+          "texto": "Usarla una vez con el caso más común de la semana y, si el correo sale bien, darla por lista para el uso diario.",
+          "correcta": false,
+          "retro": "Una buena respuesta puede ser suerte, porque la misma indicación da resultados distintos. Un prompt se vuelve confiable después de probarlo varias veces y con casos distintos. Repasa cómo evaluar la consistencia."
+        },
+        {
+          "texto": "Probarla seis veces con el mismo caso simple, todas seguidas en una misma conversación con Gemini.",
+          "correcta": false,
+          "retro": "En la misma conversación las respuestas anteriores influyen en las siguientes, y con un caso fácil siempre sale bien: los problemas aparecen con datos incompletos y situaciones difíciles. Repasa cómo evaluar la consistencia."
+        },
+        {
+          "texto": "Probar tres casos (simple, con un dato faltante y difícil), dos veces cada uno en chats nuevos y con los mismos criterios.",
+          "correcta": true,
+          "retro": "Correcto. Casos variados, incluido uno difícil, repetidos en chats nuevos y revisados con criterios fijos (formato, largo, tono, exactitud y vacíos) muestran cómo se comporta la plantilla, y no solo cómo salió una vez."
+        },
+        {
+          "texto": "Pedirle a Gemini que lea la plantilla completa y le confirme si es consistente o si le falta algo.",
+          "correcta": false,
+          "retro": "El asistente puede sugerir mejoras, pero sus propuestas son eso: propuestas. La consistencia se comprueba probando la plantilla con casos y criterios. Repasa la prueba de alguien sin contexto y el laboratorio de versiones."
+        }
+      ]
+    },
+    {
+      "id": "M2-E07",
+      "ae": "M2-AE3",
+      "criterio": "C1",
+      "enunciado": "Ignacio, administrativo de un colegio, propone a la dirección que cada reserva de la sala de reuniones se confirme por correo. Su mensaje clave es «Si confirmamos cada reserva por correo, evitamos que dos áreas ocupen la sala a la vez». ¿Qué secuencia de seis títulos cuenta mejor esa historia?",
+      "opciones": [
+        {
+          "texto": "Introducción a las reservas · Contexto del colegio · El problema actual · Nuestra propuesta · Conclusiones generales · Preguntas y comentarios.",
+          "correcta": false,
+          "retro": "Tiene seis láminas, pero los títulos solo nombran temas genéricos: leídos en orden no dicen nada sobre las reservas ni cuentan la historia. Cada título debería decir la conclusión de su lámina. Repasa el título-oración."
+        },
+        {
+          "texto": "Confirmar cada reserva evita choques · Hoy se anotan en un cuaderno · Este mes hubo 4 reservas cruzadas · Confirmar por correo · Basta un correo; se gana orden · Pedimos probarlo un mes.",
+          "correcta": true,
+          "retro": "Correcto. Parte con el mensaje clave, sigue con la situación actual y el problema, presenta la propuesta, dice qué se necesita y qué se gana, y termina con lo que pide a la dirección. Leídos en orden, los títulos cuentan la historia completa."
+        },
+        {
+          "texto": "Pedimos probarlo un mes · Confirmar cada reserva por correo · Hoy las reservas se anotan en un cuaderno · Este mes hubo 4 reservas cruzadas · Basta un correo · Confirmar evita choques.",
+          "correcta": false,
+          "retro": "Pide y propone antes de explicar el problema, así que la dirección no tiene cómo evaluar el pedido, y el mensaje clave queda al final. Lo que se pide va en la última lámina. Repasa la estructura narrativa en seis láminas."
+        },
+        {
+          "texto": "Confirmar evita choques · Historia de la sala de reuniones · Problema y propuesta juntos · Ventajas del correo electrónico · Basta un correo · Pedimos probarlo un mes.",
+          "correcta": false,
+          "retro": "Hay láminas que no apoyan el mensaje, como la historia de la sala o las ventajas del correo en general, y una lámina con dos ideas a la vez. Cada lámina tiene una sola idea y se gana su lugar. Repasa la regla «una lámina, una idea»."
+        }
+      ]
+    },
+    {
+      "id": "M2-E08",
+      "ae": "M2-AE3",
+      "criterio": "C2",
+      "enunciado": "Gamma le entrega a Ignacio la lámina 5 de su presentación con un párrafo de ocho líneas, tres fotos y la frase «Los colegios que confirman sus reservas ahorran un 35 % de tiempo», un dato que él no dio. ¿Cómo la depura?",
+      "opciones": [
+        {
+          "texto": "Achica la letra para que entre todo y mantiene la cifra, porque refuerza su propuesta.",
+          "correcta": false,
+          "retro": "Achicar la letra empeora la sobrecarga, y una cifra que no puede respaldar no va en la presentación aunque refuerce el mensaje: si le preguntan de dónde salió, pierde credibilidad. Repasa los errores del contenido generado."
+        },
+        {
+          "texto": "Deja el párrafo completo y lo lee en voz alta, para que nadie se pierda los detalles.",
+          "correcta": false,
+          "retro": "Si la audiencia lee un párrafo, no escucha, y leer las láminas en voz alta hace que deje de atender. El detalle va en el guion, dicho con sus palabras. Repasa cómo detectar láminas sobrecargadas y cómo se escribe el guion."
+        },
+        {
+          "texto": "Cambia el 35 % por un 20 %, más prudente, y deja una sola foto para despejar la lámina.",
+          "correcta": false,
+          "retro": "Un número más prudente sigue siendo un número sin respaldo: es un dato inventado con buena presentación. Despejar la lámina ayuda, pero no corrige el error. Repasa la regla de que cada dato tiene que poder respaldarse."
+        },
+        {
+          "texto": "Borra la cifra sin respaldo, deja un título-oración con tres viñetas breves y lleva el detalle al guion.",
+          "correcta": true,
+          "retro": "Correcto. Depurar es quitar la sobrecarga y corregir los datos sin respaldo. La cifra sale porque Ignacio no puede defenderla, la lámina queda con una sola idea legible de un vistazo y lo demás lo dice él al presentar."
+        }
+      ]
+    },
+    {
+      "id": "M2-E09",
+      "ae": "M2-AE4",
+      "criterio": "C1",
+      "enunciado": "En la tabla de práctica (A: código, B: producto, C: categoría, D: unidades, E: precio unitario; datos de la fila 2 a la 7), Andrés quiere escribir códigos en K2:K5 y ver en L2:L5 la categoría de cada uno. Escribirá la fórmula en L2 y la copiará hasta L5. ¿Cuál debe usar?",
+      "opciones": [
+        {
+          "texto": "=BUSCARV(K2;$A$2:$E$7;3;FALSO)",
+          "correcta": true,
+          "retro": "Correcto. Busca el código en la primera columna del intervalo, el índice 3 trae la tercera columna (Categoría), FALSO pide coincidencia exacta y los $ fijan el intervalo para que no se mueva al copiar. K2 queda relativa a propósito, para que cada fila lea su propio código."
+        },
+        {
+          "texto": "=BUSCARV(K2;A2:E7;3;FALSO)",
+          "correcta": false,
+          "retro": "En L2 funciona, pero al copiarla el intervalo baja con cada fila (A3:E8, A4:E9…) y deja fuera los primeros productos, sin mostrar ningún aviso. Lo que no debe moverse lleva $. Repasa las referencias relativas y absolutas."
+        },
+        {
+          "texto": "=BUSCARV(K2;$A$2:$E$7;3)",
+          "correcta": false,
+          "retro": "Sin el último argumento, BUSCARV supone una coincidencia aproximada, que exige la primera columna ordenada; si no lo está, puede traer la categoría de otro producto. Repasa los errores de lógica en BUSCARV: escribe siempre FALSO."
+        },
+        {
+          "texto": "=BUSCARV(K2;$B$2:$E$7;3;FALSO)",
+          "correcta": false,
+          "retro": "El intervalo empieza en B, así que su primera columna son los productos y no los códigos: no encontrará el código. Además, ahí el índice 3 correspondería a Unidades. El índice se cuenta desde la primera columna del intervalo. Repasa cómo funciona BUSCARV."
+        }
+      ]
+    },
+    {
+      "id": "M2-E10",
+      "ae": "M2-AE4",
+      "criterio": "C2",
+      "enunciado": "Andrés pidió a Gemini la suma de unidades de EPP de la tabla de práctica. Recibió =SUMAR.SI(C3:C7;\"EPP\";D3:D7) y la explicación «suma todas las unidades de EPP». La fórmula da 20, pero al filtrar la categoría EPP ve 40, 12 y 8 unidades. ¿Qué hace?",
+      "opciones": [
+        {
+          "texto": "Usa el 20, porque la planilla no muestra ningún mensaje de error y la explicación de Gemini es clara.",
+          "correcta": false,
+          "retro": "Los errores más peligrosos no muestran aviso: entregan un número con buen aspecto. Y una explicación ordenada no prueba que la fórmula sea correcta; lo prueba que coincida con un cálculo tuyo. Repasa la desconfianza metódica."
+        },
+        {
+          "texto": "Quita las comillas de EPP, porque los criterios de texto se escriben sin ellas en la fórmula.",
+          "correcta": false,
+          "retro": "Es al revés: los criterios de texto van entre comillas dobles, y sin ellas la fórmula falla. Las comillas no son la causa de la diferencia. Repasa cómo se escribe SUMAR.SI."
+        },
+        {
+          "texto": "Corrige los rangos para que partan en la fila 2 y vuelve a comparar el resultado con el filtro, que suma 60.",
+          "correcta": true,
+          "retro": "Correcto. Los rangos empiezan en la fila 3 y dejan fuera los guantes de la fila 2 (40 unidades). Al corregirlos a C2:C7 y D2:D7, la fórmula debe dar 60, lo mismo que el filtro: dos caminos distintos que llegan al mismo número."
+        },
+        {
+          "texto": "Pide otra fórmula a Gemini y usa la nueva si da un número distinto de 20.",
+          "correcta": false,
+          "retro": "Un número distinto no es un número correcto. Cualquier fórmula nueva hay que comprobarla con el cálculo a mano o con el filtro antes de usarla. Repasa la verificación con datos de prueba."
+        }
+      ]
+    }
+  ]
+}

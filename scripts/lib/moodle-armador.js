@@ -56,6 +56,7 @@
     forum: { completion: '2', completiondiscussionsenabled: '1', completiondiscussions: '1' },
     'forum-modulo': { completion: '2', completionpostsenabled: '1', completionposts: '1' },
     assign: { completion: '2', completionsubmit: '1' },
+    quiz: { completion: '2', completionusegrade: '1' },
   };
   function completitud(fd, clave) {
     for (const k of [...fd.keys()]) if (/^completion(?!unlocked)/.test(k)) fd.delete(k);
@@ -236,6 +237,301 @@
       if (ins && i >= 0 && cms[i + 1] && cms[i + 1].id !== ins.id) await call('core_courseformat_update_course', { action: 'cm_move', courseid: cid, ids: [String(ins.id)], targetsectionid: String(s0.id), targetcmid: String(cms[i + 1].id) });
     }
     log('FIN portadas');
+  };
+
+  // ---------- cambios del 31-10 (observaciones de Natalia) ----------
+  // Actividades 1 y 2 formativas (tarea sin nota, rúbrica de autoevaluación en el enunciado); casos como tarea evaluada con rúbrica;
+  // foro del módulo → foro de casos sin nota; glosario y evaluación por módulo; horas en los nombres; sección de evaluación final.
+  const borrar = (cid, ids) => ids.length ? call('core_courseformat_update_course', { action: 'cm_delete', courseid: cid, ids: ids.map(String) }) : null;
+  const alFinal = (cid, sid, cmid) => call('core_courseformat_update_course', { action: 'cm_move', courseid: cid, ids: [String(cmid)], targetsectionid: String(sid) });
+  async function editar(cmid, campos, completar) {
+    const { f, fd } = await formulario(`/course/modedit.php?update=${cmid}&return=0`);
+    if (completar) completitud(fd, completar);
+    for (const [k, v] of Object.entries(campos)) fd.set(k, v);
+    await enviar(f, fd, `editar ${cmid}`);
+  }
+  const SIN_NOTA = { 'grade[modgrade_type]': 'none', advancedgradingmethod_submissions: '' };
+  const tareaFormativa = (cid, n, x) => crear(cid, n, 'assign', {
+    name: x.name, ...intro(x.intro), assignsubmission_onlinetext_enabled: '1', assignsubmission_file_enabled: '1', assignsubmission_file_maxfiles: '5',
+    assignsubmission_onlyoffice_enabled: '0', assignsubmission_comments_enabled: '1', assignfeedback_comments_enabled: '1', submissiondrafts: '0', requiresubmissionstatement: '0', sendnotifications: '0', sendlatenotifications: '0', sendstudentnotifications: '1',
+    ...SIN_NOTA,
+  });
+  const tareaCaso = (cid, n, c) => tarea(cid, n, { name: c.name, intro: c.html });
+  async function glosarioModulo(cid, n, g) {
+    await paso(cid, n, g.name, () => crear(cid, n, 'glossary', { name: g.name, ...intro(g.intro, true), displayformat: 'dictionary', 'scale[modgrade_type]': 'none', assessed: '0' }));
+    const cm = cmsDe(await estado(cid), n).find((c) => c.name === g.name);
+    const vista = await (await fetch(`/mod/glossary/view.php?id=${cm.id}&mode=letter&hook=ALL`)).text();
+    if (!/No se encontraron entradas|No entries found/i.test(vista)) { log(`= entradas de ${g.name}`); return cm.id; }
+    const { d, f, fd } = await formulario(`/mod/glossary/import.php?id=${cm.id}`);
+    await subir(d, g.xmlTexto ? new File([g.xmlTexto], g.xml.split('/').pop(), { type: 'text/xml' }) : archivo(g.xml), fd.get('file'));
+    fd.set('dest', 'current'); fd.set('catsincl', '0'); fd.set('submitbutton', 'Guardar cambios');
+    const r = await fetch(f.action, { method: 'POST', body: fd }); const t = await r.text();
+    const res = P(t).querySelector('.generaltable, table')?.textContent?.replace(/\s+/g, ' ').trim() || '';
+    log(`+ entradas de ${g.name}: ${res.slice(0, 120)}`);
+    await call('core_courseformat_update_course', { action: 'cm_show', courseid: cid, ids: [String(cm.id)] }).catch(() => {});
+    return cm.id;
+  }
+  // Prohíbe a Estudiante escribir entradas en un glosario (como en el glosario del curso, 30-10)
+  async function glosarioSoloLectura(cmid) {
+    const ctx = /"contextid":(\d+)/.exec(await (await fetch(`/mod/glossary/view.php?id=${cmid}`)).text())?.[1];
+    await fetch(`/admin/roles/permissions.php?contextid=${ctx}&roleid=5&capability=mod/glossary:write&prevent=1&confirm=1&sesskey=${sk()}`);
+  }
+  window.glosarioSoloLectura = glosarioSoloLectura;
+
+  // Evaluación con cuestionario de Moodle: crea el cuestionario (o reutiliza el que ya está en la sección con ese nombre), importa
+  // el GIFT de aula.json en su banco de preguntas y agrega todas las preguntas en el orden del archivo. `x.preguntas` cuenta también
+  // las descripciones de los casos de la final.
+  async function evaluacionQuiz(cid, n, x) {
+    const cmQuiz = async () => cmsDe(await estado(cid), n).find((c) => c.module === 'quiz' && c.name === x.name);
+    let cm = await cmQuiz();
+    if (!cm) {
+      await crear(cid, n, 'quiz', { name: x.name, ...intro(x.intro, true), grade: '100', gradepass: '60', attempts: '2', grademethod: '1', questionsperpage: '0', shuffleanswers: '1', preferredbehaviour: 'deferredfeedback' }, { clave: 'quiz', visible: false });
+      cm = await cmQuiz(); log(`+ ${x.name}`);
+    }
+    const slots = () => fetch(`/mod/quiz/edit.php?cmid=${cm.id}`).then((r) => r.text()).then((t) => P(t).querySelectorAll('li.slot').length);
+    if (await slots() >= x.preguntas) { log(`= preguntas de ${x.name}`); return cm.id; }
+    // banco: importar si está vacío
+    const idsBanco = async () => [...new Set([...P(await (await fetch(`/question/edit.php?cmid=${cm.id}&qperpage=1000`)).text()).querySelectorAll('input[type=checkbox][name^=q]')].map((i) => /^q(\d+)$/.exec(i.name)?.[1]).filter(Boolean))];
+    let ids = await idsBanco();
+    if (!ids.length) {
+      const { d, f, fd } = await formulario(`/question/bank/importquestions/import.php?cmid=${cm.id}`);
+      await subir(d, new File([x.giftTexto], `${x.name}.txt`, { type: 'text/plain' }), fd.get('newfile'));
+      fd.set('format', 'gift'); fd.set('catfromfile', '0'); fd.set('contextfromfile', '0'); fd.set('submitbutton', 'Importar');
+      const r = await fetch(f.action, { method: 'POST', body: fd }); const o = P(await r.text());
+      const err = errores(o); if (err) throw new Error(`importar ${x.name}: ${err}`);
+      ids = await idsBanco(); log(`  importadas ${ids.length} preguntas en ${x.name}`);
+    }
+    ids.sort((a, b) => Number(a) - Number(b));
+    const fd = new FormData(); fd.set('cmid', String(cm.id)); fd.set('sesskey', sk()); fd.set('addonpage', '0'); fd.set('appendqnumstring', 'addquestionlist'); fd.set('add', '1');
+    ids.forEach((id) => fd.set(`q${id}`, '1'));
+    await fetch(`/mod/quiz/edit.php?cmid=${cm.id}`, { method: 'POST', body: fd });
+    const total = await slots(); log(`  ${total} preguntas en ${x.name}`);
+    if (total < x.preguntas) throw new Error(`${x.name}: quedaron ${total} de ${x.preguntas}`);
+    return cm.id;
+  }
+  window.evaluacionQuiz = evaluacionQuiz;
+
+  window.cambios31Evaluacion = async (cid, aula, n) => {
+    const m = aula.modulos.find((x) => x.n === n);
+    const reservado = cmsDe(await estado(cid), n).find((c) => c.module === 'page' && c.name === `Evaluación del módulo ${n}`);
+    if (reservado) { await borrar(cid, [reservado.id]); log(`- espacio reservado ${reservado.name}`); }
+    const id = await evaluacionQuiz(cid, n, m.evaluacion);
+    await call('core_courseformat_update_course', { action: 'cm_show', courseid: cid, ids: [String(id)] });
+    log(`FIN evaluación módulo ${n}`);
+  };
+
+  // Sección «Evaluación final» antes de «Para el facilitador»
+  window.cambios31Final = async (cid, aula) => {
+    const F = aula.final; const nf = aula.modulos.length + 1;
+    let st = await estado(cid);
+    if (seccion(st, nf)?.title !== F.seccion) {
+      await fetch(`/course/changenumsections.php?courseid=${cid}&insertsection=${nf}&sesskey=${sk()}&numsections=1&sectionreturn=0`);
+      log('+ sección Evaluación final');
+    }
+    await nombreSeccion(cid, nf, F.seccion, F.resumen);
+    const id = await evaluacionQuiz(cid, nf, F.evaluacion);
+    await call('core_courseformat_update_course', { action: 'cm_show', courseid: cid, ids: [String(id)] });
+    log('FIN evaluación final');
+  };
+
+  // Sección del facilitador: reemplaza la guía y el mapa por los PDF nuevos (las partes antiguas de la guía se quitan)
+  window.cambios31Facilitador = async (cid, aula) => {
+    const F = aula.facilitador; const st = await estado(cid);
+    const s = st.section.find((x) => x.title === F.nombre); if (!s) throw new Error('sin sección del facilitador');
+    await nombreSeccion(cid, s.number, F.nombre, F.resumen, false);
+    const viejos = cmsDe(st, s.number).filter((c) => c.module === 'resource');
+    await borrar(cid, viejos.map((c) => c.id)); viejos.forEach((c) => log(`- ${c.name}`));
+    for (const x of F.archivos) { await crear(cid, s.number, 'resource', { name: x.name, ...intro(''), display: '0', printintro: '0' }, { file: archivo(x.pdf), clave: 'label' }); log(`+ ${x.name}`); }
+    log('FIN facilitador 31-10');
+  };
+
+  // Libro de calificaciones (31-10): casos 30 %, evaluaciones de módulo 40 %, final 30 %, formativas 0 %. La categoría de hitos
+  // pasa a ser la de casos; la de pitch y portafolio se borra (sus tareas ya no tienen nota). Cada caso y cada cuestionario se
+  // asigna a su categoría con el campo «gradecat» de su formulario.
+  window.cambios31Notas = async (cid) => {
+    const st = await estado(cid);
+    const quizzes = st.cm.filter((c) => c.module === 'quiz');
+    const { d } = await formulario(`/course/modedit.php?update=${quizzes[0].id}&return=0`);
+    const cats = Object.fromEntries([...d.querySelectorAll('select[name=gradecat] option')].map((o) => [o.textContent.trim(), o.value]));
+    log(`  categorías: ${Object.keys(cats).join(' | ')}`);
+    const catHitos = Object.entries(cats).find(([t]) => /^Hitos|^Casos de aplicación/.test(t))?.[1];
+    const catPitch = Object.entries(cats).find(([t]) => /^Pitch/.test(t))?.[1];
+    const catEval = Object.entries(cats).find(([t]) => /^Evaluaciones de módulo/.test(t))?.[1];
+    const catFinal = Object.entries(cats).find(([t]) => /^Evaluación final/.test(t))?.[1];
+    // categoría de casos
+    {
+      const { f, fd } = await formulario(`/grade/edit/tree/category.php?courseid=${cid}&id=${catHitos}`);
+      fd.set('fullname', 'Casos de aplicación (práctica evaluada)'); fd.set('submitbutton', 'Guardar cambios');
+      await fetch(f.action, { method: 'POST', body: fd }); log('~ categoría: Casos de aplicación (práctica evaluada)');
+    }
+    for (const c of st.cm.filter((x) => x.module === 'assign' && x.name.startsWith('Caso de aplicación:'))) { await editar(c.id, { gradecat: catHitos }); log(`  ${c.name.slice(0, 60)} → casos`); }
+    for (const c of quizzes) { await editar(c.id, { gradecat: /final/i.test(c.name) ? catFinal : catEval }); log(`  ${c.name} → ${/final/i.test(c.name) ? 'final' : 'evaluaciones de módulo'}`); }
+    // Borrar categoría: el menú de acciones guarda el destino ya confirmado en data-modal-destination del enlace «Borrar»
+    if (catPitch) {
+      const t = P(await (await fetch(`/grade/edit/tree/index.php?id=${cid}`)).text());
+      const a = [...([...t.querySelectorAll('tr.category')].find((tr) => /^Pitch/.test(tr.textContent.trim()))?.querySelectorAll('a') || [])].find((e) => e.textContent.trim() === 'Borrar');
+      if (a) { await fetch(new URL(a.dataset.modalDestination, `${location.origin}/grade/edit/tree/`).href); log('- categoría Pitch y portafolio'); }
+    }
+    // pesos
+    const arbol = P(await (await fetch(`/grade/edit/tree/index.php?id=${cid}`)).text());
+    const fila = (re) => [...arbol.querySelectorAll('tr.category')].find((tr) => re.test(tr.textContent))?.querySelector('input[name^=weight_]')?.name.replace('weight_', '');
+    const pesos = [[/Casos de aplicación/, 30], [/Evaluaciones de módulo/, 40], [/Evaluación final/, 30], [/Actividades formativas/, 0]];
+    const fd = new FormData(); fd.set('sesskey', sk());
+    for (const [re, w] of pesos) { const id = fila(re); if (!id) { log(`! sin fila de peso ${re}`); continue; } fd.set(`weightoverride_${id}`, '1'); fd.set(`weight_${id}`, String(w)); }
+    await fetch(`/grade/edit/tree/index.php?id=${cid}`, { method: 'POST', body: fd });
+    log('FIN notas 31-10');
+  };
+
+  // Finalización del curso: todas las actividades visibles con finalización y nota del curso de 60 % o más
+  window.cambios31Finalizacion = async (cid) => {
+    const st = await estado(cid); const visibles = new Set(st.cm.filter((c) => c.visible && c.module !== 'label').map((c) => String(c.id)));
+    const { d, f } = await formulario(`/course/completion.php?id=${cid}`);
+    const fd = new FormData(); for (const i of f.querySelectorAll('input[type=hidden]')) fd.append(i.name, i.value);
+    let n = 0;
+    for (const i of f.querySelectorAll('input[type=checkbox][name^="criteria_activity["]')) { const id = /\[(\d+)\]/.exec(i.name)[1]; if (visibles.has(id)) { fd.set(i.name, '1'); n++; } }
+    fd.set('criteria_grade', '1'); fd.set('criteria_grade_value', '60'); fd.set('overall_aggregation', '1'); fd.set('activity_aggregation', '1');
+    fd.set('submitbutton', 'Guardar cambios');
+    const r = await fetch(f.action, { method: 'POST', body: fd }); const o = P(await r.text());
+    log(`~ finalización del curso: ${n} actividades + nota 60 % ${errores(o) ? '· ' + errores(o) : ''}`);
+  };
+
+  // ---------- diseño del 31-10 ----------
+  // Fotos de los banners: van como archivo del editor (resumen de la sección o texto de la etiqueta) y el HTML las nombra con
+  // @@PLUGINFILE@@/<archivo>. aula.imagenes trae cada JPG en base64.
+  const imagen = (aula, nombre) => new File([Uint8Array.from(atob(aula.imagenes[nombre]), (c) => c.charCodeAt(0))], nombre, { type: 'image/jpeg' });
+  async function seccionConFoto(cid, n, nombre, html, aula, foto) {
+    const st = await estado(cid); const s = seccion(st, n);
+    const { d, f, fd } = await formulario(`/course/editsection.php?id=${s.id}&sr=0`);
+    if (foto) await subir(d, imagen(aula, foto), fd.get('summary_editor[itemid]'));
+    fd.set('name', nombre); fd.set('summary_editor[text]', html); fd.set('summary_editor[format]', '1');
+    for (const k of [...fd.keys()]) if (k === 'usedefaultname') fd.delete(k);
+    fd.set('submitbutton', 'Guardar cambios');
+    const r = await fetch(f.action, { method: 'POST', body: fd });
+    if (!/course\/(view|section)\.php/.test(r.url)) throw new Error(`sección ${n}: ${errores(P(await r.text())) || r.url}`);
+  }
+  async function etiquetaConFoto(cmid, html, aula, foto) {
+    const { d, f, fd } = await formulario(`/course/modedit.php?update=${cmid}&return=0`);
+    completitud(fd, 'label');
+    if (foto) await subir(d, imagen(aula, foto), fd.get('introeditor[itemid]'));
+    fd.set('introeditor[text]', html); fd.set('introeditor[format]', '1');
+    await enviar(f, fd, `etiqueta ${cmid}`);
+  }
+
+  window.diseno31Modulo = async (cid, aula, n) => {
+    const m = aula.modulos.find((x) => x.n === n); const R = m.reservados;
+    await seccionConFoto(cid, n, m.seccion, m.resumen, aula, m.banner); log(`~ portada con foto del módulo ${n}`);
+    const cms = cmsDe(await estado(cid), n);
+    const etq = async (nombre, html, alternativos = []) => {
+      const e = cms.find((c) => c.module === 'label' && [nombre, ...alternativos].includes(c.name));
+      if (e) await editar(e.id, { name: nombre, 'introeditor[text]': html, 'introeditor[format]': '1' }); else await etiqueta(cid, n, html, nombre);
+    };
+    await etq('Empieza aquí', m.etiquetas.empieza);
+    if (m.casos.length) await etq('Práctica evaluada', m.etiquetas.casos, ['Casos de aplicación']);
+    await etq(m.casos.length ? 'Foro de casos' : 'Foro del módulo', m.etiquetas.foro, ['Conversa']);
+    await etq('Resumen del módulo', m.etiquetas.resumen);
+    await etq('Evaluación del módulo', m.etiquetas.evaluacion);
+    log(`~ encabezados del módulo ${n}`);
+    for (const [tipo, nombre] of [['bienvenida', R.bienvenida.name], ['resumen', R.resumenVideo.name]]) {
+      const pg = cms.find((c) => c.module === 'page' && c.name === nombre);
+      if (pg && m.videos[tipo]) { await editar(pg.id, { 'introeditor[text]': m.videos[tipo], 'introeditor[format]': '1', showdescription: '1' }, 'page'); log(`~ video embebido: ${nombre}`); }
+    }
+    await window.ordenar31Modulo(cid, aula, n);
+    log(`FIN diseño módulo ${n}`);
+  };
+
+  window.diseno31Inicio = async (cid, aula) => {
+    const cms = cmsDe(await estado(cid), 0);
+    const port = cms.find((c) => c.name === 'Portada del curso');
+    if (port) { await etiquetaConFoto(port.id, aula.inicio.portada, aula, 'curso.jpg'); log('~ portada del curso con foto'); }
+    const st = await estado(cid); const F = aula.final;
+    const sf = st.section.find((s) => s.title === F.seccion);
+    if (sf) { await seccionConFoto(cid, sf.number, F.seccion, F.resumen, aula, null); log('~ cierre del curso'); }
+    log('FIN diseño inicio y cierre');
+  };
+
+  // Deja la sección en el orden de `nombres` (cada uno se mueve al final, en orden); los que no están en la lista quedan arriba
+  async function ordenar(cid, n, nombres) {
+    const st = await estado(cid); const s = seccion(st, n); const cms = cmsDe(st, n);
+    for (const nombre of nombres) { const cs = cms.filter((x) => x.name === nombre); for (const c of cs) await alFinal(cid, s.id, c.id); if (!cs.length) log(`  (no está para ordenar: ${nombre})`); }
+  }
+
+  window.cambios31Inicio = async (cid, aula) => {
+    const I = aula.inicio; const st = await estado(cid); const cms = cmsDe(st, 0);
+    const fuera = cms.filter((c) => I.quitar.includes(c.name));
+    await borrar(cid, fuera.map((c) => c.id)); fuera.forEach((c) => log(`- ${c.name}`));
+    const avisos = cms.find((c) => c.module === 'forum' && /^Avisos/.test(c.name));
+    // Avisos sin finalización: el foro de avisos no admite «requerir calificación»
+    if (avisos) { await editar(avisos.id, { 'introeditor[text]': I.avisos.intro, 'introeditor[format]': '1', showdescription: '1' }, 'label'); log('~ Avisos: docente'); }
+    const como = cms.find((c) => c.name === 'Cómo avanzas'); if (como) { await editar(como.id, { 'introeditor[text]': I.comoAvanzar, 'introeditor[format]': '1' }); log('~ Cómo avanzas'); }
+    const port = cms.find((c) => c.name === 'Portada del curso'); if (port) { await editar(port.id, { 'introeditor[text]': I.portada, 'introeditor[format]': '1' }); log('~ Portada del curso'); }
+    // nombre del curso con las horas
+    const { f, fd } = await formulario(`/course/edit.php?id=${cid}`);
+    fd.set('fullname', aula.curso.fullname); fd.set('saveandreturn', 'Guardar cambios y regresar');
+    const r = await fetch(f.action, { method: 'POST', body: fd });
+    log(/course\/view\.php/.test(r.url) ? `~ nombre del curso: ${aula.curso.fullname}` : `! nombre del curso no se guardó (${r.url})`);
+    log('FIN inicio 31-10');
+  };
+
+  window.cambios31Modulo = async (cid, aula, n) => {
+    const m = aula.modulos.find((x) => x.n === n);
+    await nombreSeccion(cid, n, m.seccion, m.resumen);
+    let st = await estado(cid); let cms = cmsDe(st, n);
+    const busca = (pred) => cms.find(pred);
+    for (const [i, a] of m.aes.entries()) {
+      // actividad 1: de foro a tarea formativa
+      await paso(cid, n, a.act1.name, () => tareaFormativa(cid, n, a.act1));
+      const viejo1 = busca((c) => c.module === 'forum' && c.name.startsWith(`Actividad 1: ${a.act1.titulo}`));
+      if (viejo1) { await borrar(cid, [viejo1.id]); log(`- ${viejo1.name}`); }
+      // actividad 2: la misma tarea, sin nota y con el texto nuevo
+      const t2 = busca((c) => c.module === 'assign' && (c.name.startsWith(`Actividad 2: ${a.act2.titulo}`) || c.name === a.act2.name));
+      if (t2) { await editar(t2.id, { name: a.act2.name, 'introeditor[text]': a.act2.intro, 'introeditor[format]': '1', ...SIN_NOTA }, 'assign'); log(`~ ${a.act2.name}`); } else log(`! no está la actividad 2 de «${a.tema}»`);
+      const banda = busca((c) => c.module === 'label' && c.name === `Tema ${i + 1}: ${a.tema}`);
+      if (banda) await editar(banda.id, { 'introeditor[text]': a.banda, 'introeditor[format]': '1' });
+    }
+    // casos: de página a tarea evaluada con rúbrica
+    for (const c of m.casos) {
+      await paso(cid, n, c.name, () => tareaCaso(cid, n, c));
+      await rubricaDe(cid, n, c.name, 'submissions', c.rubrica);
+      const pag = busca((x) => x.module === 'page' && x.name === `Caso: ${c.titulo}`);
+      if (pag) { await borrar(cid, [pag.id]); log(`- ${pag.name}`); }
+    }
+    // etiquetas
+    const etq = async (viejo, nuevo, html) => {
+      const e = busca((c) => c.module === 'label' && (c.name === viejo || c.name === nuevo));
+      if (e) await editar(e.id, { name: nuevo, 'introeditor[text]': html, 'introeditor[format]': '1' });
+      else await etiqueta(cid, n, html, nuevo);
+    };
+    if (m.casos.length) await etq('Casos de aplicación', 'Práctica evaluada', m.etiquetas.casos);
+    await etq('Conversa', m.casos.length ? 'Foro de casos' : 'Foro del módulo', m.etiquetas.foro);
+    await etq('Resumen del módulo', 'Resumen del módulo', m.etiquetas.resumen);
+    await etq('Evaluación del módulo', 'Evaluación del módulo', m.etiquetas.evaluacion);
+    // foro del módulo → foro de casos, sin nota
+    const fm = busca((c) => c.module === 'forum' && (/^Foro del módulo \d+: qué/.test(c.name) || c.name === m.foro.name));
+    if (fm) { await editar(fm.id, { name: m.foro.name, 'introeditor[text]': m.foro.intro, 'introeditor[format]': '1', 'grade_forum[modgrade_type]': 'none', advancedgradingmethod_forum: '' }, 'forum-modulo'); log(`~ ${m.foro.name}`); }
+    else await paso(cid, n, m.foro.name, () => foro(cid, n, m.foro, { clave: 'forum-modulo' }));
+    // glosario del módulo
+    await glosarioModulo(cid, n, m.glosario);
+    // espacio reservado de la evaluación del módulo: se reemplaza por el cuestionario (cambios31Evaluacion)
+    log(`FIN módulo ${n} 31-10`);
+  };
+
+  window.cambios31Todo = async (cid, aula, n) => {
+    await window.cambios31Modulo(cid, aula, n);
+    await window.cambios31Evaluacion(cid, aula, n);
+    await window.ordenar31Modulo(cid, aula, n);
+    const g = cmsDe(await estado(cid), n).find((c) => c.module === 'glossary');
+    if (g) { await glosarioSoloLectura(g.id); log('  glosario sin escritura para estudiantes'); }
+  };
+
+  // Orden final de la sección del módulo
+  window.ordenar31Modulo = async (cid, aula, n) => {
+    const m = aula.modulos.find((x) => x.n === n); const R = m.reservados;
+    const lista = ['Empieza aquí', R.bienvenida.name, R.diagnostica.name];
+    m.aes.forEach((a, i) => lista.push(`Tema ${i + 1}: ${a.tema}`, a.rise.name, a.quiz.name, a.act1.name, a.act2.name));
+    if (m.casos.length) lista.push('Práctica evaluada', ...m.casos.map((c) => c.name));
+    lista.push(m.casos.length ? 'Foro de casos' : 'Foro del módulo', m.foro.name, 'Resumen del módulo', m.infografia.name, R.resumenVideo.name, m.glosario.name, 'Evaluación del módulo', m.evaluacion.name);
+    await ordenar(cid, n, lista);
+    log(`FIN orden módulo ${n}`);
   };
 
   // Carga de archivos: un input propio; cada file_upload suma sus archivos a window.__archivos

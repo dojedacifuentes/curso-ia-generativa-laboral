@@ -3,14 +3,15 @@
 ## Actividad 1 · Un ciclo de prueba con documentos inventados
 cubre: H1, C1, C2
 fuentes: F-M6-04, F-M6-08
-entrega: foro
+entrega: tarea
 
 ### Instrucción general
 
 Vas a hacer con Camila una ronda completa de prueba de su flujo de registro: definir quién revisa, probar con cinco documentos
 inventados, ajustar la plantilla y dejar registro de la decisión. Así practicas la implementación con supervisión y la documentación
-que pide tu propio flujo. Publica tu planilla, las plantillas, la tabla de versiones y la bitácora en el foro de la actividad, como
-capturas o archivos adjuntos. Se evalúa con la rúbrica de abajo, y el facilitador te responde en el foro dentro de 24 horas hábiles.
+que pide tu propio flujo. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, con tu planilla, las plantillas,
+la tabla de versiones y la bitácora como capturas o archivos adjuntos, y, antes de enviarla, revisas tu trabajo con la rúbrica de
+autoevaluación del final.
 
 ### Situación
 
@@ -47,20 +48,23 @@ escala, se estudia qué pasó y recién después se adoptan, así que esta ronda
 
 ### Lo que entregas
 
-Publica en el foro de la actividad la planilla con los resultados de las dos rondas, el punto de supervisión por escrito, las plantillas
+Subes en la tarea la planilla con los resultados de las dos rondas, el punto de supervisión por escrito, las plantillas
 v1 y v2, la tabla de versiones y la entrada de la bitácora. Agrega un párrafo breve sobre qué error habría llegado a la planilla de
-registro si nadie hubiera revisado.
+registro si nadie hubiera revisado. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo
+justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Define el punto de supervisión | 20 % | Antes de la primera prueba responde quién revisa, cuándo, qué, con qué criterio y qué hace si algo falla. | Responde las cinco preguntas, pero alguna de forma vaga o después de las pruebas. | No hay punto de supervisión definido. |
-| Implementa y revisa la prueba | 35 % | Cada documento tiene lo esperado y su comparación campo por campo, cada error tiene su causa ubicada, los datos agregados por el asistente aparecen detectados y no copiados, y el párrafo final nombra un error concreto. | La comparación está, pero en algún documento no es campo por campo, falta la causa de un error o un dato agregado pasó al resultado. | No se compara la respuesta con los documentos, o se copian los resultados sin revisar. |
-| Versiona la plantilla | 25 % | La v1 sigue guardada, la v2 corrige la causa y la tabla de versiones muestra las dos probadas con los mismos cinco casos. | Hay v1 y v2, pero la tabla no muestra los resultados de ambas o la v2 se probó con otros casos. | Solo hay una versión, o la v1 se reemplazó. |
-| Documenta la decisión | 20 % | La entrada de la bitácora tiene fecha, título, contexto, decisión, consecuencias buenas y malas, y estado. | La entrada está, pero le falta uno de sus elementos o solo nombra consecuencias buenas. | No hay entrada de bitácora. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Define el punto de supervisión | Antes de la primera prueba respondiste quién revisa, cuándo, qué, con qué criterio y qué hace si algo falla. | Respondiste las cinco preguntas, pero alguna de forma vaga o después de las pruebas. | No definiste el punto de supervisión. |
+| Implementa y revisa la prueba | Cada documento tiene lo esperado y su comparación campo por campo, cada error tiene su causa ubicada, detectaste los datos agregados por el asistente y no los copiaste, y tu párrafo final nombra un error concreto. | La comparación está, pero en algún documento no es campo por campo, te falta la causa de un error o un dato agregado pasó al resultado. | No comparaste la respuesta con los documentos, o copiaste los resultados sin revisar. |
+| Versiona la plantilla | Tu v1 sigue guardada, la v2 corrige la causa y tu tabla de versiones muestra las dos probadas con los mismos cinco casos. | Tienes v1 y v2, pero la tabla no muestra los resultados de ambas o probaste la v2 con otros casos. | Tienes una sola versión, o reemplazaste la v1. |
+| Documenta la decisión | Tu entrada de la bitácora tiene fecha, título, contexto, decisión, consecuencias buenas y malas, y estado. | La entrada está, pero le falta uno de sus elementos o solo nombra consecuencias buenas. | No hay entrada de bitácora. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Actividad 2 · Implementa y documenta tu propio flujo
 cubre: H1, C1, C2
@@ -70,9 +74,9 @@ entrega: tarea
 ### Instrucción general
 
 Vas a llevar tu prototipo a un flujo completo que funcione en tu trabajo, con supervisión humana, pruebas y registro de cada
-decisión. Es el Hito 6b de tu proyecto del curso. Súbelo como tarea en el aula, en un documento o con el enlace a tu carpeta compartida; solo
-lo ven tú y el facilitador. El facilitador lo revisa con la rúbrica de abajo y te deja su retroalimentación en un plazo de hasta 72
-horas.
+decisión. Es el Hito 6b de tu proyecto del curso. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, en un
+documento o con el enlace a tu carpeta compartida, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del
+final. Solo lo ven tú y el facilitador, porque trabajas con tu flujo real.
 
 ### Situación
 
@@ -99,20 +103,23 @@ necesita y solo lo que tu empresa permite.
 
 ### Lo que entregas
 
-Sube como tarea en el aula un documento, o el enlace a una carpeta compartida, con el flujo en pasos, la ficha, la tabla de riesgos,
+Subes en la tarea un documento, o el enlace a una carpeta compartida, con el flujo en pasos, la ficha, la tabla de riesgos,
 la tabla de versiones de tu plantilla principal, la bitácora con al menos tres entradas y la evidencia de las pruebas, con capturas
-que no muestren datos personales ni información de tu empresa.
+que no muestren datos personales ni información de tu empresa. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la
+rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Implementa el flujo con supervisión | 30 % | El flujo tiene de tres a cinco pasos marcados por tipo, con los límites del plan gratuito, y cada punto de supervisión dice quién, cuándo, qué y con qué criterio se revisa, qué se hace si falla y qué nivel aplica. | El flujo y la supervisión están, pero a un punto le falta una de las respuestas o el nivel. | No hay punto de supervisión, o el flujo no está descrito en pasos. |
-| Controla riesgos y contingencia | 20 % | Hay al menos cuatro riesgos con su control, y el plan de contingencia no depende de la misma herramienta. | Hay menos de cuatro riesgos o algún riesgo sin control. | No hay tabla de riesgos, o el plan de contingencia depende de la misma herramienta. |
-| Prueba y ajusta | 25 % | Diez casos con al menos tres difíciles tienen su resultado, y hay al menos un ajuste con su causa y una versión nueva probada con los mismos diez casos. | Las pruebas están, pero hay menos de diez casos o de tres difíciles, o la versión nueva se probó con otros casos. | No hay evidencia de pruebas ni de ajustes. |
-| Documenta decisiones y ajustes | 25 % | La ficha tiene sus ocho campos, una convención de nombres y el último ajuste; la bitácora tiene al menos tres entradas con fecha, contexto, decisión y consecuencias, y ninguna evidencia muestra datos personales. | La ficha o la bitácora están incompletas, o la ficha no refleja el último ajuste. | No hay ficha ni bitácora, o la evidencia muestra datos personales o de la empresa. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Implementa el flujo con supervisión | Tu flujo tiene de tres a cinco pasos marcados por tipo, con los límites del plan gratuito, y cada punto de supervisión dice quién, cuándo, qué y con qué criterio se revisa, qué se hace si falla y qué nivel aplica. | El flujo y la supervisión están, pero a un punto le falta una de las respuestas o el nivel. | No hay punto de supervisión, o tu flujo no está descrito en pasos. |
+| Controla riesgos y contingencia | Tienes al menos cuatro riesgos con su control, y tu plan de contingencia no depende de la misma herramienta. | Tienes menos de cuatro riesgos o algún riesgo sin control. | No hay tabla de riesgos, o tu plan de contingencia depende de la misma herramienta. |
+| Prueba y ajusta | Tus diez casos, con al menos tres difíciles, tienen su resultado, y hiciste al menos un ajuste con su causa y una versión nueva probada con los mismos diez casos. | Las pruebas están, pero tienes menos de diez casos o de tres difíciles, o probaste la versión nueva con otros casos. | No hay evidencia de pruebas ni de ajustes. |
+| Documenta decisiones y ajustes | Tu ficha tiene sus ocho campos, una convención de nombres y el último ajuste; tu bitácora tiene al menos tres entradas con fecha, contexto, decisión y consecuencias, y ninguna evidencia muestra datos personales. | La ficha o la bitácora están incompletas, o la ficha no refleja el último ajuste. | No hay ficha ni bitácora, o tu evidencia muestra datos personales o de la empresa. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Referencias bibliográficas
 

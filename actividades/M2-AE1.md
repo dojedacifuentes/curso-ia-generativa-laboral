@@ -3,11 +3,11 @@
 ## Actividad 1 · Una reunión, tres textos
 cubre: H1, C1
 fuentes: F-M2-06, F-M2-05
-entrega: foro
+entrega: tarea
 
 ### Instrucción general
 
-En esta actividad vas a convertir las notas de una reunión en tres textos con Gemini, una minuta, un correo y un informe ejecutivo, y a ajustar cada uno a quien lo va a leer. Publicas tu trabajo en el foro de la actividad, en un documento adjunto o pegado en el mensaje. Como los datos son ficticios, tu aporte lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
+En esta actividad vas a convertir las notas de una reunión en tres textos con Gemini, una minuta, un correo y un informe ejecutivo, y a ajustar cada uno a quien lo va a leer. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, en un documento adjunto o pegado en el texto de la entrega, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Trabajas con datos ficticios.
 
 ### Situación
 
@@ -27,18 +27,20 @@ Vas a producir los tres textos con Gemini, en la app o en el navegador, y a ajus
 
 ### Lo que entregas
 
-Publicas en el foro de la actividad un documento con los tres textos finales. Antes de cada uno escribe en una línea la audiencia, el registro y el tono que elegiste. Agrega también el primer borrador del correo y una frase que explique qué cambiaste para adaptarlo al Sr. Vera.
+Subes en la tarea un documento con los tres textos finales. Antes de cada uno escribe en una línea la audiencia, el registro y el tono que elegiste. Agrega también el primer borrador del correo y una frase que explique qué cambiaste para adaptarlo al Sr. Vera. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Ajusta tono y registro a la audiencia indicada | 40 % | Cada uno de los tres textos tiene el registro y el tono que corresponden a su audiencia, y la línea previa los declara. | Dos de los tres textos calzan con su audiencia, o la línea previa no coincide con lo que se lee en el texto. | Los textos suenan igual entre sí o no corresponden a sus audiencias. |
-| Detalle y estructura según el género | 25 % | Cada texto trae las partes de su género y el nivel de detalle cambia según quien lo lee. | A algún texto le falta una parte de su género o trae detalle que no le sirve a su audiencia. | Los textos no tienen la estructura de su género. |
-| Fidelidad a las notas | 15 % | Los datos coinciden con las notas y los vacíos quedan marcados, sin completar nada que no estaba. | Algún dato fue agregado o cambiado, o un vacío se completó sin respaldo. | Varios datos no coinciden con las notas. |
-| Adaptación del correo | 20 % | Incluye el primer borrador del correo y una frase que explica qué cambiaste; la versión final respeta el largo, el asunto y el saludo pedidos. | Incluye el borrador, pero falta la explicación o el cambio no se ve en la versión final. | Falta el primer borrador del correo. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Ajusta tono y registro a la audiencia indicada | Cada uno de tus tres textos tiene el registro y el tono que corresponden a su audiencia, y la línea previa los declara. | Dos de tus tres textos calzan con su audiencia, o la línea previa no coincide con lo que se lee en el texto. | Tus textos suenan igual entre sí o no corresponden a sus audiencias. |
+| Detalle y estructura según el género | Cada texto trae las partes de su género y el nivel de detalle cambia según quien lo lee. | A alguno de tus textos le falta una parte de su género o trae detalle que no le sirve a su audiencia. | Tus textos no tienen la estructura de su género. |
+| Fidelidad a las notas | Los datos coinciden con las notas y los vacíos quedan marcados, sin completar nada que no estaba. | Agregaste o cambiaste algún dato, o completaste un vacío sin respaldo. | Varios datos no coinciden con las notas. |
+| Adaptación del correo | Incluyes el primer borrador del correo y una frase que explica qué cambiaste; la versión final respeta el largo, el asunto y el saludo pedidos. | Incluyes el borrador, pero te falta la explicación o el cambio no se ve en la versión final. | Te falta el primer borrador del correo. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Actividad 2 · Un texto de tu semana, revisado antes de enviarlo
 cubre: H1, C2
@@ -47,7 +49,7 @@ entrega: tarea
 
 ### Instrucción general
 
-En esta actividad vas a escribir con Gemini un texto que de verdad tengas que enviar esta semana, adaptarlo a dos audiencias y revisarlo antes de enviarlo. Lo subes como tarea en el aula, en un documento de texto o en PDF con los borradores, las versiones finales y tu registro de correcciones. Solo lo ven tú y el facilitador, porque trabajas con un texto real de tu cargo. El facilitador lo revisa con la rúbrica de abajo y te deja su retroalimentación en un plazo de hasta 72 horas.
+En esta actividad vas a escribir con Gemini un texto que de verdad tengas que enviar esta semana, adaptarlo a dos audiencias y revisarlo antes de enviarlo. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, en un documento de texto o en PDF con los borradores, las versiones finales y tu registro de correcciones, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Solo lo ven tú y el facilitador, porque trabajas con un texto real de tu cargo.
 
 ### Situación
 
@@ -65,18 +67,20 @@ Vas a producir el texto con Gemini, ajustarlo a su audiencia y revisarlo con una
 
 ### Lo que entregas
 
-Subes como tarea en el aula el primer borrador y la versión final de los dos textos, con los datos ya cambiados, y una tabla breve o un párrafo con lo que corregiste en cada uno. Indica qué errores eran de hecho, cuáles de tono o registro y cuáles de redacción.
+Subes en la tarea el primer borrador y la versión final de los dos textos, con los datos ya cambiados, y una tabla breve o un párrafo con lo que corregiste en cada uno. Indica qué errores eran de hecho, cuáles de tono o registro y cuáles de redacción. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Entrega un texto claro y sin errores relevantes: claridad | 30 % | Las versiones finales se entienden a la primera, con el objetivo en las primeras líneas y oraciones breves. | Las versiones finales se entienden, pero el objetivo aparece tarde o hay oraciones largas que cuesta seguir. | Las versiones finales cuesta entenderlas o no se sabe qué piden. |
-| Entrega un texto claro y sin errores relevantes: exactitud | 30 % | Los nombres, fechas, montos y números coinciden con tus apuntes y no queda nada agregado por la IA sin respaldo. | Queda un dato que no coincide con los apuntes o un agregado menor sin respaldo. | Quedan varios errores de hecho en las versiones finales. |
-| Revisión con la lista y registro de correcciones | 25 % | El registro muestra una revisión punto por punto con la lista y distingue errores de hecho, de tono o registro y de redacción. | Hay registro, pero es general o no distingue los tipos de error. | No hay registro de correcciones. |
-| Audiencias, forma y cuidado de los datos | 15 % | Las dos versiones están escritas para audiencias distintas; si es correo, trae asunto, saludo con dos puntos y despedida; los datos sensibles están cambiados. | Las dos versiones se parecen demasiado o falta una parte de la forma del correo. | Hay una sola versión o el texto conserva datos sensibles. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Entrega un texto claro y sin errores relevantes: claridad | Tus versiones finales se entienden a la primera, con el objetivo en las primeras líneas y oraciones breves. | Tus versiones finales se entienden, pero el objetivo aparece tarde o hay oraciones largas que cuesta seguir. | Cuesta entender tus versiones finales o no se sabe qué piden. |
+| Entrega un texto claro y sin errores relevantes: exactitud | Los nombres, fechas, montos y números coinciden con tus apuntes y no queda nada agregado por la IA sin respaldo. | Te queda un dato que no coincide con los apuntes o un agregado menor sin respaldo. | Te quedan varios errores de hecho en las versiones finales. |
+| Revisión con la lista y registro de correcciones | Tu registro muestra una revisión punto por punto con la lista y distingue errores de hecho, de tono o registro y de redacción. | Tienes registro, pero es general o no distingue los tipos de error. | No tienes registro de correcciones. |
+| Audiencias, forma y cuidado de los datos | Tus dos versiones están escritas para audiencias distintas; si es correo, trae asunto, saludo con dos puntos y despedida; cambiaste los datos sensibles. | Tus dos versiones se parecen demasiado o te falta una parte de la forma del correo. | Tienes una sola versión o tu texto conserva datos sensibles. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Referencias bibliográficas
 

@@ -3,13 +3,14 @@
 ## Actividad 1 · Los resultados de Camila, sin adornos
 cubre: H1, C1, C2
 fuentes: F-M6-11, F-M6-12
-entrega: foro
+entrega: tarea
 
 ### Instrucción general
 
 Vas a ayudar a Camila a dejar sus resultados en algo que pueda defender: una tabla honesta, una interpretación con sus límites, una
-mejora y un guion de pitch de 3 minutos. Es la práctica del cierre que harás con tu propio proyecto. Publica todo en el foro de laactividad, en el mensaje o en un documento adjunto. Se evalúa con la rúbrica de abajo, y el facilitador te responde en el foro dentro de
-24 horas hábiles.
+mejora y un guion de pitch de 3 minutos. Es la práctica del cierre que harás con tu propio proyecto. Es una actividad formativa: no
+lleva nota. La subes como tarea en el aula, en el texto de la tarea o en un documento adjunto, y, antes de enviarla, revisas tu
+trabajo con la rúbrica de autoevaluación del final.
 
 ### Situación
 
@@ -41,19 +42,22 @@ errores». Antes de presentarlo, te pide que la ayudes a dejarlo en algo que pue
 
 ### Lo que entregas
 
-Publica en el foro de la actividad la tabla de resultados, el borrador reescrito, la propuesta de mejora y el guion del pitch, con una
-línea al final que diga cuánto duró al leerlo en voz alta y qué cambiaste después de la prueba de las dos frases.
+Subes en la tarea la tabla de resultados, el borrador reescrito, la propuesta de mejora y el guion del pitch, con una
+línea al final que diga cuánto duró al leerlo en voz alta y qué cambiaste después de la prueba de las dos frases. Suma tu
+autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Compara con la línea base | 25 % | La tabla tiene línea base, meta, resultado y diferencia con número y unidad, dice con claridad si se cumplió la meta y deja como faltante el dato que no está. | La tabla está, pero la diferencia tiene un error o no tiene unidad, o el cumplimiento de la meta queda ambiguo. | No hay tabla, o completa el dato que falta. |
-| Interpreta el resultado | 25 % | Usa los casos sin IA para separar lo que pudo aportar la práctica de lo que aportó el flujo, y el borrador reescrito dice dirección, tamaño, periodo y límites. | La interpretación o el borrador están, pero no separan la práctica del flujo o dejan los límites al final. | Atribuye toda la mejora al flujo, o mantiene afirmaciones sin respaldo. |
-| Propone una mejora | 15 % | La mejora dice qué cambia, por qué y cómo se medirá en el próximo ciclo. | La mejora está, pero le falta el porqué o cómo medirla. | No hay propuesta, o es general y no se relaciona con los casos difíciles. |
-| Comunica en un pitch de 3 minutos | 35 % | El guion tiene las seis partes, cabe en 3 minutos leído en voz alta, pone los límites antes del llamado a la acción, cada cifra coincide con la tabla, y la línea final dice la duración y el cambio tras la prueba de las dos frases. | El guion tiene las seis partes, pero se pasa de 3 minutos, una cifra no coincide o falta la línea final. | Faltan varias partes, o el guion repite frases sin un dato que las respalde. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Compara con la línea base | Tu tabla tiene línea base, meta, resultado y diferencia con número y unidad, dice con claridad si se cumplió la meta y deja como faltante el dato que no está. | La tabla está, pero la diferencia tiene un error o no tiene unidad, o el cumplimiento de la meta queda ambiguo. | No hay tabla, o completaste el dato que falta. |
+| Interpreta el resultado | Usas los casos sin IA para separar lo que pudo aportar la práctica de lo que aportó el flujo, y tu borrador reescrito dice dirección, tamaño, periodo y límites. | La interpretación o el borrador están, pero no separan la práctica del flujo o dejan los límites al final. | Atribuyes toda la mejora al flujo, o mantienes afirmaciones sin respaldo. |
+| Propone una mejora | Tu mejora dice qué cambia, por qué y cómo se medirá en el próximo ciclo. | La mejora está, pero le falta el porqué o cómo medirla. | No hay propuesta, o es general y no se relaciona con los casos difíciles. |
+| Comunica en un pitch de 3 minutos | Tu guion tiene las seis partes, cabe en 3 minutos leído en voz alta, pone los límites antes del llamado a la acción, cada cifra coincide con la tabla, y la línea final dice la duración y el cambio tras la prueba de las dos frases. | Tu guion tiene las seis partes, pero se pasa de 3 minutos, una cifra no coincide o falta la línea final. | Faltan varias partes, o tu guion repite frases sin un dato que las respalde. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Actividad 2 · El cierre de tu proyecto: resultados, pitch y portafolio
 cubre: H1, C1, C2
@@ -63,9 +67,10 @@ entrega: tarea
 ### Instrucción general
 
 Vas a comparar los resultados de tu proyecto con la línea base, contarlos en un pitch de 3 minutos y elegir las piezas de tu
-portafolio. Esta actividad reúne los hitos 6c y 6d, el cierre de tu proyecto del curso. Súbela como tarea en el aula: un documento, la grabación del
-pitch como archivo o enlace, y el portafolio; solo lo ven tú y el facilitador. El facilitador la revisa con la rúbrica de abajo y te
-deja su retroalimentación en un plazo de hasta 72 horas.
+portafolio. Esta actividad reúne los hitos 6c y 6d, el cierre de tu proyecto del curso. Es una actividad formativa: no lleva nota.
+La subes como tarea en el aula (un documento, la grabación del pitch como archivo o enlace, y el portafolio) y, antes de enviarla,
+revisas tu trabajo con la rúbrica de autoevaluación del final. Solo lo ven tú y el facilitador, porque trabajas con los resultados
+reales de tu proyecto.
 
 ### Situación
 
@@ -91,19 +96,22 @@ confidencial de tu empresa.
 
 ### Lo que entregas
 
-Sube como tarea en el aula un documento con la tabla de resultados, las observaciones, los factores externos, las propuestas de
-mejora y tu autocrítica; el guion y la grabación del pitch, y el portafolio con sus notas de reflexión.
+Subes en la tarea un documento con la tabla de resultados, las observaciones, los factores externos, las propuestas de
+mejora y tu autocrítica; el guion y la grabación del pitch, y el portafolio con sus notas de reflexión. Suma tu autoevaluación: el
+nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Compara con la línea base | 30 % | Cada indicador tiene su valor final junto a la línea base y la meta, con número, unidad y periodo, medido con la misma fórmula y fuente del plan o con el cambio declarado. | La tabla está, pero a un indicador le falta la unidad o el periodo, o cambió la forma de medir sin decirlo. | No hay tabla de resultados, o no se compara con la línea base. |
-| Analiza y propone mejoras | 20 % | Hay tres observaciones de la bitácora, al menos un factor externo, una decisión por cada parte del flujo, dos o tres mejoras con qué, por qué y cómo medirlas, y la autocrítica. | Están casi todos los elementos, pero falta el factor externo o las mejoras no dicen cómo se medirán. | No hay análisis ni propuestas de mejora. |
-| Comunica en un pitch de 3 minutos | 30 % | La grabación dura 3 minutos o menos, dice cuánto cambió cada indicador frente a la línea base, nombra al menos un límite, usa lenguaje simple y cierra con un llamado a la acción. | La grabación está, pero se pasa de 3 minutos, omite un indicador o no nombra un límite. | No hay grabación, o no da resultados frente a la línea base. |
-| Arma el portafolio | 20 % | El portafolio tiene de tres a cinco piezas, cada una con su nota de reflexión, indica dónde usaste IA y qué revisaste, respeta licencias y no trae datos personales. | El portafolio está, pero alguna pieza no tiene nota o no indica dónde se usó IA. | No hay portafolio, o trae datos personales o información confidencial. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Compara con la línea base | Cada indicador tiene su valor final junto a la línea base y la meta, con número, unidad y periodo, medido con la misma fórmula y fuente de tu plan o con el cambio declarado. | Tu tabla está, pero a un indicador le falta la unidad o el periodo, o cambiaste la forma de medir sin decirlo. | No hay tabla de resultados, o no comparas con la línea base. |
+| Analiza y propone mejoras | Tienes tres observaciones de la bitácora, al menos un factor externo, una decisión por cada parte del flujo, dos o tres mejoras con qué, por qué y cómo medirlas, y tu autocrítica. | Están casi todos los elementos, pero te falta el factor externo o tus mejoras no dicen cómo se medirán. | No hay análisis ni propuestas de mejora. |
+| Comunica en un pitch de 3 minutos | Tu grabación dura 3 minutos o menos, dice cuánto cambió cada indicador frente a la línea base, nombra al menos un límite, usa lenguaje simple y cierra con un llamado a la acción. | La grabación está, pero se pasa de 3 minutos, omite un indicador o no nombra un límite. | No hay grabación, o no da resultados frente a la línea base. |
+| Arma el portafolio | Tu portafolio tiene de tres a cinco piezas, cada una con su nota de reflexión, indica dónde usaste IA y qué revisaste, respeta licencias y no trae datos personales. | El portafolio está, pero alguna pieza no tiene nota o no indica dónde usaste IA. | No hay portafolio, o trae datos personales o información confidencial. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Referencias bibliográficas
 

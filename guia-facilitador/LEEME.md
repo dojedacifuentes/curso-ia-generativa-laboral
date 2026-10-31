@@ -2,26 +2,46 @@
 
 ## Para qué es esta guía
 
-Esta guía acompaña al facilitador durante el curso. Reúne lo que necesita para moderar los foros y para revisar las 44 actividades de
-aplicación práctica, dos por cada tema: dónde se entrega cada una, cuándo responder, la pauta de corrección de cada criterio de la
-rúbrica y ejemplos de retroalimentación. En el aula va en una sección visible solo para el rol docente; quien revisa el curso con
-perfil docente la ve igual que el facilitador.
+Esta guía acompaña al facilitador durante el curso. Reúne lo que necesita para revisar y calificar los casos de aplicación, conocer
+las evaluaciones de cada módulo y la final, acompañar las 44 actividades formativas (dos por tema) y moderar los foros: dónde se
+entrega cada cosa, cuándo responder, la pauta de corrección y ejemplos de retroalimentación. En el aula va en una sección visible
+solo para el rol docente; quien revisa el curso con perfil docente la ve igual que el facilitador.
 
-## Cómo se evalúan las actividades
+## Cómo se evalúa el curso (cambio del 31-10)
 
-Cada actividad tiene una rúbrica que el estudiante ve en el aula, con criterios, pesos y tres niveles: logrado (100 %), parcial
-(60 %) y no logrado (0 %). La actividad se aprueba con 60 % o más. El estudiante no ve la pauta de corrección: está solo en esta guía.
+El curso tiene 88 horas en seis módulos. En cada módulo hay tres tipos de trabajo:
 
-La actividad 1 de cada tema es una práctica con datos ficticios y se publica en su propio foro, dentro del tema, calificado con su rúbrica. El facilitador responde en el
-mismo foro dentro de 24 horas hábiles, con la rúbrica y un comentario breve. La actividad 2 trabaja con una tarea real del cargo de
-cada persona, así que se sube como tarea privada en el aula. El facilitador la califica con la rúbrica y deja su retroalimentación
-en un plazo de hasta 72 horas.
+| Instrumento | Tipo | Quién revisa | Nota |
+|---|---|---|---|
+| Quiz juego de cada tema | Formativo | Automático, con retroalimentación por respuesta | No |
+| Actividades formativas 1 y 2 de cada tema | Formativo, autoevaluado | La persona, con la rúbrica de autoevaluación | No |
+| Casos de aplicación (práctica evaluada) | Sumativo | El facilitador, con la rúbrica del caso | Sí |
+| Evaluación del módulo | Sumativo | Automático: casos con alternativas y retroalimentación en cada una | Sí |
+| Evaluación final del curso | Sumativo | Automático: cuatro casos integradores, una pregunta por aprendizaje esperado | Sí |
+
+**Actividades formativas.** Las dos actividades de cada tema se suben como tarea en el aula, sin nota. La persona revisa su trabajo
+con la rúbrica de autoevaluación y adjunta el nivel que marcó en cada criterio. No hay que calificarlas: la pauta de referencia de
+cada actividad sirve para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación
+se aleje mucho de lo entregado o haya datos reales sin anonimizar.
+
+**Casos de aplicación.** Son la práctica evaluada de los módulos 1 a 5 (el módulo 6 es el taller del proyecto y no tiene casos). La
+persona entrega como tarea sus respuestas al análisis guiado y el producto de la aplicación a su proyecto. Califícalos con la rúbrica
+del caso (logrado 100 %, parcial 60 %, no logrado 0 % del peso de cada criterio; se aprueba con 60 %) y deja la nota y tu
+retroalimentación en la tarea en un plazo de hasta 72 horas hábiles. Las respuestas esperadas de cada caso están en esta guía, al
+final de cada módulo. Después, la persona comparte en el foro de casos su respuesta a la pregunta para conversar.
+
+**Evaluaciones de módulo y final.** Son cuestionarios del aula con preguntas de selección múltiple basadas en casos, con
+retroalimentación en cada alternativa. Se aprueban con 60 %. La pauta (respuesta correcta y por qué) está en la sección «Evaluaciones»
+de esta guía.
+
+**Nota del curso.** Escala de 1,0 a 7,0, con 4,0 al 60 %. Pondera los casos de aplicación 30 %, las evaluaciones de módulo 40 % y la
+evaluación final 30 %; lo formativo no pondera.
 
 ## El proyecto del curso
 
-Algunas actividades 2 son, además, los hitos del proyecto del curso. En el Hito 1 cada persona elige una tarea de su cargo y en los
+Algunas actividades formativas 2 son, además, los hitos del proyecto del curso. Como son formativas, no llevan nota: el proyecto se evalúa a través de los casos de aplicación, que piden aplicar cada caso a la misma tarea. En el Hito 1 cada persona elige una tarea de su cargo y en los
 módulos siguientes la sigue mejorando con IA: la presenta, la investiga, comunica la propuesta, automatiza un paso con supervisión
-y, en el módulo 6, mide sus resultados y los cuenta en un pitch. Al revisar estos hitos, fíjate también en que la persona siga
+y, en el módulo 6, mide sus resultados y los cuenta en un pitch. Si ves las entregas de estos hitos, fíjate también en que la persona siga
 trabajando sobre la misma tarea; si cambió de tarea, pídele en tu retroalimentación que explique por qué.
 
 | Hito | Actividad 2 del tema |

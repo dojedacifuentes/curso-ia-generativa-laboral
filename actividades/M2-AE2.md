@@ -3,11 +3,11 @@
 ## Actividad 1 · La plantilla de respuestas de Rosa
 cubre: H1, C1
 fuentes: F-M2-11, F-M2-10
-entrega: foro
+entrega: tarea
 
 ### Instrucción general
 
-En esta actividad vas a armar la plantilla de respuestas de Rosa con al menos dos técnicas de prompting y a probarla con tres consultas, para obtener respuestas parecidas cada vez. Publicas tu trabajo en el foro de la actividad, en el mensaje o en un documento adjunto. Como la información del centro y las consultas son ficticias, tu aporte lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
+En esta actividad vas a armar la plantilla de respuestas de Rosa con al menos dos técnicas de prompting y a probarla con tres consultas, para obtener respuestas parecidas cada vez. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, en el texto de la entrega o en un documento adjunto, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. La información del centro y las consultas son ficticias.
 
 ### Situación
 
@@ -27,18 +27,20 @@ Vas a armar la plantilla de Rosa con al menos dos de estas técnicas, ejemplos, 
 
 ### Lo que entregas
 
-Publicas en el foro de la actividad la plantilla final, las tres respuestas que obtuviste y un párrafo breve que nombre las técnicas que usaste y diga qué problema resolvió cada una en las respuestas de Rosa.
+Subes en la tarea la plantilla final, las tres respuestas que obtuviste y un párrafo breve que nombre las técnicas que usaste y diga qué problema resolvió cada una en las respuestas de Rosa. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Aplica al menos dos técnicas (ejemplos, restricciones, encadenamiento) | 40 % | La plantilla trae al menos dos técnicas reconocibles y bien aplicadas: los ejemplos son variados, tienen el mismo formato y están separados de las instrucciones, y las restricciones se pueden comprobar. | Trae dos técnicas, pero una está mal aplicada: ejemplos casi iguales o con formatos distintos, o restricciones que no se pueden comprobar. | Trae una sola técnica o ninguna. |
-| Estructura de la plantilla | 20 % | Tiene las secciones pedidas y separa las partes fijas de los campos variables, marcados con corchetes. | Falta una sección o hay campos variables sin marcar. | No tiene una estructura reconocible de plantilla. |
-| Prueba con las tres consultas | 25 % | Presenta las tres respuestas, revisa cada una contra las restricciones y ninguna agrega información que no estaba disponible. | Presenta las tres respuestas, pero no las revisa o alguna agrega información sin que lo detectes. | Faltan respuestas o no se probó la plantilla. |
-| Explicación de las técnicas | 15 % | El párrafo nombra las técnicas usadas y dice qué problema de las respuestas de Rosa resolvió cada una. | Nombra las técnicas, pero no dice qué problema resolvió cada una. | No hay párrafo. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Aplica al menos dos técnicas (ejemplos, restricciones, encadenamiento) | Tu plantilla trae al menos dos técnicas reconocibles y bien aplicadas: los ejemplos son variados, tienen el mismo formato y están separados de las instrucciones, y las restricciones se pueden comprobar. | Trae dos técnicas, pero una está mal aplicada: ejemplos casi iguales o con formatos distintos, o restricciones que no se pueden comprobar. | Tu plantilla trae una sola técnica o ninguna. |
+| Estructura de la plantilla | Tiene las secciones pedidas y separa las partes fijas de los campos variables, marcados con corchetes. | Te falta una sección o dejaste campos variables sin marcar. | Tu plantilla no tiene una estructura reconocible. |
+| Prueba con las tres consultas | Presentas las tres respuestas, revisas cada una contra las restricciones y ninguna agrega información que no estaba disponible. | Presentas las tres respuestas, pero no las revisas o alguna agrega información sin que lo detectes. | Te faltan respuestas o no probaste la plantilla. |
+| Explicación de las técnicas | Tu párrafo nombra las técnicas usadas y dice qué problema de las respuestas de Rosa resolvió cada una. | Nombras las técnicas, pero no dices qué problema resolvió cada una. | No escribiste el párrafo. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Actividad 2 · Tu plantilla, versión 1 y versión 2
 cubre: H1, C2
@@ -47,7 +49,7 @@ entrega: tarea
 
 ### Instrucción general
 
-En esta actividad vas a convertir un texto que escribes seguido en tu cargo en una plantilla y a medir si da textos consistentes entre una versión y otra. Lo subes como tarea en el aula, en un documento de texto o en PDF con las dos versiones, los casos de prueba y la tabla de criterios. Solo lo ven tú y el facilitador, porque trabajas con un texto real de tu trabajo. El facilitador lo revisa con la rúbrica de abajo y te deja su retroalimentación en un plazo de hasta 72 horas.
+En esta actividad vas a convertir un texto que escribes seguido en tu cargo en una plantilla y a medir si da textos consistentes entre una versión y otra. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, en un documento de texto o en PDF con las dos versiones, los casos de prueba y la tabla de criterios, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Solo lo ven tú y el facilitador, porque trabajas con un texto real de tu trabajo.
 
 ### Situación
 
@@ -65,18 +67,20 @@ Vas a diseñar tu plantilla y a medir si da textos consistentes. Como la misma i
 
 ### Lo que entregas
 
-Subes como tarea en el aula las dos versiones de la plantilla, tus tres casos de prueba y la tabla de criterios con los resultados de cada versión. Cierra con una línea que diga qué cambiaste en la versión 2, qué mejoró y con cuál versión te quedas.
+Subes en la tarea las dos versiones de la plantilla, tus tres casos de prueba y la tabla de criterios con los resultados de cada versión. Cierra con una línea que diga qué cambiaste en la versión 2, qué mejoró y con cuál versión te quedas. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Obtiene textos consistentes entre versiones | 35 % | Los seis resultados de la versión elegida tienen el mismo formato, respetan el largo y el tono pedidos y no traen datos inventados. | La mayoría de los resultados es consistente, pero alguno se sale del formato, del largo o del tono. | Los resultados varían mucho entre sí o traen datos inventados. |
-| Diseño de la prueba | 20 % | Hay tres casos de prueba (uno simple, uno con un dato faltante y uno difícil), cada uno usado dos veces en un chat nuevo y con los mismos casos en las dos versiones. | Faltan pruebas, se repitió en el mismo chat o los casos cambiaron entre versiones. | No hay casos de prueba o se probó una sola vez. |
-| Cambio controlado entre versiones | 25 % | La versión 2 cambia una sola cosa, ligada al criterio que más falló, y la línea de cierre dice qué mejoró y con cuál versión te quedas. | La versión 2 cambia varias cosas a la vez o la línea de cierre no dice qué mejoró. | No hay versión 2. |
-| Dato faltante y cuidado de los datos | 20 % | El caso con un dato faltante sale marcado o consultado en vez de completado, y los ejemplos y casos usan datos inventados o cambiados. | El caso con un dato faltante sale completado en alguna de las pruebas. | El dato faltante se inventa en las pruebas o los casos conservan datos sensibles. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Obtiene textos consistentes entre versiones | Los seis resultados de la versión que elegiste tienen el mismo formato, respetan el largo y el tono pedidos y no traen datos inventados. | La mayoría de tus resultados es consistente, pero alguno se sale del formato, del largo o del tono. | Tus resultados varían mucho entre sí o traen datos inventados. |
+| Diseño de la prueba | Tienes tres casos de prueba (uno simple, uno con un dato faltante y uno difícil), cada uno usado dos veces en un chat nuevo y con los mismos casos en las dos versiones. | Te faltan pruebas, repetiste en el mismo chat o cambiaste los casos entre versiones. | No tienes casos de prueba o probaste una sola vez. |
+| Cambio controlado entre versiones | Tu versión 2 cambia una sola cosa, ligada al criterio que más falló, y la línea de cierre dice qué mejoró y con cuál versión te quedas. | Tu versión 2 cambia varias cosas a la vez o la línea de cierre no dice qué mejoró. | No tienes versión 2. |
+| Dato faltante y cuidado de los datos | El caso con un dato faltante sale marcado o consultado en vez de completado, y tus ejemplos y casos usan datos inventados o cambiados. | El caso con un dato faltante sale completado en alguna de las pruebas. | El dato faltante se inventa en las pruebas o tus casos conservan datos sensibles. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Referencias bibliográficas
 

@@ -3,13 +3,14 @@
 ## Actividad 1 · Las tareas de Rosa en la recepción
 cubre: H1, C1, C2
 fuentes: F-H-14, F-M5-06
-entrega: foro
+entrega: tarea
 
 ### Instrucción general
 
 Vas a revisar las tareas de Rosa para decidir cuáles conviene automatizar primero y cuáles no, con la matriz de impacto y riesgo. Así
-practicas con un caso ficticio el análisis que después harás con tu propio cargo. Publica tu tabla y tu reflexión en el foro de laactividad, escritas en el mensaje o en un documento adjunto. Se evalúa con la rúbrica de abajo, y el facilitador te responde en el foro
-dentro de 24 horas hábiles.
+practicas con un caso ficticio el análisis que después harás con tu propio cargo. Es una actividad formativa: no lleva nota. La subes
+como tarea en el aula, con tu tabla y tu reflexión escritas en el texto de la tarea o en un documento adjunto, y, antes de enviarla,
+revisas tu trabajo con la rúbrica de autoevaluación del final.
 
 ### Situación
 
@@ -41,20 +42,23 @@ atención, así que el riesgo pesa tanto como el impacto.
 
 ### Lo que entregas
 
-Publica en el foro de la actividad una tabla con las tareas de Rosa, las tres o más candidatas marcadas, la respuesta de sí o no a cada
+Subes en la tarea una tabla con las tareas de Rosa, las tres o más candidatas marcadas, la respuesta de sí o no a cada
 pregunta de impacto y de riesgo, el cuadrante de cada una y su fundamento. Agrega al final dos o tres líneas sobre qué pregunta de
-Gemini te hizo cambiar algo y por qué, o por qué decidiste mantener tu clasificación.
+Gemini te hizo cambiar algo y por qué, o por qué decidiste mantener tu clasificación. Suma tu autoevaluación: el nivel que marcaste en
+cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Identifica tareas automatizables | 30 % | La lista tiene entre 8 y 12 tareas con verbo y objeto, todas sostenidas por las notas, y al menos tres candidatas que se repiten, siguen reglas y trabajan con información. | Hay tres candidatas, pero alguna no cumple una de las tres condiciones, o la lista trae tareas que las notas no permiten suponer. | Hay menos de tres candidatas, o las candidatas dependen del trato en persona. |
-| Ubica las candidatas en la matriz | 30 % | Cada candidata tiene sus seis respuestas de sí o no y su cuadrante calza con ellas. | Falta alguna respuesta o el cuadrante de una candidata no calza con sus respuestas. | No hay matriz, o los cuadrantes no se apoyan en las respuestas. |
-| Fundamenta la priorización | 25 % | Cada fundamento nombra el cuadrante y da una razón de impacto y otra de riesgo, con un dato de las notas. | Los fundamentos nombran el cuadrante, pero alguno no da razón para uno de los criterios o no usa un dato de las notas. | No hay fundamentos o son genéricos, como «porque es importante». |
-| Revisa antes de automatizar | 15 % | Muestra que preguntó si alguna candidata se podía eliminar o simplificar, y explica en dos o tres líneas qué cambió o por qué mantuvo su clasificación tras la pregunta de Gemini. | Hace solo una de las dos cosas, o la explicación no da una razón. | No aparece la revisión de eliminar o simplificar ni la reflexión sobre Gemini. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Identifica tareas automatizables | Tu lista tiene entre 8 y 12 tareas con verbo y objeto, todas sostenidas por las notas, y al menos tres candidatas que se repiten, siguen reglas y trabajan con información. | Tienes tres candidatas, pero alguna no cumple una de las tres condiciones, o tu lista trae tareas que las notas no permiten suponer. | Tienes menos de tres candidatas, o tus candidatas dependen del trato en persona. |
+| Ubica las candidatas en la matriz | Cada candidata tiene sus seis respuestas de sí o no y su cuadrante calza con ellas. | Te falta alguna respuesta o el cuadrante de una candidata no calza con sus respuestas. | No hay matriz, o los cuadrantes no se apoyan en las respuestas. |
+| Fundamenta la priorización | Cada fundamento nombra el cuadrante y da una razón de impacto y otra de riesgo, con un dato de las notas. | Tus fundamentos nombran el cuadrante, pero alguno no da razón para uno de los criterios o no usa un dato de las notas. | No hay fundamentos o son genéricos, como «porque es importante». |
+| Revisa antes de automatizar | Muestras que te preguntaste si alguna candidata se podía eliminar o simplificar, y explicas en dos o tres líneas qué cambió o por qué mantuviste tu clasificación tras la pregunta de Gemini. | Haces solo una de las dos cosas, o tu explicación no da una razón. | No aparece la revisión de eliminar o simplificar ni la reflexión sobre Gemini. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Actividad 2 · La matriz de tu propio cargo
 cubre: H1, C1, C2
@@ -63,9 +67,9 @@ entrega: tarea
 
 ### Instrucción general
 
-Vas a mapear las tareas de tu propio cargo y priorizar con la matriz de impacto y riesgo las que conviene automatizar. Esta matriz es la base del flujo que construirás en el tema siguiente; si la tarea de tu proyecto del curso queda entre las candidatas, empieza por ella. Súbela como tarea en el aula, en un documento o una planilla; solo la ven tú
-y el facilitador, porque trabaja con tu cargo real. El facilitador la revisa con la rúbrica de abajo y te deja su retroalimentación
-en un plazo de hasta 72 horas.
+Vas a mapear las tareas de tu propio cargo y priorizar con la matriz de impacto y riesgo las que conviene automatizar. Esta matriz es la base del flujo que construirás en el tema siguiente; si la tarea de tu proyecto del curso queda entre las candidatas, empieza por ella. Es una actividad formativa: no lleva nota. La subes
+como tarea en el aula, en un documento o una planilla, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del
+final. Solo la ven tú y el facilitador, porque trabaja con tu cargo real.
 
 ### Situación
 
@@ -93,20 +97,23 @@ persona.
 
 ### Lo que entregas
 
-Sube como tarea en el aula tu mapa de tareas, tu matriz con al menos tres candidatas y sus fundamentos, y un párrafo sobre la tarea
+Subes en la tarea tu mapa de tareas, tu matriz con al menos tres candidatas y sus fundamentos, y un párrafo sobre la tarea
 que elegiste para empezar: en qué cuadrante quedó, quién gana si se automatiza y qué harías con el tiempo que quede. Esta matriz es
-la base del flujo que vas a construir en el tema siguiente.
+la base del flujo que vas a construir en el tema siguiente. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la
+rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Mapea las tareas del cargo | 25 % | El mapa tiene entre 8 y 12 tareas reales del cargo, con verbo y objeto y su anatomía completa, sin datos de clientes, proveedores ni compañeros. | El mapa corresponde al cargo, pero hay tareas vagas, sin verbo y objeto, o a varias les falta parte de la anatomía. | El mapa no describe tareas del cargo, o trae datos de clientes, proveedores o compañeros. |
-| Identifica tareas automatizables | 20 % | Al menos tres candidatas se repiten, siguen reglas y trabajan con información, y se revisó si alguna se podía eliminar o simplificar. | Hay tres candidatas, pero alguna no cumple una de las tres condiciones, o falta la revisión de eliminar o simplificar. | Hay menos de tres candidatas. |
-| Prioriza con la matriz y fundamenta | 35 % | Cada candidata tiene sus seis respuestas, su cuadrante calza con ellas y su fundamento da una razón de impacto y otra de riesgo. | Todas las candidatas están en la matriz, pero falta alguna respuesta, un cuadrante no calza o un fundamento no da las dos razones. | No hay matriz, o los cuadrantes no tienen respuestas ni fundamento. |
-| Elige por dónde empezar | 20 % | El párrafo dice el cuadrante, quién gana y qué haría con el tiempo; la tarea está en «Empieza aquí» o, si está en «Con supervisión», explica qué parte queda en manos de una persona. | El párrafo elige una tarea, pero omite uno de sus elementos, o la tarea está en «Con supervisión» sin decir qué parte decide una persona. | No elige una tarea, o elige una de «No automatices» sin justificarlo. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Mapea las tareas del cargo | Tu mapa tiene entre 8 y 12 tareas reales de tu cargo, con verbo y objeto y su anatomía completa, sin datos de clientes, proveedores ni compañeros. | Tu mapa corresponde a tu cargo, pero hay tareas vagas, sin verbo y objeto, o a varias les falta parte de la anatomía. | Tu mapa no describe tareas de tu cargo, o trae datos de clientes, proveedores o compañeros. |
+| Identifica tareas automatizables | Al menos tres candidatas se repiten, siguen reglas y trabajan con información, y revisaste si alguna se podía eliminar o simplificar. | Tienes tres candidatas, pero alguna no cumple una de las tres condiciones, o te falta la revisión de eliminar o simplificar. | Tienes menos de tres candidatas. |
+| Prioriza con la matriz y fundamenta | Cada candidata tiene sus seis respuestas, su cuadrante calza con ellas y su fundamento da una razón de impacto y otra de riesgo. | Todas tus candidatas están en la matriz, pero te falta alguna respuesta, un cuadrante no calza o un fundamento no da las dos razones. | No hay matriz, o los cuadrantes no tienen respuestas ni fundamento. |
+| Elige por dónde empezar | Tu párrafo dice el cuadrante, quién gana y qué harías con el tiempo; la tarea está en «Empieza aquí» o, si está en «Con supervisión», explicas qué parte queda en manos de una persona. | Tu párrafo elige una tarea, pero omite uno de sus elementos, o la tarea está en «Con supervisión» sin decir qué parte decide una persona. | No eliges una tarea, o eliges una de «No automatices» sin justificarlo. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Referencias bibliográficas
 

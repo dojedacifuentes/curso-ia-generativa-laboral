@@ -3,11 +3,11 @@
 ## Actividad 1 · Precisión o variedad en dos encargos de Camila
 cubre: H1, C1, C2
 fuentes: F-M1-13, F-M1-15
-entrega: foro
+entrega: tarea
 
 ### Instrucción general
 
-En esta actividad vas a elegir un ajuste para dos encargos de Camila, comparar varias salidas de una misma consigna y quedarte con la mejor de cada encargo. Así practicas cómo orientar al asistente hacia la precisión o hacia la variedad según el objetivo. Publicas tu trabajo en el foro de la actividad, en el mensaje o con tu tabla de registro adjunta; como usas datos de prueba, lo pueden leer el facilitador y el resto del curso. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
+En esta actividad vas a elegir un ajuste para dos encargos de Camila, comparar varias salidas de una misma consigna y quedarte con la mejor de cada encargo. Así practicas cómo orientar al asistente hacia la precisión o hacia la variedad según el objetivo. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, en el texto de la entrega o con tu tabla de registro adjunta, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Trabajas con datos de prueba.
 
 ### Situación
 
@@ -33,18 +33,20 @@ Vas a elegir un ajuste para cada encargo, comparar salidas y quedarte con la mej
 
 ### Lo que entregas
 
-Publicas en el foro de la actividad las dos frases con el ajuste que elegiste para cada encargo, la tabla de registro con las seis salidas y su evaluación, y las
-dos elecciones justificadas.
+Subes en la tarea las dos frases con el ajuste que elegiste para cada encargo, la tabla de registro con las seis salidas y su evaluación, y las
+dos elecciones justificadas. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Elige un parámetro adecuado al objetivo y lo justifica | 35 % | Cada encargo tiene un ajuste (instrucción, largo y número de versiones) que calza con su objetivo, y la frase explica el porqué con ese objetivo. | Los ajustes son razonables, pero la frase no los justifica con el objetivo, o el ajuste de un encargo no calza. | No hay frases de ajuste o los ajustes no calzan con ninguno de los dos objetivos. |
-| Registro y comparación de salidas | 30 % | Las seis salidas están en la tabla de registro, evaluadas con los cinco criterios, y las de cada encargo salen de la misma consigna cambiando una sola cosa. | Faltan salidas o criterios en la tabla, o entre salidas cambia más de una cosa. | No hay tabla o se comparan consignas distintas. |
-| Compara salidas de una misma consigna y selecciona la mejor con fundamento | 35 % | Elige una salida por encargo con la frase «Elijo la versión __ porque __», apoyada en criterios de la tabla, y explica por qué descartó las otras. | Elige una salida por encargo, pero el fundamento es general o no explica los descartes. | No elige o elige sin dar razones. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Elige un parámetro adecuado al objetivo y lo justifica | Cada encargo tiene un ajuste (instrucción, largo y número de versiones) que calza con su objetivo, y tu frase explica el porqué con ese objetivo. | Tus ajustes son razonables, pero tu frase no los justifica con el objetivo, o el ajuste de un encargo no calza. | No escribiste frases de ajuste o tus ajustes no calzan con ninguno de los dos objetivos. |
+| Registro y comparación de salidas | Las seis salidas están en tu tabla de registro, evaluadas con los cinco criterios, y las de cada encargo salen de la misma consigna cambiando una sola cosa. | Te faltan salidas o criterios en la tabla, o entre salidas cambiaste más de una cosa. | No tienes tabla o comparaste consignas distintas. |
+| Compara salidas de una misma consigna y selecciona la mejor con fundamento | Eliges una salida por encargo con la frase «Elijo la versión __ porque __», apoyada en criterios de la tabla, y explicas por qué descartaste las otras. | Eliges una salida por encargo, pero tu fundamento es general o no explicas los descartes. | No eliges o eliges sin dar razones. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Actividad 2 · La configuración de una tarea de tu cargo
 cubre: H1, C1, C2
@@ -53,7 +55,7 @@ entrega: tarea
 
 ### Instrucción general
 
-En esta actividad vas a definir la configuración de una tarea de tu cargo, ponerla a prueba con varias salidas y dejarla escrita como regla en tu biblioteca de prompts. Lo subes como tarea en el aula, en un documento de texto o en PDF con tu tabla de registro. Solo lo ven tú y el facilitador, porque trabajas con una tarea real de tu trabajo. El facilitador lo revisa con la rúbrica de abajo y te deja su retroalimentación en un plazo de hasta 72 horas.
+En esta actividad vas a definir la configuración de una tarea de tu cargo, ponerla a prueba con varias salidas y dejarla escrita como regla en tu biblioteca de prompts. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, en un documento de texto o en PDF con tu tabla de registro, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Solo lo ven tú y el facilitador, porque trabajas con una tarea real de tu trabajo.
 
 ### Situación
 
@@ -75,19 +77,21 @@ Vas a definir la configuración de tu tarea, ponerla a prueba y dejarla escrita 
 
 ### Lo que entregas
 
-Subes como tarea en el aula el objetivo con las respuestas a las tres preguntas, la configuración de partida con su justificación, la tabla con tres
-salidas o más, tu elección con el porqué y la nota que agregaste a tu biblioteca.
+Subes en la tarea el objetivo con las respuestas a las tres preguntas, la configuración de partida con su justificación, la tabla con tres
+salidas o más, tu elección con el porqué y la nota que agregaste a tu biblioteca. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Elige un parámetro adecuado al objetivo y lo justifica | 30 % | El objetivo está en una frase, responde las tres preguntas y la configuración de partida calza con esas respuestas; la justificación está escrita con tus palabras. | La configuración es razonable, pero no se desprende de las respuestas o la justificación es genérica. | No hay configuración de partida o no calza con el objetivo. |
-| Registro y comparación de salidas | 25 % | Hay tres salidas o más de la misma consigna, en conversaciones nuevas, cambiando una sola cosa, y todas están evaluadas con los cinco criterios. | Hay tres salidas, pero cambia más de una cosa entre ellas o faltan criterios en la tabla. | Hay menos de tres salidas o no hay tabla. |
-| Compara salidas de una misma consigna y selecciona la mejor con fundamento | 25 % | La elección nombra el criterio que decidió y, si la mejor salida no fue la de tu configuración de partida, lo dices y ajustas la regla. | Hay elección, pero el fundamento es general o no se conecta con la tabla. | No hay elección. |
-| Regla en tu biblioteca y cuidado de los datos | 20 % | La regla de configuración está escrita y agregada como nota en tu plantilla, y la prueba usa una copia sin datos sensibles o datos de prueba. | La regla está escrita, pero no quedó en la plantilla o es vaga. | No hay regla o la prueba usa datos sensibles. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Elige un parámetro adecuado al objetivo y lo justifica | Escribiste el objetivo en una frase, respondiste las tres preguntas y tu configuración de partida calza con esas respuestas; la justificación está escrita con tus palabras. | Tu configuración es razonable, pero no se desprende de tus respuestas o la justificación es genérica. | No tienes configuración de partida o no calza con el objetivo. |
+| Registro y comparación de salidas | Tienes tres salidas o más de la misma consigna, en conversaciones nuevas, cambiando una sola cosa, y todas están evaluadas con los cinco criterios. | Tienes tres salidas, pero cambiaste más de una cosa entre ellas o te faltan criterios en la tabla. | Tienes menos de tres salidas o no tienes tabla. |
+| Compara salidas de una misma consigna y selecciona la mejor con fundamento | Tu elección nombra el criterio que decidió y, si la mejor salida no fue la de tu configuración de partida, lo dices y ajustas la regla. | Elegiste, pero tu fundamento es general o no se conecta con la tabla. | No elegiste una salida. |
+| Regla en tu biblioteca y cuidado de los datos | Escribiste la regla de configuración y la agregaste como nota en tu plantilla, y tu prueba usa una copia sin datos sensibles o datos de prueba. | Escribiste la regla, pero no quedó en la plantilla o es vaga. | No tienes regla o tu prueba usa datos sensibles. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Referencias bibliográficas
 

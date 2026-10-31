@@ -3,11 +3,11 @@
 ## Actividad 1 · Tres pedidos de la bandeja de Camila
 cubre: H1, C1, C2
 fuentes: F-M1-12, F-H-15
-entrega: foro
+entrega: tarea
 
 ### Instrucción general
 
-En esta actividad vas a escribir un prompt para cada pendiente de Camila y a mejorarlo con al menos una iteración, para practicar la estructura de rol, contexto, tarea y formato. Publicas tu trabajo en el foro de la actividad, en el mensaje o en un documento adjunto. Como son datos de prueba, el facilitador y el resto del curso pueden leer tus prompts y compararlos con los suyos. Se evalúa con la rúbrica de abajo y el facilitador te responde en el foro dentro de 24 horas hábiles.
+En esta actividad vas a escribir un prompt para cada pendiente de Camila y a mejorarlo con al menos una iteración, para practicar la estructura de rol, contexto, tarea y formato. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, en el texto de la entrega o en un documento adjunto, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Trabajas solo con datos de prueba.
 
 ### Situación
 
@@ -35,19 +35,21 @@ Vas a escribir un prompt para resumir, uno para reescribir y uno para clasificar
 
 ### Lo que entregas
 
-Publicas en el foro de la actividad, para cada uno de los tres pendientes, la versión 1 y la versión 2 del prompt con sus partes marcadas, las dos respuestas y
-dos o tres líneas que expliquen qué falló en la primera, qué cambiaste y por qué la segunda le sirve más a Camila.
+Subes en la tarea, para cada uno de los tres pendientes, la versión 1 y la versión 2 del prompt con sus partes marcadas, las dos respuestas y
+dos o tres líneas que expliquen qué falló en la primera, qué cambiaste y por qué la segunda le sirve más a Camila. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Incluye rol, contexto, tarea y formato en el prompt | 35 % | Los tres prompts tienen las cuatro partes marcadas y cada una cumple su función: el contexto dice para quién es el texto y para qué se usará, y el formato fija la forma, el largo o el tono. | Las partes están marcadas, pero en algún prompt una parte no cumple su función o falta. | Faltan partes en dos o más prompts, o no están marcadas. |
-| Obtiene una respuesta útil tras iterar al menos una vez | 35 % | Cada pendiente tiene una versión 2 que cambia el componente que falló, y la respuesta final se podría usar con pocos cambios. | Hay versión 2 en los tres pendientes, pero en alguno no cambia lo que falló o la respuesta final necesita muchos ajustes. | Falta la iteración en uno o más pendientes. |
-| Restricciones y fidelidad a los datos | 15 % | Cada prompt trae una restricción pertinente y las respuestas finales no agregan datos ni categorías que no entregaste. | Falta la restricción en algún prompt o una respuesta final agrega algo que no estaba. | No hay restricciones y varias respuestas agregan datos. |
-| Explicación de la mejora | 15 % | Para cada pendiente explicas qué falló en la primera respuesta, qué cambiaste y por qué la segunda le sirve más a Camila. | La explicación está en algunos pendientes o no dice qué falló. | No hay explicación. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Incluye rol, contexto, tarea y formato en el prompt | Tus tres prompts tienen las cuatro partes marcadas y cada una cumple su función: el contexto dice para quién es el texto y para qué se usará, y el formato fija la forma, el largo o el tono. | Marcaste las partes, pero en algún prompt una parte no cumple su función o falta. | Te faltan partes en dos o más prompts, o no las marcaste. |
+| Obtiene una respuesta útil tras iterar al menos una vez | Cada pendiente tiene una versión 2 que cambia el componente que falló, y la respuesta final se podría usar con pocos cambios. | Tienes versión 2 en los tres pendientes, pero en alguno no cambiaste lo que falló o la respuesta final necesita muchos ajustes. | Te falta la iteración en uno o más pendientes. |
+| Restricciones y fidelidad a los datos | Cada prompt trae una restricción pertinente y tus respuestas finales no agregan datos ni categorías que no entregaste. | Te falta la restricción en algún prompt o una respuesta final agrega algo que no estaba. | No pusiste restricciones y varias respuestas agregan datos. |
+| Explicación de la mejora | Para cada pendiente explicas qué falló en la primera respuesta, qué cambiaste y por qué la segunda le sirve más a Camila. | Explicas la mejora solo en algunos pendientes o no dices qué falló. | No explicas la mejora. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Actividad 2 · Una plantilla para la tarea que más repites
 cubre: H1, H2, C1, C2
@@ -56,7 +58,7 @@ entrega: tarea
 
 ### Instrucción general
 
-Esta actividad es el Hito 1 de tu proyecto del curso: la tarea de tu cargo que elijas aquí es la que vas a seguir mejorando con IA en los módulos siguientes, hasta medir sus resultados en el módulo 6. En ella vas a convertir un prompt que funciona en una plantilla que puedas reutilizar en una tarea que repites en tu cargo. Lo subes como tarea en el aula, en un documento de texto o en PDF con las versiones, las respuestas y la ficha de tu biblioteca. Solo lo ven tú y el facilitador, porque trabajas con casos reales de tu trabajo. El facilitador lo revisa con la rúbrica de abajo y te deja su retroalimentación en un plazo de hasta 72 horas.
+Esta actividad es el Hito 1 de tu proyecto del curso: la tarea de tu cargo que elijas aquí es la que vas a seguir mejorando con IA en los módulos siguientes, hasta medir sus resultados en el módulo 6. En ella vas a convertir un prompt que funciona en una plantilla que puedas reutilizar en una tarea que repites en tu cargo. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, en un documento de texto o en PDF con las versiones, las respuestas y la ficha de tu biblioteca, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Solo lo ven tú y el facilitador, porque trabajas con casos reales de tu trabajo.
 
 ### Situación
 
@@ -79,20 +81,22 @@ Vas a pasar de un prompt que funciona a una plantilla que puedas reutilizar.
 
 ### Lo que entregas
 
-Subes como tarea en el aula las versiones del prompt que probaste, con la respuesta de cada una; la plantilla final con sus corchetes; la respuesta que
+Subes en la tarea las versiones del prompt que probaste, con la respuesta de cada una; la plantilla final con sus corchetes; la respuesta que
 obtuviste con el segundo caso, y la ficha de la plantilla en tu biblioteca. Ninguna de las copias debe tener datos personales ni
-confidenciales.
+confidenciales. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
 
-### Rúbrica
+### Rúbrica de autoevaluación
 
-| Criterio | Peso | Logrado (100 %) | Parcial (60 %) | No logrado (0 %) |
-|---|---|---|---|---|
-| Incluye rol, contexto, tarea y formato en el prompt | 30 % | La plantilla final tiene las cuatro partes y el contexto describe una situación de tu cargo. | La plantilla tiene las cuatro partes, pero el contexto es genérico o una parte no cumple su función. | Falta una o más partes en la plantilla final. |
-| Obtiene una respuesta útil tras iterar al menos una vez | 30 % | Hay al menos dos versiones con su respuesta, la nota de iteración explica qué ajuste hizo funcionar el prompt y la respuesta con el segundo caso se podría usar con pocos cambios. | Hay dos versiones, pero la nota no explica el ajuste o la respuesta con el segundo caso necesita muchos cambios. | Hay una sola versión o no se probó con el segundo caso. |
-| Plantilla reutilizable y ficha | 20 % | Los corchetes cubren todo lo que cambia de una vez a otra y la ficha tiene sus seis campos completos. | Queda algún dato fijo que debería ir entre corchetes o faltan campos en la ficha. | No hay plantilla con corchetes ni ficha. |
-| Cuidado de los datos | 20 % | Ni las copias ni la plantilla tienen datos personales o confidenciales. | Los datos personales están cambiados, pero queda algún dato interno de la empresa que convenía quitar. | Las copias o la plantilla conservan nombres, RUT, teléfonos o montos reales. |
+Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
-La actividad se aprueba con 60 % o más.
+| Criterio | Lo logré | Lo logré en parte | Aún no |
+|---|---|---|---|
+| Incluye rol, contexto, tarea y formato en el prompt | Tu plantilla final tiene las cuatro partes y el contexto describe una situación de tu cargo. | Tu plantilla tiene las cuatro partes, pero el contexto es genérico o una parte no cumple su función. | A tu plantilla final le falta una o más partes. |
+| Obtiene una respuesta útil tras iterar al menos una vez | Tienes al menos dos versiones con su respuesta, tu nota de iteración explica qué ajuste hizo funcionar el prompt y la respuesta con el segundo caso se podría usar con pocos cambios. | Tienes dos versiones, pero tu nota no explica el ajuste o la respuesta con el segundo caso necesita muchos cambios. | Tienes una sola versión o no la probaste con el segundo caso. |
+| Plantilla reutilizable y ficha | Tus corchetes cubren todo lo que cambia de una vez a otra y tu ficha tiene sus seis campos completos. | Te queda algún dato fijo que debería ir entre corchetes o faltan campos en tu ficha. | No tienes plantilla con corchetes ni ficha. |
+| Cuidado de los datos | Ni tus copias ni tu plantilla tienen datos personales o confidenciales. | Cambiaste los datos personales, pero queda algún dato interno de la empresa que convenía quitar. | Tus copias o tu plantilla conservan nombres, RUT, teléfonos o montos reales. |
+
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
 
 ## Referencias bibliográficas
 

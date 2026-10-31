@@ -1,10 +1,10 @@
 # Guía del facilitador · Supervisión humana y riesgos
 
-## Actividad 1 · Controles para el flujo de reclamos de Paula
+## Autoevaluación 1 · Controles para el flujo de reclamos de Paula
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube como tarea en el aula su tabla, sus criterios, las columnas, el plan y su autoevaluación. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si marcó «Lo logré» en los puntos de control y dejó el control después del correo al cliente.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar.
 
 ### Pauta de referencia
 
@@ -30,11 +30,11 @@ Si lo logró: «Pusiste el control justo antes del correo al cliente, que es lo 
 
 Si lo logró en parte: «Tu mapa de riesgos está completo. Revisa dónde quedó el punto de control: está después del correo al cliente, y a esa altura el plazo equivocado ya salió. Muévelo antes y agrega cómo corregirías los correos que ya se enviaron.»
 
-## Actividad 2 · Supervisión y contingencia para tu flujo
+## Autoevaluación 2 · Supervisión y contingencia para tu flujo
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación. Solo lo ven ella y tú, porque trabaja con su propio flujo. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si la captura de la planilla muestra datos reales: en ese caso, pídele que la cambie por datos de prueba. Como es un hito del proyecto, verifica que el flujo siga la misma tarea de su cargo que eligió al inicio del curso.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar. Si alguien comparte en el foro datos de clientes, proveedores o compañeros, pídele que los reemplace por datos inventados.
 
 ### Pauta de referencia
 

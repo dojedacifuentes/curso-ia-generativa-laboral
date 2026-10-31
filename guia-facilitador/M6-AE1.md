@@ -1,10 +1,10 @@
 # Guía del facilitador · Oportunidad de mejora con IA
 
-## Actividad 1 · El plan de medición de Camila
+## Autoevaluación 1 · El plan de medición de Camila
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube como tarea en el aula su documento de una página, junto con su autoevaluación. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si marcó «Lo logré» en la línea base e inventó la frecuencia semanal, o si aceptó subir la planilla real.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar.
 
 ### Pauta de referencia
 
@@ -33,11 +33,11 @@ Si lo logró: «Tu línea base está bien calculada y dejaste anotado que falta 
 
 Si lo logró en parte: «Los cálculos están bien. Revisa la meta: “llegar a 2 minutos” no dice desde dónde parte ni en qué plazo. Agrégale la línea base de 4 minutos y las tres semanas, y quedará medible.»
 
-## Actividad 2 · El diagnóstico y la meta de tu proyecto
+## Autoevaluación 2 · El diagnóstico y la meta de tu proyecto
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación. Solo lo ven ella y tú, porque trabaja con información real de su cargo. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si el registro o el documento traen datos personales o información confidencial de la empresa: en ese caso, pídele que suba una versión con códigos o sin esos datos. Como es un hito del proyecto, verifica que siga la misma tarea de su cargo que eligió al inicio del curso.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar. Si alguien comparte en el foro datos de clientes, proveedores o compañeros, pídele que los reemplace por datos inventados.
 
 ### Pauta de referencia
 

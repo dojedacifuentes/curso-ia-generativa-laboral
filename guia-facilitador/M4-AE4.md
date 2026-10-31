@@ -1,10 +1,10 @@
 # Guía del facilitador · Clips y video breve
 
-## Actividad 1 · Corrige y monta el clip de reciclaje de Camila
+## Autoevaluación 1 · Corrige y monta el clip de reciclaje de Camila
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube como tarea en el aula el clip como archivo adjunto o con un enlace, junto con el guion, la ficha y su autoevaluación. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si marcó «Lo logré» en la ficha y el aporte humano sigue diciendo «ninguno». Mira el clip completo, con audio, antes de comentar.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien no sabe qué escribir en el aporte humano de la ficha. Si alguien comparte su clip en el foro, míralo completo, con audio, antes de opinar.
 
 ### Pauta de referencia
 
@@ -22,11 +22,11 @@ Si lo logró: «Tu guion quedó con una idea por secuencia y un llamado a la acc
 
 Si lo logró en parte: «El clip se ve bien, pero la segunda secuencia todavía junta el contenedor y el tipo de papel. Sepáralas y ajusta las duraciones. En la ficha, cambia "edité el video" por lo que hiciste de verdad: el guion, la selección de imágenes, el montaje y la revisión.»
 
-## Actividad 2 · Un clip de 60 segundos para tu equipo
+## Autoevaluación 2 · Un clip de 60 segundos para tu equipo
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación. Solo lo ven ella y tú, porque trabaja con un mensaje real de su equipo. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si el clip muestra documentos reales o caras de colegas sin consentimiento. Como es un hito del proyecto, verifica que el clip siga la misma tarea de su cargo que eligió al inicio del curso. Si el enlace del clip no abre, pídele en un comentario de la tarea que cambie los permisos de lectura.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta con un mensaje real de su equipo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar. Como es un hito del proyecto, si alguien consulta, ayúdale a que el clip siga la misma tarea de su cargo que eligió al inicio del curso, y recuérdale que no muestre documentos reales ni caras o voces de colegas sin su consentimiento escrito.
 
 ### Pauta de referencia
 

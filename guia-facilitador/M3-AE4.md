@@ -1,10 +1,10 @@
 # Guía del facilitador · Análisis crítico y privacidad
 
-## Actividad 1 · Lo que llega al escritorio de Camila
+## Autoevaluación 1 · Lo que llega al escritorio de Camila
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si reescribe los pedidos con datos reales de su trabajo o deja ingresar la licencia médica.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien duda de si la planilla de órdenes de compra o la licencia médica pueden ingresar a la cuenta gratuita.
 
 ### Pauta de referencia
 
@@ -22,11 +22,11 @@ Si lo logró: «Tu tabla clasifica bien los seis documentos y cada decisión dic
 
 Si lo logró en parte: «La clasificación está bien, pero en el pedido para el correo dejaste el número del departamento, y con eso se puede saber quién es el cliente. Sácalo y revisa si la respuesta sigue sirviendo. Y agrega la regla en las decisiones que no la tienen.»
 
-## Actividad 2 · El mapa de la información de tu cargo
+## Autoevaluación 2 · El mapa de la información de tu cargo
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación; solo la ven tú y ella, porque trabaja con información de su cargo. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado. Si el antes de la copia anonimizada trae datos reales, avísale en un comentario de la tarea y pídele que lo reemplace por datos inventados.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta con información de su cargo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar. Si alguien muestra en el foro su copia anonimizada, revisa que el antes y el después usen datos inventados y, si no, pídele que los reemplace.
 
 ### Pauta de referencia
 

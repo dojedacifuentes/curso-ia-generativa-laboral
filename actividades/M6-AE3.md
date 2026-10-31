@@ -1,16 +1,16 @@
 # Actividades de aplicación práctica · M6-AE3 · Resultados y aprendizajes
 
-## Actividad 1 · Los resultados de Camila, sin adornos
+## Autoevaluación 1 · Los resultados de Camila, sin adornos
 cubre: H1, C1, C2
 fuentes: F-M6-11, F-M6-12
-entrega: tarea
+entrega: autoevaluacion
 
 ### Instrucción general
 
 Vas a ayudar a Camila a dejar sus resultados en algo que pueda defender: una tabla honesta, una interpretación con sus límites, una
-mejora y un guion de pitch de 3 minutos. Es la práctica del cierre que harás con tu propio proyecto. Es una actividad formativa: no
-lleva nota. La subes como tarea en el aula, en el texto de la tarea o en un documento adjunto, y, antes de enviarla, revisas tu
-trabajo con la rúbrica de autoevaluación del final.
+mejora y un guion de pitch de 3 minutos. Es la práctica del cierre que harás con tu propio proyecto. Es una autoevaluación: no se
+envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de
+autoevaluación.
 
 ### Situación
 
@@ -40,15 +40,14 @@ errores». Antes de presentarlo, te pide que la ayudes a dejarlo en algo que pue
    tabla.
 7. Lee el guion en voz alta con el cronómetro del celular, corta si te pasas y haz la prueba de las dos frases: resume tu pitch en dos frases, mándaselo a alguien de confianza y pídele que te lo explique de vuelta.
 
-### Lo que entregas
+### Lo que preparas
 
-Subes en la tarea la tabla de resultados, el borrador reescrito, la propuesta de mejora y el guion del pitch, con una
-línea al final que diga cuánto duró al leerlo en voz alta y qué cambiaste después de la prueba de las dos frases. Suma tu
-autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
+Deja listos la tabla de resultados, el borrador reescrito, la propuesta de mejora y el guion del pitch, con una línea al final que diga
+cuánto duró al leerlo en voz alta y qué cambiaste después de la prueba de las dos frases.
 
 ### Rúbrica de autoevaluación
 
-Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
+Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
 | Criterio | Lo logré | Lo logré en parte | Aún no |
 |---|---|---|---|
@@ -57,20 +56,64 @@ Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel que
 | Propone una mejora | Tu mejora dice qué cambia, por qué y cómo se medirá en el próximo ciclo. | La mejora está, pero le falta el porqué o cómo medirla. | No hay propuesta, o es general y no se relaciona con los casos difíciles. |
 | Comunica en un pitch de 3 minutos | Tu guion tiene las seis partes, cabe en 3 minutos leído en voz alta, pone los límites antes del llamado a la acción, cada cifra coincide con la tabla, y la línea final dice la duración y el cambio tras la prueba de las dos frases. | Tu guion tiene las seis partes, pero se pasa de 3 minutos, una cifra no coincide o falta la línea final. | Faltan varias partes, o tu guion repite frases sin un dato que las respalde. |
 
-Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de seguir con el tema siguiente.
 
-## Actividad 2 · El cierre de tu proyecto: resultados, pitch y portafolio
+### Respuesta modelo
+
+**Tabla de resultados**
+
+| Indicador | Línea base | Meta | Resultado | Diferencia | ¿Se cumplió? |
+|---|---|---|---|---|---|
+| Minutos por documento | 4 min | 2 min | 2,5 min | 1,5 min menos (37,5 % menos) | No: quedó a 0,5 min de la meta |
+| Documentos mal clasificados | 10 % | 5 % | Falta el dato | — | No se puede saber |
+
+**Interpretación.** Sin IA, en la última semana, Camila tardó 3,2 minutos. De 4 a 3,2, unos 0,8 minutos pueden venir de la práctica o de
+otros cambios; de 3,2 a 2,5, unos 0,7 minutos se asocian al flujo. Los límites: diez documentos son pocos, no son los mismos documentos
+ni la misma semana, y falta el resultado de errores.
+
+**Borrador reescrito.** «En tres semanas, mi tiempo de registro bajó de 4 a 2,5 minutos por documento, 1,5 minutos menos. No alcancé la
+meta de 2 minutos. Parte de la mejora viene de la práctica: sin IA, en la última semana, tardé 3,2 minutos, así que el flujo me ahorra
+cerca de 0,7 minutos por documento. Todavía no tengo el resultado de los errores de clasificación, así que no puedo decir si mejoró la
+calidad».
+
+**Mejora.** Escanear los documentos con la función de escaneo del celular en vez de fotografiarlos, y agregar a la plantilla «si no
+puedes leer un dato, escribe "ilegible" en vez de adivinarlo». Por qué: las fotos borrosas fueron los casos que más le costaron. Cómo se
+mide: en el próximo ciclo, tiempo y errores de los documentos que llegan como foto, medidos aparte.
+
+**Guion del pitch**
+
+1. Apertura: «¿Cuánto tarda la oficina en encontrar una factura cuando un proveedor pregunta por su pago?».
+2. Problema: «Registro facturas, órdenes de compra y contratos a mano. Medí 30 copias: 4 minutos por documento y 1 de cada 10 con el
+   tipo equivocado».
+3. Solución: «Probé un registro con ayuda de Gemini, solo con copias sin datos sensibles. Gemini propone el tipo, la fecha y el emisor,
+   y yo reviso cada registro antes de guardarlo».
+4. Evidencia: «En tres semanas bajé de 4 a 2,5 minutos por documento. Mi meta era 2, y no llegué».
+5. Límites y mejoras: «Una parte es práctica: sin IA, al final, tardaba 3,2. El flujo me ahorra cerca de 0,7 minutos por documento.
+   Todavía no tengo el dato de errores. Las fotos borrosas fueron lo más difícil: voy a escanearlas en vez de fotografiarlas».
+6. Llamado a la acción: «Le pido autorización para un segundo ciclo de tres semanas, con los documentos reales, revisando cada registro
+   y midiendo también los errores. Puedo mostrarle la ficha del flujo».
+
+Línea final: «Duró 2 minutos y 40 segundos leído en voz alta. Tras la prueba de las dos frases, cambié "flujo" por "registro con ayuda
+de Gemini", porque mi colega no entendía qué era un flujo».
+
+**Errores frecuentes**
+
+- Escribir que la meta «casi» se cumplió sin decir que no se alcanzó, o inventar un resultado de errores.
+- Atribuirle al flujo los 1,5 minutos, sin usar los 3,2 minutos sin IA, o dejar los límites en la última línea.
+- Redondear cifras que cambian el mensaje, como «ahorro 2 minutos», o proponer «usar una IA mejor» sin decir cómo se medirá.
+
+## Autoevaluación 2 · El cierre de tu proyecto: resultados, pitch y portafolio
 cubre: H1, C1, C2
 fuentes: F-M6-15, F-M6-16
-entrega: tarea
+entrega: autoevaluacion
 
 ### Instrucción general
 
 Vas a comparar los resultados de tu proyecto con la línea base, contarlos en un pitch de 3 minutos y elegir las piezas de tu
-portafolio. Esta actividad reúne los hitos 6c y 6d, el cierre de tu proyecto del curso. Es una actividad formativa: no lleva nota.
-La subes como tarea en el aula (un documento, la grabación del pitch como archivo o enlace, y el portafolio) y, antes de enviarla,
-revisas tu trabajo con la rúbrica de autoevaluación del final. Solo lo ven tú y el facilitador, porque trabajas con los resultados
-reales de tu proyecto.
+portafolio. Esta actividad reúne los hitos 6c y 6d, el cierre de tu proyecto del curso. Es una autoevaluación: no se envía ni lleva
+nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de
+autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos
+inventados.
 
 ### Situación
 
@@ -94,15 +137,14 @@ confidencial de tu empresa.
 7. Antes de mostrarlo, revisa que el portafolio cumpla las licencias y atribuciones de cada herramienta y que indique dónde usaste IA
    y qué revisaste tú.
 
-### Lo que entregas
+### Lo que preparas
 
-Subes en la tarea un documento con la tabla de resultados, las observaciones, los factores externos, las propuestas de
-mejora y tu autocrítica; el guion y la grabación del pitch, y el portafolio con sus notas de reflexión. Suma tu autoevaluación: el
-nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
+Deja listos un documento con la tabla de resultados, las observaciones, los factores externos, las propuestas de mejora y tu
+autocrítica; el guion y la grabación del pitch, y el portafolio con sus notas de reflexión.
 
 ### Rúbrica de autoevaluación
 
-Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
+Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
 | Criterio | Lo logré | Lo logré en parte | Aún no |
 |---|---|---|---|
@@ -111,7 +153,55 @@ Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel que
 | Comunica en un pitch de 3 minutos | Tu grabación dura 3 minutos o menos, dice cuánto cambió cada indicador frente a la línea base, nombra al menos un límite, usa lenguaje simple y cierra con un llamado a la acción. | La grabación está, pero se pasa de 3 minutos, omite un indicador o no nombra un límite. | No hay grabación, o no da resultados frente a la línea base. |
 | Arma el portafolio | Tu portafolio tiene de tres a cinco piezas, cada una con su nota de reflexión, indica dónde usaste IA y qué revisaste, respeta licencias y no trae datos personales. | El portafolio está, pero alguna pieza no tiene nota o no indica dónde usaste IA. | No hay portafolio, o trae datos personales o información confidencial. |
 
-Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de seguir con el tema siguiente.
+
+### Respuesta modelo
+
+Este es un ejemplo resuelto con el cierre de Andrés, encargado de bodega, que presenta a su jefatura su flujo de avisos de atraso.
+Tus cifras serán otras, porque salen de tu propio plan de medición.
+
+**Resultados en cuatro semanas**
+
+| Indicador | Línea base | Meta | Resultado | Diferencia | ¿Se cumplió? |
+|---|---|---|---|---|---|
+| Avisos el mismo día | 45 % | 90 % | 89 % (25 de 28) | +44 puntos | No: quedó a 1 punto |
+| Tiempo por aviso | 12 min | 5 min | 5 min | 7 min menos | Sí |
+| Avisos enviados con error | 10 % | 0 % | 0 % | 10 puntos menos | Sí |
+| Claridad (rúbrica de 1 a 4, aplicada por ventas) | 2,5 | 3,5 | 3,4 | +0,9 | No: quedó a 0,1 |
+
+**Observaciones y factor externo.** Su revisión detectó cuatro borradores con fecha equivocada antes de enviarlos. Un atraso sin fecha
+confirmada llevó a la v3 de la plantilla. La rúbrica de claridad se aplicó solo dos veces. Factor externo: en dos de las cuatro semanas
+hubo menos atrasos, porque ya funcionaba la reserva de cajas, y con menos avisos tenía más tiempo para cada uno.
+
+**Decisiones y mejoras.** Adopta la revisión de pedido y fecha antes de enviar. Descarta que la IA proponga fechas: el riesgo de que las
+invente no compensa. Mejoras: aplicar la rúbrica de claridad cada semana y medir si pasa de 3,4; probar el flujo en toda la bodega
+durante un ciclo y medir otra vez el porcentaje de avisos el mismo día.
+
+**Autocrítica.** «Aprendí que el flujo ahorra tiempo, pero que la claridad depende de mi revisión. Haría distinto la rúbrica de
+claridad: la definí tarde y ventas la aplicó solo dos veces».
+
+**Pitch, en seis partes.** (1) «¿Qué siente un cliente que espera un pedido que no llega?». (2) «Hoy, de cada 10 atrasos, solo 4 o 5 se
+avisaban el mismo día». (3) «La IA arma el borrador y yo reviso pedido y fecha antes de enviar». (4) «Pasamos de 45 % a 89 % de avisos
+el mismo día, y de 12 a 5 minutos por aviso; los avisos con error bajaron de 10 % a 0 % y la claridad, según ventas, subió de 2,5 a
+3,4 de 4». (5) «Hubo menos atrasos en dos semanas, así que parte de la mejora
+puede no ser del flujo». (6) «Propongo usar el flujo en toda la bodega desde enero».
+
+**Portafolio para su jefatura.** Primero, la tabla de resultados y el plan para extender el flujo; después, la ficha «Avisos atraso ·
+Bodega · v3», la bitácora de decisiones y la plantilla de avisos de despacho de su biblioteca. Cada pieza lleva su nota; por ejemplo, la
+de la bitácora: «La incluyo porque muestra por qué dejé de pedirle fechas a la IA. Muestra criterio para decidir riesgos. Aprendí a
+anotar las decisiones cuando las tomo. Haría distinto: empezarla desde el primer día». Indica que la IA redacta los borradores y que él
+revisa pedido y fecha.
+
+**Qué debe tener la tuya.** Una tabla con cada indicador frente a su línea base y su meta, con número, unidad y periodo, medido como
+dice tu plan; tres observaciones, al menos un factor externo, una decisión por parte del flujo, dos o tres mejoras medibles y tu
+autocrítica; una grabación de 3 minutos o menos que nombre al menos un límite y cierre con un pedido concreto, y un portafolio de tres a
+cinco piezas con nota, sin datos personales y con lo que hizo la IA y lo que revisaste tú.
+
+**Errores frecuentes**
+
+- Dar el resultado en otra unidad que la línea base, o cambiar la fuente sin avisarlo.
+- No nombrar ningún factor externo, o proponer mejoras sin decir cómo se medirán.
+- Pasarse de 3 minutos, hablar del flujo sin dar los números, o meter en el portafolio todo lo que hiciste en vez de elegir.
 
 ## Referencias bibliográficas
 

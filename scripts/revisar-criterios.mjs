@@ -96,7 +96,7 @@ for (const f of listar(path.join(RAIZ, 'actividades'), '.md')) {
   if (!pasa(id)) continue;
   const md = leer(f);
   const res = revisarTexto(id, md.split(/^## Referencias bibliográficas/m)[0]);
-  const acts = md.split(/^## Actividad \d/m).slice(1);
+  const acts = md.split(/^## (?:Actividad|Autoevaluación) \d/m).slice(1);
   if (acts.length !== 2) res.push(['error', `${acts.length} actividades (deben ser 2)`]);
   acts.forEach((a, k) => {
     const fu = /^fuentes:[ \t]*(.+)$/m.exec(a);

@@ -1,17 +1,16 @@
 # Actividades de aplicación práctica · M6-AE2 · Implementar el flujo
 
-## Actividad 1 · Un ciclo de prueba con documentos inventados
+## Autoevaluación 1 · Un ciclo de prueba con documentos inventados
 cubre: H1, C1, C2
 fuentes: F-M6-04, F-M6-08
-entrega: tarea
+entrega: autoevaluacion
 
 ### Instrucción general
 
 Vas a hacer con Camila una ronda completa de prueba de su flujo de registro: definir quién revisa, probar con cinco documentos
 inventados, ajustar la plantilla y dejar registro de la decisión. Así practicas la implementación con supervisión y la documentación
-que pide tu propio flujo. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, con tu planilla, las plantillas,
-la tabla de versiones y la bitácora como capturas o archivos adjuntos, y, antes de enviarla, revisas tu trabajo con la rúbrica de
-autoevaluación del final.
+que pide tu propio flujo. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta
+modelo del final y revisa tu trabajo con la rúbrica de autoevaluación.
 
 ### Situación
 
@@ -46,16 +45,15 @@ escala, se estudia qué pasó y recién después se adoptan, así que esta ronda
 7. Escribe una entrada en la bitácora de decisiones con fecha, título, contexto, decisión, consecuencias y estado. Si después cambias
    de idea, no reescribas esa entrada: agrega una nueva y marca la anterior como reemplazada [@F-M6-08].
 
-### Lo que entregas
+### Lo que preparas
 
-Subes en la tarea la planilla con los resultados de las dos rondas, el punto de supervisión por escrito, las plantillas
-v1 y v2, la tabla de versiones y la entrada de la bitácora. Agrega un párrafo breve sobre qué error habría llegado a la planilla de
-registro si nadie hubiera revisado. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo
-justifique.
+Deja lista la planilla con los resultados de las dos rondas, el punto de supervisión por escrito, las plantillas v1 y v2, la tabla de
+versiones y la entrada de la bitácora. Agrega un párrafo breve sobre qué error habría llegado a la planilla de registro si nadie
+hubiera revisado.
 
 ### Rúbrica de autoevaluación
 
-Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
+Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
 | Criterio | Lo logré | Lo logré en parte | Aún no |
 |---|---|---|---|
@@ -64,19 +62,59 @@ Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel que
 | Versiona la plantilla | Tu v1 sigue guardada, la v2 corrige la causa y tu tabla de versiones muestra las dos probadas con los mismos cinco casos. | Tienes v1 y v2, pero la tabla no muestra los resultados de ambas o probaste la v2 con otros casos. | Tienes una sola versión, o reemplazaste la v1. |
 | Documenta la decisión | Tu entrada de la bitácora tiene fecha, título, contexto, decisión, consecuencias buenas y malas, y estado. | La entrada está, pero le falta uno de sus elementos o solo nombra consecuencias buenas. | No hay entrada de bitácora. |
 
-Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de seguir con el tema siguiente.
 
-## Actividad 2 · Implementa y documenta tu propio flujo
+### Respuesta modelo
+
+**Punto de supervisión, escrito antes de probar.** «Revisa Camila, después de cada respuesta del asistente y antes de copiar la fila a
+la planilla de registro. Revisa cada campo contra el documento original. El criterio es que cada dato esté escrito en el documento; si
+no está, va "sin dato". Si algo falla, corrige a mano, anota el caso y no guarda la fila hasta que esté bien».
+
+**Lo esperado y lo obtenido con la v1.** Tus resultados pueden variar; esta es una ronda posible.
+
+| Documento | Esperado | Obtenido con v1 | Causa |
+|---|---|---|---|
+| Factura 1187 | Factura · 03-11-2026 · Proveedor A · 1187 · $412.000 | Correcto | — |
+| Orden de compra 2051 | Orden de compra · 04-11-2026 · oficina de administración · 2051 · sin dato | Emisor: Proveedor B (es el destinatario) | Plantilla: no dice que use solo lo escrito |
+| Contrato de arriendo | Contrato · sin dato · Proveedor C o la constructora · sin dato · sin dato | Agregó la fecha de hoy | Plantilla: no dice qué hacer si falta un dato |
+| Factura 1190 | Factura · sin dato · Proveedor A · 1190 · $98.500 | Inventó una fecha | Plantilla: no dice qué hacer si falta un dato |
+| Guía de despacho 330 | Otro tipo, sin registrar | La registró como factura | Plantilla: no dice qué hacer si no calza |
+
+**Plantilla v2.** «Lee este documento y devuélveme una fila de tabla con tipo (factura, orden de compra o contrato), fecha (DD-MM-AAAA),
+emisor, número y monto. Usa solo lo que dice el documento. Si un dato no está, escribe "sin dato". Si el documento no es factura, orden
+de compra ni contrato, escribe "otro tipo" y no completes los demás campos».
+
+**Tabla de versiones**
+
+| Versión | Fecha | Herramienta | Qué cambió | Casos sin errores |
+|---|---|---|---|---|
+| v1 | 05-11-2026 | Gemini | Plantilla inicial | 1 de 5 |
+| v2 | 05-11-2026 | Gemini | Solo datos del documento, «sin dato», «otro tipo» y formato de fecha | 5 de 5 |
+
+**Bitácora.** «05-11-2026 · Pedir "sin dato" en vez de completar. Contexto: la v1 inventó la fecha en dos documentos y registró la guía de
+despacho como factura. Decisión: la v2 obliga a escribir "sin dato" y a marcar "otro tipo". Consecuencias: no entran datos falsos, pero
+quedan más campos por completar a mano. Estado: vigente».
+
+**Si nadie revisaba.** La factura 1190 habría quedado con una fecha que no existe y la guía de despacho habría entrado como factura, así
+que la planilla tendría un documento de más y una fecha falsa que nadie podría verificar.
+
+**Errores frecuentes**
+
+- Marcar como correcta una fecha que el documento no trae, sobre todo en el contrato y en la factura 1190.
+- Culpar al asistente sin ubicar la causa en la plantilla, o escribir el punto de supervisión después de las pruebas.
+- Sobrescribir la v1, o probar la v2 con otros documentos, lo que impide comparar.
+
+## Autoevaluación 2 · Implementa y documenta tu propio flujo
 cubre: H1, C1, C2
 fuentes: F-M6-07, F-M5-12
-entrega: tarea
+entrega: autoevaluacion
 
 ### Instrucción general
 
 Vas a llevar tu prototipo a un flujo completo que funcione en tu trabajo, con supervisión humana, pruebas y registro de cada
-decisión. Es el Hito 6b de tu proyecto del curso. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, en un
-documento o con el enlace a tu carpeta compartida, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del
-final. Solo lo ven tú y el facilitador, porque trabajas con tu flujo real.
+decisión. Es el Hito 6b de tu proyecto del curso. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta,
+compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con
+tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
 
@@ -101,16 +139,15 @@ necesita y solo lo que tu empresa permite.
 7. Registra en tu bitácora al menos tres decisiones: la herramienta, el punto de supervisión y un riesgo que decidiste controlar.
 8. Comparte la ficha con tu jefatura o tu tutor y pregúntale si, solo leyéndola, entiende qué hace el flujo y quién lo revisa.
 
-### Lo que entregas
+### Lo que preparas
 
-Subes en la tarea un documento, o el enlace a una carpeta compartida, con el flujo en pasos, la ficha, la tabla de riesgos,
-la tabla de versiones de tu plantilla principal, la bitácora con al menos tres entradas y la evidencia de las pruebas, con capturas
-que no muestren datos personales ni información de tu empresa. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la
-rúbrica, con una línea que lo justifique.
+Deja listos, en un documento o en una carpeta, el flujo en pasos, la ficha, la tabla de riesgos, la tabla de versiones de tu plantilla
+principal, la bitácora con al menos tres entradas y la evidencia de las pruebas, con capturas que no muestren datos personales ni
+información de tu empresa.
 
 ### Rúbrica de autoevaluación
 
-Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
+Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
 | Criterio | Lo logré | Lo logré en parte | Aún no |
 |---|---|---|---|
@@ -119,7 +156,68 @@ Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel que
 | Prueba y ajusta | Tus diez casos, con al menos tres difíciles, tienen su resultado, y hiciste al menos un ajuste con su causa y una versión nueva probada con los mismos diez casos. | Las pruebas están, pero tienes menos de diez casos o de tres difíciles, o probaste la versión nueva con otros casos. | No hay evidencia de pruebas ni de ajustes. |
 | Documenta decisiones y ajustes | Tu ficha tiene sus ocho campos, una convención de nombres y el último ajuste; tu bitácora tiene al menos tres entradas con fecha, contexto, decisión y consecuencias, y ninguna evidencia muestra datos personales. | La ficha o la bitácora están incompletas, o la ficha no refleja el último ajuste. | No hay ficha ni bitácora, o tu evidencia muestra datos personales o de la empresa. |
 
-Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de seguir con el tema siguiente.
+
+### Respuesta modelo
+
+Este es un ejemplo resuelto con el flujo de Andrés, encargado de bodega, que avisa a los clientes cuando un despacho se atrasa. Tu
+flujo será distinto, pero debe tener las mismas piezas.
+
+**Flujo en pasos.** Usa Make en el computador de la bodega; su plan gratuito da 1.000 créditos al mes y, si se acaban, el escenario se
+detiene.
+
+1. Andrés marca un despacho como «atrasado» en la planilla (disparador).
+2. Make lee la fila: número de pedido, empresa cliente y nueva fecha (herramienta).
+3. Un módulo de IA redacta el aviso con la plantilla de su biblioteca y lo deja en la columna «Borrador» (IA).
+4. Andrés compara pedido y fecha con la planilla, corrige y envía el correo (revisión humana).
+5. Anota la hora de envío, que alimenta su indicador (registro).
+
+**Punto de supervisión.** Revisa Andrés, antes de enviar cada aviso. Revisa pedido, empresa, fecha nueva y tono. Criterio: coincide con
+la planilla y no promete nada que no esté confirmado. Si falla, corrige a mano y anota el error en la bitácora. Nivel: participación
+humana en cada aviso; la jefatura tiene el mando humano sobre si el flujo se sigue usando.
+
+**Riesgos y controles**
+
+| Riesgo | Control |
+|---|---|
+| La IA inventa una fecha | Revisión de cada borrador contra la planilla |
+| Una fecha anotada en otro formato se lee al revés | La plantilla pide la fecha como DD-MM-AAAA y la revisión la compara |
+| A la IA llegan datos de contacto del cliente | Solo pasan el número de pedido, la empresa y la fecha |
+| Se acaban los créditos o Make falla | Contingencia: escribe los avisos con la plantilla manual de su biblioteca |
+| Cambia la plantilla y algo deja de funcionar | Prueba de nuevo con los mismos diez casos antes de usarla |
+
+**Pruebas y ajustes.** Diez casos con despachos ya resueltos, entre ellos tres difíciles: un atraso de un día, uno sin fecha nueva
+confirmada y uno de un cliente nuevo. En el primer ciclo, dos borradores salieron con la fecha en formato inglés: la v2 pide la fecha
+como DD-MM-AAAA. Después, en el caso sin fecha confirmada, el borrador inventó «llegará el lunes». La v3 agrega: «Si no hay fecha nueva,
+escribe que avisarás apenas esté confirmada». Repitió los mismos diez casos con la v3.
+
+| Versión | Herramienta | Qué cambió | Resultado |
+|---|---|---|---|
+| v1 | Make | Plantilla del prototipo | Dos fechas en formato inglés |
+| v2 | Make | Pide la fecha como DD-MM-AAAA | Inventa una fecha cuando no está confirmada |
+| v3 | Make | Si no hay fecha, avisa que se confirmará | Sin fechas inventadas en los diez casos |
+
+**Ficha.** «Avisos atraso · Bodega · v3». Propósito: avisar el mismo día a los clientes cuando un despacho se atrasa. Entradas: pedido,
+empresa y nueva fecha desde la planilla de despachos. Salidas: un borrador en la columna «Borrador» y el correo enviado. Dependencias:
+Make y sus créditos, la planilla y la plantilla de aviso. Supervisión: la de arriba. Contingencia: plantilla manual. Responsable: Andrés,
+con la fecha de la última actualización.
+
+**Bitácora.** Tres entradas: elegir Make porque trabaja en el computador de la bodega; revisar cada aviso antes de enviarlo; no dejar
+que la IA proponga fechas sin confirmar. Cada entrada lleva su fecha y un título; por ejemplo, la tercera, «Fechas sin confirmar»:
+«Contexto: en una prueba el borrador inventó "llegará el lunes". Decisión: la v3
+escribe que se avisará apenas esté confirmada. Consecuencias: no salen fechas falsas, pero el cliente recibe un aviso sin fecha y hay
+que escribirle de nuevo. Estado: vigente».
+
+**Qué debe tener la tuya.** Un flujo de tres a cinco pasos marcados por tipo, con los límites del plan gratuito; cada punto de
+supervisión con quién, cuándo, qué, con qué criterio, qué hace si falla y su nivel; al menos cuatro riesgos con control y una
+contingencia que no dependa de la herramienta; diez casos, tres difíciles, y una versión nueva probada con los mismos casos; una ficha
+de ocho campos al día con el último ajuste, y tres entradas de bitácora con consecuencias buenas y malas.
+
+**Errores frecuentes**
+
+- Escribir «reviso todo» sin criterio, o dejar un punto de supervisión sin responsable.
+- Poner como plan de contingencia «volver a correr el flujo», que depende de la misma herramienta.
+- Escribir la ficha al final y de memoria, sin el último ajuste, o mostrar datos personales o de la empresa en las capturas.
 
 ## Referencias bibliográficas
 

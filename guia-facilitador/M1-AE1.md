@@ -1,10 +1,10 @@
 # Guía del facilitador · Fundamentos de IA generativa
 
-## Actividad 1 · El semáforo de la semana de Camila
+## Autoevaluación 1 · El semáforo de la semana de Camila
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si la prueba usa datos reales de personas en vez de datos inventados.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no entiende por qué el horario de la oficina pública no va en verde.
 
 ### Pauta de referencia
 
@@ -22,11 +22,11 @@ Si lo logró: «Tu semáforo está bien argumentado: cada color se apoya en cóm
 
 Si lo logró en parte: «Los colores están bien pensados, pero tu párrafo aún no explica cómo produce el asistente la respuesta. Agrega que arma el texto eligiendo continuaciones probables a partir de patrones y que solo usa lo que le entregas. Con eso tu explicación a Camila queda completa.»
 
-## Actividad 2 · Tres usos y dos límites en tu cargo
+## Autoevaluación 2 · Tres usos y dos límites en tu cargo
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación; solo la ven tú y ella, porque trabaja con tareas reales de su cargo. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si marca «Lo logré» en la prueba y la copia trae datos reales sin anonimizar.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien propone límites que no son del modelo o controles vagos. Si alguien comparte su trabajo en el foro, recuérdale quitar antes nombres, RUT, montos y datos de clientes.
 
 ### Pauta de referencia
 

@@ -1,16 +1,16 @@
 # Actividades de aplicación práctica · M5-AE3 · Supervisión humana y riesgos
 
-## Actividad 1 · Controles para el flujo de reclamos de Paula
+## Autoevaluación 1 · Controles para el flujo de reclamos de Paula
 cubre: H1, C1, C2
 fuentes: F-M5-14, F-M5-12
-entrega: tarea
+entrega: autoevaluacion
 
 ### Instrucción general
 
 Vas a ayudar a Paula a decidir dónde revisa una persona en su flujo de reclamos y qué hacer si algo falla. Con un caso ficticio
-practicas el mapa de riesgos, los puntos de control y el plan de contingencia que después aplicarás a tu flujo. Es una actividad
-formativa: no lleva nota. La subes como tarea en el aula, con tu tabla, tus criterios, las columnas y el plan en el texto de la tarea o
-en un documento adjunto, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final.
+practicas el mapa de riesgos, los puntos de control y el plan de contingencia que después aplicarás a tu flujo. Es una
+autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu
+trabajo con la rúbrica de autoevaluación.
 
 ### Situación
 
@@ -37,16 +37,15 @@ Para decidir cuánta revisión pide cada paso, usa la regla de las directrices �
 supervisión posible, mayores deben ser las verificaciones [@F-M5-12]. Fíjate en que el correo al cliente es el paso más difícil de
 revertir, porque un correo enviado no se puede recoger.
 
-### Lo que entregas
+### Lo que preparas
 
-Subes en la tarea una tabla con los cinco pasos, su riesgo, si lleva punto de control, la forma de supervisión y la
-razón. Debajo, los criterios de aprobación del punto principal, las columnas nuevas de la planilla y el plan de contingencia con las
-seis respuestas, con un responsable con nombre y un reemplazo para cuando esa persona no esté. Suma tu autoevaluación: el nivel que
-marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
+Deja lista una tabla con los cinco pasos, su riesgo, si lleva punto de control, la forma de supervisión y la razón. Debajo, los
+criterios de aprobación del punto principal, las columnas nuevas de la planilla y el plan de contingencia con las seis respuestas, con
+un responsable con nombre y un reemplazo para cuando esa persona no esté.
 
 ### Rúbrica de autoevaluación
 
-Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
+Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
 | Criterio | Lo logré | Lo logré en parte | Aún no |
 |---|---|---|---|
@@ -55,19 +54,61 @@ Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel que
 | Fija criterios de aprobación y registro | Tienes tres o cuatro criterios que se responden con sí o no, alguno apunta al error que el flujo ya tuvo, y tus columnas incluyen «Dato original», «Estado» y «Revisó». | Los criterios están, pero alguno no se responde con sí o no, o te faltan columnas. | No hay criterios de aprobación ni columnas de supervisión. |
 | Elabora el plan de contingencia | Tu plan responde las seis preguntas con acciones concretas: dónde se pausa el flujo, cómo se sigue a mano, cómo se corrige lo que ya salió y quién responde, con nombre y reemplazo. | Respondes las seis preguntas, pero alguna con una acción vaga o sin responsable con nombre o reemplazo. | Te faltan varias respuestas, o el responsable es «el sistema». |
 
-Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de seguir con el tema siguiente.
 
-## Actividad 2 · Supervisión y contingencia para tu flujo
+### Respuesta modelo
+
+**Mapa de riesgos y puntos de control**
+
+| Paso | Qué podría salir mal | Tipo | Si nadie lo nota | Nivel | Punto de control y forma |
+|---|---|---|---|---|---|
+| 1. Llega el reclamo por el formulario | El formulario pide más datos del cliente de los necesarios | Privacidad | Se guardan datos personales que nadie usa | Bajo | No; se revisa una vez qué pide el formulario |
+| 2. La IA clasifica y resume | Deja en «baja» reclamos graves con faltas o en tono informal, o el resumen cambia lo que pide el cliente | Sesgo y error en cadena | Un reclamo grave espera días | Alto; también vale «decide algo importante sobre una persona», porque fija cuándo la atienden | Sí: participación humana, una persona aprueba cada urgencia antes de que se use, así la decisión queda en sus manos |
+| 3. Fila en la planilla | Se pierde el texto original o se reemplazan datos | Error en cadena | No se puede reconstruir qué pasó | Bajo | Control humano: revisar una muestra del registro una vez al día |
+| 4. El equipo atiende por urgencia | Nadie lee lo que quedó en «baja» | Sesgo | Se repite el error que el flujo ya tuvo | Alto | Sí: revisión diaria de todos los reclamos en «baja» |
+| 5. Correo automático al cliente | Promete un plazo según una urgencia mal puesta | Error en cadena | El cliente espera un plazo que no se cumplirá, y el correo no se puede recoger | Alto | Sí: el correo sale solo cuando la urgencia está aprobada (participación humana) |
+
+Además, la jefatura tiene el mando humano: decide cada mes si el flujo sigue en uso.
+
+**Criterios de aprobación del punto principal (antes del correo)**
+
+- ¿La urgencia calza con lo que pide el cliente, sin importar cómo está escrito?
+- ¿El resumen dice lo mismo que el reclamo?
+- ¿El plazo del correo corresponde a la urgencia aprobada?
+- ¿Revisé hoy los reclamos en «baja»?
+
+**Columnas nuevas.** «Dato original» (el texto del reclamo), «Urgencia de la IA», «Urgencia aprobada», «Estado» («por revisar»,
+«aprobado» o «corregido»), «Revisó» y «Fecha de revisión».
+
+**Plan de contingencia**
+
+1. Cómo se dan cuenta: por la revisión diaria de los reclamos en «baja», por un cliente que reclama un plazo incumplido o por un error
+   en el historial de ejecuciones.
+2. Cómo lo detienen: Paula pausa el flujo en la herramienta; tiene permiso para hacerlo.
+3. Cómo sigue el trabajo: el equipo lee los reclamos directo del formulario, los ordena a mano y responde con una plantilla de correo.
+4. Cómo recuperan: revisan los reclamos desde el último día en que todo funcionó, los reclasifican y escriben con el plazo correcto a los
+   clientes que recibieron uno equivocado.
+5. A quién avisan: a la jefatura, al equipo y a los clientes afectados.
+6. Quién responde: Paula; si no está, Javiera, compañera de su equipo.
+
+**Errores frecuentes**
+
+- Poner el punto de control después del correo al cliente, cuando el plazo equivocado ya salió.
+- Olvidar el sesgo que el flujo ya tuvo y no incluir ningún criterio sobre los reclamos en «baja».
+- Escribir «el sistema avisa» como responsable, o no decir cómo se corrigen los correos que ya se enviaron.
+
+## Autoevaluación 2 · Supervisión y contingencia para tu flujo
 cubre: H1, C1, C2
 fuentes: F-M5-13, F-M5-06
-entrega: tarea
+entrega: autoevaluacion
 
 ### Instrucción general
 
 Vas a agregar a tu flujo los controles humanos y el plan de contingencia que necesita antes de pensar en usarlo con datos reales, y
-vas a medir si esos controles detectan errores. Con esto completas tu prototipo, que es el Hito 5 de tu proyecto del curso. Es una actividad formativa: no lleva nota. La subes como
-tarea en el aula, en un documento con capturas, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final.
-Solo lo ven tú y el facilitador, porque trabajas con tu propio flujo.
+vas a medir si esos controles detectan errores. Con esto completas tu prototipo, que es el Hito 5 de tu proyecto del curso. Es una
+autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu
+trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y
+datos de clientes por datos inventados.
 
 ### Situación
 
@@ -91,15 +132,14 @@ Sigue trabajando en tu cuenta de práctica, con datos inventados o con copias si
 
 Si alguna respuesta del plan es «no sé», ese es el punto débil que tienes que resolver antes de mostrarle el flujo a tu jefatura.
 
-### Lo que entregas
+### Lo que preparas
 
-Subes en la tarea tu mapa de riesgos con los puntos de control, los criterios de aprobación, una captura de la planilla con
-las columnas de supervisión y datos de prueba, el plan de contingencia y la tabla con y sin control con tu conclusión. Con esto
-completas tu prototipo. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
+Deja listos tu mapa de riesgos con los puntos de control, los criterios de aprobación, una captura de la planilla con las columnas de
+supervisión y datos de prueba, el plan de contingencia y la tabla con y sin control con tu conclusión. Con esto completas tu prototipo.
 
 ### Rúbrica de autoevaluación
 
-Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
+Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
 | Criterio | Lo logré | Lo logré en parte | Aún no |
 |---|---|---|---|
@@ -108,7 +148,59 @@ Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel que
 | Evalúa el efecto del control | Tienes diez casos con tres errores sembrados, tu tabla compara con y sin control en errores que llegaron, falsas alarmas y tiempo, y tu conclusión dice si el control vale lo que cuesta. | La prueba está, pero te falta una de las tres medidas o tu conclusión no dice si el control vale lo que cuesta. | No hay prueba con y sin control. |
 | Elabora el plan de contingencia | Las seis respuestas son concretas para tu flujo, con la forma manual de seguir y un responsable con nombre y reemplazo. | Están las seis respuestas, pero alguna es vaga o te falta el reemplazo. | Te faltan varias respuestas, o hay respuestas «no sé» sin resolver. |
 
-Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de seguir con el tema siguiente.
+
+### Respuesta modelo
+
+Este es un ejemplo resuelto con el flujo de Andrés, encargado de bodega: cuando marca un despacho como «atrasado» en la planilla, la IA
+redacta el aviso al cliente y lo deja en la columna «Borrador». Tu flujo será distinto, pero la lógica es la misma.
+
+**Mapa de riesgos y puntos de control**
+
+| Paso | Riesgo | Nivel | Control |
+|---|---|---|---|
+| Andrés marca el despacho como «atrasado» | Marca la fila equivocada | Bajo | Ninguno extra: el error se ve en el borrador |
+| La herramienta lee la fila | Una compañera anota la fecha en otro formato y el dato llega mal (error en cadena) | Alto | Se revisa en el punto de control del borrador |
+| La IA redacta el aviso | Lee la fecha al revés o inventa una que la planilla no dice | Alto | Participación humana: Andrés revisa cada borrador |
+| Andrés envía el aviso al cliente | Un aviso con fecha equivocada no se puede recoger | Alto | El aviso sale solo con estado «aprobado» |
+
+Ningún paso decide algo importante sobre una persona: el flujo informa una fecha que ya está en la planilla.
+
+**Criterios de aprobación.** ¿El número de pedido coincide con la planilla? ¿La fecha nueva es la misma de la planilla? ¿El aviso
+promete solo lo que está confirmado? ¿El tono es adecuado para el cliente?
+
+**Registro.** Columnas «Fecha», «Dato original», «Resultado de la IA», «Estado» (parte en «por revisar»), «Revisó» y «Observación».
+Por ejemplo: pedido 415, nueva fecha 05-12; la IA escribió «Llegará el 12 de mayo»; estado «Corregido»; observación «La IA leyó la fecha
+al revés».
+
+**Prueba con y sin control.** Diez casos ficticios, con tres errores sembrados: una fecha ambigua, una fila con el teléfono del
+contacto en la observación y un despacho que no debía generar aviso.
+
+| Indicador | Sin control | Con control |
+|---|---|---|
+| Errores que llegaron al resultado | 3 de 3 | 0 de 3 |
+| Falsas alarmas | — | 1 |
+| Tiempo de revisión | — | 6 minutos |
+
+Conclusión: «El control detectó los tres errores con una falsa alarma y 6 minutos de revisión. Vale la pena: corregir un aviso ya
+enviado cuesta más que eso».
+
+**Plan de contingencia.** Andrés se da cuenta si ve un borrador sin fecha, una fecha distinta a la de la planilla o el reclamo de un
+cliente. Pausa el escenario desde su cuenta y, mientras tanto, escribe los avisos con la plantilla manual de su biblioteca. Después
+compara los avisos de la semana con la planilla y, si uno salió mal, escribe al cliente para corregirlo. Avisa a su jefatura y a ventas.
+Responde él y, si está de vacaciones, su compañera de turno.
+
+**Qué debe tener la tuya.** Un mapa que cubra cada paso de tu flujo, con puntos de control justificados por el riesgo y una revisión
+antes de todo lo que sale hacia otras personas; criterios de sí o no; una captura de tu planilla con las columnas de supervisión y el
+valor «por revisar»; la prueba con diez casos y tres errores sembrados, medida en errores, falsas alarmas y tiempo, y un plan con las
+seis respuestas, la forma manual de seguir y un responsable con nombre y reemplazo. Comprueba también que tu flujo agrega filas y no
+reemplaza datos.
+
+**Errores frecuentes**
+
+- Dejar sin revisión lo que sale hacia otras personas, o dejar que el flujo decida sobre una persona.
+- No medir el tiempo de revisión, o sembrar errores que tus criterios no pueden detectar sin comentarlo.
+- Escribir un plan que, para seguir trabajando, depende de la misma herramienta que falló, o responder «el equipo» en vez de una persona.
 
 ## Referencias bibliográficas
 

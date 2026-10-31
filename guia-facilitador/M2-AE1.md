@@ -1,10 +1,10 @@
 # Guía del facilitador · Redacción y comunicación con IA
 
-## Actividad 1 · Una reunión, tres textos
+## Autoevaluación 1 · Una reunión, tres textos
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, en un documento adjunto o pegado en el texto de la entrega, junto con su autoevaluación. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si marca «Lo logré» en la fidelidad a las notas y la minuta trae una fecha inventada.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe qué hacer con los vacíos de las notas.
 
 ### Pauta de referencia
 
@@ -22,11 +22,11 @@ Si lo logró: «Los tres textos suenan distintos, como tienen que sonar: el corr
 
 Si lo logró en parte: «El correo y la minuta están bien ajustados, pero el informe parte contando la reunión. La gerenta necesita decidir: lleva al primer párrafo el resultado y tu recomendación, y deja el detalle para después.»
 
-## Actividad 2 · Un texto de tu semana, revisado antes de enviarlo
+## Autoevaluación 2 · Un texto de tu semana, revisado antes de enviarlo
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación; solo la ven tú y ella, porque trabaja con un texto real de su cargo. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si el texto conserva nombres o montos reales sin cambiar.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no distingue un error de hecho de uno de tono o registro. Si alguien comparte su trabajo en el foro, recuérdale quitar antes nombres, RUT, montos y datos de clientes.
 
 ### Pauta de referencia
 

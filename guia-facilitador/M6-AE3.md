@@ -1,10 +1,10 @@
 # Guía del facilitador · Resultados y aprendizajes
 
-## Actividad 1 · Los resultados de Camila, sin adornos
+## Autoevaluación 1 · Los resultados de Camila, sin adornos
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube como tarea en el aula su tabla, el borrador reescrito, la mejora, el guion y su autoevaluación. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si marcó «Lo logré» en la interpretación y le atribuye al flujo toda la mejora, o si completó el resultado de errores que no está en las notas.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar.
 
 ### Pauta de referencia
 
@@ -27,11 +27,11 @@ Si lo logró: «Tu borrador dice lo que pasó sin adornos: bajó 1,5 minutos, no
 
 Si lo logró en parte: «La tabla está bien calculada. En la interpretación, todavía le atribuyes al flujo toda la mejora. Usa los 3,2 minutos sin IA para separar lo que viene de la práctica y ajusta esa cifra en el guion.»
 
-## Actividad 2 · El cierre de tu proyecto: resultados, pitch y portafolio
+## Autoevaluación 2 · El cierre de tu proyecto: resultados, pitch y portafolio
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube como tarea en el aula un documento, la grabación del pitch como archivo o enlace, el portafolio y su autoevaluación. Solo lo ven ella y tú, porque trabaja con los resultados reales de su proyecto. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si la grabación o el portafolio muestran datos personales o información confidencial de la empresa: en ese caso, pídele que los reemplace. Como es el cierre del proyecto, verifica que los resultados correspondan a la misma tarea de su cargo que eligió al inicio del curso y a la línea base de su plan de medición.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar. Si alguien comparte en el foro datos de clientes, proveedores o compañeros, pídele que los reemplace por datos inventados.
 
 ### Pauta de referencia
 

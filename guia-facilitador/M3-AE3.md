@@ -1,10 +1,10 @@
 # Guía del facilitador · Organizar y presentar información
 
-## Actividad 1 · El informe de Andrés sobre los despachos atrasados
+## Autoevaluación 1 · El informe de Andrés sobre los despachos atrasados
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube el informe como tarea en el aula, como archivo adjunto o con un enlace, junto con su autoevaluación. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si marca «Lo logré» en las citas y falta la referencia del chat de Gemini. Si el enlace no abre, pídele en un comentario de la tarea que cambie los permisos de lectura.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien pregunta si tiene que citar la clasificación de Gemini o si puede recomendar alertas automáticas de stock.
 
 ### Pauta de referencia
 
@@ -32,11 +32,11 @@ Si lo logró: «Tu jefatura entiende lo importante con solo leer los mensajes cl
 
 Si lo logró en parte: «La estructura está bien, pero recomiendas alertas automáticas de stock, y tus fuentes solo las describen en un centro grande. Cámbiala por una medida que sí esté respaldada, como la reserva mínima, y di quién la aplica y desde cuándo.»
 
-## Actividad 2 · Un informe breve para tu jefatura
+## Autoevaluación 2 · Un informe breve para tu jefatura
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación; solo la ven tú y ella, porque trabaja con un tema de su cargo. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si el informe trae nombres, RUT o montos de clientes sin anonimizar. Como es el tercer hito del proyecto, verifica que el informe trate la misma tarea de su cargo que viene trabajando desde el primer hito.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta con un tema de su cargo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar. Como es el tercer hito del proyecto, si alguien consulta, ayúdale a mantener la misma tarea de su cargo que viene trabajando desde el primer hito, y recuérdale que lo que comparta en el foro vaya sin nombres, RUT ni montos de clientes.
 
 ### Pauta de referencia
 

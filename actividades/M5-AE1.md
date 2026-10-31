@@ -1,16 +1,15 @@
 # Actividades de aplicación práctica · M5-AE1 · Potencial de automatización
 
-## Actividad 1 · Las tareas de Rosa en la recepción
+## Autoevaluación 1 · Las tareas de Rosa en la recepción
 cubre: H1, C1, C2
 fuentes: F-H-14, F-M5-06
-entrega: tarea
+entrega: autoevaluacion
 
 ### Instrucción general
 
 Vas a revisar las tareas de Rosa para decidir cuáles conviene automatizar primero y cuáles no, con la matriz de impacto y riesgo. Así
-practicas con un caso ficticio el análisis que después harás con tu propio cargo. Es una actividad formativa: no lleva nota. La subes
-como tarea en el aula, con tu tabla y tu reflexión escritas en el texto de la tarea o en un documento adjunto, y, antes de enviarla,
-revisas tu trabajo con la rúbrica de autoevaluación del final.
+practicas con un caso ficticio el análisis que después harás con tu propio cargo. Es una autoevaluación: no se envía ni lleva nota.
+Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación.
 
 ### Situación
 
@@ -40,16 +39,15 @@ solo después automatizar [@F-M5-06]. En las notas de Rosa hay al menos una tare
 un flujo. Fíjate también en los recordatorios a pacientes: se repiten y siguen reglas, pero usan nombres, teléfonos y horas de
 atención, así que el riesgo pesa tanto como el impacto.
 
-### Lo que entregas
+### Lo que preparas
 
-Subes en la tarea una tabla con las tareas de Rosa, las tres o más candidatas marcadas, la respuesta de sí o no a cada
-pregunta de impacto y de riesgo, el cuadrante de cada una y su fundamento. Agrega al final dos o tres líneas sobre qué pregunta de
-Gemini te hizo cambiar algo y por qué, o por qué decidiste mantener tu clasificación. Suma tu autoevaluación: el nivel que marcaste en
-cada criterio de la rúbrica, con una línea que lo justifique.
+Deja lista una tabla con las tareas de Rosa, las tres o más candidatas marcadas, la respuesta de sí o no a cada pregunta de impacto y
+de riesgo, el cuadrante de cada una y su fundamento. Agrega al final dos o tres líneas sobre qué pregunta de Gemini te hizo cambiar
+algo y por qué, o por qué decidiste mantener tu clasificación.
 
 ### Rúbrica de autoevaluación
 
-Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
+Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
 | Criterio | Lo logré | Lo logré en parte | Aún no |
 |---|---|---|---|
@@ -58,18 +56,68 @@ Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel que
 | Fundamenta la priorización | Cada fundamento nombra el cuadrante y da una razón de impacto y otra de riesgo, con un dato de las notas. | Tus fundamentos nombran el cuadrante, pero alguno no da razón para uno de los criterios o no usa un dato de las notas. | No hay fundamentos o son genéricos, como «porque es importante». |
 | Revisa antes de automatizar | Muestras que te preguntaste si alguna candidata se podía eliminar o simplificar, y explicas en dos o tres líneas qué cambió o por qué mantuviste tu clasificación tras la pregunta de Gemini. | Haces solo una de las dos cosas, o tu explicación no da una razón. | No aparece la revisión de eliminar o simplificar ni la reflexión sobre Gemini. |
 
-Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de seguir con el tema siguiente.
 
-## Actividad 2 · La matriz de tu propio cargo
+### Respuesta modelo
+
+**Tareas de Rosa y su anatomía**
+
+| Tarea | Qué la inicia | Datos | ¿Sigue reglas? | Entrega | Frecuencia | ¿Candidata? |
+|---|---|---|---|---|---|---|
+| Contestar el teléfono | Una llamada | Lo que dice el paciente | No | Una respuesta | Varias veces al día | No: trato en persona |
+| Agendar horas | Un paciente pide hora | Nombre, teléfono, horario libre | En parte | Una hora en la agenda | Varias veces al día | No por ahora: se hace conversando |
+| Recordar la hora del día siguiente a los pacientes | Es la tarde | Nombre, teléfono y hora de cada paciente | Sí | Un llamado o mensaje | Cada día | Sí |
+| Recibir a cada paciente en el mesón | Llega un paciente | — | No | Atención en persona | Varias veces al día | No: trato en persona |
+| Revisar que los datos del paciente estén al día | Llega un paciente | Datos personales | En parte | Ficha corregida | Varias veces al día | No: se hace con el paciente delante |
+| Responder correos con preguntas que se repiten | Llega un correo | Pregunta general (horario, exámenes) | Sí | Un correo de respuesta | Cada día | Sí |
+| Anotar en la planilla las horas sin usar | Termina el día | Horas sin usar, sin nombres | Sí | Una fila en la planilla | Cada día | Sí |
+| Enviar a la coordinadora el resumen de horas sin usar | Es viernes | La planilla de la semana | Sí | Un resumen | Cada semana | Sí |
+| Ordenar los formularios en papel | Se acumulan formularios | Papel | Sí | Archivador ordenado | Cada semana | No: trabaja con objetos |
+| Calmar al paciente molesto y avisar al médico | El médico va atrasado | Lo que pasa en la sala | No | Paciente atendido y médico avisado | Varias veces por semana | No: trato en persona |
+
+**Antes de priorizar.** El resumen del viernes se puede eliminar: si la coordinadora tiene acceso a la planilla de horas sin usar, basta
+con un enlace. Los formularios en papel se pueden simplificar pasándolos a un formulario digital, antes de pensar en un flujo.
+
+**Matriz**
+
+| Candidata | Impacto: ¿se repite? / ¿quita tiempo? / ¿mejora para otros? | Riesgo: ¿datos personales? / ¿afecta persona, dinero o plazo? / ¿difícil notarlo? | Cuadrante |
+|---|---|---|---|
+| Recordar la hora a los pacientes | Sí / Sí / Sí → alto | Sí / Sí / Sí → alto | Con supervisión |
+| Responder correos con preguntas que se repiten | Sí / Sí / Sí → alto | No / Sí / No → bajo | Empieza aquí |
+| Anotar las horas sin usar | Sí / No / Sí → alto | No / No / No → bajo | Empieza aquí |
+| Enviar el resumen del viernes | Sí / No / No → bajo | No / No / No → bajo | Si sobra tiempo (mejor eliminarlo) |
+
+**Fundamentos**
+
+- Recordatorios: «Con supervisión: Rosa los hace cada tarde y ayudan a que los pacientes no falten, pero usan nombres, teléfonos y horas,
+  y una hora equivocada se descubre recién cuando el paciente llega».
+- Correos repetidos: «Empieza aquí: llegan a diario con las mismas preguntas, y la respuesta no usa datos del paciente; el error se nota
+  porque la respuesta sale de un texto fijo».
+- Horas sin usar: «Empieza aquí: se anota cada día y le sirve a la coordinadora, y la planilla no lleva nombres ni datos de pacientes».
+- Resumen del viernes: «Si sobra tiempo: es semanal y no usa datos personales, pero un enlace a la planilla lo reemplaza».
+
+**Reflexión sobre Gemini.** Gemini preguntó: «Si la respuesta sobre qué llevar a un examen está mal, ¿quién lo nota?». Mantuve los
+correos en «Empieza aquí», pero agregué que las respuestas deben salir de un texto aprobado por la coordinadora.
+
+**Errores frecuentes**
+
+- Dejar los recordatorios en «Empieza aquí» porque son simples, sin contar los nombres, teléfonos y horas de los pacientes.
+- Marcar como candidata ordenar los formularios en papel, que no trabaja con información digital, o dejar en la lista una tarea que
+  Gemini agregó y las notas no mencionan.
+- Escribir fundamentos como «porque ahorra tiempo», que hablan solo del impacto y no dan la razón de riesgo.
+
+## Autoevaluación 2 · La matriz de tu propio cargo
 cubre: H1, C1, C2
 fuentes: F-M5-01, F-M5-16
-entrega: tarea
+entrega: autoevaluacion
 
 ### Instrucción general
 
-Vas a mapear las tareas de tu propio cargo y priorizar con la matriz de impacto y riesgo las que conviene automatizar. Esta matriz es la base del flujo que construirás en el tema siguiente; si la tarea de tu proyecto del curso queda entre las candidatas, empieza por ella. Es una actividad formativa: no lleva nota. La subes
-como tarea en el aula, en un documento o una planilla, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del
-final. Solo la ven tú y el facilitador, porque trabaja con tu cargo real.
+Vas a mapear las tareas de tu propio cargo y priorizar con la matriz de impacto y riesgo las que conviene automatizar. Esta matriz es
+la base del flujo que construirás en el tema siguiente; si la tarea de tu proyecto del curso queda entre las candidatas, empieza por
+ella. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y
+revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT,
+montos y datos de clientes por datos inventados.
 
 ### Situación
 
@@ -95,16 +143,15 @@ derecho a no ser objeto de decisiones basadas en el tratamiento automatizado de 
 [@F-M5-16]. Esas tareas suelen terminar en «No automatices» o, en el mejor caso, en «Con supervisión» con la decisión en manos de una
 persona.
 
-### Lo que entregas
+### Lo que preparas
 
-Subes en la tarea tu mapa de tareas, tu matriz con al menos tres candidatas y sus fundamentos, y un párrafo sobre la tarea
-que elegiste para empezar: en qué cuadrante quedó, quién gana si se automatiza y qué harías con el tiempo que quede. Esta matriz es
-la base del flujo que vas a construir en el tema siguiente. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la
-rúbrica, con una línea que lo justifique.
+Deja listos tu mapa de tareas, tu matriz con al menos tres candidatas y sus fundamentos, y un párrafo sobre la tarea que elegiste para
+empezar: en qué cuadrante quedó, quién gana si se automatiza y qué harías con el tiempo que quede. Esta matriz es la base del flujo que
+vas a construir en el tema siguiente.
 
 ### Rúbrica de autoevaluación
 
-Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
+Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
 | Criterio | Lo logré | Lo logré en parte | Aún no |
 |---|---|---|---|
@@ -113,7 +160,50 @@ Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel que
 | Prioriza con la matriz y fundamenta | Cada candidata tiene sus seis respuestas, su cuadrante calza con ellas y su fundamento da una razón de impacto y otra de riesgo. | Todas tus candidatas están en la matriz, pero te falta alguna respuesta, un cuadrante no calza o un fundamento no da las dos razones. | No hay matriz, o los cuadrantes no tienen respuestas ni fundamento. |
 | Elige por dónde empezar | Tu párrafo dice el cuadrante, quién gana y qué harías con el tiempo; la tarea está en «Empieza aquí» o, si está en «Con supervisión», explicas qué parte queda en manos de una persona. | Tu párrafo elige una tarea, pero omite uno de sus elementos, o la tarea está en «Con supervisión» sin decir qué parte decide una persona. | No eliges una tarea, o eliges una de «No automatices» sin justificarlo. |
 
-Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de seguir con el tema siguiente.
+
+### Respuesta modelo
+
+Este es un ejemplo resuelto con el cargo de Andrés, encargado de bodega en una distribuidora. Tu matriz será distinta, porque parte de
+tu propio cargo.
+
+**Mapa de tareas.** Andrés dejó ocho tareas: registrar en la planilla la mercadería recibida; avisar a los vendedores cuando un producto
+baja del mínimo; avisar a los clientes cuando un despacho se atrasa; enviar el reporte semanal a la jefatura; armar los turnos del
+equipo; revisar las cajas dañadas; resolver problemas con los transportistas, y preparar el reporte diario de movimientos. Por ejemplo,
+el aviso de atraso se inicia cuando un despacho queda atrasado, usa el número de pedido, la empresa cliente y la nueva fecha, sigue
+reglas, entrega un correo al cliente y se repite varias veces por semana. Revisar cajas y resolver problemas con transportistas quedan
+fuera: trabajan con objetos o con trato en persona.
+
+**Eliminar y simplificar.** Antes de automatizar el reporte diario, Andrés le preguntó a su jefatura qué parte usaba: solo el resumen
+del viernes. Eliminó el reporte diario y simplificó el semanal a cinco datos.
+
+**Matriz**
+
+| Candidata | Impacto | Riesgo | Cuadrante |
+|---|---|---|---|
+| Registrar la mercadería recibida | Alto: se repite a diario, le quita tiempo y otros usan el stock (3 sí) | Bajo: sin datos personales; un error descuadra el stock, pero se nota pronto (1 sí) | Empieza aquí |
+| Avisar a vendedores cuando un producto baja del mínimo | Alto (3 sí): evita que un vendedor ofrezca algo que no hay | Bajo (0 sí): sin datos personales y el error se nota el mismo día | Empieza aquí |
+| Avisar a clientes cuando un despacho se atrasa | Alto (3 sí): se repite, le quita tiempo y el cliente se entera a tiempo | Alto (2 sí): afecta un plazo del cliente y una fecha equivocada es difícil de ver | Con supervisión |
+| Enviar el reporte semanal | Bajo (1 sí): se repite, pero ya simplificado toma poco | Bajo (0 sí) | Si sobra tiempo |
+| Armar los turnos del equipo | Bajo (1 sí) | Alto (3 sí): datos de compañeros y efecto en sus vidas | No automatices |
+
+Un fundamento de Andrés: «Ubico el aviso a vendedores en Empieza aquí porque se repite a diario y evita que ofrezcan productos sin
+stock, y su riesgo es bajo porque no usa datos personales y, si falla, el error se nota el mismo día».
+
+**Por dónde empieza.** Lo conversó con su jefatura y eligió el aviso de atraso a clientes, que es la parte de su problema que más
+reclamos trae. Quedó en «Con supervisión»: la IA redacta el borrador, pero él revisa el pedido y la fecha y decide el envío. Ganan los
+clientes, que se enteran antes, y él usaría el tiempo en resolver la causa de los atrasos con los transportistas.
+
+**Qué debe tener la tuya.** Revisa que tu mapa tenga entre 8 y 12 tareas reales, cada una con verbo, objeto y su anatomía, y sin datos de
+personas. Debe haber al menos tres candidatas que se repiten, siguen reglas y trabajan con información, una nota sobre qué eliminaste o
+simplificaste, las seis respuestas de cada candidata y un fundamento con una razón de impacto y otra de riesgo. Si la tarea que eliges
+está en «Con supervisión», di qué parte decide una persona.
+
+**Errores frecuentes**
+
+- Escribir tareas vagas o como metas, como «mejorar la atención», o copiar la descripción de cargo sin bajarla a tareas.
+- Dejar todas las candidatas en «Empieza aquí» sin mirar el riesgo, o con fundamentos que solo hablan de ahorro de tiempo.
+- Elegir para empezar una tarea que decide sobre personas, como asignar turnos, sin dejar esa decisión en manos de alguien.
 
 ## Referencias bibliográficas
 

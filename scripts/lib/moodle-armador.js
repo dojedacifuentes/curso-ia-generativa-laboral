@@ -57,6 +57,7 @@
     'forum-modulo': { completion: '2', completionpostsenabled: '1', completionposts: '1' },
     assign: { completion: '2', completionsubmit: '1' },
     quiz: { completion: '2', completionusegrade: '1' },
+    manual: { completion: '1' },
   };
   function completitud(fd, clave) {
     for (const k of [...fd.keys()]) if (/^completion(?!unlocked)/.test(k)) fd.delete(k);
@@ -395,6 +396,93 @@
     log(`~ finalización del curso: ${n} actividades + nota 60 % ${errores(o) ? '· ' + errores(o) : ''}`);
   };
 
+  // ---------- autoevaluaciones y entrega de casos (31-10, segunda vuelta) ----------
+  // Las actividades 1 y 2 pasan de tarea a página «Autoevaluación N: …» (no se envían; respuesta modelo plegada; el estudiante
+  // marca la actividad como hecha). Cada caso queda en dos piezas: la página «Caso de aplicación: …» para leerlo y la tarea
+  // «Entrega y revisión docente: …», que es la misma tarea de antes (conserva la rúbrica y la categoría de notas) renombrada.
+  window.autoevaluaciones31 = async (cid, aula, n) => {
+    const m = aula.modulos.find((x) => x.n === n);
+    let cms = cmsDe(await estado(cid), n);
+    for (const a of m.aes) for (const [k, x] of [[1, a.act1], [2, a.act2]]) {
+      if (!cms.some((c) => c.module === 'page' && c.name === x.name)) {
+        await crear(cid, n, 'page', { name: x.name, ...intro(''), 'page[text]': x.html, 'page[format]': '1', display: '5', printintro: '0', printlastmodified: '0' }, { clave: 'manual' });
+        log(`+ ${x.name}`);
+      } else {
+        const pg = cms.find((c) => c.module === 'page' && c.name === x.name);
+        await editar(pg.id, { 'page[text]': x.html, 'page[format]': '1' }, 'manual'); log(`~ ${x.name}`);
+      }
+      const vieja = cms.find((c) => c.module === 'assign' && c.name.startsWith(`Actividad formativa ${k}: ${x.titulo}`));
+      if (vieja) { await borrar(cid, [vieja.id]); log(`- ${vieja.name}`); }
+    }
+    for (const c of m.casos) {
+      cms = cmsDe(await estado(cid), n);
+      const t = cms.find((x) => x.module === 'assign' && (x.name === c.name || x.name === c.entrega.name));
+      if (t) {
+        await editar(t.id, { name: c.entrega.name, 'introeditor[text]': c.entrega.intro, 'introeditor[format]': '1', showdescription: '1', assignsubmission_file_enabled: '1', assignsubmission_file_maxfiles: '5', assignfeedback_comments_enabled: '1', assignfeedback_file_enabled: '1' }, 'assign');
+        log(`~ ${c.entrega.name}`);
+      } else log(`! no está la tarea del caso ${c.titulo}`);
+      if (!cmsDe(await estado(cid), n).some((x) => x.module === 'page' && x.name === c.name)) { await pagina(cid, n, c.name, c.html); log(`+ ${c.name}`); }
+    }
+    const fm = cmsDe(await estado(cid), n).find((c) => c.module === 'forum' && c.name === m.foro.name);
+    if (fm) { await editar(fm.id, { 'introeditor[text]': m.foro.intro, 'introeditor[format]': '1' }, 'forum-modulo'); log(`~ ${m.foro.name}`); }
+    log(`FIN autoevaluaciones y casos módulo ${n}`);
+  };
+
+  // Vuelve a escribir la franja de cada tema (pasos y aviso del hito)
+  window.bandas31 = async (cid, aula) => {
+    const st = await estado(cid);
+    for (const m of aula.modulos) for (const [i, a] of m.aes.entries()) {
+      const e = cmsDe(st, m.n).find((c) => c.module === 'label' && c.name === `Tema ${i + 1}: ${a.tema}`);
+      if (e) await editar(e.id, { 'introeditor[text]': a.banda, 'introeditor[format]': '1' });
+    }
+    log('FIN franjas de los temas');
+  };
+
+  // ---------- auditoría de coherencia (31-10) ----------
+  // Recorre el curso como lo ve el docente: orden de cada módulo contra aula.json, videos embebidos, banners, elementos ocultos y
+  // textos que ya no corresponden (actividad formativa, foros de actividad, consigna antigua…) en la página del curso y en cada
+  // página, tarea, foro y cuestionario. Devuelve la lista de hallazgos; vacía = todo coherente.
+  window.auditoria31 = async (cid, aula) => {
+    const h = []; const st = await estado(cid); const by = Object.fromEntries(st.cm.map((c) => [c.id, c]));
+    const PROHIBIDO = [/actividad(es)? formativa/i, /\bActividad [12]:/, /foro de la actividad/i, /qué, por qué y para qué/i, /el facilitador te pone la nota/i, /Pendiente de hacer/i, /Espacio reservado\. Aquí va (el video|la evaluación del módulo)/i, /entrégala como tarea/i];
+    const revisa = (donde, texto) => { for (const re of PROHIBIDO) { const m = re.exec(texto); if (m) h.push(`texto «${m[0]}» en ${donde}`); } };
+    // 1. orden y nombres de cada módulo
+    for (const m of aula.modulos) {
+      const R = m.reservados; const esperado = ['Empieza aquí', R.bienvenida.name, R.diagnostica.name];
+      m.aes.forEach((a, i) => esperado.push(`Tema ${i + 1}: ${a.tema}`, a.rise.name, a.quiz.name, a.act1.name, a.act2.name));
+      if (m.casos.length) esperado.push('Práctica evaluada', ...m.casos.flatMap((c) => [c.name, c.entrega.name]));
+      esperado.push(m.casos.length ? 'Foro de casos' : 'Foro del módulo', m.foro.name, 'Resumen del módulo', m.infografia.name, R.resumenVideo.name, m.glosario.name, 'Evaluación del módulo', m.evaluacion.name);
+      const real = cmsDe(st, m.n).map((c) => c.name);
+      if (real.join('|') !== esperado.join('|')) {
+        const sobra = real.filter((x) => !esperado.includes(x)); const falta = esperado.filter((x) => !real.includes(x));
+        h.push(`módulo ${m.n}: orden distinto${sobra.length ? `; sobran: ${sobra.join(' / ')}` : ''}${falta.length ? `; faltan: ${falta.join(' / ')}` : ''}`);
+      }
+      if (seccion(st, m.n).title !== m.seccion) h.push(`módulo ${m.n}: nombre de sección «${seccion(st, m.n).title}»`);
+    }
+    // 2. ocultos esperados: diagnósticas, inducción y la sección del facilitador
+    const enFac = new Set((st.section.find((s) => s.title === 'Para el facilitador')?.cmlist || []).map(String));
+    for (const c of st.cm.filter((y) => !y.visible)) if (!/^Evaluación diagnóstica del módulo|^Inducción al curso/.test(c.name) && !enFac.has(String(c.id))) h.push(`oculto sin razón: ${c.name}`);
+    // 3. página del curso: textos, videos embebidos y banners
+    const curso = await (await fetch(`/course/view.php?id=${cid}`)).text(); const dc = P(curso);
+    revisa('página del curso', dc.querySelector('[role=main]')?.innerText || '');
+    for (const m of aula.modulos) {
+      const s = seccion(st, m.n); const nodo = dc.querySelector(`[data-sectionid="${s.id}"], #section-${m.n}`);
+      const iframes = nodo ? nodo.querySelectorAll('iframe[src*="drive.google.com"]').length : 0;
+      if (iframes !== 2) h.push(`módulo ${m.n}: ${iframes} videos embebidos (se esperan 2)`);
+      const fondo = nodo?.innerHTML.match(/url\(([^)]+pluginfile[^)]+)\)/)?.[1]?.replace(/&quot;|["']/g, '');
+      if (!fondo) h.push(`módulo ${m.n}: sin foto de portada`); else if (!(await fetch(fondo.replace(/&amp;/g, '&'))).ok) h.push(`módulo ${m.n}: la foto de portada no carga`);
+    }
+    // 4. cada recurso: página, tarea, foro, cuestionario y glosario abren y no traen textos viejos
+    const vistas = { page: 'page', assign: 'assign', forum: 'forum', quiz: 'quiz', glossary: 'glossary' };
+    for (const c of st.cm.filter((x) => vistas[x.module])) {
+      const r = await fetch(`/mod/${x(c.module)}/view.php?id=${c.id}`);
+      if (!r.ok) { h.push(`no abre: ${c.name}`); continue; }
+      revisa(c.name, P(await r.text()).querySelector('[role=main]')?.innerText || '');
+    }
+    function x(m) { return vistas[m]; }
+    return h;
+  };
+
   // ---------- diseño del 31-10 ----------
   // Fotos de los banners: van como archivo del editor (resumen de la sección o texto de la etiqueta) y el HTML las nombra con
   // @@PLUGINFILE@@/<archivo>. aula.imagenes trae cada JPG en base64.
@@ -528,7 +616,7 @@
     const m = aula.modulos.find((x) => x.n === n); const R = m.reservados;
     const lista = ['Empieza aquí', R.bienvenida.name, R.diagnostica.name];
     m.aes.forEach((a, i) => lista.push(`Tema ${i + 1}: ${a.tema}`, a.rise.name, a.quiz.name, a.act1.name, a.act2.name));
-    if (m.casos.length) lista.push('Práctica evaluada', ...m.casos.map((c) => c.name));
+    if (m.casos.length) lista.push('Práctica evaluada', ...m.casos.flatMap((c) => [c.name, c.entrega.name]));
     lista.push(m.casos.length ? 'Foro de casos' : 'Foro del módulo', m.foro.name, 'Resumen del módulo', m.infografia.name, R.resumenVideo.name, m.glosario.name, 'Evaluación del módulo', m.evaluacion.name);
     await ordenar(cid, n, lista);
     log(`FIN orden módulo ${n}`);

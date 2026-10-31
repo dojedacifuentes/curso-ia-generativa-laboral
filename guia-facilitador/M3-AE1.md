@@ -1,10 +1,10 @@
 # Guía del facilitador · Herramientas de IA para investigar
 
-## Actividad 1 · La agenda compartida de la gerenta
+## Autoevaluación 1 · La agenda compartida de la gerenta
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si marca «Lo logré» en el registro y anota «Perplexity» como fuente. Antes de comentar, abre al menos dos de los enlaces del registro.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien pregunta si puede anotar «Perplexity» como fuente.
 
 ### Pauta de referencia
 
@@ -20,11 +20,11 @@ Si lo logró: «Tus preguntas están bien acotadas: se entiende qué buscas, par
 
 Si lo logró en parte: «Vas bien con las dos herramientas, pero en tu registro aparece "Perplexity" como fuente. Abre la cita y anota la página de origen, con quién la publica y su fecha. La herramienta te lleva a la fuente; no es la fuente.»
 
-## Actividad 2 · Una pregunta real de tu cargo
+## Autoevaluación 2 · Una pregunta real de tu cargo
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación; solo la ven tú y ella, porque trabaja con un tema de su cargo. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si el registro trae nombres de personas, clientes o información interna. Este registro es la base de sus próximas actividades y del informe de su proyecto, así que vale la pena señalar qué corregir antes de seguir y verificar que la pregunta se relacione con la misma tarea de su cargo que viene trabajando.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta con un tema de su cargo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar. Si alguien comparte en el foro su pregunta o su registro, recuérdale que lo haga sin nombres de personas, clientes ni información interna, y que la pregunta conviene que trate la misma tarea de su proyecto.
 
 ### Pauta de referencia
 

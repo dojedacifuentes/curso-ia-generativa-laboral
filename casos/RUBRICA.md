@@ -8,15 +8,15 @@ con entrega y rúbrica. La rúbrica de Moodle sale de esta tabla (`scripts/moodl
 
 ### Instrucción general
 
-Este caso es una **práctica evaluada**: lleva nota y la revisa el facilitador. Súbelo como tarea en el aula, en un documento de texto
-o en PDF, con dos partes:
+Este caso es una **práctica evaluada**: lleva nota y la revisa el docente. Prepara un documento de texto o PDF con dos partes:
 
 1. Tus respuestas a las preguntas del análisis guiado, numeradas y en pocas líneas cada una, apoyadas en lo que cuenta el caso.
 2. El producto que pide la aplicación a tu proyecto.
 
-Trabaja con copias sin datos personales ni confidenciales. El facilitador revisa tu entrega con la rúbrica de abajo y te deja la nota
-y su retroalimentación en la misma tarea, en un plazo de hasta 72 horas hábiles. Después, comparte en el foro de casos del módulo tu
-respuesta a la pregunta para conversar.
+Súbelo en la tarea **«Entrega y revisión docente»** que está justo debajo de este caso en el aula. Trabaja con copias sin datos
+personales ni confidenciales. El docente revisa tu entrega con la rúbrica de abajo y, en esa misma tarea, te devuelve la nota, la
+rúbrica completada y su revisión (comentarios y, si corresponde, tu documento con observaciones) en un plazo de hasta 72 horas hábiles.
+Después, comparte en el foro de casos del módulo tu respuesta a la pregunta para conversar.
 
 ### Rúbrica
 

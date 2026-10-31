@@ -8,7 +8,7 @@ const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const curso = JSON.parse(fs.readFileSync(path.join(RAIZ, 'data', 'curso.json'), 'utf8'));
 const leer = rel => (fs.existsSync(path.join(RAIZ, rel)) ? fs.readFileSync(path.join(RAIZ, rel), 'utf8').replace(/\r\n/g, '\n') : '');
 const titulo = md => (/^# (.+)$/m.exec(md)?.[1] || '').trim().replace(/^M\d-C\d · /, '');
-const actividades = id => [...leer(`actividades/${id}.md`).matchAll(/^## Actividad (\d) · (.+)$/gm)].map(m => m[2].trim());
+const actividades = id => [...leer(`actividades/${id}.md`).matchAll(/^## (?:Actividad|Autoevaluación) (\d) · (.+)$/gm)].map(m => m[2].trim());
 const casos = n => fs.readdirSync(path.join(RAIZ, 'casos')).filter(f => new RegExp(`^M${n}-C\\d\\.md$`).test(f)).sort().map(f => titulo(leer(`casos/${f}`)));
 const PEND = ' *(pendiente)*';
 // Hitos del proyecto del curso: la actividad 2 de estos AE (data/hitos.json, opción 1 del 30-10)
@@ -23,7 +23,7 @@ let md = `# Mapa del aula Moodle
 
 Orden de cada sección del aula en formacion.empoderatech.com (Moodle 5.3) y tipo de actividad de Moodle de cada recurso. Sigue la
 estructura de curso asincrónico que pide SENCE y las observaciones de la docente del 31-10: contenidos, material interactivo,
-actividades formativas con rúbrica de autoevaluación, casos de aplicación evaluados por el facilitador, resumen, glosario y
+autoevaluaciones con respuesta modelo (no se envían), casos de aplicación con entrega y revisión docente, resumen, glosario y
 evaluación de cada módulo, evaluación final y contacto entre facilitador y estudiantes. Curso de ${TOTAL} horas.
 
 | Recurso | Tipo en Moodle | Nota |
@@ -32,8 +32,8 @@ evaluación de cada módulo, evaluación final y contacto entre facilitador y es
 | Evaluación diagnóstica del módulo | Cuestionario (espacio reservado hasta que esté) | No |
 | Contenido de cada tema (Rise) | Paquete SCORM | No |
 | Quiz juego de cada tema | Paquete SCORM, con retroalimentación por respuesta | No |
-| Actividades formativas 1 y 2 de cada tema | Tarea con entrega, sin nota, con rúbrica de autoevaluación en el enunciado | No |
-| Caso de aplicación (práctica evaluada) | Tarea con entrega, calificada por el facilitador con rúbrica | Sí (30 %) |
+| Autoevaluaciones 1 y 2 de cada tema | Página con la consigna, la rúbrica de autoevaluación y la respuesta modelo; no se envía y el estudiante la marca como hecha | No |
+| Caso de aplicación (práctica evaluada) | Página para leer el caso y, debajo, la tarea «Entrega y revisión docente»: el estudiante sube su documento y el docente sube la nota con rúbrica, sus comentarios y el documento revisado | Sí (30 %) |
 | Foro de casos del módulo | Foro: resultados de los casos, preguntas para conversar y consultas | No |
 | Infografía animada del módulo | Paquete SCORM | No |
 | Glosario del módulo | Glosario con buscador | No |
@@ -63,13 +63,13 @@ for (const m of curso.modulos) {
   - Aprende: Rise «${a.tema}» (SCORM).
   - Practica: quiz juego «${a.tema}» (SCORM).
 `
-      + (a1 ? `  - Aplica en tu trabajo · actividad formativa 1: ${a1} (tarea sin nota, autoevaluación).
+      + (a1 ? `  - Aplica en tu trabajo · autoevaluación 1: ${a1} (no se envía; respuesta modelo).
 ` : '')
-      + (a2 ? `  - Aplica en tu trabajo · actividad formativa 2: ${a2} (tarea sin nota, autoevaluación${HITO[a.id] ? `; ${HITO[a.id]} del proyecto del curso` : ''}).
+      + (a2 ? `  - Aplica en tu trabajo · autoevaluación 2: ${a2} (no se envía; respuesta modelo${HITO[a.id] ? `; ${HITO[a.id]} del proyecto del curso` : ''}).
 ` : '');
   }
   const cs = casos(m.n);
-  if (cs.length) md += '- Práctica evaluada:\n' + cs.map(c => `  - Caso de aplicación: ${c} (tarea calificada con rúbrica).
+  if (cs.length) md += '- Práctica evaluada:\n' + cs.map(c => `  - Caso de aplicación: ${c} (página) y su «Entrega y revisión docente» (tarea con rúbrica).
 `).join('') + `- Foro de casos del módulo ${m.n}.
 `;
   else md += `- Foro del módulo ${m.n} (avances del proyecto y consultas).
@@ -87,7 +87,7 @@ md += `## Evaluación final
 ## Sección oculta para estudiantes · Para el facilitador
 
 - Guía del facilitador: cómo se evalúa el curso, pauta de corrección de los casos y de las evaluaciones, pauta de referencia de las
-  44 actividades formativas y moderación de los foros. La ve el rol docente, incluido quien revisa el curso para SENCE.
+  44 autoevaluaciones y moderación de los foros. La ve el rol docente, incluido quien revisa el curso para SENCE.
 - Mapa del aula.
 `;
 fs.writeFileSync(path.join(RAIZ, 'docs', 'MAPA-AULA-MOODLE.md'), md);

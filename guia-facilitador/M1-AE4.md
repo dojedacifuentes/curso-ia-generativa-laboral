@@ -1,10 +1,10 @@
 # Guía del facilitador · Validación de resultados
 
-## Actividad 1 · El resumen del instructivo, con lupa
+## Autoevaluación 1 · El resumen del instructivo, con lupa
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, con la tabla y el resumen corregido, junto con su autoevaluación. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si marca «Lo logré» en la detección de errores y su resumen corregido mantiene el estudio inventado. Como todos trabajan el mismo resumen, evita publicar la lista completa de problemas en el foro del módulo antes de que la mayoría haya entregado.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien duda de qué tipo de problema es el estudio inventado.
 
 ### Pauta de referencia
 
@@ -30,11 +30,11 @@ Si lo logró: «Encontraste los cinco problemas y cada decisión se apoya en el 
 
 Si lo logró en parte: «Detectaste bien los datos cambiados, pero mantuviste el estudio con el 68 %. Pregúntate de dónde salió: el instructivo no lo trae y no hay forma de rastrearlo, así que se descarta. Revisa también qué dice el instructivo sobre los gastos sobre $50.000.»
 
-## Actividad 2 · Valida antes de usarlo en tu trabajo
+## Autoevaluación 2 · Valida antes de usarlo en tu trabajo
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación; solo la ven tú y ella, porque parte de una consulta real de su cargo. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si marca «Lo logré» en las fuentes y usa otra respuesta de IA como segunda fuente.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe cómo encontrar una segunda fuente independiente. Si alguien comparte su trabajo en el foro, recuérdale quitar antes nombres, RUT, montos y datos de clientes.
 
 ### Pauta de referencia
 

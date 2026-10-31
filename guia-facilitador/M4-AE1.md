@@ -1,10 +1,10 @@
 # Guía del facilitador · Ecosistema multimedia con IA
 
-## Actividad 1 · Las herramientas para la campaña de Camila
+## Autoevaluación 1 · Las herramientas para la campaña de Camila
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si marcó «Lo logré» en licencias pero dejó Designer como permitida sin citar ninguna condición. Los términos de las herramientas cambian: si alguien cita una condición distinta de la que conoces, revisa la página y la fecha antes de comentarla.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien pregunta por qué Designer no sirve si es gratis. Los términos de las herramientas cambian: si alguien cita una condición distinta de la que conoces, revisa la página y la fecha antes de responder.
 
 ### Pauta de referencia
 
@@ -22,11 +22,11 @@ Si lo logró: «Tu comparación separa bien las dos piezas y cada clasificación
 
 Si lo logró en parte: «La tabla está bien armada, pero respondiste que Camila puede cambiarle el color al ícono si da crédito. ND significa sin derivadas: no se puede modificar. Propón una alternativa, como buscar un ícono con otra licencia o hacer uno propio.»
 
-## Actividad 2 · La ficha de una pieza de tu cargo
+## Autoevaluación 2 · La ficha de una pieza de tu cargo
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación. Solo lo ven ella y tú, porque trabaja con una pieza de su cargo. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si la ficha trae nombres de clientes o colegas. La ficha se sigue usando en las próximas actividades, así que vale la pena señalar los campos que conviene corregir desde ahora.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta con una pieza de su cargo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar. La ficha se sigue usando en las próximas actividades: si alguien pregunta cómo llenarla, insiste en el nombre y el plan de cada herramienta con su fecha, y en que no lleve nombres de clientes ni de colegas.
 
 ### Pauta de referencia
 

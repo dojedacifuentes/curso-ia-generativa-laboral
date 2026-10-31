@@ -1,10 +1,10 @@
 # Guía del facilitador · Flujos simples con IA
 
-## Actividad 1 · Los pedidos de ventas a la bodega
+## Autoevaluación 1 · Los pedidos de ventas a la bodega
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube como tarea en el aula sus capturas, su plan de pruebas, sus correcciones y su autoevaluación. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si marcó «Lo logré» en las pruebas y dejó fuera el correo sin cantidad. Todo se hace con correos inventados y una cuenta de práctica: si una captura muestra un correo del trabajo o datos reales, pídele que la reemplace.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar.
 
 ### Pauta de referencia
 
@@ -36,11 +36,11 @@ Si lo logró: «Tu flujo funciona y tu plan de pruebas encontró lo que tenía q
 
 Si lo logró en parte: «El flujo corre y las filas traen el remitente correcto. Te falta probar el correo sin cantidad: es justo el caso en que la IA tiende a inventar. Agrégalo al plan, córrelo y anota qué pasó.»
 
-## Actividad 2 · Un flujo para una tarea de tu cargo
+## Autoevaluación 2 · Un flujo para una tarea de tu cargo
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación. Solo lo ven ella y tú, porque trabaja con una tarea real de su cargo. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si una captura muestra datos reales de la empresa o de personas: en ese caso, pídele que la reemplace. Como este prototipo se lleva al proyecto final, verifica que parta de la tarea de su cargo que eligió en su matriz.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar. Si alguien comparte en el foro datos de clientes, proveedores o compañeros, pídele que los reemplace por datos inventados.
 
 ### Pauta de referencia
 

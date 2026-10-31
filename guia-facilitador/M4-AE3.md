@@ -1,10 +1,10 @@
 # Guía del facilitador · Audio y música
 
-## Actividad 1 · El audio de reciclaje para la reunión de Camila
+## Autoevaluación 1 · El audio de reciclaje para la reunión de Camila
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube como tarea en el aula los audios como archivos adjuntos o con un enlace, junto con el guion, sus respuestas y su autoevaluación. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si marcó «Lo logré» en el consentimiento y su respuesta acepta clonar la voz de la gerenta. Escucha los audios completos con audífonos antes de comentar.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien pregunta si puede clonar la voz de la gerenta cuando el audio es solo para uso interno. Si alguien comparte un audio en el foro, escúchalo completo con audífonos antes de opinar.
 
 ### Pauta de referencia
 
@@ -22,11 +22,11 @@ Si lo logró: «Tu guion se entiende a la primera: cambiaste el "100 %" y las ab
 
 Si lo logró en parte: «La locución suena bien, pero el guion conserva "proc. interno" y la voz lo lee tal cual. Escríbelo completo y vuelve a generar solo esa parte. Revisa también la atribución: con el plan gratuito va "elevenlabs.io" en el título.»
 
-## Actividad 2 · La locución de un aviso de tu trabajo
+## Autoevaluación 2 · La locución de un aviso de tu trabajo
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación. Solo lo ven ella y tú, porque trabaja con un aviso de su cargo. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si el guion trae datos reales de clientes sin anonimizar. Si la locución usa la voz de otra persona, revisa que la constancia de su consentimiento esté en la ficha, sin datos de contacto a la vista.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta con un aviso de su cargo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar. Si alguien consulta por usar la voz de un colega, recuérdale que necesita su consentimiento por escrito y que lo registre en la ficha, sin datos de contacto a la vista; si el aviso lo escucharán clientes, que revise la licencia de la herramienta.
 
 ### Pauta de referencia
 

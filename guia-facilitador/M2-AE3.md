@@ -1,10 +1,10 @@
 # Guía del facilitador · Presentaciones con IA
 
-## Actividad 1 · Seis láminas para pedir facturas con guía de despacho
+## Autoevaluación 1 · Seis láminas para pedir facturas con guía de despacho
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, con las láminas en PDF o el enlace de la presentación, el brief, el esquema y el guion, junto con su autoevaluación. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si marca «Lo logré» en el uso de los datos y las láminas traen cifras que el caso no entrega. Si el enlace no abre, pídele que cambie el permiso a «cualquier persona con el enlace» o que suba el PDF.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no logra que sus títulos cuenten la historia.
 
 ### Pauta de referencia
 
@@ -22,11 +22,11 @@ Si lo logró: «Leí solo tus seis títulos y entendí toda la propuesta: eso di
 
 Si lo logró en parte: «Tienes las seis láminas, pero los títulos son temas ("Situación actual", "Propuesta") y no cuentan la historia. Conviértelos en oraciones con la conclusión de cada lámina, por ejemplo "7 de cada 25 facturas llegan sin guía de despacho".»
 
-## Actividad 2 · Depura una presentación de tu trabajo
+## Autoevaluación 2 · Depura una presentación de tu trabajo
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación; solo la ven tú y ella, porque trabaja con información de su trabajo. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si la presentación conserva nombres de clientes o montos reales sin cambiar. Como es el segundo hito del proyecto, verifica que la presentación trate la misma tarea de su cargo que eligió en el primer hito.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe qué hacer con un [FALTA DATO]. Si alguien comparte su trabajo en el foro, recuérdale quitar antes nombres, RUT, montos y datos de clientes. Como es el segundo hito del proyecto, si alguien consulta el tema, recuérdale que la presentación trata la misma tarea de su cargo que eligió en el primer hito.
 
 ### Pauta de referencia
 

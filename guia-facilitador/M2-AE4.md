@@ -1,10 +1,10 @@
 # Guía del facilitador · Planillas de cálculo con IA
 
-## Actividad 1 · Las facturas pendientes de Camila
+## Autoevaluación 1 · Las facturas pendientes de Camila
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, con una captura o una copia de la hoja y su bitácora, junto con su autoevaluación. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si marca «Lo logré» en la búsqueda y la factura 1110 devuelve un monto en vez de un error. Si la captura no deja ver la fórmula, pídele una captura con la celda seleccionada y la barra de fórmulas a la vista.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no entiende por qué H3 da otro total al copiar la fórmula.
 
 ### Pauta de referencia
 
@@ -26,11 +26,11 @@ Si lo logró: «Tus dos fórmulas están correctas y, mejor aún, lo demostraste
 
 Si lo logró en parte: «La suma está perfecta, pero con la factura 1110 tu BUSCARV muestra 64000 en vez de un error. Revisa el último argumento: sin FALSO la búsqueda es aproximada y devuelve el valor más cercano. Agrégalo y vuelve a probar.»
 
-## Actividad 2 · Una fórmula para tu planilla, comprobada
+## Autoevaluación 2 · Una fórmula para tu planilla, comprobada
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación; solo la ven tú y ella, porque trabaja con una planilla real de su cargo. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si la tabla de prueba o el pedido a Gemini traen nombres, RUT o montos reales.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe qué pruebas hacer con su fórmula. Si alguien comparte su trabajo en el foro, recuérdale quitar antes nombres, RUT, montos y datos de clientes.
 
 ### Pauta de referencia
 

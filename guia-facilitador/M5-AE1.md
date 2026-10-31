@@ -1,10 +1,10 @@
 # Guía del facilitador · Potencial de automatización
 
-## Actividad 1 · Las tareas de Rosa en la recepción
+## Autoevaluación 1 · Las tareas de Rosa en la recepción
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su tabla, su reflexión y su autoevaluación como tarea en el aula. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si marcó «Lo logré» en la matriz y dejó los recordatorios en «Empieza aquí» sin contar los datos personales. Si alguien cambia las notas por datos reales de pacientes o de su trabajo, pídele en un comentario de la tarea que suba una versión sin esos datos.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar.
 
 ### Pauta de referencia
 
@@ -22,11 +22,11 @@ Si lo logró: «Tu matriz está muy bien armada. Dejaste los recordatorios en �
 
 Si lo logró en parte: «Vas bien con las candidatas. Revisa el fundamento de los correos repetidos: dices que es importante, pero falta la razón de riesgo. ¿La respuesta usa datos del paciente o no? Con eso tu clasificación queda defendida.»
 
-## Actividad 2 · La matriz de tu propio cargo
+## Autoevaluación 2 · La matriz de tu propio cargo
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, junto con su autoevaluación. Solo lo ven ella y tú, porque trabaja con su cargo real. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si el mapa trae nombres, RUT o teléfonos de clientes, proveedores o compañeros: en ese caso, pídele que suba una versión sin esos datos. Como esta matriz es la base del flujo del tema siguiente, fíjate si la tarea de su proyecto del curso quedó entre las candidatas.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar. Si alguien comparte en el foro datos de clientes, proveedores o compañeros, pídele que los reemplace por datos inventados.
 
 ### Pauta de referencia
 

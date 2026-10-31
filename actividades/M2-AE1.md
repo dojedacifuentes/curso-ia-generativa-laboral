@@ -1,13 +1,13 @@
 # Actividades de aplicación práctica · M2-AE1 · Redacción y comunicación con IA
 
-## Actividad 1 · Una reunión, tres textos
+## Autoevaluación 1 · Una reunión, tres textos
 cubre: H1, C1
 fuentes: F-M2-06, F-M2-05
-entrega: tarea
+entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad vas a convertir las notas de una reunión en tres textos con Gemini, una minuta, un correo y un informe ejecutivo, y a ajustar cada uno a quien lo va a leer. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, en un documento adjunto o pegado en el texto de la entrega, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Trabajas con datos ficticios.
+En esta actividad vas a convertir las notas de una reunión en tres textos con Gemini, una minuta, un correo y un informe ejecutivo, y a ajustar cada uno a quien lo va a leer. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Trabajas con datos ficticios.
 
 ### Situación
 
@@ -25,13 +25,13 @@ Vas a producir los tres textos con Gemini, en la app o en el navegador, y a ajus
 4. Ajusta cada borrador conversando, de a un cambio, hasta que el tono y el nivel de detalle calcen con quien lo va a leer.
 5. Edita tú la versión final de cada texto y compara los datos con las notas.
 
-### Lo que entregas
+### Lo que preparas
 
-Subes en la tarea un documento con los tres textos finales. Antes de cada uno escribe en una línea la audiencia, el registro y el tono que elegiste. Agrega también el primer borrador del correo y una frase que explique qué cambiaste para adaptarlo al Sr. Vera. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
+Deja listo un documento con los tres textos finales. Antes de cada uno escribe en una línea la audiencia, el registro y el tono que elegiste. Agrega también el primer borrador del correo y una frase que explique qué cambiaste para adaptarlo al Sr. Vera.
 
 ### Rúbrica de autoevaluación
 
-Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
+Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
 | Criterio | Lo logré | Lo logré en parte | Aún no |
 |---|---|---|---|
@@ -40,16 +40,70 @@ Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel que
 | Fidelidad a las notas | Los datos coinciden con las notas y los vacíos quedan marcados, sin completar nada que no estaba. | Agregaste o cambiaste algún dato, o completaste un vacío sin respaldo. | Varios datos no coinciden con las notas. |
 | Adaptación del correo | Incluyes el primer borrador del correo y una frase que explica qué cambiaste; la versión final respeta el largo, el asunto y el saludo pedidos. | Incluyes el borrador, pero te falta la explicación o el cambio no se ve en la versión final. | Te falta el primer borrador del correo. |
 
-Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de seguir con el tema siguiente.
 
-## Actividad 2 · Un texto de tu semana, revisado antes de enviarlo
+### Respuesta modelo
+
+**Minuta**
+
+*Audiencia: quienes estuvieron en la reunión. Registro neutro, tono directo.*
+
+Reunión con el proveedor de fierro · Jueves 21 · Asistentes: gerenta de administración, Sr. Vera (proveedor de fierro) y Camila Soto.
+
+Tema: dos entregas a la obra que llegaron un día tarde en octubre.
+
+Acuerdos: el proveedor cambia su horario de despacho a las 8:00, y la situación se revisa de nuevo a fin de mes.
+
+| Compromiso | Responsable | Fecha |
+|---|---|---|
+| Despachar a las 8:00 | Sr. Vera (proveedor) | Desde [FALTA] |
+| Enviar el calendario de entregas de noviembre | Sr. Vera | [FALTA] |
+| Actualizar la planilla de pedidos | Camila | [FALTA] |
+| Revisar de nuevo las entregas | [FALTA] | Fin de mes |
+
+**Correo al Sr. Vera**
+
+*Audiencia: el ejecutivo del proveedor. Registro formal, de usted; tono cordial.*
+
+Primer borrador de Gemini: «Hola Sr. Vera, gracias por la reunión del jueves. Como conversamos, a partir del lunes ustedes despacharán a las 8:00 y nos enviarán el calendario de noviembre esta semana. A fin de mes revisaremos si los atrasos se repiten…».
+
+Versión final:
+
+> Asunto: Confirmación del nuevo horario de despacho
+>
+> Estimado Sr. Vera:
+>
+> Le agradezco la reunión del jueves 21. Le confirmo lo acordado: los despachos a nuestra obra se harán a las 8:00. Quedamos atentos al calendario de entregas de noviembre que nos enviará.
+>
+> Saludos cordiales,
+> Camila Soto
+> Administración
+
+Qué cambié: puse asunto y el saludo «Estimado Sr. Vera:», quité «a partir del lunes» y «esta semana» porque no estaban en las notas, y saqué la frase de los atrasos para que no sonara a reclamo.
+
+**Informe ejecutivo para la gerenta**
+
+*Audiencia: la gerenta, que decide si sigue con el proveedor. Registro formal; tono directo.*
+
+- Resultado: el proveedor de fierro se comprometió a despachar a las 8:00 y a enviar el calendario de entregas de noviembre.
+- Por qué importa: en octubre, dos entregas llegaron a la obra un día tarde.
+- Recomendación: seguir con el mismo proveedor en noviembre y confirmar la decisión en la revisión de fin de mes, según si cumple el horario y el calendario.
+- Pendiente: definir quién hace esa revisión y cuándo llega el calendario.
+
+**Errores frecuentes**
+
+- El correo tutea al Sr. Vera o suena a reclamo, o copia la minuta completa dentro del correo.
+- El informe parte contando la reunión en orden y deja la recomendación al final.
+- Dejar que el asistente asigne la revisión a la gerenta, invente una fecha o agregue cifras de costo o de atraso que no están en las notas.
+
+## Autoevaluación 2 · Un texto de tu semana, revisado antes de enviarlo
 cubre: H1, C2
 fuentes: F-M2-07, F-M2-02
-entrega: tarea
+entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad vas a escribir con Gemini un texto que de verdad tengas que enviar esta semana, adaptarlo a dos audiencias y revisarlo antes de enviarlo. Es una actividad formativa: no lleva nota. La subes como tarea en el aula, en un documento de texto o en PDF con los borradores, las versiones finales y tu registro de correcciones, y, antes de enviarla, revisas tu trabajo con la rúbrica de autoevaluación del final. Solo lo ven tú y el facilitador, porque trabajas con un texto real de tu cargo.
+En esta actividad vas a escribir con Gemini un texto que de verdad tengas que enviar esta semana, adaptarlo a dos audiencias y revisarlo antes de enviarlo. Es una autoevaluación: la actividad no se envía ni lleva nota. Hazla por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como la actividad no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
 
@@ -65,13 +119,13 @@ Vas a producir el texto con Gemini, ajustarlo a su audiencia y revisarlo con una
 4. Revisa las dos versiones punto por punto con esta lista y corrige lo que no cumpla: el objetivo se entiende en las primeras líneas; nombres, fechas, montos y números coinciden con el original; no hay nada que la IA haya agregado; el registro, el tono y el nivel de detalle corresponden a quien lee; las oraciones son breves y las siglas están explicadas; si es un correo, tiene asunto, saludo con dos puntos y una despedida adecuada, y la ortografía y la puntuación están revisadas.
 5. Compara cada nombre, fecha, monto y número con tus apuntes, y anota cualquier dato que el asistente haya agregado o cambiado.
 
-### Lo que entregas
+### Lo que preparas
 
-Subes en la tarea el primer borrador y la versión final de los dos textos, con los datos ya cambiados, y una tabla breve o un párrafo con lo que corregiste en cada uno. Indica qué errores eran de hecho, cuáles de tono o registro y cuáles de redacción. Suma tu autoevaluación: el nivel que marcaste en cada criterio de la rúbrica, con una línea que lo justifique.
+Deja listos el primer borrador y la versión final de los dos textos, con los datos ya cambiados, y una tabla breve o un párrafo con lo que corregiste en cada uno. Indica qué errores eran de hecho, cuáles de tono o registro y cuáles de redacción.
 
 ### Rúbrica de autoevaluación
 
-Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
+Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
 | Criterio | Lo logré | Lo logré en parte | Aún no |
 |---|---|---|---|
@@ -80,7 +134,58 @@ Antes de entregar, revisa tu trabajo con esta rúbrica y marca en qué nivel que
 | Revisión con la lista y registro de correcciones | Tu registro muestra una revisión punto por punto con la lista y distingue errores de hecho, de tono o registro y de redacción. | Tienes registro, pero es general o no distingue los tipos de error. | No tienes registro de correcciones. |
 | Audiencias, forma y cuidado de los datos | Tus dos versiones están escritas para audiencias distintas; si es correo, trae asunto, saludo con dos puntos y despedida; cambiaste los datos sensibles. | Tus dos versiones se parecen demasiado o te falta una parte de la forma del correo. | Tienes una sola versión o tu texto conserva datos sensibles. |
 
-Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de entregar.
+Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve sobre ese punto antes de seguir con el tema siguiente.
+
+### Respuesta modelo
+
+Como cada persona trabaja con un texto de su semana, este es un ejemplo resuelto: el de Andrés, encargado de bodega, que tiene que pedirle a un proveedor una nueva fecha para un pedido de cajas que no llegó. El nombre del proveedor y el número del pedido están cambiados.
+
+**Las cuatro preguntas.** Escribo para conseguir una nueva fecha de entrega. Lo lee la ejecutiva de ventas del proveedor, la Sra. Paredes. Necesita saber qué pedido falta y por qué nos urge. Quiero que me responda con una fecha.
+
+**Prompt.** «Redacta un correo para la ejecutiva de ventas de un proveedor de cajas. Objetivo: pedir una nueva fecha de entrega del pedido 0870 de cajas medianas, que no llegó. Registro formal, de usted; tono cordial y firme. Datos: este mes se atrasaron 3 despachos por falta de cajas y nos quedan 20 cajas medianas. Máximo 100 palabras, con asunto, saludo con dos puntos y despedida. No agregues datos que no te di.» Después pidió una segunda versión para su jefatura.
+
+**Primeros borradores (fragmentos)**
+
+- Proveedor: «Hola, Sra. Paredes, junto con saludarla le comento que, como el pedido 0870 de cajas medianas no ha llegado y este mes hemos tenido despachos atrasados por esta falta, le agradeceremos entregar antes del viernes…».
+- Jefatura: «Estimada jefatura, junto con saludar y esperando que se encuentre muy bien, le comento que la OC 0870 no ha llegado y que este mes se atrasaron cinco despachos…».
+
+**Versión final para el proveedor**
+
+> Asunto: Nueva fecha de entrega del pedido 0870
+>
+> Estimada Sra. Paredes:
+>
+> El pedido 0870 de cajas medianas no ha llegado a nuestra bodega. ¿Podría confirmarnos una nueva fecha de entrega? Nos quedan pocas cajas y este mes ya tuvimos despachos atrasados por esta falta.
+>
+> Quedo atento a su respuesta.
+>
+> Saludos cordiales,
+> Andrés, Bodega Central
+
+**Versión final para la jefatura**
+
+> Asunto: Pedido de cajas atrasado
+>
+> Le informo que el pedido 0870 de cajas medianas no ha llegado. Quedan 20 cajas medianas y este mes se atrasaron 3 despachos por falta de cajas. Ya le pedí al proveedor una nueva fecha y le aviso apenas responda.
+
+**Registro de correcciones**
+
+| Texto | Qué corregí | Tipo de error |
+|---|---|---|
+| Proveedor | Quité «le agradeceremos entregar antes del viernes»: nadie fijó esa fecha | De hecho |
+| Proveedor | Cambié «Hola, Sra. Paredes,» por «Estimada Sra. Paredes:» | De tono o registro |
+| Proveedor | Llevé la pregunta por la fecha a las primeras líneas y partí una oración de cuatro líneas | De redacción |
+| Jefatura | Cambié «se atrasaron cinco despachos» por 3, como dicen mis apuntes | De hecho |
+| Jefatura | Quité un saludo de tres líneas: mi jefatura lee en el celular y necesita el dato primero | De tono o registro |
+| Jefatura | Cambié «OC 0870» por «pedido 0870», porque la sigla no estaba explicada | De redacción |
+
+**Qué debe tener la tuya.** Un texto que de verdad tengas que escribir, con nombres, montos y datos sensibles ya cambiados. Dos versiones para audiencias distintas, con registro, tono y nivel de detalle propios, y, si es correo, con asunto, saludo con dos puntos y despedida. El objetivo en las primeras líneas y oraciones breves. Cada nombre, fecha, monto y número comparado con tus apuntes, y un registro que diga qué corregiste en cada punto de la lista y separe los errores de hecho, de tono o registro y de redacción.
+
+**Errores frecuentes**
+
+- Un texto que parte con contexto o saludos largos y deja el pedido para el tercer párrafo.
+- Una frase de relleno con un compromiso que nadie tomó, como «le enviaremos el detalle mañana».
+- Un registro que dice «corregí detalles» o «ajusté el tono» sin decir cuáles.
 
 ## Referencias bibliográficas
 

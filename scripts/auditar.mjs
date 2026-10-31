@@ -288,7 +288,7 @@ for (const a of AES) {
 for (const a of AES) chequeo(`act.${a.id}`, `Actividades ${a.id}`, 'Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.', r => {
   if (!existe('actividades', `${a.id}.md`)) { r.error(`falta actividades/${a.id}.md`); return; }
   const md = leer('actividades', `${a.id}.md`);
-  const acts = md.split(/^## Actividad \d/m).slice(1);
+  const acts = md.split(/^## (?:Actividad|Autoevaluación) \d/m).slice(1);
   acts.length === 2 ? r.ev('2 actividades') : r.error(`${acts.length} actividades (deben ser 2)`);
   const cubre = new Set(acts.flatMap(x => (/^cubre:\s*(.+)$/m.exec(x)?.[1] || '').split(/,\s*/)));
   const deben = [...a.saber_hacer, ...a.criterios].map(x => x.codigo).filter(x => !cubre.has(x));
@@ -582,7 +582,7 @@ const AVANCE = RECURSOS.map(x => {
       // Opción 1 (30-10): cada hito es la actividad 2 de un AE (data/hitos.json), con su enunciado y su rúbrica
       const num = /Hito (\d[a-d]?)/.exec(x.titulo)?.[1];
       const h = Object.entries(HITOS).find(([k]) => k.replace(/^M\d-P/, '') === num)?.[1];
-      if (h && existe('actividades', `${h.ae}.md`) && new RegExp(`[Hh]itos? (${num}|[\\d]+[a-d]? y ${num})\\b`).test(leer('actividades', `${h.ae}.md`).split(/^## Actividad 2/m)[1] || '')) { estado = 'Hecho'; nota = `${h.hito}: actividad 2 de ${h.ae}, con enunciado y rúbrica`; }
+      if (h && existe('actividades', `${h.ae}.md`) && new RegExp(`[Hh]itos? (${num}|[\\d]+[a-d]? y ${num})\\b`).test(leer('actividades', `${h.ae}.md`).split(/^## (?:Actividad|Autoevaluación) 2/m)[1] || '')) { estado = 'Hecho'; nota = `${h.hito}: actividad 2 de ${h.ae}, con enunciado y rúbrica`; }
       else if (aes.every(a => existe('actividades', `${a}.md`))) { estado = 'Insumo listo'; nota = 'Actividades de aplicación práctica de sus AE (actividades/); falta asignar el hito a una actividad'; }
       break;
     }

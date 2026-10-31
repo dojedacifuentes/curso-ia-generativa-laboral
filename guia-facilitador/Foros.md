@@ -3,8 +3,7 @@
 El curso tiene siete foros: uno de interacción, abierto todo el curso, y uno por cada uno de los seis módulos. En los módulos 1 a 5
 es el foro de casos: ahí cada persona comparte el resultado de los casos de aplicación, responde la pregunta para conversar de cada
 caso y hace sus consultas sobre los casos y las actividades del módulo. En el módulo 6, el taller, no hay casos: el foro recibe los
-avances del proyecto de cada persona y las consultas. Los foros no llevan nota (cambio del 31-10); la nota de los casos se pone en
-la tarea de cada caso. Esta guía explica cómo moderarlos.
+avances del proyecto de cada persona y las consultas. Los foros no llevan nota (cambio del 31-10); la nota de los casos se pone en la tarea «Entrega y revisión docente» de cada caso. Esta guía explica cómo moderarlos.
 
 ### Plazo de respuesta
 
@@ -17,14 +16,14 @@ entregar), actividades publicadas y, al final, los comentarios de la discusión.
 
 ### Cómo responder las consultas
 
-Las consultas llegan en hilos con «Consulta» en el asunto. Pueden ser sobre un caso o sobre una actividad formativa. Para responder
+Las consultas llegan en hilos con «Consulta» en el asunto. Pueden ser sobre un caso o sobre una autoevaluación. Para responder
 las de las actividades, usa su pauta de referencia, que indica qué se espera en cada criterio de la rúbrica de autoevaluación.
 
 1. Responde en el mismo hilo, en tres a seis líneas y en tuteo.
 2. Orienta sin entregar la respuesta tipo de un caso: el caso es una práctica evaluada y el resto del curso puede leer el foro.
 3. Si la misma duda se repite, respóndela una vez en un hilo aparte y menciónala en la síntesis del módulo.
 
-La retroalimentación individual de cada caso no va en el foro: va en la tarea del caso, junto con la nota.
+La retroalimentación individual de cada caso no va en el foro: va en la tarea «Entrega y revisión docente» del caso, junto con la nota.
 
 ### Cómo animar la discusión
 

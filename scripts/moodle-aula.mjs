@@ -75,7 +75,7 @@ const rubrica = (md, nombre) => {
 
 // ---------- etiquetas del aula ----------
 // Cambio 31-10 (Natalia): «Aplica» y «En tu trabajo» van juntos (las dos actividades formativas, autoevaluables, sin nota)
-const PASOS = [['Aprende', 'Recorre el contenido interactivo del tema.'], ['Practica', 'Pon a prueba lo aprendido con el quiz juego.'], ['Aplica en tu trabajo', 'Resuelve las dos actividades formativas y revísalas con su rúbrica de autoevaluación.']];
+const PASOS = [['Aprende', 'Recorre el contenido interactivo del tema.'], ['Practica', 'Pon a prueba lo aprendido con el quiz juego.'], ['Aplica y autoevalúate', 'Haz las dos autoevaluaciones en tu trabajo y compáralas con su respuesta modelo. No se envían.']];
 const pasos = (chico) => `<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:${chico ? 14 : 4}px;">${PASOS.map(([t, d], i) => `<div style="flex:1 1 150px;display:flex;gap:10px;align-items:flex-start;background:${chico ? C.grs : '#fff'};border:1px solid ${C.linea};border-radius:14px;padding:10px 12px;">${num(i + 1, chico ? 26 : 30, i < 2 ? C.noche : C.fr)}<div><div style="font-weight:700;color:${C.noche};font-size:${chico ? 13.5 : 14.5}px;">${t}</div>${chico ? '' : `<div style="font-size:13px;color:${C.gr};line-height:1.4;">${d}</div>`}</div></div>`).join('')}</div>`;
 
 const portada = () => heroFoto(RETOS.curso.banner, `${pill('Curso · Empoderatech', true)}
@@ -90,11 +90,11 @@ const comoAvanzar = () => `<div style="background:${C.grs};border-radius:18px;pa
 <div style="font-size:15px;color:${C.noche};margin:6px 0 10px;line-height:1.5;">Cada módulo abre con un <b>video de bienvenida</b> y una evaluación diagnóstica. Después tiene varios temas, y cada tema sigue los mismos tres pasos. Tu avance se marca solo a medida que completas cada recurso.</div>
 ${pasos(false)}
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:12px;font-size:14px;color:${C.noche};line-height:1.5;">
-<div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Práctica evaluada.</b> Al cierre de cada módulo resuelves los casos de aplicación con empresas reales y los entregas como tarea. El facilitador te pone la nota y te deja su retroalimentación.</div>
+<div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Práctica evaluada.</b> Al cierre de cada módulo resuelves los casos de aplicación con empresas reales y los subes en su tarea «Entrega y revisión docente». Ahí mismo el docente te pone la nota y te devuelve su revisión.</div>
 <div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Conversa.</b> En el foro de casos del módulo compartes tus resultados y haces tus consultas. El facilitador responde en menos de 24 horas hábiles.</div>
 <div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Repasa.</b> El resumen del módulo trae la infografía animada, el <b>video de resumen</b> y el glosario del módulo, donde puedes buscar cada término.</div>
 <div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Demuestra.</b> Cada módulo cierra con su evaluación, y el curso, con una evaluación final que integra todo lo aprendido.</div>
-<div style="flex:1 1 100%;background:${C.noche};color:#fff;border-radius:12px;padding:12px 16px;"><b style="color:${C.fu};">Tu proyecto del curso.</b> En el módulo 1 eliges una tarea de tu cargo y en cada módulo la mejoras con IA: la presentas, la investigas, comunicas tu propuesta, automatizas un paso con supervisión y, al final, mides sus resultados y los cuentas en un pitch. Cada paso es un hito: lo reconoces en las actividades formativas 2 marcadas con su número.</div></div></div>`;
+<div style="flex:1 1 100%;background:${C.noche};color:#fff;border-radius:12px;padding:12px 16px;"><b style="color:${C.fu};">Tu proyecto del curso.</b> En el módulo 1 eliges una tarea de tu cargo y en cada módulo la mejoras con IA: la presentas, la investigas, comunicas tu propuesta, automatizas un paso con supervisión y, al final, mides sus resultados y los cuentas en un pitch. Cada paso es un hito: lo reconoces en las autoevaluaciones 2 marcadas con su número.</div></div></div>`;
 
 // Insignias del curso (creadas en Moodle el 30-10, ids 1 a 7; imágenes de scripts/moodle-insignias.mjs)
 const INSIGNIA = (id) => `https://formacion.empoderatech.com/pluginfile.php/16/badges/badgeimage/${id}/f1`;
@@ -122,7 +122,7 @@ const encabezado = (ic, t, d) => `<div style="position:relative;overflow:hidden;
 const bandaTema = (m, a, i) => `<div style="background:#fff;border:1px solid ${C.linea};border-left:6px solid ${C.fr};border-radius:18px;padding:18px 22px;margin-top:18px;">
 <div style="display:flex;gap:14px;align-items:center;">${num(i + 1, 44)}<div><div style="font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:${C.fr};">Tema ${i + 1} de ${m.aes.length}</div><div style="font-size:21px;font-weight:700;color:${C.noche};line-height:1.25;">${esc(a.tema)}</div></div></div>
 <div style="font-size:15px;line-height:1.6;color:${C.noche};margin-top:12px;"><b>Aprendizaje esperado:</b> ${esc(a.texto)}</div>
-${pasos(true)}${HITO[a.id] ? `<div style="margin-top:12px;display:inline-flex;gap:8px;align-items:center;background:${C.noche};color:#fff;border-radius:999px;padding:6px 16px 6px 8px;font-size:13.5px;">${num('★', 22, C.fu)}<span>La actividad formativa 2 de este tema es el <b>${HITO[a.id]}</b> de tu proyecto del curso</span></div>` : ''}</div>`;
+${pasos(true)}${HITO[a.id] ? `<div style="margin-top:12px;display:inline-flex;gap:8px;align-items:center;background:${C.noche};color:#fff;border-radius:999px;padding:6px 16px 6px 8px;font-size:13.5px;">${num('★', 22, C.fu)}<span>La autoevaluación 2 de este tema es el <b>${HITO[a.id]}</b> de tu proyecto del curso</span></div>` : ''}</div>`;
 
 const subtitulo = (t, d) => `<div style="margin-top:22px;"><div style="display:flex;align-items:center;gap:10px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${C.fr};"></span><span style="font-size:14px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:${C.noche};">${esc(t)}</span></div>${d ? `<div style="font-size:14.5px;color:${C.gr};margin:4px 0 0 20px;line-height:1.5;">${esc(d)}</div>` : ''}</div>`;
 
@@ -158,12 +158,18 @@ const modulos = curso.modulos.map((m) => {
   const aes = m.aes.map((a, i) => {
     const partes = partirH2(main(`entregables/actividades/html/${a.id}.html`));
     const refs = partes.find((p) => /^Referencias/.test(p.titulo))?.cuerpo || '';
-    const acts = partes.filter((p) => /^Actividad \d/.test(p.titulo));
+    const acts = partes.filter((p) => /^(Actividad|Autoevaluación) \d/.test(p.titulo));
     if (acts.length !== 2) throw new Error(`${a.id}: se esperaban 2 actividades`);
     // Cambio 31-10 (Natalia): las dos actividades son formativas y autoevaluables: tarea con entrega, sin nota, rúbrica de autoevaluación en el enunciado
     const act = (k) => {
-      const titulo = acts[k].titulo.replace(/^Actividad \d · /, '');
-      return { titulo, name: `Actividad formativa ${k + 1}: ${titulo}${k === 1 && HITO[a.id] ? ` · ${HITO[a.id]} del proyecto` : ''}`, intro: estilar(conRefs(acts[k].cuerpo, refs)) };
+      const titulo = acts[k].titulo.replace(/^(Actividad|Autoevaluación) \d · /, '');
+      // Cambio 31-10 (usuario): autoevaluación que no se envía: página con la respuesta modelo plegada y finalización manual
+      const [antes, modelo] = acts[k].cuerpo.split(/<h3>Respuesta modelo<\/h3>/);
+      if (modelo === undefined) throw new Error(`${a.id} actividad ${k + 1}: falta «Respuesta modelo»`);
+      const aviso = `<div style="display:flex;gap:12px;align-items:center;background:${C.frs};border:1px solid ${C.fr};border-radius:14px;padding:12px 16px;margin:0 0 14px;color:${C.noche};">${icono('check-check', C.fr, 22)}<div><b>Autoevaluación: no se envía ni lleva nota.</b> Haz la actividad, compárala con la respuesta modelo del final y marca en qué nivel quedaste con la rúbrica. Cuando termines, marca esta actividad como hecha.</div></div>`;
+      const plegado = `<details style="margin:18px 0 6px;border:1px solid ${C.linea};border-radius:14px;overflow:hidden;"><summary style="cursor:pointer;background:${C.noche};color:#fff;padding:12px 16px;font-weight:700;">Ver la respuesta modelo (ábrela cuando termines tu actividad)</summary><div style="padding:6px 18px 14px;">${estilar(modelo)}</div></details>`;
+      const cuerpo = estilar(conRefs(antes, refs)); const iRefs = cuerpo.search(/<h4[^>]*>Referencias bibliográficas/);
+      return { titulo, name: `Autoevaluación ${k + 1}: ${titulo}${k === 1 && HITO[a.id] ? ` · ${HITO[a.id]} del proyecto` : ''}`, html: aviso + (iRefs >= 0 ? cuerpo.slice(0, iRefs) + plegado + cuerpo.slice(iRefs) : cuerpo + plegado) };
     };
     const id = a.id;
     return {
@@ -178,7 +184,9 @@ const modulos = curso.modulos.map((m) => {
   const casos = fs.readdirSync(rel('casos')).filter((f) => new RegExp(`^M${m.n}-C\\d\\.md$`).test(f)).sort().map((f) => {
     const id = f.replace('.md', ''); const h = leer('entregables', 'casos', 'html', `${id}.html`);
     const titulo = /<h1>([^<]+)<\/h1>/.exec(h)[1].trim();
-    return { id, titulo, name: `Caso de aplicación: ${titulo}`, html: estilar(main(`entregables/casos/html/${id}.html`)), rubrica: rubrica(rubCaso, `Rúbrica · Caso de aplicación: ${titulo}`) };
+    // Cambio 31-10 (usuario): el caso se lee en una página y se entrega en su propia tarea, donde el docente sube nota y revisión
+    const entrega = `<div style="border:1px solid ${C.linea};border-left:6px solid ${C.fr};border-radius:14px;padding:14px 18px;background:#fff;color:${C.noche};line-height:1.6;"><div style="display:flex;gap:10px;align-items:center;font-weight:700;font-size:16px;">${icono('upload', C.fr, 22)}Sube aquí tu documento del caso</div><p style="margin:8px 0 0;">Caso: <b>${esc(titulo)}</b>. Sube un documento de texto o PDF con tus respuestas al análisis guiado y el producto de la aplicación a tu proyecto.</p><div style="display:flex;gap:10px;align-items:center;font-weight:700;font-size:16px;margin-top:12px;">${icono('user-check', C.fr, 22)}Revisión del docente</div><p style="margin:8px 0 0;">Esta entrega la revisa el docente con la rúbrica del caso. En esta misma tarea te devuelve <b>la nota</b>, <b>la rúbrica completada</b> y <b>su revisión</b>: comentarios y, si corresponde, tu documento con observaciones. Plazo: hasta 72 horas hábiles. Se aprueba con 60 %.</p></div>`;
+    return { id, titulo, name: `Caso de aplicación: ${titulo}`, html: estilar(main(`entregables/casos/html/${id}.html`)), entrega: { name: `Entrega y revisión docente: ${titulo}`, intro: entrega }, rubrica: rubrica(rubCaso, `Rúbrica · Caso de aplicación: ${titulo}`) };
   });
   const conCasos = casos.length > 0;
   const f = foroDe(conCasos ? `Foro de casos del módulo ${m.n} ` : `Foro del módulo ${m.n} `);
@@ -194,7 +202,7 @@ const modulos = curso.modulos.map((m) => {
     aes, casos,
     etiquetas: {
       empieza: encabezado('play', 'Empieza aquí', 'Mira el video de bienvenida y responde la evaluación diagnóstica para ver desde dónde partes.'),
-      casos: encabezado('badge-check', 'Práctica evaluada', 'Casos de aplicación con empresas reales. Cada caso se entrega como tarea: el facilitador te pone la nota y te deja su retroalimentación.'),
+      casos: encabezado('badge-check', 'Práctica evaluada', 'Lee cada caso y sube tu documento en su «Entrega y revisión docente»: el docente te pone la nota y te devuelve su revisión en esa misma tarea.'),
       foro: encabezado('users', conCasos ? 'Foro de casos' : 'Foro del módulo', conCasos ? 'Comparte los resultados de tus casos, conversa con tus compañeros y haz tus consultas.' : 'Comparte los avances de tu proyecto, conversa con tus compañeros y haz tus consultas.'),
       resumen: encabezado('layers', 'Resumen del módulo', 'Las ideas clave en una infografía animada y un video, y el glosario del módulo para buscar cada término.'),
       evaluacion: encabezado('list-checks', 'Evaluación del módulo', 'Preguntas con casos y alternativas, con retroalimentación en cada respuesta. Lleva nota.'),
@@ -225,7 +233,7 @@ const aula = {
   imagenes: IMAGENES,
   facilitador: {
     nombre: 'Para el facilitador',
-    resumen: `<div style="border:1px solid ${C.linea};border-left:6px solid ${C.noche};border-radius:14px;padding:14px 18px;background:${C.grs};color:${C.noche};"><b>Sección del equipo docente.</b> Los estudiantes no la ven. Trae la guía del facilitador, con la pauta de corrección de los casos de aplicación, la pauta de las evaluaciones, la referencia de las actividades formativas y la moderación de los foros, y el mapa del aula.</div>`,
+    resumen: `<div style="border:1px solid ${C.linea};border-left:6px solid ${C.noche};border-radius:14px;padding:14px 18px;background:${C.grs};color:${C.noche};"><b>Sección del equipo docente.</b> Los estudiantes no la ven. Trae la guía del facilitador, con la pauta de corrección de los casos de aplicación, la pauta de las evaluaciones, la pauta de referencia de las autoevaluaciones y la moderación de los foros, y el mapa del aula.</div>`,
     archivos: [
       { name: 'Guía del facilitador (completa)', pdf: 'entregables/guia-facilitador/pdf/Guia-del-facilitador.pdf' },
       ...fs.readdirSync(rel('entregables', 'guia-facilitador', 'partes', 'pdf')).sort().map((f) => ({ name: f.startsWith('Guia-0') ? 'Guía del facilitador · Introducción y foros' : f.startsWith('Guia-E') ? 'Guía del facilitador · Evaluaciones' : `Guía del facilitador · Módulo ${/M(\d)/.exec(f)[1]}`, pdf: `entregables/guia-facilitador/partes/pdf/${f}` })),
@@ -242,11 +250,11 @@ for (const x of aula.facilitador.archivos) if (!fs.existsSync(rel(x.pdf))) error
 const texto = JSON.stringify({ ...aula, facilitador: null, imagenes: null }).replace(/"(zip|xml|pdf|id|gift)":"[^"]*"/g, '');
 for (const re of [/\bM\d-(AE|C|T)\d\b/, /\bP\d{2}\b/, /pantalla \d/i]) { const x = re.exec(texto); if (x) errores.push(`código o remisión: «${texto.slice(Math.max(0, x.index - 60), x.index + 40)}»`); }
 for (const f of fs.readdirSync(rel('entregables', 'moodle', 'evaluaciones'))) { const g = leer('entregables', 'moodle', 'evaluaciones', f).replace(/^::[^:]*::/gm, ''); for (const re of [/\bM\d-(AE|C|T|E)\d+\b/, /\bP\d{2}\b/, /pantalla \d/i]) if (re.test(g)) errores.push(`${f}: código o remisión ${re}`); }
-// actividades formativas (31-10): sin foro, sin nota
-const NOTA = /foro de la actividad|se aprueba con|\b\d+ ?% del peso/i;
-for (const m of modulos) for (const a of m.aes) for (const k of ['act1', 'act2']) { const t = a[k].intro.replace(/<[^>]+>/g, ' '); if (NOTA.test(t)) errores.push(`${a.id} ${k}: menciona foro o nota («${NOTA.exec(t)[0]}»)`); }
+// autoevaluaciones (31-10): sin foro, sin nota y sin entrega
+const NOTA = /foro de la actividad|se aprueba con|\b\d+ ?% del peso|\b(sube|subes|súbel[oa]) (en|como) (la )?tarea|tarea en el aula|lo que entregas/i;
+for (const m of modulos) for (const a of m.aes) for (const k of ['act1', 'act2']) { const t = a[k].html.replace(/<[^>]+>/g, ' '); if (NOTA.test(t)) errores.push(`${a.id} ${k}: menciona foro, nota o entrega («${NOTA.exec(t)[0]}»)`); }
 if (errores.length) { console.error(errores.join('\n')); process.exit(1); }
 fs.mkdirSync(rel('entregables', 'moodle'), { recursive: true });
 fs.writeFileSync(rel('entregables', 'moodle', 'aula.json'), JSON.stringify(aula, null, 1));
 const n = modulos.reduce((s, m) => s + m.aes.length, 0);
-console.log(`aula.json: ${modulos.length} módulos (${HORAS_CURSO} h), ${n} temas, ${n * 2} actividades formativas, ${modulos.reduce((s, m) => s + m.casos.length, 0)} casos evaluados con rúbrica, ${modulos.reduce((s, m) => s + (m.evaluacion?.preguntas || 0), 0)} ítems de evaluación de módulo y ${aula.final.evaluacion?.preguntas || 0} de la final${faltan.length ? ` (faltan ${faltan.join(', ')})` : ''}, ${aula.facilitador.archivos.length} archivos del facilitador`);
+console.log(`aula.json: ${modulos.length} módulos (${HORAS_CURSO} h), ${n} temas, ${n * 2} autoevaluaciones, ${modulos.reduce((s, m) => s + m.casos.length, 0)} casos evaluados con rúbrica, ${modulos.reduce((s, m) => s + (m.evaluacion?.preguntas || 0), 0)} ítems de evaluación de módulo y ${aula.final.evaluacion?.preguntas || 0} de la final${faltan.length ? ` (faltan ${faltan.join(', ')})` : ''}, ${aula.facilitador.archivos.length} archivos del facilitador`);

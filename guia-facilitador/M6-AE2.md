@@ -1,10 +1,10 @@
 # Guía del facilitador · Implementar el flujo
 
-## Actividad 1 · Un ciclo de prueba con documentos inventados
+## Autoevaluación 1 · Un ciclo de prueba con documentos inventados
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube como tarea en el aula su planilla, las plantillas, la tabla de versiones, la bitácora y su autoevaluación. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si marcó «Lo logré» en la revisión y dio por correcta una fecha que el documento no trae.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar.
 
 ### Pauta de referencia
 
@@ -30,11 +30,11 @@ Si lo logró: «Tu revisión campo por campo detectó la fecha que el asistente 
 
 Si lo logró en parte: «Tu ronda de prueba está completa. Revisa el contrato: la tabla le da una fecha que el documento no trae y la marcaste como correcta. Es justo el error que la supervisión tiene que atrapar. Corrígelo y ajusta el conteo de casos sin errores.»
 
-## Actividad 2 · Implementa y documenta tu propio flujo
+## Autoevaluación 2 · Implementa y documenta tu propio flujo
 
-### Dónde se entrega y cómo acompañar
+### Cómo acompañar
 
-La persona sube su trabajo como tarea en el aula, como documento o con el enlace a una carpeta compartida, junto con su autoevaluación. Solo lo ven ella y tú, porque trabaja con su flujo real. Es una actividad formativa y no se califica. Usa esta pauta para responder consultas en el foro del módulo y para dejar un comentario en la tarea cuando la autoevaluación se aleje mucho de lo entregado, por ejemplo si las capturas muestran datos personales o información de la empresa sin anonimizar. Como es un hito del proyecto, verifica que el flujo siga la misma tarea de su cargo que eligió al inicio del curso. Si el enlace no abre, avísale en el mismo día para que corrija los permisos.
+Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar. Si alguien comparte en el foro datos de clientes, proveedores o compañeros, pídele que los reemplace por datos inventados.
 
 ### Pauta de referencia
 

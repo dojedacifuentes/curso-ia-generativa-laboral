@@ -1,6 +1,6 @@
 # Actividades de aplicación práctica · M6-AE2 · Implementar el flujo
 
-## Autoevaluación 1 · Un ciclo de prueba con documentos inventados
+## Práctica autoevaluada 1 · Un ciclo de prueba con documentos inventados
 cubre: H1, C1, C2
 fuentes: F-M6-04, F-M6-08
 entrega: autoevaluacion
@@ -9,8 +9,8 @@ entrega: autoevaluacion
 
 Vas a hacer con Camila una ronda completa de prueba de su flujo de registro: definir quién revisa, probar con cinco documentos
 inventados, ajustar la plantilla y dejar registro de la decisión. Así practicas la implementación con supervisión y la documentación
-que pide tu propio flujo. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta
-modelo del final y revisa tu trabajo con la rúbrica de autoevaluación.
+que pide tu propio flujo. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta
+modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada.
 
 ### Situación
 
@@ -51,7 +51,7 @@ Deja lista la planilla con los resultados de las dos rondas, el punto de supervi
 versiones y la entrada de la bitácora. Agrega un párrafo breve sobre qué error habría llegado a la planilla de registro si nadie
 hubiera revisado.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -104,7 +104,7 @@ que la planilla tendría un documento de más y una fecha falsa que nadie podrí
 - Culpar al asistente sin ubicar la causa en la plantilla, o escribir el punto de supervisión después de las pruebas.
 - Sobrescribir la v1, o probar la v2 con otros documentos, lo que impide comparar.
 
-## Autoevaluación 2 · Implementa y documenta tu propio flujo
+## Práctica autoevaluada 2 · Implementa y documenta tu propio flujo
 cubre: H1, C1, C2
 fuentes: F-M6-07, F-M5-12
 entrega: autoevaluacion
@@ -112,8 +112,8 @@ entrega: autoevaluacion
 ### Instrucción general
 
 Vas a llevar tu prototipo a un flujo completo que funcione en tu trabajo, con supervisión humana, pruebas y registro de cada
-decisión. Es el Hito 6b de tu proyecto del curso. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta,
-compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con
+decisión. Es el Hito 6b de tu proyecto del curso. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta,
+compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con
 tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
@@ -145,7 +145,7 @@ Deja listos, en un documento o en una carpeta, el flujo en pasos, la ficha, la t
 principal, la bitácora con al menos tres entradas y la evidencia de las pruebas, con capturas que no muestren datos personales ni
 información de tu empresa.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

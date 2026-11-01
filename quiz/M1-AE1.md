@@ -7,7 +7,7 @@
 **Ilustración:** flujo | Tu pedido (chat) · El modelo (chip) · El resultado (salida)
 
 1. *(S1 · C1 · P03)* Una compañera de Andrés le dice: «El asistente tiene guardadas todas las respuestas y te muestra la correcta». ¿Qué explica mejor cómo genera su texto?
-   - a) Busca la respuesta guardada que más se parece a tu pregunta y la copia
+   - a) Busca la respuesta guardada que más se parece a tu pregunta y la copia tal cual
    - **b) Predice continuaciones probables, elige una y repite, fragmento a fragmento**
    - c) Comprende el tema como una persona experta y redacta lo que sabe
    - d) Escribe el texto completo de una vez y después lo revisa
@@ -22,7 +22,7 @@
 
 3. *(S2 · C2 · P05)* Verdadero o falso: «Andrés puede imprimir tal cual el afiche que le generó un modelo de imagen, porque el modelo sigue la descripción que le dio».
    - **a) Falso, porque puede traer texto ilegible o elementos mal ubicados, y se revisa antes de publicar**
-   - b) Verdadero, porque el modelo ubica cada elemento justo donde se pidió en la descripción
+   - b) Verdadero, porque el modelo ubica cada elemento justo donde se pidió en la descripción del afiche
    - c) Falso, porque los modelos de imagen no pueden dibujar personas usando zapatos de seguridad
    - d) Verdadero, porque el texto dentro de la imagen siempre sale nítido
    *Retroalimentación:* A los modelos de imagen todavía les cuesta escribir texto nítido y ubicar cada elemento donde se pidió. Por eso una imagen generada se revisa siempre antes de imprimirla o publicarla.
@@ -36,9 +36,10 @@
 
 5. *(S3 · C1 · P09)* Camila lleva una conversación muy larga respondiendo correos de proveedores y ahora quiere preparar la minuta de una reunión de otro tema. ¿Qué le conviene hacer?
    - a) Seguir en la misma conversación, porque el modelo considera todo lo anterior con el mismo peso
-   - **b) Empezar una conversación nueva y entregarle lo que necesita saber sobre esa reunión**
-   - c) Pedir la minuta sin dar detalles, porque el asistente ya sabe de qué reunión se trata
-   *Retroalimentación:* En una conversación muy larga lo del inicio puede perder peso o quedar fuera de la ventana de contexto, y el modelo no conoce lo que no le dices. Al cambiar de tarea conviene empezar de nuevo y darle el contexto.
+   - b) Pedir la minuta sin dar detalles, porque el asistente ya sabe de qué reunión se trata
+   - **c) Empezar una conversación nueva y entregarle lo que necesita saber sobre esa reunión**
+   - d) Escribir «olvida los correos anteriores» y pedir la minuta en esa misma conversación
+   *Retroalimentación:* En una conversación muy larga lo del inicio puede perder peso o quedar fuera de la ventana de contexto, y el modelo no conoce lo que no le dices. Al cambiar de tarea conviene empezar de nuevo y darle el contexto, en vez de seguir en el mismo hilo.
 
 6. *(S4 · C2 · P10)* Andrés pide documentos sobre seguridad en bodegas. El asistente le entrega tres títulos con enlaces, en tono seguro, pero uno de esos documentos no existe. ¿Qué límite explica ese error?
    - **a) La alucinación, porque el modelo produce información falsa que suena verdadera**
@@ -48,7 +49,7 @@
    *Retroalimentación:* Inventar títulos de documentos o enlaces es una alucinación, y es más probable cuando se piden fuentes o citas. La fecha de corte explica datos que cambiaron, no documentos que nunca existieron.
 
 7. *(S4 · H1 · C2 · P11)* La jefatura de Andrés le sugiere pegar las evaluaciones de cinco bodegueros y pedirle al asistente que elija a quién ascender a supervisor. ¿Cuál es el problema principal?
-   - a) Ninguno, si las evaluaciones están completas y bien ordenadas
+   - a) Ninguno, si las evaluaciones están completas, bien ordenadas y son del último año
    - **b) Traslada los sesgos del modelo a una decisión que afecta a personas**
    - c) El asistente no puede leer evaluaciones escritas en tablas
    - d) El modelo solo puede elegir entre tres opciones a la vez
@@ -57,6 +58,6 @@
 8. *(S4 · C2 · P12)* Camila pregunta cuánto cuesta hoy un trámite cuyo precio se actualiza cada año. El asistente responde una cifra sin dudar. ¿Qué límite explica mejor el riesgo de esa respuesta?
    - a) Ninguno: si responde sin dudar y con una cifra exacta, el dato es confiable
    - b) El sesgo, porque el modelo repite miradas parciales de sus datos
-   - c) La ventana de contexto, porque la pregunta superó el máximo de tokens
+   - c) La ventana de contexto, porque la pregunta superó el máximo de tokens que el modelo puede leer
    - **d) La fecha de corte: su entrenamiento llega hasta cierta fecha y el precio pudo cambiar**
    *Retroalimentación:* Un valor que cambia cada año puede haber cambiado después de la fecha de corte del modelo, y el asistente lo daría como vigente. El tono seguro no prueba nada: la cifra se confirma en la fuente oficial.

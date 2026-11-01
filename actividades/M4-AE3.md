@@ -1,13 +1,13 @@
 # Actividades de aplicación práctica · M4-AE3 · Audio y música
 
-## Autoevaluación 1 · El audio de reciclaje para la reunión de Camila
+## Práctica autoevaluada 1 · El audio de reciclaje para la reunión de Camila
 cubre: H1, C1, C2
 fuentes: F-H-76, F-H-77
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad produces la locución y la pista del audio de Camila y verificas sus condiciones de uso. Es una práctica con un caso ficticio antes de hacer la locución de un aviso de tu trabajo. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación.
+En esta actividad produces la locución y la pista del audio de Camila y verificas sus condiciones de uso. Es una práctica con un caso ficticio antes de hacer la locución de un aviso de tu trabajo. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada.
 
 ### Situación
 
@@ -30,7 +30,7 @@ Vas a producir la locución y la pista de Camila, y a verificar sus condiciones 
 
 Deja listo el guion final, la locución y la pista descargadas con nombres claros, las cinco preguntas respondidas para cada audio, el texto de atribución que irá en el título cuando la gerenta publique el audio y tu respuesta al compañero, en tres o cuatro líneas.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -82,14 +82,14 @@ Eligió la A, porque el piano queda por debajo de la voz; en la B, las palmas co
 - Escribir «ElevenLabs» como atribución, sin la forma que pide la herramienta, o no anotar el plan.
 - Aceptar la clonación «si es para uso interno», o decir que no sin dar razón ni alternativa.
 
-## Autoevaluación 2 · La locución de un aviso de tu trabajo
+## Práctica autoevaluada 2 · La locución de un aviso de tu trabajo
 cubre: H1, C1, C2
 fuentes: F-M4-16, F-H-76
 entrega: autoevaluacion
 
 ### Instrucción general
 
-Ahora produces la locución de un aviso real de tu trabajo y, si el uso la admite, una pista de fondo. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
+Ahora produces la locución de un aviso real de tu trabajo y, si el uso la admite, una pista de fondo. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
 
@@ -110,7 +110,7 @@ Ten presente que la Ley 21.719 pone la voz como ejemplo de dato biométrico, que
 
 Deja lista la locución, la pista si la usaste, el guion final y la ficha de uso ético actualizada. Agrega dos líneas que expliquen por qué la voz y la música calzan con el uso que definiste.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

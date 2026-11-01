@@ -1,13 +1,13 @@
 # Actividades de aplicación práctica · M1-AE2 · Prompts efectivos
 
-## Autoevaluación 1 · Tres pedidos de la bandeja de Camila
+## Práctica autoevaluada 1 · Tres pedidos de la bandeja de Camila
 cubre: H1, C1, C2
 fuentes: F-M1-12, F-H-15
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad vas a escribir un prompt para cada pendiente de Camila y a mejorarlo con al menos una iteración, para practicar la estructura de rol, contexto, tarea y formato. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Trabajas solo con datos de prueba.
+En esta actividad vas a escribir un prompt para cada pendiente de Camila y a mejorarlo con al menos una iteración, para practicar la estructura de rol, contexto, tarea y formato. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Trabajas solo con datos de prueba.
 
 ### Situación
 
@@ -38,7 +38,7 @@ Vas a escribir un prompt para resumir, uno para reescribir y uno para clasificar
 Deja listas, para cada uno de los tres pendientes, la versión 1 y la versión 2 del prompt con sus partes marcadas, las dos respuestas y
 dos o tres líneas que expliquen qué falló en la primera, qué cambiaste y por qué la segunda le sirve más a Camila.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -89,14 +89,14 @@ Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve s
 - Una versión 2 que cambia todo el prompt, con lo que no se sabe qué ayudó, o no iterar porque «la primera ya estaba bien».
 - Dejar pasar un resumen que agrega plazos o documentos que el instructivo no trae, o una clasificación con una categoría nueva.
 
-## Autoevaluación 2 · Una plantilla para la tarea que más repites
+## Práctica autoevaluada 2 · Una plantilla para la tarea que más repites
 cubre: H1, H2, C1, C2
 fuentes: F-M1-12, F-M1-13
 entrega: autoevaluacion
 
 ### Instrucción general
 
-Esta actividad es el Hito 1 de tu proyecto del curso: la tarea de tu cargo que elijas aquí es la que vas a seguir mejorando con IA en los módulos siguientes, hasta medir sus resultados en el módulo 6. En ella vas a convertir un prompt que funciona en una plantilla que puedas reutilizar en una tarea que repites en tu cargo. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
+Esta actividad es el Hito 1 de tu proyecto del curso: la tarea de tu cargo que elijas aquí es la que vas a seguir mejorando con IA en los módulos siguientes, hasta medir sus resultados en el módulo 6. En ella vas a convertir un prompt que funciona en una plantilla que puedas reutilizar en una tarea que repites en tu cargo. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
 
@@ -123,7 +123,7 @@ Deja listas las versiones del prompt que probaste, con la respuesta de cada una;
 obtuviste con el segundo caso, y la ficha de la plantilla en tu biblioteca. Ninguna de las copias debe tener datos personales ni
 confidenciales.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

@@ -1,13 +1,13 @@
 # Actividades de aplicación práctica · M2-AE4 · Planillas de cálculo con IA
 
-## Autoevaluación 1 · Las facturas pendientes de Camila
+## Práctica autoevaluada 1 · Las facturas pendientes de Camila
 cubre: H1, C1
 fuentes: F-M2-16, F-M2-15
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad vas a pedirle a Gemini dos fórmulas para la planilla de facturas de Camila, aplicarlas y comprobar que dan el resultado correcto. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Trabajas con una tabla ficticia.
+En esta actividad vas a pedirle a Gemini dos fórmulas para la planilla de facturas de Camila, aplicarlas y comprobar que dan el resultado correcto. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Trabajas con una tabla ficticia.
 
 ### Situación
 
@@ -41,7 +41,7 @@ Los resultados que debes obtener son 2830000 para Pendiente y 1009000 para Pagad
 
 Deja lista la hoja con las dos fórmulas funcionando y, en tu bitácora, la fórmula exacta que propuso Gemini para cada problema, tu cálculo a mano y el resultado de cada prueba. Si tuviste que corregir una fórmula, anota cómo era antes y cómo quedó.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -88,14 +88,14 @@ Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve s
 - El estado escrito dentro de la fórmula, como `"Pendiente"`, que obliga a escribir otra fórmula para H3.
 - En BUSCARV, omitir FALSO o poner VERDADERO: la factura 1110 devuelve 64000 en vez de un error. O usar el índice 5, que trae el estado en vez del monto.
 
-## Autoevaluación 2 · Una fórmula para tu planilla, comprobada
+## Práctica autoevaluada 2 · Una fórmula para tu planilla, comprobada
 cubre: H1, C2
 fuentes: F-M2-20, F-M2-17
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad vas a resolver con una fórmula generada por IA una pregunta que hoy respondes a mano en tu planilla, y a comprobarla con datos de prueba antes de confiar en ella. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
+En esta actividad vas a resolver con una fórmula generada por IA una pregunta que hoy respondes a mano en tu planilla, y a comprobarla con datos de prueba antes de confiar en ella. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
 
@@ -117,7 +117,7 @@ Vas a armar una tabla pequeña de prueba con tus propias columnas, conseguir la 
 
 Deja listos tu tabla de prueba, la pregunta, tu cálculo a mano, la fórmula que propuso Gemini y la fórmula final. En tu bitácora describe cada prueba que hiciste, con lo que esperabas y lo que obtuviste, y el error que encontraste o provocaste, cómo lo detectaste y cómo lo corregiste.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

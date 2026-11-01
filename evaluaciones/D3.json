@@ -1,0 +1,203 @@
+{
+  "modulo": 3,
+  "titulo": "Evaluación diagnóstica del módulo 3",
+  "instruccion": "Esta evaluación diagnóstica sirve para ver desde dónde partes en el módulo «Investigación y análisis de información», antes de empezar sus temas. No lleva nota ni afecta tu aprobación: responde según lo que sabes o haces hoy en tu trabajo, aunque el tema sea nuevo para ti. Tiene 7 preguntas de selección múltiple; cada una presenta una situación de trabajo breve y cuatro alternativas, de las que una corresponde a la práctica recomendada. Al terminar verás la retroalimentación de cada alternativa y el tema del módulo donde se trabaja, para que sepas en qué poner más atención.",
+  "items": [
+    {
+      "id": "M3-D01",
+      "ae": "M3-AE1",
+      "criterio": "C1",
+      "enunciado": "Tu jefatura te pide «averiguar algo sobre el ausentismo laboral» para una reunión. ¿Cómo partes?",
+      "opciones": [
+        {
+          "texto": "Acoto la pregunta: qué quiero saber, sobre qué tipo de empresa, de qué período y para qué decisión.",
+          "correcta": true,
+          "retro": "Buen punto de partida: una pregunta específica orienta la búsqueda y facilita revisar las fuentes. En el tema «Herramientas de IA para investigar» verás cómo formular preguntas de investigación y qué herramienta conviene para cada una."
+        },
+        {
+          "texto": "Escribo «ausentismo laboral» en un asistente de IA y copio en un documento lo que me responda.",
+          "correcta": false,
+          "retro": "Una búsqueda tan amplia da respuestas generales, difíciles de usar en una decisión concreta. En el tema «Herramientas de IA para investigar» verás cómo pasar de un tema amplio a una pregunta de investigación precisa."
+        },
+        {
+          "texto": "Busco la definición de ausentismo en un diccionario y la presento como respuesta en la reunión.",
+          "correcta": false,
+          "retro": "Una definición ayuda a partir, pero no responde lo que necesita tu jefatura. En el tema «Herramientas de IA para investigar» verás cómo plantear preguntas que lleven a información útil para decidir."
+        },
+        {
+          "texto": "Les pregunto a mis colegas qué opinan del tema y anoto las ideas que más se repiten entre ellos.",
+          "correcta": false,
+          "retro": "Las opiniones del equipo pueden ser un buen insumo, pero no reemplazan la investigación. En el tema «Herramientas de IA para investigar» verás cómo levantar información con herramientas de IA que muestran sus fuentes."
+        }
+      ]
+    },
+    {
+      "id": "M3-D02",
+      "ae": "M3-AE1",
+      "criterio": "C2",
+      "enunciado": "Cuando usas un asistente de IA para buscar información para tu trabajo, ¿qué haces con las fuentes?",
+      "opciones": [
+        {
+          "texto": "Me quedo con la respuesta; si el asistente la entregó, debe tener alguna fuente que la respalde.",
+          "correcta": false,
+          "retro": "No todas las respuestas tienen una fuente detrás, y a veces la fuente no dice lo que el asistente afirma. En el tema «Herramientas de IA para investigar» verás herramientas que muestran sus citas y cómo revisarlas."
+        },
+        {
+          "texto": "Anoto el nombre del asistente como fuente de todos los datos que saqué de la conversación.",
+          "correcta": false,
+          "retro": "El asistente no es la fuente: la fuente es el documento o el sitio de donde viene el dato. En el tema «Herramientas de IA para investigar» verás cómo registrar cada fuente con su cita."
+        },
+        {
+          "texto": "Uso herramientas que muestran sus fuentes, abro las citas y anoto de dónde sale cada dato.",
+          "correcta": true,
+          "retro": "Buen punto de partida: abrir las citas y registrar cada fuente es la base de una investigación confiable. En el tema «Herramientas de IA para investigar» verás buscadores con citas y asistentes que trabajan sobre tus propios documentos."
+        },
+        {
+          "texto": "Uso solo la primera fuente que aparece en la respuesta, porque es la más importante del tema.",
+          "correcta": false,
+          "retro": "El orden en que aparecen las fuentes no indica cuál es la más confiable ni la más pertinente. En el tema «Herramientas de IA para investigar» verás cómo usar más de una herramienta y registrar las fuentes que revisas."
+        }
+      ]
+    },
+    {
+      "id": "M3-D03",
+      "ae": "M3-AE2",
+      "criterio": "C1",
+      "enunciado": "Encuentras dos páginas sobre el mismo tema: un artículo sin autor ni fecha, con muchos consejos, y una guía de este año publicada por un organismo público. ¿Cuál pesa más para tu trabajo?",
+      "opciones": [
+        {
+          "texto": "El artículo, porque trae más consejos y está escrito de una forma más fácil de entender.",
+          "correcta": false,
+          "retro": "Que algo sea fácil de leer no lo hace confiable; sin autor ni fecha no sabes quién responde por él. En el tema «Recopilar, validar y sintetizar» verás criterios de confiabilidad: autoría, fecha y respaldo."
+        },
+        {
+          "texto": "La guía del organismo, porque se sabe quién responde por ella, cuándo se publicó y en qué se basa.",
+          "correcta": true,
+          "retro": "Buen punto de partida: autoría, fecha y respaldo son criterios clave para decidir cuánto confiar en una fuente. En el tema «Recopilar, validar y sintetizar» verás cómo aplicarlos y cómo contrastar varias fuentes."
+        },
+        {
+          "texto": "Las dos pesan igual, porque las dos están publicadas en internet y cualquiera las puede leer.",
+          "correcta": false,
+          "retro": "Estar en internet no da el mismo peso a todas las fuentes. En el tema «Recopilar, validar y sintetizar» verás cómo evaluar cada fuente según quién la publica, cuándo y con qué respaldo."
+        },
+        {
+          "texto": "La que aparezca primero en el buscador, porque eso indica que es la más consultada por las personas.",
+          "correcta": false,
+          "retro": "La posición en el buscador no indica confiabilidad. En el tema «Recopilar, validar y sintetizar» verás criterios para decidir cuánto confiar en una fuente."
+        }
+      ]
+    },
+    {
+      "id": "M3-D04",
+      "ae": "M3-AE2",
+      "criterio": "C2",
+      "enunciado": "Dos fuentes confiables entregan cifras distintas sobre el mismo punto que estás investigando. ¿Qué haces?",
+      "opciones": [
+        {
+          "texto": "Uso la cifra más alta, porque hace que mi informe sea más convincente para la jefatura.",
+          "correcta": false,
+          "retro": "Elegir la cifra que más conviene sesga el resultado. En el tema «Recopilar, validar y sintetizar» verás cómo contrastar fuentes y sintetizar lo que queda respaldado."
+        },
+        {
+          "texto": "Saco el promedio de las dos cifras y lo presento en el informe como el dato real del tema.",
+          "correcta": false,
+          "retro": "Un promedio entre cifras que miden cosas distintas puede no significar nada. En el tema «Recopilar, validar y sintetizar» verás cómo revisar qué midió cada fuente antes de sintetizar."
+        },
+        {
+          "texto": "Dejo ese punto fuera del informe, porque si las fuentes no coinciden ninguna de las dos sirve.",
+          "correcta": false,
+          "retro": "Una diferencia entre fuentes es información útil, no un motivo para descartar el punto. En el tema «Recopilar, validar y sintetizar» verás cómo explicar las diferencias en tu síntesis."
+        },
+        {
+          "texto": "Reviso qué midió cada una y cuándo, y explico la diferencia en mi síntesis.",
+          "correcta": true,
+          "retro": "Buen punto de partida: entender por qué difieren las cifras es parte de contrastar fuentes. En el tema «Recopilar, validar y sintetizar» verás cómo triangular la información y sintetizar solo lo que está respaldado."
+        }
+      ]
+    },
+    {
+      "id": "M3-D05",
+      "ae": "M3-AE3",
+      "criterio": "C1",
+      "enunciado": "Debes entregar a tu jefatura un informe breve con lo que averiguaste sobre un problema del área. ¿Cómo lo organizas?",
+      "opciones": [
+        {
+          "texto": "Cuento en orden cómo fui buscando la información, para que se vea todo el trabajo que hice.",
+          "correcta": false,
+          "retro": "El proceso de búsqueda le interesa poco a quien decide: necesita saber qué encontraste. En el tema «Organizar y presentar información» verás la estructura de un informe breve que parte por los mensajes clave."
+        },
+        {
+          "texto": "Pego una tras otra las respuestas del asistente de IA, sin editarlas, para no perder información.",
+          "correcta": false,
+          "retro": "Las respuestas sin editar suelen repetir ideas y no traen las fuentes ordenadas. En el tema «Organizar y presentar información» verás cómo organizar hallazgos, citar fuentes y formular recomendaciones."
+        },
+        {
+          "texto": "Parto con los mensajes clave, sigo con los hallazgos y sus fuentes, y cierro con recomendaciones.",
+          "correcta": true,
+          "retro": "Buen punto de partida: quien lee sabe de inmediato lo importante y puede revisar de dónde sale. En el tema «Organizar y presentar información» verás cómo armar un informe breve de una o dos páginas, citar fuentes y usar gráficos simples."
+        },
+        {
+          "texto": "Pongo solo las recomendaciones, porque las fuentes y los hallazgos alargan demasiado el informe.",
+          "correcta": false,
+          "retro": "Sin hallazgos ni fuentes, tu jefatura no puede saber en qué se basan tus recomendaciones. En el tema «Organizar y presentar información» verás cómo citar todas las fuentes sin alargar el informe."
+        }
+      ]
+    },
+    {
+      "id": "M3-D06",
+      "ae": "M3-AE4",
+      "criterio": "C1",
+      "enunciado": "¿Cuál de estos documentos de una oficina es el más delicado para pegarlo en un asistente de IA?",
+      "opciones": [
+        {
+          "texto": "El horario de atención que está publicado en la página web de la empresa.",
+          "correcta": false,
+          "retro": "Es información pública: no expone a nadie si la usas en un asistente. En el tema «Análisis crítico y privacidad» verás cómo clasificar la información según su sensibilidad."
+        },
+        {
+          "texto": "El borrador de un aviso interno sobre el orden y la limpieza de la cocina.",
+          "correcta": false,
+          "retro": "Un aviso así no contiene datos personales ni confidenciales. En el tema «Análisis crítico y privacidad» verás cómo distinguir información pública, interna, confidencial y con datos personales."
+        },
+        {
+          "texto": "El catálogo de productos que se entrega a cualquier cliente que lo pida.",
+          "correcta": false,
+          "retro": "Un catálogo que se entrega a cualquiera es información pública. En el tema «Análisis crítico y privacidad» verás cómo clasificar documentos según quién puede acceder a ellos."
+        },
+        {
+          "texto": "La planilla con el nombre, el RUT y el sueldo de cada persona del equipo.",
+          "correcta": true,
+          "retro": "Buen punto de partida: datos personales como el RUT y el sueldo exigen el mayor cuidado. En el tema «Análisis crítico y privacidad» verás cómo clasificar la información según su sensibilidad y qué exige la ley chilena de protección de datos personales."
+        }
+      ]
+    },
+    {
+      "id": "M3-D07",
+      "ae": "M3-AE4",
+      "criterio": "C2",
+      "enunciado": "Quieres que un asistente de IA ordene una lista de proveedores que incluye el nombre, el RUT y la cuenta bancaria de cada uno. Tu empresa no ha dicho qué herramientas se pueden usar. ¿Qué haces?",
+      "opciones": [
+        {
+          "texto": "La pego completa, porque el asistente necesita todos los datos para poder ordenarla bien.",
+          "correcta": false,
+          "retro": "Para ordenar no hacen falta el RUT ni la cuenta bancaria, y pegarlos los expone. En el tema «Análisis crítico y privacidad» verás cómo decidir qué información puede entrar a una herramienta de IA."
+        },
+        {
+          "texto": "Trabajo con una copia sin RUT ni cuentas, y consulto qué herramientas autoriza la empresa.",
+          "correcta": true,
+          "retro": "Buen punto de partida: quitar los datos sensibles y preguntar qué está autorizado son prácticas de uso seguro. En el tema «Análisis crítico y privacidad» verás cómo clasificar la información y proponer prácticas seguras."
+        },
+        {
+          "texto": "La pego completa y después borro la conversación, así los datos no quedan guardados.",
+          "correcta": false,
+          "retro": "Borrar la conversación no asegura que los datos no se hayan procesado o guardado. En el tema «Análisis crítico y privacidad» verás qué pasa con lo que ingresas y cómo cuidarlo antes de pegarlo."
+        },
+        {
+          "texto": "Dejo de usar IA para todo lo que tenga que ver con proveedores, para evitar cualquier riesgo.",
+          "correcta": false,
+          "retro": "No hace falta dejar la IA: basta con cuidar qué datos ingresas. En el tema «Análisis crítico y privacidad» verás prácticas de uso seguro que te permiten aprovecharla sin exponer información."
+        }
+      ]
+    }
+  ]
+}

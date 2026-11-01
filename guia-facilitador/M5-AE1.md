@@ -1,10 +1,10 @@
 # Guía del facilitador · Potencial de automatización
 
-## Autoevaluación 1 · Las tareas de Rosa en la recepción
+## Práctica autoevaluada 1 · Las tareas de Rosa en la recepción
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar.
 
 ### Pauta de referencia
 
@@ -22,11 +22,11 @@ Si lo logró: «Tu matriz está muy bien armada. Dejaste los recordatorios en �
 
 Si lo logró en parte: «Vas bien con las candidatas. Revisa el fundamento de los correos repetidos: dices que es importante, pero falta la razón de riesgo. ¿La respuesta usa datos del paciente o no? Con eso tu clasificación queda defendida.»
 
-## Autoevaluación 2 · La matriz de tu propio cargo
+## Práctica autoevaluada 2 · La matriz de tu propio cargo
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar. Si alguien comparte en el foro datos de clientes, proveedores o compañeros, pídele que los reemplace por datos inventados.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar. Si alguien comparte en el foro datos de clientes, proveedores o compañeros, pídele que los reemplace por datos inventados.
 
 ### Pauta de referencia
 

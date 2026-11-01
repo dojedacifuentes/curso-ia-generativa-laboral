@@ -1,6 +1,6 @@
 # Actividades de aplicación práctica · M5-AE2 · Flujos simples con IA
 
-## Autoevaluación 1 · Los pedidos de ventas a la bodega
+## Práctica autoevaluada 1 · Los pedidos de ventas a la bodega
 cubre: H1, C1, C2
 fuentes: F-H-94, F-M5-10
 entrega: autoevaluacion
@@ -9,8 +9,8 @@ entrega: autoevaluacion
 
 Vas a construir con datos de prueba un flujo que lee correos de pedidos, saca con IA el producto y la cantidad y deja una fila en una
 planilla, y lo vas a someter a un plan de pruebas. Así aprendes a armar un flujo y a encontrar sus fallas antes de usarlo en serio.
-Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa
-tu trabajo con la rúbrica de autoevaluación.
+Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa
+tu trabajo con la rúbrica de la práctica autoevaluada.
 
 ### Situación
 
@@ -43,7 +43,7 @@ Deja lista una captura de la tabla del flujo, una captura del flujo armado y una
 remitente, todas con datos de prueba. Suma tu plan de pruebas completo, con la columna de lo obtenido y las X, y dos o tres líneas por
 cada falla con lo que cambiaste.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -97,7 +97,7 @@ la diferencia casi no se ve: prueba desde una segunda dirección o explica qué 
 - Corregir sin volver a correr la prueba que falló o sin anotar la versión, como «Pedidos de ventas · v2».
 - Poner la condición después de la IA: el flujo funciona, pero gasta créditos en correos que no corresponden.
 
-## Autoevaluación 2 · Un flujo para una tarea de tu cargo
+## Práctica autoevaluada 2 · Un flujo para una tarea de tu cargo
 cubre: H1, C1, C2
 fuentes: F-M5-06, F-M5-11
 entrega: autoevaluacion
@@ -105,8 +105,8 @@ entrega: autoevaluacion
 ### Instrucción general
 
 Vas a convertir en un flujo de prueba la tarea que elegiste en tu matriz del tema anterior, y a buscar a propósito los casos en que
-falla. Es el prototipo que después vas a supervisar y llevar a tu proyecto final. Es una autoevaluación: no se envía ni lleva nota. Haz
-la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como no se
+falla. Es el prototipo que después vas a supervisar y llevar a tu proyecto final. Es una práctica autoevaluada: no se envía ni lleva nota. Haz
+la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como no se
 envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
@@ -137,7 +137,7 @@ ejecutar lo que falló para no perder datos [@F-M5-11]. Busca la opción equival
 Deja listos la tabla del flujo, capturas del flujo armado y de un resultado correcto, tu plan de pruebas con lo esperado y lo obtenido,
 y la ficha del flujo. Ninguna captura debe mostrar datos reales de la empresa ni de personas.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

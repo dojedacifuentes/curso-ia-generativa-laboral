@@ -14,16 +14,18 @@
    *Retroalimentación:* El registro es el grado de formalidad y sigue siendo formal, de usted; lo que cambió es la actitud, es decir, el tono. Ser más cordial no vuelve informal un correo.
 
 2. *(C1 · H1 · P09)* Un despacho a un cliente se atrasará dos días porque el proveedor no entregó a tiempo. Andrés pide a Gemini tres versiones del aviso. ¿Con qué frase debería empezar la versión para su jefatura?
-   - a) «Equipo: el pedido 418 sale el jueves y no el martes…»
+   - a) «Equipo: el pedido 418 sale el jueves y no el martes, así que reorganicemos la carga…»
    - b) «Estimada Sra. Rojas: lamentamos informarle que su pedido llegará el jueves…»
-   - **c) «Le informo que el pedido 418 se atrasará dos días porque el proveedor no entregó; propongo…»**
-   *Retroalimentación:* A la jefatura le importan la causa y la solución, en registro formal y directo. La frase cercana y centrada en qué hacer es para el equipo, y la disculpa con nueva fecha es para el cliente.
+   - c) «Hola a todos: les cuento que el pedido 418 viene con un pequeño atraso, nada grave…»
+   - **d) «Le informo que el pedido 418 se atrasa dos días: el proveedor no entregó; propongo…»**
+   *Retroalimentación:* A la jefatura le importan la causa y la solución, en registro formal y directo. La frase cercana y centrada en qué hacer es para el equipo, la disculpa con nueva fecha es para el cliente, y «nada grave» no da causa ni solución.
 
 3. *(S1 · P02)* La jefatura de Andrés le pide «lo esencial de la semana para decidir si sumamos un segundo proveedor». ¿Qué género de texto le sirve?
-   - a) Una minuta, porque registra todo lo que se habló en la semana
-   - **b) Un informe ejecutivo, con el resultado, por qué importa y qué se recomienda**
+   - **a) Un informe ejecutivo, con el resultado, por qué importa y qué se recomienda**
+   - b) Una minuta, porque registra todo lo que se habló y se acordó durante la semana
    - c) Un correo al proveedor, para pedirle una nueva fecha de entrega
-   *Retroalimentación:* El informe ejecutivo le da a quien decide lo que necesita para decidir. La minuta registra acuerdos y compromisos de una reunión, y el correo resuelve algo puntual.
+   - d) Un aviso al equipo, con lo que cada uno debe hacer la próxima semana
+   *Retroalimentación:* El informe ejecutivo le da a quien decide lo que necesita para decidir. La minuta registra acuerdos y compromisos de una reunión, el correo resuelve algo puntual y el aviso al equipo organiza tareas.
 
 4. *(A1 · C2 · P07)* Gemini le entrega a Camila un correo para un proveedor: asunto «Factura pendiente, orden de compra 2045», saludo «Estimada Sra. Pérez,» y un cuerpo breve y cordial. ¿Qué corrección corresponde antes de enviarlo?
    - **a) Cambiar la coma del saludo por dos puntos**
@@ -49,8 +51,9 @@
 7. *(C2 · H1 · P13)* Datos de la semana: 40 despachos, 37 a tiempo. El informe ejecutivo que redactó Gemini dice «el 95 % de los despachos salió a tiempo». ¿Qué corresponde hacer?
    - a) Dejarlo, porque la diferencia es pequeña y el informe está bien ordenado
    - b) Pedirle a Gemini que revise su informe y aceptar lo que responda
-   - **c) Calcularlo tú: 37 de 40 es 92,5 %, y corregir la cifra**
-   *Retroalimentación:* Cada cifra se compara con los datos y, si aparece un porcentaje, lo calculas tú. La autorrevisión del asistente ayuda, pero también puede fallar.
+   - c) Redondearlo a 90 %, porque una cifra redonda se lee mejor en un informe
+   - **d) Calcularlo tú: 37 de 40 es 92,5 %, y corregir la cifra**
+   *Retroalimentación:* Cada cifra se compara con los datos y, si aparece un porcentaje, lo calculas tú. La autorrevisión del asistente ayuda, pero también puede fallar, y redondear a otra cifra sigue siendo un dato falso.
 
 8. *(A2 · S3 · P17)* «Si el correo que redactó Gemini le promete al cliente una fecha que no se puede cumplir, el error es de la herramienta.» ¿Es verdadero o falso?
    - a) Verdadero, porque el texto lo generó el asistente y no la persona

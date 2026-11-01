@@ -1,0 +1,51 @@
+// Evaluación diagnóstica del módulo 3 · generado por scripts/moodle-aula.mjs
+
+::Diagnóstica del módulo 3 · 01::[html]<p>Tu jefatura te pide «averiguar algo sobre el ausentismo laboral» para una reunión. ¿Cómo partes?</p>{
+	=<p>Acoto la pregunta\: qué quiero saber, sobre qué tipo de empresa, de qué período y para qué decisión.</p>#<p>Buen punto de partida\: una pregunta específica orienta la búsqueda y facilita revisar las fuentes. En el tema «Herramientas de IA para investigar» verás cómo formular preguntas de investigación y qué herramienta conviene para cada una.</p>
+	~<p>Escribo «ausentismo laboral» en un asistente de IA y copio en un documento lo que me responda.</p>#<p>Una búsqueda tan amplia da respuestas generales, difíciles de usar en una decisión concreta. En el tema «Herramientas de IA para investigar» verás cómo pasar de un tema amplio a una pregunta de investigación precisa.</p>
+	~<p>Busco la definición de ausentismo en un diccionario y la presento como respuesta en la reunión.</p>#<p>Una definición ayuda a partir, pero no responde lo que necesita tu jefatura. En el tema «Herramientas de IA para investigar» verás cómo plantear preguntas que lleven a información útil para decidir.</p>
+	~<p>Les pregunto a mis colegas qué opinan del tema y anoto las ideas que más se repiten entre ellos.</p>#<p>Las opiniones del equipo pueden ser un buen insumo, pero no reemplazan la investigación. En el tema «Herramientas de IA para investigar» verás cómo levantar información con herramientas de IA que muestran sus fuentes.</p>
+}
+
+::Diagnóstica del módulo 3 · 02::[html]<p>Cuando usas un asistente de IA para buscar información para tu trabajo, ¿qué haces con las fuentes?</p>{
+	~<p>Me quedo con la respuesta; si el asistente la entregó, debe tener alguna fuente que la respalde.</p>#<p>No todas las respuestas tienen una fuente detrás, y a veces la fuente no dice lo que el asistente afirma. En el tema «Herramientas de IA para investigar» verás herramientas que muestran sus citas y cómo revisarlas.</p>
+	~<p>Anoto el nombre del asistente como fuente de todos los datos que saqué de la conversación.</p>#<p>El asistente no es la fuente\: la fuente es el documento o el sitio de donde viene el dato. En el tema «Herramientas de IA para investigar» verás cómo registrar cada fuente con su cita.</p>
+	=<p>Uso herramientas que muestran sus fuentes, abro las citas y anoto de dónde sale cada dato.</p>#<p>Buen punto de partida\: abrir las citas y registrar cada fuente es la base de una investigación confiable. En el tema «Herramientas de IA para investigar» verás buscadores con citas y asistentes que trabajan sobre tus propios documentos.</p>
+	~<p>Uso solo la primera fuente que aparece en la respuesta, porque es la más importante del tema.</p>#<p>El orden en que aparecen las fuentes no indica cuál es la más confiable ni la más pertinente. En el tema «Herramientas de IA para investigar» verás cómo usar más de una herramienta y registrar las fuentes que revisas.</p>
+}
+
+::Diagnóstica del módulo 3 · 03::[html]<p>Encuentras dos páginas sobre el mismo tema\: un artículo sin autor ni fecha, con muchos consejos, y una guía de este año publicada por un organismo público. ¿Cuál pesa más para tu trabajo?</p>{
+	~<p>El artículo, porque trae más consejos y está escrito de una forma más fácil de entender.</p>#<p>Que algo sea fácil de leer no lo hace confiable; sin autor ni fecha no sabes quién responde por él. En el tema «Recopilar, validar y sintetizar» verás criterios de confiabilidad\: autoría, fecha y respaldo.</p>
+	=<p>La guía del organismo, porque se sabe quién responde por ella, cuándo se publicó y en qué se basa.</p>#<p>Buen punto de partida\: autoría, fecha y respaldo son criterios clave para decidir cuánto confiar en una fuente. En el tema «Recopilar, validar y sintetizar» verás cómo aplicarlos y cómo contrastar varias fuentes.</p>
+	~<p>Las dos pesan igual, porque las dos están publicadas en internet y cualquiera las puede leer.</p>#<p>Estar en internet no da el mismo peso a todas las fuentes. En el tema «Recopilar, validar y sintetizar» verás cómo evaluar cada fuente según quién la publica, cuándo y con qué respaldo.</p>
+	~<p>La que aparezca primero en el buscador, porque eso indica que es la más consultada por las personas.</p>#<p>La posición en el buscador no indica confiabilidad. En el tema «Recopilar, validar y sintetizar» verás criterios para decidir cuánto confiar en una fuente.</p>
+}
+
+::Diagnóstica del módulo 3 · 04::[html]<p>Dos fuentes confiables entregan cifras distintas sobre el mismo punto que estás investigando. ¿Qué haces?</p>{
+	~<p>Uso la cifra más alta, porque hace que mi informe sea más convincente para la jefatura.</p>#<p>Elegir la cifra que más conviene sesga el resultado. En el tema «Recopilar, validar y sintetizar» verás cómo contrastar fuentes y sintetizar lo que queda respaldado.</p>
+	~<p>Saco el promedio de las dos cifras y lo presento en el informe como el dato real del tema.</p>#<p>Un promedio entre cifras que miden cosas distintas puede no significar nada. En el tema «Recopilar, validar y sintetizar» verás cómo revisar qué midió cada fuente antes de sintetizar.</p>
+	~<p>Dejo ese punto fuera del informe, porque si las fuentes no coinciden ninguna de las dos sirve.</p>#<p>Una diferencia entre fuentes es información útil, no un motivo para descartar el punto. En el tema «Recopilar, validar y sintetizar» verás cómo explicar las diferencias en tu síntesis.</p>
+	=<p>Reviso qué midió cada una y cuándo, y explico la diferencia en mi síntesis.</p>#<p>Buen punto de partida\: entender por qué difieren las cifras es parte de contrastar fuentes. En el tema «Recopilar, validar y sintetizar» verás cómo triangular la información y sintetizar solo lo que está respaldado.</p>
+}
+
+::Diagnóstica del módulo 3 · 05::[html]<p>Debes entregar a tu jefatura un informe breve con lo que averiguaste sobre un problema del área. ¿Cómo lo organizas?</p>{
+	~<p>Cuento en orden cómo fui buscando la información, para que se vea todo el trabajo que hice.</p>#<p>El proceso de búsqueda le interesa poco a quien decide\: necesita saber qué encontraste. En el tema «Organizar y presentar información» verás la estructura de un informe breve que parte por los mensajes clave.</p>
+	~<p>Pego una tras otra las respuestas del asistente de IA, sin editarlas, para no perder información.</p>#<p>Las respuestas sin editar suelen repetir ideas y no traen las fuentes ordenadas. En el tema «Organizar y presentar información» verás cómo organizar hallazgos, citar fuentes y formular recomendaciones.</p>
+	=<p>Parto con los mensajes clave, sigo con los hallazgos y sus fuentes, y cierro con recomendaciones.</p>#<p>Buen punto de partida\: quien lee sabe de inmediato lo importante y puede revisar de dónde sale. En el tema «Organizar y presentar información» verás cómo armar un informe breve de una o dos páginas, citar fuentes y usar gráficos simples.</p>
+	~<p>Pongo solo las recomendaciones, porque las fuentes y los hallazgos alargan demasiado el informe.</p>#<p>Sin hallazgos ni fuentes, tu jefatura no puede saber en qué se basan tus recomendaciones. En el tema «Organizar y presentar información» verás cómo citar todas las fuentes sin alargar el informe.</p>
+}
+
+::Diagnóstica del módulo 3 · 06::[html]<p>¿Cuál de estos documentos de una oficina es el más delicado para pegarlo en un asistente de IA?</p>{
+	~<p>El horario de atención que está publicado en la página web de la empresa.</p>#<p>Es información pública\: no expone a nadie si la usas en un asistente. En el tema «Análisis crítico y privacidad» verás cómo clasificar la información según su sensibilidad.</p>
+	~<p>El borrador de un aviso interno sobre el orden y la limpieza de la cocina.</p>#<p>Un aviso así no contiene datos personales ni confidenciales. En el tema «Análisis crítico y privacidad» verás cómo distinguir información pública, interna, confidencial y con datos personales.</p>
+	~<p>El catálogo de productos que se entrega a cualquier cliente que lo pida.</p>#<p>Un catálogo que se entrega a cualquiera es información pública. En el tema «Análisis crítico y privacidad» verás cómo clasificar documentos según quién puede acceder a ellos.</p>
+	=<p>La planilla con el nombre, el RUT y el sueldo de cada persona del equipo.</p>#<p>Buen punto de partida\: datos personales como el RUT y el sueldo exigen el mayor cuidado. En el tema «Análisis crítico y privacidad» verás cómo clasificar la información según su sensibilidad y qué exige la ley chilena de protección de datos personales.</p>
+}
+
+::Diagnóstica del módulo 3 · 07::[html]<p>Quieres que un asistente de IA ordene una lista de proveedores que incluye el nombre, el RUT y la cuenta bancaria de cada uno. Tu empresa no ha dicho qué herramientas se pueden usar. ¿Qué haces?</p>{
+	~<p>La pego completa, porque el asistente necesita todos los datos para poder ordenarla bien.</p>#<p>Para ordenar no hacen falta el RUT ni la cuenta bancaria, y pegarlos los expone. En el tema «Análisis crítico y privacidad» verás cómo decidir qué información puede entrar a una herramienta de IA.</p>
+	=<p>Trabajo con una copia sin RUT ni cuentas, y consulto qué herramientas autoriza la empresa.</p>#<p>Buen punto de partida\: quitar los datos sensibles y preguntar qué está autorizado son prácticas de uso seguro. En el tema «Análisis crítico y privacidad» verás cómo clasificar la información y proponer prácticas seguras.</p>
+	~<p>La pego completa y después borro la conversación, así los datos no quedan guardados.</p>#<p>Borrar la conversación no asegura que los datos no se hayan procesado o guardado. En el tema «Análisis crítico y privacidad» verás qué pasa con lo que ingresas y cómo cuidarlo antes de pegarlo.</p>
+	~<p>Dejo de usar IA para todo lo que tenga que ver con proveedores, para evitar cualquier riesgo.</p>#<p>No hace falta dejar la IA\: basta con cuidar qué datos ingresas. En el tema «Análisis crítico y privacidad» verás prácticas de uso seguro que te permiten aprovecharla sin exponer información.</p>
+}
+

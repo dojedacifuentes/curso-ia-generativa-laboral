@@ -1,7 +1,7 @@
 {
   "modulo": 5,
   "titulo": "Evaluación del módulo 5",
-  "instruccion": "Esta evaluación revisa lo que aprendiste en el módulo «Automatización de tareas repetitivas»: identificar qué tareas conviene automatizar según su impacto y su riesgo, construir y probar un flujo simple con IA, y ponerle supervisión humana, controles y un plan de contingencia. Tiene 9 preguntas de selección múltiple. Cada una presenta una situación de trabajo breve y cuatro alternativas, de las que solo una es correcta. Todas las preguntas valen lo mismo y apruebas con 60 % de logro, es decir, con 6 respuestas correctas o más. Lee con calma cada caso antes de responder. Al terminar verás la retroalimentación de cada alternativa: por qué la correcta lo es y qué te conviene repasar si elegiste otra.",
+  "instruccion": "Esta evaluación revisa lo que aprendiste en el módulo «Automatización de tareas repetitivas»: identificar qué tareas conviene automatizar según su impacto y su riesgo, construir y probar un flujo simple con IA, y ponerle supervisión humana, controles y un plan de contingencia. Tiene 9 preguntas de selección múltiple. Cada una presenta una situación de trabajo breve y cuatro alternativas, de las que solo una es correcta. Todas las preguntas valen lo mismo y apruebas con 6 respuestas correctas de 9. Lee con calma cada caso antes de responder. Al terminar verás la retroalimentación de cada alternativa: por qué la correcta lo es y qué te conviene repasar si elegiste otra.",
   "items": [
     {
       "id": "M5-E01",

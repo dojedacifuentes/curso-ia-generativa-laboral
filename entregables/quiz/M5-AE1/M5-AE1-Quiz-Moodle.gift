@@ -5,7 +5,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M5-AE1
 ~Sí\: un cargo muy expuesto es un cargo que se va a perder
 =Algunas tareas pueden hacerse con IA; lo más probable es que su trabajo cambie
 ~La exposición alta solo afecta a cargos con destrezas manuales y fuerza
-~Las cifras de la OIT y la OCDE se suman y muestran que el cargo desaparecerá
+~Las cifras de la OIT y la OCDE se suman y muestran que el cargo desaparecerá pronto
 ####Exposición no es pérdida del empleo\: significa que algunas tareas pueden hacerse con IA y, según la OIT, lo más probable es que el trabajo cambie. Además, cada estudio usa su método y sus cifras no se comparan.
 }
 
@@ -18,8 +18,8 @@ $CATEGORY: IA-generativa-laboral/Formativos/M5-AE1
 }
 
 ::M5-AE1-P3 (S1 H1 C1)::En el mapa de Andrés aparece «responder a vendedores que preguntan por stock»\: las preguntas se repiten, pero a veces piden excepciones que exigen su criterio. ¿Cómo la clasifica mejor? {
-~No candidata, porque no sigue reglas en todos los casos
-~Candidata completa, porque se repite a diario
+~No candidata, porque no sigue reglas fijas en todos los casos que le llegan
+~Candidata completa, porque se repite a diario y los vendedores esperan rapidez
 =Candidata en parte\: se automatiza lo fijo y él revisa lo que exige criterio
 ~No candidata, porque trata con personas y eso nunca se automatiza
 ####«Sigue reglas» no siempre es sí o no. Si la tarea tiene una parte fija y otra que exige criterio, se puede automatizar en parte, con revisión, como las consultas de proveedores de Camila.
@@ -27,40 +27,40 @@ $CATEGORY: IA-generativa-laboral/Formativos/M5-AE1
 
 ::M5-AE1-P4 (S2 A2)::Rosa, recepcionista de un centro médico, arma cada tarde una planilla con las horas que quedaron sin usar, para su coordinadora. No sabe si alguien la lee completa. ¿Qué le conviene hacer primero? {
 =Preguntar qué parte se usa, eliminar lo que sobra y simplificar el resto
-~Automatizarla ya, porque se repite todos los días
+~Automatizarla ya, porque se repite todos los días a la misma hora
 ~Ubicarla en la matriz sin cambiarla, para ver en qué cuadrante queda
-~Pedir a Gemini que la arme más larga y completa
+~Pedir a Gemini que la arme más larga y completa, para que la coordinadora tenga todo
 ####Primero se elimina y se simplifica; solo lo que queda pasa a un flujo. Automatizar una tarea mal diseñada la repite sola, más rápido y más veces.
 }
 
 ::M5-AE1-P5 (S2 C2)::Camila evalúa «enviar a cada proveedor una confirmación cuando su factura queda registrada». Se hace varias veces al día y le toma poco tiempo, pero el proveedor sabe al instante que su factura llegó. ¿Qué impacto tiene? {
-~Bajo, porque casi no le quita tiempo a Camila
+~Bajo, porque casi no le quita tiempo a Camila cada vez que la hace
 =Alto, porque se repite seguido y mejora algo para los proveedores
-~Bajo, porque es una tarea pequeña
-~No se puede estimar sin saber cuánto riesgo tiene
+~Bajo, porque es una tarea pequeña que cualquiera podría hacer a mano
+~No se puede estimar sin saber primero cuánto riesgo tiene la tarea
 ####Hay dos sí\: se repite seguido y mejora la experiencia de otras personas. Esa tercera pregunta es la que más se olvida\: el impacto no se mide solo por el tiempo que te ahorra a ti.
 }
 
 ::M5-AE1-P6 (S2 C2)::Camila piensa automatizar un recordatorio a cuarenta clientes con deuda de la constructora, con el monto y la fecha de vencimiento. «Es un mensaje corto, no tiene riesgo», dice. ¿Qué responderías? {
 ~Tiene razón\: un recordatorio es una tarea pequeña y, por eso, inofensiva
-~El riesgo depende solo de cuántas veces al mes se envíe
-~El riesgo es bajo, porque el texto se escribe una sola vez
-=El riesgo es alto\: usa datos de clientes y un error afecta dinero y plazos de muchos
+~El riesgo depende solo de cuántas veces al mes se envíe el recordatorio
+~El riesgo es bajo, porque el texto se escribe una sola vez y luego se repite
+=Es alto\: usa datos de clientes y un error afecta dinero y plazos de muchos
 ####El riesgo no depende del tamaño de la tarea, sino de lo que pasa si falla. Aquí hay datos personales, dinero y plazos, y un error se multiplica por cuarenta.
 }
 
 ::M5-AE1-P7 (S3 C2)::¿Cuál de estas tareas va en el cuadrante «Con supervisión» de la matriz del curso? {
-=Responder a diario consultas de clientes sobre sus pedidos, con los datos de cada compra
+=Responder a diario consultas de clientes sobre sus pedidos, con los datos de su compra
 ~Copiar a la planilla los pedidos que llegan por formulario, a diario y sin datos sensibles
-~Cambiar cada trimestre el formato de una planilla interna que casi nadie usa
-~Decidir solo con un puntaje a qué trabajador se le renueva el contrato
+~Cambiar cada trimestre el formato de una planilla interna que casi nadie usa ni revisa
+~Decidir solo con un puntaje a qué trabajador se le renueva el contrato cada año
 ####Responder consultas tiene impacto alto (diario, ayuda a clientes) y riesgo alto (datos personales, afecta a personas)\: se automatiza una parte con control humano. Decidir con un puntaje quién sigue en su trabajo va en «No automatices».
 }
 
 ::M5-AE1-P8 (C2 H1 A1)::Andrés debe explicar a su jefatura por qué «registrar en la planilla la mercadería recibida» va en «Empieza aquí». ¿Cuál es el mejor fundamento? {
-~«Empieza aquí, porque es fácil, rápida de armar y no me quita mucho trabajo»
-~«Empieza aquí, porque al responder las preguntas me dio impacto alto y riesgo bajo»
-=«Empieza aquí\: llega mercadería a diario y registrarla me quita tiempo; no usa datos personales y un error se ve al contar stock»
-~«Empieza aquí, porque es una tarea importante para la empresa y para ventas»
+~«Empieza aquí, porque es fácil, rápida de armar, no me quita mucho trabajo y la puedo probar sola»
+~«Empieza aquí, porque al responder las preguntas de la matriz me dio impacto alto y riesgo bajo»
+=«Empieza aquí\: es diaria y me quita tiempo; sin datos personales, y un error se ve al contar stock»
+~«Empieza aquí, porque es una tarea importante para la empresa, para ventas y para mi jefatura»
 ####Un buen fundamento nombra el cuadrante y da una razón con datos para el impacto y otra para el riesgo. Decir solo «impacto alto y riesgo bajo» nombra los criterios, pero no muestra en qué se basan.
 }

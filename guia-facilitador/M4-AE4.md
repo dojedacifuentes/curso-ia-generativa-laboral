@@ -1,10 +1,10 @@
 # Guía del facilitador · Clips y video breve
 
-## Autoevaluación 1 · Corrige y monta el clip de reciclaje de Camila
+## Práctica autoevaluada 1 · Corrige y monta el clip de reciclaje de Camila
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien no sabe qué escribir en el aporte humano de la ficha. Si alguien comparte su clip en el foro, míralo completo, con audio, antes de opinar.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien no sabe qué escribir en el aporte humano de la ficha. Si alguien comparte su clip en el foro, míralo completo, con audio, antes de opinar.
 
 ### Pauta de referencia
 
@@ -22,11 +22,11 @@ Si lo logró: «Tu guion quedó con una idea por secuencia y un llamado a la acc
 
 Si lo logró en parte: «El clip se ve bien, pero la segunda secuencia todavía junta el contenedor y el tipo de papel. Sepáralas y ajusta las duraciones. En la ficha, cambia "edité el video" por lo que hiciste de verdad: el guion, la selección de imágenes, el montaje y la revisión.»
 
-## Autoevaluación 2 · Un clip de 60 segundos para tu equipo
+## Práctica autoevaluada 2 · Un clip de 60 segundos para tu equipo
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta con un mensaje real de su equipo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar. Como es un hito del proyecto, si alguien consulta, ayúdale a que el clip siga la misma tarea de su cargo que eligió al inicio del curso, y recuérdale que no muestre documentos reales ni caras o voces de colegas sin su consentimiento escrito.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta con un mensaje real de su equipo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar. Como es un hito del proyecto, si alguien consulta, ayúdale a que el clip siga la misma tarea de su cargo que eligió al inicio del curso, y recuérdale que no muestre documentos reales ni caras o voces de colegas sin su consentimiento escrito.
 
 ### Pauta de referencia
 

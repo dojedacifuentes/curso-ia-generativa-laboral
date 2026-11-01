@@ -1,10 +1,10 @@
 # Guía del facilitador · Planillas de cálculo con IA
 
-## Autoevaluación 1 · Las facturas pendientes de Camila
+## Práctica autoevaluada 1 · Las facturas pendientes de Camila
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no entiende por qué H3 da otro total al copiar la fórmula.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no entiende por qué H3 da otro total al copiar la fórmula.
 
 ### Pauta de referencia
 
@@ -26,11 +26,11 @@ Si lo logró: «Tus dos fórmulas están correctas y, mejor aún, lo demostraste
 
 Si lo logró en parte: «La suma está perfecta, pero con la factura 1110 tu BUSCARV muestra 64000 en vez de un error. Revisa el último argumento: sin FALSO la búsqueda es aproximada y devuelve el valor más cercano. Agrégalo y vuelve a probar.»
 
-## Autoevaluación 2 · Una fórmula para tu planilla, comprobada
+## Práctica autoevaluada 2 · Una fórmula para tu planilla, comprobada
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe qué pruebas hacer con su fórmula. Si alguien comparte su trabajo en el foro, recuérdale quitar antes nombres, RUT, montos y datos de clientes.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe qué pruebas hacer con su fórmula. Si alguien comparte su trabajo en el foro, recuérdale quitar antes nombres, RUT, montos y datos de clientes.
 
 ### Pauta de referencia
 

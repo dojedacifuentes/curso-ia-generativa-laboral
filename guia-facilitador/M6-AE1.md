@@ -1,10 +1,10 @@
 # Guía del facilitador · Oportunidad de mejora con IA
 
-## Autoevaluación 1 · El plan de medición de Camila
+## Práctica autoevaluada 1 · El plan de medición de Camila
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar.
 
 ### Pauta de referencia
 
@@ -33,11 +33,11 @@ Si lo logró: «Tu línea base está bien calculada y dejaste anotado que falta 
 
 Si lo logró en parte: «Los cálculos están bien. Revisa la meta: “llegar a 2 minutos” no dice desde dónde parte ni en qué plazo. Agrégale la línea base de 4 minutos y las tres semanas, y quedará medible.»
 
-## Autoevaluación 2 · El diagnóstico y la meta de tu proyecto
+## Práctica autoevaluada 2 · El diagnóstico y la meta de tu proyecto
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar. Si alguien comparte en el foro datos de clientes, proveedores o compañeros, pídele que los reemplace por datos inventados.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar. Si alguien comparte en el foro datos de clientes, proveedores o compañeros, pídele que los reemplace por datos inventados.
 
 ### Pauta de referencia
 

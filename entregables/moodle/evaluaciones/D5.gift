@@ -1,0 +1,51 @@
+// Evaluación diagnóstica del módulo 5 · generado por scripts/moodle-aula.mjs
+
+::Diagnóstica del módulo 5 · 01::[html]<p>¿Cuál de estas tareas de oficina tiene más potencial para automatizarse?</p>{
+	~<p>Conversar con un cliente molesto para entender bien cuál es su reclamo.</p>#<p>Esta tarea depende de escuchar y de juicio humano. En el tema «Potencial de automatización» verás qué rasgos hacen automatizable una tarea\: se repite, sigue reglas claras y usa datos ordenados.</p>
+	~<p>Decidir qué persona del equipo recibirá un ascenso durante este año.</p>#<p>Es una decisión que afecta a personas y exige criterio humano; automatizarla tiene riesgos altos. En el tema «Potencial de automatización» verás cómo evaluar el riesgo de automatizar una tarea.</p>
+	=<p>Copiar cada día a una planilla los datos de formularios que llegan por correo.</p>#<p>Buen punto de partida\: es repetitiva, frecuente y sigue pasos claros. En el tema «Potencial de automatización» verás la anatomía de una tarea automatizable y cómo mapear las tareas de tu cargo.</p>
+	~<p>Negociar con un proveedor el precio y los plazos de un contrato nuevo.</p>#<p>Negociar requiere juicio y relación con la otra parte; no es una tarea repetitiva con reglas fijas. En el tema «Potencial de automatización» verás cómo identificar las tareas con más potencial.</p>
+}
+
+::Diagnóstica del módulo 5 · 02::[html]<p>Podrías automatizar dos tareas\: enviar a tu equipo el recordatorio semanal de una reunión, o responder sin revisión los reclamos de clientes. ¿Con cuál conviene partir?</p>{
+	=<p>Con el recordatorio, porque se repite, es simple y un error tendría poco costo.</p>#<p>Buen punto de partida\: partir por tareas frecuentes y de bajo riesgo es una forma segura de empezar. En el tema «Potencial de automatización» verás cómo priorizar con una matriz de impacto y riesgo.</p>
+	~<p>Con los reclamos, porque toman más tiempo, aunque un error afecte directamente a un cliente.</p>#<p>El tiempo ahorrado importa, pero un error ante un cliente tiene un costo alto. En el tema «Potencial de automatización» verás cómo pesar impacto y riesgo antes de elegir.</p>
+	~<p>Con las dos a la vez, para ahorrar la mayor cantidad de tiempo desde el primer día.</p>#<p>Partir con todo a la vez hace más difícil detectar y corregir fallas. En el tema «Potencial de automatización» verás cómo priorizar candidatas con una matriz de impacto y riesgo.</p>
+	~<p>Con la que a mi jefatura le parezca más moderna, sin mirar la frecuencia ni el riesgo.</p>#<p>La decisión conviene basarla en criterios claros, no en lo novedoso. En el tema «Potencial de automatización» verás cómo fundamentar la prioridad con frecuencia, impacto y riesgo.</p>
+}
+
+::Diagnóstica del módulo 5 · 03::[html]<p>Antes de decidir si automatizas una tarea de tu cargo, ¿qué te ayuda más?</p>{
+	~<p>Elegir primero una herramienta y ver después qué tareas calzan con lo que ofrece.</p>#<p>Partir por la herramienta puede llevarte a automatizar algo que no lo necesita. En el tema «Potencial de automatización» verás cómo partir por la tarea y sus pasos.</p>
+	=<p>Anotar sus pasos, cada cuánto la hago, cuánto me toma y qué pasa si sale mal.</p>#<p>Buen punto de partida\: esos datos permiten comparar tareas con fundamento. En el tema «Potencial de automatización» verás cómo mapear las tareas de un cargo y priorizarlas según impacto y riesgo.</p>
+	~<p>Automatizar la tarea que menos me gusta, aunque la haga solo una vez al año.</p>#<p>Si la tarea es poco frecuente, automatizarla puede costar más de lo que ahorra. En el tema «Potencial de automatización» verás cómo considerar la frecuencia y el impacto al elegir.</p>
+	~<p>Preguntarle a un asistente de IA qué tarea automatizar, sin darle detalles de mi trabajo.</p>#<p>Sin detalles de tu cargo, el asistente solo puede dar ideas generales. En el tema «Potencial de automatización» verás cómo mapear tus propias tareas para decidir con fundamento.</p>
+}
+
+::Diagnóstica del módulo 5 · 04::[html]<p>En el flujo «cuando llega un correo con una factura, guardar sus datos en una planilla», ¿qué papel cumple «cuando llega un correo con una factura»?</p>{
+	~<p>Es la acción\: lo que el flujo hace al final del proceso.</p>#<p>La acción es lo que el flujo hace, como guardar los datos en la planilla. En el tema «Flujos simples con IA» verás los conceptos de disparador, acción y datos con ejemplos.</p>
+	~<p>Es el resultado\: la fila nueva que queda guardada en la planilla.</p>#<p>La fila es lo que se obtiene al final, no lo que pone en marcha el flujo. En el tema «Flujos simples con IA» verás cómo se arma un flujo paso a paso.</p>
+	~<p>Es la conexión\: la contraseña que une el correo con la planilla.</p>#<p>La conexión entre servicios es otra parte del flujo, que se configura aparte. En el tema «Flujos simples con IA» verás qué es el disparador, qué es la acción y cómo se conectan los servicios.</p>
+	=<p>Es el disparador\: el hecho que pone en marcha el flujo.</p>#<p>Buen punto de partida\: el disparador es el hecho que inicia el flujo. En el tema «Flujos simples con IA» verás cómo combinar disparador, acciones y datos en una herramienta no-code.</p>
+}
+
+::Diagnóstica del módulo 5 · 05::[html]<p>Armaste tu primer flujo automatizado. ¿Cómo lo pruebas antes de usarlo en tu trabajo?</p>{
+	~<p>Lo dejo funcionando con los datos reales y, si alguien reclama, ahí lo corrijo.</p>#<p>Probar con datos reales expone a otras personas a los errores. En el tema «Flujos simples con IA» verás cómo probar un flujo con datos de práctica antes de usarlo.</p>
+	=<p>Con datos de práctica y varios casos, incluido uno que no debería activar el flujo.</p>#<p>Buen punto de partida\: probar casos variados, también los que deben quedar fuera, muestra si el flujo hace lo que esperas. En el tema «Flujos simples con IA» verás cómo construir y probar un flujo de 3 a 5 pasos.</p>
+	~<p>Lo pruebo una vez con un caso que sale bien y, si funciona, lo doy por listo.</p>#<p>Un solo caso exitoso no muestra cómo responde el flujo ante otros. En el tema «Flujos simples con IA» verás cómo preparar un plan de pruebas y corregir fallas.</p>
+	~<p>Le pido a la herramienta que confirme que funciona, sin necesidad de correr ningún caso.</p>#<p>La única forma de saber si un flujo funciona es correrlo con casos de prueba. En el tema «Flujos simples con IA» verás cómo probarlo y leer el historial de ejecuciones.</p>
+}
+
+::Diagnóstica del módulo 5 · 06::[html]<p>Un flujo clasifica con IA las solicitudes de clientes y deja en «baja prioridad» las que considera menos urgentes. ¿Qué control humano conviene?</p>{
+	~<p>No hace falta revisar\: si la IA las dejó en baja prioridad es porque no eran urgentes.</p>#<p>La IA puede clasificar mal, por ejemplo por cómo está escrita una solicitud. En el tema «Supervisión humana y riesgos» verás los riesgos de automatizar y dónde poner puntos de control.</p>
+	~<p>Revisar solo las de alta prioridad, porque esas son las únicas que importan de verdad.</p>#<p>El riesgo está justamente en una solicitud urgente que quedó como baja y nadie mira. En el tema «Supervisión humana y riesgos» verás cómo definir puntos de control según el riesgo.</p>
+	~<p>Apagar la clasificación cada vez que llega un reclamo, sin revisar por qué ocurrió.</p>#<p>Apagar el flujo sin revisar la causa no corrige el problema. En el tema «Supervisión humana y riesgos» verás cómo registrar lo que pasa y decidir con información.</p>
+	=<p>Revisar seguido una muestra de las de baja prioridad, por si hay alguna urgente.</p>#<p>Buen punto de partida\: revisar donde un error pasaría inadvertido es una forma de supervisión humana. En el tema «Supervisión humana y riesgos» verás cómo definir puntos de control y criterios de aprobación según el riesgo.</p>
+}
+
+::Diagnóstica del módulo 5 · 07::[html]<p>Antes de poner en marcha un flujo automatizado en tu trabajo, ¿qué conviene dejar preparado por si falla?</p>{
+	~<p>Nada en especial\: si las pruebas salieron bien, el flujo no debería fallar más adelante.</p>#<p>Un flujo puede fallar más adelante por cambios en los datos o en las herramientas. En el tema «Supervisión humana y riesgos» verás cómo preparar un plan de contingencia.</p>
+	~<p>Una copia del flujo, para volver a echarlo a andar cuando falle, sin revisar la causa.</p>#<p>Reiniciar sin conocer la causa puede repetir el error. En el tema «Supervisión humana y riesgos» verás cómo registrar lo que hace el flujo y revertir sus efectos.</p>
+	=<p>Una forma de seguir la tarea a mano, un registro de lo que hizo el flujo y quién lo pausa.</p>#<p>Buen punto de partida\: alternativa manual, registro y una persona responsable son la base de un plan de contingencia. En el tema «Supervisión humana y riesgos» verás cómo armarlo para tu propio flujo.</p>
+	~<p>El contacto del soporte de la herramienta, que se hace cargo de los errores del flujo.</p>#<p>El soporte puede ayudar con la herramienta, pero los efectos del flujo en tu trabajo son tu responsabilidad. En el tema «Supervisión humana y riesgos» verás cómo prepararte para una falla.</p>
+}
+

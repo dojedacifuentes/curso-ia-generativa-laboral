@@ -1,10 +1,10 @@
 # Guía del facilitador · Validación de resultados
 
-## Autoevaluación 1 · El resumen del instructivo, con lupa
+## Práctica autoevaluada 1 · El resumen del instructivo, con lupa
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien duda de qué tipo de problema es el estudio inventado.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien duda de qué tipo de problema es el estudio inventado.
 
 ### Pauta de referencia
 
@@ -30,11 +30,11 @@ Si lo logró: «Encontraste los cinco problemas y cada decisión se apoya en el 
 
 Si lo logró en parte: «Detectaste bien los datos cambiados, pero mantuviste el estudio con el 68 %. Pregúntate de dónde salió: el instructivo no lo trae y no hay forma de rastrearlo, así que se descarta. Revisa también qué dice el instructivo sobre los gastos sobre $50.000.»
 
-## Autoevaluación 2 · Valida antes de usarlo en tu trabajo
+## Práctica autoevaluada 2 · Valida antes de usarlo en tu trabajo
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe cómo encontrar una segunda fuente independiente. Si alguien comparte su trabajo en el foro, recuérdale quitar antes nombres, RUT, montos y datos de clientes.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe cómo encontrar una segunda fuente independiente. Si alguien comparte su trabajo en el foro, recuérdale quitar antes nombres, RUT, montos y datos de clientes.
 
 ### Pauta de referencia
 

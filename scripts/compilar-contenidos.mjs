@@ -342,6 +342,8 @@ const combinados = [];
   }).join('\n');
   let evals = '';
   for (const m of curso.modulos) {
+    const fd = path.join(RAIZ, 'evaluaciones', `D${m.n}.json`);
+    if (fs.existsSync(fd)) evals += `### Evaluación diagnóstica del módulo ${m.n} (sin nota)\n\n${pautaItems(JSON.parse(fs.readFileSync(fd, 'utf8')).items, 1)}\n`;
     const f = path.join(RAIZ, 'evaluaciones', `M${m.n}.json`); if (!fs.existsSync(f)) continue;
     evals += `### Evaluación del módulo ${m.n} · ${m.nombre}\n\n${pautaItems(JSON.parse(fs.readFileSync(f, 'utf8')).items, 1)}\n`;
   }

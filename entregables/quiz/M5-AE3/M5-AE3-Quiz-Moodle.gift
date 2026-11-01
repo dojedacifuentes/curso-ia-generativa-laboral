@@ -2,9 +2,9 @@
 $CATEGORY: IA-generativa-laboral/Formativos/M5-AE3
 
 ::M5-AE3-P1 (S1 A2)::El flujo de Camila para registrar facturas pasó todas sus pruebas y su empresa autorizó usarlo. Un mes después, un proveedor nuevo envía facturas con otro formato y doce filas quedan con montos errados. ¿Qué explica mejor lo ocurrido? {
-=Un error en cadena\: ese formato no estaba en las pruebas y el error se repitió en cada ejecución
+=Un error en cadena\: ese formato no estaba en las pruebas y se repitió en cada ejecución
 ~Una falla de la herramienta\: si el flujo pasó las pruebas, el diseño no tiene nada que ver
-~Sesgo de automatización\: la IA trató peor al proveedor nuevo
+~Sesgo de automatización\: la IA trató peor al proveedor nuevo por ser desconocido
 ~Nada grave\: si pasó las pruebas, seguirá funcionando bien
 ####Las pruebas revisan los casos que imaginaste; en la vida real aparecen otros, como un formato distinto. Un dato mal leído se repite en cada ejecución, por eso el flujo necesita supervisión también después de ponerlo en marcha.
 }
@@ -18,17 +18,17 @@ $CATEGORY: IA-generativa-laboral/Formativos/M5-AE3
 }
 
 ::M5-AE3-P3 (H1 C1)::Flujo de Camila\: (1) llega una factura por correo; (2) la IA extrae proveedor, monto y fecha; (3) se agrega una fila a la planilla de pagos que usa la constructora. ¿Dónde conviene más un punto de control humano? {
-~Antes del paso 1, para revisar cada correo que llega a la bandeja
+~Antes del paso 1, para revisar cada correo que llega a la bandeja de facturas
 =Entre los pasos 2 y 3, antes de que los datos lleguen a la planilla de pagos
-~Después del pago, revisando el estado de cuenta a fin de mes
+~Después del pago, revisando el estado de cuenta a fin de mes con la contadora
 ~En ningún paso\: la extracción de la IA ya fue probada
 ####El riesgo está en datos que la IA extrae y que otros usan para decidir un pago sin volver al original. Revisar después del pago llega tarde, cuando el error ya costó dinero.
 }
 
 ::M5-AE3-P4 (H1 C1)::Andrés define criterios de aprobación para revisar cada borrador de aviso de atraso antes de enviarlo. ¿Cuál es el mejor criterio? {
-~«¿El borrador se ve bien?»
-~«Revisar los borradores cuando haya tiempo»
-~«Si el flujo no marcó error, aprobar»
+~«¿El borrador se ve bien y tiene un tono amable?»
+~«Revisar los borradores cuando haya tiempo durante la tarde»
+~«Si el flujo no marcó error en la ejecución, aprobar»
 =«¿La fecha del aviso coincide con la de la planilla?»
 ####Un criterio de aprobación es una pregunta de sí o no que se responde en segundos comparando con el dato original. Sin criterios, la revisión se vuelve un clic automático\: «aprobado, aprobado, aprobado».
 }
@@ -43,17 +43,17 @@ $CATEGORY: IA-generativa-laboral/Formativos/M5-AE3
 
 ::M5-AE3-P6 (S3 C2)::Andrés quiere que la IA corrija los nombres de clientes mal escritos en su planilla de despachos. ¿Qué diseño hace el flujo más reversible? {
 ~Reemplazar el nombre original por el corregido, para no duplicar datos
-~Enviar la corrección directo a cada cliente, para que la confirme
+~Enviar la corrección directo a cada cliente por correo, para que él la confirme
 =Escribir el nombre corregido en una columna nueva y conservar el original
 ~Borrar el historial de ejecuciones, para dejar la planilla ordenada
 ####Un flujo reversible no sobrescribe el original\: así puedes comparar y deshacer si la IA se equivoca. Un correo enviado no se puede recoger, y sin historial se pierde la huella.
 }
 
 ::M5-AE3-P7 (C2 H1 A1)::«Mi plan de contingencia está completo\: dice dónde se pausa el flujo», afirma Andrés. ¿Es así? {
-~Verdadero, porque una vez detenido el flujo, la plataforma resuelve el resto
-~Verdadero, porque detener el flujo es lo único urgente cuando falla
+~Verdadero, porque una vez detenido el flujo, la plataforma resuelve el resto sola
+~Verdadero, porque detener el flujo es lo único urgente cuando algo falla
 ~Falso, porque le falta solo una cosa\: a quién avisar cuando el flujo falle
-=Falso, porque también debe decir cómo detectar la falla, seguir a mano, recuperar, avisar y quién responde
+=Falso\: le falta cómo detectar, seguir a mano, recuperar, avisar y quién responde
 ####Un plan de contingencia responde seis preguntas, y detener el flujo es solo una. Además, quien lo pone en marcha responde por sus resultados\: la respuesta no puede ser «el sistema».
 }
 

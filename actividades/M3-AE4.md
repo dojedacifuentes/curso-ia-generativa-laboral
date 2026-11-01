@@ -1,13 +1,13 @@
 # Actividades de aplicación práctica · M3-AE4 · Análisis crítico y privacidad
 
-## Autoevaluación 1 · Lo que llega al escritorio de Camila
+## Práctica autoevaluada 1 · Lo que llega al escritorio de Camila
 cubre: H1, C1, C2
 fuentes: F-M3-19, F-M3-15
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad clasificas seis documentos ficticios del escritorio de Camila y decides cuáles pueden ingresar a una cuenta gratuita de IA y con qué cuidado. Te sirve para practicar antes de hacer el mapa de la información de tu propio cargo. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación.
+En esta actividad clasificas seis documentos ficticios del escritorio de Camila y decides cuáles pueden ingresar a una cuenta gratuita de IA y con qué cuidado. Te sirve para practicar antes de hacer el mapa de la información de tu propio cargo. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada.
 
 ### Situación
 
@@ -30,7 +30,7 @@ Para clasificar, usa dos preguntas. La primera es quién puede acceder a la info
 
 Deja lista la tabla con la clasificación y la decisión de cada documento, los dos pedidos reescritos y la recomendación sobre el ajuste de actividad. Puedes hacerlo en una nota del celular, un documento o una hoja escrita a mano.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -76,14 +76,14 @@ Camila aplica la fórmula en la planilla real, sin pegarla en Gemini.
 - Dejar ingresar la planilla «porque solo son números», o pegarla «con los nombres tapados», pero con los precios reales.
 - Dejar en el pedido el nombre del cliente o el número del departamento, o decir «configurar la privacidad» sin nombrar la opción.
 
-## Autoevaluación 2 · El mapa de la información de tu cargo
+## Práctica autoevaluada 2 · El mapa de la información de tu cargo
 cubre: H1, C1, C2
 fuentes: F-M3-17, F-M3-20
 entrega: autoevaluacion
 
 ### Instrucción general
 
-Ahora haces el mapa de la información que pasa por tus manos y decides qué puede ir a una herramienta de IA y con qué cuidado. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados, también cuando anotes el antes y el después de la copia anonimizada.
+Ahora haces el mapa de la información que pasa por tus manos y decides qué puede ir a una herramienta de IA y con qué cuidado. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados, también cuando anotes el antes y el después de la copia anonimizada.
 
 ### Situación
 
@@ -105,7 +105,7 @@ Como referencia, los lineamientos del Estado para el uso de IA recomiendan no in
 
 Deja lista la tabla con los cinco tipos de información, su clasificación y tu decisión; el antes y el después de la copia anonimizada, anotado con datos inventados para no dejar los reales en tus notas, y dos líneas sobre la política de tu empresa y el ajuste de privacidad que revisaste.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

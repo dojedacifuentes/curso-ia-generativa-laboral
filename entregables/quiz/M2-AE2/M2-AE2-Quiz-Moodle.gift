@@ -2,10 +2,11 @@
 $CATEGORY: IA-generativa-laboral/Formativos/M2-AE2
 
 ::M2-AE2-P1 (S1 C1)::La respuesta que Gemini redacta para un cliente incluye un plazo de entrega que no estaba en los datos. ¿Qué técnica conviene probar primero? {
-~Agregar diez ejemplos de respuestas bien escritas
-=La restricción «usa solo los datos entregados» y la regla de [FALTA]
+~Agregar diez ejemplos de respuestas bien escritas para que imite su forma
 ~Sumar ejemplos, restricciones y una cadena a la vez, por si acaso
-####Cuando aparecen datos que no diste, la técnica que ataca el problema es una restricción de contenido con la regla de [FALTA]. Sumar técnicas que no resuelven el problema solo alarga el prompt.
+~Pedirle un tono más formal, para que el cliente confíe en el plazo indicado
+=La restricción «usa solo los datos entregados» y la regla de [FALTA]
+####Cuando aparecen datos que no diste, la técnica que ataca el problema es una restricción de contenido con la regla de [FALTA]. Sumar técnicas que no resuelven el problema solo alarga el prompt, y el tono no corrige un dato inventado.
 }
 
 ::M2-AE2-P2 (S1 C1)::Andrés quiere una minuta revisada a partir de una transcripción larga. Ordena los eslabones de su cadena\: (1) revisar contra criterios y corregir; (2) redactar con la lista de hechos; (3) extraer solo los hechos. {
@@ -20,13 +21,15 @@ $CATEGORY: IA-generativa-laboral/Formativos/M2-AE2
 ~En el paso 3, porque la revisión comprobará cada cifra
 ~En ninguno\: al redactar, el paso 2 ordena y corrige los datos
 =Ahora, al revisar la lista del paso 1 contra las notas
+~Al final, pidiéndole a Gemini que recalcule el total en el informe
 ####La ventaja de la cadena es revisar los resultados intermedios. Si la lista pasa con el error, el paso 3 solo comprueba que la cifra esté en la lista, y el 36 llega intacto a un informe que suena convincente.
 }
 
 ::M2-AE2-P4 (S1 C2)::Los dos ejemplos de la plantilla de Andrés dicen «llegará el lunes». Ahora la entrada dice miércoles, pero el aviso sale con «lunes». ¿Qué conviene hacer? {
-~Agregar varios ejemplos más con «lunes» para reforzar el formato
+~Agregar varios ejemplos más con «lunes» para reforzar el formato del aviso
 =Usar ejemplos variados, con días distintos, porque el modelo copió de más
-~Quitar los ejemplos y pedir el aviso sin formato de referencia
+~Quitar los ejemplos y pedir el aviso sin ningún formato de referencia
+~Escribir «miércoles» en mayúsculas en la entrada para que el modelo la note
 ####El modelo copió un detalle de los ejemplos en vez de aplicar el patrón\: es sobreajuste. Más ejemplos parecidos lo empeoran; ejemplos pocos y variados lo corrigen.
 }
 
@@ -34,27 +37,30 @@ $CATEGORY: IA-generativa-laboral/Formativos/M2-AE2
 ~«completa con un dato razonable»
 =«escribe [FALTA]»
 ~«omite esa parte del texto»
-####La regla de [FALTA] le da al modelo una salida distinta de inventar y te muestra qué completar. Un «dato razonable» es justamente un dato inventado, y omitir esconde el vacío.
+~«usa el dato de la versión anterior»
+####La regla de [FALTA] le da al modelo una salida distinta de inventar y te muestra qué completar. Un «dato razonable» o uno de otra versión es un dato que no está en la entrada, y omitir esconde el vacío.
 }
 
 ::M2-AE2-P6 (C2 H1)::Andrés probó su plantilla con tres casos simples, todos con los datos completos, y los tres salieron bien. «Ya puede darla por consistente.» ¿Es verdadero o falso? {
 ~Verdadero, porque salió bien en los tres casos que probó
 ~Verdadero, porque si un prompt funciona una vez ya está listo
 =Falso, porque le faltan un caso con un dato que falta y uno difícil
-~Falso, porque una plantilla nunca da resultados consistentes
+~Falso, porque una plantilla nunca da resultados consistentes, aunque se pruebe mucho
 ####Con casos fáciles la plantilla siempre sale bien; los problemas aparecen con datos incompletos y situaciones difíciles. Por eso los casos de prueba deben ser variados y repetirse en chats nuevos.
 }
 
 ::M2-AE2-P7 (A1 C2)::En su v2, Andrés agregó ejemplos, cambió el rol y sumó un límite de palabras. Los avisos mejoraron. ¿Qué problema tiene esa forma de trabajar? {
-~Ninguno\: lo importante es que la v2 salió mejor
-=No sabrá cuál de los tres cambios produjo la mejora
+~Ninguno\: lo importante es que la v2 salió mejor que la v1
 ~Que debió probar la v2 solo con el caso más fácil
+~Que debió cambiar aún más cosas, para mejorar en menos versiones
+=No sabrá cuál de los tres cambios produjo la mejora
 ####Cambiar una sola cosa por versión hace que la comparación sea justa y te dice qué produjo cada mejora. Que mejore no basta\: si después algo empeora, no sabrás qué deshacer.
 }
 
 ::M2-AE2-P8 (A2 H1)::Una colega de ventas no entiende una sigla interna de la plantilla de Andrés. Él piensa\: «da igual, lo importante es que la entienda Gemini». ¿Qué le conviene hacer? {
-=Escribirla completa, porque lo que no está en el prompt no existe para el modelo
-~Mantenerla, porque el asistente conoce las siglas de cada empresa
-~Mantenerla y agregar más ejemplos con la sigla para que la aprenda
+=Escribirla completa\: lo que no está en el prompt no existe para el modelo
+~Mantenerla, porque el asistente conoce las siglas internas de cada empresa
+~Mantenerla y agregar más ejemplos con la sigla para que el modelo la aprenda
+~Explicarle la sigla a su colega por chat y dejar la plantilla tal como está
 ####Si alguien sin contexto no entiende el prompt, el modelo probablemente tampoco\: solo sabe lo que está escrito. Tú llenas los vacíos sin darte cuenta; el asistente, no.
 }

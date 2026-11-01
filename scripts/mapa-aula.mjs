@@ -23,7 +23,7 @@ let md = `# Mapa del aula Moodle
 
 Orden de cada sección del aula en formacion.empoderatech.com (Moodle 5.3) y tipo de actividad de Moodle de cada recurso. Sigue la
 estructura de curso asincrónico que pide SENCE y las observaciones de la docente del 31-10: contenidos, material interactivo,
-autoevaluaciones con respuesta modelo (no se envían), casos de aplicación con entrega y revisión docente, resumen, glosario y
+prácticas autoevaluadas con respuesta modelo (no se envían), casos de aplicación con entrega y revisión docente, resumen, glosario y
 evaluación de cada módulo, evaluación final y contacto entre facilitador y estudiantes. Curso de ${TOTAL} horas.
 
 | Recurso | Tipo en Moodle | Nota |
@@ -32,7 +32,7 @@ evaluación de cada módulo, evaluación final y contacto entre facilitador y es
 | Evaluación diagnóstica del módulo | Cuestionario (espacio reservado hasta que esté) | No |
 | Contenido de cada tema (Rise) | Paquete SCORM | No |
 | Quiz juego de cada tema | Paquete SCORM, con retroalimentación por respuesta | No |
-| Autoevaluaciones 1 y 2 de cada tema | Página con la consigna, la rúbrica de autoevaluación y la respuesta modelo; no se envía y el estudiante la marca como hecha | No |
+| Prácticas autoevaluadas 1 y 2 de cada tema | Página con la consigna, la rúbrica de la práctica autoevaluada y la respuesta modelo; no se envía y el estudiante la marca como hecha | No |
 | Caso de aplicación (práctica evaluada) | Página para leer el caso y, debajo, la tarea «Entrega y revisión docente»: el estudiante sube su documento y el docente sube la nota con rúbrica, sus comentarios y el documento revisado | Sí (30 %) |
 | Foro de casos del módulo | Foro: resultados de los casos, preguntas para conversar y consultas | No |
 | Infografía animada del módulo | Paquete SCORM | No |
@@ -63,9 +63,9 @@ for (const m of curso.modulos) {
   - Aprende: Rise «${a.tema}» (SCORM).
   - Practica: quiz juego «${a.tema}» (SCORM).
 `
-      + (a1 ? `  - Aplica en tu trabajo · autoevaluación 1: ${a1} (no se envía; respuesta modelo).
+      + (a1 ? `  - Práctica autoevaluada 1: ${a1} (no se envía; respuesta modelo).
 ` : '')
-      + (a2 ? `  - Aplica en tu trabajo · autoevaluación 2: ${a2} (no se envía; respuesta modelo${HITO[a.id] ? `; ${HITO[a.id]} del proyecto del curso` : ''}).
+      + (a2 ? `  - Práctica autoevaluada 2: ${a2} (no se envía; respuesta modelo${HITO[a.id] ? `; ${HITO[a.id]} del proyecto del curso` : ''}).
 ` : '');
   }
   const cs = casos(m.n);
@@ -87,7 +87,7 @@ md += `## Evaluación final
 ## Sección oculta para estudiantes · Para el facilitador
 
 - Guía del facilitador: cómo se evalúa el curso, pauta de corrección de los casos y de las evaluaciones, pauta de referencia de las
-  44 autoevaluaciones y moderación de los foros. La ve el rol docente, incluido quien revisa el curso para SENCE.
+  44 prácticas autoevaluadas y moderación de los foros. La ve el rol docente, incluido quien revisa el curso para SENCE.
 - Mapa del aula.
 `;
 fs.writeFileSync(path.join(RAIZ, 'docs', 'MAPA-AULA-MOODLE.md'), md);

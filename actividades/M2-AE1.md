@@ -1,13 +1,13 @@
 # Actividades de aplicación práctica · M2-AE1 · Redacción y comunicación con IA
 
-## Autoevaluación 1 · Una reunión, tres textos
+## Práctica autoevaluada 1 · Una reunión, tres textos
 cubre: H1, C1
 fuentes: F-M2-06, F-M2-05
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad vas a convertir las notas de una reunión en tres textos con Gemini, una minuta, un correo y un informe ejecutivo, y a ajustar cada uno a quien lo va a leer. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Trabajas con datos ficticios.
+En esta actividad vas a convertir las notas de una reunión en tres textos con Gemini, una minuta, un correo y un informe ejecutivo, y a ajustar cada uno a quien lo va a leer. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Trabajas con datos ficticios.
 
 ### Situación
 
@@ -29,7 +29,7 @@ Vas a producir los tres textos con Gemini, en la app o en el navegador, y a ajus
 
 Deja listo un documento con los tres textos finales. Antes de cada uno escribe en una línea la audiencia, el registro y el tono que elegiste. Agrega también el primer borrador del correo y una frase que explique qué cambiaste para adaptarlo al Sr. Vera.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -96,14 +96,14 @@ Qué cambié: puse asunto y el saludo «Estimado Sr. Vera:», quité «a partir 
 - El informe parte contando la reunión en orden y deja la recomendación al final.
 - Dejar que el asistente asigne la revisión a la gerenta, invente una fecha o agregue cifras de costo o de atraso que no están en las notas.
 
-## Autoevaluación 2 · Un texto de tu semana, revisado antes de enviarlo
+## Práctica autoevaluada 2 · Un texto de tu semana, revisado antes de enviarlo
 cubre: H1, C2
 fuentes: F-M2-07, F-M2-02
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad vas a escribir con Gemini un texto que de verdad tengas que enviar esta semana, adaptarlo a dos audiencias y revisarlo antes de enviarlo. Es una autoevaluación: la actividad no se envía ni lleva nota. Hazla por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como la actividad no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
+En esta actividad vas a escribir con Gemini un texto que de verdad tengas que enviar esta semana, adaptarlo a dos audiencias y revisarlo antes de enviarlo. Es una práctica autoevaluada: la actividad no se envía ni lleva nota. Hazla por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como la actividad no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
 
@@ -123,7 +123,7 @@ Vas a producir el texto con Gemini, ajustarlo a su audiencia y revisarlo con una
 
 Deja listos el primer borrador y la versión final de los dos textos, con los datos ya cambiados, y una tabla breve o un párrafo con lo que corregiste en cada uno. Indica qué errores eran de hecho, cuáles de tono o registro y cuáles de redacción.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

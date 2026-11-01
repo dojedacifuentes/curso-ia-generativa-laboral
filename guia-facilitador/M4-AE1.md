@@ -1,10 +1,10 @@
 # Guía del facilitador · Ecosistema multimedia con IA
 
-## Autoevaluación 1 · Las herramientas para la campaña de Camila
+## Práctica autoevaluada 1 · Las herramientas para la campaña de Camila
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien pregunta por qué Designer no sirve si es gratis. Los términos de las herramientas cambian: si alguien cita una condición distinta de la que conoces, revisa la página y la fecha antes de responder.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien pregunta por qué Designer no sirve si es gratis. Los términos de las herramientas cambian: si alguien cita una condición distinta de la que conoces, revisa la página y la fecha antes de responder.
 
 ### Pauta de referencia
 
@@ -22,11 +22,11 @@ Si lo logró: «Tu comparación separa bien las dos piezas y cada clasificación
 
 Si lo logró en parte: «La tabla está bien armada, pero respondiste que Camila puede cambiarle el color al ícono si da crédito. ND significa sin derivadas: no se puede modificar. Propón una alternativa, como buscar un ícono con otra licencia o hacer uno propio.»
 
-## Autoevaluación 2 · La ficha de una pieza de tu cargo
+## Práctica autoevaluada 2 · La ficha de una pieza de tu cargo
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta con una pieza de su cargo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar. La ficha se sigue usando en las próximas actividades: si alguien pregunta cómo llenarla, insiste en el nombre y el plan de cada herramienta con su fecha, y en que no lleve nombres de clientes ni de colegas.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta con una pieza de su cargo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar. La ficha se sigue usando en las próximas actividades: si alguien pregunta cómo llenarla, insiste en el nombre y el plan de cada herramienta con su fecha, y en que no lleve nombres de clientes ni de colegas.
 
 ### Pauta de referencia
 

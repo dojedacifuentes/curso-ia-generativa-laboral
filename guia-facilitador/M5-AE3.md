@@ -1,10 +1,10 @@
 # Guía del facilitador · Supervisión humana y riesgos
 
-## Autoevaluación 1 · Controles para el flujo de reclamos de Paula
+## Práctica autoevaluada 1 · Controles para el flujo de reclamos de Paula
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar.
 
 ### Pauta de referencia
 
@@ -30,11 +30,11 @@ Si lo logró: «Pusiste el control justo antes del correo al cliente, que es lo 
 
 Si lo logró en parte: «Tu mapa de riesgos está completo. Revisa dónde quedó el punto de control: está después del correo al cliente, y a esa altura el plazo equivocado ya salió. Muévelo antes y agrega cómo corregirías los correos que ya se enviaron.»
 
-## Autoevaluación 2 · Supervisión y contingencia para tu flujo
+## Práctica autoevaluada 2 · Supervisión y contingencia para tu flujo
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar. Si alguien comparte en el foro datos de clientes, proveedores o compañeros, pídele que los reemplace por datos inventados.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar. Si alguien comparte en el foro datos de clientes, proveedores o compañeros, pídele que los reemplace por datos inventados.
 
 ### Pauta de referencia
 

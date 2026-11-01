@@ -1,13 +1,13 @@
 # Actividades de aplicación práctica · M1-AE3 · Parámetros de generación
 
-## Autoevaluación 1 · Precisión o variedad en dos encargos de Camila
+## Práctica autoevaluada 1 · Precisión o variedad en dos encargos de Camila
 cubre: H1, C1, C2
 fuentes: F-M1-13, F-M1-15
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad vas a elegir un ajuste para dos encargos de Camila, comparar varias salidas de una misma consigna y quedarte con la mejor de cada encargo. Así practicas cómo orientar al asistente hacia la precisión o hacia la variedad según el objetivo. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Trabajas con datos de prueba.
+En esta actividad vas a elegir un ajuste para dos encargos de Camila, comparar varias salidas de una misma consigna y quedarte con la mejor de cada encargo. Así practicas cómo orientar al asistente hacia la precisión o hacia la variedad según el objetivo. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Trabajas con datos de prueba.
 
 ### Situación
 
@@ -36,7 +36,7 @@ Vas a elegir un ajuste para cada encargo, comparar salidas y quedarte con la mej
 Deja listas las dos frases con el ajuste que elegiste para cada encargo, la tabla de registro con las seis salidas y su evaluación, y las
 dos elecciones justificadas.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -79,14 +79,14 @@ Consigna del resumen: «Resume este contrato para la columna "Observaciones" de 
 - Anotar solo la salida ganadora, cambiar la instrucción y el largo a la vez, o repetir en la misma conversación en vez de abrir una nueva.
 - Elegir con «me gustó más», o quedarse con un resumen que perdió la fecha o el plazo sin notarlo.
 
-## Autoevaluación 2 · La configuración de una tarea de tu cargo
+## Práctica autoevaluada 2 · La configuración de una tarea de tu cargo
 cubre: H1, C1, C2
 fuentes: F-M1-15, F-M1-13
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad vas a definir la configuración de una tarea de tu cargo, ponerla a prueba con varias salidas y dejarla escrita como regla en tu biblioteca de prompts. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
+En esta actividad vas a definir la configuración de una tarea de tu cargo, ponerla a prueba con varias salidas y dejarla escrita como regla en tu biblioteca de prompts. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
 
@@ -111,7 +111,7 @@ Vas a definir la configuración de tu tarea, ponerla a prueba y dejarla escrita 
 Deja listos el objetivo con las respuestas a las tres preguntas, la configuración de partida con su justificación, la tabla con tres
 salidas o más, tu elección con el porqué y la nota que agregaste a tu biblioteca.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

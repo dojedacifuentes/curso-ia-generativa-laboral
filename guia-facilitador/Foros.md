@@ -16,8 +16,8 @@ entregar), actividades publicadas y, al final, los comentarios de la discusión.
 
 ### Cómo responder las consultas
 
-Las consultas llegan en hilos con «Consulta» en el asunto. Pueden ser sobre un caso o sobre una autoevaluación. Para responder
-las de las actividades, usa su pauta de referencia, que indica qué se espera en cada criterio de la rúbrica de autoevaluación.
+Las consultas llegan en hilos con «Consulta» en el asunto. Pueden ser sobre un caso o sobre una práctica autoevaluada. Para responder
+las de las actividades, usa su pauta de referencia, que indica qué se espera en cada criterio de la rúbrica de la práctica autoevaluada.
 
 1. Responde en el mismo hilo, en tres a seis líneas y en tuteo.
 2. Orienta sin entregar la respuesta tipo de un caso: el caso es una práctica evaluada y el resto del curso puede leer el foro.

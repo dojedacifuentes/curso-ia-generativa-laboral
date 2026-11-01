@@ -58,6 +58,7 @@
     assign: { completion: '2', completionsubmit: '1' },
     quiz: { completion: '2', completionusegrade: '1' },
     manual: { completion: '1' },
+    'quiz-intento': { completion: '2', completionminattemptsenabled: '1', completionminattempts: '1' },
   };
   function completitud(fd, clave) {
     for (const k of [...fd.keys()]) if (/^completion(?!unlocked)/.test(k)) fd.delete(k);
@@ -282,11 +283,12 @@
   // Evaluación con cuestionario de Moodle: crea el cuestionario (o reutiliza el que ya está en la sección con ese nombre), importa
   // el GIFT de aula.json en su banco de preguntas y agrega todas las preguntas en el orden del archivo. `x.preguntas` cuenta también
   // las descripciones de los casos de la final.
-  async function evaluacionQuiz(cid, n, x) {
+  // `opciones` cambia la configuración (la diagnóstica no lleva nota y se completa al hacer un intento)
+  async function evaluacionQuiz(cid, n, x, opciones = {}) {
     const cmQuiz = async () => cmsDe(await estado(cid), n).find((c) => c.module === 'quiz' && c.name === x.name);
     let cm = await cmQuiz();
     if (!cm) {
-      await crear(cid, n, 'quiz', { name: x.name, ...intro(x.intro, true), grade: '100', gradepass: '60', attempts: '2', grademethod: '1', questionsperpage: '0', shuffleanswers: '1', preferredbehaviour: 'deferredfeedback' }, { clave: 'quiz', visible: false });
+      await crear(cid, n, 'quiz', { name: x.name, ...intro(x.intro, true), grade: '100', gradepass: '60', attempts: '2', grademethod: '1', questionsperpage: '0', shuffleanswers: '1', preferredbehaviour: 'deferredfeedback', ...(opciones.campos || {}) }, { clave: opciones.clave || 'quiz', visible: false });
       cm = await cmQuiz(); log(`+ ${x.name}`);
     }
     const slots = () => fetch(`/mod/quiz/edit.php?cmid=${cm.id}`).then((r) => r.text()).then((t) => P(t).querySelectorAll('li.slot').length);
@@ -438,13 +440,85 @@
     log('FIN franjas de los temas');
   };
 
+  // ---------- revisión de Natalia (01-11) ----------
+  // Prácticas autoevaluadas: renombra «Autoevaluación N: …» y reescribe su texto (sin citas en el cuerpo, referencias al final)
+  window.practicas01 = async (cid, aula, n) => {
+    const m = aula.modulos.find((x) => x.n === n); const cms = cmsDe(await estado(cid), n);
+    for (const a of m.aes) for (const [k, x] of [[1, a.act1], [2, a.act2]]) {
+      const pg = cms.find((c) => c.module === 'page' && (c.name === x.name || c.name.startsWith(`Autoevaluación ${k}: ${x.titulo}`)));
+      if (!pg) { log(`! no está la práctica ${k} de «${a.tema}»`); continue; }
+      await editar(pg.id, { name: x.name, 'page[text]': x.html, 'page[format]': '1' }, 'manual'); log(`~ ${x.name}`);
+    }
+    log(`FIN prácticas módulo ${n}`);
+  };
+  // Descripción de cada evaluación (cuestionario) desde aula.json
+  window.introEvaluaciones01 = async (cid, aula) => {
+    const st = await estado(cid);
+    for (const e of [...aula.modulos.map((m) => m.evaluacion), aula.final.evaluacion]) {
+      const q = st.cm.find((c) => c.module === 'quiz' && c.name === e.name);
+      if (q) { await editar(q.id, { 'introeditor[text]': e.intro, 'introeditor[format]': '1', showdescription: '1' }, 'quiz'); log(`~ descripción: ${e.name}`); } else log(`! no está ${e.name}`);
+    }
+  };
+  // Evaluación final: se borra el cuestionario (los casos habían quedado como ensayo) y se vuelve a crear con los casos como
+  // descripción; luego se deja en la categoría «Evaluación final» del libro de calificaciones
+  window.final01 = async (cid, aula) => {
+    let st = await estado(cid);
+    const viejo = st.cm.find((c) => c.module === 'quiz' && c.name === aula.final.evaluacion.name);
+    if (viejo) { await borrar(cid, [viejo.id]); log(`- ${viejo.name}`); await new Promise((r) => setTimeout(r, 3000)); }
+    await window.cambios31Final(cid, aula);
+    st = await estado(cid); const q = st.cm.find((c) => c.module === 'quiz' && c.name === aula.final.evaluacion.name && String(c.id) !== String(viejo?.id));
+    const { d } = await formulario(`/course/modedit.php?update=${q.id}&return=0`);
+    const cat = [...d.querySelectorAll('select[name=gradecat] option')].find((o) => /^Evaluación final/.test(o.textContent.trim()))?.value;
+    if (cat) { await editar(q.id, { gradecat: cat }, 'quiz'); log('~ evaluación final en su categoría de notas'); }
+    const ed = P(await (await fetch(`/mod/quiz/edit.php?cmid=${q.id}`)).text());
+    log(`  final: ${ed.querySelectorAll('li.slot').length} elementos, ${ed.querySelectorAll('li.slot.description, li.slot.qtype_description, li.qtype_description').length} descripciones; máximo ${ed.querySelector('.mod_quiz_summarks, .totalpoints')?.textContent.trim() || '?'}`);
+  };
+  // Evaluación diagnóstica del módulo: cuestionario sin nota (intentos libres, se completa al hacer uno) en lugar del espacio reservado
+  window.diagnostica01 = async (cid, aula, n) => {
+    const m = aula.modulos.find((x) => x.n === n); if (!m.diagnostica) { log(`! sin diagnóstica en aula.json para el módulo ${n}`); return; }
+    const res = cmsDe(await estado(cid), n).find((c) => c.module === 'page' && c.name === m.diagnostica.name);
+    if (res) { await borrar(cid, [res.id]); log(`- espacio reservado ${res.name}`); }
+    const id = await evaluacionQuiz(cid, n, m.diagnostica, { campos: { grade: '0', gradepass: '', attempts: '0', preferredbehaviour: 'immediatefeedback' }, clave: 'quiz-intento' });
+    await call('core_courseformat_update_course', { action: 'cm_show', courseid: cid, ids: [String(id)] });
+    const st = await estado(cid); const s = seccion(st, n); const cms = cmsDe(st, n);
+    const video = cms.find((c) => c.name === m.reservados.bienvenida.name); const i = cms.findIndex((c) => c.id === video?.id);
+    if (video && cms[i + 1] && String(cms[i + 1].id) !== String(id)) await call('core_courseformat_update_course', { action: 'cm_move', courseid: cid, ids: [String(id)], targetsectionid: String(s.id), targetcmid: String(cms[i + 1].id) });
+    log(`FIN diagnóstica módulo ${n}`);
+  };
+
+  // Reemplaza el paquete de los 22 quiz juego (alternativas parejas, 01-11). Los ZIP van cargados en window.__archivos.
+  window.quizJuego01 = async (cid, aula) => {
+    const st = await estado(cid);
+    for (const m of aula.modulos) for (const a of m.aes) {
+      const c = st.cm.find((x) => x.module === 'scorm' && x.name === a.quiz.name);
+      if (!c) { log(`! no está ${a.quiz.name}`); continue; }
+      const { d, f, fd } = await formulario(`/course/modedit.php?update=${c.id}&return=0`);
+      completitud(fd, 'scorm');
+      await subir(d, archivo(a.quiz.zip), fd.get('packagefile'));
+      for (const [k, v] of Object.entries({ skipview: '2', hidetoc: '3', nav: '0', displaycoursestructure: '0', popup: '0' })) fd.set(k, v);
+      await enviar(f, fd, `quiz ${c.id}`); log(`~ paquete nuevo: ${a.quiz.name}`);
+    }
+    log('FIN quiz juego');
+  };
+
+  // SCORM: entrar directo al contenido (sin la página con el botón «Entrar»)
+  window.scorm01 = async (cid) => {
+    const st = await estado(cid); let n = 0;
+    for (const c of st.cm.filter((x) => x.module === 'scorm')) {
+      const { fd } = await formulario(`/course/modedit.php?update=${c.id}&return=0`);
+      if (fd.get('skipview') === '2' && fd.get('hidetoc') === '3') continue;
+      await editar(c.id, { skipview: '2', hidetoc: '3', nav: '0', displaycoursestructure: '0', popup: '0' }, 'scorm'); n++; log(`~ entra directo: ${c.name}`);
+    }
+    log(`FIN SCORM: ${n} ajustados`);
+  };
+
   // ---------- auditoría de coherencia (31-10) ----------
   // Recorre el curso como lo ve el docente: orden de cada módulo contra aula.json, videos embebidos, banners, elementos ocultos y
   // textos que ya no corresponden (actividad formativa, foros de actividad, consigna antigua…) en la página del curso y en cada
   // página, tarea, foro y cuestionario. Devuelve la lista de hallazgos; vacía = todo coherente.
   window.auditoria31 = async (cid, aula) => {
     const h = []; const st = await estado(cid); const by = Object.fromEntries(st.cm.map((c) => [c.id, c]));
-    const PROHIBIDO = [/actividad(es)? formativa/i, /\bActividad [12]:/, /foro de la actividad/i, /qué, por qué y para qué/i, /el facilitador te pone la nota/i, /Pendiente de hacer/i, /Espacio reservado\. Aquí va (el video|la evaluación del módulo)/i, /entrégala como tarea/i];
+    const PROHIBIDO = [/actividad(es)? formativa/i, /\bActividad [12]:/, /foro de la actividad/i, /qué, por qué y para qué/i, /el facilitador te pone la nota/i, /Pendiente de hacer/i, /Espacio reservado\. Aquí va (el video|la evaluación del módulo)/i, /entrégala como tarea/i, /\bAutoevaluación \d/, /Aplica y autoevalúate/i, /empoderatech\.cl\b/i, /es el Hitos/i, /^\s*Prueba\s*$/m];
     const revisa = (donde, texto) => { for (const re of PROHIBIDO) { const m = re.exec(texto); if (m) h.push(`texto «${m[0]}» en ${donde}`); } };
     // 1. orden y nombres de cada módulo
     for (const m of aula.modulos) {

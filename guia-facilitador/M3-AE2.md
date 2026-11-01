@@ -1,10 +1,10 @@
 # Guía del facilitador · Recopilar, validar y sintetizar
 
-## Autoevaluación 1 · Las cinco fuentes de Rosa
+## Práctica autoevaluada 1 · Las cinco fuentes de Rosa
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar. Si varias personas preguntan por qué la fuente C no cuenta como una confirmación más, explícalo una vez en el foro para todo el grupo.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar. Si varias personas preguntan por qué la fuente C no cuenta como una confirmación más, explícalo una vez en el foro para todo el grupo.
 
 ### Pauta de referencia
 
@@ -22,11 +22,11 @@ Si lo logró: «Tu tabla separa bien lo confiable de lo que no lo es, y viste qu
 
 Si lo logró en parte: «La evaluación de las fuentes está bien, pero en la síntesis cuentas la nota de prensa como una segunda confirmación de la guía. Revisa de dónde sacó su información: si la repite, no suma evidencia. Y agrega lo que encontró el estudio universitario, aunque matice la recomendación.»
 
-## Autoevaluación 2 · Contrasta lo que levantaste en tu trabajo
+## Práctica autoevaluada 2 · Contrasta lo que levantaste en tu trabajo
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta con fuentes sobre un tema de su cargo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien no sabe cómo explicar dos fuentes que se contradicen. Si alguien comparte en el foro parte de su matriz o de sus registros del trabajo, recuérdale que lo haga sin nombres ni datos de clientes.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta con fuentes sobre un tema de su cargo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien no sabe cómo explicar dos fuentes que se contradicen. Si alguien comparte en el foro parte de su matriz o de sus registros del trabajo, recuérdale que lo haga sin nombres ni datos de clientes.
 
 ### Pauta de referencia
 

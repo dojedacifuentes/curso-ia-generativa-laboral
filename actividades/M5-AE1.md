@@ -1,6 +1,6 @@
 # Actividades de aplicación práctica · M5-AE1 · Potencial de automatización
 
-## Autoevaluación 1 · Las tareas de Rosa en la recepción
+## Práctica autoevaluada 1 · Las tareas de Rosa en la recepción
 cubre: H1, C1, C2
 fuentes: F-H-14, F-M5-06
 entrega: autoevaluacion
@@ -8,8 +8,8 @@ entrega: autoevaluacion
 ### Instrucción general
 
 Vas a revisar las tareas de Rosa para decidir cuáles conviene automatizar primero y cuáles no, con la matriz de impacto y riesgo. Así
-practicas con un caso ficticio el análisis que después harás con tu propio cargo. Es una autoevaluación: no se envía ni lleva nota.
-Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación.
+practicas con un caso ficticio el análisis que después harás con tu propio cargo. Es una práctica autoevaluada: no se envía ni lleva nota.
+Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada.
 
 ### Situación
 
@@ -45,7 +45,7 @@ Deja lista una tabla con las tareas de Rosa, las tres o más candidatas marcadas
 de riesgo, el cuadrante de cada una y su fundamento. Agrega al final dos o tres líneas sobre qué pregunta de Gemini te hizo cambiar
 algo y por qué, o por qué decidiste mantener tu clasificación.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -106,7 +106,7 @@ correos en «Empieza aquí», pero agregué que las respuestas deben salir de un
   Gemini agregó y las notas no mencionan.
 - Escribir fundamentos como «porque ahorra tiempo», que hablan solo del impacto y no dan la razón de riesgo.
 
-## Autoevaluación 2 · La matriz de tu propio cargo
+## Práctica autoevaluada 2 · La matriz de tu propio cargo
 cubre: H1, C1, C2
 fuentes: F-M5-01, F-M5-16
 entrega: autoevaluacion
@@ -115,8 +115,8 @@ entrega: autoevaluacion
 
 Vas a mapear las tareas de tu propio cargo y priorizar con la matriz de impacto y riesgo las que conviene automatizar. Esta matriz es
 la base del flujo que construirás en el tema siguiente; si la tarea de tu proyecto del curso queda entre las candidatas, empieza por
-ella. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y
-revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT,
+ella. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y
+revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT,
 montos y datos de clientes por datos inventados.
 
 ### Situación
@@ -149,7 +149,7 @@ Deja listos tu mapa de tareas, tu matriz con al menos tres candidatas y sus fund
 empezar: en qué cuadrante quedó, quién gana si se automatiza y qué harías con el tiempo que quede. Esta matriz es la base del flujo que
 vas a construir en el tema siguiente.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

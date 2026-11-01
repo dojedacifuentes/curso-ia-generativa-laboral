@@ -1,13 +1,13 @@
 # Actividades de aplicación práctica · M4-AE1 · Ecosistema multimedia con IA
 
-## Autoevaluación 1 · Las herramientas para la campaña de Camila
+## Práctica autoevaluada 1 · Las herramientas para la campaña de Camila
 cubre: H1, C1, C2
 fuentes: F-H-65, F-M4-01
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad ayudas a Camila a elegir las herramientas para las dos piezas de su campaña y revisas qué le permiten sus licencias y condiciones de uso. Es una práctica con un caso ficticio antes de elegir para una pieza de tu propio cargo. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación.
+En esta actividad ayudas a Camila a elegir las herramientas para las dos piezas de su campaña y revisas qué le permiten sus licencias y condiciones de uso. Es una práctica con un caso ficticio antes de elegir para una pieza de tu propio cargo. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada.
 
 ### Situación
 
@@ -30,7 +30,7 @@ Vas a ayudar a Camila a elegir en tres pasos: primero el tipo de pieza, después
 
 Deja lista la tabla con las cuatro herramientas comparadas y su clasificación, la respuesta sobre el ícono y la recomendación final para Camila. Puedes hacerla en una nota del celular, un documento o una hoja escrita a mano, siempre que se lea bien.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -68,14 +68,14 @@ Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve s
 - Decir que se puede cambiar el color del ícono si se da crédito, o responder bien sin proponer una alternativa.
 - Clasificar sin fecha de lectura, o recomendar una herramienta que la propia tabla marcó como prohibida.
 
-## Autoevaluación 2 · La ficha de una pieza de tu cargo
+## Práctica autoevaluada 2 · La ficha de una pieza de tu cargo
 cubre: H1, H2, C1, C2
 fuentes: F-M4-06, F-M4-03
 entrega: autoevaluacion
 
 ### Instrucción general
 
-Ahora eliges las herramientas para una pieza visual o sonora de tu trabajo y empiezas su ficha de uso ético, que vas a completar cuando produzcas la pieza. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
+Ahora eliges las herramientas para una pieza visual o sonora de tu trabajo y empiezas su ficha de uso ético, que vas a completar cuando produzcas la pieza. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
 
@@ -96,7 +96,7 @@ Trabaja con copias sin datos sensibles. Si la pieza menciona clientes, proveedor
 
 Deja lista la comparación de las dos herramientas, las dos líneas con lo que permite y prohíbe la que elegiste, el riesgo con su forma de evitarlo y la ficha de uso ético con los campos iniciales completos. Guarda la ficha: la vas a seguir llenando cuando produzcas tus piezas.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

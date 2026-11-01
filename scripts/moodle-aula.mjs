@@ -17,7 +17,7 @@ const HITO = Object.fromEntries(Object.entries(JSON.parse(leer('data', 'hitos.js
 const HORAS = Object.fromEntries(leer('data', 'planilla', 'Resumen horas.tsv').split('\n').map((l) => l.split('\t')).filter((c) => /^\d(\.0)?$/.test(c[0]) && Number(c[2])).map((c) => [Number(c[0]), Number(c[2])]));
 const HORAS_CURSO = Object.values(HORAS).reduce((a, b) => a + b, 0);
 if (curso.modulos.some((m) => !HORAS[m.n]) || HORAS_CURSO !== 88) throw new Error(`horas: ${JSON.stringify(HORAS)} = ${HORAS_CURSO}`);
-const DOCENTE = { nombre: 'Natalia Hernández', correo: 'natalia@empoderatech.cl' };
+const DOCENTE = { nombre: 'Natalia Hernández', correo: 'natalia@empoderatech.com' };
 // Diseño del 31-10 (ideas del curso de referencia aprobado por SENCE): reto del personaje y «lo que te llevas» en cada módulo
 // (data/retos.json), banner con foto de los clips de Flow, video embebido, encabezados de bloque con ícono y cierre del curso
 const RETOS = JSON.parse(leer('data', 'retos.json'));
@@ -58,9 +58,26 @@ const partirH2 = (h) => h.split(/(?=<h2>)/).filter((x) => x.startsWith('<h2>')).
 const refsCitadas = (texto, refs) => {
   const ps = refs.match(/<p>[\s\S]*?<\/p>/g) || [];
   const plano = texto.replace(/<[^>]+>/g, ' ');
-  const usadas = ps.filter((p) => { const t = p.replace(/<[^>]+>/g, ''); const autor = t.split(/[,.(]/)[0].trim(); const año = /\((\d{4}|s\.\s?f\.)[a-z]?[,)]/.exec(t)?.[1]; return autor && año && plano.includes(autor) && plano.includes(año); });
-  return usadas.length ? `<div class="refs">${usadas.join('\n')}</div>` : '';
+  // el año se compara con su letra («s. f.-b», «2024a»), para no sumar las otras obras del mismo autor
+  const usadas = ps.filter((p) => { const t = p.replace(/<[^>]+>/g, ''); const autor = t.split(/[,.(]/)[0].trim(); const año = /\((\d{4}[a-z]?|s\.\s?f\.(?:-[a-z])?)[,)]/.exec(t)?.[1]; return autor && año && plano.includes(autor) && plano.includes(año); });
+  // Revisión de Natalia (01-11): si en la página queda una sola obra de un autor, sin la letra «-a/-b» del año
+  const autorDe = (p) => p.replace(/<[^>]+>/g, '').split(/[,.(]/)[0].trim();
+  const veces = usadas.reduce((o, p) => ({ ...o, [autorDe(p)]: (o[autorDe(p)] || 0) + 1 }), {});
+  // y si quedan varias, las letras se renumeran en orden en esa página (a, b, c), porque el texto ya no lleva citas
+  const vistos = {};
+  const limpias = usadas.map((p) => {
+    const a = autorDe(p);
+    if (veces[a] === 1) return p.replace(/\((s\.\s?f\.)-[a-z]\)/, '($1)').replace(/\((\d{4})[a-z]\)/, '($1)');
+    const letra = 'abcdefgh'[(vistos[a] = (vistos[a] ?? -1) + 1)];
+    return p.replace(/\((s\.\s?f\.)-[a-z]\)/, `($1-${letra})`).replace(/\((\d{4})[a-z]\)/, `($1${letra})`);
+  });
+  return limpias.length ? `<div class="refs">${limpias.join('\n')}</div>` : '';
 };
+// Revisión de Natalia (01-11): las prácticas autoevaluadas van sin citas en el texto; las obras quedan en su sección de referencias
+const AUT_AÑO = String.raw`[A-ZÁÉÍÓÚÑ][^()<>;]{0,90}?,\s*(?:s\.\s?f\.|(?:19|20)\d{2})[a-z]?(?:-[a-z])?`;
+const SOLO_AÑO = String.raw`(?:s\.\s?f\.|(?:19|20)\d{2})[a-z]?(?:-[a-z])?`;
+const CITA = new RegExp(String.raw`\s?\((?:${AUT_AÑO}(?:;\s*${AUT_AÑO})*|${SOLO_AÑO})\)`, 'g');
+const sinCitas = (h) => h.replace(CITA, '');
 const conRefs = (cuerpo, refs) => { const r = refsCitadas(cuerpo, refs); return r ? `${cuerpo}<h3>Referencias bibliográficas</h3>${r}` : cuerpo; };
 
 // rúbrica de la tabla Markdown: criterio, peso y tres niveles (100 %, 60 %, 0 %)
@@ -75,7 +92,7 @@ const rubrica = (md, nombre) => {
 
 // ---------- etiquetas del aula ----------
 // Cambio 31-10 (Natalia): «Aplica» y «En tu trabajo» van juntos (las dos actividades formativas, autoevaluables, sin nota)
-const PASOS = [['Aprende', 'Recorre el contenido interactivo del tema.'], ['Practica', 'Pon a prueba lo aprendido con el quiz juego.'], ['Aplica y autoevalúate', 'Haz las dos autoevaluaciones en tu trabajo y compáralas con su respuesta modelo. No se envían.']];
+const PASOS = [['Aprende', 'Recorre el contenido interactivo del tema.'], ['Practica', 'Pon a prueba lo aprendido con el quiz juego.'], ['Práctica autoevaluada', 'Haz las dos prácticas autoevaluadas en tu trabajo y compáralas con su respuesta modelo. No se envían.']];
 const pasos = (chico) => `<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:${chico ? 14 : 4}px;">${PASOS.map(([t, d], i) => `<div style="flex:1 1 150px;display:flex;gap:10px;align-items:flex-start;background:${chico ? C.grs : '#fff'};border:1px solid ${C.linea};border-radius:14px;padding:10px 12px;">${num(i + 1, chico ? 26 : 30, i < 2 ? C.noche : C.fr)}<div><div style="font-weight:700;color:${C.noche};font-size:${chico ? 13.5 : 14.5}px;">${t}</div>${chico ? '' : `<div style="font-size:13px;color:${C.gr};line-height:1.4;">${d}</div>`}</div></div>`).join('')}</div>`;
 
 const portada = () => heroFoto(RETOS.curso.banner, `${pill('Curso · Empoderatech', true)}
@@ -87,14 +104,15 @@ const portada = () => heroFoto(RETOS.curso.banner, `${pill('Curso · Empoderatec
 
 const comoAvanzar = () => `<div style="background:${C.grs};border-radius:18px;padding:18px 20px;margin:8px 0;">
 <div style="font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:${C.fr};">Cómo avanzas en cada tema</div>
-<div style="font-size:15px;color:${C.noche};margin:6px 0 10px;line-height:1.5;">Cada módulo abre con un <b>video de bienvenida</b> y una evaluación diagnóstica. Después tiene varios temas, y cada tema sigue los mismos tres pasos. Tu avance se marca solo a medida que completas cada recurso.</div>
+<div style="font-size:15px;color:${C.noche};margin:6px 0 10px;line-height:1.5;">Cada módulo abre con un <b>video de bienvenida</b> y una evaluación diagnóstica. Después tiene varios temas, y cada tema sigue los mismos tres pasos. Tu avance se marca solo a medida que completas cada recurso; en las prácticas autoevaluadas, tú marcas la actividad como hecha cuando terminas.</div>
 ${pasos(false)}
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:12px;font-size:14px;color:${C.noche};line-height:1.5;">
 <div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Práctica evaluada.</b> Al cierre de cada módulo resuelves los casos de aplicación con empresas reales y los subes en su tarea «Entrega y revisión docente». Ahí mismo el docente te pone la nota y te devuelve su revisión.</div>
 <div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Conversa.</b> En el foro de casos del módulo compartes tus resultados y haces tus consultas. El facilitador responde en menos de 24 horas hábiles.</div>
 <div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Repasa.</b> El resumen del módulo trae la infografía animada, el <b>video de resumen</b> y el glosario del módulo, donde puedes buscar cada término.</div>
 <div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Demuestra.</b> Cada módulo cierra con su evaluación, y el curso, con una evaluación final que integra todo lo aprendido.</div>
-<div style="flex:1 1 100%;background:${C.noche};color:#fff;border-radius:12px;padding:12px 16px;"><b style="color:${C.fu};">Tu proyecto del curso.</b> En el módulo 1 eliges una tarea de tu cargo y en cada módulo la mejoras con IA: la presentas, la investigas, comunicas tu propuesta, automatizas un paso con supervisión y, al final, mides sus resultados y los cuentas en un pitch. Cada paso es un hito: lo reconoces en las autoevaluaciones 2 marcadas con su número.</div></div></div>`;
+<div style="flex:1 1 100%;background:${C.noche};color:#fff;border-radius:12px;padding:12px 16px;"><b style="color:${C.fu};">Tu proyecto del curso.</b> En el módulo 1 eliges una tarea de tu cargo y en cada módulo la mejoras con IA: la presentas, la investigas, comunicas tu propuesta, automatizas un paso con supervisión y, al final, mides sus resultados y los cuentas en un pitch. Cada paso es un hito: lo reconoces en las prácticas autoevaluadas 2 marcadas con su número.</div>
+<div style="flex:1 1 100%;background:#fff;border-radius:12px;padding:12px 16px;"><b style="color:${C.fr};">Te acompañan en el curso.</b> Cuatro personas que trabajan, con tareas parecidas a las tuyas, aparecen en los retos, las prácticas y las evaluaciones de distintos módulos: <b>Camila</b>, asistente administrativa en una constructora; <b>Andrés</b>, encargado de bodega en una distribuidora; <b>Rosa</b>, recepcionista de un centro médico, y <b>Paula</b>, ejecutiva de atención al cliente en una tienda de electrodomésticos.</div></div></div>`;
 
 // Insignias del curso (creadas en Moodle el 30-10, ids 1 a 7; imágenes de scripts/moodle-insignias.mjs)
 const INSIGNIA = (id) => `https://formacion.empoderatech.com/pluginfile.php/16/badges/badgeimage/${id}/f1`;
@@ -122,7 +140,7 @@ const encabezado = (ic, t, d) => `<div style="position:relative;overflow:hidden;
 const bandaTema = (m, a, i) => `<div style="background:#fff;border:1px solid ${C.linea};border-left:6px solid ${C.fr};border-radius:18px;padding:18px 22px;margin-top:18px;">
 <div style="display:flex;gap:14px;align-items:center;">${num(i + 1, 44)}<div><div style="font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:${C.fr};">Tema ${i + 1} de ${m.aes.length}</div><div style="font-size:21px;font-weight:700;color:${C.noche};line-height:1.25;">${esc(a.tema)}</div></div></div>
 <div style="font-size:15px;line-height:1.6;color:${C.noche};margin-top:12px;"><b>Aprendizaje esperado:</b> ${esc(a.texto)}</div>
-${pasos(true)}${HITO[a.id] ? `<div style="margin-top:12px;display:inline-flex;gap:8px;align-items:center;background:${C.noche};color:#fff;border-radius:999px;padding:6px 16px 6px 8px;font-size:13.5px;">${num('★', 22, C.fu)}<span>La autoevaluación 2 de este tema es el <b>${HITO[a.id]}</b> de tu proyecto del curso</span></div>` : ''}</div>`;
+${pasos(true)}${HITO[a.id] ? `<div style="margin-top:12px;display:inline-flex;gap:8px;align-items:center;background:${C.noche};color:#fff;border-radius:999px;padding:6px 16px 6px 8px;font-size:13.5px;">${num('★', 22, C.fu)}<span>La práctica autoevaluada 2 de este tema ${/^Hitos/.test(HITO[a.id]) ? `son los <b>${HITO[a.id].replace(/^Hitos/, 'hitos')}</b>` : `es el <b>${HITO[a.id]}</b>`} de tu proyecto del curso</span></div>` : ''}</div>`;
 
 const subtitulo = (t, d) => `<div style="margin-top:22px;"><div style="display:flex;align-items:center;gap:10px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${C.fr};"></span><span style="font-size:14px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:${C.noche};">${esc(t)}</span></div>${d ? `<div style="font-size:14.5px;color:${C.gr};margin:4px 0 0 20px;line-height:1.5;">${esc(d)}</div>` : ''}</div>`;
 
@@ -146,7 +164,7 @@ const evaluacion = (archivo, nombre, pref) => {
   if (!fs.existsSync(rel('evaluaciones', archivo))) { faltan.push(archivo); return null; }
   const e = JSON.parse(leer('evaluaciones', archivo));
   let k = 0; let gift = `// ${nombre} · generado por scripts/moodle-aula.mjs\n\n`;
-  if (e.casos) for (const [i, c] of e.casos.entries()) { gift += `::${pref} · caso ${i + 1}::[html]<h4>${gesc(`Caso ${i + 1}: ${c.titulo}`)}</h4>${gp(c.texto)}{}\n\n`; for (const it of c.items) gift += giftItem(it, ++k, pref) + '\n'; }
+  if (e.casos) for (const [i, c] of e.casos.entries()) { gift += `::${pref} · caso ${i + 1}::[html]<h4>${gesc(`Caso ${i + 1}: ${c.titulo}`)}</h4>${gp(c.texto)}\n\n`; /* sin llaves = «descripción»: con {} Moodle lo importa como ensayo y suma puntos */ for (const it of c.items) gift += giftItem(it, ++k, pref) + '\n'; }
   else for (const it of e.items) gift += giftItem(it, ++k, pref) + '\n';
   const ruta = `entregables/moodle/evaluaciones/${archivo.replace('.json', '.gift')}`;
   fs.mkdirSync(rel('entregables', 'moodle', 'evaluaciones'), { recursive: true });
@@ -158,18 +176,19 @@ const modulos = curso.modulos.map((m) => {
   const aes = m.aes.map((a, i) => {
     const partes = partirH2(main(`entregables/actividades/html/${a.id}.html`));
     const refs = partes.find((p) => /^Referencias/.test(p.titulo))?.cuerpo || '';
-    const acts = partes.filter((p) => /^(Actividad|Autoevaluación) \d/.test(p.titulo));
+    const acts = partes.filter((p) => /^(Actividad|Autoevaluación|Práctica autoevaluada) \d/.test(p.titulo));
     if (acts.length !== 2) throw new Error(`${a.id}: se esperaban 2 actividades`);
     // Cambio 31-10 (Natalia): las dos actividades son formativas y autoevaluables: tarea con entrega, sin nota, rúbrica de autoevaluación en el enunciado
     const act = (k) => {
-      const titulo = acts[k].titulo.replace(/^(Actividad|Autoevaluación) \d · /, '');
+      const titulo = acts[k].titulo.replace(/^(Actividad|Autoevaluación|Práctica autoevaluada) \d · /, '');
       // Cambio 31-10 (usuario): autoevaluación que no se envía: página con la respuesta modelo plegada y finalización manual
       const [antes, modelo] = acts[k].cuerpo.split(/<h3>Respuesta modelo<\/h3>/);
       if (modelo === undefined) throw new Error(`${a.id} actividad ${k + 1}: falta «Respuesta modelo»`);
-      const aviso = `<div style="display:flex;gap:12px;align-items:center;background:${C.frs};border:1px solid ${C.fr};border-radius:14px;padding:12px 16px;margin:0 0 14px;color:${C.noche};">${icono('check-check', C.fr, 22)}<div><b>Autoevaluación: no se envía ni lleva nota.</b> Haz la actividad, compárala con la respuesta modelo del final y marca en qué nivel quedaste con la rúbrica. Cuando termines, marca esta actividad como hecha.</div></div>`;
-      const plegado = `<details style="margin:18px 0 6px;border:1px solid ${C.linea};border-radius:14px;overflow:hidden;"><summary style="cursor:pointer;background:${C.noche};color:#fff;padding:12px 16px;font-weight:700;">Ver la respuesta modelo (ábrela cuando termines tu actividad)</summary><div style="padding:6px 18px 14px;">${estilar(modelo)}</div></details>`;
-      const cuerpo = estilar(conRefs(antes, refs)); const iRefs = cuerpo.search(/<h4[^>]*>Referencias bibliográficas/);
-      return { titulo, name: `Autoevaluación ${k + 1}: ${titulo}${k === 1 && HITO[a.id] ? ` · ${HITO[a.id]} del proyecto` : ''}`, html: aviso + (iRefs >= 0 ? cuerpo.slice(0, iRefs) + plegado + cuerpo.slice(iRefs) : cuerpo + plegado) };
+      const aviso = `<div style="display:flex;gap:12px;align-items:center;background:${C.frs};border:1px solid ${C.fr};border-radius:14px;padding:12px 16px;margin:0 0 14px;color:${C.noche};">${icono('check-check', C.fr, 22)}<div><b>Práctica autoevaluada: no se envía ni lleva nota.</b> Haz la actividad, compárala con la respuesta modelo del final y marca en qué nivel quedaste con la rúbrica. Cuando termines, marca esta actividad como hecha.</div></div>`;
+      const plegado = `<details style="margin:18px 0 6px;border:1px solid ${C.linea};border-radius:14px;overflow:hidden;"><summary style="cursor:pointer;background:${C.noche};color:#fff;padding:12px 16px;font-weight:700;">Ver la respuesta modelo (ábrela cuando termines tu actividad)</summary><div style="padding:6px 18px 14px;">${estilar(sinCitas(modelo))}</div></details>`;
+      const lista = refsCitadas(antes + modelo, refs);
+      const cuerpo = estilar(sinCitas(antes)) + plegado + (lista ? estilar(`<h3>Referencias bibliográficas</h3>${lista}`) : '');
+      return { titulo, name: `Práctica autoevaluada ${k + 1}: ${titulo}${k === 1 && HITO[a.id] ? ` · ${HITO[a.id]} del proyecto` : ''}`, html: aviso + cuerpo };
     };
     const id = a.id;
     return {
@@ -211,6 +230,8 @@ const modulos = curso.modulos.map((m) => {
     infografia: { name: `Infografía del módulo ${m.n}`, intro: '<p>Las ideas clave del módulo. Abre cada tarjeta y sigue el recorrido guiado.</p>', zip: `entregables/infografias/M${m.n}-Infografia-SCORM.zip` },
     glosario: { name: `Glosario del módulo ${m.n}`, intro: '<p>Los términos del módulo con su definición. Usa el buscador para encontrar uno.</p>', xml: `entregables/glosario/Glosario-M${m.n}-Moodle.xml`, xmlTexto: fs.existsSync(rel('entregables', 'glosario', `Glosario-M${m.n}-Moodle.xml`)) ? leer('entregables', 'glosario', `Glosario-M${m.n}-Moodle.xml`) : '' },
     evaluacion: evaluacion(`M${m.n}.json`, `Evaluación del módulo ${m.n}`, `Evaluación del módulo ${m.n}`),
+    // Revisión de Natalia (01-11): la diagnóstica es un cuestionario sin nota (evaluaciones/D<n>.json)
+    diagnostica: evaluacion(`D${m.n}.json`, `Evaluación diagnóstica del módulo ${m.n}`, `Diagnóstica del módulo ${m.n}`),
   };
 });
 
@@ -233,7 +254,7 @@ const aula = {
   imagenes: IMAGENES,
   facilitador: {
     nombre: 'Para el facilitador',
-    resumen: `<div style="border:1px solid ${C.linea};border-left:6px solid ${C.noche};border-radius:14px;padding:14px 18px;background:${C.grs};color:${C.noche};"><b>Sección del equipo docente.</b> Los estudiantes no la ven. Trae la guía del facilitador, con la pauta de corrección de los casos de aplicación, la pauta de las evaluaciones, la pauta de referencia de las autoevaluaciones y la moderación de los foros, y el mapa del aula.</div>`,
+    resumen: `<div style="border:1px solid ${C.linea};border-left:6px solid ${C.noche};border-radius:14px;padding:14px 18px;background:${C.grs};color:${C.noche};"><b>Sección del equipo docente.</b> Los estudiantes no la ven. Trae la guía del facilitador, con la pauta de corrección de los casos de aplicación, la pauta de las evaluaciones, la pauta de referencia de las prácticas autoevaluadas y la moderación de los foros, y el mapa del aula.</div>`,
     archivos: [
       { name: 'Guía del facilitador (completa)', pdf: 'entregables/guia-facilitador/pdf/Guia-del-facilitador.pdf' },
       ...fs.readdirSync(rel('entregables', 'guia-facilitador', 'partes', 'pdf')).sort().map((f) => ({ name: f.startsWith('Guia-0') ? 'Guía del facilitador · Introducción y foros' : f.startsWith('Guia-E') ? 'Guía del facilitador · Evaluaciones' : `Guía del facilitador · Módulo ${/M(\d)/.exec(f)[1]}`, pdf: `entregables/guia-facilitador/partes/pdf/${f}` })),
@@ -257,4 +278,4 @@ if (errores.length) { console.error(errores.join('\n')); process.exit(1); }
 fs.mkdirSync(rel('entregables', 'moodle'), { recursive: true });
 fs.writeFileSync(rel('entregables', 'moodle', 'aula.json'), JSON.stringify(aula, null, 1));
 const n = modulos.reduce((s, m) => s + m.aes.length, 0);
-console.log(`aula.json: ${modulos.length} módulos (${HORAS_CURSO} h), ${n} temas, ${n * 2} autoevaluaciones, ${modulos.reduce((s, m) => s + m.casos.length, 0)} casos evaluados con rúbrica, ${modulos.reduce((s, m) => s + (m.evaluacion?.preguntas || 0), 0)} ítems de evaluación de módulo y ${aula.final.evaluacion?.preguntas || 0} de la final${faltan.length ? ` (faltan ${faltan.join(', ')})` : ''}, ${aula.facilitador.archivos.length} archivos del facilitador`);
+console.log(`aula.json: ${modulos.length} módulos (${HORAS_CURSO} h), ${n} temas, ${n * 2} prácticas autoevaluadas, ${modulos.reduce((s, m) => s + m.casos.length, 0)} casos evaluados con rúbrica, ${modulos.reduce((s, m) => s + (m.evaluacion?.preguntas || 0), 0)} ítems de evaluación de módulo y ${aula.final.evaluacion?.preguntas || 0} de la final${faltan.length ? ` (faltan ${faltan.join(', ')})` : ''}, ${aula.facilitador.archivos.length} archivos del facilitador`);

@@ -3,8 +3,8 @@ $CATEGORY: IA-generativa-laboral/Formativos/M2-AE3
 
 ::M2-AE3-P1 (S1 A1)::Camila prepara para la gerenta de administración una presentación sobre el archivo de documentos de la oficina. ¿Cuál funciona mejor como mensaje clave? {
 ~«El archivo de documentos de la oficina»
-~«Archivo de documentos, registro de facturas y agenda de reuniones»
-=«Ordenar el archivo por fecha y tipo de documento permite encontrar cualquier papel rápido»
+~«Archivo de documentos, registro de facturas de proveedores y agenda de reuniones»
+=«Ordenar el archivo por fecha y tipo permite encontrar cualquier papel rápido»
 ~«Es importante tener ordenada la oficina»
 ####El mensaje clave es una oración con verbo, con una sola idea y que se puede discutir. «El archivo de documentos de la oficina» es un tema, la lista junta tres ideas y «Es importante tener ordenada la oficina» nadie lo discutiría, así que no dice nada.
 }
@@ -18,10 +18,11 @@ $CATEGORY: IA-generativa-laboral/Formativos/M2-AE3
 }
 
 ::M2-AE3-P3 (S2 C1)::Para ahorrar espacio, Andrés puso en una misma lámina el problema de las cajas y su propuesta de reserva. ¿Qué le conviene hacer? {
-~Mantenerla y bajar la letra para que quepa todo
-~Mantenerla, pero con dos títulos, uno para cada idea
 =Separarla en dos láminas, cada una con su idea y su título
-####Cada lámina transmite una sola idea que apoya el mensaje. Si una lámina necesita dos títulos, son dos láminas; juntarlas obliga a la audiencia a seguir dos ideas a la vez.
+~Mantenerla y bajar la letra para que quepa todo en la lámina
+~Mantenerla, pero con dos títulos, uno para cada idea
+~Dejar solo la propuesta, porque el problema ya lo conoce su jefatura
+####Cada lámina transmite una sola idea que apoya el mensaje. Si una lámina necesita dos títulos, son dos láminas; sin el problema, la propuesta pierde su razón. Juntarlas obliga a la audiencia a seguir dos ideas a la vez.
 }
 
 ::M2-AE3-P4 (C2 S2)::El esquema de Gemini trae seis láminas; dos se llaman «Introducción» y «Conclusiones». «Como trae las seis láminas pedidas, el esquema está listo para armar.» ¿Es verdadero o falso? {
@@ -35,7 +36,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M2-AE3
 ::M2-AE3-P5 (C2 A1)::¿Cuál de estas láminas está lista para presentar, sin sobrecarga? {
 ~Título «Costos» y un párrafo de seis líneas en letra de 14 puntos
 ~Tres fotos de bodegas, el logo de la empresa y cinco viñetas
-~Tres viñetas sobre las cajas y dos sobre el horario de los camiones
+~Tres viñetas sobre las cajas y dos sobre el horario de los camiones de despacho
 =Un título que dice la conclusión y tres viñetas de una línea, en letra grande
 ####Una lámina lista se capta de un vistazo\: título-oración y viñetas cortas, legibles. Los párrafos, la letra pequeña, las imágenes que saturan y las dos ideas en competencia son señales de sobrecarga.
 }
@@ -44,19 +45,22 @@ $CATEGORY: IA-generativa-laboral/Formativos/M2-AE3
 ~Dejarla, porque un porcentaje le da seriedad a la propuesta
 ~Dejarla y bajar la cifra a 20 % para que sea más creíble
 =Quitar la cifra o cambiarla por algo que pueda respaldar
-####Cada dato de una presentación tiene que poder respaldarse; si no, sale. Justo porque una cifra se ve profesional, la audiencia la cree, y si te preguntan de dónde salió pierdes credibilidad.
+~Dejarla y agregar «aproximadamente» junto a la cifra, para no comprometerse
+####Cada dato de una presentación tiene que poder respaldarse; si no, sale. Un dato sin respaldo no se arregla con «aproximadamente». Justo porque una cifra se ve profesional, la audiencia la cree, y si te preguntan de dónde salió pierdes credibilidad.
 }
 
 ::M2-AE3-P7 (A2)::Andrés quiere que sus láminas se vean más profesionales. ¿Qué cambio lo logra? {
-~Sumar animaciones y un color distinto en cada lámina
+~Sumar animaciones de entrada y un color distinto en cada lámina
+~Usar de fondo una foto de bodega a pantalla completa con el texto blanco encima
+~Llenar cada lámina con más texto, para que se vea más trabajada
 =Letra de 18 puntos o más, buen contraste y el mismo diseño en todas
-~Usar de fondo una foto de bodega con el texto blanco encima
-####La imagen profesional depende de que la presentación se lea bien y se vea ordenada. Los efectos y los fondos recargados distraen del mensaje y pueden dejar el texto ilegible.
+####La imagen profesional depende de que la presentación se lea bien y se vea ordenada. Los efectos, los fondos recargados y el exceso de texto distraen del mensaje y pueden dejar el texto ilegible.
 }
 
 ::M2-AE3-P8 (H1 A1)::El guion que redactó Gemini repite las viñetas palabra por palabra, y Andrés piensa leerlo así en la reunión. ¿Qué le conviene hacer? {
 =Reescribirlo con sus palabras, explicando cada viñeta, y ensayarlo
 ~Leerlo tal como salió, porque coincide con lo que muestran las láminas
 ~Copiar el guion completo en las láminas para no olvidar nada
+~Leerlo más rápido, para que la reunión dure menos y nadie se aburra
 ####Si el guion repite la lámina, la audiencia lee más rápido de lo que hablas y deja de escucharte. El guion explica las viñetas con tus palabras; copiarlo en las láminas las sobrecarga.
 }

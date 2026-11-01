@@ -1,10 +1,10 @@
 # Guía del facilitador · Presentaciones con IA
 
-## Autoevaluación 1 · Seis láminas para pedir facturas con guía de despacho
+## Práctica autoevaluada 1 · Seis láminas para pedir facturas con guía de despacho
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no logra que sus títulos cuenten la historia.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no logra que sus títulos cuenten la historia.
 
 ### Pauta de referencia
 
@@ -22,11 +22,11 @@ Si lo logró: «Leí solo tus seis títulos y entendí toda la propuesta: eso di
 
 Si lo logró en parte: «Tienes las seis láminas, pero los títulos son temas ("Situación actual", "Propuesta") y no cuentan la historia. Conviértelos en oraciones con la conclusión de cada lámina, por ejemplo "7 de cada 25 facturas llegan sin guía de despacho".»
 
-## Autoevaluación 2 · Depura una presentación de tu trabajo
+## Práctica autoevaluada 2 · Depura una presentación de tu trabajo
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe qué hacer con un [FALTA DATO]. Si alguien comparte su trabajo en el foro, recuérdale quitar antes nombres, RUT, montos y datos de clientes. Como es el segundo hito del proyecto, si alguien consulta el tema, recuérdale que la presentación trata la misma tarea de su cargo que eligió en el primer hito.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe qué hacer con un [FALTA DATO]. Si alguien comparte su trabajo en el foro, recuérdale quitar antes nombres, RUT, montos y datos de clientes. Como es el segundo hito del proyecto, si alguien consulta el tema, recuérdale que la presentación trata la misma tarea de su cargo que eligió en el primer hito.
 
 ### Pauta de referencia
 

@@ -1,13 +1,13 @@
 # Actividades de aplicación práctica · M2-AE3 · Presentaciones con IA
 
-## Autoevaluación 1 · Seis láminas para pedir facturas con guía de despacho
+## Práctica autoevaluada 1 · Seis láminas para pedir facturas con guía de despacho
 cubre: H1, C1
 fuentes: F-M2-13
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad vas a armar con Gemini las seis láminas con que Camila le propone un cambio a la gerenta, cuidando que todas apoyen un mismo mensaje clave. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Trabajas con datos ficticios.
+En esta actividad vas a armar con Gemini las seis láminas con que Camila le propone un cambio a la gerenta, cuidando que todas apoyen un mismo mensaje clave. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Trabajas con datos ficticios.
 
 ### Situación
 
@@ -29,7 +29,7 @@ Vas a armar el brief, pedir el esquema a Gemini y convertirlo en seis láminas c
 
 Deja listos el brief, el esquema tal como lo entregó Gemini, las seis láminas finales y el guion. Agrega una línea con los seis títulos uno debajo del otro, para que se puedan leer de corrido.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -87,14 +87,14 @@ Le pido aprobar el cambio para avisar a los proveedores.
 - Una última lámina de agradecimiento en vez de lo que Camila le pide a la gerenta.
 - Dejar horas ahorradas, costos o porcentajes que agregó el asistente y que el caso no trae, o un guion que repite las viñetas.
 
-## Autoevaluación 2 · Depura una presentación de tu trabajo
+## Práctica autoevaluada 2 · Depura una presentación de tu trabajo
 cubre: H1, C2
 fuentes: F-M2-14, F-M2-07
 entrega: autoevaluacion
 
 ### Instrucción general
 
-Esta actividad es el Hito 2 de tu proyecto del curso. Vas a preparar una presentación de seis láminas que propone a tu jefatura cómo mejorar con IA la tarea de tu proyecto y a depurar lo que genera la IA hasta dejarla lista. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
+Esta actividad es el Hito 2 de tu proyecto del curso. Vas a preparar una presentación de seis láminas que propone a tu jefatura cómo mejorar con IA la tarea de tu proyecto y a depurar lo que genera la IA hasta dejarla lista. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
 
@@ -114,7 +114,7 @@ Esta vez el foco está en la depuración. Una lámina está sobrecargada cuando 
 
 Deja listos tu brief, la versión inicial que generó la IA y tu versión final, lado a lado o una después de la otra. Agrega un párrafo que nombre tres cosas que eliminaste, una que corregiste y una que agregaste tú, y explica por qué en cada caso.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

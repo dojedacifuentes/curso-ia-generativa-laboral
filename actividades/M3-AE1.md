@@ -1,13 +1,13 @@
 # Actividades de aplicación práctica · M3-AE1 · Herramientas de IA para investigar
 
-## Autoevaluación 1 · La agenda compartida de la gerenta
+## Práctica autoevaluada 1 · La agenda compartida de la gerenta
 cubre: H1, C1, C2
 fuentes: F-M3-03, F-M3-01
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad haces la búsqueda que la gerenta le encargó a Camila: acotas un tema general, lo conviertes en preguntas de investigación y lo buscas con dos herramientas que muestran sus fuentes. Es una práctica con un caso ficticio, para que después investigues una pregunta de tu propio cargo. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación.
+En esta actividad haces la búsqueda que la gerenta le encargó a Camila: acotas un tema general, lo conviertes en preguntas de investigación y lo buscas con dos herramientas que muestran sus fuentes. Es una práctica con un caso ficticio, para que después investigues una pregunta de tu propio cargo. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada.
 
 ### Situación
 
@@ -29,7 +29,7 @@ Camila parte de un tema general, «organizar la agenda». Para convertirlo en un
 
 Deja listas las dos preguntas de investigación con el tema acotado del que salieron, el registro con al menos tres fuentes que abriste y leíste, y una línea con lo que el cuaderno dijo que sus fuentes no responden. Puedes anotarlo en una nota del celular, un documento o una planilla, siempre que cada enlace se pueda abrir.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -65,9 +65,9 @@ Las fuentes de este ejemplo son ficticias; en tu registro van las páginas que t
 
 | Pregunta | Herramienta | Fecha de búsqueda | Título y quién la publica | Fecha de la fuente | Enlace | Lo que aporta |
 |---|---|---|---|---|---|---|
-| 1 | Perplexity | 31-10-2026 | «Guía para organizar reuniones de trabajo», Centro de Formación X | 2024 | https://ejemplo.cl/guia-reuniones | Recomienda que una sola persona administre la agenda de la jefatura y confirme cada reunión por escrito |
-| 1 | Perplexity | 31-10-2026 | «Cómo compartir un calendario», centro de ayuda de una herramienta de calendario | s. f. | https://ejemplo.cl/ayuda-calendario | Explica los permisos para ver o editar un calendario compartido |
-| 2 | Gemini Notebook | 31-10-2026 | «Buenas prácticas de coordinación en pymes», Organismo Público Y | 2023 | https://ejemplo.cl/coordinacion-pymes | Propone dejar un margen entre reuniones y reservar bloques fijos para proveedores |
+| 1 | Perplexity | 31-10-2026 | «Guía para organizar reuniones de trabajo», Centro de Formación X | 2024 | ejemplo.cl/guia-reuniones (dirección ficticia) | Recomienda que una sola persona administre la agenda de la jefatura y confirme cada reunión por escrito |
+| 1 | Perplexity | 31-10-2026 | «Cómo compartir un calendario», centro de ayuda de una herramienta de calendario | s. f. | ejemplo.cl/ayuda-calendario (dirección ficticia) | Explica los permisos para ver o editar un calendario compartido |
+| 2 | Gemini Notebook | 31-10-2026 | «Buenas prácticas de coordinación en pymes», Organismo Público Y | 2023 | ejemplo.cl/coordinacion-pymes (dirección ficticia) | Propone dejar un margen entre reuniones y reservar bloques fijos para proveedores |
 
 Descarté una cuarta cita de Perplexity porque llevaba a la portada del sitio y no decía lo que afirmaba la respuesta.
 
@@ -79,14 +79,14 @@ Descarté una cuarta cita de Perplexity porque llevaba a la portada del sitio y 
 - Preguntas tan amplias como «¿Cómo organizar una agenda?» o de opinión, como «¿Cuál es la mejor aplicación de agenda?».
 - Usar un chat sin fuentes en lugar del buscador con citas, u olvidar la línea sobre lo que el cuaderno no responde.
 
-## Autoevaluación 2 · Una pregunta real de tu cargo
+## Práctica autoevaluada 2 · Una pregunta real de tu cargo
 cubre: H1, C1, C2
 fuentes: F-M3-02, F-M3-12
 entrega: autoevaluacion
 
 ### Instrucción general
 
-Ahora investigas una pregunta real de tu cargo con fuentes públicas y dejas un registro que vas a seguir usando en las próximas actividades. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
+Ahora investigas una pregunta real de tu cargo con fuentes públicas y dejas un registro que vas a seguir usando en las próximas actividades. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
 
@@ -108,7 +108,7 @@ Vas a investigar con fuentes públicas. Gemini Notebook responde a partir de los
 
 Deja listas tus dos preguntas, el registro con al menos cinco fuentes que abriste y leíste, una línea sobre lo que quedó sin responder y, si usaste un texto generado por la IA, la nota con herramienta, versión, fecha y prompt. Guarda este registro: lo vas a seguir usando en las próximas actividades.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -140,11 +140,11 @@ Cada persona investiga una pregunta distinta, así que aquí tienes un ejemplo r
 
 | N.º | Título y quién la publica | Fecha | Enlace | Herramienta | Lo que aporta |
 |---|---|---|---|---|---|
-| 1 | «Guía de gestión documental para oficinas», Archivo Público X | 2024 | https://ejemplo.cl/gestion-documental | Perplexity | Nombrar cada archivo con la fecha y el tipo de documento |
-| 2 | «Cómo organizar carpetas digitales», Instituto Profesional Y | 2023 | https://ejemplo.cl/carpetas-digitales | Perplexity | Carpetas compartidas por año y tipo de documento |
-| 3 | «Respaldo de información en pymes», Organismo de Ciberseguridad Z | 2025 | https://ejemplo.cl/respaldo-pymes | Gemini Notebook | Guardar una copia de respaldo en un segundo lugar |
-| 4 | «Plan de clasificación documental», Universidad W | 2023 | https://ejemplo.cl/clasificacion | Gemini Notebook | Cómo agrupar los documentos en series |
-| 5 | «Conservación de documentos tributarios», Organismo Público V | 2024 | https://ejemplo.cl/conservacion | Perplexity (fuente nueva para el vacío) | Cuánto tiempo guardar las facturas |
+| 1 | «Guía de gestión documental para oficinas», Archivo Público X | 2024 | ejemplo.cl/gestion-documental (dirección ficticia) | Perplexity | Nombrar cada archivo con la fecha y el tipo de documento |
+| 2 | «Cómo organizar carpetas digitales», Instituto Profesional Y | 2023 | ejemplo.cl/carpetas-digitales (dirección ficticia) | Perplexity | Carpetas compartidas por año y tipo de documento |
+| 3 | «Respaldo de información en pymes», Organismo de Ciberseguridad Z | 2025 | ejemplo.cl/respaldo-pymes (dirección ficticia) | Gemini Notebook | Guardar una copia de respaldo en un segundo lugar |
+| 4 | «Plan de clasificación documental», Universidad W | 2023 | ejemplo.cl/clasificacion (dirección ficticia) | Gemini Notebook | Cómo agrupar los documentos en series |
+| 5 | «Conservación de documentos tributarios», Organismo Público V | 2024 | ejemplo.cl/conservacion (dirección ficticia) | Perplexity (fuente nueva para el vacío) | Cuánto tiempo guardar las facturas |
 
 **Lo que quedó sin responder.** El cuaderno dijo que sus fuentes no tratan cuánto tiempo conservar cada tipo de documento; para ese vacío buscó la fuente 5.
 

@@ -1,0 +1,203 @@
+{
+  "modulo": 6,
+  "titulo": "Evaluación diagnóstica del módulo 6",
+  "instruccion": "Esta evaluación diagnóstica sirve para ver desde dónde partes en el módulo «Taller de IA generativa para entornos laborales», antes de empezar sus temas. No lleva nota ni afecta tu aprobación: responde según lo que sabes o haces hoy en tu trabajo, aunque el tema sea nuevo para ti. Tiene 7 preguntas de selección múltiple; cada una presenta una situación de trabajo breve y cuatro alternativas, de las que una corresponde a la práctica recomendada. Al terminar verás la retroalimentación de cada alternativa y el tema del módulo donde se trabaja, para que sepas en qué poner más atención.",
+  "items": [
+    {
+      "id": "M6-D01",
+      "ae": "M6-AE1",
+      "criterio": "C1",
+      "enunciado": "Quieres mostrar que usar IA mejora una tarea de tu trabajo. ¿Qué haces antes de empezar a usarla?",
+      "opciones": [
+        {
+          "texto": "Empiezo de inmediato y, al terminar, estimo de memoria cuánto tardaba antes de usarla.",
+          "correcta": false,
+          "retro": "Un recuerdo aproximado no permite comparar con fundamento. En el tema «Oportunidad de mejora con IA» verás cómo levantar una línea base antes de cambiar la forma de trabajar."
+        },
+        {
+          "texto": "Mido cómo se hace hoy: cuánto tiempo toma y cuántos errores tiene, por unos días.",
+          "correcta": true,
+          "retro": "Buen punto de partida: medir la situación inicial te da con qué comparar. En el tema «Oportunidad de mejora con IA» verás cómo diagnosticar la situación actual y definir indicadores."
+        },
+        {
+          "texto": "Pregunto a mis colegas si creen que la IA ayudará y anoto lo que opinan.",
+          "correcta": false,
+          "retro": "Las opiniones sirven para entender el contexto, pero no miden la tarea. En el tema «Oportunidad de mejora con IA» verás cómo definir indicadores medibles."
+        },
+        {
+          "texto": "Busco en internet cuánto tiempo ahorra la IA en general y uso ese dato.",
+          "correcta": false,
+          "retro": "Un promedio general no describe tu tarea ni tu contexto. En el tema «Oportunidad de mejora con IA» verás cómo medir tu propia situación inicial."
+        }
+      ]
+    },
+    {
+      "id": "M6-D02",
+      "ae": "M6-AE1",
+      "criterio": "C1",
+      "enunciado": "¿Cuál de estas metas está mejor planteada para un proyecto de mejora con IA?",
+      "opciones": [
+        {
+          "texto": "Ser más eficiente en la atención de las solicitudes de los clientes gracias al uso de la IA.",
+          "correcta": false,
+          "retro": "La meta va en la dirección correcta, pero no dice cuánto ni en qué plazo. En el tema «Oportunidad de mejora con IA» verás cómo definir metas medibles a partir de la línea base."
+        },
+        {
+          "texto": "Que las solicitudes se respondan mucho mejor que antes de usar la IA.",
+          "correcta": false,
+          "retro": "«Mucho mejor» no se puede medir. En el tema «Oportunidad de mejora con IA» verás cómo transformar una intención en una meta con indicador y plazo."
+        },
+        {
+          "texto": "Usar la IA todos los días para responder las solicitudes que llegan.",
+          "correcta": false,
+          "retro": "Usar la herramienta es un medio, no un resultado. En el tema «Oportunidad de mejora con IA» verás cómo plantear metas centradas en lo que mejora."
+        },
+        {
+          "texto": "Bajar de 10 a 6 minutos el tiempo por solicitud en cuatro semanas, sin más errores.",
+          "correcta": true,
+          "retro": "Buen punto de partida: la meta dice desde dónde, hasta dónde y en qué plazo, y cuida la calidad. En el tema «Oportunidad de mejora con IA» verás cómo definir metas e indicadores para tu proyecto aplicado."
+        }
+      ]
+    },
+    {
+      "id": "M6-D03",
+      "ae": "M6-AE1",
+      "criterio": "C2",
+      "enunciado": "¿Qué hace más viable un proyecto de mejora con IA en tu trabajo?",
+      "opciones": [
+        {
+          "texto": "Que la tarea se repita, que pueda probar sin exponer datos sensibles y que mi jefatura esté de acuerdo.",
+          "correcta": true,
+          "retro": "Buen punto de partida: frecuencia, datos cuidados y respaldo de la jefatura son criterios de viabilidad. En el tema «Oportunidad de mejora con IA» verás cómo justificar la viabilidad de tu proyecto."
+        },
+        {
+          "texto": "Que la herramienta sea la más nueva del mercado, aunque nadie la haya probado en mi área.",
+          "correcta": false,
+          "retro": "Lo nuevo no asegura que funcione en tu contexto. En el tema «Oportunidad de mejora con IA» verás criterios para evaluar si un proyecto con IA es viable."
+        },
+        {
+          "texto": "Que el proyecto cambie todos los procesos del área al mismo tiempo, para que el efecto se note de inmediato.",
+          "correcta": false,
+          "retro": "Un cambio tan amplio es difícil de probar y de medir. En el tema «Oportunidad de mejora con IA» verás cómo acotar el proyecto a una oportunidad concreta."
+        },
+        {
+          "texto": "Que la IA haga la tarea completa, sin que ninguna persona tenga que revisar el resultado.",
+          "correcta": false,
+          "retro": "Quitar toda revisión aumenta el riesgo y suele hacer menos viable el proyecto. En el tema «Oportunidad de mejora con IA» verás por qué la supervisión humana es parte del diseño."
+        }
+      ]
+    },
+    {
+      "id": "M6-D04",
+      "ae": "M6-AE2",
+      "criterio": "C1",
+      "enunciado": "Vas a empezar a usar un flujo con IA en una tarea real de tu trabajo. ¿Cómo partes?",
+      "opciones": [
+        {
+          "texto": "Con todo el volumen de trabajo desde el primer día, para medir el ahorro completo.",
+          "correcta": false,
+          "retro": "Partir con todo el volumen hace que un error afecte muchos casos antes de detectarlo. En el tema «Implementar el flujo» verás cómo planificar una implementación por etapas."
+        },
+        {
+          "texto": "Dejando que la propia IA revise sus resultados, para que el ahorro de tiempo sea mayor.",
+          "correcta": false,
+          "retro": "La IA no reemplaza la revisión humana en los puntos de riesgo. En el tema «Implementar el flujo» verás cómo implementar el flujo con supervisión humana."
+        },
+        {
+          "texto": "Con una prueba acotada, revisando cada resultado antes de que llegue a otra persona.",
+          "correcta": true,
+          "retro": "Buen punto de partida: una prueba acotada con revisión permite ajustar sin afectar a nadie. En el tema «Implementar el flujo» verás cómo implementar, probar y ajustar el flujo de tu proyecto."
+        },
+        {
+          "texto": "Sin avisarle a mi jefatura, para mostrarle después el resultado terminado como sorpresa.",
+          "correcta": false,
+          "retro": "Implementar sin acuerdo puede traer problemas con datos, permisos o procesos. En el tema «Implementar el flujo» verás cómo gestionar cambios y riesgos con tu jefatura."
+        }
+      ]
+    },
+    {
+      "id": "M6-D05",
+      "ae": "M6-AE2",
+      "criterio": "C2",
+      "enunciado": "Durante tu proyecto cambias la plantilla de prompt porque la primera versión inventaba fechas. ¿Qué haces con ese cambio?",
+      "opciones": [
+        {
+          "texto": "Nada en especial: lo importante es que la plantilla nueva ya funciona bien.",
+          "correcta": false,
+          "retro": "Sin registro, después no podrás explicar por qué cambiaste ni qué mejoró. En el tema «Implementar el flujo» verás cómo documentar decisiones y ajustes."
+        },
+        {
+          "texto": "Lo anoto en una bitácora: qué cambié, por qué, cuándo y qué resultado dio.",
+          "correcta": true,
+          "retro": "Buen punto de partida: registrar cada decisión permite mostrar la evolución del flujo. En el tema «Implementar el flujo» verás cómo documentar el flujo, sus versiones y sus pruebas."
+        },
+        {
+          "texto": "Borro la versión anterior, para no confundirme teniendo dos plantillas distintas.",
+          "correcta": false,
+          "retro": "La versión anterior sirve para comparar y para volver atrás si algo falla. En el tema «Implementar el flujo» verás cómo llevar un registro de versiones."
+        },
+        {
+          "texto": "Se lo cuento de palabra a mi jefatura, sin necesidad de dejarlo escrito.",
+          "correcta": false,
+          "retro": "Contarlo ayuda, pero sin un registro escrito se pierde el detalle. En el tema «Implementar el flujo» verás cómo llevar una bitácora de decisiones."
+        }
+      ]
+    },
+    {
+      "id": "M6-D06",
+      "ae": "M6-AE3",
+      "criterio": "C1",
+      "enunciado": "Terminaste tu proyecto y quieres saber si funcionó. ¿Qué haces?",
+      "opciones": [
+        {
+          "texto": "Me pregunto si siento que trabajo con más orden y, si es así, concluyo que funcionó.",
+          "correcta": false,
+          "retro": "La sensación personal es útil, pero no es una medición. En el tema «Resultados y aprendizajes» verás cómo comparar los resultados con la línea base."
+        },
+        {
+          "texto": "Comparo con la meta solo el tiempo, que es el indicador que más mejoró.",
+          "correcta": false,
+          "retro": "Mirar solo el indicador que mejoró puede esconder que otro empeoró. En el tema «Resultados y aprendizajes» verás cómo medir todos los indicadores y leerlos en conjunto."
+        },
+        {
+          "texto": "Uso el ahorro de tiempo que promete la herramienta en su página web.",
+          "correcta": false,
+          "retro": "La promesa de la herramienta no mide tu proyecto. En el tema «Resultados y aprendizajes» verás cómo medir tus propios resultados contra la línea base."
+        },
+        {
+          "texto": "Mido igual que en la línea base y comparo tiempo y errores, no solo el tiempo.",
+          "correcta": true,
+          "retro": "Buen punto de partida: medir igual que al inicio hace válida la comparación. En el tema «Resultados y aprendizajes» verás cómo medir resultados, interpretar diferencias y proponer mejoras."
+        }
+      ]
+    },
+    {
+      "id": "M6-D07",
+      "ae": "M6-AE3",
+      "criterio": "C2",
+      "enunciado": "Tienes tres minutos para presentar a tu jefatura los resultados de tu proyecto, y una parte de la meta no se cumplió. ¿Qué haces?",
+      "opciones": [
+        {
+          "texto": "Muestro las cifras, explico qué no se logró y por qué, y propongo el siguiente paso.",
+          "correcta": true,
+          "retro": "Buen punto de partida: comunicar resultados y límites con claridad da confianza a quien decide. En el tema «Resultados y aprendizajes» verás cómo estructurar un pitch de 3 minutos y armar tu portafolio."
+        },
+        {
+          "texto": "Dejo fuera lo que no se cumplió, para que la presentación se vea más exitosa.",
+          "correcta": false,
+          "retro": "Ocultar un límite resta credibilidad si después aparece. En el tema «Resultados y aprendizajes» verás cómo comunicar resultados y límites en un pitch."
+        },
+        {
+          "texto": "Ocupo los tres minutos en explicar cómo funciona la herramienta por dentro.",
+          "correcta": false,
+          "retro": "A quien decide le interesan los resultados y lo que propones, no el detalle técnico. En el tema «Resultados y aprendizajes» verás cómo estructurar un pitch centrado en la evidencia."
+        },
+        {
+          "texto": "Leo el informe completo lo más rápido posible, para alcanzar a decirlo todo.",
+          "correcta": false,
+          "retro": "Leer rápido dificulta que se entienda lo importante. En el tema «Resultados y aprendizajes» verás cómo seleccionar lo esencial para un pitch de 3 minutos."
+        }
+      ]
+    }
+  ]
+}

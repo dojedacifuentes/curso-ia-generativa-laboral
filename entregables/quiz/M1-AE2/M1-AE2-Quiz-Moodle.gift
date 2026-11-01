@@ -1,43 +1,44 @@
 // M1-AE2 · Prompts efectivos · quiz formativo (generado por scripts/quiz-juego.mjs)
 $CATEGORY: IA-generativa-laboral/Formativos/M1-AE2
 
-::M1-AE2-P1 (S1 C1)::Rosa escribe\: «Actúa como recepcionista de un centro médico. Un paciente reclama porque le cambiaron la hora sin aviso. Redacta una respuesta. Entrégala en cuatro líneas, con tono cordial». ¿Qué parte es el contexto? {
+::M1-AE2-P1 (S1 C1)::Rosa escribe\: «Actúa como recepcionista de un centro médico. Un paciente reclama por un cambio de hora sin aviso. Redacta una respuesta. Entrégala en cuatro líneas, con un tono cordial y cercano». ¿Qué parte es el contexto? {
 ~«Actúa como recepcionista de un centro médico»
-=«Un paciente reclama porque le cambiaron la hora sin aviso»
+=«Un paciente reclama por un cambio de hora sin aviso»
 ~«Redacta una respuesta»
-~«Entrégala en cuatro líneas, con tono cordial»
+~«Entrégala en cuatro líneas, con un tono cordial y cercano»
 ####El contexto explica la situación\: qué pasó y con quién. «Actúa como…» es el rol, «Redacta» es la tarea y «cuatro líneas, tono cordial» es el formato.
 }
 
 ::M1-AE2-P2 (S1 C1)::Andrés escribe\: «Actúa como encargado de bodega. Redacta un aviso en tres líneas, con tono directo». Para cumplir la meta mínima de este tema, ¿qué componente le falta? {
-~El rol\: quién escribe y desde qué perspectiva
-~El formato\: la forma, el largo y el tono
+~El rol\: quién escribe el aviso y desde qué perspectiva
+~El formato\: la forma, el largo y el tono del aviso
 =El contexto\: qué pasó, quién leerá el aviso y para qué
-~La tarea\: qué tiene que hacer el asistente
+~La tarea\: qué tiene que hacer el asistente con el aviso
 ####El prompt tiene rol, tarea y formato, pero no dice la situación ni a quién va dirigido. Sin contexto, el asistente no sabe qué es lo importante y entrega algo genérico.
 }
 
 ::M1-AE2-P3 (S1 H1 C1)::Camila debe resumir el acta de una reunión para dos compañeras que no asistieron. ¿Cuál de estos prompts es el mejor? {
-~«Resume el acta, redacta el correo para la jefatura y arma la lista de pendientes»
-~«Resume esta acta para mis compañeras, pero que no quede largo ni muy formal»
-~«Actúa como asistente administrativa y resume el acta de la reunión de hoy»
-=«Actúa como asistente administrativa. Resume los acuerdos para dos compañeras que no asistieron, en cinco viñetas. Usa solo el acta»
-####La opción d tiene rol, contexto, tarea, formato y una restricción. La a mezcla tres tareas, la b dice solo lo que no quiere y la c no da contexto ni formato.
+~«Resume el acta, redacta el correo para la jefatura y arma la lista de pendientes de cada compañera»
+~«Resume esta acta para mis compañeras que no fueron a la reunión, pero que no quede largo ni muy formal»
+~«Actúa como asistente administrativa y resume el acta de la reunión de hoy de forma clara y completa»
+=«Como asistente administrativa, resume los acuerdos en cinco viñetas para dos compañeras que no asistieron»
+####La opción d tiene rol, contexto, tarea y formato. La a mezcla tres tareas, la b dice solo lo que no quiere y la c no da contexto ni formato\: «clara y completa» no dice cómo entregarlo.
 }
 
 ::M1-AE2-P4 (S2)::Camila envía un solo mensaje\: «Resume este instructivo, responde el correo del proveedor y escribe un recordatorio para mi jefatura». Recibe las tres cosas a medias. ¿Qué error cometió? {
 =Mezcló varias tareas\: conviene pedir una a la vez y usar cada respuesta como base
 ~Le faltó un ejemplo de cómo quería cada una de las tres respuestas
-~Dio demasiado contexto sobre el instructivo y el asistente se confundió
-~No indicó un rol, que es el componente que más cambia la respuesta
+~Dio demasiado contexto sobre el instructivo y el asistente se confundió con el resto
+~No indicó un rol, que es el componente que más cambia la calidad de la respuesta
 ####Juntar varias tareas en un prompt parece más rápido, pero suele dar un resultado a medias. Lo recomendado es dividir\: primero el resumen, después el correo, después el recordatorio.
 }
 
 ::M1-AE2-P5 (S1 H1)::Para que el asistente ordene facturas en una tabla, Camila pega antes doce filas de ejemplo ya llenas con otras facturas. ¿Qué riesgo corre? {
-~Ninguno\: mientras más ejemplos le da, mejor sigue el formato
-=Que el asistente copie de más esos ejemplos en vez de trabajar con sus datos
-~Que el asistente no acepte tablas dentro de un prompt
-####Uno o dos ejemplos bien elegidos orientan el formato. Muchos ejemplos parecidos pueden hacer que el asistente copie su contenido y pierda flexibilidad.
+~Ninguno\: mientras más ejemplos le da, mejor sigue el formato de la tabla
+~Que doce filas no basten y deba pegar al menos veinte para fijar el formato
+~Que el asistente no acepte tablas dentro de un prompt y responda solo con texto
+=Que copie de más esos ejemplos en vez de trabajar con sus datos
+####Uno o dos ejemplos bien elegidos orientan el formato. Muchos ejemplos parecidos pueden hacer que el asistente copie su contenido y pierda flexibilidad; agregar más empeora el problema.
 }
 
 ::M1-AE2-P6 (S3 C2)::Ordena el ciclo de iteración. 1\: Ajustas el prompt o haces una pregunta de seguimiento. 2\: Pides con tu mejor prompt. 3\: Repites hasta que la respuesta sea útil. 4\: Revisas si la respuesta sirve. {
@@ -49,16 +50,17 @@ $CATEGORY: IA-generativa-laboral/Formativos/M1-AE2
 }
 
 ::M1-AE2-P7 (S3 H1 C2)::Andrés pide un resumen del reporte semanal y la respuesta agrega un proveedor que el reporte no menciona. ¿Qué ajuste corresponde en la segunda vuelta? {
+=Agregar una restricción\: «usa solo el texto del reporte que te pegué»
 ~Concluir que la herramienta no sirve, porque la primera respuesta salió mal
 ~Cambiar el rol por el de jefe de bodega, para que responda con más autoridad
 ~Pedir una respuesta más larga, para que incluya más detalles del reporte
-=Agregar una restricción\: «usa solo el texto del reporte que te pegué»
 ####Si la respuesta agrega datos que no diste, faltó una restricción sobre qué información usar. La primera respuesta es un punto de partida\: una iteración bien dirigida suele bastar.
 }
 
 ::M1-AE2-P8 (H2 A2)::Andrés va a guardar en su biblioteca el prompt que le funcionó. La versión final dice «avisa a Pedro Soto, del local de Maipú, al 9 8765 4321, que…». ¿Qué hace antes de guardarla? {
-~La guarda tal cual, para no perder la versión exacta que funcionó
-=Reemplaza el nombre, el local y el teléfono por corchetes, como [cliente] y [teléfono]
-~Le quita el rol y el formato, para que sirva en más situaciones
-####Una plantilla se reutiliza y se comparte, así que las partes variables van entre corchetes y no debe tener datos personales. Quitarle componentes la hace menos útil, no más general.
+~La guarda tal cual, para no perder la versión exacta que le funcionó con ese cliente
+~Deja el nombre y el local, y borra solo el teléfono, que es el único dato sensible
+=Cambia nombre, local y teléfono por corchetes, como [cliente] y [teléfono]
+~Le quita el rol y el formato, para que la plantilla sirva en más situaciones
+####Una plantilla se reutiliza y se comparte, así que las partes variables van entre corchetes y no debe tener datos personales\: el nombre y el local también identifican. Quitarle componentes la hace menos útil, no más general.
 }

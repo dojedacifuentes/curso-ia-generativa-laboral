@@ -7,24 +7,25 @@
 **Ilustración:** flujo | Tu pregunta (chat) · La búsqueda (ruta) · Tus fuentes (doc)
 
 1. *(S1 · H1 · P15)* Andrés quiere saber qué se ha publicado sobre cómo evitan las bodegas pequeñas quedarse sin cajas. Todavía no tiene ningún documento y necesita enlaces para revisar cada dato. ¿Con qué herramienta le conviene partir?
-   - **a) Un buscador con citas, como Perplexity**
+   - **a) Un buscador con citas, como Perplexity, que enlaza cada página**
    - b) Un asistente sobre fuentes propias, como Gemini Notebook
-   - c) Un asistente general sin búsqueda, para que redacte el panorama
-   *Retroalimentación:* Para saber qué se ha publicado y tener enlaces se usa un buscador con citas. Un asistente sobre fuentes propias solo responde con documentos que ya reuniste, y Andrés aún no tiene ninguno.
+   - c) Un asistente general sin búsqueda, porque ya conoce lo que se ha publicado
+   - d) Un generador de imágenes, para visualizar cómo se organizan otras bodegas
+   *Retroalimentación:* Para saber qué se ha publicado y tener enlaces se usa un buscador con citas. Un asistente sobre fuentes propias solo responde con documentos que ya reuniste, y Andrés aún no tiene ninguno. Un asistente sin búsqueda responde con su entrenamiento, sin fuentes que revisar.
 
 2. *(S3 · H1 · P10)* Camila ya guardó en PDF cinco guías públicas sobre cómo archivar documentos digitales. Quiere preguntarles qué prácticas se repiten y que cada respuesta indique de qué guía sale. ¿Qué tipo de herramienta le sirve más?
    - a) Un buscador con citas, porque enlaza cada dato a una página web
-   - **b) Un asistente sobre fuentes propias, que responde a partir de los documentos que ella sube**
+   - **b) Un asistente sobre fuentes propias, que responde con los documentos que ella sube**
    - c) La investigación a fondo, porque revisa muchas páginas a la vez
-   - d) Un asistente general sin búsqueda, porque ya conoce las prácticas típicas
+   - d) Un asistente general sin búsqueda, porque ya conoce las prácticas típicas de archivo
    *Retroalimentación:* Cuando ya tienes los documentos, el asistente sobre fuentes propias responde con ellos y cita la parte de cada uno. El buscador con citas consulta internet, no los PDF que Camila reunió.
 
 3. *(C1 · H1 · P04)* Andrés tiene el tema «falta de cajas en la bodega». ¿Cuál es la pregunta de investigación más específica?
    - a) ¿Cómo evitar que falten cajas?
-   - b) ¿Qué se ha escrito en el mundo sobre logística en todo tipo de empresas?
-   - **c) ¿Qué recomiendan las guías de organismos públicos de Chile para que las bodegas pequeñas no se queden sin cajas de embalaje?**
-   - d) ¿Es grave quedarse sin cajas en una bodega?
-   *Retroalimentación:* La opción c dice quién (bodegas pequeñas), qué (cajas de embalaje) y dónde (Chile), así que se sabe qué respuesta esperar. La opción b trae más resultados, pero menos útiles: más amplia no es mejor.
+   - b) ¿Qué se ha escrito en el mundo sobre logística, inventario y embalaje en todo tipo de empresas?
+   - **c) ¿Qué recomiendan las guías públicas chilenas para que bodegas pequeñas no se queden sin cajas?**
+   - d) ¿Es grave que una bodega se quede sin cajas de embalaje durante la temporada alta?
+   *Retroalimentación:* La opción c dice quién (bodegas pequeñas), qué (cajas) y dónde (Chile), así que se sabe qué respuesta esperar. La opción b trae más resultados, pero menos útiles: más amplia no es mejor.
 
 4. *(C1 · H1 · P03)* Rosa quiere pasar de un tema amplio a una búsqueda precisa. Ordena los pasos: (1) preparar sinónimos; (2) identificar el tema general; (3) reconocer los conceptos clave; (4) acotar con criterios como lugar o período.
    - **a) 2 → 4 → 3 → 1**
@@ -49,14 +50,14 @@
 
 7. *(C2 · S3 · P10)* Rosa pregunta a su cuaderno de Gemini Notebook qué recomiendan sus guías sobre confirmar horas. La respuesta trae tres citas. ¿Qué debe hacer antes de anotarla en su registro?
    - a) Anotarla tal cual, porque responde solo con sus documentos y no se equivoca
-   - **b) Tocar cada cita y comparar con el párrafo de origen**
-   - c) Pedir a un asistente general que confirme si la respuesta es correcta
-   - d) Anotar «Fuente: Gemini Notebook» para no perder la respuesta
+   - b) Pedir a un asistente general que confirme si la respuesta es correcta
+   - c) Anotar «Fuente: Gemini Notebook» para no perder la respuesta
+   - **d) Tocar cada cita y comparar con el párrafo de origen**
    *Retroalimentación:* Trabajar sobre tus documentos reduce el riesgo, pero no lo elimina: puede resumir mal o mezclar ideas de dos guías. Por eso se toca cada cita y se compara con el texto antes de registrar la fuente.
 
 8. *(S1 · P14)* Camila usó Deep Research y recibió un informe largo con veinte fuentes sobre su tema. ¿Cuál es el mejor uso de ese informe?
    - a) Pegarlo en su proyecto, porque ya revisó muchas páginas por ella
-   - **b) Usarlo como mapa: elegir qué fuentes abrir y comprobar cada dato**
-   - c) Repetir Deep Research para cada pregunta puntual que le surja
-   - d) Descartarlo, porque un informe largo nunca sirve para investigar
+   - b) Repetir Deep Research para cada pregunta puntual que le surja
+   - c) Descartarlo, porque un informe largo nunca sirve para investigar
+   - **d) Usarlo como mapa: elegir qué fuentes abrir y comprobar cada dato**
    *Retroalimentación:* La investigación a fondo da un panorama inicial, pero cada dato se comprueba abriendo su fuente, como en cualquier respuesta. Para preguntas puntuales conviene la búsqueda con citas, que es más rápida y gasta menos.

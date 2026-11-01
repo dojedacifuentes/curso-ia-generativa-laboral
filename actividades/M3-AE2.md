@@ -1,13 +1,13 @@
 # Actividades de aplicación práctica · M3-AE2 · Recopilar, validar y sintetizar
 
-## Autoevaluación 1 · Las cinco fuentes de Rosa
+## Práctica autoevaluada 1 · Las cinco fuentes de Rosa
 cubre: H1, C1, C2
 fuentes: F-M3-06, F-M3-07
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad evalúas las cinco fuentes que reunió Rosa, las contrastas y escribes una síntesis corta para la coordinadora. Practicas con un caso ficticio lo que después vas a hacer con las fuentes de tu propio cargo. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación.
+En esta actividad evalúas las cinco fuentes que reunió Rosa, las contrastas y escribes una síntesis corta para la coordinadora. Practicas con un caso ficticio lo que después vas a hacer con las fuentes de tu propio cargo. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada.
 
 ### Situación
 
@@ -31,7 +31,7 @@ Para evaluarlas vas a usar tres de los criterios del test CRAAP: la autoría, la
 
 Deja lista la tabla de evaluación, la matriz de contraste con la decisión de cada fila y la síntesis para la coordinadora. Puedes hacerlo en una planilla, un documento o una hoja escrita a mano, siempre que se lea bien.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -79,14 +79,14 @@ Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve s
 - Tratar el estudio de 2016 como una contradicción que invalida la guía, u omitir su resultado en la síntesis.
 - Dar confiabilidad media o alta al blog porque «es una empresa del rubro», o a la respuesta del asistente porque «la IA lo sabe».
 
-## Autoevaluación 2 · Contrasta lo que levantaste en tu trabajo
+## Práctica autoevaluada 2 · Contrasta lo que levantaste en tu trabajo
 cubre: H1, C1, C2
 fuentes: F-M3-08, F-M3-12
 entrega: autoevaluacion
 
 ### Instrucción general
 
-Ahora aplicas los mismos criterios a las fuentes que reuniste sobre una pregunta de tu cargo y escribes una síntesis con lo que puedes afirmar con respaldo. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
+Ahora aplicas los mismos criterios a las fuentes que reuniste sobre una pregunta de tu cargo y escribes una síntesis con lo que puedes afirmar con respaldo. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
 
@@ -108,7 +108,7 @@ Sintetizar no es resumir fuente por fuente: es unir las ideas después de analiz
 
 Deja listo tu registro con la evaluación de cada fuente, la matriz de contraste con sus decisiones y la síntesis final, con una línea sobre lo que quedó sin responder y, si usaste IA, cuál usaste, su versión y cuándo.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

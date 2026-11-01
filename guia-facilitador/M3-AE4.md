@@ -1,10 +1,10 @@
 # Guía del facilitador · Análisis crítico y privacidad
 
-## Autoevaluación 1 · Lo que llega al escritorio de Camila
+## Práctica autoevaluada 1 · Lo que llega al escritorio de Camila
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien duda de si la planilla de órdenes de compra o la licencia médica pueden ingresar a la cuenta gratuita.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien duda de si la planilla de órdenes de compra o la licencia médica pueden ingresar a la cuenta gratuita.
 
 ### Pauta de referencia
 
@@ -22,11 +22,11 @@ Si lo logró: «Tu tabla clasifica bien los seis documentos y cada decisión dic
 
 Si lo logró en parte: «La clasificación está bien, pero en el pedido para el correo dejaste el número del departamento, y con eso se puede saber quién es el cliente. Sácalo y revisa si la respuesta sigue sirviendo. Y agrega la regla en las decisiones que no la tienen.»
 
-## Autoevaluación 2 · El mapa de la información de tu cargo
+## Práctica autoevaluada 2 · El mapa de la información de tu cargo
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta con información de su cargo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar. Si alguien muestra en el foro su copia anonimizada, revisa que el antes y el después usen datos inventados y, si no, pídele que los reemplace.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta con información de su cargo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar. Si alguien muestra en el foro su copia anonimizada, revisa que el antes y el después usen datos inventados y, si no, pídele que los reemplace.
 
 ### Pauta de referencia
 

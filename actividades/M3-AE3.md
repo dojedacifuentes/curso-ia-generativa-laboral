@@ -1,13 +1,13 @@
 # Actividades de aplicación práctica · M3-AE3 · Organizar y presentar información
 
-## Autoevaluación 1 · El informe de Andrés sobre los despachos atrasados
+## Práctica autoevaluada 1 · El informe de Andrés sobre los despachos atrasados
 cubre: H1, C1, C2
 fuentes: F-M3-09, F-M3-11
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad conviertes la investigación de Andrés en un informe breve que su jefatura pueda leer en el celular, con hallazgos, recomendaciones y referencias en APA 7. Es una práctica con datos ficticios, para que después hagas el informe de tu propia pregunta. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación.
+En esta actividad conviertes la investigación de Andrés en un informe breve que su jefatura pueda leer en el celular, con hallazgos, recomendaciones y referencias en APA 7. Es una práctica con datos ficticios, para que después hagas el informe de tu propia pregunta. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada.
 
 ### Situación
 
@@ -31,7 +31,7 @@ Las fuentes que tiene que referenciar son una guía en PDF del Instituto de Log�
 
 Deja listo el informe de Andrés en una o dos páginas, con títulos que informen, el gráfico o una tabla con los datos por semana y la lista de referencias. Puedes armarlo en un documento de Google o en el editor de texto del celular.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -85,13 +85,13 @@ Por ahora no recomendamos alertas automáticas: las fuentes no las respaldan par
 
 **Referencias**
 
-Canal Bodega Práctica. (2023). *Cómo calculo mi reserva de cajas* [Video]. https://ejemplo.cl/video-reserva-cajas
+Canal Bodega Práctica. (2023). *Cómo calculo mi reserva de cajas* [Video]. ejemplo.cl/video-reserva-cajas (dirección ficticia)
 
-Diario Económico Y. (2025). *Así funcionan las alertas de stock en un gran centro de distribución*. https://ejemplo.cl/alertas-stock
+Diario Económico Y. (2025). *Así funcionan las alertas de stock en un gran centro de distribución*. ejemplo.cl/alertas-stock (dirección ficticia)
 
-Google. (2026, 30 de octubre). *Causas de los despachos atrasados* [Chat de IA generativa]. Gemini [modelo y versión]. https://ejemplo.cl/chat-compartido
+Google. (2026, 30 de octubre). *Causas de los despachos atrasados* [Chat de IA generativa]. Gemini [modelo y versión]. ejemplo.cl/chat-compartido (dirección ficticia)
 
-Instituto de Logística X. (2024). *Guía de logística para bodegas pequeñas* [PDF]. https://ejemplo.cl/guia-bodegas.pdf
+Instituto de Logística X. (2024). *Guía de logística para bodegas pequeñas* [PDF]. ejemplo.cl/guia-bodegas (dirección ficticia).pdf
 
 **Errores frecuentes**
 
@@ -99,14 +99,14 @@ Instituto de Logística X. (2024). *Guía de logística para bodegas pequeñas* 
 - No citar la clasificación de Gemini porque «solo fue una ayuda», cuando el informe se basa en ella.
 - Recomendar alertas automáticas de stock, que las fuentes solo describen en un centro grande, o recomendaciones sin responsable ni plazo, como «mejorar el control de stock».
 
-## Autoevaluación 2 · Un informe breve para tu jefatura
+## Práctica autoevaluada 2 · Un informe breve para tu jefatura
 cubre: H1, C1, C2
 fuentes: F-M3-09, F-M3-11
 entrega: autoevaluacion
 
 ### Instrucción general
 
-Esta actividad es el Hito 3 de tu proyecto del curso. Escribes un informe breve con la síntesis de tu propia pregunta, pensado para quien tiene que decidir en tu trabajo. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
+Esta actividad es el Hito 3 de tu proyecto del curso. Escribes un informe breve con la síntesis de tu propia pregunta, pensado para quien tiene que decidir en tu trabajo. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
 
@@ -128,7 +128,7 @@ Antes de llevárselo a tu lector, conviene pedirle a alguien ajeno al tema que l
 
 Deja listo tu informe de una a dos páginas con sus referencias y una línea con lo que cambiaste después de que la otra persona lo leyó.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

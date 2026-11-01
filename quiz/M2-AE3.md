@@ -8,8 +8,8 @@
 
 1. *(S1 · A1 · P03)* Camila prepara para la gerenta de administración una presentación sobre el archivo de documentos de la oficina. ¿Cuál funciona mejor como mensaje clave?
    - a) «El archivo de documentos de la oficina»
-   - b) «Archivo de documentos, registro de facturas y agenda de reuniones»
-   - **c) «Ordenar el archivo por fecha y tipo de documento permite encontrar cualquier papel rápido»**
+   - b) «Archivo de documentos, registro de facturas de proveedores y agenda de reuniones»
+   - **c) «Ordenar el archivo por fecha y tipo permite encontrar cualquier papel rápido»**
    - d) «Es importante tener ordenada la oficina»
    *Retroalimentación:* El mensaje clave es una oración con verbo, con una sola idea y que se puede discutir. «El archivo de documentos de la oficina» es un tema, la lista junta tres ideas y «Es importante tener ordenada la oficina» nadie lo discutiría, así que no dice nada.
 
@@ -21,10 +21,11 @@
    *Retroalimentación:* El hilo va del mensaje a la situación, el problema, la propuesta, lo que se gana y, al final, lo que se pide. Si la propuesta aparece antes del problema, parece un gasto innecesario.
 
 3. *(S2 · C1 · P06)* Para ahorrar espacio, Andrés puso en una misma lámina el problema de las cajas y su propuesta de reserva. ¿Qué le conviene hacer?
-   - a) Mantenerla y bajar la letra para que quepa todo
-   - b) Mantenerla, pero con dos títulos, uno para cada idea
-   - **c) Separarla en dos láminas, cada una con su idea y su título**
-   *Retroalimentación:* Cada lámina transmite una sola idea que apoya el mensaje. Si una lámina necesita dos títulos, son dos láminas; juntarlas obliga a la audiencia a seguir dos ideas a la vez.
+   - **a) Separarla en dos láminas, cada una con su idea y su título**
+   - b) Mantenerla y bajar la letra para que quepa todo en la lámina
+   - c) Mantenerla, pero con dos títulos, uno para cada idea
+   - d) Dejar solo la propuesta, porque el problema ya lo conoce su jefatura
+   *Retroalimentación:* Cada lámina transmite una sola idea que apoya el mensaje. Si una lámina necesita dos títulos, son dos láminas; sin el problema, la propuesta pierde su razón. Juntarlas obliga a la audiencia a seguir dos ideas a la vez.
 
 4. *(C2 · S2 · P09)* El esquema de Gemini trae seis láminas; dos se llaman «Introducción» y «Conclusiones». «Como trae las seis láminas pedidas, el esquema está listo para armar.» ¿Es verdadero o falso?
    - a) Verdadero, porque cumple con el número de láminas que pedía el prompt
@@ -36,7 +37,7 @@
 5. *(C2 · A1 · P11)* ¿Cuál de estas láminas está lista para presentar, sin sobrecarga?
    - a) Título «Costos» y un párrafo de seis líneas en letra de 14 puntos
    - b) Tres fotos de bodegas, el logo de la empresa y cinco viñetas
-   - c) Tres viñetas sobre las cajas y dos sobre el horario de los camiones
+   - c) Tres viñetas sobre las cajas y dos sobre el horario de los camiones de despacho
    - **d) Un título que dice la conclusión y tres viñetas de una línea, en letra grande**
    *Retroalimentación:* Una lámina lista se capta de un vistazo: título-oración y viñetas cortas, legibles. Los párrafos, la letra pequeña, las imágenes que saturan y las dos ideas en competencia son señales de sobrecarga.
 
@@ -44,16 +45,19 @@
    - a) Dejarla, porque un porcentaje le da seriedad a la propuesta
    - b) Dejarla y bajar la cifra a 20 % para que sea más creíble
    - **c) Quitar la cifra o cambiarla por algo que pueda respaldar**
-   *Retroalimentación:* Cada dato de una presentación tiene que poder respaldarse; si no, sale. Justo porque una cifra se ve profesional, la audiencia la cree, y si te preguntan de dónde salió pierdes credibilidad.
+   - d) Dejarla y agregar «aproximadamente» junto a la cifra, para no comprometerse
+   *Retroalimentación:* Cada dato de una presentación tiene que poder respaldarse; si no, sale. Un dato sin respaldo no se arregla con «aproximadamente». Justo porque una cifra se ve profesional, la audiencia la cree, y si te preguntan de dónde salió pierdes credibilidad.
 
 7. *(A2 · P14)* Andrés quiere que sus láminas se vean más profesionales. ¿Qué cambio lo logra?
-   - a) Sumar animaciones y un color distinto en cada lámina
-   - **b) Letra de 18 puntos o más, buen contraste y el mismo diseño en todas**
-   - c) Usar de fondo una foto de bodega con el texto blanco encima
-   *Retroalimentación:* La imagen profesional depende de que la presentación se lea bien y se vea ordenada. Los efectos y los fondos recargados distraen del mensaje y pueden dejar el texto ilegible.
+   - a) Sumar animaciones de entrada y un color distinto en cada lámina
+   - b) Usar de fondo una foto de bodega a pantalla completa con el texto blanco encima
+   - c) Llenar cada lámina con más texto, para que se vea más trabajada
+   - **d) Letra de 18 puntos o más, buen contraste y el mismo diseño en todas**
+   *Retroalimentación:* La imagen profesional depende de que la presentación se lea bien y se vea ordenada. Los efectos, los fondos recargados y el exceso de texto distraen del mensaje y pueden dejar el texto ilegible.
 
 8. *(H1 · A1 · P15)* El guion que redactó Gemini repite las viñetas palabra por palabra, y Andrés piensa leerlo así en la reunión. ¿Qué le conviene hacer?
    - **a) Reescribirlo con sus palabras, explicando cada viñeta, y ensayarlo**
    - b) Leerlo tal como salió, porque coincide con lo que muestran las láminas
    - c) Copiar el guion completo en las láminas para no olvidar nada
+   - d) Leerlo más rápido, para que la reunión dure menos y nadie se aburra
    *Retroalimentación:* Si el guion repite la lámina, la audiencia lee más rápido de lo que hablas y deja de escucharte. El guion explica las viñetas con tus palabras; copiarlo en las láminas las sobrecarga.

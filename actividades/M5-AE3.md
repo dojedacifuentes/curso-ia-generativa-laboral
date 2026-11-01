@@ -1,6 +1,6 @@
 # Actividades de aplicación práctica · M5-AE3 · Supervisión humana y riesgos
 
-## Autoevaluación 1 · Controles para el flujo de reclamos de Paula
+## Práctica autoevaluada 1 · Controles para el flujo de reclamos de Paula
 cubre: H1, C1, C2
 fuentes: F-M5-14, F-M5-12
 entrega: autoevaluacion
@@ -10,7 +10,7 @@ entrega: autoevaluacion
 Vas a ayudar a Paula a decidir dónde revisa una persona en su flujo de reclamos y qué hacer si algo falla. Con un caso ficticio
 practicas el mapa de riesgos, los puntos de control y el plan de contingencia que después aplicarás a tu flujo. Es una
 autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu
-trabajo con la rúbrica de autoevaluación.
+trabajo con la rúbrica de la práctica autoevaluada.
 
 ### Situación
 
@@ -43,7 +43,7 @@ Deja lista una tabla con los cinco pasos, su riesgo, si lleva punto de control, 
 criterios de aprobación del punto principal, las columnas nuevas de la planilla y el plan de contingencia con las seis respuestas, con
 un responsable con nombre y un reemplazo para cuando esa persona no esté.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -97,7 +97,7 @@ Además, la jefatura tiene el mando humano: decide cada mes si el flujo sigue en
 - Olvidar el sesgo que el flujo ya tuvo y no incluir ningún criterio sobre los reclamos en «baja».
 - Escribir «el sistema avisa» como responsable, o no decir cómo se corrigen los correos que ya se enviaron.
 
-## Autoevaluación 2 · Supervisión y contingencia para tu flujo
+## Práctica autoevaluada 2 · Supervisión y contingencia para tu flujo
 cubre: H1, C1, C2
 fuentes: F-M5-13, F-M5-06
 entrega: autoevaluacion
@@ -107,7 +107,7 @@ entrega: autoevaluacion
 Vas a agregar a tu flujo los controles humanos y el plan de contingencia que necesita antes de pensar en usarlo con datos reales, y
 vas a medir si esos controles detectan errores. Con esto completas tu prototipo, que es el Hito 5 de tu proyecto del curso. Es una
 autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu
-trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y
+trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y
 datos de clientes por datos inventados.
 
 ### Situación
@@ -137,7 +137,7 @@ Si alguna respuesta del plan es «no sé», ese es el punto débil que tienes qu
 Deja listos tu mapa de riesgos con los puntos de control, los criterios de aprobación, una captura de la planilla con las columnas de
 supervisión y datos de prueba, el plan de contingencia y la tabla con y sin control con tu conclusión. Con esto completas tu prototipo.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

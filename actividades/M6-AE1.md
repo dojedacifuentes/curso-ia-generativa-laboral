@@ -1,6 +1,6 @@
 # Actividades de aplicación práctica · M6-AE1 · Oportunidad de mejora con IA
 
-## Autoevaluación 1 · El plan de medición de Camila
+## Práctica autoevaluada 1 · El plan de medición de Camila
 cubre: H1, C1, C2
 fuentes: F-M6-01, F-M6-02
 entrega: autoevaluacion
@@ -8,7 +8,7 @@ entrega: autoevaluacion
 ### Instrucción general
 
 Vas a convertir los apuntes de Camila en el borrador de su plan: diagnóstico, línea base, meta SMART, plan de medición y
-justificación de viabilidad. Es la práctica del mismo trabajo que harás para tu propio proyecto. Es una autoevaluación: no se envía ni
+justificación de viabilidad. Es la práctica del mismo trabajo que harás para tu propio proyecto. Es una práctica autoevaluada: no se envía ni
 lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de
 autoevaluación.
 
@@ -49,7 +49,7 @@ Deja listo un documento de una página con el diagnóstico, la línea base con s
 y un párrafo de viabilidad que incluya tu respuesta a la sugerencia de la compañera. Si te faltó algún dato, déjalo anotado donde
 corresponde.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -104,7 +104,7 @@ clasifica la oficina.
 - Escribir 3 % en vez de 10 %, o dejar la búsqueda en 10 minutos sin dividir por los cinco documentos.
 - Escribir una meta sin línea base, como «llegar a 2 minutos», o aceptar subir la planilla real con condiciones como «si se borra después».
 
-## Autoevaluación 2 · El diagnóstico y la meta de tu proyecto
+## Práctica autoevaluada 2 · El diagnóstico y la meta de tu proyecto
 cubre: H1, C1, C2
 fuentes: F-M6-01, F-M6-03
 entrega: autoevaluacion
@@ -114,7 +114,7 @@ entrega: autoevaluacion
 Vas a medir cómo haces hoy la tarea de tu proyecto y a escribir su diagnóstico, su meta y su plan de medición, con la justificación
 de por qué es viable usar IA. Es el Hito 6a de tu proyecto del curso y la referencia contra la que medirás tus resultados. Es una
 autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu
-trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y
+trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y
 datos de clientes por datos inventados.
 
 ### Situación
@@ -147,7 +147,7 @@ Deja listos tu registro de línea base, sin datos personales, y un documento de 
 tabla del plan de medición con una columna para la meta y la justificación de viabilidad. Cierra con dos líneas sobre qué cambiaste
 después de que otra persona leyó tu meta.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

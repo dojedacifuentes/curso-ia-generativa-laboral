@@ -1,13 +1,13 @@
 # Actividades de aplicación práctica · M2-AE2 · Prompting avanzado para textos
 
-## Autoevaluación 1 · La plantilla de respuestas de Rosa
+## Práctica autoevaluada 1 · La plantilla de respuestas de Rosa
 cubre: H1, C1
 fuentes: F-M2-11, F-M2-10
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad vas a armar la plantilla de respuestas de Rosa con al menos dos técnicas de prompting y a probarla con tres consultas, para obtener respuestas parecidas cada vez. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. La información del centro y las consultas son ficticias.
+En esta actividad vas a armar la plantilla de respuestas de Rosa con al menos dos técnicas de prompting y a probarla con tres consultas, para obtener respuestas parecidas cada vez. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. La información del centro y las consultas son ficticias.
 
 ### Situación
 
@@ -29,7 +29,7 @@ Vas a armar la plantilla de Rosa con al menos dos de estas técnicas, ejemplos, 
 
 Deja listas la plantilla final, las tres respuestas que obtuviste y un párrafo breve que nombre las técnicas que usaste y diga qué problema resolvió cada una en las respuestas de Rosa.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -84,14 +84,14 @@ Revisión: las tres tienen menos de 70 palabras, están de usted y traen el salu
 - Restricciones vagas, como «sé amable», o la consulta de prueba escrita dentro de la plantilla en vez de un campo [texto de la consulta].
 - No detectar que una respuesta promete «la llamaremos hoy» o un horario que no existe.
 
-## Autoevaluación 2 · Tu plantilla, versión 1 y versión 2
+## Práctica autoevaluada 2 · Tu plantilla, versión 1 y versión 2
 cubre: H1, C2
 fuentes: F-M2-09, F-M2-08
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad vas a convertir un texto que escribes seguido en tu cargo en una plantilla y a medir si da textos consistentes entre una versión y otra. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
+En esta actividad vas a convertir un texto que escribes seguido en tu cargo en una plantilla y a medir si da textos consistentes entre una versión y otra. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
 
@@ -111,7 +111,7 @@ Vas a diseñar tu plantilla y a medir si da textos consistentes. Como la misma i
 
 Deja listas las dos versiones de la plantilla, tus tres casos de prueba y la tabla de criterios con los resultados de cada versión. Cierra con una línea que diga qué cambiaste en la versión 2, qué mejoró y con cuál versión te quedas.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

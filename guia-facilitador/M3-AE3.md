@@ -1,10 +1,10 @@
 # Guía del facilitador · Organizar y presentar información
 
-## Autoevaluación 1 · El informe de Andrés sobre los despachos atrasados
+## Práctica autoevaluada 1 · El informe de Andrés sobre los despachos atrasados
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien pregunta si tiene que citar la clasificación de Gemini o si puede recomendar alertas automáticas de stock.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien pregunta si tiene que citar la clasificación de Gemini o si puede recomendar alertas automáticas de stock.
 
 ### Pauta de referencia
 
@@ -32,11 +32,11 @@ Si lo logró: «Tu jefatura entiende lo importante con solo leer los mensajes cl
 
 Si lo logró en parte: «La estructura está bien, pero recomiendas alertas automáticas de stock, y tus fuentes solo las describen en un centro grande. Cámbiala por una medida que sí esté respaldada, como la reserva mínima, y di quién la aplica y desde cuándo.»
 
-## Autoevaluación 2 · Un informe breve para tu jefatura
+## Práctica autoevaluada 2 · Un informe breve para tu jefatura
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta con un tema de su cargo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar. Como es el tercer hito del proyecto, si alguien consulta, ayúdale a mantener la misma tarea de su cargo que viene trabajando desde el primer hito, y recuérdale que lo que comparta en el foro vaya sin nombres, RUT ni montos de clientes.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta con un tema de su cargo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar. Como es el tercer hito del proyecto, si alguien consulta, ayúdale a mantener la misma tarea de su cargo que viene trabajando desde el primer hito, y recuérdale que lo que comparta en el foro vaya sin nombres, RUT ni montos de clientes.
 
 ### Pauta de referencia
 

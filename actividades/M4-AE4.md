@@ -1,13 +1,13 @@
 # Actividades de aplicación práctica · M4-AE4 · Clips y video breve
 
-## Autoevaluación 1 · Corrige y monta el clip de reciclaje de Camila
+## Práctica autoevaluada 1 · Corrige y monta el clip de reciclaje de Camila
 cubre: H1, C1, C2
 fuentes: F-M4-20, F-M4-06
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad corriges el guion y la ficha de uso ético del clip de Camila, y montas una versión de 60 segundos con imágenes fijas. Es una práctica con un caso ficticio antes de hacer un clip para tu equipo. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación.
+En esta actividad corriges el guion y la ficha de uso ético del clip de Camila, y montas una versión de 60 segundos con imágenes fijas. Es una práctica con un caso ficticio antes de hacer un clip para tu equipo. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada.
 
 ### Situación
 
@@ -30,7 +30,7 @@ Vas a corregir el guion y la ficha, y a montar una versión del clip con imágen
 
 Deja listo el guion corregido en su tabla de secuencias, el clip exportado en MP4 y la ficha de uso ético corregida. Agrega dos líneas sobre el cambio que más mejoró el guion de Camila.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -85,14 +85,14 @@ Total: 60 segundos.
 - Subtítulos automáticos sin revisar, con palabras mal escritas, o un desfase entre voz e imagen al final.
 - Mantener «ninguno» en el aporte humano o escribir solo «edité», olvidar la atribución de Eleven Music o no explicar el cambio de la imagen.
 
-## Autoevaluación 2 · Un clip de 60 segundos para tu equipo
+## Práctica autoevaluada 2 · Un clip de 60 segundos para tu equipo
 cubre: H1, C1, C2
 fuentes: F-H-63, F-H-84
 entrega: autoevaluacion
 
 ### Instrucción general
 
-Esta actividad es el Hito 4 de tu proyecto del curso: produces un clip de 60 segundos que comunica tu propuesta y completas su ficha de uso ético. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
+Esta actividad es el Hito 4 de tu proyecto del curso: produces un clip de 60 segundos que comunica tu propuesta y completas su ficha de uso ético. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
 
@@ -114,7 +114,7 @@ Si quieres tomas con movimiento, Google Flow entrega 50 créditos diarios gratis
 
 Deja listo el clip en MP4, el guion por secuencias con sus duraciones, la lista de recursos y la ficha de uso ético completa. Termina con dos líneas sobre una decisión de creatividad responsable que tomaste, por ejemplo una escena que no generaste o un material que descartaste, y con lo que entendió la persona de tu equipo que vio el clip.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

@@ -1,10 +1,10 @@
 # Guía del facilitador · Flujos simples con IA
 
-## Autoevaluación 1 · Los pedidos de ventas a la bodega
+## Práctica autoevaluada 1 · Los pedidos de ventas a la bodega
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar.
 
 ### Pauta de referencia
 
@@ -36,11 +36,11 @@ Si lo logró: «Tu flujo funciona y tu plan de pruebas encontró lo que tenía q
 
 Si lo logró en parte: «El flujo corre y las filas traen el remitente correcto. Te falta probar el correo sin cantidad: es justo el caso en que la IA tiende a inventar. Agrégalo al plan, córrelo y anota qué pasó.»
 
-## Autoevaluación 2 · Un flujo para una tarea de tu cargo
+## Práctica autoevaluada 2 · Un flujo para una tarea de tu cargo
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar. Si alguien comparte en el foro datos de clientes, proveedores o compañeros, pídele que los reemplace por datos inventados.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar. Si alguien comparte en el foro datos de clientes, proveedores o compañeros, pídele que los reemplace por datos inventados.
 
 ### Pauta de referencia
 

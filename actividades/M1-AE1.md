@@ -1,13 +1,13 @@
 # Actividades de aplicación práctica · M1-AE1 · Fundamentos de IA generativa
 
-## Autoevaluación 1 · El semáforo de la semana de Camila
+## Práctica autoevaluada 1 · El semáforo de la semana de Camila
 cubre: H1, H2, C1
 fuentes: F-M1-02, F-M1-09
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad vas a decidir qué tareas de Camila conviene apoyar con un asistente de IA generativa y a probar una de ellas, para poner en práctica lo que sabes de cómo funciona el modelo y de sus límites. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Trabajas con datos inventados.
+En esta actividad vas a decidir qué tareas de Camila conviene apoyar con un asistente de IA generativa y a probar una de ellas, para poner en práctica lo que sabes de cómo funciona el modelo y de sus límites. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Trabajas con datos inventados.
 
 ### Situación
 
@@ -37,7 +37,7 @@ Vas a decidir por Camila y a probar una de las tareas con datos de prueba.
 Deja listo el semáforo con las seis tareas, su color, el tipo de modelo y la frase que justifica cada decisión; el pedido que usaste en
 la prueba, la respuesta que recibiste y tus anotaciones de la comparación, y el párrafo de explicación, de cinco a ocho líneas.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -75,14 +75,14 @@ Comparación: lo hizo bien, porque usó el número y las dos fechas sin cambiarl
 - Justificar los colores con frases como «porque es fácil» o «porque es importante», que no dicen nada del modelo.
 - Escribir que el asistente «busca la respuesta» o «entiende» lo que se le pide, o decir solo «hay que revisar» sin explicar por qué.
 
-## Autoevaluación 2 · Tres usos y dos límites en tu cargo
+## Práctica autoevaluada 2 · Tres usos y dos límites en tu cargo
 cubre: H1, H2, C2
 fuentes: F-M1-02, F-M1-09
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad vas a pasar por el semáforo las tareas de tu propio cargo y a probar una de ellas, para identificar usos concretos de la IA generativa y los límites que tendrías que controlar. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
+En esta actividad vas a pasar por el semáforo las tareas de tu propio cargo y a probar una de ellas, para identificar usos concretos de la IA generativa y los límites que tendrías que controlar. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
 
@@ -109,7 +109,7 @@ Vas a revisar tus propias tareas con el semáforo y a probar una de ellas.
 Deja listos tu lista de tareas con su color en el semáforo; los tres usos con el tipo de modelo de cada uno; la copia que usaste, ya sin
 datos sensibles, junto con el pedido, la respuesta y lo que encontraste al comparar, y los dos límites con su forma de control.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

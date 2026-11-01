@@ -3,7 +3,7 @@
 ## Para qué es esta guía
 
 Esta guía acompaña al facilitador durante el curso. Reúne lo que necesita para revisar y calificar los casos de aplicación, conocer
-las evaluaciones de cada módulo y la final, acompañar las 44 autoevaluaciones (dos por tema) y moderar los foros: dónde se
+las evaluaciones de cada módulo y la final, acompañar las 44 prácticas autoevaluadas (dos por tema) y moderar los foros: dónde se
 entrega cada cosa, cuándo responder, la pauta de corrección y ejemplos de retroalimentación. En el aula va en una sección visible
 solo para el rol docente; quien revisa el curso con perfil docente la ve igual que el facilitador.
 
@@ -14,12 +14,12 @@ El curso tiene 88 horas en seis módulos. En cada módulo hay tres tipos de trab
 | Instrumento | Tipo | Quién revisa | Nota |
 |---|---|---|---|
 | Quiz juego de cada tema | Formativo | Automático, con retroalimentación por respuesta | No |
-| Autoevaluaciones 1 y 2 de cada tema | Formativo, no se envía | La persona, con la respuesta modelo y la rúbrica de autoevaluación | No |
+| Prácticas autoevaluadas 1 y 2 de cada tema | Formativo, no se envía | La persona, con la respuesta modelo y la rúbrica de la práctica autoevaluada | No |
 | Casos de aplicación (práctica evaluada) | Sumativo | El docente, en la tarea «Entrega y revisión docente», con la rúbrica del caso | Sí |
 | Evaluación del módulo | Sumativo | Automático: casos con alternativas y retroalimentación en cada una | Sí |
 | Evaluación final del curso | Sumativo | Automático: cuatro casos integradores, una pregunta por aprendizaje esperado | Sí |
 
-**Autoevaluaciones.** Las dos actividades de cada tema son autoevaluaciones: en el aula son una página con la consigna, la rúbrica
+**Prácticas autoevaluadas.** Las dos actividades de cada tema son prácticas autoevaluadas: en el aula son una página con la consigna, la rúbrica
 de autoevaluación y una respuesta modelo plegada que la persona abre cuando termina. No se envían ni llevan nota; la persona marca la
 actividad como hecha. La pauta de referencia de cada actividad, en esta guía, sirve para responder las consultas que lleguen al foro
 del módulo.
@@ -40,12 +40,12 @@ evaluación final 30 %; lo formativo no pondera.
 
 ## El proyecto del curso
 
-Algunas autoevaluaciones 2 son, además, los hitos del proyecto del curso. Como son autoevaluaciones, no se envían ni llevan nota: el proyecto se evalúa a través de los casos de aplicación, que piden aplicar cada caso a la misma tarea. En el Hito 1 cada persona elige una tarea de su cargo y en los
+Algunas prácticas autoevaluadas 2 son, además, los hitos del proyecto del curso. Como son prácticas autoevaluadas, no se envían ni llevan nota: el proyecto se evalúa a través de los casos de aplicación, que piden aplicar cada caso a la misma tarea. En el Hito 1 cada persona elige una tarea de su cargo y en los
 módulos siguientes la sigue mejorando con IA: la presenta, la investiga, comunica la propuesta, automatiza un paso con supervisión
 y, en el módulo 6, mide sus resultados y los cuenta en un pitch. Si ves las entregas de estos hitos, fíjate también en que la persona siga
 trabajando sobre la misma tarea; si cambió de tarea, pídele en tu retroalimentación que explique por qué.
 
-| Hito | Autoevaluación 2 del tema |
+| Hito | Práctica autoevaluada 2 del tema |
 |---|---|
 | Hito 1 · Problema u oportunidad real y biblioteca de prompts | Prompts efectivos: una plantilla para la tarea que más repites |
 | Hito 2 · Brief y presentación de seis láminas | Presentaciones con IA: depura una presentación de tu trabajo |

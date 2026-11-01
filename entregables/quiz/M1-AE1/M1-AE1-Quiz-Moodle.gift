@@ -2,7 +2,7 @@
 $CATEGORY: IA-generativa-laboral/Formativos/M1-AE1
 
 ::M1-AE1-P1 (S1 C1)::Una compañera de Andrés le dice\: «El asistente tiene guardadas todas las respuestas y te muestra la correcta». ¿Qué explica mejor cómo genera su texto? {
-~Busca la respuesta guardada que más se parece a tu pregunta y la copia
+~Busca la respuesta guardada que más se parece a tu pregunta y la copia tal cual
 =Predice continuaciones probables, elige una y repite, fragmento a fragmento
 ~Comprende el tema como una persona experta y redacta lo que sabe
 ~Escribe el texto completo de una vez y después lo revisa
@@ -19,7 +19,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M1-AE1
 
 ::M1-AE1-P3 (S2 C2)::Verdadero o falso\: «Andrés puede imprimir tal cual el afiche que le generó un modelo de imagen, porque el modelo sigue la descripción que le dio». {
 =Falso, porque puede traer texto ilegible o elementos mal ubicados, y se revisa antes de publicar
-~Verdadero, porque el modelo ubica cada elemento justo donde se pidió en la descripción
+~Verdadero, porque el modelo ubica cada elemento justo donde se pidió en la descripción del afiche
 ~Falso, porque los modelos de imagen no pueden dibujar personas usando zapatos de seguridad
 ~Verdadero, porque el texto dentro de la imagen siempre sale nítido
 ####A los modelos de imagen todavía les cuesta escribir texto nítido y ubicar cada elemento donde se pidió. Por eso una imagen generada se revisa siempre antes de imprimirla o publicarla.
@@ -35,9 +35,10 @@ $CATEGORY: IA-generativa-laboral/Formativos/M1-AE1
 
 ::M1-AE1-P5 (S3 C1)::Camila lleva una conversación muy larga respondiendo correos de proveedores y ahora quiere preparar la minuta de una reunión de otro tema. ¿Qué le conviene hacer? {
 ~Seguir en la misma conversación, porque el modelo considera todo lo anterior con el mismo peso
-=Empezar una conversación nueva y entregarle lo que necesita saber sobre esa reunión
 ~Pedir la minuta sin dar detalles, porque el asistente ya sabe de qué reunión se trata
-####En una conversación muy larga lo del inicio puede perder peso o quedar fuera de la ventana de contexto, y el modelo no conoce lo que no le dices. Al cambiar de tarea conviene empezar de nuevo y darle el contexto.
+=Empezar una conversación nueva y entregarle lo que necesita saber sobre esa reunión
+~Escribir «olvida los correos anteriores» y pedir la minuta en esa misma conversación
+####En una conversación muy larga lo del inicio puede perder peso o quedar fuera de la ventana de contexto, y el modelo no conoce lo que no le dices. Al cambiar de tarea conviene empezar de nuevo y darle el contexto, en vez de seguir en el mismo hilo.
 }
 
 ::M1-AE1-P6 (S4 C2)::Andrés pide documentos sobre seguridad en bodegas. El asistente le entrega tres títulos con enlaces, en tono seguro, pero uno de esos documentos no existe. ¿Qué límite explica ese error? {
@@ -49,7 +50,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M1-AE1
 }
 
 ::M1-AE1-P7 (S4 H1 C2)::La jefatura de Andrés le sugiere pegar las evaluaciones de cinco bodegueros y pedirle al asistente que elija a quién ascender a supervisor. ¿Cuál es el problema principal? {
-~Ninguno, si las evaluaciones están completas y bien ordenadas
+~Ninguno, si las evaluaciones están completas, bien ordenadas y son del último año
 =Traslada los sesgos del modelo a una decisión que afecta a personas
 ~El asistente no puede leer evaluaciones escritas en tablas
 ~El modelo solo puede elegir entre tres opciones a la vez
@@ -59,7 +60,7 @@ $CATEGORY: IA-generativa-laboral/Formativos/M1-AE1
 ::M1-AE1-P8 (S4 C2)::Camila pregunta cuánto cuesta hoy un trámite cuyo precio se actualiza cada año. El asistente responde una cifra sin dudar. ¿Qué límite explica mejor el riesgo de esa respuesta? {
 ~Ninguno\: si responde sin dudar y con una cifra exacta, el dato es confiable
 ~El sesgo, porque el modelo repite miradas parciales de sus datos
-~La ventana de contexto, porque la pregunta superó el máximo de tokens
+~La ventana de contexto, porque la pregunta superó el máximo de tokens que el modelo puede leer
 =La fecha de corte\: su entrenamiento llega hasta cierta fecha y el precio pudo cambiar
 ####Un valor que cambia cada año puede haber cambiado después de la fecha de corte del modelo, y el asistente lo daría como vigente. El tono seguro no prueba nada\: la cifra se confirma en la fuente oficial.
 }

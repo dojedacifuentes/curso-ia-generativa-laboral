@@ -1,0 +1,203 @@
+{
+  "modulo": 4,
+  "titulo": "Evaluación diagnóstica del módulo 4",
+  "instruccion": "Esta evaluación diagnóstica sirve para ver desde dónde partes en el módulo «Contenido visual, sonoro y audiovisual», antes de empezar sus temas. No lleva nota ni afecta tu aprobación: responde según lo que sabes o haces hoy en tu trabajo, aunque el tema sea nuevo para ti. Tiene 7 preguntas de selección múltiple; cada una presenta una situación de trabajo breve y cuatro alternativas, de las que una corresponde a la práctica recomendada. Al terminar verás la retroalimentación de cada alternativa y el tema del módulo donde se trabaja, para que sepas en qué poner más atención.",
+  "items": [
+    {
+      "id": "M4-D01",
+      "ae": "M4-AE1",
+      "criterio": "C1",
+      "enunciado": "Para una campaña interna necesitas un afiche, una locución y un video corto. ¿Cómo eliges las herramientas de IA?",
+      "opciones": [
+        {
+          "texto": "Uso una sola herramienta para las tres piezas, porque todas generan cualquier formato con la misma calidad.",
+          "correcta": false,
+          "retro": "Cada herramienta suele destacar en un tipo de pieza y tener condiciones distintas. En el tema «Ecosistema multimedia con IA» verás el panorama de herramientas de imagen, audio y video, y cómo compararlas."
+        },
+        {
+          "texto": "Comparo herramientas según el tipo de pieza y reviso qué permite su plan, como descargar o usar el resultado.",
+          "correcta": true,
+          "retro": "Buen punto de partida: elegir según la pieza y las condiciones de uso evita sorpresas al final. En el tema «Ecosistema multimedia con IA» verás cómo comparar herramientas y completar una ficha de uso ético."
+        },
+        {
+          "texto": "Elijo la herramienta más famosa, porque si la usa tanta gente es porque sirve para cualquier pieza.",
+          "correcta": false,
+          "retro": "La popularidad no dice si una herramienta sirve para tu pieza ni qué permite su licencia. En el tema «Ecosistema multimedia con IA» verás cómo comparar herramientas según el objetivo y las condiciones de uso."
+        },
+        {
+          "texto": "Elijo la que tenga más efectos y filtros, aunque su plan gratuito no permita descargar lo que genero.",
+          "correcta": false,
+          "retro": "Si no puedes descargar ni usar el resultado, la herramienta no te sirve para la campaña. En el tema «Ecosistema multimedia con IA» verás cómo revisar los términos de uso antes de producir."
+        }
+      ]
+    },
+    {
+      "id": "M4-D02",
+      "ae": "M4-AE1",
+      "criterio": "C2",
+      "enunciado": "Encuentras en internet una imagen perfecta para el boletín de tu empresa. ¿Qué haces antes de usarla?",
+      "opciones": [
+        {
+          "texto": "Reviso su licencia o sus condiciones de uso y, si lo permiten, la uso con el crédito que piden.",
+          "correcta": true,
+          "retro": "Buen punto de partida: la licencia dice qué puedes hacer con la imagen y cómo dar crédito. En el tema «Ecosistema multimedia con IA» verás cómo leer licencias, atribuir bien y evitar riesgos legales y reputacionales."
+        },
+        {
+          "texto": "La uso sin más, porque si está publicada en internet quiere decir que es de uso libre.",
+          "correcta": false,
+          "retro": "Que una imagen esté en internet no la hace de uso libre: tiene autor y condiciones. En el tema «Ecosistema multimedia con IA» verás cómo interpretar licencias y términos de uso."
+        },
+        {
+          "texto": "La uso si le cambio los colores y la recorto, porque así ya pasa a ser una imagen distinta.",
+          "correcta": false,
+          "retro": "Modificar una imagen no elimina los derechos de su autor, y algunas licencias no permiten cambios. En el tema «Ecosistema multimedia con IA» verás qué permite cada tipo de licencia."
+        },
+        {
+          "texto": "La uso sin crédito, porque el boletín es interno y nadie de fuera de la empresa lo va a revisar.",
+          "correcta": false,
+          "retro": "Que una pieza sea interna no cambia lo que exige la licencia. En el tema «Ecosistema multimedia con IA» verás cómo dar crédito y por qué importa también en las comunicaciones internas."
+        }
+      ]
+    },
+    {
+      "id": "M4-D03",
+      "ae": "M4-AE2",
+      "criterio": "C1",
+      "enunciado": "Pides a una herramienta «una imagen de una oficina» para un afiche sobre pausas activas, y el resultado no transmite nada. ¿Qué ajustas?",
+      "opciones": [
+        {
+          "texto": "Repito el mismo pedido varias veces, hasta que por azar salga una imagen que me guste.",
+          "correcta": false,
+          "retro": "Repetir puede dar algo distinto, pero sin una descripción mejor es cuestión de suerte. En el tema «Imágenes y gráficos» verás cómo escribir prompts visuales con composición, estilo y luz."
+        },
+        {
+          "texto": "Agrego «alta calidad, 4K, obra maestra» al pedido, sin cambiar lo demás de la descripción.",
+          "correcta": false,
+          "retro": "Esas palabras mejoran poco si la escena sigue sin decir qué debe mostrar. En el tema «Imágenes y gráficos» verás qué elementos de un prompt visual cambian de verdad el resultado."
+        },
+        {
+          "texto": "Describo qué debe pasar en la escena, el estilo, el encuadre y el espacio libre para el título.",
+          "correcta": true,
+          "retro": "Buen punto de partida: un prompt visual que describe escena, estilo y composición da piezas coherentes con el mensaje. En el tema «Imágenes y gráficos» verás cómo iterar y elegir la mejor versión para tu campaña."
+        },
+        {
+          "texto": "Le pido que escriba dentro de la imagen todo el texto del afiche, para tenerlo listo de una vez.",
+          "correcta": false,
+          "retro": "A los generadores de imágenes les cuesta escribir texto nítido. En el tema «Imágenes y gráficos» verás por qué conviene agregar el texto después, con criterios de diseño básico."
+        }
+      ]
+    },
+    {
+      "id": "M4-D04",
+      "ae": "M4-AE2",
+      "criterio": "C2",
+      "enunciado": "Generas una imagen para un afiche y, al mirarla de cerca, una persona tiene seis dedos y un letrero del fondo trae letras sin sentido. ¿Qué haces?",
+      "opciones": [
+        {
+          "texto": "La uso igual, porque en un afiche colgado en la pared nadie se fija en esos detalles.",
+          "correcta": false,
+          "retro": "Los defectos visibles restan seriedad a la campaña y alguien los notará. En el tema «Imágenes y gráficos» verás cómo revisar una imagen con zoom y corregir sesgos o defectos antes de usarla."
+        },
+        {
+          "texto": "La uso y agrego en el pie que se hizo con IA, así los errores quedan justificados.",
+          "correcta": false,
+          "retro": "Declarar el uso de IA es una buena práctica, pero no corrige los defectos. En el tema «Imágenes y gráficos» verás cómo detectarlos y corregirlos."
+        },
+        {
+          "texto": "Dejo de usar IA para imágenes, porque siempre produce errores que no se pueden arreglar.",
+          "correcta": false,
+          "retro": "Los defectos son frecuentes, pero se pueden corregir o evitar con un mejor prompt. En el tema «Imágenes y gráficos» verás cómo iterar y editar hasta lograr una pieza usable."
+        },
+        {
+          "texto": "Corrijo o vuelvo a generar esas partes antes de usarla, y pongo el texto del afiche aparte.",
+          "correcta": true,
+          "retro": "Buen punto de partida: revisar de cerca y corregir antes de publicar es parte del trabajo con imágenes generadas. En el tema «Imágenes y gráficos» verás cómo detectar defectos y sesgos visuales, y cómo corregirlos."
+        }
+      ]
+    },
+    {
+      "id": "M4-D05",
+      "ae": "M4-AE3",
+      "criterio": "C1",
+      "enunciado": "Necesitas música de fondo para un video de bienvenida a quienes se integran a tu empresa, con una voz que explica lo principal. ¿Qué pista eliges?",
+      "opciones": [
+        {
+          "texto": "Una canción conocida con letra, porque llama más la atención de quienes ven el video.",
+          "correcta": false,
+          "retro": "Una canción con letra compite con la voz y, además, suele tener derechos que no puedes usar. En el tema «Audio y música» verás cómo elegir o generar una pista adecuada al uso."
+        },
+        {
+          "texto": "Una pista suave, sin letra y a volumen bajo, que deje entender bien la voz.",
+          "correcta": true,
+          "retro": "Buen punto de partida: la música acompaña y la voz se entiende. En el tema «Audio y música» verás cómo generar locuciones y pistas con IA y ajustarlas a cada pieza."
+        },
+        {
+          "texto": "La pista más energética que encuentre, a todo volumen, para que el video no aburra.",
+          "correcta": false,
+          "retro": "Una música muy fuerte tapa la voz y cansa. En el tema «Audio y música» verás cómo combinar voz y música para que el mensaje se entienda."
+        },
+        {
+          "texto": "Cualquier canción de una aplicación de música, porque pago la suscripción cada mes.",
+          "correcta": false,
+          "retro": "Una suscripción personal para escuchar música no da permiso para usarla en un video de la empresa. En el tema «Audio y música» verás cómo revisar las condiciones de uso de la música."
+        }
+      ]
+    },
+    {
+      "id": "M4-D06",
+      "ae": "M4-AE3",
+      "criterio": "C2",
+      "enunciado": "Un compañero propone clonar con IA la voz del gerente para un aviso interno, «porque todos la reconocen». ¿Qué opinas?",
+      "opciones": [
+        {
+          "texto": "Solo con su consentimiento expreso, sabiendo en qué pieza y dónde se usará su voz.",
+          "correcta": true,
+          "retro": "Buen punto de partida: la voz identifica a una persona, y usarla requiere su permiso informado. En el tema «Audio y música» verás los derechos de imagen y voz, y cómo pedir consentimiento."
+        },
+        {
+          "texto": "Se puede, porque el aviso es interno y no se va a publicar fuera de la empresa.",
+          "correcta": false,
+          "retro": "Que la pieza sea interna no elimina el derecho de la persona sobre su voz. En el tema «Audio y música» verás por qué se necesita consentimiento para usar una voz real."
+        },
+        {
+          "texto": "Se puede si la imitación queda bien hecha, porque así nadie va a notar la diferencia.",
+          "correcta": false,
+          "retro": "Que no se note la diferencia hace el problema más grave, no menos. En el tema «Audio y música» verás los riesgos de clonar voces y cómo usar la IA de forma responsable."
+        },
+        {
+          "texto": "Se puede, porque la voz no es un dato personal como el nombre o el RUT de una persona.",
+          "correcta": false,
+          "retro": "La voz identifica a una persona y se protege como tal. En el tema «Audio y música» verás los derechos de imagen y voz, y cuándo se necesita consentimiento."
+        }
+      ]
+    },
+    {
+      "id": "M4-D07",
+      "ae": "M4-AE4",
+      "criterio": "C1",
+      "enunciado": "Te piden un clip de 60 segundos para el televisor de la sala de espera de tu empresa. ¿Por dónde empiezas?",
+      "opciones": [
+        {
+          "texto": "Genero muchos clips de video y después veo qué historia se puede armar con ellos.",
+          "correcta": false,
+          "retro": "Generar sin un plan gasta tiempo y créditos, y el clip queda sin hilo. En el tema «Clips y video breve» verás cómo partir por un guion breve y ensamblar las piezas."
+        },
+        {
+          "texto": "Elijo primero la música, porque marca el ritmo y lo demás se va a ajustar solo.",
+          "correcta": false,
+          "retro": "La música acompaña, pero no define el mensaje. En el tema «Clips y video breve» verás cómo el guion ordena la imagen, la voz y la música dentro del minuto."
+        },
+        {
+          "texto": "Escribo un guion breve: qué mensaje, qué se ve y qué se escucha en cada parte del minuto.",
+          "correcta": true,
+          "retro": "Buen punto de partida: el guion ordena la producción y evita trabajo de más. En el tema «Clips y video breve» verás cómo guionizar, ensamblar y exportar un clip de 60 segundos con su ficha de uso ético."
+        },
+        {
+          "texto": "Escribo todo lo que quiero decir, aunque la locución dure tres minutos, y después la acelero.",
+          "correcta": false,
+          "retro": "Acelerar la voz la vuelve difícil de entender; conviene ajustar el texto al tiempo. En el tema «Clips y video breve» verás cómo escribir un guion que calce con 60 segundos."
+        }
+      ]
+    }
+  ]
+}

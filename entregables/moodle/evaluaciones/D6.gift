@@ -1,0 +1,51 @@
+// Evaluación diagnóstica del módulo 6 · generado por scripts/moodle-aula.mjs
+
+::Diagnóstica del módulo 6 · 01::[html]<p>Quieres mostrar que usar IA mejora una tarea de tu trabajo. ¿Qué haces antes de empezar a usarla?</p>{
+	~<p>Empiezo de inmediato y, al terminar, estimo de memoria cuánto tardaba antes de usarla.</p>#<p>Un recuerdo aproximado no permite comparar con fundamento. En el tema «Oportunidad de mejora con IA» verás cómo levantar una línea base antes de cambiar la forma de trabajar.</p>
+	=<p>Mido cómo se hace hoy\: cuánto tiempo toma y cuántos errores tiene, por unos días.</p>#<p>Buen punto de partida\: medir la situación inicial te da con qué comparar. En el tema «Oportunidad de mejora con IA» verás cómo diagnosticar la situación actual y definir indicadores.</p>
+	~<p>Pregunto a mis colegas si creen que la IA ayudará y anoto lo que opinan.</p>#<p>Las opiniones sirven para entender el contexto, pero no miden la tarea. En el tema «Oportunidad de mejora con IA» verás cómo definir indicadores medibles.</p>
+	~<p>Busco en internet cuánto tiempo ahorra la IA en general y uso ese dato.</p>#<p>Un promedio general no describe tu tarea ni tu contexto. En el tema «Oportunidad de mejora con IA» verás cómo medir tu propia situación inicial.</p>
+}
+
+::Diagnóstica del módulo 6 · 02::[html]<p>¿Cuál de estas metas está mejor planteada para un proyecto de mejora con IA?</p>{
+	~<p>Ser más eficiente en la atención de las solicitudes de los clientes gracias al uso de la IA.</p>#<p>La meta va en la dirección correcta, pero no dice cuánto ni en qué plazo. En el tema «Oportunidad de mejora con IA» verás cómo definir metas medibles a partir de la línea base.</p>
+	~<p>Que las solicitudes se respondan mucho mejor que antes de usar la IA.</p>#<p>«Mucho mejor» no se puede medir. En el tema «Oportunidad de mejora con IA» verás cómo transformar una intención en una meta con indicador y plazo.</p>
+	~<p>Usar la IA todos los días para responder las solicitudes que llegan.</p>#<p>Usar la herramienta es un medio, no un resultado. En el tema «Oportunidad de mejora con IA» verás cómo plantear metas centradas en lo que mejora.</p>
+	=<p>Bajar de 10 a 6 minutos el tiempo por solicitud en cuatro semanas, sin más errores.</p>#<p>Buen punto de partida\: la meta dice desde dónde, hasta dónde y en qué plazo, y cuida la calidad. En el tema «Oportunidad de mejora con IA» verás cómo definir metas e indicadores para tu proyecto aplicado.</p>
+}
+
+::Diagnóstica del módulo 6 · 03::[html]<p>¿Qué hace más viable un proyecto de mejora con IA en tu trabajo?</p>{
+	=<p>Que la tarea se repita, que pueda probar sin exponer datos sensibles y que mi jefatura esté de acuerdo.</p>#<p>Buen punto de partida\: frecuencia, datos cuidados y respaldo de la jefatura son criterios de viabilidad. En el tema «Oportunidad de mejora con IA» verás cómo justificar la viabilidad de tu proyecto.</p>
+	~<p>Que la herramienta sea la más nueva del mercado, aunque nadie la haya probado en mi área.</p>#<p>Lo nuevo no asegura que funcione en tu contexto. En el tema «Oportunidad de mejora con IA» verás criterios para evaluar si un proyecto con IA es viable.</p>
+	~<p>Que el proyecto cambie todos los procesos del área al mismo tiempo, para que el efecto se note de inmediato.</p>#<p>Un cambio tan amplio es difícil de probar y de medir. En el tema «Oportunidad de mejora con IA» verás cómo acotar el proyecto a una oportunidad concreta.</p>
+	~<p>Que la IA haga la tarea completa, sin que ninguna persona tenga que revisar el resultado.</p>#<p>Quitar toda revisión aumenta el riesgo y suele hacer menos viable el proyecto. En el tema «Oportunidad de mejora con IA» verás por qué la supervisión humana es parte del diseño.</p>
+}
+
+::Diagnóstica del módulo 6 · 04::[html]<p>Vas a empezar a usar un flujo con IA en una tarea real de tu trabajo. ¿Cómo partes?</p>{
+	~<p>Con todo el volumen de trabajo desde el primer día, para medir el ahorro completo.</p>#<p>Partir con todo el volumen hace que un error afecte muchos casos antes de detectarlo. En el tema «Implementar el flujo» verás cómo planificar una implementación por etapas.</p>
+	~<p>Dejando que la propia IA revise sus resultados, para que el ahorro de tiempo sea mayor.</p>#<p>La IA no reemplaza la revisión humana en los puntos de riesgo. En el tema «Implementar el flujo» verás cómo implementar el flujo con supervisión humana.</p>
+	=<p>Con una prueba acotada, revisando cada resultado antes de que llegue a otra persona.</p>#<p>Buen punto de partida\: una prueba acotada con revisión permite ajustar sin afectar a nadie. En el tema «Implementar el flujo» verás cómo implementar, probar y ajustar el flujo de tu proyecto.</p>
+	~<p>Sin avisarle a mi jefatura, para mostrarle después el resultado terminado como sorpresa.</p>#<p>Implementar sin acuerdo puede traer problemas con datos, permisos o procesos. En el tema «Implementar el flujo» verás cómo gestionar cambios y riesgos con tu jefatura.</p>
+}
+
+::Diagnóstica del módulo 6 · 05::[html]<p>Durante tu proyecto cambias la plantilla de prompt porque la primera versión inventaba fechas. ¿Qué haces con ese cambio?</p>{
+	~<p>Nada en especial\: lo importante es que la plantilla nueva ya funciona bien.</p>#<p>Sin registro, después no podrás explicar por qué cambiaste ni qué mejoró. En el tema «Implementar el flujo» verás cómo documentar decisiones y ajustes.</p>
+	=<p>Lo anoto en una bitácora\: qué cambié, por qué, cuándo y qué resultado dio.</p>#<p>Buen punto de partida\: registrar cada decisión permite mostrar la evolución del flujo. En el tema «Implementar el flujo» verás cómo documentar el flujo, sus versiones y sus pruebas.</p>
+	~<p>Borro la versión anterior, para no confundirme teniendo dos plantillas distintas.</p>#<p>La versión anterior sirve para comparar y para volver atrás si algo falla. En el tema «Implementar el flujo» verás cómo llevar un registro de versiones.</p>
+	~<p>Se lo cuento de palabra a mi jefatura, sin necesidad de dejarlo escrito.</p>#<p>Contarlo ayuda, pero sin un registro escrito se pierde el detalle. En el tema «Implementar el flujo» verás cómo llevar una bitácora de decisiones.</p>
+}
+
+::Diagnóstica del módulo 6 · 06::[html]<p>Terminaste tu proyecto y quieres saber si funcionó. ¿Qué haces?</p>{
+	~<p>Me pregunto si siento que trabajo con más orden y, si es así, concluyo que funcionó.</p>#<p>La sensación personal es útil, pero no es una medición. En el tema «Resultados y aprendizajes» verás cómo comparar los resultados con la línea base.</p>
+	~<p>Comparo con la meta solo el tiempo, que es el indicador que más mejoró.</p>#<p>Mirar solo el indicador que mejoró puede esconder que otro empeoró. En el tema «Resultados y aprendizajes» verás cómo medir todos los indicadores y leerlos en conjunto.</p>
+	~<p>Uso el ahorro de tiempo que promete la herramienta en su página web.</p>#<p>La promesa de la herramienta no mide tu proyecto. En el tema «Resultados y aprendizajes» verás cómo medir tus propios resultados contra la línea base.</p>
+	=<p>Mido igual que en la línea base y comparo tiempo y errores, no solo el tiempo.</p>#<p>Buen punto de partida\: medir igual que al inicio hace válida la comparación. En el tema «Resultados y aprendizajes» verás cómo medir resultados, interpretar diferencias y proponer mejoras.</p>
+}
+
+::Diagnóstica del módulo 6 · 07::[html]<p>Tienes tres minutos para presentar a tu jefatura los resultados de tu proyecto, y una parte de la meta no se cumplió. ¿Qué haces?</p>{
+	=<p>Muestro las cifras, explico qué no se logró y por qué, y propongo el siguiente paso.</p>#<p>Buen punto de partida\: comunicar resultados y límites con claridad da confianza a quien decide. En el tema «Resultados y aprendizajes» verás cómo estructurar un pitch de 3 minutos y armar tu portafolio.</p>
+	~<p>Dejo fuera lo que no se cumplió, para que la presentación se vea más exitosa.</p>#<p>Ocultar un límite resta credibilidad si después aparece. En el tema «Resultados y aprendizajes» verás cómo comunicar resultados y límites en un pitch.</p>
+	~<p>Ocupo los tres minutos en explicar cómo funciona la herramienta por dentro.</p>#<p>A quien decide le interesan los resultados y lo que propones, no el detalle técnico. En el tema «Resultados y aprendizajes» verás cómo estructurar un pitch centrado en la evidencia.</p>
+	~<p>Leo el informe completo lo más rápido posible, para alcanzar a decirlo todo.</p>#<p>Leer rápido dificulta que se entienda lo importante. En el tema «Resultados y aprendizajes» verás cómo seleccionar lo esencial para un pitch de 3 minutos.</p>
+}
+

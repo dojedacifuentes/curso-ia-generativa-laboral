@@ -1,10 +1,10 @@
 # Guía del facilitador · Parámetros de generación
 
-## Autoevaluación 1 · Precisión o variedad en dos encargos de Camila
+## Práctica autoevaluada 1 · Precisión o variedad en dos encargos de Camila
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe cómo cambiar una sola cosa entre una salida y otra.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe cómo cambiar una sola cosa entre una salida y otra.
 
 ### Pauta de referencia
 
@@ -20,11 +20,11 @@ Si lo logró: «Tus ajustes calzan con cada objetivo y la elección se apoya en 
 
 Si lo logró en parte: «Registraste bien las seis salidas, pero tu elección del resumen dice solo que "se lee mejor". Revisa en la tabla qué criterio lo decidió: ¿conserva el plazo y la fecha?, ¿cabe en dos líneas? Escríbelo en tu frase.»
 
-## Autoevaluación 2 · La configuración de una tarea de tu cargo
+## Práctica autoevaluada 2 · La configuración de una tarea de tu cargo
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe qué configuración elegir para su tarea. Si alguien comparte su trabajo en el foro, recuérdale quitar antes nombres, RUT, montos y datos de clientes.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe qué configuración elegir para su tarea. Si alguien comparte su trabajo en el foro, recuérdale quitar antes nombres, RUT, montos y datos de clientes.
 
 ### Pauta de referencia
 

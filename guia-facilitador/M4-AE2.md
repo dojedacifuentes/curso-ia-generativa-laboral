@@ -1,10 +1,10 @@
 # Guía del facilitador · Imágenes y gráficos
 
-## Autoevaluación 1 · El afiche de reciclaje de Camila
+## Práctica autoevaluada 1 · El afiche de reciclaje de Camila
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien no sabe si su imagen final mantiene el sesgo. Si alguien comparte su afiche en el foro, míralo en el celular antes de opinar sobre la legibilidad.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien no sabe si su imagen final mantiene el sesgo. Si alguien comparte su afiche en el foro, míralo en el celular antes de opinar sobre la legibilidad.
 
 ### Pauta de referencia
 
@@ -22,11 +22,11 @@ Si lo logró: «El mensaje se ve primero y la imagen muestra a personas de disti
 
 Si lo logró en parte: «Corregiste bien el letrero, pero en la imagen final siguen siendo personas jóvenes y una sola hace la acción. Pide en el prompt quién recicla, con edades y géneros distintos, y vuelve a revisar.»
 
-## Autoevaluación 2 · Una pieza para una campaña de tu área
+## Práctica autoevaluada 2 · Una pieza para una campaña de tu área
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta con una necesidad real de su equipo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo sobre el contraste o el texto alternativo. Si alguien comparte su pieza en el foro, recuérdale que no muestre fotos de colegas sin permiso ni logos de marcas ajenas.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta con una necesidad real de su equipo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo sobre el contraste o el texto alternativo. Si alguien comparte su pieza en el foro, recuérdale que no muestre fotos de colegas sin permiso ni logos de marcas ajenas.
 
 ### Pauta de referencia
 

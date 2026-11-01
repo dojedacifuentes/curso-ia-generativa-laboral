@@ -1,6 +1,6 @@
 # Actividades de aplicación práctica · M6-AE3 · Resultados y aprendizajes
 
-## Autoevaluación 1 · Los resultados de Camila, sin adornos
+## Práctica autoevaluada 1 · Los resultados de Camila, sin adornos
 cubre: H1, C1, C2
 fuentes: F-M6-11, F-M6-12
 entrega: autoevaluacion
@@ -8,7 +8,7 @@ entrega: autoevaluacion
 ### Instrucción general
 
 Vas a ayudar a Camila a dejar sus resultados en algo que pueda defender: una tabla honesta, una interpretación con sus límites, una
-mejora y un guion de pitch de 3 minutos. Es la práctica del cierre que harás con tu propio proyecto. Es una autoevaluación: no se
+mejora y un guion de pitch de 3 minutos. Es la práctica del cierre que harás con tu propio proyecto. Es una práctica autoevaluada: no se
 envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de
 autoevaluación.
 
@@ -45,7 +45,7 @@ errores». Antes de presentarlo, te pide que la ayudes a dejarlo en algo que pue
 Deja listos la tabla de resultados, el borrador reescrito, la propuesta de mejora y el guion del pitch, con una línea al final que diga
 cuánto duró al leerlo en voz alta y qué cambiaste después de la prueba de las dos frases.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -102,7 +102,7 @@ de Gemini", porque mi colega no entendía qué era un flujo».
 - Atribuirle al flujo los 1,5 minutos, sin usar los 3,2 minutos sin IA, o dejar los límites en la última línea.
 - Redondear cifras que cambian el mensaje, como «ahorro 2 minutos», o proponer «usar una IA mejor» sin decir cómo se medirá.
 
-## Autoevaluación 2 · El cierre de tu proyecto: resultados, pitch y portafolio
+## Práctica autoevaluada 2 · El cierre de tu proyecto: resultados, pitch y portafolio
 cubre: H1, C1, C2
 fuentes: F-M6-15, F-M6-16
 entrega: autoevaluacion
@@ -110,7 +110,7 @@ entrega: autoevaluacion
 ### Instrucción general
 
 Vas a comparar los resultados de tu proyecto con la línea base, contarlos en un pitch de 3 minutos y elegir las piezas de tu
-portafolio. Esta actividad reúne los hitos 6c y 6d, el cierre de tu proyecto del curso. Es una autoevaluación: no se envía ni lleva
+portafolio. Esta actividad reúne los hitos 6c y 6d, el cierre de tu proyecto del curso. Es una práctica autoevaluada: no se envía ni lleva
 nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de
 autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos
 inventados.
@@ -142,7 +142,7 @@ confidencial de tu empresa.
 Deja listos un documento con la tabla de resultados, las observaciones, los factores externos, las propuestas de mejora y tu
 autocrítica; el guion y la grabación del pitch, y el portafolio con sus notas de reflexión.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

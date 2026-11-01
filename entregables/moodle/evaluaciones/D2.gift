@@ -1,0 +1,51 @@
+// Evaluación diagnóstica del módulo 2 · generado por scripts/moodle-aula.mjs
+
+::Diagnóstica del módulo 2 · 01::[html]<p>Debes avisar el mismo cambio en el horario de atención a tu jefatura y a los clientes de la empresa. ¿Cómo lo resuelves?</p>{
+	~<p>Escribo un solo texto, muy formal, y lo mando a los dos, porque así nadie se puede molestar.</p>#<p>La formalidad extrema puede volver el mensaje largo y distante para ambos. En el tema «Redacción y comunicación con IA» verás cómo ajustar tono, registro y extensión a cada audiencia, con la IA como apoyo para el borrador.</p>
+	~<p>Uso el mismo mensaje cercano que mando al chat de mi equipo, para no perder tiempo.</p>#<p>Un tono de chat interno puede no calzar con lo que esperan los clientes. En el tema «Redacción y comunicación con IA» verás cómo adaptar un mismo contenido a distintas audiencias.</p>
+	=<p>Hago dos versiones\: breve y directa para mi jefatura, y cordial y explicativa para clientes.</p>#<p>Buen punto de partida\: el contenido es el mismo, pero cada audiencia necesita otro tono y otro nivel de detalle. En el tema «Redacción y comunicación con IA» verás cómo pedirle a la IA estas versiones y revisarlas.</p>
+	~<p>Reenvío a los clientes el correo que le escribí a mi jefatura, para que vean que está aprobado.</p>#<p>Un correo interno puede traer datos o un tono que no corresponde mostrar a clientes. En el tema «Redacción y comunicación con IA» verás cómo escribir para cada audiencia.</p>
+}
+
+::Diagnóstica del módulo 2 · 02::[html]<p>Un asistente de IA te redactó un correo para un cliente y se ve impecable. ¿Qué haces antes de enviarlo?</p>{
+	=<p>Reviso nombres, fechas, montos y compromisos contra mis datos, porque el texto lo firmo yo.</p>#<p>Buen punto de partida\: la IA entrega un borrador y la responsabilidad de lo que se envía es tuya. En el tema «Redacción y comunicación con IA» verás qué revisar en cada texto antes de enviarlo.</p>
+	~<p>Lo envío tal cual, porque si la redacción está bien es señal de que los datos también lo están.</p>#<p>Una redacción impecable puede traer una fecha o un compromiso inventado. En el tema «Redacción y comunicación con IA» verás por qué el texto generado es un borrador y qué revisar antes de enviarlo.</p>
+	~<p>Solo reviso la ortografía, porque el contenido lo propuso la herramienta y es responsabilidad de ella.</p>#<p>La herramienta no responde por lo que envías\: lo hace quien firma. En el tema «Redacción y comunicación con IA» verás cómo revisar el contenido, no solo la forma.</p>
+	~<p>Le pido que lo alargue un poco, porque un correo más extenso se ve más profesional ante un cliente.</p>#<p>Un correo más largo no es más profesional; suele ser más difícil de leer. En el tema «Redacción y comunicación con IA» verás cómo lograr textos claros y ajustados a quien los recibe.</p>
+}
+
+::Diagnóstica del módulo 2 · 03::[html]<p>Cada semana escribes un aviso parecido y quieres que el asistente lo entregue siempre con el mismo formato y sin agregar datos. ¿Qué te ayuda más?</p>{
+	~<p>Escribirle «hazlo igual que la semana pasada», porque el asistente recuerda mis avisos anteriores.</p>#<p>Muchos asistentes no recuerdan conversaciones anteriores, o lo hacen solo en parte. En el tema «Prompting avanzado para textos» verás cómo dejar el formato fijo dentro del propio prompt, con ejemplos y restricciones.</p>
+	~<p>Pedirle que sea creativo, para que cada aviso sorprenda al equipo y no se vuelva repetitivo.</p>#<p>La creatividad juega en contra cuando necesitas un formato estable. En el tema «Prompting avanzado para textos» verás técnicas para lograr textos consistentes entre una versión y otra.</p>
+	~<p>Escribir el pedido en mayúsculas, para que el asistente lo tome como una instrucción prioritaria.</p>#<p>Las mayúsculas no reemplazan una instrucción clara. En el tema «Prompting avanzado para textos» verás técnicas concretas para controlar el formato, como dar ejemplos y fijar restricciones.</p>
+	=<p>Darle un ejemplo de un aviso que me gustó e indicarle qué no debe cambiar ni agregar.</p>#<p>Buen punto de partida\: dar ejemplos y fijar restricciones son dos técnicas de prompting avanzado. En el tema «Prompting avanzado para textos» verás cómo usarlas y cómo encadenar pasos en textos más largos.</p>
+}
+
+::Diagnóstica del módulo 2 · 04::[html]<p>Un prompt te funcionó muy bien para responder consultas de clientes. ¿Qué haces con él?</p>{
+	~<p>Lo dejo en el historial del chat y lo busco ahí cada vez que lo vuelva a necesitar.</p>#<p>El historial sirve, pero cuesta encontrar el prompt y no queda listo para otros casos. En el tema «Prompting avanzado para textos» verás cómo convertir un prompt que funciona en una plantilla reutilizable.</p>
+	=<p>Lo guardo como plantilla con espacios para los datos variables y lo pruebo con otros casos.</p>#<p>Buen punto de partida\: una plantilla probada con varios casos te da resultados consistentes. En el tema «Prompting avanzado para textos» verás cómo diseñarla y cómo evaluar si responde igual de bien entre versiones.</p>
+	~<p>Lo vuelvo a escribir de memoria cada vez, porque cada consulta de un cliente es distinta.</p>#<p>Escribirlo de nuevo cada vez hace que los resultados varíen. En el tema «Prompting avanzado para textos» verás cómo una plantilla con espacios para los datos que cambian te ahorra tiempo y da consistencia.</p>
+	~<p>Lo comparto de inmediato con todo el equipo para que lo use, sin probarlo con más casos.</p>#<p>Que funcione en un caso no asegura que funcione en otros. En el tema «Prompting avanzado para textos» verás cómo probar una plantilla con casos simples y difíciles antes de compartirla.</p>
+}
+
+::Diagnóstica del módulo 2 · 05::[html]<p>Te piden presentar en cinco minutos una propuesta a tu jefatura, con apoyo de láminas. ¿Por dónde empiezas?</p>{
+	~<p>Elijo la plantilla de diseño y los colores, y después veo qué contenido poner en cada lámina.</p>#<p>El diseño importa, pero sin un mensaje definido las láminas quedan sin hilo. En el tema «Presentaciones con IA» verás cómo partir del mensaje clave y la audiencia, y usar la IA para el esquema.</p>
+	~<p>Le pido a una herramienta de IA veinte láminas sobre el tema y luego borro las que sobren.</p>#<p>Generar de más obliga a depurar mucho y suele dejar láminas sin relación con tu propuesta. En el tema «Presentaciones con IA» verás cómo estructurar una presentación de 6 láminas desde el mensaje clave.</p>
+	~<p>Pego en las láminas todo el texto que tengo, para no olvidar nada mientras presento.</p>#<p>Las láminas cargadas de texto compiten con lo que dices. En el tema «Presentaciones con IA» verás cómo relacionar cada lámina con una sola idea y depurar lo que sobra.</p>
+	=<p>Defino el mensaje clave y a quién le hablo, y después ordeno las láminas para sostenerlo.</p>#<p>Buen punto de partida\: el mensaje y la audiencia ordenan todo lo demás. En el tema «Presentaciones con IA» verás cómo pedirle a la IA el esquema, el contenido y el guion, y cómo depurar lo que genera.</p>
+}
+
+::Diagnóstica del módulo 2 · 06::[html]<p>Quieres que un asistente de IA te dé una fórmula para sumar las ventas de una sola sucursal en tu planilla. ¿Qué pedido funciona mejor?</p>{
+	~<p>«Dame la fórmula para sumar», porque el asistente deduce lo demás a partir de la palabra suma.</p>#<p>Sin saber qué columnas usar ni qué condición aplicar, el asistente tiene que adivinar. En el tema «Planillas de cálculo con IA» verás cómo pedir fórmulas con los datos que necesitan para funcionar.</p>
+	~<p>Pego la planilla completa de la empresa, con los datos de todos los clientes, para que la revise entera.</p>#<p>No hace falta entregar datos reales, y pegarlos puede exponer información de clientes. En el tema «Planillas de cálculo con IA» verás cómo pedir fórmulas describiendo la estructura de la tabla o usando datos de prueba.</p>
+	=<p>Le indico las columnas de sucursal y ventas, la fila donde parten los datos y si uso Excel o Sheets.</p>#<p>Buen punto de partida\: con la estructura de la tabla y el programa, la fórmula sale lista para usar. En el tema «Planillas de cálculo con IA» verás cómo pedir fórmulas, filtros y tablas, y cómo comprobarlas.</p>
+	~<p>Le pido la fórmula más completa posible, para que me sirva para cualquier cálculo que necesite.</p>#<p>Una fórmula que intenta servir para todo es difícil de revisar y suele fallar. En el tema «Planillas de cálculo con IA» verás cómo pedir una fórmula precisa para un problema concreto.</p>
+}
+
+::Diagnóstica del módulo 2 · 07::[html]<p>Un compañero te pasa una fórmula que le dio la IA para calcular los días de atraso de cada pedido. ¿Cómo sabes si funciona?</p>{
+	~<p>Si la planilla no muestra ningún mensaje de error al copiarla, la fórmula está bien hecha.</p>#<p>Una fórmula puede no dar error y aun así calcular algo distinto de lo que necesitas. En el tema «Planillas de cálculo con IA» verás cómo comprobar fórmulas con datos de prueba.</p>
+	=<p>La pruebo en unas filas cuyo resultado calculo a mano y comparo los dos valores.</p>#<p>Buen punto de partida\: comparar con un cálculo que conoces es la forma más segura de comprobar una fórmula. En el tema «Planillas de cálculo con IA» verás cómo armar datos de prueba y corregir lo que falle.</p>
+	~<p>Le pregunto a la misma IA si la fórmula está correcta y me quedo con su respuesta.</p>#<p>La IA puede asegurar con confianza que una fórmula está bien cuando no lo está. En el tema «Planillas de cálculo con IA» verás cómo comprobarla tú, con datos de prueba.</p>
+	~<p>Le cambio el formato a la columna para que los resultados se vean como números enteros.</p>#<p>El formato cambia cómo se ve el número, no si está bien calculado. En el tema «Planillas de cálculo con IA» verás cómo verificar el resultado de una fórmula antes de usarlo.</p>
+}
+

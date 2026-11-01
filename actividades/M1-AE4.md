@@ -1,13 +1,13 @@
 # Actividades de aplicación práctica · M1-AE4 · Validación de resultados
 
-## Autoevaluación 1 · El resumen del instructivo, con lupa
+## Práctica autoevaluada 1 · El resumen del instructivo, con lupa
 cubre: H1, C1
 fuentes: F-M1-09, F-M1-01
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad vas a revisar paso a paso el resumen que recibió Camila y a dejarlo listo para usar. Sirve para entrenar el ojo antes de reenviar cualquier texto generado por IA. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Trabajas con datos de prueba.
+En esta actividad vas a revisar paso a paso el resumen que recibió Camila y a dejarlo listo para usar. Sirve para entrenar el ojo antes de reenviar cualquier texto generado por IA. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Trabajas con datos de prueba.
 
 ### Situación
 
@@ -36,7 +36,7 @@ Vas a validar este resumen paso a paso y a dejarlo listo para usar.
 Deja lista una tabla con cada afirmación del resumen, el tipo de problema, lo que dice el instructivo y tu decisión, y el resumen
 corregido.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -73,14 +73,14 @@ Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve s
 - Mantener el estudio «porque da contexto».
 - Corregir el plazo y la firma, pero olvidar la cotización previa para los gastos sobre $50.000.
 
-## Autoevaluación 2 · Valida antes de usarlo en tu trabajo
+## Práctica autoevaluada 2 · Valida antes de usarlo en tu trabajo
 cubre: H1, C1, C2
 fuentes: F-H-16, F-M1-19
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad vas a validar con fuentes una respuesta que de verdad usarías en tu trabajo, antes de usarla. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
+En esta actividad vas a validar con fuentes una respuesta que de verdad usarías en tu trabajo, antes de usarla. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
 
@@ -108,7 +108,7 @@ Vas a validar una respuesta real antes de usarla, con al menos dos fuentes por c
 Deja listas la consulta y la respuesta del asistente; la tabla de validación con las tres afirmaciones, sus dos fuentes con enlace y
 fecha de consulta, si coinciden y tu decisión, y la versión final. Si descartaste algo, explica en una línea por qué.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

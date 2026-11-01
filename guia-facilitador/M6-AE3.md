@@ -1,10 +1,10 @@
 # Guía del facilitador · Resultados y aprendizajes
 
-## Autoevaluación 1 · Los resultados de Camila, sin adornos
+## Práctica autoevaluada 1 · Los resultados de Camila, sin adornos
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar.
 
 ### Pauta de referencia
 
@@ -27,11 +27,11 @@ Si lo logró: «Tu borrador dice lo que pasó sin adornos: bajó 1,5 minutos, no
 
 Si lo logró en parte: «La tabla está bien calculada. En la interpretación, todavía le atribuyes al flujo toda la mejora. Usa los 3,2 minutos sin IA para separar lo que viene de la práctica y ajusta esa cifra en el guion.»
 
-## Autoevaluación 2 · El cierre de tu proyecto: resultados, pitch y portafolio
+## Práctica autoevaluada 2 · El cierre de tu proyecto: resultados, pitch y portafolio
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar. Si alguien comparte en el foro datos de clientes, proveedores o compañeros, pídele que los reemplace por datos inventados.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta, la compara con la respuesta modelo que está en el aula y revisa su trabajo con la rúbrica. Responde en el foro del módulo las consultas que surjan y usa la pauta de referencia para orientar. Si alguien comparte en el foro datos de clientes, proveedores o compañeros, pídele que los reemplace por datos inventados.
 
 ### Pauta de referencia
 

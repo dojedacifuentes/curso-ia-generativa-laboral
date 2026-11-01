@@ -1,10 +1,10 @@
 # Guía del facilitador · Prompting avanzado para textos
 
-## Autoevaluación 1 · La plantilla de respuestas de Rosa
+## Práctica autoevaluada 1 · La plantilla de respuestas de Rosa
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe cómo separar los ejemplos de las instrucciones.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe cómo separar los ejemplos de las instrucciones.
 
 ### Pauta de referencia
 
@@ -28,11 +28,11 @@ Si lo logró: «Tu plantilla combina bien ejemplos y restricciones, y la regla d
 
 Si lo logró en parte: «La estructura está bien, pero tus dos ejemplos son sobre el horario. Cambia uno por una consulta de documentos, con el mismo formato, y revisa la respuesta del sábado en la tarde: el asistente ofreció un horario que no existe.»
 
-## Autoevaluación 2 · Tu plantilla, versión 1 y versión 2
+## Práctica autoevaluada 2 · Tu plantilla, versión 1 y versión 2
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe cómo diseñar sus tres casos de prueba. Si alguien comparte su trabajo en el foro, recuérdale quitar antes nombres, RUT, montos y datos de clientes.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe cómo diseñar sus tres casos de prueba. Si alguien comparte su trabajo en el foro, recuérdale quitar antes nombres, RUT, montos y datos de clientes.
 
 ### Pauta de referencia
 

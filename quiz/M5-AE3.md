@@ -7,9 +7,9 @@
 **Ilustración:** flujo | Tu flujo (engranaje) · Tu mirada (escudo) · Tu plan (ruta)
 
 1. *(S1 · A2 · P02)* El flujo de Camila para registrar facturas pasó todas sus pruebas y su empresa autorizó usarlo. Un mes después, un proveedor nuevo envía facturas con otro formato y doce filas quedan con montos errados. ¿Qué explica mejor lo ocurrido?
-   - **a) Un error en cadena: ese formato no estaba en las pruebas y el error se repitió en cada ejecución**
+   - **a) Un error en cadena: ese formato no estaba en las pruebas y se repitió en cada ejecución**
    - b) Una falla de la herramienta: si el flujo pasó las pruebas, el diseño no tiene nada que ver
-   - c) Sesgo de automatización: la IA trató peor al proveedor nuevo
+   - c) Sesgo de automatización: la IA trató peor al proveedor nuevo por ser desconocido
    - d) Nada grave: si pasó las pruebas, seguirá funcionando bien
    *Retroalimentación:* Las pruebas revisan los casos que imaginaste; en la vida real aparecen otros, como un formato distinto. Un dato mal leído se repite en cada ejecución, por eso el flujo necesita supervisión también después de ponerlo en marcha.
 
@@ -21,16 +21,16 @@
    *Retroalimentación:* El sesgo de automatización está en las personas: dejan de revisar porque lo hizo un sistema. El sesgo dañino es el criterio injusto de la IA; aquí la conducta del equipo es la que agrava el error.
 
 3. *(H1 · C1 · P07)* Flujo de Camila: (1) llega una factura por correo; (2) la IA extrae proveedor, monto y fecha; (3) se agrega una fila a la planilla de pagos que usa la constructora. ¿Dónde conviene más un punto de control humano?
-   - a) Antes del paso 1, para revisar cada correo que llega a la bandeja
+   - a) Antes del paso 1, para revisar cada correo que llega a la bandeja de facturas
    - **b) Entre los pasos 2 y 3, antes de que los datos lleguen a la planilla de pagos**
-   - c) Después del pago, revisando el estado de cuenta a fin de mes
+   - c) Después del pago, revisando el estado de cuenta a fin de mes con la contadora
    - d) En ningún paso: la extracción de la IA ya fue probada
    *Retroalimentación:* El riesgo está en datos que la IA extrae y que otros usan para decidir un pago sin volver al original. Revisar después del pago llega tarde, cuando el error ya costó dinero.
 
 4. *(H1 · C1 · P08)* Andrés define criterios de aprobación para revisar cada borrador de aviso de atraso antes de enviarlo. ¿Cuál es el mejor criterio?
-   - a) «¿El borrador se ve bien?»
-   - b) «Revisar los borradores cuando haya tiempo»
-   - c) «Si el flujo no marcó error, aprobar»
+   - a) «¿El borrador se ve bien y tiene un tono amable?»
+   - b) «Revisar los borradores cuando haya tiempo durante la tarde»
+   - c) «Si el flujo no marcó error en la ejecución, aprobar»
    - **d) «¿La fecha del aviso coincide con la de la planilla?»**
    *Retroalimentación:* Un criterio de aprobación es una pregunta de sí o no que se responde en segundos comparando con el dato original. Sin criterios, la revisión se vuelve un clic automático: «aprobado, aprobado, aprobado».
 
@@ -43,16 +43,16 @@
 
 6. *(S3 · C2 · P10)* Andrés quiere que la IA corrija los nombres de clientes mal escritos en su planilla de despachos. ¿Qué diseño hace el flujo más reversible?
    - a) Reemplazar el nombre original por el corregido, para no duplicar datos
-   - b) Enviar la corrección directo a cada cliente, para que la confirme
+   - b) Enviar la corrección directo a cada cliente por correo, para que él la confirme
    - **c) Escribir el nombre corregido en una columna nueva y conservar el original**
    - d) Borrar el historial de ejecuciones, para dejar la planilla ordenada
    *Retroalimentación:* Un flujo reversible no sobrescribe el original: así puedes comparar y deshacer si la IA se equivoca. Un correo enviado no se puede recoger, y sin historial se pierde la huella.
 
 7. *(C2 · H1 · A1 · P11)* «Mi plan de contingencia está completo: dice dónde se pausa el flujo», afirma Andrés. ¿Es así?
-   - a) Verdadero, porque una vez detenido el flujo, la plataforma resuelve el resto
-   - b) Verdadero, porque detener el flujo es lo único urgente cuando falla
+   - a) Verdadero, porque una vez detenido el flujo, la plataforma resuelve el resto sola
+   - b) Verdadero, porque detener el flujo es lo único urgente cuando algo falla
    - c) Falso, porque le falta solo una cosa: a quién avisar cuando el flujo falle
-   - **d) Falso, porque también debe decir cómo detectar la falla, seguir a mano, recuperar, avisar y quién responde**
+   - **d) Falso: le falta cómo detectar, seguir a mano, recuperar, avisar y quién responde**
    *Retroalimentación:* Un plan de contingencia responde seis preguntas, y detener el flujo es solo una. Además, quien lo pone en marcha responde por sus resultados: la respuesta no puede ser «el sistema».
 
 8. *(C1 · A2 · P12)* Paula sembró 3 errores en 10 reclamos ficticios. Sin su control llegaron 3 de 3 errores al resultado; con su control, todavía llegaron 2 de 3. ¿Qué decisión corresponde?

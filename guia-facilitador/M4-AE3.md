@@ -1,10 +1,10 @@
 # Guía del facilitador · Audio y música
 
-## Autoevaluación 1 · El audio de reciclaje para la reunión de Camila
+## Práctica autoevaluada 1 · El audio de reciclaje para la reunión de Camila
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien pregunta si puede clonar la voz de la gerenta cuando el audio es solo para uso interno. Si alguien comparte un audio en el foro, escúchalo completo con audífonos antes de opinar.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar, por ejemplo si alguien pregunta si puede clonar la voz de la gerenta cuando el audio es solo para uso interno. Si alguien comparte un audio en el foro, escúchalo completo con audífonos antes de opinar.
 
 ### Pauta de referencia
 
@@ -22,11 +22,11 @@ Si lo logró: «Tu guion se entiende a la primera: cambiaste el "100 %" y las ab
 
 Si lo logró en parte: «La locución suena bien, pero el guion conserva "proc. interno" y la voz lo lee tal cual. Escríbelo completo y vuelve a generar solo esa parte. Revisa también la atribución: con el plan gratuito va "elevenlabs.io" en el título.»
 
-## Autoevaluación 2 · La locución de un aviso de tu trabajo
+## Práctica autoevaluada 2 · La locución de un aviso de tu trabajo
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta con un aviso de su cargo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar. Si alguien consulta por usar la voz de un colega, recuérdale que necesita su consentimiento por escrito y que lo registre en la ficha, sin datos de contacto a la vista; si el aviso lo escucharán clientes, que revise la licencia de la herramienta.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta con un aviso de su cargo y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta para orientar. Si alguien consulta por usar la voz de un colega, recuérdale que necesita su consentimiento por escrito y que lo registre en la ficha, sin datos de contacto a la vista; si el aviso lo escucharán clientes, que revise la licencia de la herramienta.
 
 ### Pauta de referencia
 

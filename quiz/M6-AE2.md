@@ -15,47 +15,49 @@
 
 2. *(S1 · A1 · P03)* Rosa prueba su flujo con cinco consultas del mes pasado, ya resueltas y sin nombres. Esperaba cinco borradores correctos, pero dos dan un horario equivocado. Según el ciclo PDSA, ¿qué le toca ahora?
    - **a) Comparar con lo que esperaba, ajustar la plantilla y probar de nuevo con otros casos**
-   - b) Usar el flujo con las consultas reales, porque tres de cinco salieron bien
+   - b) Usar el flujo con las consultas reales, porque tres de cinco borradores salieron bien
    - c) Descartar la IA, porque el flujo tenía que funcionar a la primera
-   - d) Esperar a que la coordinadora del centro le diga qué cambiar
+   - d) Esperar a que la coordinadora del centro revise el flujo y le diga qué cambiar
    *Retroalimentación:* Después de hacer la prueba vienen estudiar (comparar con lo esperado) y actuar (ajustar y planificar otro ciclo). No se espera que salga perfecto a la primera, y decidir qué probar y cuándo ajustar le corresponde a ella: eso es autonomía.
 
 3. *(S2 · C1 · P04)* En la ficha de su flujo, Rosa anotó: «Supervisión: Rosa revisa las respuestas». ¿Qué le falta a ese punto de control?
-   - a) Nada: ya dice quién revisa
-   - b) Que la IA revise primero sus propios borradores
-   - **c) Cuándo revisa, qué mira, con qué criterio y qué hace si algo falla**
+   - a) Nada: ya dice quién revisa, y eso es lo que pide la ficha del flujo
+   - **b) Cuándo revisa, qué mira, con qué criterio y qué hace si algo falla**
+   - c) Que la IA revise primero sus propios borradores antes de que Rosa los mire
+   - d) Cuántas respuestas revisa al día, para no pasar de su horario de trabajo
    *Retroalimentación:* La supervisión humana se define por escrito con quién, cuándo, qué, con qué criterio y qué hacer si falla. Saber quién revisa no basta, y una IA que revisa sus propios borradores no es supervisión humana.
 
 4. *(S2 · C1 · P04)* Verdadero o falso: «Si el flujo lleva tres semanas sin errores, puedo revisar solo algunos casos al azar».
-   - a) Verdadero, porque tres semanas sin errores demuestran que el flujo funciona
-   - b) Verdadero, siempre que lo anote en la bitácora de decisiones
-   - **c) Falso: sería sesgo de automatización; mientras dure el proyecto, la revisión se mantiene en cada caso**
-   *Retroalimentación:* Mientras más veces funciona un flujo, más fácil es dejar de mirarlo, y justo ahí se cuela el error. Anotar la decisión en la bitácora no quita el riesgo: la revisión sigue en cada caso.
+   - a) Verdadero, porque tres semanas sin errores demuestran que el flujo ya funciona solo
+   - b) Verdadero, siempre que anote esa decisión en la bitácora con la fecha y el motivo
+   - c) Falso, porque al azar no sirve: debe revisar solo los casos que el flujo marque como dudosos
+   - **d) Falso: sería sesgo de automatización; mientras dure el proyecto, se revisa cada caso**
+   *Retroalimentación:* Mientras más veces funciona un flujo, más fácil es dejar de mirarlo, y justo ahí se cuela el error. Anotar la decisión en la bitácora no quita el riesgo, y revisar solo lo que el flujo marca es confiar en él: la revisión sigue en cada caso.
 
 5. *(S2 · C1 · P05)* Rosa revisa su tabla de riesgos. ¿Qué riesgo quedó sin un control eficaz?
-   - a) Datos personales: escribe códigos de paciente en vez de nombres
-   - b) Dato inventado: compara el horario con la agenda del centro antes de enviar
-   - c) Cambio en la plantilla: la vuelve a probar con los mismos casos antes de usarla
-   - **d) Herramienta sin servicio: si se agota el límite de Gemini, su plan B es abrir otro chat de Gemini**
+   - a) Datos personales: escribe códigos de paciente en vez de nombres en cada consulta
+   - b) Dato inventado: compara cada horario del borrador con la agenda del centro antes de enviar
+   - **c) Herramienta sin servicio: si Gemini llega a su límite, el plan B es otro chat de Gemini**
+   - d) Cambio en la plantilla: la vuelve a probar con los mismos casos antes de usarla
    *Retroalimentación:* El plan de contingencia no puede depender de la misma herramienta, porque si esa falla, el plan B también; la plantilla manual de su biblioteca sí sirve. Los otros tres riesgos tienen un control definido.
 
 6. *(S3 · C2 · A3 · P08)* Para mejorar su plantilla, Rosa edita directamente la versión que funcionaba. La nueva sale peor y no recuerda bien qué cambió. ¿Qué debió hacer?
-   - a) Corregir la nueva hasta que funcione, sin preocuparse de la anterior
-   - **b) Guardar la anterior como versión, anotar fecha y cambio, y probar la nueva con los mismos casos**
+   - a) Corregir la nueva hasta que funcione, sin preocuparse de la versión anterior
+   - **b) Guardar la anterior, anotar fecha y cambio, y probar la nueva con los mismos casos**
    - c) Probar la nueva con casos distintos de los anteriores, para cubrir más situaciones
-   - d) Anotar todos los cambios al final del proyecto, cuando la plantilla esté lista
+   - d) Anotar todos los cambios juntos al final del proyecto, cuando la plantilla ya esté lista
    *Retroalimentación:* Cada versión se guarda, se fecha y se prueba con los mismos casos; así puede volver atrás y comparar. Con casos distintos no sabría si la diferencia viene de la plantilla o de los casos.
 
 7. *(S3 · C2 · A3 · P07)* El 10-11, Rosa decidió en su bitácora redactar las respuestas en Gemini. El 20-11 decide pasarse a Make. ¿Cómo lo registra?
-   - a) Reescribe la entrada del 10-11 con la nueva decisión
-   - b) Borra la entrada del 10-11 para que la bitácora no se contradiga
-   - c) Lo anota solo en la ficha del flujo y deja la bitácora como estaba
-   - **d) Agrega una entrada nueva y marca la del 10-11 como reemplazada**
+   - **a) Agrega una entrada nueva y marca la del 10-11 como reemplazada**
+   - b) Reescribe la entrada del 10-11 con la nueva decisión
+   - c) Borra la entrada del 10-11 para que la bitácora no se contradiga
+   - d) Lo anota solo en la ficha del flujo y deja la bitácora como estaba
    *Retroalimentación:* Una decisión ya aplicada no se borra ni se reescribe: se agrega otra entrada y la anterior queda como reemplazada. Así se conserva la historia completa y se puede responder «¿por qué lo hiciste así?».
 
 8. *(H1 · C2 · P09)* En una prueba, un borrador de Rosa inventa un horario de atención. Pasos: 1) registrar el ajuste en la bitácora, 2) volver a probar con los mismos casos, 3) ubicar el paso que falló, 4) corregir la causa. ¿En qué orden?
    - a) 4 → 2 → 1 → 3
-   - **b) 3 → 4 → 1 → 2**
-   - c) 3 → 4 → 2 → 1
-   - d) 4 → 1 → 2 → 3
+   - b) 3 → 4 → 2 → 1
+   - c) 4 → 1 → 2 → 3
+   - **d) 3 → 4 → 1 → 2**
    *Retroalimentación:* Primero se ubica el paso que falló, luego se corrige la causa, se registra el ajuste y se vuelve a probar con los mismos casos. Corregir sin ubicar el paso arregla el resultado, pero no siempre la causa.

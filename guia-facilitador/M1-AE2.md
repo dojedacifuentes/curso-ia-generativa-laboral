@@ -1,10 +1,10 @@
 # Guía del facilitador · Prompts efectivos
 
-## Autoevaluación 1 · Tres pedidos de la bandeja de Camila
+## Práctica autoevaluada 1 · Tres pedidos de la bandeja de Camila
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe qué componente cambiar en la versión 2.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien no sabe qué componente cambiar en la versión 2.
 
 ### Pauta de referencia
 
@@ -22,11 +22,11 @@ Si lo logró: «Tus tres prompts tienen las cuatro partes y se nota para qué es
 
 Si lo logró en parte: «Las partes están, pero el contexto del resumen no dice para quién es. Prueba con "para dos personas nuevas del equipo que rinden gastos por primera vez" y mira cómo cambia la respuesta. En la clasificación, agrega "usa solo estas categorías".»
 
-## Autoevaluación 2 · Una plantilla para la tarea que más repites
+## Práctica autoevaluada 2 · Una plantilla para la tarea que más repites
 
 ### Cómo acompañar
 
-Es una autoevaluación: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien duda de cómo convertir su prompt en plantilla. Si alguien comparte su trabajo en el foro, recuérdale quitar antes nombres, RUT, montos y datos de clientes. Como es el primer hito del proyecto, si alguien consulta qué tarea elegir, oriéntalo a una tarea real de su cargo, porque es la que seguirá en los módulos siguientes.
+Es una práctica autoevaluada: la persona no la envía y no se califica. Hace la actividad por su cuenta y la compara con la respuesta modelo que está en el aula. Responde en el foro del módulo las consultas que surjan y usa esta pauta de referencia para orientar, por ejemplo si alguien duda de cómo convertir su prompt en plantilla. Si alguien comparte su trabajo en el foro, recuérdale quitar antes nombres, RUT, montos y datos de clientes. Como es el primer hito del proyecto, si alguien consulta qué tarea elegir, oriéntalo a una tarea real de su cargo, porque es la que seguirá en los módulos siguientes.
 
 ### Pauta de referencia
 

@@ -1,13 +1,13 @@
 # Actividades de aplicación práctica · M4-AE2 · Imágenes y gráficos
 
-## Autoevaluación 1 · El afiche de reciclaje de Camila
+## Práctica autoevaluada 1 · El afiche de reciclaje de Camila
 cubre: H1, C1, C2
 fuentes: F-H-68, F-M4-12
 entrega: autoevaluacion
 
 ### Instrucción general
 
-En esta actividad produces el afiche de reciclaje de Camila: reescribes su prompt, generas versiones, corriges sesgos y defectos y compones la pieza en Canva. Es una práctica con un caso ficticio antes de hacer una pieza para tu área. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación.
+En esta actividad produces el afiche de reciclaje de Camila: reescribes su prompt, generas versiones, corriges sesgos y defectos y compones la pieza en Canva. Es una práctica con un caso ficticio antes de hacer una pieza para tu área. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada.
 
 ### Situación
 
@@ -30,7 +30,7 @@ Vas a producir el afiche de Camila de principio a fin. Usa Gemini y Canva, en la
 
 Deja listo el afiche final en formato vertical, guardado como imagen, los tres prompts con lo que cambiaste en cada uno y un párrafo breve que explique qué sesgo y qué defecto encontraste en la primera imagen y cómo los corregiste.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 
@@ -74,14 +74,14 @@ Si en algún criterio quedaste en «Lo logré en parte» o «Aún no», vuelve s
 - Invertir el sesgo, con un hombre trabajando y dos mujeres mirando.
 - Tres prompts que cambian todo a la vez, lo que impide saber qué produjo la mejora, o un título pequeño sobre una zona cargada de la imagen.
 
-## Autoevaluación 2 · Una pieza para una campaña de tu área
+## Práctica autoevaluada 2 · Una pieza para una campaña de tu área
 cubre: H1, C1, C2
 fuentes: F-M4-08, F-M4-10
 entrega: autoevaluacion
 
 ### Instrucción general
 
-Ahora produces una pieza para una campaña de tu área, desde el brief hasta la prueba con una persona de tu equipo. Es una autoevaluación: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de autoevaluación. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
+Ahora produces una pieza para una campaña de tu área, desde el brief hasta la prueba con una persona de tu equipo. Es una práctica autoevaluada: no se envía ni lleva nota. Haz la actividad por tu cuenta, compárala con la respuesta modelo del final y revisa tu trabajo con la rúbrica de la práctica autoevaluada. Como no se envía, puedes trabajar con tu caso real; igual reemplaza nombres, RUT, montos y datos de clientes por datos inventados.
 
 ### Situación
 
@@ -102,7 +102,7 @@ Antes de publicar, una pieza tiene que leerse bien. Las pautas WCAG piden un con
 
 Deja lista la pieza final en el formato de tu canal, el brief, los prompts de tus versiones, el texto alternativo si corresponde y un párrafo con un sesgo o defecto que encontraste y cómo lo corregiste. Anota también lo que te respondió la persona a la que le mostraste la pieza.
 
-### Rúbrica de autoevaluación
+### Rúbrica de la práctica autoevaluada
 
 Cuando termines, compara tu trabajo con la respuesta modelo y marca en qué nivel quedaste en cada criterio. No lleva nota: te sirve para ver qué ajustar.
 

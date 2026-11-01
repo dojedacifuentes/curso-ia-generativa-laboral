@@ -1,6 +1,6 @@
 {
   "titulo": "Evaluación final del curso",
-  "instruccion": "Esta evaluación integra todo lo que trabajaste en el curso: pedir bien a la IA y validar lo que entrega, redactar y presentar, investigar con fuentes, cuidar los datos, crear piezas visuales y sonoras respetando licencias y derechos, automatizar con supervisión humana y medir resultados. Vas a leer 4 casos de organizaciones ficticias y, bajo cada uno, responderás preguntas de selección múltiple: 22 preguntas en total, cada una con 4 alternativas y una sola correcta. Lee el caso completo antes de responder, porque las preguntas se apoyan en sus datos. Apruebas con 60 % de logro. Al terminar verás la retroalimentación de cada alternativa, con lo que conviene repasar.",
+  "instruccion": "Esta evaluación integra todo lo que trabajaste en el curso: pedir bien a la IA y validar lo que entrega, redactar y presentar, investigar con fuentes, cuidar los datos, crear piezas visuales y sonoras respetando licencias y derechos, automatizar con supervisión humana y medir resultados. Vas a leer 4 casos de organizaciones ficticias y, bajo cada uno, responderás preguntas de selección múltiple: 22 preguntas en total, cada una con 4 alternativas y una sola correcta. Lee el caso completo antes de responder, porque las preguntas se apoyan en sus datos. Pesa 40 % de tu nota del curso y apruebas con 60 % de logro. Al terminar verás la retroalimentación de cada alternativa, con lo que conviene repasar.",
   "casos": [
     {
       "titulo": "Caso 1 · Ferretería Los Aromos: un mes con quiebres de stock",

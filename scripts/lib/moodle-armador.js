@@ -501,6 +501,29 @@
     log('FIN quiz juego');
   };
 
+  // Ponderación del 01-11: casos 60 % (cada caso vale lo mismo dentro de su categoría), evaluación final 40 %, el resto 0 %
+  window.notas01 = async (cid) => {
+    const arbol = P(await (await fetch(`/grade/edit/tree/index.php?id=${cid}`)).text());
+    const fila = (re) => [...arbol.querySelectorAll('tr.category')].find((tr) => re.test(tr.textContent))?.querySelector('input[name^=weight_]')?.name.replace('weight_', '');
+    const fd = new FormData(); fd.set('sesskey', sk());
+    for (const [re, w] of [[/Casos de aplicación/, 60], [/Evaluaciones de módulo/, 0], [/Evaluación final/, 40], [/Actividades formativas/, 0]]) {
+      const id = fila(re); if (!id) { log(`! sin fila de peso ${re}`); continue; }
+      fd.set(`weightoverride_${id}`, '1'); fd.set(`weight_${id}`, String(w));
+    }
+    await fetch(`/grade/edit/tree/index.php?id=${cid}`, { method: 'POST', body: fd });
+    const d2 = P(await (await fetch(`/grade/edit/tree/index.php?id=${cid}`)).text());
+    log('  pesos: ' + [...d2.querySelectorAll('tr.category')].map((tr) => `${tr.textContent.trim().split('\n')[0].slice(0, 30)} ${tr.querySelector('input[name^=weight_]')?.value ?? ''}`).join(' | '));
+  };
+  // Encabezados «Práctica evaluada» y «Evaluación del módulo» de cada módulo
+  window.etiquetas01 = async (cid, aula) => {
+    const st = await estado(cid);
+    for (const m of aula.modulos) for (const [nombre, html] of [['Práctica evaluada', m.etiquetas.casos], ['Evaluación del módulo', m.etiquetas.evaluacion]]) {
+      const e = cmsDe(st, m.n).find((c) => c.module === 'label' && c.name === nombre);
+      if (e) await editar(e.id, { 'introeditor[text]': html, 'introeditor[format]': '1' });
+    }
+    log('FIN encabezados');
+  };
+
   // SCORM: entrar directo al contenido (sin la página con el botón «Entrar»)
   window.scorm01 = async (cid) => {
     const st = await estado(cid); let n = 0;

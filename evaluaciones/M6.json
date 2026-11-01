@@ -1,7 +1,7 @@
 {
   "modulo": 6,
   "titulo": "Evaluación del módulo 6",
-  "instruccion": "Esta evaluación revisa lo que aprendiste en el módulo «Taller de IA generativa para entornos laborales»: diagnosticar una oportunidad de mejora con línea base, meta e indicadores, implementar un flujo con IA con supervisión humana y registro de decisiones, y evaluar y comunicar los resultados con sus límites. Tiene 9 preguntas de selección múltiple. Cada una presenta una situación de trabajo breve y cuatro alternativas, de las que solo una es correcta. Todas las preguntas valen lo mismo y apruebas con 6 respuestas correctas de 9. Lee con calma cada caso antes de responder. Al terminar verás la retroalimentación de cada alternativa: por qué la correcta lo es y qué te conviene repasar si elegiste otra.",
+  "instruccion": "Esta evaluación revisa lo que aprendiste en el módulo «Taller de IA generativa para entornos laborales»: diagnosticar una oportunidad de mejora con línea base, meta e indicadores, implementar un flujo con IA con supervisión humana y registro de decisiones, y evaluar y comunicar los resultados con sus límites. Tiene 9 preguntas de selección múltiple. Cada una presenta una situación de trabajo breve y cuatro alternativas, de las que solo una es correcta. No pondera en tu nota del curso: te muestra cómo vas y te prepara para la evaluación final. Todas las preguntas valen lo mismo y apruebas con 6 respuestas correctas de 9. Lee con calma cada caso antes de responder. Al terminar verás la retroalimentación de cada alternativa: por qué la correcta lo es y qué te conviene repasar si elegiste otra.",
   "items": [
     {
       "id": "M6-E01",

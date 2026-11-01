@@ -15,9 +15,9 @@ El curso tiene 88 horas en seis módulos. En cada módulo hay tres tipos de trab
 |---|---|---|---|
 | Quiz juego de cada tema | Formativo | Automático, con retroalimentación por respuesta | No |
 | Prácticas autoevaluadas 1 y 2 de cada tema | Formativo, no se envía | La persona, con la respuesta modelo y la rúbrica de la práctica autoevaluada | No |
-| Casos de aplicación (práctica evaluada) | Sumativo | El docente, en la tarea «Entrega y revisión docente», con la rúbrica del caso | Sí |
-| Evaluación del módulo | Sumativo | Automático: casos con alternativas y retroalimentación en cada una | Sí |
-| Evaluación final del curso | Sumativo | Automático: cuatro casos integradores, una pregunta por aprendizaje esperado | Sí |
+| Casos de aplicación (práctica evaluada) | Sumativo | El docente, en la tarea «Entrega y revisión docente», con la rúbrica del caso | Sí (60 %) |
+| Evaluación del módulo | Formativo, con nota de referencia | Automático: casos con alternativas y retroalimentación en cada una | No pondera |
+| Evaluación final del curso | Sumativo | Automático: cuatro casos integradores, una pregunta por aprendizaje esperado | Sí (40 %) |
 
 **Prácticas autoevaluadas.** Las dos actividades de cada tema son prácticas autoevaluadas: en el aula son una página con la consigna, la rúbrica
 de autoevaluación y una respuesta modelo plegada que la persona abre cuando termina. No se envían ni llevan nota; la persona marca la
@@ -35,8 +35,9 @@ final de cada módulo. Después, la persona comparte en el foro de casos su resp
 retroalimentación en cada alternativa. Se aprueban con 60 %. La pauta (respuesta correcta y por qué) está en la sección «Evaluaciones»
 de esta guía.
 
-**Nota del curso.** Escala de 1,0 a 7,0, con 4,0 al 60 %. Pondera los casos de aplicación 30 %, las evaluaciones de módulo 40 % y la
-evaluación final 30 %; lo formativo no pondera.
+**Nota del curso.** Escala de 1,0 a 7,0, con 4,0 al 60 %. Pondera los casos de aplicación 60 % (los 11 casos pesan lo mismo, cerca de 5,5 % cada uno) y la
+evaluación final 40 % (decisión del 01-11). Las evaluaciones de módulo, las diagnósticas, los quiz juego y las prácticas
+autoevaluadas no ponderan.
 
 ## El proyecto del curso
 

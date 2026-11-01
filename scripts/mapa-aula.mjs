@@ -33,12 +33,12 @@ evaluación de cada módulo, evaluación final y contacto entre facilitador y es
 | Contenido de cada tema (Rise) | Paquete SCORM | No |
 | Quiz juego de cada tema | Paquete SCORM, con retroalimentación por respuesta | No |
 | Prácticas autoevaluadas 1 y 2 de cada tema | Página con la consigna, la rúbrica de la práctica autoevaluada y la respuesta modelo; no se envía y el estudiante la marca como hecha | No |
-| Caso de aplicación (práctica evaluada) | Página para leer el caso y, debajo, la tarea «Entrega y revisión docente»: el estudiante sube su documento y el docente sube la nota con rúbrica, sus comentarios y el documento revisado | Sí (30 %) |
+| Caso de aplicación (práctica evaluada) | Página para leer el caso y, debajo, la tarea «Entrega y revisión docente»: el estudiante sube su documento y el docente sube la nota con rúbrica, sus comentarios y el documento revisado | Sí (60 %) |
 | Foro de casos del módulo | Foro: resultados de los casos, preguntas para conversar y consultas | No |
 | Infografía animada del módulo | Paquete SCORM | No |
 | Glosario del módulo | Glosario con buscador | No |
-| Evaluación del módulo | Cuestionario: casos con alternativas y retroalimentación en cada una | Sí (40 %) |
-| Evaluación final del curso | Cuestionario: cuatro casos integradores | Sí (30 %) |
+| Evaluación del módulo | Cuestionario: casos con alternativas y retroalimentación en cada una | No pondera |
+| Evaluación final del curso | Cuestionario: cuatro casos integradores | Sí (40 %) |
 | Guía del facilitador y mapa del aula | Archivos en una sección oculta para estudiantes | — |
 
 ## Sección inicial · Bienvenida

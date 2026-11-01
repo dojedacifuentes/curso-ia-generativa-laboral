@@ -43,6 +43,6 @@ Aplicado en archivos y en el aula: #1 a #8, #9 (M1–M3; el Demo Day del M6 espe
 
 ## Decisiones pendientes
 
-1. Ponderación exacta con 11 casos (y si la evaluación final sigue aparte del 40 %).
+1. ~~Ponderación~~ Decidida el 01-11: casos de aplicación 60 % proporcional (los 11 pesan lo mismo, cerca de 5,5 % cada uno) y evaluación final 40 %; evaluaciones de módulo, diagnósticas, quiz y prácticas no ponderan. Aplicada en el libro de calificaciones, Avisos, bienvenida, encabezados, evaluaciones, guía y mapa.
 2. Demo Day del M6: quitar la mención o agregar una entrega final.
 3. Usuario institucional para los mensajes de apertura de los foros y para alojar los videos.

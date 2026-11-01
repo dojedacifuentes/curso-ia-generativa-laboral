@@ -170,7 +170,7 @@ pueda leer para entender qué hace, qué necesita y qué produce [@F-M6-07]. La 
 - Responsable y fecha: quién lo mantiene y cuándo se actualizó.
 
 Usa una **convención de nombres** y respétala en todo: el flujo, las plantillas, las planillas y los archivos [@F-M6-07]. Así cualquiera sabe qué
-versión está mirando. Comparte la ficha con quien corresponda, por ejemplo tu jefatura o tu tutor. Un error común es dejarla para el
+versión está mirando. Comparte la ficha con quien corresponda, por ejemplo tu jefatura o tu facilitador. Un error común es dejarla para el
 final y escribirla de memoria: se olvidan dependencias y ajustes. Escríbela antes de la primera prueba y actualízala con cada cambio.
 Ese trabajo prolijo es lo que permite que tu flujo se revise, se mejore o lo use otra persona de tu equipo.
 
@@ -195,7 +195,7 @@ Cada entrada lleva una fecha y un título, por ejemplo «12-11 · Dónde registr
 los hechos que te obligaron a decidir; la decisión, que es lo que elegiste; las consecuencias, lo bueno y lo malo que trae, y el
 estado, vigente o reemplazada. Hay una regla que importa más que las otras: una decisión que ya aplicaste no se borra ni se
 reescribe [@F-M6-08]. Si cambias de idea, agregas una entrada nueva y marcas la anterior como reemplazada. Así queda la historia completa, y
-puedes responder la pregunta que te hará tu tutor o tu jefatura: «¿por qué lo hiciste así?».
+puedes responder la pregunta que te hará tu jefatura o tu facilitador: «¿por qué lo hiciste así?».
 
 Una entrada de Camila muestra cómo se ve. El 12-11 anotó «Dónde uso las aplicaciones conectadas». El contexto: la acción programada
 le pide dejar encendida la actividad guardada, y con ella encendida, revisores humanos pueden leer las conversaciones [@F-H-15]. La decisión:
@@ -264,31 +264,30 @@ Arma diez casos de prueba sin datos personales, al menos tres difíciles. Córre
 documentado en tu bitácora.
 :::
 
-## P10 · Tu Hito 6b y cómo se evalúa
+## P10 · Tu Hito 6b y cómo lo revisas
 cubre: H1, C1, C2, A3
 fuentes: F-M6-07, F-M6-08
 bloque: Texto + tabla de la rúbrica + lista de verificación
 
-El Hito 6b, implementación del flujo, muestra que tu flujo funciona, que tiene supervisión humana y que quedó documentado. Lo
-entregas en un documento o una carpeta compartida con seis piezas: el flujo en pasos numerados, con lo que hace la IA y lo que haces
+El Hito 6b, implementación del flujo, muestra que tu flujo funciona, que tiene supervisión humana y que quedó documentado. Lo reúnes en un documento o una carpeta compartida con seis piezas: el flujo en pasos numerados, con lo que hace la IA y lo que haces
 tú (P02); la ficha, con supervisión y contingencia [@F-M6-07] (P04 a P06); la tabla de riesgos con sus controles (P05); la bitácora de
 decisiones con al menos tres entradas [@F-M6-08] (P07); la tabla de versiones de tu plantilla principal (P08), y la evidencia de las pruebas,
 con resultados y capturas sin datos personales ni información de tu empresa (P09).
 
-Tu tutor lo revisa con la rúbrica general de hitos y te responde en un plazo de 72 horas como máximo:
+Lo trabajas en la práctica autoevaluada 2 de este tema y lo revisas con estos criterios, comparándolo con la respuesta modelo:
 
-| Criterio | Peso | Qué mira en el Hito 6b |
-|---|---|---|
-| Pertinencia al problema real | 25 % | El flujo ataca el desafío y la meta del Hito 6a |
-| Uso verificado de IA | 25 % | Prompts documentados por versión y resultados revisados en cada prueba |
-| Calidad del entregable | 20 % | Flujo, ficha y bitácora completos y coherentes entre sí |
-| Ética, privacidad y licencias | 15 % | Sin datos personales expuestos; supervisión humana clara |
-| Comunicación | 15 % | Otra persona entiende el flujo leyendo la ficha |
+| Criterio | Qué revisar en el Hito 6b |
+|---|---|
+| Pertinencia al problema real | El flujo ataca el desafío y la meta del Hito 6a |
+| Uso verificado de IA | Prompts documentados por versión y resultados revisados en cada prueba |
+| Calidad del entregable | Flujo, ficha y bitácora completos y coherentes entre sí |
+| Ética, privacidad y licencias | Sin datos personales expuestos; supervisión humana clara |
+| Comunicación | Otra persona entiende el flujo leyendo la ficha |
 
-Este hito es formativo: no pondera en la nota, pero lo que tu tutor te comente aquí mejora tu entrega final. Con el flujo ya en uso,
+Este hito no pondera en la nota, pero lo que corrijas aquí mejora el cierre de tu proyecto. Con el flujo ya en uso,
 empiezas a juntar los datos que vas a comparar con tu línea base en el tema siguiente.
 
-:::actividad Revisa antes de entregar
+:::actividad Revisa antes de cerrar el hito
 - [ ] Cada punto de supervisión dice quién, cuándo, qué y con qué criterio.
 - [ ] Cada riesgo tiene un control o una decisión registrada.
 - [ ] La bitácora tiene fecha, contexto, decisión y consecuencias en cada entrada.

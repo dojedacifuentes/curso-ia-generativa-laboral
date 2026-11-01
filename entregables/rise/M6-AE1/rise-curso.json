@@ -21,7 +21,7 @@
      "items": [
       {
        "heading": "Qué vas a lograr en este taller",
-       "paragraph": "<p><strong>Competencia del módulo:</strong> Aplicar la IA generativa en un proyecto basado en un desafío laboral real, midiendo resultados y comunicándolos, integrando lo aprendido en los módulos anteriores.</p><p><strong>Aprendizaje esperado:</strong> Diagnosticar una oportunidad de mejora en un contexto laboral real (su cargo actual o uno al que aspira) que pueda abordarse con IA, definiendo situación inicial y metas.</p><p>Este módulo es un taller. No trae temas nuevos que estudiar: aquí juntas lo que construiste desde el módulo 1 y lo conviertes en un proyecto terminado, medido y presentado, con una tarea de tu trabajo como centro. Por eso las pantallas son pocas. El trabajo lo haces tú, con tu proyecto al lado.</p><p>El aprendizaje esperado de este tema es este: Diagnosticar una oportunidad de mejora en un contexto laboral real (su cargo actual o uno al que aspira) que pueda abordarse con IA, definiendo situación inicial y metas. Al terminar vas a tener descrita con datos la situación inicial de una tarea de tu cargo, una meta con indicadores medibles y una justificación de por qué usar IA en ella es viable.</p><p>El taller avanza en cuatro hitos. En este tema entregas el Hito 6a, con el diagnóstico, la meta y el plan de medición. En el segundo tema implementas y documentas el flujo (Hito 6b), y en el tercero mides los resultados (Hito 6c) y preparas un pitch de tres minutos y tu portafolio final (Hito 6d). Un método de mejora muy usado se ordena con tres preguntas: qué quieres lograr, cómo sabrás que un cambio es una mejora y qué cambio vas a probar (Institute for Healthcare Improvement, s. f.). Este tema responde las dos primeras, porque sin un punto de partida medido no hay forma de saber, al final, si tu proyecto funcionó.</p>"
+       "paragraph": "<p><strong>Competencia del módulo:</strong> Aplicar la IA generativa en un proyecto basado en un desafío laboral real, midiendo resultados y comunicándolos, integrando lo aprendido en los módulos anteriores.</p><p><strong>Aprendizaje esperado:</strong> Diagnosticar una oportunidad de mejora en un contexto laboral real (su cargo actual o uno al que aspira) que pueda abordarse con IA, definiendo situación inicial y metas.</p><p>Este módulo es un taller. No trae temas nuevos que estudiar: aquí juntas lo que construiste desde el módulo 1 y lo conviertes en un proyecto terminado, medido y presentado, con una tarea de tu trabajo como centro. Por eso las pantallas son pocas. El trabajo lo haces tú, con tu proyecto al lado.</p><p>El aprendizaje esperado de este tema es este: Diagnosticar una oportunidad de mejora en un contexto laboral real (su cargo actual o uno al que aspira) que pueda abordarse con IA, definiendo situación inicial y metas. Al terminar vas a tener descrita con datos la situación inicial de una tarea de tu cargo, una meta con indicadores medibles y una justificación de por qué usar IA en ella es viable.</p><p>El taller avanza en cuatro hitos. En este tema trabajas el Hito 6a, con el diagnóstico, la meta y el plan de medición. En el segundo tema implementas y documentas el flujo (Hito 6b), y en el tercero mides los resultados (Hito 6c) y preparas un pitch de tres minutos y tu portafolio final (Hito 6d). Un método de mejora muy usado se ordena con tres preguntas: qué quieres lograr, cómo sabrás que un cambio es una mejora y qué cambio vas a probar (Institute for Healthcare Improvement, s. f.). Este tema responde las dos primeras, porque sin un punto de partida medido no hay forma de saber, al final, si tu proyecto funcionó.</p>"
       }
      ]
     },
@@ -114,7 +114,7 @@
      "settings": {},
      "items": [
       {
-       "paragraph": "<p><strong>Actividad · Arma tu carpeta del proyecto</strong></p><p>Crea una carpeta llamada «Proyecto IA · [tu nombre]» y guarda en ella una copia de cada hito, del 1 al 5, junto con la retroalimentación que te dio tu tutor en cada uno. Si alguna pieza tiene datos de tu empresa, guarda solo la versión sin datos sensibles. Después escribe en un documento nuevo, en dos líneas, tu desafío tal como lo entiendes hoy.</p>"
+       "paragraph": "<p><strong>Actividad · Arma tu carpeta del proyecto</strong></p><p>Crea una carpeta llamada «Proyecto IA · [tu nombre]» y guarda en ella una copia de cada hito, del 1 al 5, junto con lo que anotaste al autoevaluar cada uno. Si alguna pieza tiene datos de tu empresa, guarda solo la versión sin datos sensibles. Después escribe en un documento nuevo, en dos líneas, tu desafío tal como lo entiendes hoy.</p>"
       }
      ]
     },
@@ -622,7 +622,7 @@
    ]
   },
   {
-   "titulo": "Tu Hito 6a y cómo se evalúa",
+   "titulo": "Tu Hito 6a y cómo lo revisas",
    "bloques": [
     {
      "type": "text",
@@ -638,8 +638,8 @@
      },
      "items": [
       {
-       "heading": "Tu Hito 6a y cómo se evalúa",
-       "paragraph": "<p>Ya tienes todas las piezas. El Hito 6a, diagnóstico, meta y plan de medición, es un documento breve, de una o dos páginas. Parte con el diagnóstico de la tarea (sección «Diagnóstico: cómo se hace la tarea hoy») y la línea base, explicando cómo obtuviste los datos (sección «La línea base: tu punto de partida») (CONEVAL, 2019). Sigue con la meta SMART (CDC, 2018) y sus indicadores (secciones de «Indicadores: qué vas a medir» a «Realismo: metas posibles, pero no fáciles»), la justificación de viabilidad con los criterios de la sección «¿Es viable usar IA en este desafío?» y, al final, la tabla del plan de medición (sección «El plan de medición»).</p><p>Tu tutor lo revisa con la rúbrica general de hitos del curso y te responde en un plazo de 72 horas como máximo. Cada criterio se califica como logrado, parcial o no logrado:</p>"
+       "heading": "Tu Hito 6a y cómo lo revisas",
+       "paragraph": "<p>Ya tienes todas las piezas. El Hito 6a, diagnóstico, meta y plan de medición, es un documento breve, de una o dos páginas. Parte con el diagnóstico de la tarea (sección «Diagnóstico: cómo se hace la tarea hoy») y la línea base, explicando cómo obtuviste los datos (sección «La línea base: tu punto de partida») (CONEVAL, 2019). Sigue con la meta SMART (CDC, 2018) y sus indicadores (secciones de «Indicadores: qué vas a medir» a «Realismo: metas posibles, pero no fáciles»), la justificación de viabilidad con los criterios de la sección «¿Es viable usar IA en este desafío?» y, al final, la tabla del plan de medición (sección «El plan de medición»).</p><p>Lo trabajas en la práctica autoevaluada 2 de este tema: no se envía ni lleva nota. Revísalo con estos criterios, compáralo con la respuesta modelo de la práctica y marca cada uno como logrado, en parte o aún no:</p>"
       }
      ]
     },
@@ -657,7 +657,7 @@
      },
      "items": [
       {
-       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Criterio</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Peso</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué mira en el Hito 6a</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Pertinencia al problema real</p></td><td colspan=\"1\" rowspan=\"1\"><p>25 %</p></td><td colspan=\"1\" rowspan=\"1\"><p>El diagnóstico describe una tarea real de tu cargo</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Uso verificado de IA</p></td><td colspan=\"1\" rowspan=\"1\"><p>25 %</p></td><td colspan=\"1\" rowspan=\"1\"><p>La viabilidad se apoya en pruebas que hiciste y documentaste</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Calidad del entregable</p></td><td colspan=\"1\" rowspan=\"1\"><p>20 %</p></td><td colspan=\"1\" rowspan=\"1\"><p>Las cinco partes están completas y los números cuadran</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Ética, privacidad y licencias</p></td><td colspan=\"1\" rowspan=\"1\"><p>15 %</p></td><td colspan=\"1\" rowspan=\"1\"><p>No expones datos personales ni información confidencial de tu empresa</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Comunicación</p></td><td colspan=\"1\" rowspan=\"1\"><p>15 %</p></td><td colspan=\"1\" rowspan=\"1\"><p>Se entiende sin explicaciones adicionales</p></td></tr></tbody></table></div>"
+       "paragraph": "<div class=\"rise-table-wrap\"><table style=\"width: 100%\"><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Criterio</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Qué revisar en el Hito 6a</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Pertinencia al problema real</p></td><td colspan=\"1\" rowspan=\"1\"><p>El diagnóstico describe una tarea real de tu cargo</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Uso verificado de IA</p></td><td colspan=\"1\" rowspan=\"1\"><p>La viabilidad se apoya en pruebas que hiciste y documentaste</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Calidad del entregable</p></td><td colspan=\"1\" rowspan=\"1\"><p>Las cinco partes están completas y los números cuadran</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Ética, privacidad y licencias</p></td><td colspan=\"1\" rowspan=\"1\"><p>No expones datos personales ni información confidencial de tu empresa</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Comunicación</p></td><td colspan=\"1\" rowspan=\"1\"><p>Se entiende sin explicaciones adicionales</p></td></tr></tbody></table></div>"
       }
      ]
     },
@@ -675,7 +675,7 @@
      },
      "items": [
       {
-       "paragraph": "<p>Los hitos 6a, 6b y 6c no ponderan en la nota: sirven para recibir retroalimentación y alimentan el pitch y el portafolio final del Hito 6d. Aprovéchalos para corregir ahora lo que después costaría más.</p>"
+       "paragraph": "<p>Los hitos no ponderan en la nota: son tu proyecto, y cada uno alimenta el pitch y el portafolio final del Hito 6d. Aprovéchalos para corregir ahora lo que después costaría más. Si tienes dudas, pregúntalas en el foro del módulo.</p>"
       }
      ]
     },
@@ -686,7 +686,7 @@
      "settings": {},
      "items": [
       {
-       "paragraph": "<p><strong>Actividad · Revisa antes de entregar</strong></p><ul><li><p>[ ] Mi meta tiene número, unidad, línea base y plazo.</p></li><li><p>[ ] Cada indicador tiene fórmula, fuente y frecuencia.</p></li><li><p>[ ] Expliqué cómo obtuve la línea base.</p></li><li><p>[ ] Justifiqué la viabilidad con al menos tres criterios.</p></li><li><p>[ ] El documento no trae datos personales ni información confidencial de mi empresa.</p></li></ul>"
+       "paragraph": "<p><strong>Actividad · Revisa antes de cerrar el hito</strong></p><ul><li><p>[ ] Mi meta tiene número, unidad, línea base y plazo.</p></li><li><p>[ ] Cada indicador tiene fórmula, fuente y frecuencia.</p></li><li><p>[ ] Expliqué cómo obtuve la línea base.</p></li><li><p>[ ] Justifiqué la viabilidad con al menos tres criterios.</p></li><li><p>[ ] El documento no trae datos personales ni información confidencial de mi empresa.</p></li></ul>"
       }
      ]
     },

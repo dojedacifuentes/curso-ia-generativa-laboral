@@ -14,8 +14,7 @@ Al terminar deberías poder comparar tus resultados con la línea base que fijas
 claridad en un pitch de 3 minutos.
 
 Este tema cierra dos hitos. En el Hito 6c mides tus resultados, los interpretas y propones mejoras. En el Hito 6d presentas tu
-proyecto en tres minutos y reúnes tus mejores evidencias en un portafolio, que es el insumo del Demo Day, la presentación de cierre
-del curso. Un **pitch** es una presentación breve que busca captar la atención en poco tiempo y comunicar una propuesta de forma
+proyecto en tres minutos y reúnes tus mejores evidencias en un portafolio, que compartes en el Demo Day, la presentación de cierre del curso en el foro del módulo 6. Un **pitch** es una presentación breve que busca captar la atención en poco tiempo y comunicar una propuesta de forma
 directa [@F-M6-15]. El tuyo no vende una empresa: muestra un problema real de tu trabajo, lo que hiciste con IA y cuánto cambió, con sus límites.
 Un proyecto que no llegó a su meta también se puede presentar bien. Lo que no se puede es presentar un resultado que no mediste.
 
@@ -238,22 +237,21 @@ cubre: H1, C1, C2, A2
 fuentes: F-M6-12, F-M6-15
 bloque: Texto + tabla de la rúbrica + lista de verificación
 
-Llegaste al cierre y entregas dos hitos. El Hito 6c, medición de resultados y ajustes, es el documento que armaste en P04, con tus
+Llegaste al cierre de dos hitos. El Hito 6c, medición de resultados y ajustes, es el documento que armaste en P04, con tus
 resultados frente a la línea base, los otros factores, las propuestas de mejora y tu autocrítica. El Hito 6d, pitch y portafolio
-final, reúne el pitch de tres minutos [@F-M6-15] (guion y grabación, o presentación en vivo, según indique tu tutor) y el portafolio, y es el
-insumo del Demo Day.
+final, reúne el pitch de tres minutos [@F-M6-15] (guion y grabación) y el portafolio, y es lo que compartes en el Demo Day, el foro del módulo 6.
 
-Tu tutor revisa cada uno con la rúbrica general de hitos y te responde en un plazo de 72 horas como máximo:
+Los trabajas en la práctica autoevaluada 2 de este tema y los revisas con estos criterios, comparándolos con la respuesta modelo:
 
-| Criterio | Peso | Qué mira en el cierre |
-|---|---|---|
-| Pertinencia al problema real | 25 % | Los resultados responden al desafío y a la meta del Hito 6a |
-| Uso verificado de IA | 25 % | Las cifras salen de tu medición y el uso de IA está documentado |
-| Calidad del entregable | 20 % | Pitch dentro de 3 minutos; portafolio completo y ordenado |
-| Ética, privacidad y licencias | 15 % | Sin datos expuestos; licencias y atribuciones al día |
-| Comunicación | 15 % | Resultados y límites claros para tu audiencia |
+| Criterio | Qué revisar en el cierre |
+|---|---|
+| Pertinencia al problema real | Los resultados responden al desafío y a la meta del Hito 6a |
+| Uso verificado de IA | Las cifras salen de tu medición y el uso de IA está documentado |
+| Calidad del entregable | Pitch dentro de 3 minutos; portafolio completo y ordenado |
+| Ética, privacidad y licencias | Sin datos expuestos; licencias y atribuciones al día |
+| Comunicación | Resultados y límites claros para tu audiencia |
 
-El Hito 6c es formativo y no pondera. El Hito 6d es sumativo: según el sistema de evaluación del curso, vale 15 % de la nota final. En
+Ninguno de los dos pondera en la nota: tu nota del curso sale de los casos de aplicación y de la evaluación final. En
 el Demo Day no gana el proyecto con el número más grande. Destaca el que muestra con claridad qué cambió, cómo lo sabe y qué aprendió [@F-M6-12].
 
 :::actividad Revisión final

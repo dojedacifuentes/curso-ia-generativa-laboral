@@ -486,20 +486,22 @@
     log(`FIN diagnóstica módulo ${n}`);
   };
 
-  // Reemplaza el paquete de los 22 quiz juego (alternativas parejas, 01-11). Los ZIP van cargados en window.__archivos.
-  window.quizJuego01 = async (cid, aula) => {
+  // Reemplaza el paquete SCORM de los quiz juego (clave 'quiz', alternativas parejas, 01-11) o de los Rise (clave 'rise', hitos del
+  // módulo 6 autoevaluados, 01-11). Solo toca los temas cuyo ZIP está cargado en window.__archivos.
+  window.quizJuego01 = async (cid, aula, clave = 'quiz') => {
     const st = await estado(cid);
     for (const m of aula.modulos) for (const a of m.aes) {
-      const c = st.cm.find((x) => x.module === 'scorm' && x.name === a.quiz.name);
-      if (!c) { log(`! no está ${a.quiz.name}`); continue; }
-      if (!Object.keys(window.__archivos || {}).some((k) => k.normalize('NFC') === a.quiz.zip.split('/').pop().normalize('NFC'))) continue; // solo los ZIP cargados
+      const x = a[clave];
+      if (!Object.keys(window.__archivos || {}).some((k) => k.normalize('NFC') === x.zip.split('/').pop().normalize('NFC'))) continue; // solo los ZIP cargados
+      const c = st.cm.find((y) => y.module === 'scorm' && y.name === x.name);
+      if (!c) { log(`! no está ${x.name}`); continue; }
       const { d, f, fd } = await formulario(`/course/modedit.php?update=${c.id}&return=0`);
       completitud(fd, 'scorm');
-      await subir(d, archivo(a.quiz.zip), fd.get('packagefile'));
+      await subir(d, archivo(x.zip), fd.get('packagefile'));
       for (const [k, v] of Object.entries({ skipview: '2', hidetoc: '3', nav: '0', displaycoursestructure: '0', popup: '0' })) fd.set(k, v);
-      await enviar(f, fd, `quiz ${c.id}`); log(`~ paquete nuevo: ${a.quiz.name}`);
+      await enviar(f, fd, `${clave} ${c.id}`); log(`~ paquete nuevo: ${x.name}`);
     }
-    log('FIN quiz juego');
+    log(`FIN paquetes ${clave}`);
   };
 
   // Ponderación del 01-11: casos 60 % (cada caso vale lo mismo dentro de su categoría), evaluación final 40 %, el resto 0 %

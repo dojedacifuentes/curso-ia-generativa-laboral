@@ -14,7 +14,7 @@ Diagnosticar una oportunidad de mejora en un contexto laboral real (su cargo act
 Al terminar vas a tener descrita con datos la situación inicial de una tarea de tu cargo, una meta con indicadores medibles y una
 justificación de por qué usar IA en ella es viable.
 
-El taller avanza en cuatro hitos. En este tema entregas el Hito 6a, con el diagnóstico, la meta y el plan de medición. En el segundo
+El taller avanza en cuatro hitos. En este tema trabajas el Hito 6a, con el diagnóstico, la meta y el plan de medición. En el segundo
 tema implementas y documentas el flujo (Hito 6b), y en el tercero mides los resultados (Hito 6c) y preparas un pitch de tres minutos
 y tu portafolio final (Hito 6d). Un método de mejora muy usado se ordena con tres preguntas: qué quieres lograr, cómo sabrás que un
 cambio es una mejora y qué cambio vas a probar [@F-M6-04]. Este tema responde las dos primeras, porque sin un punto de partida medido no hay
@@ -52,8 +52,7 @@ Tener a la vista lo que ya hiciste es parte de la **orientación a resultados**:
 una mejora en tu trabajo, y no como una lista de tareas sueltas del curso [@F-M6-04].
 
 :::actividad Arma tu carpeta del proyecto
-Crea una carpeta llamada «Proyecto IA · [tu nombre]» y guarda en ella una copia de cada hito, del 1 al 5, junto con la
-retroalimentación que te dio tu tutor en cada uno. Si alguna pieza tiene datos de tu empresa, guarda solo la versión sin datos
+Crea una carpeta llamada «Proyecto IA · [tu nombre]» y guarda en ella una copia de cada hito, del 1 al 5, junto con lo que anotaste al autoevaluar cada uno. Si alguna pieza tiene datos de tu empresa, guarda solo la versión sin datos
 sensibles. Después escribe en un documento nuevo, en dos líneas, tu desafío tal como lo entiendes hoy.
 :::
 
@@ -259,7 +258,7 @@ Retroalimentación: Sin fórmula ni fuente no se sabe cómo se calcula ni de dó
 comparar. La herramienta va en el flujo, no en el indicador.
 :::
 
-## P10 · Tu Hito 6a y cómo se evalúa
+## P10 · Tu Hito 6a y cómo lo revisas
 cubre: H1, C1, C2, A1
 fuentes: F-M6-01, F-M6-03
 bloque: Texto + tabla de la rúbrica + lista de verificación
@@ -268,21 +267,21 @@ Ya tienes todas las piezas. El Hito 6a, diagnóstico, meta y plan de medición, 
 el diagnóstico de la tarea (P03) y la línea base, explicando cómo obtuviste los datos (P04) [@F-M6-01]. Sigue con la meta SMART [@F-M6-03] y sus
 indicadores (P05 a P07), la justificación de viabilidad con los criterios de P08 y, al final, la tabla del plan de medición (P09).
 
-Tu tutor lo revisa con la rúbrica general de hitos del curso y te responde en un plazo de 72 horas como máximo. Cada criterio se
-califica como logrado, parcial o no logrado:
+Lo trabajas en la práctica autoevaluada 2 de este tema: no se envía ni lleva nota. Revísalo con estos criterios, compáralo con la
+respuesta modelo de la práctica y marca cada uno como logrado, en parte o aún no:
 
-| Criterio | Peso | Qué mira en el Hito 6a |
-|---|---|---|
-| Pertinencia al problema real | 25 % | El diagnóstico describe una tarea real de tu cargo |
-| Uso verificado de IA | 25 % | La viabilidad se apoya en pruebas que hiciste y documentaste |
-| Calidad del entregable | 20 % | Las cinco partes están completas y los números cuadran |
-| Ética, privacidad y licencias | 15 % | No expones datos personales ni información confidencial de tu empresa |
-| Comunicación | 15 % | Se entiende sin explicaciones adicionales |
+| Criterio | Qué revisar en el Hito 6a |
+|---|---|
+| Pertinencia al problema real | El diagnóstico describe una tarea real de tu cargo |
+| Uso verificado de IA | La viabilidad se apoya en pruebas que hiciste y documentaste |
+| Calidad del entregable | Las cinco partes están completas y los números cuadran |
+| Ética, privacidad y licencias | No expones datos personales ni información confidencial de tu empresa |
+| Comunicación | Se entiende sin explicaciones adicionales |
 
-Los hitos 6a, 6b y 6c no ponderan en la nota: sirven para recibir retroalimentación y alimentan el pitch y el portafolio final del
-Hito 6d. Aprovéchalos para corregir ahora lo que después costaría más.
+Los hitos no ponderan en la nota: son tu proyecto, y cada uno alimenta el pitch y el portafolio final del Hito 6d. Aprovéchalos para corregir
+ahora lo que después costaría más. Si tienes dudas, pregúntalas en el foro del módulo.
 
-:::actividad Revisa antes de entregar
+:::actividad Revisa antes de cerrar el hito
 - [ ] Mi meta tiene número, unidad, línea base y plazo.
 - [ ] Cada indicador tiene fórmula, fuente y frecuencia.
 - [ ] Expliqué cómo obtuve la línea base.

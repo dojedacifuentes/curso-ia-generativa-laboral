@@ -1,8 +1,8 @@
 # Quiz M5-AE3 · Supervisión humana y riesgos
 
 **Misión:** decidir dónde revisa una persona y qué hacer si el flujo falla
-**Cuándo:** al terminar el tema «Supervisión humana y riesgos», antes de entregar el Hito 5 del proyecto.
-**Insignia:** Flujo con guardia · **Siguiente parada:** Proyecto aplicado, Hito 5
+**Cuándo:** al terminar el tema «Supervisión humana y riesgos», antes de trabajar el Hito 5 de tu proyecto en la práctica autoevaluada 2.
+**Insignia:** Flujo con guardia · **Siguiente parada:** práctica autoevaluada 2, el Hito 5 de tu proyecto
 **Estilo:** acento #ff7a59 · acento2 #fbbf24 · fondo neuronas · lema Quién mira, cuándo y qué pasa si falla
 **Ilustración:** flujo | Tu flujo (engranaje) · Tu mirada (escudo) · Tu plan (ruta)
 

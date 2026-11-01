@@ -165,7 +165,7 @@ evaluación de cada módulo, evaluación final y contacto entre facilitador y es
 - **Resultados y aprendizajes.** Aprendizaje esperado: Evaluar los resultados del proyecto y comunicarlos mediante un pitch y un portafolio, proponiendo mejoras.
   - Aprende: Rise «Resultados y aprendizajes» (SCORM).
   - Practica: quiz juego «Resultados y aprendizajes» (SCORM).
-- Foro del módulo 6 (avances del proyecto y consultas).
+- Demo Day: foro del módulo 6 (pitch del proyecto y consultas).
 - Resumen del módulo: infografía animada (SCORM), video de resumen y glosario del módulo.
 - Evaluación del módulo 6: 9 preguntas con casos y alternativas.
 

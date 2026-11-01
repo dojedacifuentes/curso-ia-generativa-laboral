@@ -47,3 +47,10 @@ de Drive en una pestaña nueva.
 | 180 · resumen M6 | https://drive.google.com/file/d/139Fs8C_QE8699BnbypRS_G6KDQ3_WQ1W/view |
 
 Para cambiar un video: subir el MP4 nuevo con «Administrar versiones» en Drive (mantiene el mismo enlace), así no hay que tocar Moodle.
+
+## Alojados en el aula (01-11)
+
+Para no depender de la cuenta personal de Drive, los 12 videos (versión `_liviano.mp4`, ~22 MB) quedaron **dentro de Moodle**: cada
+uno en el área de archivos de la descripción de su página «Video de bienvenida/resumen del módulo N», con el reproductor de Moodle,
+visible en la página del módulo y en la página del video. Los subtítulos van incrustados. Se suben partidos en trozos de 9,5 MB
+(`split -b 9500000`) que el armador une en el navegador (`video01` de `scripts/lib/moodle-armador.js`). Drive queda solo como respaldo.

@@ -72,7 +72,7 @@ for (const m of curso.modulos) {
   if (cs.length) md += '- Práctica evaluada:\n' + cs.map(c => `  - Caso de aplicación: ${c} (página) y su «Entrega y revisión docente» (tarea con rúbrica).
 `).join('') + `- Foro de casos del módulo ${m.n}.
 `;
-  else md += `- Foro del módulo ${m.n} (avances del proyecto y consultas).
+  else md += `- Demo Day: foro del módulo ${m.n} (pitch del proyecto y consultas).
 `;
   md += `- Resumen del módulo: infografía animada (SCORM), video de resumen y glosario del módulo.
 - Evaluación del módulo ${m.n}: ${nEval(`M${m.n}.json`)} preguntas con casos y alternativas.

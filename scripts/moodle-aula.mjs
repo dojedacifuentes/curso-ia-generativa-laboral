@@ -29,6 +29,7 @@ const VIDEOS = (() => {
   for (const [, tipo, n, id] of md.matchAll(/^\| \d+ · (bienvenida|resumen) M(\d) \| https:\/\/drive\.google\.com\/file\/d\/([\w-]+)\/view \|/gm)) (v[n] ||= {})[tipo] = id;
   return v;
 })();
+const videoAula = (archivo, titulo) => `<video controls preload="metadata" playsinline style="width:100%;max-width:880px;border-radius:18px;background:#00060F;box-shadow:0 10px 30px rgba(0,6,15,.18);" title="${titulo}"><source src="@@PLUGINFILE@@/${archivo}" type="video/mp4"></video>`;
 const videoDrive = (id, titulo) => `<div style="position:relative;width:100%;max-width:880px;aspect-ratio:16/9;border-radius:18px;overflow:hidden;background:${'#00060F'};box-shadow:0 10px 30px rgba(0,6,15,.18);margin:6px 0 4px;"><iframe src="https://drive.google.com/file/d/${id}/preview" title="${titulo.replace(/"/g, '&quot;')}" allow="autoplay; fullscreen" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe></div>`;
 
 // ---------- marca (manual e-tech; scripts/lib/marca.mjs) ----------
@@ -208,25 +209,26 @@ const modulos = curso.modulos.map((m) => {
     return { id, titulo, name: `Caso de aplicación: ${titulo}`, html: estilar(main(`entregables/casos/html/${id}.html`)), entrega: { name: `Entrega y revisión docente: ${titulo}`, intro: entrega }, rubrica: rubrica(rubCaso, `Rúbrica · Caso de aplicación: ${titulo}`) };
   });
   const conCasos = casos.length > 0;
-  const f = foroDe(conCasos ? `Foro de casos del módulo ${m.n} ` : `Foro del módulo ${m.n} `);
+  const f = foroDe(conCasos ? `Foro de casos del módulo ${m.n} ` : 'Demo Day'); // el foro del módulo 6 es el Demo Day (01-11)
   if (!f) throw new Error(`sin foro del módulo ${m.n}`);
   return {
     n: m.n, nombre: m.nombre, horas: HORAS[m.n], seccion: `Módulo ${m.n}: ${m.nombre} (${HORAS[m.n]} horas)`, resumen: heroModulo(m), banner: RETOS.modulos[m.n].banner,
     reservados: { bienvenida: { name: `Video de bienvenida del módulo ${m.n}` }, diagnostica: { name: `Evaluación diagnóstica del módulo ${m.n}`, html: reservado('Aquí va la evaluación diagnóstica del módulo.') }, resumenVideo: { name: `Video de resumen del módulo ${m.n}` } },
     // los videos se ven en la sección: la descripción de la página lleva el reproductor de Drive
     videos: {
-      bienvenida: VIDEOS[m.n]?.bienvenida && videoDrive(VIDEOS[m.n].bienvenida, `Video de bienvenida del módulo ${m.n}`),
-      resumen: VIDEOS[m.n]?.resumen && videoDrive(VIDEOS[m.n].resumen, `Video de resumen del módulo ${m.n}`),
+      // 01-11: el MP4 está en el aula (área de archivos de la descripción de la página, lo sube video01 del armador), no en Drive
+      bienvenida: videoAula(`M${m.n}_bienvenida.mp4`, `Video de bienvenida del módulo ${m.n}`),
+      resumen: videoAula(`M${m.n}_resumen.mp4`, `Video de resumen del módulo ${m.n}`),
     },
     aes, casos,
     etiquetas: {
       empieza: encabezado('play', 'Empieza aquí', 'Mira el video de bienvenida y responde la evaluación diagnóstica para ver desde dónde partes.'),
       casos: encabezado('badge-check', 'Práctica evaluada', 'Lee cada caso y sube tu documento en su «Entrega y revisión docente»: el docente te pone la nota y te devuelve su revisión en esa misma tarea. Los 11 casos del curso suman el 60 % de tu nota y pesan lo mismo.'),
-      foro: encabezado('users', conCasos ? 'Foro de casos' : 'Foro del módulo', conCasos ? 'Comparte los resultados de tus casos, conversa con tus compañeros y haz tus consultas.' : 'Comparte los avances de tu proyecto, conversa con tus compañeros y haz tus consultas.'),
+      foro: encabezado('users', conCasos ? 'Foro de casos' : 'Foro del módulo', conCasos ? 'Comparte los resultados de tus casos, conversa con tus compañeros y haz tus consultas.' : 'Demo Day: comparte el pitch de tu proyecto, mira los de tus compañeros y haz tus consultas.'),
       resumen: encabezado('layers', 'Resumen del módulo', 'Las ideas clave en una infografía animada y un video, y el glosario del módulo para buscar cada término.'),
       evaluacion: encabezado('list-checks', 'Evaluación del módulo', 'Preguntas con casos y alternativas, con retroalimentación en cada respuesta. Te muestra cómo vas y te prepara para la evaluación final; no pondera en tu nota.'),
     },
-    foro: { name: conCasos ? `Foro de casos del módulo ${m.n}` : `Foro del módulo ${m.n}`, intro: estilar(f.cuerpo) },
+    foro: { name: conCasos ? `Foro de casos del módulo ${m.n}` : `Demo Day: foro del módulo ${m.n}`, intro: estilar(f.cuerpo) },
     infografia: { name: `Infografía del módulo ${m.n}`, intro: '<p>Las ideas clave del módulo. Abre cada tarjeta y sigue el recorrido guiado.</p>', zip: `entregables/infografias/M${m.n}-Infografia-SCORM.zip` },
     glosario: { name: `Glosario del módulo ${m.n}`, intro: '<p>Los términos del módulo con su definición. Usa el buscador para encontrar uno.</p>', xml: `entregables/glosario/Glosario-M${m.n}-Moodle.xml`, xmlTexto: fs.existsSync(rel('entregables', 'glosario', `Glosario-M${m.n}-Moodle.xml`)) ? leer('entregables', 'glosario', `Glosario-M${m.n}-Moodle.xml`) : '' },
     evaluacion: evaluacion(`M${m.n}.json`, `Evaluación del módulo ${m.n}`, `Evaluación del módulo ${m.n}`),

@@ -492,6 +492,7 @@
     for (const m of aula.modulos) for (const a of m.aes) {
       const c = st.cm.find((x) => x.module === 'scorm' && x.name === a.quiz.name);
       if (!c) { log(`! no está ${a.quiz.name}`); continue; }
+      if (!Object.keys(window.__archivos || {}).some((k) => k.normalize('NFC') === a.quiz.zip.split('/').pop().normalize('NFC'))) continue; // solo los ZIP cargados
       const { d, f, fd } = await formulario(`/course/modedit.php?update=${c.id}&return=0`);
       completitud(fd, 'scorm');
       await subir(d, archivo(a.quiz.zip), fd.get('packagefile'));
@@ -522,6 +523,39 @@
       if (e) await editar(e.id, { 'introeditor[text]': html, 'introeditor[format]': '1' });
     }
     log('FIN encabezados');
+  };
+
+  // Foro y encabezado del foro de cada módulo desde aula.json (01-11: el del módulo 6 pasa a ser el Demo Day)
+  window.foros01 = async (cid, aula) => {
+    const st = await estado(cid);
+    for (const m of aula.modulos) {
+      const cms = cmsDe(st, m.n);
+      const fo = cms.find((c) => c.module === 'forum' && (c.name === m.foro.name || /^Foro (de casos )?del módulo \d+$/.test(c.name)));
+      if (fo) { await editar(fo.id, { name: m.foro.name, 'introeditor[text]': m.foro.intro, 'introeditor[format]': '1' }, 'forum-modulo'); log(`~ ${m.foro.name}`); }
+      const et = cms.find((c) => c.module === 'label' && /^Foro (de casos|del módulo)$/.test(c.name));
+      if (et) await editar(et.id, { 'introeditor[text]': m.etiquetas.foro, 'introeditor[format]': '1' });
+    }
+    log('FIN foros');
+  };
+
+  // Videos de bienvenida y resumen dentro del aula (01-11), para no depender de una cuenta personal de Drive. Cada MP4 entra
+  // partido en window.__archivos («M1_bienvenida.mp4.part0», «.part1»…), se une aquí y queda en la descripción de su página
+  window.video01 = async (cid, aula, n, tipo) => {
+    const m = aula.modulos.find((x) => x.n === n); const nombre = tipo === 'bienvenida' ? m.reservados.bienvenida.name : m.reservados.resumenVideo.name;
+    const base = `M${n}_${tipo}.mp4`;
+    const partes = Object.keys(window.__archivos || {}).filter((k) => k.startsWith(`${base}.part`)).sort();
+    if (!partes.length) throw new Error(`sin partes de ${base}`);
+    const archivoVideo = new File(partes.map((k) => window.__archivos[k]), base, { type: 'video/mp4' });
+    const pg = cmsDe(await estado(cid), n).find((c) => c.module === 'page' && c.name === nombre);
+    if (!pg) throw new Error(`no está ${nombre}`);
+    const { d, f, fd } = await formulario(`/course/modedit.php?update=${pg.id}&return=0`);
+    completitud(fd, 'page');
+    await subir(d, archivoVideo, fd.get('introeditor[itemid]'));
+    const html = `<video controls preload="metadata" playsinline style="width:100%;max-width:880px;border-radius:18px;background:#00060F;box-shadow:0 10px 30px rgba(0,6,15,.18);" title="${nombre}"><source src="@@PLUGINFILE@@/${base}" type="video/mp4"></video>`;
+    for (const [k, v] of Object.entries({ 'introeditor[text]': html, 'introeditor[format]': '1', showdescription: '1', printintro: '1', 'page[text]': '<p>El video tiene subtítulos incluidos. También lo puedes ver en la página del módulo.</p>', 'page[format]': '1' })) fd.set(k, v);
+    await enviar(f, fd, `video ${pg.id}`);
+    for (const k of partes) delete window.__archivos[k];
+    log(`~ video en el aula: ${nombre} (${Math.round(archivoVideo.size / 1e6)} MB)`);
   };
 
   // SCORM: entrar directo al contenido (sin la página con el botón «Entrar»)
@@ -564,7 +598,7 @@
     revisa('página del curso', dc.querySelector('[role=main]')?.innerText || '');
     for (const m of aula.modulos) {
       const s = seccion(st, m.n); const nodo = dc.querySelector(`[data-sectionid="${s.id}"], #section-${m.n}`);
-      const iframes = nodo ? nodo.querySelectorAll('iframe[src*="drive.google.com"]').length : 0;
+      const iframes = nodo ? nodo.querySelectorAll('video source[src*="pluginfile"], video[src*="pluginfile"]').length : 0;
       if (iframes !== 2) h.push(`módulo ${m.n}: ${iframes} videos embebidos (se esperan 2)`);
       const fondo = nodo?.innerHTML.match(/url\(([^)]+pluginfile[^)]+)\)/)?.[1]?.replace(/&quot;|["']/g, '');
       if (!fondo) h.push(`módulo ${m.n}: sin foto de portada`); else if (!(await fetch(fondo.replace(/&amp;/g, '&'))).ok) h.push(`módulo ${m.n}: la foto de portada no carga`);

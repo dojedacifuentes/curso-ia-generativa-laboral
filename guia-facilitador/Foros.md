@@ -2,8 +2,8 @@
 
 El curso tiene siete foros: uno de interacción, abierto todo el curso, y uno por cada uno de los seis módulos. En los módulos 1 a 5
 es el foro de casos: ahí cada persona comparte el resultado de los casos de aplicación, responde la pregunta para conversar de cada
-caso y hace sus consultas sobre los casos y las actividades del módulo. En el módulo 6, el taller, no hay casos: el foro recibe los
-avances del proyecto de cada persona y las consultas. Los foros no llevan nota (cambio del 31-10); la nota de los casos se pone en la tarea «Entrega y revisión docente» de cada caso. Esta guía explica cómo moderarlos.
+caso y hace sus consultas sobre los casos y las actividades del módulo. En el módulo 6, el taller, no hay casos: el foro es el **Demo Day**, donde cada persona comparte el pitch de su proyecto y hace sus
+consultas. Los foros no llevan nota (cambio del 31-10); la nota de los casos se pone en la tarea «Entrega y revisión docente» de cada caso. Esta guía explica cómo moderarlos.
 
 ### Plazo de respuesta
 

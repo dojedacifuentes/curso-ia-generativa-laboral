@@ -1,6 +1,7 @@
 <title>Inducción al curso</title>
-<!-- Inducción al curso (02-11). Voz de la presentadora 2:19 (una toma, tiempos de palabra de HeyGen). Se arma con armar_html.py
-     (marca Empoderatech). Capturas reales del aula en vista de estudiante en media/*.jpg (1920×1080). -->
+<!-- Inducción al curso (02-11, v2). Voz de la presentadora 2:19 (una toma, tiempos de palabra de HeyGen). Se arma con armar_html.py
+     (marca Empoderatech). Capturas reales del aula en vista de estudiante en media/*.jpg (1536×639, índice lateral oculto); cada
+     captura entra cuando la voz nombra lo que muestra (paneles con data-span). -->
 
 <!-- ===== encabezado (desde 12,6 s) ===== -->
 <div id="hdr" class="a" data-in="12.60" data-out="131.13" data-fx="fade">
@@ -29,7 +30,7 @@
   <div class="abs avatar-frame a" data-in="0.00" data-fx="lin" data-slot="avatar_intro"><div class="slot-label">Presentadora (intro)</div></div>
 </section>
 
-<!-- ===== S2 · cómo está organizado · portada (12,83–23,86) ===== -->
+<!-- ===== S2 · cómo está organizado (12,83–23,86): portada → ruta → guía → avisos ===== -->
 <section class="scene" data-span="12.83,23.86">
   <div class="left-col" style="width:600px">
     <h2 class="a" data-in="13.10" style="font-size:50px">Cómo está organizado</h2>
@@ -43,9 +44,17 @@
       <div class="ck a" data-in="21.80" style="font-size:29px"><div class="box"><div class="f" data-check="22.40"><svg viewBox="0 0 24 24"><polyline points="5 12.5 10 17 19 7"/></svg></div></div>Avisos del equipo docente</div>
     </div>
   </div>
-  <div class="abs card a" data-in="13.30" data-focus="18.20,23.40,1.05" style="left:760px;top:150px;width:1040px;height:629px;overflow:hidden;border-radius:22px">
-    <div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Bienvenida</span></div>
-    <img src="media/portada.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top">
+  <div class="panel" data-span="12.83,18.90" data-focus="14.00,17.50,1.04">
+    <div class="card a" data-in="13.10" style="width:1040px;height:629px;overflow:hidden;border-radius:22px"><div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Bienvenida · Portada</span></div><img src="media/portada.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top"></div>
+  </div>
+  <div class="panel" data-span="18.90,20.10">
+    <div class="card a" data-in="18.95" data-fx="fade" style="width:1040px;height:629px;overflow:hidden;border-radius:22px"><div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Bienvenida · Ruta del curso</span></div><img src="media/ruta.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top"></div>
+  </div>
+  <div class="panel" data-span="20.10,21.70">
+    <div class="card a" data-in="20.15" data-fx="fade" style="width:1040px;height:629px;overflow:hidden;border-radius:22px"><div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Inducción al curso · Guía del participante</span></div><img src="media/guia.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top"></div>
+  </div>
+  <div class="panel" data-span="21.70,23.86">
+    <div class="card a" data-in="21.75" data-fx="fade" style="width:1040px;height:629px;overflow:hidden;border-radius:22px"><div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Bienvenida · Avisos</span></div><img src="media/avisos.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top"></div>
   </div>
 </section>
 
@@ -59,13 +68,13 @@
     </div>
     <span class="pill ce a" data-in="30.55" data-fx="pop" style="margin-top:34px">Después vienen los temas</span>
   </div>
-  <div class="abs card a" data-in="24.30" data-focus="25.50,29.50,1.05" style="left:760px;top:150px;width:1040px;height:629px;overflow:hidden;border-radius:22px">
-    <div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Módulo 1</span></div>
+  <div class="abs card a" data-in="24.30" data-focus="27.10,29.60,1.05" style="left:760px;top:150px;width:1040px;height:629px;overflow:hidden;border-radius:22px">
+    <div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Módulo 1 · Empieza aquí</span></div>
     <img src="media/modulo.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top">
   </div>
 </section>
 
-<!-- ===== S4 · cada tema, tres pasos (32,43–51,45) ===== -->
+<!-- ===== S4 · cada tema, tres pasos (32,43–51,45): tema → prácticas → página de práctica ===== -->
 <section class="scene" data-span="32.43,51.45">
   <div class="rail-list" style="width:600px">
     <h2 class="a" data-in="32.80" style="font-size:50px">Cada tema, tres pasos</h2>
@@ -80,13 +89,18 @@
       <span class="pill main a" data-in="49.95" data-fx="pop">No se envía ni lleva nota</span>
     </div>
   </div>
-  <div class="abs card a" data-in="33.00" data-focus="36.90,43.60,1.05" style="left:760px;top:150px;width:1040px;height:629px;overflow:hidden;border-radius:22px">
-    <div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Tema 1</span></div>
-    <img src="media/tema.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top">
+  <div class="panel" data-span="32.43,41.95" data-focus="38.00,41.60,1.05">
+    <div class="card a" data-in="33.00" style="width:1040px;height:629px;overflow:hidden;border-radius:22px"><div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Tema 1 · Contenido y quiz</span></div><img src="media/tema.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top"></div>
+  </div>
+  <div class="panel" data-span="41.95,46.30" data-focus="42.20,46.00,1.04">
+    <div class="card a" data-in="42.00" data-fx="fade" style="width:1040px;height:629px;overflow:hidden;border-radius:22px"><div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Tema 1 · Prácticas autoevaluadas 1 y 2</span></div><img src="media/practicas.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top"></div>
+  </div>
+  <div class="panel" data-span="46.30,51.45" data-focus="46.50,50.80,1.05">
+    <div class="card a" data-in="46.35" data-fx="fade" style="width:1040px;height:629px;overflow:hidden;border-radius:22px"><div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Práctica autoevaluada 1</span></div><img src="media/practica-pagina.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top"></div>
   </div>
 </section>
 
-<!-- ===== S5 · la práctica evaluada (51,45–77,79) ===== -->
+<!-- ===== S5 · la práctica evaluada (51,45–77,79): bloque → caso → entrega → rúbrica → pitch ===== -->
 <section class="scene" data-span="51.45,77.79">
   <div class="left-col" style="width:600px">
     <h2 class="a" data-in="51.80" style="font-size:50px">La práctica evaluada</h2>
@@ -105,32 +119,28 @@
       </div>
     </div>
   </div>
-  <!-- caso y tarea en la sección del módulo -->
-  <div class="panel" data-span="51.45,63.60" data-focus="57.80,63.00,1.05">
-    <div class="card a" data-in="51.70" style="width:1040px;height:629px;overflow:hidden;border-radius:22px">
-      <div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Práctica evaluada</span></div>
-      <img src="media/practica.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top">
+  <div class="panel" data-span="51.45,57.90" data-focus="53.70,57.60,1.04">
+    <div class="card a" data-in="51.70" style="width:1040px;height:629px;overflow:hidden;border-radius:22px"><div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Módulo 1 · Práctica evaluada</span></div><img src="media/practica-evaluada.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top"></div>
+  </div>
+  <div class="panel" data-span="57.90,60.50">
+    <div class="card a" data-in="57.95" data-fx="fade" style="width:1040px;height:629px;overflow:hidden;border-radius:22px"><div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Caso de aplicación</span></div><img src="media/caso.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top"></div>
+  </div>
+  <div class="panel" data-span="60.50,65.90" data-focus="63.80,65.60,1.06">
+    <div class="card a" data-in="60.55" data-fx="fade" style="width:1040px;height:629px;overflow:hidden;border-radius:22px;position:relative"><div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Entrega y revisión docente</span></div><img src="media/entrega.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top">
+      <span class="abs pill main a" data-in="64.00" data-fx="pop" style="left:560px;top:206px;padding:12px 22px;font-size:24px;box-shadow:0 14px 30px -10px rgba(0,0,0,.7)"><svg class="ic" style="width:28px;height:28px" viewBox="0 0 24 24"><path d="M12 16V4m0 0 4 4m-4-4-4 4"/><path d="M4 17v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-2"/></svg>Agregar entrega</span>
     </div>
   </div>
-  <!-- la tarea con el botón «Agregar entrega» -->
-  <div class="panel" data-span="63.60,70.60" data-focus="63.90,69.00,1.06">
-    <div class="card a" data-in="63.70" style="width:1040px;height:629px;overflow:hidden;border-radius:22px;position:relative">
-      <div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Entrega y revisión docente</span></div>
-      <img src="media/entrega.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top">
-      <span class="abs pill main a" data-in="64.05" data-fx="pop" style="left:560px;top:206px;padding:12px 22px;font-size:24px;box-shadow:0 14px 30px -10px rgba(0,0,0,.7)"><svg class="ic" style="width:28px;height:28px" viewBox="0 0 24 24"><path d="M12 16V4m0 0 4 4m-4-4-4 4"/><path d="M4 17v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-2"/></svg>Agregar entrega</span>
-    </div>
+  <div class="panel" data-span="65.90,70.60" data-focus="66.00,70.20,1.04">
+    <div class="card a" data-in="65.95" data-fx="fade" style="width:1040px;height:629px;overflow:hidden;border-radius:22px"><div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Entrega y revisión docente · Rúbrica</span></div><img src="media/rubrica.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top"></div>
   </div>
-  <!-- módulo 6: el pitch -->
   <div class="panel" data-span="70.60,77.79" data-focus="73.50,77.40,1.05">
-    <div class="card a" data-in="70.70" style="width:1040px;height:629px;overflow:hidden;border-radius:22px;position:relative">
-      <div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Módulo 6</span></div>
-      <img src="media/pitch.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top">
+    <div class="card a" data-in="70.65" data-fx="fade" style="width:1040px;height:629px;overflow:hidden;border-radius:22px;position:relative"><div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Módulo 6 · Pitch de tu proyecto</span></div><img src="media/pitch.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top">
       <span class="abs pill ce a" data-in="73.50" data-fx="pop" style="left:600px;top:530px;padding:12px 22px;font-size:24px;box-shadow:0 14px 30px -10px rgba(0,0,0,.7)"><svg class="ic" style="width:28px;height:28px" viewBox="0 0 24 24"><rect x="3" y="6" width="13" height="12" rx="2"/><polygon points="16 10 21 7 21 17 16 14"/></svg>Pitch en video o audio · 3 minutos</span>
     </div>
   </div>
 </section>
 
-<!-- ===== S6 · repasa y cierra el módulo (77,79–88,99) ===== -->
+<!-- ===== S6 · repasa y cierra el módulo (77,79–88,99): infografía y video → glosario → evaluación ===== -->
 <section class="scene" data-span="77.79,88.99">
   <div class="left-col" style="width:600px">
     <h2 class="a" data-in="78.10" style="font-size:50px">Repasa y cierra el módulo</h2>
@@ -141,9 +151,14 @@
       <div class="it a" data-in="84.40"><div class="ib" style="background:var(--fr)"><svg class="ic" viewBox="0 0 24 24"><polyline points="9 11 12 14 20 6"/><path d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h9"/></svg></div><div><strong>Evaluación del módulo</strong><span class="a" data-in="85.45" data-fx="fade">Preguntas con casos y alternativas · se corrige sola</span></div></div>
     </div>
   </div>
-  <div class="abs card a" data-in="78.00" data-focus="79.20,85.00,1.05" style="left:760px;top:150px;width:1040px;height:629px;overflow:hidden;border-radius:22px">
-    <div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Resumen del módulo</span></div>
-    <img src="media/resumen.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top">
+  <div class="panel" data-span="77.79,82.00" data-focus="79.20,81.80,1.04">
+    <div class="card a" data-in="78.00" style="width:1040px;height:629px;overflow:hidden;border-radius:22px"><div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Módulo 1 · Resumen del módulo</span></div><img src="media/resumen2.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top"></div>
+  </div>
+  <div class="panel" data-span="82.00,83.90">
+    <div class="card a" data-in="82.05" data-fx="fade" style="width:1040px;height:629px;overflow:hidden;border-radius:22px"><div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Módulo 1 · Glosario</span></div><img src="media/resumen.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:bottom"></div>
+  </div>
+  <div class="panel" data-span="83.90,88.99" data-focus="84.40,88.40,1.04">
+    <div class="card a" data-in="83.95" data-fx="fade" style="width:1040px;height:629px;overflow:hidden;border-radius:22px"><div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Evaluación del módulo 1</span></div><img src="media/evaluacion.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top"></div>
   </div>
 </section>
 
@@ -178,7 +193,7 @@
   </div>
 </section>
 
-<!-- ===== S8 · dudas y notas (105,53–119,36) ===== -->
+<!-- ===== S8 · dudas y notas (105,53–119,36): foro de casos → foro de interacción → calificaciones ===== -->
 <section class="scene" data-span="105.53,119.36">
   <div class="left-col" style="width:600px">
     <h2 class="a" data-in="105.80" style="font-size:50px">Dudas y notas</h2>
@@ -188,17 +203,14 @@
       <div class="it a" data-in="114.90"><div class="ib" style="background:var(--fr)"><svg class="ic" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="9" y1="4" x2="9" y2="20"/></svg></div><div><strong>Calificaciones</strong><span class="a" data-in="116.00" data-fx="fade">Tus notas y los comentarios del docente, cuando quieras</span></div></div>
     </div>
   </div>
-  <div class="panel" data-span="105.53,114.90" data-focus="107.30,111.00,1.05">
-    <div class="card a" data-in="105.70" style="width:1040px;height:629px;overflow:hidden;border-radius:22px">
-      <div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Foro</span></div>
-      <img src="media/foro.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top">
-    </div>
+  <div class="panel" data-span="105.53,109.30" data-focus="107.30,109.00,1.04">
+    <div class="card a" data-in="105.70" style="width:1040px;height:629px;overflow:hidden;border-radius:22px"><div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Foro de casos del módulo 1</span></div><img src="media/foro.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top"></div>
   </div>
-  <div class="panel" data-span="114.90,119.36" data-focus="115.00,118.80,1.05">
-    <div class="card a" data-in="115.00" style="width:1040px;height:629px;overflow:hidden;border-radius:22px">
-      <div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Calificaciones</span></div>
-      <img src="media/notas.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top">
-    </div>
+  <div class="panel" data-span="109.30,114.70" data-focus="111.10,114.40,1.04">
+    <div class="card a" data-in="109.35" data-fx="fade" style="width:1040px;height:629px;overflow:hidden;border-radius:22px"><div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Foro de interacción del curso</span></div><img src="media/interaccion.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top"></div>
+  </div>
+  <div class="panel" data-span="114.70,119.36" data-focus="115.00,118.80,1.05">
+    <div class="card a" data-in="114.75" data-fx="fade" style="width:1040px;height:629px;overflow:hidden;border-radius:22px"><div style="height:44px;display:flex;align-items:center;gap:10px;padding:0 18px;background:var(--card2);border-bottom:2px solid var(--line)"><i style="width:14px;height:14px;border-radius:50%;background:#ED1566"></i><i style="width:14px;height:14px;border-radius:50%;background:#BE3455"></i><i style="width:14px;height:14px;border-radius:50%;background:#3D9BE9"></i><span style="margin-left:14px;font:500 18px/1 Mont;color:var(--dim)">formacion.empoderatech.com · Calificaciones</span></div><img src="media/notas2.jpg" alt="" style="display:block;width:1040px;height:585px;object-fit:cover;object-position:top"></div>
   </div>
 </section>
 

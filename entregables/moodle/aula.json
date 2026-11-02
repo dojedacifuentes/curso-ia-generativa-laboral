@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T15:32:04.444Z",
+ "generado": "2026-11-02T15:39:06.316Z",
  "pesos": {
   "final": 40,
   "modulo": 10
@@ -1993,7 +1993,7 @@
       "intro": "<div style=\"border:1px solid #E6E7E8;border-left:6px solid #BE3455;border-radius:14px;padding:14px 18px;background:#fff;color:#00060F;line-height:1.6;\"><div style=\"display:flex;gap:10px;align-items:center;font-weight:700;font-size:16px;\"><svg aria-hidden=\"true\" style=\"display:block;flex:none;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#BE3455\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v12\" /><path d=\"m17 8-5-5-5 5\" /><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\" /></svg>Sube aquí tu pitch en video o audio</div><p style=\"margin:8px 0 0;\">Un archivo de video (mp4, mov o webm) o de audio (mp3, m4a o wav) de hasta tres minutos. Si pesa más de lo que admite el aula, súbelo a Google Drive o a YouTube como «no listado» y pega el enlace en el cuadro de texto de la entrega. Puedes agregar tu guion como segundo archivo.</p><div style=\"display:flex;gap:10px;align-items:center;font-weight:700;font-size:16px;margin-top:12px;\"><svg aria-hidden=\"true\" style=\"display:block;flex:none;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#BE3455\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m16 11 2 2 4-4\" /><path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\" /><circle cx=\"9\" cy=\"7\" r=\"4\" /></svg>Revisión del docente</div><p style=\"margin:8px 0 0;\">El docente revisa tu pitch con la rúbrica. En esta misma tarea te devuelve <b>la nota</b>, <b>la rúbrica completada</b> y <b>su revisión</b>. Plazo: hasta 72 horas hábiles. Se aprueba con 60 %. Esta entrega vale <b>5 %</b> de tu nota del curso: la práctica evaluada es la mitad de la nota del módulo.</p></div>",
       "campos": {
        "assignsubmission_file_maxfiles": "2",
-       "assignsubmission_file_filetypes": ".mp4,.mov,.webm,.m4v,.mp3,.m4a,.wav,.ogg,.pdf,.docx,.txt",
+       "assignsubmission_file_filetypes[filetypes]": ".mp4,.mov,.webm,.m4v,.mp3,.m4a,.wav,.ogg,.pdf,.docx,.txt",
        "assignsubmission_file_maxsizebytes": "0"
       }
      },

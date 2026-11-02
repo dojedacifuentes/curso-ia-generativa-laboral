@@ -86,13 +86,15 @@ consultas, en un hilo con «Consulta» en el asunto.
 
 ---
 
-## Demo Day: foro del módulo 6
+## Foro del módulo 6
 
-**Asunto:** ¡Bienvenidos al Demo Day!
+**Asunto:** Abrimos el foro del taller: cuéntanos cómo va tu proyecto
 
-¡Hola! Este foro es el Demo Day, la presentación de cierre del curso. Cuando cierres tu proyecto, abre un hilo con tu nombre y la
-tarea que mejoraste, y comparte tu pitch de tres minutos (la grabación o el guion) con cinco a ocho líneas sobre qué cambió frente a
-tu línea base.
+¡Hola! Llegamos al taller final. Este foro es para contar cómo va tu proyecto y para tus consultas; el pitch no se publica aquí: lo
+grabas en video o audio y lo subes en la práctica evaluada del módulo, «Entrega y revisión docente: Pitch de tu proyecto», donde te
+pongo la nota con la rúbrica.
 
-Después mira los pitch de otras personas y comenta al menos dos: qué te convenció y qué le preguntarías. Al cierre publico una
-síntesis con lo que aprendimos entre todos. Las consultas sobre el módulo, en un hilo con «Consulta» en el asunto.
+Cuando cierres los hitos 6c y 6d, abre un hilo con la tarea de tu proyecto en el asunto y cuenta en cinco a ocho líneas qué mejoraste
+con IA, cómo lo mediste y qué resultado obtuviste frente a tu línea base, sin datos reales de tu empresa. Después lee los avances de
+otras personas y comenta al menos dos: qué te convenció y qué le preguntarías. Al cierre publico una síntesis con lo que aprendimos
+entre todos. Las consultas sobre el módulo o sobre el pitch, en un hilo con «Consulta» en el asunto.

@@ -61,3 +61,7 @@ visible en la página del módulo y en la página del video. Los subtítulos van
 capturas reales del aula en vista de estudiante y la ponderación del 02-11. Dentro de Moodle, en la página «Inducción al curso»
 (cmid 4, sección Bienvenida), encima de la guía del participante; versión `Induccion_liviano.mp4` partida en trozos de 9,5 MB y
 unida por `video01(2, aula, 0, 'induccion')`. Guion en `videos/Induccion/guion.md`. Falta la copia en Drive (carpeta 15).
+
+**Versión 2 (02-11, misma tarde):** las capturas entran cuando la voz nombra lo que muestran (paneles por frase); reemplazada en el
+aula con `video01(2, aula, 0, 'induccion')` (misma URL `pluginfile.php/20/mod_page/intro/Induccion.mp4`, 21,9 MB). Si un navegador
+ya había visto la versión 1 ese día, Moodle sirve el archivo con caché de 6 horas: recargar con Ctrl+F5.

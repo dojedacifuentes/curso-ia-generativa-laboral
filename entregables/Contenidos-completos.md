@@ -1,6 +1,6 @@
 # IA generativa para entornos laborales · Contenidos base
 
-Generado el 2026-11-01 desde `contenido/`. 6 módulos · 22 aprendizajes esperados.
+Generado el 2026-11-02 desde `contenido/`. 6 módulos · 22 aprendizajes esperados.
 
 
 ---
@@ -7672,7 +7672,7 @@ Diagnosticar una oportunidad de mejora en un contexto laboral real (su cargo act
 Al terminar vas a tener descrita con datos la situación inicial de una tarea de tu cargo, una meta con indicadores medibles y una
 justificación de por qué usar IA en ella es viable.
 
-El taller avanza en cuatro hitos. En este tema entregas el Hito 6a, con el diagnóstico, la meta y el plan de medición. En el segundo
+El taller avanza en cuatro hitos. En este tema trabajas el Hito 6a, con el diagnóstico, la meta y el plan de medición. En el segundo
 tema implementas y documentas el flujo (Hito 6b), y en el tercero mides los resultados (Hito 6c) y preparas un pitch de tres minutos
 y tu portafolio final (Hito 6d). Un método de mejora muy usado se ordena con tres preguntas: qué quieres lograr, cómo sabrás que un
 cambio es una mejora y qué cambio vas a probar [@F-M6-04]. Este tema responde las dos primeras, porque sin un punto de partida medido no hay
@@ -7710,8 +7710,7 @@ Tener a la vista lo que ya hiciste es parte de la **orientación a resultados**:
 una mejora en tu trabajo, y no como una lista de tareas sueltas del curso [@F-M6-04].
 
 :::actividad Arma tu carpeta del proyecto
-Crea una carpeta llamada «Proyecto IA · [tu nombre]» y guarda en ella una copia de cada hito, del 1 al 5, junto con la
-retroalimentación que te dio tu tutor en cada uno. Si alguna pieza tiene datos de tu empresa, guarda solo la versión sin datos
+Crea una carpeta llamada «Proyecto IA · [tu nombre]» y guarda en ella una copia de cada hito, del 1 al 5, junto con lo que anotaste al autoevaluar cada uno. Si alguna pieza tiene datos de tu empresa, guarda solo la versión sin datos
 sensibles. Después escribe en un documento nuevo, en dos líneas, tu desafío tal como lo entiendes hoy.
 :::
 
@@ -7917,7 +7916,7 @@ Retroalimentación: Sin fórmula ni fuente no se sabe cómo se calcula ni de dó
 comparar. La herramienta va en el flujo, no en el indicador.
 :::
 
-### P10 · Tu Hito 6a y cómo se evalúa
+### P10 · Tu Hito 6a y cómo lo revisas
 cubre: H1, C1, C2, A1
 fuentes: F-M6-01, F-M6-03
 bloque: Texto + tabla de la rúbrica + lista de verificación
@@ -7926,21 +7925,21 @@ Ya tienes todas las piezas. El Hito 6a, diagnóstico, meta y plan de medición, 
 el diagnóstico de la tarea (P03) y la línea base, explicando cómo obtuviste los datos (P04) [@F-M6-01]. Sigue con la meta SMART [@F-M6-03] y sus
 indicadores (P05 a P07), la justificación de viabilidad con los criterios de P08 y, al final, la tabla del plan de medición (P09).
 
-Tu tutor lo revisa con la rúbrica general de hitos del curso y te responde en un plazo de 72 horas como máximo. Cada criterio se
-califica como logrado, parcial o no logrado:
+Lo trabajas en la práctica autoevaluada 2 de este tema: no se envía ni lleva nota. Revísalo con estos criterios, compáralo con la
+respuesta modelo de la práctica y marca cada uno como logrado, en parte o aún no:
 
-| Criterio | Peso | Qué mira en el Hito 6a |
-|---|---|---|
-| Pertinencia al problema real | 25 % | El diagnóstico describe una tarea real de tu cargo |
-| Uso verificado de IA | 25 % | La viabilidad se apoya en pruebas que hiciste y documentaste |
-| Calidad del entregable | 20 % | Las cinco partes están completas y los números cuadran |
-| Ética, privacidad y licencias | 15 % | No expones datos personales ni información confidencial de tu empresa |
-| Comunicación | 15 % | Se entiende sin explicaciones adicionales |
+| Criterio | Qué revisar en el Hito 6a |
+|---|---|
+| Pertinencia al problema real | El diagnóstico describe una tarea real de tu cargo |
+| Uso verificado de IA | La viabilidad se apoya en pruebas que hiciste y documentaste |
+| Calidad del entregable | Las cinco partes están completas y los números cuadran |
+| Ética, privacidad y licencias | No expones datos personales ni información confidencial de tu empresa |
+| Comunicación | Se entiende sin explicaciones adicionales |
 
-Los hitos 6a, 6b y 6c no ponderan en la nota: sirven para recibir retroalimentación y alimentan el pitch y el portafolio final del
-Hito 6d. Aprovéchalos para corregir ahora lo que después costaría más.
+Los hitos no ponderan en la nota: son tu proyecto, y cada uno alimenta el pitch y el portafolio final del Hito 6d. Aprovéchalos para corregir
+ahora lo que después costaría más. Si tienes dudas, pregúntalas en el foro del módulo.
 
-:::actividad Revisa antes de entregar
+:::actividad Revisa antes de cerrar el hito
 - [ ] Mi meta tiene número, unidad, línea base y plazo.
 - [ ] Cada indicador tiene fórmula, fuente y frecuencia.
 - [ ] Expliqué cómo obtuve la línea base.
@@ -8143,7 +8142,7 @@ pueda leer para entender qué hace, qué necesita y qué produce [@F-M6-07]. La 
 - Responsable y fecha: quién lo mantiene y cuándo se actualizó.
 
 Usa una **convención de nombres** y respétala en todo: el flujo, las plantillas, las planillas y los archivos [@F-M6-07]. Así cualquiera sabe qué
-versión está mirando. Comparte la ficha con quien corresponda, por ejemplo tu jefatura o tu tutor. Un error común es dejarla para el
+versión está mirando. Comparte la ficha con quien corresponda, por ejemplo tu jefatura o tu facilitador. Un error común es dejarla para el
 final y escribirla de memoria: se olvidan dependencias y ajustes. Escríbela antes de la primera prueba y actualízala con cada cambio.
 Ese trabajo prolijo es lo que permite que tu flujo se revise, se mejore o lo use otra persona de tu equipo.
 
@@ -8168,7 +8167,7 @@ Cada entrada lleva una fecha y un título, por ejemplo «12-11 · Dónde registr
 los hechos que te obligaron a decidir; la decisión, que es lo que elegiste; las consecuencias, lo bueno y lo malo que trae, y el
 estado, vigente o reemplazada. Hay una regla que importa más que las otras: una decisión que ya aplicaste no se borra ni se
 reescribe [@F-M6-08]. Si cambias de idea, agregas una entrada nueva y marcas la anterior como reemplazada. Así queda la historia completa, y
-puedes responder la pregunta que te hará tu tutor o tu jefatura: «¿por qué lo hiciste así?».
+puedes responder la pregunta que te hará tu jefatura o tu facilitador: «¿por qué lo hiciste así?».
 
 Una entrada de Camila muestra cómo se ve. El 12-11 anotó «Dónde uso las aplicaciones conectadas». El contexto: la acción programada
 le pide dejar encendida la actividad guardada, y con ella encendida, revisores humanos pueden leer las conversaciones [@F-H-15]. La decisión:
@@ -8237,31 +8236,30 @@ Arma diez casos de prueba sin datos personales, al menos tres difíciles. Córre
 documentado en tu bitácora.
 :::
 
-### P10 · Tu Hito 6b y cómo se evalúa
+### P10 · Tu Hito 6b y cómo lo revisas
 cubre: H1, C1, C2, A3
 fuentes: F-M6-07, F-M6-08
 bloque: Texto + tabla de la rúbrica + lista de verificación
 
-El Hito 6b, implementación del flujo, muestra que tu flujo funciona, que tiene supervisión humana y que quedó documentado. Lo
-entregas en un documento o una carpeta compartida con seis piezas: el flujo en pasos numerados, con lo que hace la IA y lo que haces
+El Hito 6b, implementación del flujo, muestra que tu flujo funciona, que tiene supervisión humana y que quedó documentado. Lo reúnes en un documento o una carpeta compartida con seis piezas: el flujo en pasos numerados, con lo que hace la IA y lo que haces
 tú (P02); la ficha, con supervisión y contingencia [@F-M6-07] (P04 a P06); la tabla de riesgos con sus controles (P05); la bitácora de
 decisiones con al menos tres entradas [@F-M6-08] (P07); la tabla de versiones de tu plantilla principal (P08), y la evidencia de las pruebas,
 con resultados y capturas sin datos personales ni información de tu empresa (P09).
 
-Tu tutor lo revisa con la rúbrica general de hitos y te responde en un plazo de 72 horas como máximo:
+Lo trabajas en la práctica autoevaluada 2 de este tema y lo revisas con estos criterios, comparándolo con la respuesta modelo:
 
-| Criterio | Peso | Qué mira en el Hito 6b |
-|---|---|---|
-| Pertinencia al problema real | 25 % | El flujo ataca el desafío y la meta del Hito 6a |
-| Uso verificado de IA | 25 % | Prompts documentados por versión y resultados revisados en cada prueba |
-| Calidad del entregable | 20 % | Flujo, ficha y bitácora completos y coherentes entre sí |
-| Ética, privacidad y licencias | 15 % | Sin datos personales expuestos; supervisión humana clara |
-| Comunicación | 15 % | Otra persona entiende el flujo leyendo la ficha |
+| Criterio | Qué revisar en el Hito 6b |
+|---|---|
+| Pertinencia al problema real | El flujo ataca el desafío y la meta del Hito 6a |
+| Uso verificado de IA | Prompts documentados por versión y resultados revisados en cada prueba |
+| Calidad del entregable | Flujo, ficha y bitácora completos y coherentes entre sí |
+| Ética, privacidad y licencias | Sin datos personales expuestos; supervisión humana clara |
+| Comunicación | Otra persona entiende el flujo leyendo la ficha |
 
-Este hito es formativo: no pondera en la nota, pero lo que tu tutor te comente aquí mejora tu entrega final. Con el flujo ya en uso,
+Este hito no pondera en la nota, pero lo que corrijas aquí mejora el cierre de tu proyecto. Con el flujo ya en uso,
 empiezas a juntar los datos que vas a comparar con tu línea base en el tema siguiente.
 
-:::actividad Revisa antes de entregar
+:::actividad Revisa antes de cerrar el hito
 - [ ] Cada punto de supervisión dice quién, cuándo, qué y con qué criterio.
 - [ ] Cada riesgo tiene un control o una decisión registrada.
 - [ ] La bitácora tiene fecha, contexto, decisión y consecuencias en cada entrada.
@@ -8312,8 +8310,7 @@ Al terminar deberías poder comparar tus resultados con la línea base que fijas
 claridad en un pitch de 3 minutos.
 
 Este tema cierra dos hitos. En el Hito 6c mides tus resultados, los interpretas y propones mejoras. En el Hito 6d presentas tu
-proyecto en tres minutos y reúnes tus mejores evidencias en un portafolio, que es el insumo del Demo Day, la presentación de cierre
-del curso. Un **pitch** es una presentación breve que busca captar la atención en poco tiempo y comunicar una propuesta de forma
+proyecto en tres minutos y reúnes tus mejores evidencias en un portafolio, que compartes en el Demo Day, la presentación de cierre del curso en el foro del módulo 6. Un **pitch** es una presentación breve que busca captar la atención en poco tiempo y comunicar una propuesta de forma
 directa [@F-M6-15]. El tuyo no vende una empresa: muestra un problema real de tu trabajo, lo que hiciste con IA y cuánto cambió, con sus límites.
 Un proyecto que no llegó a su meta también se puede presentar bien. Lo que no se puede es presentar un resultado que no mediste.
 
@@ -8536,22 +8533,21 @@ cubre: H1, C1, C2, A2
 fuentes: F-M6-12, F-M6-15
 bloque: Texto + tabla de la rúbrica + lista de verificación
 
-Llegaste al cierre y entregas dos hitos. El Hito 6c, medición de resultados y ajustes, es el documento que armaste en P04, con tus
+Llegaste al cierre de dos hitos. El Hito 6c, medición de resultados y ajustes, es el documento que armaste en P04, con tus
 resultados frente a la línea base, los otros factores, las propuestas de mejora y tu autocrítica. El Hito 6d, pitch y portafolio
-final, reúne el pitch de tres minutos [@F-M6-15] (guion y grabación, o presentación en vivo, según indique tu tutor) y el portafolio, y es el
-insumo del Demo Day.
+final, reúne el pitch de tres minutos [@F-M6-15] (guion y grabación) y el portafolio, y es lo que compartes en el Demo Day, el foro del módulo 6.
 
-Tu tutor revisa cada uno con la rúbrica general de hitos y te responde en un plazo de 72 horas como máximo:
+Los trabajas en la práctica autoevaluada 2 de este tema y los revisas con estos criterios, comparándolos con la respuesta modelo:
 
-| Criterio | Peso | Qué mira en el cierre |
-|---|---|---|
-| Pertinencia al problema real | 25 % | Los resultados responden al desafío y a la meta del Hito 6a |
-| Uso verificado de IA | 25 % | Las cifras salen de tu medición y el uso de IA está documentado |
-| Calidad del entregable | 20 % | Pitch dentro de 3 minutos; portafolio completo y ordenado |
-| Ética, privacidad y licencias | 15 % | Sin datos expuestos; licencias y atribuciones al día |
-| Comunicación | 15 % | Resultados y límites claros para tu audiencia |
+| Criterio | Qué revisar en el cierre |
+|---|---|
+| Pertinencia al problema real | Los resultados responden al desafío y a la meta del Hito 6a |
+| Uso verificado de IA | Las cifras salen de tu medición y el uso de IA está documentado |
+| Calidad del entregable | Pitch dentro de 3 minutos; portafolio completo y ordenado |
+| Ética, privacidad y licencias | Sin datos expuestos; licencias y atribuciones al día |
+| Comunicación | Resultados y límites claros para tu audiencia |
 
-El Hito 6c es formativo y no pondera. El Hito 6d es sumativo: según el sistema de evaluación del curso, vale 15 % de la nota final. En
+Ninguno de los dos pondera en la nota: tu nota del curso sale de los casos de aplicación y de la evaluación final. En
 el Demo Day no gana el proyecto con el número más grande. Destaca el que muestra con claridad qué cambió, cómo lo sabe y qué aprendió [@F-M6-12].
 
 :::actividad Revisión final

@@ -532,10 +532,10 @@
     const st = await estado(cid);
     for (const m of aula.modulos) {
       const cms = cmsDe(st, m.n);
-      const fo = cms.find((c) => c.module === 'forum' && (c.name === m.foro.name || /^Foro (de casos )?del módulo \d+$/.test(c.name)));
+      const fo = cms.find((c) => c.module === 'forum' && (c.name === m.foro.name || /^(Foro (de casos )?del módulo \d+|Demo Day: foro del módulo \d+)$/.test(c.name)));
       if (fo) { await editar(fo.id, { name: m.foro.name, 'introeditor[text]': m.foro.intro, 'introeditor[format]': '1' }, 'forum-modulo'); log(`~ ${m.foro.name}`); }
       const et = cms.find((c) => c.module === 'label' && /^Foro (de casos|del módulo)$/.test(c.name));
-      if (et) await editar(et.id, { 'introeditor[text]': m.etiquetas.foro, 'introeditor[format]': '1' });
+      if (et) await editar(et.id, { name: m.foroEtiqueta || et.name, 'introeditor[text]': m.etiquetas.foro, 'introeditor[format]': '1' });
     }
     log('FIN foros');
   };
@@ -584,7 +584,7 @@
       const R = m.reservados; const esperado = ['Empieza aquí', R.bienvenida.name, R.diagnostica.name];
       m.aes.forEach((a, i) => esperado.push(`Tema ${i + 1}: ${a.tema}`, a.rise.name, a.quiz.name, a.act1.name, a.act2.name));
       if (m.casos.length) esperado.push('Práctica evaluada', ...m.casos.flatMap((c) => [c.name, c.entrega.name]));
-      esperado.push(m.casos.length ? 'Foro de casos' : 'Foro del módulo', m.foro.name, 'Resumen del módulo', m.infografia.name, R.resumenVideo.name, m.glosario.name, 'Evaluación del módulo', m.evaluacion.name);
+      esperado.push((m.foroEtiqueta || (m.casos.length ? 'Foro de casos' : 'Foro del módulo')), m.foro.name, 'Resumen del módulo', m.infografia.name, R.resumenVideo.name, m.glosario.name, 'Evaluación del módulo', m.evaluacion.name);
       const real = cmsDe(st, m.n).map((c) => c.name);
       if (real.join('|') !== esperado.join('|')) {
         const sobra = real.filter((x) => !esperado.includes(x)); const falta = esperado.filter((x) => !real.includes(x));
@@ -648,7 +648,7 @@
     };
     await etq('Empieza aquí', m.etiquetas.empieza);
     if (m.casos.length) await etq('Práctica evaluada', m.etiquetas.casos, ['Casos de aplicación']);
-    await etq(m.casos.length ? 'Foro de casos' : 'Foro del módulo', m.etiquetas.foro, ['Conversa']);
+    await etq((m.foroEtiqueta || (m.casos.length ? 'Foro de casos' : 'Foro del módulo')), m.etiquetas.foro, ['Conversa']);
     await etq('Resumen del módulo', m.etiquetas.resumen);
     await etq('Evaluación del módulo', m.etiquetas.evaluacion);
     log(`~ encabezados del módulo ${n}`);
@@ -723,7 +723,7 @@
       else await etiqueta(cid, n, html, nuevo);
     };
     if (m.casos.length) await etq('Casos de aplicación', 'Práctica evaluada', m.etiquetas.casos);
-    await etq('Conversa', m.casos.length ? 'Foro de casos' : 'Foro del módulo', m.etiquetas.foro);
+    await etq('Conversa', (m.foroEtiqueta || (m.casos.length ? 'Foro de casos' : 'Foro del módulo')), m.etiquetas.foro);
     await etq('Resumen del módulo', 'Resumen del módulo', m.etiquetas.resumen);
     await etq('Evaluación del módulo', 'Evaluación del módulo', m.etiquetas.evaluacion);
     // foro del módulo → foro de casos, sin nota
@@ -750,9 +750,113 @@
     const lista = ['Empieza aquí', R.bienvenida.name, R.diagnostica.name];
     m.aes.forEach((a, i) => lista.push(`Tema ${i + 1}: ${a.tema}`, a.rise.name, a.quiz.name, a.act1.name, a.act2.name));
     if (m.casos.length) lista.push('Práctica evaluada', ...m.casos.flatMap((c) => [c.name, c.entrega.name]));
-    lista.push(m.casos.length ? 'Foro de casos' : 'Foro del módulo', m.foro.name, 'Resumen del módulo', m.infografia.name, R.resumenVideo.name, m.glosario.name, 'Evaluación del módulo', m.evaluacion.name);
+    lista.push((m.foroEtiqueta || (m.casos.length ? 'Foro de casos' : 'Foro del módulo')), m.foro.name, 'Resumen del módulo', m.infografia.name, R.resumenVideo.name, m.glosario.name, 'Evaluación del módulo', m.evaluacion.name);
     await ordenar(cid, n, lista);
     log(`FIN orden módulo ${n}`);
+  };
+
+  // ---------- 02-11: ponderación por módulo, pitch como práctica evaluada del módulo 6, módulo 4 con 2 casos, inducción ----------
+  //   notas02(cid, aula)       → libro: evaluación final 40 %; categoría «Módulo n» (10 %) con su evaluación (50 %) y sus casos (50 %
+  //                              repartido); «Excluir calificaciones vacías» desmarcado en la raíz y en todas; categorías viejas borradas
+  //   practica02(cid, aula, n) → página + tarea con rúbrica de cada caso de aula.json (crea lo que falte: el pitch del módulo 6) y
+  //                              reescribe sus textos y el encabezado «Práctica evaluada»
+  //   quitar02(cid, n, nombres)→ borra recursos del módulo por nombre (tercer caso del módulo 4)
+  //   textos02(cid, aula)      → «Cómo avanzas» y el aviso de Avisos con la ponderación nueva
+  //   induccion02(cid, aula)   → la página «Inducción al curso» muestra la guía del participante y queda visible
+  const arbolNotas = async (cid) => P(await (await fetch(`/grade/edit/tree/index.php?id=${cid}`)).text());
+  const filaCat = (arbol, re) => [...arbol.querySelectorAll('tr.category')].find((tr) => re.test(tr.textContent.replace(/\s+/g, ' ').trim()));
+  async function guardarCategoria(cid, id, campos) {
+    const { f, fd } = await formulario(`/grade/edit/tree/category.php?courseid=${cid}${id ? `&id=${id}` : ''}`);
+    fd.delete('aggregateonlygraded'); fd.set('aggregateonlygraded', '0');
+    for (const [k, v] of Object.entries(campos || {})) fd.set(k, v);
+    fd.set('submitbutton', 'Guardar cambios');
+    const r = await fetch(f.action, { method: 'POST', body: fd });
+    if (/category\.php/.test(r.url)) { const e = errores(P(await r.text())); if (e) throw new Error(`categoría ${id || campos?.fullname}: ${e}`); }
+  }
+  window.notas02 = async (cid, aula) => {
+    const pesos = aula.pesos || { final: 40, modulo: 10 };
+    // categorías y sus ids, del selector «gradecat» de cualquier actividad (la primera opción es la raíz del curso)
+    const st = await estado(cid);
+    const cats = async () => { const { d } = await formulario(`/course/modedit.php?update=${st.cm.find((c) => c.module === 'quiz').id}&return=0`); return [...d.querySelectorAll('select[name=gradecat] option')].map((o) => ({ id: o.value, nombre: o.textContent.trim() })); };
+    let lista = await cats(); const raiz = lista[0]; log(`  raíz: ${raiz.nombre} (${raiz.id})`);
+    for (const m of aula.modulos) {
+      const nombre = `Módulo ${m.n}`;
+      if (lista.some((c) => c.nombre === nombre)) { log(`= categoría ${nombre}`); continue; }
+      await guardarCategoria(cid, null, { fullname: nombre, parentcategory: raiz.id }); log(`+ categoría ${nombre}`);
+    }
+    lista = await cats();
+    for (const c of lista) { await guardarCategoria(cid, c.id, {}); log(`~ sin excluir vacías: ${c.nombre.slice(0, 40)}`); }
+    const catDe = (n) => lista.find((c) => c.nombre === `Módulo ${n}`)?.id;
+    for (const m of aula.modulos) {
+      const cat = catDe(m.n); if (!cat) { log(`! sin categoría Módulo ${m.n}`); continue; }
+      const q = st.cm.find((c) => c.module === 'quiz' && c.name === m.evaluacion.name);
+      if (q) { await editar(q.id, { gradecat: cat }, 'quiz'); log(`  ${q.name} → Módulo ${m.n}`); } else log(`! no está ${m.evaluacion.name}`);
+      for (const c of m.casos) {
+        const t = (await estado(cid)).cm.find((x) => x.module === 'assign' && x.name === c.entrega.name);
+        if (t) { await editar(t.id, { gradecat: cat }, 'assign'); log(`  ${c.entrega.name.slice(0, 50)} → Módulo ${m.n}`); } else log(`! no está ${c.entrega.name}`);
+      }
+    }
+    // pesos: categorías y, dentro de cada módulo, evaluación 50 y casos 50 repartido
+    let arbol = await arbolNotas(cid);
+    const fd = new FormData(); fd.set('sesskey', sk());
+    const peso = (tr, w, que) => { const i = tr?.querySelector('input[name^=weight_]'); if (!i) { log(`! sin peso: ${que}`); return; } const id = i.name.replace('weight_', ''); fd.set(`weightoverride_${id}`, '1'); fd.set(`weight_${id}`, String(w)); };
+    const filaItem = (nombre) => [...arbol.querySelectorAll('tr.item')].find((tr) => tr.textContent.includes(nombre));
+    for (const c of lista.slice(1)) {
+      const tr = filaCat(arbol, new RegExp(`^${c.nombre.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(\\s|$)`));
+      if (/^Módulo \d$/.test(c.nombre)) peso(tr, pesos.modulo, c.nombre); else if (/^Evaluación final/.test(c.nombre)) peso(tr, pesos.final, c.nombre); else peso(tr, 0, c.nombre);
+    }
+    for (const m of aula.modulos) {
+      peso(filaItem(m.evaluacion.name), 50, m.evaluacion.name);
+      for (const c of m.casos) peso(filaItem(c.entrega.name), Math.round(5000 / m.casos.length) / 100, c.entrega.name);
+    }
+    await fetch(`/grade/edit/tree/index.php?id=${cid}`, { method: 'POST', body: fd });
+    // categorías antiguas, ya vacías
+    arbol = await arbolNotas(cid);
+    for (const re of [/^Casos de aplicación/, /^Evaluaciones de módulo/]) {
+      const tr = filaCat(arbol, re); const a = tr && [...tr.querySelectorAll('a')].find((e) => e.textContent.trim() === 'Borrar');
+      if (a?.dataset.modalDestination) { await fetch(new URL(a.dataset.modalDestination, `${location.origin}/grade/edit/tree/`).href); log(`- categoría ${re.source.slice(1)}`); arbol = await arbolNotas(cid); }
+    }
+    log('  pesos: ' + [...arbol.querySelectorAll('tr.category, tr.item')].map((tr) => { const i = tr.querySelector('input[name^=weight_]'); return i ? `${tr.textContent.replace(/\s+/g, ' ').trim().replace(/^Seleccionar /, '').slice(0, 36)} ${i.value}` : ''; }).filter(Boolean).join(' | '));
+    log('FIN notas 02-11');
+  };
+
+  const camposCaso = (c) => ({ name: c.entrega.name, ...intro(c.entrega.intro), showdescription: '1', assignsubmission_onlinetext_enabled: '1', assignsubmission_file_enabled: '1', assignsubmission_file_maxfiles: '5', assignsubmission_onlyoffice_enabled: '0', assignsubmission_comments_enabled: '1', assignfeedback_comments_enabled: '1', assignfeedback_file_enabled: '1', submissiondrafts: '0', requiresubmissionstatement: '0', sendnotifications: '0', sendlatenotifications: '0', sendstudentnotifications: '1', 'grade[modgrade_type]': 'point', 'grade[modgrade_point]': '100', advancedgradingmethod_submissions: 'rubric', gradepass: '60', ...(c.entrega.campos || {}) });
+  window.practica02 = async (cid, aula, n) => {
+    const m = aula.modulos.find((x) => x.n === n);
+    if (m.casos.length) {
+      const e = cmsDe(await estado(cid), n).find((c) => c.module === 'label' && c.name === 'Práctica evaluada');
+      if (e) { await editar(e.id, { 'introeditor[text]': m.etiquetas.casos, 'introeditor[format]': '1' }); log('~ Práctica evaluada'); } else { await etiqueta(cid, n, m.etiquetas.casos, 'Práctica evaluada'); log('+ Práctica evaluada'); }
+    }
+    for (const c of m.casos) {
+      const cms = cmsDe(await estado(cid), n);
+      const pg = cms.find((x) => x.module === 'page' && x.name === c.name);
+      if (pg) { await editar(pg.id, { 'page[text]': c.html, 'page[format]': '1' }, 'page'); log(`~ ${c.name}`); } else { await pagina(cid, n, c.name, c.html); log(`+ ${c.name}`); }
+      const t = cms.find((x) => x.module === 'assign' && x.name === c.entrega.name);
+      if (t) { await editar(t.id, camposCaso(c), 'assign'); log(`~ ${c.entrega.name}`); } else { await crear(cid, n, 'assign', camposCaso(c)); log(`+ ${c.entrega.name}`); }
+      await rubricaDe(cid, n, c.entrega.name, 'submissions', c.rubrica);
+    }
+    log(`FIN práctica evaluada módulo ${n}`);
+  };
+  window.quitar02 = async (cid, n, nombres) => {
+    const cms = cmsDe(await estado(cid), n).filter((c) => nombres.some((x) => c.name === x || c.name.endsWith(x)));
+    await borrar(cid, cms.map((c) => c.id)); cms.forEach((c) => log(`- ${c.name}`));
+    log(`FIN quitar módulo ${n}: ${cms.length}`);
+  };
+  window.textos02 = async (cid, aula) => {
+    const cms = cmsDe(await estado(cid), 0);
+    const como = cms.find((c) => c.name === 'Cómo avanzas'); if (como) { await editar(como.id, { 'introeditor[text]': aula.inicio.comoAvanzar, 'introeditor[format]': '1' }); log('~ Cómo avanzas'); }
+    const avisos = cms.find((c) => c.module === 'forum' && /^Avisos/.test(c.name)); if (avisos) { await editar(avisos.id, { 'introeditor[text]': aula.inicio.avisos.intro, 'introeditor[format]': '1', showdescription: '1' }, 'label'); log('~ Avisos'); }
+    log('FIN textos 02-11');
+  };
+  window.induccion02 = async (cid, aula) => {
+    const I = aula.inicio.reservados.induccion;
+    let pg = cmsDe(await estado(cid), 0).find((c) => c.module === 'page' && c.name === I.name);
+    if (pg) await editar(pg.id, { 'page[text]': I.html, 'page[format]': '1' }, 'page'); else await pagina(cid, 0, I.name, I.html);
+    const st = await estado(cid); const cms = cmsDe(st, 0); pg = cms.find((c) => c.module === 'page' && c.name === I.name);
+    await call('core_courseformat_update_course', { action: 'cm_show', courseid: cid, ids: [String(pg.id)] });
+    const ins = cms.find((c) => c.name === 'Insignias del curso'); const i = cms.findIndex((c) => c.id === ins?.id);
+    if (ins && cms[i - 1]?.id !== pg.id) await call('core_courseformat_update_course', { action: 'cm_move', courseid: cid, ids: [String(pg.id)], targetsectionid: String(seccion(st, 0).id), targetcmid: String(ins.id) });
+    log('FIN inducción visible');
   };
 
   // Carga de archivos: un input propio; cada file_upload suma sus archivos a window.__archivos

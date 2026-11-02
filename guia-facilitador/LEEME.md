@@ -15,8 +15,8 @@ El curso tiene 88 horas en seis módulos. En cada módulo hay tres tipos de trab
 |---|---|---|---|
 | Quiz juego de cada tema | Formativo | Automático, con retroalimentación por respuesta | No |
 | Prácticas autoevaluadas 1 y 2 de cada tema | Formativo, no se envía | La persona, con la respuesta modelo y la rúbrica de la práctica autoevaluada | No |
-| Casos de aplicación (práctica evaluada) | Sumativo | El docente, en la tarea «Entrega y revisión docente», con la rúbrica del caso | Sí (60 %) |
-| Evaluación del módulo | Formativo, con nota de referencia | Automático: casos con alternativas y retroalimentación en cada una | No pondera |
+| Casos de aplicación (práctica evaluada; en el módulo 6, el pitch del proyecto) | Sumativo | El docente, en la tarea «Entrega y revisión docente», con la rúbrica del caso (o del pitch) | Sí: la mitad de la nota del módulo |
+| Evaluación del módulo | Sumativo | Automático: casos con alternativas y retroalimentación en cada una | Sí: la mitad de la nota del módulo |
 | Evaluación final del curso | Sumativo | Automático: cuatro casos integradores, una pregunta por aprendizaje esperado | Sí (40 %) |
 
 **Prácticas autoevaluadas.** Las dos actividades de cada tema son prácticas autoevaluadas: en el aula son una página con la consigna, la rúbrica
@@ -24,7 +24,8 @@ de autoevaluación y una respuesta modelo plegada que la persona abre cuando ter
 actividad como hecha. La pauta de referencia de cada actividad, en esta guía, sirve para responder las consultas que lleguen al foro
 del módulo.
 
-**Casos de aplicación.** Son la práctica evaluada de los módulos 1 a 5 (el módulo 6 es el taller del proyecto y no tiene casos). Cada
+**Casos de aplicación.** Son la práctica evaluada de los módulos 1 a 5, con dos casos por módulo; en el módulo 6, el taller, la práctica
+evaluada es el **pitch del proyecto** (video o audio de hasta tres minutos, con rúbrica propia; ver «El pitch» más abajo). Cada
 caso tiene dos piezas en el aula: la página del caso, para leerlo, y justo debajo la tarea **«Entrega y revisión docente»**, donde la
 persona sube su documento con las respuestas al análisis guiado y el producto de la aplicación a su proyecto. En esa misma tarea el
 docente califica con la rúbrica del caso (logrado 100 %, parcial 60 %, no logrado 0 % del peso de cada criterio; se aprueba con
@@ -35,9 +36,16 @@ final de cada módulo. Después, la persona comparte en el foro de casos su resp
 retroalimentación en cada alternativa. Se aprueban con 60 %. La pauta (respuesta correcta y por qué) está en la sección «Evaluaciones»
 de esta guía.
 
-**Nota del curso.** Escala de 1,0 a 7,0, con 4,0 al 60 %. Pondera los casos de aplicación 60 % (los 11 casos pesan lo mismo, cerca de 5,5 % cada uno) y la
-evaluación final 40 % (decisión del 01-11). Las evaluaciones de módulo, las diagnósticas, los quiz juego y las prácticas
-autoevaluadas no ponderan.
+**Nota del curso (02-11).** Escala de 1,0 a 7,0, con 4,0 al 60 %. La evaluación final pondera 40 %. Cada módulo pondera 10 % (los seis
+suman 60 %): la mitad es la evaluación del módulo y la otra mitad la práctica evaluada (los dos casos del módulo en partes iguales; en
+el módulo 6, el pitch). Las diagnósticas, los quiz juego, las prácticas autoevaluadas y los foros no ponderan. En el libro de
+calificaciones no se excluyen las calificaciones vacías: lo que no se entrega cuenta como 0.
+
+**El pitch (módulo 6).** La persona graba su pitch de tres minutos en video o audio y lo sube en la tarea «Entrega y revisión docente:
+Pitch de tu proyecto»; si el archivo pesa más de lo que admite el aula, pega un enlace (Drive o YouTube no listado) en el cuadro de
+texto. El docente califica con la rúbrica del pitch: problema y línea base (20 %), flujo con IA y supervisión humana (25 %), resultados
+medidos (25 %), aprendizaje y siguiente paso (10 %), comunicación y tiempo (10 %) y cuidado de los datos (10 %); se aprueba con 60 %.
+El pitch no se publica en el foro del módulo 6: ahí la persona solo cuenta en pocas líneas qué cambió en su proyecto.
 
 ## El proyecto del curso
 

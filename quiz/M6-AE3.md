@@ -2,7 +2,7 @@
 
 **Misión:** leer tus resultados con honestidad y contarlos bien en 3 minutos
 **Cuándo:** al terminar el tema «Resultados y aprendizajes», antes de cerrar los hitos 6c y 6d de tu proyecto en la práctica autoevaluada 2.
-**Insignia:** Voz de resultados · **Siguiente parada:** Demo Day, el foro del módulo 6 donde compartes tu pitch
+**Insignia:** Voz de resultados · **Siguiente parada:** la práctica evaluada del módulo: graba tu pitch y súbelo para la revisión docente
 **Estilo:** acento #ff7a59 · acento2 #fbbf24 · fondo neuronas · lema Qué cambió, cómo lo sabes y qué aprendiste
 **Ilustración:** flujo | Tus números (barras) · Tu historia (chat) · Tu audiencia (bandera)
 

@@ -6,6 +6,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { marked } from 'marked';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const rel = (...p) => path.join(RAIZ, ...p);
@@ -18,6 +19,10 @@ const HORAS = Object.fromEntries(leer('data', 'planilla', 'Resumen horas.tsv').s
 const HORAS_CURSO = Object.values(HORAS).reduce((a, b) => a + b, 0);
 if (curso.modulos.some((m) => !HORAS[m.n]) || HORAS_CURSO !== 88) throw new Error(`horas: ${JSON.stringify(HORAS)} = ${HORAS_CURSO}`);
 const DOCENTE = { nombre: 'Natalia Hernández', correo: 'natalia@empoderatech.com' };
+// Ponderación (02-11, pedido del usuario): evaluación final 40 %; cada módulo 10 % (los seis suman 60 %), mitad la evaluación del
+// módulo y mitad la práctica evaluada (los casos de aplicación; en el módulo 6, el pitch del proyecto). Lo que no se entrega vale 0.
+const PESO = { final: 40, modulo: 10 };
+const pct = (x) => String(Math.round(x * 100) / 100).replace('.', ',');
 // Diseño del 31-10 (ideas del curso de referencia aprobado por SENCE): reto del personaje y «lo que te llevas» en cada módulo
 // (data/retos.json), banner con foto de los clips de Flow, video embebido, encabezados de bloque con ícono y cierre del curso
 const RETOS = JSON.parse(leer('data', 'retos.json'));
@@ -108,10 +113,10 @@ const comoAvanzar = () => `<div style="background:${C.grs};border-radius:18px;pa
 <div style="font-size:15px;color:${C.noche};margin:6px 0 10px;line-height:1.5;">Cada módulo abre con un <b>video de bienvenida</b> y una evaluación diagnóstica. Después tiene varios temas, y cada tema sigue los mismos tres pasos. Tu avance se marca solo a medida que completas cada recurso; en las prácticas autoevaluadas, tú marcas la actividad como hecha cuando terminas.</div>
 ${pasos(false)}
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:12px;font-size:14px;color:${C.noche};line-height:1.5;">
-<div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Práctica evaluada.</b> Al cierre de cada módulo resuelves los casos de aplicación con empresas reales y los subes en su tarea «Entrega y revisión docente». Ahí mismo el docente te pone la nota y te devuelve su revisión.</div>
+<div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Práctica evaluada.</b> Al cierre de cada módulo resuelves los casos de aplicación con empresas reales y los subes en su tarea «Entrega y revisión docente». Ahí mismo el docente te pone la nota y te devuelve su revisión. En el módulo 6 la práctica evaluada es el pitch de tu proyecto, en video o audio.</div>
 <div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Conversa.</b> En el foro de casos del módulo compartes tus resultados y haces tus consultas. El facilitador responde en menos de 24 horas hábiles.</div>
 <div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Repasa.</b> El resumen del módulo trae la infografía animada, el <b>video de resumen</b> y el glosario del módulo, donde puedes buscar cada término.</div>
-<div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Demuestra.</b> Cada módulo cierra con su evaluación, que te muestra cómo vas, y el curso, con una evaluación final que integra todo lo aprendido. Tu nota sale de los casos de aplicación (60 %) y de la evaluación final (40 %).</div>
+<div style="flex:1 1 260px;background:#fff;border-radius:12px;padding:10px 14px;"><b style="color:${C.fr};">Demuestra.</b> Cada módulo cierra con su evaluación, que vale la mitad de la nota del módulo; la otra mitad sale de la práctica evaluada (los casos de aplicación y, en el taller, el pitch de tu proyecto). Los seis módulos suman el ${PESO.modulo * 6} % de tu nota y la evaluación final del curso, el ${PESO.final} %.</div>
 <div style="flex:1 1 100%;background:${C.noche};color:#fff;border-radius:12px;padding:12px 16px;"><b style="color:${C.fu};">Tu proyecto del curso.</b> En el módulo 1 eliges una tarea de tu cargo y en cada módulo la mejoras con IA: la presentas, la investigas, comunicas tu propuesta, automatizas un paso con supervisión y, al final, mides sus resultados y los cuentas en un pitch. Cada paso es un hito: lo reconoces en las prácticas autoevaluadas 2 marcadas con su número.</div>
 <div style="flex:1 1 100%;background:#fff;border-radius:12px;padding:12px 16px;"><b style="color:${C.fr};">Te acompañan en el curso.</b> Cuatro personas que trabajan, con tareas parecidas a las tuyas, aparecen en los retos, las prácticas y las evaluaciones de distintos módulos: <b>Camila</b>, asistente administrativa en una constructora; <b>Andrés</b>, encargado de bodega en una distribuidora; <b>Rosa</b>, recepcionista de un centro médico, y <b>Paula</b>, ejecutiva de atención al cliente en una tienda de electrodomésticos.</div></div></div>`;
 
@@ -150,6 +155,33 @@ const reservado = (t) => `<div style="border:2px dashed ${C.fr};background:${C.f
 // ---------- armado ----------
 const foros = partirH2(main('entregables/foros/html/Foros-del-curso.html'));
 const foroDe = (t) => foros.find((f) => f.titulo.startsWith(t));
+
+// Pitch del proyecto (02-11, pedido del usuario): práctica evaluada del módulo 6, como los casos de los otros módulos. Texto,
+// instrucciones de entrega y rúbrica en pitch/Pitch-del-proyecto.md; la tarea admite video o audio y un enlace si el archivo pesa.
+const pitchDelProyecto = () => {
+  const md = leer('pitch', 'Pitch-del-proyecto.md');
+  const titulo = /^# (.+)$/m.exec(md)[1].trim();
+  const html = estilar(marked.parse(md.replace(/^# .+\n/, '')).replace(/<table>/g, '<div class="tabla"><table>').replace(/<\/table>/g, '</table></div>'));
+  const entrega = `<div style="border:1px solid ${C.linea};border-left:6px solid ${C.fr};border-radius:14px;padding:14px 18px;background:#fff;color:${C.noche};line-height:1.6;"><div style="display:flex;gap:10px;align-items:center;font-weight:700;font-size:16px;">${icono('upload', C.fr, 22)}Sube aquí tu pitch en video o audio</div><p style="margin:8px 0 0;">Un archivo de video (mp4, mov o webm) o de audio (mp3, m4a o wav) de hasta tres minutos. Si pesa más de lo que admite el aula, súbelo a Google Drive o a YouTube como «no listado» y pega el enlace en el cuadro de texto de la entrega. Puedes agregar tu guion como segundo archivo.</p><div style="display:flex;gap:10px;align-items:center;font-weight:700;font-size:16px;margin-top:12px;">${icono('user-check', C.fr, 22)}Revisión del docente</div><p style="margin:8px 0 0;">El docente revisa tu pitch con la rúbrica. En esta misma tarea te devuelve <b>la nota</b>, <b>la rúbrica completada</b> y <b>su revisión</b>. Plazo: hasta 72 horas hábiles. Se aprueba con 60 %.</p></div>`;
+  return { id: 'M6-PITCH', titulo, name: titulo, html, entrega: { name: `Entrega y revisión docente: ${titulo}`, intro: entrega, campos: { assignsubmission_file_maxfiles: '2', assignsubmission_file_filetypes: '.mp4,.mov,.webm,.m4v,.mp3,.m4a,.wav,.ogg,.pdf,.docx,.txt', assignsubmission_file_maxsizebytes: '0' } }, rubrica: rubrica(md, `Rúbrica · ${titulo}`) };
+};
+
+// Inducción al curso (02-11): guía del participante en una página visible (el video de inducción se suma cuando esté)
+const guiaParticipante = () => {
+  const tarjeta = (ic, t, html) => `<div style="flex:1 1 300px;background:#fff;border:1px solid ${C.linea};border-radius:16px;padding:16px 18px;"><div style="display:flex;gap:10px;align-items:center;margin-bottom:8px;"><span style="display:inline-flex;width:36px;height:36px;border-radius:11px;background:${C.fr};align-items:center;justify-content:center;flex:none;">${icono(ic, '#fff', 20)}</span><b style="font-size:16px;color:${C.noche};">${esc(t)}</b></div><div style="font-size:14.5px;line-height:1.55;color:${C.noche};">${html}</div></div>`;
+  const td = (x, centro) => `<td style="border-top:1px solid ${C.linea};padding:9px 11px;vertical-align:top;${centro ? 'text-align:center;white-space:nowrap;' : ''}">${x}</td>`;
+  const fila = (a, b, c) => `<tr>${td(a)}${td(b)}${td(`<b>${c}</b>`, true)}</tr>`;
+  const th = (x) => `<th style="background:${C.noche};color:#fff;text-align:left;padding:8px 11px;font-weight:600;">${x}</th>`;
+  return heroBox(`${pill('Inducción al curso', true)}<div style="font-size:26px;font-weight:700;line-height:1.2;margin:12px 0 10px;">Guía del participante</div><div style="font-size:15px;line-height:1.6;max-width:680px;opacity:.96;">Todo lo que necesitas para recorrer el curso: cómo está organizado, qué se evalúa, cómo entregar y dónde pedir ayuda. Léela antes de empezar el módulo 1.</div>`)
+    + `<div style="display:flex;flex-wrap:wrap;gap:12px;margin:6px 0;">`
+    + tarjeta('route', 'Cómo está organizado', `<p style="margin:0 0 8px;">${curso.modulos.length} módulos y ${HORAS_CURSO} horas. Cada módulo abre con un video de bienvenida y una evaluación diagnóstica, sigue con sus temas y cierra con la práctica evaluada, el foro, el resumen (infografía, video y glosario) y la evaluación del módulo. El curso termina con la evaluación final.</p><p style="margin:0;">En cada tema: <b>Aprende</b> (contenido interactivo), <b>Practica</b> (quiz juego) y <b>Práctica autoevaluada</b> (dos actividades que comparas con una respuesta modelo; no se envían: tú las marcas como hechas).</p>`)
+    + tarjeta('badge-check', 'Qué se evalúa y cómo se calcula tu nota', `<div style="overflow-x:auto;"><table style="width:100%;border-collapse:collapse;font-size:.92rem;border:1px solid ${C.linea};"><tr>${th('Qué')}${th('Quién califica')}${th('Peso')}</tr>${fila('Práctica evaluada de cada módulo: los casos de aplicación (en el módulo 6, el pitch de tu proyecto)', 'El docente, con rúbrica', `${pct(PESO.modulo / 2)} % por módulo`)}${fila('Evaluación de cada módulo: preguntas con casos y alternativas', 'Automática', `${pct(PESO.modulo / 2)} % por módulo`)}${fila('Evaluación final del curso: cuatro casos integradores', 'Automática', `${PESO.final} %`)}${fila('Diagnósticas, quiz juego, prácticas autoevaluadas y foros', 'Tú mismo o automática', '0 %')}</table></div><p style="margin:8px 0 0;">Escala de 1,0 a 7,0; apruebas el curso con 4,0 (60 %). Lo que no entregas se cuenta como 0. Tus notas y los comentarios del docente están en <b>Calificaciones</b>, en el menú del curso.</p>`)
+    + tarjeta('upload', 'Cómo entregar un caso o el pitch', `<ol style="margin:0;padding-left:20px;"><li style="margin:0 0 4px;">Lee el caso (o las instrucciones del pitch) en su página y prepara tu documento, video o audio sin datos reales de personas ni de tu empresa.</li><li style="margin:0 0 4px;">Entra a la tarea <b>«Entrega y revisión docente»</b> que está justo debajo y pulsa <b>Agregar entrega</b>.</li><li style="margin:0 0 4px;">Arrastra el archivo al recuadro o pulsa el ícono para elegirlo; si es un enlace, pégalo en el cuadro de texto. Pulsa <b>Guardar cambios</b>: tu entrega queda enviada.</li><li style="margin:0;">En hasta 72 horas hábiles verás en la misma tarea la nota, la rúbrica completada y los comentarios del docente.</li></ol>`)
+    + tarjeta('monitor-smartphone', 'Lo que necesitas', `<p style="margin:0 0 8px;">Un computador o un celular con un navegador actualizado (Chrome, Edge, Safari o Firefox) e internet. Los contenidos, los quiz y las infografías se abren dentro del aula; si uno no carga, recarga la página. Los videos tienen subtítulos.</p><p style="margin:0;">Para las prácticas usarás herramientas de IA gratuitas que funcionan en el celular; el curso te indica cuáles en cada tema.</p>`)
+    + tarjeta('users', 'Dónde pedir ayuda', `<p style="margin:0 0 8px;">Dudas sobre una actividad o un caso: en el <b>foro de casos</b> de su módulo, con «Consulta» en el asunto. Dudas generales o problemas con el aula: en el <b>Foro de interacción del curso</b>. El docente responde en menos de 24 horas hábiles.</p><p style="margin:0;">Docente: ${esc(DOCENTE.nombre)} · <a href="mailto:${DOCENTE.correo}" style="color:#116DFF;">${DOCENTE.correo}</a></p>`)
+    + tarjeta('shield-check', 'Normas del aula', `<p style="margin:0;">Trabaja con copias y datos ficticios: nunca subas nombres, RUT, correos, teléfonos, montos, contratos ni documentos internos reales. Escribe con respeto y en pocas líneas. Tus entregas son tuyas: cuando uses IA, revisa y firma lo que entregas.</p>`)
+    + `</div>`;
+};
 
 // Evaluaciones (31-10): cuestionarios de Moodle desde evaluaciones/M<n>.json y Final.json, importados en formato GIFT, con
 // retroalimentación en cada alternativa. El caso de la evaluación final va como «descripción» antes de sus preguntas.
@@ -208,8 +240,14 @@ const modulos = curso.modulos.map((m) => {
     const entrega = `<div style="border:1px solid ${C.linea};border-left:6px solid ${C.fr};border-radius:14px;padding:14px 18px;background:#fff;color:${C.noche};line-height:1.6;"><div style="display:flex;gap:10px;align-items:center;font-weight:700;font-size:16px;">${icono('upload', C.fr, 22)}Sube aquí tu documento del caso</div><p style="margin:8px 0 0;">Caso: <b>${esc(titulo)}</b>. Sube un documento de texto o PDF con tus respuestas al análisis guiado y el producto de la aplicación a tu proyecto.</p><div style="display:flex;gap:10px;align-items:center;font-weight:700;font-size:16px;margin-top:12px;">${icono('user-check', C.fr, 22)}Revisión del docente</div><p style="margin:8px 0 0;">Esta entrega la revisa el docente con la rúbrica del caso. En esta misma tarea te devuelve <b>la nota</b>, <b>la rúbrica completada</b> y <b>su revisión</b>: comentarios y, si corresponde, tu documento con observaciones. Plazo: hasta 72 horas hábiles. Se aprueba con 60 %.</p></div>`;
     return { id, titulo, name: `Caso de aplicación: ${titulo}`, html: estilar(main(`entregables/casos/html/${id}.html`)), entrega: { name: `Entrega y revisión docente: ${titulo}`, intro: entrega }, rubrica: rubrica(rubCaso, `Rúbrica · Caso de aplicación: ${titulo}`) };
   });
-  const conCasos = casos.length > 0;
-  const f = foroDe(conCasos ? `Foro de casos del módulo ${m.n} ` : 'Demo Day'); // el foro del módulo 6 es el Demo Day (01-11)
+  const casosReales = casos.length > 0;
+  // 02-11 (pedido del usuario): el pitch del proyecto es la práctica evaluada del módulo 6 (página + «Entrega y revisión docente» con
+  // video o audio y rúbrica propia); el foro del módulo 6 queda para contar el avance del proyecto y consultar, no para el pitch
+  const practica = m.n === 6 ? [pitchDelProyecto()] : casos;
+  const pesoCaso = practica.length ? (PESO.modulo / 2) / practica.length : 0;
+  for (const c of practica) c.entrega.intro = c.entrega.intro.replace('Se aprueba con 60 %.', `Se aprueba con 60 %. Esta entrega vale <b>${pct(pesoCaso)} %</b> de tu nota del curso: la práctica evaluada es la mitad de la nota del módulo${practica.length > 1 ? ', repartida en partes iguales entre sus casos' : ''}.`);
+  const conCasos = practica.length > 0;
+  const f = foroDe(casosReales ? `Foro de casos del módulo ${m.n} ` : `Foro del módulo ${m.n} `);
   if (!f) throw new Error(`sin foro del módulo ${m.n}`);
   return {
     n: m.n, nombre: m.nombre, horas: HORAS[m.n], seccion: `Módulo ${m.n}: ${m.nombre} (${HORAS[m.n]} horas)`, resumen: heroModulo(m), banner: RETOS.modulos[m.n].banner,
@@ -220,15 +258,15 @@ const modulos = curso.modulos.map((m) => {
       bienvenida: videoAula(`M${m.n}_bienvenida.mp4`, `Video de bienvenida del módulo ${m.n}`),
       resumen: videoAula(`M${m.n}_resumen.mp4`, `Video de resumen del módulo ${m.n}`),
     },
-    aes, casos,
+    aes, casos: practica, foroEtiqueta: casosReales ? 'Foro de casos' : 'Foro del módulo',
     etiquetas: {
       empieza: encabezado('play', 'Empieza aquí', 'Mira el video de bienvenida y responde la evaluación diagnóstica para ver desde dónde partes.'),
-      casos: encabezado('badge-check', 'Práctica evaluada', 'Lee cada caso y sube tu documento en su «Entrega y revisión docente»: el docente te pone la nota y te devuelve su revisión en esa misma tarea. Los 11 casos del curso suman el 60 % de tu nota y pesan lo mismo.'),
-      foro: encabezado('users', conCasos ? 'Foro de casos' : 'Foro del módulo', conCasos ? 'Comparte los resultados de tus casos, conversa con tus compañeros y haz tus consultas.' : 'Demo Day: comparte el pitch de tu proyecto, mira los de tus compañeros y haz tus consultas.'),
+      casos: encabezado('badge-check', 'Práctica evaluada', casosReales ? `Lee cada caso y sube tu documento en su «Entrega y revisión docente»: el docente te pone la nota y te devuelve su revisión en esa misma tarea. Los casos valen la mitad de la nota del módulo: ${pct(pesoCaso)} % de tu nota del curso cada uno.` : `Graba el pitch de tu proyecto y súbelo en su «Entrega y revisión docente»: el docente te pone la nota con la rúbrica y te devuelve su revisión. Vale la mitad de la nota del módulo: ${pct(pesoCaso)} % de tu nota del curso.`),
+      foro: encabezado('users', casosReales ? 'Foro de casos' : 'Foro del módulo', casosReales ? 'Comparte los resultados de tus casos, conversa con tus compañeros y haz tus consultas.' : 'Cuenta en pocas líneas qué cambió en tu tarea con IA, comenta los avances de otras personas y haz tus consultas.'),
       resumen: encabezado('layers', 'Resumen del módulo', 'Las ideas clave en una infografía animada y un video, y el glosario del módulo para buscar cada término.'),
-      evaluacion: encabezado('list-checks', 'Evaluación del módulo', 'Preguntas con casos y alternativas, con retroalimentación en cada respuesta. Te muestra cómo vas y te prepara para la evaluación final; no pondera en tu nota.'),
+      evaluacion: encabezado('list-checks', 'Evaluación del módulo', `Preguntas con casos y alternativas, con retroalimentación en cada respuesta. Vale la mitad de la nota del módulo (${pct(PESO.modulo / 2)} % de tu nota del curso) y te prepara para la evaluación final.`),
     },
-    foro: { name: conCasos ? `Foro de casos del módulo ${m.n}` : `Demo Day: foro del módulo ${m.n}`, intro: estilar(f.cuerpo) },
+    foro: { name: casosReales ? `Foro de casos del módulo ${m.n}` : `Foro del módulo ${m.n}`, intro: estilar(f.cuerpo) },
     infografia: { name: `Infografía del módulo ${m.n}`, intro: '<p>Las ideas clave del módulo. Abre cada tarjeta y sigue el recorrido guiado.</p>', zip: `entregables/infografias/M${m.n}-Infografia-SCORM.zip` },
     glosario: { name: `Glosario del módulo ${m.n}`, intro: '<p>Los términos del módulo con su definición. Usa el buscador para encontrar uno.</p>', xml: `entregables/glosario/Glosario-M${m.n}-Moodle.xml`, xmlTexto: fs.existsSync(rel('entregables', 'glosario', `Glosario-M${m.n}-Moodle.xml`)) ? leer('entregables', 'glosario', `Glosario-M${m.n}-Moodle.xml`) : '' },
     evaluacion: evaluacion(`M${m.n}.json`, `Evaluación del módulo ${m.n}`, `Evaluación del módulo ${m.n}`),
@@ -240,12 +278,13 @@ const modulos = curso.modulos.map((m) => {
 const general = foroDe('Foro de interacción');
 const aula = {
   generado: new Date().toISOString(),
+  pesos: PESO,
   curso: { fullname: `${curso.titulo} (${HORAS_CURSO} horas)`, shortname: 'IA-GENERATIVA-LABORAL', resumen: `<p>Curso práctico de ${HORAS_CURSO} horas para usar la IA generativa en las tareas de tu trabajo, de forma verificada, ética y segura.</p>` },
   inicio: {
     portada: portada(), comoAvanzar: comoAvanzar(), insignias: insignias(),
-    avisos: { intro: `<div style="border:1px solid ${C.linea};border-left:6px solid ${C.fr};border-radius:14px;padding:12px 16px;background:#fff;color:${C.noche};"><b>Docente:</b> ${esc(DOCENTE.nombre)} · <a href="mailto:${DOCENTE.correo}" style="color:#116DFF;">${DOCENTE.correo}</a><div style="margin-top:10px;border-top:1px solid ${C.linea};padding-top:10px;"><b>Cómo se calcula tu nota.</b> Casos de aplicación: <b>60 %</b> (los 11 casos pesan lo mismo). Evaluación final del curso: <b>40 %</b>. Las evaluaciones diagnósticas, los quiz juego, las prácticas autoevaluadas y las evaluaciones de cada módulo no ponderan: te sirven para practicar y para ver cómo vas. Escala de 1,0 a 7,0; apruebas con 4,0 (60 %).</div></div>` },
+    avisos: { intro: `<div style="border:1px solid ${C.linea};border-left:6px solid ${C.fr};border-radius:14px;padding:12px 16px;background:#fff;color:${C.noche};"><b>Docente:</b> ${esc(DOCENTE.nombre)} · <a href="mailto:${DOCENTE.correo}" style="color:#116DFF;">${DOCENTE.correo}</a><div style="margin-top:10px;border-top:1px solid ${C.linea};padding-top:10px;"><b>Cómo se calcula tu nota.</b> Evaluación final del curso: <b>${PESO.final} %</b>. Cada módulo: <b>${PESO.modulo} %</b> (los seis suman ${PESO.modulo * 6} %), mitad la evaluación del módulo y mitad la práctica evaluada: los casos de aplicación o, en el módulo 6, el pitch de tu proyecto. Las evaluaciones diagnósticas, los quiz juego, las prácticas autoevaluadas y los foros no ponderan: te sirven para practicar y para ver cómo vas. Lo que no entregas se cuenta como 0. Escala de 1,0 a 7,0; apruebas con 4,0 (60 %).</div></div>` },
     foro: { name: 'Foro de interacción del curso', intro: estilar(general.cuerpo) },
-    reservados: { induccion: { name: 'Inducción al curso', html: reservado('Aquí van el video de inducción y la guía del participante.') } },
+    reservados: { induccion: { name: 'Inducción al curso', html: guiaParticipante() } },
     quitar: ['Evaluación diagnóstica del curso', 'Glosario del curso'],
   },
   modulos,

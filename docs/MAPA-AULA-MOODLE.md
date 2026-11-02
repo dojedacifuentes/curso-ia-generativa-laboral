@@ -12,11 +12,12 @@ evaluación de cada módulo, evaluación final y contacto entre facilitador y es
 | Contenido de cada tema (Rise) | Paquete SCORM | No |
 | Quiz juego de cada tema | Paquete SCORM, con retroalimentación por respuesta | No |
 | Prácticas autoevaluadas 1 y 2 de cada tema | Página con la consigna, la rúbrica de la práctica autoevaluada y la respuesta modelo; no se envía y el estudiante la marca como hecha | No |
-| Caso de aplicación (práctica evaluada) | Página para leer el caso y, debajo, la tarea «Entrega y revisión docente»: el estudiante sube su documento y el docente sube la nota con rúbrica, sus comentarios y el documento revisado | Sí (60 %) |
+| Caso de aplicación (práctica evaluada; dos por módulo) | Página para leer el caso y, debajo, la tarea «Entrega y revisión docente»: el estudiante sube su documento y el docente sube la nota con rúbrica, sus comentarios y el documento revisado | Sí: la mitad de la nota del módulo, repartida entre sus casos (2,5 % del curso cada uno) |
+| Pitch del proyecto (práctica evaluada del módulo 6) | Página con las instrucciones y, debajo, la tarea «Entrega y revisión docente: Pitch de tu proyecto»: video o audio de hasta tres minutos (o enlace), con rúbrica propia | Sí: la mitad de la nota del módulo 6 (5 % del curso) |
 | Foro de casos del módulo | Foro: resultados de los casos, preguntas para conversar y consultas | No |
 | Infografía animada del módulo | Paquete SCORM | No |
 | Glosario del módulo | Glosario con buscador | No |
-| Evaluación del módulo | Cuestionario: casos con alternativas y retroalimentación en cada una | No pondera |
+| Evaluación del módulo | Cuestionario: casos con alternativas y retroalimentación en cada una | Sí: la mitad de la nota del módulo (5 % del curso) |
 | Evaluación final del curso | Cuestionario: cuatro casos integradores | Sí (40 %) |
 | Guía del facilitador y mapa del aula | Archivos en una sección oculta para estudiantes | — |
 
@@ -123,7 +124,6 @@ evaluación de cada módulo, evaluación final y contacto entre facilitador y es
 - Práctica evaluada:
   - Caso de aplicación: Campañas de marca hechas con IA generativa (Coca-Cola, 2023 y 2024) (página) y su «Entrega y revisión docente» (tarea con rúbrica).
   - Caso de aplicación: Voz sintética y consentimiento (disputa Scarlett Johansson – OpenAI, 2024) (página) y su «Entrega y revisión docente» (tarea con rúbrica).
-  - Caso de aplicación: Licencias y datos de entrenamiento (Getty Images v. Stability AI) (página) y su «Entrega y revisión docente» (tarea con rúbrica).
 - Foro de casos del módulo 4.
 - Resumen del módulo: infografía animada (SCORM), video de resumen y glosario del módulo.
 - Evaluación del módulo 4: 10 preguntas con casos y alternativas.
@@ -165,7 +165,8 @@ evaluación de cada módulo, evaluación final y contacto entre facilitador y es
 - **Resultados y aprendizajes.** Aprendizaje esperado: Evaluar los resultados del proyecto y comunicarlos mediante un pitch y un portafolio, proponiendo mejoras.
   - Aprende: Rise «Resultados y aprendizajes» (SCORM).
   - Practica: quiz juego «Resultados y aprendizajes» (SCORM).
-- Demo Day: foro del módulo 6 (pitch del proyecto y consultas).
+- Práctica evaluada: Pitch de tu proyecto (página con las instrucciones) y su «Entrega y revisión docente» (tarea con rúbrica; video o audio de hasta tres minutos).
+- Foro del módulo 6 (avance del proyecto y consultas; el pitch no va al foro).
 - Resumen del módulo: infografía animada (SCORM), video de resumen y glosario del módulo.
 - Evaluación del módulo 6: 9 preguntas con casos y alternativas.
 

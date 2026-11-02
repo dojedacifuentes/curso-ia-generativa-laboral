@@ -43,6 +43,6 @@ Aplicado en archivos y en el aula: #1 a #8, #9 (M1–M3; el Demo Day del M6 espe
 
 ## Decisiones pendientes
 
-1. ~~Ponderación~~ Decidida el 01-11: casos de aplicación 60 % proporcional (los 11 pesan lo mismo, cerca de 5,5 % cada uno) y evaluación final 40 %; evaluaciones de módulo, diagnósticas, quiz y prácticas no ponderan. Aplicada en el libro de calificaciones, Avisos, bienvenida, encabezados, evaluaciones, guía y mapa.
-2. Demo Day del M6: quitar la mención o agregar una entrega final.
+1. ~~Ponderación~~ Decidida el 01-11 y **cambiada el 02-11** (ver docs/CRITERIOS-02-11.md: final 40 %, cada módulo 10 % mitad evaluación y mitad práctica evaluada). Lo del 01-11: casos de aplicación 60 % proporcional (los 11 pesan lo mismo, cerca de 5,5 % cada uno) y evaluación final 40 %; evaluaciones de módulo, diagnósticas, quiz y prácticas no ponderan. Aplicada en el libro de calificaciones, Avisos, bienvenida, encabezados, evaluaciones, guía y mapa.
+2. ~~Demo Day del M6~~ Resuelto el 02-11: el pitch es la práctica evaluada del módulo 6 (entrega de video o audio con rúbrica); el foro del módulo 6 queda para el avance del proyecto.
 3. Usuario institucional para los mensajes de apertura de los foros y para alojar los videos.

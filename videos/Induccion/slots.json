@@ -1,0 +1,26 @@
+[
+ {
+  "name": "avatar_intro",
+  "x": 1196,
+  "y": 136,
+  "w": 604,
+  "h": 764,
+  "radius": 32,
+  "in": 0,
+  "out": null,
+  "sceneIn": 0,
+  "sceneOut": 12.83
+ },
+ {
+  "name": "avatar_cierre",
+  "x": 1196,
+  "y": 136,
+  "w": 604,
+  "h": 764,
+  "radius": 32,
+  "in": 131.15,
+  "out": null,
+  "sceneIn": 131.13,
+  "sceneOut": 999
+ }
+]

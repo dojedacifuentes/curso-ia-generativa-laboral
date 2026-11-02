@@ -1,0 +1,173 @@
+1
+00:00:00,000 --> 00:00:04,770
+¡Hola! Te doy la bienvenida al curso
+IA generativa para entornos laborales.
+
+2
+00:00:05,120 --> 00:00:10,470
+En dos minutos te muestro cómo funciona el aula,
+qué se evalúa y dónde pedir ayuda,
+
+3
+00:00:10,620 --> 00:00:12,310
+para que entres con confianza.
+
+4
+00:00:13,420 --> 00:00:16,350
+El curso tiene seis módulos y ochenta y ocho horas.
+
+5
+00:00:16,720 --> 00:00:19,890
+En la bienvenida encuentras
+la portada con la ruta completa,
+
+6
+00:00:20,200 --> 00:00:23,530
+la guía del participante
+y los avisos del equipo docente.
+
+7
+00:00:24,040 --> 00:00:28,430
+Cada módulo abre con un video
+de bienvenida y una evaluación diagnóstica,
+
+8
+00:00:28,460 --> 00:00:32,010
+que no lleva nota: sirve para ver desde dónde partes.
+
+9
+00:00:32,940 --> 00:00:36,650
+Después vienen los temas,
+y cada tema sigue tres pasos.
+
+10
+00:00:37,000 --> 00:00:39,310
+Aprende, con el contenido interactivo.
+
+11
+00:00:39,720 --> 00:00:41,690
+Practica, con el quiz juego.
+
+12
+00:00:42,060 --> 00:00:46,270
+Y la práctica autoevaluada:
+dos actividades que haces en tu trabajo,
+
+13
+00:00:46,420 --> 00:00:49,670
+comparas con una respuesta
+modelo y marcas como hechas.
+
+14
+00:00:50,040 --> 00:00:50,770
+No se envían.
+
+15
+00:00:50,800 --> 00:00:54,910
+Al cierre de cada módulo está la práctica evaluada:
+
+16
+00:00:55,120 --> 00:00:57,850
+los casos de aplicación con empresas reales.
+
+17
+00:00:58,040 --> 00:01:03,750
+Lees el caso, preparas tu documento y lo subes
+en la tarea Entrega y revisión docente,
+
+18
+00:01:03,820 --> 00:01:05,870
+con el botón Agregar entrega.
+
+19
+00:01:05,960 --> 00:01:10,230
+Ahí mismo el docente te devuelve la nota,
+la rúbrica y sus comentarios.
+
+20
+00:01:10,800 --> 00:01:14,750
+En el módulo 6, la práctica
+evaluada es el pitch de tu proyecto,
+
+21
+00:01:14,940 --> 00:01:17,270
+en video o audio de tres minutos.
+
+22
+00:01:18,080 --> 00:01:22,690
+Luego repasas con la infografía animada,
+el video de resumen y el glosario,
+
+23
+00:01:22,720 --> 00:01:25,190
+y cierras el módulo con su evaluación:
+
+24
+00:01:25,380 --> 00:01:28,570
+preguntas con casos y alternativas,
+que se corrige sola.
+
+25
+00:01:29,360 --> 00:01:30,990
+¿Y cómo se calcula tu nota?
+
+26
+00:01:31,340 --> 00:01:34,490
+La evaluación final del curso
+vale el cuarenta por ciento.
+
+27
+00:01:34,520 --> 00:01:38,990
+Cada módulo vale el diez: la mitad
+es su evaluación y la otra mitad,
+
+28
+00:01:39,020 --> 00:01:40,610
+la práctica evaluada.
+
+29
+00:01:40,820 --> 00:01:44,890
+Apruebas con cuatro coma cero,
+y lo que no entregas cuenta como cero.
+
+30
+00:01:44,920 --> 00:01:50,970
+Si tienes dudas, usa el foro de casos de cada
+módulo o el foro de interacción del curso:
+
+31
+00:01:51,220 --> 00:01:54,330
+el docente responde en menos
+de veinticuatro horas hábiles.
+
+32
+00:01:54,360 --> 00:01:58,890
+Y en Calificaciones ves tus notas
+y sus comentarios cuando quieras.
+
+33
+00:01:59,540 --> 00:02:03,910
+Todo funciona en el computador y en el celular,
+con un navegador actualizado.
+
+34
+00:02:04,120 --> 00:02:06,910
+Trabaja siempre con copias y datos ficticios:
+
+35
+00:02:07,220 --> 00:02:10,650
+nunca subas información real
+de personas ni de tu empresa.
+
+36
+00:02:11,220 --> 00:02:12,230
+Eso es todo.
+
+37
+00:02:12,640 --> 00:02:17,170
+Marca tu avance a medida que terminas
+cada recurso y empieza por el módulo 1.
+
+38
+00:02:17,420 --> 00:02:18,470
+¡Nos vemos en el aula!

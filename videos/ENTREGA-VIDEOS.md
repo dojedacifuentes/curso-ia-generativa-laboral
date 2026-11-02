@@ -54,3 +54,10 @@ Para no depender de la cuenta personal de Drive, los 12 videos (versión `_livia
 uno en el área de archivos de la descripción de su página «Video de bienvenida/resumen del módulo N», con el reproductor de Moodle,
 visible en la página del módulo y en la página del video. Los subtítulos van incrustados. Se suben partidos en trozos de 9,5 MB
 (`split -b 9500000`) que el armador une en el navegador (`video01` de `scripts/lib/moodle-armador.js`). Drive queda solo como respaldo.
+
+## Video de inducción al curso (02-11)
+
+`videos/Induccion/Induccion.mp4` (2:19, 1080p, -16 LUFS, subtítulos incrustados, `subtitulos.srt`), con la presentadora del curso,
+capturas reales del aula en vista de estudiante y la ponderación del 02-11. Dentro de Moodle, en la página «Inducción al curso»
+(cmid 4, sección Bienvenida), encima de la guía del participante; versión `Induccion_liviano.mp4` partida en trozos de 9,5 MB y
+unida por `video01(2, aula, 0, 'induccion')`. Guion en `videos/Induccion/guion.md`. Falta la copia en Drive (carpeta 15).

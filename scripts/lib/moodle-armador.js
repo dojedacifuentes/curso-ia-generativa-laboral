@@ -543,8 +543,9 @@
   // Videos de bienvenida y resumen dentro del aula (01-11), para no depender de una cuenta personal de Drive. Cada MP4 entra
   // partido en window.__archivos («M1_bienvenida.mp4.part0», «.part1»…), se une aquí y queda en la descripción de su página
   window.video01 = async (cid, aula, n, tipo) => {
-    const m = aula.modulos.find((x) => x.n === n); const nombre = tipo === 'bienvenida' ? m.reservados.bienvenida.name : m.reservados.resumenVideo.name;
-    const base = `M${n}_${tipo}.mp4`;
+    // 02-11: tipo 'induccion' (n = 0) deja el video de inducción en la página «Inducción al curso», con la guía del participante debajo
+    const m = aula.modulos.find((x) => x.n === n); const nombre = tipo === 'induccion' ? aula.inicio.reservados.induccion.name : tipo === 'bienvenida' ? m.reservados.bienvenida.name : m.reservados.resumenVideo.name;
+    const base = tipo === 'induccion' ? 'Induccion.mp4' : `M${n}_${tipo}.mp4`;
     const partes = Object.keys(window.__archivos || {}).filter((k) => k.startsWith(`${base}.part`)).sort();
     if (!partes.length) throw new Error(`sin partes de ${base}`);
     const archivoVideo = new File(partes.map((k) => window.__archivos[k]), base, { type: 'video/mp4' });
@@ -554,7 +555,7 @@
     completitud(fd, 'page');
     await subir(d, archivoVideo, fd.get('introeditor[itemid]'));
     const html = `<video controls preload="metadata" playsinline style="width:100%;max-width:880px;border-radius:18px;background:#00060F;box-shadow:0 10px 30px rgba(0,6,15,.18);" title="${nombre}"><source src="@@PLUGINFILE@@/${base}" type="video/mp4"></video>`;
-    for (const [k, v] of Object.entries({ 'introeditor[text]': html, 'introeditor[format]': '1', showdescription: '1', printintro: '1', 'page[text]': '<p>El video tiene subtítulos incluidos. También lo puedes ver en la página del módulo.</p>', 'page[format]': '1' })) fd.set(k, v);
+    for (const [k, v] of Object.entries({ 'introeditor[text]': html, 'introeditor[format]': '1', showdescription: '1', printintro: '1', 'page[text]': tipo === 'induccion' ? aula.inicio.reservados.induccion.html : '<p>El video tiene subtítulos incluidos. También lo puedes ver en la página del módulo.</p>', 'page[format]': '1' })) fd.set(k, v);
     await enviar(f, fd, `video ${pg.id}`);
     for (const k of partes) delete window.__archivos[k];
     log(`~ video en el aula: ${nombre} (${Math.round(archivoVideo.size / 1e6)} MB)`);

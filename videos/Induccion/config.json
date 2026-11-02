@@ -1,0 +1,22 @@
+{
+  "_nota": "Inducción al curso (02-11), marca Empoderatech. Voz 2:19 (una toma, tiempos de palabra de HeyGen + Whisper). Presentadora: un render con intro + cierre (fondo grafito con fondo_eva.py --marca). Sin clips de Flow: capturas reales del aula en vista de estudiante (media/*.jpg) dentro de las slides.",
+  "duracion": 138.68,
+  "voz": "audio/voz.mp3",
+  "salida": "Induccion.mp4",
+  "avatar": {
+    "video": "heygen/avatar_marca.mp4",
+    "clip_dur": 21.04,
+    "offset": 0.023,
+    "crop": "auto",
+    "intro_out": 12.83,
+    "cierre_in": 131.13,
+    "cierre_master_t": 131.3,
+    "cierre_clip_t": 13.7
+  },
+  "clips": [],
+  "zoom_clips": 1.08,
+  "musica": "audio/musica.wav",
+  "sfx": "audio/sfx.wav",
+  "vol_musica": 1.0,
+  "vol_sfx": 1.0
+}

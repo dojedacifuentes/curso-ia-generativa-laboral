@@ -21,7 +21,7 @@ Todos los ids están en `data/drive.json`; actualízalo después de cada subida.
 | 7 Proceso y control de calidad | `Docs`, `PDF` y la auditoría interactiva (HTML) | `entregables/documentos/proceso/{docs,pdf}` |
 | 8 Skills de Claude | Las skills de `.claude/skills/` (zip y cada SKILL.md) | `entregables/paquetes/` |
 | 9 Proyecto fuente | Zip del proyecto sin `entregables/`, con la planilla (`git archive`, ver abajo) | `entregables/paquetes/` |
-| 16 Fase 2 · Guía técnica SENCE | Word de la auditoría de la guía y su tabla de verdad (`node scripts/sence-auditoria.mjs`) | `entregables/sence/` |
+| 16 Fase 2 · Guía técnica SENCE | Word de la auditoría y su tabla de verdad (`node scripts/sence-auditoria.mjs`), Doc de modificaciones con pantallazos, y subcarpetas Pantallas y Pruebas | `entregables/sence/` |
 
 Cada carpeta con reemplazos tiene su **«Versiones anteriores (24-10)»**.
 
@@ -42,6 +42,7 @@ Mueve el archivo viejo **antes** de subir el nuevo, para que no queden dos con e
    - pasa el HTML local por `file_upload` al input «cc-cmp comparar»;
    - ejecuta `await ccComparar('<id>')`. Tiene que dar `D: 0`. Si no, rehaz ese Doc.
    No sirve `export?format=txt`: redirige a otro dominio y el navegador lo bloquea. `mobilebasic` sí funciona.
+   Para imágenes en un Doc: subirlas a Drive con acceso público y usar `https://lh3.googleusercontent.com/d/<id>` en el `<img>`; la conversión las incrusta.
 4. No hay herramienta para editar el contenido de un Doc: para cambiarlo, crea uno nuevo y mueve el viejo.
 5. **Signos `$`** (28-10): al convertir HTML en Doc, Drive toma el texto entre dos `$` como ecuación y lo deja como imagen
    (pasa con `&#36;`, `<span>`, `<code>`, espacios invisibles y tablas). En los HTML con referencias de Excel como `$C$2`

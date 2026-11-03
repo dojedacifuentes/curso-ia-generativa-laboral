@@ -56,7 +56,8 @@ anotaciones: 25 verdaderas, 69 parciales, 28 falsas y 11 sin datos. De las 26 ex
 escrito y la séptima es una falla real del aula, porque hoy se puede finalizar el curso sin revisión docente y con 3,3 % de la nota. En 12 de los 22
 aprendizajes esperados el producto que pide el verbo no llega al docente. Tres revisiones independientes intentaron rebatir los dictámenes y sus
 reparos ya están incorporados. El resultado, 9 decisiones y el plan de 24 correcciones están en [la tabla de verdad](docs/SENCE-TABLA-DE-VERDAD.md) y en el
-[Word en Drive](https://drive.google.com/file/d/1RXuNMKpa2p4UPAWcvIAoRMvql_Kn4E1B/view). La foto del aula queda en `data/sence/foto-aula-03-11.json`. **Moodle no se modificó.**
+[Word en Drive](https://drive.google.com/file/d/1RXuNMKpa2p4UPAWcvIAoRMvql_Kn4E1B/view). La foto del aula queda en `data/sence/foto-aula-03-11.json`. **Moodle no se modificó.** Las modificaciones, por dimensión y con 25 pantallazos señalados, están en el
+[Google Doc para el equipo](https://docs.google.com/document/d/1Q1dY4ieGM2z7ZZC5bSUYjW72TA6CdnLLeiEC0Cxe5s4/edit), en la carpeta 16 de Drive.
 
 **Primera lectura (03-11).** La guía quedó agrupada en 17 puntos y cuatro son brechas probables: la duración y su desglose por aprendizaje
 esperado, la función del facilitador por aprendizaje esperado, una evaluación que verifique la aplicación (hoy pesa más la selección
@@ -95,7 +96,8 @@ auditoría y el panel al día.
 | 03-11-2026 | Visto bueno del cliente | Primer visto bueno del cliente al contenido, las secciones y la estructura; la versión 1 queda en la etiqueta `v1.0-visto-bueno-cliente`, con la auditoría y el panel al día | [Estado del proyecto](ESTADO.md) | [`v1.0-visto-bueno-cliente`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/tree/v1.0-visto-bueno-cliente) |
 | 03-11-2026 | Guía técnica del SENCE | Llega la guía técnica del SENCE para revisar las solicitudes de cursos por franquicia tributaria y empieza la fase 2, con una primera lectura punto por punto | [Guía técnica SENCE](docs/SENCE-GUIA-TECNICA-FT.md) | [`c9f3c12`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/commit/c9f3c12) |
 | 03-11-2026 | Auditoría de la guía | Auditoría completa de las 21 páginas: tabla de verdad de 147 enunciados con su Word en Drive, 18 modelos y 18 hallazgos, entre ellos que el Anexo Técnico no llegó; falta comparar el curso | [Tabla de verdad](docs/SENCE-TABLA-DE-VERDAD.md) | [`6cb923b`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/commit/6cb923b) |
-| 03-11-2026 | Comparación con el aula | Las 133 filas medidas contra Moodle en solo lectura: 25 V, 69 P, 28 F y 11 sin datos; 10 brechas, 9 decisiones y 24 correcciones; Moodle sin cambios | [Tabla de verdad](docs/SENCE-TABLA-DE-VERDAD.md) | — |
+| 03-11-2026 | Comparación con el aula | Las 133 filas medidas contra Moodle en solo lectura: 25 V, 69 P, 28 F y 11 sin datos; 10 brechas, 9 decisiones y 24 correcciones; Moodle sin cambios | [Tabla de verdad](docs/SENCE-TABLA-DE-VERDAD.md) | [`59fe2a2`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/commit/59fe2a2) |
+| 03-11-2026 | Modificaciones en Google Doc | Doc colorido por dimensión con 25 pantallazos señalados de lo que hay que cambiar, en la carpeta 16 de Drive | [Google Doc](https://docs.google.com/document/d/1Q1dY4ieGM2z7ZZC5bSUYjW72TA6CdnLLeiEC0Cxe5s4/edit) | — |
 
 ## Cómo se registra cada cambio
 

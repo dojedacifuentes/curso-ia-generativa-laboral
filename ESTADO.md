@@ -9,7 +9,7 @@ las solicitudes de cursos por franquicia tributaria.
 | Fase | Estado | Fechas | Qué es | Referencia |
 |---|---|---|---|---|
 | 1 · Versión 1 | Cerrada con visto bueno del cliente | 24-10-2026 al 03-11-2026 | Producción completa del curso y aula Moodle armada en formacion.empoderatech.com | Etiqueta [`v1.0-visto-bueno-cliente`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/tree/v1.0-visto-bueno-cliente) |
-| 2 · Guía técnica del SENCE | En curso | Desde el 03-11-2026 | Revisar la versión 1 contra la guía, acordar los cambios con Natalia y aplicarlos | [Registro y primera lectura de la guía](docs/SENCE-GUIA-TECNICA-FT.md) |
+| 2 · Guía técnica del SENCE | En curso | Desde el 03-11-2026 | Revisar la versión 1 contra la guía, acordar los cambios con Natalia y aplicarlos | [Auditoría y tabla de verdad](docs/SENCE-TABLA-DE-VERDAD.md) |
 
 ## Fase 1 · Versión 1 con visto bueno del cliente
 
@@ -42,15 +42,23 @@ puede abrir cualquier archivo tal como estaba y
 Revisión de solicitudes de cursos financiables mediante Franquicia Tributaria del SENCE» y Natalia la reenvió al equipo. Desarrolla
 los criterios de admisibilidad legal, admisibilidad formal y evaluación técnica de la RE 2.484 de 2026, la misma resolución de la
 hoja «Cumplimiento RE 2484» de la planilla, y dice que en un curso e-learning el SENCE comprobará en el aula todo lo que declare la
-solicitud.
+solicitud. Falta confirmar si es la Guía Técnica que cita la resolución: el Anexo Técnico con indicadores y estándares, que la planilla
+también tenía por obtener, no llegó con ella.
+
+**Auditoría completa (03-11).** La guía se revisó página por página y quedó convertida en una tabla de verdad: 147 enunciados, entre
+requisitos, criterios, límites y modelos, cada uno como una afirmación verificable con su sección y su página, más 18 modelos y 18
+hallazgos, 5 de gravedad alta. Está en [docs/SENCE-TABLA-DE-VERDAD.md](docs/SENCE-TABLA-DE-VERDAD.md) y en
+[Word en Drive](https://drive.google.com/file/d/1RXuNMKpa2p4UPAWcvIAoRMvql_Kn4E1B/view), carpeta «16 Fase 2 · Guía técnica SENCE». Es la
+vara para comparar el aula y la solicitud, y se contrastó de forma independiente con la guía. Todavía no se compara nada: esas columnas
+están en blanco. Lo primero es confirmar con OTIC SOFOFA o el SENCE si esta es la versión oficial y si hay un Anexo Técnico.
 
 **Primera lectura (03-11).** La guía quedó agrupada en 17 puntos y cuatro son brechas probables: la duración y su desglose por aprendizaje
 esperado, la función del facilitador por aprendizaje esperado, una evaluación que verifique la aplicación (hoy pesa más la selección
 múltiple) y las contradicciones entre la planilla y el aula (ponderación y nombre del curso). El detalle, punto por punto, está en
 [docs/SENCE-GUIA-TECNICA-FT.md](docs/SENCE-GUIA-TECNICA-FT.md).
 
-**Cómo vamos a trabajar.** Revisar cada punto con evidencia del repo y del aula, acordar los cambios con Natalia y aplicarlos con el
-método de la fase 1: criterios fechados en `docs/CRITERIOS-<fecha>.md`, commits que los nombran, una fila en la bitácora y la
+**Cómo vamos a trabajar.** Comparar el curso contra la tabla de verdad con evidencia del repo y del aula, acordar los cambios con Natalia
+y aplicarlos con el método de la fase 1: criterios fechados en `docs/CRITERIOS-<fecha>.md`, commits que los nombran, una fila en la bitácora y la
 auditoría y el panel al día.
 
 ### Pendientes que vienen de la versión 1
@@ -79,7 +87,8 @@ auditoría y el panel al día.
 | 01-11-2026 | Revisión de Natalia | «Práctica autoevaluada» en los nombres, 6 diagnósticas sin nota, quiz juego con alternativas parejas y apertura de los foros | [Revisión del 01-11](docs/OBSERVACIONES-NATALIA-01-11.md) | [`a952a35`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/commit/a952a35) |
 | 02-11-2026 | Presentación al cliente | Ponderación por módulo, pitch como práctica evaluada del módulo 6, módulo 4 con dos casos, inducción con guía y video, cuentas de docente y de estudiante; el aula se le mostró a Accenture | [Criterios del 02-11](docs/CRITERIOS-02-11.md) | [`1b4f6ea`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/commit/1b4f6ea) |
 | 03-11-2026 | Visto bueno del cliente | Primer visto bueno del cliente al contenido, las secciones y la estructura; la versión 1 queda en la etiqueta `v1.0-visto-bueno-cliente`, con la auditoría y el panel al día | [Estado del proyecto](ESTADO.md) | [`v1.0-visto-bueno-cliente`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/tree/v1.0-visto-bueno-cliente) |
-| 03-11-2026 | Guía técnica del SENCE | Llega la guía técnica del SENCE para revisar las solicitudes de cursos por franquicia tributaria y empieza la fase 2, con una primera lectura punto por punto | [Guía técnica SENCE](docs/SENCE-GUIA-TECNICA-FT.md) | — |
+| 03-11-2026 | Guía técnica del SENCE | Llega la guía técnica del SENCE para revisar las solicitudes de cursos por franquicia tributaria y empieza la fase 2, con una primera lectura punto por punto | [Guía técnica SENCE](docs/SENCE-GUIA-TECNICA-FT.md) | [`c9f3c12`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/commit/c9f3c12) |
+| 03-11-2026 | Auditoría de la guía | Auditoría completa de las 21 páginas: tabla de verdad de 147 enunciados con su Word en Drive, 18 modelos y 18 hallazgos, entre ellos que el Anexo Técnico no llegó; falta comparar el curso | [Tabla de verdad](docs/SENCE-TABLA-DE-VERDAD.md) | — |
 
 ## Cómo se registra cada cambio
 

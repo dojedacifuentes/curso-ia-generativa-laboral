@@ -141,6 +141,12 @@ hábiles. El texto de cada foro se copia en la descripción del foro de Moodle.
   retroalimentación sugerida) y las respuestas esperadas de los casos. En el aula va en una sección visible solo para el rol docente.
 - **Mapa del aula Moodle:** qué recurso va en cada sección del aula y con qué tipo de actividad de Moodle.
 
+## 16 Fase 2 · Guía técnica SENCE
+
+La auditoría completa de la guía técnica del SENCE, en Word: resumen, estructura de la guía, enunciados destacados, modelos, tabla de
+verdad con cada requisito y su página, hallazgos y cruce con la RE 2.484. Es la vara para comparar el aula antes de corregirla. Su
+fuente es `data/sence/guia-tecnica.json` del repositorio.
+
 ## Aula Moodle
 
 El curso ya está armado en el aula de Empoderatech (formacion.empoderatech.com) con estos mismos recursos: los Rise y los quiz

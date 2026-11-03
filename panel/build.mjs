@@ -247,7 +247,8 @@ if (existe('docs', 'PENDIENTES-VERIFICACION.md')) {
 // ---------- documentos (flujo, reglas, formatos, skills) ----------
 const DOCS = [
   ['Estado y decisiones', 'ESTADO.md', 'Estado del proyecto'],
-  ['Estado y decisiones', 'docs/SENCE-GUIA-TECNICA-FT.md', 'Guía técnica del SENCE (fase 2)'],
+  ['Estado y decisiones', 'docs/SENCE-TABLA-DE-VERDAD.md', 'Guía técnica del SENCE: tabla de verdad'],
+  ['Estado y decisiones', 'docs/SENCE-GUIA-TECNICA-FT.md', 'Guía técnica del SENCE: primera lectura'],
   ['Estado y decisiones', 'docs/CRITERIOS-02-11.md', 'Criterios del 02-11'],
   ['Estado y decisiones', 'docs/OBSERVACIONES-NATALIA-01-11.md', 'Revisión de Natalia (01-11)'],
   ['Estado y decisiones', 'docs/OBSERVACIONES-NATALIA-31-10.md', 'Observaciones de Natalia (31-10)'],
@@ -316,6 +317,9 @@ const parrafos = (texto, base = '') => texto.split(/\n\s*\n/).map(b => b.trim())
 const lista = (texto, base = '') => texto.replace(/\n {2,}/g, ' ').split('\n').filter(l => l.startsWith('- ')).map(l => enLinea(l.slice(2), base));
 const ESTADO = existe('ESTADO.md') ? leer('ESTADO.md') : null;
 const GUIA = existe('docs', 'SENCE-GUIA-TECNICA-FT.md') ? leer('docs', 'SENCE-GUIA-TECNICA-FT.md') : null;
+// La auditoría completa de la guía (data/sence/guia-tecnica.json), con su Word en Drive
+const AUDITORIA_SENCE = existe('data', 'sence', 'guia-tecnica.json') ? json('data', 'sence', 'guia-tecnica.json') : null;
+const FILAS_SENCE = AUDITORIA_SENCE ? AUDITORIA_SENCE.bloques.flatMap(b => b.filas) : [];
 const estado = ESTADO && {
   al: /\*\*Al (\d\d-\d\d-\d{4})/.exec(ESTADO)?.[1] || null,
   resumen: parrafos(ESTADO.split(/^## /m)[0].replace(/^# .*$/m, ''))[0] || '',
@@ -328,6 +332,14 @@ const estado = ESTADO && {
     commit: f.Commit && f.Commit !== '—' ? enLinea(f.Commit) : '' })),
   reglas: lista(seccion(ESTADO, 'Cómo se registra cada cambio')),
   etiqueta: { nombre: ETIQUETA_V1, url: `${REPO}/tree/${ETIQUETA_V1}`, comparar: `${REPO}/compare/${ETIQUETA_V1}...main` },
+  auditoriaGuia: AUDITORIA_SENCE && {
+    doc: slug('docs/SENCE-TABLA-DE-VERDAD.md'), filas: FILAS_SENCE.length, modelos: AUDITORIA_SENCE.modelos.length,
+    comparables: FILAS_SENCE.filter(f => !['Afirmación', 'Aclaración'].includes(f.tipo)).length,
+    excluyentes: FILAS_SENCE.filter(f => f.falso === 'Inadmisible').length,
+    hallazgos: AUDITORIA_SENCE.observaciones.length, altos: AUDITORIA_SENCE.observaciones.filter(o => o.gravedad === 'Alta').length,
+    comparadas: FILAS_SENCE.filter(f => f.resultado).length,
+    word: driveIds.sence_auditoria_word ? `https://drive.google.com/file/d/${driveIds.sence_auditoria_word}/view` : null, carpeta: carpetaUrl(driveIds.sence_carpeta),
+  },
   guia: GUIA && {
     doc: slug('docs/SENCE-GUIA-TECNICA-FT.md'),
     datos: tabla(seccion(GUIA, 'El documento')).map(f => ({ dato: f.Dato, detalle: enLinea(f.Detalle, 'docs') })),

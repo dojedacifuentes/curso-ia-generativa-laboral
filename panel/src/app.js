@@ -103,7 +103,8 @@ function vEstado() {
   const E = D.estado;
   if (!E) return `<p class="vacio-txt">Falta ESTADO.md en el repositorio.</p>`;
   const g = E.guia, n = e => g ? g.puntos.filter(p => p.estado === e).length : 0;
-  const claseHito = t => /visto bueno/i.test(t) ? 'ok' : /guía técnica/i.test(t) ? 'aviso' : '';
+  const claseHito = t => /visto bueno/i.test(t) ? 'ok' : /guía/i.test(t) ? 'aviso' : '';
+  const A = E.auditoriaGuia;
   return `
   <section class="hero">
     <span class="eyebrow">Estado del proyecto${E.al ? ` · al ${h(E.al)}` : ''}</span>
@@ -128,12 +129,21 @@ function vEstado() {
     <div class="tablero">${E.version1.map(v => `<div class="card pad v1"><b>${h(v.pieza)}</b><p>${v.version}</p><small>${v.donde}</small></div>`).join('')}</div>
   </section>
 
+  ${A ? `<section class="sec">
+    <div class="sec-cab"><div><h2>Auditoría de la guía: la tabla de verdad</h2>
+      <p>La guía completa, convertida en afirmaciones que deben ser verdaderas, cada una con su página. Es la vara con que se compara el curso.
+        ${A.comparadas ? `Van ${A.comparadas} de ${A.comparables} filas comparadas.` : 'La comparación con el aula todavía no empieza.'}</p></div>
+      <div class="btns"><a class="btn prim" href="#documentos/${h(A.doc)}">Abrir la tabla de verdad</a>${ext(A.word, 'Word en Drive')}</div></div>
+    <div class="cifras">${[[A.filas, 'enunciados'], [A.comparables, 'se comparan con el curso'], [A.excluyentes, 'excluyentes'], [A.modelos, 'modelos'],
+      [A.hallazgos, `hallazgos (${A.altos} de gravedad alta)`]].map(([n, t]) => `<div class="cifra"><b>${n}</b><span>${h(t)}</span></div>`).join('')}</div>
+  </section>` : ''}
+
   ${g ? `<section class="sec">
-    <div class="sec-cab"><div><h2>La guía técnica del SENCE, punto por punto</h2>
-      <p>Primera lectura de la versión 1 contra la guía con que el SENCE revisa las solicitudes de cursos por franquicia tributaria.
+    <div class="sec-cab"><div><h2>Primera lectura de la versión 1, punto por punto</h2>
+      <p>Una lectura rápida de la versión 1 contra la guía, hecha antes de la auditoría completa. Orienta, pero la vara es la tabla de verdad.
         Todavía no cambia nada del curso: los cambios se acuerdan con Natalia y se anotan en la bitácora.</p></div>
       <a class="btn" href="#documentos/${h(g.doc)}">Registro de la guía</a></div>
-    <div class="card pad estado-p">${E.fase2.slice(1).map(p => `<p>${p}</p>`).join('')}</div>
+    <div class="card pad estado-p">${E.fase2.slice(1).filter(p => !/Auditoría completa/.test(p)).map(p => `<p>${p}</p>`).join('')}</div>
     ${seg('guiaEstado', [['todos', `Todos (${g.puntos.length})`], ...ESTADOS_GUIA.map(e => [e, `${e} (${n(e)})`])])}
     <div class="tablero" id="guia-cuerpo">${guiaCuerpo()}</div>
   </section>` : ''}

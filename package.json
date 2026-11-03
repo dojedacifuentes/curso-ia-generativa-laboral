@@ -8,6 +8,8 @@
     "auditar": "node scripts/auditar.mjs"
   },
   "devDependencies": {
+    "docx": "^9.5.1",
+    "jszip": "^3.10.2",
     "marked": "15.0.12"
   }
 }

@@ -12,7 +12,8 @@ la fase 2**: ajustar el curso a la nueva guía técnica del SENCE con que se rev
 franquicia tributaria.
 
 - Qué aprobó el cliente, la bitácora y los pendientes: [ESTADO.md](ESTADO.md).
-- La guía del SENCE y su primera lectura punto por punto: [docs/SENCE-GUIA-TECNICA-FT.md](docs/SENCE-GUIA-TECNICA-FT.md).
+- La auditoría completa de la guía del SENCE, con la tabla de verdad para comparar el curso: [docs/SENCE-TABLA-DE-VERDAD.md](docs/SENCE-TABLA-DE-VERDAD.md), también en Word.
+- Su primera lectura punto por punto: [docs/SENCE-GUIA-TECNICA-FT.md](docs/SENCE-GUIA-TECNICA-FT.md).
 - La versión aprobada queda congelada en la etiqueta
   [`v1.0-visto-bueno-cliente`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/tree/v1.0-visto-bueno-cliente); lo que
   cambie después se ve en la [comparación con `main`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/compare/v1.0-visto-bueno-cliente...main).
@@ -48,7 +49,7 @@ El sitio queda en `panel/dist`. Para verlo en el computador: `npx http-server pa
 
 | Carpeta | Qué tiene |
 |---|---|
-| `data/` | La planilla de origen (`planilla/Estructura_inicial_contenido_IA_generativa.xlsx`), su conversión por hoja (`planilla/*.tsv`), `curso.json` y los ids de Drive |
+| `data/` | La planilla de origen (`planilla/Estructura_inicial_contenido_IA_generativa.xlsx`), su conversión por hoja (`planilla/*.tsv`), `curso.json`, los ids de Drive y la auditoría de la guía del SENCE (`sence/guia-tecnica.json`) |
 | `investigacion/` | Fuentes del contenido y fichas de verificación de los casos |
 | `contenido/` | Contenido base por AE, pantalla por pantalla |
 | `quiz/` | Preguntas de los 22 quiz |
@@ -62,7 +63,7 @@ El sitio queda en `panel/dist`. Para verlo en el computador: `npx http-server pa
 | `pitch/` | El pitch del proyecto, práctica evaluada del módulo 6 |
 | `videos/` | Guion, slides y subtítulos de los videos de cada módulo y del video de inducción (el audio y el video no se suben) |
 | `scripts/` | Importar, validar, generar, compilar, armar el aula Moodle y auditar |
-| `entregables/` | Lo generado: Docs, PDF, SCORM, HTML, GIFT, PNG, el aula Moodle (`moodle/aula.json`), los Rise y la auditoría |
+| `entregables/` | Lo generado: Docs, PDF, SCORM, HTML, GIFT, PNG, el aula Moodle (`moodle/aula.json`), los Rise, la auditoría y el Word de la guía del SENCE (`sence/`) |
 | `docs/` | Criterios fechados, observaciones de Natalia, aula Moodle, guía del SENCE, formatos, revisión de fondo, proceso y auditoría |
 | `.claude/skills/` | Las instrucciones que usa Claude en cada etapa |
 
@@ -80,6 +81,7 @@ El sitio queda en `panel/dist`. Para verlo en el computador: `npx http-server pa
 10. Subida a Drive (skill `curso-drive`)
 11. `node scripts/moodle-aula.mjs`: `entregables/moodle/aula.json`, que el armador `scripts/lib/moodle-armador.js` monta en el aula (`docs/AULA-MOODLE.md`)
 12. `node scripts/auditar.mjs`: auditoría en 10 capas contra la planilla
+13. `node scripts/sence-auditoria.mjs`: Word y Markdown de la tabla de verdad de la guía del SENCE, desde `data/sence/guia-tecnica.json`
 
 Cada decisión que cambia el curso queda en un documento fechado (`docs/CRITERIOS-<fecha>.md` u `docs/OBSERVACIONES-NATALIA-<fecha>.md`)
 y en la bitácora de [ESTADO.md](ESTADO.md).

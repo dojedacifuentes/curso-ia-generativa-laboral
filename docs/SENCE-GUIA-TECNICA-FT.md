@@ -13,7 +13,9 @@ bitácora de [ESTADO.md](../ESTADO.md) cuando se aplican.
 | Extensión | 21 páginas, 20 secciones; sus ejemplos son referenciales |
 | Cómo llegó | OTIC SOFOFA la envió a sus proveedores el 03-11-2026 y Natalia la reenvió al equipo ese mismo día |
 | Archivo | `guia_tecnica_revision_de_solicitudes_ft.pdf`, en el Drive del equipo; no se copia a este repositorio |
-| Relación con la planilla | Es el criterio técnico que faltaba en la hoja «Cumplimiento RE 2484»: sus 6 filas «Depende del Anexo Técnico» ya se pueden revisar |
+| Relación con la planilla | Parece ser la Guía Técnica que la planilla tenía por obtener (hoja Pendientes, fila 3), por confirmar. El Anexo Técnico con indicadores, medios de verificación y estándares no llegó con ella: las 6 filas «Depende del Anexo Técnico» se pueden avanzar con esta guía, sin darlas por cerradas |
+
+**Auditoría completa:** la guía se auditó página por página en [SENCE-TABLA-DE-VERDAD.md](SENCE-TABLA-DE-VERDAD.md), con la tabla de verdad que sirve de vara para comparar el curso. Este documento queda como primera lectura.
 
 ## Qué revisa el SENCE
 

@@ -1,0 +1,458 @@
+{
+  "titulo": "Guía técnica del SENCE: auditoría y tabla de verdad",
+  "subtitulo": "Curso «IA generativa para entornos laborales» · Base de comparación para la fase 2",
+  "version": "1.0",
+  "fecha": "03-11-2026",
+  "aviso": "Documento de trabajo del equipo. Resume y ordena la guía con palabras propias: no la reemplaza ni reemplaza a la Resolución Exenta 2.484. Ante cualquier duda, manda el texto original en la página indicada.",
+  "resumen": {
+    "que_es": "La guía técnica explica con qué criterios el SENCE revisa las solicitudes de cursos por franquicia tributaria bajo la Resolución Exenta 2.484 de 2026. Baja esa resolución a preguntas concretas y a ejemplos de lo que pasa y de lo que no pasa.",
+    "por_que": "El curso ya tiene el primer visto bueno del cliente, pero quien decide si se financia con franquicia es el SENCE. Un curso puede gustarle al cliente y aun así quedar inadmisible. Esta auditoría deja escrito, una sola vez y con su página, todo lo que la guía pide, para comparar después el aula y la solicitud contra una vara fija.",
+    "ideas": [
+      {"titulo":"Son dos puertas, y la segunda es la exigente","texto":"Pasar la admisibilidad solo permite llegar a la evaluación técnica. La admisibilidad comprueba que las cosas existan; la evaluación técnica, que sirvan."},
+      {"titulo":"Lo legal no se compensa","texto":"Son ocho requisitos y basta que falle uno para que la solicitud quede inadmisible y no se revise el resto."},
+      {"titulo":"Un curso es un proceso con una persona que interviene","texto":"Contenido disponible y canales abiertos no alcanzan: tiene que haber actividades, un facilitador con función formativa y evaluación."},
+      {"titulo":"Todo debe poder seguirse hasta el aprendizaje esperado","texto":"El diseño se juzga completo, pero cada aprendizaje esperado debe tener contenidos y actividades, y su evaluación debe poder reconstruirse: evidencia, instrumento, criterio, ponderación y condición de aprobación."},
+      {"titulo":"La solicitud es una promesa que se comprueba","texto":"En e-learning, lo que se declara debe existir en el aula y poder comprobarse en ella."}
+    ],
+    "alcance": "Esta auditoría revisó las 21 páginas y las 20 secciones de la guía. Todavía no compara nada con el curso: las columnas de resultado de la tabla de verdad quedan en blanco a propósito."
+  },
+  "ficha": [
+    {"dato":"Nombre","detalle":"Guía técnica para organismos ejecutores de capacitación. Revisión de solicitudes de cursos financiables mediante Franquicia Tributaria del SENCE"},
+    {"dato":"Emisor","detalle":"SENCE, con su membrete y plantilla de informe"},
+    {"dato":"Norma que desarrolla","detalle":"Resolución Exenta N.° 2.484, de 19-10-2026, que aprueba el instructivo de presentación, revisión y autorización de solicitudes de curso de franquicia tributaria y deja sin efecto la Resolución Exenta N.° 1.560 de 2024. Extracto en el Diario Oficial del 22-10-2026 (CVE 2889575)"},
+    {"dato":"Norma relacionada","detalle":"Resolución Exenta N.° 2.486, de 19-10-2026: procedimiento transitorio de adecuación de cursos vigentes (Diario Oficial del 22-10-2026, CVE 2889574). La planilla anota que aplica a cursos ya inscritos, no a una solicitud nueva, y que conviene confirmarlo"},
+    {"dato":"Cómo llegó","detalle":"OTIC SOFOFA la envió a sus proveedores el 03-11-2026 como documento actualizado; Natalia la reenvió al equipo ese día"},
+    {"dato":"Extensión","detalle":"21 páginas: índice en las páginas 1 y 2 y desarrollo en las páginas 3 a 21; 20 secciones y 14 subsecciones"},
+    {"dato":"Fecha y versión","detalle":"El documento no trae fecha, número, versión ni firma. Los metadatos del PDF indican que se generó el 02-11-2026"},
+    {"dato":"Archivo auditado","detalle":"guia_tecnica_revision_de_solicitudes_ft.pdf (768.363 bytes). SHA-256: 05147b88ef2fc4ddcd35e1afde89571e218e574f870d24e3735ccc0c6b68355e"},
+    {"dato":"Valor de los ejemplos","detalle":"La propia guía dice que sus ejemplos son solo referenciales y orientadores (p. 21)"}
+  ],
+  "etapas": [
+    {"nombre":"Admisibilidad legal","pregunta":"¿Puede esto ser capacitación financiable con franquicia?","si_falla":"Inadmisible. La revisión termina ahí.","secciones":"Sección 2"},
+    {"nombre":"Admisibilidad formal","pregunta":"¿La solicitud está completa, es consistente y se puede evaluar?","si_falla":"Observada o por corregir.","secciones":"Sección 3"},
+    {"nombre":"Evaluación técnica: el diseño","pregunta":"¿El diseño permite desarrollar y verificar la competencia?","si_falla":"Puede observarse.","secciones":"Secciones 5 a 17 y 20"},
+    {"nombre":"Evaluación técnica: el aula","pregunta":"¿Lo declarado existe en la plataforma y deja registro?","si_falla":"La guía no escribe la consecuencia.","secciones":"Secciones 18 y 19"}
+  ],
+  "decision": [
+    {"legal":"Alguna fila falsa","formal":"No se revisa","tecnica":"No se revisa","resultado":"Inadmisible: la revisión termina ahí (p. 7)"},
+    {"legal":"Todas verdaderas","formal":"Desglose que no cuadra, modalidad incoherente o dato contradictorio","tecnica":"Todavía no","resultado":"Observada (pp. 7-8). Para otras fallas formales la guía no escribe la consecuencia (O-11)"},
+    {"legal":"Todas verdaderas","formal":"Todas verdaderas","tecnica":"Falta coherencia, suficiencia o proporción","resultado":"Puede observarse (pp. 11, 14, 20 y 21)"},
+    {"legal":"Todas verdaderas","formal":"Todas verdaderas","tecnica":"Bien en el papel, pero no está en el aula","resultado":"El SENCE puede comprobarlo en la plataforma (pp. 19-20). La guía no escribe la consecuencia"},
+    {"legal":"Todas verdaderas","formal":"Todas verdaderas","tecnica":"Coherente y comprobado en el aula","resultado":"Es lo que el diseño busca. La guía no describe la resolución final: eso está en la RE 2.484"}
+  ],
+  "secciones": [
+    {"n":"1","titulo":"Objetivo","pag":"3","etapa":"Proceso","trata":"Para qué existe la guía y en qué consiste la admisibilidad"},
+    {"n":"2.1","titulo":"Finalidad formativa y vinculación con el trabajo","pag":"3-4","etapa":"Admisibilidad legal","trata":"Qué se capacita, para quién y para qué desempeño"},
+    {"n":"2.2","titulo":"Actividades recreativas, de integración, esparcimiento o bienestar","pag":"4","etapa":"Admisibilidad legal","trata":"El propósito principal debe ser formativo y laboral"},
+    {"n":"2.3","titulo":"Proceso de aprendizaje estructurado","pag":"4","etapa":"Admisibilidad legal","trata":"No basta entregar contenidos"},
+    {"n":"2.4","titulo":"Actividades de cumplimiento normativo o administrativo","pag":"5","etapa":"Admisibilidad legal","trata":"Lo normativo debe desarrollar una competencia"},
+    {"n":"2.5","titulo":"Duración","pag":"5","etapa":"Admisibilidad legal","trata":"Mínimo de horas"},
+    {"n":"2.6","titulo":"Facilitador, tutor o responsable del proceso formativo","pag":"6","etapa":"Admisibilidad legal","trata":"Quién interviene, con qué antecedentes y haciendo qué"},
+    {"n":"2.7","titulo":"Interacción, retroalimentación o acompañamiento","pag":"6","etapa":"Admisibilidad legal","trata":"Al menos una instancia obligatoria"},
+    {"n":"2.8","titulo":"Evaluación de aprendizajes","pag":"6","etapa":"Admisibilidad legal","trata":"Debe existir y qué no cuenta como evaluación"},
+    {"n":"2","titulo":"Cierre de la admisibilidad legal","pag":"7","etapa":"Admisibilidad legal","trata":"Si falla un requisito, la solicitud es inadmisible"},
+    {"n":"3.1","titulo":"Campos y antecedentes obligatorios","pag":"7","etapa":"Admisibilidad formal","trata":"Completa y específica"},
+    {"n":"3.2","titulo":"Consistencia entre los componentes","pag":"7","etapa":"Admisibilidad formal","trata":"Sin contradicciones manifiestas"},
+    {"n":"3.3","titulo":"Concordancia de la duración","pag":"7","etapa":"Admisibilidad formal","trata":"Total igual al desglose"},
+    {"n":"3.4","titulo":"Identificación de la modalidad","pag":"7-8","etapa":"Admisibilidad formal","trata":"Modalidad correcta y coherente con la descripción"},
+    {"n":"3.5","titulo":"Ausencia de contradicciones o información insuficiente","pag":"8","etapa":"Admisibilidad formal","trata":"Un dato, un valor"},
+    {"n":"4","titulo":"Diferencia entre admisibilidad y evaluación técnica","pag":"8","etapa":"Proceso","trata":"Existir frente a ser suficiente"},
+    {"n":"5","titulo":"Segunda etapa: evaluación técnica","pag":"9","etapa":"Evaluación técnica","trata":"Se mira el diseño completo"},
+    {"n":"5.1","titulo":"Qué revisará el SENCE en la evaluación técnica","pag":"9","etapa":"Evaluación técnica","trata":"Los diez ámbitos que se revisan"},
+    {"n":"6","titulo":"Coherencia curricular","pag":"9-11","etapa":"Evaluación técnica","trata":"Relación directa entre los componentes"},
+    {"n":"7","titulo":"Competencia a desarrollar","pag":"11","etapa":"Evaluación técnica","trata":"Acción, objeto y contexto"},
+    {"n":"8","titulo":"Aprendizajes esperados","pag":"11-12","etapa":"Evaluación técnica","trata":"Desempeños parciales y verificables"},
+    {"n":"9","titulo":"Contenidos","pag":"12-13","etapa":"Evaluación técnica","trata":"Suficientes, en secuencia y acordes a las horas"},
+    {"n":"10","titulo":"Técnicas metodológicas y actividades de aprendizaje","pag":"13-14","etapa":"Evaluación técnica","trata":"Describir, no enumerar"},
+    {"n":"11","titulo":"Duración y distribución de horas","pag":"14-15","etapa":"Evaluación técnica","trata":"Horas razonables y reconstruibles"},
+    {"n":"12","titulo":"Facilitador, tutor o responsable del proceso formativo","pag":"15-16","etapa":"Evaluación técnica","trata":"Idoneidad para la función declarada"},
+    {"n":"13","titulo":"Interacción, retroalimentación y acompañamiento","pag":"16","etapa":"Evaluación técnica","trata":"Actividad concreta, no canal disponible"},
+    {"n":"14","titulo":"Evaluación de los aprendizajes","pag":"16-17","etapa":"Evaluación técnica","trata":"La cadena de seis eslabones por aprendizaje esperado"},
+    {"n":"15","titulo":"Ejemplo completo de evaluación coherente","pag":"18","etapa":"Evaluación técnica","trata":"Modelo de evaluación que sí funciona"},
+    {"n":"16","titulo":"Ejemplo de evaluación insuficiente","pag":"18","etapa":"Evaluación técnica","trata":"Selección múltiple conceptual para un aprendizaje de aplicar"},
+    {"n":"17","titulo":"Recursos, materiales, infraestructura y equipamiento","pag":"19","etapa":"Evaluación técnica","trata":"Lo declarado alcanza para lo diseñado"},
+    {"n":"18","titulo":"Cursos e-learning y verificación en LMS","pag":"19-20","etapa":"Evaluación técnica","trata":"Qué se puede comprobar en la plataforma"},
+    {"n":"19","titulo":"Qué ocurre si un elemento solo puede comprobarse en la LMS","pag":"20","etapa":"Evaluación técnica","trata":"Falta de información frente a verificación pendiente"},
+    {"n":"20","titulo":"Coherencia de costos","pag":"20-21","etapa":"Evaluación técnica","trata":"Cada costo se explica por el diseño"},
+    {"n":"Cierre","titulo":"Nota final de la guía","pag":"21","etapa":"Proceso","trata":"Los ejemplos son referenciales"}
+  ],
+  "destacados": [
+    {"enunciado":"Pasar la admisibilidad no aprueba el curso: solo abre la evaluación técnica.","ref":"pp. 3 y 8","filas":"PR-03","por_que":"Son dos puertas y la segunda es la exigente. Una solicitud puede tener todo lo formal en orden y caer porque su evaluación no verifica la competencia. Hay que diseñar pensando en la segunda puerta.","prueba":"Bloques de admisibilidad en verdadero y, además, los de evaluación técnica."},
+    {"enunciado":"Basta un requisito legal falso para que la solicitud quede inadmisible y no se revise lo demás.","ref":"p. 7","filas":"PR-04","por_que":"Los ocho requisitos no se compensan entre sí. Un curso excelente con el facilitador mal descrito ni siquiera llega a la evaluación técnica. Por eso el bloque AL se compara primero.","prueba":"Todas las filas del bloque AL, una por una."},
+    {"enunciado":"Un curso no puede ser solo contenido para leer o ver: debe haber intervención formativa y evaluación.","ref":"p. 4","filas":"AL-09 a AL-11","por_que":"Es la frontera entre capacitación y autoaprendizaje, y un curso asincrónico con paquetes SCORM es el que está más cerca de ella. La diferencia la hace lo que ocurre entre el contenido y la nota.","prueba":"Descripción del proceso en la solicitud y secuencia real de cada módulo en el aula."},
+    {"enunciado":"Nombrar a un facilitador no basta: hay que decir qué hará, sobre qué aprendizaje, por qué canal y cuándo.","ref":"p. 6","filas":"AL-16 a AL-23","por_que":"El SENCE busca a una persona que interviene en el aprendizaje, no a quien administra la plataforma. Es un requisito excluyente, y en la etapa técnica se mira además si sus antecedentes calzan con esa función.","prueba":"Antecedentes del facilitador y descripción de su función en la solicitud."},
+    {"enunciado":"Estar disponible no es acompañar: foro, correo, chat o mesa de ayuda no acreditan por sí solos.","ref":"pp. 6 y 16","filas":"AL-25, IN-01 e IN-03","por_que":"Es el error natural de un curso asincrónico: declarar canales en vez de actividades. La guía pide hechos formativos, no vías de contacto abiertas.","prueba":"La instancia obligatoria se describe como actividad, no como canal."},
+    {"enunciado":"Un acompañamiento bien descrito reúne cinco elementos: actividad + responsable + evidencia + retroalimentación + registro.","ref":"p. 16","filas":"IN-04 a IN-08","por_que":"Es el ejemplo que la guía da por adecuado y lo más parecido a una receta que trae. Cada instancia obligatoria debería poder leerse con esos cinco elementos, y el aula tiene que mostrarlos.","prueba":"Recorrido en el aula con una cuenta de prueba: los cinco elementos a la vista."},
+    {"enunciado":"Para cada aprendizaje esperado debe poder reconstruirse su evidencia, instrumento, criterio, ponderación y condición de aprobación.","ref":"p. 17","filas":"EV-04","por_que":"El diseño se juzga completo, pero la evaluación debe poder seguirse aprendizaje por aprendizaje. Si a uno le falta su cadena, no hay cómo mostrar que se verificó. Con 22 aprendizajes esperados, es la tabla más larga que hay que construir.","prueba":"Ficha por aprendizaje esperado con los seis eslabones completos."},
+    {"enunciado":"Preguntas de selección múltiple sobre conceptos pueden no bastar para demostrar que alguien sabe aplicar.","ref":"p. 18; caso parecido en la p. 11","filas":"CU-12 y EV-14","por_que":"El instrumento debe estar a la altura del verbo. Si el aprendizaje dice aplicar, la guía sugiere mostrar desempeño: un caso resuelto, una simulación o una estrategia, con criterios para valorarlos.","prueba":"Instrumento de cada aprendizaje esperado de aplicar, comparado con su verbo."},
+    {"enunciado":"La competencia se escribe como acción + objeto o resultado + contexto o condición de desempeño.","ref":"p. 11","filas":"CM-04","por_que":"De esa frase cuelga todo lo demás: define qué hay que enseñar y qué hay que evaluar. Una competencia vaga deja sin referencia a los aprendizajes, a las actividades y a la evaluación.","prueba":"Separar los tres elementos en cada competencia declarada."},
+    {"enunciado":"Que la suma cuadre no alcanza: la distribución de horas debe ser razonable y poder reconstruirse.","ref":"p. 14","filas":"DU-02, DU-04 y DU-07","por_que":"El SENCE preguntará cómo se usan las horas, no solo cuántas son. Cada cambio en el aula mueve el desglose, así que las horas se recalculan al final de cada cambio.","prueba":"Horas por aprendizaje esperado y por actividad, que sumen el total y calcen con el aula."},
+    {"enunciado":"Un mismo dato no puede decir dos cosas en dos partes.","ref":"p. 8","filas":"AF-08 y AF-09","por_que":"La guía lo ejemplifica con el peso de una evaluación. Cada vez que el diseño cambia en un lugar y no en otro nace una contradicción, y con varias fuentes vivas el riesgo es real.","prueba":"Nombre, horas, modalidad, ponderaciones y facilitador iguales en toda la solicitud, y de ahí en la planilla y el aula."},
+    {"enunciado":"Lo que la solicitud declara, el aula debe mostrarlo.","ref":"pp. 19-20","filas":"LM-01, LM-12 y LM-13","por_que":"La solicitud es una promesa que se comprueba. Prometer retroalimentación individual obliga a que la plataforma deje ver la actividad, la entrega, la intervención, la retroalimentación y el registro.","prueba":"Revisión de la solicitud contra el aula, punto por punto."},
+    {"enunciado":"Si un instrumento está bien descrito en la solicitud, su comprobación queda para la plataforma; si no está descrito, se puede observar.","ref":"p. 20","filas":"LM-14","por_que":"Dice cuánto hay que escribir. No hace falta copiar cada instrumento en la solicitud, pero sí explicar qué es, para qué sirve, con qué criterios se aplica y cuánto pesa.","prueba":"Cada instrumento con finalidad, criterios y ponderación en la solicitud."},
+    {"enunciado":"La pregunta de fondo es si el diseño «permite razonablemente desarrollar y verificar la competencia laboral declarada» (guía técnica, p. 9).","ref":"p. 9","filas":"CU-03","por_que":"Resume toda la guía y sirve para decidir en caso de duda: una pieza del curso vale en la medida en que ayuda a desarrollar la competencia o a demostrar que se logró.","prueba":"Lectura completa del diseño con esa pregunta en mente."}
+  ],
+  "bloques": [
+    {
+      "id": "PR",
+      "titulo": "Cómo funciona la revisión",
+      "secciones": "1, 2, 3, 4, 5 y cierre",
+      "por_que": "Estas filas no se comparan con el curso: explican las reglas del juego. Están aquí para que nadie lea mal el resultado de una etapa.",
+      "filas": [
+        {"id":"PR-01","sec":"1","pag":"3","enunciado":"La guía orienta a los OTEC sobre cómo presentar sus solicitudes y con qué criterios se revisarán en admisibilidad y evaluación técnica, conforme a la RE 2.484 de 2026.","tipo":"Afirmación","donde":"—","falso":"—","prueba":"—"},
+        {"id":"PR-02","sec":"1","pag":"3","enunciado":"La admisibilidad legal mira si la actividad puede ser capacitación financiable con franquicia; la formal, si la información alcanza para evaluarla después.","tipo":"Afirmación","donde":"—","falso":"—","prueba":"—"},
+        {"id":"PR-03","sec":"1 y 4","pag":"3, 8","enunciado":"Superar la admisibilidad solo deja pasar a la evaluación técnica; no significa que el curso esté aprobado.","tipo":"Afirmación","donde":"—","falso":"—","prueba":"—"},
+        {"id":"PR-04","sec":"2","pag":"7","enunciado":"Si falla cualquiera de los requisitos legales, la solicitud es inadmisible y su revisión se detiene.","tipo":"Afirmación","donde":"—","falso":"—","prueba":"—"},
+        {"id":"PR-05","sec":"3.2","pag":"7","enunciado":"En admisibilidad formal no se juzga si los componentes son óptimos: solo que sean consistentes y evaluables.","tipo":"Afirmación","donde":"—","falso":"—","prueba":"—"},
+        {"id":"PR-06","sec":"2.5, 2.8 y 4","pag":"5, 6, 8","enunciado":"La admisibilidad comprueba que algo exista; la evaluación técnica analiza su coherencia, suficiencia, idoneidad, pertinencia y proporción. La proporcionalidad de las horas y la calidad del instrumento se dejan para esa etapa.","tipo":"Afirmación","donde":"—","falso":"—","prueba":"—"},
+        {"id":"PR-07","sec":"5","pag":"9","enunciado":"La evaluación técnica no revisa cada componente por separado: analiza el diseño completo.","tipo":"Afirmación","donde":"—","falso":"—","prueba":"—"},
+        {"id":"PR-08","sec":"5.1","pag":"9","enunciado":"Revisa al menos diez ámbitos: coherencia curricular; aprendizajes y contenidos; técnicas y actividades; duración y horas; facilitador; interacción, retroalimentación y acompañamiento, cuando corresponda; evaluación; materiales, recursos, infraestructura y equipamiento; plataformas y trazabilidad en e-learning; y costos.","tipo":"Afirmación","donde":"—","falso":"—","prueba":"—"},
+        {"id":"PR-09","sec":"Cierre","pag":"21","enunciado":"Los ejemplos de la guía son solo referenciales y orientadores.","tipo":"Afirmación","donde":"—","falso":"—","prueba":"—"}
+      ]
+    },
+    {
+      "id": "AL",
+      "titulo": "Admisibilidad legal",
+      "secciones": "2.1 a 2.8",
+      "por_que": "Es el primer filtro y no admite compensación: si un requisito falla, la solicitud queda inadmisible. Por eso se compara primero. Lo legal se lee en lo que la solicitud describe; el cruce con el aula va en el bloque LM. Las filas del facilitador y de la interacción son las más exigentes para un curso asincrónico, porque piden describir a una persona que interviene.",
+      "filas": [
+        {"id":"AL-01","sec":"2.1","pag":"3","enunciado":"La solicitud apunta a desarrollar o perfeccionar conocimientos, habilidades o competencias para el trabajo: empleabilidad, productividad, adaptación a la tecnología o desempeño.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Nombre, competencia y finalidad declarada"},
+        {"id":"AL-02","sec":"2.1","pag":"3","enunciado":"El ítem «Características de los participantes» deja reconocer con claridad la finalidad formativa del curso y cómo se relaciona con el trabajo de quienes participan.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Ítem de la solicitud: finalidad y relación con el trabajo"},
+        {"id":"AL-03","sec":"2.1","pag":"3","enunciado":"El ítem «Características de los participantes» dice qué funciones cumple el público del curso.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Ítem de la solicitud: funciones"},
+        {"id":"AL-04","sec":"2.1","pag":"3","enunciado":"Ese ítem señala la necesidad laboral del grupo.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Ítem de la solicitud: necesidad laboral"},
+        {"id":"AL-05","sec":"2.1","pag":"3","enunciado":"Ese ítem señala qué aspecto del desempeño se quiere fortalecer.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Ítem de la solicitud: desempeño a fortalecer"},
+        {"id":"AL-06","sec":"2.1","pag":"3-4","enunciado":"El ítem «Competencia a desarrollar» expresa el desempeño esperado como una acción que la persona podrá hacer en su trabajo al terminar.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Ítem «Competencia a desarrollar»"},
+        {"id":"AL-07","sec":"2.2","pag":"4","enunciado":"El propósito predominante no es la recreación, la convivencia, la integración, el esparcimiento ni el bienestar sin una finalidad real de capacitación laboral.","tipo":"Límite","donde":"Solicitud","falso":"Inadmisible","prueba":"Nombre, competencia, aprendizajes y contenidos"},
+        {"id":"AL-08","sec":"2.2","pag":"4","enunciado":"Usar dinámicas recreativas como recurso del método no vuelve inadmisible un curso por sí solo: lo que cuenta es que su propósito principal sea formativo y laboral.","tipo":"Aclaración","donde":"—","falso":"—","prueba":"Sirve para ubicar juegos e insignias como recurso del método"},
+        {"id":"AL-09","sec":"2.3","pag":"4","enunciado":"La solicitud describe un proceso formativo estructurado y no se limita a entregar contenidos, dejarlos disponibles o pedir que se revisen por cuenta propia.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Descripción del proceso en la solicitud"},
+        {"id":"AL-10","sec":"2.3","pag":"4","enunciado":"Quien participa no solo lee o mira contenidos: el proceso incluye intervención formativa.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Actividades con intervención del facilitador, descritas"},
+        {"id":"AL-11","sec":"2.3","pag":"4","enunciado":"El proceso incluye evaluación de aprendizajes.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Evaluación descrita en la solicitud"},
+        {"id":"AL-12","sec":"2.4","pag":"5","enunciado":"Si el curso aborda una ley, un reglamento, un protocolo, un procedimiento u otra obligación normativa, su diseño desarrolla una competencia aplicable al trabajo.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Aprendizajes y casos sobre datos personales, licencias y derechos"},
+        {"id":"AL-13","sec":"2.4","pag":"5","enunciado":"La acción no se agota en informar, difundir, registrar una lectura, acreditar que se tomó conocimiento o cumplir una formalidad.","tipo":"Límite","donde":"Solicitud","falso":"Inadmisible","prueba":"Actividades y evaluación de esos temas, como se describen"},
+        {"id":"AL-14","sec":"2.4","pag":"5","enunciado":"Un tema normativo se plantea como aplicación de la norma, con evaluación del aprendizaje, y no como su sola identificación.","tipo":"Modelo","donde":"Solicitud","falso":"Inadmisible","prueba":"Verbos de los aprendizajes sobre datos, licencias y derechos"},
+        {"id":"AL-15","sec":"2.5","pag":"5","enunciado":"La duración es de al menos 8 horas cronológicas, salvo que un Plan Formativo SENCE, una norma sectorial u otra regulación especial fije otra.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Duración total declarada"},
+        {"id":"AL-16","sec":"2.6","pag":"6","enunciado":"La solicitud identifica quién es responsable de intervenir en la formación.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Identificación del facilitador"},
+        {"id":"AL-17","sec":"2.6","pag":"6","enunciado":"Señala sus antecedentes de formación y experiencia en la temática del curso.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Antecedentes en el tema"},
+        {"id":"AL-18","sec":"2.6","pag":"6","enunciado":"Señala sus antecedentes de formación y experiencia en la capacitación de personas adultas.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Antecedentes formando adultos"},
+        {"id":"AL-19","sec":"2.6","pag":"6","enunciado":"Describe qué acción realizará esa persona.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Función formativa: acción"},
+        {"id":"AL-20","sec":"2.6","pag":"6","enunciado":"Describe sobre qué actividad o aprendizaje esperado intervendrá.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Función formativa: actividad o aprendizaje"},
+        {"id":"AL-21","sec":"2.6","pag":"6","enunciado":"Describe por qué canal intervendrá.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Función formativa: canal"},
+        {"id":"AL-22","sec":"2.6","pag":"6","enunciado":"Describe en qué momento del proceso intervendrá.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Función formativa: momento"},
+        {"id":"AL-23","sec":"2.6","pag":"6","enunciado":"Hay intervención ligada al aprendizaje: no basta con nombrar a una persona ni con darle tareas administrativas, técnicas o de soporte.","tipo":"Límite","donde":"Solicitud","falso":"Inadmisible","prueba":"Intervenciones atadas a una actividad de aprendizaje"},
+        {"id":"AL-24","sec":"2.7","pag":"6","enunciado":"El proceso contempla al menos una instancia obligatoria de interacción, de retroalimentación o de acompañamiento.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Instancia declarada como obligatoria"},
+        {"id":"AL-25","sec":"2.7","pag":"6","enunciado":"Esa instancia no se reduce a tener a disposición un correo, un chat, una mesa de ayuda u otra vía de consulta.","tipo":"Límite","donde":"Solicitud","falso":"Inadmisible","prueba":"La instancia descrita es una actividad, no un canal"},
+        {"id":"AL-26","sec":"2.8","pag":"6","enunciado":"El curso contempla una evaluación destinada a comprobar los aprendizajes alcanzados.","tipo":"Requisito","donde":"Solicitud","falso":"Inadmisible","prueba":"Evaluación declarada"},
+        {"id":"AL-27","sec":"2.8","pag":"6","enunciado":"Esa evaluación no consiste solo en encuestas de satisfacción, listas de asistencia, declaraciones de haber participado o constancias de lectura o de toma de conocimiento.","tipo":"Límite","donde":"Solicitud","falso":"Inadmisible","prueba":"Instrumentos declarados"}
+      ]
+    },
+    {
+      "id": "AF",
+      "titulo": "Admisibilidad formal",
+      "secciones": "3.1 a 3.5 y 4",
+      "por_que": "Este filtro no mide calidad sino orden: que la solicitud esté completa, sea específica y no se contradiga. Aquí caen los datos que cambiaron en un lugar y no en otro.",
+      "filas": [
+        {"id":"AF-01","sec":"3.1","pag":"7","enunciado":"Están completos todos los campos y antecedentes que pide el sistema.","tipo":"Requisito","donde":"Solicitud","falso":"No lo dice","prueba":"Formulario sin campos vacíos"},
+        {"id":"AF-02","sec":"3.1","pag":"7","enunciado":"La información es lo bastante específica para entender las características del curso.","tipo":"Requisito","donde":"Solicitud","falso":"No lo dice","prueba":"Lectura por alguien ajeno al curso"},
+        {"id":"AF-03","sec":"3.2","pag":"7","enunciado":"Competencia, aprendizajes esperados, contenidos, técnicas, actividades e instrumentos de evaluación no se contradicen de forma manifiesta.","tipo":"Requisito","donde":"Solicitud","falso":"Observada","prueba":"Matriz de coherencia contra el aula"},
+        {"id":"AF-04","sec":"3.3","pag":"7","enunciado":"La duración total declarada coincide con el desglose horario de la solicitud.","tipo":"Requisito","donde":"Solicitud","falso":"Observada","prueba":"Suma del desglose contra el total"},
+        {"id":"AF-05","sec":"3.3","pag":"7","enunciado":"El desglose se muestra por aprendizaje esperado y suma exactamente el total.","tipo":"Modelo","donde":"Solicitud","falso":"Observada","prueba":"Horas por aprendizaje esperado"},
+        {"id":"AF-06","sec":"3.4","pag":"7","enunciado":"La modalidad es una de las tres previstas (presencial, e-learning sincrónica o e-learning asincrónica) y está bien identificada.","tipo":"Requisito","donde":"Solicitud","falso":"No lo dice","prueba":"Campo modalidad"},
+        {"id":"AF-07","sec":"3.4","pag":"7-8","enunciado":"La modalidad es coherente con la forma en que se describe el desarrollo del curso.","tipo":"Requisito","donde":"Solicitud","falso":"Observada","prueba":"Descripción del curso en la solicitud"},
+        {"id":"AF-08","sec":"3.5","pag":"8","enunciado":"No hay contradicciones, inconsistencias manifiestas ni falta de información que impidan entender el diseño o evaluarlo.","tipo":"Requisito","donde":"Solicitud","falso":"Observada","prueba":"Lectura cruzada de solicitud, planilla y aula"},
+        {"id":"AF-09","sec":"3.5","pag":"8","enunciado":"Un mismo dato no aparece con valores distintos en dos partes (el ejemplo es el peso de una evaluación).","tipo":"Límite","donde":"Solicitud","falso":"Observada","prueba":"Nombre, horas, modalidad, pesos y facilitador iguales en toda la solicitud"},
+        {"id":"AF-10","sec":"4","pag":"8","enunciado":"La solicitud desarrolla técnicas metodológicas: la admisibilidad comprueba que existan.","tipo":"Requisito","donde":"Solicitud","falso":"No lo dice","prueba":"Técnicas descritas en la solicitud"}
+      ]
+    },
+    {
+      "id": "CU",
+      "titulo": "Coherencia curricular",
+      "secciones": "5 y 6",
+      "por_que": "La evaluación técnica lee el diseño como una sola cadena. Un eslabón suelto, aunque sea bueno, debilita toda la solicitud.",
+      "filas": [
+        {"id":"CU-01","sec":"2.1","pag":"4","enunciado":"La competencia es coherente con las características de los participantes y se desarrolla en aprendizajes esperados, técnicas y evaluación. La guía deja esta revisión para la evaluación técnica.","tipo":"Criterio","donde":"Solicitud","falso":"No lo dice","prueba":"Lectura cruzada de esos cuatro elementos"},
+        {"id":"CU-02","sec":"5","pag":"9","enunciado":"Hay coherencia en toda la secuencia: participantes, competencia, aprendizajes esperados, contenidos, técnicas, actividades, evaluación, duración y recursos.","tipo":"Criterio","donde":"Solicitud","falso":"No lo dice","prueba":"Matriz de coherencia de punta a punta"},
+        {"id":"CU-03","sec":"5","pag":"9","enunciado":"Mirado completo, el diseño permite de forma razonable desarrollar la competencia y comprobar que se logró.","tipo":"Criterio","donde":"Ambas","falso":"No lo dice","prueba":"Lectura completa del diseño con esa pregunta"},
+        {"id":"CU-04","sec":"6","pag":"9","enunciado":"Los componentes están relacionados entre sí y cada uno aporta al desarrollo de la competencia.","tipo":"Criterio","donde":"Solicitud","falso":"No lo dice","prueba":"Ningún componente queda suelto"},
+        {"id":"CU-05","sec":"6","pag":"10","enunciado":"La competencia responde qué debe hacer la persona.","tipo":"Criterio","donde":"Solicitud","falso":"No lo dice","prueba":"Una respuesta para la competencia"},
+        {"id":"CU-06","sec":"6","pag":"10","enunciado":"Los aprendizajes esperados responden qué aprenderá la persona, paso a paso, para llegar a la competencia.","tipo":"Criterio","donde":"Solicitud","falso":"No lo dice","prueba":"Progresión de los aprendizajes"},
+        {"id":"CU-07","sec":"6","pag":"10","enunciado":"Los contenidos responden qué conocimientos y habilidades necesita dominar.","tipo":"Criterio","donde":"Solicitud","falso":"No lo dice","prueba":"Una respuesta para los contenidos"},
+        {"id":"CU-08","sec":"6","pag":"10","enunciado":"Las técnicas y actividades responden con qué desarrollará los aprendizajes.","tipo":"Criterio","donde":"Solicitud","falso":"No lo dice","prueba":"Una respuesta para las técnicas y actividades"},
+        {"id":"CU-09","sec":"6","pag":"10","enunciado":"La evaluación responde cómo se comprobará que los alcanzó.","tipo":"Criterio","donde":"Solicitud","falso":"No lo dice","prueba":"Una respuesta para la evaluación"},
+        {"id":"CU-10","sec":"6","pag":"10","enunciado":"La solicitud muestra una relación directa entre características laborales de los participantes, competencia, aprendizajes, contenidos, actividades y evaluación.","tipo":"Requisito","donde":"Solicitud","falso":"No lo dice","prueba":"Relación explícita entre los seis elementos"},
+        {"id":"CU-11","sec":"6","pag":"10","enunciado":"Se observa una relación entre el trabajo de la persona, lo que aprende, la actividad que hace y lo que finalmente se evalúa.","tipo":"Modelo","donde":"Solicitud","falso":"No lo dice","prueba":"Por aprendizaje: trabajo, actividad y evaluación"},
+        {"id":"CU-12","sec":"6","pag":"11","enunciado":"La evaluación comprueba la aplicación de la competencia y no solo conocimiento conceptual.","tipo":"Límite","donde":"Ambas","falso":"Observada","prueba":"Qué desempeño muestra la persona en cada evaluación"}
+      ]
+    },
+    {
+      "id": "CM",
+      "titulo": "Competencia",
+      "secciones": "7",
+      "por_que": "La competencia es la referencia de todo lo demás. Si está mal escrita, los aprendizajes, las actividades y la evaluación no tienen contra qué medirse.",
+      "filas": [
+        {"id":"CM-01","sec":"7","pag":"11","enunciado":"La competencia dice qué será capaz de hacer la persona al terminar la capacitación.","tipo":"Requisito","donde":"Solicitud","falso":"Debe corregirse","prueba":"Texto de la competencia"},
+        {"id":"CM-02","sec":"7","pag":"11","enunciado":"Se relaciona con el contexto laboral de la persona.","tipo":"Requisito","donde":"Solicitud","falso":"No lo dice","prueba":"Contexto de trabajo en el texto"},
+        {"id":"CM-03","sec":"4","pag":"8","enunciado":"La competencia es coherente y suficiente dentro del diseño.","tipo":"Criterio","donde":"Solicitud","falso":"No lo dice","prueba":"Competencia contra el resto del diseño"},
+        {"id":"CM-04","sec":"7","pag":"11","enunciado":"Tiene la estructura acción + objeto o resultado + contexto o condición de desempeño.","tipo":"Requisito","donde":"Solicitud","falso":"Debe corregirse","prueba":"Los tres elementos, separados"},
+        {"id":"CM-05","sec":"7","pag":"11","enunciado":"No es una fórmula genérica del tipo conocer + herramienta, que no deja ver el desempeño.","tipo":"Límite","donde":"Solicitud","falso":"Debe corregirse","prueba":"Verbo de desempeño observable"}
+      ]
+    },
+    {
+      "id": "AE",
+      "titulo": "Aprendizajes esperados",
+      "secciones": "8",
+      "por_que": "Son los eslabones que llevan a la competencia. Cada uno debe tener contenidos y actividades asociados y poder evaluarse. Si no se puede decir qué hará la persona para demostrarlo, falta precisarlo.",
+      "filas": [
+        {"id":"AE-01","sec":"8","pag":"11","enunciado":"Cada aprendizaje esperado describe un desempeño parcial que hay que alcanzar para desarrollar la competencia.","tipo":"Requisito","donde":"Solicitud","falso":"No lo dice","prueba":"Cada aprendizaje contra su competencia"},
+        {"id":"AE-02","sec":"8","pag":"12","enunciado":"Cada uno aporta directamente al logro de la competencia.","tipo":"Requisito","donde":"Solicitud","falso":"No lo dice","prueba":"Relación con la competencia"},
+        {"id":"AE-03","sec":"8","pag":"12","enunciado":"Cada uno describe algo que se puede verificar.","tipo":"Requisito","donde":"Solicitud","falso":"No lo dice","prueba":"Verbo y producto observable"},
+        {"id":"AE-04","sec":"8","pag":"12","enunciado":"Cada uno tiene contenidos asociados.","tipo":"Requisito","donde":"Ambas","falso":"No lo dice","prueba":"Contenido del aprendizaje en el aula"},
+        {"id":"AE-05","sec":"8","pag":"12","enunciado":"Cada uno tiene actividades que permiten desarrollarlo.","tipo":"Requisito","donde":"Ambas","falso":"No lo dice","prueba":"Actividades del aprendizaje en el aula"},
+        {"id":"AE-06","sec":"8","pag":"12","enunciado":"Cada uno se puede evaluar.","tipo":"Requisito","donde":"Ambas","falso":"No lo dice","prueba":"Instrumento que lo evalúa"},
+        {"id":"AE-07","sec":"8","pag":"12","enunciado":"Para cada uno se puede responder qué hará la persona para demostrar que lo logró; si no, probablemente falta operacionalizarlo.","tipo":"Criterio","donde":"Solicitud","falso":"No lo dice","prueba":"Ficha por aprendizaje esperado"},
+        {"id":"AE-08","sec":"6","pag":"11","enunciado":"Los aprendizajes y las actividades están al nivel de la competencia: una competencia de aplicar no se sostiene con un aprendizaje de conocer y una lectura.","tipo":"Modelo","donde":"Solicitud","falso":"Observada","prueba":"Verbos de competencia, aprendizajes y actividades"}
+      ]
+    },
+    {
+      "id": "CT",
+      "titulo": "Contenidos",
+      "secciones": "9",
+      "por_que": "No se cuenta cuánto contenido hay, sino si alcanza para hacer lo que el aprendizaje pide. Un curso rico en conceptos puede quedar corto si el aprendizaje dice aplicar.",
+      "filas": [
+        {"id":"CT-01","sec":"9","pag":"12","enunciado":"Los contenidos están asociados a cada aprendizaje esperado y se relacionan con la competencia.","tipo":"Requisito","donde":"Ambas","falso":"No lo dice","prueba":"Cruce aprendizaje y contenido"},
+        {"id":"CT-02","sec":"9","pag":"12","enunciado":"Son suficientes para desarrollar el aprendizaje.","tipo":"Requisito","donde":"Ambas","falso":"No lo dice","prueba":"Contenido contra lo que se pide hacer"},
+        {"id":"CT-03","sec":"9","pag":"12","enunciado":"Se vinculan con la finalidad del curso.","tipo":"Requisito","donde":"Solicitud","falso":"No lo dice","prueba":"Contenidos contra finalidad laboral"},
+        {"id":"CT-04","sec":"9","pag":"12","enunciado":"Siguen una secuencia lógica.","tipo":"Requisito","donde":"Ambas","falso":"No lo dice","prueba":"Orden de temas y módulos"},
+        {"id":"CT-05","sec":"9","pag":"12","enunciado":"Su profundidad es compatible con las horas declaradas.","tipo":"Requisito","donde":"Ambas","falso":"No lo dice","prueba":"Profundidad contra horas del aprendizaje"},
+        {"id":"CT-06","sec":"9","pag":"13","enunciado":"Si el aprendizaje pide aplicar, hay contenidos para aplicar (estructura, técnicas, ejercicios) y no solo definiciones, historia o tipos.","tipo":"Límite","donde":"Ambas","falso":"Insuficiente","prueba":"Pasos, técnicas y ejercicios en esos temas"}
+      ]
+    },
+    {
+      "id": "TM",
+      "titulo": "Técnicas y actividades",
+      "secciones": "10",
+      "por_que": "Nombrar técnicas no prueba nada. El SENCE quiere leer qué hace la persona, qué produce y cómo interviene el facilitador.",
+      "filas": [
+        {"id":"TM-01","sec":"10","pag":"13","enunciado":"Las técnicas y actividades permiten de verdad desarrollar los aprendizajes esperados.","tipo":"Criterio","donde":"Ambas","falso":"No lo dice","prueba":"Técnica y actividades por aprendizaje"},
+        {"id":"TM-02","sec":"10","pag":"13","enunciado":"La solicitud no se queda en una lista de técnicas (exposición, lectura, foro, estudio de caso, trabajo en grupo).","tipo":"Límite","donde":"Solicitud","falso":"Insuficiente","prueba":"Texto de técnicas en la solicitud"},
+        {"id":"TM-03","sec":"10","pag":"13","enunciado":"Explica qué hará la persona participante.","tipo":"Requisito","donde":"Solicitud","falso":"Insuficiente","prueba":"Acción del participante por actividad"},
+        {"id":"TM-04","sec":"10","pag":"13","enunciado":"Explica cómo esa actividad aporta al aprendizaje esperado.","tipo":"Requisito","donde":"Solicitud","falso":"Insuficiente","prueba":"Relación actividad y aprendizaje"},
+        {"id":"TM-05","sec":"10","pag":"13","enunciado":"Declara cómo el facilitador retroalimentará y acompañará, para acreditar ese proceso.","tipo":"Requisito","donde":"Ambas","falso":"Insuficiente","prueba":"Forma y momento de la retroalimentación"},
+        {"id":"TM-06","sec":"10","pag":"14","enunciado":"En cada actividad se distinguen cinco elementos: actividad, participante, aprendizaje asociado, producto e intervención del facilitador.","tipo":"Modelo","donde":"Solicitud","falso":"No lo dice","prueba":"Los cinco elementos por actividad"}
+      ]
+    },
+    {
+      "id": "DU",
+      "titulo": "Duración y horas",
+      "secciones": "11",
+      "por_que": "Las horas son el dato que más se desordena cuando el diseño cambia. La guía pide que se puedan reconstruir, no solo sumar, y que tengan sentido frente a lo que se pide hacer.",
+      "filas": [
+        {"id":"DU-01","sec":"11","pag":"14","enunciado":"La duración guarda relación con la complejidad de la competencia, la cantidad y profundidad de los aprendizajes, los contenidos, la metodología, las actividades prácticas y la evaluación.","tipo":"Requisito","donde":"Solicitud","falso":"No lo dice","prueba":"Justificación de las horas totales"},
+        {"id":"DU-02","sec":"11","pag":"14","enunciado":"La distribución permite ejecutar el proceso de forma razonable: no basta con que la suma sea correcta.","tipo":"Criterio","donde":"Solicitud","falso":"Puede observarse","prueba":"Horas por módulo, aprendizaje y actividad"},
+        {"id":"DU-03","sec":"11","pag":"14-15","enunciado":"No hay diferencias entre las horas totales y el desglose, tampoco en la suma de las actividades.","tipo":"Requisito","donde":"Solicitud","falso":"Debe corregirse","prueba":"Total contra suma por aprendizaje y actividad"},
+        {"id":"DU-04","sec":"11","pag":"14","enunciado":"La duración de cada actividad se puede reconstruir.","tipo":"Requisito","donde":"Ambas","falso":"Observada","prueba":"Parámetros de tiempo por tipo de actividad"},
+        {"id":"DU-05","sec":"11","pag":"14","enunciado":"Ningún aprendizaje complejo tiene un tiempo claramente insuficiente.","tipo":"Requisito","donde":"Solicitud","falso":"Puede observarse","prueba":"Horas de los aprendizajes más complejos"},
+        {"id":"DU-06","sec":"11","pag":"14","enunciado":"No hay tiempos excesivos sin actividades formativas que los respalden.","tipo":"Requisito","donde":"Solicitud","falso":"Puede observarse","prueba":"Minutos de cada actividad con su respaldo"},
+        {"id":"DU-07","sec":"11","pag":"14","enunciado":"Se puede reconstruir cómo se reparte en la práctica la carga horaria, sin contradicciones.","tipo":"Criterio","donde":"Ambas","falso":"Observada","prueba":"Hoja «Resumen horas» contra el aula de hoy"},
+        {"id":"DU-08","sec":"11","pag":"15","enunciado":"La metodología y las actividades explican cómo se usan las horas declaradas.","tipo":"Modelo","donde":"Solicitud","falso":"Observada","prueba":"Texto de metodología"}
+      ]
+    },
+    {
+      "id": "FA",
+      "titulo": "Facilitador",
+      "secciones": "12",
+      "por_que": "Aquí ya no basta con que el facilitador exista: se juzga si sus antecedentes calzan con lo que va a hacer. Y lo que puede hacer limita lo que el curso puede prometer.",
+      "filas": [
+        {"id":"FA-01","sec":"12","pag":"15","enunciado":"Su formación y/o experiencia permite relacionarlo razonablemente con la temática del curso.","tipo":"Criterio","donde":"Solicitud","falso":"Faltan antecedentes","prueba":"Antecedentes contra temática"},
+        {"id":"FA-02","sec":"12","pag":"15","enunciado":"También con las actividades que debe desarrollar.","tipo":"Criterio","donde":"Solicitud","falso":"Faltan antecedentes","prueba":"Antecedentes contra actividades"},
+        {"id":"FA-03","sec":"12","pag":"15","enunciado":"También con la orientación del aprendizaje.","tipo":"Criterio","donde":"Solicitud","falso":"Faltan antecedentes","prueba":"Experiencia orientando a adultos"},
+        {"id":"FA-04","sec":"12","pag":"15","enunciado":"Y con la evaluación, cuando le corresponda.","tipo":"Criterio","donde":"Solicitud","falso":"Faltan antecedentes","prueba":"Experiencia evaluando con rúbrica"},
+        {"id":"FA-05","sec":"12","pag":"15","enunciado":"No se pide un título profesional específico, salvo que una norma sectorial lo determine.","tipo":"Aclaración","donde":"—","falso":"—","prueba":"—"},
+        {"id":"FA-06","sec":"12","pag":"15","enunciado":"La persona es idónea para la función formativa declarada y sus acciones apoyan el proceso de aprendizaje.","tipo":"Criterio","donde":"Solicitud","falso":"No lo dice","prueba":"Función declarada contra antecedentes y acciones"},
+        {"id":"FA-07","sec":"12","pag":"15","enunciado":"Hay una correspondencia reconocible entre sus antecedentes y su función (formación afín, experiencia en el tema y experiencia facilitando capacitación laboral).","tipo":"Modelo","donde":"Solicitud","falso":"Faltan antecedentes","prueba":"Antecedentes y función, lado a lado"},
+        {"id":"FA-08","sec":"12","pag":"16","enunciado":"La experiencia general como capacitador, sin relación con la materia, no alcanza para mostrar idoneidad en lo que debe orientar o evaluar.","tipo":"Límite","donde":"Solicitud","falso":"Faltan antecedentes","prueba":"Antecedentes en la materia del curso"}
+      ]
+    },
+    {
+      "id": "IN",
+      "titulo": "Interacción, retroalimentación y acompañamiento",
+      "secciones": "13",
+      "por_que": "En e-learning esta es la diferencia entre un curso y un repositorio. La guía exige una actividad concreta y deja fuera los canales abiertos, incluido el foro por sí solo.",
+      "filas": [
+        {"id":"IN-01","sec":"13","pag":"16","enunciado":"El acompañamiento no se apoya por sí solo en correo, foro, chat, mesa de ayuda o canal de consultas.","tipo":"Límite","donde":"Ambas","falso":"No se acredita","prueba":"Lo declarado no depende de un canal abierto"},
+        {"id":"IN-02","sec":"13","pag":"16","enunciado":"Está identificada una actividad formativa concreta.","tipo":"Requisito","donde":"Ambas","falso":"No se acredita","prueba":"Actividad con nombre en solicitud y aula"},
+        {"id":"IN-03","sec":"13","pag":"16","enunciado":"La solicitud no se queda en decir que el tutor estará disponible para responder dudas: eso muestra disponibilidad, pero no necesariamente intervención.","tipo":"Límite","donde":"Solicitud","falso":"Insuficiente","prueba":"El texto habla de acciones"},
+        {"id":"IN-04","sec":"13","pag":"16","enunciado":"Cada participante entrega un producto en un punto definido del curso.","tipo":"Modelo","donde":"Ambas","falso":"No lo dice","prueba":"Tarea de entrega en el aula"},
+        {"id":"IN-05","sec":"13","pag":"16","enunciado":"El facilitador revisa ese producto.","tipo":"Modelo","donde":"Ambas","falso":"No lo dice","prueba":"Revisión del docente en la tarea"},
+        {"id":"IN-06","sec":"13","pag":"16","enunciado":"Entrega retroalimentación individual por la plataforma, con fortalezas, errores y aspectos por corregir.","tipo":"Modelo","donde":"Ambas","falso":"No lo dice","prueba":"Comentario individual en la tarea"},
+        {"id":"IN-07","sec":"13","pag":"16","enunciado":"La actividad es obligatoria.","tipo":"Modelo","donde":"Ambas","falso":"No lo dice","prueba":"Requisito de finalización del curso"},
+        {"id":"IN-08","sec":"13","pag":"16","enunciado":"Queda registrada en la plataforma.","tipo":"Modelo","donde":"Ambas","falso":"No lo dice","prueba":"Registro de entrega y retroalimentación"}
+      ]
+    },
+    {
+      "id": "EV",
+      "titulo": "Evaluación de los aprendizajes",
+      "secciones": "14, 15 y 16",
+      "por_que": "Es el bloque con más consecuencias: tiene que demostrar que cada aprendizaje y la competencia se alcanzaron. Si los instrumentos no muestran desempeño, no alcanza con que lo demás esté bien.",
+      "filas": [
+        {"id":"EV-01","sec":"14","pag":"16","enunciado":"La evaluación permite comprobar que la persona alcanzó los aprendizajes esperados.","tipo":"Requisito","donde":"Ambas","falso":"No lo dice","prueba":"Cobertura de todos los aprendizajes"},
+        {"id":"EV-02","sec":"14","pag":"16","enunciado":"En conjunto, permite comprobar la competencia del curso.","tipo":"Requisito","donde":"Ambas","falso":"Observada","prueba":"Evaluaciones en conjunto contra la competencia"},
+        {"id":"EV-03","sec":"2.8 y 4","pag":"6, 8","enunciado":"Cada instrumento es pertinente, suficiente y de calidad técnica para lo que evalúa.","tipo":"Criterio","donde":"Ambas","falso":"No lo dice","prueba":"Cada instrumento contra lo que debe verificar"},
+        {"id":"EV-04","sec":"14","pag":"17","enunciado":"Para cada aprendizaje esperado se puede reconstruir la cadena: evidencia, instrumento, criterio de evaluación, ponderación y condición de aprobación.","tipo":"Requisito","donde":"Ambas","falso":"No lo dice","prueba":"Ficha por aprendizaje con los seis eslabones"},
+        {"id":"EV-05","sec":"14","pag":"17","enunciado":"La solicitud indica qué se evaluará.","tipo":"Requisito","donde":"Solicitud","falso":"Puede observarse","prueba":"Objeto de cada evaluación"},
+        {"id":"EV-06","sec":"14","pag":"17","enunciado":"Indica qué hará la persona participante.","tipo":"Requisito","donde":"Solicitud","falso":"No lo dice","prueba":"Tarea de la persona en cada evaluación"},
+        {"id":"EV-07","sec":"14","pag":"17","enunciado":"Indica con qué instrumento se evaluará.","tipo":"Requisito","donde":"Solicitud","falso":"Puede observarse","prueba":"Instrumento por evaluación"},
+        {"id":"EV-08","sec":"14","pag":"17","enunciado":"Indica qué criterios se aplicarán.","tipo":"Requisito","donde":"Ambas","falso":"Puede observarse","prueba":"Criterios o rúbrica"},
+        {"id":"EV-09","sec":"14","pag":"17","enunciado":"Indica cómo se calificará, con su escala o puntaje y su mínimo de aprobación.","tipo":"Requisito","donde":"Ambas","falso":"Puede observarse","prueba":"Escala, puntaje y mínimo"},
+        {"id":"EV-10","sec":"14","pag":"17","enunciado":"Indica cuál es la ponderación.","tipo":"Requisito","donde":"Ambas","falso":"Puede observarse","prueba":"Pesos en la solicitud y en el libro de calificaciones"},
+        {"id":"EV-11","sec":"14","pag":"17","enunciado":"Las ponderaciones suman 100 %.","tipo":"Modelo","donde":"Ambas","falso":"No lo dice","prueba":"Suma de los pesos"},
+        {"id":"EV-12","sec":"15","pag":"18","enunciado":"Hay correspondencia verificable entre aprendizaje, actividad, evidencia e instrumento: un aprendizaje de aplicar, un caso, un producto de la persona y una rúbrica con criterios y puntajes (100 puntos y mínimo de 60 en el ejemplo).","tipo":"Modelo","donde":"Ambas","falso":"No lo dice","prueba":"El modelo aplicado a los aprendizajes de aplicar"},
+        {"id":"EV-13","sec":"2.7 y 6","pag":"6, 10","enunciado":"El facilitador evalúa la actividad o aplica el instrumento.","tipo":"Modelo","donde":"Ambas","falso":"No lo dice","prueba":"Quién califica cada instrumento"},
+        {"id":"EV-14","sec":"16","pag":"18","enunciado":"Si el aprendizaje es de aplicar, el instrumento comprueba esa capacidad: no se limita a selección múltiple sobre conceptos.","tipo":"Límite","donde":"Ambas","falso":"Insuficiente","prueba":"Instrumento de cada aprendizaje de aplicar"},
+        {"id":"EV-15","sec":"16","pag":"18","enunciado":"Para corregirlo se incorpora un instrumento de desempeño (resolver un caso, una simulación, analizar respuestas o elaborar una estrategia) con criterios para valorar el desempeño esperado.","tipo":"Modelo","donde":"Ambas","falso":"No lo dice","prueba":"Caso, simulación o producto con rúbrica"}
+      ]
+    },
+    {
+      "id": "RC",
+      "titulo": "Recursos y equipamiento",
+      "secciones": "17",
+      "por_que": "La pregunta es simple: con lo declarado, ¿se puede hacer lo diseñado? En un curso de IA eso incluye las herramientas, el acceso y el equipo que piden las prácticas.",
+      "filas": [
+        {"id":"RC-01","sec":"17","pag":"19","enunciado":"Los recursos declarados permiten hacer las actividades y las evaluaciones propuestas.","tipo":"Requisito","donde":"Solicitud","falso":"Puede observarse","prueba":"Lista de recursos contra actividades"},
+        {"id":"RC-02","sec":"17","pag":"19","enunciado":"Las técnicas metodológicas muestran cómo se usarán los materiales, herramientas y equipamiento declarados.","tipo":"Requisito","donde":"Solicitud","falso":"No lo dice","prueba":"Uso de cada herramienta en las técnicas"},
+        {"id":"RC-03","sec":"17","pag":"19","enunciado":"Si hay ejercicios con software, se declaran el software, el computador, sus características técnicas y el acceso.","tipo":"Modelo","donde":"Solicitud","falso":"Puede observarse","prueba":"Herramientas, equipo, requisitos y acceso"},
+        {"id":"RC-04","sec":"17","pag":"19","enunciado":"A un curso sobre todo conceptual no se le exigen recursos que no vienen al caso.","tipo":"Aclaración","donde":"—","falso":"—","prueba":"—"}
+      ]
+    },
+    {
+      "id": "LM",
+      "titulo": "Verificación en el aula",
+      "secciones": "18 y 19",
+      "por_que": "En e-learning el aula es la evidencia. Todo lo que diga la solicitud puede comprobarse dentro de la plataforma, con sus registros. La lista de la guía es abierta: puede mirarse más.",
+      "filas": [
+        {"id":"LM-01","sec":"18","pag":"19","enunciado":"Lo declarado en la solicitud corresponde con lo que después se puede comprobar en la plataforma.","tipo":"Requisito","donde":"Ambas","falso":"No lo dice","prueba":"Solicitud contra aula, punto por punto"},
+        {"id":"LM-02","sec":"18","pag":"19","enunciado":"El aula deja comprobar la estructura del curso.","tipo":"Criterio","donde":"Aula","falso":"No lo dice","prueba":"Secciones y orden"},
+        {"id":"LM-03","sec":"18","pag":"19","enunciado":"Deja comprobar las actividades.","tipo":"Criterio","donde":"Aula","falso":"No lo dice","prueba":"Actividades visibles y configuradas"},
+        {"id":"LM-04","sec":"18","pag":"19","enunciado":"Deja comprobar la participación.","tipo":"Criterio","donde":"Aula","falso":"No lo dice","prueba":"Informes de participación"},
+        {"id":"LM-05","sec":"18","pag":"19","enunciado":"Deja comprobar la progresión.","tipo":"Criterio","donde":"Aula","falso":"No lo dice","prueba":"Finalización de actividades"},
+        {"id":"LM-06","sec":"18","pag":"19","enunciado":"Deja comprobar la intervención del facilitador.","tipo":"Criterio","donde":"Aula","falso":"No lo dice","prueba":"Comentarios y notas del docente"},
+        {"id":"LM-07","sec":"18","pag":"19","enunciado":"Deja comprobar la interacción.","tipo":"Criterio","donde":"Aula","falso":"No lo dice","prueba":"Foros y entregas con respuesta"},
+        {"id":"LM-08","sec":"18","pag":"19","enunciado":"Deja comprobar la retroalimentación.","tipo":"Criterio","donde":"Aula","falso":"No lo dice","prueba":"Retroalimentación en tareas y cuestionarios"},
+        {"id":"LM-09","sec":"18","pag":"19","enunciado":"Deja comprobar las evaluaciones.","tipo":"Criterio","donde":"Aula","falso":"No lo dice","prueba":"Cuestionarios y tareas calificadas"},
+        {"id":"LM-10","sec":"18","pag":"19","enunciado":"Deja comprobar los resultados.","tipo":"Criterio","donde":"Aula","falso":"No lo dice","prueba":"Libro de calificaciones"},
+        {"id":"LM-11","sec":"18","pag":"19","enunciado":"Deja comprobar los registros de trazabilidad.","tipo":"Criterio","donde":"Aula","falso":"No lo dice","prueba":"Registros del curso"},
+        {"id":"LM-12","sec":"18","pag":"20","enunciado":"La plataforma contiene de verdad cada componente que se declaró como parte del diseño.","tipo":"Requisito","donde":"Ambas","falso":"No lo dice","prueba":"Cada componente declarado, visible en el aula"},
+        {"id":"LM-13","sec":"18","pag":"20","enunciado":"Si se promete retroalimentación individual, la plataforma deja ver la actividad, la entrega, la intervención del facilitador, la retroalimentación y su registro.","tipo":"Modelo","donde":"Aula","falso":"No lo dice","prueba":"Recorrido con cuenta de prueba: los cinco rastros"},
+        {"id":"LM-14","sec":"19","pag":"20","enunciado":"La solicitud explica qué instrumento usará, qué evalúa y cómo se calificará, y describe su finalidad, criterios y ponderación: así queda como verificación pendiente y no como falta de información.","tipo":"Criterio","donde":"Solicitud","falso":"Puede observarse","prueba":"Descripción de cada instrumento"},
+        {"id":"LM-15","sec":"19","pag":"20","enunciado":"Que un instrumento o registro no esté reproducido en la solicitud no significa automáticamente que no exista: si está bien declarado, el SENCE puede terminar de comprobarlo en la plataforma.","tipo":"Aclaración","donde":"—","falso":"—","prueba":"—"}
+      ]
+    },
+    {
+      "id": "CS",
+      "titulo": "Costos",
+      "secciones": "20",
+      "por_que": "No se mide si es caro o barato, sino si cada costo se explica por el diseño. Si el diseño cambia, los costos declarados también deben revisarse.",
+      "filas": [
+        {"id":"CS-01","sec":"20","pag":"20","enunciado":"Los costos declarados corresponden con las características técnicas de la capacitación.","tipo":"Requisito","donde":"Solicitud","falso":"No lo dice","prueba":"Presupuesto contra diseño"},
+        {"id":"CS-02","sec":"20","pag":"21","enunciado":"Corresponden con elementos como la modalidad, el número de participantes, la duración, los facilitadores, la infraestructura, los materiales, el equipamiento, las plataformas y las actividades.","tipo":"Criterio","donde":"Solicitud","falso":"No lo dice","prueba":"Cada ítem de costo con su elemento del diseño"},
+        {"id":"CS-03","sec":"20","pag":"20-21","enunciado":"No se compara con el mercado ni se observa un curso solo porque un costo parezca alto o bajo.","tipo":"Aclaración","donde":"—","falso":"—","prueba":"—"},
+        {"id":"CS-04","sec":"20","pag":"21","enunciado":"No se declara un costo de infraestructura que no aparezca en el diseño.","tipo":"Límite","donde":"Solicitud","falso":"Puede observarse","prueba":"Infraestructura declarada"},
+        {"id":"CS-05","sec":"20","pag":"21","enunciado":"Toda actividad que requiera equipamiento lo tiene declarado.","tipo":"Límite","donde":"Solicitud","falso":"Puede observarse","prueba":"Equipamiento de las actividades"},
+        {"id":"CS-06","sec":"20","pag":"21","enunciado":"Cada costo tiene una relación identificable con la ejecución del curso.","tipo":"Límite","donde":"Solicitud","falso":"Puede observarse","prueba":"Relación de cada costo con la ejecución"}
+      ]
+    }
+  ],
+  "modelos": [
+    {"id":"M-01","nombre":"Finalidad y desempeño","formula":"Para qué se capacita (finalidad laboral) + qué podrá hacer la persona (desempeño)","contra":"Una finalidad sin desempeño, o un desempeño sin necesidad laboral detrás","ref":"2.1, p. 4"},
+    {"id":"M-02","nombre":"Tema normativo","formula":"Aplicar la norma, con evaluación del aprendizaje","contra":"Solo identificar la norma","ref":"2.4, p. 5"},
+    {"id":"M-03","nombre":"Ejemplo de instancia obligatoria","formula":"Actividad en la plataforma + evaluada por el facilitador + retroalimentación en la plataforma","contra":"Correo, chat, mesa de ayuda u otro canal disponible","ref":"2.7, p. 6"},
+    {"id":"M-04","nombre":"Desglose de horas","formula":"Horas por aprendizaje esperado que suman exactamente el total, y metodología que explica su uso","contra":"Un desglose cuya suma no coincide con el total","ref":"3.3 y 11, pp. 7 y 15"},
+    {"id":"M-05","nombre":"Cadena curricular","formula":"Participantes + competencia + aprendizaje + actividad + evaluación, con relación observable entre el trabajo y lo evaluado","contra":"Competencia de aplicar con aprendizaje de conocer, lectura y cuestionario de definiciones","ref":"6, pp. 10-11"},
+    {"id":"M-06","nombre":"Competencia","formula":"Acción + objeto o resultado + contexto o condición de desempeño","contra":"Conocer + nombre de una herramienta","ref":"7, p. 11"},
+    {"id":"M-07","nombre":"Aprendizaje operacionalizado","formula":"Aprendizaje + actividad + evidencia + evaluación con rúbrica y criterios","contra":"No poder decir qué hará la persona para demostrarlo","ref":"8, p. 12"},
+    {"id":"M-08","nombre":"Contenido para aplicar","formula":"Conceptos + estructura o procedimiento + técnicas + ejercicios de aplicación","contra":"Solo definición, historia y tipos","ref":"9, p. 13"},
+    {"id":"M-09","nombre":"Descripción de una técnica","formula":"Actividad + participante + aprendizaje asociado + producto + intervención del facilitador","contra":"Lista de técnicas sin explicación","ref":"10, pp. 13-14"},
+    {"id":"M-10","nombre":"Idoneidad del facilitador","formula":"Formación afín + experiencia en el tema + experiencia como facilitador","contra":"Experiencia general como capacitador, sin la materia","ref":"12, pp. 15-16"},
+    {"id":"M-11","nombre":"Ejemplo de acompañamiento","formula":"Actividad + responsable + evidencia + retroalimentación + registro","contra":"Decir que el tutor estará disponible","ref":"13, p. 16"},
+    {"id":"M-12","nombre":"Cadena de evaluación","formula":"Aprendizaje → evidencia → instrumento → criterio → ponderación → condición de aprobación","contra":"Un aprendizaje sin alguno de esos eslabones","ref":"14, p. 17"},
+    {"id":"M-13","nombre":"Evaluación coherente","formula":"Aprendizaje de aplicar + caso + producto de la persona + rúbrica con criterios + puntaje máximo y mínimo (100 y 60 en el ejemplo)","contra":"Instrumento que no permite ver el desempeño","ref":"15, p. 18"},
+    {"id":"M-14","nombre":"Cómo corregir una evaluación insuficiente","formula":"Agregar resolución de caso, simulación, análisis de respuestas o elaboración de una estrategia, con criterios","contra":"Selección múltiple sobre conceptos para un aprendizaje de aplicar","ref":"16, p. 18"},
+    {"id":"M-15","nombre":"Recursos para software","formula":"Software + computador + características técnicas + acceso","contra":"Actividades que piden algo que no está declarado","ref":"17, p. 19"},
+    {"id":"M-16","nombre":"Promesa comprobable","formula":"Actividad + entrega + intervención + retroalimentación + registro, a la vista en la plataforma","contra":"Declarar algo que la plataforma no deja ver","ref":"18, p. 20"},
+    {"id":"M-17","nombre":"Verificación pendiente","formula":"Instrumento descrito en la solicitud (finalidad, criterios, ponderación), que se comprueba en el aula","contra":"Falta de información: no se explica qué instrumento se usa, qué evalúa ni cómo se califica","ref":"19, p. 20"},
+    {"id":"M-18","nombre":"Costo coherente","formula":"Cada costo se explica por un elemento del diseño","contra":"Infraestructura fuera del diseño, equipamiento no declarado o costo sin relación con la ejecución","ref":"20, p. 21"}
+  ],
+  "observaciones": [
+    {"id":"O-01","gravedad":"Alta","tema":"El Anexo Técnico no llegó","hallazgo":"La planilla anota que la RE 2.484 remite la evaluación técnica a dos documentos: una Guía Técnica y un Anexo Técnico con criterios, indicadores, medios de verificación y estándares. La guía recibida no nombra ningún anexo ni trae indicadores o estándares, y su título no es exactamente el que anota la planilla.","ref":"Toda la guía; planilla, hojas Léeme y Pendientes (fila 3)","accion":"Confirmar con OTIC SOFOFA o el SENCE si esta es la Guía Técnica que cita la resolución y si existe un Anexo Técnico aparte. Mientras tanto, tratar esta tabla como mínimo, no como lista cerrada."},
+    {"id":"O-02","gravedad":"Alta","tema":"Selección múltiple sobre casos","hallazgo":"La guía cuestiona la selección múltiple sobre conceptos para un aprendizaje de aplicar. No dice qué pasa con preguntas de selección múltiple construidas sobre situaciones o casos.","ref":"16, p. 18","accion":"Tratarlo como riesgo: decidir con Natalia y, si hay duda, consultar antes de presentar."},
+    {"id":"O-03","gravedad":"Alta","tema":"Ponderación por aprendizaje o por evaluación","hallazgo":"La cadena pide ponderación para cada aprendizaje esperado, pero el ejemplo pondera evaluaciones (1, 2 y final) y el ejemplo completo de la sección 15 no trae ponderación. No dice qué hacer cuando una evaluación cubre varios aprendizajes.","ref":"14 y 15, pp. 17 y 18","accion":"Armar la ficha por aprendizaje y mostrar en qué evaluación se mide y cuánto pesa esa evaluación."},
+    {"id":"O-04","gravedad":"Alta","tema":"El foro como actividad","hallazgo":"El foro aparece como medio insuficiente y como técnica que no basta enumerar, pero la guía no dice si un foro con consigna, revisión y retroalimentación del facilitador puede ser la actividad concreta.","ref":"10 y 13, pp. 13 y 16","accion":"No apoyar la instancia obligatoria en foros. Si se usan, describirlos con los cinco elementos del acompañamiento."},
+    {"id":"O-05","gravedad":"Alta","tema":"Una competencia o varias","hallazgo":"La guía razona casi siempre con la competencia del curso, en singular (en la p. 3 nombra competencias en plural, al definir la finalidad). No dice cómo se declara un curso largo organizado en módulos con competencia propia.","ref":"2.1, 5 y 7, pp. 3, 9 y 11","accion":"Revisar qué permite el formulario y definir si hace falta una competencia general del curso."},
+    {"id":"O-06","gravedad":"Media","tema":"Documento sin fecha ni firma","hallazgo":"No trae fecha, número, versión ni firma. Según los metadatos del PDF se generó el 02-11-2026, y cada página lleva una marca de CamScanner sobre el pie.","ref":"Todas las páginas","accion":"Buscar la versión oficial en sence.cl o pedirla a OTIC SOFOFA y anotar cuál se usó. Si aparece otra, comparar y actualizar esta tabla."},
+    {"id":"O-07","gravedad":"Media","tema":"Reglas que solo están en ejemplos","hallazgo":"La guía dice que sus ejemplos son referenciales, pero varias precisiones aparecen solo ahí: el desglose por aprendizaje, la retroalimentación con fortalezas y errores, o la rúbrica de 100 puntos con mínimo de 60.","ref":"pp. 7, 16, 17 y 21","accion":"Tratarlas como lo que el revisor espera ver, sin leerlas como obligación literal. En la tabla van como Modelo si muestran lo que sí y como Límite si muestran lo que no."},
+    {"id":"O-08","gravedad":"Media","tema":"Cuántas instancias bastan","hallazgo":"La sección 2.7 pide al menos una instancia de interacción, de retroalimentación o de acompañamiento. La 5.1 y el título de la 13 las suman, y la 10 pide declarar las formas de retroalimentación y acompañamiento. No dice si en la etapa técnica basta una forma ni cuántas instancias son suficientes en un curso largo.","ref":"2.7, 5.1, 10 y 13, pp. 6, 9, 13 y 16","accion":"Fijar un criterio propio, proporcional a las horas, y justificarlo. La planilla anota que la RE mira también la suficiencia (IV.3 e)."},
+    {"id":"O-09","gravedad":"Media","tema":"Desglose por aprendizaje o por actividad","hallazgo":"El ejemplo de la sección 3.3 desglosa por aprendizaje esperado y el de la sección 11 habla también de actividades. No fija un único formato.","ref":"3.3 y 11, pp. 7, 14 y 15","accion":"Preparar los dos desgloses y que cuadren entre sí."},
+    {"id":"O-10","gravedad":"Media","tema":"Sin parámetros de tiempo","hallazgo":"No da parámetros para estimar tiempos en e-learning asincrónico ni cifras de lo insuficiente o lo excesivo: queda a criterio de quien revisa.","ref":"11, p. 14","accion":"Mantener a la vista los parámetros propios (por ejemplo, minutos por pantalla) y su respaldo. La planilla tiene pendiente un piloto de tiempos."},
+    {"id":"O-11","gravedad":"Media","tema":"Qué pasa si falla lo formal","hallazgo":"Para lo legal, la guía dice que la revisión termina. Para lo formal solo hay ejemplos que dicen observada o por corregir: no escribe una regla general ni si se corrige en el mismo trámite.","ref":"3, pp. 7-8","accion":"Revisar la RE 2.484. La planilla anota que cada reingreso reinicia el plazo completo (IV.1.1)."},
+    {"id":"O-12","gravedad":"Media","tema":"Técnicas en la admisibilidad","hallazgo":"La sección 4 incluye el desarrollo de técnicas metodológicas entre lo que se verifica en admisibilidad, pero no aparece como requisito propio en las secciones 2 ni 3.","ref":"4, p. 8","accion":"Tratarlo como exigible desde la admisibilidad (fila AF-10)."},
+    {"id":"O-13","gravedad":"Media","tema":"Formación y experiencia","hallazgo":"La sección 2.6 pide antecedentes de formación y experiencia; la sección 4 habla de formación y experiencia, y la 12 de formación y/o experiencia.","ref":"2.6, 4 y 12, pp. 6, 8 y 15","accion":"Declarar las dos cosas cuando se pueda: es la lectura segura."},
+    {"id":"O-14","gravedad":"Media","tema":"Un responsable o un equipo","hallazgo":"Habla de la persona responsable, en singular, aunque entre los elementos de costos nombra facilitadores en plural. No trata equipos ni reemplazos.","ref":"2.6 y 20, pp. 6 y 21","accion":"Definir bien a la persona antes de presentar: la planilla anota que la RE no permite sustituir al facilitador autorizado (VI.2) y que hay que confirmar si se pueden declarar varios."},
+    {"id":"O-15","gravedad":"Media","tema":"Con qué acceso se mira el aula","hallazgo":"La guía ubica la revisión de la plataforma dentro de la evaluación técnica y como algo posterior a lo declarado, pero no dice con qué acceso ni si el aula debe estar completa al presentar. Además, la lista de lo verificable es abierta.","ref":"5.1, 18 y 19, pp. 9, 19 y 20","accion":"Tener el aula completa y una cuenta para el revisor antes de presentar. La planilla anota que la RE exige mantener el acceso operativo (III.2)."},
+    {"id":"O-16","gravedad":"Baja","tema":"Existencia o descripción","hallazgo":"En el índice, la sección 2.3 habla de la existencia de un proceso de aprendizaje; en el cuerpo, de su descripción y de que sea estructurado.","ref":"2.3, pp. 1 y 4","accion":"Tomar la lectura exigente: tiene que existir, ser estructurado y estar descrito en la solicitud."},
+    {"id":"O-17","gravedad":"Baja","tema":"Nombre de la modalidad","hallazgo":"La guía dice e-learning asincrónica; la planilla anota «A distancia o e-learning – asincrónica» según la resolución.","ref":"3.4, p. 7","accion":"Usar el nombre exacto del formulario del sistema."},
+    {"id":"O-18","gravedad":"Baja","tema":"Erratas","hallazgo":"Hay detalles de edición sin efecto en los requisitos: una lista que termina en coma (p. 6), el primer elemento de una lista convertido en título y sin frase que la presente (p. 10), una palabra sin tilde (p. 13) y títulos que varían entre índice y cuerpo (5.1 y 8).","ref":"pp. 1, 6, 9, 10, 11 y 13","accion":"Ninguna. Se dejan anotados para que nadie los lea como exigencias."}
+  ],
+  "cruce": [
+    {"guia":"2.1","re":"IV.2.1 a)","fila":"1","agrega":"Dice qué debe contener «Características de los participantes» y que la competencia exprese una acción en el trabajo"},
+    {"guia":"2.2","re":"IV.2.1 b)","fila":"2","agrega":"Aclara que lo lúdico como recurso no vuelve inadmisible un curso"},
+    {"guia":"2.3","re":"IV.2.1 c)","fila":"3","agrega":"Pide intervención formativa además de evaluación"},
+    {"guia":"2.4","re":"IV.2.1 d)","fila":"4","agrega":"Distingue aplicar de identificar"},
+    {"guia":"2.5","re":"IV.2.1 e) y II.2","fila":"5","agrega":"Separa el mínimo de 8 h (admisibilidad) de la proporcionalidad (evaluación técnica)"},
+    {"guia":"2.6","re":"IV.2.1 f) y II.1.b.2","fila":"6","agrega":"Antecedentes en el tema y con adultos; función con acción, aprendizaje, canal y momento"},
+    {"guia":"2.7","re":"IV.2.1 g)","fila":"7","agrega":"La disponibilidad de un canal no cuenta"},
+    {"guia":"2.8","re":"IV.2.1 h)","fila":"8","agrega":"Lista lo que no es evaluación de aprendizajes"},
+    {"guia":"2 (cierre)","re":"IV.2.1 (cierre)","fila":"9","agrega":"Nada nuevo: confirma la inadmisibilidad"},
+    {"guia":"3.1","re":"IV.2.2 a)","fila":"10","agrega":"Pide además que la información sea específica"},
+    {"guia":"3.2","re":"IV.2.2 b)","fila":"11","agrega":"Aclara que aquí no se juzga si es óptimo"},
+    {"guia":"3.3","re":"IV.2.2 c)","fila":"12","agrega":"Ejemplo de desglose por aprendizaje esperado"},
+    {"guia":"3.4","re":"IV.2.2 d) y II.1.b.2","fila":"13","agrega":"La modalidad debe calzar con la descripción del curso"},
+    {"guia":"3.5","re":"IV.2.2 e)","fila":"14","agrega":"Ejemplo con el peso de una evaluación"},
+    {"guia":"5 a 9","re":"IV.3 a)","fila":"15","agrega":"Secuencia completa, pregunta por nivel, estructura de la competencia, reglas para aprendizajes y contenidos"},
+    {"guia":"10","re":"IV.3 b)","fila":"16","agrega":"Cinco elementos para describir una actividad"},
+    {"guia":"11","re":"IV.3 c)","fila":"17","agrega":"Qué evitar y cuándo se observa"},
+    {"guia":"12","re":"IV.3 d) y II.1.b.2","fila":"18","agrega":"No exige un título: mira la idoneidad para la función"},
+    {"guia":"13","re":"IV.3 e)","fila":"19","agrega":"Suma el foro a los medios insuficientes y da la fórmula de cinco elementos"},
+    {"guia":"14 a 16","re":"IV.3 f)","fila":"20","agrega":"Cadena de seis eslabones por aprendizaje y límite a la selección múltiple conceptual"},
+    {"guia":"17","re":"IV.3 g)","fila":"21","agrega":"Pregunta clave y ejemplo con software"},
+    {"guia":"18 y 19","re":"III.2","fila":"22 y 23","agrega":"Lista de lo verificable y diferencia entre falta de información y verificación pendiente"},
+    {"guia":"20","re":"IV.3.1","fila":"24","agrega":"Qué se puede observar y qué no"}
+  ],
+  "fuera_de_la_guia": [
+    {"tema":"Plazos","detalle":"Hasta 20 días corridos de revisión, y cada reingreso reinicia el plazo completo (RE IV.1.1). La copia de la planilla en el repo anota un inicio del curso el 23-11: si esa fecha sigue en pie, 20 días corridos desde el 03-11 llegan justo al 23-11, sin margen para una observación."},
+    {"tema":"Pago de inscripción","detalle":"20 días corridos desde la solicitud de pago; si no, se tiene por no presentada (RE V.1)."},
+    {"tema":"Publicidad","detalle":"Solo desde la autorización, y debe coincidir con el diseño aprobado (RE V.2)."},
+    {"tema":"Vigencia","detalle":"4 años manteniendo todas las condiciones aprobadas (RE VI.1 y VI.3)."},
+    {"tema":"Modificaciones","detalle":"Excepcionales, sin alterar la identidad del curso ni sustituir al facilitador autorizado (RE VI.2)."},
+    {"tema":"Plan Formativo o curso independiente","detalle":"Si deriva de un Plan Formativo, la duración queda fijada por él; si es independiente, las horas se justifican por proporcionalidad y taxonomía de Bloom (RE II.2 y II.2.1). Sigue pendiente en la planilla (fila 4)."}
+  ],
+  "pasos": [
+    {"titulo":"Confirmar la base","texto":"Resolver con OTIC SOFOFA o el SENCE las observaciones O-01 y O-06: si esta es la versión oficial y si hay un Anexo Técnico."},
+    {"titulo":"Llenar la tabla","texto":"Comparar bloque por bloque, en este orden: AL, AF, EV, IN, FA, DU, LM y después el resto. Una fila es V solo si hay evidencia que se pueda abrir."},
+    {"titulo":"Armar la ficha por aprendizaje esperado","texto":"Una ficha para cada uno de los 22 aprendizajes esperados, con los datos de abajo. Es donde más se ve lo que falta."},
+    {"titulo":"Decidir con Natalia","texto":"Revisar las filas F y P y las observaciones de gravedad alta, y acordar los cambios como criterios fechados."},
+    {"titulo":"Corregir el aula y la planilla","texto":"Aplicar los cambios en Moodle, la planilla y los documentos, con su fila en la bitácora del proyecto."},
+    {"titulo":"Volver a pasar la tabla","texto":"Repetir la comparación completa y dejar la versión final como respaldo de la solicitud."}
+  ],
+  "ficha_ae": [
+    "Aprendizaje esperado y competencia a la que aporta",
+    "Contenidos asociados",
+    "Actividad: qué hace la persona y cómo aporta al aprendizaje",
+    "Evidencia o producto",
+    "Instrumento de evaluación",
+    "Criterios de evaluación",
+    "Cómo se califica y condición de aprobación",
+    "Ponderación",
+    "Horas, por actividad",
+    "Facilitador: acción, canal y momento",
+    "Dónde queda el registro en el aula"
+  ]
+}

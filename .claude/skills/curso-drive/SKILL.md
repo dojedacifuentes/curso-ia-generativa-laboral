@@ -21,6 +21,7 @@ Todos los ids están en `data/drive.json`; actualízalo después de cada subida.
 | 7 Proceso y control de calidad | `Docs`, `PDF` y la auditoría interactiva (HTML) | `entregables/documentos/proceso/{docs,pdf}` |
 | 8 Skills de Claude | Las skills de `.claude/skills/` (zip y cada SKILL.md) | `entregables/paquetes/` |
 | 9 Proyecto fuente | Zip del proyecto sin `entregables/`, con la planilla (`git archive`, ver abajo) | `entregables/paquetes/` |
+| 16 Fase 2 · Guía técnica SENCE | Word de la auditoría de la guía y su tabla de verdad (`node scripts/sence-auditoria.mjs`) | `entregables/sence/` |
 
 Cada carpeta con reemplazos tiene su **«Versiones anteriores (24-10)»**.
 

@@ -16,10 +16,10 @@ const recordar = (k, d) => { try { return localStorage.getItem(k) ?? d } catch (
 
 let D;
 const filtros = { recAgrupar: recordar('panel-rec-agrupar', 'estado'), recModulo: 'todos', recTexto: '', fuGrupo: 'todas', fuCitada: 'todas', fuTexto: '',
-  matModulo: 'todos', trzModulo: '1', audEstado: 'no-ok', penTexto: '' };
+  matModulo: 'todos', trzModulo: '1', audEstado: 'no-ok', penTexto: '', guiaEstado: 'todos' };
 
 const VISTAS = [
-  ['metodologia', 'Metodología'], ['planilla', 'Planilla'], ['matriz', 'Matriz'], ['trazabilidad', 'Trazabilidad'], ['recursos', 'Recursos'], ['casos', 'Casos'],
+  ['estado', 'Estado'], ['metodologia', 'Metodología'], ['planilla', 'Planilla'], ['matriz', 'Matriz'], ['trazabilidad', 'Trazabilidad'], ['recursos', 'Recursos'], ['casos', 'Casos'],
   ['fuentes', 'Fuentes'], ['pendientes', 'Pendientes'], ['auditoria', 'Auditoría'], ['documentos', 'Documentos'],
 ];
 
@@ -47,7 +47,7 @@ async function iniciar() {
 
 function ruta() {
   const [v, ...resto] = decodeURIComponent(location.hash.slice(1)).split('/');
-  return { vista: VISTAS.some(x => x[0] === v) || v === 'ae' ? v : 'metodologia', arg: resto.join('/') };
+  return { vista: VISTAS.some(x => x[0] === v) || v === 'ae' ? v : 'estado', arg: resto.join('/') };
 }
 function pintar() {
   const { vista, arg } = ruta();
@@ -55,9 +55,10 @@ function pintar() {
   const cuenta = { matriz: D.cifras.aes, recursos: D.cifras.recursos, casos: D.cifras.casos, fuentes: D.fuentes.length,
     pendientes: D.pendientes.verificacion.length + D.pendientes.planilla.length };
   $('#nav').innerHTML = VISTAS.map(([id, t]) => `<a href="#${id}" ${id === activa ? 'aria-current="page"' : ''}>${t}${cuenta[id] ? `<span class="n">${cuenta[id]}</span>` : ''}</a>`).join('');
-  const html = { metodologia: vMetodologia, planilla: vPlanilla, matriz: vMatriz, ae: vAE, trazabilidad: vTrazabilidad, recursos: vRecursos, casos: vCasos,
+  const html = { estado: vEstado, metodologia: vMetodologia, planilla: vPlanilla, matriz: vMatriz, ae: vAE, trazabilidad: vTrazabilidad, recursos: vRecursos, casos: vCasos,
     fuentes: vFuentes, pendientes: vPendientes, auditoria: vAuditoria, documentos: vDocumentos }[vista](arg);
   $('#vista').innerHTML = html;
+  $('#vista').querySelectorAll('a[href^="http"]:not([target])').forEach(a => { a.target = '_blank'; a.rel = 'noopener'; });
   if (vista === 'documentos') cargarDoc(arg);
   if (vista === 'fuentes' && arg) { const el = document.getElementById(`f-${arg}`); if (el) { el.open = true; el.scrollIntoView({ block: 'center' }); } }
   else if (vista === 'auditoria' && arg) document.getElementById(`capa-${arg}`)?.scrollIntoView({ block: 'start' });
@@ -82,7 +83,8 @@ function alClic(e) {
     if (k === 'recAgrupar') guardar('panel-rec-agrupar', v);
     b.parentElement.querySelectorAll('[data-set]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
     ({ recAgrupar: () => repintar('#rec-cuerpo', recCuerpo), matModulo: () => repintar('#mat-cuerpo', matCuerpo),
-      trzModulo: () => repintar('#trz-cuerpo', trzCuerpo), audEstado: () => repintar('#aud-cuerpo', audCuerpo) })[k]?.();
+      trzModulo: () => repintar('#trz-cuerpo', trzCuerpo), audEstado: () => repintar('#aud-cuerpo', audCuerpo),
+      guiaEstado: () => repintar('#guia-cuerpo', guiaCuerpo) })[k]?.();
     return;
   }
   const c = e.target.closest('[data-cod]');
@@ -92,6 +94,72 @@ function alClic(e) {
 }
 const seg = (k, opciones) => `<div class="seg" role="group">${opciones.map(([v, t]) =>
   `<button type="button" data-set="${k}=${h(v)}" aria-pressed="${String(filtros[k]) === String(v)}">${h(t)}</button>`).join('')}</div>`;
+
+// ================= Estado del proyecto (ESTADO.md y la guía técnica del SENCE) =================
+const ESTADOS_GUIA = ['Brecha probable', 'Por revisar', 'Parece cubierto', 'En la solicitud'];
+const claseGuia = e => ({ 'Brecha probable': 'aviso', 'Por revisar': 'pendiente', 'Parece cubierto': 'ok', 'En la solicitud': 'Insumo-listo' })[e] || 'pendiente';
+const claseFase = e => /cerrad/i.test(e) ? 'ok' : /curso/i.test(e) ? 'aviso' : 'pendiente';
+function vEstado() {
+  const E = D.estado;
+  if (!E) return `<p class="vacio-txt">Falta ESTADO.md en el repositorio.</p>`;
+  const g = E.guia, n = e => g ? g.puntos.filter(p => p.estado === e).length : 0;
+  const claseHito = t => /visto bueno/i.test(t) ? 'ok' : /guía técnica/i.test(t) ? 'aviso' : '';
+  return `
+  <section class="hero">
+    <span class="eyebrow">Estado del proyecto${E.al ? ` · al ${h(E.al)}` : ''}</span>
+    <h1>${E.fases.map(f => `${h(f.fase.split(' · ').slice(1).join(' · ') || f.fase)}: ${h(f.estado.toLowerCase())}`).join(' · ')}</h1>
+    <p class="lead">${E.resumen}</p>
+    <div class="btns"><a class="btn prim" href="#documentos/estado">Leer el estado completo</a>${ext(E.etiqueta.url, 'Versión 1 en GitHub')}${ext(E.etiqueta.comparar, 'Cambios desde la versión 1')}</div>
+  </section>
+
+  <section class="sec"><div class="fases">${E.fases.map((f, i) => `<article class="card fase ${claseFase(f.estado)}">
+      <div class="fase-cab"><h2>Fase ${h(f.fase)}</h2><span class="est ${claseFase(f.estado)}">${h(f.estado)}</span></div>
+      <span class="mono muted">${h(f.fechas)}</span>
+      <p>${f.que}</p>
+      ${(i === 0 ? E.fase1 : E.fase2.slice(0, 1)).map(p => `<p class="muted">${p}</p>`).join('')}
+      ${i === 1 && g ? `<div class="conteo">${ESTADOS_GUIA.map(e => `<span class="est ${claseGuia(e)}">${h(e)}: ${n(e)}</span>`).join('')}</div>` : ''}
+      <p class="ref">${f.ref}</p>
+    </article>`).join('')}</div></section>
+
+  <section class="sec">
+    <div class="sec-cab"><div><h2>Qué tiene la versión 1</h2>
+      <p>Lo que vio el cliente y recibió su visto bueno. Queda congelado en la etiqueta <span class="mono">${h(E.etiqueta.nombre)}</span>.</p></div>
+      ${ext(E.etiqueta.url, 'Abrir la versión 1')}</div>
+    <div class="tablero">${E.version1.map(v => `<div class="card pad v1"><b>${h(v.pieza)}</b><p>${v.version}</p><small>${v.donde}</small></div>`).join('')}</div>
+  </section>
+
+  ${g ? `<section class="sec">
+    <div class="sec-cab"><div><h2>La guía técnica del SENCE, punto por punto</h2>
+      <p>Primera lectura de la versión 1 contra la guía con que el SENCE revisa las solicitudes de cursos por franquicia tributaria.
+        Todavía no cambia nada del curso: los cambios se acuerdan con Natalia y se anotan en la bitácora.</p></div>
+      <a class="btn" href="#documentos/${h(g.doc)}">Registro de la guía</a></div>
+    <div class="card pad estado-p">${E.fase2.slice(1).map(p => `<p>${p}</p>`).join('')}</div>
+    ${seg('guiaEstado', [['todos', `Todos (${g.puntos.length})`], ...ESTADOS_GUIA.map(e => [e, `${e} (${n(e)})`])])}
+    <div class="tablero" id="guia-cuerpo">${guiaCuerpo()}</div>
+  </section>` : ''}
+
+  <section class="dos">
+    <div class="sec">
+      <div class="sec-cab"><div><h2>Bitácora</h2><p>Lo hecho día a día, con su documento y su commit. Lo más nuevo arriba.</p></div></div>
+      <div class="card pad"><ol class="linea">${[...E.bitacora].reverse().map(b => `<li class="${claseHito(b.hito)}"><span class="eje" aria-hidden="true"></span>
+        <div class="c"><span class="f">${h(b.fecha)}</span><b>${h(b.hito)}</b><p>${b.que}</p><small>${b.doc}${b.commit ? ` · ${b.commit}` : ''}</small></div></li>`).join('')}</ol></div>
+    </div>
+    <div class="sec">
+      <div class="sec-cab"><div><h2>Pendientes que vienen de la versión 1</h2><p>Quedaron anotados al cerrar la fase 1 y se trabajan junto con la fase 2.</p></div></div>
+      <div class="card pad"><ul class="estado-lista">${E.pendientes.map(p => `<li>${p}</li>`).join('')}</ul></div>
+      <div class="sec-cab"><div><h2>Cómo se registra cada cambio</h2></div></div>
+      <div class="card pad"><ul class="estado-lista">${E.reglas.map(p => `<li>${p}</li>`).join('')}</ul></div>
+    </div>
+  </section>`;
+}
+function guiaCuerpo() {
+  const ps = D.estado.guia.puntos.filter(p => filtros.guiaEstado === 'todos' || p.estado === filtros.guiaEstado);
+  return ps.map(p => `<article class="card pad punto">
+      <div class="fila"><span class="mono muted">Sección ${h(p.seccion)}</span><span class="est ${claseGuia(p.estado)}">${h(p.estado)}</span></div>
+      <h3>${h(p.punto)}</h3>
+      <dl><div><dt>Qué pide la guía</dt><dd>${p.pide}</dd></div><div><dt>Hoy en el curso</dt><dd>${p.hoy}</dd></div><div><dt>Primera lectura</dt><dd>${p.lectura}</dd></div></dl>
+    </article>`).join('') || `<p class="vacio-txt">Ningún punto con ese estado.</p>`;
+}
 
 // ================= Metodología =================
 function vMetodologia() {
@@ -533,8 +601,8 @@ function audCuerpo() {
 function vDocumentos(id) {
   const docs = D.documentos, actual = docs.find(d => d.id === id) || docs[0];
   const grupos = [...new Set(docs.map(d => d.grupo))];
-  return `<section class="sec"><div class="sec-cab"><div><span class="eyebrow">Flujo, reglas, formatos y skills</span><h1>Documentos</h1>
-      <p>Las reglas con que se produce el curso, tal como están en el repositorio. Las skills son las instrucciones que usa Claude para cada etapa.</p></div></div>
+  return `<section class="sec"><div class="sec-cab"><div><span class="eyebrow">Estado, decisiones, aula, flujo, reglas y skills</span><h1>Documentos</h1>
+      <p>El estado del proyecto, las decisiones fechadas y las reglas con que se produce el curso, tal como están en el repositorio. Las skills son las instrucciones que usa Claude para cada etapa.</p></div></div>
     <div class="docs">
       <nav class="card docs-nav" aria-label="Documentos">${grupos.map(g => `<div><h4>${h(g)}</h4>${docs.filter(d => d.grupo === g).map(d =>
         `<a href="#documentos/${d.id}" ${d.id === actual.id ? 'aria-current="true"' : ''}>${h(d.titulo)}</a>`).join('')}</div>`).join('')}

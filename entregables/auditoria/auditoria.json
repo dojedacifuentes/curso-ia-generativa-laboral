@@ -1,11 +1,11 @@
 {
   "resumen": {
-    "generado": "2026-10-30T06:36:45.487Z",
+    "generado": "2026-11-03T20:54:53.435Z",
     "chequeos": 108,
-    "ok": 102,
-    "aviso": 4,
+    "ok": 96,
+    "aviso": 11,
     "error": 0,
-    "pendiente": 2
+    "pendiente": 1
   },
   "capas": [
     {
@@ -1384,14 +1384,15 @@
           "id": "C5.M4-C3",
           "titulo": "M4-C3 · Licencias y datos de entrenamiento (Getty Images v. Stability AI)",
           "porque": "AE: M4-AE1. Actividad de análisis del caso: preguntas guiadas + aplicación al proyecto (1,5 h)",
-          "estado": "ok",
+          "estado": "aviso",
           "errores": [],
-          "avisos": [],
+          "avisos": [
+            "fuera del aula desde el 02-11 (casos/descartados/M4-C3.md): falta sacarlo de la hoja «Casos y proyecto»"
+          ],
           "pendientes": [],
           "evidencia": [
             "estado: Verificado con ajustes",
-            "10 fuentes, 9 primarias",
-            "1490 palabras"
+            "10 fuentes, 9 primarias"
           ]
         },
         {
@@ -1433,9 +1434,13 @@
           "id": "C6.1",
           "titulo": "Un Doc, una página y un PDF por AE, al día con el contenido",
           "porque": "Un PDF anterior al .md muestra una versión vieja.",
-          "estado": "ok",
+          "estado": "aviso",
           "errores": [],
-          "avisos": [],
+          "avisos": [
+            "entregables\\pdf\\M6-AE1.pdf (01-11-26, 2:14 a. m.) es anterior a contenido\\M6\\M6-AE1.md (01-11-26, 3:50 a. m.)",
+            "entregables\\pdf\\M6-AE2.pdf (01-11-26, 2:14 a. m.) es anterior a contenido\\M6\\M6-AE2.md (01-11-26, 3:53 a. m.)",
+            "entregables\\pdf\\M6-AE3.pdf (01-11-26, 2:14 a. m.) es anterior a contenido\\M6\\M6-AE3.md (01-11-26, 3:50 a. m.)"
+          ],
           "pendientes": [],
           "evidencia": [
             "Contenidos-completos.md",
@@ -1582,9 +1587,13 @@
           "id": "C8.Docs-del-contenido-base",
           "titulo": "Docs del contenido base en Drive",
           "porque": "Uno por AE, sin duplicados y subido después del último cambio de su fuente (contenido o quiz).",
-          "estado": "ok",
+          "estado": "aviso",
           "errores": [],
-          "avisos": [],
+          "avisos": [
+            "M6-AE1: lo de Drive (29-10-26, 5:29 p. m.) es anterior al último cambio de su fuente (01-11-26, 3:50 a. m.)",
+            "M6-AE2: lo de Drive (29-10-26, 5:28 p. m.) es anterior al último cambio de su fuente (01-11-26, 3:53 a. m.)",
+            "M6-AE3: lo de Drive (29-10-26, 5:29 p. m.) es anterior al último cambio de su fuente (01-11-26, 3:50 a. m.)"
+          ],
           "pendientes": [],
           "evidencia": [
             "22 archivos en la carpeta"
@@ -1594,9 +1603,13 @@
           "id": "C8.PDF-del-contenido-base",
           "titulo": "PDF del contenido base en Drive",
           "porque": "Uno por AE, sin duplicados y subido después del último cambio de su fuente (contenido o quiz).",
-          "estado": "ok",
+          "estado": "aviso",
           "errores": [],
-          "avisos": [],
+          "avisos": [
+            "M6-AE1: lo de Drive (29-10-26, 5:26 p. m.) es anterior al último cambio de su fuente (01-11-26, 3:50 a. m.)",
+            "M6-AE2: lo de Drive (29-10-26, 5:26 p. m.) es anterior al último cambio de su fuente (01-11-26, 3:53 a. m.)",
+            "M6-AE3: lo de Drive (29-10-26, 5:26 p. m.) es anterior al último cambio de su fuente (01-11-26, 3:50 a. m.)"
+          ],
           "pendientes": [],
           "evidencia": [
             "23 archivos en la carpeta"
@@ -1606,9 +1619,32 @@
           "id": "C8.Quiz-SCORM",
           "titulo": "Quiz SCORM en Drive",
           "porque": "Uno por AE, sin duplicados y subido después del último cambio de su fuente (contenido o quiz).",
-          "estado": "ok",
+          "estado": "aviso",
           "errores": [],
-          "avisos": [],
+          "avisos": [
+            "M1-AE1: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:47 a. m.)",
+            "M1-AE2: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:48 a. m.)",
+            "M1-AE3: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:48 a. m.)",
+            "M1-AE4: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:49 a. m.)",
+            "M2-AE1: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:49 a. m.)",
+            "M2-AE2: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:49 a. m.)",
+            "M2-AE3: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:50 a. m.)",
+            "M2-AE4: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:50 a. m.)",
+            "M3-AE1: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:51 a. m.)",
+            "M3-AE2: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:52 a. m.)",
+            "M3-AE3: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:53 a. m.)",
+            "M3-AE4: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:54 a. m.)",
+            "M4-AE1: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:48 a. m.)",
+            "M4-AE2: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:48 a. m.)",
+            "M4-AE3: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:49 a. m.)",
+            "M4-AE4: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 3:19 a. m.)",
+            "M5-AE1: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:50 a. m.)",
+            "M5-AE2: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:54 a. m.)",
+            "M5-AE3: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 3:19 a. m.)",
+            "M6-AE1: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 3:50 a. m.)",
+            "M6-AE2: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (01-11-26, 3:53 a. m.)",
+            "M6-AE3: lo de Drive (30-10-26, 12:44 a. m.) es anterior al último cambio de su fuente (02-11-26, 12:32 p. m.)"
+          ],
           "pendientes": [],
           "evidencia": [
             "22 archivos en la carpeta"
@@ -1618,9 +1654,32 @@
           "id": "C8.Quiz-HTML",
           "titulo": "Quiz HTML en Drive",
           "porque": "Uno por AE, sin duplicados y subido después del último cambio de su fuente (contenido o quiz).",
-          "estado": "ok",
+          "estado": "aviso",
           "errores": [],
-          "avisos": [],
+          "avisos": [
+            "M1-AE1: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:47 a. m.)",
+            "M1-AE2: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:48 a. m.)",
+            "M1-AE3: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:48 a. m.)",
+            "M1-AE4: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:49 a. m.)",
+            "M2-AE1: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:49 a. m.)",
+            "M2-AE2: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:49 a. m.)",
+            "M2-AE3: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:50 a. m.)",
+            "M2-AE4: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:50 a. m.)",
+            "M3-AE1: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:51 a. m.)",
+            "M3-AE2: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:52 a. m.)",
+            "M3-AE3: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:53 a. m.)",
+            "M3-AE4: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:54 a. m.)",
+            "M4-AE1: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:48 a. m.)",
+            "M4-AE2: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:48 a. m.)",
+            "M4-AE3: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:49 a. m.)",
+            "M4-AE4: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 3:19 a. m.)",
+            "M5-AE1: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:50 a. m.)",
+            "M5-AE2: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:54 a. m.)",
+            "M5-AE3: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 3:19 a. m.)",
+            "M6-AE1: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 3:50 a. m.)",
+            "M6-AE2: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (01-11-26, 3:53 a. m.)",
+            "M6-AE3: lo de Drive (30-10-26, 12:46 a. m.) es anterior al último cambio de su fuente (02-11-26, 12:32 p. m.)"
+          ],
           "pendientes": [],
           "evidencia": [
             "22 archivos en la carpeta"
@@ -1630,9 +1689,32 @@
           "id": "C8.Quiz-GIFT",
           "titulo": "Quiz GIFT en Drive",
           "porque": "Uno por AE, sin duplicados y subido después del último cambio de su fuente (contenido o quiz).",
-          "estado": "ok",
+          "estado": "aviso",
           "errores": [],
-          "avisos": [],
+          "avisos": [
+            "M1-AE1: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:47 a. m.)",
+            "M1-AE2: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:48 a. m.)",
+            "M1-AE3: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:48 a. m.)",
+            "M1-AE4: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:49 a. m.)",
+            "M2-AE1: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:49 a. m.)",
+            "M2-AE2: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:49 a. m.)",
+            "M2-AE3: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:50 a. m.)",
+            "M2-AE4: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:50 a. m.)",
+            "M3-AE1: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:51 a. m.)",
+            "M3-AE2: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:52 a. m.)",
+            "M3-AE3: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:53 a. m.)",
+            "M3-AE4: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:54 a. m.)",
+            "M4-AE1: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:48 a. m.)",
+            "M4-AE2: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:48 a. m.)",
+            "M4-AE3: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:49 a. m.)",
+            "M4-AE4: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 3:19 a. m.)",
+            "M5-AE1: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:50 a. m.)",
+            "M5-AE2: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 1:54 a. m.)",
+            "M5-AE3: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 3:19 a. m.)",
+            "M6-AE1: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 3:50 a. m.)",
+            "M6-AE2: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (01-11-26, 3:53 a. m.)",
+            "M6-AE3: lo de Drive (30-10-26, 12:47 a. m.) es anterior al último cambio de su fuente (02-11-26, 12:32 p. m.)"
+          ],
           "pendientes": [],
           "evidencia": [
             "22 archivos en la carpeta"
@@ -1698,16 +1780,13 @@
           "id": "C9.1",
           "titulo": "Estado de cada recurso",
           "porque": "Muestra qué parte de las 88 h ya tiene su recurso.",
-          "estado": "pendiente",
+          "estado": "ok",
           "errores": [],
           "avisos": [],
-          "pendientes": [
-            "11 recursos sin empezar (Inducción/Diagnóstica, Evaluación sumativa, Video)"
-          ],
+          "pendientes": [],
           "evidencia": [
-            "Pendiente: 11 recursos · 6.7 h",
-            "Hecho: 79 recursos · 80.9 h",
-            "Insumo listo: 11 recursos · 0.4 h"
+            "Hecho: 100 recursos · 86.5 h",
+            "En curso: 1 recursos · 1.5 h"
           ]
         }
       ]
@@ -1721,8 +1800,8 @@
       "titulo": "Inducción tecnológica-metodológica (video) + Guía del participante + Evaluación diagnóstica",
       "aes": "—",
       "minutos": 45,
-      "estado": "Pendiente",
-      "nota": "Falta video de inducción, guía del participante y diagnóstica"
+      "estado": "Hecho",
+      "nota": "Video de inducción (videos/Induccion), guía del participante y 6 diagnósticas sin nota (evaluaciones/D<n>.json)"
     },
     {
       "id": "R002",
@@ -1852,7 +1931,7 @@
       "aes": "M1-AE1; M1-AE2; M1-AE3; M1-AE4",
       "minutos": 30,
       "estado": "Hecho",
-      "nota": "Consigna «qué, por qué y para qué» con rúbrica (foros/M1.md)"
+      "nota": "Consigna del foro del módulo (foros/M1.md)"
     },
     {
       "id": "R015",
@@ -1871,8 +1950,8 @@
       "titulo": "Resumen y glosario del módulo M1 (página; lectura 1,5 min)",
       "aes": "—",
       "minutos": 1.5,
-      "estado": "Insumo listo",
-      "nota": "Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle"
+      "estado": "Hecho",
+      "nota": "Glosario del módulo en el aula (Glosario-M1-Moodle.xml); el resumen va en la infografía y el video de resumen"
     },
     {
       "id": "R017",
@@ -1891,8 +1970,8 @@
       "titulo": "Evaluación sumativa M1",
       "aes": "M1-AE1; M1-AE2; M1-AE3; M1-AE4",
       "minutos": 60,
-      "estado": "Pendiente",
-      "nota": "Falta el banco GIFT por criterios"
+      "estado": "Hecho",
+      "nota": "Evaluación del módulo: 10 preguntas con situaciones de trabajo (evaluaciones/M1.json → GIFT)"
     },
     {
       "id": "R019",
@@ -2022,7 +2101,7 @@
       "aes": "M2-AE1; M2-AE2; M2-AE3; M2-AE4",
       "minutos": 30,
       "estado": "Hecho",
-      "nota": "Consigna «qué, por qué y para qué» con rúbrica (foros/M2.md)"
+      "nota": "Consigna del foro del módulo (foros/M2.md)"
     },
     {
       "id": "R032",
@@ -2031,8 +2110,8 @@
       "titulo": "Video de resumen M2 (3 min): ideas clave y conexión con el siguiente módulo",
       "aes": "—",
       "minutos": 3,
-      "estado": "Insumo listo",
-      "nota": "Ideas clave disponibles; falta el guion y el video"
+      "estado": "Hecho",
+      "nota": "Video, .srt y slides (videos/M2-resumen)"
     },
     {
       "id": "R033",
@@ -2041,8 +2120,8 @@
       "titulo": "Resumen y glosario del módulo M2 (página; lectura 1,5 min)",
       "aes": "—",
       "minutos": 1.5,
-      "estado": "Insumo listo",
-      "nota": "Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle"
+      "estado": "Hecho",
+      "nota": "Glosario del módulo en el aula (Glosario-M2-Moodle.xml); el resumen va en la infografía y el video de resumen"
     },
     {
       "id": "R034",
@@ -2061,8 +2140,8 @@
       "titulo": "Evaluación sumativa M2",
       "aes": "M2-AE1; M2-AE2; M2-AE3; M2-AE4",
       "minutos": 60,
-      "estado": "Pendiente",
-      "nota": "Falta el banco GIFT por criterios"
+      "estado": "Hecho",
+      "nota": "Evaluación del módulo: 10 preguntas con situaciones de trabajo (evaluaciones/M2.json → GIFT)"
     },
     {
       "id": "R036",
@@ -2071,8 +2150,8 @@
       "titulo": "Video de bienvenida M3 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto",
       "aes": "—",
       "minutos": 3,
-      "estado": "Pendiente",
-      "nota": "Falta el guion y el video"
+      "estado": "Hecho",
+      "nota": "Video, .srt y slides (videos/M3-bienvenida)"
     },
     {
       "id": "R037",
@@ -2192,7 +2271,7 @@
       "aes": "M3-AE1; M3-AE2; M3-AE3; M3-AE4",
       "minutos": 30,
       "estado": "Hecho",
-      "nota": "Consigna «qué, por qué y para qué» con rúbrica (foros/M3.md)"
+      "nota": "Consigna del foro del módulo (foros/M3.md)"
     },
     {
       "id": "R049",
@@ -2201,8 +2280,8 @@
       "titulo": "Video de resumen M3 (3 min): ideas clave y conexión con el siguiente módulo",
       "aes": "—",
       "minutos": 3,
-      "estado": "Insumo listo",
-      "nota": "Ideas clave disponibles; falta el guion y el video"
+      "estado": "Hecho",
+      "nota": "Video, .srt y slides (videos/M3-resumen)"
     },
     {
       "id": "R050",
@@ -2211,8 +2290,8 @@
       "titulo": "Resumen y glosario del módulo M3 (página; lectura 1,5 min)",
       "aes": "—",
       "minutos": 1.5,
-      "estado": "Insumo listo",
-      "nota": "Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle"
+      "estado": "Hecho",
+      "nota": "Glosario del módulo en el aula (Glosario-M3-Moodle.xml); el resumen va en la infografía y el video de resumen"
     },
     {
       "id": "R051",
@@ -2231,8 +2310,8 @@
       "titulo": "Evaluación sumativa M3",
       "aes": "M3-AE1; M3-AE2; M3-AE3; M3-AE4",
       "minutos": 60,
-      "estado": "Pendiente",
-      "nota": "Falta el banco GIFT por criterios"
+      "estado": "Hecho",
+      "nota": "Evaluación del módulo: 10 preguntas con situaciones de trabajo (evaluaciones/M3.json → GIFT)"
     },
     {
       "id": "R053",
@@ -2241,8 +2320,8 @@
       "titulo": "Video de bienvenida M4 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto",
       "aes": "—",
       "minutos": 3,
-      "estado": "Pendiente",
-      "nota": "Falta el guion y el video"
+      "estado": "Hecho",
+      "nota": "Video, .srt y slides (videos/M4-bienvenida)"
     },
     {
       "id": "R054",
@@ -2361,8 +2440,8 @@
       "titulo": "Caso M4-C3 · Licencias y datos de entrenamiento (Getty Images v. Stability AI)",
       "aes": "M4-AE1",
       "minutos": 90,
-      "estado": "Hecho",
-      "nota": "Caso verificado (Verificado con ajustes)"
+      "estado": "En curso",
+      "nota": "Fuera del aula desde el 02-11 (casos/descartados/): falta sacarlo de la planilla y repartir sus 90 min"
     },
     {
       "id": "R066",
@@ -2372,7 +2451,7 @@
       "aes": "M4-AE1; M4-AE2; M4-AE3; M4-AE4",
       "minutos": 30,
       "estado": "Hecho",
-      "nota": "Consigna «qué, por qué y para qué» con rúbrica (foros/M4.md)"
+      "nota": "Consigna del foro del módulo (foros/M4.md)"
     },
     {
       "id": "R067",
@@ -2381,8 +2460,8 @@
       "titulo": "Video de resumen M4 (3 min): ideas clave y conexión con el siguiente módulo",
       "aes": "—",
       "minutos": 3,
-      "estado": "Insumo listo",
-      "nota": "Ideas clave disponibles; falta el guion y el video"
+      "estado": "Hecho",
+      "nota": "Video, .srt y slides (videos/M4-resumen)"
     },
     {
       "id": "R068",
@@ -2391,8 +2470,8 @@
       "titulo": "Resumen y glosario del módulo M4 (página; lectura 1,5 min)",
       "aes": "—",
       "minutos": 1.5,
-      "estado": "Insumo listo",
-      "nota": "Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle"
+      "estado": "Hecho",
+      "nota": "Glosario del módulo en el aula (Glosario-M4-Moodle.xml); el resumen va en la infografía y el video de resumen"
     },
     {
       "id": "R069",
@@ -2411,8 +2490,8 @@
       "titulo": "Evaluación sumativa M4",
       "aes": "M4-AE1; M4-AE2; M4-AE3; M4-AE4",
       "minutos": 60,
-      "estado": "Pendiente",
-      "nota": "Falta el banco GIFT por criterios"
+      "estado": "Hecho",
+      "nota": "Evaluación del módulo: 10 preguntas con situaciones de trabajo (evaluaciones/M4.json → GIFT)"
     },
     {
       "id": "R071",
@@ -2421,8 +2500,8 @@
       "titulo": "Video de bienvenida M5 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto",
       "aes": "—",
       "minutos": 3,
-      "estado": "Pendiente",
-      "nota": "Falta el guion y el video"
+      "estado": "Hecho",
+      "nota": "Video, .srt y slides (videos/M5-bienvenida)"
     },
     {
       "id": "R072",
@@ -2522,7 +2601,7 @@
       "aes": "M5-AE1; M5-AE2; M5-AE3",
       "minutos": 30,
       "estado": "Hecho",
-      "nota": "Consigna «qué, por qué y para qué» con rúbrica (foros/M5.md)"
+      "nota": "Consigna del foro del módulo (foros/M5.md)"
     },
     {
       "id": "R082",
@@ -2531,8 +2610,8 @@
       "titulo": "Video de resumen M5 (3 min): ideas clave y conexión con el siguiente módulo",
       "aes": "—",
       "minutos": 3,
-      "estado": "Insumo listo",
-      "nota": "Ideas clave disponibles; falta el guion y el video"
+      "estado": "Hecho",
+      "nota": "Video, .srt y slides (videos/M5-resumen)"
     },
     {
       "id": "R083",
@@ -2541,8 +2620,8 @@
       "titulo": "Resumen y glosario del módulo M5 (página; lectura 1,5 min)",
       "aes": "—",
       "minutos": 1.5,
-      "estado": "Insumo listo",
-      "nota": "Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle"
+      "estado": "Hecho",
+      "nota": "Glosario del módulo en el aula (Glosario-M5-Moodle.xml); el resumen va en la infografía y el video de resumen"
     },
     {
       "id": "R084",
@@ -2561,8 +2640,8 @@
       "titulo": "Evaluación sumativa M5",
       "aes": "M5-AE1; M5-AE2; M5-AE3",
       "minutos": 45,
-      "estado": "Pendiente",
-      "nota": "Falta el banco GIFT por criterios"
+      "estado": "Hecho",
+      "nota": "Evaluación del módulo: 9 preguntas con situaciones de trabajo (evaluaciones/M5.json → GIFT)"
     },
     {
       "id": "R086",
@@ -2571,8 +2650,8 @@
       "titulo": "Video de bienvenida M6 (3 min): qué aprenderás, cómo se evalúa, hito del proyecto",
       "aes": "—",
       "minutos": 3,
-      "estado": "Pendiente",
-      "nota": "Falta el guion y el video"
+      "estado": "Hecho",
+      "nota": "Video, .srt y slides (videos/M6-bienvenida)"
     },
     {
       "id": "R087",
@@ -2682,7 +2761,7 @@
       "aes": "M6-AE1; M6-AE2; M6-AE3",
       "minutos": 30,
       "estado": "Hecho",
-      "nota": "Consigna «qué, por qué y para qué» con rúbrica (foros/M6.md)"
+      "nota": "Consigna del foro del módulo (foros/M6.md)"
     },
     {
       "id": "R098",
@@ -2691,8 +2770,8 @@
       "titulo": "Video de resumen M6 (3 min): ideas clave y conexión con el siguiente módulo",
       "aes": "—",
       "minutos": 3,
-      "estado": "Insumo listo",
-      "nota": "Ideas clave disponibles; falta el guion y el video"
+      "estado": "Hecho",
+      "nota": "Video, .srt y slides (videos/M6-resumen)"
     },
     {
       "id": "R099",
@@ -2701,8 +2780,8 @@
       "titulo": "Resumen y glosario del módulo M6 (página; lectura 1,5 min)",
       "aes": "—",
       "minutos": 1.5,
-      "estado": "Insumo listo",
-      "nota": "Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle"
+      "estado": "Hecho",
+      "nota": "Glosario del módulo en el aula (Glosario-M6-Moodle.xml); el resumen va en la infografía y el video de resumen"
     },
     {
       "id": "R100",
@@ -2721,8 +2800,8 @@
       "titulo": "Evaluación sumativa M6 (evaluación final integradora del curso)",
       "aes": "M6-AE1; M6-AE2; M6-AE3",
       "minutos": 60,
-      "estado": "Pendiente",
-      "nota": "Falta el banco GIFT por criterios"
+      "estado": "Hecho",
+      "nota": "Evaluación final: 4 casos integradores y 22 preguntas (evaluaciones/Final.json); el módulo 6 tiene además su evaluación"
     }
   ],
   "cruce": [

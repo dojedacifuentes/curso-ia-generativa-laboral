@@ -246,6 +246,20 @@ if (existe('docs', 'PENDIENTES-VERIFICACION.md')) {
 
 // ---------- documentos (flujo, reglas, formatos, skills) ----------
 const DOCS = [
+  ['Estado y decisiones', 'ESTADO.md', 'Estado del proyecto'],
+  ['Estado y decisiones', 'docs/SENCE-GUIA-TECNICA-FT.md', 'Guía técnica del SENCE (fase 2)'],
+  ['Estado y decisiones', 'docs/CRITERIOS-02-11.md', 'Criterios del 02-11'],
+  ['Estado y decisiones', 'docs/OBSERVACIONES-NATALIA-01-11.md', 'Revisión de Natalia (01-11)'],
+  ['Estado y decisiones', 'docs/OBSERVACIONES-NATALIA-31-10.md', 'Observaciones de Natalia (31-10)'],
+  ['Estado y decisiones', 'docs/CRITERIOS-30-10.md', 'Criterios del 30-10'],
+  ['Estado y decisiones', 'docs/PLAN-SENCE-30-10.md', 'Plan según la estructura SENCE (30-10)'],
+  ['Estado y decisiones', 'docs/CRITERIOS-29-10.md', 'Criterios del 29-10'],
+  ['Estado y decisiones', 'docs/CRITERIOS-28-10.md', 'Criterios del 28-10'],
+  ['Aula Moodle', 'docs/AULA-MOODLE.md', 'Cómo se arma el aula y sus cambios'],
+  ['Aula Moodle', 'docs/MAPA-AULA-MOODLE.md', 'Mapa del aula'],
+  ['Aula Moodle', 'docs/APERTURA-FOROS.md', 'Apertura de los foros'],
+  ['Aula Moodle', 'entregables/rise/LEEME.md', 'Rise: cómo se arman y exportan'],
+  ['Aula Moodle', 'videos/ENTREGA-VIDEOS.md', 'Videos de módulo e inducción'],
   ['Flujo y reglas', 'WORKFLOW.md', 'Workflow: orden de trabajo y reglas'],
   ['Flujo y reglas', 'docs/PROCESO.md', 'Proceso de producción y publicación'],
   ['Flujo y reglas', 'PLAYBOOK-PRODUCCION.md', 'Playbook: qué pide la planilla'],
@@ -265,6 +279,62 @@ const DOCS = [
 ].filter(([, ruta]) => existe(ruta));
 const slug = ruta => ruta.replace(/^\.claude\/skills\//, 'skill-').replace(/\/SKILL\.md$/, '').replace(/\.md$/, '').replace(/[^\w-]+/g, '-').toLowerCase();
 const documentos = DOCS.map(([grupo, ruta, titulo]) => ({ id: slug(ruta), grupo, ruta, titulo, github: gh(ruta) }));
+// Enlaces relativos de los documentos: al documento del panel si está en la lista, si no a GitHub
+const docPorRuta = Object.fromEntries(documentos.map(d => [d.ruta, d.id]));
+const enlazar = (html, base = '') => html.replace(/href="([^"]+)"/g, (m, href) => {
+  if (/^(https?:|mailto:|#)/.test(href)) return m;
+  let limpio = href;
+  try { limpio = decodeURI(href); } catch (e) {}
+  const ruta = path.posix.normalize(path.posix.join(base, limpio));
+  if (docPorRuta[ruta]) return `href="#documentos/${docPorRuta[ruta]}"`;
+  return `href="${ruta.endsWith('/') ? `${REPO}/tree/main/${ruta.split('/').map(encodeURIComponent).join('/')}` : gh(ruta)}"`;
+});
+const baseDe = ruta => path.posix.dirname(ruta) === '.' ? '' : path.posix.dirname(ruta);
+
+// ---------- estado del proyecto (ESTADO.md) y guía técnica del SENCE de la fase 2 ----------
+const ETIQUETA_V1 = 'v1.0-visto-bueno-cliente';
+const enLinea = (md, base = '') => enlazar(marked.parseInline(md || ''), base);
+function seccion(md, titulo) {
+  // texto bajo el primer encabezado que empieza con `titulo`, hasta el siguiente de igual o mayor nivel
+  const m = new RegExp(`^(#{1,4}) ${titulo.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}.*$`, 'm').exec(md);
+  if (!m) return '';
+  const resto = md.slice(m.index + m[0].length);
+  const fin = resto.search(new RegExp(`^#{1,${m[1].length}} `, 'm'));
+  return fin < 0 ? resto : resto.slice(0, fin);
+}
+function tabla(texto) {
+  const lineas = texto.split('\n').map(l => l.trim()), i = lineas.findIndex(l => l.startsWith('|'));
+  if (i < 0) return [];
+  const filas = [];
+  for (const l of lineas.slice(i)) { if (!l.startsWith('|')) break; filas.push(l); }
+  const celdas = l => l.replace(/^\|/, '').replace(/\|$/, '').split('|').map(c => c.trim());
+  const cab = celdas(filas[0]);
+  return filas.slice(2).map(l => Object.fromEntries(celdas(l).map((c, k) => [cab[k], c])));
+}
+const parrafos = (texto, base = '') => texto.split(/\n\s*\n/).map(b => b.trim()).filter(b => b && !/^(#|\||- |\d+\. )/.test(b))
+  .map(b => enLinea(b.replace(/\s*\n\s*/g, ' '), base));
+const lista = (texto, base = '') => texto.replace(/\n {2,}/g, ' ').split('\n').filter(l => l.startsWith('- ')).map(l => enLinea(l.slice(2), base));
+const ESTADO = existe('ESTADO.md') ? leer('ESTADO.md') : null;
+const GUIA = existe('docs', 'SENCE-GUIA-TECNICA-FT.md') ? leer('docs', 'SENCE-GUIA-TECNICA-FT.md') : null;
+const estado = ESTADO && {
+  al: /\*\*Al (\d\d-\d\d-\d{4})/.exec(ESTADO)?.[1] || null,
+  resumen: parrafos(ESTADO.split(/^## /m)[0].replace(/^# .*$/m, ''))[0] || '',
+  fases: tabla(seccion(ESTADO, 'Fases')).map(f => ({ fase: f.Fase, estado: f.Estado, fechas: f.Fechas, que: enLinea(f['Qué es']), ref: enLinea(f.Referencia) })),
+  fase1: parrafos(seccion(ESTADO, 'Fase 1').split(/^### /m)[0]),
+  version1: tabla(seccion(ESTADO, 'Qué tiene la versión 1')).map(f => ({ pieza: f.Pieza, version: enLinea(f['Versión 1']), donde: enLinea(f['Dónde']) })),
+  fase2: parrafos(seccion(ESTADO, 'Fase 2').split(/^### /m)[0]),
+  pendientes: lista(seccion(ESTADO, 'Pendientes que vienen de la versión 1')),
+  bitacora: tabla(seccion(ESTADO, 'Bitácora')).map(f => ({ fecha: f.Fecha, hito: f.Hito, que: enLinea(f['Qué se hizo']), doc: enLinea(f.Documento),
+    commit: f.Commit && f.Commit !== '—' ? enLinea(f.Commit) : '' })),
+  reglas: lista(seccion(ESTADO, 'Cómo se registra cada cambio')),
+  etiqueta: { nombre: ETIQUETA_V1, url: `${REPO}/tree/${ETIQUETA_V1}`, comparar: `${REPO}/compare/${ETIQUETA_V1}...main` },
+  guia: GUIA && {
+    doc: slug('docs/SENCE-GUIA-TECNICA-FT.md'),
+    datos: tabla(seccion(GUIA, 'El documento')).map(f => ({ dato: f.Dato, detalle: enLinea(f.Detalle, 'docs') })),
+    puntos: tabla(seccion(GUIA, 'Primera lectura')).map(f => ({ seccion: f['Sección'], punto: f.Punto, pide: enLinea(f['Qué pide la guía'], 'docs'),
+      hoy: enLinea(f['Hoy en el curso'], 'docs'), lectura: enLinea(f['Primera lectura'], 'docs'), estado: f.Estado })),
+  },
+};
 
 // ---------- metodología: pasos del flujo, con su regla, su script y su control ----------
 const nFuentes = FUENTES.filter(f => f.grupo === 'contenido').length;
@@ -332,7 +402,7 @@ const datos = {
   cifras: { modulos: MODULOS.length, aes: AES.length, pantallas: nPantallas, fuentes: nFuentes, fuentesCasos: FUENTES.length - nFuentes,
     preguntas: nPreguntas, casos: casosApl.length, hitos: casos.length - casosApl.length, recursos: recursos.length,
     minutos: recursos.filter(r => /^S/i.test(r.cuentaHoras)).reduce((s, r) => s + r.minutos, 0) },
-  metodologia, planillaInfo: planilla, modulos, aes, recursos, casos, infografias, evaluacion, fuentes: FUENTES,
+  estado, metodologia, planillaInfo: planilla, modulos, aes, recursos, casos, infografias, evaluacion, fuentes: FUENTES,
   pendientes: { verificacion, planilla: pendPlanilla },
   auditoria: auditoria && { resumen: auditoria.resumen, informe: existe('entregables', 'auditoria', 'AUDITORIA.html') ? 'entregables/auditoria/AUDITORIA.html' : null,
     capas: auditoria.capas.map(c => ({ id: c.id, titulo: c.titulo, explica: c.explica, control: estadoCapa(c.id),
@@ -347,7 +417,7 @@ fs.rmSync(DIST, { recursive: true, force: true });
 fs.mkdirSync(path.join(DIST, 'docs'), { recursive: true });
 for (const f of ['index.html', 'app.js', 'estilos.css']) fs.copyFileSync(path.join(RAIZ, 'panel', 'src', f), path.join(DIST, f));
 fs.writeFileSync(path.join(DIST, 'datos.json'), JSON.stringify(datos));
-for (const d of documentos) fs.writeFileSync(path.join(DIST, 'docs', `${d.id}.html`), marked.parse(leer(d.ruta).replace(/^---\n[\s\S]*?\n---\n/, '')));
+for (const d of documentos) fs.writeFileSync(path.join(DIST, 'docs', `${d.id}.html`), enlazar(marked.parse(leer(d.ruta).replace(/^---\n[\s\S]*?\n---\n/, '')), baseDe(d.ruta)));
 // Entregables que se pueden abrir o jugar desde el panel
 for (const dir of ['quiz', 'infografias', 'por-ae', 'casos/html', 'auditoria'])
   if (existe('entregables', dir)) fs.cpSync(rel('entregables', dir), path.join(DIST, 'entregables', dir), { recursive: true });

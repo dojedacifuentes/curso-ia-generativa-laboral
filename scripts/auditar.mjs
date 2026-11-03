@@ -108,7 +108,7 @@ function leerCaso(id) {
   const ficha = existe('investigacion', 'casos', `${id}.md`) ? leer('investigacion', 'casos', `${id}.md`) : null;
   const caso = existe('casos', `${id}.md`) ? leer('casos', `${id}.md`) : null;
   return {
-    ficha, caso,
+    ficha, caso, fueraDelAula: existe('casos', 'descartados', `${id}.md`),
     estado: ficha && /^Estado:\s*(.+)$/m.exec(ficha)?.[1]?.trim(),
     fuentes: ficha ? [...ficha.matchAll(/^###\s+(F-[A-Z0-9]+-\d+)\b/gm)].map(m => m[1]) : [],
     primarias: ficha ? (ficha.match(/^- Tipo:\s*primaria/gmi) || []).length : 0,
@@ -288,7 +288,8 @@ for (const a of AES) {
 for (const a of AES) chequeo(`act.${a.id}`, `Actividades ${a.id}`, 'Dos actividades de aplicación práctica por AE (actividades/), con sus H y C y citas APA.', r => {
   if (!existe('actividades', `${a.id}.md`)) { r.error(`falta actividades/${a.id}.md`); return; }
   const md = leer('actividades', `${a.id}.md`);
-  const acts = md.split(/^## (?:Actividad|Autoevaluación) \d/m).slice(1);
+  // Desde el 01-11 se llaman «Práctica autoevaluada N» (revisión de Natalia); antes, «Actividad N» y «Autoevaluación N»
+  const acts = md.split(/^## (?:Actividad|Autoevaluación|Práctica autoevaluada) \d/m).slice(1);
   acts.length === 2 ? r.ev('2 actividades') : r.error(`${acts.length} actividades (deben ser 2)`);
   const cubre = new Set(acts.flatMap(x => (/^cubre:\s*(.+)$/m.exec(x)?.[1] || '').split(/,\s*/)));
   const deben = [...a.saber_hacer, ...a.criterios].map(x => x.codigo).filter(x => !cubre.has(x));
@@ -399,6 +400,8 @@ for (const k of CASOS) {
     c.primarias ? r.ev(`${c.fuentes.length} fuentes, ${c.primarias} primarias`) : r.error('sin fuentes primarias');
     for (const s of ['Hechos verificados', 'Lo que NO se puede afirmar']) if (!c.ficha.includes(`## ${s}`)) r.error(`la ficha no tiene «${s}»`);
     if (c.estado === 'Descartado') { r.aviso('caso descartado: hay que reemplazarlo en la planilla'); return; }
+    // Criterios 02-11: el módulo 4 queda con dos casos; el tercero sale del aula y pasa a casos/descartados/
+    if (!c.caso && c.fueraDelAula) { r.aviso(`fuera del aula desde el 02-11 (casos/descartados/${k.id}.md): falta sacarlo de la hoja «Casos y proyecto»`); return; }
     if (!c.caso) { r.error(`falta casos/${k.id}.md`); return; }
     for (const s of ['1. Contexto', '2. Qué pasó', '3. Análisis guiado', '4. Aplicación a tu proyecto', '5. Autocorrección', '6. Para el foro', 'Referencias bibliográficas'])
       if (!new RegExp(`^## ${s.replace('.', '\\.')}`, 'm').test(c.caso)) r.error(`falta la sección «${s}»`);
@@ -569,20 +572,25 @@ const AVANCE = RECURSOS.map(x => {
     case 'Caso de aplicación': {
       const id = /Caso (M\d-C\d)/.exec(x.titulo)?.[1];
       const e = estadoDe(`C5.${id}`);
-      if (e === 'ok' || e === 'aviso') { estado = 'Hecho'; nota = `Caso verificado (${CASO[id]?.estado})`; }
+      if (CASO[id]?.fueraDelAula && !CASO[id].caso) { estado = 'En curso'; nota = `Fuera del aula desde el 02-11 (casos/descartados/): falta sacarlo de la planilla y repartir sus ${x.minutos} min`; }
+      else if (e === 'ok' || e === 'aviso') { estado = 'Hecho'; nota = `Caso verificado (${CASO[id]?.estado})`; }
       else if (e === 'pendiente') { estado = 'Hecho'; nota = 'Caso escrito; falta compilar Doc/PDF'; }
       else if (CASO[id]?.ficha) { estado = 'En curso'; nota = 'Ficha de verificación sin caso redactado'; }
       else { estado = 'En curso'; nota = 'En investigación'; }
       break;
     }
     case 'Resumen y glosario':
-      if (MODULOS.find(z => z.n === m).aes.every(a => CONT[a.id]?.seccion('Ideas clave')) && existe('glosario', `M${m}.md`)) { estado = 'Insumo listo'; nota = 'Ideas clave en el contenido y glosario en glosario/ (con XML de Moodle); falta la página de Moodle'; }
+      if (MODULOS.find(z => z.n === m).aes.every(a => CONT[a.id]?.seccion('Ideas clave')) && existe('glosario', `M${m}.md`)) {
+        // Desde el 31-10 cada módulo tiene su glosario en el aula (XML importado) y su resumen en la infografía y el video de resumen
+        if (existe('entregables', 'glosario', `Glosario-M${m}-Moodle.xml`)) { estado = 'Hecho'; nota = `Glosario del módulo en el aula (Glosario-M${m}-Moodle.xml); el resumen va en la infografía y el video de resumen`; }
+        else { estado = 'Insumo listo'; nota = 'Ideas clave en el contenido y glosario en glosario/; falta el XML de Moodle'; }
+      }
       break;
     case 'Hito proyecto': {
       // Opción 1 (30-10): cada hito es la actividad 2 de un AE (data/hitos.json), con su enunciado y su rúbrica
       const num = /Hito (\d[a-d]?)/.exec(x.titulo)?.[1];
       const h = Object.entries(HITOS).find(([k]) => k.replace(/^M\d-P/, '') === num)?.[1];
-      if (h && existe('actividades', `${h.ae}.md`) && new RegExp(`[Hh]itos? (${num}|[\\d]+[a-d]? y ${num})\\b`).test(leer('actividades', `${h.ae}.md`).split(/^## (?:Actividad|Autoevaluación) 2/m)[1] || '')) { estado = 'Hecho'; nota = `${h.hito}: actividad 2 de ${h.ae}, con enunciado y rúbrica`; }
+      if (h && existe('actividades', `${h.ae}.md`) && new RegExp(`[Hh]itos? (${num}|[\\d]+[a-d]? y ${num})\\b`).test(leer('actividades', `${h.ae}.md`).split(/^## (?:Actividad|Autoevaluación|Práctica autoevaluada) 2/m)[1] || '')) { estado = 'Hecho'; nota = `${h.hito}: actividad 2 de ${h.ae}, con enunciado y rúbrica`; }
       else if (aes.every(a => existe('actividades', `${a}.md`))) { estado = 'Insumo listo'; nota = 'Actividades de aplicación práctica de sus AE (actividades/); falta asignar el hito a una actividad'; }
       break;
     }
@@ -595,12 +603,31 @@ const AVANCE = RECURSOS.map(x => {
       else nota = 'Falta el guion y el video';
       break;
     }
-    case 'Evaluación sumativa': nota = 'Falta el banco GIFT por criterios'; break;
+    case 'Evaluación sumativa': {
+      // Desde el 31-10: evaluación de cada módulo (evaluaciones/M<n>.json) y evaluación final aparte (evaluaciones/Final.json), ambas en GIFT
+      const final = /final/i.test(x.titulo), f = final ? 'Final' : `M${m}`;
+      if (existe('evaluaciones', `${f}.json`) && existe('entregables', 'moodle', 'evaluaciones', `${f}.gift`)) {
+        const j = JSON.parse(leer('evaluaciones', `${f}.json`));
+        estado = 'Hecho';
+        nota = final ? `Evaluación final: ${j.casos.length} casos integradores y ${j.casos.reduce((s, c) => s + c.items.length, 0)} preguntas (evaluaciones/Final.json); el módulo 6 tiene además su evaluación`
+          : `Evaluación del módulo: ${j.items.length} preguntas con situaciones de trabajo (evaluaciones/M${m}.json → GIFT)`;
+      } else nota = `Falta evaluaciones/${f}.json o su GIFT`;
+      break;
+    }
     case 'Foro':
-      if (existe('foros', `M${m}.md`)) { estado = 'Hecho'; nota = `Consigna «qué, por qué y para qué» con rúbrica (foros/M${m}.md)`; }
+      // Desde el 31-10 es el foro de casos del módulo, sin nota (en el módulo 6, «Foro del módulo 6»)
+      if (existe('foros', `M${m}.md`)) { estado = 'Hecho'; nota = `Consigna del foro del módulo (foros/M${m}.md)`; }
       else nota = 'Falta la consigna del foro';
       break;
-    case 'Inducción/Diagnóstica': nota = 'Falta video de inducción, guía del participante y diagnóstica'; break;
+    case 'Inducción/Diagnóstica': {
+      // 01-11 y 02-11: video de inducción, guía del participante en la página «Inducción al curso» y una diagnóstica sin nota por módulo
+      const falta = [!existe('videos', 'Induccion', 'subtitulos.srt') && 'video de inducción',
+        !/const guiaParticipante\b/.test(leer('scripts', 'moodle-aula.mjs')) && 'guía del participante',
+        !MODULOS.every(z => existe('evaluaciones', `D${z.n}.json`)) && 'diagnósticas'].filter(Boolean);
+      if (!falta.length) { estado = 'Hecho'; nota = 'Video de inducción (videos/Induccion), guía del participante y 6 diagnósticas sin nota (evaluaciones/D<n>.json)'; }
+      else { estado = falta.length < 3 ? 'En curso' : 'Pendiente'; nota = `Falta ${falta.join(', ')}`; }
+      break;
+    }
   }
   return { ...x, estado, nota };
 });

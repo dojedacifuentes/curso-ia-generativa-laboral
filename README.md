@@ -2,7 +2,21 @@
 
 Curso e-learning de 6 módulos, 22 aprendizajes esperados (AE) y 88 horas, producido a partir de la planilla
 «Estructura_inicial_contenido_IA_generativa». Este repositorio tiene todo: la planilla convertida en datos, las fuentes, el
-contenido base, los quiz, las infografías, los casos reales, los scripts que generan y auditan, y un panel para verlo y rastrearlo.
+contenido base, los quiz, las infografías, los casos reales, las prácticas, las evaluaciones, los foros, la guía del facilitador,
+el generador del aula Moodle, los guiones de los videos, los scripts que generan y auditan, y un panel para verlo y rastrearlo.
+
+## Estado
+
+**Al 03-11-2026: la versión 1 tiene el primer visto bueno del cliente** en el contenido, las secciones y la estructura, y **empieza
+la fase 2**: ajustar el curso a la nueva guía técnica del SENCE con que se revisan y aprueban las solicitudes de cursos por
+franquicia tributaria.
+
+- Qué aprobó el cliente, la bitácora y los pendientes: [ESTADO.md](ESTADO.md).
+- La guía del SENCE y su primera lectura punto por punto: [docs/SENCE-GUIA-TECNICA-FT.md](docs/SENCE-GUIA-TECNICA-FT.md).
+- La versión aprobada queda congelada en la etiqueta
+  [`v1.0-visto-bueno-cliente`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/tree/v1.0-visto-bueno-cliente); lo que
+  cambie después se ve en la [comparación con `main`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/compare/v1.0-visto-bueno-cliente...main).
+- En el panel, la vista «Estado» es la portada: https://curso-ia-generativa-laboral.vercel.app
 
 ## La planilla de origen
 
@@ -17,8 +31,10 @@ La original manda. Si cambia, se descarga como .xlsx, se convierte con `node scr
 
 ## El panel
 
-`panel/` arma un sitio estático con la metodología, la matriz, la trazabilidad (código de la planilla → pantalla → fuente →
-pregunta del quiz), los 101 recursos, los casos, las fuentes, los pendientes, la auditoría y los documentos del flujo.
+`panel/` arma un sitio estático con el estado del proyecto (fases, versión aprobada, guía del SENCE punto por punto y bitácora,
+leídos de `ESTADO.md` y `docs/SENCE-GUIA-TECNICA-FT.md`), la metodología, la matriz, la trazabilidad (código de la planilla →
+pantalla → fuente → pregunta del quiz), los 101 recursos, los casos, las fuentes, los pendientes, la auditoría y los documentos
+del flujo y de cada decisión.
 Vercel lo publica en cada push a `main` (ver `vercel.json`): **https://curso-ia-generativa-laboral.vercel.app**
 
 ```bash
@@ -37,11 +53,17 @@ El sitio queda en `panel/dist`. Para verlo en el computador: `npx http-server pa
 | `contenido/` | Contenido base por AE, pantalla por pantalla |
 | `quiz/` | Preguntas de los 22 quiz |
 | `infografias/` | Datos de las 6 infografías |
-| `casos/` | Los 11 casos con empresas reales |
-| `videos/` | Guion, slides y subtítulos de los videos de cada módulo (el audio y el video no se suben) |
-| `scripts/` | Importar, validar, generar, compilar y auditar |
-| `entregables/` | Lo generado: Docs, PDF, SCORM, HTML, GIFT, PNG, auditoría |
-| `docs/` | Formatos, revisión de fondo, pendientes, proceso y auditoría |
+| `casos/` | Los 10 casos reales del aula, su rúbrica y los descartados (`casos/descartados/`) |
+| `actividades/` | Las 44 prácticas autoevaluadas (2 por AE), con instrucción general, rúbrica y respuesta modelo |
+| `evaluaciones/` | Diagnósticas, evaluaciones de módulo y evaluación final |
+| `foros/` | Consignas de los foros de cada módulo y del foro de interacción |
+| `guia-facilitador/` | Pautas de corrección por AE y moderación de foros |
+| `glosario/` | Glosario de cada módulo |
+| `pitch/` | El pitch del proyecto, práctica evaluada del módulo 6 |
+| `videos/` | Guion, slides y subtítulos de los videos de cada módulo y del video de inducción (el audio y el video no se suben) |
+| `scripts/` | Importar, validar, generar, compilar, armar el aula Moodle y auditar |
+| `entregables/` | Lo generado: Docs, PDF, SCORM, HTML, GIFT, PNG, el aula Moodle (`moodle/aula.json`), los Rise y la auditoría |
+| `docs/` | Criterios fechados, observaciones de Natalia, aula Moodle, guía del SENCE, formatos, revisión de fondo, proceso y auditoría |
 | `.claude/skills/` | Las instrucciones que usa Claude en cada etapa |
 
 ## Flujo
@@ -53,8 +75,13 @@ El sitio queda en `panel/dist`. Para verlo en el computador: `npx http-server pa
 5. `node scripts/infografias.mjs`: infografías HTML y PNG
 6. Casos en `investigacion/casos/` y `casos/`, con `node scripts/validar-casos.mjs`
 7. `node scripts/compilar-contenidos.mjs`: Docs, páginas y PDF
-8. Videos de bienvenida y resumen por módulo en `videos/` (skill `curso-video-modulo`: voz y avatar de EVA, slides HTML, Python + ffmpeg)
-9. Subida a Drive (skill `curso-drive`)
-10. `node scripts/auditar.mjs`: auditoría en 10 capas contra la planilla
+8. `node scripts/rise-generar.mjs <AE>` y armado en Rise EU, exportados en SCORM 1.2 (`entregables/rise/LEEME.md`)
+9. Videos de bienvenida y resumen por módulo e inducción en `videos/` (skill `curso-video-modulo`: voz y avatar de EVA, slides HTML, Python + ffmpeg)
+10. Subida a Drive (skill `curso-drive`)
+11. `node scripts/moodle-aula.mjs`: `entregables/moodle/aula.json`, que el armador `scripts/lib/moodle-armador.js` monta en el aula (`docs/AULA-MOODLE.md`)
+12. `node scripts/auditar.mjs`: auditoría en 10 capas contra la planilla
+
+Cada decisión que cambia el curso queda en un documento fechado (`docs/CRITERIOS-<fecha>.md` u `docs/OBSERVACIONES-NATALIA-<fecha>.md`)
+y en la bitácora de [ESTADO.md](ESTADO.md).
 
 Las reglas completas están en [WORKFLOW.md](WORKFLOW.md) y los formatos en `FORMATO-CONTENIDO-BASE.md` y `docs/FORMATO-*.md`.

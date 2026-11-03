@@ -286,3 +286,35 @@ details[open] > summary .flecha::after { transform: rotate(90deg); }
 .fuente .fid { font: 600 .8rem var(--f-mono); color: var(--accent); }
 .fuente .tip { color: var(--muted); font-size: .8rem; }
 .vacio-txt { padding: 24px; color: var(--muted); text-align: center; }
+
+/* ---------- estado del proyecto ---------- */
+.fases { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 14px; align-items: start; }
+.fase { padding: 18px; display: grid; gap: 10px; border-top: 4px solid var(--line); }
+.fase.ok { border-top-color: var(--ok); }
+.fase.aviso { border-top-color: var(--aviso); }
+.fase-cab { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.fase .ref { font-size: .9rem; }
+.conteo { display: flex; gap: 6px; flex-wrap: wrap; }
+.v1, .punto { display: grid; gap: 8px; align-content: start; }
+.v1 b { font-family: var(--f-tit); font-size: 1.02rem; }
+.v1 small { color: var(--muted); }
+.estado-p { display: grid; gap: 10px; }
+.estado-p p { max-width: 90ch; }
+.punto dl { display: grid; gap: 8px; margin: 0; }
+.punto dt { font: 600 .7rem var(--f-txt); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.punto dd { margin: 2px 0 0; font-size: .9rem; }
+.linea { list-style: none; margin: 0; padding: 0; }
+.linea li { display: grid; grid-template-columns: 18px minmax(0, 1fr); gap: 12px; }
+.linea .eje { position: relative; }
+.linea .eje::before { content: ""; position: absolute; left: 8px; top: 0; bottom: 0; width: 2px; background: var(--line); }
+.linea li:first-child .eje::before { top: 16px; }
+.linea li:last-child .eje::before { bottom: auto; height: 16px; }
+.linea .eje::after { content: ""; position: absolute; left: 3px; top: 12px; width: 8px; height: 8px; border-radius: 50%; background: var(--panel); border: 2px solid var(--accent); }
+.linea li.ok .eje::after { background: var(--ok); border-color: var(--ok); }
+.linea li.aviso .eje::after { background: var(--aviso); border-color: var(--aviso); }
+.linea .c { display: grid; gap: 3px; padding: 6px 0 16px; min-width: 0; }
+.linea li:last-child .c { padding-bottom: 0; }
+.linea .f { font: 500 .78rem var(--f-mono); color: var(--muted); }
+.linea .c b { font-family: var(--f-tit); }
+.linea .c small { color: var(--muted); }
+.estado-lista { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; }

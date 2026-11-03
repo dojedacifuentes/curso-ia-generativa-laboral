@@ -9,7 +9,7 @@ import { fileURLToPath } from 'node:url';
 import JSZip from 'jszip';
 import {
   AlignmentType, Bookmark, BorderStyle, Document, Footer, Header, HeadingLevel, ImageRun, InternalHyperlink, LevelFormat, Packer, PageNumber,
-  PageOrientation, Paragraph, ShadingType, Table, TableCell, TableLayoutType, TableRow, TabStopType, TextRun, VerticalAlign, WidthType,
+  PageOrientation, Paragraph, ShadingType, Tab, Table, TableCell, TableLayoutType, TableRow, TabStopType, TextRun, VerticalAlign, WidthType,
 } from 'docx';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -95,14 +95,13 @@ function imagen(archivo, ancho) {
 
 const pie = ancho => new Footer({ children: [new Paragraph({
   tabStops: [{ type: TabStopType.RIGHT, position: ancho }], spacing: { after: 0 },
-  children: [t('e-tech | empoderatech', { size: 14, color: C.grisMedio }), t('\tPágina ', { size: 14, color: C.grisMedio }),
-    new TextRun({ children: [PageNumber.CURRENT], size: 14, color: C.grisMedio }), t(' de ', { size: 14, color: C.grisMedio }),
-    new TextRun({ children: [PageNumber.TOTAL_PAGES], size: 14, color: C.grisMedio })],
+  // sin el total de páginas: el visor de Drive no lo calcula
+  children: [t('e-tech | empoderatech', { size: 14, color: C.grisMedio }), new TextRun({ children: [new Tab(), 'Página ', PageNumber.CURRENT], size: 14, color: C.grisMedio })],
 })] });
 const cabecera = ancho => new Header({ children: [new Paragraph({
   tabStops: [{ type: TabStopType.RIGHT, position: ancho }], spacing: { after: 120 },
   border: { bottom: { style: BorderStyle.SINGLE, size: 4, color: C.linea, space: 4 } },
-  children: [t('Guía técnica del SENCE · Auditoría y tabla de verdad', { size: 14, color: C.grisMedio }), t(`\tVersión ${G.version} · ${G.fecha}`, { size: 14, color: C.grisMedio })],
+  children: [t('Guía técnica del SENCE · Auditoría y tabla de verdad', { size: 14, color: C.grisMedio }), new TextRun({ children: [new Tab(), `Versión ${G.version} · ${G.fecha}`], size: 14, color: C.grisMedio })],
 })] });
 
 // ---------- contenido ----------

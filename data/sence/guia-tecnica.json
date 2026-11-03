@@ -14,7 +14,7 @@
       {"titulo":"Todo debe poder seguirse hasta el aprendizaje esperado","texto":"El diseño se juzga completo, pero cada aprendizaje esperado debe tener contenidos y actividades, y su evaluación debe poder reconstruirse: evidencia, instrumento, criterio, ponderación y condición de aprobación."},
       {"titulo":"La solicitud es una promesa que se comprueba","texto":"En e-learning, lo que se declara debe existir en el aula y poder comprobarse en ella."}
     ],
-    "alcance": "Esta auditoría revisó las 21 páginas y las 20 secciones de la guía. Todavía no compara nada con el curso: las columnas de resultado de la tabla de verdad quedan en blanco a propósito."
+    "alcance": "Esta auditoría revisó las 21 páginas y las 20 secciones de la guía. La comparación con el curso está en las secciones 1 a 5 y en la tabla de verdad."
   },
   "ficha": [
     {"dato":"Nombre","detalle":"Guía técnica para organismos ejecutores de capacitación. Revisión de solicitudes de cursos financiables mediante Franquicia Tributaria del SENCE"},

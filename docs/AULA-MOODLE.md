@@ -51,7 +51,7 @@ formato por temas con todas las secciones en una página, finalización de activ
   categorías de evaluaciones de módulo y final están vacías hasta que se carguen.
 - **Escala 1,0 a 7,0** como letras del curso (4,0 desde 60 %; sobre 60 % se redondea a la media nota más cercana; bajo 60 %,
   1,0 + 3·p/60 con corte en medias notas); las notas se muestran como «Letra (porcentaje)».
-- **Finalización del curso:** completar las 113 actividades visibles con finalización y nota del curso de 60 % o más. Al
+- **Finalización del curso (corregido el 03-11):** lo real en Moodle son 57 actividades (7 foros y 50 SCORM), ninguna tarea ni cuestionario, y 60 puntos de un total de 1.800, que son 3,3 % de la nota, no 60 %. Ver `docs/SENCE-TABLA-DE-VERDAD.md`, corrección C-01. Lo que se quiso dejar fue: completar las 113 actividades visibles con finalización y nota del curso de 60 % o más. Al
   agregar las evaluaciones, sumarlas a los criterios.
 - **Insignias** (`scripts/moodle-insignias.mjs`, imágenes en `entregables/moodle/insignias/`): una por módulo (ids 1 a 6, al
   completar todas las actividades visibles del módulo) y una de curso completado (id 7, al finalizar el curso). Activas. Tarjeta
@@ -179,8 +179,8 @@ Hechos desde el PC 1 (el PC 2 no alcanzó a aplicar nada), con las funciones nue
 - **PDF de la guía del facilitador y del mapa** regenerados con la ponderación nueva (Chrome headless; con la carpeta del proyecto
   falla por la coma del nombre: imprimir en una carpeta temporal y copiar) y reemplazados en la sección «Para el facilitador» con
   `cambios31Facilitador`.
-- **Finalización del curso** recalculada con las actividades visibles (`cambios31Finalizacion`): entra la tarea del pitch y la
-  inducción; sale el tercer caso del módulo 4.
+- **Finalización del curso:** `cambios31Finalizacion` quiso recalcularla, pero no tuvo efecto (comprobado el 03-11): Moodle tiene los
+  criterios bloqueados y siguen sin ninguna tarea. Además esa función escribe 60 como nota y son puntos, no porcentaje: no reutilizarla.
 - **Cuentas:** desde Administración del sitio › Usuarios › Agregar un usuario, con «Generar contraseña y notificar al usuario» (el
   correo saliente del sitio funciona: prueba enviada desde futuro@empoderatech.com), sin escribir contraseñas: **Natalia Hernández**
   (`natalia.hernandez`, correo natalia@empoderatech.com desde el 02-11 (la contraseña inicial llegó al provisorio dojedacifuentes+docente@gmail.com; ella entra con «¿Olvidó su contraseña?»), rol Profesor) y **Camila Rojas** (`camila.rojas`,

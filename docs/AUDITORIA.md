@@ -1,6 +1,6 @@
 # Auditoría del curso «IA generativa para entornos laborales»
 
-Generado con `node scripts/auditar.mjs` el 03-11-26, 5:54 p. m.. Solo lee: no corrige nada.
+Generado con `node scripts/auditar.mjs` el 03-11-26, 8:44 p. m.. Solo lee: no corrige nada.
 Fuente de verdad: planilla «Estructura_inicial_contenido_IA_generativa» (Drive 1v_NCRQGZnajDLesIw8haIMrw4551q6C8Om6AOM8RoHM).
 
 **Resultado:** 108 chequeos · ✓ 96 sin observaciones · ! 11 con avisos · ✗ 0 con errores · … 1 pendientes.

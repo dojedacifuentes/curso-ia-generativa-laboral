@@ -15,7 +15,7 @@ bitácora de [ESTADO.md](../ESTADO.md) cuando se aplican.
 | Archivo | `guia_tecnica_revision_de_solicitudes_ft.pdf`, en el Drive del equipo; no se copia a este repositorio |
 | Relación con la planilla | Parece ser la Guía Técnica que la planilla tenía por obtener (hoja Pendientes, fila 3), por confirmar. El Anexo Técnico con indicadores, medios de verificación y estándares no llegó con ella: las 6 filas «Depende del Anexo Técnico» se pueden avanzar con esta guía, sin darlas por cerradas |
 
-**Auditoría completa:** la guía se auditó página por página en [SENCE-TABLA-DE-VERDAD.md](SENCE-TABLA-DE-VERDAD.md), con la tabla de verdad que sirve de vara para comparar el curso. Este documento queda como primera lectura.
+**Auditoría completa:** la guía se auditó página por página en [SENCE-TABLA-DE-VERDAD.md](SENCE-TABLA-DE-VERDAD.md), y ahí está también la comparación con el aula del 03-11. Este documento queda como primera lectura y **manda lo que diga la tabla**: en particular, las entregas de los casos y del pitch no son obligatorias para terminar el curso (AL-24), y la cuenta del evaluador ya existe.
 
 ## Qué revisa el SENCE
 

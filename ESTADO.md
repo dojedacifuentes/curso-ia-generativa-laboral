@@ -49,8 +49,14 @@ también tenía por obtener, no llegó con ella.
 requisitos, criterios, límites y modelos, cada uno como una afirmación verificable con su sección y su página, más 18 modelos y 18
 hallazgos, 5 de gravedad alta. Está en [docs/SENCE-TABLA-DE-VERDAD.md](docs/SENCE-TABLA-DE-VERDAD.md) y en
 [Word en Drive](https://drive.google.com/file/d/1RXuNMKpa2p4UPAWcvIAoRMvql_Kn4E1B/view), carpeta «16 Fase 2 · Guía técnica SENCE». Es la
-vara para comparar el aula y la solicitud, y se contrastó de forma independiente con la guía. Todavía no se compara nada: esas columnas
-están en blanco. Lo primero es confirmar con OTIC SOFOFA o el SENCE si esta es la versión oficial y si hay un Anexo Técnico.
+vara para comparar el aula y la solicitud, y se contrastó de forma independiente con la guía. Lo primero es confirmar con OTIC SOFOFA o el SENCE si esta es la versión oficial y si hay un Anexo Técnico.
+
+**Comparación con el aula (03-11).** Las 133 filas comparables se midieron contra Moodle, en solo lectura, y contra la planilla, el contenido y nuestras
+anotaciones: 25 verdaderas, 69 parciales, 28 falsas y 11 sin datos. De las 26 excluyentes, 7 son falsas: 6 son textos de la solicitud que nadie ha
+escrito y la séptima es una falla real del aula, porque hoy se puede finalizar el curso sin revisión docente y con 3,3 % de la nota. En 12 de los 22
+aprendizajes esperados el producto que pide el verbo no llega al docente. Tres revisiones independientes intentaron rebatir los dictámenes y sus
+reparos ya están incorporados. El resultado, 9 decisiones y el plan de 24 correcciones están en [la tabla de verdad](docs/SENCE-TABLA-DE-VERDAD.md) y en el
+[Word en Drive](https://drive.google.com/file/d/1RXuNMKpa2p4UPAWcvIAoRMvql_Kn4E1B/view). La foto del aula queda en `data/sence/foto-aula-03-11.json`. **Moodle no se modificó.**
 
 **Primera lectura (03-11).** La guía quedó agrupada en 17 puntos y cuatro son brechas probables: la duración y su desglose por aprendizaje
 esperado, la función del facilitador por aprendizaje esperado, una evaluación que verifique la aplicación (hoy pesa más la selección
@@ -68,8 +74,8 @@ auditoría y el panel al día.
 - Insignia del módulo 6: revisar que sus criterios incluyan la tarea del pitch.
 - Drive al día: video de inducción en la carpeta 15; Docs de actividades, casos, foros y guía desde el 31-10; quiz y PDF del módulo 6
   (avisos C6 y C8 de la auditoría).
-- Cuenta del evaluador SENCE en el aula (rol profesor sin edición) cuando haya nombre y correo.
-- Planilla de Natalia: sacar el caso M4-C3 (Getty, fuera del aula desde el 02-11), reemplazar M3-C2 (Samsung por Eindhoven), quitar
+- Cuenta del evaluador SENCE: ya existe, con rol de profesor sin edición y de estudiante; definir qué cuenta recibe el SENCE (corrección C-07).
+- Planilla de Natalia (ver C-21 y C-23: sacar M4-C3 abre un descuadre de 90 minutos): sacar el caso M4-C3 (Getty, fuera del aula desde el 02-11), reemplazar M3-C2 (Samsung por Eindhoven), quitar
   «uno al que aspira» de M6-AE1 y poner la ponderación del 02-11; luego volver a importarla al repo.
 - `scripts/revisar-criterios.mjs` todavía espera los nombres anteriores de las prácticas y no admite «caso real» en los foros de
   casos: actualizar el control.
@@ -89,6 +95,7 @@ auditoría y el panel al día.
 | 03-11-2026 | Visto bueno del cliente | Primer visto bueno del cliente al contenido, las secciones y la estructura; la versión 1 queda en la etiqueta `v1.0-visto-bueno-cliente`, con la auditoría y el panel al día | [Estado del proyecto](ESTADO.md) | [`v1.0-visto-bueno-cliente`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/tree/v1.0-visto-bueno-cliente) |
 | 03-11-2026 | Guía técnica del SENCE | Llega la guía técnica del SENCE para revisar las solicitudes de cursos por franquicia tributaria y empieza la fase 2, con una primera lectura punto por punto | [Guía técnica SENCE](docs/SENCE-GUIA-TECNICA-FT.md) | [`c9f3c12`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/commit/c9f3c12) |
 | 03-11-2026 | Auditoría de la guía | Auditoría completa de las 21 páginas: tabla de verdad de 147 enunciados con su Word en Drive, 18 modelos y 18 hallazgos, entre ellos que el Anexo Técnico no llegó; falta comparar el curso | [Tabla de verdad](docs/SENCE-TABLA-DE-VERDAD.md) | [`6cb923b`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/commit/6cb923b) |
+| 03-11-2026 | Comparación con el aula | Las 133 filas medidas contra Moodle en solo lectura: 25 V, 69 P, 28 F y 11 sin datos; 10 brechas, 9 decisiones y 24 correcciones; Moodle sin cambios | [Tabla de verdad](docs/SENCE-TABLA-DE-VERDAD.md) | — |
 
 ## Cómo se registra cada cambio
 

@@ -319,6 +319,7 @@ const ESTADO = existe('ESTADO.md') ? leer('ESTADO.md') : null;
 const GUIA = existe('docs', 'SENCE-GUIA-TECNICA-FT.md') ? leer('docs', 'SENCE-GUIA-TECNICA-FT.md') : null;
 // La auditoría completa de la guía (data/sence/guia-tecnica.json), con su Word en Drive
 const AUDITORIA_SENCE = existe('data', 'sence', 'guia-tecnica.json') ? json('data', 'sence', 'guia-tecnica.json') : null;
+const COMPARACION_SENCE = fs.existsSync(path.join(RAIZ, 'data/sence/comparacion.json')) ? JSON.parse(fs.readFileSync(path.join(RAIZ, 'data/sence/comparacion.json'), 'utf8')) : null;
 const FILAS_SENCE = AUDITORIA_SENCE ? AUDITORIA_SENCE.bloques.flatMap(b => b.filas) : [];
 const estado = ESTADO && {
   al: /\*\*Al (\d\d-\d\d-\d{4})/.exec(ESTADO)?.[1] || null,
@@ -337,7 +338,9 @@ const estado = ESTADO && {
     comparables: FILAS_SENCE.filter(f => !['Afirmación', 'Aclaración'].includes(f.tipo)).length,
     excluyentes: FILAS_SENCE.filter(f => f.falso === 'Inadmisible').length,
     hallazgos: AUDITORIA_SENCE.observaciones.length, altos: AUDITORIA_SENCE.observaciones.filter(o => o.gravedad === 'Alta').length,
-    comparadas: FILAS_SENCE.filter(f => f.resultado).length,
+    comparadas: Object.keys(COMPARACION_SENCE?.filas || {}).length,
+    resultado: ['V', 'P', 'F', 'SD'].map(r => [r, Object.values(COMPARACION_SENCE?.filas || {}).filter(f => f.r === r).length]),
+    titular: COMPARACION_SENCE?.resumen.titular, lectura: COMPARACION_SENCE?.resumen.lectura || [], brechas: COMPARACION_SENCE?.resumen.brechas || [],
     word: driveIds.sence_auditoria_word ? `https://drive.google.com/file/d/${driveIds.sence_auditoria_word}/view` : null, carpeta: carpetaUrl(driveIds.sence_carpeta),
   },
   guia: GUIA && {

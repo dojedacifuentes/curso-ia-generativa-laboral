@@ -1,0 +1,1617 @@
+{
+  "fecha": "03-11-2026",
+  "version": "2.0",
+  "foto": "data/sence/foto-aula-03-11.json",
+  "metodo": {
+    "fuentes": [
+      "El aula Moodle, leída el 03-11 con sesión de administrador y sin cambiar nada: configuración de finalización, libro de calificaciones, las 11 tareas, los 13 cuestionarios, las rúbricas, los foros, los informes y las insignias.",
+      "La planilla de Natalia en vivo, que coincide con la copia del repositorio.",
+      "Los 22 aprendizajes esperados, leídos uno por uno contra la guía: contenido, prácticas, casos, ítems con nota, tema normativo y herramientas.",
+      "Nuestras anotaciones (ESTADO, criterios, observaciones, acta y pendientes) y el texto de la guía, releído sección por sección.",
+      "Tres revisiones independientes que intentaron rebatir los dictámenes con los archivos originales y con el código de Moodle 5.3: los resultados ya incorporan lo que encontraron."
+    ],
+    "reglas": [
+      "V solo si hay evidencia que se pueda abrir. Ante la duda entre dos resultados, el más exigente.",
+      "Si la fila dice «cada uno», basta un aprendizaje esperado que falle para que no sea V, y el hallazgo lo nombra.",
+      "Aún no existe la solicitud, así que en las filas de Solicitud y Ambas se juzga el insumo con que se llenará: la planilla, data/curso.json y el aula. Si el aula está bien y la planilla dice otra cosa, la fila queda en P, salvo que el objeto de la fila sea la contradicción misma: ahí es F.",
+      "Lo estático (estructura, actividades, registros) es V si está configurado y se puede abrir. Lo que depende de que alguien lo use (intervención, retroalimentación, resultados) queda en P mientras nadie lo haya usado.",
+      "F si lo que la fila pide no está escrito en ningún insumo o si falla en la mayoría de los casos. P si falla en una parte.",
+      "SD solo si falta aquello con que se compara: no es una falla del curso, pero tampoco cuenta como cumplido.",
+      "En cada aprendizaje esperado se mira si el producto que pide su verbo llega al docente: Sí, En parte o No. Ninguno llega hoy completo y con rúbrica propia."
+    ]
+  },
+  "resumen": {
+    "titular": "Hoy el curso no pasaría la admisibilidad legal, y casi todo lo que la frena se arregla sin rehacer el contenido.",
+    "lectura": [
+      "De las 26 filas excluyentes, 7 son falsas. Seis son textos de la solicitud que nadie ha escrito: participantes y antecedentes del facilitador. La séptima es una falla real del aula: hoy se puede finalizar el curso sin ninguna revisión docente y con 3,3 % de la nota.",
+      "La falla de fondo está en la evaluación: en 12 de los 22 aprendizajes esperados el producto que pide el verbo no llega al docente, y en los otros 10 llega en parte. Ese producto casi siempre existe, pero queda en una práctica que nadie recibe. Solo 11,25 % de la nota mide un producto propio de la persona.",
+      "La planilla ya no describe el aula. Una solicitud armada con ella se contradiría con lo que el SENCE encuentre en Moodle en pesos, instrumentos, público y horas.",
+      "Lo que sostiene el curso está bien: finalidad laboral, estructura, contenidos, ponderaciones del libro de calificaciones, registros y las 11 tareas con rúbrica."
+    ],
+    "fortalezas": [
+      {
+        "tema": "Finalidad y estructura",
+        "detalle": "Los 22 aprendizajes esperados apuntan a tareas de trabajo y el aula los ordena en una secuencia de proceso.",
+        "filas": "AL-01, AL-07, CU-06, LM-02"
+      },
+      {
+        "tema": "Contenidos",
+        "detalle": "Cada aprendizaje esperado tiene su Rise, su quiz juego y dos prácticas, todos en el aula y en orden lógico.",
+        "filas": "AE-04, CT-01, CT-04, CU-07"
+      },
+      {
+        "tema": "Duración mínima y modalidad",
+        "detalle": "88 horas declaradas y e-learning asincrónica coherente con cómo funciona el curso.",
+        "filas": "AL-15, AF-06, AF-07"
+      },
+      {
+        "tema": "Ponderaciones",
+        "detalle": "Pesos 40 + 60 que suman 100, y lo que explican las páginas del aula coincide con el libro de calificaciones.",
+        "filas": "EV-11, LM-09"
+      },
+      {
+        "tema": "Actividad con facilitador",
+        "detalle": "Las 11 tareas «Entrega y revisión docente» siguen el modelo de la guía: producto, responsable, rúbrica, comentarios y registro.",
+        "filas": "AL-23, IN-03"
+      },
+      {
+        "tema": "Trazabilidad",
+        "detalle": "Registros sin borrado e informes de participación, progreso y calificaciones disponibles.",
+        "filas": "LM-04, LM-05, LM-11"
+      }
+    ],
+    "brechas": [
+      {
+        "n": 1,
+        "tema": "La revisión docente no es obligatoria",
+        "detalle": "Para finalizar el curso solo se exige publicar en 7 foros, completar 50 SCORM y llegar a 60 puntos de 1.800, que son 3,3 % de la nota. Las 11 tareas no están entre los requisitos.",
+        "consecuencia": "Inadmisible",
+        "filas": "AL-24, AL-25, IN-07, AL-10",
+        "arreglo": "C-01"
+      },
+      {
+        "n": 2,
+        "tema": "Faltan textos excluyentes de la solicitud",
+        "detalle": "No está escrito qué funciones cumplen los participantes, qué necesidad laboral tienen ni qué desempeño se fortalece. Tampoco los antecedentes de la facilitadora.",
+        "consecuencia": "Inadmisible",
+        "filas": "AL-02 a AL-05, AL-17, AL-18",
+        "arreglo": "C-20, C-22"
+      },
+      {
+        "n": 3,
+        "tema": "Las horas no cuadran",
+        "detalle": "La planilla suma 88 h con 11 casos y el aula tiene 10: sin ese caso da 86,5 h. El total real no se conoce, porque 36 de 44 prácticas, las 6 infografías y 5 diagnósticas no tienen minutos, y no hay desglose por aprendizaje esperado.",
+        "consecuencia": "Observada",
+        "filas": "AF-04, AF-05, DU-02, DU-03, DU-04, DU-06, DU-07, DU-08",
+        "arreglo": "C-21"
+      },
+      {
+        "n": 4,
+        "tema": "La planilla y el aula se contradicen",
+        "detalle": "Evaluación final 30 % contra 40 %, hitos con tutor contra prácticas sin envío, público cesante contra personas que trabajan, instrumentos que ya no existen y tres nombres del curso.",
+        "consecuencia": "Observada",
+        "filas": "AF-03, AF-08, AF-09, LM-01",
+        "arreglo": "C-23, C-07"
+      },
+      {
+        "n": 5,
+        "tema": "La evaluación no demuestra 12 aprendizajes esperados",
+        "detalle": "En 12 de 22 el producto que pide el verbo no llega al docente. En todo el curso nadie ve un flujo automatizado, una imagen, un audio ni un clip. Solo 11,25 % de la nota mide un producto propio.",
+        "consecuencia": "Insuficiente",
+        "filas": "EV-01, EV-12, EV-14, CU-12, EV-04",
+        "arreglo": "C-10, C-14"
+      },
+      {
+        "n": 6,
+        "tema": "Los cuestionarios se pueden pasar sin saber",
+        "detalle": "El primer intento muestra la respuesta correcta y el segundo va enseguida, con las mismas preguntas. También en la evaluación final, que vale 40 %, donde además la correcta es la alternativa más larga en las 22 preguntas.",
+        "consecuencia": "No lo dice",
+        "filas": "EV-03",
+        "arreglo": "C-03, C-12"
+      },
+      {
+        "n": 7,
+        "tema": "La rúbrica es igual para todos los casos",
+        "detalle": "No trae los criterios de cada aprendizaje esperado, da una sola nota para dos aprendizajes y deja aprobar sin el producto (75 %) o con todo en Parcial (60 %). En el pitch ocurre lo mismo.",
+        "consecuencia": "No lo dice",
+        "filas": "EV-03, EV-04, EV-12",
+        "arreglo": "C-11"
+      },
+      {
+        "n": 8,
+        "tema": "No hay huella del facilitador",
+        "detalle": "Los 7 foros están sin abrir, la cuenta docente no registra acceso y nadie ha hecho el ciclo completo de entrega, revisión y retroalimentación.",
+        "consecuencia": "No lo dice",
+        "filas": "LM-06, LM-07, LM-08, LM-13, IN-05",
+        "arreglo": "C-04, C-05"
+      },
+      {
+        "n": 9,
+        "tema": "Las herramientas no calzan con lo prometido",
+        "detalle": "La Inducción promete herramientas que funcionan en el celular, pero el laboratorio de Make pide computador, la ruta por celular no está probada y hay verificaciones abiertas.",
+        "consecuencia": "Puede observarse",
+        "filas": "RC-01, RC-03",
+        "arreglo": "C-24"
+      },
+      {
+        "n": 10,
+        "tema": "Faltan datos para juzgar",
+        "detalle": "No hay antecedentes de la facilitadora ni desglose de costos: 11 filas siguen sin dato.",
+        "consecuencia": "Faltan antecedentes",
+        "filas": "FA-01 a FA-08, CS-01, CS-02, CS-04, CS-06",
+        "arreglo": "C-22, C-25"
+      }
+    ]
+  },
+  "decisiones": [
+    {
+      "id": "D-01",
+      "tema": "Competencia del curso",
+      "pregunta": "¿Se declara una competencia general del curso o las seis de módulo?",
+      "recomendacion": "Revisar qué admite el formulario y escribir una general, dejando las seis como módulos. El ítem de la guía va en singular.",
+      "quien": "Natalia",
+      "abre": "C-16",
+      "ref": "O-05"
+    },
+    {
+      "id": "D-02",
+      "tema": "Qué exige terminar el curso",
+      "pregunta": "¿Basta con recibir nota o hay que aprobar cada tarea?",
+      "recomendacion": "Exigir las 11 tareas con «Recibir una calificación» y las 7 evaluaciones, y fijar la nota del curso en 1.080 puntos, que es 60 %. Pedir aprobar cada tarea obliga a abrir un segundo intento (C-02).",
+      "quien": "Natalia",
+      "abre": "C-01, C-02",
+      "ref": "AL-24, IN-07"
+    },
+    {
+      "id": "D-03",
+      "tema": "Cómo entra el desempeño",
+      "pregunta": "¿Los productos de los aprendizajes esperados se piden en las 11 entregas que ya existen o en tareas nuevas?",
+      "recomendacion": "Dentro de las 11 entregas: casi todos los productos ya existen como prácticas o hitos, la estructura aprobada por el cliente no cambia y no crece la carga de revisión.",
+      "quien": "Natalia",
+      "abre": "C-10, C-11",
+      "ref": "EV-14, EV-15"
+    },
+    {
+      "id": "D-04",
+      "tema": "Peso del desempeño",
+      "pregunta": "¿Cómo se evita aprobar sin la práctica evaluada?",
+      "recomendacion": "La guía no fija un porcentaje. Hay dos caminos: que la práctica evaluada pese más de 40 %, porque con 40 la selección múltiple aún da 60, o exigir aprobar cada tarea con segundo intento. Hoy pesa 30 % y solo 11,25 % mide un producto propio.",
+      "quien": "Natalia",
+      "abre": "C-14",
+      "ref": "CU-12, O-02"
+    },
+    {
+      "id": "D-05",
+      "tema": "Plan Formativo o curso independiente",
+      "pregunta": "¿La solicitud se vincula a PF1823 o va como curso independiente?",
+      "recomendacion": "Definirlo primero: si es Plan Formativo, las horas las fija él y el desglose se arma distinto.",
+      "quien": "Natalia",
+      "abre": "C-21",
+      "ref": "Pendiente 4 de la planilla"
+    },
+    {
+      "id": "D-06",
+      "tema": "Facilitador y carga",
+      "pregunta": "¿Quién queda como facilitador autorizado y cuántas personas atiende?",
+      "recomendacion": "Definirlo antes de presentar: la planilla anota que la RE no permite sustituirlo. Con 100 participantes son 1.100 revisiones: calcular si una persona alcanza con 72 horas hábiles de plazo.",
+      "quien": "Natalia",
+      "abre": "C-22",
+      "ref": "Pendiente 5 de la planilla, O-14"
+    },
+    {
+      "id": "D-07",
+      "tema": "Versión de la guía",
+      "pregunta": "¿Esta es la Guía Técnica oficial? ¿Hay un Anexo Técnico aparte?",
+      "recomendacion": "Consultar a OTIC SOFOFA o al SENCE antes de cerrar la evaluación: esta comparación puede cambiar si hay indicadores que no conocemos.",
+      "quien": "Natalia",
+      "abre": "—",
+      "ref": "O-01, O-06"
+    },
+    {
+      "id": "D-08",
+      "tema": "Fecha de inicio",
+      "pregunta": "¿A qué fecha se mueve el inicio del 23-11?",
+      "recomendacion": "Hay que moverla: la planilla anota hasta 20 días corridos de revisión, que se reinician con cada reingreso, y la solicitud todavía no existe. Calcularla desde la fecha real de presentación.",
+      "quien": "Natalia y Accenture",
+      "abre": "C-07",
+      "ref": "Pendiente 6 de la planilla"
+    },
+    {
+      "id": "D-09",
+      "tema": "Portafolio",
+      "pregunta": "¿El portafolio sigue en M6-AE3?",
+      "recomendacion": "Sacarlo del texto o darle una entrega: hoy el aprendizaje esperado lo nombra y nadie lo recibe.",
+      "quien": "Natalia",
+      "abre": "C-15",
+      "ref": "M6-AE3"
+    }
+  ],
+  "correcciones": [
+    {
+      "id": "C-01",
+      "grupo": "Configuración del aula",
+      "prioridad": 1,
+      "tema": "Revisión docente obligatoria",
+      "que": "Sumar a la finalización del curso las 11 tareas, las 6 evaluaciones de módulo y la final. Cambiar la calificación requerida de 60 a 1.080, porque Moodle compara puntos y el total es 1.800. En cada tarea, marcar «Recibir una calificación» con «Cualquier calificación». Decir en Avisos, Inducción, Cómo avanzas, guía del participante y mapa que las tareas son obligatorias.",
+      "donde": "Finalización del curso (/course/completion.php?id=2) y cada tarea. Primero hay que desbloquear los criterios: borra la finalización de curso de todas las cuentas, no la de actividades ni las notas. Hacerlo antes de C-05, porque la prueba vuelve a bloquearlos.",
+      "depende": "D-02"
+    },
+    {
+      "id": "C-02",
+      "grupo": "Configuración del aula",
+      "prioridad": 2,
+      "tema": "Segundo intento en las tareas",
+      "que": "Si se quiere corregir y reenviar: en los ajustes de entrega, subir «Intentos permitidos» y luego elegir cómo se otorgan. Hoy hay un valor guardado que no opera con un intento máximo.",
+      "donde": "Ajustes de cada tarea, sección «Configuración de entrega»",
+      "depende": "D-02"
+    },
+    {
+      "id": "C-03",
+      "grupo": "Configuración del aula",
+      "prioridad": 2,
+      "tema": "Reglas de los cuestionarios con nota",
+      "que": "Moodle no tiene una opción que muestre la respuesta solo al agotar los intentos. Elegir una de tres: un solo intento con retroalimentación completa; dos intentos con banco aleatorio de preguntas y espera entre ellos; o dos intentos con revisión limitada a la nota y retroalimentación después de una fecha de cierre. Las 80 preguntas revelan la correcta en su retroalimentación, que fue un pedido de Natalia.",
+      "donde": "Ajustes de cada cuestionario, «Opciones de revisión» y «Restricciones extra sobre los intentos»",
+      "depende": "Natalia elige"
+    },
+    {
+      "id": "C-04",
+      "grupo": "Configuración del aula",
+      "prioridad": 2,
+      "tema": "Foros abiertos por la docente",
+      "que": "Corregir los mensajes de apertura y publicarlos con la cuenta de Natalia. Hoy el de M3 nombra a Samsung, el de M4 dice tres casos y nombra a Getty, y el del foro general tiene un espacio por completar.",
+      "donde": "docs/APERTURA-FOROS.md y foros 6, 34, 65, 96, 128, 154 y 177",
+      "depende": ""
+    },
+    {
+      "id": "C-05",
+      "grupo": "Configuración del aula",
+      "prioridad": 2,
+      "tema": "Prueba completa con cuenta de estudiante",
+      "que": "Hacer un ciclo real después de C-01, C-06 y C-11: la estudiante de prueba entrega y publica en un foro, la docente revisa con rúbrica, comenta y responde, la estudiante ve nota y comentarios, y se comprueba finalización e informes. Probar también una nota bajo 60: Moodle puede dejar esa actividad como reprobada.",
+      "donde": "Una tarea por módulo, con la cuenta de prueba",
+      "depende": "C-01, C-06, C-11"
+    },
+    {
+      "id": "C-06",
+      "grupo": "Configuración del aula",
+      "prioridad": 2,
+      "tema": "Insignias de módulo",
+      "que": "Quitar los 55 criterios que apuntan a actividades borradas y sumar las tareas actuales. Hoy nadie puede ganar esas insignias y la tarea programada puede dejarlas inactivas al primer intento, aunque el aula promete «insignias que puedes ganar». Revisar el estado y la condición de las 6 antes de editar.",
+      "donde": "/badges/criteria.php?id=1 a 6, deshabilitando antes el acceso",
+      "depende": "C-01"
+    },
+    {
+      "id": "C-07",
+      "grupo": "Configuración del aula",
+      "prioridad": 3,
+      "tema": "Nombre, fechas y cuenta del evaluador",
+      "que": "Usar un solo nombre del curso en Moodle, planilla y solicitud; ajustar las fechas del curso a la fecha real y definir qué cuenta recibe el SENCE: hoy el evaluador tiene dos roles. Mover el inicio al futuro después de terminar las pruebas.",
+      "donde": "Ajustes del curso y Participantes",
+      "depende": "D-08"
+    },
+    {
+      "id": "C-10",
+      "grupo": "Evaluación",
+      "prioridad": 1,
+      "tema": "El producto del aprendizaje entra a la entrega",
+      "que": "Pedir en las 11 entregas lo que la ficha de cada aprendizaje esperado marca como faltante, y declarar en cada caso qué aprendizajes cubre. Los 12 sin producto son la primera prioridad. En M4 basta cambiar la instrucción: Moodle ya recibe cualquier tipo de archivo, hasta 5 por entrega. Para un clip pesado, ofrecer un enlace como en el pitch.",
+      "donde": "casos/*.md, pitch/Pitch-del-proyecto.md y tareas 190, 191, 199, 200, 208, 209, 217, 218, 225, 226 y 318",
+      "depende": "D-03"
+    },
+    {
+      "id": "C-11",
+      "grupo": "Evaluación",
+      "prioridad": 2,
+      "tema": "Rúbrica propia de cada caso",
+      "que": "Reescribir las 11 rúbricas (10 casos y pitch) con los criterios C de los aprendizajes que cubren, de 100 puntos y mínimo 60, separando puntajes si un caso cubre dos. Una rúbrica de Moodle solo suma: para que no se apruebe sin el producto, ese criterio debe pesar más de 40 o debe quedar una regla docente escrita. Revisar antes las líneas «cubre» de los casos, que declaran criterios que no piden. Sumar fundamento normativo en M3-C2.",
+      "donde": "casos/RUBRICA.md, pitch y rúbricas de las tareas. Se editan a mano: sin notas se pueden cambiar, pero el armador no las sobrescribe.",
+      "depende": "D-03"
+    },
+    {
+      "id": "C-12",
+      "grupo": "Evaluación",
+      "prioridad": 2,
+      "tema": "Alternativas parejas",
+      "que": "Reescribir alternativas para que la correcta no sea la más larga: las 22 de la final y 29 de 30 en M1, M2 y M3. Para aplicarlo: revisar que no haya intentos, sacar las preguntas viejas del cuestionario y del banco, importar y comprobar 10, 10, 10 y 26 espacios. El armador no reemplaza preguntas.",
+      "donde": "evaluaciones/*.json y cuestionarios 305, 203, 212 y 221",
+      "depende": ""
+    },
+    {
+      "id": "C-13",
+      "grupo": "Evaluación",
+      "prioridad": 3,
+      "tema": "Ítems con errores",
+      "que": "Corregir F-14 (voz clonada que el plan gratuito del caso no incluye), F-22 (64 solicitudes frente a unas 160 del caso), M4-E09 (mide créditos de Flow y no el criterio), M1-E02 y F-01 (no miden ejemplificar) y M5-E04 (mide el plan de una herramienta). Se aplica igual que C-12.",
+      "donde": "evaluaciones/Final.json, M1.json, M4.json y M5.json",
+      "depende": ""
+    },
+    {
+      "id": "C-14",
+      "grupo": "Evaluación",
+      "prioridad": 2,
+      "tema": "Peso de la práctica evaluada",
+      "que": "Según D-04: subir la práctica evaluada sobre 40 % o exigir aprobar cada tarea. Actualizar las páginas que lo explican.",
+      "donde": "Libro de calificaciones y páginas de Avisos, Inducción y tareas",
+      "depende": "D-04"
+    },
+    {
+      "id": "C-15",
+      "grupo": "Contenido del aula",
+      "prioridad": 2,
+      "tema": "Aprendizajes esperados por ajustar",
+      "que": "Reescribir M1-AE3: la temperatura queda en una práctica opcional y el AE la exige. Revisar M1-AE1 y M5-AE1 (verbo bajo la competencia), M3-AE4 (falta criterio para evaluar resultados; bases de tratamiento de la nueva ley), M3-AE3, M4-AE1, M4-AE3 y M5-AE3 (partes del texto sin criterio), M4-AE1 («uso comercial» sin fuente), M4-AE3 (dato biométrico sin el requisito legal), M6-AE1 («al que aspira») y M6-AE3 (portafolio; el Rise enseña 6 partes y la tarea pide 4). Cambiar contenido obliga a rearmar y reexportar el Rise.",
+      "donde": "Planilla, data/curso.json, contenido y etiquetas del aula",
+      "depende": "D-09"
+    },
+    {
+      "id": "C-16",
+      "grupo": "Contenido del aula",
+      "prioridad": 1,
+      "tema": "Competencias",
+      "que": "Escribir la competencia general del curso, si se decide, y corregir M1 («interactuar»), M2 («optimizar») y M3 («acelerar») con verbos observables. Precisar el objeto en M6.",
+      "donde": "Planilla, data/curso.json y resúmenes de sección del aula",
+      "depende": "D-01"
+    },
+    {
+      "id": "C-17",
+      "grupo": "Contenido del aula",
+      "prioridad": 3,
+      "tema": "Textos que quedaron atrás",
+      "que": "Glosario M6 («Demo Day»); «al que aspira» en M6-AE1, M5-AE1 y M1-P1; Rise M6-AE3 (Demo Day y «no pondera»); Rise M4-AE2 y M4-AE4, que mandan entregar lo que hoy no se recibe; M3-C1 y M3-C2 («En el Hito 3 entregas un informe»); «tutor» en M6-E05 y M6-AE2; M6-AE2 P03 y su quiz, que enseñan lo contrario de M6-E06 y F-21; el mapa del aula (correo .cl, inducción y diagnósticas pendientes). En M3-AE4, confirmar el estado del proyecto que posterga la Ley 21.719 antes de presentar.",
+      "donde": "Glosario 234, contenido, Rise y docs/MAPA-AULA-MOODLE.md",
+      "depende": ""
+    },
+    {
+      "id": "C-18",
+      "grupo": "Contenido del aula",
+      "prioridad": 2,
+      "tema": "Pauta de retroalimentación",
+      "que": "Agregar a la guía del facilitador ejemplos de retroalimentación para los 10 casos y el pitch, con fortalezas, errores y aspectos por corregir. Hoy los 44 ejemplos son de prácticas que nadie envía.",
+      "donde": "guia-facilitador/ y PDF de la sección «Para el facilitador»",
+      "depende": "C-11"
+    },
+    {
+      "id": "C-20",
+      "grupo": "Solicitud y planilla",
+      "prioridad": 1,
+      "tema": "Características de los participantes",
+      "que": "Escribir el ítem: funciones que realizan, necesidad laboral del grupo y aspecto del desempeño que se fortalece. Sacar de la planilla el público antiguo.",
+      "donde": "Planilla, hoja Léeme, y borrador de la solicitud",
+      "depende": ""
+    },
+    {
+      "id": "C-21",
+      "grupo": "Solicitud y planilla",
+      "prioridad": 1,
+      "tema": "Desglose horario",
+      "que": "Hacer el piloto de tiempos. Dar minutos a las 36 prácticas, las 6 infografías, las 5 diagnósticas y el foro general; separar la evaluación de M6 de la final; ajustar los videos a su duración real (30 min 20 s frente a 36 declarados); decidir dónde se cuenta lo que se repite en Rise e hito y cómo se declara el período de medición de M6. Con eso armar el desglose por aprendizaje esperado y por actividad que sume 88 h. Va después de C-10, porque cambia lo que se entrega.",
+      "donde": "Planilla, hojas Parámetros, Recursos, Resumen horas y columna de minutos de la Matriz",
+      "depende": "D-05, C-10"
+    },
+    {
+      "id": "C-22",
+      "grupo": "Solicitud y planilla",
+      "prioridad": 1,
+      "tema": "Ficha del facilitador",
+      "que": "Reunir antecedentes de formación y experiencia, en el tema y con personas adultas, y describir por aprendizaje esperado la acción, la actividad, el canal y el momento.",
+      "donde": "Borrador de la solicitud y guía del facilitador",
+      "depende": "D-06"
+    },
+    {
+      "id": "C-23",
+      "grupo": "Solicitud y planilla",
+      "prioridad": 1,
+      "tema": "Planilla al día",
+      "que": "Poner en la planilla y en data/curso.json lo que tiene el aula: ponderación 40 y 60, instrumentos reales en vez de «Rúbrica P1», sin M4-C3, M3-C2 con Eindhoven, sin tutor ni Demo Day. Corregir la fórmula de la Matriz: su columna de contenidos muestra actitudes en los 22 aprendizajes. Actualizar la hoja «Cumplimiento RE 2484» y volver a importar.",
+      "donde": "Planilla de Natalia, data/planilla/ y data/curso.json",
+      "depende": "C-21"
+    },
+    {
+      "id": "C-24",
+      "grupo": "Solicitud y planilla",
+      "prioridad": 2,
+      "tema": "Recursos y herramientas",
+      "que": "Hacer la lista de herramientas, cuentas, planes y equipos por módulo. Corregir la promesa de que las herramientas funcionan en el celular y resolver las verificaciones H1 a H5 y H10.",
+      "donde": "Inducción del aula, planilla (Léeme y pendiente 17), docs/PENDIENTES-VERIFICACION.md y solicitud",
+      "depende": ""
+    },
+    {
+      "id": "C-25",
+      "grupo": "Solicitud y planilla",
+      "prioridad": 2,
+      "tema": "Costos",
+      "que": "Armar el desglose en pesos y relacionar cada costo con el diseño. Revisar la propuesta a Accenture, que cita la RE 1.560 derogada.",
+      "donde": "Planilla, pendientes 9 y 15",
+      "depende": ""
+    },
+    {
+      "id": "C-26",
+      "grupo": "Solicitud y planilla",
+      "prioridad": 2,
+      "tema": "Técnicas con sus cinco elementos",
+      "que": "Reemplazar la línea de técnica por una descripción con actividad, participante, aprendizaje, producto e intervención del facilitador. Decir qué rol tienen las prácticas autoevaluadas.",
+      "donde": "Planilla, hoja Estructura, y borrador de la solicitud",
+      "depende": ""
+    },
+    {
+      "id": "C-27",
+      "grupo": "Solicitud y planilla",
+      "prioridad": 2,
+      "tema": "Formulario, ficha por aprendizaje y borrador",
+      "que": "Conseguir el formulario del sistema, completar la ficha de los 22 aprendizajes esperados con la cadena evidencia, instrumento, criterio, ponderación y aprobación, y escribir el borrador de la solicitud.",
+      "donde": "Portal del SENCE y sección «Ficha por aprendizaje esperado» de este documento",
+      "depende": "C-10, C-11, C-14"
+    }
+  ],
+  "ae": [
+    {
+      "id": "M1-AE1",
+      "llega": "No",
+      "facilitador": "No",
+      "falta": "Pedir los 3 usos y 2 límites en una entrega. C2 (ejemplificar) no tiene ítem que lo mida. Es de nivel Comprender: la guía no prohíbe selección múltiple aquí."
+    },
+    {
+      "id": "M1-AE2",
+      "llega": "No",
+      "facilitador": "M1-C1",
+      "falta": "El docente no recibe el prompt ni sus versiones. Pedir la plantilla antes y después del ajuste."
+    },
+    {
+      "id": "M1-AE3",
+      "llega": "No",
+      "facilitador": "M1-C1",
+      "falta": "M1-C1 no pide comparar salidas de una misma consigna. La temperatura queda en una práctica opcional: ajustar el texto del aprendizaje."
+    },
+    {
+      "id": "M1-AE4",
+      "llega": "En parte",
+      "facilitador": "M1-C2",
+      "falta": "Llegan la tabla y la versión corregida. Falta revisar sesgos en M1-C2."
+    },
+    {
+      "id": "M2-AE1",
+      "llega": "No",
+      "facilitador": "M2-C1",
+      "falta": "Llegan una plantilla y una regla, ningún texto final. Decidir qué géneros se piden: correo, minuta o informe."
+    },
+    {
+      "id": "M2-AE2",
+      "llega": "En parte",
+      "facilitador": "M2-C1",
+      "falta": "M2-C1 pide dos restricciones, que son una técnica, y no compara versiones."
+    },
+    {
+      "id": "M2-AE3",
+      "llega": "No",
+      "facilitador": "M2-C2",
+      "falta": "Las 6 láminas quedan en una práctica. Pedirlas en M2-C2."
+    },
+    {
+      "id": "M2-AE4",
+      "llega": "No",
+      "facilitador": "M2-C2",
+      "falta": "El docente recibe un dato, no la fórmula ni sus pruebas. Pedirlas en M2-C2."
+    },
+    {
+      "id": "M3-AE1",
+      "llega": "En parte",
+      "facilitador": "M3-C1, sin declarar",
+      "falta": "El registro de fuentes ya llega en M3-C1. Faltan las preguntas y la segunda herramienta, y declararlo en el caso."
+    },
+    {
+      "id": "M3-AE2",
+      "llega": "En parte",
+      "facilitador": "M3-C1",
+      "falta": "Se demuestra en lo principal. La rúbrica debe traer sus criterios."
+    },
+    {
+      "id": "M3-AE3",
+      "llega": "No",
+      "facilitador": "No",
+      "falta": "El informe del Hito 3 no se entrega. Pedirlo en un caso de M3."
+    },
+    {
+      "id": "M3-AE4",
+      "llega": "En parte",
+      "facilitador": "M3-C1, M3-C2",
+      "falta": "Falta criterio para evaluar resultados de la IA y fundamento normativo en la rúbrica."
+    },
+    {
+      "id": "M4-AE1",
+      "llega": "En parte",
+      "facilitador": "M4-C2, sin declarar",
+      "falta": "M4-C2 ya pide comparar opciones de voz con su licencia. Declararlo y ampliarlo a imagen o video."
+    },
+    {
+      "id": "M4-AE2",
+      "llega": "No",
+      "facilitador": "M4-C1",
+      "falta": "Ninguna imagen llega. Pedir la pieza con su brief."
+    },
+    {
+      "id": "M4-AE3",
+      "llega": "No",
+      "facilitador": "M4-C2",
+      "falta": "La locución y la pista no llegan: el docente ve una tabla de voces y un mensaje."
+    },
+    {
+      "id": "M4-AE4",
+      "llega": "No",
+      "facilitador": "M4-C1",
+      "falta": "C1 dice «entrega un clip» y ninguna tarea lo pide. Moodle ya lo admite."
+    },
+    {
+      "id": "M5-AE1",
+      "llega": "En parte",
+      "facilitador": "M5-C1, M5-C2",
+      "falta": "El caso ubica una tarea ajena. Pedir la matriz con tres tareas del cargo."
+    },
+    {
+      "id": "M5-AE2",
+      "llega": "No",
+      "facilitador": "No",
+      "falta": "Nadie ve un flujo. Pedir capturas, pruebas y ficha (práctica 2)."
+    },
+    {
+      "id": "M5-AE3",
+      "llega": "En parte",
+      "facilitador": "M5-C1, M5-C2",
+      "falta": "Llegan fragmentos. Pedir el plan de contingencia y el efecto del control."
+    },
+    {
+      "id": "M6-AE1",
+      "llega": "En parte",
+      "facilitador": "Pitch",
+      "falta": "El pitch pide línea base e indicador, no meta ni viabilidad. Quitar «uno al que aspira»."
+    },
+    {
+      "id": "M6-AE2",
+      "llega": "No",
+      "facilitador": "Pitch",
+      "falta": "El pitch cuenta el flujo, no lo muestra. Pedir la evidencia del Hito 6b."
+    },
+    {
+      "id": "M6-AE3",
+      "llega": "En parte",
+      "facilitador": "Pitch",
+      "falta": "Las cifras se declaran sin registro. Resolver el portafolio."
+    }
+  ],
+  "anotaciones_corregidas": [
+    {
+      "donde": "docs/AULA-MOODLE.md, cambios del 02-11",
+      "decia": "La finalización del curso se recalculó, entra la tarea del pitch y se exige 60 % de nota.",
+      "real": "No se aplicó: Moodle tiene los criterios bloqueados y siguen en 57 actividades, sin ninguna tarea. Y el mínimo son 60 puntos de 1.800, no 60 %."
+    },
+    {
+      "donde": "docs/SENCE-GUIA-TECNICA-FT.md, sección 2.7 y 13",
+      "decia": "Las entregas de los casos y del pitch son la instancia obligatoria.",
+      "real": "Ninguna entrega es requisito para terminar."
+    },
+    {
+      "donde": "ESTADO.md, docs/AULA-MOODLE.md y docs/SENCE-GUIA-TECNICA-FT.md",
+      "decia": "Falta crear la cuenta del evaluador cuando haya nombre y correo.",
+      "real": "La cuenta existe, con rol de profesor sin edición y de estudiante, y registra acceso el 02-11."
+    },
+    {
+      "donde": "ESTADO.md, pendientes",
+      "decia": "Lista sacar M4-C3 de la planilla junto a otros cambios, sin advertir su efecto en las horas.",
+      "real": "Sacarlo abre un descuadre de 90 minutos: la suma de la planilla baja a 86,5 h."
+    },
+    {
+      "donde": "Planilla, hoja Cumplimiento RE 2484",
+      "decia": "La instancia obligatoria está cubierta por los hitos con retroalimentación y la duración coincide con el desglose.",
+      "real": "Los hitos son prácticas sin envío y el desglose no calza con el aula."
+    },
+    {
+      "donde": "docs/MAPA-AULA-MOODLE.md y scripts/mapa-aula.mjs",
+      "decia": "Correo natalia@empoderatech.cl, e inducción y diagnósticas pendientes.",
+      "real": "El correo termina en .com, y la inducción y las 6 diagnósticas ya están en el aula."
+    }
+  ],
+  "horas": [
+    {
+      "modulo": "M1",
+      "planilla": 960,
+      "sin_caso_retirado": 960,
+      "nota": "7 de 8 prácticas sin minutos"
+    },
+    {
+      "modulo": "M2",
+      "planilla": 960,
+      "sin_caso_retirado": 960,
+      "nota": "7 de 8 prácticas sin minutos"
+    },
+    {
+      "modulo": "M3",
+      "planilla": 960,
+      "sin_caso_retirado": 960,
+      "nota": "7 de 8 prácticas sin minutos"
+    },
+    {
+      "modulo": "M4",
+      "planilla": 960,
+      "sin_caso_retirado": 870,
+      "nota": "Salió M4-C3 y sus 90 minutos no se repartieron; 7 de 8 prácticas sin minutos"
+    },
+    {
+      "modulo": "M5",
+      "planilla": 720,
+      "sin_caso_retirado": 720,
+      "nota": "5 de 6 prácticas sin minutos"
+    },
+    {
+      "modulo": "M6",
+      "planilla": 720,
+      "sin_caso_retirado": 720,
+      "nota": "3 de 6 prácticas sin minutos; evaluación del módulo y final comparten 60 minutos"
+    }
+  ],
+  "filas": {
+    "AL-01": {
+      "r": "V",
+      "h": "Las 6 competencias y los 22 aprendizajes esperados apuntan a tareas de trabajo: correos, informes, planillas, investigación y automatización.",
+      "c": []
+    },
+    "AL-02": {
+      "r": "F",
+      "h": "El ítem no está escrito. La planilla (hoja Léeme) conserva el público cesante y a su lado una línea de Natalia que lo corrige; la hoja Cumplimiento sigue con el público antiguo.",
+      "c": [
+        "C-20"
+      ]
+    },
+    "AL-03": {
+      "r": "F",
+      "h": "El ítem no está escrito. Hay insumo suelto: una línea en Léeme, una lista de tareas en los criterios del 28-10 y cuatro cargos en el aula. Nada dice qué funciones cumple el público.",
+      "c": [
+        "C-20"
+      ]
+    },
+    "AL-04": {
+      "r": "F",
+      "h": "La necesidad laboral del grupo no está escrita en los documentos del curso. La propuesta a Accenture no se pudo revisar.",
+      "c": [
+        "C-20"
+      ]
+    },
+    "AL-05": {
+      "r": "F",
+      "h": "Tampoco está escrito qué aspecto del desempeño se fortalece. Se deduce de las competencias, pero la guía pide declararlo.",
+      "c": [
+        "C-20"
+      ]
+    },
+    "AL-06": {
+      "r": "P",
+      "h": "Hay seis competencias de módulo con acción y contexto, pero ninguna del curso, y el ítem va en singular (O-05).",
+      "c": [
+        "C-16"
+      ]
+    },
+    "AL-07": {
+      "r": "V",
+      "h": "El propósito es laboral. El quiz juego es un recurso de método que no pesa en la nota del curso.",
+      "c": []
+    },
+    "AL-09": {
+      "r": "P",
+      "h": "El aula tiene una secuencia clara: por tema, contenido, quiz y dos prácticas; por módulo, casos con entrega, foro, resumen y evaluación. La planilla describe otro proceso: hitos con tutor y casos autocorregidos, sin las prácticas.",
+      "c": [
+        "C-23"
+      ]
+    },
+    "AL-10": {
+      "r": "P",
+      "h": "La intervención existe (11 tareas con revisión docente), pero se puede terminar el curso sin pasar por ella.",
+      "c": [
+        "C-01",
+        "C-23"
+      ]
+    },
+    "AL-11": {
+      "r": "V",
+      "h": "7 cuestionarios con nota y 11 tareas con rúbrica, todos en el libro de calificaciones.",
+      "c": []
+    },
+    "AL-12": {
+      "r": "V",
+      "h": "No es un curso de cumplimiento normativo: la Ley 21.719 y las licencias se usan para decidir en el trabajo.",
+      "c": []
+    },
+    "AL-13": {
+      "r": "V",
+      "h": "Ninguna actividad se agota en informar o en dejar constancia de lectura.",
+      "c": []
+    },
+    "AL-14": {
+      "r": "P",
+      "h": "M3-AE4 y M4-AE3 aplican la norma en casos e ítems con nota, pero la rúbrica común no mide el fundamento normativo. En M5-AE3 la Ley 21.719 aparece solo como contexto (P05). En M4-AE1 la Ley 17.336 y las licencias tienen solo selección múltiple.",
+      "c": [
+        "C-10",
+        "C-11",
+        "C-15"
+      ]
+    },
+    "AL-15": {
+      "r": "V",
+      "h": "88 horas en el aula y en la planilla. Si se presenta ligado a un Plan Formativo, la duración la fija él.",
+      "c": []
+    },
+    "AL-16": {
+      "r": "P",
+      "h": "Avisos e Inducción nombran a Natalia Hernández como docente y su cuenta tiene rol de profesor. La planilla sigue en «falta identificar» (pendiente 5).",
+      "c": [
+        "C-22",
+        "C-23"
+      ]
+    },
+    "AL-17": {
+      "r": "F",
+      "h": "No hay antecedentes de formación ni de experiencia en el tema en la planilla, el repositorio ni el aula.",
+      "c": [
+        "C-22"
+      ]
+    },
+    "AL-18": {
+      "r": "F",
+      "h": "No hay antecedentes de capacitación de personas adultas.",
+      "c": [
+        "C-22"
+      ]
+    },
+    "AL-19": {
+      "r": "P",
+      "h": "El aula y la guía del facilitador dicen qué hace: revisa con rúbrica, califica y comenta. La planilla describe otra cosa: hitos con tutor.",
+      "c": [
+        "C-22",
+        "C-23"
+      ]
+    },
+    "AL-20": {
+      "r": "P",
+      "h": "Los casos y el pitch declaran 17 de 22 aprendizajes esperados. El docente ve algo del producto en 10 y en 12 no lo recibe. No está declarado por aprendizaje.",
+      "c": [
+        "C-22",
+        "C-10"
+      ]
+    },
+    "AL-21": {
+      "r": "P",
+      "h": "En el aula el canal es la tarea «Entrega y revisión docente», con los foros para las consultas. La planilla declara otro: hitos con tutor y casos con autocorrección.",
+      "c": [
+        "C-22",
+        "C-23"
+      ]
+    },
+    "AL-22": {
+      "r": "P",
+      "h": "En el aula: al cierre de cada módulo, hasta 72 horas hábiles, y foros en menos de 24. No hay fechas y el curso va a ritmo propio, así que ese momento no está definido. La planilla habla de hitos.",
+      "c": [
+        "C-22",
+        "C-23"
+      ]
+    },
+    "AL-23": {
+      "r": "V",
+      "h": "La función está ligada al aprendizaje: corrige con rúbrica, califica y comenta. No son tareas de soporte.",
+      "c": []
+    },
+    "AL-24": {
+      "r": "F",
+      "h": "Lo único obligatorio es publicar en 7 foros, completar 50 SCORM y llegar a 60 puntos de 1.800, que son 3,3 % de la nota. Las 11 tareas no son requisito. La guía no dice si un foro obligatorio con consigna basta (O-04): se toma la lectura exigente.",
+      "c": [
+        "C-01",
+        "C-23"
+      ]
+    },
+    "AL-25": {
+      "r": "P",
+      "h": "La instancia diseñada es una tarea con producto y revisión, pero no es obligatoria: quien no entrega solo pasa por los foros.",
+      "c": [
+        "C-01"
+      ]
+    },
+    "AL-26": {
+      "r": "V",
+      "h": "Evaluaciones de módulo, final y tareas con rúbrica. Escala de 1,0 a 7,0, aprueba con 60 %.",
+      "c": []
+    },
+    "AL-27": {
+      "r": "V",
+      "h": "Los instrumentos son cuestionarios y rúbricas; no dependen de encuestas ni declaraciones.",
+      "c": []
+    },
+    "AF-01": {
+      "r": "F",
+      "h": "Aún no hay solicitud y el insumo ya está incompleto: faltan participantes, antecedentes del facilitador y costos. No se ha visto el formulario, así que la lista puede crecer.",
+      "c": [
+        "C-20",
+        "C-22",
+        "C-25",
+        "C-27"
+      ]
+    },
+    "AF-02": {
+      "r": "P",
+      "h": "La planilla detalla aprendizajes, contenidos y técnicas. Le faltan participantes, función del facilitador y costos, y está desactualizada.",
+      "c": [
+        "C-20",
+        "C-22",
+        "C-23",
+        "C-25"
+      ]
+    },
+    "AF-03": {
+      "r": "F",
+      "h": "La Matriz cita instrumentos que el aula no tiene («Rúbrica P1», «Análisis de caso C3») y su columna de contenidos muestra las actitudes en los 22 aprendizajes, por una fórmula corrida.",
+      "c": [
+        "C-23"
+      ]
+    },
+    "AF-04": {
+      "r": "F",
+      "h": "La planilla da 88 h con diferencia 0, pero cuenta 11 casos y el aula tiene 10: sacando M4-C3 la suma baja a 86,5 h. Además el aula tiene actividades sin minutos, así que su total real no se conoce.",
+      "c": [
+        "C-21"
+      ]
+    },
+    "AF-05": {
+      "r": "F",
+      "h": "No hay desglose por aprendizaje esperado. La Matriz atribuye solo Rise y quiz: 2.865 de 5.280 minutos (54,3 %).",
+      "c": [
+        "C-21"
+      ]
+    },
+    "AF-06": {
+      "r": "V",
+      "h": "E-learning asincrónica en la planilla, y el aula funciona así aunque ninguna página lo nombre. Falta usar el nombre exacto del formulario (O-17).",
+      "c": []
+    },
+    "AF-07": {
+      "r": "V",
+      "h": "Sin horarios ni sesiones: todo ocurre en Moodle y a ritmo propio, como se declara.",
+      "c": []
+    },
+    "AF-08": {
+      "r": "F",
+      "h": "Planilla y aula se contradicen en público, pesos, instrumentos, casos y horas. Una solicitud hecha con la planilla no describe el aula.",
+      "c": [
+        "C-20",
+        "C-21",
+        "C-23"
+      ]
+    },
+    "AF-09": {
+      "r": "F",
+      "h": "Es el ejemplo de la guía: la evaluación final vale 30 % en la planilla y 40 % en el aula; cada evaluación de módulo, 8 % y 5 %. El nombre del curso aparece en tres versiones.",
+      "c": [
+        "C-23",
+        "C-07"
+      ]
+    },
+    "AF-10": {
+      "r": "P",
+      "h": "La planilla trae una línea de técnica por aprendizaje esperado. El desarrollo está en las actividades, no en lo que se declararía.",
+      "c": [
+        "C-26"
+      ]
+    },
+    "CU-01": {
+      "r": "P",
+      "h": "Las competencias conversan con quien trabaja en tareas administrativas, pero falta el texto de participantes y las de M4, M5 y M6 no se comprueban con lo evaluado.",
+      "c": [
+        "C-20",
+        "C-10"
+      ]
+    },
+    "CU-02": {
+      "r": "P",
+      "h": "La cadena se corta en el primer eslabón, porque falta el texto de participantes, y en la evaluación, la duración y los recursos.",
+      "c": [
+        "C-20",
+        "C-10",
+        "C-21",
+        "C-24"
+      ]
+    },
+    "CU-03": {
+      "r": "P",
+      "h": "El diseño permite desarrollar la competencia. Comprobarla, no del todo: nadie ve una imagen, un audio, un clip ni un flujo.",
+      "c": [
+        "C-10"
+      ]
+    },
+    "CU-04": {
+      "r": "P",
+      "h": "Contenidos y prácticas aportan a su aprendizaje. Varios casos declaran en su línea «cubre» criterios que no piden y omiten otros que sí piden.",
+      "c": [
+        "C-10",
+        "C-11"
+      ]
+    },
+    "CU-05": {
+      "r": "P",
+      "h": "M4 y M5 dicen qué hace la persona. M1 («interactuar»), M2 («optimizar») y M3 («acelerar») no se pueden observar.",
+      "c": [
+        "C-16"
+      ]
+    },
+    "CU-06": {
+      "r": "V",
+      "h": "22 aprendizajes esperados en una secuencia de proceso que lleva a cada competencia, sin un ascenso parejo de nivel.",
+      "c": []
+    },
+    "CU-07": {
+      "r": "V",
+      "h": "Cada aprendizaje tiene saberes, habilidades y actitudes, y su Rise (338 pantallas en total).",
+      "c": []
+    },
+    "CU-08": {
+      "r": "P",
+      "h": "En el aula cada tema tiene Rise, quiz y dos prácticas, y cada módulo sus casos o el pitch. La planilla responde con otras actividades: 11 casos y 9 hitos con tutor, sin prácticas.",
+      "c": [
+        "C-23",
+        "C-26"
+      ]
+    },
+    "CU-09": {
+      "r": "P",
+      "h": "Responde con cuestionarios y tareas, pero en 12 aprendizajes esperados lo que lleva nota no muestra el producto del verbo.",
+      "c": [
+        "C-10",
+        "C-11"
+      ]
+    },
+    "CU-10": {
+      "r": "F",
+      "h": "La Matriz no tiene columna de participantes, su columna de contenidos está errada y cita instrumentos que ya no existen.",
+      "c": [
+        "C-20",
+        "C-23",
+        "C-27"
+      ]
+    },
+    "CU-11": {
+      "r": "P",
+      "h": "El proyecto parte de la tarea del cargo, pero 70 % de la nota son preguntas sobre casos ajenos y solo 11,25 % mide un producto propio.",
+      "c": [
+        "C-10",
+        "C-14"
+      ]
+    },
+    "CU-12": {
+      "r": "F",
+      "h": "Las 80 preguntas con nota son situaciones y ninguna es de pura definición, y 30 % va con rúbrica. Pero se puede aprobar solo con alternativas y en 12 aprendizajes el producto no llega al docente. La guía no dice si esas preguntas bastan (O-02).",
+      "c": [
+        "C-10",
+        "C-14"
+      ]
+    },
+    "CM-01": {
+      "r": "P",
+      "h": "Las seis competencias de módulo lo dicen; falta la del curso (O-05).",
+      "c": [
+        "C-16"
+      ]
+    },
+    "CM-02": {
+      "r": "V",
+      "h": "Las seis nombran el contexto laboral.",
+      "c": []
+    },
+    "CM-03": {
+      "r": "P",
+      "h": "En M4 y M5 ningún instrumento verifica la acción, y en M6 solo un relato de tres minutos. La competencia de M1 no nombra lo que pide M1-AE3.",
+      "c": [
+        "C-10",
+        "C-16"
+      ]
+    },
+    "CM-04": {
+      "r": "P",
+      "h": "Las seis tienen los tres elementos en la forma. En M1 el objeto es la herramienta y la condición es una finalidad; en M2 el contexto es genérico.",
+      "c": [
+        "C-16"
+      ]
+    },
+    "CM-05": {
+      "r": "P",
+      "h": "Ninguna es «conocer + herramienta», pero M1 se le acerca, y «optimizar» y «acelerar» nombran un efecto que nada mide.",
+      "c": [
+        "C-16"
+      ]
+    },
+    "AE-01": {
+      "r": "P",
+      "h": "Casi todos lo cumplen. M1-AE3 exige ajustar la temperatura, que queda en una práctica opcional.",
+      "c": [
+        "C-15"
+      ]
+    },
+    "AE-02": {
+      "r": "P",
+      "h": "Aportan en general. M1-AE1 funciona como requisito previo de los demás.",
+      "c": [
+        "C-15"
+      ]
+    },
+    "AE-03": {
+      "r": "P",
+      "h": "En M1-AE3 la temperatura no se verifica. M3-AE4, M3-AE3, M4-AE1, M4-AE3, M5-AE3 y M6-AE3 tienen partes del texto sin criterio C.",
+      "c": [
+        "C-15"
+      ]
+    },
+    "AE-04": {
+      "r": "V",
+      "h": "22 de 22 tienen su Rise en el aula.",
+      "c": []
+    },
+    "AE-05": {
+      "r": "P",
+      "h": "Todos tienen quiz y dos prácticas. Queda abierto M5-AE2, cuyo laboratorio no se ha probado.",
+      "c": [
+        "C-24"
+      ]
+    },
+    "AE-06": {
+      "r": "P",
+      "h": "Cada criterio C tiene un ítem etiquetado, pero M4-AE4:C1 y M1-AE1:C2 no tienen uno que los mida, y en 12 aprendizajes no se ve el producto.",
+      "c": [
+        "C-10",
+        "C-13"
+      ]
+    },
+    "AE-07": {
+      "r": "P",
+      "h": "En todos se puede decir qué hará la persona, pero en 12 esa demostración queda en prácticas que nadie recibe.",
+      "c": [
+        "C-10"
+      ]
+    },
+    "AE-08": {
+      "r": "P",
+      "h": "Por nivel declarado, 21 de 22 están en Aplicar o más. M1-AE1 (explicar) queda bajo su competencia; el verbo principal de M5-AE1 (identificar) también, aunque está etiquetado Analizar.",
+      "c": [
+        "C-15"
+      ]
+    },
+    "CT-01": {
+      "r": "V",
+      "h": "22 de 22 tienen contenidos propios ligados a su competencia.",
+      "c": []
+    },
+    "CT-02": {
+      "r": "P",
+      "h": "Faltan piezas en M1-AE3 (temperatura), M3-AE4 (bases de tratamiento de la nueva ley), M4-AE1 («uso comercial» sin fuente), M4-AE3 (dato biométrico), M5-AE2 (laboratorio sin probar), M6-AE2 (P03 enseña lo contrario de lo que se califica) y M6-AE3 (6 partes frente a 4).",
+      "c": [
+        "C-15",
+        "C-17",
+        "C-24"
+      ]
+    },
+    "CT-03": {
+      "r": "P",
+      "h": "21 de 22. En M1-AE3, 4 de 16 pantallas tratan top-p, API y versiones de modelos, lejos del trabajo administrativo.",
+      "c": [
+        "C-15"
+      ]
+    },
+    "CT-04": {
+      "r": "V",
+      "h": "Secuencia lógica. Observación: dato personal se define en M3-AE4 y antes el curso usa una regla práctica con ejemplos, lo que es razonable.",
+      "c": []
+    },
+    "CT-05": {
+      "r": "P",
+      "h": "Sin piloto no se puede saber si calza: unas 8 horas de lectura y 98 actividades dentro de los Rise frente a 42,25 horas declaradas con tarifa plana.",
+      "c": [
+        "C-21"
+      ]
+    },
+    "CT-06": {
+      "r": "P",
+      "h": "21 de 22 traen procedimiento y ejercicios. En M1-AE3 el ajuste de temperatura queda en una práctica opcional y sin probar (H5).",
+      "c": [
+        "C-15",
+        "C-24"
+      ]
+    },
+    "TM-01": {
+      "r": "P",
+      "h": "Desarrollan 21 de 22. Queda M5-AE2, cuyo laboratorio no se ha probado.",
+      "c": [
+        "C-24"
+      ]
+    },
+    "TM-02": {
+      "r": "P",
+      "h": "La columna Técnica de la planilla es una línea por aprendizaje («Exposición interactiva en Rise + ejemplos guiados»). El detalle existe en las actividades, fuera de lo que se declararía.",
+      "c": [
+        "C-26"
+      ]
+    },
+    "TM-03": {
+      "r": "P",
+      "h": "El aula lo dice paso a paso. Lo que se declararía no: la planilla no trae las 44 prácticas.",
+      "c": [
+        "C-26"
+      ]
+    },
+    "TM-04": {
+      "r": "P",
+      "h": "Las prácticas van ligadas a su tema, pero las líneas «cubre» de los casos no calzan con lo que piden, como en M1-C1.",
+      "c": [
+        "C-26",
+        "C-11"
+      ]
+    },
+    "TM-05": {
+      "r": "P",
+      "h": "Está declarado en las 11 tareas (72 horas hábiles) y en los foros (24 horas hábiles). En las 44 prácticas el facilitador solo actúa a demanda por foro.",
+      "c": [
+        "C-22",
+        "C-26"
+      ]
+    },
+    "TM-06": {
+      "r": "P",
+      "h": "Los cinco elementos están en 11 actividades. En las 44 prácticas el facilitador actúa solo a demanda por foro y la solicitud no lo declara.",
+      "c": [
+        "C-26"
+      ]
+    },
+    "DU-01": {
+      "r": "P",
+      "h": "No hay justificación escrita de las horas. M4-AE1 quedó sin práctica con tiempo desde que salió M4-C3.",
+      "c": [
+        "C-21"
+      ]
+    },
+    "DU-02": {
+      "r": "F",
+      "h": "La planilla pone 48 % en Rise y nada en 36 prácticas, donde está gran parte del trabajo: la distribución no describe cómo se hace el curso.",
+      "c": [
+        "C-21"
+      ]
+    },
+    "DU-03": {
+      "r": "F",
+      "h": "La planilla sigue diciendo 88 con diferencia 0, y sin M4-C3 su suma da 86,5 h. El total real del aula no se conoce y puede pasar de 88 h.",
+      "c": [
+        "C-21"
+      ]
+    },
+    "DU-04": {
+      "r": "F",
+      "h": "Sin minutos: 36 de 44 prácticas, las 6 infografías que exige la finalización, 5 diagnósticas y el foro general. La evaluación de M6 y la final comparten 60 minutos. Los videos duran 30 min 20 s y se declaran 36.",
+      "c": [
+        "C-21"
+      ]
+    },
+    "DU-05": {
+      "r": "P",
+      "h": "M4-AE1 tiene 127,5 minutos y ninguna práctica con tiempo; M4-AE4 pide dos clips. M6-AE3 supone que el flujo lleva semanas en uso y ese período no tiene horas. Sin desglose no se puede descartar.",
+      "c": [
+        "C-21"
+      ]
+    },
+    "DU-06": {
+      "r": "F",
+      "h": "42,25 h de Rise frente a unas 8 h de lectura, sin piloto (pendiente 13). Dentro de los Rise hay 98 actividades, pero sus minutos no están respaldados.",
+      "c": [
+        "C-21"
+      ]
+    },
+    "DU-07": {
+      "r": "F",
+      "h": "No se puede reconstruir: la planilla no calza con el aula y hay tiempos que se pisan, como el informe de M3-AE3, que cae en su Rise y en el Hito 3.",
+      "c": [
+        "C-21"
+      ]
+    },
+    "DU-08": {
+      "r": "F",
+      "h": "Los minutos son tarifas planas: nada explica cómo se usan las horas de cada aprendizaje esperado.",
+      "c": [
+        "C-21"
+      ]
+    },
+    "FA-01": {
+      "r": "SD",
+      "h": "No hay antecedentes de la facilitadora para juzgar.",
+      "c": [
+        "C-22"
+      ]
+    },
+    "FA-02": {
+      "r": "SD",
+      "h": "Sin antecedentes no se puede relacionar con las actividades: 11 tareas y 7 foros.",
+      "c": [
+        "C-22"
+      ]
+    },
+    "FA-03": {
+      "r": "SD",
+      "h": "Sin antecedentes no se puede relacionar con la orientación del aprendizaje.",
+      "c": [
+        "C-22"
+      ]
+    },
+    "FA-04": {
+      "r": "SD",
+      "h": "Sin antecedentes no se puede relacionar con la evaluación: califica 30 % de la nota.",
+      "c": [
+        "C-22"
+      ]
+    },
+    "FA-06": {
+      "r": "SD",
+      "h": "La función está descrita en el aula, no en lo que se declararía (AL-19), y la idoneidad depende de los antecedentes.",
+      "c": [
+        "C-22"
+      ]
+    },
+    "FA-07": {
+      "r": "SD",
+      "h": "Faltan la formación afín, la experiencia en IA generativa y la experiencia facilitando capacitación laboral.",
+      "c": [
+        "C-22"
+      ]
+    },
+    "FA-08": {
+      "r": "SD",
+      "h": "Falta mostrar la relación con la materia: los módulos 4 y 5 son técnicos.",
+      "c": [
+        "C-22"
+      ]
+    },
+    "IN-01": {
+      "r": "P",
+      "h": "La instancia real son las tareas, pero no son obligatorias: quien no entrega solo pasa por los foros.",
+      "c": [
+        "C-01",
+        "C-23"
+      ]
+    },
+    "IN-02": {
+      "r": "P",
+      "h": "En el aula son 11 actividades concretas: las tareas «Entrega y revisión docente». La planilla nombra otras, los hitos, que en el aula no se entregan.",
+      "c": [
+        "C-23"
+      ]
+    },
+    "IN-03": {
+      "r": "V",
+      "h": "No se queda en disponibilidad: hay entrega, rúbrica, nota y plazo.",
+      "c": []
+    },
+    "IN-04": {
+      "r": "P",
+      "h": "El aula pide 10 casos y el pitch al cierre de cada módulo, pero no exige entregarlos y aún no hay entregas. La planilla pone la entrega en los hitos.",
+      "c": [
+        "C-01",
+        "C-05",
+        "C-23"
+      ]
+    },
+    "IN-05": {
+      "r": "P",
+      "h": "Tarea y rúbrica están listas, pero nadie las ha usado: 0 entregas y la cuenta docente no registra acceso.",
+      "c": [
+        "C-05"
+      ]
+    },
+    "IN-06": {
+      "r": "P",
+      "h": "Comentarios, archivo y rúbrica están activos, sin ningún uso real. La guía del facilitador da una pauta general y 44 ejemplos para las prácticas, ninguno para los casos ni el pitch. Con un intento máximo, corregir no permite reenviar.",
+      "c": [
+        "C-05",
+        "C-18",
+        "C-02"
+      ]
+    },
+    "IN-07": {
+      "r": "F",
+      "h": "Ninguna tarea es requisito de finalización y ninguna página dice que sea obligatoria: el aula solo avisa que lo no entregado cuenta como 0.",
+      "c": [
+        "C-01",
+        "C-23"
+      ]
+    },
+    "IN-08": {
+      "r": "P",
+      "h": "Entrega, comentarios, rúbrica y nota quedarían en la tarea, en el historial y en los registros, que no se borran. Está configurado, pero sin entregas no hay registro que mostrar.",
+      "c": [
+        "C-05"
+      ]
+    },
+    "EV-01": {
+      "r": "F",
+      "h": "Todos los criterios C tienen un ítem etiquetado, pero en 12 de 22 aprendizajes esperados el producto del verbo no llega al docente, y en los otros 10 llega en parte.",
+      "c": [
+        "C-10",
+        "C-13"
+      ]
+    },
+    "EV-02": {
+      "r": "P",
+      "h": "La final integra los 22 con 4 casos ajenos. Las competencias de M4 y M5 no se ven en ninguna entrega y la de M6 solo en un relato.",
+      "c": [
+        "C-10"
+      ]
+    },
+    "EV-03": {
+      "r": "F",
+      "h": "El primer intento muestra la respuesta y hay 2 intentos sin espera, en las 7 evaluaciones. Por caracteres, la correcta es la más larga en 22 de 22 de la final y, con empates, en 9, 10 y 10 de 10 en M1, M2 y M3. La rúbrica de casos es genérica y se aprueba sin el producto.",
+      "c": [
+        "C-03",
+        "C-12",
+        "C-13",
+        "C-11"
+      ]
+    },
+    "EV-04": {
+      "r": "F",
+      "h": "Falta el eslabón evidencia en los 12 aprendizajes sin producto. Tampoco se lee por aprendizaje: el caso da un puntaje para dos, la rúbrica no trae sus criterios y las preguntas no dicen qué miden.",
+      "c": [
+        "C-10",
+        "C-11",
+        "C-27"
+      ]
+    },
+    "EV-05": {
+      "r": "P",
+      "h": "El aula lo dice por instrumento. La planilla apunta a instrumentos antiguos y falta decirlo por aprendizaje esperado.",
+      "c": [
+        "C-23",
+        "C-27"
+      ]
+    },
+    "EV-06": {
+      "r": "P",
+      "h": "Los casos y las evaluaciones lo dicen. En la planilla son hitos que ya no se entregan.",
+      "c": [
+        "C-23",
+        "C-27"
+      ]
+    },
+    "EV-07": {
+      "r": "P",
+      "h": "Aula: cuestionarios y rúbricas. Planilla: «Rúbrica P1» y otros que no existen.",
+      "c": [
+        "C-23"
+      ]
+    },
+    "EV-08": {
+      "r": "P",
+      "h": "Los criterios C están en data/curso.json, pero la rúbrica de casos no los usa.",
+      "c": [
+        "C-11",
+        "C-27"
+      ]
+    },
+    "EV-09": {
+      "r": "P",
+      "h": "El aula lo define: 1,0 a 7,0 con 4,0 al 60 % y rúbrica de 100 puntos con mínimo 60. La planilla lo deja provisional y trae otra rúbrica.",
+      "c": [
+        "C-23"
+      ]
+    },
+    "EV-10": {
+      "r": "P",
+      "h": "El aula la explica y calza con el libro, salvo el Rise de M6-AE3, que dice que el pitch no pondera. La planilla trae otra: sumativas 40, hitos 15, pitch 15 y final 30.",
+      "c": [
+        "C-23",
+        "C-17"
+      ]
+    },
+    "EV-11": {
+      "r": "V",
+      "h": "40 + 6 × 10 = 100, comprobado en el libro de calificaciones.",
+      "c": []
+    },
+    "EV-12": {
+      "r": "F",
+      "h": "Ningún aprendizaje esperado la cumple completa. En 10 el producto llega en parte y la rúbrica no es la suya; en 12 no llega.",
+      "c": [
+        "C-10",
+        "C-11"
+      ]
+    },
+    "EV-13": {
+      "r": "P",
+      "h": "El docente califica 11 tareas, que son 30 % de la nota, sin ningún uso real aún; 70 % es automático. La planilla le asigna otros instrumentos.",
+      "c": [
+        "C-05",
+        "C-23"
+      ]
+    },
+    "EV-14": {
+      "r": "F",
+      "h": "En los aprendizajes de aplicar o más sin producto (M1-AE2, M1-AE3, M2-AE1, M2-AE3, M2-AE4, M3-AE3, M4-AE2, M4-AE3, M4-AE4, M5-AE2 y M6-AE2) la nota sale de alternativas o de una entrega que no lo muestra. Las preguntas son situaciones, pero la guía no dice si eso basta (O-02).",
+      "c": [
+        "C-10",
+        "C-11",
+        "C-01"
+      ]
+    },
+    "EV-15": {
+      "r": "P",
+      "h": "Hay instrumento con rúbrica en 30 % de la nota y declarado para 17 de 22, pero solo 11,25 % del curso mide el producto de la persona.",
+      "c": [
+        "C-10",
+        "C-11",
+        "C-14"
+      ]
+    },
+    "RC-01": {
+      "r": "P",
+      "h": "El laboratorio de Make pide computador y la ruta por celular depende de H1 y H2, sin confirmar. Gamma y Canva tienen tope de uso. H3, H4, H5 y H10 siguen abiertas.",
+      "c": [
+        "C-24"
+      ]
+    },
+    "RC-02": {
+      "r": "P",
+      "h": "Las prácticas dicen cómo usar cada herramienta. La planilla no lo recoge para la solicitud.",
+      "c": [
+        "C-24",
+        "C-26"
+      ]
+    },
+    "RC-03": {
+      "r": "F",
+      "h": "Ni la planilla ni el aula declaran software, equipo, características y cuentas: la Inducción solo pide navegador e internet. Cada práctica nombra sus herramientas, pero no hay lista.",
+      "c": [
+        "C-24"
+      ]
+    },
+    "LM-01": {
+      "r": "P",
+      "h": "Aún no hay solicitud. Si se armara con la planilla, el revisor buscaría 11 casos, hitos revisados por un tutor y una final de 30 %, y el aula muestra otra cosa.",
+      "c": [
+        "C-23"
+      ]
+    },
+    "LM-02": {
+      "r": "V",
+      "h": "9 secciones y 213 actividades, ordenadas por módulo y tema.",
+      "c": []
+    },
+    "LM-03": {
+      "r": "V",
+      "h": "Están las 44 prácticas, los 10 casos y el pitch, 50 SCORM, 11 tareas, 13 cuestionarios, 8 foros y 6 glosarios.",
+      "c": []
+    },
+    "LM-04": {
+      "r": "V",
+      "h": "Informes de registros, actividad y participación disponibles, con huella real de la cuenta del evaluador. Se leyeron como administrador: confirmarlos con la cuenta que reciba el SENCE.",
+      "c": []
+    },
+    "LM-05": {
+      "r": "V",
+      "h": "155 actividades con seguimiento e informes de progreso y de finalización. El seguimiento funciona; lo que falla es qué se exige (AL-24).",
+      "c": []
+    },
+    "LM-06": {
+      "r": "P",
+      "h": "Las herramientas están, pero no hay nada que ver: 0 entregas, foros sin abrir y la cuenta docente sin acceso. El único mensaje del curso es del administrador.",
+      "c": [
+        "C-04",
+        "C-05"
+      ]
+    },
+    "LM-07": {
+      "r": "P",
+      "h": "Los 7 foros tienen 0 debates: faltan los mensajes de apertura y al menos una conversación de prueba.",
+      "c": [
+        "C-04",
+        "C-05"
+      ]
+    },
+    "LM-08": {
+      "r": "P",
+      "h": "Comentarios y archivo de retroalimentación están activos en las 11 tareas, sin ningún ejemplo real.",
+      "c": [
+        "C-05"
+      ]
+    },
+    "LM-09": {
+      "r": "V",
+      "h": "7 cuestionarios con nota, 6 diagnósticas y 11 tareas con rúbrica en el aula. Se leyeron como administrador.",
+      "c": []
+    },
+    "LM-10": {
+      "r": "P",
+      "h": "El libro está configurado con categorías, pesos, escala de 1,0 a 7,0 e informe del calificador, pero no se comprobó ningún resultado real.",
+      "c": [
+        "C-05"
+      ]
+    },
+    "LM-11": {
+      "r": "V",
+      "h": "Registros configurados para no borrarse e historial de calificaciones activo. El complemento SENCE 4.1.2 está instalado, sin cursos vigentes aún.",
+      "c": []
+    },
+    "LM-12": {
+      "r": "P",
+      "h": "Casi todo lo que dicen las páginas está en el aula. No se comprobaría: los hitos con entrega, el portafolio, las insignias de módulo, la promesa del celular y lo que la planilla declara y ya no existe.",
+      "c": [
+        "C-06",
+        "C-10",
+        "C-15",
+        "C-17",
+        "C-23",
+        "C-24"
+      ]
+    },
+    "LM-13": {
+      "r": "P",
+      "h": "Actividad, entrega, facilitador, retroalimentación y registro están configurados en las 11 tareas. Falta una pasada completa que lo demuestre.",
+      "c": [
+        "C-05"
+      ]
+    },
+    "LM-14": {
+      "r": "P",
+      "h": "El aula tiene instrumento, finalidad, criterios y ponderación, pero no ordenados por aprendizaje esperado ni en una planilla al día.",
+      "c": [
+        "C-23",
+        "C-27"
+      ]
+    },
+    "CS-01": {
+      "r": "SD",
+      "h": "No hay desglose de costos. Solo la propuesta a Accenture, que cita una norma derogada.",
+      "c": [
+        "C-25"
+      ]
+    },
+    "CS-02": {
+      "r": "SD",
+      "h": "Sin desglose no se puede relacionar con la modalidad, los participantes, la duración o la plataforma.",
+      "c": [
+        "C-25"
+      ]
+    },
+    "CS-04": {
+      "r": "SD",
+      "h": "Sin desglose. El curso no usa infraestructura física.",
+      "c": [
+        "C-25"
+      ]
+    },
+    "CS-05": {
+      "r": "P",
+      "h": "Las herramientas están nombradas en cada práctica y la Inducción pide computador o celular, pero no hay una lista única ni costos que la respalden.",
+      "c": [
+        "C-24",
+        "C-25"
+      ]
+    },
+    "CS-06": {
+      "r": "SD",
+      "h": "Sin desglose.",
+      "c": [
+        "C-25"
+      ]
+    }
+  },
+  "orden": [
+    "Decisiones D-01 a D-09",
+    "C-10, C-11 y C-14",
+    "C-01 y C-02",
+    "C-06",
+    "C-05",
+    "C-21",
+    "C-23",
+    "C-27",
+    "C-07"
+  ],
+  "pasos_hechos": [
+    "Llenar la tabla",
+    "Armar la ficha por aprendizaje esperado"
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "fecha": "03-11-2026",
+  "fuente": "Lectura del aula en formacion.empoderatech.com con sesión de administrador, sin cambiar nada: estado del curso, finalización, libro de calificaciones, configuración de cada tarea y cuestionario, rúbricas, foros, informes e insignias. Los correos de las cuentas no se copian aquí porque este repositorio es público.",
+  "curso": {
+    "id": 2,
+    "moodle": "5.3",
+    "tema": "Moove",
+    "nombre_completo": "Inteligencia artificial (IA) generativa para entornos laborales (88 horas)",
+    "nombre_corto": "IA-GENERATIVA-LABORAL",
+    "visible": true,
+    "inicio": "31-10-2026",
+    "fin": "31-10-2027",
+    "finalizacion_activada": true,
+    "muestra_calificaciones": true,
+    "muestra_informes_de_actividad": false
+  },
+  "secciones": [
+    {
+      "n": 0,
+      "titulo": "Bienvenida",
+      "visible": true,
+      "actividades": 6
+    },
+    {
+      "n": 1,
+      "titulo": "Módulo 1: Introducción a la IA generativa y prompt básico",
+      "visible": true,
+      "actividades": 36
+    },
+    {
+      "n": 2,
+      "titulo": "Módulo 2: Comunicación y redacción profesional",
+      "visible": true,
+      "actividades": 36
+    },
+    {
+      "n": 3,
+      "titulo": "Módulo 3: Investigación y análisis de información",
+      "visible": true,
+      "actividades": 36
+    },
+    {
+      "n": 4,
+      "titulo": "Módulo 4: Contenido visual, sonoro y audiovisual",
+      "visible": true,
+      "actividades": 36
+    },
+    {
+      "n": 5,
+      "titulo": "Módulo 5: Automatización de tareas repetitivas",
+      "visible": true,
+      "actividades": 31
+    },
+    {
+      "n": 6,
+      "titulo": "Módulo 6: Taller de IA generativa para entornos laborales",
+      "visible": true,
+      "actividades": 29
+    },
+    {
+      "n": 7,
+      "titulo": "Evaluación final",
+      "visible": true,
+      "actividades": 1
+    },
+    {
+      "n": 8,
+      "titulo": "Para el facilitador",
+      "visible": false,
+      "actividades": 2
+    }
+  ],
+  "actividades": {
+    "total": 213,
+    "con_seguimiento_de_finalizacion": 155,
+    "con_restricciones_de_acceso": 0,
+    "ocultas_fuera_de_la_seccion_8": 0,
+    "por_tipo": {
+      "etiquetas": 55,
+      "paginas": {
+        "total": 68,
+        "practicas_autoevaluadas_finalizacion_manual": 44,
+        "otras_al_verlas": 24
+      },
+      "foros": 8,
+      "cuestionarios": 13,
+      "scorm": {
+        "total": 50,
+        "contenido_rise_sin_nota": 22,
+        "quiz_juego_nota_100": 22,
+        "infografias": 6
+      },
+      "tareas": 11,
+      "glosarios": 6,
+      "recursos": 2
+    }
+  },
+  "finalizacion_del_curso": {
+    "bloqueada": true,
+    "por_que": "Moodle no deja cambiar los criterios porque ya hay estudiantes que cumplieron uno; desbloquearlos borra los datos de finalización de esas cuentas, que por ahora son de prueba.",
+    "condicion": "TODAS",
+    "actividades_requeridas": 57,
+    "actividades_disponibles": 155,
+    "requeridas": {
+      "foros": 7,
+      "scorm": 50
+    },
+    "no_requeridas": {
+      "tareas": 11,
+      "cuestionarios": 13,
+      "paginas": 68,
+      "glosarios": 6
+    },
+    "lectura": "Se puede finalizar sin entregar nada y con 60 puntos de 1.800. La nota de aprobación es otro cálculo: sin entregar nada se puede llegar hasta 70 de 100 (final 40 y evaluaciones de módulo 30), sobre el mínimo de 60.",
+    "calificacion_requerida": "60 puntos",
+    "total_del_curso": 1800,
+    "equivale_a": "3,3 % de la nota"
+  },
+  "libro_de_calificaciones": {
+    "agregacion": "Suma de calificaciones con pesos en todas las categorías",
+    "excluye_vacias": false,
+    "categorias": [
+      {
+        "nombre": "Evaluación final",
+        "peso": 40
+      },
+      {
+        "nombre": "Actividades formativas",
+        "peso": 0
+      },
+      {
+        "nombre": "Módulo 1 a Módulo 5",
+        "peso": 10,
+        "cada_una": "evaluación del módulo 50 y dos casos 25 y 25"
+      },
+      {
+        "nombre": "Módulo 6",
+        "peso": 10,
+        "cada_una": "evaluación del módulo 50 y pitch 50"
+      }
+    ],
+    "suma": 100,
+    "escala": "Letras de 1,0 a 7,0, con 4,0 al 60 %; se muestra letra y porcentaje",
+    "reparto": {
+      "seleccion_multiple": 70,
+      "rubrica_casos": 25,
+      "rubrica_pitch": 5
+    },
+    "total_del_curso": 1800
+  },
+  "tareas": {
+    "ids": [
+      199,
+      200,
+      208,
+      209,
+      217,
+      218,
+      190,
+      191,
+      225,
+      226,
+      318
+    ],
+    "configuracion_comun": {
+      "nota": 100,
+      "aprobacion": 60,
+      "metodo": "Rúbrica",
+      "entrega": "Archivo y texto en línea",
+      "retroalimentacion": "Comentarios y archivo",
+      "fecha_limite": null,
+      "intentos_maximos": 1,
+      "reapertura": "Automática hasta aprobar",
+      "finalizacion": "Solo al entregar",
+      "archivos": "Hasta 5 por entrega, de cualquier tipo (campo vacío), con el límite del sitio de 1 GB"
+    },
+    "lectura_reapertura": "Con un intento máximo la reapertura no opera: quien repruebe no puede reenviar.",
+    "tipos_de_archivo": "Moodle no filtra el tipo en la tarea 190. Lo que limita es la instrucción de los casos, que pide documento de texto o PDF",
+    "rubrica_casos": {
+      "analisis": 30,
+      "uso_de_lo_aprendido": 25,
+      "aplicacion_a_su_proyecto": 25,
+      "datos_y_etica": 10,
+      "comunicacion": 10,
+      "niveles": "0, 60 % y 100 % del peso"
+    },
+    "rubrica_pitch": {
+      "problema": 20,
+      "flujo": 25,
+      "resultados": 25,
+      "aprendizaje": 10,
+      "comunicacion": 10,
+      "datos": 10,
+      "niveles": "0, 60 % y 100 % del peso"
+    },
+    "entregas": 0
+  },
+  "cuestionarios": {
+    "evaluaciones_de_modulo": [
+      203,
+      212,
+      221,
+      185,
+      229,
+      235
+    ],
+    "preguntas_por_modulo": [
+      10,
+      10,
+      10,
+      10,
+      9,
+      9
+    ],
+    "evaluacion_final": {
+      "id": 305,
+      "espacios": 26,
+      "descripciones": 4,
+      "preguntas": 22
+    },
+    "configuracion_con_nota": {
+      "aprobacion": 60,
+      "intentos": 2,
+      "calificacion": "La más alta",
+      "espera_entre_intentos": "Ninguna",
+      "comportamiento": "Retroalimentación diferida",
+      "mezcla_alternativas": true,
+      "limite_de_tiempo": null,
+      "revision": "La respuesta correcta y la retroalimentación se ven apenas termina el intento"
+    },
+    "diagnosticas": {
+      "ids": [
+        306,
+        307,
+        308,
+        309,
+        310,
+        311
+      ],
+      "preguntas": 7,
+      "nota": 0,
+      "intentos": "Sin límite"
+    }
+  },
+  "foros": {
+    "ids_con_finalizacion_requerida": [
+      6,
+      34,
+      65,
+      96,
+      128,
+      154,
+      177
+    ],
+    "debates_en_esos_siete": 0,
+    "avisos": {
+      "id": 1,
+      "mensajes": 1,
+      "autor": "Administrador"
+    },
+    "finalizacion": "Un mensaje",
+    "nota": false
+  },
+  "cuentas": {
+    "matriculadas": 4,
+    "detalle": [
+      {
+        "rol": "Profesor",
+        "cuenta": "Natalia Hernández",
+        "accesos": "Sin acceso registrado al curso"
+      },
+      {
+        "rol": "Estudiante",
+        "cuenta": "Camila Rojas (prueba)",
+        "accesos": "Sin acceso registrado al curso"
+      },
+      {
+        "rol": "Profesor sin edición y Estudiante",
+        "cuenta": "Evaluador SENCE",
+        "accesos": "Último acceso el 02-11-2026"
+      },
+      {
+        "rol": "Profesor",
+        "cuenta": "Administrador",
+        "accesos": "En uso"
+      }
+    ]
+  },
+  "trazabilidad": {
+    "informes_disponibles": [
+      "Registros",
+      "Esquema de actividad",
+      "Participación",
+      "Progreso de finalización",
+      "Finalización del curso",
+      "Calificador",
+      "Historial de calificaciones"
+    ],
+    "registros": "Nunca borrar los registros",
+    "complemento_sence": {
+      "version": "4.1.2",
+      "cursos_vigentes": 0
+    }
+  },
+  "insignias": {
+    "disponibles": 7,
+    "criterios_de_actividad_borrada": [
+      {
+        "id": 1,
+        "nombre": "Módulo 1",
+        "criterios": 20,
+        "borrados": 10
+      },
+      {
+        "id": 2,
+        "nombre": "Módulo 2",
+        "borrados": 10
+      },
+      {
+        "id": 3,
+        "nombre": "Módulo 3",
+        "borrados": 10
+      },
+      {
+        "id": 4,
+        "nombre": "Módulo 4",
+        "borrados": 11
+      },
+      {
+        "id": 5,
+        "nombre": "Módulo 5",
+        "borrados": 8
+      },
+      {
+        "id": 6,
+        "nombre": "Módulo 6",
+        "criterios": 14,
+        "borrados": 6
+      },
+      {
+        "id": 7,
+        "nombre": "Curso completo",
+        "borrados": 0
+      }
+    ],
+    "total_borrados": 55,
+    "condicion_insignia_1": "TODAS las actividades listadas"
+  },
+  "textos_atrasados": [
+    "Glosario del módulo 6: «Demo Day»",
+    "Texto de M6-AE1 en la página del curso: «uno al que aspira»",
+    "Rise de M6-AE3: Demo Day y «no pondera»"
+  ],
+  "comparacion_con_aula_json": "Las páginas de contenido coinciden en 98,5 % o más con entregables/moodle/aula.json."
+}

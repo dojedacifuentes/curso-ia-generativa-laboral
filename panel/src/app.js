@@ -132,10 +132,13 @@ function vEstado() {
   ${A ? `<section class="sec">
     <div class="sec-cab"><div><h2>Auditoría de la guía: la tabla de verdad</h2>
       <p>La guía completa, convertida en afirmaciones que deben ser verdaderas, cada una con su página. Es la vara con que se compara el curso.
-        ${A.comparadas ? `Van ${A.comparadas} de ${A.comparables} filas comparadas.` : 'La comparación con el aula todavía no empieza.'}</p></div>
+        ${A.comparadas ? `Las ${A.comparadas} filas ya se compararon con el aula.` : 'La comparación con el aula todavía no empieza.'}</p></div>
       <div class="btns"><a class="btn prim" href="#documentos/${h(A.doc)}">Abrir la tabla de verdad</a>${ext(A.word, 'Word en Drive')}</div></div>
     <div class="cifras">${[[A.filas, 'enunciados'], [A.comparables, 'se comparan con el curso'], [A.excluyentes, 'excluyentes'], [A.modelos, 'modelos'],
       [A.hallazgos, `hallazgos (${A.altos} de gravedad alta)`]].map(([n, t]) => `<div class="cifra"><b>${n}</b><span>${h(t)}</span></div>`).join('')}</div>
+    ${A.comparadas ? `<h3>${h(A.titular)}</h3>${A.lectura.map(p => `<p>${h(p)}</p>`).join('')}
+    <div class="conteo">${A.resultado.map(([r, n]) => `<span class="est">${h(r)}: ${n}</span>`).join('')}</div>
+    <ol>${A.brechas.map(b => `<li><b>${h(b.tema)}.</b> ${h(b.detalle)} <span class="mono muted">${h(b.arreglo)}</span></li>`).join('')}</ol>` : ''}
   </section>` : ''}
 
   ${g ? `<section class="sec">

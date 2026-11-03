@@ -182,7 +182,7 @@ function revision() {
     ],
   });
   const d = [1900, 2340, 2500, ANCHO_V - 6740];
-  const m = [640, 700, 4540, 1800, ANCHO_V - 7680];
+  const m = [800, 700, 4380, 1800, ANCHO_V - 7680];
   return [
     h1('3. Cómo revisa el SENCE', 'revision'),
     p('La guía tiene dos etapas: admisibilidad y evaluación técnica. Aquí se muestran en cuatro pasos porque cada uno hace una pregunta distinta, se prepara distinto y falla de forma distinta.'),

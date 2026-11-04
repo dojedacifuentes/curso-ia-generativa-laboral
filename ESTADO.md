@@ -97,6 +97,7 @@ auditoría y el panel al día.
 | 03-11-2026 | Comparación con el aula | Las 133 filas medidas contra Moodle en solo lectura: 25 V, 69 P, 28 F y 11 sin datos; 10 brechas, 9 decisiones y 24 correcciones; Moodle sin cambios | [Tabla de verdad](docs/SENCE-TABLA-DE-VERDAD.md) | [`59fe2a2`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/commit/59fe2a2) |
 | 03-11-2026 | Modificaciones en Google Doc | Doc colorido por dimensión con 25 pantallazos señalados de lo que hay que cambiar, en la carpeta 16 de Drive | [Google Doc](https://docs.google.com/document/d/1Q1dY4ieGM2z7ZZC5bSUYjW72TA6CdnLLeiEC0Cxe5s4/edit) | — |
 | 03-11-2026 | Panel al día | Los 17 puntos de la guía pasan de la primera lectura al resultado de la comparación: 7 fallan, 7 parciales, 2 cumplen y 1 sin datos | [Guía técnica SENCE](docs/SENCE-GUIA-TECNICA-FT.md) | — |
+| 03-11-2026 | Exigencias en preguntas | Las 133 exigencias de la guía como preguntas, con sección, página y respuesta del curso; Doc en la carpeta 16 | [Google Doc](https://docs.google.com/document/d/1wBFBj7E4eJ3Y6jxj314g_X8Ai97WFyLO1CDgZ6IKPw0/edit) | — |
 
 ## Cómo se registra cada cambio
 

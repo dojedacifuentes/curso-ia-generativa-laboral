@@ -59,10 +59,8 @@ reparos ya están incorporados. El resultado, 9 decisiones y el plan de 24 corre
 [Word en Drive](https://drive.google.com/file/d/1RXuNMKpa2p4UPAWcvIAoRMvql_Kn4E1B/view). La foto del aula queda en `data/sence/foto-aula-03-11.json`. **Moodle no se modificó.** Las modificaciones, por dimensión y con 25 pantallazos señalados, están en el
 [Google Doc para el equipo](https://docs.google.com/document/d/1Q1dY4ieGM2z7ZZC5bSUYjW72TA6CdnLLeiEC0Cxe5s4/edit), en la carpeta 16 de Drive.
 
-**Primera lectura (03-11).** La guía quedó agrupada en 17 puntos y cuatro son brechas probables: la duración y su desglose por aprendizaje
-esperado, la función del facilitador por aprendizaje esperado, una evaluación que verifique la aplicación (hoy pesa más la selección
-múltiple) y las contradicciones entre la planilla y el aula (ponderación y nombre del curso). El detalle, punto por punto, está en
-[docs/SENCE-GUIA-TECNICA-FT.md](docs/SENCE-GUIA-TECNICA-FT.md).
+**Resumen por punto (03-11).** La guía quedó agrupada en 17 puntos, ya actualizados con la comparación: 7 fallan, 7 son parciales, 2 cumplen y 1 queda
+sin datos. El detalle está en [docs/SENCE-GUIA-TECNICA-FT.md](docs/SENCE-GUIA-TECNICA-FT.md).
 
 **Cómo vamos a trabajar.** Comparar el curso contra la tabla de verdad con evidencia del repo y del aula, acordar los cambios con Natalia
 y aplicarlos con el método de la fase 1: criterios fechados en `docs/CRITERIOS-<fecha>.md`, commits que los nombran, una fila en la bitácora y la
@@ -98,6 +96,7 @@ auditoría y el panel al día.
 | 03-11-2026 | Auditoría de la guía | Auditoría completa de las 21 páginas: tabla de verdad de 147 enunciados con su Word en Drive, 18 modelos y 18 hallazgos, entre ellos que el Anexo Técnico no llegó; falta comparar el curso | [Tabla de verdad](docs/SENCE-TABLA-DE-VERDAD.md) | [`6cb923b`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/commit/6cb923b) |
 | 03-11-2026 | Comparación con el aula | Las 133 filas medidas contra Moodle en solo lectura: 25 V, 69 P, 28 F y 11 sin datos; 10 brechas, 9 decisiones y 24 correcciones; Moodle sin cambios | [Tabla de verdad](docs/SENCE-TABLA-DE-VERDAD.md) | [`59fe2a2`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/commit/59fe2a2) |
 | 03-11-2026 | Modificaciones en Google Doc | Doc colorido por dimensión con 25 pantallazos señalados de lo que hay que cambiar, en la carpeta 16 de Drive | [Google Doc](https://docs.google.com/document/d/1Q1dY4ieGM2z7ZZC5bSUYjW72TA6CdnLLeiEC0Cxe5s4/edit) | — |
+| 03-11-2026 | Panel al día | Los 17 puntos de la guía pasan de la primera lectura al resultado de la comparación: 7 fallan, 7 parciales, 2 cumplen y 1 sin datos | [Guía técnica SENCE](docs/SENCE-GUIA-TECNICA-FT.md) | — |
 
 ## Cómo se registra cada cambio
 

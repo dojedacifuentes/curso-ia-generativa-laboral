@@ -248,7 +248,7 @@ if (existe('docs', 'PENDIENTES-VERIFICACION.md')) {
 const DOCS = [
   ['Estado y decisiones', 'ESTADO.md', 'Estado del proyecto'],
   ['Estado y decisiones', 'docs/SENCE-TABLA-DE-VERDAD.md', 'Guía técnica del SENCE: tabla de verdad'],
-  ['Estado y decisiones', 'docs/SENCE-GUIA-TECNICA-FT.md', 'Guía técnica del SENCE: primera lectura'],
+  ['Estado y decisiones', 'docs/SENCE-GUIA-TECNICA-FT.md', 'Guía técnica del SENCE: resumen por punto'],
   ['Estado y decisiones', 'docs/CRITERIOS-02-11.md', 'Criterios del 02-11'],
   ['Estado y decisiones', 'docs/OBSERVACIONES-NATALIA-01-11.md', 'Revisión de Natalia (01-11)'],
   ['Estado y decisiones', 'docs/OBSERVACIONES-NATALIA-31-10.md', 'Observaciones de Natalia (31-10)'],
@@ -346,8 +346,8 @@ const estado = ESTADO && {
   guia: GUIA && {
     doc: slug('docs/SENCE-GUIA-TECNICA-FT.md'),
     datos: tabla(seccion(GUIA, 'El documento')).map(f => ({ dato: f.Dato, detalle: enLinea(f.Detalle, 'docs') })),
-    puntos: tabla(seccion(GUIA, 'Primera lectura')).map(f => ({ seccion: f['Sección'], punto: f.Punto, pide: enLinea(f['Qué pide la guía'], 'docs'),
-      hoy: enLinea(f['Hoy en el curso'], 'docs'), lectura: enLinea(f['Primera lectura'], 'docs'), estado: f.Estado })),
+    puntos: tabla(seccion(GUIA, 'Puntos de la guía')).map(f => ({ seccion: f['Sección'], punto: f.Punto, pide: enLinea(f['Qué pide la guía'], 'docs'),
+      hoy: enLinea(f['Hoy en el curso'], 'docs'), lectura: enLinea(f['Resultado de la comparación'], 'docs'), estado: f.Estado })),
   },
 };
 

@@ -13,7 +13,7 @@ franquicia tributaria.
 
 - Qué aprobó el cliente, la bitácora y los pendientes: [ESTADO.md](ESTADO.md).
 - La auditoría completa de la guía del SENCE, con la tabla de verdad para comparar el curso: [docs/SENCE-TABLA-DE-VERDAD.md](docs/SENCE-TABLA-DE-VERDAD.md), también en Word.
-- Su primera lectura punto por punto: [docs/SENCE-GUIA-TECNICA-FT.md](docs/SENCE-GUIA-TECNICA-FT.md).
+- Su resumen punto por punto: [docs/SENCE-GUIA-TECNICA-FT.md](docs/SENCE-GUIA-TECNICA-FT.md).
 - La versión aprobada queda congelada en la etiqueta
   [`v1.0-visto-bueno-cliente`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/tree/v1.0-visto-bueno-cliente); lo que
   cambie después se ve en la [comparación con `main`](https://github.com/dojedacifuentes/curso-ia-generativa-laboral/compare/v1.0-visto-bueno-cliente...main).

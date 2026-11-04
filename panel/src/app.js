@@ -96,8 +96,8 @@ const seg = (k, opciones) => `<div class="seg" role="group">${opciones.map(([v, 
   `<button type="button" data-set="${k}=${h(v)}" aria-pressed="${String(filtros[k]) === String(v)}">${h(t)}</button>`).join('')}</div>`;
 
 // ================= Estado del proyecto (ESTADO.md y la guía técnica del SENCE) =================
-const ESTADOS_GUIA = ['Brecha probable', 'Por revisar', 'Parece cubierto', 'En la solicitud'];
-const claseGuia = e => ({ 'Brecha probable': 'aviso', 'Por revisar': 'pendiente', 'Parece cubierto': 'ok', 'En la solicitud': 'Insumo-listo' })[e] || 'pendiente';
+const ESTADOS_GUIA = ['Falla', 'Parcial', 'Cumple', 'Sin datos'];
+const claseGuia = e => ({ Falla: 'aviso', Parcial: 'pendiente', Cumple: 'ok', 'Sin datos': 'Insumo-listo' })[e] || 'pendiente';
 const claseFase = e => /cerrad/i.test(e) ? 'ok' : /curso/i.test(e) ? 'aviso' : 'pendiente';
 function vEstado() {
   const E = D.estado;
@@ -142,9 +142,9 @@ function vEstado() {
   </section>` : ''}
 
   ${g ? `<section class="sec">
-    <div class="sec-cab"><div><h2>Primera lectura de la versión 1, punto por punto</h2>
-      <p>Una lectura rápida de la versión 1 contra la guía, hecha antes de la auditoría completa. Orienta, pero la vara es la tabla de verdad.
-        Todavía no cambia nada del curso: los cambios se acuerdan con Natalia y se anotan en la bitácora.</p></div>
+    <div class="sec-cab"><div><h2>La guía punto por punto, con el resultado de la comparación</h2>
+      <p>Los 17 puntos de la guía, resumidos desde la tabla de verdad, que es la que manda.
+        Moodle todavía no se corrige: los cambios se acuerdan con Natalia y se anotan en la bitácora.</p></div>
       <a class="btn" href="#documentos/${h(g.doc)}">Registro de la guía</a></div>
     <div class="card pad estado-p">${E.fase2.slice(1).filter(p => !/Auditoría completa/.test(p)).map(p => `<p>${p}</p>`).join('')}</div>
     ${seg('guiaEstado', [['todos', `Todos (${g.puntos.length})`], ...ESTADOS_GUIA.map(e => [e, `${e} (${n(e)})`])])}
@@ -170,7 +170,7 @@ function guiaCuerpo() {
   return ps.map(p => `<article class="card pad punto">
       <div class="fila"><span class="mono muted">Sección ${h(p.seccion)}</span><span class="est ${claseGuia(p.estado)}">${h(p.estado)}</span></div>
       <h3>${h(p.punto)}</h3>
-      <dl><div><dt>Qué pide la guía</dt><dd>${p.pide}</dd></div><div><dt>Hoy en el curso</dt><dd>${p.hoy}</dd></div><div><dt>Primera lectura</dt><dd>${p.lectura}</dd></div></dl>
+      <dl><div><dt>Qué pide la guía</dt><dd>${p.pide}</dd></div><div><dt>Hoy en el curso</dt><dd>${p.hoy}</dd></div><div><dt>Resultado de la comparación</dt><dd>${p.lectura}</dd></div></dl>
     </article>`).join('') || `<p class="vacio-txt">Ningún punto con ese estado.</p>`;
 }
 
